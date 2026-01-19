@@ -130,8 +130,7 @@ export default function Home() {
         opacity: 0.6,
         paddingBottom: '1rem'
       }}>
-        Build ID: 20260119-TESTE (v2.2)
-      </div>
+Build ID: v2.2      </div>
     </AppLayout>
   );
 }
