@@ -1,0 +1,422 @@
+[
+    {
+        "id": "m4-pdf-81",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Financial Management",
+        "difficulty": "medium",
+        "text": "Using the 'Factor Method' (Markup Method), if the desired food cost percentage is 33%, what is the pricing factor?",
+        "options": [
+            "0.33",
+            "3.0",
+            "2.5",
+            "4.0"
+        ],
+        "correctIndex": 1,
+        "explanation": "Pricing Factor = 100 / Desired Food Cost %. 100 / 33 = 3.03 (approx 3.0).",
+        "tags": [
+            "foodservice",
+            "financial",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-82",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "Calculate the 'Prime Cost' of a buffet item given: Raw Food Cost = $2.00, Direct Labor Cost = $1.50.",
+        "options": [
+            "$3.50",
+            "$0.50",
+            "$5.00",
+            "$2.00"
+        ],
+        "correctIndex": 0,
+        "explanation": "Prime Cost = Raw Food Cost + Direct Labor Cost. $2.00 + $1.50 = $3.50.",
+        "tags": [
+            "foodservice",
+            "financial",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-83",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "Which 'loss leader' pricing strategy involves:",
+        "options": [
+            "Selling an item at or below cost to attract customers who will then buy other profitable items",
+            "Raising prices on popular items",
+            "Ignoring food cost completely",
+            "Charging for water"
+        ],
+        "correctIndex": 0,
+        "explanation": "A loss leader is sold at a loss to stimulate other profitable sales (e.g., cheap turkeys at Thanksgiving to sell the rest of the groceries).",
+        "tags": [
+            "foodservice",
+            "menu",
+            "pricing"
+        ]
+    },
+    {
+        "id": "m4-pdf-84",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety",
+        "difficulty": "medium",
+        "text": "Potentially Hazardous Foods (PHF) or TCS (Time/Temperature Control for Safety) foods include all of the following EXCEPT:",
+        "options": [
+            "Cooked rice",
+            "Cut melons",
+            "Dried pasta",
+            "Baked potatoes"
+        ],
+        "correctIndex": 2,
+        "explanation": "Dried pasta is shelf-stable (low water activity). Cooked rice, cut melons, and baked potatoes are all moist, neutral-to-slightly acidic foods that support rapid bacterial growth (TCS foods).",
+        "tags": [
+            "foodservice",
+            "safety",
+            "tcs"
+        ]
+    },
+    {
+        "id": "m4-pdf-85",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "medium",
+        "text": "A 'Perpetual Inventory' system:",
+        "options": [
+            "Requires counting every item once a month",
+            "Tracks the running balance of inventory on hand (additions and subtractions are recorded immediately)",
+            "Is strictly visual",
+            "Is illegal in hospitals"
+        ],
+        "correctIndex": 1,
+        "explanation": "Perpetual inventory keeps a continuous record of stock levels (items in/out). Physical inventory is the actual periodic count used to verify it.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "inventory"
+        ]
+    },
+    {
+        "id": "m4-pdf-86",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "If Net Profit is $5,000, Cost of Goods Sold is $20,000, and Total Revenue is $50,000, what is the Net Profit Margin?",
+        "options": [
+            "40%",
+            "25%",
+            "10%",
+            "50%"
+        ],
+        "correctIndex": 2,
+        "explanation": "Net Profit Margin = (Net Profit / Total Revenue) * 100. $5,000 / $50,000 = 0.10 or 10%.",
+        "tags": [
+            "foodservice",
+            "financial",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-87",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "Which type of cafe service is often found in business dining where customers pay for items by weight (e.g., salad bar)?",
+        "options": [
+            "Buffet style",
+            "Vending",
+            "Scatter system",
+            "Pay-by-weight / Self-service"
+        ],
+        "correctIndex": 3,
+        "explanation": "Self-service pay-by-weight systems are common in corporate dining to speed up service and control portion costs.",
+        "tags": [
+            "foodservice",
+            "distribution",
+            "service"
+        ]
+    },
+    {
+        "id": "m4-pdf-88",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "A 'Combi-Oven' combines which two cooking technologies?",
+        "options": [
+            "Microwave and Toaster",
+            "Convection (hot air) and Steam",
+            "Fryer and Grill",
+            "Boiler and Broiler"
+        ],
+        "correctIndex": 1,
+        "explanation": "Combi-ovens use both convection heat (dry) and steam (moist). They can roast, steam, or do both simultaneously to keep food moist while browning.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "ovens"
+        ]
+    },
+    {
+        "id": "m4-pdf-89",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Facility Planning",
+        "difficulty": "medium",
+        "text": "The HVAC system in a kitchen is responsible for:",
+        "options": [
+            "Cooking the food",
+            "Heating, Ventilation, and Air Conditioning (controlling temperature, humidity, and odors)",
+            "Lighting the workspace",
+            "Plumbing"
+        ],
+        "correctIndex": 1,
+        "explanation": "HVAC stands for Heating, Ventilation, and Air Conditioning. It controls environmental comfort and removes grease/vapors/odors.",
+        "tags": [
+            "foodservice",
+            "facility",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-90",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sanitation",
+        "difficulty": "hard",
+        "text": "What is the minimum internal temperature for cooking poultry (chicken, turkey, duck)?",
+        "options": [
+            "145°F",
+            "155°F",
+            "165°F",
+            "180°F"
+        ],
+        "correctIndex": 2,
+        "explanation": "Poultry must be cooked to a minimum internal temperature of 165°F (74°C) for 15 seconds (instantaneous) to kill Salmonella and Campylobacter.",
+        "tags": [
+            "foodservice",
+            "sanitation",
+            "temperatures"
+        ]
+    },
+    {
+        "id": "m4-pdf-91",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sanitation",
+        "difficulty": "hard",
+        "text": "What is the minimum internal temperature for cooking ground meat (beef, pork)?",
+        "options": [
+            "145°F",
+            "155°F",
+            "165°F",
+            "135°F"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ground meats must be cooked to 155°F (68°C) because bacteria on the surface are ground into the center.",
+        "tags": [
+            "foodservice",
+            "sanitation",
+            "temperatures"
+        ]
+    },
+    {
+        "id": "m4-pdf-92",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Management",
+        "difficulty": "medium",
+        "text": "Which management theory emphasizes that there is no 'one best way' to manage, and decisions depend on the specific situation?",
+        "options": [
+            "Scientific Management",
+            "Contingency (Situational) Approach",
+            "Bureaucratic Management",
+            "Systems Theory"
+        ],
+        "correctIndex": 1,
+        "explanation": "Contingency (or Situational) Theory states that the best management action is contingent on the internal and external situation.",
+        "tags": [
+            "foodservice",
+            "management",
+            "theories"
+        ]
+    },
+    {
+        "id": "m4-pdf-93",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "The 'Operating Ratio' is calculated as:",
+        "options": [
+            "Expenses / Sales",
+            "Sales / Expenses",
+            "Profit / Sales",
+            "Assets / Liabilities"
+        ],
+        "correctIndex": 0,
+        "explanation": "Operating Ratio = Operating Expenses / Revenue (Sales). If it's < 100%, the business is profitable. If > 100%, it's losing money.",
+        "tags": [
+            "foodservice",
+            "financial",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-94",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sanitation",
+        "difficulty": "medium",
+        "text": "Cross-connection in plumbing is dangerous because it can lead to:",
+        "options": [
+            "Low water pressure",
+            "Backflow (backsiphonage) of contaminated water into the potable water supply",
+            "Leaking pipes",
+            "High water bills"
+        ],
+        "correctIndex": 1,
+        "explanation": "A cross-connection is a physical link between safe water and dirty water (e.g., a hose in a mop bucket). Backflow can suck contaminants into the drinking water.",
+        "tags": [
+            "foodservice",
+            "sanitation",
+            "plumbing"
+        ]
+    },
+    {
+        "id": "m4-pdf-95",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sustainability",
+        "difficulty": "medium",
+        "text": "A 'Carbon Footprint' measures:",
+        "options": [
+            "The amount of soot on the floor",
+            "The total greenhouse gas emissions caused by an organization, event, product, or person",
+            "The size of the kitchen",
+            "Coal usage"
+        ],
+        "correctIndex": 1,
+        "explanation": "Carbon footprint is the total amount of greenhouse gases (mainly CO2) produced to directly and indirectly support human activities.",
+        "tags": [
+            "foodservice",
+            "sustainability",
+            "environment"
+        ]
+    },
+    {
+        "id": "m4-pdf-96",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "medium",
+        "text": "The term 'Yield' refers to:",
+        "options": [
+            "The amount of product remaining after processing or cooking (Edible Portion)",
+            "The price of the food",
+            "The number of employees",
+            "The delivery time"
+        ],
+        "correctIndex": 0,
+        "explanation": "Yield is the usable amount of food remaining after processing (peeling, trimming, cooking). Typically expressed as a percentage.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "yield"
+        ]
+    },
+    {
+        "id": "m4-pdf-97",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "Preventive Maintenance is:",
+        "options": [
+            "Fixing equipment only when it breaks",
+            "Regular, scheduled service to keep equipment running efficiently and prevent breakdowns",
+            "Buying new equipment every year",
+            "Ignoring manufacturer instructions"
+        ],
+        "correctIndex": 1,
+        "explanation": "Preventive maintenance involves scheduled inspections and servicing (cleaning filters, lubricating parts) to extend equipment life and avoid costly downtime.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "maintenance"
+        ]
+    },
+    {
+        "id": "m4-pdf-98",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "Which is a 'Demographic' factor affecting menu planning?",
+        "options": [
+            "Kitchen layout",
+            "Age, gender, and income level of the target market",
+            "Food availability",
+            "Equipment capacity"
+        ],
+        "correctIndex": 1,
+        "explanation": "Demographics describe the population characteristics (age, gender, income, education) which heavily influence food preferences and spending power.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "marketing"
+        ]
+    },
+    {
+        "id": "m4-pdf-99",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety",
+        "difficulty": "medium",
+        "text": "The MSDS (now called SDS - Safety Data Sheet) must be available for:",
+        "options": [
+            "All recipes",
+            "All hazardous chemicals used in the facility",
+            "All food products",
+            "All equipment"
+        ],
+        "correctIndex": 1,
+        "explanation": "OSHA requires an SDS for every hazardous chemical, detailing hazards, handling, and first aid measures.",
+        "tags": [
+            "foodservice",
+            "safety",
+            "chemicals"
+        ]
+    },
+    {
+        "id": "m4-pdf-100",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "If Opening Inventory = $10,000, Purchases = $30,000, and Closing Inventory = $8,000, what is the Cost of Goods Sold (COGS)?",
+        "options": [
+            "$32,000",
+            "$38,000",
+            "$40,000",
+            "$28,000"
+        ],
+        "correctIndex": 0,
+        "explanation": "COGS = Opening Inventory + Purchases - Closing Inventory. $10,000 + $30,000 - $8,000 = $32,000.",
+        "tags": [
+            "foodservice",
+            "financial",
+            "calculations"
+        ]
+    }
+]

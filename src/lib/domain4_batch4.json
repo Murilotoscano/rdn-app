@@ -1,0 +1,422 @@
+[
+    {
+        "id": "m4-pdf-61",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety",
+        "difficulty": "medium",
+        "text": "Which Class of fire extinguisher is designated for grease, oil, and flammable liquid fires, commonly found in commercial kitchens?",
+        "options": [
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class K"
+        ],
+        "correctIndex": 1,
+        "explanation": "Class B extinguishers are for flammable liquids like grease and oil. (However, Class K is specifically for commercial cooking appliances with vegetable oils - but B is the traditional classification for liquids. In modern kitchens, Class K is often the standard for fryers).",
+        "tags": [
+            "foodservice",
+            "safety",
+            "fire"
+        ]
+    },
+    {
+        "id": "m4-pdf-62",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sanitation",
+        "difficulty": "medium",
+        "text": "OSHA's 'Bloodborne Pathogens Standard' requires employers to:",
+        "options": [
+            "Provide all employees with free lunch",
+            "Develop an exposure control plan and provide Hepatitis B vaccinations to at-risk employees",
+            "Test all food for blood contamination",
+            "Hire a full-time nurse"
+        ],
+        "correctIndex": 1,
+        "explanation": "OSHA requires specific protections for employees who may be exposed to blood or bodily fluids (e.g., first aid responders), including offering Hep B vaccines.",
+        "tags": [
+            "foodservice",
+            "safety",
+            "osha"
+        ]
+    },
+    {
+        "id": "m4-pdf-63",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sustainability",
+        "difficulty": "medium",
+        "text": "What does LEED certification stand for in facility planning?",
+        "options": [
+            "Leadership in Energy and Environmental Design",
+            "Legal Environmental and Energy Development",
+            "Low Energy Equipment Design",
+            "Licensed Engineering and Environmental Department"
+        ],
+        "correctIndex": 0,
+        "explanation": "LEED (Leadership in Energy and Environmental Design) is the most widely used green building rating system in the world.",
+        "tags": [
+            "foodservice",
+            "sustainability",
+            "leed"
+        ]
+    },
+    {
+        "id": "m4-pdf-64",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "Calculate the Food Cost Percentage if the cost of food sold is $15,000 and total food sales are $45,000.",
+        "options": [
+            "30%",
+            "33.3%",
+            "25%",
+            "45%"
+        ],
+        "correctIndex": 1,
+        "explanation": "Food Cost % = (Cost of Food Sold / Total Food Sales) * 100. $15,000 / $45,000 = 0.3333... or 33.3%.",
+        "tags": [
+            "foodservice",
+            "financial",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-65",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sustainability",
+        "difficulty": "medium",
+        "text": "Example of 'pre-consumer' food waste reduction includes:",
+        "options": [
+            "Composting leftovers from patients' plates",
+            "Donating unserved prepared food to a shelter",
+            "Using vegetable trimmings to make soup stock",
+            "Feeding pigs with table scraps"
+        ],
+        "correctIndex": 2,
+        "explanation": "Pre-consumer waste is generated during preparation (trimmings, peels). Using these for stock reduces waste before food even reaches the consumer.",
+        "tags": [
+            "foodservice",
+            "sustainability",
+            "waste"
+        ]
+    },
+    {
+        "id": "m4-pdf-66",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "Energy Star ratings for appliances indicate:",
+        "options": [
+            "The appliance is made in the USA",
+            "The appliance meets strict energy efficiency guidelines set by the EPA",
+            "The appliance is 100% recyclable",
+            "The appliance uses gas only"
+        ],
+        "correctIndex": 1,
+        "explanation": "Energy Star is a government-backed symbol for energy efficiency, helping save money and protect the environment.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "energy"
+        ]
+    },
+    {
+        "id": "m4-pdf-67",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "If the Inventory Turnover rate is 3 times per month, this suggests that:",
+        "options": [
+            "Food is sitting on the shelves for too long",
+            "Inventory levels are likely appropriate (replaced about every 10 days)",
+            "The kitchen is running out of food constantly",
+            "Someone is stealing food"
+        ],
+        "correctIndex": 1,
+        "explanation": "A turnover rate of 2-4 times a month is generally considered good. It means inventory is being used and replaced regularly, balancing freshness with stock availability.",
+        "tags": [
+            "foodservice",
+            "financial",
+            "inventory"
+        ]
+    },
+    {
+        "id": "m4-pdf-68",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety",
+        "difficulty": "medium",
+        "text": "The 'Right-to-Know' law refers to:",
+        "options": [
+            "Employees' right to know the salary of their managers",
+            "Employees' right to know about hazardous chemicals they may be exposed to (SDS)",
+            "Customers' right to know the calorie count",
+            "Suppliers' right to know who else is bidding"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Hazard Communication Standard (Right-to-Know) requires employers to inform employees about chemical hazards and provide Safety Data Sheets (SDS).",
+        "tags": [
+            "foodservice",
+            "safety",
+            "osha"
+        ]
+    },
+    {
+        "id": "m4-pdf-69",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "In menu planning, 'sustainability' might influence choices by prioritizing:",
+        "options": [
+            "Imported exotic fruits",
+            "Locally grown, seasonal produce",
+            "Individually packaged processed foods",
+            "Disposable serving ware"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sustainable menu planning emphasizes local sourcing to reduce carbon footprint and using seasonal ingredients.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "sustainability"
+        ]
+    },
+    {
+        "id": "m4-pdf-70",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "Calculate the Break-Even Point (BEP) in sales dollars if Fixed Costs are $50,000 and the Variable Cost percentage is 60%.",
+        "options": [
+            "$83,333",
+            "$125,000",
+            "$30,000",
+            "$50,000"
+        ],
+        "correctIndex": 1,
+        "explanation": "BEP (Sales) = Fixed Costs / (1 - Variable Cost %). $50,000 / (1 - 0.60) = $50,000 / 0.40 = $125,000.",
+        "tags": [
+            "foodservice",
+            "financial",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-71",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sanitation",
+        "difficulty": "hard",
+        "text": "Which agency is responsible for inspecting meat, poultry, and eggs in the US?",
+        "options": [
+            "FDA",
+            "CDC",
+            "USDA (FSIS)",
+            "EPA"
+        ],
+        "correctIndex": 2,
+        "explanation": "The USDA Food Safety and Inspection Service (FSIS) is responsible for the safety of meat, poultry, and processed egg products. The FDA handles most other foods.",
+        "tags": [
+            "foodservice",
+            "sanitation",
+            "agencies"
+        ]
+    },
+    {
+        "id": "m4-pdf-72",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "A 'Blast Chiller' is essential equipment for which foodservice system?",
+        "options": [
+            "Assembly-Serve",
+            "Conventional (Cook-Serve)",
+            "Ready-Prepared (Cook-Chill)",
+            "Vending"
+        ],
+        "correctIndex": 2,
+        "explanation": "Blast chillers are designed to rapidly cool food through the danger zone, a critical step in Cook-Chill systems.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "safety"
+        ]
+    },
+    {
+        "id": "m4-pdf-73",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Facility Planning",
+        "difficulty": "medium",
+        "text": "The Americans with Disabilities Act (ADA) requires aisles in public dining areas to be at least:",
+        "options": [
+            "20 inches wide",
+            "36 inches wide",
+            "48 inches wide",
+            "60 inches wide"
+        ],
+        "correctIndex": 1,
+        "explanation": "ADA standards generally require a clear width of at least 36 inches for accessible routes (like aisles) to accommodate wheelchairs.",
+        "tags": [
+            "foodservice",
+            "facility",
+            "ada"
+        ]
+    },
+    {
+        "id": "m4-pdf-74",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Financial Management",
+        "difficulty": "medium",
+        "text": "A 'Cash Cow' in the BCG Matrix (often adapted to menu engineering) refers to:",
+        "options": [
+            "An item with high market share but low growth (reliable income)",
+            "A new experimental item",
+            "A loss leader",
+            "A seasonal special"
+        ],
+        "correctIndex": 0,
+        "explanation": "In business matrixes, a Cash Cow is a mature product (or menu item) that brings in steady cash flow with little investment needed (similar to a 'Star' but often with lower growth potential, or just steady high volume).",
+        "tags": [
+            "foodservice",
+            "financial",
+            "management"
+        ]
+    },
+    {
+        "id": "m4-pdf-75",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "Which metal is the best conductor of heat?",
+        "options": [
+            "Stainless steel",
+            "Aluminum",
+            "Copper",
+            "Cast Iron"
+        ],
+        "correctIndex": 2,
+        "explanation": "Copper is the best heat conductor among common cookware metals, followed by aluminum. Stainless steel is a poor conductor (which is why it often has a copper/aluminum core).",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "materials"
+        ]
+    },
+    {
+        "id": "m4-pdf-76",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sustainability",
+        "difficulty": "medium",
+        "text": "Using 'Grey Water' refers to:",
+        "options": [
+            "Dirty dishwater",
+            "Recycled water from sinks/showers (not toilets) used for landscape irrigation",
+            "Sewage water",
+            "Rainwater harvesting"
+        ],
+        "correctIndex": 1,
+        "explanation": "Grey water is wastewater from non-toilet plumbing systems (sinks, washing machines) that can be treated and reused for purposes like irrigation to conserve potable water.",
+        "tags": [
+            "foodservice",
+            "sustainability",
+            "water"
+        ]
+    },
+    {
+        "id": "m4-pdf-77",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety",
+        "difficulty": "hard",
+        "text": "Which class of fire involves ordinary combustibles like wood, paper, and cloth?",
+        "options": [
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class D"
+        ],
+        "correctIndex": 0,
+        "explanation": "Class A fires involve ordinary combustibles (Ash). Class B = Liquids (Barrel). Class C = Electrical (Current).",
+        "tags": [
+            "foodservice",
+            "safety",
+            "fire"
+        ]
+    },
+    {
+        "id": "m4-pdf-78",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "medium",
+        "text": "A 'GPO' (Group Purchasing Organization) helps foodservice operations by:",
+        "options": [
+            "Providing free equipment",
+            "Combining purchasing volume of many members to negotiate lower prices",
+            "Doing all the cooking",
+            "Managing the employees"
+        ],
+        "correctIndex": 1,
+        "explanation": "GPOs leverage the collective buying power of many smaller organizations to secure discounts typically only available to very large buyers.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "contracts"
+        ]
+    },
+    {
+        "id": "m4-pdf-79",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "Which is an example of a 'Mise en place' task?",
+        "options": [
+            "Evaluating the menu after service",
+            "Cleaning the floors at night",
+            "Pre-measuring ingredients and chopping vegetables before cooking begins",
+            "Ordering food for next week"
+        ],
+        "correctIndex": 2,
+        "explanation": "Mise en place ('put in place') refers to organizing and arranging the ingredients and tools needed for cooking before the actual cooking starts.",
+        "tags": [
+            "foodservice",
+            "production",
+            "culinary"
+        ]
+    },
+    {
+        "id": "m4-pdf-80",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "If a foodservice operation has a Daily Food Cost of $500 and serves 200 meals, what is the Food Cost Per Meal?",
+        "options": [
+            "$2.00",
+            "$3.50",
+            "$2.50",
+            "$0.40"
+        ],
+        "correctIndex": 2,
+        "explanation": "$500 / 200 meals = $2.50 per meal.",
+        "tags": [
+            "foodservice",
+            "financial",
+            "calculations"
+        ]
+    }
+]

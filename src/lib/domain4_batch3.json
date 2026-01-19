@@ -1,0 +1,422 @@
+[
+    {
+        "id": "m4-pdf-41",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "Which type of dishwasher is most efficient for high-volume operations (e.g., 1,000+ racks per day) such as large hospitals or universities?",
+        "options": [
+            "Door-type (Single tank)",
+            "Undercounter",
+            "Flight-type continuous conveyor",
+            "Pot and pan washer"
+        ],
+        "correctIndex": 2,
+        "explanation": "Flight-type continuous conveyor dishwashers are designed for very high volume, capable of handling thousands of racks per day with continuous loading.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "dishwashers"
+        ]
+    },
+    {
+        "id": "m4-pdf-42",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "hard",
+        "text": "For a 3-compartment sink used for manual warewashing, what are the correct steps in order?",
+        "options": [
+            "Rinse, Wash, Sanitize, Air Dry",
+            "Wash, Rinse, Sanitize, Air Dry",
+            "Scrape, Wash, Rinse, Sanitize, Air Dry",
+            "Wash, Sanitize, Rinse, Towel Dry"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct manual warewashing procedure is: Scrape food soil, Wash (1st sink), Rinse (2nd sink), Sanitize (3rd sink), and Air Dry.",
+        "tags": [
+            "foodservice",
+            "sanitation",
+            "procedures"
+        ]
+    },
+    {
+        "id": "m4-pdf-43",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "Which oven type uses forced air circulation to cook food more evenly and faster (approx. 25-30% less time) than a standard oven?",
+        "options": [
+            "Deck oven",
+            "Convection oven",
+            "Microwave oven",
+            "Rotisserie"
+        ],
+        "correctIndex": 1,
+        "explanation": "Convection ovens use fans to circulate hot air, reducing the cold air boundary layer around food, which speeds up cooking and promotes even browning.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "ovens"
+        ]
+    },
+    {
+        "id": "m4-pdf-44",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Facility Planning",
+        "difficulty": "medium",
+        "text": "The most appropriate flooring material for a commercial kitchen food preparation area is:",
+        "options": [
+            "Carpet",
+            "Quarry tile",
+            "Hardwood",
+            "Vinyl composition tile"
+        ],
+        "correctIndex": 1,
+        "explanation": "Quarry tile (unglazed red clay tile) or similar non-porous ceramic tile is the industry standard for kitchens because it is durable, non-absorbent, and slip-resistant.",
+        "tags": [
+            "foodservice",
+            "facility",
+            "flooring"
+        ]
+    },
+    {
+        "id": "m4-pdf-45",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "hard",
+        "text": "Stainless steel gauge refers to thickness. Which gauge is thicker and more durable, typically used for heavy-duty worktables?",
+        "options": [
+            "14 gauge",
+            "18 gauge",
+            "20 gauge",
+            "22 gauge"
+        ],
+        "correctIndex": 0,
+        "explanation": "Gauge measures thickness inversely; the lower the number, the thicker the metal. 14 gauge is very thick/durable. 18-20 gauge is thinner/lighter duty.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "materials"
+        ]
+    },
+    {
+        "id": "m4-pdf-46",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "A 'Tilting Skillet' (or Braising Pan) is considered one of the most versatile pieces of equipment because it can used to:",
+        "options": [
+            "Deep fry only",
+            "Fry, braise, grill, boil, and steam",
+            "Bake cakes only",
+            "Wash dishes"
+        ],
+        "correctIndex": 1,
+        "explanation": "Tilting skillets are incredibly versatile and can be used as a fry pan, braising pan, griddle, kettle, steamer, and food warmer/server.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "versatility"
+        ]
+    },
+    {
+        "id": "m4-pdf-47",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sanitation",
+        "difficulty": "medium",
+        "text": "The danger zone for bacterial growth in food is defined as:",
+        "options": [
+            "32°F to 100°F",
+            "41°F to 135°F",
+            "0°F to 32°F",
+            "140°F to 212°F"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Temperature Danger Zone (TDZ) is 41°F to 135°F (some codes say 40-140, but 41-135 is the current Model Food Code standard). Pathogens grow most rapidly here.",
+        "tags": [
+            "foodservice",
+            "sanitation",
+            "safety"
+        ]
+    },
+    {
+        "id": "m4-pdf-48",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "A 'Steam-Jacketed Kettle' cooks food by:",
+        "options": [
+            "Weighing it down with a heavy lid",
+            "Direct contact with a flame",
+            "Circulating steam in a jacket (space) between the inner and outer walls of the kettle",
+            "Microwave radiation"
+        ],
+        "correctIndex": 2,
+        "explanation": "Steam-jacketed kettles have two walls (bowl within a bowl) with steam circulating between them, providing even, gentle heating without scorching contact.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "cooking"
+        ]
+    },
+    {
+        "id": "m4-pdf-49",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Facility Planning",
+        "difficulty": "medium",
+        "text": "In facility planning, 'Ergonomics' refers to:",
+        "options": [
+            "The cost of equipment",
+            "Designing work areas and equipment to fit the human body and movements to minimize fatigue and injury",
+            "The flow of food from receiving to service",
+            "Energy efficiency"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ergonomics is the applied science of equipment design intended to reduce operator fatigue and discomfort (e.g., table height, comfortable mats).",
+        "tags": [
+            "foodservice",
+            "facility",
+            "ergonomics"
+        ]
+    },
+    {
+        "id": "m4-pdf-50",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sanitation",
+        "difficulty": "hard",
+        "text": "Chemical sanitizing in a low-temperature dishwasher usually uses Chlorine. The appropriate concentration for chlorine sanitizer is:",
+        "options": [
+            "10-25 ppm",
+            "50-99 ppm",
+            "200-400 ppm",
+            "12.5-25 ppm"
+        ],
+        "correctIndex": 1,
+        "explanation": "Chlorine sanitizer concentration should typically be between 50 and 99 ppm for effective sanitization in immersion or spray applications (check specific manufacturer/code).",
+        "tags": [
+            "foodservice",
+            "sanitation",
+            "chemicals"
+        ]
+    },
+    {
+        "id": "m4-pdf-51",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "Which certification mark indicates that equipment meets sanitation standards for design and construction (easy to clean, durable)?",
+        "options": [
+            "UL (Underwriters Laboratories)",
+            "NSF (National Sanitation Foundation)",
+            "AGA (American Gas Association)",
+            "OSHA"
+        ],
+        "correctIndex": 1,
+        "explanation": "The NSF (National Sanitation Foundation) mark ensures equipment is designed for sanitation (e.g., rounded corners, non-porous materials, easy to clean).",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "standards"
+        ]
+    },
+    {
+        "id": "m4-pdf-52",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Facility Planning",
+        "difficulty": "medium",
+        "text": "The main aisle in a kitchen should be at least how wide to allow for two-way traffic or carts?",
+        "options": [
+            "3 feet",
+            "4 feet",
+            "5 feet (60 inches)",
+            "2 feet"
+        ],
+        "correctIndex": 2,
+        "explanation": "Main traffic aisles usually need to be at least 5 feet (60 inches) wide to accommodate two-way traffic with carts. Work aisles are typically 36-42 inches.",
+        "tags": [
+            "foodservice",
+            "facility",
+            "layout"
+        ]
+    },
+    {
+        "id": "m4-pdf-53",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "A 'Deck Oven' is typically used for:",
+        "options": [
+            "Steaming vegetables",
+            "Deep frying",
+            "Baking pizzas or breads directly on the hearth/deck",
+            "Making soup"
+        ],
+        "correctIndex": 2,
+        "explanation": "Deck ovens have heated surfaces (decks) where food like pizza or hearth breads are placed directly to develop a crust.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "ovens"
+        ]
+    },
+    {
+        "id": "m4-pdf-54",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sanitation",
+        "difficulty": "hard",
+        "text": "HACCP stands for:",
+        "options": [
+            "Hazard Analysis Critical Control Point",
+            "Health And Care Control Protocol",
+            "Hazard Assessment for Cooking and Cleaning Procedures",
+            "High Acidity Control Critical Point"
+        ],
+        "correctIndex": 0,
+        "explanation": "HACCP (Hazard Analysis Critical Control Point) is a systematic preventive approach to food safety that addresses physical, chemical, and biological hazards.",
+        "tags": [
+            "foodservice",
+            "sanitation",
+            "haccp"
+        ]
+    },
+    {
+        "id": "m4-pdf-55",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "Gas equipment power is measured in:",
+        "options": [
+            "Volts",
+            "Amps",
+            "BTU (British Thermal Units)",
+            "Horsepower"
+        ],
+        "correctIndex": 2,
+        "explanation": "Gas appliances are rated in BTUs (British Thermal Units), which measures heat energy. Electric appliances are rated in Volts/Amps/Kilowatts.",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "energy"
+        ]
+    },
+    {
+        "id": "m4-pdf-56",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "Which piece of equipment is designed specifically for frying foods submerged in oil?",
+        "options": [
+            "Griddle",
+            "Deep Fat Fryer",
+            "Salamander",
+            "Bain-marie"
+        ],
+        "correctIndex": 1,
+        "explanation": "A Deep Fat Fryer is designed to submerge food in hot oil. (A Salamander is a broiler; a Bain-marie is a hot water bath).",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "frying"
+        ]
+    },
+    {
+        "id": "m4-pdf-57",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Facility Planning",
+        "difficulty": "medium",
+        "text": "Foot-candles are a measurement of:",
+        "options": [
+            "Floor slipperiness",
+            "Light intensity",
+            "Sound levels",
+            "Heat output"
+        ],
+        "correctIndex": 1,
+        "explanation": "Foot-candles measure light intensity (illuminance). Food prep areas need higher foot-candles (e.g., 50+) than storage areas (e.g., 10-20).",
+        "tags": [
+            "foodservice",
+            "facility",
+            "lighting"
+        ]
+    },
+    {
+        "id": "m4-pdf-58",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "A 'Salamander' is a type of:",
+        "options": [
+            "Small broiler usually mounted above a range",
+            "Reptile",
+            "Dishwasher",
+            "Mixer"
+        ],
+        "correctIndex": 0,
+        "explanation": "A Salamander is a small, high-heat broiler used for browning, glazing, or melting cheese on top of dishes (au gratin).",
+        "tags": [
+            "foodservice",
+            "equipment",
+            "broilers"
+        ]
+    },
+    {
+        "id": "m4-pdf-59",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Sanitation",
+        "difficulty": "hard",
+        "text": "For hot water sanitizing in a manual warewashing sink, the water temperature must be at least:",
+        "options": [
+            "110°F",
+            "171°F",
+            "180°F",
+            "212°F"
+        ],
+        "correctIndex": 1,
+        "explanation": "FDA Food Code requires hot water sanitizing in a 3-compartment sink to be at least 171°F (77°C) for at least 30 seconds. (Mechanical dishwashers often require 180°F for final rinse).",
+        "tags": [
+            "foodservice",
+            "sanitation",
+            "temperatures"
+        ]
+    },
+    {
+        "id": "m4-pdf-60",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Facility Planning",
+        "difficulty": "medium",
+        "text": "A 'Flow Chart' in kitchen design helps to identify:",
+        "options": [
+            "Water drainage",
+            "Movement of food, people, and dishes to prevent cross-traffic and backtracking",
+            "Cash flow",
+            "Air flow only"
+        ],
+        "correctIndex": 1,
+        "explanation": "Flow charts analyze the traffic patterns of food, employees, and waste to design an efficient layout that minimizes backtracking and cross-traffic.",
+        "tags": [
+            "foodservice",
+            "facility",
+            "design"
+        ]
+    }
+]

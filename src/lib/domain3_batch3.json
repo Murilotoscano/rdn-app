@@ -1,0 +1,422 @@
+[
+    {
+        "id": "m3-pdf-21",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "In Systems Theory, 'Equifinality' refers to the concept that:",
+        "options": [
+            "All systems must have equal inputs to achieve equal outputs",
+            "Outputs may be achieved in a variety of ways, using different inputs or transformations",
+            "A system must be in a state of static equilibrium",
+            "Feedback loops are unnecessary for stability"
+        ],
+        "correctIndex": 1,
+        "explanation": "Equifinality means that the same or similar outputs (goals) can be achieved by using different inputs or different transformation processes.",
+        "tags": [
+            "management",
+            "systems_theory",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-22",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "hard",
+        "text": "Which of the following is considered an 'Input' in the Foodservice Systems Model?",
+        "options": [
+            "Employee satisfaction",
+            "Finished meals",
+            "Raw ingredients and labor minutes",
+            "Customer feedback"
+        ],
+        "correctIndex": 2,
+        "explanation": "Inputs are the resources used to create products/services. Examples include raw materials (ingredients), money, time, and personnel (labor). Meals and satisfaction are Outputs.",
+        "tags": [
+            "management",
+            "systems_theory",
+            "inputs"
+        ]
+    },
+    {
+        "id": "m3-pdf-23",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "The '4 Ps' of the Marketing Mix stand for:",
+        "options": [
+            "Product, Price, Planning, Promotion",
+            "People, Process, Product, Price",
+            "Product, Price, Place, Promotion",
+            "Plan, Produce, Price, Place"
+        ],
+        "correctIndex": 2,
+        "explanation": "The 4 Ps of Marketing are Product, Price, Place (Distribution), and Promotion.",
+        "tags": [
+            "management",
+            "marketing",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-24",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "hard",
+        "text": "In the VALS (Values and Lifestyles) framework, which group is characterized by high income, high self-esteem, abundant resources, and all three primary motivations (ideals, achievement, self-expression)?",
+        "options": [
+            "Thinkers",
+            "Innovators",
+            "Achievers",
+            "Survivors"
+        ],
+        "correctIndex": 1,
+        "explanation": "Innovators are successful, sophisticated, take-charge people with high self-esteem and abundant resources, exhibiting all three primary motivations.",
+        "tags": [
+            "management",
+            "marketing",
+            "consumer_behavior"
+        ]
+    },
+    {
+        "id": "m3-pdf-25",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "hard",
+        "text": "The LEARN model for culturally competent communication stands for:",
+        "options": [
+            "Listen, Explain, Acknowledge, Recommend, Negotiate",
+            "Learn, Engage, Ask, Review, Note",
+            "Listen, Evaluate, Assess, Review, Negotiate",
+            "Look, Explain, Ask, Respect, Nurture"
+        ],
+        "correctIndex": 0,
+        "explanation": "LEARN stands for: Listen to the patient's perception, Explain your perception, Acknowledge/discuss differences, Recommend treatment, Negotiate agreement.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-26",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "hard",
+        "text": "In the ETHNIC model of culturally competent care, what does the 'H' stand for?",
+        "options": [
+            "History",
+            "Health beliefs",
+            "Healers",
+            "Home remedies"
+        ],
+        "correctIndex": 2,
+        "explanation": "The ETHNIC model stands for Explanation, Treatment, Healers, Negotiation, Intervention, Collaboration. 'Healers' refers to asking about involvement of folk healers.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-27",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Strategic Planning differs from operational planning in that it primarily answers:",
+        "options": [
+            "How do we balance the daily budget?",
+            "Where are we now, where are we going, and how do we get there?",
+            "How many staff do we need for the next shift?",
+            "What is the menu for next week?"
+        ],
+        "correctIndex": 1,
+        "explanation": "Strategic planning is a continuous, systematic process to determine long-term goals ('Where are we going?') and the best approach to accomplish them.",
+        "tags": [
+            "management",
+            "planning",
+            "strategic"
+        ]
+    },
+    {
+        "id": "m3-pdf-28",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "Market segmentation based on 'Psychographics' groups consumers according to:",
+        "options": [
+            "Age, sex, and income",
+            "Physical location",
+            "Personality, interests, values, and beliefs",
+            "Purchase history and product usage"
+        ],
+        "correctIndex": 2,
+        "explanation": "Psychographic segmentation groups people based on psychological traits like lifestyle, personality, values, interests, and beliefs.",
+        "tags": [
+            "management",
+            "marketing",
+            "segmentation"
+        ]
+    },
+    {
+        "id": "m3-pdf-29",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "hard",
+        "text": "Which cultural competence model involves a 5-step process: Awareness, Knowledge, Skill, Encounter, and Desire?",
+        "options": [
+            "Campinha-Bacote Model",
+            "Purnell Model",
+            "GREET Model",
+            "BATHE Model"
+        ],
+        "correctIndex": 0,
+        "explanation": "The Campinha-Bacote Model describes the process of cultural competence as involving Cultural Awareness, Knowledge, Skill, Encounter, and Desire.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-30",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "In a systems approach, 'Feedback' encompasses:",
+        "options": [
+            "Only complaints from customers",
+            "Information from internal and external sources used to adjust operations and restore equilibrium",
+            "The finished products and services",
+            "The initial resources invested"
+        ],
+        "correctIndex": 1,
+        "explanation": "Feedback is information on how operations worked or failed, from internal (staff) or external (customers, inspectors) sources, used to modify the system.",
+        "tags": [
+            "management",
+            "systems_theory",
+            "feedback"
+        ]
+    },
+    {
+        "id": "m3-pdf-31",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "Which 'Marketing Era' focused primarily on mass production capabilities rather than customer wants?",
+        "options": [
+            "Sales Era",
+            "Marketing Era",
+            "Production Era",
+            "Technological Era"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Production Era was characterized by a focus on mass production and manufacturing efficiency, often assuming products would sell themselves.",
+        "tags": [
+            "management",
+            "marketing",
+            "history"
+        ]
+    },
+    {
+        "id": "m3-pdf-32",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "medium",
+        "text": "The GREET model is specifically useful when working with:",
+        "options": [
+            "Pediatric patients",
+            "Immigrant populations",
+            "Elderly patients in long-term care",
+            "Athletes"
+        ],
+        "correctIndex": 1,
+        "explanation": "The GREET model (Generation, Reason, Extended family, Ethnic behavior, Time in US) is designed to help understand immigrant populations.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-33",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "hard",
+        "text": "Permeability of boundaries in a system refers to:",
+        "options": [
+            "The system being closed off from the environment",
+            "The strict separation of departments",
+            "The ability of the system to interact with its environment and other subsystems",
+            "A security breach in the organization"
+        ],
+        "correctIndex": 2,
+        "explanation": "Permeability allows the system to interact with its environment. However, undefined or too permeable boundaries can lead to tension/overlap between subsystems.",
+        "tags": [
+            "management",
+            "systems_theory",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-34",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "medium",
+        "text": "Cultural Humility differs from Cultural Competence in that it emphasizes:",
+        "options": [
+            "Becoming an expert on all cultures",
+            "A lifelong commitment to self-evaluation and self-critique",
+            "Memorizing lists of cultural traits",
+            "Achieving a final state of competence"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cultural Humility is an ongoing process of self-reflection and self-critique, acknowledging that one cannot master another's culture, unlike the 'endpoint' implied by competence.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-35",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "hard",
+        "text": "Which VALS segment is motivated by 'Ideals' and consists of mature, satisfied, reflective people who value order and knowledge?",
+        "options": [
+            "Believers",
+            "Thinkers",
+            "Strivers",
+            "Makers"
+        ],
+        "correctIndex": 1,
+        "explanation": "Thinkers are motivated by ideals; they are mature, satisfied, comfortable, and reflective, valuing order, knowledge, and responsibility.",
+        "tags": [
+            "management",
+            "marketing",
+            "consumer_behavior"
+        ]
+    },
+    {
+        "id": "m3-pdf-36",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "medium",
+        "text": "The BATHE model focuses on the ____________ context of the patient's visit.",
+        "options": [
+            "Financial",
+            "Medical/Clinical",
+            "Psychosocial",
+            "Nutritional"
+        ],
+        "correctIndex": 2,
+        "explanation": "The BATHE Model (Background, Affect, Trouble, Handling, Empathy) is designed to address the psychosocial context of the patient's visit.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-37",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "In the context of Systems Theory, 'Transformation' is:",
+        "options": [
+            "The initial resources",
+            "The finished product",
+            "The work or action done to change inputs into outputs",
+            "The feedback received from customers"
+        ],
+        "correctIndex": 2,
+        "explanation": "Transformation (Operations) refers to the activities and work performed to change inputs into desired outputs.",
+        "tags": [
+            "management",
+            "systems_theory",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-38",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "Which element of the Marketing Mix is described as 'how the product is provided to the customer'?",
+        "options": [
+            "Product",
+            "Price",
+            "Place",
+            "Promotion"
+        ],
+        "correctIndex": 2,
+        "explanation": "Place (Distribution) refers to the channels and methods used to make the product available to the customer.",
+        "tags": [
+            "management",
+            "marketing",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-39",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "hard",
+        "text": "The Purnell Model of Cultural Competency is often visualized as:",
+        "options": [
+            "A ladder of steps",
+            "A pyramid of needs",
+            "Concentric circles of global society, community, family, and person",
+            "A flow chart of decision making"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Purnell Model represents cultural competence through concentric circles representing global society, community, family, and the person.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-40",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Strategic planning typically involves analyzing the organization in the context of:",
+        "options": [
+            "Internal staff conflicts only",
+            "Its environment (opportunities and threats)",
+            "Last month's sales data only",
+            "The daily menu cycle"
+        ],
+        "correctIndex": 1,
+        "explanation": "Strategic planning involves environmental analysis (like SWOT) to understand opportunities and threats outside the organization as well as internal strengths/weaknesses.",
+        "tags": [
+            "management",
+            "planning",
+            "strategic"
+        ]
+    }
+]

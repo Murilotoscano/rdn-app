@@ -1,0 +1,527 @@
+[
+    {
+        "id": "m3-pdf-61",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "According to Mintzberg's Management Roles, which role involves the manager acting as a 'figurehead', 'leader', or 'liaison'?",
+        "options": [
+            "Informational Role",
+            "Decisional Role",
+            "Interpersonal Role",
+            "Technical Role"
+        ],
+        "correctIndex": 2,
+        "explanation": "Interpersonal roles involve interactions with people and include being a figurehead, leader, and liaison. Informational roles involve processing data, and Decisional roles involve making choices.",
+        "tags": [
+            "management",
+            "leadership",
+            "Mintzberg"
+        ]
+    },
+    {
+        "id": "m3-pdf-62",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "hard",
+        "text": "A manager who believes that employees inherently dislike work and must be coerced or controlled to perform is operating under which motivational theory?",
+        "options": [
+            "Theory Y",
+            "Theory X",
+            "Ouchi's Theory Z",
+            "Herzberg's Two-Factor Theory"
+        ],
+        "correctIndex": 1,
+        "explanation": "Theory X (McGregor) assumes employees dislike work, are lazy, dislike responsibility, and must be coerced to perform. Theory Y assumes work is natural and employees seek responsibility.",
+        "tags": [
+            "management",
+            "motivation",
+            "theories"
+        ]
+    },
+    {
+        "id": "m3-pdf-63",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Which leadership style is most appropriate for a team with low readiness (unable and unwilling/insecure) according to Hersey-Blanchard's Situational Leadership Model?",
+        "options": [
+            "Delegating",
+            "Participating",
+            "Selling",
+            "Telling (Directing)"
+        ],
+        "correctIndex": 3,
+        "explanation": "For low readiness (R1), a Telling (Directing) style is needed—high task behavior, low relationship behavior—to provide specific instructions and close supervision.",
+        "tags": [
+            "management",
+            "leadership",
+            "situational"
+        ]
+    },
+    {
+        "id": "m3-pdf-64",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "Inventory Turnover Rate is calculated as:",
+        "options": [
+            "Total Sales / Average Inventory Cost",
+            "Cost of Goods Sold / Average Inventory Cost",
+            "Average Inventory Cost / Daily Food Cost",
+            "Total Assets / Total Liabilities"
+        ],
+        "correctIndex": 1,
+        "explanation": "Inventory Turnover Rate = Cost of Goods Sold / Average Inventory Cost. It measures how often the inventory is used up and replaced over a period.",
+        "tags": [
+            "management",
+            "finance",
+            "ratios"
+        ]
+    },
+    {
+        "id": "m3-pdf-65",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "A 'bona fide occupational qualification' (BFOQ) allows employers to:",
+        "options": [
+            "Hire based on race or color",
+            "Discriminate based on age or religion if reasonably necessary to the normal operation of that particular business",
+            "Pay women less than men for the same work",
+            "Avoid paying overtime"
+        ],
+        "correctIndex": 1,
+        "explanation": "A BFOQ is a quality or attribute that employers are allowed to consider when making decisions on the hiring and retention of employees—a quality that when considered in other contexts would constitute discrimination (e.g., hiring only female actors for a female role). Race is never a BFOQ.",
+        "tags": [
+            "management",
+            "HR",
+            "laws"
+        ]
+    },
+    {
+        "id": "m3-pdf-66",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "In Herzberg's Two-Factor Theory, which of the following is considered a 'Hygiene Factor' (maintenance factor) that prevents dissatisfaction but does not strictly motivate?",
+        "options": [
+            "Achievement",
+            "Recognition",
+            "Salary/Pay",
+            "Responsibility"
+        ],
+        "correctIndex": 2,
+        "explanation": "Hygiene factors (salary, working conditions, company policy) prevent dissatisfaction when present but do not motivate. Motivators (achievement, recognition, the work itself) create job satisfaction.",
+        "tags": [
+            "management",
+            "motivation",
+            "Herzberg"
+        ]
+    },
+    {
+        "id": "m3-pdf-67",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "medium",
+        "text": "Which financial ratio assesses the ability of an organization to meet its short-term debt obligations?",
+        "options": [
+            "Profit Margin",
+            "Return on Assets",
+            "Current Ratio",
+            "Inventory Turnover"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Current Ratio (Current Assets / Current Liabilities) measures the ability to pay short-term and long-term obligations.",
+        "tags": [
+            "management",
+            "finance",
+            "ratios"
+        ]
+    },
+    {
+        "id": "m3-pdf-68",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Sustainability",
+        "difficulty": "medium",
+        "text": "Which practice supports sustainability in foodservice management by reducing waste volume diverted to landfills?",
+        "options": [
+            "Using styrofoam disposables",
+            "Composting organic waste",
+            "Increasing single-serve packaging",
+            "Purchasing pre-washed vegetables"
+        ],
+        "correctIndex": 1,
+        "explanation": "Composting diverts organic waste from landfills, returning nutrients to the soil and reducing methane emissions.",
+        "tags": [
+            "management",
+            "sustainability",
+            "waste"
+        ]
+    },
+    {
+        "id": "m3-pdf-69",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "The 'Scalar Principle' in organization theory refers to:",
+        "options": [
+            "A clear and unbroken line of authority from the top to the bottom of the organization",
+            "Dividing work into specialized tasks",
+            "Limiting the number of subordinates a manager supervises",
+            "Grouping employees by function"
+        ],
+        "correctIndex": 0,
+        "explanation": "The Scalar Principle states that authority and responsibility flow in a clear, unbroken line from the highest to the lowest executive.",
+        "tags": [
+            "management",
+            "organization",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-70",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "Which act prohibits discrimination on the basis of disability in programs conducted by federal agencies, in programs receiving federal financial assistance, and in federal employment?",
+        "options": [
+            "Americans with Disabilities Act (ADA)",
+            "Rehabilitation Act of 1973",
+            "Civil Rights Act of 1964",
+            "Age Discrimination in Employment Act"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Rehabilitation Act of 1973 prohibits discrimination on the basis of disability in programs conducted by federal agencies and those receiving federal funds. The ADA (1990) broadened this to the private sector.",
+        "tags": [
+            "management",
+            "HR",
+            "laws"
+        ]
+    },
+    {
+        "id": "m3-pdf-71",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "In decision making, 'Satisficing' refers to:",
+        "options": [
+            "Selecting the absolute best optimal solution",
+            "Selecting the first alternative that meets the minimum criteria or is 'good enough'",
+            "Using a group consensus to decide",
+            "Delaying the decision until more data is available"
+        ],
+        "correctIndex": 1,
+        "explanation": "Satisficing means choosing an adequate solution that meets minimum requirements rather than spending time searching for the optimal solution.",
+        "tags": [
+            "management",
+            "decision_making",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-72",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "A high 'Food Cost Percentage' might indicate which of the following problems?",
+        "options": [
+            "Oversized portions or theft",
+            "Menu prices are too high",
+            "Efficient purchasing practices",
+            "High labor productivity"
+        ],
+        "correctIndex": 0,
+        "explanation": "A higher-than-expected food cost percentage often indicates waste, theft, over-portioning, or improper purchasing (paying too much).",
+        "tags": [
+            "management",
+            "finance",
+            "controls"
+        ]
+    },
+    {
+        "id": "m3-pdf-73",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Which leadership style involves the leader asking for input from the team but making the final decision themselves?",
+        "options": [
+            "Autocratic",
+            "Laissez-faire",
+            "Participative (Consultative)",
+            "Bureaucratic"
+        ],
+        "correctIndex": 2,
+        "explanation": "Participative or Consultative leadership involves seeking input from employees before making a decision, though the leader retains final authority.",
+        "tags": [
+            "management",
+            "leadership",
+            "styles"
+        ]
+    },
+    {
+        "id": "m3-pdf-74",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "The 'Family and Medical Leave Act' (FMLA) guarantees eligible employees:",
+        "options": [
+            "12 weeks of paid leave per year",
+            "12 weeks of unpaid, job-protected leave per year for specific family/medical reasons",
+            "Unlimited sick days",
+            "6 months of maternity leave"
+        ],
+        "correctIndex": 1,
+        "explanation": "FMLA provides up to 12 workweeks of unpaid, job-protected leave a year and requires group health benefits to be maintained during the leave.",
+        "tags": [
+            "management",
+            "HR",
+            "laws"
+        ]
+    },
+    {
+        "id": "m3-pdf-75",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Sustainability",
+        "difficulty": "medium",
+        "text": "LEED certification (Leadership in Energy and Environmental Design) relates to:",
+        "options": [
+            "Food safety standards",
+            "Green building design and operation",
+            "Employee wellness programs",
+            "Organic food certification"
+        ],
+        "correctIndex": 1,
+        "explanation": "LEED is the most widely used green building rating system in the world, certifying buildings that are resource-efficient and healthy.",
+        "tags": [
+            "management",
+            "sustainability",
+            "facilities"
+        ]
+    },
+    {
+        "id": "m3-pdf-76",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Which management skill is defined as the ability to work effectively as a group member and build cooperative effort within the team?",
+        "options": [
+            "Technical skill",
+            "Human/Interpersonal skill",
+            "Conceptual skill",
+            "Hard skill"
+        ],
+        "correctIndex": 1,
+        "explanation": "Human (or interpersonal) skill is the ability to work well with others, understand them, and motivate them, both individually and in groups.",
+        "tags": [
+            "management",
+            "skills",
+            "human"
+        ]
+    },
+    {
+        "id": "m3-pdf-77",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "medium",
+        "text": "Zero-Based Budgeting (ZBB) requires managers to:",
+        "options": [
+            "Use the previous year's budget as a baseline and adjust for inflation",
+            "Justify every expense from scratch for each new period, starting at zero",
+            "Have zero variation from the budget",
+            "Spend the entire budget by the end of the year"
+        ],
+        "correctIndex": 1,
+        "explanation": "Zero-Based Budgeting starts from a base of zero, and every function within an organization is analyzed for its needs and costs; no previous budget is used as a baseline.",
+        "tags": [
+            "management",
+            "finance",
+            "budgeting"
+        ]
+    },
+    {
+        "id": "m3-pdf-78",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "hard",
+        "text": "Mclelland's Achievement-Power-Affiliation Theory suggests that people are motivated by:",
+        "options": [
+            "Biological needs only",
+            "The need to avoid pain",
+            "Three acquired needs: Achievement, Power, and Affiliation",
+            "Money and status"
+        ],
+        "correctIndex": 2,
+        "explanation": "David McClelland identified three acquired needs that motivate people: the need for Achievement (nAch), the need for Power (nPow), and the need for Affiliation (nAff).",
+        "tags": [
+            "management",
+            "motivation",
+            "theories"
+        ]
+    },
+    {
+        "id": "m3-pdf-79",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "A 'Loss Leader' pricing strategy involves:",
+        "options": [
+            "Selling a product at a loss to attract customers who will buy other profitable items",
+            "Setting prices higher than competitors",
+            "Giving away free samples",
+            "Reducing staff to cut costs"
+        ],
+        "correctIndex": 0,
+        "explanation": "A Loss Leader is a product sold at a price below its market cost to stimulate other sales of more profitable goods or services.",
+        "tags": [
+            "management",
+            "marketing",
+            "pricing"
+        ]
+    },
+    {
+        "id": "m3-pdf-80",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Span of Control refers to:",
+        "options": [
+            "The length of the supply chain",
+            "The number of subordinates a manager can efficiently and effectively direct",
+            "The size of the budget",
+            "The physical size of the kitchen"
+        ],
+        "correctIndex": 1,
+        "explanation": "Span of Control is the number of subordinates that a manager or supervisor can directly control. A narrow span means few subordinates; a wide span means many.",
+        "tags": [
+            "management",
+            "organization",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-81",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Project Management",
+        "difficulty": "hard",
+        "text": "In a Gantt chart, the horizontal axis primarily represents:",
+        "options": [
+            "Cost",
+            "Time",
+            "Tasks",
+            "Resources"
+        ],
+        "correctIndex": 1,
+        "explanation": "A Gantt chart is a type of bar chart that illustrates a project schedule. The horizontal axis represents the time span of the project.",
+        "tags": [
+            "management",
+            "tools",
+            "Gantt"
+        ]
+    },
+    {
+        "id": "m3-pdf-82",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Which type of power comes from the leader's position in the organization (e.g., the right to hire/fire)?",
+        "options": [
+            "Referent power",
+            "Expert power",
+            "Legitimate power",
+            "Coercive power"
+        ],
+        "correctIndex": 2,
+        "explanation": "Legitimate power is derived from a person's formal position or title within the organization's hierarchy.",
+        "tags": [
+            "management",
+            "leadership",
+            "power"
+        ]
+    },
+    {
+        "id": "m3-pdf-83",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Sustainability",
+        "difficulty": "medium",
+        "text": "'Source Reduction' in waste management involves:",
+        "options": [
+            "Sorting recyclables",
+            "Reducing the amount of waste generated at its source (e.g., minimal packaging)",
+            "Burning waste for energy",
+            "Sending waste to a landfill"
+        ],
+        "correctIndex": 1,
+        "explanation": "Source Reduction (waste prevention) is the most preferred method of waste management, involving designing products and processes to reduce the volume or toxicity of waste generated.",
+        "tags": [
+            "management",
+            "sustainability",
+            "waste"
+        ]
+    },
+    {
+        "id": "m3-pdf-84",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "Net Profit is calculated by:",
+        "options": [
+            "Sales - Cost of Goods Sold",
+            "Gross Profit - Labor Costs",
+            "Sales - (Cost of Goods Sold + All Expenses)",
+            "Assets - Liabilities"
+        ],
+        "correctIndex": 2,
+        "explanation": "Net Profit is the actual profit after working expenses not included in the calculation of gross profit have been paid (Total Sales - Total Expenses).",
+        "tags": [
+            "management",
+            "finance",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m3-pdf-85",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "Arbritration differs from Mediation in that:",
+        "options": [
+            "The mediator makes the final decision",
+            "The arbitrator renders a binding decision",
+            "Arbitration is always voluntary",
+            "Mediation involves a judge"
+        ],
+        "correctIndex": 1,
+        "explanation": "In Arbitration, a third party hears the dispute and makes a binding decision. In Mediation, the third party helps the disputing parties reach a mutually agreeable solution but has no power to impose a decision.",
+        "tags": [
+            "management",
+            "HR",
+            "conflict"
+        ]
+    }
+]

@@ -1,0 +1,152 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    background-color: var(--bg-secondary);
+    min-height: 100vh;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.exitBtn {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.summaryCard {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.scoreCircle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.scoreValue {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.scoreLabel {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.verdict h2 {
+    margin: 0 0 0.5rem 0;
+}
+
+.verdict p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.reviewList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.reviewItem {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+}
+
+.itemHeader {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.qNum {
+    font-weight: 700;
+    color: var(--text-secondary);
+}
+
+.badgeCorrect,
+.badgeWrong,
+.badgeSkip {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.badgeCorrect {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.badgeWrong {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.badgeSkip {
+    background: #f3f4f6;
+    color: #4b5563;
+}
+
+.domain {
+    margin-left: auto;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.qText {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.explanation {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.explanation strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}

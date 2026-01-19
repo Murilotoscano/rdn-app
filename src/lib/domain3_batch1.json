@@ -1,0 +1,307 @@
+[
+    {
+        "id": "m3-gen-01",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Which management function involves defining organizational goals and determining the appropriate means to achieve them?",
+        "options": [
+            "Planning",
+            "Organizing",
+            "Leading",
+            "Controlling"
+        ],
+        "correctIndex": 0,
+        "explanation": "Planning is the fundamental management function that involves setting goals, establishing strategies, and developing plans to coordinate activities.",
+        "tags": [
+            "management",
+            "functions"
+        ]
+    },
+    {
+        "id": "m3-gen-02",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "The conceptual skill of a manager is most critical at which level of management?",
+        "options": [
+            "Top management",
+            "Middle management",
+            "First-line management",
+            "Team leaders"
+        ],
+        "correctIndex": 0,
+        "explanation": "Conceptual skills (the ability to think analytically and visualize the organization as a whole) are most important for top managers who must deal with complex, long-term strategic issues.",
+        "tags": [
+            "management",
+            "skills"
+        ]
+    },
+    {
+        "id": "m3-gen-03",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "Under the Fair Labor Standards Act (FLSA), which employee category is typically exempt from overtime pay?",
+        "options": [
+            "Hourly production workers",
+            "Executive, administrative, and professional employees",
+            "Service staff",
+            "Part-time clerical staff"
+        ],
+        "correctIndex": 1,
+        "explanation": "The FLSA provides an exemption from both minimum wage and overtime pay for employees employed as bona fide executive, administrative, professional and outside sales employees who meet specific salary and duty tests.",
+        "tags": [
+            "management",
+            "HR",
+            "laws"
+        ]
+    },
+    {
+        "id": "m3-gen-04",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "Which interview question is considered illegal or discriminatory in the United States?",
+        "options": [
+            "Are you legally authorized to work in the US?",
+            "Do you have reliable transportation?",
+            "Do you have plans to have children soon?",
+            "Can you perform the essential duties of the job?"
+        ],
+        "correctIndex": 2,
+        "explanation": "Questions about family planning, children, pregnancy, or marital status are discriminatory and potentially illegal under Title VII of the Civil Rights Act and the Pregnancy Discrimination Act.",
+        "tags": [
+            "management",
+            "HR",
+            "legal"
+        ]
+    },
+    {
+        "id": "m3-gen-05",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "Which financial statement provides a snapshot of an organization's financial position (assets, liabilities, and equity) at a specific point in time?",
+        "options": [
+            "Income Statement",
+            "Balance Sheet",
+            "Cash Flow Statement",
+            "Budget Report"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Balance Sheet (Statement of Financial Position) reports assets, liabilities, and shareholders' equity at a specific date, adhering to the equation: Assets = Liabilities + Equity.",
+        "tags": [
+            "management",
+            "finance"
+        ]
+    },
+    {
+        "id": "m3-gen-06",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "A clinical nutrition manager wants to calculate the food cost percentage for the month. Cost of food used is $15,000 and total food sales are $45,000. What is the food cost percentage?",
+        "options": [
+            "30%",
+            "33.3%",
+            "3.0%",
+            "300%"
+        ],
+        "correctIndex": 1,
+        "explanation": "Food Cost Percentage = (Cost of Food Sold / Total Food Sales) × 100. $15,000 / $45,000 = 0.3333... or 33.3%.",
+        "tags": [
+            "management",
+            "finance",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m3-gen-07",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "In the marketing mix (the 4 Ps), which element refers to the distribution channels used to make the product available to the target market?",
+        "options": [
+            "Product",
+            "Price",
+            "Place",
+            "Promotion"
+        ],
+        "correctIndex": 2,
+        "explanation": "Place (or Distribution) refers to how the product is delivered to the customer, including distribution channels, coverage, and logistics.",
+        "tags": [
+            "management",
+            "marketing"
+        ]
+    },
+    {
+        "id": "m3-gen-08",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "Which quality improvement methodology focuses on reducing variation and defects using the DMAIC (Define, Measure, Analyze, Improve, Control) framework?",
+        "options": [
+            "Lean",
+            "Six Sigma",
+            "Total Quality Management (TQM)",
+            "Kaizen"
+        ],
+        "correctIndex": 1,
+        "explanation": "Six Sigma is a data-driven methodology that uses DMAIC to eliminate defects (aiming for less than 3.4 defects per million opportunities) and reduce variability.",
+        "tags": [
+            "management",
+            "quality"
+        ]
+    },
+    {
+        "id": "m3-gen-09",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "What type of budget plans for major capital expenditures like equipment and facility renovations that last longer than one year?",
+        "options": [
+            "Operating budget",
+            "Cash budget",
+            "Capital budget",
+            "Flexible budget"
+        ],
+        "correctIndex": 2,
+        "explanation": "A Capital Budget is used for planning and managing long-term investments and major expenses like equipment, buildings, or expensive technology.",
+        "tags": [
+            "management",
+            "finance"
+        ]
+    },
+    {
+        "id": "m3-gen-10",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "Which performance appraisal error occurs when a manager rates an employee high on all criteria based on a single positive attribute?",
+        "options": [
+            "Halo effect",
+            "Horn effect",
+            "Central tendency",
+            "Recency error"
+        ],
+        "correctIndex": 0,
+        "explanation": "The Halo Effect occurs when a general impression or a single positive trait influences the rating of all other performance dimensions.",
+        "tags": [
+            "management",
+            "HR"
+        ]
+    },
+    {
+        "id": "m3-gen-11",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Scope of Practice",
+        "difficulty": "medium",
+        "text": "The Academy of Nutrition and Dietetics' Standards of Professional Performance (SOPP) describe:",
+        "options": [
+            "Competence in the NCP",
+            "Competence in professional behaviors",
+            "Code of Ethics",
+            "Licensure requirements"
+        ],
+        "correctIndex": 1,
+        "explanation": "SOPP describes a competent level of behavior in the professional role (e.g., quality in practice, provision of services, application of research, etc.), whereas SOP describes a competent level of practice using the NCP.",
+        "tags": [
+            "management",
+            "professional"
+        ]
+    },
+    {
+        "id": "m3-gen-12",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "Calculate the break-even point in units if fixed costs are $20,000, selling price per unit is $10, and variable cost per unit is $6.",
+        "options": [
+            "2,000 units",
+            "3,333 units",
+            "5,000 units",
+            "4,000 units"
+        ],
+        "correctIndex": 2,
+        "explanation": "Break-Even Point (units) = Fixed Costs / (Selling Price - Variable Cost). $20,000 / ($10 - $6) = $20,000 / $4 = 5,000 units.",
+        "tags": [
+            "management",
+            "finance",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m3-gen-13",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Efficiency in management refers to:",
+        "options": [
+            "Doing the right things",
+            "Doing things right (minimizing waste)",
+            "Achieving goals regardless of cost",
+            "Motivational leadership"
+        ],
+        "correctIndex": 1,
+        "explanation": "Efficiency is doing things right, or getting the most output from the least amount of inputs (resources). Effectiveness is doing the right things (achieving goals).",
+        "tags": [
+            "management",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-gen-14",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "Full-Time Equivalent (FTE) is a measure of staffing needs. One FTE typically equals how many hours per year?",
+        "options": [
+            "1040 hours",
+            "2080 hours",
+            "2500 hours",
+            "1950 hours"
+        ],
+        "correctIndex": 1,
+        "explanation": "One FTE is typically based on 40 hours/week × 52 weeks/year = 2080 hours.",
+        "tags": [
+            "management",
+            "HR",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m3-gen-15",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "Market segmentation involves:",
+        "options": [
+            "Targeting the entire population with one message",
+            "Dividing a market into distinct groups of buyers with different needs or characteristics",
+            "Focusing only on pricing strategies",
+            "Analyzing competitors' weaknesses"
+        ],
+        "correctIndex": 1,
+        "explanation": "Market segmentation is the process of dividing a broad target market into subsets of consumers (segments) who have common needs, interests, and priorities.",
+        "tags": [
+            "management",
+            "marketing"
+        ]
+    }
+]

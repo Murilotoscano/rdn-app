@@ -1,0 +1,422 @@
+[
+    {
+        "id": "m4-pdf-21",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "Which foodservice system involves purchasing raw foods, preparing them on-site, and serving them soon after preparation?",
+        "options": [
+            "Ready-Prepared",
+            "Assembly-Serve",
+            "Conventional",
+            "Commissary"
+        ],
+        "correctIndex": 2,
+        "explanation": "A Conventional foodservice system prepares food on-site from scratch (or partially prepared items) and serves it shortly after production.",
+        "tags": [
+            "foodservice",
+            "production",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-22",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "In a 'Ready-Prepared' (Cook-Chill or Cook-Freeze) system, the Critical Control Point (CCP) of greatest concern is usually during:",
+        "options": [
+            "Receiving",
+            "Cooling and reheating",
+            "Peeling vegetables",
+            "Serving"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ready-Prepared systems involve cooking food and then chilling/freezing it for later use. The cooling and reheating steps are critical for preventing pathogen growth.",
+        "tags": [
+            "foodservice",
+            "production",
+            "safety"
+        ]
+    },
+    {
+        "id": "m4-pdf-23",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "Which foodservice system centralizes procurement and production in one large kitchen, then transports prepared food to remote satellite service areas?",
+        "options": [
+            "Conventional",
+            "Commissary",
+            "Assembly-Serve",
+            "Decentralized"
+        ],
+        "correctIndex": 1,
+        "explanation": "A Commissary system centralizes food production in one large facility and distributes prepared food to satellite (remote) serving areas.",
+        "tags": [
+            "foodservice",
+            "production",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-24",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "The 'Assembly-Serve' (Total Convenience) system differs from others in that:",
+        "options": [
+            "All cooking is done from scratch",
+            "No on-site food production (cooking) takes place; fully prepared foods are purchased, stored, assembled, heated, and served",
+            "Food is prepared days in advance",
+            "It requires the most skilled labor"
+        ],
+        "correctIndex": 1,
+        "explanation": "Assembly-Serve systems purchase fully prepared foods (frozen, sous-vide, etc.) requiring only storage, assembly, heating, and service. 'Kitchenless kitchen'.",
+        "tags": [
+            "foodservice",
+            "production",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-25",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "A 'Decentralized' delivery system is most appropriate when:",
+        "options": [
+            "All patients are in one dining room",
+            "The distance from the kitchen to the patient is great, requiring food to be transported in bulk and assembled near the patient",
+            "Food safety is not a concern",
+            "The menu is simple"
+        ],
+        "correctIndex": 1,
+        "explanation": "Decentralized delivery involves transporting food in bulk to ward pantries or galleys where trays are assembled, ensuring better temperature control over long distances.",
+        "tags": [
+            "foodservice",
+            "distribution",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-26",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "The primary advantage of a 'Commissary' foodservice system is:",
+        "options": [
+            "High food safety risks during transport",
+            "Centralized large-volume purchasing and production, leading to economies of scale and uniform quality",
+            "Reduced need for transportation equipment",
+            "Lower initial capital investment"
+        ],
+        "correctIndex": 1,
+        "explanation": "Commissary systems benefit from economies of scale in bulk purchasing and efficient large-scale production, ensuring consistency across all satellite units.",
+        "tags": [
+            "foodservice",
+            "production",
+            "advantages"
+        ]
+    },
+    {
+        "id": "m4-pdf-27",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "Which type of service allows customers to move from station to station (e.g., salad, hot food, dessert) with no specific traffic pattern?",
+        "options": [
+            "Straight line cafeteria",
+            "Hollow square / Free-flow / Scramble system",
+            "Vending",
+            "Counter service"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Hollow Square, Free-flow, or Scramble system separates counters (salad, hot food, etc.) allowing customers to go directly to what they want, reducing wait times.",
+        "tags": [
+            "foodservice",
+            "distribution",
+            "service"
+        ]
+    },
+    {
+        "id": "m4-pdf-28",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "In forecasting production, a 'Moving Average' model:",
+        "options": [
+            "Uses a panel of experts to predict sales",
+            "Taking the average of the number of portions sold for the last 'n' periods to predict the next period",
+            "Assumes a causal relationship between variables",
+            "Relies on intuition"
+        ],
+        "correctIndex": 1,
+        "explanation": "Moving Average is a time-series forecasting method that uses a set number of past data points (e.g., last 5 weeks) to predict the next value by averaging them.",
+        "tags": [
+            "foodservice",
+            "production",
+            "forecasting"
+        ]
+    },
+    {
+        "id": "m4-pdf-29",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "A 'Standardized Recipe' is critical for:",
+        "options": [
+            "Allowing chefs creative freedom",
+            "Ensuring consistent quality, yield, and cost control every time the item is produced",
+            "Increasing food waste",
+            "Reducing the need for measuring tools"
+        ],
+        "correctIndex": 1,
+        "explanation": "Standardized recipes are the most important control tool, ensuring that a specific quantity and quality of food is produced for a specific cost every time.",
+        "tags": [
+            "foodservice",
+            "production",
+            "controls"
+        ]
+    },
+    {
+        "id": "m4-pdf-30",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "If you determine that the 'Edible Portion' (EP) cost of a serving of broccoli is $0.50 and the yield is 80%, what is the 'As Purchased' (AP) cost per equivalent amount?",
+        "options": [
+            "$0.40",
+            "$0.625",
+            "$0.50",
+            "$0.80"
+        ],
+        "correctIndex": 0,
+        "explanation": "EP Cost = AP Cost / Yield %. Therefore, AP Cost = EP Cost * Yield %. Wait... actually: AP Price is usually lower. AP Cost = EP Cost * Yield %? No. AP weight > EP weight. EP price > AP price. AP Price = EP Price x Yield %. $0.50 * 0.80 = $0.40. (Since you pay less for the raw uncleaned vegetable than the finished edible weight value).",
+        "tags": [
+            "foodservice",
+            "production",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-31",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "Which production forecasting method uses a weighted average of past data, giving more weight to recent data?",
+        "options": [
+            "Exponential Smoothing",
+            "Moving Average",
+            "Delphi Method",
+            "Linear Regression"
+        ],
+        "correctIndex": 0,
+        "explanation": "Exponential Smoothing is a time-series method similar to moving average but assigns exponentially decreasing weights as data gets older (recent data matters more).",
+        "tags": [
+            "foodservice",
+            "production",
+            "forecasting"
+        ]
+    },
+    {
+        "id": "m4-pdf-32",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "In a 'Cook-Chill' system, food is held chilled for storage. What is the maximum recommended storage time for cook-chill items (using tumble chill method)?",
+        "options": [
+            "1-2 days",
+            "45 days",
+            "3-5 days",
+            "6 months"
+        ],
+        "correctIndex": 1,
+        "explanation": "With proper blast chilling or tumble chilling, cook-chill foods can be safely stored for up to 45 days. (Though typically used within shorter periods).",
+        "tags": [
+            "foodservice",
+            "production",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-33",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "Which scoop size serves approximately 1/2 cup?",
+        "options": [
+            "Scoop #8",
+            "Scoop #16",
+            "Scoop #12",
+            "Scoop #4"
+        ],
+        "correctIndex": 0,
+        "explanation": "The scoop number indicates how many scoops make a quart (32 oz). Scoop #8: 32/8 = 4 oz (1/2 cup).",
+        "tags": [
+            "foodservice",
+            "production",
+            "measurements"
+        ]
+    },
+    {
+        "id": "m4-pdf-34",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "What type of distribution cart is a 'Pellet System'?",
+        "options": [
+            "Insulated tray system",
+            "Portable heating unit",
+            "Heated metal disk (pellet) placed under the plate to keep it warm",
+            "Refrigerated cart"
+        ],
+        "correctIndex": 2,
+        "explanation": "A Pellet System uses a preheated metal disk (pellet) placed in a base under the dinner plate to maintain food temperature for ~40-45 minutes.",
+        "tags": [
+            "foodservice",
+            "distribution",
+            "equipment"
+        ]
+    },
+    {
+        "id": "m4-pdf-35",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "A 'Rethermalization' unit is used in which foodservice systems?",
+        "options": [
+            "Conventional only",
+            "Ready-Prepared (Cook-Chill/Cook-Freeze)",
+            "Assembly-Serve only",
+            "Commissary only"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ready-Prepared systems (Cook-Chill/Cook-Freeze) require rethermalization (reheating) of food just before service, using microwaves, convection ovens, or integral heat carts.",
+        "tags": [
+            "foodservice",
+            "production",
+            "equipment"
+        ]
+    },
+    {
+        "id": "m4-pdf-36",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "When scaling a recipe using the percentage method, the first step is to:",
+        "options": [
+            "Convert all ingredients to pounds and ounces",
+            "Convert all ingredients to weights (e.g., decimals of a pound) and calculate the total weight",
+            "Multiply everything by 2",
+            "Estimate the new amounts"
+        ],
+        "correctIndex": 1,
+        "explanation": "The percentage method requires converting all ingredients to weights (including liquids) and summing them to calculate the percentage of each ingredient in relation to the total weight.",
+        "tags": [
+            "foodservice",
+            "production",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-37",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "Which style of service is characterized by food being plated in the kitchen and served to the guest (American service)?",
+        "options": [
+            "French Service",
+            "Russian Service",
+            "American Service",
+            "Family Style"
+        ],
+        "correctIndex": 2,
+        "explanation": "In American Service, portions are plated in the kitchen and then served to the guest. It is the most common and efficient method.",
+        "tags": [
+            "foodservice",
+            "distribution",
+            "service"
+        ]
+    },
+    {
+        "id": "m4-pdf-38",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "To reduce the risk of cross-contamination in a Conventional foodservice system, care must be taken to:",
+        "options": [
+            "Separate raw and cooked food handling (temporal or spatial separation)",
+            "Cook everything to 165°F regardless of food type",
+            "Use the same cutting board for efficiency",
+            "Store meat above vegetables"
+        ],
+        "correctIndex": 0,
+        "explanation": "Because raw and cooked foods are handled in the same kitchen in Conventional systems, strict separation (space or time) is needed to prevent cross-contamination.",
+        "tags": [
+            "foodservice",
+            "production",
+            "safety"
+        ]
+    },
+    {
+        "id": "m4-pdf-39",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "The main disadvantage of the Assembly-Serve system is:",
+        "options": [
+            "High labor costs",
+            "Need for skilled chefs",
+            "Limited menu variety and higher food cost",
+            "Large kitchen footprint"
+        ],
+        "correctIndex": 2,
+        "explanation": "Assembly-Serve relies on available prepared products, which may limit menu variety and typically have a higher food cost (offset by lower labor cost).",
+        "tags": [
+            "foodservice",
+            "production",
+            "disadvantages"
+        ]
+    },
+    {
+        "id": "m4-pdf-40",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "A 'Synergistic' effect in a food production team means:",
+        "options": [
+            "Everyone works independently",
+            "The total output of the team is greater than the sum of individual efforts (1+1=3)",
+            "Conflict is maximized",
+            "Productivity decreases"
+        ],
+        "correctIndex": 1,
+        "explanation": "Synergy occurs when the cooperative action of separate people or agencies produces a total effect greater than the sum of their individual effects.",
+        "tags": [
+            "foodservice",
+            "production",
+            "management"
+        ]
+    }
+]

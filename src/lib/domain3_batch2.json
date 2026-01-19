@@ -1,0 +1,425 @@
+[
+    {
+        "id": "m3-pdf-01",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Which management function is considered the most basic and primary function, involving the formulation of plans to balance needs with available resources?",
+        "options": [
+            "Organization",
+            "Planning",
+            "Directing",
+            "Controlling"
+        ],
+        "correctIndex": 1,
+        "explanation": "Planning is the primary and most basic function of management. It involves looking ahead, formulating plans, and ensuring proper utilization of resources.",
+        "tags": [
+            "management",
+            "functions",
+            "planning"
+        ]
+    },
+    {
+        "id": "m3-pdf-02",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "hard",
+        "text": "In the context of management skills, which skill is most critical for upper-level management to integrate activities and interests of the entire organization?",
+        "options": [
+            "Technical skills",
+            "Human/Interpersonal skills",
+            "Conceptual skills",
+            "Soft skills"
+        ],
+        "correctIndex": 2,
+        "explanation": "Conceptual skills—the ability to visualize the organization as a whole and integrate its interests—are the most important skill at higher levels of management.",
+        "tags": [
+            "management",
+            "skills",
+            "conceptual"
+        ]
+    },
+    {
+        "id": "m3-pdf-03",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "A job description differs from a job specification in that a job description lists:",
+        "options": [
+            "The desired qualifications and education of the candidate",
+            "The duties, tasks, and responsibilities of the position",
+            "The physical requirements and working conditions only",
+            "The ideal personality traits for the role"
+        ],
+        "correctIndex": 1,
+        "explanation": "A job description details what the employee will do (duties, tasks, roles). A job specification characterizes the ideal candidate (qualifications, skills, abilities).",
+        "tags": [
+            "management",
+            "HR",
+            "staffing"
+        ]
+    },
+    {
+        "id": "m3-pdf-04",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "Which federal act, passed in 1935 and also known as the Wagner Act, is considered pro-labor and guarantees the right of employees to organize and engage in collective bargaining?",
+        "options": [
+            "Taft-Hartley Act",
+            "Fair Labor Standards Act",
+            "National Labor Relations Act (NLRA)",
+            "Landrum-Griffin Act"
+        ],
+        "correctIndex": 2,
+        "explanation": "The National Labor Relations Act (NLRA or Wagner Act) of 1935 protects employee rights to organize, join unions, and bargain collectively. It is considered pro-labor.",
+        "tags": [
+            "management",
+            "HR",
+            "unions",
+            "laws"
+        ]
+    },
+    {
+        "id": "m3-pdf-05",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "Which act was passed in 1947 to amend the NLRA, is considered pro-management, and outlawed 'closed shops'?",
+        "options": [
+            "Norris-LaGuardia Act",
+            "Taft-Hartley Act",
+            "Landrum-Griffin Act",
+            "Civil Rights Act"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Taft-Hartley Act (Labor Management Relations Act) of 1947 is pro-management, outlawed closed shops, and defined unfair labor practices by unions.",
+        "tags": [
+            "management",
+            "HR",
+            "unions",
+            "laws"
+        ]
+    },
+    {
+        "id": "m3-pdf-06",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "The management function of 'Controlling' involves four specific steps. Which of the following is the Correct order?",
+        "options": [
+            "Measure performance -> Establish standards -> Take remedial action -> Compare performance",
+            "Establish standards -> Measure performance -> Compare actual vs standard -> Take remedial action",
+            "Plan -> Organize -> Direct -> Control",
+            "Set goals -> Hire staff -> Evaluate -> Correct"
+        ],
+        "correctIndex": 1,
+        "explanation": "The 4 steps of controlling are: 1) Establish standards, 2) Measure performance, 3) Compare actual to standard, and 4) Take remedial/corrective actions.",
+        "tags": [
+            "management",
+            "functions",
+            "controlling"
+        ]
+    },
+    {
+        "id": "m3-pdf-07",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "When disciplining employees, what is the most important overarching concept to ensure fair treatment and avoid grievances?",
+        "options": [
+            "Severity",
+            "Consistency",
+            "Speed",
+            "Flexibility"
+        ],
+        "correctIndex": 1,
+        "explanation": "Consistency is key when disciplining employees; they should feel they are receiving the same treatment as any other employee for the same offense.",
+        "tags": [
+            "management",
+            "HR",
+            "discipline"
+        ]
+    },
+    {
+        "id": "m3-pdf-08",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "In the context of labor unions, a 'Union Shop' refers to a situation where:",
+        "options": [
+            "Only union members can be hired",
+            "Employees must join the union within a certain timeframe after hiring",
+            "Employees are not required to join but must pay dues",
+            "Union membership is completely optional and no dues are required"
+        ],
+        "correctIndex": 1,
+        "explanation": "A Union Shop requires employees to join the union within a specific period after being hired. This differs from a Closed Shop (must be member to be hired) and Agency Shop (pay dues but don't have to join).",
+        "tags": [
+            "management",
+            "HR",
+            "unions"
+        ]
+    },
+    {
+        "id": "m3-pdf-09",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Healthcare Systems",
+        "difficulty": "medium",
+        "text": "Which independent, not-for-profit organization accredits and certifies healthcare organizations and has 'deeming authority' from CMS to validate Medicare compliance?",
+        "options": [
+            "FDA",
+            "CDC",
+            "The Joint Commission (TJC)",
+            "OSHA"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Joint Commission (TJC) is a major accrediting body with deeming authority from CMS to certify hospitals for Medicare participation.",
+        "tags": [
+            "management",
+            "healthcare",
+            "accreditation"
+        ]
+    },
+    {
+        "id": "m3-pdf-10",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Healthcare Systems",
+        "difficulty": "hard",
+        "text": "Value-based care models, like Accountable Care Organizations (ACOs), differ from traditional Fee-for-Service (FFS) models by tying provider reimbursements to:",
+        "options": [
+            "The total number of patients seen",
+            "The quantity of services and procedures performed",
+            "Quality metrics and reduced costs of care",
+            "The length of hospital stay only"
+        ],
+        "correctIndex": 2,
+        "explanation": "Value-based care incentivizes quality and efficiency, tying payments to quality metrics and cost reductions, whereas Fee-for-Service pays based on the volume (quantity) of services.",
+        "tags": [
+            "management",
+            "healthcare",
+            "finance"
+        ]
+    },
+    {
+        "id": "m3-pdf-11",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "The Landrum-Griffin Act (Labor-Management Reporting and Disclosure Act) of 1959 was passed primarily to:",
+        "options": [
+            "Legalize strikes in hospitals",
+            "Regulate internal union affairs and prevent corruption/racketeering",
+            "Establish the minimum wage",
+            "Prohibit discrimination based on race or sex"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Landrum-Griffin Act regulates internal union affairs, imposing a code of conduct to combat corruption and protect union funds.",
+        "tags": [
+            "management",
+            "HR",
+            "unions",
+            "laws"
+        ]
+    },
+    {
+        "id": "m3-pdf-12",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Which management function typically involves 'delegating authority' and 'coordinating relationships' horizontally and vertically?",
+        "options": [
+            "Planning",
+            "Organization",
+            "Staffing",
+            "Controlling"
+        ],
+        "correctIndex": 1,
+        "explanation": "Organization involves grouping activities, delegating authority, and coordinating relationships (reporting structures) within the company.",
+        "tags": [
+            "management",
+            "functions",
+            "organization"
+        ]
+    },
+    {
+        "id": "m3-pdf-13",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "The Fair Labor Standards Act (FLSA) of 1938 established all of the following EXCEPT:",
+        "options": [
+            "Federal minimum wage",
+            "Overtime pay eligibility",
+            "Child labor standards",
+            "The right to collective bargaining"
+        ],
+        "correctIndex": 3,
+        "explanation": "The FLSA established minimum wage, overtime, and child labor laws. The right to collective bargaining was established by the NLRA (Wagner Act).",
+        "tags": [
+            "management",
+            "HR",
+            "laws"
+        ]
+    },
+    {
+        "id": "m3-pdf-14",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "In a 'Right to Work' state (Open Shop), an employee:",
+        "options": [
+            "Must join the union to keep their job",
+            "Cannot be compelled to join a union or pay dues, but is still represented by the bargaining unit",
+            "Is not allowed to join a union at all",
+            "Must pay an agency fee if they choose not to join"
+        ],
+        "correctIndex": 1,
+        "explanation": "In an Open Shop ('Right to Work'), employees cannot be forced to join or pay dues, yet they are still part of the bargaining unit and covered by the contract.",
+        "tags": [
+            "management",
+            "HR",
+            "unions"
+        ]
+    },
+    {
+        "id": "m3-pdf-15",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "What does 'Unity of Command' (though not explicitly in this text text, implied by organization structure) or clear accountability mean in the context of Organization?",
+        "options": [
+            "Every employee should report to only one supervisor",
+            "All employees are equal decision makers",
+            "Everyone reports to the CEO directly",
+            "Departments operate independently without communication"
+        ],
+        "correctIndex": 0,
+        "explanation": "Clear accountability and avoiding confusion implies that employees should know exactly who they report to, typically avoiding conflicting instructions (Unity of Command).",
+        "tags": [
+            "management",
+            "functions",
+            "organization"
+        ]
+    },
+    {
+        "id": "m3-pdf-16",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Healthcare Systems",
+        "difficulty": "medium",
+        "text": "Which organization accredits not just hospitals but also health plans and Patient-Centered Medical Homes (PCMH), using HEDIS data for benchmarking?",
+        "options": [
+            "The Joint Commission",
+            "DNVGL Healthcare",
+            "National Committee for Quality Assurance (NCQA)",
+            "CMS"
+        ],
+        "correctIndex": 2,
+        "explanation": "The NCQA accredits health plans and PCMHs and manages the HEDIS performance tool.",
+        "tags": [
+            "management",
+            "healthcare",
+            "quality"
+        ]
+    },
+    {
+        "id": "m3-pdf-17",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "Recruitment focuses on locating potential applicants, whereas Selection focuses on:",
+        "options": [
+            "Training them for the job",
+            "Comparing applicant qualifications to the job requirements and choosing the best fit",
+            "Orienting them to company policy",
+            "Setting their salary"
+        ],
+        "correctIndex": 1,
+        "explanation": "Selection is the specific process of comparing applicants (knowledge, skills, abilities) against the job requirements and choosing the most qualified one.",
+        "tags": [
+            "management",
+            "HR",
+            "staffing"
+        ]
+    },
+    {
+        "id": "m3-pdf-18",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "Under the concept of 'Progressive Discipline', what is the typical order of formal documentation?",
+        "options": [
+            "Suspension -> Verbal Warning -> Written Warning -> Termination",
+            "Verbal Warning -> Written Warning -> Suspension -> Termination",
+            "Written Warning -> Verbal Warning -> Termination",
+            "Coaching -> Firing"
+        ],
+        "correctIndex": 1,
+        "explanation": "The standard progressive discipline steps are: 1) Verbal Warning (documented), 2) Written Warning, 3) Suspension, 4) Termination.",
+        "tags": [
+            "management",
+            "HR",
+            "discipline"
+        ]
+    },
+    {
+        "id": "m3-pdf-19",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "An 'Agency Shop' requires non-union employees to:",
+        "options": [
+            "Join the union within 30 days",
+            "Pay full union dues including political contributions",
+            "Pay a service fee (fair share) to cover collective bargaining costs",
+            "Participate in strikes"
+        ],
+        "correctIndex": 2,
+        "explanation": "In an Agency Shop, non-members must pay a fee to cover the costs of representation (bargaining, grievance handling) but don't have to join or pay for political activities.",
+        "tags": [
+            "management",
+            "HR",
+            "unions"
+        ]
+    },
+    {
+        "id": "m3-pdf-20",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "A manager observes staff to determine topics for in-service training. This primarily supports the management function of:",
+        "options": [
+            "Staffing (Training/Development)",
+            "Organization",
+            "Budgeting",
+            "Marketing"
+        ],
+        "correctIndex": 0,
+        "explanation": "Training and development of employees falls under the Staffing function (hiring, training, evaluating).",
+        "tags": [
+            "management",
+            "functions",
+            "staffing"
+        ]
+    }
+]

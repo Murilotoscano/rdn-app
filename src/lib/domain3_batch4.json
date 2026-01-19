@@ -1,0 +1,422 @@
+[
+    {
+        "id": "m3-pdf-41",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "hard",
+        "text": "The PDSA cycle, often combined with the FOCUS model, stands for:",
+        "options": [
+            "Plan, Direct, Solution, Act",
+            "Plan, Do, Study, Act",
+            "Prepare, Do, Systems, Assess",
+            "Prioritize, Develop, Study, Analyze"
+        ],
+        "correctIndex": 1,
+        "explanation": "PDSA stands for Plan, Do, Study, Act. It is a four-stage problem-solving model used for continuous improvement.",
+        "tags": [
+            "management",
+            "quality",
+            "PDSA"
+        ]
+    },
+    {
+        "id": "m3-pdf-42",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "Total Quality Management (TQM) differs from traditional management by:",
+        "options": [
+            "Focusing strictly on bottom-line profits",
+            "Treating employees as 'internal customers' and involving all employees in continuous improvement",
+            "Relying solely on management to dictate changes",
+            "Prioritizing quantity over quality"
+        ],
+        "correctIndex": 1,
+        "explanation": "TQM is a culture driven by customer satisfaction that involves all employees (and treats them as internal customers) in continuous improvement.",
+        "tags": [
+            "management",
+            "quality",
+            "TQM"
+        ]
+    },
+    {
+        "id": "m3-pdf-43",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "hard",
+        "text": "In the context of Lean Six Sigma, what does 'Muda' refer to?",
+        "options": [
+            "Inconsistency in business operations",
+            "Overburdening of people or equipment",
+            "Waste, or any activity that does not add value",
+            "The workplace where value is created"
+        ],
+        "correctIndex": 2,
+        "explanation": "Muda is the Japanese word for waste (non-value added activity). The 3M model includes Muda (waste), Mura (inconsistency), and Muri (overburden).",
+        "tags": [
+            "management",
+            "quality",
+            "Lean"
+        ]
+    },
+    {
+        "id": "m3-pdf-44",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Project Management",
+        "difficulty": "hard",
+        "text": "A Pareto Chart is used to:",
+        "options": [
+            "Schedule tasks and determine the critical path",
+            "Identify the 'vital few' problems that cause the majority of effects (80/20 rule)",
+            "Brainstorm root causes of a problem",
+            "Analyze the flow of materials in a kitchen"
+        ],
+        "correctIndex": 1,
+        "explanation": "A Pareto Chart (bar graph + line graph) helps identify the most frequent or costly problems, often illustrating that 80% of effects come from 20% of causes.",
+        "tags": [
+            "management",
+            "tools",
+            "Pareto"
+        ]
+    },
+    {
+        "id": "m3-pdf-45",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Project Management",
+        "difficulty": "medium",
+        "text": "In a PERT chart, the 'Critical Path' represents:",
+        "options": [
+            "The shortest time to complete the project",
+            "The longest path by duration, determining the minimum time needed to complete the project",
+            "The least expensive path",
+            "The path with the fewest number of tasks"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Critical Path is the longest overlapping sequence of tasks, which determines the minimum total time required to complete the project. Any delay on this path delays the whole project.",
+        "tags": [
+            "management",
+            "tools",
+            "PERT"
+        ]
+    },
+    {
+        "id": "m3-pdf-46",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "Which Japanese term in the Kaizen philosophy refers to the 'workplace' or 'where the action is'?",
+        "options": [
+            "Muda",
+            "Gemba",
+            "Zen",
+            "Kaizen"
+        ],
+        "correctIndex": 1,
+        "explanation": "'Go to Gemba' is a key Kaizen principle, meaning managers should go to the actual workplace where value is created to understand processes.",
+        "tags": [
+            "management",
+            "quality",
+            "Kaizen"
+        ]
+    },
+    {
+        "id": "m3-pdf-47",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "hard",
+        "text": "The DMAIC framework (Define, Measure, Analyze, Improve, Control) is central to which quality improvement methodology?",
+        "options": [
+            "Six Sigma",
+            "FADE",
+            "PDSA",
+            "RUMBA"
+        ],
+        "correctIndex": 0,
+        "explanation": "Six Sigma uses the DMAIC framework (Define, Measure, Analyze, Improve, Control) to create effective processes and reduce defects.",
+        "tags": [
+            "management",
+            "quality",
+            "SixSigma"
+        ]
+    },
+    {
+        "id": "m3-pdf-48",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Project Management",
+        "difficulty": "medium",
+        "text": "A 'Fishbone Diagram' (Ishikawa diagram) is primarily used for:",
+        "options": [
+            "Calculating the cost of a project",
+            "Scheduling employee shifts",
+            "Cause and effect analysis to identify root causes of a problem",
+            "Nutritional analysis of a menu"
+        ],
+        "correctIndex": 2,
+        "explanation": "Fishbone/Ishikawa diagrams are used for cause-and-effect analysis, categorizing factors that contribute to a specific problem.",
+        "tags": [
+            "management",
+            "tools",
+            "Fishbone"
+        ]
+    },
+    {
+        "id": "m3-pdf-49",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Management Planning",
+        "difficulty": "hard",
+        "text": "The Delphi Method of planning involves:",
+        "options": [
+            "Face-to-face brainstorming sessions",
+            "Voting on ideas in a group meeting",
+            "Reaching consensus through rounds of anonymous questionnaires sent to experts",
+            "A manager affecting change unilaterally"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Delphi Method uses anonymous questionnaires sent to experts in multiple rounds to reach a consensus without the bias of group dynamics.",
+        "tags": [
+            "management",
+            "planning",
+            "Delphi"
+        ]
+    },
+    {
+        "id": "m3-pdf-50",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "Quality Assurance (QA) differs from Continuous Quality Improvement (CQI) in that QA typically:",
+        "options": [
+            "Is proactive and focuses on processes",
+            "Measures compliance against established standards (defensive/reactive)",
+            "Involves the whole team in finding solutions",
+            "Is patient-centered"
+        ],
+        "correctIndex": 1,
+        "explanation": "QA is often reactive ('did we meet the standard?'), focusing on outliers and individual compliance. CQI is proactive, continuous, and systems-focused.",
+        "tags": [
+            "management",
+            "quality",
+            "QA_vs_QI"
+        ]
+    },
+    {
+        "id": "m3-pdf-51",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "The FADE quality improvement model stands for:",
+        "options": [
+            "Focus, Analyze, Develop, Execute",
+            "Find, Assess, Do, Evaluate",
+            "Fact-finding, Analyze, Determine, End",
+            "Fast, Accurate, Direct, Efficient"
+        ],
+        "correctIndex": 0,
+        "explanation": "FADE stands for Focus (select problem), Analyze (collect data), Develop (generate solutions), and Execute (implement and monitor).",
+        "tags": [
+            "management",
+            "quality",
+            "FADE"
+        ]
+    },
+    {
+        "id": "m3-pdf-52",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "hard",
+        "text": "In Lean Six Sigma, 'Muri' refers to:",
+        "options": [
+            "Waste",
+            "Overburden or unreasonableness (e.g., stressed staff, machinery pushed too hard)",
+            "Unevenness or inconsistency",
+            "Continuous improvement"
+        ],
+        "correctIndex": 1,
+        "explanation": "Muri refers to overburdening people or equipment (e.g., staff burnout, machine breakdown). Mura is unevenness. Muda is waste.",
+        "tags": [
+            "management",
+            "quality",
+            "Lean"
+        ]
+    },
+    {
+        "id": "m3-pdf-53",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "Which of the following is NOT one of the 5 Principles of Kaizen?",
+        "options": [
+            "Know your customer",
+            "Let it flow",
+            "Maintain the status quo",
+            "Empower people"
+        ],
+        "correctIndex": 2,
+        "explanation": "The 5 Principles are: Know your customer, Let it flow, Go to Gemba, Empower people, and Be transparent. 'Maintain the status quo' is the opposite of Kaizen (change for the better).",
+        "tags": [
+            "management",
+            "quality",
+            "Kaizen"
+        ]
+    },
+    {
+        "id": "m3-pdf-54",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Management Planning",
+        "difficulty": "hard",
+        "text": "Delbecq’s Nominal Group Technique produces a consensus by:",
+        "options": [
+            "Open free-for-all brainstorming",
+            "Structuring small-group discussion where members write ideas silently first, then share/vote",
+            "Using anonymous surveys mailed to experts",
+            "Following the loudest person in the room"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Nominal Group Technique structures the process: silent generation of ideas, round-robin recording, discussion, and then voting (ranking) to reach consensus.",
+        "tags": [
+            "management",
+            "planning",
+            "NominalGroup"
+        ]
+    },
+    {
+        "id": "m3-pdf-55",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "The RUMBA model for goal setting/management stands for:",
+        "options": [
+            "Realistic, Understandable, Measurable, Believable, Achievable",
+            "Relevant, Useful, Meaningful, Basic, Actual",
+            "Rapid, Urgent, Managed, Balanced, Actionable",
+            "Ready, Understand, Map, Build, Act"
+        ],
+        "correctIndex": 0,
+        "explanation": "RUMBA stands for Reasonable (or Realistic), Understandable, Measurable, Believable, Achievable.",
+        "tags": [
+            "management",
+            "quality",
+            "RUMBA"
+        ]
+    },
+    {
+        "id": "m3-pdf-56",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "Kaizen is a Japanese philosophy that essentially means:",
+        "options": [
+            "Reduce cost at all costs",
+            "Change for the better (Continuous Improvement)",
+            "Respect for authority",
+            "Manufacturing excellence"
+        ],
+        "correctIndex": 1,
+        "explanation": "Kaizen translates to 'Change (Kai) for the better (Zen)', or Continuous Improvement involving everyone.",
+        "tags": [
+            "management",
+            "quality",
+            "Kaizen"
+        ]
+    },
+    {
+        "id": "m3-pdf-57",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Project Management",
+        "difficulty": "medium",
+        "text": "Which project management tool would be most useful for visualizing the sequence and dependencies of tasks to calculate the total project duration?",
+        "options": [
+            "TQM",
+            "Pareto Chart",
+            "PERT Chart",
+            "Fishbone Diagram"
+        ],
+        "correctIndex": 2,
+        "explanation": "A PERT Chart (or network diagram) is specifically designed to visualize task sequences, dependencies, and time estimates to find the critical path.",
+        "tags": [
+            "management",
+            "tools",
+            "PERT"
+        ]
+    },
+    {
+        "id": "m3-pdf-58",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "In the 'FOCUS' part of FOCUS-PDSA, the 'F' stands for:",
+        "options": [
+            "Fix the problem",
+            "Find a process to improve",
+            "Figure out the cost",
+            "Finalize the plan"
+        ],
+        "correctIndex": 1,
+        "explanation": "FOCUS: Find a process to improve, Organize a team, Clarify current knowledge, Understand methodology, Select a solution.",
+        "tags": [
+            "management",
+            "quality",
+            "FOCUS"
+        ]
+    },
+    {
+        "id": "m3-pdf-59",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "hard",
+        "text": "A 'Charrette' in planning refers to:",
+        "options": [
+            "A rigorous audit process",
+            "A collaborative planning session harnessing talents of all interested parties for a master plan",
+            "A type of financial statement",
+            "A conflict resolution technique"
+        ],
+        "correctIndex": 1,
+        "explanation": "A Charrette is an intensive, collaborative planning session (often for design or community planning) that harnesses the talents of all stakeholders.",
+        "tags": [
+            "management",
+            "planning",
+            "Charrette"
+        ]
+    },
+    {
+        "id": "m3-pdf-60",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "The IOM (Institute of Medicine) Framework for Health Care Quality identifies 6 domains. Which of the following is NOT one of them?",
+        "options": [
+            "Safe",
+            "Patient-Centered",
+            "Profitable",
+            "Equitable"
+        ],
+        "correctIndex": 2,
+        "explanation": "The 6 IOM domains are: Safe, Effective, Patient-Centered, Timely, Efficient, and Equitable. Profitability is not a quality domain in this framework.",
+        "tags": [
+            "management",
+            "quality",
+            "IOM"
+        ]
+    }
+]

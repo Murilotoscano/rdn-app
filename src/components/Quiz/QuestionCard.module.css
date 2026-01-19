@@ -1,0 +1,118 @@
+.card {
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    padding: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+}
+
+.tag {
+    background: #edf2f7;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.questionText {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    color: var(--text-main);
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.optionBtn {
+    text-align: left;
+    background: var(--surface);
+    border: 2px solid var(--border);
+    padding: 16px;
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.optionBtn:hover:not(:disabled) {
+    border-color: var(--primary);
+    background: #f7fafc;
+}
+
+.optionBtn.selected {
+    border-color: var(--primary);
+    background: #ebf8ff;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.optionBtn.correct {
+    border-color: var(--success);
+    background: #f0fff4;
+    color: var(--success);
+}
+
+.optionBtn.incorrect {
+    border-color: var(--error);
+    background: #fff5f5;
+    color: var(--error);
+}
+
+.feedback {
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: var(--radius-md);
+    background: #f7fafc;
+    border: 1px dashed var(--border);
+    animation: fadeIn 0.3s ease;
+}
+
+.feedbackTitle {
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.actions {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

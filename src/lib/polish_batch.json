@@ -1,0 +1,624 @@
+[
+    {
+        "id": "m1-polish-01",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "hard",
+        "text": "In a research study, the variable that is manipulated by the researcher to observe its effect is known as the:",
+        "options": [
+            "Dependent variable",
+            "Independent variable",
+            "Confounding variable",
+            "Outcome variable"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Independent variable is what is changed or controlled (e.g., the diet provided). The Dependent variable is what is measured (e.g., weight loss).",
+        "tags": [
+            "research",
+            "variables",
+            "design"
+        ]
+    },
+    {
+        "id": "m1-polish-02",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "Which type of study design involves a group of individuals who share a common characteristic and are observed over a period of time to track disease incidence?",
+        "options": [
+            "Cross-sectional study",
+            "Case-control study",
+            "Cohort study",
+            "Randomized controlled trial"
+        ],
+        "correctIndex": 2,
+        "explanation": "A Cohort study (or incidence study) tracks a group of people (cohort) over time to see if they develop a specific outcome/disease.",
+        "tags": [
+            "research",
+            "study_design",
+            "cohort"
+        ]
+    },
+    {
+        "id": "m1-polish-03",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "Reliability in research refers to:",
+        "options": [
+            "The accuracy of the measurement",
+            "The ability of the tool to measure what it intends to measure",
+            "The reproducibility or consistency of the results",
+            "The statistical significance of the findings"
+        ],
+        "correctIndex": 2,
+        "explanation": "Reliability is about consistency/reproducibility. Validity is about accuracy (measuring what it is supposed to measure).",
+        "tags": [
+            "research",
+            "validity",
+            "reliability"
+        ]
+    },
+    {
+        "id": "m1-polish-04",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "hard",
+        "text": "A P-value of < 0.05 indicates that:",
+        "options": [
+            "The results are definitely due to chance",
+            "There is a significant difference, and the results are reliable",
+            "The null hypothesis is true",
+            "The confidence interval is 90%"
+        ],
+        "correctIndex": 1,
+        "explanation": "A P-value < 0.05 means there is less than a 5% probability that the results happened by chance alone, typically indicating statistical significance.",
+        "tags": [
+            "research",
+            "statistics",
+            "p-value"
+        ]
+    },
+    {
+        "id": "m1-polish-05",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "Which measure of central tendency is most affected by extreme values or outliers?",
+        "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Range"
+        ],
+        "correctIndex": 0,
+        "explanation": "The Mean (average) is pulled towards outliers. The Median is more robust against extremes.",
+        "tags": [
+            "research",
+            "statistics"
+        ]
+    },
+    {
+        "id": "m1-polish-06",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "A study that compares people with a disease to people without the disease to look for past exposure differences is called:",
+        "options": [
+            "Cohort study",
+            "Case-control study",
+            "Cross-sectional study",
+            "Ecological study"
+        ],
+        "correctIndex": 1,
+        "explanation": "Case-control studies look back in time (retrospective) to compare 'cases' (with disease) and 'controls' (without) regarding exposures.",
+        "tags": [
+            "research",
+            "study_design"
+        ]
+    },
+    {
+        "id": "m1-polish-07",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "hard",
+        "text": "What does a correlation coefficient (r) of -1.0 indicate?",
+        "options": [
+            "No correlation",
+            "A perfect positive correlation",
+            "A perfect negative (inverse) correlation",
+            "A weak negative relationship"
+        ],
+        "correctIndex": 2,
+        "explanation": "r = -1.0 indicates a perfect negative correlation (as one variable goes up, the other goes down perfectly).",
+        "tags": [
+            "research",
+            "statistics",
+            "correlation"
+        ]
+    },
+    {
+        "id": "m1-polish-08",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "Double-blind studies are designed to reduce:",
+        "options": [
+            "Selection bias",
+            "Researcher and participant bias",
+            "Confounding variables",
+            "Statistical error"
+        ],
+        "correctIndex": 1,
+        "explanation": "In a double-blind study, neither the researcher nor the participant knows who is in the control vs. experimental group, removing bias from both.",
+        "tags": [
+            "research",
+            "study_design",
+            "bias"
+        ]
+    },
+    {
+        "id": "m1-polish-09",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "Nominal data refers to data that can be:",
+        "options": [
+            "Ranked in order (e.g., 1st, 2nd, 3rd)",
+            "Measured on a continuous scale",
+            "Categorized into discrete names/labels (e.g., Gender, Race)",
+            "Measured with a true zero point"
+        ],
+        "correctIndex": 2,
+        "explanation": "Nominal data is categorical with no implied order (Name changes only). Ordinal data implies rank.",
+        "tags": [
+            "research",
+            "statistics",
+            "variables"
+        ]
+    },
+    {
+        "id": "m1-polish-10",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "hard",
+        "text": "Which of the following describes the difference between Effectiveness and Efficiency in research or management?",
+        "options": [
+            "Effectiveness is doing things right; Efficiency is doing the right things",
+            "Effectiveness is doing the right things (outcome); Efficiency is doing things right (resource use)",
+            "They are synonyms",
+            "Efficiency is only about money"
+        ],
+        "correctIndex": 1,
+        "explanation": "Effectiveness relates to the degree to which an objective is achieved (the outcome). Efficiency relates to the minimization of resources used to achieve that outcome.",
+        "tags": [
+            "research",
+            "management",
+            "definitions"
+        ]
+    },
+    {
+        "id": "m1-polish-11",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "The 'Gold Standard' for clinical research, which best establishes cause and effect, is:",
+        "options": [
+            "Case Series",
+            "Randomized Controlled Trial (RCT)",
+            "Cohort Study",
+            "Cross-sectional survey"
+        ],
+        "correctIndex": 1,
+        "explanation": "RCTs are the gold standard for clinical intervention because randomization and control groups minimize bias and confounding, allowing for causal inference.",
+        "tags": [
+            "research",
+            "study_design",
+            "rct"
+        ]
+    },
+    {
+        "id": "m1-polish-12",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "Validity implies that a test:",
+        "options": [
+            "Produces the same result every time",
+            "Is easy to administer",
+            "Meaures exactly what it is intended to measure",
+            "Is cost-effective"
+        ],
+        "correctIndex": 2,
+        "explanation": "Validity is accuracy. A scale might be reliable (give the same weight every time) but not valid (if it's off by 5 lbs).",
+        "tags": [
+            "research",
+            "validity"
+        ]
+    },
+    {
+        "id": "m3-polish-13",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "Calculate the Break-Even Point (BEP) in sales volume given: Fixed Costs = $50,000, Variable Cost per Unit = $5, Selling Price per Unit = $10.",
+        "options": [
+            "$500,000",
+            "$100,000",
+            "$200,000",
+            "$50,000"
+        ],
+        "correctIndex": 1,
+        "explanation": "BEP (Sales) = Fixed Costs / (1 - (Variable Cost/Sales Price)). VC/Sales = 5/10 = 0.5. BEP = 50,000 / (1 - 0.5) = 50,000 / 0.5 = $100,000.",
+        "tags": [
+            "management",
+            "financial",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m3-polish-14",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "A foodservice operation typically has a food cost percentage of 30%. If food cost is $12,000 for the month, what were the total food sales?",
+        "options": [
+            "$36,000",
+            "$40,000",
+            "$4,000",
+            "$30,000"
+        ],
+        "correctIndex": 1,
+        "explanation": "Food Cost % = (Cost of Food / Sales). So, Sales = Cost of Food / Food Cost %. Sales = 12,000 / 0.30 = 40,000.",
+        "tags": [
+            "management",
+            "financial",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m3-polish-15",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "medium",
+        "text": "Which financial statement shows the financial condition of a company at a specific point in time (snapshot of assets, liabilities, equity)?",
+        "options": [
+            "Profit and Loss Statement (Income Statement)",
+            "Balance Sheet",
+            "Cash Flow Statement",
+            "Budget Report"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Balance Sheet represents the equation: Assets = Liabilities + Equity at a specific date. The P&L shows performance over a period of time.",
+        "tags": [
+            "management",
+            "financial",
+            "statements"
+        ]
+    },
+    {
+        "id": "m3-polish-16",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "The PDCA cycle is a continuous quality improvement model. PDCA stands for:",
+        "options": [
+            "Plan, Do, Check, Act",
+            "Prepare, Do, Correct, Act",
+            "Plan, Design, Create, Assess",
+            "Prioritize, Delegate, Control, Achieve"
+        ],
+        "correctIndex": 0,
+        "explanation": "PDCA (Plan-Do-Check-Act) or PDSA (Plan-Do-Study-Act) is the cyclical process for continuous improvement.",
+        "tags": [
+            "management",
+            "quality",
+            "improvement"
+        ]
+    },
+    {
+        "id": "m3-polish-17",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "medium",
+        "text": "Inventory Turnover Rate is calculated as:",
+        "options": [
+            "Cost of Goods Sold / Average Inventory",
+            "Total Sales / Total Inventory",
+            "Average Inventory / Cost of Goods Sold",
+            "Sales / Fixed Assets"
+        ],
+        "correctIndex": 0,
+        "explanation": "Inventory Turnover = Cost of Goods Sold / Average Inventory. It measures how effectively inventory is being used.",
+        "tags": [
+            "management",
+            "financial",
+            "inventory"
+        ]
+    },
+    {
+        "id": "m3-polish-18",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "hard",
+        "text": "A 'Sentinel Event' in a healthcare setting refers to:",
+        "options": [
+            "A minor error in charting",
+            "An unexpected occurrence involving death or serious physical/psychological injury",
+            "A routine audit finding",
+            "A patient complaint about food temperature"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sentinel events are serious, unexpected events that result in death or serious injury (e.g., surgery on the wrong body part, inpatient suicide) and require immediate investigation.",
+        "tags": [
+            "management",
+            "quality",
+            "safety"
+        ]
+    },
+    {
+        "id": "m3-polish-19",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "Using the Factor Method (Markup Method), if the food cost percentage target is 40%, what is the markup factor?",
+        "options": [
+            "2.0",
+            "2.5",
+            "4.0",
+            "0.4"
+        ],
+        "correctIndex": 1,
+        "explanation": "Markup Factor = 100 / Food Cost %. Factor = 100 / 40 = 2.5.",
+        "tags": [
+            "management",
+            "financial",
+            "pricing"
+        ]
+    },
+    {
+        "id": "m3-polish-20",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "Six Sigma is a data-driven approach for improving quality by:",
+        "options": [
+            "Increasing production speed regardless of errors",
+            "Removing defects and minimizing variability",
+            "Focusing solely on employee satisfaction",
+            "Reducing food costs"
+        ],
+        "correctIndex": 1,
+        "explanation": "Six Sigma focuses on removing causes of defects and minimizing variability in manufacturing and business processes.",
+        "tags": [
+            "management",
+            "quality",
+            "methodologies"
+        ]
+    },
+    {
+        "id": "m3-polish-21",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "Which act guarantees right to organize and join labor unions?",
+        "options": [
+            "Taft-Hartley Act",
+            "Wagner Act (National Labor Relations Act)",
+            "Landrum-Griffin Act",
+            "Fair Labor Standards Act"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Wagner Act (1935), also known as the National Labor Relations Act (NLRA), guarantees the right to organize and join labor unions.",
+        "tags": [
+            "management",
+            "hr",
+            "laws"
+        ]
+    },
+    {
+        "id": "m3-polish-22",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "medium",
+        "text": "Which of the following implies a 'Fixed Cost'?",
+        "options": [
+            "Food",
+            "Paper supplies",
+            "Rent or Mortgage payment",
+            "Utilities (usually)"
+        ],
+        "correctIndex": 2,
+        "explanation": "Fixed costs do not vary with the volume of business (e.g., Rent, Insurance, Taxes). Food is a variable cost.",
+        "tags": [
+            "management",
+            "financial",
+            "definitions"
+        ]
+    },
+    {
+        "id": "m1-polish-23",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "In a normal distribution (Bell Curve), what percentage of data falls within +/- 1 Standard Deviation of the mean?",
+        "options": [
+            "95%",
+            "68%",
+            "99.7%",
+            "50%"
+        ],
+        "correctIndex": 1,
+        "explanation": "In a normal distribution, ~68% of data falls within 1 SD, ~95% within 2 SD, and ~99.7% within 3 SD.",
+        "tags": [
+            "research",
+            "statistics"
+        ]
+    },
+    {
+        "id": "m1-polish-24",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "hard",
+        "text": "Which variable type involves distinct categories with no inherent order?",
+        "options": [
+            "Ordinal",
+            "Interval",
+            "Nominal",
+            "Ratio"
+        ],
+        "correctIndex": 2,
+        "explanation": "Nominal variables are categorical without order (e.g., Male/Female). Ordinal has order (e.g., Stage I, II, III).",
+        "tags": [
+            "research",
+            "statistics",
+            "variables"
+        ]
+    },
+    {
+        "id": "m3-polish-25",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality Management",
+        "difficulty": "medium",
+        "text": "Benchmarking is the process of:",
+        "options": [
+            "Setting the lowest possible standards",
+            "Comparing one's performance metrics against best practices/industry leaders",
+            "Sitting on a bench",
+            "Internal auditing only"
+        ],
+        "correctIndex": 1,
+        "explanation": "Benchmarking involves comparing performance against best-in-class standards to identify areas for improvement.",
+        "tags": [
+            "management",
+            "quality",
+            "improvement"
+        ]
+    },
+    {
+        "id": "m1-polish-26",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "Incidence refers to:",
+        "options": [
+            "The total number of existing cases of a disease at a point in time",
+            "The number of NEW cases of a disease over a period of time",
+            "The death rate",
+            "The cure rate"
+        ],
+        "correctIndex": 1,
+        "explanation": "Incidence = NEW cases. Prevalence = EXISTING cases (total).",
+        "tags": [
+            "research",
+            "epidemiology"
+        ]
+    },
+    {
+        "id": "m3-polish-27",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial Management",
+        "difficulty": "hard",
+        "text": "If a meal costs $2.00 to produce and you want a 33% food cost percentage, what should the selling price be?",
+        "options": [
+            "$6.00",
+            "$5.00",
+            "$4.00",
+            "$6.60"
+        ],
+        "correctIndex": 0,
+        "explanation": "Selling Price = Cost / Food Cost %. Price = 2.00 / 0.33 = $6.06 (round to $6.00 approx or use exact math 2/0.33... typically markup factor is 3 for 33%). 2 * 3 = 6.",
+        "tags": [
+            "management",
+            "financial",
+            "pricing"
+        ]
+    },
+    {
+        "id": "m1-polish-28",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "Cross-sectional studies are useful for:",
+        "options": [
+            "Determining cause and effect",
+            "Monitoring changes over long periods",
+            "Determining prevalence of a condition at a specific point in time",
+            "Rare diseases"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cross-sectional studies take a snapshot of a population at one point in time, useful for measuring prevalence.",
+        "tags": [
+            "research",
+            "study_design"
+        ]
+    },
+    {
+        "id": "m3-polish-29",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "The management function 'Controlling' primarily involves:",
+        "options": [
+            "Hiring staff",
+            "Measuring performance against standards and taking corrective action",
+            "Setting long-term goals",
+            "Developing marketing strategies"
+        ],
+        "correctIndex": 1,
+        "explanation": "Controlling is the process of monitoring performance, comparing it with goals/standards, and correcting any significant deviations.",
+        "tags": [
+            "management",
+            "functions"
+        ]
+    },
+    {
+        "id": "m1-polish-30",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research Applications",
+        "difficulty": "medium",
+        "text": "Which of the following research types is qualitative?",
+        "options": [
+            "Survey with Likert scale",
+            "RCT",
+            "Focus Group",
+            "Cohort Study"
+        ],
+        "correctIndex": 2,
+        "explanation": "Focus groups collect narrative, non-numerical data (opinions, feelings), which is the hallmark of qualitative research.",
+        "tags": [
+            "research",
+            "qualitative"
+        ]
+    }
+]

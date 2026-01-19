@@ -1,0 +1,422 @@
+[
+    {
+        "id": "m4-pdf-01",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "Which type of menu is characterized by offering the same items every day, is typical of fast-food chains, and simplifies purchasing and staffing?",
+        "options": [
+            "Cycle menu",
+            "Single-use menu",
+            "Static menu",
+            "Du jour menu"
+        ],
+        "correctIndex": 2,
+        "explanation": "A static menu offers the same items every day. It is common in restaurants where the clientele changes daily, simplifying production and purchasing.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "types"
+        ]
+    },
+    {
+        "id": "m4-pdf-02",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "A 'Cycle Menu' is most advantageous for which type of foodservice operation?",
+        "options": [
+            "Fine dining restaurant",
+            "Long-term care facility or hospital",
+            "Wedding catering",
+            "Airport kiosk"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cycle menus (repeating menus over a period like 3-4 weeks) are best for onsite foodservice where the same customers are fed daily (hospitals, schools, LTC) to ensure variety while controlling costs.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "types"
+        ]
+    },
+    {
+        "id": "m4-pdf-03",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "hard",
+        "text": "Menu Engineering classifies items based on profitability (contribution margin) and popularity (menu mix). A 'Plow Horse' item is:",
+        "options": [
+            "High profit, High popularity",
+            "Low profit, Low popularity",
+            "High profit, Low popularity",
+            "Low profit, High popularity"
+        ],
+        "correctIndex": 3,
+        "explanation": "A Plow Horse is popular but has low profitability (e.g., steak). Managers might try to increase the price or reduce portion size to improve the contribution margin.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "engineering"
+        ]
+    },
+    {
+        "id": "m4-pdf-04",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "hard",
+        "text": "Calculate the popularity index for Chicken Parmesan if 150 units were sold and total sales for all items in that category were 400 units.",
+        "options": [
+            "26.6%",
+            "37.5%",
+            "45%",
+            "2.6%"
+        ],
+        "correctIndex": 1,
+        "explanation": "Popularity Index = (Number of servings of an item / Total servings of all items in that category) * 100. 150 / 400 = 0.375 or 37.5%.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-05",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "medium",
+        "text": "The first step in the formal procurement process is:",
+        "options": [
+            "Evaluate bids",
+            "Award the contract",
+            "Develop written specifications",
+            "Contact vendors"
+        ],
+        "correctIndex": 2,
+        "explanation": "The procurement process begins with developing written specifications to clearly define the product quality and requirements before contacting sources.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "process"
+        ]
+    },
+    {
+        "id": "m4-pdf-06",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "Which menu pricing method sets the selling price by dividing the raw food cost by the desired food cost percentage?",
+        "options": [
+            "Prime Cost Method",
+            "Actual Cost Method",
+            "Factor Method (Markup Method)",
+            "Competition-Based Pricing"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Factor Method (or Markup Method) uses a pricing factor (100 / Desired Food Cost %) multiplied by the raw food cost to determine the selling price.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "pricing"
+        ]
+    },
+    {
+        "id": "m4-pdf-07",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "hard",
+        "text": "A 'Just-in-Time' (JIT) purchasing system is characterized by:",
+        "options": [
+            "Ordering large quantities to get bulk discounts",
+            "Purchasing products for immediate production and consumption without storing them in inventory",
+            "Always keeping a 3-month supply of safety stock",
+            "Using a centralized warehouse"
+        ],
+        "correctIndex": 1,
+        "explanation": "JIT purchasing involves buying items only as they are needed for production, reducing inventory holding costs and storage space requirements.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "inventory"
+        ]
+    },
+    {
+        "id": "m4-pdf-08",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "medium",
+        "text": "In inventory management, 'FIFO' stands for:",
+        "options": [
+            "Fresh In, Fresh Out",
+            "First In, First Out",
+            "Fast In, Fast Out",
+            "Final In, Final Out"
+        ],
+        "correctIndex": 1,
+        "explanation": "FIFO (First In, First Out) is an inventory rotation method where the oldest stock (first in) is used first (first out) to minimize spoilage and waste.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "inventory"
+        ]
+    },
+    {
+        "id": "m4-pdf-09",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "A menu that offers a complete meal at a set price is known as a:",
+        "options": [
+            "A la carte menu",
+            "Table d'hote (or Prix Fixe) menu",
+            "Du jour menu",
+            "Static menu"
+        ],
+        "correctIndex": 1,
+        "explanation": "Prix Fixe or Table d'hote menus offer a complete meal (several courses) for a single fixed price, as opposed to a la carte where items are priced separately.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "types"
+        ]
+    },
+    {
+        "id": "m4-pdf-10",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "hard",
+        "text": "Which purchasing document is an internal form used by a foodservice manager to request items from the purchasing manager?",
+        "options": [
+            "Purchase Order",
+            "Invoice",
+            "Requisition Form",
+            "Specification"
+        ],
+        "correctIndex": 2,
+        "explanation": "A Requisition Form is an internal document used to request needed items from the purchasing department. The purchasing department then issues a Purchase Order to the supplier.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "documents"
+        ]
+    },
+    {
+        "id": "m4-pdf-11",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "medium",
+        "text": "The 'ABC' inventory classification system groups items based on:",
+        "options": [
+            "Alphabetical order",
+            "Nutritional value",
+            "Relative importance (value of total inventory activity)",
+            "Storage temperature requirements"
+        ],
+        "correctIndex": 2,
+        "explanation": "The ABC system classifies inventory by value: 'A' items are high-value (15-20% of items, 75-80% of value), 'B' are medium, and 'C' are low-value (like napkins/sugar packets).",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "inventory"
+        ]
+    },
+    {
+        "id": "m4-pdf-12",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "Which aesthetic factor in menu planning refers to the variety of soft, crisp, firm, and chewy sensations in a meal?",
+        "options": [
+            "Consistency",
+            "Texture",
+            "Flavor",
+            "Color"
+        ],
+        "correctIndex": 1,
+        "explanation": "Texture refers to the structure of foods (crisp, soft, smooth). Consistency refers to the degree of firmness, density, or viscosity (runny, thick).",
+        "tags": [
+            "foodservice",
+            "menu",
+            "aesthetics"
+        ]
+    },
+    {
+        "id": "m4-pdf-13",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "hard",
+        "text": "In a 'Prime Vendor' agreement:",
+        "options": [
+            "The buyer purchases 100% of their needs from the most expensive vendor",
+            "The buyer agrees to purchase the majority (e.g., 90-95%) of their products from a single vendor in exchange for lower prices",
+            "The vendor is the only supplier in the region",
+            "Purchases are made through a government agency"
+        ],
+        "correctIndex": 1,
+        "explanation": "A Prime Vendor agreement involves a formal commitment to buy the vast majority of goods from a single distributor to secure volume discounts and streamline ordering.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "contracts"
+        ]
+    },
+    {
+        "id": "m4-pdf-14",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "hard",
+        "text": "In Menu Engineering, a 'Dog' item is one that is:",
+        "options": [
+            "High profit, High popularity",
+            "High profit, Low popularity",
+            "Low profit, Low popularity",
+            "Low profit, High popularity"
+        ],
+        "correctIndex": 2,
+        "explanation": "A Dog item is low in both popularity and contribution margin (profitability). Managers usually consider removing these items from the menu.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "engineering"
+        ]
+    },
+    {
+        "id": "m4-pdf-15",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "medium",
+        "text": "Which receiving method involves giving the receiving clerk a blind invoice (with quantities omitted) to force them to count every item?",
+        "options": [
+            "Blind Check Method",
+            "Direct Check Method",
+            "Spot Check Method",
+            "Quality Assay Method"
+        ],
+        "correctIndex": 0,
+        "explanation": "The Blind Check method requires the receiver to count and weigh everything because they don't know the expected quantity, ensuring accuracy but taking more time.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "receiving"
+        ]
+    },
+    {
+        "id": "m4-pdf-16",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "Psychological pricing strategies suggest that odd-cents pricing (e.g., $4.99) creates the perception of:",
+        "options": [
+            "Higher quality",
+            "A bargain or value",
+            "Luxury status",
+            "Rounded numbers"
+        ],
+        "correctIndex": 1,
+        "explanation": "Odd-cents pricing (ending in odd numbers like 5, 7, 9) is used to signal value or a bargain. High-end restaurants often use round numbers for a perception of quality.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "psychology"
+        ]
+    },
+    {
+        "id": "m4-pdf-17",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "medium",
+        "text": "A 'Can Cutting' is used to:",
+        "options": [
+            "Open cans quickly during service",
+            "Evaluate quality, drained weight, and appearance of products from different vendors",
+            "Recycle metal cans",
+            "Reduce can storage space"
+        ],
+        "correctIndex": 1,
+        "explanation": "Can cutting is a physical evaluation process where products from different vendors are opened and compared for quality, taste, texture, and yield before purchasing decisions are made.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "evaluation"
+        ]
+    },
+    {
+        "id": "m4-pdf-18",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "Which type of menu is typically used for special events or catering, such as a wedding or holiday meal?",
+        "options": [
+            "Cyclic menu",
+            "Static menu",
+            "Single-use menu",
+            "Selective menu"
+        ],
+        "correctIndex": 2,
+        "explanation": "A single-use menu is planned for a specific event or day (e.g., a holiday or catered function) and is not repeated in exactly the same way.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "types"
+        ]
+    },
+    {
+        "id": "m4-pdf-19",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Procurement",
+        "difficulty": "hard",
+        "text": "The Economic Order Quantity (EOQ) model attempts to minimize which two costs?",
+        "options": [
+            "Food costs and labor costs",
+            "Ordering costs and inventory holding costs",
+            "Shipping costs and taxes",
+            "production costs and waste"
+        ],
+        "correctIndex": 1,
+        "explanation": "EOQ balances ordering costs (processed per order) and holding costs (cost of storing inventory) to determine the optimal order size.",
+        "tags": [
+            "foodservice",
+            "procurement",
+            "inventory"
+        ]
+    },
+    {
+        "id": "m4-pdf-20",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu Development",
+        "difficulty": "medium",
+        "text": "Truth-in-Menu laws require accurate description of:",
+        "options": [
+            "Only the price",
+            "The exact caloric content only",
+            "Quantity, Quality (grade), Price, Brand names, Product identification, and Points of origin",
+            "The supplier's name"
+        ],
+        "correctIndex": 2,
+        "explanation": "Truth-in-Menu legislation requires that menus accurately describe foods regarding quantity (size), quality (grade), price, brand names, product ID (e.g., 'Maine' lobster), and preservation method.",
+        "tags": [
+            "foodservice",
+            "menu",
+            "regulations"
+        ]
+    }
+]

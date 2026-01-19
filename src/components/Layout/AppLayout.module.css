@@ -1,0 +1,24 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.mainContent {
+    flex: 1;
+    padding: 24px 16px;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    .layout {
+        flex-direction: row;
+    }
+
+    .mainContent {
+        margin-left: 280px;
+        /* Sidebar width */
+        padding: 32px;
+    }
+}

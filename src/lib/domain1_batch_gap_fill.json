@@ -1,0 +1,521 @@
+[
+    {
+        "id": "m1-gap-01",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Which educational method focuses on adult learners, assuming they are self-directed and motivated by internal factors?",
+        "options": [
+            "Pedagogy",
+            "Andragogy",
+            "Demagogy",
+            "Psychology"
+        ],
+        "correctIndex": 1,
+        "explanation": "Andragogy is the art and science of helping adults learn. It assumes adults are self-directed, problem-centered, and internally motivated (e.g., quality of life, self-esteem).",
+        "tags": [
+            "education",
+            "theories",
+            "andragogy"
+        ]
+    },
+    {
+        "id": "m1-gap-02",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "When assessing the readability of written educational materials for the general population (high literacy), the aim should be a reading level of:",
+        "options": [
+            "12th grade",
+            "8th grade",
+            "4th grade",
+            "College level"
+        ],
+        "correctIndex": 1,
+        "explanation": "For the general population or high literacy groups, an 8th-grade reading level is recommended. For low literacy usage, a 6th-grade level is preferred. The SMOG index is used to calculate this.",
+        "tags": [
+            "education",
+            "communication",
+            "literacy"
+        ]
+    },
+    {
+        "id": "m1-gap-03",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "In the Transtheoretical Model (Stages of Change), a client who is aware of a health problem and is considering making a change within the next 6 months but has not yet committed to taking action is in which stage?",
+        "options": [
+            "Precontemplation",
+            "Contemplation",
+            "Preparation",
+            "Action"
+        ],
+        "correctIndex": 1,
+        "explanation": "Contemplation is the stage where the individual is aware of the problem and thinking about changing (weighing pros/cons) but has not yet committed to a plan.",
+        "tags": [
+            "counseling",
+            "behavioral_theories",
+            "transtheoretical"
+        ]
+    },
+    {
+        "id": "m1-gap-04",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Which listening response typically involves the counselor paraphrasing what the client said to focus on the client's feelings?",
+        "options": [
+            "Probing",
+            "Reflective Listening",
+            "Legitimation",
+            "Evaluation"
+        ],
+        "correctIndex": 1,
+        "explanation": "Reflective Listening involved rephrasing or summarizing what the client has said to show understanding and help the client hear their own thoughts/feelings (e.g., 'So you feel frustrated when...').",
+        "tags": [
+            "counseling",
+            "communication",
+            "listening"
+        ]
+    },
+    {
+        "id": "m1-gap-05",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "In Motivational Interviewing, 'Sustain Talk' refers to:",
+        "options": [
+            "Statements by the client that support making a change",
+            "Statements by the client that argue for the status quo (not changing)",
+            "The counselor's sustainability plan",
+            "Long-term maintenance of a goal"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sustain talk is client speech that favors the status quo or argues against change (e.g., 'I just don't have time to cook'). The goal of MI is to reduce sustain talk and elicit 'Change Talk'.",
+        "tags": [
+            "counseling",
+            "motivational_interviewing"
+        ]
+    },
+    {
+        "id": "m1-gap-06",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "According to the Health Belief Model, 'Self-efficacy' is defined as:",
+        "options": [
+            "The belief that one is susceptible to a disease",
+            "The belief that the new behavior is beneficial",
+            "The individual's belief in their own ability to successfully perform a behavior",
+            "The cues that trigger action"
+        ],
+        "correctIndex": 2,
+        "explanation": "Self-efficacy is the confidence an individual has in their ability to execute the specific behavior required to produce the desired outcome.",
+        "tags": [
+            "counseling",
+            "behavioral_theories",
+            "hbm"
+        ]
+    },
+    {
+        "id": "m1-gap-07",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Which type of evaluation is conducted *during* the educational process to identify learning gaps and adjust instruction?",
+        "options": [
+            "Summative Evaluation",
+            "Formative Evaluation",
+            "Outcome Evaluation",
+            "Criterion-referenced Evaluation"
+        ],
+        "correctIndex": 1,
+        "explanation": "Formative evaluation occurs during the learning process (e.g., a pre-test or a focus group mid-program) to guide improvements. Summative happens at the end.",
+        "tags": [
+            "education",
+            "evaluation"
+        ]
+    },
+    {
+        "id": "m1-gap-08",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "In the context of cultural competence, the 'ETHNIC' model stands for:",
+        "options": [
+            "Explanation, Treatment, Healers, Negotiation, Intervention, Collaboration",
+            "Ethics, Time, Health, Nutrition, Intelligence, Care",
+            "Empathy, Trust, Help, Nutrition, Interaction, Communication",
+            "None of the above"
+        ],
+        "correctIndex": 0,
+        "explanation": "The ETHNIC model includes: Explanation (how client explains illness), Treatment (what they expect), Healers (traditional), Negotiation (options), Intervention, Collaboration.",
+        "tags": [
+            "counseling",
+            "cultural_competence"
+        ]
+    },
+    {
+        "id": "m1-gap-09",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "When teaching elderly clients, it is most important to:",
+        "options": [
+            "Use long, detailed written materials",
+            "Speak rapidly to cover more content",
+            "Keep sessions short and focus on one or two key concepts",
+            "Focus heavily on peer pressure"
+        ],
+        "correctIndex": 2,
+        "explanation": "Elderly clients may have decreased attention spans or short-term memory issues. Short, focused sessions with clear takeaways are most effective.",
+        "tags": [
+            "education",
+            "populations",
+            "elderly"
+        ]
+    },
+    {
+        "id": "m1-gap-10",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "Operant Conditioning (Skinner) suggests that behavior is influenced by:",
+        "options": [
+            "Unconscious desires",
+            "The consequences of the behavior (positive or negative reinforcement)",
+            "Observing others (modeling)",
+            "Genetic predisposition"
+        ],
+        "correctIndex": 1,
+        "explanation": "Operant conditioning relies on the principle that behavior is increasing if followed by positive reinforcement (reward) and decreased by punishment or negative reinforcement.",
+        "tags": [
+            "education",
+            "behavioral_theories",
+            "conditioning"
+        ]
+    },
+    {
+        "id": "m1-gap-11",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "In Motivational Interviewing, recognizing a discrepancy between the client's current behavior and their broader goals/values is called:",
+        "options": [
+            "Developing Discrepancy",
+            "Rolling with Resistance",
+            "Expressing Empathy",
+            "Supporting Self-Efficacy"
+        ],
+        "correctIndex": 0,
+        "explanation": "Developing Discrepancy involves helping the client see that their current behavior (e.g., smoking, poor diet) conflicts with their stated values or goals (e.g., living to see grandkids).",
+        "tags": [
+            "counseling",
+            "motivational_interviewing"
+        ]
+    },
+    {
+        "id": "m1-gap-12",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Which zone of personal space (proxemics) is generally appropriate for a business or consulting interaction (like nutrition counseling) in the US?",
+        "options": [
+            "Intimate Zone (< 18 inches)",
+            "Personal Zone (18 inches - 4 feet)",
+            "Social Zone (4 - 12 feet)",
+            "Public Zone (> 12 feet)"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Personal Zone (18 inches to 4 feet) is typical for one-on-one interactions like counseling or instruction. The Social zone is for group interactions.",
+        "tags": [
+            "counseling",
+            "communication",
+            "proxemics"
+        ]
+    },
+    {
+        "id": "m1-gap-13",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Social Cognitive Theory (Bandura) emphasizes the role of:",
+        "options": [
+            "Genetics only",
+            "Observational learning (modeling) and the interaction between person, behavior, and environment",
+            "Unconscious drives",
+            "Dietary intake only"
+        ],
+        "correctIndex": 1,
+        "explanation": "Social Cognitive Theory highlights that people learn not just from their own experience but by observing others (modeling) and through the reciprocal interaction of personal factors, behavior, and the environment.",
+        "tags": [
+            "education",
+            "behavioral_theories",
+            "sct"
+        ]
+    },
+    {
+        "id": "m1-gap-14",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "A client says, 'I really want to lose weight, but I tried before and failed.' The counselor responds, 'You have a strong desire to be healthier, but you're worried about failing again.' This is an example of:",
+        "options": [
+            "A double-sided reflection",
+            "Confrontation",
+            "Advice giving",
+            "Closed question"
+        ],
+        "correctIndex": 0,
+        "explanation": "A double-sided reflection acknowledges both sides of the client's ambivalence (the 'sustain talk' and the 'change talk'), helping them feel understood without taking sides.",
+        "tags": [
+            "counseling",
+            "communication",
+            "reflections"
+        ]
+    },
+    {
+        "id": "m1-gap-15",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "What is the acronym 'OARS' used for in Motivational Interviewing?",
+        "options": [
+            "Open-ended questions, Affirmations, Reflections, Summaries",
+            "Observe, Assess, Respond, Strategize",
+            "Openness, Attitude, Respect, Support",
+            "Order, Ask, Reply, Send"
+        ],
+        "correctIndex": 0,
+        "explanation": "OARS stands for the core skills of MI: Open-ended questions, Affirmations, Reflective listening, and Summaries.",
+        "tags": [
+            "counseling",
+            "motivational_interviewing"
+        ]
+    },
+    {
+        "id": "m1-gap-16",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Cognitive Behavioral Therapy (CBT) is based on the idea that:",
+        "options": [
+            "We are controlled by our environment",
+            "Thoughts create feelings, which influence behaviors (Change thoughts -> Change behavior)",
+            "Childhood trauma dictates adult behavior",
+            "Medication is the only solution"
+        ],
+        "correctIndex": 1,
+        "explanation": "CBT posits that negative thoughts (cognitions) lead to negative feelings and maladaptive behaviors. By challenging and modifying these thoughts, one can change feelings and behaviors.",
+        "tags": [
+            "counseling",
+            "behavioral_theories",
+            "cbt"
+        ]
+    },
+    {
+        "id": "m1-gap-17",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "A 'Summative Evaluation' example in a nutrition class would be:",
+        "options": [
+            "A pre-test given on the first day",
+            "Asking students if they understand as you go",
+            "A final exam or post-test at the end of the course",
+            "A pilot study"
+        ],
+        "correctIndex": 2,
+        "explanation": "Summative evaluation assesses the final outcome or impact of an intervention (e.g., did they learn the material? did behaviors change?) after it is completed.",
+        "tags": [
+            "education",
+            "evaluation"
+        ]
+    },
+    {
+        "id": "m1-gap-18",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "'Legitimation' as a counseling response involves:",
+        "options": [
+            "Telling the client they are legally correct",
+            "Acknowledging that the client's feelings are valid and understandable",
+            "Giving legal advice",
+            "Proving your credentials"
+        ],
+        "correctIndex": 1,
+        "explanation": "Legitimation puts the counselor in an empathetic position, validating the client's feelings ('It is normal to feel angry in this situation').",
+        "tags": [
+            "counseling",
+            "communication",
+            "skills"
+        ]
+    },
+    {
+        "id": "m1-gap-19",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "The 'Action' stage of the Transtheoretical Model is defined as taking steps to change behavior for:",
+        "options": [
+            "At least 1 day",
+            "Less than 6 months",
+            "More than 6 months",
+            "Years"
+        ],
+        "correctIndex": 1,
+        "explanation": "Action is the stage where clear modifications in lifestyle have occurred for less than 6 months. Maintenance is sustainment for more than 6 months.",
+        "tags": [
+            "counseling",
+            "behavioral_theories",
+            "transtheoretical"
+        ]
+    },
+    {
+        "id": "m1-gap-20",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "When counseling a client with low health literacy, it is best to:",
+        "options": [
+            "Use complex medical terminology to show expertise",
+            "Use pictures, simple language, and the 'teach-back' method",
+            "Provide long pamphlets",
+            "Speak loudly"
+        ],
+        "correctIndex": 1,
+        "explanation": "Visuals, plain language, and asking the client to repeat back what they understood ('teach-back') are best practices for low health literacy.",
+        "tags": [
+            "education",
+            "communication",
+            "literacy"
+        ]
+    },
+    {
+        "id": "m1-gap-21",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "In the 'Preparation' stage of change, the most appropriate intervention is:",
+        "options": [
+            "Raising awareness of the problem",
+            "Helping the client identify a specific plan and setting goals",
+            "Relapse prevention",
+            "Confrontation"
+        ],
+        "correctIndex": 1,
+        "explanation": "In Preparation, the client intends to act soon (within 30 days). The counselor should help them develop a concrete plan, identify barriers, and set small goals.",
+        "tags": [
+            "counseling",
+            "behavioral_theories",
+            "transtheoretical"
+        ]
+    },
+    {
+        "id": "m1-gap-22",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "'Paralinguistics' refers to which aspect of communication?",
+        "options": [
+            "Body language",
+            "The words used",
+            "Tone, pitch, volume, and rate of speech",
+            "Personal space"
+        ],
+        "correctIndex": 2,
+        "explanation": "Paralinguistics involves the vocal elements of communication that are not the words themselves (how you say it, tone, hesitation, etc.).",
+        "tags": [
+            "counseling",
+            "communication",
+            "nonverbal"
+        ]
+    },
+    {
+        "id": "m1-gap-23",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Classical Conditioning (Pavlov) involves learning via:",
+        "options": [
+            "Rewards and punishments",
+            "Association (pairing a neutral stimulus with a potent one)",
+            "Observation",
+            "Logical reasoning"
+        ],
+        "correctIndex": 1,
+        "explanation": "Classical conditioning pairs a neutral stimulus (bell) with a potent one (food) until the neutral stimulus elicits the response (salivation).",
+        "tags": [
+            "education",
+            "behavioral_theories",
+            "conditioning"
+        ]
+    },
+    {
+        "id": "m1-gap-24",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "The SMOG readability formula works by counting:",
+        "options": [
+            "The number of words per sentence",
+            "Polysyllabic words (3 or more syllables) in a sample of text",
+            "The length of the document",
+            "The font size"
+        ],
+        "correctIndex": 1,
+        "explanation": "The SMOG grade is calculated by counting the number of polysyllabic words in a set of sentences to estimate the reading grade level required.",
+        "tags": [
+            "education",
+            "communication",
+            "literacy"
+        ]
+    },
+    {
+        "id": "m1-gap-25",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Which of the following is an example of an 'Open-Ended Question'?",
+        "options": [
+            "Do you eat breakfast?",
+            "How many times a week do you exercise?",
+            "What can you tell me about your typical eating habits?",
+            "Is your blood sugar high?"
+        ],
+        "correctIndex": 2,
+        "explanation": "Open-ended questions cannot be answered with a simple 'yes' or 'no' or a number. They invite explanation and story-telling ('Tell me about...', 'How do you feel about...').",
+        "tags": [
+            "counseling",
+            "communication",
+            "skills"
+        ]
+    }
+]
