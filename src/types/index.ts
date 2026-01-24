@@ -20,6 +20,7 @@ export interface Question {
     rationale?: string; // Additional detailed info
     references?: string[];
     tags?: string[];
+    changeLog?: string;
 }
 
 export interface ExamSession {
