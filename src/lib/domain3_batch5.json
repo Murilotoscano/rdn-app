@@ -91,10 +91,10 @@
         "difficulty": "medium",
         "text": "A 'bona fide occupational qualification' (BFOQ) allows employers to:",
         "options": [
-            "Hire based on race or color",
+            "Hire employees based partially or fully on their race or color characteristics",
             "Discriminate based on age or religion if reasonably necessary to the normal operation of that particular business",
-            "Pay women less than men for the same work",
-            "Avoid paying overtime"
+            "Pay women less than men for performing the exact same work responsibilities",
+            "Avoid paying overtime to employees who work more than 40 hours per week"
         ],
         "correctIndex": 1,
         "explanation": "A BFOQ is a quality or attribute that employers are allowed to consider when making decisions on the hiring and retention of employees—a quality that when considered in other contexts would constitute discrimination (e.g., hiring only female actors for a female role). Race is never a BFOQ.",
@@ -176,9 +176,9 @@
         "text": "The 'Scalar Principle' in organization theory refers to:",
         "options": [
             "A clear and unbroken line of authority from the top to the bottom of the organization",
-            "Dividing work into specialized tasks",
-            "Limiting the number of subordinates a manager supervises",
-            "Grouping employees by function"
+            "Dividing work into highly specialized and repetitive tasks",
+            "Limiting the number of subordinates a manager can effectively supervise",
+            "Grouping employees by specific function or department"
         ],
         "correctIndex": 0,
         "explanation": "The Scalar Principle states that authority and responsibility flow in a clear, unbroken line from the highest to the lowest executive.",
@@ -280,10 +280,10 @@
         "difficulty": "hard",
         "text": "The 'Family and Medical Leave Act' (FMLA) guarantees eligible employees:",
         "options": [
-            "12 weeks of paid leave per year",
+            "12 weeks of fully paid leave per year for any personal reason",
             "12 weeks of unpaid, job-protected leave per year for specific family/medical reasons",
-            "Unlimited sick days",
-            "6 months of maternity leave"
+            "Unlimited paid sick days for all employees regardless of tenure",
+            "6 months of paid maternity leave following the birth of a child"
         ],
         "correctIndex": 1,
         "explanation": "FMLA provides up to 12 workweeks of unpaid, job-protected leave a year and requires group health benefits to be maintained during the leave.",
@@ -364,10 +364,10 @@
         "difficulty": "hard",
         "text": "Mclelland's Achievement-Power-Affiliation Theory suggests that people are motivated by:",
         "options": [
-            "Biological needs only",
-            "The need to avoid pain",
+            "Biological needs only, such as hunger, thirst, and sleep",
+            "The need to avoid pain and seek pleasure in all activities",
             "Three acquired needs: Achievement, Power, and Affiliation",
-            "Money and status"
+            "Money and status as the primary drivers of behavior"
         ],
         "correctIndex": 2,
         "explanation": "David McClelland identified three acquired needs that motivate people: the need for Achievement (nAch), the need for Power (nPow), and the need for Affiliation (nAff).",
@@ -386,9 +386,9 @@
         "text": "A 'Loss Leader' pricing strategy involves:",
         "options": [
             "Selling a product at a loss to attract customers who will buy other profitable items",
-            "Setting prices higher than competitors",
-            "Giving away free samples",
-            "Reducing staff to cut costs"
+            "Setting prices higher than competitors to create a perception of luxury",
+            "Giving away free samples to introduce customers to new products",
+            "Reducing staff to cut costs and increase overall profit margins"
         ],
         "correctIndex": 0,
         "explanation": "A Loss Leader is a product sold at a price below its market cost to stimulate other sales of more profitable goods or services.",
@@ -406,10 +406,10 @@
         "difficulty": "medium",
         "text": "Span of Control refers to:",
         "options": [
-            "The length of the supply chain",
+            "The total length of the supply chain from manufacturer to consumer",
             "The number of subordinates a manager can efficiently and effectively direct",
-            "The size of the budget",
-            "The physical size of the kitchen"
+            "The size of the budget allocated to a specific department",
+            "The physical size of the kitchen layout and equipment"
         ],
         "correctIndex": 1,
         "explanation": "Span of Control is the number of subordinates that a manager or supervisor can directly control. A narrow span means few subordinates; a wide span means many.",
@@ -469,10 +469,10 @@
         "difficulty": "medium",
         "text": "'Source Reduction' in waste management involves:",
         "options": [
-            "Sorting recyclables",
+            "Sorting recyclables into separate bins for collection",
             "Reducing the amount of waste generated at its source (e.g., minimal packaging)",
-            "Burning waste for energy",
-            "Sending waste to a landfill"
+            "Burning waste material in large incinerators for energy recovery",
+            "Sending mixed waste directly to a sanitary landfill for disposal"
         ],
         "correctIndex": 1,
         "explanation": "Source Reduction (waste prevention) is the most preferred method of waste management, involving designing products and processes to reduce the volume or toxicity of waste generated.",

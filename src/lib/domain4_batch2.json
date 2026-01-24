@@ -70,10 +70,10 @@
         "difficulty": "medium",
         "text": "The 'Assembly-Serve' (Total Convenience) system differs from others in that:",
         "options": [
-            "All cooking is done from scratch",
+            "All cooking is done from scratch using raw ingredients in the kitchen on the same day as service",
             "No on-site food production (cooking) takes place; fully prepared foods are purchased, stored, assembled, heated, and served",
-            "Food is prepared days in advance",
-            "It requires the most skilled labor"
+            "Food is prepared days in advance and held in inventory before service using a blast chiller",
+            "It requires the most skilled labor and highly trained chefs on site to manage complex recipes"
         ],
         "correctIndex": 1,
         "explanation": "Assembly-Serve systems purchase fully prepared foods (frozen, sous-vide, etc.) requiring only storage, assembly, heating, and service. 'Kitchenless kitchen'.",
@@ -91,10 +91,10 @@
         "difficulty": "medium",
         "text": "A 'Decentralized' delivery system is most appropriate when:",
         "options": [
-            "All patients are in one dining room",
+            "All patients are located in one central dining room close to the kitchen for immediate service",
             "The distance from the kitchen to the patient is great, requiring food to be transported in bulk and assembled near the patient",
-            "Food safety is not a concern",
-            "The menu is simple"
+            "Food safety is not a primary concern during the distribution process, focusing purely on speed of delivery",
+            "The menu is simple and does not require temperature control, allowing for ambient transport"
         ],
         "correctIndex": 1,
         "explanation": "Decentralized delivery involves transporting food in bulk to ward pantries or galleys where trays are assembled, ensuring better temperature control over long distances.",
@@ -112,10 +112,10 @@
         "difficulty": "hard",
         "text": "The primary advantage of a 'Commissary' foodservice system is:",
         "options": [
-            "High food safety risks during transport",
+            "High food safety risks and critical control points during transport",
             "Centralized large-volume purchasing and production, leading to economies of scale and uniform quality",
-            "Reduced need for transportation equipment",
-            "Lower initial capital investment"
+            "Reduced need for specialized transportation equipment and delivery trucks",
+            "Lower initial capital investment compared to conventional systems"
         ],
         "correctIndex": 1,
         "explanation": "Commissary systems benefit from economies of scale in bulk purchasing and efficient large-scale production, ensuring consistency across all satellite units.",
@@ -133,10 +133,10 @@
         "difficulty": "medium",
         "text": "Which type of service allows customers to move from station to station (e.g., salad, hot food, dessert) with no specific traffic pattern?",
         "options": [
-            "Straight line cafeteria",
-            "Hollow square / Free-flow / Scramble system",
-            "Vending",
-            "Counter service"
+            "Straight line cafeteria with a single serving line",
+            "Hollow square / Free-flow / Scramble system allowing random access",
+            "Vending machine area with automated service",
+            "Counter service where staff serve customers directly"
         ],
         "correctIndex": 1,
         "explanation": "The Hollow Square, Free-flow, or Scramble system separates counters (salad, hot food, etc.) allowing customers to go directly to what they want, reducing wait times.",
@@ -154,10 +154,10 @@
         "difficulty": "medium",
         "text": "In forecasting production, a 'Moving Average' model:",
         "options": [
-            "Uses a panel of experts to predict sales",
+            "Uses a panel of experts to predict sales trends for the upcoming year",
             "Taking the average of the number of portions sold for the last 'n' periods to predict the next period",
-            "Assumes a causal relationship between variables",
-            "Relies on intuition"
+            "Assumes a causal relationship between variables such as weather and sales",
+            "Relies on intuition and gut feeling rather than historical data"
         ],
         "correctIndex": 1,
         "explanation": "Moving Average is a time-series forecasting method that uses a set number of past data points (e.g., last 5 weeks) to predict the next value by averaging them.",
@@ -175,10 +175,10 @@
         "difficulty": "hard",
         "text": "A 'Standardized Recipe' is critical for:",
         "options": [
-            "Allowing chefs creative freedom",
+            "Allowing chefs total creative freedom to experiment with ingredients on the fly",
             "Ensuring consistent quality, yield, and cost control every time the item is produced",
-            "Increasing food waste",
-            "Reducing the need for measuring tools"
+            "Increasing food waste due to lack of portion control and consistent measurements",
+            "Reducing the need for necessary measuring tools and kitchen scales during prep"
         ],
         "correctIndex": 1,
         "explanation": "Standardized recipes are the most important control tool, ensuring that a specific quantity and quality of food is produced for a specific cost every time.",
@@ -280,10 +280,10 @@
         "difficulty": "medium",
         "text": "What type of distribution cart is a 'Pellet System'?",
         "options": [
-            "Insulated tray system",
-            "Portable heating unit",
+            "Insulated tray system handling hot and cold food",
+            "Portable heating unit plugged in at ward galleys",
             "Heated metal disk (pellet) placed under the plate to keep it warm",
-            "Refrigerated cart"
+            "Refrigerated cart ensuring cold foods stay cold"
         ],
         "correctIndex": 2,
         "explanation": "A Pellet System uses a preheated metal disk (pellet) placed in a base under the dinner plate to maintain food temperature for ~40-45 minutes.",
@@ -301,10 +301,10 @@
         "difficulty": "medium",
         "text": "A 'Rethermalization' unit is used in which foodservice systems?",
         "options": [
-            "Conventional only",
+            "Conventional foodservice systems only",
             "Ready-Prepared (Cook-Chill/Cook-Freeze)",
-            "Assembly-Serve only",
-            "Commissary only"
+            "Assembly-Serve foodservice systems only",
+            "Commissary foodservice systems only"
         ],
         "correctIndex": 1,
         "explanation": "Ready-Prepared systems (Cook-Chill/Cook-Freeze) require rethermalization (reheating) of food just before service, using microwaves, convection ovens, or integral heat carts.",
@@ -322,10 +322,10 @@
         "difficulty": "hard",
         "text": "When scaling a recipe using the percentage method, the first step is to:",
         "options": [
-            "Convert all ingredients to pounds and ounces",
+            "Convert all ingredients to pounds, ounces, and cups for easier measurement",
             "Convert all ingredients to weights (e.g., decimals of a pound) and calculate the total weight",
-            "Multiply everything by 2",
-            "Estimate the new amounts"
+            "Multiply everything by 2 regardless of the desired yield change",
+            "Estimate the new amounts based on experience and intuition"
         ],
         "correctIndex": 1,
         "explanation": "The percentage method requires converting all ingredients to weights (including liquids) and summing them to calculate the percentage of each ingredient in relation to the total weight.",
@@ -365,9 +365,9 @@
         "text": "To reduce the risk of cross-contamination in a Conventional foodservice system, care must be taken to:",
         "options": [
             "Separate raw and cooked food handling (temporal or spatial separation)",
-            "Cook everything to 165°F regardless of food type",
-            "Use the same cutting board for efficiency",
-            "Store meat above vegetables"
+            "Cook everything to 165°F regardless of whether it is poultry, beef, or fish",
+            "Use the same cutting board for efficiency when switching between ingredient types",
+            "Store meat above vegetables to ensure easy access during busy periods"
         ],
         "correctIndex": 0,
         "explanation": "Because raw and cooked foods are handled in the same kitchen in Conventional systems, strict separation (space or time) is needed to prevent cross-contamination.",
@@ -385,10 +385,10 @@
         "difficulty": "medium",
         "text": "The main disadvantage of the Assembly-Serve system is:",
         "options": [
-            "High labor costs",
-            "Need for skilled chefs",
+            "High labor costs associated with preparation",
+            "Need for skilled chefs to manage production",
             "Limited menu variety and higher food cost",
-            "Large kitchen footprint"
+            "Large kitchen footprint requirement"
         ],
         "correctIndex": 2,
         "explanation": "Assembly-Serve relies on available prepared products, which may limit menu variety and typically have a higher food cost (offset by lower labor cost).",
@@ -406,10 +406,10 @@
         "difficulty": "medium",
         "text": "A 'Synergistic' effect in a food production team means:",
         "options": [
-            "Everyone works independently",
+            "Everyone works independently without any collaboration or communication",
             "The total output of the team is greater than the sum of individual efforts (1+1=3)",
-            "Conflict is maximized",
-            "Productivity decreases"
+            "Conflict is maximized due to competing individual goals and poor leadership",
+            "Productivity decreases significantly due to the complexity of teamwork"
         ],
         "correctIndex": 1,
         "explanation": "Synergy occurs when the cooperative action of separate people or agencies produces a total effect greater than the sum of their individual effects.",

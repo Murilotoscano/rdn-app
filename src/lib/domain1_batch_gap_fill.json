@@ -93,8 +93,8 @@
         "options": [
             "Statements by the client that support making a change",
             "Statements by the client that argue for the status quo (not changing)",
-            "The counselor's sustainability plan",
-            "Long-term maintenance of a goal"
+            "The counselor's plan for ensuring the sustainability of the intervention",
+            "The long-term maintenance of a specific health goal over time"
         ],
         "correctIndex": 1,
         "explanation": "Sustain talk is client speech that favors the status quo or argues against change (e.g., 'I just don't have time to cook'). The goal of MI is to reduce sustain talk and elicit 'Change Talk'.",
@@ -111,10 +111,10 @@
         "difficulty": "medium",
         "text": "According to the Health Belief Model, 'Self-efficacy' is defined as:",
         "options": [
-            "The belief that one is susceptible to a disease",
-            "The belief that the new behavior is beneficial",
+            "The personal belief that one is susceptible to a serious health condition",
+            "The belief that adopting a new behavior will yield beneficial results",
             "The individual's belief in their own ability to successfully perform a behavior",
-            "The cues that trigger action"
+            "The internal or external cues that trigger the decision to take action"
         ],
         "correctIndex": 2,
         "explanation": "Self-efficacy is the confidence an individual has in their ability to execute the specific behavior required to produce the desired outcome.",
@@ -155,7 +155,7 @@
             "Explanation, Treatment, Healers, Negotiation, Intervention, Collaboration",
             "Ethics, Time, Health, Nutrition, Intelligence, Care",
             "Empathy, Trust, Help, Nutrition, Interaction, Communication",
-            "None of the above"
+            "Education, Therapy, Health, Nutrition, Interview, Care"
         ],
         "correctIndex": 0,
         "explanation": "The ETHNIC model includes: Explanation (how client explains illness), Treatment (what they expect), Healers (traditional), Negotiation (options), Intervention, Collaboration.",
@@ -175,7 +175,7 @@
             "Use long, detailed written materials",
             "Speak rapidly to cover more content",
             "Keep sessions short and focus on one or two key concepts",
-            "Focus heavily on peer pressure"
+            "Use complex diagrams and technical charts for clarity"
         ],
         "correctIndex": 2,
         "explanation": "Elderly clients may have decreased attention spans or short-term memory issues. Short, focused sessions with clear takeaways are most effective.",
@@ -193,10 +193,10 @@
         "difficulty": "hard",
         "text": "Operant Conditioning (Skinner) suggests that behavior is influenced by:",
         "options": [
-            "Unconscious desires",
+            "Unconscious desires and conflicts rooted in early childhood experiences",
             "The consequences of the behavior (positive or negative reinforcement)",
-            "Observing others (modeling)",
-            "Genetic predisposition"
+            "Observing and imitating the behaviors of others in social contexts",
+            "Genetic predisposition and biological factors influencing behavior"
         ],
         "correctIndex": 1,
         "explanation": "Operant conditioning relies on the principle that behavior is increasing if followed by positive reinforcement (reward) and decreased by punishment or negative reinforcement.",
@@ -255,10 +255,10 @@
         "difficulty": "medium",
         "text": "Social Cognitive Theory (Bandura) emphasizes the role of:",
         "options": [
-            "Genetics only",
+            "Biological factors and genetic predispositions as the primary drivers of behavior",
             "Observational learning (modeling) and the interaction between person, behavior, and environment",
-            "Unconscious drives",
-            "Dietary intake only"
+            "Unconscious drives and internal psychological conflicts within the individual",
+            "Dietary intake and nutritional status regardless of environmental factors"
         ],
         "correctIndex": 1,
         "explanation": "Social Cognitive Theory highlights that people learn not just from their own experience but by observing others (modeling) and through the reciprocal interaction of personal factors, behavior, and the environment.",
@@ -298,9 +298,9 @@
         "text": "What is the acronym 'OARS' used for in Motivational Interviewing?",
         "options": [
             "Open-ended questions, Affirmations, Reflections, Summaries",
-            "Observe, Assess, Respond, Strategize",
-            "Openness, Attitude, Respect, Support",
-            "Order, Ask, Reply, Send"
+            "Observe, Assess, Respond, Strategize and Support",
+            "Openness, Attitude, Respect, Support and Sensitivity",
+            "Order, Ask, Reply, Send and Summarize"
         ],
         "correctIndex": 0,
         "explanation": "OARS stands for the core skills of MI: Open-ended questions, Affirmations, Reflective listening, and Summaries.",
@@ -317,10 +317,10 @@
         "difficulty": "medium",
         "text": "Cognitive Behavioral Therapy (CBT) is based on the idea that:",
         "options": [
-            "We are controlled by our environment",
+            "We are controlled by our environment and external stimuli",
             "Thoughts create feelings, which influence behaviors (Change thoughts -> Change behavior)",
-            "Childhood trauma dictates adult behavior",
-            "Medication is the only solution"
+            "Childhood trauma and early experiences dictate adult behavior",
+            "Medication and biological interventions are the only solution"
         ],
         "correctIndex": 1,
         "explanation": "CBT posits that negative thoughts (cognitions) lead to negative feelings and maladaptive behaviors. By challenging and modifying these thoughts, one can change feelings and behaviors.",
@@ -358,10 +358,10 @@
         "difficulty": "hard",
         "text": "'Legitimation' as a counseling response involves:",
         "options": [
-            "Telling the client they are legally correct",
+            "Telling the client they are legally correct in their actions",
             "Acknowledging that the client's feelings are valid and understandable",
-            "Giving legal advice",
-            "Proving your credentials"
+            "Giving legal advice regarding their specific situation",
+            "Proving your credentials and authority to the client"
         ],
         "correctIndex": 1,
         "explanation": "Legitimation puts the counselor in an empathetic position, validating the client's feelings ('It is normal to feel angry in this situation').",
@@ -402,8 +402,8 @@
         "options": [
             "Use complex medical terminology to show expertise",
             "Use pictures, simple language, and the 'teach-back' method",
-            "Provide long pamphlets",
-            "Speak loudly"
+            "Provide long pamphlets with detailed scientific data",
+            "Speak loudly and use technical jargon repeatedly"
         ],
         "correctIndex": 1,
         "explanation": "Visuals, plain language, and asking the client to repeat back what they understood ('teach-back') are best practices for low health literacy.",
@@ -421,10 +421,10 @@
         "difficulty": "hard",
         "text": "In the 'Preparation' stage of change, the most appropriate intervention is:",
         "options": [
-            "Raising awareness of the problem",
+            "Raising awareness of the problem and its potential health consequences",
             "Helping the client identify a specific plan and setting goals",
-            "Relapse prevention",
-            "Confrontation"
+            "Implementing strategies for relapse prevention and long-term maintenance",
+            "Using confrontation to challenge the client's resistance to change"
         ],
         "correctIndex": 1,
         "explanation": "In Preparation, the client intends to act soon (within 30 days). The counselor should help them develop a concrete plan, identify barriers, and set small goals.",
@@ -442,10 +442,10 @@
         "difficulty": "medium",
         "text": "'Paralinguistics' refers to which aspect of communication?",
         "options": [
-            "Body language",
-            "The words used",
-            "Tone, pitch, volume, and rate of speech",
-            "Personal space"
+            "Body language and physical gestures used in communication",
+            "The specific words and vocabulary chosen by the speaker",
+            "Tone, pitch, volume, and rate of speech used to convey meaning",
+            "Personal space and physical distance between speakers"
         ],
         "correctIndex": 2,
         "explanation": "Paralinguistics involves the vocal elements of communication that are not the words themselves (how you say it, tone, hesitation, etc.).",
@@ -463,10 +463,10 @@
         "difficulty": "medium",
         "text": "Classical Conditioning (Pavlov) involves learning via:",
         "options": [
-            "Rewards and punishments",
+            "Using rewards and punishments to modify voluntary behavior",
             "Association (pairing a neutral stimulus with a potent one)",
-            "Observation",
-            "Logical reasoning"
+            "Observation of others' behaviors and their outcomes",
+            "Logical reasoning and cognitive processing of information"
         ],
         "correctIndex": 1,
         "explanation": "Classical conditioning pairs a neutral stimulus (bell) with a potent one (food) until the neutral stimulus elicits the response (salivation).",
@@ -484,10 +484,10 @@
         "difficulty": "medium",
         "text": "The SMOG readability formula works by counting:",
         "options": [
-            "The number of words per sentence",
+            "The number of words per sentence on average",
             "Polysyllabic words (3 or more syllables) in a sample of text",
-            "The length of the document",
-            "The font size"
+            "The total length of the document in pages",
+            "The font size and style used in the text"
         ],
         "correctIndex": 1,
         "explanation": "The SMOG grade is calculated by counting the number of polysyllabic words in a set of sentences to estimate the reading grade level required.",
@@ -505,10 +505,10 @@
         "difficulty": "medium",
         "text": "Which of the following is an example of an 'Open-Ended Question'?",
         "options": [
-            "Do you eat breakfast?",
-            "How many times a week do you exercise?",
+            "Do you usually eat a healthy breakfast every morning?",
+            "How many times per week do you currently engage in exercise?",
             "What can you tell me about your typical eating habits?",
-            "Is your blood sugar high?"
+            "Is your fasting blood sugar currently considered high?"
         ],
         "correctIndex": 2,
         "explanation": "Open-ended questions cannot be answered with a simple 'yes' or 'no' or a number. They invite explanation and story-telling ('Tell me about...', 'How do you feel about...').",

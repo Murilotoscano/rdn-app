@@ -50,9 +50,9 @@
         "text": "Which 'loss leader' pricing strategy involves:",
         "options": [
             "Selling an item at or below cost to attract customers who will then buy other profitable items",
-            "Raising prices on popular items",
-            "Ignoring food cost completely",
-            "Charging for water"
+            "Raising prices on popular items to maximize profit per unit sold during peak hours",
+            "Ignoring food cost completely to focus solely on customer satisfaction goals",
+            "Charging for water and other basic amenities to cover overheard costs"
         ],
         "correctIndex": 0,
         "explanation": "A loss leader is sold at a loss to stimulate other profitable sales (e.g., cheap turkeys at Thanksgiving to sell the rest of the groceries).",
@@ -91,10 +91,10 @@
         "difficulty": "medium",
         "text": "A 'Perpetual Inventory' system:",
         "options": [
-            "Requires counting every item once a month",
+            "Requires counting every item physically once a month to verify stock",
             "Tracks the running balance of inventory on hand (additions and subtractions are recorded immediately)",
-            "Is strictly visual",
-            "Is illegal in hospitals"
+            "Is strictly visual, relying on the manager's estimate of stock levels",
+            "Is illegal in hospitals due to government accounting regulations"
         ],
         "correctIndex": 1,
         "explanation": "Perpetual inventory keeps a continuous record of stock levels (items in/out). Physical inventory is the actual periodic count used to verify it.",
@@ -133,10 +133,10 @@
         "difficulty": "medium",
         "text": "Which type of cafe service is often found in business dining where customers pay for items by weight (e.g., salad bar)?",
         "options": [
-            "Buffet style",
-            "Vending",
-            "Scatter system",
-            "Pay-by-weight / Self-service"
+            "Traditional cafeteria-style buffet service",
+            "Vending machines offering pre-packaged items",
+            "Scatter system food court with multiple stations",
+            "Pay-by-weight / Self-service salad or food bar"
         ],
         "correctIndex": 3,
         "explanation": "Self-service pay-by-weight systems are common in corporate dining to speed up service and control portion costs.",
@@ -154,10 +154,10 @@
         "difficulty": "medium",
         "text": "A 'Combi-Oven' combines which two cooking technologies?",
         "options": [
-            "Microwave and Toaster",
-            "Convection (hot air) and Steam",
-            "Fryer and Grill",
-            "Boiler and Broiler"
+            "Microwave radiation and Radiant Toaster heat",
+            "Convection (circulated hot air) and Steam cooking",
+            "Deep fat Fryer and Char-broiler Grill technology",
+            "Steam Boiler pressure and Overhead Broiler heat"
         ],
         "correctIndex": 1,
         "explanation": "Combi-ovens use both convection heat (dry) and steam (moist). They can roast, steam, or do both simultaneously to keep food moist while browning.",
@@ -175,10 +175,10 @@
         "difficulty": "medium",
         "text": "The HVAC system in a kitchen is responsible for:",
         "options": [
-            "Cooking the food",
+            "Providing the primary heat source for cooking all food items to correct temperatures",
             "Heating, Ventilation, and Air Conditioning (controlling temperature, humidity, and odors)",
-            "Lighting the workspace",
-            "Plumbing"
+            "Providing sufficient lighting for the entire workspace to ensure employee safety",
+            "Managing the complex plumbing and water drainage systems throughout the kitchen"
         ],
         "correctIndex": 1,
         "explanation": "HVAC stands for Heating, Ventilation, and Air Conditioning. It controls environmental comfort and removes grease/vapors/odors.",
@@ -238,10 +238,10 @@
         "difficulty": "medium",
         "text": "Which management theory emphasizes that there is no 'one best way' to manage, and decisions depend on the specific situation?",
         "options": [
-            "Scientific Management",
+            "Scientific Management (Taylorism)",
             "Contingency (Situational) Approach",
-            "Bureaucratic Management",
-            "Systems Theory"
+            "Bureaucratic Management (Weber)",
+            "Systems Theory (Inputs/Outputs)"
         ],
         "correctIndex": 1,
         "explanation": "Contingency (or Situational) Theory states that the best management action is contingent on the internal and external situation.",
@@ -280,10 +280,10 @@
         "difficulty": "medium",
         "text": "Cross-connection in plumbing is dangerous because it can lead to:",
         "options": [
-            "Low water pressure",
+            "Low water pressure throughout the facility affecting dishwashers",
             "Backflow (backsiphonage) of contaminated water into the potable water supply",
-            "Leaking pipes",
-            "High water bills"
+            "Leaking pipes that cause structural damage to the building",
+            "High water bills due to unmonitored usage and leaks"
         ],
         "correctIndex": 1,
         "explanation": "A cross-connection is a physical link between safe water and dirty water (e.g., a hose in a mop bucket). Backflow can suck contaminants into the drinking water.",
@@ -301,10 +301,10 @@
         "difficulty": "medium",
         "text": "A 'Carbon Footprint' measures:",
         "options": [
-            "The amount of soot on the floor",
+            "The amount of physical soot accumulation on the kitchen floor",
             "The total greenhouse gas emissions caused by an organization, event, product, or person",
-            "The size of the kitchen",
-            "Coal usage"
+            "The physical size of the kitchen footprint in square feet",
+            "The amount of coal usage required to power the facility"
         ],
         "correctIndex": 1,
         "explanation": "Carbon footprint is the total amount of greenhouse gases (mainly CO2) produced to directly and indirectly support human activities.",
@@ -323,9 +323,9 @@
         "text": "The term 'Yield' refers to:",
         "options": [
             "The amount of product remaining after processing or cooking (Edible Portion)",
-            "The price of the food",
-            "The number of employees",
-            "The delivery time"
+            "The price of the food item charged by the vendor on the invoice",
+            "The number of employees working in the production area",
+            "The delivery time for the order to arrive at the receiving dock"
         ],
         "correctIndex": 0,
         "explanation": "Yield is the usable amount of food remaining after processing (peeling, trimming, cooking). Typically expressed as a percentage.",
@@ -343,10 +343,10 @@
         "difficulty": "medium",
         "text": "Preventive Maintenance is:",
         "options": [
-            "Fixing equipment only when it breaks",
+            "Fixing equipment only when it breaks down completely and stops working",
             "Regular, scheduled service to keep equipment running efficiently and prevent breakdowns",
-            "Buying new equipment every year",
-            "Ignoring manufacturer instructions"
+            "Buying new equipment every year to ensure the latest technology",
+            "Ignoring manufacturer instructions to save time on maintenance"
         ],
         "correctIndex": 1,
         "explanation": "Preventive maintenance involves scheduled inspections and servicing (cleaning filters, lubricating parts) to extend equipment life and avoid costly downtime.",
@@ -364,10 +364,10 @@
         "difficulty": "medium",
         "text": "Which is a 'Demographic' factor affecting menu planning?",
         "options": [
-            "Kitchen layout",
-            "Age, gender, and income level of the target market",
-            "Food availability",
-            "Equipment capacity"
+            "Kitchen layout and design flow efficiency",
+            "Age, gender, and income level of the target market population",
+            "Food availability from local suppliers",
+            "Equipment capacity and production capabilities"
         ],
         "correctIndex": 1,
         "explanation": "Demographics describe the population characteristics (age, gender, income, education) which heavily influence food preferences and spending power.",
@@ -385,10 +385,10 @@
         "difficulty": "medium",
         "text": "The MSDS (now called SDS - Safety Data Sheet) must be available for:",
         "options": [
-            "All recipes",
+            "All recipes used in the kitchen production",
             "All hazardous chemicals used in the facility",
-            "All food products",
-            "All equipment"
+            "All food products stored in the pantry",
+            "All equipment operating manuals"
         ],
         "correctIndex": 1,
         "explanation": "OSHA requires an SDS for every hazardous chemical, detailing hazards, handling, and first aid measures.",

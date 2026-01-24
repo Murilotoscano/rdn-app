@@ -7,10 +7,10 @@
         "difficulty": "medium",
         "text": "In Systems Theory, 'Equifinality' refers to the concept that:",
         "options": [
-            "All systems must have equal inputs to achieve equal outputs",
+            "All systems must follow a single rigid path with identical inputs to achieve equal outputs",
             "Outputs may be achieved in a variety of ways, using different inputs or transformations",
-            "A system must be in a state of static equilibrium",
-            "Feedback loops are unnecessary for stability"
+            "A system must remain in a state of static equilibrium without any dynamic change",
+            "Feedback loops are unnecessary for stability even in complex systems"
         ],
         "correctIndex": 1,
         "explanation": "Equifinality means that the same or similar outputs (goals) can be achieved by using different inputs or different transformation processes.",
@@ -28,10 +28,10 @@
         "difficulty": "hard",
         "text": "Which of the following is considered an 'Input' in the Foodservice Systems Model?",
         "options": [
-            "Employee satisfaction",
-            "Finished meals",
-            "Raw ingredients and labor minutes",
-            "Customer feedback"
+            "Employee satisfaction levels reported in surveys",
+            "Finished meals served to customers in the dining room",
+            "Raw ingredients and labor minutes required for production",
+            "Customer feedback and complaints regarding service"
         ],
         "correctIndex": 2,
         "explanation": "Inputs are the resources used to create products/services. Examples include raw materials (ingredients), money, time, and personnel (labor). Meals and satisfaction are Outputs.",
@@ -133,10 +133,10 @@
         "difficulty": "medium",
         "text": "Strategic Planning differs from operational planning in that it primarily answers:",
         "options": [
-            "How do we balance the daily budget?",
+            "How do we balance the daily budget and reduce costs effectively?",
             "Where are we now, where are we going, and how do we get there?",
-            "How many staff do we need for the next shift?",
-            "What is the menu for next week?"
+            "How many staff do we need for the next shift to function?",
+            "What is the menu for next week and what ingredients are needed?"
         ],
         "correctIndex": 1,
         "explanation": "Strategic planning is a continuous, systematic process to determine long-term goals ('Where are we going?') and the best approach to accomplish them.",
@@ -154,10 +154,10 @@
         "difficulty": "medium",
         "text": "Market segmentation based on 'Psychographics' groups consumers according to:",
         "options": [
-            "Age, sex, and income",
-            "Physical location",
-            "Personality, interests, values, and beliefs",
-            "Purchase history and product usage"
+            "Age, sex, annual income, and education level",
+            "Physical location and geographic region of residence",
+            "Personality, interests, values, and beliefs of the consumer",
+            "Purchase history and frequency of product usage"
         ],
         "correctIndex": 2,
         "explanation": "Psychographic segmentation groups people based on psychological traits like lifestyle, personality, values, interests, and beliefs.",
@@ -196,10 +196,10 @@
         "difficulty": "medium",
         "text": "In a systems approach, 'Feedback' encompasses:",
         "options": [
-            "Only complaints from customers",
+            "Only complaints and negative comments received directly from dissatisfied customers",
             "Information from internal and external sources used to adjust operations and restore equilibrium",
-            "The finished products and services",
-            "The initial resources invested"
+            "The finished products and services delivered at the end of the production cycle",
+            "The initial resources invested including capital, labor, and materials"
         ],
         "correctIndex": 1,
         "explanation": "Feedback is information on how operations worked or failed, from internal (staff) or external (customers, inspectors) sources, used to modify the system.",
@@ -259,10 +259,10 @@
         "difficulty": "hard",
         "text": "Permeability of boundaries in a system refers to:",
         "options": [
-            "The system being closed off from the environment",
-            "The strict separation of departments",
+            "The system being completely closed off from the external environment",
+            "The strict separation of departments with no communication flow",
             "The ability of the system to interact with its environment and other subsystems",
-            "A security breach in the organization"
+            "A major security breach occurring in the organization's network"
         ],
         "correctIndex": 2,
         "explanation": "Permeability allows the system to interact with its environment. However, undefined or too permeable boundaries can lead to tension/overlap between subsystems.",
@@ -280,10 +280,10 @@
         "difficulty": "medium",
         "text": "Cultural Humility differs from Cultural Competence in that it emphasizes:",
         "options": [
-            "Becoming an expert on all cultures",
+            "Becoming an expert on all cultures and their traditions",
             "A lifelong commitment to self-evaluation and self-critique",
-            "Memorizing lists of cultural traits",
-            "Achieving a final state of competence"
+            "Memorizing lists of cultural traits and stereotypes",
+            "Achieving a final state of complete competence"
         ],
         "correctIndex": 1,
         "explanation": "Cultural Humility is an ongoing process of self-reflection and self-critique, acknowledging that one cannot master another's culture, unlike the 'endpoint' implied by competence.",
@@ -343,10 +343,10 @@
         "difficulty": "medium",
         "text": "In the context of Systems Theory, 'Transformation' is:",
         "options": [
-            "The initial resources",
-            "The finished product",
+            "The initial resources such as raw materials and labor",
+            "The finished product ready for service to the customer",
             "The work or action done to change inputs into outputs",
-            "The feedback received from customers"
+            "The positive or negative feedback received from customers"
         ],
         "correctIndex": 2,
         "explanation": "Transformation (Operations) refers to the activities and work performed to change inputs into desired outputs.",
@@ -385,10 +385,10 @@
         "difficulty": "hard",
         "text": "The Purnell Model of Cultural Competency is often visualized as:",
         "options": [
-            "A ladder of steps",
-            "A pyramid of needs",
+            "A rigid ladder of steps that must be climbed sequentially",
+            "A hierarchical pyramid of needs similar to Maslow's hierarchy",
             "Concentric circles of global society, community, family, and person",
-            "A flow chart of decision making"
+            "A complex flow chart of decision making pathways"
         ],
         "correctIndex": 2,
         "explanation": "The Purnell Model represents cultural competence through concentric circles representing global society, community, family, and the person.",

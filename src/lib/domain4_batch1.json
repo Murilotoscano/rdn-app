@@ -28,10 +28,10 @@
         "difficulty": "medium",
         "text": "A 'Cycle Menu' is most advantageous for which type of foodservice operation?",
         "options": [
-            "Fine dining restaurant",
-            "Long-term care facility or hospital",
-            "Wedding catering",
-            "Airport kiosk"
+            "Fine dining restaurant with a daily changing menu (du jour)",
+            "Long-term care facility or hospital with a stable captive audience",
+            "Wedding catering event with a single-use menu plan",
+            "Airport kiosk with a limited static menu selection"
         ],
         "correctIndex": 1,
         "explanation": "Cycle menus (repeating menus over a period like 3-4 weeks) are best for onsite foodservice where the same customers are fed daily (hospitals, schools, LTC) to ensure variety while controlling costs.",
@@ -133,10 +133,10 @@
         "difficulty": "hard",
         "text": "A 'Just-in-Time' (JIT) purchasing system is characterized by:",
         "options": [
-            "Ordering large quantities to get bulk discounts",
+            "Ordering large quantities to get bulk discounts and store for months",
             "Purchasing products for immediate production and consumption without storing them in inventory",
-            "Always keeping a 3-month supply of safety stock",
-            "Using a centralized warehouse"
+            "Always keeping a 3-month supply of safety stock on hand",
+            "Using a centralized warehouse to distribute goods to multiple units"
         ],
         "correctIndex": 1,
         "explanation": "JIT purchasing involves buying items only as they are needed for production, reducing inventory holding costs and storage space requirements.",
@@ -175,10 +175,10 @@
         "difficulty": "medium",
         "text": "A menu that offers a complete meal at a set price is known as a:",
         "options": [
-            "A la carte menu",
+            "A la carte menu with separate prices",
             "Table d'hote (or Prix Fixe) menu",
-            "Du jour menu",
-            "Static menu"
+            "Du jour menu that changes daily",
+            "Static menu with fixed items"
         ],
         "correctIndex": 1,
         "explanation": "Prix Fixe or Table d'hote menus offer a complete meal (several courses) for a single fixed price, as opposed to a la carte where items are priced separately.",
@@ -217,10 +217,10 @@
         "difficulty": "medium",
         "text": "The 'ABC' inventory classification system groups items based on:",
         "options": [
-            "Alphabetical order",
-            "Nutritional value",
+            "Alphabetical order of the product names",
+            "Nutritional value and caloric density",
             "Relative importance (value of total inventory activity)",
-            "Storage temperature requirements"
+            "Storage temperature requirements (frozen vs dry)"
         ],
         "correctIndex": 2,
         "explanation": "The ABC system classifies inventory by value: 'A' items are high-value (15-20% of items, 75-80% of value), 'B' are medium, and 'C' are low-value (like napkins/sugar packets).",
@@ -259,10 +259,10 @@
         "difficulty": "hard",
         "text": "In a 'Prime Vendor' agreement:",
         "options": [
-            "The buyer purchases 100% of their needs from the most expensive vendor",
+            "The buyer purchases 100% of their needs from the most expensive vendor available in the market",
             "The buyer agrees to purchase the majority (e.g., 90-95%) of their products from a single vendor in exchange for lower prices",
-            "The vendor is the only supplier in the region",
-            "Purchases are made through a government agency"
+            "The vendor is the only supplier in the region capable of delivering products",
+            "Purchases are made exclusively through a government agency regardless of price"
         ],
         "correctIndex": 1,
         "explanation": "A Prime Vendor agreement involves a formal commitment to buy the vast majority of goods from a single distributor to secure volume discounts and streamline ordering.",
@@ -343,10 +343,10 @@
         "difficulty": "medium",
         "text": "A 'Can Cutting' is used to:",
         "options": [
-            "Open cans quickly during service",
+            "Open cans quickly during high-volume meal service periods",
             "Evaluate quality, drained weight, and appearance of products from different vendors",
-            "Recycle metal cans",
-            "Reduce can storage space"
+            "Recycle metal cans to comply with environmental regulations",
+            "Reduce can storage space requirements in the dry storage area"
         ],
         "correctIndex": 1,
         "explanation": "Can cutting is a physical evaluation process where products from different vendors are opened and compared for quality, taste, texture, and yield before purchasing decisions are made.",
@@ -406,10 +406,10 @@
         "difficulty": "medium",
         "text": "Truth-in-Menu laws require accurate description of:",
         "options": [
-            "Only the price",
-            "The exact caloric content only",
+            "Only the price of the item to ensure transparency for the customer",
+            "The exact caloric content and detailed nutritional information only",
             "Quantity, Quality (grade), Price, Brand names, Product identification, and Points of origin",
-            "The supplier's name"
+            "The name of the supplier and the date the food item was delivered"
         ],
         "correctIndex": 2,
         "explanation": "Truth-in-Menu legislation requires that menus accurately describe foods regarding quantity (size), quality (grade), price, brand names, product ID (e.g., 'Maine' lobster), and preservation method.",

@@ -28,10 +28,10 @@
         "difficulty": "medium",
         "text": "OSHA's 'Bloodborne Pathogens Standard' requires employers to:",
         "options": [
-            "Provide all employees with free lunch",
+            "Provide all employees with free daily lunch meals in the cafeteria",
             "Develop an exposure control plan and provide Hepatitis B vaccinations to at-risk employees",
-            "Test all food for blood contamination",
-            "Hire a full-time nurse"
+            "Test all food for potential blood contamination before service",
+            "Hire a full-time registered nurse to be on-site at all times"
         ],
         "correctIndex": 1,
         "explanation": "OSHA requires specific protections for employees who may be exposed to blood or bodily fluids (e.g., first aid responders), including offering Hep B vaccines.",
@@ -91,10 +91,10 @@
         "difficulty": "medium",
         "text": "Example of 'pre-consumer' food waste reduction includes:",
         "options": [
-            "Composting leftovers from patients' plates",
-            "Donating unserved prepared food to a shelter",
+            "Composting uneaten leftovers collected from patients' plates",
+            "Donating unserved prepared food to a local homeless shelter",
             "Using vegetable trimmings to make soup stock",
-            "Feeding pigs with table scraps"
+            "Feeding domestic pigs with table scraps from the facility"
         ],
         "correctIndex": 2,
         "explanation": "Pre-consumer waste is generated during preparation (trimmings, peels). Using these for stock reduces waste before food even reaches the consumer.",
@@ -112,10 +112,10 @@
         "difficulty": "medium",
         "text": "Energy Star ratings for appliances indicate:",
         "options": [
-            "The appliance is made in the USA",
+            "The appliance is made in the USA according to manufucturing standards",
             "The appliance meets strict energy efficiency guidelines set by the EPA",
-            "The appliance is 100% recyclable",
-            "The appliance uses gas only"
+            "The appliance is 100% recyclable at the end of its life cycle",
+            "The appliance uses gas only and does not require electricity"
         ],
         "correctIndex": 1,
         "explanation": "Energy Star is a government-backed symbol for energy efficiency, helping save money and protect the environment.",
@@ -133,10 +133,10 @@
         "difficulty": "hard",
         "text": "If the Inventory Turnover rate is 3 times per month, this suggests that:",
         "options": [
-            "Food is sitting on the shelves for too long",
+            "Food is sitting on the shelves for too long and risking spoilage",
             "Inventory levels are likely appropriate (replaced about every 10 days)",
-            "The kitchen is running out of food constantly",
-            "Someone is stealing food"
+            "The kitchen is running out of food constantly causing service disruptions",
+            "Someone is stealing food from the storage area regularly"
         ],
         "correctIndex": 1,
         "explanation": "A turnover rate of 2-4 times a month is generally considered good. It means inventory is being used and replaced regularly, balancing freshness with stock availability.",
@@ -154,10 +154,10 @@
         "difficulty": "medium",
         "text": "The 'Right-to-Know' law refers to:",
         "options": [
-            "Employees' right to know the salary of their managers",
+            "Employees' right to know the exact salary of their direct managers",
             "Employees' right to know about hazardous chemicals they may be exposed to (SDS)",
-            "Customers' right to know the calorie count",
-            "Suppliers' right to know who else is bidding"
+            "Customers' right to know the precise calorie count of every item",
+            "Suppliers' right to know who else is bidding on the contract"
         ],
         "correctIndex": 1,
         "explanation": "The Hazard Communication Standard (Right-to-Know) requires employers to inform employees about chemical hazards and provide Safety Data Sheets (SDS).",
@@ -217,10 +217,10 @@
         "difficulty": "hard",
         "text": "Which agency is responsible for inspecting meat, poultry, and eggs in the US?",
         "options": [
-            "FDA",
-            "CDC",
-            "USDA (FSIS)",
-            "EPA"
+            "Food and Drug Administration (FDA) Center for Food Safety",
+            "Centers for Disease Control and Prevention (CDC)",
+            "USDA Food Safety and Inspection Service (FSIS)",
+            "Environmental Protection Agency (EPA)"
         ],
         "correctIndex": 2,
         "explanation": "The USDA Food Safety and Inspection Service (FSIS) is responsible for the safety of meat, poultry, and processed egg products. The FDA handles most other foods.",
@@ -281,9 +281,9 @@
         "text": "A 'Cash Cow' in the BCG Matrix (often adapted to menu engineering) refers to:",
         "options": [
             "An item with high market share but low growth (reliable income)",
-            "A new experimental item",
-            "A loss leader",
-            "A seasonal special"
+            "A new experimental item with uncertain market potential",
+            "A loss leader designed to attract price-sensitive customers",
+            "A seasonal special available only for a limited time"
         ],
         "correctIndex": 0,
         "explanation": "In business matrixes, a Cash Cow is a mature product (or menu item) that brings in steady cash flow with little investment needed (similar to a 'Star' but often with lower growth potential, or just steady high volume).",
@@ -322,10 +322,10 @@
         "difficulty": "medium",
         "text": "Using 'Grey Water' refers to:",
         "options": [
-            "Dirty dishwater",
+            "Collecting dirty dishwater for reuse in cleaning floors",
             "Recycled water from sinks/showers (not toilets) used for landscape irrigation",
-            "Sewage water",
-            "Rainwater harvesting"
+            "Treating sewage water for human consumption",
+            "Harvesting rainwater for potable drinking usage"
         ],
         "correctIndex": 1,
         "explanation": "Grey water is wastewater from non-toilet plumbing systems (sinks, washing machines) that can be treated and reused for purposes like irrigation to conserve potable water.",
@@ -364,10 +364,10 @@
         "difficulty": "medium",
         "text": "A 'GPO' (Group Purchasing Organization) helps foodservice operations by:",
         "options": [
-            "Providing free equipment",
+            "Providing free heavy-duty equipment to all new members",
             "Combining purchasing volume of many members to negotiate lower prices",
-            "Doing all the cooking",
-            "Managing the employees"
+            "Doing all the cooking and preparation for the facility",
+            "Managing the employees and human resources department"
         ],
         "correctIndex": 1,
         "explanation": "GPOs leverage the collective buying power of many smaller organizations to secure discounts typically only available to very large buyers.",
@@ -385,10 +385,10 @@
         "difficulty": "medium",
         "text": "Which is an example of a 'Mise en place' task?",
         "options": [
-            "Evaluating the menu after service",
-            "Cleaning the floors at night",
+            "Evaluating the menu after the dinner service is complete",
+            "Cleaning the kitchen floors at night after closing",
             "Pre-measuring ingredients and chopping vegetables before cooking begins",
-            "Ordering food for next week"
+            "Ordering all food inventory for the upcoming week"
         ],
         "correctIndex": 2,
         "explanation": "Mise en place ('put in place') refers to organizing and arranging the ingredients and tools needed for cooking before the actual cooking starts.",

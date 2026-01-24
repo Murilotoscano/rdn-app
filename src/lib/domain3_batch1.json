@@ -47,10 +47,10 @@
         "difficulty": "hard",
         "text": "Under the Fair Labor Standards Act (FLSA), which employee category is typically exempt from overtime pay?",
         "options": [
-            "Hourly production workers",
+            "Hourly production workers and non-management staff",
             "Executive, administrative, and professional employees",
-            "Service staff",
-            "Part-time clerical staff"
+            "Service staff and general labor employees",
+            "Part-time clerical staff and support personnel"
         ],
         "correctIndex": 1,
         "explanation": "The FLSA provides an exemption from both minimum wage and overtime pay for employees employed as bona fide executive, administrative, professional and outside sales employees who meet specific salary and duty tests.",
@@ -210,10 +210,10 @@
         "difficulty": "medium",
         "text": "The Academy of Nutrition and Dietetics' Standards of Professional Performance (SOPP) describe:",
         "options": [
-            "Competence in the NCP",
+            "Competence in the Nutrition Care Process (NCP)",
             "Competence in professional behaviors",
-            "Code of Ethics",
-            "Licensure requirements"
+            "Adherence to the Code of Ethics for the profession",
+            "Meeting state-specific licensure requirements"
         ],
         "correctIndex": 1,
         "explanation": "SOPP describes a competent level of behavior in the professional role (e.g., quality in practice, provision of services, application of research, etc.), whereas SOP describes a competent level of practice using the NCP.",
@@ -251,10 +251,10 @@
         "difficulty": "medium",
         "text": "Efficiency in management refers to:",
         "options": [
-            "Doing the right things",
+            "Doing the right things to achieve goals",
             "Doing things right (minimizing waste)",
             "Achieving goals regardless of cost",
-            "Motivational leadership"
+            "Motivational leadership and staff engagement"
         ],
         "correctIndex": 1,
         "explanation": "Efficiency is doing things right, or getting the most output from the least amount of inputs (resources). Effectiveness is doing the right things (achieving goals).",
@@ -292,10 +292,10 @@
         "difficulty": "medium",
         "text": "Market segmentation involves:",
         "options": [
-            "Targeting the entire population with one message",
-            "Dividing a market into distinct groups of buyers with different needs or characteristics",
-            "Focusing only on pricing strategies",
-            "Analyzing competitors' weaknesses"
+            "Targeting the entire diverse population with a single uniform marketing message",
+            "Dividing a market into distinct groups of buyers with common needs",
+            "Focusing exclusively on aggressive pricing strategies to beat competitors",
+            "Analyzing competitors' weaknesses to gain market advantage"
         ],
         "correctIndex": 1,
         "explanation": "Market segmentation is the process of dividing a broad target market into subsets of consumers (segments) who have common needs, interests, and priorities.",

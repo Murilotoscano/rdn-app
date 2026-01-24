@@ -177,10 +177,10 @@
         "difficulty": "medium",
         "text": "Which independent, not-for-profit organization accredits and certifies healthcare organizations and has 'deeming authority' from CMS to validate Medicare compliance?",
         "options": [
-            "FDA",
-            "CDC",
+            "Food and Drug Administration (FDA)",
+            "Centers for Disease Control and Prevention (CDC)",
             "The Joint Commission (TJC)",
-            "OSHA"
+            "Occupational Safety and Health Administration (OSHA)"
         ],
         "correctIndex": 2,
         "explanation": "The Joint Commission (TJC) is a major accrediting body with deeming authority from CMS to certify hospitals for Medicare participation.",
@@ -219,10 +219,10 @@
         "difficulty": "hard",
         "text": "The Landrum-Griffin Act (Labor-Management Reporting and Disclosure Act) of 1959 was passed primarily to:",
         "options": [
-            "Legalize strikes in hospitals",
+            "Legalize strikes in hospitals under specific emergency conditions",
             "Regulate internal union affairs and prevent corruption/racketeering",
-            "Establish the minimum wage",
-            "Prohibit discrimination based on race or sex"
+            "Establish the federal minimum wage standards for all workers",
+            "Prohibit discrimination based on race, sex, or national origin"
         ],
         "correctIndex": 1,
         "explanation": "The Landrum-Griffin Act regulates internal union affairs, imposing a code of conduct to combat corruption and protect union funds.",
@@ -283,10 +283,10 @@
         "difficulty": "medium",
         "text": "In a 'Right to Work' state (Open Shop), an employee:",
         "options": [
-            "Must join the union to keep their job",
+            "Must join the union within 30 days of hiring to keep their job",
             "Cannot be compelled to join a union or pay dues, but is still represented by the bargaining unit",
-            "Is not allowed to join a union at all",
-            "Must pay an agency fee if they choose not to join"
+            "Is not allowed to join a union at all under state law regulations",
+            "Must pay an agency fee if they choose not to become a full member"
         ],
         "correctIndex": 1,
         "explanation": "In an Open Shop ('Right to Work'), employees cannot be forced to join or pay dues, yet they are still part of the bargaining unit and covered by the contract.",
@@ -326,9 +326,9 @@
         "text": "Which organization accredits not just hospitals but also health plans and Patient-Centered Medical Homes (PCMH), using HEDIS data for benchmarking?",
         "options": [
             "The Joint Commission",
-            "DNVGL Healthcare",
+            "DNV GL Healthcare Accreditation Services",
             "National Committee for Quality Assurance (NCQA)",
-            "CMS"
+            "Centers for Medicare and Medicaid Services (CMS)"
         ],
         "correctIndex": 2,
         "explanation": "The NCQA accredits health plans and PCMHs and manages the HEDIS performance tool.",
@@ -346,10 +346,10 @@
         "difficulty": "medium",
         "text": "Recruitment focuses on locating potential applicants, whereas Selection focuses on:",
         "options": [
-            "Training them for the job",
+            "Training and developing them for the specific job role",
             "Comparing applicant qualifications to the job requirements and choosing the best fit",
-            "Orienting them to company policy",
-            "Setting their salary"
+            "Orienting them to company policies and culture during onboarding",
+            "Setting their salary and negotiating benefits packages"
         ],
         "correctIndex": 1,
         "explanation": "Selection is the specific process of comparing applicants (knowledge, skills, abilities) against the job requirements and choosing the most qualified one.",
@@ -409,10 +409,10 @@
         "difficulty": "medium",
         "text": "A manager observes staff to determine topics for in-service training. This primarily supports the management function of:",
         "options": [
-            "Staffing (Training/Development)",
-            "Organization",
-            "Budgeting",
-            "Marketing"
+            "Staffing (Training/Development) function of management",
+            "Organization and structuring of departmental roles",
+            "Budgeting and financial resource allocation planning",
+            "Marketing strategies to increase customer engagement"
         ],
         "correctIndex": 0,
         "explanation": "Training and development of employees falls under the Staffing function (hiring, training, evaluating).",

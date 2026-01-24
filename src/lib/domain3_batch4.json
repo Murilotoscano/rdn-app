@@ -28,10 +28,10 @@
         "difficulty": "medium",
         "text": "Total Quality Management (TQM) differs from traditional management by:",
         "options": [
-            "Focusing strictly on bottom-line profits",
+            "Focusing strictly on maximizing bottom-line profits at the expense of other metrics",
             "Treating employees as 'internal customers' and involving all employees in continuous improvement",
-            "Relying solely on management to dictate changes",
-            "Prioritizing quantity over quality"
+            "Relying solely on top-level management to dictate operational changes",
+            "Prioritizing high quantity production output over product quality standards"
         ],
         "correctIndex": 1,
         "explanation": "TQM is a culture driven by customer satisfaction that involves all employees (and treats them as internal customers) in continuous improvement.",
@@ -91,10 +91,10 @@
         "difficulty": "medium",
         "text": "In a PERT chart, the 'Critical Path' represents:",
         "options": [
-            "The shortest time to complete the project",
+            "The shortest overall time required by the team to complete the project",
             "The longest path by duration, determining the minimum time needed to complete the project",
-            "The least expensive path",
-            "The path with the fewest number of tasks"
+            "The least expensive path that minimizes the total budget of the project",
+            "The path with the fewest number of individual tasks regardless of time"
         ],
         "correctIndex": 1,
         "explanation": "The Critical Path is the longest overlapping sequence of tasks, which determines the minimum total time required to complete the project. Any delay on this path delays the whole project.",
@@ -175,10 +175,10 @@
         "difficulty": "hard",
         "text": "The Delphi Method of planning involves:",
         "options": [
-            "Face-to-face brainstorming sessions",
-            "Voting on ideas in a group meeting",
+            "Face-to-face brainstorming sessions with all participants in one room",
+            "Voting on ideas in a group meeting after open discussion",
             "Reaching consensus through rounds of anonymous questionnaires sent to experts",
-            "A manager affecting change unilaterally"
+            "A manager affecting change unilaterally without consulting the team"
         ],
         "correctIndex": 2,
         "explanation": "The Delphi Method uses anonymous questionnaires sent to experts in multiple rounds to reach a consensus without the bias of group dynamics.",
@@ -196,10 +196,10 @@
         "difficulty": "medium",
         "text": "Quality Assurance (QA) differs from Continuous Quality Improvement (CQI) in that QA typically:",
         "options": [
-            "Is proactive and focuses on processes",
+            "Is proactive and focuses on processes to improve future outcomes",
             "Measures compliance against established standards (defensive/reactive)",
-            "Involves the whole team in finding solutions",
-            "Is patient-centered"
+            "Involves the whole team in finding solutions to complex problems",
+            "Is patient-centered and focuses on individual care plans"
         ],
         "correctIndex": 1,
         "explanation": "QA is often reactive ('did we meet the standard?'), focusing on outliers and individual compliance. CQI is proactive, continuous, and systems-focused.",
@@ -238,10 +238,10 @@
         "difficulty": "hard",
         "text": "In Lean Six Sigma, 'Muri' refers to:",
         "options": [
-            "Waste",
+            "Waste in any form that consumes resources but adds no value",
             "Overburden or unreasonableness (e.g., stressed staff, machinery pushed too hard)",
-            "Unevenness or inconsistency",
-            "Continuous improvement"
+            "Unevenness or inconsistency in production scheduling or workload",
+            "Continuous improvement of processes to eliminate all defects"
         ],
         "correctIndex": 1,
         "explanation": "Muri refers to overburdening people or equipment (e.g., staff burnout, machine breakdown). Mura is unevenness. Muda is waste.",
@@ -280,10 +280,10 @@
         "difficulty": "hard",
         "text": "Delbecq’s Nominal Group Technique produces a consensus by:",
         "options": [
-            "Open free-for-all brainstorming",
+            "Open free-for-all brainstorming where everyone shouts out ideas",
             "Structuring small-group discussion where members write ideas silently first, then share/vote",
-            "Using anonymous surveys mailed to experts",
-            "Following the loudest person in the room"
+            "Using anonymous surveys mailed to experts in different locations",
+            "Following the loudest person in the room regardless of idea quality"
         ],
         "correctIndex": 1,
         "explanation": "The Nominal Group Technique structures the process: silent generation of ideas, round-robin recording, discussion, and then voting (ranking) to reach consensus.",
@@ -385,10 +385,10 @@
         "difficulty": "hard",
         "text": "A 'Charrette' in planning refers to:",
         "options": [
-            "A rigorous audit process",
+            "A rigorous financial audit process conducted by external accountants",
             "A collaborative planning session harnessing talents of all interested parties for a master plan",
-            "A type of financial statement",
-            "A conflict resolution technique"
+            "A standard type of financial statement reporting company assets",
+            "A formal conflict resolution technique for settling disputes"
         ],
         "correctIndex": 1,
         "explanation": "A Charrette is an intensive, collaborative planning session (often for design or community planning) that harnesses the talents of all stakeholders.",

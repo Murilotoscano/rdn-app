@@ -7,10 +7,10 @@
         "difficulty": "medium",
         "text": "Which type of dishwasher is most efficient for high-volume operations (e.g., 1,000+ racks per day) such as large hospitals or universities?",
         "options": [
-            "Door-type (Single tank)",
-            "Undercounter",
+            "Door-type (Single tank) dishwasher",
+            "Undercounter commercial dishwasher",
             "Flight-type continuous conveyor",
-            "Pot and pan washer"
+            "Pot and pan washer with agitator"
         ],
         "correctIndex": 2,
         "explanation": "Flight-type continuous conveyor dishwashers are designed for very high volume, capable of handling thousands of racks per day with continuous loading.",
@@ -112,10 +112,10 @@
         "difficulty": "medium",
         "text": "A 'Tilting Skillet' (or Braising Pan) is considered one of the most versatile pieces of equipment because it can used to:",
         "options": [
-            "Deep fry only",
+            "Deep fry large quantities of food only",
             "Fry, braise, grill, boil, and steam",
-            "Bake cakes only",
-            "Wash dishes"
+            "Bake delicate cakes and pastries only",
+            "Wash dishes in a multi-compartment setup"
         ],
         "correctIndex": 1,
         "explanation": "Tilting skillets are incredibly versatile and can be used as a fry pan, braising pan, griddle, kettle, steamer, and food warmer/server.",
@@ -154,10 +154,10 @@
         "difficulty": "medium",
         "text": "A 'Steam-Jacketed Kettle' cooks food by:",
         "options": [
-            "Weighing it down with a heavy lid",
-            "Direct contact with a flame",
+            "Weighing it down with a heavy lid to increase pressure",
+            "Direct contact with a flame or electric heating element at the bottom",
             "Circulating steam in a jacket (space) between the inner and outer walls of the kettle",
-            "Microwave radiation"
+            "Microwave radiation that penetrates the food molecules"
         ],
         "correctIndex": 2,
         "explanation": "Steam-jacketed kettles have two walls (bowl within a bowl) with steam circulating between them, providing even, gentle heating without scorching contact.",
@@ -175,10 +175,10 @@
         "difficulty": "medium",
         "text": "In facility planning, 'Ergonomics' refers to:",
         "options": [
-            "The cost of equipment",
+            "The analysis of the cost of equipment versus its useful life",
             "Designing work areas and equipment to fit the human body and movements to minimize fatigue and injury",
-            "The flow of food from receiving to service",
-            "Energy efficiency"
+            "The continuous flow of food from receiving dock to service point",
+            "The overall energy efficiency rating of the kitchen appliances"
         ],
         "correctIndex": 1,
         "explanation": "Ergonomics is the applied science of equipment design intended to reduce operator fatigue and discomfort (e.g., table height, comfortable mats).",
@@ -238,10 +238,10 @@
         "difficulty": "medium",
         "text": "The main aisle in a kitchen should be at least how wide to allow for two-way traffic or carts?",
         "options": [
-            "3 feet",
-            "4 feet",
-            "5 feet (60 inches)",
-            "2 feet"
+            "3 feet (36 inches) minimum width",
+            "4 feet (48 inches) minimum width",
+            "5 feet (60 inches) minimum width",
+            "2 feet (24 inches) minimum width"
         ],
         "correctIndex": 2,
         "explanation": "Main traffic aisles usually need to be at least 5 feet (60 inches) wide to accommodate two-way traffic with carts. Work aisles are typically 36-42 inches.",
@@ -259,10 +259,10 @@
         "difficulty": "medium",
         "text": "A 'Deck Oven' is typically used for:",
         "options": [
-            "Steaming vegetables",
-            "Deep frying",
+            "Steaming vegetables in a moist environment",
+            "Deep frying foods in hot oil",
             "Baking pizzas or breads directly on the hearth/deck",
-            "Making soup"
+            "Making soup in large batches"
         ],
         "correctIndex": 2,
         "explanation": "Deck ovens have heated surfaces (decks) where food like pizza or hearth breads are placed directly to develop a crust.",
@@ -301,10 +301,10 @@
         "difficulty": "medium",
         "text": "Gas equipment power is measured in:",
         "options": [
-            "Volts",
-            "Amps",
+            "Volts (Voltage measurement)",
+            "Amps (Amperage rating)",
             "BTU (British Thermal Units)",
-            "Horsepower"
+            "Horsepower (Mechanical power)"
         ],
         "correctIndex": 2,
         "explanation": "Gas appliances are rated in BTUs (British Thermal Units), which measures heat energy. Electric appliances are rated in Volts/Amps/Kilowatts.",
@@ -365,9 +365,9 @@
         "text": "A 'Salamander' is a type of:",
         "options": [
             "Small broiler usually mounted above a range",
-            "Reptile",
-            "Dishwasher",
-            "Mixer"
+            "A small lizard-like reptile often found in damp environments",
+            "A high-capacity conveyor dishwasher for large operations",
+            "A heavy-duty floor mixer for dough preparation"
         ],
         "correctIndex": 0,
         "explanation": "A Salamander is a small, high-heat broiler used for browning, glazing, or melting cheese on top of dishes (au gratin).",
@@ -406,10 +406,10 @@
         "difficulty": "medium",
         "text": "A 'Flow Chart' in kitchen design helps to identify:",
         "options": [
-            "Water drainage",
+            "The proper drainage of water and waste liquids from the kitchen",
             "Movement of food, people, and dishes to prevent cross-traffic and backtracking",
-            "Cash flow",
-            "Air flow only"
+            "The cash flow and financial transactions within the facility",
+            "The air ventilation flow patterns in the hood system only"
         ],
         "correctIndex": 1,
         "explanation": "Flow charts analyze the traffic patterns of food, employees, and waste to design an efficient layout that minimizes backtracking and cross-traffic.",

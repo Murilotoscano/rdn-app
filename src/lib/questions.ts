@@ -21,7 +21,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-02",
         "moduleId": "mod1",
@@ -41,7 +41,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-03",
         "moduleId": "mod1",
@@ -61,7 +61,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-04",
         "moduleId": "mod1",
@@ -81,7 +81,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-05",
         "moduleId": "mod1",
@@ -101,7 +101,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-06",
         "moduleId": "mod1",
@@ -120,7 +120,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
         "tags": [
             "management"
         ]
-    } as Question,
+    },
     {
         "id": "m1-chat-07",
         "moduleId": "mod1",
@@ -140,7 +140,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-08",
         "moduleId": "mod1",
@@ -160,7 +160,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-09",
         "moduleId": "mod1",
@@ -180,7 +180,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-10",
         "moduleId": "mod1",
@@ -199,7 +199,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
         "tags": [
             "management"
         ]
-    } as Question,
+    },
     {
         "id": "m1-chat-11",
         "moduleId": "mod1",
@@ -219,7 +219,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-12",
         "moduleId": "mod1",
@@ -239,7 +239,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-13",
         "moduleId": "mod1",
@@ -259,7 +259,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-14",
         "moduleId": "mod1",
@@ -278,7 +278,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
         "tags": [
             "management"
         ]
-    } as Question,
+    },
     {
         "id": "m1-chat-15",
         "moduleId": "mod1",
@@ -298,7 +298,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-16",
         "moduleId": "mod1",
@@ -318,7 +318,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-17",
         "moduleId": "mod1",
@@ -338,7 +338,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-18",
         "moduleId": "mod1",
@@ -358,7 +358,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-19",
         "moduleId": "mod1",
@@ -378,7 +378,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-20",
         "moduleId": "mod1",
@@ -398,7 +398,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-21",
         "moduleId": "mod1",
@@ -418,7 +418,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-22",
         "moduleId": "mod1",
@@ -438,7 +438,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-23",
         "moduleId": "mod1",
@@ -458,7 +458,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-24",
         "moduleId": "mod1",
@@ -478,7 +478,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-25",
         "moduleId": "mod1",
@@ -498,7 +498,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "d1-q2",
         "moduleId": "mod1",
@@ -519,7 +519,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "pigments"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "d1-q3",
         "moduleId": "mod1",
@@ -540,7 +540,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "statistics"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "d2-q1",
         "moduleId": "mod2",
@@ -560,7 +560,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "renal"
         ]
-    } as Question,
+    },
     {
         "id": "d2-q2",
         "moduleId": "mod2",
@@ -580,7 +580,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "nutrition-support"
         ]
-    } as Question,
+    },
     {
         "id": "d2-q3",
         "moduleId": "mod2",
@@ -600,7 +600,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "diabetes"
         ]
-    } as Question,
+    },
     {
         "id": "d2-q4",
         "moduleId": "mod2",
@@ -620,7 +620,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "nfpe"
         ]
-    } as Question,
+    },
     {
         "id": "d3-q1",
         "moduleId": "mod3",
@@ -641,7 +641,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "legal"
         ],
         "changeLog": "Moved from Domain III to Domain II"
-    } as Question,
+    },
     {
         "id": "d3-q2",
         "moduleId": "mod3",
@@ -662,7 +662,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "calculations"
         ],
         "changeLog": "Moved from Domain III to Domain II"
-    } as Question,
+    },
     {
         "id": "d3-q3",
         "moduleId": "mod3",
@@ -682,7 +682,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management",
             "marketing"
         ]
-    } as Question,
+    },
     {
         "id": "d4-q1",
         "moduleId": "mod4",
@@ -703,7 +703,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "safety"
         ],
         "changeLog": "Moved from Domain IV to Domain II"
-    } as Question,
+    },
     {
         "id": "d4-q2",
         "moduleId": "mod4",
@@ -724,7 +724,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "systems"
         ],
         "changeLog": "Moved from Domain IV to Domain II"
-    } as Question,
+    },
     {
         "id": "d4-q3",
         "moduleId": "mod4",
@@ -745,7 +745,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "safety"
         ],
         "changeLog": "Moved from Domain IV to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-52",
         "moduleId": "mod1",
@@ -766,7 +766,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "finance"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-53",
         "moduleId": "mod1",
@@ -787,7 +787,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "finance"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-54",
         "moduleId": "mod1",
@@ -808,7 +808,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "finance"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-55",
         "moduleId": "mod1",
@@ -829,7 +829,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "finance"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-56",
         "moduleId": "mod1",
@@ -850,7 +850,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "finance"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-57",
         "moduleId": "mod1",
@@ -871,7 +871,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "finance"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-58",
         "moduleId": "mod1",
@@ -892,7 +892,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "finance"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-59",
         "moduleId": "mod1",
@@ -913,7 +913,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "finance"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-60",
         "moduleId": "mod1",
@@ -934,7 +934,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "operations"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-61",
         "moduleId": "mod1",
@@ -955,7 +955,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "operations"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-62",
         "moduleId": "mod1",
@@ -976,7 +976,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "forecasting"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-63",
         "moduleId": "mod1",
@@ -997,7 +997,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "forecasting"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-64",
         "moduleId": "mod1",
@@ -1018,7 +1018,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "quality"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-65",
         "moduleId": "mod1",
@@ -1039,7 +1039,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "quality"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-66",
         "moduleId": "mod1",
@@ -1060,7 +1060,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "quality"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-67",
         "moduleId": "mod1",
@@ -1081,7 +1081,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "quality"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-68",
         "moduleId": "mod1",
@@ -1102,7 +1102,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "quality"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-69",
         "moduleId": "mod1",
@@ -1123,7 +1123,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "quality"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-70",
         "moduleId": "mod1",
@@ -1144,7 +1144,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "risk"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-71",
         "moduleId": "mod1",
@@ -1165,7 +1165,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "risk"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-72",
         "moduleId": "mod1",
@@ -1186,7 +1186,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "contracts"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-73",
         "moduleId": "mod1",
@@ -1207,7 +1207,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "contracts"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-74",
         "moduleId": "mod1",
@@ -1227,7 +1227,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "management",
             "marketing"
         ]
-    } as Question,
+    },
     {
         "id": "m1-chat-75",
         "moduleId": "mod1",
@@ -1248,7 +1248,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "marketing"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-76",
         "moduleId": "mod1",
@@ -1269,7 +1269,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "marketing"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-77",
         "moduleId": "mod1",
@@ -1290,7 +1290,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "procurement"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-78",
         "moduleId": "mod1",
@@ -1311,7 +1311,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "procurement"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-79",
         "moduleId": "mod1",
@@ -1332,7 +1332,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "inventory"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-80",
         "moduleId": "mod1",
@@ -1353,7 +1353,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "inventory"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-81",
         "moduleId": "mod1",
@@ -1374,7 +1374,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "inventory"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-82",
         "moduleId": "mod1",
@@ -1395,7 +1395,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "facilities"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-83",
         "moduleId": "mod1",
@@ -1416,7 +1416,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "facilities"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-84",
         "moduleId": "mod1",
@@ -1437,7 +1437,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "equipment"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-85",
         "moduleId": "mod1",
@@ -1458,7 +1458,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "sustainability"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-86",
         "moduleId": "mod1",
@@ -1479,7 +1479,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "sustainability"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-87",
         "moduleId": "mod1",
@@ -1500,7 +1500,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "it"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-88",
         "moduleId": "mod1",
@@ -1522,7 +1522,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "legal"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-89",
         "moduleId": "mod1",
@@ -1542,7 +1542,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "research",
             "statistics"
         ]
-    } as Question,
+    },
     {
         "id": "m1-chat-90",
         "moduleId": "mod1",
@@ -1562,7 +1562,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "research",
             "statistics"
         ]
-    } as Question,
+    },
     {
         "id": "m1-chat-91",
         "moduleId": "mod1",
@@ -1583,7 +1583,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "statistics"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-92",
         "moduleId": "mod1",
@@ -1604,7 +1604,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "methodology"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-93",
         "moduleId": "mod1",
@@ -1625,7 +1625,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "methodology"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-94",
         "moduleId": "mod1",
@@ -1646,7 +1646,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "ebp"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-95",
         "moduleId": "mod1",
@@ -1667,7 +1667,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "ebp"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-96",
         "moduleId": "mod1",
@@ -1687,7 +1687,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "ethics"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-97",
         "moduleId": "mod1",
@@ -1707,7 +1707,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "ethics"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-98",
         "moduleId": "mod1",
@@ -1727,7 +1727,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "ethics"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-99",
         "moduleId": "mod1",
@@ -1748,7 +1748,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "professionalism"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-100",
         "moduleId": "mod1",
@@ -1768,7 +1768,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "professionalism"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m1-chat-101",
         "moduleId": "mod1",
@@ -1788,7 +1788,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "professionalism"
         ],
         "changeLog": "Moved from Domain I to Domain II"
-    } as Question,
+    },
     {
         "id": "m2-chat-1",
         "moduleId": "mod2",
@@ -1808,7 +1808,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "electrolytes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-2",
         "moduleId": "mod2",
@@ -1828,7 +1828,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "electrolytes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-3",
         "moduleId": "mod2",
@@ -1848,7 +1848,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "hydration"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-4",
         "moduleId": "mod2",
@@ -1868,7 +1868,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "hydration"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-5",
         "moduleId": "mod2",
@@ -1888,7 +1888,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "acid-base"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-6",
         "moduleId": "mod2",
@@ -1908,7 +1908,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "acid-base"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-7",
         "moduleId": "mod2",
@@ -1928,7 +1928,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-8",
         "moduleId": "mod2",
@@ -1949,7 +1949,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "kidney",
             "vitamins"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-9",
         "moduleId": "mod2",
@@ -1969,7 +1969,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-10",
         "moduleId": "mod2",
@@ -1989,7 +1989,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-11",
         "moduleId": "mod2",
@@ -2009,7 +2009,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-12",
         "moduleId": "mod2",
@@ -2029,7 +2029,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-13",
         "moduleId": "mod2",
@@ -2049,7 +2049,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-14",
         "moduleId": "mod2",
@@ -2069,7 +2069,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-15",
         "moduleId": "mod2",
@@ -2089,7 +2089,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-16",
         "moduleId": "mod2",
@@ -2109,7 +2109,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-17",
         "moduleId": "mod2",
@@ -2129,7 +2129,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-18",
         "moduleId": "mod2",
@@ -2149,7 +2149,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-19",
         "moduleId": "mod2",
@@ -2169,7 +2169,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-20",
         "moduleId": "mod2",
@@ -2190,7 +2190,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "parenteral",
             "calculations"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-21",
         "moduleId": "mod2",
@@ -2211,7 +2211,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "parenteral",
             "calculations"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-22",
         "moduleId": "mod2",
@@ -2231,7 +2231,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-23",
         "moduleId": "mod2",
@@ -2252,7 +2252,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "physiology"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-24",
         "moduleId": "mod2",
@@ -2272,7 +2272,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "support"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-25",
         "moduleId": "mod2",
@@ -2292,7 +2292,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "refeeding"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-26",
         "moduleId": "mod2",
@@ -2312,7 +2312,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "refeeding"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-27",
         "moduleId": "mod2",
@@ -2332,7 +2332,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "refeeding"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-28",
         "moduleId": "mod2",
@@ -2352,7 +2352,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-29",
         "moduleId": "mod2",
@@ -2372,7 +2372,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-30",
         "moduleId": "mod2",
@@ -2393,7 +2393,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "kidney",
             "dialysis"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-31",
         "moduleId": "mod2",
@@ -2414,7 +2414,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "kidney",
             "dialysis"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-32",
         "moduleId": "mod2",
@@ -2434,7 +2434,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-33",
         "moduleId": "mod2",
@@ -2454,7 +2454,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-34",
         "moduleId": "mod2",
@@ -2474,7 +2474,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-35",
         "moduleId": "mod2",
@@ -2495,7 +2495,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "kidney",
             "vitamins"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-36",
         "moduleId": "mod2",
@@ -2515,7 +2515,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-37",
         "moduleId": "mod2",
@@ -2535,7 +2535,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-38",
         "moduleId": "mod2",
@@ -2555,7 +2555,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-39",
         "moduleId": "mod2",
@@ -2575,7 +2575,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-40",
         "moduleId": "mod2",
@@ -2595,7 +2595,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "energy"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-41",
         "moduleId": "mod2",
@@ -2615,7 +2615,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "energy"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-42",
         "moduleId": "mod2",
@@ -2635,7 +2635,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "protein"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-43",
         "moduleId": "mod2",
@@ -2655,7 +2655,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "anthropometry"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-44",
         "moduleId": "mod2",
@@ -2675,7 +2675,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "anthropometry"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-45",
         "moduleId": "mod2",
@@ -2695,7 +2695,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "critical-care"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-46",
         "moduleId": "mod2",
@@ -2715,7 +2715,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "metabolism"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-47",
         "moduleId": "mod2",
@@ -2735,7 +2735,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "metabolism"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-48",
         "moduleId": "mod2",
@@ -2756,7 +2756,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-49",
         "moduleId": "mod2",
@@ -2777,7 +2777,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-50",
         "moduleId": "mod2",
@@ -2798,7 +2798,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-51",
         "moduleId": "mod2",
@@ -2819,7 +2819,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-52",
         "moduleId": "mod2",
@@ -2840,7 +2840,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-53",
         "moduleId": "mod2",
@@ -2861,7 +2861,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-54",
         "moduleId": "mod2",
@@ -2882,7 +2882,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-55",
         "moduleId": "mod2",
@@ -2903,7 +2903,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-56",
         "moduleId": "mod2",
@@ -2924,7 +2924,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-57",
         "moduleId": "mod2",
@@ -2945,7 +2945,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-58",
         "moduleId": "mod2",
@@ -2965,7 +2965,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "acid-base"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-59",
         "moduleId": "mod2",
@@ -2985,7 +2985,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "hydration"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-60",
         "moduleId": "mod2",
@@ -3005,7 +3005,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "electrolytes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-61",
         "moduleId": "mod2",
@@ -3025,7 +3025,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-62",
         "moduleId": "mod2",
@@ -3045,7 +3045,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-63",
         "moduleId": "mod2",
@@ -3065,7 +3065,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-64",
         "moduleId": "mod2",
@@ -3085,7 +3085,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-65",
         "moduleId": "mod2",
@@ -3105,7 +3105,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "calculations"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-66",
         "moduleId": "mod2",
@@ -3126,7 +3126,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "calculations"
         ],
         "changeLog": "; Verified GIR"
-    } as Question,
+    },
     {
         "id": "m2-chat-67",
         "moduleId": "mod2",
@@ -3147,7 +3147,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "calculations"
         ],
         "changeLog": "; Verified GIR"
-    } as Question,
+    },
     {
         "id": "m2-chat-68",
         "moduleId": "mod2",
@@ -3167,7 +3167,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-69",
         "moduleId": "mod2",
@@ -3187,7 +3187,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "electrolytes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-70",
         "moduleId": "mod2",
@@ -3207,7 +3207,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-71",
         "moduleId": "mod2",
@@ -3228,7 +3228,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "physiology"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-72",
         "moduleId": "mod2",
@@ -3249,7 +3249,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "malabsorption"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-73",
         "moduleId": "mod2",
@@ -3269,7 +3269,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-74",
         "moduleId": "mod2",
@@ -3289,7 +3289,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-75",
         "moduleId": "mod2",
@@ -3309,7 +3309,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-76",
         "moduleId": "mod2",
@@ -3330,7 +3330,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "enteral",
             "hydration"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-77",
         "moduleId": "mod2",
@@ -3350,7 +3350,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-78",
         "moduleId": "mod2",
@@ -3371,7 +3371,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-79",
         "moduleId": "mod2",
@@ -3392,7 +3392,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-80",
         "moduleId": "mod2",
@@ -3414,7 +3414,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "malabsorption"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-81",
         "moduleId": "mod2",
@@ -3435,7 +3435,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-82",
         "moduleId": "mod2",
@@ -3456,7 +3456,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-83",
         "moduleId": "mod2",
@@ -3476,7 +3476,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "digestion"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-84",
         "moduleId": "mod2",
@@ -3496,7 +3496,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "acid-base"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-85",
         "moduleId": "mod2",
@@ -3516,7 +3516,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "acid-base"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-86",
         "moduleId": "mod2",
@@ -3537,7 +3537,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "kidney"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-87",
         "moduleId": "mod2",
@@ -3557,7 +3557,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "electrolytes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-88",
         "moduleId": "mod2",
@@ -3577,7 +3577,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "hydration"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-89",
         "moduleId": "mod2",
@@ -3597,7 +3597,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "hydration"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-90",
         "moduleId": "mod2",
@@ -3617,7 +3617,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-91",
         "moduleId": "mod2",
@@ -3637,7 +3637,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "calculations"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-92",
         "moduleId": "mod2",
@@ -3657,7 +3657,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "calculations"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-93",
         "moduleId": "mod2",
@@ -3677,7 +3677,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-94",
         "moduleId": "mod2",
@@ -3697,7 +3697,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-95",
         "moduleId": "mod2",
@@ -3718,7 +3718,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "enteral",
             "safety"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-96",
         "moduleId": "mod2",
@@ -3738,7 +3738,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "electrolytes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-97",
         "moduleId": "mod2",
@@ -3758,7 +3758,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-98",
         "moduleId": "mod2",
@@ -3779,7 +3779,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-99",
         "moduleId": "mod2",
@@ -3799,7 +3799,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "digestion"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-100",
         "moduleId": "mod2",
@@ -3820,7 +3820,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-101",
         "moduleId": "mod2",
@@ -3841,7 +3841,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-102",
         "moduleId": "mod2",
@@ -3863,7 +3863,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "vitamins"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-103",
         "moduleId": "mod2",
@@ -3885,7 +3885,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "vitamins"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-104",
         "moduleId": "mod2",
@@ -3907,7 +3907,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "minerals"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-105",
         "moduleId": "mod2",
@@ -3929,7 +3929,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "minerals"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-106",
         "moduleId": "mod2",
@@ -3951,7 +3951,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "malabsorption"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-107",
         "moduleId": "mod2",
@@ -3971,7 +3971,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "celiac"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-108",
         "moduleId": "mod2",
@@ -3992,7 +3992,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "malabsorption"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-109",
         "moduleId": "mod2",
@@ -4012,7 +4012,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "malabsorption"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-110",
         "moduleId": "mod2",
@@ -4032,7 +4032,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "GI-disorders"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-111",
         "moduleId": "mod2",
@@ -4052,7 +4052,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "GI-disorders"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-112",
         "moduleId": "mod2",
@@ -4072,7 +4072,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "GI-disorders"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-113",
         "moduleId": "mod2",
@@ -4092,7 +4092,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "GI-disorders"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-114",
         "moduleId": "mod2",
@@ -4112,7 +4112,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "GI-disorders"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-115",
         "moduleId": "mod2",
@@ -4132,7 +4132,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "GI-disorders"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-116",
         "moduleId": "mod2",
@@ -4152,7 +4152,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "GI-disorders"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-117",
         "moduleId": "mod2",
@@ -4172,7 +4172,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "GI-disorders"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-118",
         "moduleId": "mod2",
@@ -4192,7 +4192,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "GI-disorders"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-119",
         "moduleId": "mod2",
@@ -4213,7 +4213,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "GI-disorders"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-120",
         "moduleId": "mod2",
@@ -4233,7 +4233,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "GI-disorders"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-121",
         "moduleId": "mod2",
@@ -4253,7 +4253,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "pancreas"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-122",
         "moduleId": "mod2",
@@ -4274,7 +4274,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "pancreas"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-123",
         "moduleId": "mod2",
@@ -4294,7 +4294,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "liver"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-124",
         "moduleId": "mod2",
@@ -4314,7 +4314,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "liver"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-125",
         "moduleId": "mod2",
@@ -4334,7 +4334,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-126",
         "moduleId": "mod2",
@@ -4354,7 +4354,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-127",
         "moduleId": "mod2",
@@ -4375,7 +4375,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "enteral",
             "malabsorption"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-128",
         "moduleId": "mod2",
@@ -4396,7 +4396,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-129",
         "moduleId": "mod2",
@@ -4417,7 +4417,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-130",
         "moduleId": "mod2",
@@ -4438,7 +4438,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-131",
         "moduleId": "mod2",
@@ -4460,7 +4460,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "malabsorption"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-132",
         "moduleId": "mod2",
@@ -4482,7 +4482,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "vitamins"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-133",
         "moduleId": "mod2",
@@ -4503,7 +4503,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-134",
         "moduleId": "mod2",
@@ -4523,7 +4523,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "hydration"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-135",
         "moduleId": "mod2",
@@ -4544,7 +4544,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "electrolytes",
             "acid-base"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-136",
         "moduleId": "mod2",
@@ -4564,7 +4564,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "electrolytes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-137",
         "moduleId": "mod2",
@@ -4584,7 +4584,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-138",
         "moduleId": "mod2",
@@ -4604,7 +4604,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-139",
         "moduleId": "mod2",
@@ -4624,7 +4624,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "acid-base"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-140",
         "moduleId": "mod2",
@@ -4644,7 +4644,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "acid-base"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-141",
         "moduleId": "mod2",
@@ -4664,7 +4664,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-142",
         "moduleId": "mod2",
@@ -4684,7 +4684,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-143",
         "moduleId": "mod2",
@@ -4704,7 +4704,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-144",
         "moduleId": "mod2",
@@ -4724,7 +4724,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "calculations"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-145",
         "moduleId": "mod2",
@@ -4744,7 +4744,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "calculations"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-146",
         "moduleId": "mod2",
@@ -4764,7 +4764,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-147",
         "moduleId": "mod2",
@@ -4785,7 +4785,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "malabsorption"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-148",
         "moduleId": "mod2",
@@ -4806,7 +4806,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-149",
         "moduleId": "mod2",
@@ -4826,7 +4826,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "kidney"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-150",
         "moduleId": "mod2",
@@ -4846,7 +4846,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "liver"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-151",
         "moduleId": "mod2",
@@ -4866,7 +4866,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "liver"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-152",
         "moduleId": "mod2",
@@ -4886,7 +4886,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "diabetes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-153",
         "moduleId": "mod2",
@@ -4906,7 +4906,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "diabetes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-154",
         "moduleId": "mod2",
@@ -4927,7 +4927,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "diabetes",
             "calculations"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-155",
         "moduleId": "mod2",
@@ -4947,7 +4947,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "diabetes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-156",
         "moduleId": "mod2",
@@ -4967,7 +4967,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "diabetes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-157",
         "moduleId": "mod2",
@@ -4987,7 +4987,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "diabetes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-158",
         "moduleId": "mod2",
@@ -5008,7 +5008,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "diabetes",
             "lifecycle"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-159",
         "moduleId": "mod2",
@@ -5029,7 +5029,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "diabetes",
             "lifecycle"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-160",
         "moduleId": "mod2",
@@ -5049,7 +5049,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "cardiovascular"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-161",
         "moduleId": "mod2",
@@ -5069,7 +5069,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "cardiovascular"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-162",
         "moduleId": "mod2",
@@ -5090,7 +5090,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "cardiovascular",
             "hypertension"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-163",
         "moduleId": "mod2",
@@ -5111,7 +5111,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "cardiovascular",
             "hypertension"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-164",
         "moduleId": "mod2",
@@ -5131,7 +5131,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "cardiovascular"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-165",
         "moduleId": "mod2",
@@ -5151,7 +5151,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "metabolic"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-166",
         "moduleId": "mod2",
@@ -5171,7 +5171,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "obesity"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-167",
         "moduleId": "mod2",
@@ -5192,7 +5192,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "obesity",
             "bariatric"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-168",
         "moduleId": "mod2",
@@ -5213,7 +5213,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "obesity",
             "bariatric"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-169",
         "moduleId": "mod2",
@@ -5233,7 +5233,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "oncology"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-170",
         "moduleId": "mod2",
@@ -5253,7 +5253,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "oncology"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-171",
         "moduleId": "mod2",
@@ -5274,7 +5274,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "oncology",
             "immune"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-172",
         "moduleId": "mod2",
@@ -5294,7 +5294,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "immune"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-173",
         "moduleId": "mod2",
@@ -5314,7 +5314,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "lifecycle"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-174",
         "moduleId": "mod2",
@@ -5334,7 +5334,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "lifecycle"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-175",
         "moduleId": "mod2",
@@ -5354,7 +5354,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-176",
         "moduleId": "mod2",
@@ -5374,7 +5374,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-177",
         "moduleId": "mod2",
@@ -5394,7 +5394,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "enteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-178",
         "moduleId": "mod2",
@@ -5415,7 +5415,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "enteral",
             "medications"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-179",
         "moduleId": "mod2",
@@ -5437,7 +5437,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "vitamins"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-180",
         "moduleId": "mod2",
@@ -5458,7 +5458,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "malabsorption"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-181",
         "moduleId": "mod2",
@@ -5479,7 +5479,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "digestion"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-182",
         "moduleId": "mod2",
@@ -5499,7 +5499,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "renal"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-183",
         "moduleId": "mod2",
@@ -5519,7 +5519,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "electrolytes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-184",
         "moduleId": "mod2",
@@ -5539,7 +5539,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "electrolytes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-185",
         "moduleId": "mod2",
@@ -5560,7 +5560,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "renal",
             "bone"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-186",
         "moduleId": "mod2",
@@ -5580,7 +5580,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-187",
         "moduleId": "mod2",
@@ -5600,7 +5600,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "parenteral"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-188",
         "moduleId": "mod2",
@@ -5620,7 +5620,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "calculations"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-189",
         "moduleId": "mod2",
@@ -5640,7 +5640,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "calculations"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-190",
         "moduleId": "mod2",
@@ -5661,7 +5661,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "parenteral",
             "complications"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-191",
         "moduleId": "mod2",
@@ -5682,7 +5682,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "parenteral",
             "complications"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-192",
         "moduleId": "mod2",
@@ -5703,7 +5703,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "parenteral",
             "complications"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-193",
         "moduleId": "mod2",
@@ -5723,7 +5723,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "renal"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-194",
         "moduleId": "mod2",
@@ -5743,7 +5743,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "electrolytes"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-195",
         "moduleId": "mod2",
@@ -5763,7 +5763,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "clinical",
             "acid-base"
         ]
-    } as Question,
+    },
     {
         "id": "m2-chat-196",
         "moduleId": "mod2",
@@ -5785,7 +5785,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "vitamins"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
+    },
     {
         "id": "m2-chat-197",
         "moduleId": "mod2",
@@ -5806,8 +5806,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "malabsorption"
         ],
         "changeLog": "Moved from Domain II to Domain I"
-    } as Question,
-
+    },
     {
         "id": "m3-pdf-01",
         "moduleId": "mod3",
@@ -6231,428 +6230,6 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "staffing"
         ]
     },
-
-    {
-        "id": "m3-pdf-21",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Functions of Management",
-        "difficulty": "medium",
-        "text": "In Systems Theory, 'Equifinality' refers to the concept that:",
-        "options": [
-            "All systems must have equal inputs to achieve equal outputs",
-            "Outputs may be achieved in a variety of ways, using different inputs or transformations",
-            "A system must be in a state of static equilibrium",
-            "Feedback loops are unnecessary for stability"
-        ],
-        "correctIndex": 1,
-        "explanation": "Equifinality means that the same or similar outputs (goals) can be achieved by using different inputs or different transformation processes.",
-        "tags": [
-            "management",
-            "systems_theory",
-            "concepts"
-        ]
-    },
-    {
-        "id": "m3-pdf-22",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Functions of Management",
-        "difficulty": "hard",
-        "text": "Which of the following is considered an 'Input' in the Foodservice Systems Model?",
-        "options": [
-            "Employee satisfaction",
-            "Finished meals",
-            "Raw ingredients and labor minutes",
-            "Customer feedback"
-        ],
-        "correctIndex": 2,
-        "explanation": "Inputs are the resources used to create products/services. Examples include raw materials (ingredients), money, time, and personnel (labor). Meals and satisfaction are Outputs.",
-        "tags": [
-            "management",
-            "systems_theory",
-            "inputs"
-        ]
-    },
-    {
-        "id": "m3-pdf-23",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Marketing",
-        "difficulty": "medium",
-        "text": "The '4 Ps' of the Marketing Mix stand for:",
-        "options": [
-            "Product, Price, Planning, Promotion",
-            "People, Process, Product, Price",
-            "Product, Price, Place, Promotion",
-            "Plan, Produce, Price, Place"
-        ],
-        "correctIndex": 2,
-        "explanation": "The 4 Ps of Marketing are Product, Price, Place (Distribution), and Promotion.",
-        "tags": [
-            "management",
-            "marketing",
-            "concepts"
-        ]
-    },
-    {
-        "id": "m3-pdf-24",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Marketing",
-        "difficulty": "hard",
-        "text": "In the VALS (Values and Lifestyles) framework, which group is characterized by high income, high self-esteem, abundant resources, and all three primary motivations (ideals, achievement, self-expression)?",
-        "options": [
-            "Thinkers",
-            "Innovators",
-            "Achievers",
-            "Survivors"
-        ],
-        "correctIndex": 1,
-        "explanation": "Innovators are successful, sophisticated, take-charge people with high self-esteem and abundant resources, exhibiting all three primary motivations.",
-        "tags": [
-            "management",
-            "marketing",
-            "consumer_behavior"
-        ]
-    },
-    {
-        "id": "m3-pdf-25",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Cultural Competence",
-        "difficulty": "hard",
-        "text": "The LEARN model for culturally competent communication stands for:",
-        "options": [
-            "Listen, Explain, Acknowledge, Recommend, Negotiate",
-            "Learn, Engage, Ask, Review, Note",
-            "Listen, Evaluate, Assess, Review, Negotiate",
-            "Look, Explain, Ask, Respect, Nurture"
-        ],
-        "correctIndex": 0,
-        "explanation": "LEARN stands for: Listen to the patient's perception, Explain your perception, Acknowledge/discuss differences, Recommend treatment, Negotiate agreement.",
-        "tags": [
-            "management",
-            "cultural_competence",
-            "models"
-        ]
-    },
-    {
-        "id": "m3-pdf-26",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Cultural Competence",
-        "difficulty": "hard",
-        "text": "In the ETHNIC model of culturally competent care, what does the 'H' stand for?",
-        "options": [
-            "History",
-            "Health beliefs",
-            "Healers",
-            "Home remedies"
-        ],
-        "correctIndex": 2,
-        "explanation": "The ETHNIC model stands for Explanation, Treatment, Healers, Negotiation, Intervention, Collaboration. 'Healers' refers to asking about involvement of folk healers.",
-        "tags": [
-            "management",
-            "cultural_competence",
-            "models"
-        ]
-    },
-    {
-        "id": "m3-pdf-27",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Functions of Management",
-        "difficulty": "medium",
-        "text": "Strategic Planning differs from operational planning in that it primarily answers:",
-        "options": [
-            "How do we balance the daily budget?",
-            "Where are we now, where are we going, and how do we get there?",
-            "How many staff do we need for the next shift?",
-            "What is the menu for next week?"
-        ],
-        "correctIndex": 1,
-        "explanation": "Strategic planning is a continuous, systematic process to determine long-term goals ('Where are we going?') and the best approach to accomplish them.",
-        "tags": [
-            "management",
-            "planning",
-            "strategic"
-        ]
-    },
-    {
-        "id": "m3-pdf-28",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Marketing",
-        "difficulty": "medium",
-        "text": "Market segmentation based on 'Psychographics' groups consumers according to:",
-        "options": [
-            "Age, sex, and income",
-            "Physical location",
-            "Personality, interests, values, and beliefs",
-            "Purchase history and product usage"
-        ],
-        "correctIndex": 2,
-        "explanation": "Psychographic segmentation groups people based on psychological traits like lifestyle, personality, values, interests, and beliefs.",
-        "tags": [
-            "management",
-            "marketing",
-            "segmentation"
-        ]
-    },
-    {
-        "id": "m3-pdf-29",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Cultural Competence",
-        "difficulty": "hard",
-        "text": "Which cultural competence model involves a 5-step process: Awareness, Knowledge, Skill, Encounter, and Desire?",
-        "options": [
-            "Campinha-Bacote Model",
-            "Purnell Model",
-            "GREET Model",
-            "BATHE Model"
-        ],
-        "correctIndex": 0,
-        "explanation": "The Campinha-Bacote Model describes the process of cultural competence as involving Cultural Awareness, Knowledge, Skill, Encounter, and Desire.",
-        "tags": [
-            "management",
-            "cultural_competence",
-            "models"
-        ]
-    },
-    {
-        "id": "m3-pdf-30",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Functions of Management",
-        "difficulty": "medium",
-        "text": "In a systems approach, 'Feedback' encompasses:",
-        "options": [
-            "Only complaints from customers",
-            "Information from internal and external sources used to adjust operations and restore equilibrium",
-            "The finished products and services",
-            "The initial resources invested"
-        ],
-        "correctIndex": 1,
-        "explanation": "Feedback is information on how operations worked or failed, from internal (staff) or external (customers, inspectors) sources, used to modify the system.",
-        "tags": [
-            "management",
-            "systems_theory",
-            "feedback"
-        ]
-    },
-    {
-        "id": "m3-pdf-31",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Marketing",
-        "difficulty": "medium",
-        "text": "Which 'Marketing Era' focused primarily on mass production capabilities rather than customer wants?",
-        "options": [
-            "Sales Era",
-            "Marketing Era",
-            "Production Era",
-            "Technological Era"
-        ],
-        "correctIndex": 2,
-        "explanation": "The Production Era was characterized by a focus on mass production and manufacturing efficiency, often assuming products would sell themselves.",
-        "tags": [
-            "management",
-            "marketing",
-            "history"
-        ]
-    },
-    {
-        "id": "m3-pdf-32",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Cultural Competence",
-        "difficulty": "medium",
-        "text": "The GREET model is specifically useful when working with:",
-        "options": [
-            "Pediatric patients",
-            "Immigrant populations",
-            "Elderly patients in long-term care",
-            "Athletes"
-        ],
-        "correctIndex": 1,
-        "explanation": "The GREET model (Generation, Reason, Extended family, Ethnic behavior, Time in US) is designed to help understand immigrant populations.",
-        "tags": [
-            "management",
-            "cultural_competence",
-            "models"
-        ]
-    },
-    {
-        "id": "m3-pdf-33",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Functions of Management",
-        "difficulty": "hard",
-        "text": "Permeability of boundaries in a system refers to:",
-        "options": [
-            "The system being closed off from the environment",
-            "The strict separation of departments",
-            "The ability of the system to interact with its environment and other subsystems",
-            "A security breach in the organization"
-        ],
-        "correctIndex": 2,
-        "explanation": "Permeability allows the system to interact with its environment. However, undefined or too permeable boundaries can lead to tension/overlap between subsystems.",
-        "tags": [
-            "management",
-            "systems_theory",
-            "concepts"
-        ]
-    },
-    {
-        "id": "m3-pdf-34",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Cultural Competence",
-        "difficulty": "medium",
-        "text": "Cultural Humility differs from Cultural Competence in that it emphasizes:",
-        "options": [
-            "Becoming an expert on all cultures",
-            "A lifelong commitment to self-evaluation and self-critique",
-            "Memorizing lists of cultural traits",
-            "Achieving a final state of competence"
-        ],
-        "correctIndex": 1,
-        "explanation": "Cultural Humility is an ongoing process of self-reflection and self-critique, acknowledging that one cannot master another's culture, unlike the 'endpoint' implied by competence.",
-        "tags": [
-            "management",
-            "cultural_competence",
-            "concepts"
-        ]
-    },
-    {
-        "id": "m3-pdf-35",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Marketing",
-        "difficulty": "hard",
-        "text": "Which VALS segment is motivated by 'Ideals' and consists of mature, satisfied, reflective people who value order and knowledge?",
-        "options": [
-            "Believers",
-            "Thinkers",
-            "Strivers",
-            "Makers"
-        ],
-        "correctIndex": 1,
-        "explanation": "Thinkers are motivated by ideals; they are mature, satisfied, comfortable, and reflective, valuing order, knowledge, and responsibility.",
-        "tags": [
-            "management",
-            "marketing",
-            "consumer_behavior"
-        ]
-    },
-    {
-        "id": "m3-pdf-36",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Cultural Competence",
-        "difficulty": "medium",
-        "text": "The BATHE model focuses on the ____________ context of the patient's visit.",
-        "options": [
-            "Financial",
-            "Medical/Clinical",
-            "Psychosocial",
-            "Nutritional"
-        ],
-        "correctIndex": 2,
-        "explanation": "The BATHE Model (Background, Affect, Trouble, Handling, Empathy) is designed to address the psychosocial context of the patient's visit.",
-        "tags": [
-            "management",
-            "cultural_competence",
-            "models"
-        ]
-    },
-    {
-        "id": "m3-pdf-37",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Functions of Management",
-        "difficulty": "medium",
-        "text": "In the context of Systems Theory, 'Transformation' is:",
-        "options": [
-            "The initial resources",
-            "The finished product",
-            "The work or action done to change inputs into outputs",
-            "The feedback received from customers"
-        ],
-        "correctIndex": 2,
-        "explanation": "Transformation (Operations) refers to the activities and work performed to change inputs into desired outputs.",
-        "tags": [
-            "management",
-            "systems_theory",
-            "concepts"
-        ]
-    },
-    {
-        "id": "m3-pdf-38",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Marketing",
-        "difficulty": "medium",
-        "text": "Which element of the Marketing Mix is described as 'how the product is provided to the customer'?",
-        "options": [
-            "Product",
-            "Price",
-            "Place",
-            "Promotion"
-        ],
-        "correctIndex": 2,
-        "explanation": "Place (Distribution) refers to the channels and methods used to make the product available to the customer.",
-        "tags": [
-            "management",
-            "marketing",
-            "concepts"
-        ]
-    },
-    {
-        "id": "m3-pdf-39",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Cultural Competence",
-        "difficulty": "hard",
-        "text": "The Purnell Model of Cultural Competency is often visualized as:",
-        "options": [
-            "A ladder of steps",
-            "A pyramid of needs",
-            "Concentric circles of global society, community, family, and person",
-            "A flow chart of decision making"
-        ],
-        "correctIndex": 2,
-        "explanation": "The Purnell Model represents cultural competence through concentric circles representing global society, community, family, and the person.",
-        "tags": [
-            "management",
-            "cultural_competence",
-            "models"
-        ]
-    },
-    {
-        "id": "m3-pdf-40",
-        "moduleId": "mod3",
-        "domain": "Domain III",
-        "topic": "Functions of Management",
-        "difficulty": "medium",
-        "text": "Strategic planning typically involves analyzing the organization in the context of:",
-        "options": [
-            "Internal staff conflicts only",
-            "Its environment (opportunities and threats)",
-            "Last month's sales data only",
-            "The daily menu cycle"
-        ],
-        "correctIndex": 1,
-        "explanation": "Strategic planning involves environmental analysis (like SWOT) to understand opportunities and threats outside the organization as well as internal strengths/weaknesses.",
-        "tags": [
-            "management",
-            "planning",
-            "strategic"
-        ]
-    },
-
     {
         "id": "m3-pdf-41",
         "moduleId": "mod3",
@@ -7073,7 +6650,6 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "IOM"
         ]
     },
-
     {
         "id": "m3-pdf-61",
         "moduleId": "mod3",
@@ -7599,7 +7175,6 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "conflict"
         ]
     },
-
     {
         "id": "m4-pdf-01",
         "moduleId": "mod4",
@@ -8020,428 +7595,6 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "regulations"
         ]
     },
-
-    {
-        "id": "m4-pdf-21",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "medium",
-        "text": "Which foodservice system involves purchasing raw foods, preparing them on-site, and serving them soon after preparation?",
-        "options": [
-            "Ready-Prepared",
-            "Assembly-Serve",
-            "Conventional",
-            "Commissary"
-        ],
-        "correctIndex": 2,
-        "explanation": "A Conventional foodservice system prepares food on-site from scratch (or partially prepared items) and serves it shortly after production.",
-        "tags": [
-            "foodservice",
-            "production",
-            "systems"
-        ]
-    },
-    {
-        "id": "m4-pdf-22",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "hard",
-        "text": "In a 'Ready-Prepared' (Cook-Chill or Cook-Freeze) system, the Critical Control Point (CCP) of greatest concern is usually during:",
-        "options": [
-            "Receiving",
-            "Cooling and reheating",
-            "Peeling vegetables",
-            "Serving"
-        ],
-        "correctIndex": 1,
-        "explanation": "Ready-Prepared systems involve cooking food and then chilling/freezing it for later use. The cooling and reheating steps are critical for preventing pathogen growth.",
-        "tags": [
-            "foodservice",
-            "production",
-            "safety"
-        ]
-    },
-    {
-        "id": "m4-pdf-23",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "medium",
-        "text": "Which foodservice system centralizes procurement and production in one large kitchen, then transports prepared food to remote satellite service areas?",
-        "options": [
-            "Conventional",
-            "Commissary",
-            "Assembly-Serve",
-            "Decentralized"
-        ],
-        "correctIndex": 1,
-        "explanation": "A Commissary system centralizes food production in one large facility and distributes prepared food to satellite (remote) serving areas.",
-        "tags": [
-            "foodservice",
-            "production",
-            "systems"
-        ]
-    },
-    {
-        "id": "m4-pdf-24",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "medium",
-        "text": "The 'Assembly-Serve' (Total Convenience) system differs from others in that:",
-        "options": [
-            "All cooking is done from scratch",
-            "No on-site food production (cooking) takes place; fully prepared foods are purchased, stored, assembled, heated, and served",
-            "Food is prepared days in advance",
-            "It requires the most skilled labor"
-        ],
-        "correctIndex": 1,
-        "explanation": "Assembly-Serve systems purchase fully prepared foods (frozen, sous-vide, etc.) requiring only storage, assembly, heating, and service. 'Kitchenless kitchen'.",
-        "tags": [
-            "foodservice",
-            "production",
-            "systems"
-        ]
-    },
-    {
-        "id": "m4-pdf-25",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Distribution",
-        "difficulty": "medium",
-        "text": "A 'Decentralized' delivery system is most appropriate when:",
-        "options": [
-            "All patients are in one dining room",
-            "The distance from the kitchen to the patient is great, requiring food to be transported in bulk and assembled near the patient",
-            "Food safety is not a concern",
-            "The menu is simple"
-        ],
-        "correctIndex": 1,
-        "explanation": "Decentralized delivery involves transporting food in bulk to ward pantries or galleys where trays are assembled, ensuring better temperature control over long distances.",
-        "tags": [
-            "foodservice",
-            "distribution",
-            "systems"
-        ]
-    },
-    {
-        "id": "m4-pdf-26",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "hard",
-        "text": "The primary advantage of a 'Commissary' foodservice system is:",
-        "options": [
-            "High food safety risks during transport",
-            "Centralized large-volume purchasing and production, leading to economies of scale and uniform quality",
-            "Reduced need for transportation equipment",
-            "Lower initial capital investment"
-        ],
-        "correctIndex": 1,
-        "explanation": "Commissary systems benefit from economies of scale in bulk purchasing and efficient large-scale production, ensuring consistency across all satellite units.",
-        "tags": [
-            "foodservice",
-            "production",
-            "advantages"
-        ]
-    },
-    {
-        "id": "m4-pdf-27",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Distribution",
-        "difficulty": "medium",
-        "text": "Which type of service allows customers to move from station to station (e.g., salad, hot food, dessert) with no specific traffic pattern?",
-        "options": [
-            "Straight line cafeteria",
-            "Hollow square / Free-flow / Scramble system",
-            "Vending",
-            "Counter service"
-        ],
-        "correctIndex": 1,
-        "explanation": "The Hollow Square, Free-flow, or Scramble system separates counters (salad, hot food, etc.) allowing customers to go directly to what they want, reducing wait times.",
-        "tags": [
-            "foodservice",
-            "distribution",
-            "service"
-        ]
-    },
-    {
-        "id": "m4-pdf-28",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "medium",
-        "text": "In forecasting production, a 'Moving Average' model:",
-        "options": [
-            "Uses a panel of experts to predict sales",
-            "Taking the average of the number of portions sold for the last 'n' periods to predict the next period",
-            "Assumes a causal relationship between variables",
-            "Relies on intuition"
-        ],
-        "correctIndex": 1,
-        "explanation": "Moving Average is a time-series forecasting method that uses a set number of past data points (e.g., last 5 weeks) to predict the next value by averaging them.",
-        "tags": [
-            "foodservice",
-            "production",
-            "forecasting"
-        ]
-    },
-    {
-        "id": "m4-pdf-29",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "hard",
-        "text": "A 'Standardized Recipe' is critical for:",
-        "options": [
-            "Allowing chefs creative freedom",
-            "Ensuring consistent quality, yield, and cost control every time the item is produced",
-            "Increasing food waste",
-            "Reducing the need for measuring tools"
-        ],
-        "correctIndex": 1,
-        "explanation": "Standardized recipes are the most important control tool, ensuring that a specific quantity and quality of food is produced for a specific cost every time.",
-        "tags": [
-            "foodservice",
-            "production",
-            "controls"
-        ]
-    },
-    {
-        "id": "m4-pdf-30",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "medium",
-        "text": "If you determine that the 'Edible Portion' (EP) cost of a serving of broccoli is $0.50 and the yield is 80%, what is the 'As Purchased' (AP) cost per equivalent amount?",
-        "options": [
-            "$0.40",
-            "$0.625",
-            "$0.50",
-            "$0.80"
-        ],
-        "correctIndex": 0,
-        "explanation": "EP Cost = AP Cost / Yield %. Therefore, AP Cost = EP Cost * Yield %. Wait... actually: AP Price is usually lower. AP Cost = EP Cost * Yield %? No. AP weight > EP weight. EP price > AP price. AP Price = EP Price x Yield %. $0.50 * 0.80 = $0.40. (Since you pay less for the raw uncleaned vegetable than the finished edible weight value).",
-        "tags": [
-            "foodservice",
-            "production",
-            "calculations"
-        ]
-    },
-    {
-        "id": "m4-pdf-31",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "hard",
-        "text": "Which production forecasting method uses a weighted average of past data, giving more weight to recent data?",
-        "options": [
-            "Exponential Smoothing",
-            "Moving Average",
-            "Delphi Method",
-            "Linear Regression"
-        ],
-        "correctIndex": 0,
-        "explanation": "Exponential Smoothing is a time-series method similar to moving average but assigns exponentially decreasing weights as data gets older (recent data matters more).",
-        "tags": [
-            "foodservice",
-            "production",
-            "forecasting"
-        ]
-    },
-    {
-        "id": "m4-pdf-32",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "medium",
-        "text": "In a 'Cook-Chill' system, food is held chilled for storage. What is the maximum recommended storage time for cook-chill items (using tumble chill method)?",
-        "options": [
-            "1-2 days",
-            "45 days",
-            "3-5 days",
-            "6 months"
-        ],
-        "correctIndex": 1,
-        "explanation": "With proper blast chilling or tumble chilling, cook-chill foods can be safely stored for up to 45 days. (Though typically used within shorter periods).",
-        "tags": [
-            "foodservice",
-            "production",
-            "systems"
-        ]
-    },
-    {
-        "id": "m4-pdf-33",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "medium",
-        "text": "Which scoop size serves approximately 1/2 cup?",
-        "options": [
-            "Scoop #8",
-            "Scoop #16",
-            "Scoop #12",
-            "Scoop #4"
-        ],
-        "correctIndex": 0,
-        "explanation": "The scoop number indicates how many scoops make a quart (32 oz). Scoop #8: 32/8 = 4 oz (1/2 cup).",
-        "tags": [
-            "foodservice",
-            "production",
-            "measurements"
-        ]
-    },
-    {
-        "id": "m4-pdf-34",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Distribution",
-        "difficulty": "medium",
-        "text": "What type of distribution cart is a 'Pellet System'?",
-        "options": [
-            "Insulated tray system",
-            "Portable heating unit",
-            "Heated metal disk (pellet) placed under the plate to keep it warm",
-            "Refrigerated cart"
-        ],
-        "correctIndex": 2,
-        "explanation": "A Pellet System uses a preheated metal disk (pellet) placed in a base under the dinner plate to maintain food temperature for ~40-45 minutes.",
-        "tags": [
-            "foodservice",
-            "distribution",
-            "equipment"
-        ]
-    },
-    {
-        "id": "m4-pdf-35",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "medium",
-        "text": "A 'Rethermalization' unit is used in which foodservice systems?",
-        "options": [
-            "Conventional only",
-            "Ready-Prepared (Cook-Chill/Cook-Freeze)",
-            "Assembly-Serve only",
-            "Commissary only"
-        ],
-        "correctIndex": 1,
-        "explanation": "Ready-Prepared systems (Cook-Chill/Cook-Freeze) require rethermalization (reheating) of food just before service, using microwaves, convection ovens, or integral heat carts.",
-        "tags": [
-            "foodservice",
-            "production",
-            "equipment"
-        ]
-    },
-    {
-        "id": "m4-pdf-36",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "hard",
-        "text": "When scaling a recipe using the percentage method, the first step is to:",
-        "options": [
-            "Convert all ingredients to pounds and ounces",
-            "Convert all ingredients to weights (e.g., decimals of a pound) and calculate the total weight",
-            "Multiply everything by 2",
-            "Estimate the new amounts"
-        ],
-        "correctIndex": 1,
-        "explanation": "The percentage method requires converting all ingredients to weights (including liquids) and summing them to calculate the percentage of each ingredient in relation to the total weight.",
-        "tags": [
-            "foodservice",
-            "production",
-            "calculations"
-        ]
-    },
-    {
-        "id": "m4-pdf-37",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Distribution",
-        "difficulty": "medium",
-        "text": "Which style of service is characterized by food being plated in the kitchen and served to the guest (American service)?",
-        "options": [
-            "French Service",
-            "Russian Service",
-            "American Service",
-            "Family Style"
-        ],
-        "correctIndex": 2,
-        "explanation": "In American Service, portions are plated in the kitchen and then served to the guest. It is the most common and efficient method.",
-        "tags": [
-            "foodservice",
-            "distribution",
-            "service"
-        ]
-    },
-    {
-        "id": "m4-pdf-38",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "hard",
-        "text": "To reduce the risk of cross-contamination in a Conventional foodservice system, care must be taken to:",
-        "options": [
-            "Separate raw and cooked food handling (temporal or spatial separation)",
-            "Cook everything to 165°F regardless of food type",
-            "Use the same cutting board for efficiency",
-            "Store meat above vegetables"
-        ],
-        "correctIndex": 0,
-        "explanation": "Because raw and cooked foods are handled in the same kitchen in Conventional systems, strict separation (space or time) is needed to prevent cross-contamination.",
-        "tags": [
-            "foodservice",
-            "production",
-            "safety"
-        ]
-    },
-    {
-        "id": "m4-pdf-39",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Food Production",
-        "difficulty": "medium",
-        "text": "The main disadvantage of the Assembly-Serve system is:",
-        "options": [
-            "High labor costs",
-            "Need for skilled chefs",
-            "Limited menu variety and higher food cost",
-            "Large kitchen footprint"
-        ],
-        "correctIndex": 2,
-        "explanation": "Assembly-Serve relies on available prepared products, which may limit menu variety and typically have a higher food cost (offset by lower labor cost).",
-        "tags": [
-            "foodservice",
-            "production",
-            "disadvantages"
-        ]
-    },
-    {
-        "id": "m4-pdf-40",
-        "moduleId": "mod4",
-        "domain": "Domain IV",
-        "topic": "Distribution",
-        "difficulty": "medium",
-        "text": "A 'Synergistic' effect in a food production team means:",
-        "options": [
-            "Everyone works independently",
-            "The total output of the team is greater than the sum of individual efforts (1+1=3)",
-            "Conflict is maximized",
-            "Productivity decreases"
-        ],
-        "correctIndex": 1,
-        "explanation": "Synergy occurs when the cooperative action of separate people or agencies produces a total effect greater than the sum of their individual effects.",
-        "tags": [
-            "foodservice",
-            "production",
-            "management"
-        ]
-    },
-
     {
         "id": "m4-pdf-41",
         "moduleId": "mod4",
@@ -8862,7 +8015,6 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "design"
         ]
     },
-
     {
         "id": "m4-pdf-61",
         "moduleId": "mod4",
@@ -9283,7 +8435,6 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "calculations"
         ]
     },
-
     {
         "id": "m4-pdf-81",
         "moduleId": "mod4",
@@ -9704,527 +8855,6 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "calculations"
         ]
     },
-
-    {
-        "id": "m1-gap-01",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "Which educational method focuses on adult learners, assuming they are self-directed and motivated by internal factors?",
-        "options": [
-            "Pedagogy",
-            "Andragogy",
-            "Demagogy",
-            "Psychology"
-        ],
-        "correctIndex": 1,
-        "explanation": "Andragogy is the art and science of helping adults learn. It assumes adults are self-directed, problem-centered, and internally motivated (e.g., quality of life, self-esteem).",
-        "tags": [
-            "education",
-            "theories",
-            "andragogy"
-        ]
-    },
-    {
-        "id": "m1-gap-02",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "When assessing the readability of written educational materials for the general population (high literacy), the aim should be a reading level of:",
-        "options": [
-            "12th grade",
-            "8th grade",
-            "4th grade",
-            "College level"
-        ],
-        "correctIndex": 1,
-        "explanation": "For the general population or high literacy groups, an 8th-grade reading level is recommended. For low literacy usage, a 6th-grade level is preferred. The SMOG index is used to calculate this.",
-        "tags": [
-            "education",
-            "communication",
-            "literacy"
-        ]
-    },
-    {
-        "id": "m1-gap-03",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "hard",
-        "text": "In the Transtheoretical Model (Stages of Change), a client who is aware of a health problem and is considering making a change within the next 6 months but has not yet committed to taking action is in which stage?",
-        "options": [
-            "Precontemplation",
-            "Contemplation",
-            "Preparation",
-            "Action"
-        ],
-        "correctIndex": 1,
-        "explanation": "Contemplation is the stage where the individual is aware of the problem and thinking about changing (weighing pros/cons) but has not yet committed to a plan.",
-        "tags": [
-            "counseling",
-            "behavioral_theories",
-            "transtheoretical"
-        ]
-    },
-    {
-        "id": "m1-gap-04",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "Which listening response typically involves the counselor paraphrasing what the client said to focus on the client's feelings?",
-        "options": [
-            "Probing",
-            "Reflective Listening",
-            "Legitimation",
-            "Evaluation"
-        ],
-        "correctIndex": 1,
-        "explanation": "Reflective Listening involved rephrasing or summarizing what the client has said to show understanding and help the client hear their own thoughts/feelings (e.g., 'So you feel frustrated when...').",
-        "tags": [
-            "counseling",
-            "communication",
-            "listening"
-        ]
-    },
-    {
-        "id": "m1-gap-05",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "hard",
-        "text": "In Motivational Interviewing, 'Sustain Talk' refers to:",
-        "options": [
-            "Statements by the client that support making a change",
-            "Statements by the client that argue for the status quo (not changing)",
-            "The counselor's sustainability plan",
-            "Long-term maintenance of a goal"
-        ],
-        "correctIndex": 1,
-        "explanation": "Sustain talk is client speech that favors the status quo or argues against change (e.g., 'I just don't have time to cook'). The goal of MI is to reduce sustain talk and elicit 'Change Talk'.",
-        "tags": [
-            "counseling",
-            "motivational_interviewing"
-        ]
-    },
-    {
-        "id": "m1-gap-06",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "According to the Health Belief Model, 'Self-efficacy' is defined as:",
-        "options": [
-            "The belief that one is susceptible to a disease",
-            "The belief that the new behavior is beneficial",
-            "The individual's belief in their own ability to successfully perform a behavior",
-            "The cues that trigger action"
-        ],
-        "correctIndex": 2,
-        "explanation": "Self-efficacy is the confidence an individual has in their ability to execute the specific behavior required to produce the desired outcome.",
-        "tags": [
-            "counseling",
-            "behavioral_theories",
-            "hbm"
-        ]
-    },
-    {
-        "id": "m1-gap-07",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "Which type of evaluation is conducted *during* the educational process to identify learning gaps and adjust instruction?",
-        "options": [
-            "Summative Evaluation",
-            "Formative Evaluation",
-            "Outcome Evaluation",
-            "Criterion-referenced Evaluation"
-        ],
-        "correctIndex": 1,
-        "explanation": "Formative evaluation occurs during the learning process (e.g., a pre-test or a focus group mid-program) to guide improvements. Summative happens at the end.",
-        "tags": [
-            "education",
-            "evaluation"
-        ]
-    },
-    {
-        "id": "m1-gap-08",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "In the context of cultural competence, the 'ETHNIC' model stands for:",
-        "options": [
-            "Explanation, Treatment, Healers, Negotiation, Intervention, Collaboration",
-            "Ethics, Time, Health, Nutrition, Intelligence, Care",
-            "Empathy, Trust, Help, Nutrition, Interaction, Communication",
-            "None of the above"
-        ],
-        "correctIndex": 0,
-        "explanation": "The ETHNIC model includes: Explanation (how client explains illness), Treatment (what they expect), Healers (traditional), Negotiation (options), Intervention, Collaboration.",
-        "tags": [
-            "counseling",
-            "cultural_competence"
-        ]
-    },
-    {
-        "id": "m1-gap-09",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "When teaching elderly clients, it is most important to:",
-        "options": [
-            "Use long, detailed written materials",
-            "Speak rapidly to cover more content",
-            "Keep sessions short and focus on one or two key concepts",
-            "Focus heavily on peer pressure"
-        ],
-        "correctIndex": 2,
-        "explanation": "Elderly clients may have decreased attention spans or short-term memory issues. Short, focused sessions with clear takeaways are most effective.",
-        "tags": [
-            "education",
-            "populations",
-            "elderly"
-        ]
-    },
-    {
-        "id": "m1-gap-10",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "hard",
-        "text": "Operant Conditioning (Skinner) suggests that behavior is influenced by:",
-        "options": [
-            "Unconscious desires",
-            "The consequences of the behavior (positive or negative reinforcement)",
-            "Observing others (modeling)",
-            "Genetic predisposition"
-        ],
-        "correctIndex": 1,
-        "explanation": "Operant conditioning relies on the principle that behavior is increasing if followed by positive reinforcement (reward) and decreased by punishment or negative reinforcement.",
-        "tags": [
-            "education",
-            "behavioral_theories",
-            "conditioning"
-        ]
-    },
-    {
-        "id": "m1-gap-11",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "In Motivational Interviewing, recognizing a discrepancy between the client's current behavior and their broader goals/values is called:",
-        "options": [
-            "Developing Discrepancy",
-            "Rolling with Resistance",
-            "Expressing Empathy",
-            "Supporting Self-Efficacy"
-        ],
-        "correctIndex": 0,
-        "explanation": "Developing Discrepancy involves helping the client see that their current behavior (e.g., smoking, poor diet) conflicts with their stated values or goals (e.g., living to see grandkids).",
-        "tags": [
-            "counseling",
-            "motivational_interviewing"
-        ]
-    },
-    {
-        "id": "m1-gap-12",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "Which zone of personal space (proxemics) is generally appropriate for a business or consulting interaction (like nutrition counseling) in the US?",
-        "options": [
-            "Intimate Zone (< 18 inches)",
-            "Personal Zone (18 inches - 4 feet)",
-            "Social Zone (4 - 12 feet)",
-            "Public Zone (> 12 feet)"
-        ],
-        "correctIndex": 1,
-        "explanation": "The Personal Zone (18 inches to 4 feet) is typical for one-on-one interactions like counseling or instruction. The Social zone is for group interactions.",
-        "tags": [
-            "counseling",
-            "communication",
-            "proxemics"
-        ]
-    },
-    {
-        "id": "m1-gap-13",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "Social Cognitive Theory (Bandura) emphasizes the role of:",
-        "options": [
-            "Genetics only",
-            "Observational learning (modeling) and the interaction between person, behavior, and environment",
-            "Unconscious drives",
-            "Dietary intake only"
-        ],
-        "correctIndex": 1,
-        "explanation": "Social Cognitive Theory highlights that people learn not just from their own experience but by observing others (modeling) and through the reciprocal interaction of personal factors, behavior, and the environment.",
-        "tags": [
-            "education",
-            "behavioral_theories",
-            "sct"
-        ]
-    },
-    {
-        "id": "m1-gap-14",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "hard",
-        "text": "A client says, 'I really want to lose weight, but I tried before and failed.' The counselor responds, 'You have a strong desire to be healthier, but you're worried about failing again.' This is an example of:",
-        "options": [
-            "A double-sided reflection",
-            "Confrontation",
-            "Advice giving",
-            "Closed question"
-        ],
-        "correctIndex": 0,
-        "explanation": "A double-sided reflection acknowledges both sides of the client's ambivalence (the 'sustain talk' and the 'change talk'), helping them feel understood without taking sides.",
-        "tags": [
-            "counseling",
-            "communication",
-            "reflections"
-        ]
-    },
-    {
-        "id": "m1-gap-15",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "What is the acronym 'OARS' used for in Motivational Interviewing?",
-        "options": [
-            "Open-ended questions, Affirmations, Reflections, Summaries",
-            "Observe, Assess, Respond, Strategize",
-            "Openness, Attitude, Respect, Support",
-            "Order, Ask, Reply, Send"
-        ],
-        "correctIndex": 0,
-        "explanation": "OARS stands for the core skills of MI: Open-ended questions, Affirmations, Reflective listening, and Summaries.",
-        "tags": [
-            "counseling",
-            "motivational_interviewing"
-        ]
-    },
-    {
-        "id": "m1-gap-16",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "Cognitive Behavioral Therapy (CBT) is based on the idea that:",
-        "options": [
-            "We are controlled by our environment",
-            "Thoughts create feelings, which influence behaviors (Change thoughts -> Change behavior)",
-            "Childhood trauma dictates adult behavior",
-            "Medication is the only solution"
-        ],
-        "correctIndex": 1,
-        "explanation": "CBT posits that negative thoughts (cognitions) lead to negative feelings and maladaptive behaviors. By challenging and modifying these thoughts, one can change feelings and behaviors.",
-        "tags": [
-            "counseling",
-            "behavioral_theories",
-            "cbt"
-        ]
-    },
-    {
-        "id": "m1-gap-17",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "A 'Summative Evaluation' example in a nutrition class would be:",
-        "options": [
-            "A pre-test given on the first day",
-            "Asking students if they understand as you go",
-            "A final exam or post-test at the end of the course",
-            "A pilot study"
-        ],
-        "correctIndex": 2,
-        "explanation": "Summative evaluation assesses the final outcome or impact of an intervention (e.g., did they learn the material? did behaviors change?) after it is completed.",
-        "tags": [
-            "education",
-            "evaluation"
-        ]
-    },
-    {
-        "id": "m1-gap-18",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "hard",
-        "text": "'Legitimation' as a counseling response involves:",
-        "options": [
-            "Telling the client they are legally correct",
-            "Acknowledging that the client's feelings are valid and understandable",
-            "Giving legal advice",
-            "Proving your credentials"
-        ],
-        "correctIndex": 1,
-        "explanation": "Legitimation puts the counselor in an empathetic position, validating the client's feelings ('It is normal to feel angry in this situation').",
-        "tags": [
-            "counseling",
-            "communication",
-            "skills"
-        ]
-    },
-    {
-        "id": "m1-gap-19",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "The 'Action' stage of the Transtheoretical Model is defined as taking steps to change behavior for:",
-        "options": [
-            "At least 1 day",
-            "Less than 6 months",
-            "More than 6 months",
-            "Years"
-        ],
-        "correctIndex": 1,
-        "explanation": "Action is the stage where clear modifications in lifestyle have occurred for less than 6 months. Maintenance is sustainment for more than 6 months.",
-        "tags": [
-            "counseling",
-            "behavioral_theories",
-            "transtheoretical"
-        ]
-    },
-    {
-        "id": "m1-gap-20",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "When counseling a client with low health literacy, it is best to:",
-        "options": [
-            "Use complex medical terminology to show expertise",
-            "Use pictures, simple language, and the 'teach-back' method",
-            "Provide long pamphlets",
-            "Speak loudly"
-        ],
-        "correctIndex": 1,
-        "explanation": "Visuals, plain language, and asking the client to repeat back what they understood ('teach-back') are best practices for low health literacy.",
-        "tags": [
-            "education",
-            "communication",
-            "literacy"
-        ]
-    },
-    {
-        "id": "m1-gap-21",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "hard",
-        "text": "In the 'Preparation' stage of change, the most appropriate intervention is:",
-        "options": [
-            "Raising awareness of the problem",
-            "Helping the client identify a specific plan and setting goals",
-            "Relapse prevention",
-            "Confrontation"
-        ],
-        "correctIndex": 1,
-        "explanation": "In Preparation, the client intends to act soon (within 30 days). The counselor should help them develop a concrete plan, identify barriers, and set small goals.",
-        "tags": [
-            "counseling",
-            "behavioral_theories",
-            "transtheoretical"
-        ]
-    },
-    {
-        "id": "m1-gap-22",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "'Paralinguistics' refers to which aspect of communication?",
-        "options": [
-            "Body language",
-            "The words used",
-            "Tone, pitch, volume, and rate of speech",
-            "Personal space"
-        ],
-        "correctIndex": 2,
-        "explanation": "Paralinguistics involves the vocal elements of communication that are not the words themselves (how you say it, tone, hesitation, etc.).",
-        "tags": [
-            "counseling",
-            "communication",
-            "nonverbal"
-        ]
-    },
-    {
-        "id": "m1-gap-23",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "Classical Conditioning (Pavlov) involves learning via:",
-        "options": [
-            "Rewards and punishments",
-            "Association (pairing a neutral stimulus with a potent one)",
-            "Observation",
-            "Logical reasoning"
-        ],
-        "correctIndex": 1,
-        "explanation": "Classical conditioning pairs a neutral stimulus (bell) with a potent one (food) until the neutral stimulus elicits the response (salivation).",
-        "tags": [
-            "education",
-            "behavioral_theories",
-            "conditioning"
-        ]
-    },
-    {
-        "id": "m1-gap-24",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "The SMOG readability formula works by counting:",
-        "options": [
-            "The number of words per sentence",
-            "Polysyllabic words (3 or more syllables) in a sample of text",
-            "The length of the document",
-            "The font size"
-        ],
-        "correctIndex": 1,
-        "explanation": "The SMOG grade is calculated by counting the number of polysyllabic words in a set of sentences to estimate the reading grade level required.",
-        "tags": [
-            "education",
-            "communication",
-            "literacy"
-        ]
-    },
-    {
-        "id": "m1-gap-25",
-        "moduleId": "mod1",
-        "domain": "Domain I",
-        "topic": "Education and Counseling",
-        "difficulty": "medium",
-        "text": "Which of the following is an example of an 'Open-Ended Question'?",
-        "options": [
-            "Do you eat breakfast?",
-            "How many times a week do you exercise?",
-            "What can you tell me about your typical eating habits?",
-            "Is your blood sugar high?"
-        ],
-        "correctIndex": 2,
-        "explanation": "Open-ended questions cannot be answered with a simple 'yes' or 'no' or a number. They invite explanation and story-telling ('Tell me about...', 'How do you feel about...').",
-        "tags": [
-            "counseling",
-            "communication",
-            "skills"
-        ]
-    },
-
     {
         "id": "m3-gen-01",
         "moduleId": "mod3",
@@ -10530,7 +9160,6 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "marketing"
         ]
     },
-
     {
         "id": "m1-polish-01",
         "moduleId": "mod1",
@@ -11153,6 +9782,1366 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "qualitative"
         ]
     },
+    {
+        "id": "m1-gap-01",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Which educational method focuses on adult learners, assuming they are self-directed and motivated by internal factors?",
+        "options": [
+            "Pedagogy",
+            "Andragogy",
+            "Demagogy",
+            "Psychology"
+        ],
+        "correctIndex": 1,
+        "explanation": "Andragogy is the art and science of helping adults learn. It assumes adults are self-directed, problem-centered, and internally motivated (e.g., quality of life, self-esteem).",
+        "tags": [
+            "education",
+            "theories",
+            "andragogy"
+        ]
+    },
+    {
+        "id": "m1-gap-02",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "When assessing the readability of written educational materials for the general population (high literacy), the aim should be a reading level of:",
+        "options": [
+            "12th grade",
+            "8th grade",
+            "4th grade",
+            "College level"
+        ],
+        "correctIndex": 1,
+        "explanation": "For the general population or high literacy groups, an 8th-grade reading level is recommended. For low literacy usage, a 6th-grade level is preferred. The SMOG index is used to calculate this.",
+        "tags": [
+            "education",
+            "communication",
+            "literacy"
+        ]
+    },
+    {
+        "id": "m1-gap-03",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "In the Transtheoretical Model (Stages of Change), a client who is aware of a health problem and is considering making a change within the next 6 months but has not yet committed to taking action is in which stage?",
+        "options": [
+            "Precontemplation",
+            "Contemplation",
+            "Preparation",
+            "Action"
+        ],
+        "correctIndex": 1,
+        "explanation": "Contemplation is the stage where the individual is aware of the problem and thinking about changing (weighing pros/cons) but has not yet committed to a plan.",
+        "tags": [
+            "counseling",
+            "behavioral_theories",
+            "transtheoretical"
+        ]
+    },
+    {
+        "id": "m1-gap-04",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Which listening response typically involves the counselor paraphrasing what the client said to focus on the client's feelings?",
+        "options": [
+            "Probing",
+            "Reflective Listening",
+            "Legitimation",
+            "Evaluation"
+        ],
+        "correctIndex": 1,
+        "explanation": "Reflective Listening involved rephrasing or summarizing what the client has said to show understanding and help the client hear their own thoughts/feelings (e.g., 'So you feel frustrated when...').",
+        "tags": [
+            "counseling",
+            "communication",
+            "listening"
+        ]
+    },
+    {
+        "id": "m1-gap-05",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "In Motivational Interviewing, 'Sustain Talk' refers to:",
+        "options": [
+            "Statements by the client that support making a change",
+            "Statements by the client that argue for the status quo (not changing)",
+            "The counselor's plan for ensuring the sustainability of the intervention",
+            "The long-term maintenance of a specific health goal over time"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sustain talk is client speech that favors the status quo or argues against change (e.g., 'I just don't have time to cook'). The goal of MI is to reduce sustain talk and elicit 'Change Talk'.",
+        "tags": [
+            "counseling",
+            "motivational_interviewing"
+        ]
+    },
+    {
+        "id": "m1-gap-06",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "According to the Health Belief Model, 'Self-efficacy' is defined as:",
+        "options": [
+            "The personal belief that one is susceptible to a serious health condition",
+            "The belief that adopting a new behavior will yield beneficial results",
+            "The individual's belief in their own ability to successfully perform a behavior",
+            "The internal or external cues that trigger the decision to take action"
+        ],
+        "correctIndex": 2,
+        "explanation": "Self-efficacy is the confidence an individual has in their ability to execute the specific behavior required to produce the desired outcome.",
+        "tags": [
+            "counseling",
+            "behavioral_theories",
+            "hbm"
+        ]
+    },
+    {
+        "id": "m1-gap-07",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Which type of evaluation is conducted *during* the educational process to identify learning gaps and adjust instruction?",
+        "options": [
+            "Summative Evaluation",
+            "Formative Evaluation",
+            "Outcome Evaluation",
+            "Criterion-referenced Evaluation"
+        ],
+        "correctIndex": 1,
+        "explanation": "Formative evaluation occurs during the learning process (e.g., a pre-test or a focus group mid-program) to guide improvements. Summative happens at the end.",
+        "tags": [
+            "education",
+            "evaluation"
+        ]
+    },
+    {
+        "id": "m1-gap-08",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "In the context of cultural competence, the 'ETHNIC' model stands for:",
+        "options": [
+            "Explanation, Treatment, Healers, Negotiation, Intervention, Collaboration",
+            "Ethics, Time, Health, Nutrition, Intelligence, Care",
+            "Empathy, Trust, Help, Nutrition, Interaction, Communication",
+            "Education, Therapy, Health, Nutrition, Interview, Care"
+        ],
+        "correctIndex": 0,
+        "explanation": "The ETHNIC model includes: Explanation (how client explains illness), Treatment (what they expect), Healers (traditional), Negotiation (options), Intervention, Collaboration.",
+        "tags": [
+            "counseling",
+            "cultural_competence"
+        ]
+    },
+    {
+        "id": "m1-gap-09",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "When teaching elderly clients, it is most important to:",
+        "options": [
+            "Use long, detailed written materials",
+            "Speak rapidly to cover more content",
+            "Keep sessions short and focus on one or two key concepts",
+            "Use complex diagrams and technical charts for clarity"
+        ],
+        "correctIndex": 2,
+        "explanation": "Elderly clients may have decreased attention spans or short-term memory issues. Short, focused sessions with clear takeaways are most effective.",
+        "tags": [
+            "education",
+            "populations",
+            "elderly"
+        ]
+    },
+    {
+        "id": "m1-gap-10",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "Operant Conditioning (Skinner) suggests that behavior is influenced by:",
+        "options": [
+            "Unconscious desires and conflicts rooted in early childhood experiences",
+            "The consequences of the behavior (positive or negative reinforcement)",
+            "Observing and imitating the behaviors of others in social contexts",
+            "Genetic predisposition and biological factors influencing behavior"
+        ],
+        "correctIndex": 1,
+        "explanation": "Operant conditioning relies on the principle that behavior is increasing if followed by positive reinforcement (reward) and decreased by punishment or negative reinforcement.",
+        "tags": [
+            "education",
+            "behavioral_theories",
+            "conditioning"
+        ]
+    },
+    {
+        "id": "m1-gap-11",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "In Motivational Interviewing, recognizing a discrepancy between the client's current behavior and their broader goals/values is called:",
+        "options": [
+            "Developing Discrepancy",
+            "Rolling with Resistance",
+            "Expressing Empathy",
+            "Supporting Self-Efficacy"
+        ],
+        "correctIndex": 0,
+        "explanation": "Developing Discrepancy involves helping the client see that their current behavior (e.g., smoking, poor diet) conflicts with their stated values or goals (e.g., living to see grandkids).",
+        "tags": [
+            "counseling",
+            "motivational_interviewing"
+        ]
+    },
+    {
+        "id": "m1-gap-12",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Which zone of personal space (proxemics) is generally appropriate for a business or consulting interaction (like nutrition counseling) in the US?",
+        "options": [
+            "Intimate Zone (< 18 inches)",
+            "Personal Zone (18 inches - 4 feet)",
+            "Social Zone (4 - 12 feet)",
+            "Public Zone (> 12 feet)"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Personal Zone (18 inches to 4 feet) is typical for one-on-one interactions like counseling or instruction. The Social zone is for group interactions.",
+        "tags": [
+            "counseling",
+            "communication",
+            "proxemics"
+        ]
+    },
+    {
+        "id": "m1-gap-13",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Social Cognitive Theory (Bandura) emphasizes the role of:",
+        "options": [
+            "Biological factors and genetic predispositions as the primary drivers of behavior",
+            "Observational learning (modeling) and the interaction between person, behavior, and environment",
+            "Unconscious drives and internal psychological conflicts within the individual",
+            "Dietary intake and nutritional status regardless of environmental factors"
+        ],
+        "correctIndex": 1,
+        "explanation": "Social Cognitive Theory highlights that people learn not just from their own experience but by observing others (modeling) and through the reciprocal interaction of personal factors, behavior, and the environment.",
+        "tags": [
+            "education",
+            "behavioral_theories",
+            "sct"
+        ]
+    },
+    {
+        "id": "m1-gap-14",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "A client says, 'I really want to lose weight, but I tried before and failed.' The counselor responds, 'You have a strong desire to be healthier, but you're worried about failing again.' This is an example of:",
+        "options": [
+            "A double-sided reflection",
+            "Confrontation",
+            "Advice giving",
+            "Closed question"
+        ],
+        "correctIndex": 0,
+        "explanation": "A double-sided reflection acknowledges both sides of the client's ambivalence (the 'sustain talk' and the 'change talk'), helping them feel understood without taking sides.",
+        "tags": [
+            "counseling",
+            "communication",
+            "reflections"
+        ]
+    },
+    {
+        "id": "m1-gap-15",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "What is the acronym 'OARS' used for in Motivational Interviewing?",
+        "options": [
+            "Open-ended questions, Affirmations, Reflections, Summaries",
+            "Observe, Assess, Respond, Strategize and Support",
+            "Openness, Attitude, Respect, Support and Sensitivity",
+            "Order, Ask, Reply, Send and Summarize"
+        ],
+        "correctIndex": 0,
+        "explanation": "OARS stands for the core skills of MI: Open-ended questions, Affirmations, Reflective listening, and Summaries.",
+        "tags": [
+            "counseling",
+            "motivational_interviewing"
+        ]
+    },
+    {
+        "id": "m1-gap-16",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Cognitive Behavioral Therapy (CBT) is based on the idea that:",
+        "options": [
+            "We are controlled by our environment and external stimuli",
+            "Thoughts create feelings, which influence behaviors (Change thoughts -> Change behavior)",
+            "Childhood trauma and early experiences dictate adult behavior",
+            "Medication and biological interventions are the only solution"
+        ],
+        "correctIndex": 1,
+        "explanation": "CBT posits that negative thoughts (cognitions) lead to negative feelings and maladaptive behaviors. By challenging and modifying these thoughts, one can change feelings and behaviors.",
+        "tags": [
+            "counseling",
+            "behavioral_theories",
+            "cbt"
+        ]
+    },
+    {
+        "id": "m1-gap-17",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "A 'Summative Evaluation' example in a nutrition class would be:",
+        "options": [
+            "A pre-test given on the first day",
+            "Asking students if they understand as you go",
+            "A final exam or post-test at the end of the course",
+            "A pilot study"
+        ],
+        "correctIndex": 2,
+        "explanation": "Summative evaluation assesses the final outcome or impact of an intervention (e.g., did they learn the material? did behaviors change?) after it is completed.",
+        "tags": [
+            "education",
+            "evaluation"
+        ]
+    },
+    {
+        "id": "m1-gap-18",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "'Legitimation' as a counseling response involves:",
+        "options": [
+            "Telling the client they are legally correct in their actions",
+            "Acknowledging that the client's feelings are valid and understandable",
+            "Giving legal advice regarding their specific situation",
+            "Proving your credentials and authority to the client"
+        ],
+        "correctIndex": 1,
+        "explanation": "Legitimation puts the counselor in an empathetic position, validating the client's feelings ('It is normal to feel angry in this situation').",
+        "tags": [
+            "counseling",
+            "communication",
+            "skills"
+        ]
+    },
+    {
+        "id": "m1-gap-19",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "The 'Action' stage of the Transtheoretical Model is defined as taking steps to change behavior for:",
+        "options": [
+            "At least 1 day",
+            "Less than 6 months",
+            "More than 6 months",
+            "Years"
+        ],
+        "correctIndex": 1,
+        "explanation": "Action is the stage where clear modifications in lifestyle have occurred for less than 6 months. Maintenance is sustainment for more than 6 months.",
+        "tags": [
+            "counseling",
+            "behavioral_theories",
+            "transtheoretical"
+        ]
+    },
+    {
+        "id": "m1-gap-20",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "When counseling a client with low health literacy, it is best to:",
+        "options": [
+            "Use complex medical terminology to show expertise",
+            "Use pictures, simple language, and the 'teach-back' method",
+            "Provide long pamphlets with detailed scientific data",
+            "Speak loudly and use technical jargon repeatedly"
+        ],
+        "correctIndex": 1,
+        "explanation": "Visuals, plain language, and asking the client to repeat back what they understood ('teach-back') are best practices for low health literacy.",
+        "tags": [
+            "education",
+            "communication",
+            "literacy"
+        ]
+    },
+    {
+        "id": "m1-gap-21",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "hard",
+        "text": "In the 'Preparation' stage of change, the most appropriate intervention is:",
+        "options": [
+            "Raising awareness of the problem and its potential health consequences",
+            "Helping the client identify a specific plan and setting goals",
+            "Implementing strategies for relapse prevention and long-term maintenance",
+            "Using confrontation to challenge the client's resistance to change"
+        ],
+        "correctIndex": 1,
+        "explanation": "In Preparation, the client intends to act soon (within 30 days). The counselor should help them develop a concrete plan, identify barriers, and set small goals.",
+        "tags": [
+            "counseling",
+            "behavioral_theories",
+            "transtheoretical"
+        ]
+    },
+    {
+        "id": "m1-gap-22",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "'Paralinguistics' refers to which aspect of communication?",
+        "options": [
+            "Body language and physical gestures used in communication",
+            "The specific words and vocabulary chosen by the speaker",
+            "Tone, pitch, volume, and rate of speech used to convey meaning",
+            "Personal space and physical distance between speakers"
+        ],
+        "correctIndex": 2,
+        "explanation": "Paralinguistics involves the vocal elements of communication that are not the words themselves (how you say it, tone, hesitation, etc.).",
+        "tags": [
+            "counseling",
+            "communication",
+            "nonverbal"
+        ]
+    },
+    {
+        "id": "m1-gap-23",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Classical Conditioning (Pavlov) involves learning via:",
+        "options": [
+            "Using rewards and punishments to modify voluntary behavior",
+            "Association (pairing a neutral stimulus with a potent one)",
+            "Observation of others' behaviors and their outcomes",
+            "Logical reasoning and cognitive processing of information"
+        ],
+        "correctIndex": 1,
+        "explanation": "Classical conditioning pairs a neutral stimulus (bell) with a potent one (food) until the neutral stimulus elicits the response (salivation).",
+        "tags": [
+            "education",
+            "behavioral_theories",
+            "conditioning"
+        ]
+    },
+    {
+        "id": "m1-gap-24",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "The SMOG readability formula works by counting:",
+        "options": [
+            "The number of words per sentence on average",
+            "Polysyllabic words (3 or more syllables) in a sample of text",
+            "The total length of the document in pages",
+            "The font size and style used in the text"
+        ],
+        "correctIndex": 1,
+        "explanation": "The SMOG grade is calculated by counting the number of polysyllabic words in a set of sentences to estimate the reading grade level required.",
+        "tags": [
+            "education",
+            "communication",
+            "literacy"
+        ]
+    },
+    {
+        "id": "m1-gap-25",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education and Counseling",
+        "difficulty": "medium",
+        "text": "Which of the following is an example of an 'Open-Ended Question'?",
+        "options": [
+            "Do you usually eat a healthy breakfast every morning?",
+            "How many times per week do you currently engage in exercise?",
+            "What can you tell me about your typical eating habits?",
+            "Is your fasting blood sugar currently considered high?"
+        ],
+        "correctIndex": 2,
+        "explanation": "Open-ended questions cannot be answered with a simple 'yes' or 'no' or a number. They invite explanation and story-telling ('Tell me about...', 'How do you feel about...').",
+        "tags": [
+            "counseling",
+            "communication",
+            "skills"
+        ]
+    },
+    {
+        "id": "m3-pdf-21",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "In Systems Theory, 'Equifinality' refers to the concept that:",
+        "options": [
+            "All systems must follow a single rigid path with identical inputs to achieve equal outputs",
+            "Outputs may be achieved in a variety of ways, using different inputs or transformations",
+            "A system must remain in a state of static equilibrium without any dynamic change",
+            "Feedback loops are unnecessary for stability even in complex systems"
+        ],
+        "correctIndex": 1,
+        "explanation": "Equifinality means that the same or similar outputs (goals) can be achieved by using different inputs or different transformation processes.",
+        "tags": [
+            "management",
+            "systems_theory",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-22",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "hard",
+        "text": "Which of the following is considered an 'Input' in the Foodservice Systems Model?",
+        "options": [
+            "Employee satisfaction levels reported in surveys",
+            "Finished meals served to customers in the dining room",
+            "Raw ingredients and labor minutes required for production",
+            "Customer feedback and complaints regarding service"
+        ],
+        "correctIndex": 2,
+        "explanation": "Inputs are the resources used to create products/services. Examples include raw materials (ingredients), money, time, and personnel (labor). Meals and satisfaction are Outputs.",
+        "tags": [
+            "management",
+            "systems_theory",
+            "inputs"
+        ]
+    },
+    {
+        "id": "m3-pdf-23",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "The '4 Ps' of the Marketing Mix stand for:",
+        "options": [
+            "Product, Price, Planning, Promotion",
+            "People, Process, Product, Price",
+            "Product, Price, Place, Promotion",
+            "Plan, Produce, Price, Place"
+        ],
+        "correctIndex": 2,
+        "explanation": "The 4 Ps of Marketing are Product, Price, Place (Distribution), and Promotion.",
+        "tags": [
+            "management",
+            "marketing",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-24",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "hard",
+        "text": "In the VALS (Values and Lifestyles) framework, which group is characterized by high income, high self-esteem, abundant resources, and all three primary motivations (ideals, achievement, self-expression)?",
+        "options": [
+            "Thinkers",
+            "Innovators",
+            "Achievers",
+            "Survivors"
+        ],
+        "correctIndex": 1,
+        "explanation": "Innovators are successful, sophisticated, take-charge people with high self-esteem and abundant resources, exhibiting all three primary motivations.",
+        "tags": [
+            "management",
+            "marketing",
+            "consumer_behavior"
+        ]
+    },
+    {
+        "id": "m3-pdf-25",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "hard",
+        "text": "The LEARN model for culturally competent communication stands for:",
+        "options": [
+            "Listen, Explain, Acknowledge, Recommend, Negotiate",
+            "Learn, Engage, Ask, Review, Note",
+            "Listen, Evaluate, Assess, Review, Negotiate",
+            "Look, Explain, Ask, Respect, Nurture"
+        ],
+        "correctIndex": 0,
+        "explanation": "LEARN stands for: Listen to the patient's perception, Explain your perception, Acknowledge/discuss differences, Recommend treatment, Negotiate agreement.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-26",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "hard",
+        "text": "In the ETHNIC model of culturally competent care, what does the 'H' stand for?",
+        "options": [
+            "History",
+            "Health beliefs",
+            "Healers",
+            "Home remedies"
+        ],
+        "correctIndex": 2,
+        "explanation": "The ETHNIC model stands for Explanation, Treatment, Healers, Negotiation, Intervention, Collaboration. 'Healers' refers to asking about involvement of folk healers.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-27",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Strategic Planning differs from operational planning in that it primarily answers:",
+        "options": [
+            "How do we balance the daily budget and reduce costs effectively?",
+            "Where are we now, where are we going, and how do we get there?",
+            "How many staff do we need for the next shift to function?",
+            "What is the menu for next week and what ingredients are needed?"
+        ],
+        "correctIndex": 1,
+        "explanation": "Strategic planning is a continuous, systematic process to determine long-term goals ('Where are we going?') and the best approach to accomplish them.",
+        "tags": [
+            "management",
+            "planning",
+            "strategic"
+        ]
+    },
+    {
+        "id": "m3-pdf-28",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "Market segmentation based on 'Psychographics' groups consumers according to:",
+        "options": [
+            "Age, sex, annual income, and education level",
+            "Physical location and geographic region of residence",
+            "Personality, interests, values, and beliefs of the consumer",
+            "Purchase history and frequency of product usage"
+        ],
+        "correctIndex": 2,
+        "explanation": "Psychographic segmentation groups people based on psychological traits like lifestyle, personality, values, interests, and beliefs.",
+        "tags": [
+            "management",
+            "marketing",
+            "segmentation"
+        ]
+    },
+    {
+        "id": "m3-pdf-29",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "hard",
+        "text": "Which cultural competence model involves a 5-step process: Awareness, Knowledge, Skill, Encounter, and Desire?",
+        "options": [
+            "Campinha-Bacote Model",
+            "Purnell Model",
+            "GREET Model",
+            "BATHE Model"
+        ],
+        "correctIndex": 0,
+        "explanation": "The Campinha-Bacote Model describes the process of cultural competence as involving Cultural Awareness, Knowledge, Skill, Encounter, and Desire.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-30",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "In a systems approach, 'Feedback' encompasses:",
+        "options": [
+            "Only complaints and negative comments received directly from dissatisfied customers",
+            "Information from internal and external sources used to adjust operations and restore equilibrium",
+            "The finished products and services delivered at the end of the production cycle",
+            "The initial resources invested including capital, labor, and materials"
+        ],
+        "correctIndex": 1,
+        "explanation": "Feedback is information on how operations worked or failed, from internal (staff) or external (customers, inspectors) sources, used to modify the system.",
+        "tags": [
+            "management",
+            "systems_theory",
+            "feedback"
+        ]
+    },
+    {
+        "id": "m3-pdf-31",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "Which 'Marketing Era' focused primarily on mass production capabilities rather than customer wants?",
+        "options": [
+            "Sales Era",
+            "Marketing Era",
+            "Production Era",
+            "Technological Era"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Production Era was characterized by a focus on mass production and manufacturing efficiency, often assuming products would sell themselves.",
+        "tags": [
+            "management",
+            "marketing",
+            "history"
+        ]
+    },
+    {
+        "id": "m3-pdf-32",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "medium",
+        "text": "The GREET model is specifically useful when working with:",
+        "options": [
+            "Pediatric patients",
+            "Immigrant populations",
+            "Elderly patients in long-term care",
+            "Athletes"
+        ],
+        "correctIndex": 1,
+        "explanation": "The GREET model (Generation, Reason, Extended family, Ethnic behavior, Time in US) is designed to help understand immigrant populations.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-33",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "hard",
+        "text": "Permeability of boundaries in a system refers to:",
+        "options": [
+            "The system being completely closed off from the external environment",
+            "The strict separation of departments with no communication flow",
+            "The ability of the system to interact with its environment and other subsystems",
+            "A major security breach occurring in the organization's network"
+        ],
+        "correctIndex": 2,
+        "explanation": "Permeability allows the system to interact with its environment. However, undefined or too permeable boundaries can lead to tension/overlap between subsystems.",
+        "tags": [
+            "management",
+            "systems_theory",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-34",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "medium",
+        "text": "Cultural Humility differs from Cultural Competence in that it emphasizes:",
+        "options": [
+            "Becoming an expert on all cultures and their traditions",
+            "A lifelong commitment to self-evaluation and self-critique",
+            "Memorizing lists of cultural traits and stereotypes",
+            "Achieving a final state of complete competence"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cultural Humility is an ongoing process of self-reflection and self-critique, acknowledging that one cannot master another's culture, unlike the 'endpoint' implied by competence.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-35",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "hard",
+        "text": "Which VALS segment is motivated by 'Ideals' and consists of mature, satisfied, reflective people who value order and knowledge?",
+        "options": [
+            "Believers",
+            "Thinkers",
+            "Strivers",
+            "Makers"
+        ],
+        "correctIndex": 1,
+        "explanation": "Thinkers are motivated by ideals; they are mature, satisfied, comfortable, and reflective, valuing order, knowledge, and responsibility.",
+        "tags": [
+            "management",
+            "marketing",
+            "consumer_behavior"
+        ]
+    },
+    {
+        "id": "m3-pdf-36",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "medium",
+        "text": "The BATHE model focuses on the ____________ context of the patient's visit.",
+        "options": [
+            "Financial",
+            "Medical/Clinical",
+            "Psychosocial",
+            "Nutritional"
+        ],
+        "correctIndex": 2,
+        "explanation": "The BATHE Model (Background, Affect, Trouble, Handling, Empathy) is designed to address the psychosocial context of the patient's visit.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-37",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "In the context of Systems Theory, 'Transformation' is:",
+        "options": [
+            "The initial resources such as raw materials and labor",
+            "The finished product ready for service to the customer",
+            "The work or action done to change inputs into outputs",
+            "The positive or negative feedback received from customers"
+        ],
+        "correctIndex": 2,
+        "explanation": "Transformation (Operations) refers to the activities and work performed to change inputs into desired outputs.",
+        "tags": [
+            "management",
+            "systems_theory",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-38",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "Which element of the Marketing Mix is described as 'how the product is provided to the customer'?",
+        "options": [
+            "Product",
+            "Price",
+            "Place",
+            "Promotion"
+        ],
+        "correctIndex": 2,
+        "explanation": "Place (Distribution) refers to the channels and methods used to make the product available to the customer.",
+        "tags": [
+            "management",
+            "marketing",
+            "concepts"
+        ]
+    },
+    {
+        "id": "m3-pdf-39",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Cultural Competence",
+        "difficulty": "hard",
+        "text": "The Purnell Model of Cultural Competency is often visualized as:",
+        "options": [
+            "A rigid ladder of steps that must be climbed sequentially",
+            "A hierarchical pyramid of needs similar to Maslow's hierarchy",
+            "Concentric circles of global society, community, family, and person",
+            "A complex flow chart of decision making pathways"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Purnell Model represents cultural competence through concentric circles representing global society, community, family, and the person.",
+        "tags": [
+            "management",
+            "cultural_competence",
+            "models"
+        ]
+    },
+    {
+        "id": "m3-pdf-40",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "Strategic planning typically involves analyzing the organization in the context of:",
+        "options": [
+            "Internal staff conflicts only",
+            "Its environment (opportunities and threats)",
+            "Last month's sales data only",
+            "The daily menu cycle"
+        ],
+        "correctIndex": 1,
+        "explanation": "Strategic planning involves environmental analysis (like SWOT) to understand opportunities and threats outside the organization as well as internal strengths/weaknesses.",
+        "tags": [
+            "management",
+            "planning",
+            "strategic"
+        ]
+    },
+    {
+        "id": "m4-pdf-21",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "Which foodservice system involves purchasing raw foods, preparing them on-site, and serving them soon after preparation?",
+        "options": [
+            "Ready-Prepared",
+            "Assembly-Serve",
+            "Conventional",
+            "Commissary"
+        ],
+        "correctIndex": 2,
+        "explanation": "A Conventional foodservice system prepares food on-site from scratch (or partially prepared items) and serves it shortly after production.",
+        "tags": [
+            "foodservice",
+            "production",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-22",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "In a 'Ready-Prepared' (Cook-Chill or Cook-Freeze) system, the Critical Control Point (CCP) of greatest concern is usually during:",
+        "options": [
+            "Receiving",
+            "Cooling and reheating",
+            "Peeling vegetables",
+            "Serving"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ready-Prepared systems involve cooking food and then chilling/freezing it for later use. The cooling and reheating steps are critical for preventing pathogen growth.",
+        "tags": [
+            "foodservice",
+            "production",
+            "safety"
+        ]
+    },
+    {
+        "id": "m4-pdf-23",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "Which foodservice system centralizes procurement and production in one large kitchen, then transports prepared food to remote satellite service areas?",
+        "options": [
+            "Conventional",
+            "Commissary",
+            "Assembly-Serve",
+            "Decentralized"
+        ],
+        "correctIndex": 1,
+        "explanation": "A Commissary system centralizes food production in one large facility and distributes prepared food to satellite (remote) serving areas.",
+        "tags": [
+            "foodservice",
+            "production",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-24",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "The 'Assembly-Serve' (Total Convenience) system differs from others in that:",
+        "options": [
+            "All cooking is done from scratch using raw ingredients in the kitchen on the same day as service",
+            "No on-site food production (cooking) takes place; fully prepared foods are purchased, stored, assembled, heated, and served",
+            "Food is prepared days in advance and held in inventory before service using a blast chiller",
+            "It requires the most skilled labor and highly trained chefs on site to manage complex recipes"
+        ],
+        "correctIndex": 1,
+        "explanation": "Assembly-Serve systems purchase fully prepared foods (frozen, sous-vide, etc.) requiring only storage, assembly, heating, and service. 'Kitchenless kitchen'.",
+        "tags": [
+            "foodservice",
+            "production",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-25",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "A 'Decentralized' delivery system is most appropriate when:",
+        "options": [
+            "All patients are located in one central dining room close to the kitchen for immediate service",
+            "The distance from the kitchen to the patient is great, requiring food to be transported in bulk and assembled near the patient",
+            "Food safety is not a primary concern during the distribution process, focusing purely on speed of delivery",
+            "The menu is simple and does not require temperature control, allowing for ambient transport"
+        ],
+        "correctIndex": 1,
+        "explanation": "Decentralized delivery involves transporting food in bulk to ward pantries or galleys where trays are assembled, ensuring better temperature control over long distances.",
+        "tags": [
+            "foodservice",
+            "distribution",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-26",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "The primary advantage of a 'Commissary' foodservice system is:",
+        "options": [
+            "High food safety risks and critical control points during transport",
+            "Centralized large-volume purchasing and production, leading to economies of scale and uniform quality",
+            "Reduced need for specialized transportation equipment and delivery trucks",
+            "Lower initial capital investment compared to conventional systems"
+        ],
+        "correctIndex": 1,
+        "explanation": "Commissary systems benefit from economies of scale in bulk purchasing and efficient large-scale production, ensuring consistency across all satellite units.",
+        "tags": [
+            "foodservice",
+            "production",
+            "advantages"
+        ]
+    },
+    {
+        "id": "m4-pdf-27",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "Which type of service allows customers to move from station to station (e.g., salad, hot food, dessert) with no specific traffic pattern?",
+        "options": [
+            "Straight line cafeteria with a single serving line",
+            "Hollow square / Free-flow / Scramble system allowing random access",
+            "Vending machine area with automated service",
+            "Counter service where staff serve customers directly"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Hollow Square, Free-flow, or Scramble system separates counters (salad, hot food, etc.) allowing customers to go directly to what they want, reducing wait times.",
+        "tags": [
+            "foodservice",
+            "distribution",
+            "service"
+        ]
+    },
+    {
+        "id": "m4-pdf-28",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "In forecasting production, a 'Moving Average' model:",
+        "options": [
+            "Uses a panel of experts to predict sales trends for the upcoming year",
+            "Taking the average of the number of portions sold for the last 'n' periods to predict the next period",
+            "Assumes a causal relationship between variables such as weather and sales",
+            "Relies on intuition and gut feeling rather than historical data"
+        ],
+        "correctIndex": 1,
+        "explanation": "Moving Average is a time-series forecasting method that uses a set number of past data points (e.g., last 5 weeks) to predict the next value by averaging them.",
+        "tags": [
+            "foodservice",
+            "production",
+            "forecasting"
+        ]
+    },
+    {
+        "id": "m4-pdf-29",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "A 'Standardized Recipe' is critical for:",
+        "options": [
+            "Allowing chefs total creative freedom to experiment with ingredients on the fly",
+            "Ensuring consistent quality, yield, and cost control every time the item is produced",
+            "Increasing food waste due to lack of portion control and consistent measurements",
+            "Reducing the need for necessary measuring tools and kitchen scales during prep"
+        ],
+        "correctIndex": 1,
+        "explanation": "Standardized recipes are the most important control tool, ensuring that a specific quantity and quality of food is produced for a specific cost every time.",
+        "tags": [
+            "foodservice",
+            "production",
+            "controls"
+        ]
+    },
+    {
+        "id": "m4-pdf-30",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "If you determine that the 'Edible Portion' (EP) cost of a serving of broccoli is $0.50 and the yield is 80%, what is the 'As Purchased' (AP) cost per equivalent amount?",
+        "options": [
+            "$0.40",
+            "$0.625",
+            "$0.50",
+            "$0.80"
+        ],
+        "correctIndex": 0,
+        "explanation": "EP Cost = AP Cost / Yield %. Therefore, AP Cost = EP Cost * Yield %. Wait... actually: AP Price is usually lower. AP Cost = EP Cost * Yield %? No. AP weight > EP weight. EP price > AP price. AP Price = EP Price x Yield %. $0.50 * 0.80 = $0.40. (Since you pay less for the raw uncleaned vegetable than the finished edible weight value).",
+        "tags": [
+            "foodservice",
+            "production",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-31",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "Which production forecasting method uses a weighted average of past data, giving more weight to recent data?",
+        "options": [
+            "Exponential Smoothing",
+            "Moving Average",
+            "Delphi Method",
+            "Linear Regression"
+        ],
+        "correctIndex": 0,
+        "explanation": "Exponential Smoothing is a time-series method similar to moving average but assigns exponentially decreasing weights as data gets older (recent data matters more).",
+        "tags": [
+            "foodservice",
+            "production",
+            "forecasting"
+        ]
+    },
+    {
+        "id": "m4-pdf-32",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "In a 'Cook-Chill' system, food is held chilled for storage. What is the maximum recommended storage time for cook-chill items (using tumble chill method)?",
+        "options": [
+            "1-2 days",
+            "45 days",
+            "3-5 days",
+            "6 months"
+        ],
+        "correctIndex": 1,
+        "explanation": "With proper blast chilling or tumble chilling, cook-chill foods can be safely stored for up to 45 days. (Though typically used within shorter periods).",
+        "tags": [
+            "foodservice",
+            "production",
+            "systems"
+        ]
+    },
+    {
+        "id": "m4-pdf-33",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "Which scoop size serves approximately 1/2 cup?",
+        "options": [
+            "Scoop #8",
+            "Scoop #16",
+            "Scoop #12",
+            "Scoop #4"
+        ],
+        "correctIndex": 0,
+        "explanation": "The scoop number indicates how many scoops make a quart (32 oz). Scoop #8: 32/8 = 4 oz (1/2 cup).",
+        "tags": [
+            "foodservice",
+            "production",
+            "measurements"
+        ]
+    },
+    {
+        "id": "m4-pdf-34",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "What type of distribution cart is a 'Pellet System'?",
+        "options": [
+            "Insulated tray system handling hot and cold food",
+            "Portable heating unit plugged in at ward galleys",
+            "Heated metal disk (pellet) placed under the plate to keep it warm",
+            "Refrigerated cart ensuring cold foods stay cold"
+        ],
+        "correctIndex": 2,
+        "explanation": "A Pellet System uses a preheated metal disk (pellet) placed in a base under the dinner plate to maintain food temperature for ~40-45 minutes.",
+        "tags": [
+            "foodservice",
+            "distribution",
+            "equipment"
+        ]
+    },
+    {
+        "id": "m4-pdf-35",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "A 'Rethermalization' unit is used in which foodservice systems?",
+        "options": [
+            "Conventional foodservice systems only",
+            "Ready-Prepared (Cook-Chill/Cook-Freeze)",
+            "Assembly-Serve foodservice systems only",
+            "Commissary foodservice systems only"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ready-Prepared systems (Cook-Chill/Cook-Freeze) require rethermalization (reheating) of food just before service, using microwaves, convection ovens, or integral heat carts.",
+        "tags": [
+            "foodservice",
+            "production",
+            "equipment"
+        ]
+    },
+    {
+        "id": "m4-pdf-36",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "When scaling a recipe using the percentage method, the first step is to:",
+        "options": [
+            "Convert all ingredients to pounds, ounces, and cups for easier measurement",
+            "Convert all ingredients to weights (e.g., decimals of a pound) and calculate the total weight",
+            "Multiply everything by 2 regardless of the desired yield change",
+            "Estimate the new amounts based on experience and intuition"
+        ],
+        "correctIndex": 1,
+        "explanation": "The percentage method requires converting all ingredients to weights (including liquids) and summing them to calculate the percentage of each ingredient in relation to the total weight.",
+        "tags": [
+            "foodservice",
+            "production",
+            "calculations"
+        ]
+    },
+    {
+        "id": "m4-pdf-37",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "Which style of service is characterized by food being plated in the kitchen and served to the guest (American service)?",
+        "options": [
+            "French Service",
+            "Russian Service",
+            "American Service",
+            "Family Style"
+        ],
+        "correctIndex": 2,
+        "explanation": "In American Service, portions are plated in the kitchen and then served to the guest. It is the most common and efficient method.",
+        "tags": [
+            "foodservice",
+            "distribution",
+            "service"
+        ]
+    },
+    {
+        "id": "m4-pdf-38",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "hard",
+        "text": "To reduce the risk of cross-contamination in a Conventional foodservice system, care must be taken to:",
+        "options": [
+            "Separate raw and cooked food handling (temporal or spatial separation)",
+            "Cook everything to 165°F regardless of whether it is poultry, beef, or fish",
+            "Use the same cutting board for efficiency when switching between ingredient types",
+            "Store meat above vegetables to ensure easy access during busy periods"
+        ],
+        "correctIndex": 0,
+        "explanation": "Because raw and cooked foods are handled in the same kitchen in Conventional systems, strict separation (space or time) is needed to prevent cross-contamination.",
+        "tags": [
+            "foodservice",
+            "production",
+            "safety"
+        ]
+    },
+    {
+        "id": "m4-pdf-39",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Food Production",
+        "difficulty": "medium",
+        "text": "The main disadvantage of the Assembly-Serve system is:",
+        "options": [
+            "High labor costs associated with preparation",
+            "Need for skilled chefs to manage production",
+            "Limited menu variety and higher food cost",
+            "Large kitchen footprint requirement"
+        ],
+        "correctIndex": 2,
+        "explanation": "Assembly-Serve relies on available prepared products, which may limit menu variety and typically have a higher food cost (offset by lower labor cost).",
+        "tags": [
+            "foodservice",
+            "production",
+            "disadvantages"
+        ]
+    },
+    {
+        "id": "m4-pdf-40",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Distribution",
+        "difficulty": "medium",
+        "text": "A 'Synergistic' effect in a food production team means:",
+        "options": [
+            "Everyone works independently without any collaboration or communication",
+            "The total output of the team is greater than the sum of individual efforts (1+1=3)",
+            "Conflict is maximized due to competing individual goals and poor leadership",
+            "Productivity decreases significantly due to the complexity of teamwork"
+        ],
+        "correctIndex": 1,
+        "explanation": "Synergy occurs when the cooperative action of separate people or agencies produces a total effect greater than the sum of their individual effects.",
+        "tags": [
+            "foodservice",
+            "production",
+            "management"
+        ]
+    }
+
 ];
 export async function getQuestions(moduleId?: string, limit = 10): Promise<Question[]> {
     await new Promise(resolve => setTimeout(resolve, 300));

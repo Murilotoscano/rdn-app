@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local analysis outputs
+biased_questions_report.json
+
+# local scripts (optional)
+scripts/analyze_length_bias.mjs
+scripts/analyze_lengths.mjs
+scripts/reingest_all_updates.mjs
