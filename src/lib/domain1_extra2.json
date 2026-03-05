@@ -1,0 +1,162 @@
+[
+    {
+        "id": "dom1-ext2-001",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "hard",
+        "text": "During fasting, the brain typically relies exclusively on glucose for fuel. However, after several days of prolonged starvation, the brain adapts to utilize which alternative fuel source to spare muscle protein degradation?",
+        "options": [
+            "Free fatty acids released directly from adipose tissue.",
+            "Lactic acid produced by anaerobic glycolysis in muscles.",
+            "Ketone bodies (acetoacetate and beta-hydroxybutyrate) synthesized in the liver.",
+            "Glycerol backbones derived from the breakdown of triglycerides."
+        ],
+        "correctIndex": 2,
+        "explanation": "Free fatty acids cannot easily cross the blood-brain barrier, so the brain cannot use them directly for energy. During early starvation, the brain relies entirely on glucose (created by the liver through gluconeogenesis, which breaks down muscle protein). However, after about 3-4 days of fasting, the liver begins converting fatty acids into ketone bodies. These ketones *can* cross the blood-brain barrier and serve as the primary fuel source for the brain, drastically slowing down the rate of muscle catabolism."
+    },
+    {
+        "id": "dom1-ext2-002",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "medium",
+        "text": "Which micronutrient acts as a vital coenzyme for the conversion of pyruvate to oxaloacetate (via pyruvate carboxylase) in the first step of gluconeogenesis, as well as in the synthesis of fatty acids?",
+        "options": [
+            "Niacin (Vitamin B3)",
+            "Biotin (Vitamin B7)",
+            "Folate (Vitamin B9)",
+            "Cobalamin (Vitamin B12)"
+        ],
+        "correctIndex": 1,
+        "explanation": "Biotin is fundamentally required for carboxylation reactions (reactions that add a carboxyl group/CO2). Pyruvate carboxylase (which converts a 3-carbon pyruvate into a 4-carbon oxaloacetate to begin gluconeogenesis) and Acetyl-CoA carboxylase (the rate-limiting step in fatty acid synthesis) are both heavily dependent on biotin. Niacin acts as NAD/NADH in redox reactions. Folate is involved in 1-carbon transfers (DNA synthesis). B12 is involved in myelin synthesis and Folate activation."
+    },
+    {
+        "id": "dom1-ext2-003",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "In the production of cultured dairy products such as yogurt and cheese, bacteria are introduced to the milk. Which naturally occurring sugar in milk is fermented by these bacteria to produce the lactic acid responsible for the characteristic tang and curdling?",
+        "options": [
+            "Fructose",
+            "Galactose",
+            "Sucrose",
+            "Lactose"
+        ],
+        "correctIndex": 3,
+        "explanation": "Lactose is the primary disaccharide sugar found uniquely in mammalian milk. During fermentation, lactic acid bacteria (such as Lactobacillus bulgaricus and Streptococcus thermophilus) consume the lactose and produce lactic acid as a byproduct. This acid accumulation lowers the pH of the milk, causing the milk proteins (casein) to denature, coagulate, and form a gel-like curd. Galactose is one half of the lactose molecule (glucose + galactose), but lactose itself is the starting substrate in milk."
+    },
+    {
+        "id": "dom1-ext2-004",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research",
+        "difficulty": "hard",
+        "text": "A dietitian is analyzing a dataset of patient serum cholesterol levels that are perfectly normally distributed. The mean is 200 mg/dL with a standard deviation of 20 mg/dL. According to the Empirical Rule (68-95-99.7 rule), approximately what percentage of patients have a cholesterol level between 160 mg/dL and 240 mg/dL?",
+        "options": [
+            "68%",
+            "95%",
+            "99.7%",
+            "50%"
+        ],
+        "correctIndex": 1,
+        "explanation": "In a perfectly normal distribution (a bell curve), the Empirical Rule dictates that ~68% of the data falls within 1 standard deviation (SD) of the mean, ~95% falls within 2 SDs, and ~99.7% falls within 3 SDs. The mean is 200, and the SD is 20. 160 mg/dL is exactly 2 SDs below the mean (200 - 40). 240 mg/dL is exactly 2 SDs above the mean (200 + 40). Therefore, roughly 95% of the values fall within this range between 160 and 240."
+    },
+    {
+        "id": "dom1-ext2-005",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education & Counseling",
+        "difficulty": "medium",
+        "text": "When writing educational materials for the general public regarding a new public health nutrition initiative, a dietitian should ensure the language is accessible to ensure maximum comprehension. What is the recommended reading level for general public health materials in the United States?",
+        "options": [
+            "8th grade level",
+            "10th grade level",
+            "12th grade level (High School Graduate)",
+            "4th grade level"
+        ],
+        "correctIndex": 0,
+        "explanation": "The standard recommendation for writing health and nutrition materials intended for the general adult public is the 8th grade reading level. This ensures the information is broadly accessible without talking down to the audience. If the target audience is known to have lower literacy (which is common in many clinic settings), materials should be translated down to exactly the 6th grade reading level to ensure comprehension. 12th grade or college levels are far too complex, employing difficult jargon."
+    },
+    {
+        "id": "dom1-ext2-006",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "hard",
+        "text": "During intense, anaerobic exercise, working muscles accumulate large amounts of lactate. This lactate is released into the bloodstream and transported to the liver, where it is converted back into glucose, which is then released back to the muscles for energy. What is the name of this critical metabolic cycle?",
+        "options": [
+            "The Citric Acid Cycle (TCA/Krebs Cycle)",
+            "The Urea Cycle",
+            "The Cori Cycle",
+            "The Pentose Phosphate Pathway"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Cori Cycle (or Lactic Acid Cycle) specifically describes the process where muscles operating anaerobically produce lactate as a byproduct of glycolysis. The muscles cannot process this lactate, so they ship it through the blood to the liver. The liver (which can perform gluconeogenesis) converts the lactate back into usable glucose, and sends it back to the muscles to sustain the exercise. The TCA cycle operates aerobically in the mitochondria to generate ATP. The Urea cycle disposes of ammonia from protein breakdown."
+    },
+    {
+        "id": "dom1-ext2-007",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research",
+        "difficulty": "medium",
+        "text": "In a research study measuring the efficacy of a new weight-loss drug, what is the 'dependent variable'?",
+        "options": [
+            "The dosage of the weight-loss drug given to participants.",
+            "The weight lost by the participants.",
+            "The age and gender of the participants.",
+            "The placebo pill given to the control group."
+        ],
+        "correctIndex": 1,
+        "explanation": "In an experiment, the 'independent variable' is the thing the researcher explicitly changes or manipulates (e.g., giving the drug vs. giving the placebo, or varying the dose). The 'dependent variable' is the outcome being measured the thing that depends on the independent variable. In this case, the amount of weight lost depends on whether or not the participant took the drug. Age and gender are potential confounding variables that the researchers may want to control for."
+    },
+    {
+        "id": "dom1-ext2-008",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "Which artificial food dye has been most prominently associated with anecdotal reports of increased hyperactivity in susceptible children, leading to its required inclusion on warning labels in the European Union (though not currently banned in the US)?",
+        "options": [
+            "Titanium Dioxide (White)",
+            "Tartrazine (Yellow #5)",
+            "Amaranth (Red #2)",
+            "Sunset Yellow (Yellow #6)"
+        ],
+        "correctIndex": 1,
+        "explanation": "Tartrazine, also known as FD&C Yellow No. 5, is highly controversial. While the FDA considers it safe for the general population, a tiny percentage of individuals have serious allergic/asthmatic reactions to it. Furthermore, the Southampton Study linked mixtures of tartrazine (and a few other dyes) to increased hyperactivity in some children. This prompted the EU to mandate warning labels on foods containing it ('may have an adverse effect on activity and attention in children'). Red #2 (Amaranth) has actually been banned in the US since the 1970s over cancer fears."
+    },
+    {
+        "id": "dom1-ext2-009",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "hard",
+        "text": "The absorption of dietary non-heme iron (found in plant foods) is significantly enhanced by the simultaneous consumption of Vitamin C. Which of the following explains the biochemical mechanism of this enhancement?",
+        "options": [
+            "Vitamin C is a powerful reducing agent, converting insoluble ferric iron (Fe3+) into the much more soluble and easily absorbed ferrous iron (Fe2+).",
+            "Vitamin C physically binds to phytic acid in the gut, preventing the phytates from trapping the iron.",
+            "Vitamin C stimulates the rapid production of the hormone hepcidin, forcing the enterocytes to absorb iron.",
+            "Vitamin C acts as an oxidizing agent, converting ferrous iron into ferric iron for superior transport."
+        ],
+        "correctIndex": 0,
+        "explanation": "Non-heme iron primarily exists in foods in the oxidized 'ferric' state (Fe3+), which is highly insoluble and poorly absorbed in the alkaline environment of the small intestine. Vitamin C (ascorbic acid) acts as a reducing agent, donating an electron to reduce the Ferric Iron (Fe3+) down to Ferrous Iron (Fe2+). The ferrous state is highly soluble and easily passes through the intestinal mucosa transporters. Conversely, tea (tannins) and whole grains (phytates) physically bind non-heme iron, blocking its absorption. Hepcidin *decreases* iron absorption when iron stores are high."
+    },
+    {
+        "id": "dom1-ext2-010",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education & Counseling",
+        "difficulty": "medium",
+        "text": "During an initial interview, a client states, 'I tried the Keto diet for a week, but I felt so weak that I couldn't get out of bed, so I quit.' The dietitian responds, 'It sounds like the drastic reduction in carbohydrates left you feeling depleted of energy, making it hard to stick to the plan.' Which counseling skill is the dietitian utilizing?",
+        "options": [
+            "Summarization",
+            "Paraphrasing/Reflective Listening",
+            "Confrontation",
+            "Open-ended questioning"
+        ],
+        "correctIndex": 1,
+        "explanation": "The dietitian is using Paraphrasing/Reflective Listening. This crucial counseling technique involves restating the client's message in the practitioner's own words. It demonstrates empathy, confirms that the dietitian accurately heard the core meaning (weakness = lack of energy/carbs), and encourages the client to elaborate further. Summarization usually occurs at the end of a session to recap multiple points. Confrontation involves pointing out discrepancies (e.g., between goals and actions). Open-ended questions usually begin with 'How' or 'What'."
+    }
+]

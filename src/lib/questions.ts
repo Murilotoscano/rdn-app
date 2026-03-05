@@ -11140,6 +11140,1606 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "production",
             "management"
         ]
+    },
+    {
+        "id": "dom1-fs-001",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "A food manufacturer is developing a new line of low-sodium canned soups. To maintain the safety and shelf life of the product without relying heavily on salt, which of the following food preservation methods or additives would be most appropriate to prevent the growth of Clostridium botulinum?",
+        "options": [
+            "Adding ascorbic acid to lower the pH below 4.6",
+            "Increasing the sugar concentration to reduce water activity",
+            "Using sodium nitrite in the canning process",
+            "Applying pasteurization at 161°F (71.6°C) for 15 seconds"
+        ],
+        "correctIndex": 0,
+        "explanation": "Clostridium botulinum spores cannot germinate and produce toxin in high-acid (pH < 4.6) environments. Adding ascorbic acid (or other food-grade acids) lowers the pH to a safe level, allowing for a milder heating process (boiling water bath vs. pressure canning). Sodium nitrite is highly effective against C. botulinum but is primarily used in cured meats, not typical canned soups. Pasteurization at 161°F is a HTST pasteurization standard for milk and does not destroy C. botulinum spores; pressure canning (reaching 240°F/116°C) or acidification is required."
+    },
+    {
+        "id": "dom1-fs-002",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "When baking a shortened cake at a high altitude (above 3,000 feet), which of the following ingredient adjustments should be made to prevent the cake from collapsing?",
+        "options": [
+            "Increase sugar and increase baking powder",
+            "Decrease sugar and decrease baking powder",
+            "Increase liquid and decrease flour",
+            "Decrease liquid and increase baking powder"
+        ],
+        "correctIndex": 1,
+        "explanation": "At high altitudes, the atmospheric pressure is lower. This causes leavening gases to expand more quickly before the heat of the oven can coagulate the proteins and set the cake structure, often resulting in a collapsed cake. To counteract this, you must DECREASE leavening agents (baking powder) and DECREASE tenderizers (sugar, fat) while INCREASING structural ingredients (flour, liquid, eggs). Therefore, decreasing sugar and baking powder is the correct adjustment."
+    },
+    {
+        "id": "dom1-fs-003",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "A classic hollandaise sauce is an emulsion of butter in water (from lemon juice/vinegar), stabilized by egg yolks. Which component of the egg yolk acts as the primary emulsifying agent?",
+        "options": [
+            "Avidin",
+            "Ovalbumin",
+            "Lecithin",
+            "Lipoprotein"
+        ],
+        "correctIndex": 2,
+        "explanation": "Lecithin, a phospholipid found in egg yolks (as well as soybeans), is an excellent natural emulsifier. It has a hydrophilic (water-loving) head and a hydrophobic (water-fearing/fat-loving) tail, allowing it to interface between water and fat, thereby stabilizing an emulsion like hollandaise or mayonnaise. Ovalbumin is a primary protein in egg white. Avidin is a protein in raw egg white that binds biotin. Lipoproteins are also in yolks but lecithin is the specific emulsifying phospholipid."
+    },
+    {
+        "id": "dom1-fs-004",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "During the ripening of climacteric fruits like bananas and avocados, starches are converted to sugars, and the fruit softens. Which naturally occurring plant hormone is primarily responsible for triggering and accelerating the ripening process in these fruits?",
+        "options": [
+            "Abscisic acid",
+            "Ethylene gas",
+            "Gibberellin",
+            "Chlorophyllase"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ethylene gas is a plant hormone that stimulates the ripening of climacteric fruits. Climacteric fruits continue to ripen after being picked and produce a burst of ethylene gas during this process. This is why placing a ripe banana in a paper bag with unripe fruit accelerates the ripening of the other fruit. Abscisic acid generally promotes dormancy. Gibberellins promote stem elongation and seed germination. Chlorophyllase is an enzyme that breaks down chlorophyll, unmasking other pigments during ripening, but ethylene is the primary trigger hormone."
+    },
+    {
+        "id": "dom1-fs-005",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "Which functional food ingredient, found in oats and barley, has an FDA-approved health claim for reducing the risk of coronary heart disease by lowering serum cholesterol levels?",
+        "options": [
+            "Inulin",
+            "Beta-glucan",
+            "Lignans",
+            "Anthocyanins"
+        ],
+        "correctIndex": 1,
+        "explanation": "Beta-glucan is a type of soluble dietary fiber found abundantly in oats and barley. The FDA has authorized a health claim linking the consumption of beta-glucan soluble fiber from these sources to a reduced risk of coronary heart disease due to its ability to lower LDL cholesterol. Inulin is a soluble fiber (fructan) often used as a prebiotic. Lignans are phytoestrogens found in flaxseed. Anthocyanins are flavonoid pigments found in berries."
+    },
+    {
+        "id": "dom1-fs-006",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "When cooking green vegetables like broccoli, boiling them in acidic water (or adding lemon juice) turns the vegetables an olive-green drab color. What is the chemical reaction causing this color change?",
+        "options": [
+            "Chlorophyll is converted to pheophytin",
+            "Chlorophyll is converted to chlorophyllin",
+            "Anthoxanthins are oxidized to flavones",
+            "Carotenoids undergo isomerization"
+        ],
+        "correctIndex": 0,
+        "explanation": "When vegetables containing chlorophyll are heated in an acidic environment, the central magnesium ion in the chlorophyll porphyrin ring is replaced by hydrogen ions. This forms pheophytin, which is olive-green or dull brown in color. Conversely, in an alkaline environment (adding baking soda), chlorophyll forms chlorophyllin, which is bright, intense green (but makes the vegetable mushy). Carotenoids are very stable and generally unaffected by pH changes. Anthoxanthins are white pigments."
+    },
+    {
+        "id": "dom1-fs-007",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "A dietitian is developing a sports drink and wants to use a sweetener that provides the highest relative sweetness per gram compared to sucrose. Which of the following non-nutritive sweeteners should be selected?",
+        "options": [
+            "Aspartame",
+            "Saccharin",
+            "Sucralose",
+            "Acesulfame potassium"
+        ],
+        "correctIndex": 2,
+        "explanation": "Sucralose is highly potent, being approximately 600 times sweeter than sucrose. Aspartame and Acesulfame potassium (Ace-K) are roughly 200 times sweeter than sucrose. Saccharin is about 300 to 400 times sweeter. Therefore, sucralose provides the highest relative sweetness per gram among the options listed."
+    },
+    {
+        "id": "dom1-fs-008",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "Retrogradation is a process that occurs in starch gels and baked goods as they cool and age, resulting in staling and weeping (syneresis). Which type of starch molecule is primarily responsible for forming the crystalline structures characteristic of retrogradation?",
+        "options": [
+            "Amylopectin",
+            "Amylose",
+            "Glycogen",
+            "Cellulose"
+        ],
+        "correctIndex": 1,
+        "explanation": "Amylose is a linear starch molecule. Its straight, unbranched chains can easily align and form hydrogen bonds with one another as a starch paste cools or ages, leading to a tight, crystalline network. This process expels water (syneresis) and causes staling (retrogradation). Amylopectin, a highly branched starch molecule, does not retrograde as severely because its branches prevent it from packing tightly together. Waxy starches, which are nearly 100% amylopectin, are often used in commercial frozen foods to prevent retrogradation."
+    },
+    {
+        "id": "dom1-fs-009",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "The Maillard reaction is responsible for the browning and flavor development in foods like baked bread, roasted coffee, and seared meat. This non-enzymatic browning reaction occurs between a reducing sugar and:",
+        "options": [
+            "An amino acid",
+            "A fatty acid",
+            "Oxygen",
+            "Polyphenol oxidase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The Maillard reaction is a complex chemical reaction between a reducing sugar (such as glucose, fructose, or lactose) and an amino acid (specifically the free amino group of proteins). This reaction occurs rapidly at elevated temperatures in dry environments. Browning in sliced apples or potatoes is enzymatic browning, catalyzed by the enzyme polyphenol oxidase in the presence of oxygen. Caramelization involves the thermal degradation of sugars without the presence of amino acids."
+    },
+    {
+        "id": "dom1-fs-010",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "When assessing the quality of meat, the designation 'USDA Prime' indicates the highest grade. Which factor is the primary determinant in assigning quality grades to beef?",
+        "options": [
+            "The amount of connective tissue and collagen",
+            "The color of the lean meat",
+            "The degree of marbling and maturity of the animal",
+            "The yield of usable meat from the carcass"
+        ],
+        "correctIndex": 2,
+        "explanation": "USDA quality grades for beef (Prime, Choice, Select, etc.) are based primarily on two factors: the degree of marbling (intramuscular fat within the lean part of the meat) and the maturity (age) of the animal at the time of slaughter. Higher marbling and younger maturity generally indicate more tender, juicy, and flavorful meat. Yield grading is a separate grading system that rates the proportion of usable meat (cutability) relative to fat and bone (yield grades 1-5), but does not determine quality grades like Prime."
+    },
+    {
+        "id": "dom2-dm-001",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "medium",
+        "text": "A Registered Dietitian is evaluating a 55-year-old male with Type 2 Diabetes who consistently consumes a diet high in refined carbohydrates and sugary beverages. His current HbA1c is 8.5%. Which of the following is the most appropriately written PES statement?",
+        "options": [
+            "Altered nutrition-related laboratory values related to Type 2 Diabetes as evidenced by HbA1c of 8.5%.",
+            "Excessive carbohydrate intake related to frequent consumption of sugary beverages and refined grains as evidenced by dietary recall AND HbA1c of 8.5%.",
+            "High blood sugar related to poor diet choices as evidenced by patient consuming daily sugary beverages.",
+            "Type 2 Diabetes related to excess weight and high carbohydrate intake as evidenced by HbA1c of 8.5%."
+        ],
+        "correctIndex": 1,
+        "explanation": "A PES statement must include the Problem (diagnostic label), Etiology (root cause the RD can address), and Signs/Symptoms (data proving the problem). 'Excessive carbohydrate intake' is an appropriate intake-domain problem. The etiology (frequent consumption of sugary beverages) is behavioral and can be targeted through nutrition intervention. The signs/symptoms include both dietary history and clinical lab data (HbA1c). Medical diagnoses (like Type 2 Diabetes) should not be used as the Problem or the Etiology if possible, because RDs do not cure diabetes; they treat the nutritional problem causing or exacerbating the diabetes."
+    },
+    {
+        "id": "dom2-dm-002",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring and Evaluation",
+        "difficulty": "hard",
+        "text": "A patient with newly diagnosed celiac disease was counseled on a strict gluten-free diet 3 months ago. During the follow-up visit, the patient reports adherence, but their symptoms (diarrhea and bloating) persist. Which laboratory value should the dietitian monitor to best evaluate compliance to the gluten-free diet?",
+        "options": [
+            "C-reactive protein (CRP)",
+            "Tissue transglutaminase (tTG-IgA) antibodies",
+            "Serum ferritin",
+            "Fecal fat analysis"
+        ],
+        "correctIndex": 1,
+        "explanation": "Tissue transglutaminase (tTG-IgA) antibodies are the most sensitive and specific serologic markers for celiac disease. When a patient adheres to a strict gluten-free diet, tTG-IgA levels should decrease significantly over time (often normalizing within 6-12 months). Persistent or rising levels indicate continued gluten exposure, whether intentional or accidental (cross-contamination). CRP is a generalized marker of inflammation. Ferritin assesses iron stores. Fecal fat tests for malabsorption but does not specifically pinpoint gluten ingestion."
+    },
+    {
+        "id": "dom2-dm-003",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "A clinical dietitian is reviewing the chart of a 72-year-old female admitted with a pressure injury (Stage III). She has lost 10% of her body weight over the past 3 months and her intake is <50% of estimated needs. Which domain of the Nutrition Diagnostic Terminology should the RD prioritize when formulating the PES statement?",
+        "options": [
+            "Clinical",
+            "Intake",
+            "Behavioral-Environmental",
+            "Medical"
+        ],
+        "correctIndex": 1,
+        "explanation": "When evaluating potential nutrition diagnoses, the Academy of Nutrition and Dietetics guidelines emphasize prioritizing the Intake domain over the Clinical or Behavioral-Environmental domains. Intake problems are generally more specific to the role of the dietitian and direct the intervention specifically toward modifying food/nutrient delivery (e.g., Inadequate energy intake). If an Intake diagnosis exists, it should be the primary diagnosis. Medical is not a domain in the standardized terminology."
+    },
+    {
+        "id": "dom2-dm-004",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring and Evaluation",
+        "difficulty": "medium",
+        "text": "An RD is monitoring a patient on long-term total parenteral nutrition (TPN). The RD notes a sudden spike in the patient's blood glucose levels (250 mg/dL) after previously being stable at 110 mg/dL on the same TPN formula. Which of the following complications should the RD suspect first?",
+        "options": [
+            "Essential fatty acid deficiency",
+            "Refeeding syndrome",
+            "Catheter-related systemic infection/sepsis",
+            "Excessive dextrose infusion rate"
+        ],
+        "correctIndex": 2,
+        "explanation": "A sudden, unexplained spike in blood glucose levels in a patient previously stable on a consistent TPN regimen is a hallmark clinical sign of systemic infection or sepsis (often originating from the central venous catheter). The stress response to infection causes insulin resistance and increased hepatic gluconeogenesis. Refeeding syndrome typically causes hypophosphatemia, hypokalemia, and hypomagnesemia early in the feeding process. An excessive dextrose infusion rate would have caused hyperglycemia earlier in the therapy, not suddenly when stable."
+    },
+    {
+        "id": "dom2-dm-005",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "A patient arrives at an outpatient clinic for weight management counseling. The dietitian notes: BMI 34, patient expresses a desire to lose weight but states, 'I just don't know how to cook healthy meals and eat fast food for lunch every day.' What is the most appropriate 'Etiology' (root cause) for the PES statement: 'Excessive energy intake...'?",
+        "options": [
+            "Related to BMI of 34",
+            "Related to undesirable food choices",
+            "Related to food- and nutrition-related knowledge deficit",
+            "Related to limited access to healthy foods"
+        ],
+        "correctIndex": 2,
+        "explanation": "The etiology reveals the root cause of the problem and tells the dietitian what the intervention should target. The patient explicitly states, 'I just don't know how to cook healthy meals.' This points directly to a 'food- and nutrition-related knowledge deficit' and a potential deficit in food preparation skills. The RD's intervention will include education and skill-building on cooking and meal prep. BMI is a sign/symptom, not an etiology. Undesirable food choices is a problem or sign, not the root cause. Lack of access is not indicated here (just a lack of knowledge/skills)."
+    },
+    {
+        "id": "dom2-dm-006",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring and Evaluation",
+        "difficulty": "medium",
+        "text": "Which of the following scenarios best demonstrates appropriate Nutrition Monitoring and Evaluation following a diagnosis of 'Inadequate Iron Intake'?",
+        "options": [
+            "Educating the patient on dietary sources of heme and non-heme iron.",
+            "Reviewing the patient's hemoglobin and hematocrit lab values at a 3-month follow-up visit.",
+            "Recommending an over-the-counter ferrous sulfate supplement 325mg daily.",
+            "Diagnosing the patient with iron-deficiency anemia."
+        ],
+        "correctIndex": 1,
+        "explanation": "Monitoring and Evaluation involves selecting appropriate indicators to measure the amount of progress made for the nutrition diagnosis. Reviewing specific lab values (hemoglobin/hematocrit) at a follow-up visit is an evaluation of the outcome to see if the problem (inadequate iron status) is resolving. Educating the patient and recommending supplements are Nutrition Interventions. Diagnosing anemia is an assessment/medical diagnosis step."
+    },
+    {
+        "id": "dom2-dm-007",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "Evaluate the following PES statement for a resident in long-term care: 'Swallowing difficulty related to stroke as evidenced by coughing and choking during meals, and SLP recommendation for pureed diet.' What is the primary flaw in this PES statement?",
+        "options": [
+            "The problem 'Swallowing difficulty' is not an approved standardized diagnostic term.",
+            "The etiology 'stroke' is a medical diagnosis, which the dietitian cannot alter via a nutrition intervention.",
+            "The signs and symptoms are subjective and cannot be objectively measured.",
+            "It lacks a secondary intake domain problem."
+        ],
+        "correctIndex": 1,
+        "explanation": "The etiology in a PES statement should ideally be something that the dietetic professional can resolve or mitigate through a nutrition intervention. A dietitian cannot cure or reverse a 'stroke' (a medical diagnosis). A better etiology would be 'related to neurological impairment causing oropharyngeal dysphagia.' While 'swallowing difficulty' is listed in the clinical domain (NC-1.1), the fundamental error according to PES writing guidelines is utilizing an immutable medical diagnosis as the root etiology."
+    },
+    {
+        "id": "dom2-dm-008",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring and Evaluation",
+        "difficulty": "medium",
+        "text": "A dietitian is monitoring an oncology patient receiving cyclic parenteral nutrition. Which set of lab values is most critical to monitor for the prevention and early detection of refeeding syndrome when PN is initiated?",
+        "options": [
+            "Sodium, Calcium, BUN",
+            "Potassium, Phosphorus, Magnesium",
+            "Triglycerides, Cholesterol, AST",
+            "Prealbumin, Transferrin, CRP"
+        ],
+        "correctIndex": 1,
+        "explanation": "Refeeding syndrome occurs when severe undernourished patients are fed via enteral or parenteral routes, causing an insulin surge. Insulin drives glucose, potassium, phosphorus, and magnesium rapidly into the cells, leading to profound and potentially fatal serum hypokalemia, hypophosphatemia, and hypomagnesemia. Therefore, Potassium, Phosphorus, and Magnesium must be closely monitored and aggressively repleted during the initiation of feeding."
+    },
+    {
+        "id": "dom2-dm-009",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring and Evaluation",
+        "difficulty": "hard",
+        "text": "When writing goal statements during the Monitoring and Evaluation step, an RD should ensure goals are SMART. A patient with a diagnosis of 'Inadequate fluid intake' sets a goal to 'Drink more water.' How should the RD revise this goal to meet SMART criteria?",
+        "options": [
+            "Consume enough fluid to eliminate signs of physical dehydration.",
+            "Drink eight 8-ounce glasses of water every day.",
+            "Consume 64 ounces of water daily by replacing soda at lunch and dinner with 16 ounces of water over the next 2 weeks.",
+            "Hydrate frequently throughout the day to meet estimated daily fluid requirements of 2000 mL."
+        ],
+        "correctIndex": 2,
+        "explanation": "SMART goals must be Specific, Measurable, Attainable, Realistic, and Time-bound. 'Consume 64 ounces of water daily by replacing soda at lunch and dinner with 16 ounces of water over the next 2 weeks' meets all criteria. It states exactly what will happen (64 oz), how it will happen (replacing soda), and specifies a timeframe (2 weeks). The other options lack either specific measurable quantities, a designated timeframe, or actionable steps."
+    },
+    {
+        "id": "dom2-dm-010",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "medium",
+        "text": "A patient with suspected lactose intolerance presents with symptoms of cramping, flatulence, and diarrhea post-dairy ingestion. The nutrition diagnosis is 'Altered GI function.' Which piece of data serves as the best 'Sign/Symptom' (evidenced by) component of the PES statement?",
+        "options": [
+            "Lack of lactase enzyme production in the brush border.",
+            "Recent antibiotic usage disrupting the gut microbiome.",
+            "Patient report of cramping, flatulence, and watery diarrhea within 1 hour of consuming dairy.",
+            "Recommendation for a lactose-free diet."
+        ],
+        "correctIndex": 2,
+        "explanation": "The 'Signs and Symptoms' (S) in a PES statement are the defining characteristics or the data utilized to confirm that the specific problem exists. The patient's subjective report of physical gastrointestinal symptoms (cramping, flatulence, diarrhea) following dairy intake serves as the clinical evidence for the 'Altered GI function' problem. Lack of lactase is an etiology. Recommendation for a diet is an intervention."
+    },
+    {
+        "id": "dom3-fq-001",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "hard",
+        "text": "A hospital cafeteria wants to introduce a new gourmet sandwich station. The fixed costs associated with the new station (equipment lease, signage) are $5,000 per month. The sandwiches will sell for $8.00 each, and the variable cost (ingredients, packaging) per sandwich is $3.00. How many sandwiches must the cafeteria sell per month to break even?",
+        "options": [
+            "625 sandwiches",
+            "1,000 sandwiches",
+            "1,667 sandwiches",
+            "2,500 sandwiches"
+        ],
+        "correctIndex": 1,
+        "explanation": "The formula for the break-even point in units is: Fixed Costs / (Selling Price - Variable Cost per Unit). Selling Price - Variable Cost = Contribution Margin ($8.00 - $3.00 = $5.00). Break-even point = $5,000 / $5.00 = 1,000 sandwiches. Selling 1,000 sandwiches will cover exactly all fixed and variable costs."
+    },
+    {
+        "id": "dom3-fq-002",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "medium",
+        "text": "Which financial document provides a static snapshot of an organization's financial condition at a specific point in time, detailing its assets, liabilities, and equity?",
+        "options": [
+            "Income statement (Profit and Loss)",
+            "Cash flow statement",
+            "Balance sheet",
+            "Operating budget"
+        ],
+        "correctIndex": 2,
+        "explanation": "A balance sheet is a snapshot of financial health on a given specific date (e.g., 'As of December 31'). It adheres to the accounting equation: Assets = Liabilities + Equity. An income statement (P&L) covers a period of time (e.g., a month or year) and shows revenue, expenses, and profit over that period. The cash flow statement tracks the movement of cash in and out. The operating budget is a planned projection of revenues and expenses."
+    },
+    {
+        "id": "dom3-fq-003",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality",
+        "difficulty": "hard",
+        "text": "A clinical nutrition manager conducts a retrospective chart review to assess if 90% of newly admitted patients with high nutrition risk were assessed by an RD within 24 hours. The results show only 75% adherence. Using the continuous quality improvement (CQI) model PDCA (Plan-Do-Check-Act), what is the next logical step?",
+        "options": [
+            "Act: Punish staff who failed to meet the 24-hour deadline.",
+            "Plan: Investigate the root causes of the delay and develop a new strategy to improve assessment times.",
+            "Do: Immediately change the deadline from 24 hours to 48 hours to ensure 100% compliance.",
+            "Check: Audit the charts again next month before taking any actions."
+        ],
+        "correctIndex": 1,
+        "explanation": "In the PDCA cycle, the manager has completed the 'Check' phase by auditing the data and comparing it against the benchmark (90% desired vs 75% actual). The next logical loop begins with 'Plan': investigating why the goal was not met (e.g., staffing issues, faulty notification systems) and developing a plan to address those root causes. Action must be based on data and process improvement, not punitive measures (a core tenet of TQM/CQI). Lowering standards to meet compliance defeats the purpose of quality improvement."
+    },
+    {
+        "id": "dom3-fq-004",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "medium",
+        "text": "A foodservice operation has total monthly sales of $50,000. Food costs are $15,000, and labor costs are $20,000. Overhead and operational expenses are $10,000. What is the food cost percentage for the month?",
+        "options": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+        ],
+        "correctIndex": 1,
+        "explanation": "Food Cost Percentage is calculated by dividing total food costs by total sales. Food Cost ($15,000) / Sales ($50,000) = 0.30 or 30%. Labor costs and operational overhead are irrelevant to the specific calculation of Food Cost Percentage, though they are needed to calculate total profit margin."
+    },
+    {
+        "id": "dom3-fq-005",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "hard",
+        "text": "Which type of budget uses the existing budget as a base and strictly projects financial changes for the ensuing year based on inflation and projected changes in volume, rather than justifying every expense from scratch?",
+        "options": [
+            "Zero-based budget",
+            "Incremental budget",
+            "Flexible budget",
+            "Capital budget"
+        ],
+        "correctIndex": 1,
+        "explanation": "An incremental budget (also known as a traditional or baseline budget) takes the previous period's budget or actual performance as a baseline and merely adjusts it incrementally for factors like inflation or expected slight volume changes. A zero-based budget requires justifying every expense starting from $0. A flexible budget adjusts to various levels of volume or activity. A capital budget is for large, long-term investments (like major equipment)."
+    },
+    {
+        "id": "dom3-fq-006",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality",
+        "difficulty": "medium",
+        "text": "The Joint Commission (TJC) requires hospitals to adhere to National Patient Safety Goals. When a dietitian enters patient room to provide dietary education, what is the required protocol for identifying the patient?",
+        "options": [
+            "Check the patient's room number and bed letter.",
+            "Ask the patient if they are \"Mr. Smith.\"",
+            "Use at least two patient identifiers, such as name and date of birth.",
+            "Verify the dietary tray ticket matches the medical record."
+        ],
+        "correctIndex": 2,
+        "explanation": "The Joint Commission strictly requires the use of at least two independent patient identifiers whenever administering medications, blood products, or providing treatments/procedures (including diet instruction). Acceptable identifiers usually include the patient's full name and date of birth or medical record number. Room number or bed assignment is explicitly prohibited as an identifier because patients can be moved. Prompting a patient with a name ('Are you Mr. Smith?') is dangerous if patients are confused or hard of hearing."
+    },
+    {
+        "id": "dom3-fq-007",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality",
+        "difficulty": "hard",
+        "text": "A clinical nutrition team implements a new malnutrition screening tool to improve diagnostic rates. To evaluate whether the new tool leads to sustained improvements, the manager uses a run chart graphing malnutrition diagnosis rates over 12 months. This approach to quality management aligns most closely with which philosophy?",
+        "options": [
+            "Six Sigma",
+            "Total Quality Management (TQM)",
+            "Management by Objectives (MBO)",
+            "Lean Production"
+        ],
+        "correctIndex": 1,
+        "explanation": "Total Quality Management (TQM) and Continuous Quality Improvement (CQI) focus on continuous evaluation of processes and data-driven analysis using statistical tools like run charts, control charts, and Pareto charts over time to monitor and improve systems. Six Sigma focuses specifically on extreme reduction of defects (using the DMAIC framework). Lean focuses heavily on eliminating structural waste. MBO is a performance appraisal system setting supervisor/employee goals, not statistically tracking system processes."
+    },
+    {
+        "id": "dom3-fq-008",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "medium",
+        "text": "A clinical dietitian manager is calculating full-time equivalents (FTEs) to determine staffing needs. The department requires 240 hours of straight work per week to cover all clinical duties. Assuming a standard 40-hour workweek per FTE, but accounting for a standard relief factor of 1.55 (to cover weekends/holidays), how many total FTEs are required?",
+        "options": [
+            "6.0 FTEs",
+            "8.5 FTEs",
+            "9.3 FTEs",
+            "12.1 FTEs"
+        ],
+        "correctIndex": 2,
+        "explanation": "First, find the absolute or base FTEs needed: 240 hours / 40 hours per week = 6.0 absolute FTEs. In operations running 7 days a week (like clinical coverage), you must determine adjusted FTEs by multiplying the absolute FTEs by the relief factor. 6.0 FTEs × 1.55 = 9.3 total FTEs required to ensure constant daily coverage factoring in time off."
+    },
+    {
+        "id": "dom3-fq-009",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "hard",
+        "text": "To increase profitability without changing the menu price, a foodservice manager instructs the cooks to slightly decrease the portion sizes of expensive protein items from 4 oz to 3.5 oz. This tactic aims to manipulate which financial metric?",
+        "options": [
+            "The prime cost",
+            "The food cost percentage",
+            "The fixed margin",
+            "The inventory turnover rate"
+        ],
+        "correctIndex": 1,
+        "explanation": "Decreasing portion sizes reduces the absolute cost of ingredients required to produce one menu item. Assuming the selling price remains the same, the lower raw food cost will directly drive down the food cost percentage (Food Cost / Sales). Prime cost is food + labor, and while food cost is part of it, 'food cost percentage' is the specific term used to define raw ingredient margins relative to sales. Fixed costs don't change based on portion sizes. Inventory turnover is related to how fast items sit in storage."
+    },
+    {
+        "id": "dom3-fq-010",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality",
+        "difficulty": "medium",
+        "text": "In systems theory regarding quality management, measuring the percentage of trays delivered accurately and at the correct temperature represents an evaluation of the system's:",
+        "options": [
+            "Inputs",
+            "Transformation",
+            "Outputs",
+            "Control"
+        ],
+        "correctIndex": 2,
+        "explanation": "In a systems model, 'Inputs' are resources (raw food, labor, money). 'Transformation' represents the processes that change inputs to outputs (cooking, assembling). 'Outputs' are the final products and services delivered to the customer, as well as outcomes like customer satisfaction, tray accuracy, and financial accountability. Evaluating tray accuracy evaluates the end output of the operation. 'Control' involves regulations, laws, and internal policies guiding the system."
+    },
+    {
+        "id": "dom1-ext-001",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "hard",
+        "text": "A patient with chronic alcoholism presents with Wernicke-Korsakoff syndrome, characterized by confusion, ataxia, and ophthalmoplegia. Before administering intravenous glucose, which vitamin must be given immediately and why?",
+        "options": [
+            "Vitamin B12, because alcohol inhibits intrinsic factor secretion.",
+            "Folate, to prevent macrocytic anemia and irreversible neurological damage.",
+            "Thiamin, because glucose metabolism requires it as a coenzyme, and a deficiency can precipitate irreversible brain damage.",
+            "Niacin, to prevent pellagra-like dermatological symptoms."
+        ],
+        "correctIndex": 2,
+        "explanation": "Thiamin (Vitamin B1) is an essential coenzyme in carbohydrate metabolism (specifically in the conversion of pyruvate to acetyl-CoA). In patients with severe alcohol abuse disorder, thiamin stores are often depleted. Administering a glucose load without providing thiamin first forces the remaining thiamin to be rapidly consumed to metabolize the glucose, which can acutely precipitate or worsen the irreversible neurological damage of Wernicke-Korsakoff syndrome."
+    },
+    {
+        "id": "dom1-ext-002",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research",
+        "difficulty": "hard",
+        "text": "A researcher conducts a randomized controlled trial analyzing the effect of a high-protein diet on lean muscle mass retention in older adults. The statistical analysis reveals a p-value of 0.04. Which of the following is the most accurate interpretation of this finding?",
+        "options": [
+            "There is a 4% probability that the study's results are completely inaccurate.",
+            "There is a 96% probability that the high-protein diet successfully retained lean muscle mass.",
+            "The result is statistically significant, meaning there is only a 4% probability that the observed difference occurred by chance.",
+            "The intervention caused a 4% increase in lean muscle mass among the treatment group."
+        ],
+        "correctIndex": 2,
+        "explanation": "The p-value represents the probability of obtaining the observed results (or more extreme results) if the null hypothesis is true (i.e., if there was actually no difference between the groups). A p-value of 0.04 (which is less than the standard significance level of 0.05) indicates the result is statistically significant. It means there is only a 4% chance that the difference observed between the control and treatment groups occurred purely by random chance."
+    },
+    {
+        "id": "dom1-ext-003",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "medium",
+        "text": "During fasting, the body initially relies on glycogen stores for energy. Once hepatic glycogen is depleted (usually after 12-24 hours), the body primarily maintains blood glucose levels through which metabolic pathway?",
+        "options": [
+            "Glycolysis in the skeletal muscles",
+            "Gluconeogenesis in the liver",
+            "Ketogenesis in the liver",
+            "Lipolysis in the adipose tissue"
+        ],
+        "correctIndex": 1,
+        "explanation": "Gluconeogenesis is the synthesis of glucose from non-carbohydrate sources (such as glucogenic amino acids from muscle protein, lactate, and the glycerol backbone of triglycerides). When hepatic glycogen is exhausted, the liver accelerates gluconeogenesis to supply the brain and red blood cells with the necessary glucose. While ketogenesis and lipolysis also ramp up to provide alternative fuel sources (ketones and free fatty acids) for other tissues, gluconeogenesis specifically maintains the critical blood glucose levels."
+    },
+    {
+        "id": "dom1-ext-004",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education & Counseling",
+        "difficulty": "medium",
+        "text": "A dietitian is counseling a 40-year-old female who was recently diagnosed with celiac disease. The patient says, 'I know I need to stop eating gluten, but I just love my morning bagels and I don't think I can give them up yet.' Based on the Transtheoretical Model, which stage of change is this patient in, and what is the best counseling strategy?",
+        "options": [
+            "Precontemplation; focus on raising awareness of the health risks of continued gluten intake.",
+            "Contemplation; explore the pros and cons of quitting gluten to resolve her ambivalence.",
+            "Preparation; help her identify gluten-free bagel alternatives in her local grocery store.",
+            "Action; praise her for recognizing the problem and set a start date for the diet."
+        ],
+        "correctIndex": 1,
+        "explanation": "The patient is in the Contemplation stage. She is aware of the problem ('I know I need to stop') but is ambivalent and not yet ready to commit to action ('I don't think I can give them up yet'). The most effective counseling strategy at this stage is to explore ambivalence using motivational interviewing techniques, such as weighing the pros and cons (Decisional Balance) of adopting the gluten-free diet. Precontemplation would mean she is unaware or denies the problem. Preparation would imply she is taking small steps (e.g., buying GF products) to start the diet within the next 30 days."
+    },
+    {
+        "id": "dom1-ext-005",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "Which property of fats allows them to exhibit polymorphism (existing in different crystalline forms), and why is this critical in the manufacturing of chocolate?",
+        "options": [
+            "Saponification; it prevents the cocoa butter from becoming overly basic and developing a soapy flavor.",
+            "Hydrogenation; it stabilizes liquid cocoa butter into a solid state at room temperature.",
+            "The varying chain lengths and saturation of fatty acids; proper tempering ensures cocoa butter crystallizes into the stable Beta (Form V) crystals, providing the desired snap and preventing bloom.",
+            "Winterization; it removes large triglycerides so the chocolate remains glossy and does not cloud when refrigerated."
+        ],
+        "correctIndex": 2,
+        "explanation": "Polymorphism refers to the ability of solid fats (specifically the triglycerides in cocoa butter) to crystallize into several different structural forms (alpha, beta prime, intermediate, beta, etc.). The varying chain lengths and degree of saturation of the fatty acids on the glycerol backbone cause this. In chocolate manufacturing, proper 'tempering' is the process of heating and cooling the chocolate to precisely control which crystal forms. The goal is to force the cocoa butter to solidify into the highly stable 'Beta' (Form V) crystals. This form gives premium chocolate its characteristic glossy appearance, firm 'snap' when broken, smooth mouthfeel, and resistance to fat 'bloom' (where unstable crystals migrate to the surface creating white streaks)."
+    },
+    {
+        "id": "dom1-ext-006",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "hard",
+        "text": "A vegan patient presents with fatigue, paresthesia in the lower extremities, and an elevated Mean Corpuscular Volume (MCV) of 105 fL. The dietitian suspects a nutrient deficiency. Given the patient's diet and symptoms, supplementing which nutrient could potentially mask the underlying neurological damage if administered solely as a monotherapy?",
+        "options": [
+            "Iron",
+            "Folate",
+            "Vitamin B6",
+            "Thiamin"
+        ],
+        "correctIndex": 1,
+        "explanation": "The patient's symptoms (fatigue, paresthesia) and high MCV (macrocytic anemia) are classic signs of Vitamin B12 deficiency, which is common in strict vegans who do not supplement. Both Vitamin B12 and folate deficiencies cause macrocytic anemia. High doses of supplemental folate can 'cure' or mask the macrocytic anemia caused by a B12 deficiency (normalizing the MCV and resolving the fatigue). However, folate cannot fix the neurological damage (paresthesia) caused by the lack of B12. Without the warning sign of anemia, the neurological damage will silently progress and may become permanent if the actual B12 deficiency is not treated."
+    },
+    {
+        "id": "dom1-ext-007",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research",
+        "difficulty": "medium",
+        "text": "A registered dietitian reads a meta-analysis concluding that a specific omega-3 supplement reduces fasting triglycerides. The study reports a relative risk (RR) of 0.65 with a 95% Confidence Interval (CI) of [0.45, 0.88]. How should the dietitian interpret this CI?",
+        "options": [
+            "The supplement is ineffective because the CI spans a wide range.",
+            "The supplement is effective because the entire CI is less than 1.0, indicating the results are statistically significant.",
+            "The supplement is ineffective because the CI does not cross 1.0.",
+            "The supplement's true effect is precisely 0.65 in 95% of the population."
+        ],
+        "correctIndex": 1,
+        "explanation": "When interpreting Confidence Intervals for Relative Risk (RR) or Odds Ratios (OR), a value of 1.0 represents 'no difference' between the groups. If the entire 95% CI interval is strictly less than 1.0 (or strictly greater than 1.0), it means the result is statistically significant and the effect is real. In this case, [0.45, 0.88] does not include 1.0, meaning we can be 95% confident that the true relative risk lies between a 55% reduction (1 - 0.45) and a 12% reduction (1 - 0.88). If the CI had been [0.85, 1.20] (crossing 1.0), the results would NOT be statistically significant."
+    },
+    {
+        "id": "dom1-ext-008",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "medium",
+        "text": "Which hormone, produced primarily by the stomach, stimulates appetite and promotes adiposity?",
+        "options": [
+            "Leptin",
+            "Gastrin",
+            "Ghrelin",
+            "Cholecystokinin (CCK)"
+        ],
+        "correctIndex": 2,
+        "explanation": "Ghrelin is the quintessential 'hunger hormone.' It is secreted primarily by the endocrine cells of the stomach, especially when empty, and acts on the hypothalamus to stimulate appetite, increase food intake, and promote fat storage. Its levels peak just before meals. Leptin, produced by adipose tissue, does the opposite (signals satiety). Gastrin stimulates stomach acid secretion. CCK, secreted by the small intestine, stimulates gallbladder contraction and pancreatic enzyme release, while also signaling satiety."
+    },
+    {
+        "id": "dom1-ext-009",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education & Counseling",
+        "difficulty": "hard",
+        "text": "During a counseling session, a client with hypertension states: 'I really don't want to give up salt. My food tastes like cardboard without it. But I also know my blood pressure is dangerously high, and my dad died of a stroke at my age.' According to Motivational Interviewing principles, the dietitian should respond by emphasizing which of the following?",
+        "options": [
+            "The client's change talk, by reflecting on their fear of having a stroke like their father.",
+            "The client's sustain talk, by validating that food without salt does indeed taste bad.",
+            "The medical data, by pulling up a chart showing the direct correlation between sodium intake and stroke risk.",
+            "The 'righting reflex', by immediately providing practical tips and recipes for salt-free cooking."
+        ],
+        "correctIndex": 0,
+        "explanation": "In Motivational Interviewing (MI), the client is exhibiting 'ambivalence,' expressing both reasons to stay the same (sustain talk: food tastes bad) and reasons to change (change talk: BP is high, fear of stroke). A core principle of MI is to recognize and amplify the client's 'change talk.' Reflecting on their fear of a stroke encourages the client to explore their internal motivations for health. Validating sustain talk is okay for rapport, but shouldn't be the primary emphasis if change talk is present. Suppressing the 'righting reflex' (the practitioner's urge to immediately fix the problem or argue for change) is essential in MI, so providing recipes or lecturing with data right away is counterproductive."
+    },
+    {
+        "id": "dom1-ext-010",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "Which of the following describes the function of sodium hexametaphosphate in processed food applications?",
+        "options": [
+            "It acts as an antimicrobial agent against yeasts and molds in acidic beverages.",
+            "It acts as an emulsifier to blend oil and water in salad dressings.",
+            "It acts as a sequestrant that binds metallic ions, preventing oxidative rancidity and color changes.",
+            "It acts as a humectant to retain moisture in soft baked goods."
+        ],
+        "correctIndex": 2,
+        "explanation": "Sodium hexametaphosphate (SHMP) is primarily utilized as a sequestrant (chelating agent). Sequestrants bind to free trace metallic ions (like copper or iron) present in food. If left free, these metal ions can act as catalysts for lipid oxidation (rancidity) and undesirable color or flavor changes. By trapping the metals, SHMP stabilizes the food product. Antioxidants like BHA or BHT stop oxidation chemically, but sequestrants work by removing the catalyst. Emulsifiers (like lecithin) blend fats and water. Humectants (like sorbitol) hold moisture."
+    },
+    {
+        "id": "dom1-ext-011",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research",
+        "difficulty": "hard",
+        "text": "A study is designed to assess whether drinking green tea prevents the onset of cardiovascular disease. The researchers identify a group of 10,000 healthy adults, survey their current green tea consumption habits, and then track them over the next 15 years to see who develops cardiovascular disease. What type of study design is this?",
+        "options": [
+            "Retrospective cohort study",
+            "Prospective cohort study",
+            "Case-control study",
+            "Cross-sectional study"
+        ],
+        "correctIndex": 1,
+        "explanation": "This is a prospective cohort study. The defining characteristics are: a large group of healthy individuals (a cohort) is identified *before* disease onset, their exposures (green tea consumption) are classified at baseline, and then the researchers follow them *forward in time* (prospectively) to observe the incidence/development of the disease (CVD). A retrospective cohort looks back at historical data. A case-control study identifies people who *already* have the disease (cases) and compares them to people without it (controls) to look backward for exposures. A cross-sectional study looks at exposure and disease at a single point in time (like a snapshot)."
+    },
+    {
+        "id": "dom1-ext-012",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "medium",
+        "text": "What is the primary role of the hormone parathyroid hormone (PTH) in calcium homeostasis?",
+        "options": [
+            "It lowers serum calcium by stimulating osteoblast activity and bone formation.",
+            "It increases serum calcium by stimulating osteoclast activity and enhancing renal reabsorption of calcium.",
+            "It decreases intestinal absorption of calcium by inhibiting the synthesis of active Vitamin D.",
+            "It acts directly on the thyroid gland to trigger the release of calcitonin."
+        ],
+        "correctIndex": 1,
+        "explanation": "The parathyroid gland secretes parathyroid hormone (PTH) when blood calcium levels drop too low. PTH works to *raise* serum calcium levels through three main mechanisms: 1) It stimulates osteoclasts to break down bone matrix, releasing calcium into the blood. 2) It increases the reabsorption of calcium in the kidneys. 3) It stimulates the kidneys to convert Vitamin D to its active form (calcitriol), which in turn greatly increases calcium absorption in the intestines. Calcitonin (produced by the thyroid) does the opposite; it lowers high serum calcium levels by inhibiting osteoclasts."
+    },
+    {
+        "id": "dom1-ext-013",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education & Counseling",
+        "difficulty": "medium",
+        "text": "Which learning theory emphasizes that learning is mediated by social interactions and cultural context, and that a learner's potential is maximized when guided by someone with more knowledge within their 'Zone of Proximal Development'?",
+        "options": [
+            "Cognitive Behavioral Theory",
+            "Social Learning Theory (Bandura)",
+            "Constructivism/Sociocultural Theory (Vygotsky)",
+            "Behaviorism (Skinner)"
+        ],
+        "correctIndex": 2,
+        "explanation": "Lev Vygotsky's Sociocultural Theory of constructivism posits that learning is fundamentally a social process. The 'Zone of Proximal Development' (ZPD) is a core concept of this theory: it represents the difference between what a learner can do without help and what they can achieve with guidance from a skilled partner (scaffolding). Bandura's Social Learning theory focuses on modeling and observational learning. Cognitive Behavioral Theory focuses on altering underlying thoughts to change behaviors. Behaviorism relies on operant conditioning (rewards/punishments)."
+    },
+    {
+        "id": "dom1-ext-014",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "When making a gelatin dessert, a chef notes that the gelatin fails to set correctly when she adds fresh pineapple chunks to the mixture. What is the biochemical reason for this failure?",
+        "options": [
+            "The high acidity of the pineapple denatures the gelatin proteins, preventing cross-linking.",
+            "Fresh pineapple contains bromelain, a proteolytic enzyme that breaks down the gelatin protein matrix.",
+            "The high sugar content of the pineapple competes with gelatin for available water molecules.",
+            "Pineapple contains tannins that precipitate the gelatin out of solution before it can set."
+        ],
+        "correctIndex": 1,
+        "explanation": "Gelatin is a protein derived from collagen. Fresh pineapple contains large amounts of bromelain, a highly active protease (proteolytic enzyme). When raw pineapple is added to a gelatin mixture, the bromelain actively digests and breaks the peptide bonds in the long gelatin protein chains into smaller fragments. Because the long protein strands are destroyed, they can no longer form the expansive 3D matrix/mesh required to trap water and 'set' into a gel. Canned pineapple does not cause this issue because the canning process heats the fruit, denaturing and deactivating the bromelain."
+    },
+    {
+        "id": "dom1-ext-015",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "medium",
+        "text": "Which indispensable amino acid is the direct precursor for the endogenous synthesis of niacin (Vitamin B3) and the neurotransmitter serotonin?",
+        "options": [
+            "Tyrosine",
+            "Phenylalanine",
+            "Tryptophan",
+            "Methionine"
+        ],
+        "correctIndex": 2,
+        "explanation": "Tryptophan is an essential (indispensable) amino acid that serves as a vital precursor. Approximately 60 mg of dietary tryptophan can be converted in the liver to yield 1 mg of niacin. Tryptophan is also the direct biochemical precursor in the synthesis of the neurotransmitter serotonin (which regulates mood, sleep, and appetite) and subsequently melatonin. Tyrosine (derived from Phenylalanine) is the precursor for dopamine, norepinephrine, epinephrine, and melanin."
+    },
+    {
+        "id": "dom2-ext-001",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "hard",
+        "text": "A 68-year-old male with chronic kidney disease (Stage 4) and heart failure is admitted to the hospital with severe edema. To obtain the most accurate estimate of his resting energy requirements, which anthropometric measurement strategy should the dietitian use?",
+        "options": [
+            "Use his current actual body weight to account for the total cellular mass.",
+            "Use his ideal body weight (IBW), as actual weight is obscured by fluid.",
+            "Calculate an estimated dry weight using his usual body weight prior to fluid accumulation.",
+            "Multiply his current actual weight by a stress factor of 1.2 to 1.3."
+        ],
+        "correctIndex": 2,
+        "explanation": "In patients with severe edema or ascites (common in CHF, CKD, and cirrhosis), actual body weight is artificially inflated by excess fluid, severely overestimating energy needs. Using pure Ideal Body Weight (IBW) can drastically underestimate needs if the patient is chronically overweight or malnourished. The gold standard in this scenario is to determine the patient's estimated 'dry weight.' This is usually derived from their usual body weight prior to the fluid retention, or by estimating the volume of fluid (e.g., subtracting weight for 3+ pitting edema). Calorie equations should then apply to this dry weight."
+    },
+    {
+        "id": "dom2-ext-002",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "medium",
+        "text": "A patient taking a monoamine oxidase inhibitor (MAOI) for depression must be prescribed a specific diet to avoid a potential hypertensive crisis. Which of the following foods must the dietitian instruct the patient to avoid?",
+        "options": [
+            "Aged cheeses, cured meats, and draft beer",
+            "Grapefruit and grapefruit juice",
+            "Dark green leafy vegetables and cruciferous vegetables",
+            "Dairy products and calcium-fortified orange juice"
+        ],
+        "correctIndex": 0,
+        "explanation": "MAOIs block the enzyme monoamine oxidase, which is responsible for breaking down tyramine in the body. If a patient on MAOIs consumes foods high in tyramine, tyramine builds up and causes a massive release of norepinephrine, leading to a potentially fatal hypertensive crisis. Foods rich in tyramine are those that are aged, fermented, cured, or pickled (e.g., aged cheeses, salami, pepperoni, draft beer, soy sauce). Grapefruit interacts with statins. Leafy greens interact with warfarin (Coumadin)."
+    },
+    {
+        "id": "dom2-ext-003",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "Review the following PES statement documentation: 'Altered GI function related to irritable bowel syndrome as evidenced by reports of chronic diarrhea, cramping, and unintentional weight loss of 5 lbs in one month.' What is the critical error in this PES statement?",
+        "options": [
+            "The problem 'Altered GI function' is not an approved terminology.",
+            "The signs/symptoms ('cramping', 'diarrhea') are completely subjective.",
+            "The etiology is a medical diagnosis that the dietitian cannot independently resolve.",
+            "Weight loss cannot be used as a sign/symptom for a gastrointestinal problem."
+        ],
+        "correctIndex": 2,
+        "explanation": "Just as with strokes or cancer, irritable bowel syndrome (IBS) is an unalterable medical diagnosis. The etiology (E) in a PES statement should be the specific, underlying cause of the nutrition problem that the registered dietitian can address through a direct nutrition intervention. By listing 'related to irritable bowel syndrome,' the RD implies they are going to cure the IBS. A much better, actionable etiology would be something related to diet, such as 'related to consumption of high-FODMAP foods' or 'frequent intake of known GI irritants' which directly leads to an intervention (a low-FODMAP diet trial)."
+    },
+    {
+        "id": "dom2-ext-004",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "hard",
+        "text": "A patient with cystic fibrosis presents with steatorrhea, poor weight gain, and fat-soluble vitamin deficiencies despite consuming adequate calories. The physician prescribes Pancreatic Enzyme Replacement Therapy (PERT). How should the dietitian instruct the patient to take the PERT capsules for maximum efficacy?",
+        "options": [
+            "Take the entire dose first thing in the morning on an empty stomach.",
+            "Crush the enzymes and mix them into a hot beverage like tea or hot chocolate.",
+            "Take the enzymes right before or throughout the duration of every meal and fat-containing snack.",
+            "Take the enzymes exactly two hours after a meal to aid in distal bowel absorption."
+        ],
+        "correctIndex": 2,
+        "explanation": "Cystic fibrosis causes thick mucus to block the pancreatic ducts, preventing natural digestive enzymes from reaching the small intestine and resulting in severe malabsorption (exocrine pancreatic insufficiency). PERT enzymes must be physically present in the duodenum *at the exact same time* the chyme arrives from the stomach. Therefore, they must be taken right before the first bite, or spread evenly throughout a meal and all fat-containing snacks. Heat destroys the enzymes (so no hot beverages), and taking them on an empty stomach makes them useless, as there is no food to digest."
+    },
+    {
+        "id": "dom2-ext-005",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring",
+        "difficulty": "medium",
+        "text": "A patient on continuous enteral nutrition via a nasogastric tube develops severe diarrhea. The tube feeding parameters: Isotonic formula at 60 mL/hr. Medications: liquid acetaminophen, IV antibiotics, and daily liquid potassium chloride. Which of the following is the most likely cause of the diarrhea that the dietitian should investigate first?",
+        "options": [
+            "The formula is hypertonic and is causing osmotic diarrhea.",
+            "The infusion rate of 60 mL/hr is too high for starting tolerance.",
+            "The liquid medications often contain high amounts of sorbitol or have very high osmolalities.",
+            "The nasogastric tube tip has migrated into the jejunum."
+        ],
+        "correctIndex": 2,
+        "explanation": "While tube feeding formulas are frequently blamed for diarrhea, isotonic formulas infused continuously at a moderate rate (60 mL/hr) are generally well-tolerated. Liquid medications, particularly elixirs and syrups (like liquid acetaminophen or liquid KCl), are notorious for causing horrific osmotic diarrhea. They frequently contain high amounts of the sugar alcohol sorbitol (which cannot be absorbed) and can have extremely high osmolalities (sometimes >3000 mOsm/kg, whereas serum is ~300). The RD should investigate the medication regimen and osmolality first. IV antibiotics can also cause C. diff associated diarrhea, another major factor."
+    },
+    {
+        "id": "dom2-ext-006",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "hard",
+        "text": "During a Nutrition Focused Physical Exam (NFPE), a dietitian notices bilateral, hollow, scooped-out depressions in the patient's temporal regions and prominent clavicles with no overlapping fat. Furthermore, applying pressure to the patient's lower shins results in an indentation that remains for several seconds. What do these findings primarily indicate?",
+        "options": [
+            "Severe fat loss and peripheral neuropathy.",
+            "Severe muscle wasting and pitting edema.",
+            "Sarcopenia and severe dehydration.",
+            "Essential fatty acid deficiency and poor wound healing."
+        ],
+        "correctIndex": 1,
+        "explanation": "The NFPE describes classic signs of severe malnutrition. The temporal wasting (hollowed temples) and prominent clavicles specifically indicate severe loss of somatic protein/skeletal muscle mass. The indentation remaining on the shins after applying pressure describes pitting edema (fluid accumulation in the interstitial spaces). Together, these findings highlight severe muscle wasting coupled with fluid retention. Dehydration would present with poor skin turgor and sunken eyes, not edema. Peripheral neuropathy points to nerve function, not physical wasting."
+    },
+    {
+        "id": "dom2-ext-007",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "medium",
+        "text": "A patient on hemodialysis requires a careful dietary prescription. Which of the following profiles most accurately represents the standard Medical Nutrition Therapy parameters for an adult on maintenance hemodialysis?",
+        "options": [
+            "Low protein (0.6 g/kg), high potassium, and unrestricted fluids.",
+            "High protein (1.2 g/kg), restricted potassium, restricted phosphorus, and restricted fluids.",
+            "High protein (1.5 g/kg), high phosphorus, high sodium.",
+            "Low protein (0.8 g/kg), low sodium, low potassium, unrestricted fluids."
+        ],
+        "correctIndex": 1,
+        "explanation": "Patients on maintenance hemodialysis (HD) have significantly different needs compared to those with earlier stage CKD not on dialysis. Hemodialysis physically removes amino acids and peptides from the blood during the filtering process, causing an increased need for dietary protein (typically ~1.2 g/kg of primarily High Biological Value protein) to prevent wasting. However, because the kidneys cannot filter electrolytes or excrete urine between sessions, patients must strictly restrict potassium, phosphorus, sodium, and total fluid intake to prevent hyperkalemia, osteodystrophy, and fluid overload."
+    },
+    {
+        "id": "dom2-ext-008",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "hard",
+        "text": "An infant formula recipe is mixed incorrectly. The parents are diluting a standard 20 kcal/oz powder formula with exactly double the recommended amount of water to 'make it last longer'. What is the most immediate clinical risk to the infant, and what blood chemistry finding would you expect?",
+        "options": [
+            "Hypernatremic dehydration; elevated serum sodium (>145 mEq/L)",
+            "Hyponatremia leading to water intoxication; decreased serum sodium (<135 mEq/L)",
+            "Protein-energy malnutrition; severely depressed serum albumin",
+            "Essential fatty acid deficiency; elevated triene:tetraene ratio"
+        ],
+        "correctIndex": 1,
+        "explanation": "When infant formula is severely 'over-diluted' (adding too much water), the baby is receiving relatively massive amounts of free water compared to electrolytes and nutrients. The infant's immature kidneys cannot excreting this rapid free water overload, leading to acute water intoxication. The excess water critically dilutes the sodium in the blood, resulting in hyponatremia (<135 mEq/L), which can swiftly cause cerebral edema, seizures, and death. While prolonged underfeeding will cause protein-energy malnutrition over weeks, the immediate, lethal threat is acute hyponatremia. Under-diluting (too little water) causes hypernatremic dehydration."
+    },
+    {
+        "id": "dom2-ext-009",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "medium",
+        "text": "A post-surgical patient requires an immune-modulating enteral formula containing specialized nutrients to enhance recovery and reduce infection rates following major GI surgery. Which amino acid is critically added to these specialized formulas because it becomes 'conditionally essential' during severe metabolic stress?",
+        "options": [
+            "Leucine",
+            "Glutamine",
+            "Phenylalanine",
+            "Valine"
+        ],
+        "correctIndex": 1,
+        "explanation": "Glutamine is the most abundant amino acid in the blood and muscle. Under normal physiological conditions, it is non-essential (the body synthesizes enough). However, during severe metabolic stress (trauma, sepsis, major surgery, burns), the body's demand for glutamine outstrips its ability to synthesize it. The cells of the immune system (lymphocytes) and the rapid-turnover enterocytes in the gut rely heavily on glutamine for fuel. Providing exogenous glutamine in enteral formulas supports gut mucosal integrity and immune function, making it 'conditionally essential.'"
+    },
+    {
+        "id": "dom2-ext-010",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "When structuring a PES statement, the relationship between the Problem (P) and the Etiology (E) is connected by the phrase 'related to'. The relationship between the Etiology (E) and the Signs/Symptoms (S) is connected by 'as evidenced by'. Which of the following statements best describes the logical flow of a high-quality PES statement?",
+        "options": [
+            "The signs and symptoms must directly prove the etiology is occurring.",
+            "The nutrition diagnosis (Problem) should be a condition that the physician can cure with medication, linked to signs generated by the dietitian.",
+            "The etiology is the root cause, so the nutrition intervention must be aimed directly at the etiology; the signs and symptoms are what you monitor to see if the intervention worked.",
+            "The signs and symptoms should be standard medical values (like blood pressure) regardless of whether they relate to the problem."
+        ],
+        "correctIndex": 2,
+        "explanation": "This describes the core logic of the Nutrition Care Process. The Etiology is the root cause of the problem. Therefore, a successful Nutrition Intervention must target the Etiology to fix the root cause. (If the etiology is 'knowledge deficit', the intervention is 'education'.) The Signs and Symptoms (which proved the problem existed in the first place) become the baseline data. The dietitian measures these exact same signs/symptoms during the Monitoring and Evaluation phase to prove that the intervention actually resolved the problem."
+    },
+    {
+        "id": "dom2-ext-011",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "medium",
+        "text": "A patient arrives at the clinic taking a high dose of the anticoagulant medication Warfarin (Coumadin). The RD reviews their recent dietary recall. Intake of which of the following nutrients must be kept extremely consistent day-to-day to prevent fluctuations in the patient's prothrombin time (INR)?",
+        "options": [
+            "Vitamin E",
+            "Omega-3 fatty acids",
+            "Vitamin K",
+            "Potassium"
+        ],
+        "correctIndex": 2,
+        "explanation": "Warfarin works as a blood thinner by antagonizing Vitamin K, which is essential for synthesizing blood clotting proteins in the liver. Sudden increases in dietary Vitamin K (e.g., eating large amounts of spinach, kale, or broccoli) can overpower the medication, leading to blood clots. Sudden decreases can cause the blood to become too thin, leading to hemorrhage. Therefore, the medical nutrition therapy for warfarin is not to completely avoid Vitamin K, but to keep Vitamin K intake highly consistent every single day so the medication dose can be stabilized (monitored via the INR)."
+    },
+    {
+        "id": "dom2-ext-012",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "hard",
+        "text": "A 10-year-old child presents with intractable epilepsy that is unresponsive to medication. The neurologist recommends starting the classic ketogenic diet. During the initiation phase, what macronutrient ratio (fat to combined protein+carbohydrates) is typically aimed for, and what serious complication must be monitored carefully?",
+        "options": [
+            "1:1 ratio; Monitor for severe hyperglycemia.",
+            "4:1 ratio; Monitor for hypoglycemia, acidosis, and dehydration.",
+            "2:1 ratio; Monitor for rapid weight gain and hypocholesterolemia.",
+            "6:1 ratio; Monitor for essential fatty acid deficiency."
+        ],
+        "correctIndex": 1,
+        "explanation": "The classic ketogenic diet used for intractable pediatric epilepsy consists of extremely high fat and very low carbohydrates and protein. The standard clinical ratio is 4:1 or 3:1 of Fat to (Carbohydrate + Protein) by weight. Because the diet mimics starvation by forcing the body to rely entirely on ketone bodies for brain fuel (removing glucose), the initiation phase is dangerous. The clinical team must carefully monitor the child for acute hypoglycemia, metabolic acidosis (ketones are acidic), dehydration, and lethargy. The diet requires rigorous supervision."
+    },
+    {
+        "id": "dom2-ext-013",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "medium",
+        "text": "A laboratory report indicates a patient has an elevated serum Blood Urea Nitrogen (BUN) of 45 mg/dL (Normal: 10-20), but a completely normal serum creatinine (Cr) of 0.8 mg/dL (Normal: 0.6-1.2). Therefore, the BUN:Cr ratio is greater than >20:1. What does this specific ratio typically indicate to the dietitian?",
+        "options": [
+            "Intrinsic renal failure requiring dialysis.",
+            "Severe acute liver failure.",
+            "Dehydration (pre-renal state), GI bleeding, or very high protein intake.",
+            "Severe protein-energy malnutrition."
+        ],
+        "correctIndex": 2,
+        "explanation": "BUN represents the nitrogenous waste from protein metabolism. Creatinine is a steady waste product of muscle metabolism. If both BUN and Cr are elevated (meaning a ratio closer to 10:1 or 15:1), it suggests intrinsic kidney damage (the kidneys aren't filtering). However, if BUN is highly elevated while Creatinine remains normal (>20:1 ratio), the kidneys are structurally fine (Cr is clearing). The elevated BUN is instead caused by 'pre-renal' factors: severe dehydration (concentrating the blood), massive protein intake, or an upper GI bleed (blood protein being digested and causing a spike in urea)."
+    },
+    {
+        "id": "dom2-ext-014",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "hard",
+        "text": "For a critically ill, mechanically ventilated patient with Acute Respiratory Distress Syndrome (ARDS), a standard high-carbohydrate polymeric EN formula may cause difficulties in weaning the patient from the ventilator. What metabolic parameter explains this, and what substitute macronutrient profile is occasionally advocated?",
+        "options": [
+            "Carbohydrates have a high Respiratory Quotient (RQ=1.0), producing excessive CO2; formulas higher in fat (RQ=0.7) reduce CO2 production.",
+            "Carbohydrates increase oxygen demand; replacing all carbohydrates with protein eliminates ventilatory stress.",
+            "Fat has a high Respiratory Quotient (RQ=1.0), so high-fat formulas cause respiratory acidosis.",
+            "Proteins have an RQ of 1.2, so a completely protein-free formula is necessary for ARDS."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Respiratory Quotient (RQ) is the ratio of CO2 produced to O2 consumed during metabolism. Carbohydrates have an RQ of 1.0 (they produce high amounts of CO2 when burned). Fats have an RQ of ~0.7 (they produce less CO2 relative to O2 consumed). Proteins are ~0.8. If a patient is receiving excess total calories, or an extremely high proportion of carbohydrate calories, their body produces excessive CO2. In a patient with compromised lungs (ARDS) attempting to wean off a ventilator, clearing this extra CO2 requires increased minute ventilation, leading to respiratory failure and delayed weaning. Therefore, preventing overfeeding and sometimes using lower-CHO/higher-fat formulas helps minimize CO2 retention."
+    },
+    {
+        "id": "dom2-ext-015",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring",
+        "difficulty": "medium",
+        "text": "Which of the following populations is the target for calculating calculating 'catch-up growth' energy requirements (using the formula: (Recommended kcal/kg for age × Ideal Weight for height) / Actual weight)?",
+        "options": [
+            "Critically ill adults with severe burns.",
+            "Older adults experiencing sarcopenia.",
+            "Pediatric patients identified with 'failure to thrive' (malnutrition).",
+            "Pregnant women entering their third trimester."
+        ],
+        "correctIndex": 2,
+        "explanation": "The 'catch-up growth' formula is a specialized calculation used exclusively in pediatric nutrition for infants and children identified with 'Failure to Thrive' (malnutrition/growth faltering). Because children must not only heal but also catch up to their expected percentile on the growth chart, supplying their standard estimated needs for their current low weight is insufficient. The formula utilizes their recommended calories mapped against their Ideal Body Weight to provide a hypercaloric diet, forcing catch-up growth."
+    },
+    {
+        "id": "dom3-ext-001",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "A clinical nutrition manager identifies that the dietetic technicians (NDTRs) are frequently making errors when conducting malnutrition screenings. The manager decides to implement a training program based on the ADDIE model. What is the very first step the manager must take according to this model?",
+        "options": [
+            "Select the specific screening tool the NDTRs will be tested on (Design).",
+            "Observe the NDTRs on the floor to gather data on exactly where and why the errors are occurring (Analyze).",
+            "Draft a pilot training module and run it with a small focus group (Develop).",
+            "Implement a mandatory 1-hour in-service presentation for all staff (Implement)."
+        ],
+        "correctIndex": 1,
+        "explanation": "ADDIE stands for: Analyze, Design, Develop, Implement, Evaluate. Before designing any training program, the absolute first step is 'Analysis'. The manager must perform a needs assessment to observe the employees, gather data on their current performance versus desired performance, and pinpoint exactly where the knowledge/skill gaps lie. Only after understanding the *why* (Analysis) can the manager begin outlining learning objectives (Design) and building materials (Develop)."
+    },
+    {
+        "id": "dom3-ext-002",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "A foodservice director at a large hospital empowers the tray-line supervisors to directly handle minor scheduling conflicts and immediately issue meal replacements to upset patients without seeking upper-level approval. Which management theory does this action primarily reflect?",
+        "options": [
+            "Scientific Management Theory (Taylor)",
+            "Bureaucratic Management Theory (Weber)",
+            "Human Relations Theory (Mayo/Hawthorne)",
+            "Participative/Decentralized Management Theory"
+        ],
+        "correctIndex": 3,
+        "explanation": "Decentralization and participative management involve pushing decision-making authority down the chain of command, allowing lower-level managers/supervisors to make immediate operational choices without navigating rigorous bureaucratic hierarchy. Scientific management (Taylor) focuses on extreme efficiency and physical workflow logic. Bureaucratic (Weber) relies strictly on unbroken chains of command and rigid rules. Human Relations (Mayo) emphasizes how social interactions and feeling valued improve worker output (the Hawthorne effect)."
+    },
+    {
+        "id": "dom3-ext-003",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "hard",
+        "text": "The hospital cafeteria reports the following figures at the end of the year: Total Sales $120,000; Beginning Inventory $10,000; Purchases $40,000; Ending Inventory $15,000. What is the Inventory Turnover Rate for the year, and what does it indicate compared to the industry standard of 2-4 times per month?",
+        "options": [
+            "2.8 turns/year; The facility is holding far too much inventory, risking spoilage and tying up excess cash.",
+            "3.5 turns/year; The facility's turnover is perfectly aligned with industry standards.",
+            "12 turns/year; The facility is efficiently turning over its entire stock once a month.",
+            "35 turns/year; The facility is rotating stock too quickly and likely experiencing critical stockouts."
+        ],
+        "correctIndex": 0,
+        "explanation": "Inventory Turnover Rate = Cost of Food Sold (COFS) / Average Inventory Value. \n1) Calculate COFS: Beginning Inv ($10k) + Purchases ($40k) - Ending Inv ($15k) = $35,000.\n2) Calculate Average Inventory: (Beginning $10k + Ending $15k) / 2 = $12,500.\n3) Turnover Rate: $35,000 / $12,500 = 2.8 turns per *year*.\nThe industry standard is ~2 to 4 turns per *month* (or roughly 24-48/year). A rate of 2.8 per year is abysmally low, meaning massive amounts of cash are tied up in food sitting on shelves, greatly increasing the risk of spoilage, theft, and waste."
+    },
+    {
+        "id": "dom3-ext-004",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "During an interview for a clinical dietitian position, which of the following questions is strictly illegal for the hiring manager to ask the applicant under the Civil Rights Act and EEOC guidelines?",
+        "options": [
+            "Are you legally authorized to work in the United States?",
+            "Can you fulfill the job requirement, with or without reasonable accommodation, of lifting 20-pound boxes of enteral formula?",
+            "We often require weekend coverage. Do your religious practices prevent you from working on Saturdays?",
+            "Have you ever been convicted of a felony that directly relates to the responsibilities of this position?"
+        ],
+        "correctIndex": 2,
+        "explanation": "Under Title VII of the Civil Rights Act and EEOC guidelines, it is strictly forbidden to ask a job applicant questions about their religious beliefs, practices, or affiliations during an interview. While the employer can ask 'Are you available to work weekends as the job requires?', they cannot specifically frame it around a protected class characteristic like religion. Asking about legal legal authorization to work, ability to perform physical functions, and specific relevant felony convictions are legally permissible."
+    },
+    {
+        "id": "dom3-ext-005",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "hard",
+        "text": "In Herzberg's Two-Factor Theory of motivation, factors are divided into 'Motivators' and 'Hygiene factors'. A hospital administration decides to give all dietitians an across-the-board 5% salary increase to boost morale. According to Herzberg, what will be the likely effect on staff motivation?",
+        "options": [
+            "Job satisfaction will massively increase because financial reward is the ultimate Motivator.",
+            "It will prevent job dissatisfaction, but it will not actively motivate the dietitians to work harder or feel more fulfilled.",
+            "It will create lasting intrinsic motivation by fulfilling the 'Self-Actualization' requirement.",
+            "It will decrease motivation because the raise was uniform rather than merit-based."
+        ],
+        "correctIndex": 1,
+        "explanation": "Herzberg's Two-Factor Theory posits that 'Hygiene Factors' (salary, working conditions, job security, company policies) and 'Motivators' (achievement, recognition, responsibility, advancement) operate independently. Improving a Hygiene Factor (like giving a baseline salary raise) only eliminates *dissatisfaction*. It stops people from quitting/complaining. However, simply paying someone fairly does not intrinsically motivate them to excel. True 'Motivation' producing deeply satisfied, highly engaged workers comes only from the Motivator factors (giving them more clinical responsibility, recognizing their achievements)."
+    },
+    {
+        "id": "dom3-ext-006",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "A specialized eating disorder clinic aims a new advertising campaign exclusively at college-aged females participating in Division 1 athletics. This marketing strategy is an example of identifying a specific:",
+        "options": [
+            "Market niche",
+            "Target market using demographic and psychographic segmentation",
+            "Marketing mix (The 4 Ps)",
+            "Strategic business unit"
+        ],
+        "correctIndex": 1,
+        "explanation": "This strategy relies heavily on Market Segmentation (dividing a broad market into subsets). Specifically, aiming at 'college-aged females' utilizes Demographic segmentation, and targeting 'Division 1 athletes' touches on Psychographic/behavioral segmentation. The resulting group is the clinic's defining 'Target Market'. A niche is typically an even narrower, obscure segment. The Marketing Mix refers to the broad execution elements (Product, Price, Place, Promotion)."
+    },
+    {
+        "id": "dom3-ext-007",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "hard",
+        "text": "A new piece of automated dishwashing equipment costs $45,000 to purchase and install. The manufacturer estimates it has a usable lifespan of 10 years, and its final salvage value will be $5,000. Using the straight-line depreciation method, what will the depreciated value of the equipment be recorded as on the balance sheet at the end of Year 3?",
+        "options": [
+            "It will be recorded as a $4,000 yearly expense.",
+            "It will have an accumulated depreciation of $12,000, leaving a book value of $33,000.",
+            "It will drop to $15,000 total value.",
+            "It will be fully amortized by Year 3."
+        ],
+        "correctIndex": 1,
+        "explanation": "Straight-line depreciation formula: (Cost of Asset - Salvage Value) / Useful Life = Annual Depreciation Expense. \n($45,000 - $5,000) = $40,000 depreciable base.\n$40,000 / 10 years = $4,000 depreciation expense *per year*.\nAt the end of Year 3, the accumulated depreciation is 3 years × $4,000 = $12,000. \nThe 'book value' shown on the balance sheet is the original cost minus accumulated depreciation: ($45,000 - $12,000) = $33,000."
+    },
+    {
+        "id": "dom3-ext-008",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality",
+        "difficulty": "medium",
+        "text": "Which of the following describes a sentinel event according to the Joint Commission (TJC), requiring a mandatory root cause analysis and immediate reporting?",
+        "options": [
+            "A patient's tray is delivered 45 minutes late, missing their scheduled insulin window.",
+            "A patient complains that their pureed carrots are cold and refuses to eat them.",
+            "An NDTR accidentally spills hot coffee on a patient, resulting in severe second-degree burns.",
+            "A patient with a known, documented, and highlighted peanut allergy goes into anaphylactic shock and dies after mistakenly receiving a cookie containing peanut butter."
+        ],
+        "correctIndex": 3,
+        "explanation": "A 'Sentinel Event' is an unexpected occurrence involving death or serious physical or psychological injury (e.g., loss of limb or function) that requires immediate investigation and response. An error physically resulting in death (like the severe allergic reaction due to a system failure) is the defining example of a sentinel event. While a severe medication/insulin timing error or a severe burn are very serious incidents, the fatal systemic failure regarding an allergy definitively triggers the highest level sentinel event protocols and mandatory RCA reporting to the Joint Commission."
+    },
+    {
+        "id": "dom3-ext-009",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "A unionized hospital cafeteria kitchen staff is currently in contract negotiations. The management and the union representatives have reached a complete impasse and refuse to compromise on wage increases. They agree to bring in a neutral third party whose final decision on the wage issue will be legally enforceable and binding on both sides. This process is known as:",
+        "options": [
+            "Mediation",
+            "Arbitration",
+            "Collective Bargaining",
+            "An Injunction"
+        ],
+        "correctIndex": 1,
+        "explanation": "When an impasse is reached, 'Arbitration' involves bringing in an objective third party (the arbitrator) who has the authority to listen to both sides and dictate a final, legally binding settlement that both parties *must* accept. 'Mediation' also uses a third party, but a mediator only offers advice, suggestions, and attempts to facilitate compromise; their rulings are non-binding. Collective bargaining is the initial legal process of negotiating the contract. An injunction is a court order to halt an action (like a strike)."
+    },
+    {
+        "id": "dom3-ext-010",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "A manager relies on creating detailed schedules, strict procedures, objective metrics, and rigid adherence to 'the rules' to manage staff. When problems arise, the manager looks strictly to the policy manual for the answer rather than asking employees for input. This reflects which leadership style?",
+        "options": [
+            "Autocratic",
+            "Bureaucratic",
+            "Democratic",
+            "Laissez-faire"
+        ],
+        "correctIndex": 1,
+        "explanation": "The 'Bureaucratic' leadership style is defined by doing everything 'by the book.' The leader relies entirely on established rules, policies, and procedures (the bureaucracy) to govern the workplace. While similar to 'Autocratic' (where the leader dictates complete control and demands total obedience without input), the autocratic leader relies on their *personal* authority, whereas the bureaucratic leader relies on the *institutional* authority of the rulebook."
+    },
+    {
+        "id": "dom4-ext-001",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety/Sanitation",
+        "difficulty": "hard",
+        "text": "During a local health department inspection of a long-term care facility kitchen, the inspector notes the temperature of the primary chemical sanitizing dishwasher. The wash cycle is 140°F (60°C) and the final sanitizing rinse cycle using a chlorine-based sanitizer is 85°F (29°C). What should the inspector's conclusion be?",
+        "options": [
+            "The dishwasher is fully compliant; the chemical sanitizer requires warm water between 75°F and 120°F to remain effective without evaporating too quickly.",
+            "The dishwasher is non-compliant; a chemical sanitizing rinse must reach at least 165°F (74°C) to kill bacteria.",
+            "The dishwasher is non-compliant; the wash cycle must be at least 150°F (65°C) regardless of the sanitizer used.",
+            "The dishwasher is non-compliant; chlorine sanitizers are illegal in long-term care facilities and must be replaced with iodine."
+        ],
+        "correctIndex": 0,
+        "explanation": "Because this is a *chemical* sanitizing dishwasher (low-temperature), it relies on the chemical (chlorine, iodine, quats) rather than intense heat to kill pathogens. The wash cycle for chemical machines must be at least 120°F (the machine here is 140°F, which is fine). The critical point is the final rinse: chlorine sanitizer requires water between 75°F and 120°F to function optimally (the machine here is 85°F, which is perfect). If the water is too cold, the chemical won't activate. If it is too hot (>120°F), the chlorine will evaporate/dissipate before it can sanitize the dishes. (Only HIGH-temperature, heat-sanitizing dishwashers require wash = 150°F and final rinse = 180°F)."
+    },
+    {
+        "id": "dom4-ext-002",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Production/Service",
+        "difficulty": "medium",
+        "text": "A large university utilizes a 'commissary' foodservice system. Which characteristic correctly describes this specific system model?",
+        "options": [
+            "Meals are produced onsite at each individual dining hall and served immediately to the students.",
+            "Food is purchased completely pre-prepared, packaged, and frozen, requiring only minimal reheating by unskilled labor onsite.",
+            "Meals are prepared centrally in one massive, industrial-scale kitchen and then transported (hot/cold held) in bulk or pre-plated to various satellite dining halls.",
+            "Menu items are cooked in advance, blast-chilled, held in an inventory bank for several weeks, and reheated upon student request."
+        ],
+        "correctIndex": 2,
+        "explanation": "A 'Commissary' system features centralized procurement and massive, large-scale production in one central facility. The prepared food is then distributed to multiple remote/satellite delivery locations. It requires sophisticated transportation logistics. 'Conventional' describes preparing and serving at the exact same site. 'Assembly-serve' (convenience) describes buying pre-cooked/pre-packaged items with almost no on-site cooking. 'Ready-prepared' (cook-chill/cook-freeze) involves cooking food and immediately chilling it on-site for later inventory use."
+    },
+    {
+        "id": "dom4-ext-003",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "hard",
+        "text": "A foodservice facility is purchasing a new massive, multi-compartment tilting skillet (braising pan). The specification sheets list the metal used for the interior cooking surface as having an extremely high gauge number (e.g., 22-gauge vs 10-gauge stainless steel). What does a higher gauge number indicate about the metal equipment?",
+        "options": [
+            "A higher gauge means the metal is significantly thicker and more durable.",
+            "A higher gauge means the metal is significantly thinner.",
+            "A higher gauge means the metal has a higher concentration of non-corrosive chromium.",
+            "A higher gauge means the metal has a higher polish/finish (e.g., #4 finish vs #8 finish)."
+        ],
+        "correctIndex": 1,
+        "explanation": "In metalworking (specifically for foodservice stainless steel and aluminum), the gauge measures weight per square foot. Counterintuitively, the HIGHER the gauge number, the THINNER the metal. Therefore, 10-gauge or 14-gauge stainless steel is thick, heavy-duty, and highly durable (ideal for heavy commercial pots or work tables). A 22-gauge metal is very thin, flimsy, and inappropriate for heavy industrial use. The 'finish' or polish of the metal is measured on a different scale (#1 through #8, where higher numbers equal a brighter, more polished mirror finish)."
+    },
+    {
+        "id": "dom4-ext-004",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety/Sanitation",
+        "difficulty": "medium",
+        "text": "Under the FDA Food Code guidelines, what is the maximum recommended cooling timeframe to safely drop the internal temperature of a large batch of hot chili from 135°F to 41°F to prevent the proliferation of pathogenic bacteria?",
+        "options": [
+            "Total of 2 hours",
+            "Total of 4 hours",
+            "Total of 6 hours; achieving 70°F within the first 2 hours, and 41°F in the remaining 4 hours.",
+            "Total of 12 hours, using blast chillers exclusively."
+        ],
+        "correctIndex": 2,
+        "explanation": "The FDA Food Code mandates a strict two-stage cooling process for highly hazardous hot foods to safely navigate the Temperature Danger Zone (135°F to 41°F). The food must be rapidly cooled from 135°F down to 70°F within the first 2 hours. If it achieves this, you have an additional 4 hours to cool it from 70°F down to 41°F or lower, for a maximum total cooling time of 6 hours. This rapid initial drop is critical because bacteria multiply most exponentially between 125°F and 70°F."
+    },
+    {
+        "id": "dom4-ext-005",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu",
+        "difficulty": "hard",
+        "text": "A menu engineering report for a hospital cafeteria analyzes the profitability and popularity of four entrée items. Item A: High Prominence/Popularity, High Profitability. Item B: High Popularity, Low Profitability. Category C: Low Popularity, High Profitability. Category D: Low Popularity, Low Profitability. According to Kasavana-Smith engineering models, which action should the manager take regarding the 'Plowhorse' (Item B)?",
+        "options": [
+            "Promote the item aggressively as a signature dish.",
+            "Remove the item from the menu entirely.",
+            "Slightly decrease portion sizes or increase the price to improve the margin without deterring loyal customers.",
+            "Redesign the dish completely with new, lower-cost ingredients."
+        ],
+        "correctIndex": 2,
+        "explanation": "In Menu Engineering: Stars (High Pop/High Profit) -> Promote aggressively. Dogs (Low Pop/Low Profit) -> Remove. Plowhorses (High Pop/Low Profit) -> These are very popular items that don't make much money (cost is too high). The strategy for a Plowhorse is to carefully widen the profit margin without ruining its popularity. You do this by slightly raising the price or subtly decreasing the portion size/ingredient cost. Suggesting an aggressive redesign might alienate the massive customer base that loves the item. Puzzles (Low Pop/High Profit) -> Move to a better spot on the menu to boost sales."
+    },
+    {
+        "id": "dom4-ext-006",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Production/Service",
+        "difficulty": "medium",
+        "text": "A recipe for turkey meatballs yields 50 servings (each serving requires 3 oz of raw ground turkey). You need to calculate how much raw ground turkey to order to serve 200 guests. Knowing that raw ground turkey has a 75% yield (25% cooking/handling loss), how many pounds of raw ground turkey must be purchased (the As Purchased amount)?",
+        "options": [
+            "37.5 lbs",
+            "50.0 lbs",
+            "28.1 lbs",
+            "100.0 lbs"
+        ],
+        "correctIndex": 1,
+        "explanation": "1) Calculate Edible Portion (EP) needed: 200 guests × 3 oz EP = 600 oz of actual meat needed. \n2) Convert to pounds: 600 oz / 16 oz = 37.5 lbs EP. \n3) Calculate As Purchased (AP) using the yield percentage: AP = EP / Yield %. \nAP = 37.5 lbs / 0.75 = 50.0 lbs.\nYou must purchase 50 lbs of raw turkey. During cooking, it will lose 25% of its weight (12.5 lbs), leaving exactly the 37.5 lbs needed to serve."
+    },
+    {
+        "id": "dom4-ext-007",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety/Sanitation",
+        "difficulty": "hard",
+        "text": "In a formal HACCP (Hazard Analysis Critical Control Point) plan for a cook-chill operation making chicken soup, which of the following perfectly represents the definition of a 'Critical Control Point' (CCP) combined with its 'Critical Limit'?",
+        "options": [
+            "CCP: Measuring the temperature. Critical Limit: Using a calibrated thermometer.",
+            "CCP: Cooking the raw chicken. Critical Limit: Heating the soup until the chicken reaches a minimum internal temperature of 165°F (74°C) for 15 seconds.",
+            "CCP: Receiving the raw chicken. Critical Limit: Ensuring the delivery truck is clean.",
+            "CCP: The existence of Salmonella on the chicken. Critical Limit: Killing all bacteria."
+        ],
+        "correctIndex": 1,
+        "explanation": "A CCP is a specific step or procedure in the food process where a control measure can be applied, and is absolutely essential to prevent, eliminate, or reduce a food safety hazard to an acceptable level. Cooking is the ultimate biological CCP. The 'Critical Limit' is the precise, absolutely measurable, quantitative threshold that MUST be met at the CCP to ensure safety. Therefore, 'Cooking' (the step) combined with 'reaching 165°F for 15 seconds' (the specific, measurable limit) perfectly define the CCP and its critical limit."
+    },
+    {
+        "id": "dom4-ext-008",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "The extinguishing agent used in a Class K fire extinguisher is composed primarily of an alkaline liquid (like potassium acetate). Based on this composition, a Class K extinguisher is specifically mandated to suppress fires occurring in which area of a foodservice operation?",
+        "options": [
+            "Electrical panels and faulty wiring.",
+            "Dry storage areas containing paper, cardboard, and wood.",
+            "Commercial deep fat fryers utilizing combustible cooking oils and greases.",
+            "Gasoline or diesel generators located on the loading dock."
+        ],
+        "correctIndex": 2,
+        "explanation": "Class K fire extinguishers are definitively required in commercial kitchens for use on fires involving combustible cooking media such as vegetable or animal oils and fats (classic deep fryer fires). The alkaline extinguishing liquid reacts with the extremely hot cooking oil through a process called saponification, turning the oil into a non-combustible soap-like foam that smothers the fire and traps the vapors. Class A is for ordinary combustibles (wood/paper). Class B is for flammable liquids (gasoline). Class C is for electrical circuitry."
+    },
+    {
+        "id": "dom4-ext-009",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Production/Service",
+        "difficulty": "hard",
+        "text": "A foodservice purchaser is evaluating the 'Par Stock' inventory system to manage the ordering of 2% milk. The established par level for milk is 15 cases. Delivery is twice a week. On Monday morning prior to placing an order, the physical inventory shows 4 cases in the walk-in cooler. How many cases should the purchaser order?",
+        "options": [
+            "15 cases, because par stock dictates always ordering the full par amount.",
+            "11 cases, to exactly replenish the inventory to the established par level.",
+            "19 cases, to account for safety stock.",
+            "8 cases, relying on the Economic Order Quantity (EOQ) system."
+        ],
+        "correctIndex": 1,
+        "explanation": "The 'Par Stock' system of inventory management dictates that a predetermined baseline inventory level ('par') is established for each item, representing the quantity needed to sustain the operation until the next delivery. When an order is placed, the purchaser merely subtracts the amount currently on hand from the par level and orders the difference. If par is 15, and you currently have 4, you order the exact difference: 11 cases. This simple system ensures inventory levels remain constant without over-ordering."
+    },
+    {
+        "id": "dom4-ext-010",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu",
+        "difficulty": "medium",
+        "text": "A hospital utilizes a room service (spoken menu) model where patients call down their orders. The clinical team wants to ensure that patients on a 'Consistent Carbohydrate' diet for diabetes do not accidentally order a dangerous amount of sugar. In software-managed room service setups, what is the best technological safeguard to implement?",
+        "options": [
+            "Rely on the NDTR to verbally argue with the patient on the phone until they change their order.",
+            "Provide the patient with an unedited regular menu and trust their diabetes education.",
+            "Implement an age-restricted ordering matrix.",
+            "Program the foodservice software to implement 'Hard Stops' based on the total grams of carbohydrate requested per meal."
+        ],
+        "correctIndex": 3,
+        "explanation": "In modern hospital room service models processing hundreds of custom diet orders daily, the most fail-proof safeguard is programmatic (informatics). By configuring the foodservice dietary software interface with 'Hard Stops', if a patient orders items whose combined carbohydrate total exceeds the physician's prescribed limit for that meal, the system automatically flags the operator. The operator can then guide the patient to swap out a high-carbohydrate item for a protein or vegetable. Relying purely on human memory or argument is prone to massive error."
+    },
+    {
+        "id": "dom1-ext2-001",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "hard",
+        "text": "During fasting, the brain typically relies exclusively on glucose for fuel. However, after several days of prolonged starvation, the brain adapts to utilize which alternative fuel source to spare muscle protein degradation?",
+        "options": [
+            "Free fatty acids released directly from adipose tissue.",
+            "Lactic acid produced by anaerobic glycolysis in muscles.",
+            "Ketone bodies (acetoacetate and beta-hydroxybutyrate) synthesized in the liver.",
+            "Glycerol backbones derived from the breakdown of triglycerides."
+        ],
+        "correctIndex": 2,
+        "explanation": "Free fatty acids cannot easily cross the blood-brain barrier, so the brain cannot use them directly for energy. During early starvation, the brain relies entirely on glucose (created by the liver through gluconeogenesis, which breaks down muscle protein). However, after about 3-4 days of fasting, the liver begins converting fatty acids into ketone bodies. These ketones *can* cross the blood-brain barrier and serve as the primary fuel source for the brain, drastically slowing down the rate of muscle catabolism."
+    },
+    {
+        "id": "dom1-ext2-002",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "medium",
+        "text": "Which micronutrient acts as a vital coenzyme for the conversion of pyruvate to oxaloacetate (via pyruvate carboxylase) in the first step of gluconeogenesis, as well as in the synthesis of fatty acids?",
+        "options": [
+            "Niacin (Vitamin B3)",
+            "Biotin (Vitamin B7)",
+            "Folate (Vitamin B9)",
+            "Cobalamin (Vitamin B12)"
+        ],
+        "correctIndex": 1,
+        "explanation": "Biotin is fundamentally required for carboxylation reactions (reactions that add a carboxyl group/CO2). Pyruvate carboxylase (which converts a 3-carbon pyruvate into a 4-carbon oxaloacetate to begin gluconeogenesis) and Acetyl-CoA carboxylase (the rate-limiting step in fatty acid synthesis) are both heavily dependent on biotin. Niacin acts as NAD/NADH in redox reactions. Folate is involved in 1-carbon transfers (DNA synthesis). B12 is involved in myelin synthesis and Folate activation."
+    },
+    {
+        "id": "dom1-ext2-003",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "In the production of cultured dairy products such as yogurt and cheese, bacteria are introduced to the milk. Which naturally occurring sugar in milk is fermented by these bacteria to produce the lactic acid responsible for the characteristic tang and curdling?",
+        "options": [
+            "Fructose",
+            "Galactose",
+            "Sucrose",
+            "Lactose"
+        ],
+        "correctIndex": 3,
+        "explanation": "Lactose is the primary disaccharide sugar found uniquely in mammalian milk. During fermentation, lactic acid bacteria (such as Lactobacillus bulgaricus and Streptococcus thermophilus) consume the lactose and produce lactic acid as a byproduct. This acid accumulation lowers the pH of the milk, causing the milk proteins (casein) to denature, coagulate, and form a gel-like curd. Galactose is one half of the lactose molecule (glucose + galactose), but lactose itself is the starting substrate in milk."
+    },
+    {
+        "id": "dom1-ext2-004",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research",
+        "difficulty": "hard",
+        "text": "A dietitian is analyzing a dataset of patient serum cholesterol levels that are perfectly normally distributed. The mean is 200 mg/dL with a standard deviation of 20 mg/dL. According to the Empirical Rule (68-95-99.7 rule), approximately what percentage of patients have a cholesterol level between 160 mg/dL and 240 mg/dL?",
+        "options": [
+            "68%",
+            "95%",
+            "99.7%",
+            "50%"
+        ],
+        "correctIndex": 1,
+        "explanation": "In a perfectly normal distribution (a bell curve), the Empirical Rule dictates that ~68% of the data falls within 1 standard deviation (SD) of the mean, ~95% falls within 2 SDs, and ~99.7% falls within 3 SDs. The mean is 200, and the SD is 20. 160 mg/dL is exactly 2 SDs below the mean (200 - 40). 240 mg/dL is exactly 2 SDs above the mean (200 + 40). Therefore, roughly 95% of the values fall within this range between 160 and 240."
+    },
+    {
+        "id": "dom1-ext2-005",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education & Counseling",
+        "difficulty": "medium",
+        "text": "When writing educational materials for the general public regarding a new public health nutrition initiative, a dietitian should ensure the language is accessible to ensure maximum comprehension. What is the recommended reading level for general public health materials in the United States?",
+        "options": [
+            "8th grade level",
+            "10th grade level",
+            "12th grade level (High School Graduate)",
+            "4th grade level"
+        ],
+        "correctIndex": 0,
+        "explanation": "The standard recommendation for writing health and nutrition materials intended for the general adult public is the 8th grade reading level. This ensures the information is broadly accessible without talking down to the audience. If the target audience is known to have lower literacy (which is common in many clinic settings), materials should be translated down to exactly the 6th grade reading level to ensure comprehension. 12th grade or college levels are far too complex, employing difficult jargon."
+    },
+    {
+        "id": "dom1-ext2-006",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "hard",
+        "text": "During intense, anaerobic exercise, working muscles accumulate large amounts of lactate. This lactate is released into the bloodstream and transported to the liver, where it is converted back into glucose, which is then released back to the muscles for energy. What is the name of this critical metabolic cycle?",
+        "options": [
+            "The Citric Acid Cycle (TCA/Krebs Cycle)",
+            "The Urea Cycle",
+            "The Cori Cycle",
+            "The Pentose Phosphate Pathway"
+        ],
+        "correctIndex": 2,
+        "explanation": "The Cori Cycle (or Lactic Acid Cycle) specifically describes the process where muscles operating anaerobically produce lactate as a byproduct of glycolysis. The muscles cannot process this lactate, so they ship it through the blood to the liver. The liver (which can perform gluconeogenesis) converts the lactate back into usable glucose, and sends it back to the muscles to sustain the exercise. The TCA cycle operates aerobically in the mitochondria to generate ATP. The Urea cycle disposes of ammonia from protein breakdown."
+    },
+    {
+        "id": "dom1-ext2-007",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research",
+        "difficulty": "medium",
+        "text": "In a research study measuring the efficacy of a new weight-loss drug, what is the 'dependent variable'?",
+        "options": [
+            "The dosage of the weight-loss drug given to participants.",
+            "The weight lost by the participants.",
+            "The age and gender of the participants.",
+            "The placebo pill given to the control group."
+        ],
+        "correctIndex": 1,
+        "explanation": "In an experiment, the 'independent variable' is the thing the researcher explicitly changes or manipulates (e.g., giving the drug vs. giving the placebo, or varying the dose). The 'dependent variable' is the outcome being measured the thing that depends on the independent variable. In this case, the amount of weight lost depends on whether or not the participant took the drug. Age and gender are potential confounding variables that the researchers may want to control for."
+    },
+    {
+        "id": "dom1-ext2-008",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "Which artificial food dye has been most prominently associated with anecdotal reports of increased hyperactivity in susceptible children, leading to its required inclusion on warning labels in the European Union (though not currently banned in the US)?",
+        "options": [
+            "Titanium Dioxide (White)",
+            "Tartrazine (Yellow #5)",
+            "Amaranth (Red #2)",
+            "Sunset Yellow (Yellow #6)"
+        ],
+        "correctIndex": 1,
+        "explanation": "Tartrazine, also known as FD&C Yellow No. 5, is highly controversial. While the FDA considers it safe for the general population, a tiny percentage of individuals have serious allergic/asthmatic reactions to it. Furthermore, the Southampton Study linked mixtures of tartrazine (and a few other dyes) to increased hyperactivity in some children. This prompted the EU to mandate warning labels on foods containing it ('may have an adverse effect on activity and attention in children'). Red #2 (Amaranth) has actually been banned in the US since the 1970s over cancer fears."
+    },
+    {
+        "id": "dom1-ext2-009",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "hard",
+        "text": "The absorption of dietary non-heme iron (found in plant foods) is significantly enhanced by the simultaneous consumption of Vitamin C. Which of the following explains the biochemical mechanism of this enhancement?",
+        "options": [
+            "Vitamin C is a powerful reducing agent, converting insoluble ferric iron (Fe3+) into the much more soluble and easily absorbed ferrous iron (Fe2+).",
+            "Vitamin C physically binds to phytic acid in the gut, preventing the phytates from trapping the iron.",
+            "Vitamin C stimulates the rapid production of the hormone hepcidin, forcing the enterocytes to absorb iron.",
+            "Vitamin C acts as an oxidizing agent, converting ferrous iron into ferric iron for superior transport."
+        ],
+        "correctIndex": 0,
+        "explanation": "Non-heme iron primarily exists in foods in the oxidized 'ferric' state (Fe3+), which is highly insoluble and poorly absorbed in the alkaline environment of the small intestine. Vitamin C (ascorbic acid) acts as a reducing agent, donating an electron to reduce the Ferric Iron (Fe3+) down to Ferrous Iron (Fe2+). The ferrous state is highly soluble and easily passes through the intestinal mucosa transporters. Conversely, tea (tannins) and whole grains (phytates) physically bind non-heme iron, blocking its absorption. Hepcidin *decreases* iron absorption when iron stores are high."
+    },
+    {
+        "id": "dom1-ext2-010",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education & Counseling",
+        "difficulty": "medium",
+        "text": "During an initial interview, a client states, 'I tried the Keto diet for a week, but I felt so weak that I couldn't get out of bed, so I quit.' The dietitian responds, 'It sounds like the drastic reduction in carbohydrates left you feeling depleted of energy, making it hard to stick to the plan.' Which counseling skill is the dietitian utilizing?",
+        "options": [
+            "Summarization",
+            "Paraphrasing/Reflective Listening",
+            "Confrontation",
+            "Open-ended questioning"
+        ],
+        "correctIndex": 1,
+        "explanation": "The dietitian is using Paraphrasing/Reflective Listening. This crucial counseling technique involves restating the client's message in the practitioner's own words. It demonstrates empathy, confirms that the dietitian accurately heard the core meaning (weakness = lack of energy/carbs), and encourages the client to elaborate further. Summarization usually occurs at the end of a session to recap multiple points. Confrontation involves pointing out discrepancies (e.g., between goals and actions). Open-ended questions usually begin with 'How' or 'What'."
+    },
+    {
+        "id": "dom2-ext2-001",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "hard",
+        "text": "A 50-year-old male with cirrhosis of the liver presents to the clinic with massive ascites and esophageal varices. His blood ammonia levels are extremely elevated, resulting in frequent bouts of hepatic encephalopathy (confusion, asterixis). Historically, severe protein restriction was the standard of care for encephalopathy. According to current evidence-based guidelines, what is the appropriate protein recommendation for this patient?",
+        "options": [
+            "Strict protein restriction (0.5 - 0.6 g/kg) to definitively prevent further ammonia build-up during episodes of confusion.",
+            "High carbohydrate, low fat, and exclusively plant-based protein only, avoiding all animal proteins.",
+            "Unrestricted protein (up to 1.5 g/kg of dry weight) to prevent severe malnutrition and wasting, as restriction does not improve outcomes and worsens muscle breakdown.",
+            "Total Parenteral Nutrition (TPN) exclusively, to bypass the damaged hepatic portal vein system."
+        ],
+        "correctIndex": 2,
+        "explanation": "Historically, practitioners restricted dietary protein in cirrhosis patients with hepatic encephalopathy (HE) because ammonia is a byproduct of protein breakdown. However, modern evidence proves this is harmful. Severe protein restriction rapidly causes protein-calorie malnutrition and sarcopenia. Muscle tissue actually helps clear ammonia from the blood. Therefore, breaking down muscle (due to a low-protein diet) worsens the hyperammonemia and increases mortality. Current guidelines mandate providing adequate to high protein (1.2 to 1.5 g/kg based on dry weight) to patients with cirrhosis, including those with HE, to maintain muscle mass. Medical treatment (lactulose/rifaximin) is used to control the ammonia, not dietary protein restriction."
+    },
+    {
+        "id": "dom2-ext2-002",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "medium",
+        "text": "When assessing the iron status of a pregnant woman during her second trimester, the dietitian notes her hemoglobin has dropped from 13.5 g/dL (pre-pregnancy) to 11.0 g/dL. What physiological phenomenon primarily explains this decrease, assuming her iron intake is adequate?",
+        "options": [
+            "Gestational diabetes causing impaired erythropoiesis.",
+            "Fetal demands rapidly depleting maternal ferritin stores.",
+            "Hemodilution due to a massive, normal increase in maternal blood plasma volume.",
+            "Preeclampsia resulting in microangiopathic hemolysis."
+        ],
+        "correctIndex": 2,
+        "explanation": "During a healthy pregnancy, maternal blood volume increases by 40-50% to supply the placenta. However, the plasma volume (the liquid part of the blood) expands much faster and to a greater extent than the production of red blood cells. This creates a dilution effect ('hemodilution' or physiological anemia of pregnancy), causing the concentration of hemoglobin and hematocrit to naturally drop, even if absolute iron stores are perfectly fine. A hemoglobin of 11.0 g/dL in the second trimester is generally considered normal and physiological, not necessarily a true iron deficiency anemia requiring massive supplementation if iron stores (ferritin) are normal."
+    },
+    {
+        "id": "dom2-ext2-003",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "A dietitian is formulating a PES statement for an obese patient with a high risk of cardiovascular disease. The patient reports eating fast food 5 times a week and states, 'I prefer it because it's cheap and my neighborhood doesn't have a grocery store.' Which of the following represents the most appropriately structured PES statement?",
+        "options": [
+            "Obesity related to excessive energy intake as evidenced by BMI of 35 and frequent fast food consumption.",
+            "Undesirable food choices related to limited access to food as evidenced by consuming fast food 5 times weekly and verbalizing lack of a neighborhood grocery store.",
+            "Excessive energy intake related to an obesogenic environment as evidenced by BMI of 35.",
+            "Altered nutrition-related laboratory values related to excessive trans fat intake as evidenced by the patient living in a food desert."
+        ],
+        "correctIndex": 1,
+        "explanation": "This statement perfectly links the problem, etiology, and signs. The problem ('Undesirable food choices' - Intake domain) is correct. The etiology ('limited access to food' - Behavioral/Environmental domain) directly addresses the root cause: the patient physically cannot buy healthier food locally (a 'food desert'). The signs and symptoms (eating fast food 5x weekly and their verbalized report) prove both the problem and the environmental etiology. Option A misuses a medical diagnosis (Obesity) as the problem, and its etiology doesn't address the true access issue."
+    },
+    {
+        "id": "dom2-ext2-004",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring",
+        "difficulty": "medium",
+        "text": "A patient with Type 1 Diabetes uses an insulin pump and practices carbohydrate counting. Their insulin-to-carbohydrate ratio (ICR) is 1:15. If the patient plans to eat a meal containing 60 grams of carbohydrate, how many units of rapid-acting bolus insulin should they program the pump to deliver?",
+        "options": [
+            "2 units",
+            "4 units",
+            "6 units",
+            "15 units"
+        ],
+        "correctIndex": 1,
+        "explanation": "An Insulin-to-Carbohydrate Ratio (ICR) of 1:15 means the patient needs 1 unit of rapid-acting insulin to 'cover' every 15 grams of carbohydrate they consume. For a meal containing 60 grams of carbohydrate: 60 grams / 15 grams per unit = 4 units of insulin. This calculation strictly covers the food intake; an additional 'correction bolus' might be added if their pre-meal blood sugar was independently high."
+    },
+    {
+        "id": "dom2-ext2-005",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "hard",
+        "text": "A dietitian conducts a dietary assessment on a 14-year-old female gymnast who presents with a BMI in the 15th percentile, amenorrhea for 6 months, and a recent stress fracture in her tibia. What specific syndrome should the dietitian immediately suspect?",
+        "options": [
+            "Polycystic Ovary Syndrome (PCOS)",
+            "Cushing's Syndrome",
+            "Relative Energy Deficiency in Sport (RED-S) / Female Athlete Triad",
+            "Type 1 Diabetes Mellitus"
+        ],
+        "correctIndex": 2,
+        "explanation": "The classic 'Female Athlete Triad' consists of three interrelated conditions: low energy availability (with or without an eating disorder, often causing low BMI), amenorrhea/menstrual dysfunction, and decreased bone mineral density (osteopenia/osteoporosis, presenting as stress fractures). This occurs when dietary energy intake is insufficient to support the high energy expenditure of the sport, forcing the body to shut down 'non-essential' functions like reproduction and bone building. The IOC recently expanded this concept to 'RED-S', acknowledging that low energy availability affects multiple physiological systems in both male and female athletes."
+    },
+    {
+        "id": "dom2-ext2-006",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "medium",
+        "text": "A patient suffering from fat malabsorption due to short bowel syndrome is suffering from severe caloric deficit and chronic diarrhea. The dietitian recommends incorporating MCT (Medium Chain Triglyceride) oil into their enteral tube feeding. Why is MCT oil uniquely beneficial in this specific clinical scenario?",
+        "options": [
+            "MCTs are completely calorie-free, so they prevent weight gain while soothing the gut.",
+            "MCTs do not require bile salts or pancreatic lipase for digestion and are absorbed directly into the portal vein.",
+            "MCTs contain essential fatty acids (linoleic and alpha-linolenic acid) required to prevent EFA deficiency.",
+            "MCTs act as powerful prebiotic fibers in the distal colon."
+        ],
+        "correctIndex": 1,
+        "explanation": "Long-chain triglycerides (LCTs) require a complex digestive process: emulsification by bile salts, digestion by pancreatic lipase, packaging into chylomicrons, and transport via the lymphatic system. In short bowel syndrome or severe liver/pancreatic disease, this process fails. Medium-chain triglycerides (MCTs) are unique because they are water-soluble enough to bypass this entire process. They are absorbed intact directly into the portal vein and routed to the liver for immediate energy. They provide dense calories (8.3 kcal/g) without causing fat malabsorption/steatorrhea. Note: MCT oil does NOT contain essential fatty acids."
+    },
+    {
+        "id": "dom2-ext2-007",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "hard",
+        "text": "While interpreting a comprehensive metabolic panel (CMP) for a patient newly diagnosed with acute pancreatitis, the dietitian expects to see severely elevated levels of which two specific serum enzymes utilized as the primary diagnostic markers?",
+        "options": [
+            "ALT (Alanine transaminase) and AST (Aspartate transaminase)",
+            "BUN (Blood Urea Nitrogen) and Creatinine",
+            "Amylase and Lipase",
+            "Alkaline Phosphatase (ALP) and Bilirubin"
+        ],
+        "correctIndex": 2,
+        "explanation": "The pancreas produces the digestive enzymes amylase (for starches) and lipase (for fats). During an attack of acute pancreatitis, the pancreatic tissue becomes violently inflamed, causing these enzymes to leak out of the pancreas and into the bloodstream in massive quantities. Elevated serum amylase and, more specifically, serum lipase (which is very specific to the pancreas) are the hallmark laboratory indicators used by physicians to diagnose acute pancreatitis. ALT/AST indicate liver damage. BUN/Cr indicate kidney damage. ALP/Bilirubin indicate biliary or bone issues."
+    },
+    {
+        "id": "dom2-ext2-008",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "medium",
+        "text": "A patient with Gastroesophageal Reflux Disease (GERD) complains of severe heartburn at night. Which of the following dietary and lifestyle modifications is the most appropriate first-line Medical Nutrition Therapy intervention?",
+        "options": [
+            "Eat a large, high-fat meal directly before bed to coat the stomach.",
+            "Consume small, frequent meals throughout the day and avoid eating 3-4 hours prior to lying down.",
+            "Drink 16 ounces of whole milk to neutralize the stomach acid whenever heartburn hits.",
+            "Switch entirely to a pureed diet."
+        ],
+        "correctIndex": 1,
+        "explanation": "GERD involves the backward flow of stomach acid into the esophagus, usually due to a weakened lower esophageal sphincter (LES). High-fat meals drastically delay stomach emptying and relax the LES, which *worsens* reflux. Lying flat with a full stomach allows gravity to push the acid upward. Therefore, the core MNT for GERD is consuming small, low-fat meals (to clear the stomach quickly), avoiding known LES-relaxers (peppermint, chocolate, alcohol), and remaining upright for several hours after eating to allow gravity to assist digestion. Milk temporarily soothes but stimulates acid rebound."
+    },
+    {
+        "id": "dom2-ext2-009",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "A 25-year-old male with inflammatory bowel disease (Crohn's) experiences an acute flare-up requiring bowel rest and Total Parenteral Nutrition (TPN) for two weeks. As his inflammation subsides, the physician orders a transition to an oral diet. Which of the following best describes the initial goal of the MNT Dietitian?",
+        "options": [
+            "Immediately prescribe a high-fiber, whole-grain diet to 'bulk up' his stool and strengthen the colon.",
+            "Start him on a clear liquid diet for 5 days, then full liquids for 5 days to prevent dumping syndrome.",
+            "Initiate an elemental enteral tube feeding alongside the TPN to test absorption.",
+            "Begin slowly introducing easily digestible, low-residue/low-fiber solid foods while gradually tapering down the TPN volume."
+        ],
+        "correctIndex": 3,
+        "explanation": "During an acute flare of Crohn's disease, the bowel is critically inflamed and ulcerated. When transitioning off TPN, the immediate goal is to 'wake up' the gut slowly without causing further irritation or immense output. A low-residue (low-fiber) diet is essential because fiber is physically abrasive to the inflamed mucosa and creates bulky stool that the healing bowel cannot handle. Clear liquids are calorically useless, and holding a patient on them for 5 days promotes malnutrition. The TPN must be tapered carefully over several days as oral intake of bland, low-fiber food increases to ensure caloric needs are continually met."
+    },
+    {
+        "id": "dom2-ext2-010",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring",
+        "difficulty": "medium",
+        "text": "A dietitian is continually evaluating the efficacy of a specialized, high-calorie oral supplement prescribed to an oncology patient experiencing cachexia (severe disease-related wasting). Which of the following represents the most objective and reliable indicator that the nutrition intervention is successful over a 4-week period?",
+        "options": [
+            "The patient reports feeling significantly less nauseous after chemotherapy.",
+            "The patient completely finishes all three bottles of the supplement every single day.",
+            "The patient's weight has stabilized and they have gained 2 pounds of lean mass, as measured by a weekly scale.",
+            "The patient's serum albumin level rises rapidly from 2.8 to 3.5 g/dL over 48 hours."
+        ],
+        "correctIndex": 2,
+        "explanation": "The ultimate goal of treating cachexia/malnutrition is halting the involuntary weight loss and rebuilding tissue. Therefore, objective stabilization of body weight or measured weight gain on the scale is the strongest, most irrefutable evidence of a successful long-term caloric intervention. While finishing the supplements (Intake) is a great sign of compliance, it doesn't guarantee the disease isn't still out-burning the calories. Subjective feelings of nausea do not prove caloric adequacy. Furthermore, serum albumin is an indicator of *inflammation* and stress, not short-term nutritional status or caloric intake; it does not rise based solely on eating more calories over 48 hours."
     }
 
 ];

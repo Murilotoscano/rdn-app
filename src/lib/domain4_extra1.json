@@ -1,0 +1,162 @@
+[
+    {
+        "id": "dom4-ext-001",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety/Sanitation",
+        "difficulty": "hard",
+        "text": "During a local health department inspection of a long-term care facility kitchen, the inspector notes the temperature of the primary chemical sanitizing dishwasher. The wash cycle is 140°F (60°C) and the final sanitizing rinse cycle using a chlorine-based sanitizer is 85°F (29°C). What should the inspector's conclusion be?",
+        "options": [
+            "The dishwasher is fully compliant; the chemical sanitizer requires warm water between 75°F and 120°F to remain effective without evaporating too quickly.",
+            "The dishwasher is non-compliant; a chemical sanitizing rinse must reach at least 165°F (74°C) to kill bacteria.",
+            "The dishwasher is non-compliant; the wash cycle must be at least 150°F (65°C) regardless of the sanitizer used.",
+            "The dishwasher is non-compliant; chlorine sanitizers are illegal in long-term care facilities and must be replaced with iodine."
+        ],
+        "correctIndex": 0,
+        "explanation": "Because this is a *chemical* sanitizing dishwasher (low-temperature), it relies on the chemical (chlorine, iodine, quats) rather than intense heat to kill pathogens. The wash cycle for chemical machines must be at least 120°F (the machine here is 140°F, which is fine). The critical point is the final rinse: chlorine sanitizer requires water between 75°F and 120°F to function optimally (the machine here is 85°F, which is perfect). If the water is too cold, the chemical won't activate. If it is too hot (>120°F), the chlorine will evaporate/dissipate before it can sanitize the dishes. (Only HIGH-temperature, heat-sanitizing dishwashers require wash = 150°F and final rinse = 180°F)."
+    },
+    {
+        "id": "dom4-ext-002",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Production/Service",
+        "difficulty": "medium",
+        "text": "A large university utilizes a 'commissary' foodservice system. Which characteristic correctly describes this specific system model?",
+        "options": [
+            "Meals are produced onsite at each individual dining hall and served immediately to the students.",
+            "Food is purchased completely pre-prepared, packaged, and frozen, requiring only minimal reheating by unskilled labor onsite.",
+            "Meals are prepared centrally in one massive, industrial-scale kitchen and then transported (hot/cold held) in bulk or pre-plated to various satellite dining halls.",
+            "Menu items are cooked in advance, blast-chilled, held in an inventory bank for several weeks, and reheated upon student request."
+        ],
+        "correctIndex": 2,
+        "explanation": "A 'Commissary' system features centralized procurement and massive, large-scale production in one central facility. The prepared food is then distributed to multiple remote/satellite delivery locations. It requires sophisticated transportation logistics. 'Conventional' describes preparing and serving at the exact same site. 'Assembly-serve' (convenience) describes buying pre-cooked/pre-packaged items with almost no on-site cooking. 'Ready-prepared' (cook-chill/cook-freeze) involves cooking food and immediately chilling it on-site for later inventory use."
+    },
+    {
+        "id": "dom4-ext-003",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "hard",
+        "text": "A foodservice facility is purchasing a new massive, multi-compartment tilting skillet (braising pan). The specification sheets list the metal used for the interior cooking surface as having an extremely high gauge number (e.g., 22-gauge vs 10-gauge stainless steel). What does a higher gauge number indicate about the metal equipment?",
+        "options": [
+            "A higher gauge means the metal is significantly thicker and more durable.",
+            "A higher gauge means the metal is significantly thinner.",
+            "A higher gauge means the metal has a higher concentration of non-corrosive chromium.",
+            "A higher gauge means the metal has a higher polish/finish (e.g., #4 finish vs #8 finish)."
+        ],
+        "correctIndex": 1,
+        "explanation": "In metalworking (specifically for foodservice stainless steel and aluminum), the gauge measures weight per square foot. Counterintuitively, the HIGHER the gauge number, the THINNER the metal. Therefore, 10-gauge or 14-gauge stainless steel is thick, heavy-duty, and highly durable (ideal for heavy commercial pots or work tables). A 22-gauge metal is very thin, flimsy, and inappropriate for heavy industrial use. The 'finish' or polish of the metal is measured on a different scale (#1 through #8, where higher numbers equal a brighter, more polished mirror finish)."
+    },
+    {
+        "id": "dom4-ext-004",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety/Sanitation",
+        "difficulty": "medium",
+        "text": "Under the FDA Food Code guidelines, what is the maximum recommended cooling timeframe to safely drop the internal temperature of a large batch of hot chili from 135°F to 41°F to prevent the proliferation of pathogenic bacteria?",
+        "options": [
+            "Total of 2 hours",
+            "Total of 4 hours",
+            "Total of 6 hours; achieving 70°F within the first 2 hours, and 41°F in the remaining 4 hours.",
+            "Total of 12 hours, using blast chillers exclusively."
+        ],
+        "correctIndex": 2,
+        "explanation": "The FDA Food Code mandates a strict two-stage cooling process for highly hazardous hot foods to safely navigate the Temperature Danger Zone (135°F to 41°F). The food must be rapidly cooled from 135°F down to 70°F within the first 2 hours. If it achieves this, you have an additional 4 hours to cool it from 70°F down to 41°F or lower, for a maximum total cooling time of 6 hours. This rapid initial drop is critical because bacteria multiply most exponentially between 125°F and 70°F."
+    },
+    {
+        "id": "dom4-ext-005",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu",
+        "difficulty": "hard",
+        "text": "A menu engineering report for a hospital cafeteria analyzes the profitability and popularity of four entrée items. Item A: High Prominence/Popularity, High Profitability. Item B: High Popularity, Low Profitability. Category C: Low Popularity, High Profitability. Category D: Low Popularity, Low Profitability. According to Kasavana-Smith engineering models, which action should the manager take regarding the 'Plowhorse' (Item B)?",
+        "options": [
+            "Promote the item aggressively as a signature dish.",
+            "Remove the item from the menu entirely.",
+            "Slightly decrease portion sizes or increase the price to improve the margin without deterring loyal customers.",
+            "Redesign the dish completely with new, lower-cost ingredients."
+        ],
+        "correctIndex": 2,
+        "explanation": "In Menu Engineering: Stars (High Pop/High Profit) -> Promote aggressively. Dogs (Low Pop/Low Profit) -> Remove. Plowhorses (High Pop/Low Profit) -> These are very popular items that don't make much money (cost is too high). The strategy for a Plowhorse is to carefully widen the profit margin without ruining its popularity. You do this by slightly raising the price or subtly decreasing the portion size/ingredient cost. Suggesting an aggressive redesign might alienate the massive customer base that loves the item. Puzzles (Low Pop/High Profit) -> Move to a better spot on the menu to boost sales."
+    },
+    {
+        "id": "dom4-ext-006",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Production/Service",
+        "difficulty": "medium",
+        "text": "A recipe for turkey meatballs yields 50 servings (each serving requires 3 oz of raw ground turkey). You need to calculate how much raw ground turkey to order to serve 200 guests. Knowing that raw ground turkey has a 75% yield (25% cooking/handling loss), how many pounds of raw ground turkey must be purchased (the As Purchased amount)?",
+        "options": [
+            "37.5 lbs",
+            "50.0 lbs",
+            "28.1 lbs",
+            "100.0 lbs"
+        ],
+        "correctIndex": 1,
+        "explanation": "1) Calculate Edible Portion (EP) needed: 200 guests × 3 oz EP = 600 oz of actual meat needed. \n2) Convert to pounds: 600 oz / 16 oz = 37.5 lbs EP. \n3) Calculate As Purchased (AP) using the yield percentage: AP = EP / Yield %. \nAP = 37.5 lbs / 0.75 = 50.0 lbs.\nYou must purchase 50 lbs of raw turkey. During cooking, it will lose 25% of its weight (12.5 lbs), leaving exactly the 37.5 lbs needed to serve."
+    },
+    {
+        "id": "dom4-ext-007",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Safety/Sanitation",
+        "difficulty": "hard",
+        "text": "In a formal HACCP (Hazard Analysis Critical Control Point) plan for a cook-chill operation making chicken soup, which of the following perfectly represents the definition of a 'Critical Control Point' (CCP) combined with its 'Critical Limit'?",
+        "options": [
+            "CCP: Measuring the temperature. Critical Limit: Using a calibrated thermometer.",
+            "CCP: Cooking the raw chicken. Critical Limit: Heating the soup until the chicken reaches a minimum internal temperature of 165°F (74°C) for 15 seconds.",
+            "CCP: Receiving the raw chicken. Critical Limit: Ensuring the delivery truck is clean.",
+            "CCP: The existence of Salmonella on the chicken. Critical Limit: Killing all bacteria."
+        ],
+        "correctIndex": 1,
+        "explanation": "A CCP is a specific step or procedure in the food process where a control measure can be applied, and is absolutely essential to prevent, eliminate, or reduce a food safety hazard to an acceptable level. Cooking is the ultimate biological CCP. The 'Critical Limit' is the precise, absolutely measurable, quantitative threshold that MUST be met at the CCP to ensure safety. Therefore, 'Cooking' (the step) combined with 'reaching 165°F for 15 seconds' (the specific, measurable limit) perfectly define the CCP and its critical limit."
+    },
+    {
+        "id": "dom4-ext-008",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Equipment",
+        "difficulty": "medium",
+        "text": "The extinguishing agent used in a Class K fire extinguisher is composed primarily of an alkaline liquid (like potassium acetate). Based on this composition, a Class K extinguisher is specifically mandated to suppress fires occurring in which area of a foodservice operation?",
+        "options": [
+            "Electrical panels and faulty wiring.",
+            "Dry storage areas containing paper, cardboard, and wood.",
+            "Commercial deep fat fryers utilizing combustible cooking oils and greases.",
+            "Gasoline or diesel generators located on the loading dock."
+        ],
+        "correctIndex": 2,
+        "explanation": "Class K fire extinguishers are definitively required in commercial kitchens for use on fires involving combustible cooking media such as vegetable or animal oils and fats (classic deep fryer fires). The alkaline extinguishing liquid reacts with the extremely hot cooking oil through a process called saponification, turning the oil into a non-combustible soap-like foam that smothers the fire and traps the vapors. Class A is for ordinary combustibles (wood/paper). Class B is for flammable liquids (gasoline). Class C is for electrical circuitry."
+    },
+    {
+        "id": "dom4-ext-009",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Production/Service",
+        "difficulty": "hard",
+        "text": "A foodservice purchaser is evaluating the 'Par Stock' inventory system to manage the ordering of 2% milk. The established par level for milk is 15 cases. Delivery is twice a week. On Monday morning prior to placing an order, the physical inventory shows 4 cases in the walk-in cooler. How many cases should the purchaser order?",
+        "options": [
+            "15 cases, because par stock dictates always ordering the full par amount.",
+            "11 cases, to exactly replenish the inventory to the established par level.",
+            "19 cases, to account for safety stock.",
+            "8 cases, relying on the Economic Order Quantity (EOQ) system."
+        ],
+        "correctIndex": 1,
+        "explanation": "The 'Par Stock' system of inventory management dictates that a predetermined baseline inventory level ('par') is established for each item, representing the quantity needed to sustain the operation until the next delivery. When an order is placed, the purchaser merely subtracts the amount currently on hand from the par level and orders the difference. If par is 15, and you currently have 4, you order the exact difference: 11 cases. This simple system ensures inventory levels remain constant without over-ordering."
+    },
+    {
+        "id": "dom4-ext-010",
+        "moduleId": "mod4",
+        "domain": "Domain IV",
+        "topic": "Menu",
+        "difficulty": "medium",
+        "text": "A hospital utilizes a room service (spoken menu) model where patients call down their orders. The clinical team wants to ensure that patients on a 'Consistent Carbohydrate' diet for diabetes do not accidentally order a dangerous amount of sugar. In software-managed room service setups, what is the best technological safeguard to implement?",
+        "options": [
+            "Rely on the NDTR to verbally argue with the patient on the phone until they change their order.",
+            "Provide the patient with an unedited regular menu and trust their diabetes education.",
+            "Implement an age-restricted ordering matrix.",
+            "Program the foodservice software to implement 'Hard Stops' based on the total grams of carbohydrate requested per meal."
+        ],
+        "correctIndex": 3,
+        "explanation": "In modern hospital room service models processing hundreds of custom diet orders daily, the most fail-proof safeguard is programmatic (informatics). By configuring the foodservice dietary software interface with 'Hard Stops', if a patient orders items whose combined carbohydrate total exceeds the physician's prescribed limit for that meal, the system automatically flags the operator. The operator can then guide the patient to swap out a high-carbohydrate item for a protein or vegetable. Relying purely on human memory or argument is prone to massive error."
+    }
+]

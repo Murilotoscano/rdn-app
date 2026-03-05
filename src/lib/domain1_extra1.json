@@ -1,0 +1,242 @@
+[
+    {
+        "id": "dom1-ext-001",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "hard",
+        "text": "A patient with chronic alcoholism presents with Wernicke-Korsakoff syndrome, characterized by confusion, ataxia, and ophthalmoplegia. Before administering intravenous glucose, which vitamin must be given immediately and why?",
+        "options": [
+            "Vitamin B12, because alcohol inhibits intrinsic factor secretion.",
+            "Folate, to prevent macrocytic anemia and irreversible neurological damage.",
+            "Thiamin, because glucose metabolism requires it as a coenzyme, and a deficiency can precipitate irreversible brain damage.",
+            "Niacin, to prevent pellagra-like dermatological symptoms."
+        ],
+        "correctIndex": 2,
+        "explanation": "Thiamin (Vitamin B1) is an essential coenzyme in carbohydrate metabolism (specifically in the conversion of pyruvate to acetyl-CoA). In patients with severe alcohol abuse disorder, thiamin stores are often depleted. Administering a glucose load without providing thiamin first forces the remaining thiamin to be rapidly consumed to metabolize the glucose, which can acutely precipitate or worsen the irreversible neurological damage of Wernicke-Korsakoff syndrome."
+    },
+    {
+        "id": "dom1-ext-002",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research",
+        "difficulty": "hard",
+        "text": "A researcher conducts a randomized controlled trial analyzing the effect of a high-protein diet on lean muscle mass retention in older adults. The statistical analysis reveals a p-value of 0.04. Which of the following is the most accurate interpretation of this finding?",
+        "options": [
+            "There is a 4% probability that the study's results are completely inaccurate.",
+            "There is a 96% probability that the high-protein diet successfully retained lean muscle mass.",
+            "The result is statistically significant, meaning there is only a 4% probability that the observed difference occurred by chance.",
+            "The intervention caused a 4% increase in lean muscle mass among the treatment group."
+        ],
+        "correctIndex": 2,
+        "explanation": "The p-value represents the probability of obtaining the observed results (or more extreme results) if the null hypothesis is true (i.e., if there was actually no difference between the groups). A p-value of 0.04 (which is less than the standard significance level of 0.05) indicates the result is statistically significant. It means there is only a 4% chance that the difference observed between the control and treatment groups occurred purely by random chance."
+    },
+    {
+        "id": "dom1-ext-003",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "medium",
+        "text": "During fasting, the body initially relies on glycogen stores for energy. Once hepatic glycogen is depleted (usually after 12-24 hours), the body primarily maintains blood glucose levels through which metabolic pathway?",
+        "options": [
+            "Glycolysis in the skeletal muscles",
+            "Gluconeogenesis in the liver",
+            "Ketogenesis in the liver",
+            "Lipolysis in the adipose tissue"
+        ],
+        "correctIndex": 1,
+        "explanation": "Gluconeogenesis is the synthesis of glucose from non-carbohydrate sources (such as glucogenic amino acids from muscle protein, lactate, and the glycerol backbone of triglycerides). When hepatic glycogen is exhausted, the liver accelerates gluconeogenesis to supply the brain and red blood cells with the necessary glucose. While ketogenesis and lipolysis also ramp up to provide alternative fuel sources (ketones and free fatty acids) for other tissues, gluconeogenesis specifically maintains the critical blood glucose levels."
+    },
+    {
+        "id": "dom1-ext-004",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education & Counseling",
+        "difficulty": "medium",
+        "text": "A dietitian is counseling a 40-year-old female who was recently diagnosed with celiac disease. The patient says, 'I know I need to stop eating gluten, but I just love my morning bagels and I don't think I can give them up yet.' Based on the Transtheoretical Model, which stage of change is this patient in, and what is the best counseling strategy?",
+        "options": [
+            "Precontemplation; focus on raising awareness of the health risks of continued gluten intake.",
+            "Contemplation; explore the pros and cons of quitting gluten to resolve her ambivalence.",
+            "Preparation; help her identify gluten-free bagel alternatives in her local grocery store.",
+            "Action; praise her for recognizing the problem and set a start date for the diet."
+        ],
+        "correctIndex": 1,
+        "explanation": "The patient is in the Contemplation stage. She is aware of the problem ('I know I need to stop') but is ambivalent and not yet ready to commit to action ('I don't think I can give them up yet'). The most effective counseling strategy at this stage is to explore ambivalence using motivational interviewing techniques, such as weighing the pros and cons (Decisional Balance) of adopting the gluten-free diet. Precontemplation would mean she is unaware or denies the problem. Preparation would imply she is taking small steps (e.g., buying GF products) to start the diet within the next 30 days."
+    },
+    {
+        "id": "dom1-ext-005",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "Which property of fats allows them to exhibit polymorphism (existing in different crystalline forms), and why is this critical in the manufacturing of chocolate?",
+        "options": [
+            "Saponification; it prevents the cocoa butter from becoming overly basic and developing a soapy flavor.",
+            "Hydrogenation; it stabilizes liquid cocoa butter into a solid state at room temperature.",
+            "The varying chain lengths and saturation of fatty acids; proper tempering ensures cocoa butter crystallizes into the stable Beta (Form V) crystals, providing the desired snap and preventing bloom.",
+            "Winterization; it removes large triglycerides so the chocolate remains glossy and does not cloud when refrigerated."
+        ],
+        "correctIndex": 2,
+        "explanation": "Polymorphism refers to the ability of solid fats (specifically the triglycerides in cocoa butter) to crystallize into several different structural forms (alpha, beta prime, intermediate, beta, etc.). The varying chain lengths and degree of saturation of the fatty acids on the glycerol backbone cause this. In chocolate manufacturing, proper 'tempering' is the process of heating and cooling the chocolate to precisely control which crystal forms. The goal is to force the cocoa butter to solidify into the highly stable 'Beta' (Form V) crystals. This form gives premium chocolate its characteristic glossy appearance, firm 'snap' when broken, smooth mouthfeel, and resistance to fat 'bloom' (where unstable crystals migrate to the surface creating white streaks)."
+    },
+    {
+        "id": "dom1-ext-006",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "hard",
+        "text": "A vegan patient presents with fatigue, paresthesia in the lower extremities, and an elevated Mean Corpuscular Volume (MCV) of 105 fL. The dietitian suspects a nutrient deficiency. Given the patient's diet and symptoms, supplementing which nutrient could potentially mask the underlying neurological damage if administered solely as a monotherapy?",
+        "options": [
+            "Iron",
+            "Folate",
+            "Vitamin B6",
+            "Thiamin"
+        ],
+        "correctIndex": 1,
+        "explanation": "The patient's symptoms (fatigue, paresthesia) and high MCV (macrocytic anemia) are classic signs of Vitamin B12 deficiency, which is common in strict vegans who do not supplement. Both Vitamin B12 and folate deficiencies cause macrocytic anemia. High doses of supplemental folate can 'cure' or mask the macrocytic anemia caused by a B12 deficiency (normalizing the MCV and resolving the fatigue). However, folate cannot fix the neurological damage (paresthesia) caused by the lack of B12. Without the warning sign of anemia, the neurological damage will silently progress and may become permanent if the actual B12 deficiency is not treated."
+    },
+    {
+        "id": "dom1-ext-007",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research",
+        "difficulty": "medium",
+        "text": "A registered dietitian reads a meta-analysis concluding that a specific omega-3 supplement reduces fasting triglycerides. The study reports a relative risk (RR) of 0.65 with a 95% Confidence Interval (CI) of [0.45, 0.88]. How should the dietitian interpret this CI?",
+        "options": [
+            "The supplement is ineffective because the CI spans a wide range.",
+            "The supplement is effective because the entire CI is less than 1.0, indicating the results are statistically significant.",
+            "The supplement is ineffective because the CI does not cross 1.0.",
+            "The supplement's true effect is precisely 0.65 in 95% of the population."
+        ],
+        "correctIndex": 1,
+        "explanation": "When interpreting Confidence Intervals for Relative Risk (RR) or Odds Ratios (OR), a value of 1.0 represents 'no difference' between the groups. If the entire 95% CI interval is strictly less than 1.0 (or strictly greater than 1.0), it means the result is statistically significant and the effect is real. In this case, [0.45, 0.88] does not include 1.0, meaning we can be 95% confident that the true relative risk lies between a 55% reduction (1 - 0.45) and a 12% reduction (1 - 0.88). If the CI had been [0.85, 1.20] (crossing 1.0), the results would NOT be statistically significant."
+    },
+    {
+        "id": "dom1-ext-008",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "medium",
+        "text": "Which hormone, produced primarily by the stomach, stimulates appetite and promotes adiposity?",
+        "options": [
+            "Leptin",
+            "Gastrin",
+            "Ghrelin",
+            "Cholecystokinin (CCK)"
+        ],
+        "correctIndex": 2,
+        "explanation": "Ghrelin is the quintessential 'hunger hormone.' It is secreted primarily by the endocrine cells of the stomach, especially when empty, and acts on the hypothalamus to stimulate appetite, increase food intake, and promote fat storage. Its levels peak just before meals. Leptin, produced by adipose tissue, does the opposite (signals satiety). Gastrin stimulates stomach acid secretion. CCK, secreted by the small intestine, stimulates gallbladder contraction and pancreatic enzyme release, while also signaling satiety."
+    },
+    {
+        "id": "dom1-ext-009",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education & Counseling",
+        "difficulty": "hard",
+        "text": "During a counseling session, a client with hypertension states: 'I really don't want to give up salt. My food tastes like cardboard without it. But I also know my blood pressure is dangerously high, and my dad died of a stroke at my age.' According to Motivational Interviewing principles, the dietitian should respond by emphasizing which of the following?",
+        "options": [
+            "The client's change talk, by reflecting on their fear of having a stroke like their father.",
+            "The client's sustain talk, by validating that food without salt does indeed taste bad.",
+            "The medical data, by pulling up a chart showing the direct correlation between sodium intake and stroke risk.",
+            "The 'righting reflex', by immediately providing practical tips and recipes for salt-free cooking."
+        ],
+        "correctIndex": 0,
+        "explanation": "In Motivational Interviewing (MI), the client is exhibiting 'ambivalence,' expressing both reasons to stay the same (sustain talk: food tastes bad) and reasons to change (change talk: BP is high, fear of stroke). A core principle of MI is to recognize and amplify the client's 'change talk.' Reflecting on their fear of a stroke encourages the client to explore their internal motivations for health. Validating sustain talk is okay for rapport, but shouldn't be the primary emphasis if change talk is present. Suppressing the 'righting reflex' (the practitioner's urge to immediately fix the problem or argue for change) is essential in MI, so providing recipes or lecturing with data right away is counterproductive."
+    },
+    {
+        "id": "dom1-ext-010",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "Which of the following describes the function of sodium hexametaphosphate in processed food applications?",
+        "options": [
+            "It acts as an antimicrobial agent against yeasts and molds in acidic beverages.",
+            "It acts as an emulsifier to blend oil and water in salad dressings.",
+            "It acts as a sequestrant that binds metallic ions, preventing oxidative rancidity and color changes.",
+            "It acts as a humectant to retain moisture in soft baked goods."
+        ],
+        "correctIndex": 2,
+        "explanation": "Sodium hexametaphosphate (SHMP) is primarily utilized as a sequestrant (chelating agent). Sequestrants bind to free trace metallic ions (like copper or iron) present in food. If left free, these metal ions can act as catalysts for lipid oxidation (rancidity) and undesirable color or flavor changes. By trapping the metals, SHMP stabilizes the food product. Antioxidants like BHA or BHT stop oxidation chemically, but sequestrants work by removing the catalyst. Emulsifiers (like lecithin) blend fats and water. Humectants (like sorbitol) hold moisture."
+    },
+    {
+        "id": "dom1-ext-011",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Research",
+        "difficulty": "hard",
+        "text": "A study is designed to assess whether drinking green tea prevents the onset of cardiovascular disease. The researchers identify a group of 10,000 healthy adults, survey their current green tea consumption habits, and then track them over the next 15 years to see who develops cardiovascular disease. What type of study design is this?",
+        "options": [
+            "Retrospective cohort study",
+            "Prospective cohort study",
+            "Case-control study",
+            "Cross-sectional study"
+        ],
+        "correctIndex": 1,
+        "explanation": "This is a prospective cohort study. The defining characteristics are: a large group of healthy individuals (a cohort) is identified *before* disease onset, their exposures (green tea consumption) are classified at baseline, and then the researchers follow them *forward in time* (prospectively) to observe the incidence/development of the disease (CVD). A retrospective cohort looks back at historical data. A case-control study identifies people who *already* have the disease (cases) and compares them to people without it (controls) to look backward for exposures. A cross-sectional study looks at exposure and disease at a single point in time (like a snapshot)."
+    },
+    {
+        "id": "dom1-ext-012",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "medium",
+        "text": "What is the primary role of the hormone parathyroid hormone (PTH) in calcium homeostasis?",
+        "options": [
+            "It lowers serum calcium by stimulating osteoblast activity and bone formation.",
+            "It increases serum calcium by stimulating osteoclast activity and enhancing renal reabsorption of calcium.",
+            "It decreases intestinal absorption of calcium by inhibiting the synthesis of active Vitamin D.",
+            "It acts directly on the thyroid gland to trigger the release of calcitonin."
+        ],
+        "correctIndex": 1,
+        "explanation": "The parathyroid gland secretes parathyroid hormone (PTH) when blood calcium levels drop too low. PTH works to *raise* serum calcium levels through three main mechanisms: 1) It stimulates osteoclasts to break down bone matrix, releasing calcium into the blood. 2) It increases the reabsorption of calcium in the kidneys. 3) It stimulates the kidneys to convert Vitamin D to its active form (calcitriol), which in turn greatly increases calcium absorption in the intestines. Calcitonin (produced by the thyroid) does the opposite; it lowers high serum calcium levels by inhibiting osteoclasts."
+    },
+    {
+        "id": "dom1-ext-013",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Education & Counseling",
+        "difficulty": "medium",
+        "text": "Which learning theory emphasizes that learning is mediated by social interactions and cultural context, and that a learner's potential is maximized when guided by someone with more knowledge within their 'Zone of Proximal Development'?",
+        "options": [
+            "Cognitive Behavioral Theory",
+            "Social Learning Theory (Bandura)",
+            "Constructivism/Sociocultural Theory (Vygotsky)",
+            "Behaviorism (Skinner)"
+        ],
+        "correctIndex": 2,
+        "explanation": "Lev Vygotsky's Sociocultural Theory of constructivism posits that learning is fundamentally a social process. The 'Zone of Proximal Development' (ZPD) is a core concept of this theory: it represents the difference between what a learner can do without help and what they can achieve with guidance from a skilled partner (scaffolding). Bandura's Social Learning theory focuses on modeling and observational learning. Cognitive Behavioral Theory focuses on altering underlying thoughts to change behaviors. Behaviorism relies on operant conditioning (rewards/punishments)."
+    },
+    {
+        "id": "dom1-ext-014",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "When making a gelatin dessert, a chef notes that the gelatin fails to set correctly when she adds fresh pineapple chunks to the mixture. What is the biochemical reason for this failure?",
+        "options": [
+            "The high acidity of the pineapple denatures the gelatin proteins, preventing cross-linking.",
+            "Fresh pineapple contains bromelain, a proteolytic enzyme that breaks down the gelatin protein matrix.",
+            "The high sugar content of the pineapple competes with gelatin for available water molecules.",
+            "Pineapple contains tannins that precipitate the gelatin out of solution before it can set."
+        ],
+        "correctIndex": 1,
+        "explanation": "Gelatin is a protein derived from collagen. Fresh pineapple contains large amounts of bromelain, a highly active protease (proteolytic enzyme). When raw pineapple is added to a gelatin mixture, the bromelain actively digests and breaks the peptide bonds in the long gelatin protein chains into smaller fragments. Because the long protein strands are destroyed, they can no longer form the expansive 3D matrix/mesh required to trap water and 'set' into a gel. Canned pineapple does not cause this issue because the canning process heats the fruit, denaturing and deactivating the bromelain."
+    },
+    {
+        "id": "dom1-ext-015",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Nutrition Science",
+        "difficulty": "medium",
+        "text": "Which indispensable amino acid is the direct precursor for the endogenous synthesis of niacin (Vitamin B3) and the neurotransmitter serotonin?",
+        "options": [
+            "Tyrosine",
+            "Phenylalanine",
+            "Tryptophan",
+            "Methionine"
+        ],
+        "correctIndex": 2,
+        "explanation": "Tryptophan is an essential (indispensable) amino acid that serves as a vital precursor. Approximately 60 mg of dietary tryptophan can be converted in the liver to yield 1 mg of niacin. Tryptophan is also the direct biochemical precursor in the synthesis of the neurotransmitter serotonin (which regulates mood, sleep, and appetite) and subsequently melatonin. Tyrosine (derived from Phenylalanine) is the precursor for dopamine, norepinephrine, epinephrine, and melanin."
+    }
+]

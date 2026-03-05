@@ -1,0 +1,162 @@
+[
+    {
+        "id": "dom3-ext-001",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "A clinical nutrition manager identifies that the dietetic technicians (NDTRs) are frequently making errors when conducting malnutrition screenings. The manager decides to implement a training program based on the ADDIE model. What is the very first step the manager must take according to this model?",
+        "options": [
+            "Select the specific screening tool the NDTRs will be tested on (Design).",
+            "Observe the NDTRs on the floor to gather data on exactly where and why the errors are occurring (Analyze).",
+            "Draft a pilot training module and run it with a small focus group (Develop).",
+            "Implement a mandatory 1-hour in-service presentation for all staff (Implement)."
+        ],
+        "correctIndex": 1,
+        "explanation": "ADDIE stands for: Analyze, Design, Develop, Implement, Evaluate. Before designing any training program, the absolute first step is 'Analysis'. The manager must perform a needs assessment to observe the employees, gather data on their current performance versus desired performance, and pinpoint exactly where the knowledge/skill gaps lie. Only after understanding the *why* (Analysis) can the manager begin outlining learning objectives (Design) and building materials (Develop)."
+    },
+    {
+        "id": "dom3-ext-002",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "A foodservice director at a large hospital empowers the tray-line supervisors to directly handle minor scheduling conflicts and immediately issue meal replacements to upset patients without seeking upper-level approval. Which management theory does this action primarily reflect?",
+        "options": [
+            "Scientific Management Theory (Taylor)",
+            "Bureaucratic Management Theory (Weber)",
+            "Human Relations Theory (Mayo/Hawthorne)",
+            "Participative/Decentralized Management Theory"
+        ],
+        "correctIndex": 3,
+        "explanation": "Decentralization and participative management involve pushing decision-making authority down the chain of command, allowing lower-level managers/supervisors to make immediate operational choices without navigating rigorous bureaucratic hierarchy. Scientific management (Taylor) focuses on extreme efficiency and physical workflow logic. Bureaucratic (Weber) relies strictly on unbroken chains of command and rigid rules. Human Relations (Mayo) emphasizes how social interactions and feeling valued improve worker output (the Hawthorne effect)."
+    },
+    {
+        "id": "dom3-ext-003",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "hard",
+        "text": "The hospital cafeteria reports the following figures at the end of the year: Total Sales $120,000; Beginning Inventory $10,000; Purchases $40,000; Ending Inventory $15,000. What is the Inventory Turnover Rate for the year, and what does it indicate compared to the industry standard of 2-4 times per month?",
+        "options": [
+            "2.8 turns/year; The facility is holding far too much inventory, risking spoilage and tying up excess cash.",
+            "3.5 turns/year; The facility's turnover is perfectly aligned with industry standards.",
+            "12 turns/year; The facility is efficiently turning over its entire stock once a month.",
+            "35 turns/year; The facility is rotating stock too quickly and likely experiencing critical stockouts."
+        ],
+        "correctIndex": 0,
+        "explanation": "Inventory Turnover Rate = Cost of Food Sold (COFS) / Average Inventory Value. \n1) Calculate COFS: Beginning Inv ($10k) + Purchases ($40k) - Ending Inv ($15k) = $35,000.\n2) Calculate Average Inventory: (Beginning $10k + Ending $15k) / 2 = $12,500.\n3) Turnover Rate: $35,000 / $12,500 = 2.8 turns per *year*.\nThe industry standard is ~2 to 4 turns per *month* (or roughly 24-48/year). A rate of 2.8 per year is abysmally low, meaning massive amounts of cash are tied up in food sitting on shelves, greatly increasing the risk of spoilage, theft, and waste."
+    },
+    {
+        "id": "dom3-ext-004",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "medium",
+        "text": "During an interview for a clinical dietitian position, which of the following questions is strictly illegal for the hiring manager to ask the applicant under the Civil Rights Act and EEOC guidelines?",
+        "options": [
+            "Are you legally authorized to work in the United States?",
+            "Can you fulfill the job requirement, with or without reasonable accommodation, of lifting 20-pound boxes of enteral formula?",
+            "We often require weekend coverage. Do your religious practices prevent you from working on Saturdays?",
+            "Have you ever been convicted of a felony that directly relates to the responsibilities of this position?"
+        ],
+        "correctIndex": 2,
+        "explanation": "Under Title VII of the Civil Rights Act and EEOC guidelines, it is strictly forbidden to ask a job applicant questions about their religious beliefs, practices, or affiliations during an interview. While the employer can ask 'Are you available to work weekends as the job requires?', they cannot specifically frame it around a protected class characteristic like religion. Asking about legal legal authorization to work, ability to perform physical functions, and specific relevant felony convictions are legally permissible."
+    },
+    {
+        "id": "dom3-ext-005",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "hard",
+        "text": "In Herzberg's Two-Factor Theory of motivation, factors are divided into 'Motivators' and 'Hygiene factors'. A hospital administration decides to give all dietitians an across-the-board 5% salary increase to boost morale. According to Herzberg, what will be the likely effect on staff motivation?",
+        "options": [
+            "Job satisfaction will massively increase because financial reward is the ultimate Motivator.",
+            "It will prevent job dissatisfaction, but it will not actively motivate the dietitians to work harder or feel more fulfilled.",
+            "It will create lasting intrinsic motivation by fulfilling the 'Self-Actualization' requirement.",
+            "It will decrease motivation because the raise was uniform rather than merit-based."
+        ],
+        "correctIndex": 1,
+        "explanation": "Herzberg's Two-Factor Theory posits that 'Hygiene Factors' (salary, working conditions, job security, company policies) and 'Motivators' (achievement, recognition, responsibility, advancement) operate independently. Improving a Hygiene Factor (like giving a baseline salary raise) only eliminates *dissatisfaction*. It stops people from quitting/complaining. However, simply paying someone fairly does not intrinsically motivate them to excel. True 'Motivation' producing deeply satisfied, highly engaged workers comes only from the Motivator factors (giving them more clinical responsibility, recognizing their achievements)."
+    },
+    {
+        "id": "dom3-ext-006",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Marketing",
+        "difficulty": "medium",
+        "text": "A specialized eating disorder clinic aims a new advertising campaign exclusively at college-aged females participating in Division 1 athletics. This marketing strategy is an example of identifying a specific:",
+        "options": [
+            "Market niche",
+            "Target market using demographic and psychographic segmentation",
+            "Marketing mix (The 4 Ps)",
+            "Strategic business unit"
+        ],
+        "correctIndex": 1,
+        "explanation": "This strategy relies heavily on Market Segmentation (dividing a broad market into subsets). Specifically, aiming at 'college-aged females' utilizes Demographic segmentation, and targeting 'Division 1 athletes' touches on Psychographic/behavioral segmentation. The resulting group is the clinic's defining 'Target Market'. A niche is typically an even narrower, obscure segment. The Marketing Mix refers to the broad execution elements (Product, Price, Place, Promotion)."
+    },
+    {
+        "id": "dom3-ext-007",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "hard",
+        "text": "A new piece of automated dishwashing equipment costs $45,000 to purchase and install. The manufacturer estimates it has a usable lifespan of 10 years, and its final salvage value will be $5,000. Using the straight-line depreciation method, what will the depreciated value of the equipment be recorded as on the balance sheet at the end of Year 3?",
+        "options": [
+            "It will be recorded as a $4,000 yearly expense.",
+            "It will have an accumulated depreciation of $12,000, leaving a book value of $33,000.",
+            "It will drop to $15,000 total value.",
+            "It will be fully amortized by Year 3."
+        ],
+        "correctIndex": 1,
+        "explanation": "Straight-line depreciation formula: (Cost of Asset - Salvage Value) / Useful Life = Annual Depreciation Expense. \n($45,000 - $5,000) = $40,000 depreciable base.\n$40,000 / 10 years = $4,000 depreciation expense *per year*.\nAt the end of Year 3, the accumulated depreciation is 3 years × $4,000 = $12,000. \nThe 'book value' shown on the balance sheet is the original cost minus accumulated depreciation: ($45,000 - $12,000) = $33,000."
+    },
+    {
+        "id": "dom3-ext-008",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality",
+        "difficulty": "medium",
+        "text": "Which of the following describes a sentinel event according to the Joint Commission (TJC), requiring a mandatory root cause analysis and immediate reporting?",
+        "options": [
+            "A patient's tray is delivered 45 minutes late, missing their scheduled insulin window.",
+            "A patient complains that their pureed carrots are cold and refuses to eat them.",
+            "An NDTR accidentally spills hot coffee on a patient, resulting in severe second-degree burns.",
+            "A patient with a known, documented, and highlighted peanut allergy goes into anaphylactic shock and dies after mistakenly receiving a cookie containing peanut butter."
+        ],
+        "correctIndex": 3,
+        "explanation": "A 'Sentinel Event' is an unexpected occurrence involving death or serious physical or psychological injury (e.g., loss of limb or function) that requires immediate investigation and response. An error physically resulting in death (like the severe allergic reaction due to a system failure) is the defining example of a sentinel event. While a severe medication/insulin timing error or a severe burn are very serious incidents, the fatal systemic failure regarding an allergy definitively triggers the highest level sentinel event protocols and mandatory RCA reporting to the Joint Commission."
+    },
+    {
+        "id": "dom3-ext-009",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Human Resources",
+        "difficulty": "hard",
+        "text": "A unionized hospital cafeteria kitchen staff is currently in contract negotiations. The management and the union representatives have reached a complete impasse and refuse to compromise on wage increases. They agree to bring in a neutral third party whose final decision on the wage issue will be legally enforceable and binding on both sides. This process is known as:",
+        "options": [
+            "Mediation",
+            "Arbitration",
+            "Collective Bargaining",
+            "An Injunction"
+        ],
+        "correctIndex": 1,
+        "explanation": "When an impasse is reached, 'Arbitration' involves bringing in an objective third party (the arbitrator) who has the authority to listen to both sides and dictate a final, legally binding settlement that both parties *must* accept. 'Mediation' also uses a third party, but a mediator only offers advice, suggestions, and attempts to facilitate compromise; their rulings are non-binding. Collective bargaining is the initial legal process of negotiating the contract. An injunction is a court order to halt an action (like a strike)."
+    },
+    {
+        "id": "dom3-ext-010",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Functions of Management",
+        "difficulty": "medium",
+        "text": "A manager relies on creating detailed schedules, strict procedures, objective metrics, and rigid adherence to 'the rules' to manage staff. When problems arise, the manager looks strictly to the policy manual for the answer rather than asking employees for input. This reflects which leadership style?",
+        "options": [
+            "Autocratic",
+            "Bureaucratic",
+            "Democratic",
+            "Laissez-faire"
+        ],
+        "correctIndex": 1,
+        "explanation": "The 'Bureaucratic' leadership style is defined by doing everything 'by the book.' The leader relies entirely on established rules, policies, and procedures (the bureaucracy) to govern the workplace. While similar to 'Autocratic' (where the leader dictates complete control and demands total obedience without input), the autocratic leader relies on their *personal* authority, whereas the bureaucratic leader relies on the *institutional* authority of the rulebook."
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "id": "dom2-dm-001",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "medium",
+        "text": "A Registered Dietitian is evaluating a 55-year-old male with Type 2 Diabetes who consistently consumes a diet high in refined carbohydrates and sugary beverages. His current HbA1c is 8.5%. Which of the following is the most appropriately written PES statement?",
+        "options": [
+            "Altered nutrition-related laboratory values related to Type 2 Diabetes as evidenced by HbA1c of 8.5%.",
+            "Excessive carbohydrate intake related to frequent consumption of sugary beverages and refined grains as evidenced by dietary recall AND HbA1c of 8.5%.",
+            "High blood sugar related to poor diet choices as evidenced by patient consuming daily sugary beverages.",
+            "Type 2 Diabetes related to excess weight and high carbohydrate intake as evidenced by HbA1c of 8.5%."
+        ],
+        "correctIndex": 1,
+        "explanation": "A PES statement must include the Problem (diagnostic label), Etiology (root cause the RD can address), and Signs/Symptoms (data proving the problem). 'Excessive carbohydrate intake' is an appropriate intake-domain problem. The etiology (frequent consumption of sugary beverages) is behavioral and can be targeted through nutrition intervention. The signs/symptoms include both dietary history and clinical lab data (HbA1c). Medical diagnoses (like Type 2 Diabetes) should not be used as the Problem or the Etiology if possible, because RDs do not cure diabetes; they treat the nutritional problem causing or exacerbating the diabetes."
+    },
+    {
+        "id": "dom2-dm-002",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring and Evaluation",
+        "difficulty": "hard",
+        "text": "A patient with newly diagnosed celiac disease was counseled on a strict gluten-free diet 3 months ago. During the follow-up visit, the patient reports adherence, but their symptoms (diarrhea and bloating) persist. Which laboratory value should the dietitian monitor to best evaluate compliance to the gluten-free diet?",
+        "options": [
+            "C-reactive protein (CRP)",
+            "Tissue transglutaminase (tTG-IgA) antibodies",
+            "Serum ferritin",
+            "Fecal fat analysis"
+        ],
+        "correctIndex": 1,
+        "explanation": "Tissue transglutaminase (tTG-IgA) antibodies are the most sensitive and specific serologic markers for celiac disease. When a patient adheres to a strict gluten-free diet, tTG-IgA levels should decrease significantly over time (often normalizing within 6-12 months). Persistent or rising levels indicate continued gluten exposure, whether intentional or accidental (cross-contamination). CRP is a generalized marker of inflammation. Ferritin assesses iron stores. Fecal fat tests for malabsorption but does not specifically pinpoint gluten ingestion."
+    },
+    {
+        "id": "dom2-dm-003",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "A clinical dietitian is reviewing the chart of a 72-year-old female admitted with a pressure injury (Stage III). She has lost 10% of her body weight over the past 3 months and her intake is <50% of estimated needs. Which domain of the Nutrition Diagnostic Terminology should the RD prioritize when formulating the PES statement?",
+        "options": [
+            "Clinical",
+            "Intake",
+            "Behavioral-Environmental",
+            "Medical"
+        ],
+        "correctIndex": 1,
+        "explanation": "When evaluating potential nutrition diagnoses, the Academy of Nutrition and Dietetics guidelines emphasize prioritizing the Intake domain over the Clinical or Behavioral-Environmental domains. Intake problems are generally more specific to the role of the dietitian and direct the intervention specifically toward modifying food/nutrient delivery (e.g., Inadequate energy intake). If an Intake diagnosis exists, it should be the primary diagnosis. Medical is not a domain in the standardized terminology."
+    },
+    {
+        "id": "dom2-dm-004",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring and Evaluation",
+        "difficulty": "medium",
+        "text": "An RD is monitoring a patient on long-term total parenteral nutrition (TPN). The RD notes a sudden spike in the patient's blood glucose levels (250 mg/dL) after previously being stable at 110 mg/dL on the same TPN formula. Which of the following complications should the RD suspect first?",
+        "options": [
+            "Essential fatty acid deficiency",
+            "Refeeding syndrome",
+            "Catheter-related systemic infection/sepsis",
+            "Excessive dextrose infusion rate"
+        ],
+        "correctIndex": 2,
+        "explanation": "A sudden, unexplained spike in blood glucose levels in a patient previously stable on a consistent TPN regimen is a hallmark clinical sign of systemic infection or sepsis (often originating from the central venous catheter). The stress response to infection causes insulin resistance and increased hepatic gluconeogenesis. Refeeding syndrome typically causes hypophosphatemia, hypokalemia, and hypomagnesemia early in the feeding process. An excessive dextrose infusion rate would have caused hyperglycemia earlier in the therapy, not suddenly when stable."
+    },
+    {
+        "id": "dom2-dm-005",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "A patient arrives at an outpatient clinic for weight management counseling. The dietitian notes: BMI 34, patient expresses a desire to lose weight but states, 'I just don't know how to cook healthy meals and eat fast food for lunch every day.' What is the most appropriate 'Etiology' (root cause) for the PES statement: 'Excessive energy intake...'?",
+        "options": [
+            "Related to BMI of 34",
+            "Related to undesirable food choices",
+            "Related to food- and nutrition-related knowledge deficit",
+            "Related to limited access to healthy foods"
+        ],
+        "correctIndex": 2,
+        "explanation": "The etiology reveals the root cause of the problem and tells the dietitian what the intervention should target. The patient explicitly states, 'I just don't know how to cook healthy meals.' This points directly to a 'food- and nutrition-related knowledge deficit' and a potential deficit in food preparation skills. The RD's intervention will include education and skill-building on cooking and meal prep. BMI is a sign/symptom, not an etiology. Undesirable food choices is a problem or sign, not the root cause. Lack of access is not indicated here (just a lack of knowledge/skills)."
+    },
+    {
+        "id": "dom2-dm-006",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring and Evaluation",
+        "difficulty": "medium",
+        "text": "Which of the following scenarios best demonstrates appropriate Nutrition Monitoring and Evaluation following a diagnosis of 'Inadequate Iron Intake'?",
+        "options": [
+            "Educating the patient on dietary sources of heme and non-heme iron.",
+            "Reviewing the patient's hemoglobin and hematocrit lab values at a 3-month follow-up visit.",
+            "Recommending an over-the-counter ferrous sulfate supplement 325mg daily.",
+            "Diagnosing the patient with iron-deficiency anemia."
+        ],
+        "correctIndex": 1,
+        "explanation": "Monitoring and Evaluation involves selecting appropriate indicators to measure the amount of progress made for the nutrition diagnosis. Reviewing specific lab values (hemoglobin/hematocrit) at a follow-up visit is an evaluation of the outcome to see if the problem (inadequate iron status) is resolving. Educating the patient and recommending supplements are Nutrition Interventions. Diagnosing anemia is an assessment/medical diagnosis step."
+    },
+    {
+        "id": "dom2-dm-007",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "Evaluate the following PES statement for a resident in long-term care: 'Swallowing difficulty related to stroke as evidenced by coughing and choking during meals, and SLP recommendation for pureed diet.' What is the primary flaw in this PES statement?",
+        "options": [
+            "The problem 'Swallowing difficulty' is not an approved standardized diagnostic term.",
+            "The etiology 'stroke' is a medical diagnosis, which the dietitian cannot alter via a nutrition intervention.",
+            "The signs and symptoms are subjective and cannot be objectively measured.",
+            "It lacks a secondary intake domain problem."
+        ],
+        "correctIndex": 1,
+        "explanation": "The etiology in a PES statement should ideally be something that the dietetic professional can resolve or mitigate through a nutrition intervention. A dietitian cannot cure or reverse a 'stroke' (a medical diagnosis). A better etiology would be 'related to neurological impairment causing oropharyngeal dysphagia.' While 'swallowing difficulty' is listed in the clinical domain (NC-1.1), the fundamental error according to PES writing guidelines is utilizing an immutable medical diagnosis as the root etiology."
+    },
+    {
+        "id": "dom2-dm-008",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring and Evaluation",
+        "difficulty": "medium",
+        "text": "A dietitian is monitoring an oncology patient receiving cyclic parenteral nutrition. Which set of lab values is most critical to monitor for the prevention and early detection of refeeding syndrome when PN is initiated?",
+        "options": [
+            "Sodium, Calcium, BUN",
+            "Potassium, Phosphorus, Magnesium",
+            "Triglycerides, Cholesterol, AST",
+            "Prealbumin, Transferrin, CRP"
+        ],
+        "correctIndex": 1,
+        "explanation": "Refeeding syndrome occurs when severe undernourished patients are fed via enteral or parenteral routes, causing an insulin surge. Insulin drives glucose, potassium, phosphorus, and magnesium rapidly into the cells, leading to profound and potentially fatal serum hypokalemia, hypophosphatemia, and hypomagnesemia. Therefore, Potassium, Phosphorus, and Magnesium must be closely monitored and aggressively repleted during the initiation of feeding."
+    },
+    {
+        "id": "dom2-dm-009",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring and Evaluation",
+        "difficulty": "hard",
+        "text": "When writing goal statements during the Monitoring and Evaluation step, an RD should ensure goals are SMART. A patient with a diagnosis of 'Inadequate fluid intake' sets a goal to 'Drink more water.' How should the RD revise this goal to meet SMART criteria?",
+        "options": [
+            "Consume enough fluid to eliminate signs of physical dehydration.",
+            "Drink eight 8-ounce glasses of water every day.",
+            "Consume 64 ounces of water daily by replacing soda at lunch and dinner with 16 ounces of water over the next 2 weeks.",
+            "Hydrate frequently throughout the day to meet estimated daily fluid requirements of 2000 mL."
+        ],
+        "correctIndex": 2,
+        "explanation": "SMART goals must be Specific, Measurable, Attainable, Realistic, and Time-bound. 'Consume 64 ounces of water daily by replacing soda at lunch and dinner with 16 ounces of water over the next 2 weeks' meets all criteria. It states exactly what will happen (64 oz), how it will happen (replacing soda), and specifies a timeframe (2 weeks). The other options lack either specific measurable quantities, a designated timeframe, or actionable steps."
+    },
+    {
+        "id": "dom2-dm-010",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "medium",
+        "text": "A patient with suspected lactose intolerance presents with symptoms of cramping, flatulence, and diarrhea post-dairy ingestion. The nutrition diagnosis is 'Altered GI function.' Which piece of data serves as the best 'Sign/Symptom' (evidenced by) component of the PES statement?",
+        "options": [
+            "Lack of lactase enzyme production in the brush border.",
+            "Recent antibiotic usage disrupting the gut microbiome.",
+            "Patient report of cramping, flatulence, and watery diarrhea within 1 hour of consuming dairy.",
+            "Recommendation for a lactose-free diet."
+        ],
+        "correctIndex": 2,
+        "explanation": "The 'Signs and Symptoms' (S) in a PES statement are the defining characteristics or the data utilized to confirm that the specific problem exists. The patient's subjective report of physical gastrointestinal symptoms (cramping, flatulence, diarrhea) following dairy intake serves as the clinical evidence for the 'Altered GI function' problem. Lack of lactase is an etiology. Recommendation for a diet is an intervention."
+    }
+]

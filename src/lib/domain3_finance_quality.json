@@ -1,0 +1,162 @@
+[
+    {
+        "id": "dom3-fq-001",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "hard",
+        "text": "A hospital cafeteria wants to introduce a new gourmet sandwich station. The fixed costs associated with the new station (equipment lease, signage) are $5,000 per month. The sandwiches will sell for $8.00 each, and the variable cost (ingredients, packaging) per sandwich is $3.00. How many sandwiches must the cafeteria sell per month to break even?",
+        "options": [
+            "625 sandwiches",
+            "1,000 sandwiches",
+            "1,667 sandwiches",
+            "2,500 sandwiches"
+        ],
+        "correctIndex": 1,
+        "explanation": "The formula for the break-even point in units is: Fixed Costs / (Selling Price - Variable Cost per Unit). Selling Price - Variable Cost = Contribution Margin ($8.00 - $3.00 = $5.00). Break-even point = $5,000 / $5.00 = 1,000 sandwiches. Selling 1,000 sandwiches will cover exactly all fixed and variable costs."
+    },
+    {
+        "id": "dom3-fq-002",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "medium",
+        "text": "Which financial document provides a static snapshot of an organization's financial condition at a specific point in time, detailing its assets, liabilities, and equity?",
+        "options": [
+            "Income statement (Profit and Loss)",
+            "Cash flow statement",
+            "Balance sheet",
+            "Operating budget"
+        ],
+        "correctIndex": 2,
+        "explanation": "A balance sheet is a snapshot of financial health on a given specific date (e.g., 'As of December 31'). It adheres to the accounting equation: Assets = Liabilities + Equity. An income statement (P&L) covers a period of time (e.g., a month or year) and shows revenue, expenses, and profit over that period. The cash flow statement tracks the movement of cash in and out. The operating budget is a planned projection of revenues and expenses."
+    },
+    {
+        "id": "dom3-fq-003",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality",
+        "difficulty": "hard",
+        "text": "A clinical nutrition manager conducts a retrospective chart review to assess if 90% of newly admitted patients with high nutrition risk were assessed by an RD within 24 hours. The results show only 75% adherence. Using the continuous quality improvement (CQI) model PDCA (Plan-Do-Check-Act), what is the next logical step?",
+        "options": [
+            "Act: Punish staff who failed to meet the 24-hour deadline.",
+            "Plan: Investigate the root causes of the delay and develop a new strategy to improve assessment times.",
+            "Do: Immediately change the deadline from 24 hours to 48 hours to ensure 100% compliance.",
+            "Check: Audit the charts again next month before taking any actions."
+        ],
+        "correctIndex": 1,
+        "explanation": "In the PDCA cycle, the manager has completed the 'Check' phase by auditing the data and comparing it against the benchmark (90% desired vs 75% actual). The next logical loop begins with 'Plan': investigating why the goal was not met (e.g., staffing issues, faulty notification systems) and developing a plan to address those root causes. Action must be based on data and process improvement, not punitive measures (a core tenet of TQM/CQI). Lowering standards to meet compliance defeats the purpose of quality improvement."
+    },
+    {
+        "id": "dom3-fq-004",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "medium",
+        "text": "A foodservice operation has total monthly sales of $50,000. Food costs are $15,000, and labor costs are $20,000. Overhead and operational expenses are $10,000. What is the food cost percentage for the month?",
+        "options": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+        ],
+        "correctIndex": 1,
+        "explanation": "Food Cost Percentage is calculated by dividing total food costs by total sales. Food Cost ($15,000) / Sales ($50,000) = 0.30 or 30%. Labor costs and operational overhead are irrelevant to the specific calculation of Food Cost Percentage, though they are needed to calculate total profit margin."
+    },
+    {
+        "id": "dom3-fq-005",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "hard",
+        "text": "Which type of budget uses the existing budget as a base and strictly projects financial changes for the ensuing year based on inflation and projected changes in volume, rather than justifying every expense from scratch?",
+        "options": [
+            "Zero-based budget",
+            "Incremental budget",
+            "Flexible budget",
+            "Capital budget"
+        ],
+        "correctIndex": 1,
+        "explanation": "An incremental budget (also known as a traditional or baseline budget) takes the previous period's budget or actual performance as a baseline and merely adjusts it incrementally for factors like inflation or expected slight volume changes. A zero-based budget requires justifying every expense starting from $0. A flexible budget adjusts to various levels of volume or activity. A capital budget is for large, long-term investments (like major equipment)."
+    },
+    {
+        "id": "dom3-fq-006",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality",
+        "difficulty": "medium",
+        "text": "The Joint Commission (TJC) requires hospitals to adhere to National Patient Safety Goals. When a dietitian enters patient room to provide dietary education, what is the required protocol for identifying the patient?",
+        "options": [
+            "Check the patient's room number and bed letter.",
+            "Ask the patient if they are \"Mr. Smith.\"",
+            "Use at least two patient identifiers, such as name and date of birth.",
+            "Verify the dietary tray ticket matches the medical record."
+        ],
+        "correctIndex": 2,
+        "explanation": "The Joint Commission strictly requires the use of at least two independent patient identifiers whenever administering medications, blood products, or providing treatments/procedures (including diet instruction). Acceptable identifiers usually include the patient's full name and date of birth or medical record number. Room number or bed assignment is explicitly prohibited as an identifier because patients can be moved. Prompting a patient with a name ('Are you Mr. Smith?') is dangerous if patients are confused or hard of hearing."
+    },
+    {
+        "id": "dom3-fq-007",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality",
+        "difficulty": "hard",
+        "text": "A clinical nutrition team implements a new malnutrition screening tool to improve diagnostic rates. To evaluate whether the new tool leads to sustained improvements, the manager uses a run chart graphing malnutrition diagnosis rates over 12 months. This approach to quality management aligns most closely with which philosophy?",
+        "options": [
+            "Six Sigma",
+            "Total Quality Management (TQM)",
+            "Management by Objectives (MBO)",
+            "Lean Production"
+        ],
+        "correctIndex": 1,
+        "explanation": "Total Quality Management (TQM) and Continuous Quality Improvement (CQI) focus on continuous evaluation of processes and data-driven analysis using statistical tools like run charts, control charts, and Pareto charts over time to monitor and improve systems. Six Sigma focuses specifically on extreme reduction of defects (using the DMAIC framework). Lean focuses heavily on eliminating structural waste. MBO is a performance appraisal system setting supervisor/employee goals, not statistically tracking system processes."
+    },
+    {
+        "id": "dom3-fq-008",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "medium",
+        "text": "A clinical dietitian manager is calculating full-time equivalents (FTEs) to determine staffing needs. The department requires 240 hours of straight work per week to cover all clinical duties. Assuming a standard 40-hour workweek per FTE, but accounting for a standard relief factor of 1.55 (to cover weekends/holidays), how many total FTEs are required?",
+        "options": [
+            "6.0 FTEs",
+            "8.5 FTEs",
+            "9.3 FTEs",
+            "12.1 FTEs"
+        ],
+        "correctIndex": 2,
+        "explanation": "First, find the absolute or base FTEs needed: 240 hours / 40 hours per week = 6.0 absolute FTEs. In operations running 7 days a week (like clinical coverage), you must determine adjusted FTEs by multiplying the absolute FTEs by the relief factor. 6.0 FTEs × 1.55 = 9.3 total FTEs required to ensure constant daily coverage factoring in time off."
+    },
+    {
+        "id": "dom3-fq-009",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Financial",
+        "difficulty": "hard",
+        "text": "To increase profitability without changing the menu price, a foodservice manager instructs the cooks to slightly decrease the portion sizes of expensive protein items from 4 oz to 3.5 oz. This tactic aims to manipulate which financial metric?",
+        "options": [
+            "The prime cost",
+            "The food cost percentage",
+            "The fixed margin",
+            "The inventory turnover rate"
+        ],
+        "correctIndex": 1,
+        "explanation": "Decreasing portion sizes reduces the absolute cost of ingredients required to produce one menu item. Assuming the selling price remains the same, the lower raw food cost will directly drive down the food cost percentage (Food Cost / Sales). Prime cost is food + labor, and while food cost is part of it, 'food cost percentage' is the specific term used to define raw ingredient margins relative to sales. Fixed costs don't change based on portion sizes. Inventory turnover is related to how fast items sit in storage."
+    },
+    {
+        "id": "dom3-fq-010",
+        "moduleId": "mod3",
+        "domain": "Domain III",
+        "topic": "Quality",
+        "difficulty": "medium",
+        "text": "In systems theory regarding quality management, measuring the percentage of trays delivered accurately and at the correct temperature represents an evaluation of the system's:",
+        "options": [
+            "Inputs",
+            "Transformation",
+            "Outputs",
+            "Control"
+        ],
+        "correctIndex": 2,
+        "explanation": "In a systems model, 'Inputs' are resources (raw food, labor, money). 'Transformation' represents the processes that change inputs to outputs (cooking, assembling). 'Outputs' are the final products and services delivered to the customer, as well as outcomes like customer satisfaction, tray accuracy, and financial accountability. Evaluating tray accuracy evaluates the end output of the operation. 'Control' involves regulations, laws, and internal policies guiding the system."
+    }
+]

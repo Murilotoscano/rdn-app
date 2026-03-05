@@ -1,0 +1,162 @@
+[
+    {
+        "id": "dom1-fs-001",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "A food manufacturer is developing a new line of low-sodium canned soups. To maintain the safety and shelf life of the product without relying heavily on salt, which of the following food preservation methods or additives would be most appropriate to prevent the growth of Clostridium botulinum?",
+        "options": [
+            "Adding ascorbic acid to lower the pH below 4.6",
+            "Increasing the sugar concentration to reduce water activity",
+            "Using sodium nitrite in the canning process",
+            "Applying pasteurization at 161°F (71.6°C) for 15 seconds"
+        ],
+        "correctIndex": 0,
+        "explanation": "Clostridium botulinum spores cannot germinate and produce toxin in high-acid (pH < 4.6) environments. Adding ascorbic acid (or other food-grade acids) lowers the pH to a safe level, allowing for a milder heating process (boiling water bath vs. pressure canning). Sodium nitrite is highly effective against C. botulinum but is primarily used in cured meats, not typical canned soups. Pasteurization at 161°F is a HTST pasteurization standard for milk and does not destroy C. botulinum spores; pressure canning (reaching 240°F/116°C) or acidification is required."
+    },
+    {
+        "id": "dom1-fs-002",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "When baking a shortened cake at a high altitude (above 3,000 feet), which of the following ingredient adjustments should be made to prevent the cake from collapsing?",
+        "options": [
+            "Increase sugar and increase baking powder",
+            "Decrease sugar and decrease baking powder",
+            "Increase liquid and decrease flour",
+            "Decrease liquid and increase baking powder"
+        ],
+        "correctIndex": 1,
+        "explanation": "At high altitudes, the atmospheric pressure is lower. This causes leavening gases to expand more quickly before the heat of the oven can coagulate the proteins and set the cake structure, often resulting in a collapsed cake. To counteract this, you must DECREASE leavening agents (baking powder) and DECREASE tenderizers (sugar, fat) while INCREASING structural ingredients (flour, liquid, eggs). Therefore, decreasing sugar and baking powder is the correct adjustment."
+    },
+    {
+        "id": "dom1-fs-003",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "A classic hollandaise sauce is an emulsion of butter in water (from lemon juice/vinegar), stabilized by egg yolks. Which component of the egg yolk acts as the primary emulsifying agent?",
+        "options": [
+            "Avidin",
+            "Ovalbumin",
+            "Lecithin",
+            "Lipoprotein"
+        ],
+        "correctIndex": 2,
+        "explanation": "Lecithin, a phospholipid found in egg yolks (as well as soybeans), is an excellent natural emulsifier. It has a hydrophilic (water-loving) head and a hydrophobic (water-fearing/fat-loving) tail, allowing it to interface between water and fat, thereby stabilizing an emulsion like hollandaise or mayonnaise. Ovalbumin is a primary protein in egg white. Avidin is a protein in raw egg white that binds biotin. Lipoproteins are also in yolks but lecithin is the specific emulsifying phospholipid."
+    },
+    {
+        "id": "dom1-fs-004",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "During the ripening of climacteric fruits like bananas and avocados, starches are converted to sugars, and the fruit softens. Which naturally occurring plant hormone is primarily responsible for triggering and accelerating the ripening process in these fruits?",
+        "options": [
+            "Abscisic acid",
+            "Ethylene gas",
+            "Gibberellin",
+            "Chlorophyllase"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ethylene gas is a plant hormone that stimulates the ripening of climacteric fruits. Climacteric fruits continue to ripen after being picked and produce a burst of ethylene gas during this process. This is why placing a ripe banana in a paper bag with unripe fruit accelerates the ripening of the other fruit. Abscisic acid generally promotes dormancy. Gibberellins promote stem elongation and seed germination. Chlorophyllase is an enzyme that breaks down chlorophyll, unmasking other pigments during ripening, but ethylene is the primary trigger hormone."
+    },
+    {
+        "id": "dom1-fs-005",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "Which functional food ingredient, found in oats and barley, has an FDA-approved health claim for reducing the risk of coronary heart disease by lowering serum cholesterol levels?",
+        "options": [
+            "Inulin",
+            "Beta-glucan",
+            "Lignans",
+            "Anthocyanins"
+        ],
+        "correctIndex": 1,
+        "explanation": "Beta-glucan is a type of soluble dietary fiber found abundantly in oats and barley. The FDA has authorized a health claim linking the consumption of beta-glucan soluble fiber from these sources to a reduced risk of coronary heart disease due to its ability to lower LDL cholesterol. Inulin is a soluble fiber (fructan) often used as a prebiotic. Lignans are phytoestrogens found in flaxseed. Anthocyanins are flavonoid pigments found in berries."
+    },
+    {
+        "id": "dom1-fs-006",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "When cooking green vegetables like broccoli, boiling them in acidic water (or adding lemon juice) turns the vegetables an olive-green drab color. What is the chemical reaction causing this color change?",
+        "options": [
+            "Chlorophyll is converted to pheophytin",
+            "Chlorophyll is converted to chlorophyllin",
+            "Anthoxanthins are oxidized to flavones",
+            "Carotenoids undergo isomerization"
+        ],
+        "correctIndex": 0,
+        "explanation": "When vegetables containing chlorophyll are heated in an acidic environment, the central magnesium ion in the chlorophyll porphyrin ring is replaced by hydrogen ions. This forms pheophytin, which is olive-green or dull brown in color. Conversely, in an alkaline environment (adding baking soda), chlorophyll forms chlorophyllin, which is bright, intense green (but makes the vegetable mushy). Carotenoids are very stable and generally unaffected by pH changes. Anthoxanthins are white pigments."
+    },
+    {
+        "id": "dom1-fs-007",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "A dietitian is developing a sports drink and wants to use a sweetener that provides the highest relative sweetness per gram compared to sucrose. Which of the following non-nutritive sweeteners should be selected?",
+        "options": [
+            "Aspartame",
+            "Saccharin",
+            "Sucralose",
+            "Acesulfame potassium"
+        ],
+        "correctIndex": 2,
+        "explanation": "Sucralose is highly potent, being approximately 600 times sweeter than sucrose. Aspartame and Acesulfame potassium (Ace-K) are roughly 200 times sweeter than sucrose. Saccharin is about 300 to 400 times sweeter. Therefore, sucralose provides the highest relative sweetness per gram among the options listed."
+    },
+    {
+        "id": "dom1-fs-008",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "Retrogradation is a process that occurs in starch gels and baked goods as they cool and age, resulting in staling and weeping (syneresis). Which type of starch molecule is primarily responsible for forming the crystalline structures characteristic of retrogradation?",
+        "options": [
+            "Amylopectin",
+            "Amylose",
+            "Glycogen",
+            "Cellulose"
+        ],
+        "correctIndex": 1,
+        "explanation": "Amylose is a linear starch molecule. Its straight, unbranched chains can easily align and form hydrogen bonds with one another as a starch paste cools or ages, leading to a tight, crystalline network. This process expels water (syneresis) and causes staling (retrogradation). Amylopectin, a highly branched starch molecule, does not retrograde as severely because its branches prevent it from packing tightly together. Waxy starches, which are nearly 100% amylopectin, are often used in commercial frozen foods to prevent retrogradation."
+    },
+    {
+        "id": "dom1-fs-009",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "medium",
+        "text": "The Maillard reaction is responsible for the browning and flavor development in foods like baked bread, roasted coffee, and seared meat. This non-enzymatic browning reaction occurs between a reducing sugar and:",
+        "options": [
+            "An amino acid",
+            "A fatty acid",
+            "Oxygen",
+            "Polyphenol oxidase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The Maillard reaction is a complex chemical reaction between a reducing sugar (such as glucose, fructose, or lactose) and an amino acid (specifically the free amino group of proteins). This reaction occurs rapidly at elevated temperatures in dry environments. Browning in sliced apples or potatoes is enzymatic browning, catalyzed by the enzyme polyphenol oxidase in the presence of oxygen. Caramelization involves the thermal degradation of sugars without the presence of amino acids."
+    },
+    {
+        "id": "dom1-fs-010",
+        "moduleId": "mod1",
+        "domain": "Domain I",
+        "topic": "Food Science",
+        "difficulty": "hard",
+        "text": "When assessing the quality of meat, the designation 'USDA Prime' indicates the highest grade. Which factor is the primary determinant in assigning quality grades to beef?",
+        "options": [
+            "The amount of connective tissue and collagen",
+            "The color of the lean meat",
+            "The degree of marbling and maturity of the animal",
+            "The yield of usable meat from the carcass"
+        ],
+        "correctIndex": 2,
+        "explanation": "USDA quality grades for beef (Prime, Choice, Select, etc.) are based primarily on two factors: the degree of marbling (intramuscular fat within the lean part of the meat) and the maturity (age) of the animal at the time of slaughter. Higher marbling and younger maturity generally indicate more tender, juicy, and flavorful meat. Yield grading is a separate grading system that rates the proportion of usable meat (cutability) relative to fat and bone (yield grades 1-5), but does not determine quality grades like Prime."
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "id": "dom2-ext-001",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "hard",
+        "text": "A 68-year-old male with chronic kidney disease (Stage 4) and heart failure is admitted to the hospital with severe edema. To obtain the most accurate estimate of his resting energy requirements, which anthropometric measurement strategy should the dietitian use?",
+        "options": [
+            "Use his current actual body weight to account for the total cellular mass.",
+            "Use his ideal body weight (IBW), as actual weight is obscured by fluid.",
+            "Calculate an estimated dry weight using his usual body weight prior to fluid accumulation.",
+            "Multiply his current actual weight by a stress factor of 1.2 to 1.3."
+        ],
+        "correctIndex": 2,
+        "explanation": "In patients with severe edema or ascites (common in CHF, CKD, and cirrhosis), actual body weight is artificially inflated by excess fluid, severely overestimating energy needs. Using pure Ideal Body Weight (IBW) can drastically underestimate needs if the patient is chronically overweight or malnourished. The gold standard in this scenario is to determine the patient's estimated 'dry weight.' This is usually derived from their usual body weight prior to the fluid retention, or by estimating the volume of fluid (e.g., subtracting weight for 3+ pitting edema). Calorie equations should then apply to this dry weight."
+    },
+    {
+        "id": "dom2-ext-002",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "medium",
+        "text": "A patient taking a monoamine oxidase inhibitor (MAOI) for depression must be prescribed a specific diet to avoid a potential hypertensive crisis. Which of the following foods must the dietitian instruct the patient to avoid?",
+        "options": [
+            "Aged cheeses, cured meats, and draft beer",
+            "Grapefruit and grapefruit juice",
+            "Dark green leafy vegetables and cruciferous vegetables",
+            "Dairy products and calcium-fortified orange juice"
+        ],
+        "correctIndex": 0,
+        "explanation": "MAOIs block the enzyme monoamine oxidase, which is responsible for breaking down tyramine in the body. If a patient on MAOIs consumes foods high in tyramine, tyramine builds up and causes a massive release of norepinephrine, leading to a potentially fatal hypertensive crisis. Foods rich in tyramine are those that are aged, fermented, cured, or pickled (e.g., aged cheeses, salami, pepperoni, draft beer, soy sauce). Grapefruit interacts with statins. Leafy greens interact with warfarin (Coumadin)."
+    },
+    {
+        "id": "dom2-ext-003",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "Review the following PES statement documentation: 'Altered GI function related to irritable bowel syndrome as evidenced by reports of chronic diarrhea, cramping, and unintentional weight loss of 5 lbs in one month.' What is the critical error in this PES statement?",
+        "options": [
+            "The problem 'Altered GI function' is not an approved terminology.",
+            "The signs/symptoms ('cramping', 'diarrhea') are completely subjective.",
+            "The etiology is a medical diagnosis that the dietitian cannot independently resolve.",
+            "Weight loss cannot be used as a sign/symptom for a gastrointestinal problem."
+        ],
+        "correctIndex": 2,
+        "explanation": "Just as with strokes or cancer, irritable bowel syndrome (IBS) is an unalterable medical diagnosis. The etiology (E) in a PES statement should be the specific, underlying cause of the nutrition problem that the registered dietitian can address through a direct nutrition intervention. By listing 'related to irritable bowel syndrome,' the RD implies they are going to cure the IBS. A much better, actionable etiology would be something related to diet, such as 'related to consumption of high-FODMAP foods' or 'frequent intake of known GI irritants' which directly leads to an intervention (a low-FODMAP diet trial)."
+    },
+    {
+        "id": "dom2-ext-004",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "hard",
+        "text": "A patient with cystic fibrosis presents with steatorrhea, poor weight gain, and fat-soluble vitamin deficiencies despite consuming adequate calories. The physician prescribes Pancreatic Enzyme Replacement Therapy (PERT). How should the dietitian instruct the patient to take the PERT capsules for maximum efficacy?",
+        "options": [
+            "Take the entire dose first thing in the morning on an empty stomach.",
+            "Crush the enzymes and mix them into a hot beverage like tea or hot chocolate.",
+            "Take the enzymes right before or throughout the duration of every meal and fat-containing snack.",
+            "Take the enzymes exactly two hours after a meal to aid in distal bowel absorption."
+        ],
+        "correctIndex": 2,
+        "explanation": "Cystic fibrosis causes thick mucus to block the pancreatic ducts, preventing natural digestive enzymes from reaching the small intestine and resulting in severe malabsorption (exocrine pancreatic insufficiency). PERT enzymes must be physically present in the duodenum *at the exact same time* the chyme arrives from the stomach. Therefore, they must be taken right before the first bite, or spread evenly throughout a meal and all fat-containing snacks. Heat destroys the enzymes (so no hot beverages), and taking them on an empty stomach makes them useless, as there is no food to digest."
+    },
+    {
+        "id": "dom2-ext-005",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring",
+        "difficulty": "medium",
+        "text": "A patient on continuous enteral nutrition via a nasogastric tube develops severe diarrhea. The tube feeding parameters: Isotonic formula at 60 mL/hr. Medications: liquid acetaminophen, IV antibiotics, and daily liquid potassium chloride. Which of the following is the most likely cause of the diarrhea that the dietitian should investigate first?",
+        "options": [
+            "The formula is hypertonic and is causing osmotic diarrhea.",
+            "The infusion rate of 60 mL/hr is too high for starting tolerance.",
+            "The liquid medications often contain high amounts of sorbitol or have very high osmolalities.",
+            "The nasogastric tube tip has migrated into the jejunum."
+        ],
+        "correctIndex": 2,
+        "explanation": "While tube feeding formulas are frequently blamed for diarrhea, isotonic formulas infused continuously at a moderate rate (60 mL/hr) are generally well-tolerated. Liquid medications, particularly elixirs and syrups (like liquid acetaminophen or liquid KCl), are notorious for causing horrific osmotic diarrhea. They frequently contain high amounts of the sugar alcohol sorbitol (which cannot be absorbed) and can have extremely high osmolalities (sometimes >3000 mOsm/kg, whereas serum is ~300). The RD should investigate the medication regimen and osmolality first. IV antibiotics can also cause C. diff associated diarrhea, another major factor."
+    },
+    {
+        "id": "dom2-ext-006",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "hard",
+        "text": "During a Nutrition Focused Physical Exam (NFPE), a dietitian notices bilateral, hollow, scooped-out depressions in the patient's temporal regions and prominent clavicles with no overlapping fat. Furthermore, applying pressure to the patient's lower shins results in an indentation that remains for several seconds. What do these findings primarily indicate?",
+        "options": [
+            "Severe fat loss and peripheral neuropathy.",
+            "Severe muscle wasting and pitting edema.",
+            "Sarcopenia and severe dehydration.",
+            "Essential fatty acid deficiency and poor wound healing."
+        ],
+        "correctIndex": 1,
+        "explanation": "The NFPE describes classic signs of severe malnutrition. The temporal wasting (hollowed temples) and prominent clavicles specifically indicate severe loss of somatic protein/skeletal muscle mass. The indentation remaining on the shins after applying pressure describes pitting edema (fluid accumulation in the interstitial spaces). Together, these findings highlight severe muscle wasting coupled with fluid retention. Dehydration would present with poor skin turgor and sunken eyes, not edema. Peripheral neuropathy points to nerve function, not physical wasting."
+    },
+    {
+        "id": "dom2-ext-007",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "medium",
+        "text": "A patient on hemodialysis requires a careful dietary prescription. Which of the following profiles most accurately represents the standard Medical Nutrition Therapy parameters for an adult on maintenance hemodialysis?",
+        "options": [
+            "Low protein (0.6 g/kg), high potassium, and unrestricted fluids.",
+            "High protein (1.2 g/kg), restricted potassium, restricted phosphorus, and restricted fluids.",
+            "High protein (1.5 g/kg), high phosphorus, high sodium.",
+            "Low protein (0.8 g/kg), low sodium, low potassium, unrestricted fluids."
+        ],
+        "correctIndex": 1,
+        "explanation": "Patients on maintenance hemodialysis (HD) have significantly different needs compared to those with earlier stage CKD not on dialysis. Hemodialysis physically removes amino acids and peptides from the blood during the filtering process, causing an increased need for dietary protein (typically ~1.2 g/kg of primarily High Biological Value protein) to prevent wasting. However, because the kidneys cannot filter electrolytes or excrete urine between sessions, patients must strictly restrict potassium, phosphorus, sodium, and total fluid intake to prevent hyperkalemia, osteodystrophy, and fluid overload."
+    },
+    {
+        "id": "dom2-ext-008",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "hard",
+        "text": "An infant formula recipe is mixed incorrectly. The parents are diluting a standard 20 kcal/oz powder formula with exactly double the recommended amount of water to 'make it last longer'. What is the most immediate clinical risk to the infant, and what blood chemistry finding would you expect?",
+        "options": [
+            "Hypernatremic dehydration; elevated serum sodium (>145 mEq/L)",
+            "Hyponatremia leading to water intoxication; decreased serum sodium (<135 mEq/L)",
+            "Protein-energy malnutrition; severely depressed serum albumin",
+            "Essential fatty acid deficiency; elevated triene:tetraene ratio"
+        ],
+        "correctIndex": 1,
+        "explanation": "When infant formula is severely 'over-diluted' (adding too much water), the baby is receiving relatively massive amounts of free water compared to electrolytes and nutrients. The infant's immature kidneys cannot excreting this rapid free water overload, leading to acute water intoxication. The excess water critically dilutes the sodium in the blood, resulting in hyponatremia (<135 mEq/L), which can swiftly cause cerebral edema, seizures, and death. While prolonged underfeeding will cause protein-energy malnutrition over weeks, the immediate, lethal threat is acute hyponatremia. Under-diluting (too little water) causes hypernatremic dehydration."
+    },
+    {
+        "id": "dom2-ext-009",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "medium",
+        "text": "A post-surgical patient requires an immune-modulating enteral formula containing specialized nutrients to enhance recovery and reduce infection rates following major GI surgery. Which amino acid is critically added to these specialized formulas because it becomes 'conditionally essential' during severe metabolic stress?",
+        "options": [
+            "Leucine",
+            "Glutamine",
+            "Phenylalanine",
+            "Valine"
+        ],
+        "correctIndex": 1,
+        "explanation": "Glutamine is the most abundant amino acid in the blood and muscle. Under normal physiological conditions, it is non-essential (the body synthesizes enough). However, during severe metabolic stress (trauma, sepsis, major surgery, burns), the body's demand for glutamine outstrips its ability to synthesize it. The cells of the immune system (lymphocytes) and the rapid-turnover enterocytes in the gut rely heavily on glutamine for fuel. Providing exogenous glutamine in enteral formulas supports gut mucosal integrity and immune function, making it 'conditionally essential.'"
+    },
+    {
+        "id": "dom2-ext-010",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "When structuring a PES statement, the relationship between the Problem (P) and the Etiology (E) is connected by the phrase 'related to'. The relationship between the Etiology (E) and the Signs/Symptoms (S) is connected by 'as evidenced by'. Which of the following statements best describes the logical flow of a high-quality PES statement?",
+        "options": [
+            "The signs and symptoms must directly prove the etiology is occurring.",
+            "The nutrition diagnosis (Problem) should be a condition that the physician can cure with medication, linked to signs generated by the dietitian.",
+            "The etiology is the root cause, so the nutrition intervention must be aimed directly at the etiology; the signs and symptoms are what you monitor to see if the intervention worked.",
+            "The signs and symptoms should be standard medical values (like blood pressure) regardless of whether they relate to the problem."
+        ],
+        "correctIndex": 2,
+        "explanation": "This describes the core logic of the Nutrition Care Process. The Etiology is the root cause of the problem. Therefore, a successful Nutrition Intervention must target the Etiology to fix the root cause. (If the etiology is 'knowledge deficit', the intervention is 'education'.) The Signs and Symptoms (which proved the problem existed in the first place) become the baseline data. The dietitian measures these exact same signs/symptoms during the Monitoring and Evaluation phase to prove that the intervention actually resolved the problem."
+    },
+    {
+        "id": "dom2-ext-011",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "medium",
+        "text": "A patient arrives at the clinic taking a high dose of the anticoagulant medication Warfarin (Coumadin). The RD reviews their recent dietary recall. Intake of which of the following nutrients must be kept extremely consistent day-to-day to prevent fluctuations in the patient's prothrombin time (INR)?",
+        "options": [
+            "Vitamin E",
+            "Omega-3 fatty acids",
+            "Vitamin K",
+            "Potassium"
+        ],
+        "correctIndex": 2,
+        "explanation": "Warfarin works as a blood thinner by antagonizing Vitamin K, which is essential for synthesizing blood clotting proteins in the liver. Sudden increases in dietary Vitamin K (e.g., eating large amounts of spinach, kale, or broccoli) can overpower the medication, leading to blood clots. Sudden decreases can cause the blood to become too thin, leading to hemorrhage. Therefore, the medical nutrition therapy for warfarin is not to completely avoid Vitamin K, but to keep Vitamin K intake highly consistent every single day so the medication dose can be stabilized (monitored via the INR)."
+    },
+    {
+        "id": "dom2-ext-012",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "hard",
+        "text": "A 10-year-old child presents with intractable epilepsy that is unresponsive to medication. The neurologist recommends starting the classic ketogenic diet. During the initiation phase, what macronutrient ratio (fat to combined protein+carbohydrates) is typically aimed for, and what serious complication must be monitored carefully?",
+        "options": [
+            "1:1 ratio; Monitor for severe hyperglycemia.",
+            "4:1 ratio; Monitor for hypoglycemia, acidosis, and dehydration.",
+            "2:1 ratio; Monitor for rapid weight gain and hypocholesterolemia.",
+            "6:1 ratio; Monitor for essential fatty acid deficiency."
+        ],
+        "correctIndex": 1,
+        "explanation": "The classic ketogenic diet used for intractable pediatric epilepsy consists of extremely high fat and very low carbohydrates and protein. The standard clinical ratio is 4:1 or 3:1 of Fat to (Carbohydrate + Protein) by weight. Because the diet mimics starvation by forcing the body to rely entirely on ketone bodies for brain fuel (removing glucose), the initiation phase is dangerous. The clinical team must carefully monitor the child for acute hypoglycemia, metabolic acidosis (ketones are acidic), dehydration, and lethargy. The diet requires rigorous supervision."
+    },
+    {
+        "id": "dom2-ext-013",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "medium",
+        "text": "A laboratory report indicates a patient has an elevated serum Blood Urea Nitrogen (BUN) of 45 mg/dL (Normal: 10-20), but a completely normal serum creatinine (Cr) of 0.8 mg/dL (Normal: 0.6-1.2). Therefore, the BUN:Cr ratio is greater than >20:1. What does this specific ratio typically indicate to the dietitian?",
+        "options": [
+            "Intrinsic renal failure requiring dialysis.",
+            "Severe acute liver failure.",
+            "Dehydration (pre-renal state), GI bleeding, or very high protein intake.",
+            "Severe protein-energy malnutrition."
+        ],
+        "correctIndex": 2,
+        "explanation": "BUN represents the nitrogenous waste from protein metabolism. Creatinine is a steady waste product of muscle metabolism. If both BUN and Cr are elevated (meaning a ratio closer to 10:1 or 15:1), it suggests intrinsic kidney damage (the kidneys aren't filtering). However, if BUN is highly elevated while Creatinine remains normal (>20:1 ratio), the kidneys are structurally fine (Cr is clearing). The elevated BUN is instead caused by 'pre-renal' factors: severe dehydration (concentrating the blood), massive protein intake, or an upper GI bleed (blood protein being digested and causing a spike in urea)."
+    },
+    {
+        "id": "dom2-ext-014",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "hard",
+        "text": "For a critically ill, mechanically ventilated patient with Acute Respiratory Distress Syndrome (ARDS), a standard high-carbohydrate polymeric EN formula may cause difficulties in weaning the patient from the ventilator. What metabolic parameter explains this, and what substitute macronutrient profile is occasionally advocated?",
+        "options": [
+            "Carbohydrates have a high Respiratory Quotient (RQ=1.0), producing excessive CO2; formulas higher in fat (RQ=0.7) reduce CO2 production.",
+            "Carbohydrates increase oxygen demand; replacing all carbohydrates with protein eliminates ventilatory stress.",
+            "Fat has a high Respiratory Quotient (RQ=1.0), so high-fat formulas cause respiratory acidosis.",
+            "Proteins have an RQ of 1.2, so a completely protein-free formula is necessary for ARDS."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Respiratory Quotient (RQ) is the ratio of CO2 produced to O2 consumed during metabolism. Carbohydrates have an RQ of 1.0 (they produce high amounts of CO2 when burned). Fats have an RQ of ~0.7 (they produce less CO2 relative to O2 consumed). Proteins are ~0.8. If a patient is receiving excess total calories, or an extremely high proportion of carbohydrate calories, their body produces excessive CO2. In a patient with compromised lungs (ARDS) attempting to wean off a ventilator, clearing this extra CO2 requires increased minute ventilation, leading to respiratory failure and delayed weaning. Therefore, preventing overfeeding and sometimes using lower-CHO/higher-fat formulas helps minimize CO2 retention."
+    },
+    {
+        "id": "dom2-ext-015",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring",
+        "difficulty": "medium",
+        "text": "Which of the following populations is the target for calculating calculating 'catch-up growth' energy requirements (using the formula: (Recommended kcal/kg for age × Ideal Weight for height) / Actual weight)?",
+        "options": [
+            "Critically ill adults with severe burns.",
+            "Older adults experiencing sarcopenia.",
+            "Pediatric patients identified with 'failure to thrive' (malnutrition).",
+            "Pregnant women entering their third trimester."
+        ],
+        "correctIndex": 2,
+        "explanation": "The 'catch-up growth' formula is a specialized calculation used exclusively in pediatric nutrition for infants and children identified with 'Failure to Thrive' (malnutrition/growth faltering). Because children must not only heal but also catch up to their expected percentile on the growth chart, supplying their standard estimated needs for their current low weight is insufficient. The formula utilizes their recommended calories mapped against their Ideal Body Weight to provide a hypercaloric diet, forcing catch-up growth."
+    }
+]

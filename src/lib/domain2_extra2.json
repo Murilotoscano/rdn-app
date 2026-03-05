@@ -1,0 +1,162 @@
+[
+    {
+        "id": "dom2-ext2-001",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "hard",
+        "text": "A 50-year-old male with cirrhosis of the liver presents to the clinic with massive ascites and esophageal varices. His blood ammonia levels are extremely elevated, resulting in frequent bouts of hepatic encephalopathy (confusion, asterixis). Historically, severe protein restriction was the standard of care for encephalopathy. According to current evidence-based guidelines, what is the appropriate protein recommendation for this patient?",
+        "options": [
+            "Strict protein restriction (0.5 - 0.6 g/kg) to definitively prevent further ammonia build-up during episodes of confusion.",
+            "High carbohydrate, low fat, and exclusively plant-based protein only, avoiding all animal proteins.",
+            "Unrestricted protein (up to 1.5 g/kg of dry weight) to prevent severe malnutrition and wasting, as restriction does not improve outcomes and worsens muscle breakdown.",
+            "Total Parenteral Nutrition (TPN) exclusively, to bypass the damaged hepatic portal vein system."
+        ],
+        "correctIndex": 2,
+        "explanation": "Historically, practitioners restricted dietary protein in cirrhosis patients with hepatic encephalopathy (HE) because ammonia is a byproduct of protein breakdown. However, modern evidence proves this is harmful. Severe protein restriction rapidly causes protein-calorie malnutrition and sarcopenia. Muscle tissue actually helps clear ammonia from the blood. Therefore, breaking down muscle (due to a low-protein diet) worsens the hyperammonemia and increases mortality. Current guidelines mandate providing adequate to high protein (1.2 to 1.5 g/kg based on dry weight) to patients with cirrhosis, including those with HE, to maintain muscle mass. Medical treatment (lactulose/rifaximin) is used to control the ammonia, not dietary protein restriction."
+    },
+    {
+        "id": "dom2-ext2-002",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "medium",
+        "text": "When assessing the iron status of a pregnant woman during her second trimester, the dietitian notes her hemoglobin has dropped from 13.5 g/dL (pre-pregnancy) to 11.0 g/dL. What physiological phenomenon primarily explains this decrease, assuming her iron intake is adequate?",
+        "options": [
+            "Gestational diabetes causing impaired erythropoiesis.",
+            "Fetal demands rapidly depleting maternal ferritin stores.",
+            "Hemodilution due to a massive, normal increase in maternal blood plasma volume.",
+            "Preeclampsia resulting in microangiopathic hemolysis."
+        ],
+        "correctIndex": 2,
+        "explanation": "During a healthy pregnancy, maternal blood volume increases by 40-50% to supply the placenta. However, the plasma volume (the liquid part of the blood) expands much faster and to a greater extent than the production of red blood cells. This creates a dilution effect ('hemodilution' or physiological anemia of pregnancy), causing the concentration of hemoglobin and hematocrit to naturally drop, even if absolute iron stores are perfectly fine. A hemoglobin of 11.0 g/dL in the second trimester is generally considered normal and physiological, not necessarily a true iron deficiency anemia requiring massive supplementation if iron stores (ferritin) are normal."
+    },
+    {
+        "id": "dom2-ext2-003",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "A dietitian is formulating a PES statement for an obese patient with a high risk of cardiovascular disease. The patient reports eating fast food 5 times a week and states, 'I prefer it because it's cheap and my neighborhood doesn't have a grocery store.' Which of the following represents the most appropriately structured PES statement?",
+        "options": [
+            "Obesity related to excessive energy intake as evidenced by BMI of 35 and frequent fast food consumption.",
+            "Undesirable food choices related to limited access to food as evidenced by consuming fast food 5 times weekly and verbalizing lack of a neighborhood grocery store.",
+            "Excessive energy intake related to an obesogenic environment as evidenced by BMI of 35.",
+            "Altered nutrition-related laboratory values related to excessive trans fat intake as evidenced by the patient living in a food desert."
+        ],
+        "correctIndex": 1,
+        "explanation": "This statement perfectly links the problem, etiology, and signs. The problem ('Undesirable food choices' - Intake domain) is correct. The etiology ('limited access to food' - Behavioral/Environmental domain) directly addresses the root cause: the patient physically cannot buy healthier food locally (a 'food desert'). The signs and symptoms (eating fast food 5x weekly and their verbalized report) prove both the problem and the environmental etiology. Option A misuses a medical diagnosis (Obesity) as the problem, and its etiology doesn't address the true access issue."
+    },
+    {
+        "id": "dom2-ext2-004",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring",
+        "difficulty": "medium",
+        "text": "A patient with Type 1 Diabetes uses an insulin pump and practices carbohydrate counting. Their insulin-to-carbohydrate ratio (ICR) is 1:15. If the patient plans to eat a meal containing 60 grams of carbohydrate, how many units of rapid-acting bolus insulin should they program the pump to deliver?",
+        "options": [
+            "2 units",
+            "4 units",
+            "6 units",
+            "15 units"
+        ],
+        "correctIndex": 1,
+        "explanation": "An Insulin-to-Carbohydrate Ratio (ICR) of 1:15 means the patient needs 1 unit of rapid-acting insulin to 'cover' every 15 grams of carbohydrate they consume. For a meal containing 60 grams of carbohydrate: 60 grams / 15 grams per unit = 4 units of insulin. This calculation strictly covers the food intake; an additional 'correction bolus' might be added if their pre-meal blood sugar was independently high."
+    },
+    {
+        "id": "dom2-ext2-005",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "hard",
+        "text": "A dietitian conducts a dietary assessment on a 14-year-old female gymnast who presents with a BMI in the 15th percentile, amenorrhea for 6 months, and a recent stress fracture in her tibia. What specific syndrome should the dietitian immediately suspect?",
+        "options": [
+            "Polycystic Ovary Syndrome (PCOS)",
+            "Cushing's Syndrome",
+            "Relative Energy Deficiency in Sport (RED-S) / Female Athlete Triad",
+            "Type 1 Diabetes Mellitus"
+        ],
+        "correctIndex": 2,
+        "explanation": "The classic 'Female Athlete Triad' consists of three interrelated conditions: low energy availability (with or without an eating disorder, often causing low BMI), amenorrhea/menstrual dysfunction, and decreased bone mineral density (osteopenia/osteoporosis, presenting as stress fractures). This occurs when dietary energy intake is insufficient to support the high energy expenditure of the sport, forcing the body to shut down 'non-essential' functions like reproduction and bone building. The IOC recently expanded this concept to 'RED-S', acknowledging that low energy availability affects multiple physiological systems in both male and female athletes."
+    },
+    {
+        "id": "dom2-ext2-006",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "medium",
+        "text": "A patient suffering from fat malabsorption due to short bowel syndrome is suffering from severe caloric deficit and chronic diarrhea. The dietitian recommends incorporating MCT (Medium Chain Triglyceride) oil into their enteral tube feeding. Why is MCT oil uniquely beneficial in this specific clinical scenario?",
+        "options": [
+            "MCTs are completely calorie-free, so they prevent weight gain while soothing the gut.",
+            "MCTs do not require bile salts or pancreatic lipase for digestion and are absorbed directly into the portal vein.",
+            "MCTs contain essential fatty acids (linoleic and alpha-linolenic acid) required to prevent EFA deficiency.",
+            "MCTs act as powerful prebiotic fibers in the distal colon."
+        ],
+        "correctIndex": 1,
+        "explanation": "Long-chain triglycerides (LCTs) require a complex digestive process: emulsification by bile salts, digestion by pancreatic lipase, packaging into chylomicrons, and transport via the lymphatic system. In short bowel syndrome or severe liver/pancreatic disease, this process fails. Medium-chain triglycerides (MCTs) are unique because they are water-soluble enough to bypass this entire process. They are absorbed intact directly into the portal vein and routed to the liver for immediate energy. They provide dense calories (8.3 kcal/g) without causing fat malabsorption/steatorrhea. Note: MCT oil does NOT contain essential fatty acids."
+    },
+    {
+        "id": "dom2-ext2-007",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Assessment",
+        "difficulty": "hard",
+        "text": "While interpreting a comprehensive metabolic panel (CMP) for a patient newly diagnosed with acute pancreatitis, the dietitian expects to see severely elevated levels of which two specific serum enzymes utilized as the primary diagnostic markers?",
+        "options": [
+            "ALT (Alanine transaminase) and AST (Aspartate transaminase)",
+            "BUN (Blood Urea Nitrogen) and Creatinine",
+            "Amylase and Lipase",
+            "Alkaline Phosphatase (ALP) and Bilirubin"
+        ],
+        "correctIndex": 2,
+        "explanation": "The pancreas produces the digestive enzymes amylase (for starches) and lipase (for fats). During an attack of acute pancreatitis, the pancreatic tissue becomes violently inflamed, causing these enzymes to leak out of the pancreas and into the bloodstream in massive quantities. Elevated serum amylase and, more specifically, serum lipase (which is very specific to the pancreas) are the hallmark laboratory indicators used by physicians to diagnose acute pancreatitis. ALT/AST indicate liver damage. BUN/Cr indicate kidney damage. ALP/Bilirubin indicate biliary or bone issues."
+    },
+    {
+        "id": "dom2-ext2-008",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Intervention",
+        "difficulty": "medium",
+        "text": "A patient with Gastroesophageal Reflux Disease (GERD) complains of severe heartburn at night. Which of the following dietary and lifestyle modifications is the most appropriate first-line Medical Nutrition Therapy intervention?",
+        "options": [
+            "Eat a large, high-fat meal directly before bed to coat the stomach.",
+            "Consume small, frequent meals throughout the day and avoid eating 3-4 hours prior to lying down.",
+            "Drink 16 ounces of whole milk to neutralize the stomach acid whenever heartburn hits.",
+            "Switch entirely to a pureed diet."
+        ],
+        "correctIndex": 1,
+        "explanation": "GERD involves the backward flow of stomach acid into the esophagus, usually due to a weakened lower esophageal sphincter (LES). High-fat meals drastically delay stomach emptying and relax the LES, which *worsens* reflux. Lying flat with a full stomach allows gravity to push the acid upward. Therefore, the core MNT for GERD is consuming small, low-fat meals (to clear the stomach quickly), avoiding known LES-relaxers (peppermint, chocolate, alcohol), and remaining upright for several hours after eating to allow gravity to assist digestion. Milk temporarily soothes but stimulates acid rebound."
+    },
+    {
+        "id": "dom2-ext2-009",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Diagnosis",
+        "difficulty": "hard",
+        "text": "A 25-year-old male with inflammatory bowel disease (Crohn's) experiences an acute flare-up requiring bowel rest and Total Parenteral Nutrition (TPN) for two weeks. As his inflammation subsides, the physician orders a transition to an oral diet. Which of the following best describes the initial goal of the MNT Dietitian?",
+        "options": [
+            "Immediately prescribe a high-fiber, whole-grain diet to 'bulk up' his stool and strengthen the colon.",
+            "Start him on a clear liquid diet for 5 days, then full liquids for 5 days to prevent dumping syndrome.",
+            "Initiate an elemental enteral tube feeding alongside the TPN to test absorption.",
+            "Begin slowly introducing easily digestible, low-residue/low-fiber solid foods while gradually tapering down the TPN volume."
+        ],
+        "correctIndex": 3,
+        "explanation": "During an acute flare of Crohn's disease, the bowel is critically inflamed and ulcerated. When transitioning off TPN, the immediate goal is to 'wake up' the gut slowly without causing further irritation or immense output. A low-residue (low-fiber) diet is essential because fiber is physically abrasive to the inflamed mucosa and creates bulky stool that the healing bowel cannot handle. Clear liquids are calorically useless, and holding a patient on them for 5 days promotes malnutrition. The TPN must be tapered carefully over several days as oral intake of bland, low-fiber food increases to ensure caloric needs are continually met."
+    },
+    {
+        "id": "dom2-ext2-010",
+        "moduleId": "mod2",
+        "domain": "Domain II",
+        "topic": "Monitoring",
+        "difficulty": "medium",
+        "text": "A dietitian is continually evaluating the efficacy of a specialized, high-calorie oral supplement prescribed to an oncology patient experiencing cachexia (severe disease-related wasting). Which of the following represents the most objective and reliable indicator that the nutrition intervention is successful over a 4-week period?",
+        "options": [
+            "The patient reports feeling significantly less nauseous after chemotherapy.",
+            "The patient completely finishes all three bottles of the supplement every single day.",
+            "The patient's weight has stabilized and they have gained 2 pounds of lean mass, as measured by a weekly scale.",
+            "The patient's serum albumin level rises rapidly from 2.8 to 3.5 g/dL over 48 hours."
+        ],
+        "correctIndex": 2,
+        "explanation": "The ultimate goal of treating cachexia/malnutrition is halting the involuntary weight loss and rebuilding tissue. Therefore, objective stabilization of body weight or measured weight gain on the scale is the strongest, most irrefutable evidence of a successful long-term caloric intervention. While finishing the supplements (Intake) is a great sign of compliance, it doesn't guarantee the disease isn't still out-burning the calories. Subjective feelings of nausea do not prove caloric adequacy. Furthermore, serum albumin is an indicator of *inflammation* and stress, not short-term nutritional status or caloric intake; it does not rise based solely on eating more calories over 48 hours."
+    }
+]
