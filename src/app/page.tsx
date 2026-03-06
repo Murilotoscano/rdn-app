@@ -94,32 +94,32 @@ export default function Home() {
       <section className={styles.actionSection}>
         <h2 className={styles.sectionTitle}>Start Practicing</h2>
         <div className={styles.actionGrid}>
-          {counts.due > 0 && (
-            <Link href="/review" className={styles.actionCard} style={{ border: '2px solid var(--primary)' }}>
-              <div className={styles.cardIcon} style={{ background: '#e0e7ff', color: 'var(--primary)' }}>
-                <Repeat size={28} />
-              </div>
-              <h3 className={styles.cardTitle}>Daily Review</h3>
-              <p className={styles.cardDesc}>
-                {counts.due} due total.
-              </p>
+          <Link href="/review" className={styles.actionCard} style={{ border: counts.due > 0 ? '2px solid var(--primary)' : '1px solid var(--border)' }}>
+            <div className={styles.cardIcon} style={{ background: '#e0e7ff', color: 'var(--primary)' }}>
+              <Repeat size={28} />
+            </div>
+            <h3 className={styles.cardTitle}>Daily Review</h3>
+            <p className={styles.cardDesc}>
+              {counts.due === 0 ? "You're all caught up! No reviews due right now." : `${counts.due} due total.`}
+            </p>
+            {counts.due > 0 && (
               <div style={{ display: 'flex', gap: '8px', marginTop: '8px', flexWrap: 'wrap' }}>
                 {counts.overdue > 0 && <span style={{ fontSize: '0.75rem', padding: '2px 6px', background: '#fee2e2', color: '#b91c1c', borderRadius: '4px' }}>{counts.overdue} Overdue</span>}
                 {counts.dueUnsure > 0 && <span style={{ fontSize: '0.75rem', padding: '2px 6px', background: '#ffedd5', color: '#c2410c', borderRadius: '4px' }}>{counts.dueUnsure} Unsure</span>}
                 {counts.dueIncorrect > 0 && <span style={{ fontSize: '0.75rem', padding: '2px 6px', background: '#ffe4e6', color: '#be123c', borderRadius: '4px' }}>{counts.dueIncorrect} Errors</span>}
               </div>
-            </Link>
-          )}
+            )}
+          </Link>
 
-          {counts.dueUnsure > 0 && (
-            <Link href="/review?filter=unsure" className={styles.actionCard}>
-              <div className={styles.cardIcon} style={{ background: '#ffedd5', color: '#c2410c' }}>
-                <Repeat size={28} />
-              </div>
-              <h3 className={styles.cardTitle}>Review Unsure</h3>
-              <p className={styles.cardDesc}>Focus on {counts.dueUnsure} items you marked as unsure.</p>
-            </Link>
-          )}
+          <Link href="/review?filter=unsure" className={styles.actionCard}>
+            <div className={styles.cardIcon} style={{ background: '#ffedd5', color: '#c2410c' }}>
+              <Repeat size={28} />
+            </div>
+            <h3 className={styles.cardTitle}>Review Unsure</h3>
+            <p className={styles.cardDesc}>
+              {counts.dueUnsure === 0 ? "Great job! You have no skipped or unsure questions pending." : `Focus on ${counts.dueUnsure} items you marked as unsure.`}
+            </p>
+          </Link>
 
           <Link href="/practice?mode=quick" className={styles.actionCard}>
             <div className={styles.cardIcon}>
@@ -147,7 +147,7 @@ export default function Home() {
             </div>
             <h3 className={styles.cardTitle}>Mock Exam</h3>
             <p className={styles.cardDesc}>
-              125 timed questions. Feel the pressure of the real exam.
+              145 timed questions. Feel the pressure of the real exam.
             </p>
           </Link>
         </div>

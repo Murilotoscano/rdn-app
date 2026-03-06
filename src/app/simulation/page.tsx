@@ -21,11 +21,11 @@ function multiplyQuestions(questions: Question[], target: number): Question[] {
 
 async function SimulationContent() {
     // Get all database questions
-    const baseQuestions = await getQuestions(undefined, 100);
+    const baseQuestions = await getQuestions(undefined, 145);
 
-    // Simulate 125 questions for the exam (multiply if needed)
-    // NOTE: In production, we would pick random ones. Here we just ensure we have 125.
-    const examQuestions = multiplyQuestions(baseQuestions, 125);
+    // Simulate 145 questions for the exam (multiply if needed)
+    // NOTE: In production, we would pick random ones. Here we just ensure we have 145.
+    const examQuestions = multiplyQuestions(baseQuestions, 145);
 
     return <ExamInterface questions={examQuestions} />;
 }
@@ -42,7 +42,7 @@ export default function SimulationPage() {
                     color: '#667eea',
                     fontWeight: 'bold'
                 }}>
-                    Loading Exam (125 Questions)...
+                    Loading Exam (145 Questions)...
                 </div>
             }>
                 <SimulationContent />
