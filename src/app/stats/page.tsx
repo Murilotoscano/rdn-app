@@ -3,16 +3,19 @@
 import AppLayout from "@/components/Layout/AppLayout";
 import { store } from "@/lib/store";
 import { useEffect, useState } from "react";
+import { SAMPLE_QUESTIONS } from "@/lib/questions";
 import { BarChart3, AlertTriangle, Target, RefreshCw } from "lucide-react";
 import styles from "../page.module.css"; // Reuse dashboard styles for cards
 
 export default function StatsPage() {
     const [stats, setStats] = useState<any>(null);
+    const [totalQuestions, setTotalQuestions] = useState(0);
 
     useEffect(() => {
         // Fetch stats for last 30 days
         const s = store.getStats(30);
         setStats(s);
+        setTotalQuestions(SAMPLE_QUESTIONS.length);
     }, []);
 
     if (!stats) return <AppLayout><div>Loading stats...</div></AppLayout>;
@@ -21,7 +24,10 @@ export default function StatsPage() {
         <AppLayout>
             <div style={{ marginBottom: '2rem' }}>
                 <h1 style={{ fontSize: '1.8rem', fontWeight: 700, marginBottom: '0.5rem' }}>Your Performance</h1>
-                <p style={{ color: 'var(--text-secondary)' }}>Key metrics from the last 30 days.</p>
+                <p style={{ color: 'var(--text-secondary)' }}>
+                    Key metrics from the last 30 days. <br />
+                    <strong>Total questions available:</strong> {totalQuestions}
+                </p>
             </div>
 
             <div className={styles.grid}>
