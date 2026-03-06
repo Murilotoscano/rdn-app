@@ -6,16 +6,36 @@ import { Play, BookOpen, Clock, TrendingUp, Award, Zap, Repeat } from "lucide-re
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { store } from "@/lib/store";
+import { SAMPLE_QUESTIONS } from "@/lib/questions";
 
 export default function Home() {
   const [counts, setCounts] = useState<{
     due: number; overdue: number; mastered: number; total: number;
     dueUnsure: number; dueIncorrect: number;
   }>({ due: 0, overdue: 0, mastered: 0, total: 0, dueUnsure: 0, dueIncorrect: 0 });
+
+  const [readinessScore, setReadinessScore] = useState({ score: 0, accuracy: 0, completion: 0 });
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setCounts(store.getReviewCounts());
+    const reviewCounts = store.getReviewCounts();
+    setCounts(reviewCounts);
+
+    // Calculate Readiness Score
+    const totalQuestions = SAMPLE_QUESTIONS.length;
+    const stats30Days = store.getStats(30);
+    const overallAccuracy = stats30Days ? stats30Days.accuracy : 0;
+    const completionPercentage = (reviewCounts.total / totalQuestions) * 100;
+
+    // Algorithm: 60% weight on accuracy, 40% weight on completion (capped at 100%)
+    const score = Math.min(100, Math.round((overallAccuracy * 0.6) + (completionPercentage * 0.4)));
+
+    setReadinessScore({
+      score: score,
+      accuracy: Math.round(overallAccuracy),
+      completion: Math.round(completionPercentage)
+    });
+
     setMounted(true);
   }, []);
 
@@ -24,8 +44,26 @@ export default function Home() {
   return (
     <AppLayout>
       <header className={styles.header}>
-        <h1 className={styles.welcome}>Hello, Murilo! 👋</h1>
-        <p className={styles.subtitle}>Let's continue your preparation today?</p>
+        <div className={styles.headerContent}>
+          <div className={styles.greetingSection}>
+            <h1 className={styles.welcome}>Hello, Murilo! 👋</h1>
+            <p className={styles.subtitle}>Let's continue your journey to becoming an RDN.</p>
+          </div>
+
+          <div className={styles.readinessWidget}>
+            <div className={styles.circularProgress} style={{ "--progress": `${readinessScore.score}%` } as React.CSSProperties}>
+              <div className={styles.innerCircle}>
+                <span className={styles.scoreValue}>{readinessScore.score}%</span>
+              </div>
+            </div>
+            <div className={styles.readinessText}>
+              <h2 className={styles.readinessTitle}>Exam Readiness</h2>
+              <p className={styles.readinessDetails}>
+                Based on {readinessScore.accuracy}% accuracy & {readinessScore.completion}% completion
+              </p>
+            </div>
+          </div>
+        </div>
       </header>
 
       <div className={styles.grid}>
@@ -38,17 +76,18 @@ export default function Home() {
             {counts.overdue > 0 && <span style={{ fontSize: '0.8rem', color: 'var(--error)' }}>({counts.overdue} overdue)</span>}
           </div>
         </div>
+
         <div className={styles.statCard}>
-          <span className={styles.statLabel}>Mastered</span>
+          <span className={styles.statLabel}>Mastered Questions</span>
           <span className={styles.statValue} style={{ color: "var(--success)" }}>{counts.mastered}</span>
         </div>
+
         <div className={styles.statCard}>
-          <span className={styles.statLabel}>Total Practiced</span>
-          <span className={styles.statValue}>{counts.total}</span>
-        </div>
-        <div className={styles.statCard}>
-          <span className={styles.statLabel}>Modules Completed</span>
-          <span className={styles.statValue}>0/4</span>
+          <span className={styles.statLabel}>Bank Completion</span>
+          <span className={styles.statValue}>{counts.total} <span style={{ fontSize: '1rem', color: 'var(--text-muted)' }}>/ {SAMPLE_QUESTIONS.length}</span></span>
+          <div className={styles.progressBarContainer}>
+            <div className={styles.progressBarFill} style={{ width: `${readinessScore.completion}%` }}></div>
+          </div>
         </div>
       </div>
 
