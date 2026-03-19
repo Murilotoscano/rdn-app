@@ -35,7 +35,7 @@ const StudyPlanPage = () => {
 
             <div className={styles.grid}>
                 {days.map((day) => (
-                    <div key={day.id} className={styles.card}>
+                    <Link href={`/study-plan/${day.id}`} key={day.id} className={styles.card} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
                         <div className={styles.cardHeader}>
                             <span className={styles.dayBadge}>DIA {day.id}</span>
                             <span className={styles.timeBadge}>2h Total</span>
@@ -63,7 +63,7 @@ const StudyPlanPage = () => {
                                 <div className={styles.taskGoal}>{day.practiceGoal}</div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
 
