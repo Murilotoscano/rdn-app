@@ -1,0 +1,2533 @@
+CALCULATIONS & FORMULAS
+
+- i!
+tri
+
+FOR THE REGISTERED DIETITIAN NUTRITIONIST EXAMINATION
+
+a VERITENSE™ product
+
+WRITTEN BY
+Bailey DeBarmore, PhD MHS RDN LDN
+Creator of the Study Smarter Method by Veritense™
+
+Version: Jan 1, 2023
+
+© 2022 Veritense™
+
+Terms of use
+
+Bailey DeBarmore is the creator and sole owner of the exclusive copyright to this study resource.
+
+This publication may not be shared physically or electronically with anyone, manipulated, copied,
+reprinted and sold, altered, or reproduced in any form or by any means without requesting further
+permission from the owner, Bailey DeBarmore.
+
+This book is for personal use only by a single individual. It should not be distributed to a dietetic internship
+class or otherwise used for academic purposes without discussing terms of use with the owner. By
+purchasing this item, you agree to the Terms of Use outlined herein.
+
+To inquire about further permissions for this document, including access for groups such as dietetic
+internship classes or graduate courses, contact the owner to learn about your options.
+
+At the end of the study guide you will find answers to the practice questions contained in
+the sections with explanations and calculations and you will find a list of study guide
+
+questions. There are no answers provided for the study guide questions — all the
+information required to answer them is in the document itself.
+
+Table of Contents
+
+TOrMS Of USC... cceceecceeeceeceeeeeeeeeeeeeeeeeeeeeeaaeeaeeeeeeeeeeeeeaeeaeeeeeeeseeeeeeeeaeeeeeseeeeeeeeeeneaeeeseeeseeeeeeeaeees 2
+Basic Math ReVi0W .........ccccccceccceecsceseeeeeeeeeeeeeeeeeseeseeeeeeeeeeeseeeseeeaeeeseceeeeeesseeseeeseceeeeeeeeseeeeseeneeee 3
+Rearranging formulas..........ccccccccecceeceeceeseeeeeeeeeeeeeeeeeeeeeeeeseeeeeeeeeeeeeeeeseeeeeeeeeeeeeeeeeseeeeeeeeneeeseees 3
+Multiplying versus dividing by percentages. ............ccccccceeseeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeseeeeeneaeees 4
+CONVETSIONS 0... eeeeececce eee ecccceeeeeeeeeeeeeeeeeeeeaeeeeeeeeeeeeeeeaeeeeeeeeeeeeeeeeeeaeeeeeeeeeeeeeeeeaeeeseeeseceeeeeeeeeaeeeeeees 4
+SCOOP SiZC oe. cece cece ee ceececeeeeeeeeeeeeeeeceaeeeeeeeeeseeeeeeeaaeeeeeeeeeseeeeesaeeeeeeeeeeeeeeeeeeeeeeseeeeeeeeneea 7
+CAN SIZO oie e cece ceecc ccc cccee ee eeneeeeeeeeeeeeeeeeeeaaeeeeeeeaaeeeeeceaaeeeeseeeaeaeeeseceeeeseeeaeeeesenaeeeeseseeeeeeeeneueaeess 8
+Finance Concepts ...........:ccccecceccccceeeeeeceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeseeeeeeeeeeeeaeeeseeeaaeeeeeeseaeeeeeseeeeeeeenea 10
+Budget TyPes.........ccccccccceceeceeeeeeeeeeeeeeeeeeeeeeaeeeeeeeeeeeeaeeeaaeeaaeeaaeeaaeaeaaeesaeeaseeaeuaaaeaaauaaenaaaaeeaaaaaaea 10
+FINANCE RatiOS 0.0.0.2... eee cece cess eeeeeeeeeeeeeeeaeeeseeeeeeceeeeeaeeeeeeeseeeeececeeeeeeeseeeseeeeeeeeeeeseeeseeeeeeeeneeaees 11
+Balance Sheets ...........ccccccccceeccceeeeeeeeeeeeeeeeeeeeeeeseneeeeeeeeeeeaeeeeeceaaeeeeeeeaeeesseeeeeeeseeeneeeeeeeneeeeeeee 13
+Cost-Benefit AnalySis ..........ccceccccceeceeeeeeeeeeeneeeeeeeceeeeeeeeeeeeeseeeeeeeeeseeeeeeeeeseseeeeeaeeeeeeeeeeenseeaees 15
+Value AnallySis ........cccccccceccecceeccceeeeeeeeeeeeeeceeceeeeeeeseeeeeeeeeeeeeeeseeeueeeeeeeeeeeseeeseeeseeeeeeeeeeeseeeeeeeeeees 15
+Value-Added ReSe€arch ..........cccccceecceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeseeeeeeeeeeeeeeeseeeeeeeeeeeeeeeeeeseeeeseeeeees 16
+Break-Even Point ............ccecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeseeeeeeeeeeeeeeeeeeseeseeeeeee 17
+Full-Time Equivalent..........0.....ccccccecesseeeeeeeeeeseeeeeeeeeeeeeeeeseeeeeeeeeeeeeeeesseeeeeeaeeeeeeesseaeaeeueeeeeeeeaaea 20
+Finance And FOOCSEIVICE ............ccceceeeeceeeeeeeeeneeeeeeeeeeeeeeceeeeeaeeeeeeeseeeeeeeeeeeeseeeseeeseceeeeeseeeseeeeeeeeees 21
+Monthly Food Cost .........cccccceeccceceeeeeeseeeeeeeeeeeeeeeeeeeeeeeeeeeaeeeeeeeaaeeeeeeeaeeeseeeeeeeeseeeeeeeeeseneeeeeeee 21
+
+Calculations and Formulas 2
+© 2022 Veritense™
+
+LOT 0S) a 0] = <1 | ee eres 22
+FOPOCASTING «0... eeceecccceeceeeeeeneeeeeeeeeeeeeeeeeeaeeeseeeseeceeeeeaeeeeeeeseeeseceeeueeeeeeeeeeeeeeeeeseeeseeeseeeseeeeneeeees 24
+SIZING UP FECIPOS...... eee eee eeeee ec ceceeeeeeeeeeeeeeeeeneaeeeeeenaaeeeeseneaeeeseeeeueeeseeeaeeeeseeeaueeeeeeneeeeeseneeeeeees 26
+Make-or-Buy DeCiSION ............ccccccceeeeeeeeeceneeeeeeeeeeeeeeeneeeaeeeeeeeeeeeeeeneaeeeseeeeeeeeeeeeeneeeeeeeeeeeeeenees 27
+Cost-0f-Goods Sold... cece cee cceeeeeeeeneeeeeeeneeeeeseeeeeeeeeeeeeeeeeseeeeeeeeseeeeeeeesseeeaeeeaseneeeeeeseneeeeees 27
+D@PreCiation 0... cccccccccccececcseeeeeeeeeeeeeeeeceeeeeeeeeeeeeceeeeeseeeeeeeseeeeeceeeeeeeeeseeeseeeeeeeeeeeseeeeeeeseeeeeeaees 28
+Tips for Calculation QueSTtIONS.............cec cece cccceeeeeeeceeeeeeeeeeaeeeeeseaaeeeeeeneueeeseeeeeaeeeeeenaeeeseeaaes 29
+Edible Portion and Yield ...........cccccccccccecsseeeeeeeeeeeeeceeeeeseeeseeeeeceeeueseeseeeseeesseeeseeeseeeaeeeseeeeeeeaees 29
+Practice Calculations.............ccccccccceecccceeeeeeeeeeeeeeeneeeeeeeeeeeeeeeseeeeeeeeeeeeeaeeeeeeneaeeeeseneeeeeseseneeeeeeeee 36
+SelING Price oo... eee cece eee eeeeeeeeeeeeaaeeeeeeeeaeeeeeeeaaeeeeeeneaeeeseeeeaeeeseeeeeeeeseeeaaeeeeseeeeeeeeenneeeees 37
+Practice Calculations..............ccccccccccceeeeceeeeeeeeeceeeeeeeneeeeeeeeeeaeeeseeeeaeeeseeeeeeeeeeeeeeeeseseeeseeeee 40
+Calculating Profitability and Popularity 0.0.0... ccc ccceee cece eeeeceeeeeeeeeeeeeeeeeeeeeeaeeeeeeeeeeeenees 41
+Practice Calculation ANSWETS............::::ccccceeeeeseeeeeeeeeeeeeseeeeeeeeseeeeaeeeeeeeeaeeeeeeeeeeeeeseneeeeeeeeneeeeeeees 45
+Study Guide Questions 0.0.2.2... cece eee cence eeeeneeeeeeceeaeeeeseeeeaeeeeeeeeeeesseseeaeeeeeeeaaeeeeseeaeeeeeenneeeeees 53
+
+Basic Math Review
+
+Before we get started with foodservice and finance calculations, let’s do some basic math
+review to make sure we’re on the same page. Much of the confusion around calculations
+problems on the RD exam stem from memorizing formulas in a single way and not being able to
+rearrange the formula to solve for different concepts. For example, knowing the equation for
+Edible Portion but not being able to rearrange it to calculate As Purchased price.
+
+You'll also need to be comfortable with unit conversions, including the conversion of minutes to
+hours, ounces to pounds, and percentages in percent format (out of 100) versus decimal format
+(out of 1).
+
+Rearranging formulas
+For a given formula, you should be able to rearrange and solve for other variables. Y= 7
+
+To solve for M: Multiply each side of the equation by X, which is the same as X/1.
+The X’s will cancel out on the right side of the equation, leaving us with X x
+
+Xx MX
+Y=M. —x Y=—xo
+
+1 xX 1
+To solve for X: You can solve for X from the original question for Y, or XxY=M
+
+from the newest equation we solved for, of M. Note that the intermediate
+step when solving for X from the Y equation is solving for M.
+
+Calculations and Formulas 3
+© 2022 Veritense™
+
+From M, to solve for X (which is multiplied with Y), we need to divide l
+both sides by Y. Dividing by Y is the same as multiplying by 1 / Y. —x(X¥x Y)=Mx-
+Then the Y’s cancel out on the left side of the equation, leaving you f
+with X = M/Y. When you multiply (X x Y) by 1/Y, you can also think M
+
+about the X x Y having a denominator of 1, which makes it easier to Y
+
+see how the Y crosses out. When you multiply M by 1/Y, you're left
+
+with M/Y.
+
+Multiplying versus dividing by percentages
+
+A point of confusion among some students is whether to multiply or divide
+
+Multiplying makes
+by percentages, especially with Edible Portion and As Purchased. Think it smaller
+about which should be bigger — your starting amount or your ending
+amount. Note that you should always convert percentages to decimals 20 + 10% = 2
+during calculations. You can choose to write the math out as a decimal or
+percent but if you write it as a percent, as | do in some of these examples, Dividing makes it
+just be sure to multiply or divide by the decimal format. bigger
+
+. 20
+Conversions noe
+°
+
+In addition to foodservice conversions for tablespoons to teaspoons, cups
+
+to gallons, and scoop and can numbers, you also need to easily convert between ounces and
+pounds. Be sure to follow your units throughout the calculation so you don’t select the wrong
+answer. Multiple choice answers for calculation questions may have trick answers, meaning that
+if you forgot a final conversion from ounces to pounds, they will have the ounces answer
+included.
+
+Given that 3 teaspoons are equal to 1 tablespoon, and that 4 tablespoons are equal to % cup,
+answer the following questions. Verify your answers using an online search engine or
+conversion calculator. Write out your work and use diagrams if you find them helpful. It’s
+important for calculation questions while you’re studying and on the day of the exam to write out
+your work on scrap paper or a whiteboard.
+
+3 teaspoons 1 tablespoon
+
+4 tablespoons % Cup
+e How many teaspoons are in % cup?
+
+e How many teaspoons are in 1 cup?
+
+e How many tablespoons are in 1 cup?
+
+e How many tablespoons are in 1 4% cups?
+
+e If 1 cup is 8 fl oz, how many fl oz are in 3 tablespoons?
+
+Calculations and Formulas 4
+© 2022 Veritense™
+
+Given that 2 cups are in 1 pint, and 2 pints are in 1 quart, answer the following questions. Verify
+your answer using an online search engine or conversion calculator.
+
+2 pints 1 quart
+
+e How many tablespoons are in 1 pint?
+
+e How many teaspoons are in 1 pint?
+
+e How many cups are in 1 quart?
+
+e How many tablespoons in 1 quart?
+
+e If 1 cup is 8 fl oz, how many fl oz are in a pint? A quart?
+
+Given that there are 4 quarts in 1 gallon, answer the following questions. Verify your answers
+
+using an online search engine or conversion .
+calculator. i fl
+
+e How may cups are in 1 gallon? =
+
+e How many pints are in 1 gallon?
+
+e How many teaspoons are in 1 gallon?
+
+e How many quarts are in % gallon? 4 quarts 1 gallon
+
+If you can anchor on one of these equivalents, then you can always calculate back and forth. In
+the previous example questions, you had to calculate not only for the direct conversions |
+supplied, like teaspoons to tablespoons, but also from teaspoons to cups, etc.
+
+Calculations and Formulas
+
+5
+© 2022 Veritense™
+
+If you know that 1 cup is 8 fl z and a gallon is 128 fl oz, then you can calculate the number of
+cups per gallon by dividing 128 by 8 oz. If you know that there are 16 cups in 1 gallon and that 1
+cup is 8 fl oz, you can calculate the oz per gallon by multiplying 16 by 8 which is 128 fl oz. You'll
+want to be particularly familiar with 1 quart = 32 oz because we'll use that with scoop size
+conversions in the next section.
+
+1T 1 cup 1 pint 1 quart 1 gallon
+0.5 fl oz 8 floz 2 cups 2 pints 4 quarts
+3 tsp 16T 32T 4 cups 8 pints
+64T 16 cups
+
+Calculations and Formulas 6
+© 2022 Veritense™
+
+Scoop Size
+
+Scoop numbers (found on a scoop handle) refer to the number of scoops per quart. For
+example, a #4 scoop has 4 scoops per quart, so a single #4 scoop is equivalent % quart, or 1
+cup, or 8 fl oz. If you know that 1 quart is 32 fl oz, then divide 32 by the scoop number for the
+number of fl ounces.
+
+Smaller Volume
+
+Scoop Size
+
+Scoop Number #4 #8 #16
+
+Smaller Number
+
+Serving sizes are often in whole units like 1 cup, % cup, or % cup. While you can use scoop
+sizes in between those (which would be #4, #8, and #16), it’s not common. You don’t need to
+memorize the equivalents, particularly for the #5, #6, etc. scoops with half-number equivalents,
+as long as you know that Scoop # = scoops per quart and that a quart is 32 fl oz.
+
+32 32
+
+Scoop Volume = ——————- Scoop Size = ————_—_—_—_
+scoop size scoop volume
+
+If you’re given a scoop size, you can calculate volume of that scoop by dividing 32 fl oz by the
+scoop size. If you’re given scoop volume, you can calculate which scoop number that
+corresponds to by dividing 32 by the scoop volume.
+
+32 32
+
+= 8 fl oz per scoop 8 floz = #4 scoop
+
+#4 scoop
+
+Calculations and Formulas 7
+© 2022 Veritense™
+
+Calculate the volume of each scoop number in the following table and check that your
+calculations are correct.
+
+Dy
+Scoop __ Equivalent Cups Fluid GaN
+Number Ounces
+#4 |16T ~~ | 1cup | 8floz—
+
+#8 8T Ye Cup 4 fl oz
+1 quart
+2 pints
+4 cups
+
+# 20 31/455 T 1/5 cup 1.6 fl oz 64T
+
+e If you have 1 gallon of food, and serve it using a #4 scoop, how many servings will you get?
+e Which scoop is bigger, a #4 scoop or a #16 scoop?
+
+Can Size
+
+In foodservice operations, we use larger size
+cans than you might purchase at your grocery
+store. In your supervised practice kitchen rotation,
+you likely saw number 10 (#10) cans which are
+big! The tomato paste can is an example — the
+
+weight is listed as 6 Ib 15 oz, instead of just DA KX OC
+ounces. In contrast, a standard soup can is about [ri A I :
+20 oz, corresponding to a number 2 can. eS a
+
+For the exam, you will need to know one #10 can = 3 quarts and there are 6 cans per
+case.
+
+How many fl oz are in a single case of #10 cans?
+#10 can = 3 qt = 32 floz*3 = 96 floz
+
+6cans 96 floz
+x Od
+case 1 can
+
+= 6 * 96 fl oz = 576 fl oz = 18 quarts
+
+Calculations and Formulas 8
+© 2022 Veritense™
+
+Can Number Equivalent Weight
+14 - 16 oz
+303 | 2cups——— | 16-1702
+
+2 | 25cups | 19-20 oz
+jo | 3qt_ | 6 lb 15 0z
+
+e You have a recipe written using #2 cans but want to use #10 cans. The recipe calls for 8
+#2 cans of food. How many #10 cans will you need?
+
+Another type of calculation that might trick you on the exam is Remember: 1 case of #10 cans has 6 cans
+when they ask about cases. Just like foodservice operations
+use large cans, they often purchase goods by the case instead
+of in single units. You may order pasta in 16 oz boxes, but 12
+boxes come in a case. You'll need to convert what you need
+into number of cases to buy.
+
+For example, if you are preparing a recipe that needs 29 number 10 cans of tomato paste, how
+many cases do you need to purchase?
+
+1 case
+29 cans X = 4.83 cases > round UP always
+6 cans
+
+— 5 cases
+
+If dividing by 6 cans felt strange to you, think about it this way. The number of cases we
+purchase will be less than the number of cans we need, so we need to divide 29 (what the
+recipe calls for) by the number in a case to make it smaller. If we knew that we were ordering 5
+cases, and wanted to know how many individual cans would be there, we would multiply cases
+by number of cans per case. You can also think about the division in terms of how you set up
+the equation. 29 cans are in the numerator, which means if we are multiplying, the 6 cans has to
+be in the denominator. Remember that Y x 1/X is the same as Y/X.
+
+Rounding Up
+
+Whenever you get a partial number for your answer in a foodservice calculation problem, realize
+that you need to round up. You don’t follow the standard math rounding rule where a decimal 2
+0.5 means rounding up and otherwise you round down. Why? Because if you need 4.8 cases,
+like in the example above, and you only order 4 cases, you won’t have enough cans to complete
+the recipe. In the example above, if we order 5 cases of 6 cans each, we would have 30 cans. If
+our recipe calls for 29 cans, there would be 1 left over. If it's a commonly used item, we wouldn't
+worry about “overordering” because it will be used for another recipe, or stay in inventory as par
+stock.
+
+Calculations and Formulas 9
+
+© 2022 Veritense™
+
+Finance Concepts
+
+Important finance concepts to know for the exam include financial procedures, types of budgets,
+balance sheets, cost-benefit analysis, break-even point, and full-time equivalents.
+
+Budget Types
+
+A foodservice manager needs to be familiar with different budget types, and thus, you need to
+know it on the exam. Look through the following terms and their definitions, noting the features
+of each and particularly, the differences in each. A question about budgets on the exam will
+likely be a “keyword question” like the examples below. You would go online (or look on the next
+page) to define each of the answer choices (first question), or identify which type of budget the
+definition refers to (second question). Write that out in your notes, add it to your “Terms to
+Know” sheet, and now you know more than you did!
+
+Answer: A
+
+Q: A budget prepared by upper management and given to operating units is
+what type of budget?
+
+a. Top-down budget
+
+b. Bottom-up budget
+
+c. Zero-based budget
+d. Fixed budget
+
+Q: Which statement best describes an incremental budget? Answer: C
+
+Each unit prepares a budget that is then sent up to upper
+management
+
+. Start with a previous budget and adjust for current conditions
+Use existing budgets and add increasing amounts relative to the
+current budget
+Prepared by upper management and given to operating units
+
+Many fact-based questions like this remain simple on the exam (in contrast to food science
+questions and clinical questions, where multiple concepts are combined into one question). It’s
+important to be familiar with terms that will be on the exam because they are the easiest to test
+in a standardized test. Reviewing information in this study guide gets you one step closer to
+being exposed to the information you need to know.
+
+Calculations and Formulas 10
+© 2022 Veritense™
+
+Budget Types
+
+Top-down budget: prepared by upper management and given to operating units. Activity-
+based budgeting is a type of top-down budget where the company sets targets or outputs, and
+then determines the activities necessary to meet the target and the cost of carrying out those
+activities.
+
+Bottom-up budget: each unit prepares a budget that is then sent up to upper management
+Baseline budget: starts with previous budget and adjusts for current conditions
+
+Zero-based budget: determines cost, outlay, and inflows without a baseline budget. A manager
+has to justify every expense with nothing automatically approved. Zero-based budgets aim to
+eliminate any unnecessary expenditures. It can be very time consuming and works better for
+discretionary costs than with essential operating costs.
+
+Fixed budget: also called static budgets; they do not change based on business variations.
+Even if business activity volume increases, the funding for those activities remains static.
+
+Flexible budget: changes with business activity because the budget is constructed with a rate
+per unit of activity rather than a fixed amount. Flexible budgets are useful for measuring
+efficiency. So, if business activity increases, the amount of money needed to support that
+increase is available.
+
+Incremental budget: uses existing budget numbers as a base and adds incremental amounts
+relative to the current budget. It is one of the most common budgeting methods due to simplicity
+but is more appropriate when primary cost drivers of a company do not change from year to
+year. This type of budget can be inefficient because if there is room for a 10% budget increase
+each year, and a manager claims that increase for their unit, it can “perpetuate inefficiencies”,
+make a team look overly efficient, and typically ignores external drivers like high inflation and
+regular growth.
+
+The term value proposition budgeting is a budget-building mindset. The manager asks, why
+
+is this amount included in the budget? does the item create value? does the value outweigh the
+cost? If not, is there another way to justify the cost? It is similar to zero-based budgeting in that
+it aims to tighten up the budget but not to the extent of a zero-based budget.
+
+Write out all the terms in this section and their definitions. Consider making flashcards as well
+that you can play matching games with.
+
+Finance Ratios
+
+Finance ratios use numbers from a company’s financial statement to describe the financial state
+of the company. When looking for investors, presenting a business plan, or looking for a loan,
+these finance ratios may be used.
+
+Calculations and Formulas 11
+© 2022 Veritense™
+
+Specifically, finance ratios can be used to assess liquidity, leverage, growth, margins,
+profitability, rates of return, and overall valuation.
+
+The finance ratios you need to know for the 2017 exam are below.
+
+Assets-to-liabilities ratio: the percentage of assets divided by debt
+
+Debt-to-equity ratio: the percentage of assets funded by shareholder’s equity and debt
+Inventory turnover rate: assess if there is efficient use of assets
+
+Profitability ratios: ability to generate excess income relative to sales
+
+Solvency ratio: ability to meet long-term debts
+
+Liquidity ratio: ability to meet short-term debts
+
+Activity ratio: ability to transfer non-cash assets to cash assets
+
+Current ratio: divide current assets by current liabilities. Represents an organization's ability to
+meet current financial obligations (bill-paying activity). Used by creditors to determine if an
+organization has sufficient assets to repay debts over the next 12 months. A current ratio
+greater than 1 indicates an ability to pay bills when due and over the next 12 months.
+
+Uniform systems of accounts is a standard method of accounting within an industry. These
+include presentation of financial statements that provide comparability of financial data of
+different companies within an industry.
+
+A public accountant works with clients to issue educated tax advice, or to provide advice on
+business decisions/transactions, or insurance and benefits that would impact tax results.
+
+Internal audit processes examine a company’s financial records to ensure their quality and
+legality.
+
+Create flashcards for the terms on this page and then match the terms to the definitions.
+
+Calculations and Formulas 12
+© 2022 Veritense™
+
+Balance Sheets
+
+A balance sheet is the statement of an organizations current and fixed assets, current and long-
+term liabilities, and owner's equity.
+
+Balance sheets are split in a “T’-shape with assets on the left side, and liabilities and owner’s
+equity on the right side. Total assets must equal total liabilities + equity.
+
+Here’s an example balance sheet to help you orient the terms on the following pages.
+
+Balance Sheet
+as of Dec 31, 2018 in (000s)
+
+Assets Liabilities
+Cash 481 | Accounts payable 190
+Accounts Receivable 1,677 | Taxes Payable 36
+Inventory 2,936 | Accrued Expenses 157
+Prepaid Expenses 172
+
+Ciher Gurent Assets 56 Total Current Liabilities 383
+
+Long-Term Debt 922
+Total Liabilities 1,305
+
+Total Current Assets 2,386 Owner’s Equity
+
+Common Stock 194
+Property and Equipment 2,019 | Retained Earnings 2,242
+Accumulated Depreciation (664) | Total Owner's Equity 2,436
+Net 1,355
+Total Assets 3,741 | Total Liabilities and Equity 3,741
+
+You may get a question that lists financial terms, like income and rent among others, and then
+asks you to calculate net profit. You need to know what counts as income and what counts as
+expenses. These concepts don’t translate directly into a balance sheet but we'll talk about those
+concepts in practice problems and when we get to the section on break-even point.
+
+Calculations and Formulas 13
+© 2022 Veritense™
+
+Terms for balance sheets include the following:
+Net profit: also called final profit; subtracts expenses from gross profit
+
+Total assets: indicate monetary value of a property beyond any amounts owed —
+everything a company owns, including liabilities
+
+Current assets: liquid assets, or those easily converted to cash (ex: accounts
+receivable)
+
+Accounts receivable: Money owed to the company that will be fulfilled promptly, such
+as pending credit card payments or pending payments from a large catering order
+
+Accounts payable: Money the company owes, such as to vendors or wholesalers.
+These might be transactions that aren’t completed each time an order comes in but
+rather on a monthly or quarterly basis
+
+Accumulated depreciation: a fixed asset; the total depreciation of an asset up toa
+given date subtracted from the original cost at time of purchase
+
+Current liabilities: include accounts payable and accrued expenses that must be paid
+within 12 months
+
+Owner’s equity: monetary value of property beyond debts, including retained earnings
+
+Retained earnings: income set aside by the company instead of being distributed to
+shareholders
+
+Take out a sheet of paper and create your own balance sheet. Using the terms you've learned,
+write them in where they belong, and then define them.
+The following terms are included on the income statement.
+
+Gross profit: total sales minus the costs of goods sold (COGS)
+
+Operating costs: expenses
+
+Costs of goods sold: COGS, the cost of producing the goods that are sold
+
+Calculations and Formulas 14
+© 2022 Veritense™
+
+Cost-Benefit Analysis
+
+Cost-benefit analysis estimates the total monetary value of benefits that will be derived from a
+project and compares that value to the cost of a project. Cost-benefit analysis helps decide if the
+planned project is worthwhile in financial terms.
+
+To conduct a cost-benefit analysis, you may perform productivity studies, determine if startup
+funds are necessary, and determine the number of people involved to quantify cost and benefit.
+
+For the RD exam, be able to recognize examples of cost-benefit analysis or situations where it
+should be used in contrast to methods like value analysis and value-added research.
+
+For example — Should we remodel the foodservice kitchen?
+
+The cost of remodeling is $3.4 million and the expected revenue generated after the remodeling
+is $2.7 million. Is the value of the remodeling greater than the cost of the project?
+
+Expected revenue following remodeling (value) — cost of the project
+$2.7 million - $3.4 million = negative (net loss)
+
+$2.7 million / $3.4 million = < 1
+
+In this example, the cost of remodeling is greater than what we would expect to generate
+following the remodeling. Perhaps the goal of the remodel is to increase the number of
+customers served, thus increasing revenue. When people decide to remodel their home, they
+often think of the cost of the remodel versus the increase in home value in case they want to
+sell. Some remodeling decisions translate to increases in home value while others do not.
+
+Value Analysis
+
+Value analysis is the systematic assessment of every feature of a product to ensure its cost is
+no greater than is required to achieve its function. When evaluating a product, a manager might
+ask themselves, “Can the cost of this item or step be reduced or eliminated, without reducing
+the effectiveness, quality, or customer satisfaction?”
+
+Value is a balance of quality and cost that is affected by many factors. Improving quality may
+not be cost-effective, that is, the increased cost spent to improve quality may not transfer into
+added value. Note that increasing the cost spent does not always add value. Another challenge
+is that standards of quality will vary by organization and product type. Thus, there is no single
+way to “increase quality” because there is no one single definition of quality. Specifically, in food
+service, quality is defined by customer satisfaction. Increased quality, in theory, should
+decrease costs by eliminating errors and mistakes — like food being sent back by a customer or
+thrown away because it did not sell.
+
+Know that there are 5 factors that affect quality and they include money, materials,
+management, people, and market.
+
+Calculations and Formulas 15
+© 2022 Veritense™
+
+Here’s a schematic of how value analysis is related to increased value. The other terms in the
+diagram may sound familiar or they may come up again in your studies. Value analysis may
+result in quality improvement, cost reduction, or functionality enhancement, all 3 of which have
+the potential to increase value. Cost reduction in particular may increase value in that it
+increases profit while the value of the product to the customer remains the same.
+
+Increased
+
+Value
+
+Cost reduction
+
+Value
+
+Analysis
+
+Function analysis
+
+enhancement
+Value-Added Research
+
+“Value-added” is when a business adds something extra to a generic product that gives a
+greater perception of value. Thus, value-added research is the process of assessing if value
+should be added.
+
+Pre-cut produce at the grocery store - A rising trend in grocery stores has been to cater to
+customers looking to eat healthy while short on time. Publix marketing shows that their pre-cut
+vegetables, including spiralized and ready-to-steam veggies, are “FRESH & CONVENIENT”,
+conveying added value to the customer.
+
+$+ time
+
+$$ + value
+
+Calculations and Formulas 16
+© 2022 Veritense™
+
+Break-Even Point
+
+Break-even point is when expenses and revenue are equal (total costs = total revenue). It’s
+used to determine the number of sales or overall profits that will cover total costs.
+
+Write down the definition of break-even point.
+Total cost includes both fixed costs and variable costs.
+Total Costs = Fixed Costs + Variable Costs
+
+Fixed costs are the same over a time period and aren’t relevant to output decisions — things like
+rent, equipment, insurance, interests, property taxes, salaries, and depreciation.
+
+Variable costs vary with output and typically increase at a constant rate relative to labor costs
+and capital. Variable costs may include labor costs (hourly wages), utilities, and production
+costs.
+
+To find the break-even point, find the point on the graph where the revenue line and total costs
+line cross one another. Then, draw the lines back to the y and x axis from the intersection to
+estimate dollars in revenue and units sold.
+
+e What components make up total costs?
+e What accounts for the difference between the fixed cost and total cost line?
+
+To calculate the break-even point, you don’t need to graph it by hand. Instead, you can use two
+different formulas, based on the information provided.
+
+Revenue
+Total costs
+Dollars Fixed costs
+
+Units sold
+
+Calculations and Formulas 17
+© 2022 Veritense™
+
+Given fixed costs, variable costs, and total sales, you can calculate the break-even point using
+formula 1. If you’re given fixed costs, sales price per unit, and variable cost per unit, you can
+use formula 2.
+
+Fixed costs
+Variable costs
+(1 ~ ( Sales ))
+
+Fixed Costs
+(Sales price per unit) — (Variable cost per unit)
+
+Formula 1:
+
+Formula 2:
+
+Note that the denominator in formula 2 (Sales price per unit — variable cost per unit) is also
+known as the “Contribution margin”.
+
+Contribution margin
+= Sales price per unit — Variable cost per unit
+
+e If variable cost per unit goes down, the contribution margin goes up. What are variable
+costs?
+
+Example 1.1
+
+If fixed costs are $85,000, variable costs are $21,000, and total sales are $420,000, calculate
+the break-even point.
+
+Which formula will you use?
+
+Fixed costs $85,000
+Formula 1: 2. = RS
+Variable costs 1-( $21,000 )
+1— ( Sales ) $420,000
+
+First, calculate the denominator
+
+Variable costs _ $21,000 = 0.08
+Sales $420,000
+Variable costs comprise about 5% of all sales.
+1—0.05 = 0.95
+
+Then we divide fixed costs by 1 — proportion of variable costs relative to sales, which we just
+calculated.
+
+$85,000
+
+Calculations and Formulas 18
+© 2022 Veritense™
+
+Example 1.2
+
+Given that fixed costs are $85,000, sales price per unit is $42, and variable cost per unit is $12,
+we'll use Formula 2 and calculate the denominator first (the contribution margin).
+
+Fixed Costs
+
+Formula 2: Sales price per unit) — (Variable cost per unit)
+
+_ $85,000 _— $85,000
+~ $42—$12 $30
+
+Note how in formula 1, we calculate the amount of revenue to equal expenses, but in formula 2,
+we calculate the number of units that we need to sell in order to generate said revenue.
+
+Practice Question
+
+= 2,833 units
+
+On the exam you may be given a list of items, like below, or given direct estimations of fixed
+costs, variable costs, etc. In this example you'll walk through the steps you need to take to
+calculate break-even point. It might be more complicated than it seems at first!
+
+Joe’s Diner has the following financial numbers for the past 6 months. Calculate the break-even
+point.
+
+Step 1: Go back to where the fixed costs and variable costs are described. Write whether each
+item below is a fixed cost, sales, or variable cost.
+
+Rent: $5,000 Utilities: $2,500
+Wages: $12,050 Insurance: $3,300
+Food Purchasing Costs: $13,110 Property Taxes: $2,500
+
+Total Sales: $29,690
+
+Step 2: Calculate totals for each category (fixed costs, total sales, variable costs).
+Step 3: Write down the break-event point formula you'll use in this question.
+
+Step 4: Calculate the break-even point.
+
+Calculations and Formulas 19
+© 2022 Veritense™
+
+Full-Time Equivalents
+
+We calculate full time equivalents (FTEs) because as a supervisor, you'll often receive your
+labor budget in terms of FTEs, not the number of employees you can hire.
+
+On the exam, you may be asked to calculate FTEs based on the given information in a simple
+calculation, or it might be used for a patient-based or volume-based scenario.
+
+FTEs: one full-time equivalent (1 FTE) is equal to 40 hours per week, or 8 hours per day
+(assuming a 5-day work week). An employee working 20 hours per week would be equivalent to
+0.5 FTE.
+
+What unit does FTE carry?
+1 FTE 7
+
+In contrast to food calculation questions where we always round up our answer, you don’t round
+your FTEs answers. Budgets can handle partial FTEs.
+
+FTE Calculation Examples
+
+Example 2.1: Given that full-time employees work 236 of 365 days per year (given vacation and
+benefit days), how many FTE are needed for daily coverage?
+
+365 days/year __ 1.5% FTE
+236 work days/year .
+
+1.55 FTEs is required for each full-time position.
+Why not 1 FTE for each full-time? Because its daily coverage (7 days a week)!
+You can also write out the formula as:
+
+365 days 1 year
+1 year * 236 work days
+
+Always remember that your units need to be opposite — see how year is in the numerator in one
+portion of the equation but in the denominator in the other? If you’re having trouble deciding
+between multiplying and dividing, be sure to write out your formulas all the way, like | did here,
+to break up the units.
+
+Example 2.2 You have 2 positions to fill, each for 7 days per week working 6:30am to 3pm with
+a 30-minute lunch. How many productive FTEs do you need for these positions?
+
+Calculations and Formulas 20
+© 2022 Veritense™
+
+6:30 am to 3 pm = 8.5 hours — 0.5 hour lunch = 8 hours
+8 hours X 7 days X 2 workers = 112 hours
+
+112 hours/week
+
+——_————. = 2.8 FTE.
+40 hours/week .
+
+How would you write out the formula above, breaking up the units?
+
+112 hours 1week
+1 week * 40 hours
+
+Example 2.3: Your foodservice operation requires thirteen 8-hour positions, four 4-hour
+positions, and one 3-hour position. How many FTEs does your foodservice operation need for
+daily demands?
+
+(13 x 8 hours) + (4x 4 hours) + (1x 3 hours)
+= 104+ 16+3 hours = 123 hours
+123 hours
+
+—_—_——_—_—_—_—_—- = 15.37 FTE
+8 hours per day s
+
+Finance and Foodservice
+Monthly Food Cost
+
+Monthly food cost is calculated by summing the month's opening inventory + purchases made
+during the month, and then subtracting the closing inventory. Note that the closing inventory is
+the beginning inventory for the next month.
+
+Cost of food = Opening Inventory + Purchases — Closing Inventory
+
+Remember that opening, or beginning, inventory serves as the basis to calculate cost-of-goods-
+sold (COGS), and the overall net income. If you begin with a falsely inflated beginning inventory,
+that will inflate COGS, inflate cost of production, and decrease estimated net income. While
+monthly food cost may seem simple, it’s easy to get confused. Let's start with the concept in
+basic terms, such as boxes of inventory, and walk through the changes that inventory sees over
+the course of a month.
+
+Calculations and Formulas 21
+© 2022 Veritense™
+
+You have 5 boxes (gray) in your inventory on April 18. During April, you purchase two boxes
+during the month (white). At the end of the month (or at your next opening inventory) you have 3
+boxes left. It doesn’t matter which boxes are left over (gray or white, existing or new). You have
+3 boxes left.
+
+Opening Inventory Purchases Closing Inventory
+5 boxes 2 boxes 3 boxes
+
+To elevate this example up to the level of the exam, replace boxes with monetary value.
+
+Now let's say that the value of inventory on April 1%‘ is $10,000 and food purchases during the
+month of April total $4,000. When you take inventory on the May 1°, the value of the inventory is
+
+$6,000. What is your food cost for the month of April? Write the values in the corresponding
+boxes below, splitting it up like we did with the boxes.
+
+Opening Inventory Purchases Closing Inventory
+
+Cost per Meal
+
+On the exam, you may be given word problems that tell you how many people will be at an
+event, the amount of food you purchased, and the budget requirements you were supposed to
+meet. Given all of this information, you may be asked to calculate cost per meal, number of
+meals, or total cost.
+
+Total cost
+
+Cost per meal = 77 i er of meals
+
+Cost per meal questions can be tricky if you try working them through in your head. For
+example, if you multiply the number of meals by the budget cost per meal, and subtract from
+total cost, you'll end up with the wrong number. And that wrong number will likely be in the
+answer choices.
+
+Calculations and Formulas 22
+© 2022 Veritense™
+
+Cost Per Meal Example
+
+Let’s say you’re cooking for a friend’s birthday party next week. You set a budget of $15 per
+plate and expect 45 people to attend. You spent $550 on groceries for the party. How did you
+do financially, compared to your budget?
+
+Step 1: Given how much you spent and the number of meals to prepare, what will the cost per
+meal be?
+
+Cost j = SSOspent _ g19.29
+ost per meal = 45 plates = .
+
+Step 2: How does the cost per meal compare to your budget?
+Actual cost per meal — budget cost per meal =
+$12.22 — $15 =
+
+—$2.78 ($2.78 under budget)
+
+If instead, you thought “given the number of meals and my budget, how does my total cost
+compare to my total budget?”, you would get a different value.
+
+Given 45 meals x $15/meal = $675 expected total cost
+
+$550 spent - $675 expected = $125 under (WRONG)
+
+Practice Question
+
+Remember to use a desktop calculator or a physical calculator, and use scrap paper to write out
+your work. You won't be able to use the calculator on your phone during the exam.
+
+Your department is catering the hospital’s board meeting lunch next week. There will be 30
+people in attendance and the cost of food purchased for the event is $820. Your supervisor told
+you last week the budget for the event was $25 per meal, maximum. Are you over or under your
+supervisor's budget? By how much?
+
+Over, $2.33
+Under, $2.33
+Over, $70
+Under, $70
+
+aoo0
+
+Calculations and Formulas 23
+© 2022 Veritense™
+
+Forecasting
+
+In any business, you may try to forecast future sales volume to better estimate preparation or
+anticipated costs. There are different forecast methods and they make different assumptions.
+
+There are 3 main types of forecasting, including qualitative techniques, time series and
+projection, and causal models.
+
+Qualitative techniques are based on expert opinion and consider special events relevant
+to the industry. The idea of special events can be illustrated easily with the technology field — a
+fast-paced industry that has to account for exponential growth in technological knowledge.
+Qualitative techniques may or may not consider historical data. They include Delphi methods,
+market research, panel consensus, visionary forecast, and historical analogy.
+
+Time series and projections, including exponential smoothing and moving averages, look
+at patterns and changes in patterns using only historical data. If you have a new product, or are
+running a new menu campaign without historical data, you would not be able to use these
+
+methods. You would want to turn instead to qualitative information since historical data is scant.
+
+When using a moving average, each value of the average is the average of n consecutive
+points prior. The number of data points prior (n) depend on the effect of seasons, stability of the
+estimate, and anticipated irregularity. If you use a 3-month moving average, the average for
+month 4 would be an average of the previous 3 months, rather than an average of the entire
+past year. Exponential smoothing is similar to moving average but gives more weight to recent
+data points.
+
+Note that moving average and exponential smoothing models assume that sales follow a certain
+pattern over time. We can then project that pattern, accounting for differences we anticipate.
+The simplest type of projection would assume constant growth. Other types of time series and
+projections include Box-Jenkins, X-11, trend projections, and life-cycle analysis among others.
+
+Causal methods for forecasting include regression models, econometric models,
+intention-to-buy surveys, and input-output models. You may see regression on the exam,
+such as “linear regression”. Regression models can include the effect of several variables or
+factors that will influence anticipated sales volume. These models are more statistically
+intensive than moving averages but do not assume a certain pattern in sales.
+
+Calculations and Formulas 24
+© 2022 Veritense™
+
+Looking at your cafeteria sales volume for the past year, you notice that sales for fresh foods,
+like the salad bar, are highest in the summer and lowest in the winter compared to sales for hot
+foods, like the soup bar, which are highest in the winter and lowest in the summer. Pizza sales
+are about the same each month throughout the year. How might you forecast future sales
+volume with your historical data?
+
+This graph (right) shows the month of the
+
+year on the x-axis, starting with January, Cafeteria Sales (2019) Soup Bar
+and the sales in dollars on the y-axis. The - ~ eee Ger
+ome Pizza
+
+legend tells us that the solid gray line
+represents soup bar sales, the dashed
+black line represents salad bar sales, and
+the solid black line represents pizza
+sales. We can see that soup bar sales
+are lowest in the summer, while salad bar
+sales are highest in the summer, as the
+question stated. Pizza sales are similar
+throughout the year.
+
+Pizza Sales
+
+We can calculate a moving average for
+pizza sales (right). In the graph, actual
+sales are in solid gray, the 4-month
+moving average is in solid black, and the
+12-month average is in dashed black.
+You can see how the average lines
+(black) are smoothed out versions of the
+dips and peaks of the actual sales.
+Furthermore, there’s not much difference
+between the 4-month and the 12-month.
+Why? Because sales are nearly constant
+throughout the year.
+
+If we were to use moving averages for
+salad bar or soup bar projections — both
+of which display seasonal changes in
+sales volume — we would end up with
+offset pushed projections by whatever
+month window we choose. In the graph to
+the right, we have the salad bar
+projection with a moving average. See Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+how it mirrors the shape of the actual Month
+
+sales, but shifts by 4 months? If we were
+to use this projection, the volume of sales we prepare for would likely not match customer
+demand if the overall pattern is the same as the previous year.
+
+Calculations and Formulas 25
+© 2022 Veritense™
+
+So, for items with seasonal changes in sales volume, a moving average is less than desirable.
+Instead, we might want to know what the 3 or 4-month average for each quarter would be.
+Projecting for smaller windows based on the same window in the previous year isn’t a moving
+average because it doesn’t shift with
+each consecutive month. In the
+graph to the right, actual sales are in
+gray, and a 3-month average of peak
+salad bar sales is in black. You can
+see how the 3-month average more
+closely aligns to actual sales,
+compared to the 12-month average.
+
+Salad Bar Sales
+
+Sizing up recipes Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+
+Month
+
+Sizing up recipes, also known as
+“scaling”, for foodservice systems involves more than just calculating a scaling factor and
+applying it to every ingredient. Not all ingredients in a recipe will scale the same, and the
+implications for cooking volume and storage are important to consider. There’s a reason that
+large scale food organizations have entire departments dedicated to scaling up recipes and it’s
+not just full of mathematicians. These departments include food science experts, process and
+chemical engineers, and recipe formulators.
+
+Large scale food production is more than changing a 4-portion recipe to 9-portions. Ingredients
+may go from teaspoons and cups up to pounds and gallons. Ingredients don’t always behave
+the same at larger volumes, and an ingredient may no longer be stable. You'll also need to
+consider what equipment you need, storage, labor, and personal safety. You also have to
+reconsider critical control points for pathogen control and if those critical control points may
+change depending on the volume and storage of the ingredient.
+
+Brainstorm some differences that would occur when creating the following recipes at home
+versus in amounts for a large hospital patient population.
+
+e Baked bread, 1 loaf per day — scale up to — baked bread, 50 loaves per day
+o Will you mix, proof, and bake the dough 1 loaf at a time? If not, what do you need
+to consider in terms of equipment, storage, and time?
+e Scrambled eggs, 2 portions — scale up to — scrambled eggs, 100 portions
+o Will you be pooling your eggs together? Will you scramble eggs 2 portions at a
+time in a stove-top pan?
+e Roast chicken, 1 unit — scale up to — roast chicken, 30 units
+o You have to prep and roast 30 chickens. What do you need for storage, cooking,
+and holding?
+
+Calculations and Formulas 26
+© 2022 Veritense™
+
+BUY
+
+- @pa
+It may be cheaper to buy an item than to make
+
+it in-house, especially if you only need small volumes. On the other hand, depending on the
+item, it could be more expensive to buy it than to make it in-house. Some considerations include
+skill required (pastry chef?), special equipment (new oven?), or extra staff in order to produce
+an item in house.
+
+Make-or-Buy Decision
+
+Make-or-buy decisions are a strategic choice
+deciding between producing an item in-house or
+buying it externally.
+
+If you cannot find a competent or reliable supplier to purchase the item from, especially if the
+item needs to be consistently of high quality, it may be worth
+it in the end to create it yourself.
+
+Example: Strawberry Shortcake in the Hospital Cafeteria
+
+Your chef comes to you, the foodservice manager, with an
+idea for a new dessert item next month — strawberry
+shortcake. You meet to discuss if you should make or buy the
+shortcake. What factors will you likely discuss, particularly in
+terms of time, volume, and staffing?
+
+Cost-of-Goods Sold
+
+Cost-of-goods sold (COGS) are the expenses that go into products sold. COGS include
+purchasing, labor, food costs, etc.
+
+COGS is calculated as the cost of goods during a specific period of time and is very similar to
+calculating monthly food cost. The key difference is that we’re not only interested in the cost of
+food, but also the cost of goods and associated expenses, including labor. COGS can be
+calculated with or without labor. If the question asks for COGS and provides labor expenses,
+then you can use the formula below to calculate COGS. If labor isn’t included, then it is the
+same formula as cost of food sold.
+
+Cost of goods sold = Opening Inventory + (Purchases + Labor) — Closing Inventory
+
+We use COGS to calculate gross profit. Gross profit is a profitability measure that shows how
+efficient a company manages its labor and supplies in production. Net income will decrease as
+the COGS goes up, so we often try to keep COGS low in order to maximize profits.
+
+Revenue — COGS = Gross Profit
+Given the following expenses, calculate the COGS for the month of March.
+
+Inventory value on March 1 $25,730 Total purchases during March $44,757
+Inventory value on April 1 $23,850 Labor expenses during March $15,309
+
+Calculations and Formulas 27
+© 2022 Veritense™
+
+ee) ee
+Opening Inventory Purchases + Labor Closing Inventory
+See if you get the correct answer: $61,946.
+
+e If revenue for the month of March was $120,234, what was our gross profit?
+
+As COGS goes up, gross profit goes down. If we overstate our beginning inventory, how is
+COGS affected? How is gross profit affected? Re-calculate COGS using the numbers below —
+note that the inventory value on March 1 has gone up.
+
+Inventory value on March 1 $34,890 Total purchases during March $44,757
+Inventory value on April 1 $23,850 Labor expenses during March $15,309
+
+If beginning inventory is inflated, COGs will be higher. If ending inventory is inflated, COGS will
+be lower (because you're subtracting that number).
+
+Since gross profit is the difference in revenue and COGS, a higher COGS will lead to lower
+profit, and a lower COGS will lead to greater profit.
+
+Draw out diagrams or formulas that will help you understand the relationship between gross
+profit, COGS, and other financial components.
+
+Depreciation
+
+Large pieces of equipment are large investments. Over time, their value decreases. Just as a
+brand-new car loses substantial value the moment it is driven off the lot, a brand-new oven will
+depreciate over time.
+
+Knowing the salvage value and the usable life of a piece of equipment helps you consider the
+purchase investment in context. You might choose a different model that is more expensive up
+front if it has a longer usable life and/or a higher salvage cost. Salvage value is the monetary
+value of the item at the end of its usable life.
+
+To calculate yearly depreciation, subtract salvage Yearly Depreciation (Countertop Fryer)
+value from the cost of the equipment and divide it by
+years of usable life. This method is called straight-line
+depreciation, where the item depreciates the same
+amount each year. Note that the cost of the
+equipment is what you pay when you purchase it.
+
+Calculations and Formulas 28
+© 2022 Veritense™
+
+Yearly d ‘ation = Cost of Equipment — Salvage value
+eanty ceprecialion = Years of Usable Life
+For example, if you purchase a countertop fryer for $990, estimate the useful life of 5 years, and
+salvage value at $100, you can calculate the yearly depreciation. Yearly depreciation can also
+be called annual depreciation.
+Cost of Equipment—Salvage value _ $990—$100
+
+reciati > T
+Annual depreciation Years of Usable Life S years $178 per yea
+
+You try one. Your department purchased a new bread oven for $16,000. The salvage value is
+estimated at $600 and the expected usable life is 11 years. Calculate the yearly depreciation.
+
+Tips for Calculation Questions
+
+When you're doing practice questions, use a calculator on your computer, or a physical
+calculator. During the exam, you'll have one of these 2 options — but you won't be able to use
+the one on your phone. So, don’t use the calculator on your phone when you’re doing practice
+calculations.
+
+Furthermore, utilize scrap paper or a small white board to write out your calculations. Be sure to
+use units, and don’t round your decimals until the very end. Write out each step of the
+calculation because missing a step is usually how you miss the question. If a calculation
+involves multiple concepts, such as cost per meal and edible portion, write those out next to
+your calculations so you can see — this is where I’m going to calculate cost per meal and over
+here is where | am going to calculate EP.
+
+Food calculation questions on the RD exam are particularly tough, primarily because they often
+do involve multiple concepts but also because many of the practice problems on the internet are
+simple, with 1 concept and maybe a few steps.
+
+As you go through the following sections, particularly edible portion/as purchased, figure out the
+way that makes most sense to you. It might be that the formulas click for you but for a
+classmate, they think about it more conceptually or even draw out diagrams.
+
+Edible Portion and Yield
+
+When we purchase food, the raw amount does not always equal the cooked or prepped amount
+used in the recipe. When reading questions on the exam, it’s important to note if they use words
+like “raw” or “as purchased” versus “cooked”, or “cleaned”, or “prepped”.
+
+If you buy a pint of strawberries and the recipe calls for sliced strawberries with the tops
+removed, the actual weight used in the recipe will be different than the weight you purchased.
+Yield from raw to prepped almost always decreases, which means you will need to buy more
+than what is called for in the recipe. With meats, when you purchase the raw amount, it may
+shrink with cooking or you may have a lower yield because you will not be using bones or
+trimmings in the recipes. The yield from a raw, whole chicken that becomes a cooked, whole
+
+Calculations and Formulas 29
+© 2022 Veritense™
+
+chicken compared to the cleaned meat quantity will all be different. Leafy greens reduce greatly
+in size after cooking, and rice nearly doubles in size. Just as it’s important to know how much of
+an ingredient to use when cooking, you need to pay attention to whether the recipe calls for
+cooked or raw ingredients. Let’s start with definitions. Our hypothetical situation will be
+calculating amounts and cost to make a batch of roasted potatoes.
+
+As purchased quantity is the amount (weight, volume, or count) of the product as we
+purchased it or received from a vendor. For your recipe, you received a 25-pound bag of
+potatoes from your grocery vendor. This is your as-purchased quantity.
+
+Edible portion quantity is the amount (weight, volume, or count) of the product after we have
+prepared it. This could mean after we have cleaned, peeled, or trimmed the product, such as
+with the potatoes. With leafy vegetables, it could mean after cooking. With meat, it could mean
+after trimming fat, removing bones, and/or after cooking. In this hypothetical situation, we
+scrubbed and peeled the potatoes and were left with 21.25 pounds of our original 25 pounds
+that we purchased.
+
+AP quantity — EP quantity = waste 25 lbs — 21.25 lbs = 3.75 lbs waste
+
+We can calculate the yield by accounting for the trim or waste, which is the difference between
+the as purchased quantity and the edible portion quantity. In this case, we may call it waste; with
+meat, we might call it trim. If we calculate the EP quantity after cooking, we would also account
+for shrinkage. To calculate yield, we divided the EP quantity and AP quantity. With yield, you’re
+asking the question — how much of the AP quantity am | left with after trimming and waste?
+
+EP quantity. 21.25 lbs
+
+a ————~“ — 0, .
+AP quantity yiela 25 Ibs 85% yield
+
+If the question provided you with the 25 lbs as purchased quantity and 85% yield, you could
+calculate the EP quantity by multiplying the two values.
+
+AP quantity x yield = EP quantity 25 lbs X 85% = 21.25 lbs
+
+Before we keep going, | want to introduce a helpful calculation triangle you may have seen
+before. The triangle to the right is arranged to be reminiscent of how when we divide, one item
+is on top of the other, and when we
+multiply, the items are next to each other.
+See how the location of EP quantity, AP
+quantity, and yield correspond to their
+formulas.
+
+EP quantity
+= AP quantity x yield
+
+divide
+Identify which term applies to the following ‘
+products (AP quantity or EP quantity).
+
+a. trimmed strawberries AP Vield = EP quantity
+b. raw turkey purchased from grocer ti AP quantity
+c. de-boned chicken quantity
+
+d
+
+pork roast after cooking
+
+EP quantity
+
+a | nt mt . ‘= » multip!
+da ‘P‘da 90 ‘dv G‘dg AP quantity = ply
+
+Calculations and Formulas 30
+© 2022 Veritense™
+
+Be aware that not all practice problems you find on the Internet will be at the difficulty level of
+the CDR exam. Start with easier questions, but calibrate your sense of readiness by being sure
+to try some practice questions from CDR. The practice questions in this study guide are
+modeled after CDR questions, so they’re meant to be hard! Before we move on to cost, let’s
+start with some easy ones so you can build up to the more complex practice questions.
+
+Ex 3.1: You purchase 8 lbs of apples to make apple cider.
+Is this your AP quantity or EP quantity? Why? - AP quantity
+After peeling and coring, you end up with 6 Ibs of apples.
+
+Is this your AP quantity or EP quantity? Why? - EP quantity AP
+quantity
+
+Calculate the percent yield.
+
+From our triangle, we know that Yield = EPQ/APQ. Yield can be a factor (out of 1) or a percent (out of
+100). We communicate yield as a percent, but when doing calculations, like for EP quantity or AP
+quantity, you will use the yield factor.
+
+EP quantity 6 lbs
+
+Percent Yield = ——————— x 100% =
+
+% = ft)
+AP quantity 8 Ibs x 100% = 75%
+
+Using the formulas in the triangle, now that you have EPQ, APQ, and yield, plug in the values to calculate
+EP quantity and AP quantity (as if you did not know them) to see if the math works out.
+
+Ex 3.2: You need 2 Ibs of cooked eggplant for a dish. The yield from raw to cooked eggplant is
+81%. How much raw eggplant do you need to purchase?
+
+Identify what you’re given and what you're calculating. Use your triangle to solve for AP.
+
+. EP quantity 2lbs
+AP quantity = yield = Del 2.47 lbs
+
+Since we are going from cooked (EP), backwards to raw, it makes sense that the AP quantity is larger
+than the EP quantity given. What if you mistakenly multiplied EP quantity by yield?
+
+EP quantity x yield = 2 lbs X 0.81 = 1.62 lbs
+
+It doesn’t make sense that you would buy 1.6 Ibs of eggplant to then have 2 Ibs ready for the recipe!
+
+If you’re wondering, “when would | need to calculate AP from EP?” the answer is, “often!” if you
+work in foodservice. Recipes may have ingredients in EP form, and unless you buy the items in
+the prepared form (such as minced garlic rather than full garlic), you need to back-calculate to
+the larger amount you need to purchase.
+
+Exam problems are more complex than these for one reason: they often layer different
+calculations. You may be given AP in ounces but asked for EP in pounds. You may need to
+calculate EP quantity in order to calculate for EP cost (next section). If you can break down the
+complex questions into small steps, you can solve them.
+
+Calculations and Formulas 31
+© 2022 Veritense™
+
+Pull out your conversion reference sheet (or refer back to earlier in this study guide) because
+we're going to add a few layers to these example problems. Then, you'll try some on your own
+before moving on to cost and the practice questions.
+
+Ex 3.3: You purchase 5 lb 2 oz of strip steak with a 50% yield. What is the EP quantity in pounds
+and ounces?
+You're given AP and yield; all you have to do is plug them into your equation (after converting to ounces!)
+
+16 0z
+lb
+
+5 lb x = 80 0z; 80 oz + 2 oz = 82 oz EP quantity = AP quantity x yield = 82 0z x 0.5 = 41 0z
+
+Now, to convert back to pounds and ounces.
+
+16 oz
+= 2.56 lbs;0.56 lbs x
+
+4102 x Te ib
+
+= 90z
+
+You end up with 2 lbs 9 oz of steak as your EP quantity.
+
+Ex 3.4: You need to purchase a turkey for holiday dinner that is large enough to feed a party of 45.
+Yield for a whole turkey after cooking is 90%, and you are assuming 8 oz portions per person.
+Your vendor has 15-pound turkeys available. How many do you need to buy?
+
+i = i x =
+EP quantity = 45 servings serving 360 oz
+Now you can calculate AP from the 360 oz.
+. EP quantity 3600z
+AP quantity = ——__——_ = = 400 oz
+
+yield 0.90
+
+From here, you can go a few directions that will all get you to the right answer. You can convert 400 oz to lb and then
+convert to number of turkeys, or you can convert 15 Ibs to oz.
+
+4000z EP x —?— = 25 Ibs;25 lbs EP x em = 1.67 turk
+oz EP x ié0z> Ss; s EP x iSibs 7h turkeys
+= 2 turkeys
+15 lb 16 02 240 oz; 400 oz EP turkey 1.67 turk
+SX tp = 0Z; oz EP x 740 02 7 turkeys
+= 2 turkeys
+
+Calculations and Formulas 32
+© 2022 Veritense™
+
+Ex 3.5: You need to figure out how many cans of sliced peaches in syrup to purchase for this
+week’s peach cobbler. The recipe calls for 8 quarts of peaches after draining and rinsing. Yield
+from canned to drained is 90%. How many Number 10 cans do you need to purchase, knowing
+that each can of peaches from your vendor weighs 6 Ib 10 oz.
+
+This question has a lot in it. Let’s start by figuring out what’s what.
+
+What are we solving for? AP quantity - the quantity of peaches we need to buy to get to our EP of
+8 quarts.
+
+Do we need to do any conversions? Yes! We need to get 8 quarts and 6 Ib 10 oz on the same
+page.
+
+Let’s start by converting the Number 10 can of peaches to oz, and the 8 quarts to oz.
+
+16 0z
+
+6lb x D
+
+= 96 02; 96 oz + 10 oz = 106 oz per Number 10 can
+32 0z
+
+8 quarts X
+quart
+
+= 256 oz needed for the recipe (EP)
+
+Now we need to calculate AP using the yield factor of 0.90.
+
+EP quantity 256 0z
+yield (0.90
+
+AP quantity = = 284.44 0z ~ 285 oz
+Now we need to use our knowledge that one Number 10 can of peaches in syrup is 106 oz to
+figure out how many cans we need to buy to provide 285 oz of peaches.
+
+Number 10 can
+285 oz X ———————- = 2.69 cans ~ 3 cans
+106 oz
+
+Let's check our math to make sure we were supposed to divide and not multiply.
+
+If one Number 10 can is 106 oz, how many oz would we get from 2 cans? 3 cans?
+
+106 oz 2 212 106 oz 3 318
+———_—_———_ X : x _
+Number 10 can cans 02 Number 10 can cans 02
+
+We can see that our math was correct, putting us between needing 2 and 3 cans. Remember from the
+previous section on cans that we always round amounts (and cases) up. So, the answer for this
+question is: we need to order 3 cans!
+
+If this question had an additional part that specified cans are ordered in cases of 6, and asked for how
+many cases rather than how many cans, you would answer 1 case.
+
+As purchased cost is the amount paid for the as purchased amount.
+
+As purchased cost per unit is the total AP cost divided by the quantity purchased (AP
+quantity). We often calculate AP cost per unit using the units from the recipe.
+
+Total AP Cost
+
+—————_—— = AP cost it
+AP quantity cost per unt
+
+Calculations and Formulas 33
+© 2022 Veritense™
+
+Edible portion cost is the cost to the department of the portion served. The EP cost takes into
+account the trim and waste that we calculated in the previous section with yield.
+Total AP Cost AP cost per unit
+
+Yield = EP cost —YViela = EP cost per unit
+
+You can use a helpful calculations triangle
+for AP cost and EP cost, just note that AP
+and EP have flipped from the quantity
+triangle.
+
+AP cost
+
+= EP cost x yield
+
+Identify which term applies to the following
+
+cost (AP cost or EP cost).
+
+a. plate cost
+
+b. T-bone steak from the butcher at
+$4.50 per Ib
+
+c. Cost after accounting for percent yield
+
+da ‘9‘dV'‘G‘da e
+
+AP cost
+yield
+Ex 3.6: You purchase 8 Ibs of apples at $2.99/lb. What is your total AP cost?
+
+EP cost = multiply
+
+9
+xX 8 lb = $23.92
+lb $
+
+Total AP cost = AP cost per unit x AP quantity =
+
+After peeling and coring, you end up with 6 Ibs of apples, giving you yield of 75%. What is your EP
+cost per Ib?
+
+AP cost per unit _ $2.99/lb
+Yield ~ 0.75
+
+EP cost per lb = = $3.99
+
+Does it make sense that our EP cost is greater than our AP cost? Why or why not?
+
+Ex 3.7: You purchase 40 qts of sliced canned peaches for $40.79. Yield for draining the peaches is
+90%. What is the AP cost per unit?
+
+40.79
+40 qt
+
+AP cost per unit = = $1.02 per qt
+
+Did you need to use all of the information in this question? No! Don’t let extra information confuse you.
+
+Calculations and Formulas 34
+© 2022 Veritense™
+
+Ex 3.8: You purchase 5 Ib 2 oz of strip steak with a 50% yield for $5.99/lb. What is the total EP
+cost?
+
+In Ex 3.3 you calculated EP quantity of 41 oz from the AP quantity of 82 oz. Now, calculate total EP
+cost.
+
+$5.99 lb gan
+lb 160z POT %
+
+74
+X 82 oz
+
+$0.3
+Total AP cost = AP cost per unit x AP quantity =
+= $30.67
+
+AP cost _ $30.67
+Yield — 0.50
+
+EP cost = = $61.34
+
+You paid $30.67 for the 5 lb 2 oz of streak but the total EP cost after prep is really $61.34.
+
+ls there another way you could have calculated EP cost in this problem?
+
+Ex 3.9: Your holiday dinner budget for turkey is $100. Yield for a whole turkey after cooking is
+90%. Your vendor has 15-pound turkeys available for $49 each. Can you afford to feed 45 people
+at 8 oz each with your budget?
+
+You calculated how many turkeys you need to buy in Ex 3.4 by calculating EP quantity and then using
+yield to calculate AP quantity.
+
+EP quantity = 45 servings x = 360 oz
+
+serving
+
+EP quantity 360 0z
+yield 0.90
+
+AP quantity = = 400 oz
+
+turkey
+15 lbs
+
+= 25 lbs;25 lbs EP Xx
+
+lb
+4000z EP x = 1.67 turkeys
+16 oz
+
+~ 2 turkeys
+The new information is that the AP cost per unit is $49 per turkey.
+
+$49
+turkey
+
+Total AP cost = AP cost per unit x AP quantity = x 2 turkeys = $98
+
+Yes, you can just afford the 2 turkeys with your budget.
+Now, calculate the total EP cost and EP cost per serving and per ounce (for fun).
+
+AP cost _ $98 = $108.89
+Yield 0.90 ‘
+
+EP cost =
+
+EP cost _ $108.99
+
+servings 45 = $2.42
+
+EP cost per serving =
+
+Calculations and Formulas 35
+© 2022 Veritense™
+
+EPcost —_ $108.89 $108.89
+EP quantity ~ 45*80z 3600z
+
+EP cost per ounce = = $0.30
+
+Your EP cost per ounce is $0.30/oz. What is your AP cost per ounce?
+
+We wouldn't use the 400 oz AP because that is technically 1.67 turkeys, and we are purchasing 2
+turkeys.
+
+AP quantity = 2 turk 15 Ibs 1602 _ 480
+quantity = 2 turkeys x turkey * Ib = oz
+AP cost $98
+
+AP cost per ounce = = $0.20
+
+AP quantity ~ 480 oz
+
+Practice Calculations
+
+EQ1. As foodservice manager, you order 50 pounds of potatoes for $12 total. After peeling,
+chopping, and boiling, the edible portion is 38 pounds. What is the edible portion cost per
+pound?
+
+EQ2. How much hamburger do you need to purchase to cook three hundred 3-ounce patties
+with 20% shrinkage?
+
+EQ3. An 8 lb roast costs $2.79 per pound and has EP of 65%. What is the AP cost?
+
+EQ4. An 18 Ib ready-to-cook turkey is purchased at $0.68 per pound. After cooking and slicing
+(handling), it weighs 9.9 pounds. What is the edible portion cost per pound?
+
+EQ5. You need twenty 4-ounce hamburger patties for an upcoming catering event. The
+hamburger meat has 50% yield. How much ground beef should you purchase?
+
+EQ6. Your chef needs 45 pounds of beef for an upcoming event, so he submits a requisition
+order for 45 pounds of beef. You check the recipe and see that the 45 pounds is actually the
+EP, not the AP. You know that the beef has a 67% yield. How much should the chef actually
+request for this recipe?
+
+EQ7. You need 125 two-ounce portions of bacon for breakfast meals this week. Given 25%
+shrinkage, how many pounds of bacon should be purchased to cover 125 portions?
+
+Calculations and Formulas 36
+© 2022 Veritense™
+
+Selling Price
+
+Selling price can be calculated in several ways, but the main idea is, “How much will you sell
+this item for, given how much it costs to make it?” and/or, “How much will you sell this item for,
+given how much profit you want to generate?”
+
+Cost to make per unit
+
+Selling Price = Food Cost (decimal)
+
+Example 4.1: You spend $0.75 to create one portion of wings. You have a 30% food cost — what should
+the selling price be?
+
+Cost to make per unit $0.75
+
+Food Cost (decimal) — 0.30 = $2.50
+
+Selling Price =
+
+You can re-arrange this first selling price formula to get the formulas for food cost percentage and cost to
+make per unit. Try it:
+
+Food Cost =
+Cost to make per unit = x
+
+Cost to make per unit
+
+Food Cost = Selling Price
+Cost to make per unit = Selling Price x Food Cost
+
+If you're having trouble rearranging the formula, go back to the basic math review section. You'll need to
+move denominators to the other side by multiplying both sides by it.
+
+You can also calculate selling price using markup factor and prime cost.
+Selling Price = Markup Factor x Prime Cost
+where Prime Cost = Raw Food Cost ($) + Labor Cost($)
+
+The formula you use for selling price depends on the information you're given. It’s important to
+understand that selling price will always be more than food cost, and thus, you need to multiply so that
+you increase the price. You'll also need to know how to calculate the other items in the formula, such as
+prime cost or labor cost.
+
+Selling Price = Markup Factor Xx Raw Food Cost
+
+Calculations and Formulas 37
+© 2022 Veritense™
+
+Markup Factor
+
+Markup factors can be calculated in several ways but will either incorporate both food cost and
+labor cost, or food cost alone.
+
+Markup Factor = Food Cost
+
+1
+
+Markup Factor = ———_——___—_—____
+arkup actor = Food Cost + Labor Cost
+
+If you’re given food cost as a percent, you can convert it to a decimal or you can use 100
+instead of 1 in the numerator. Note that “food cost” and “labor cost” in the markup factor formula
+is not the actual dollar amount but is food cost percent/100 and labor cost percent/100 (divide
+by 100 to get the decimal, or use 100 / food cost percent + labor cost percent). If it was the
+dollar amount, the markup factor would be the same as 1 / Prime Cost.
+
+How do you know if you need to include food cost or food cost and labor cost? If you’re only
+given one on the exam, you can only calculate one
+
+Example 4.2: If food cost is 23% and raw food cost is $0.25:
+
+Can you calculate markup factor? Yes, with food cost alone.
+Can you calculate prime cost? No, we don’t have labor cost.
+
+Calculate selling price using the selling price formula that requires markup factor and raw food cost, but
+not labor cost or prime cost.
+
+1
+
+Food Cost 023° ’®
+
+Markup Factor =
+
+Selling Price = Markup Factor X Raw Food Cost = 4.3478 x $0.25
+= $1.09
+
+So, the cost of the food item was $0.25 and we are going to charge $1.09 for it.
+
+Calculate markup factor for the following items.
+
+e Prime rib — Food cost 33%, labor cost 5%
+e Pizza — Food cost 12%, labor cost 26%
+e Steak entrée — Food cost 42%
+
+Calculations and Formulas 38
+© 2022 Veritense™
+
+Prime Cost
+
+Prime cost is the combination of raw food cost and labor cost, that is, the cost of goods
+purchased and the cost to make the final product. In contrast to markup factor, prime cost uses
+food cost and labor cost in dollar values. In the earlier selling price formulas, there was a value
+for “cost to make”. When we have the necessary information to calculate prime cost, prime cost
+replaces “cost to make”.
+
+Prime Cost = Raw Food Cost ($) + Labor Cost($)
+
+Example 4.3: If raw food cost is $1.75, labor cost is $1.00, percent food cost is 30% and percent labor
+cost is 52%, what will the selling price be?
+
+Can you calculate markup factor? Yes, with food cost and labor cost.
+Can you calculate prime cost? Yes, with raw food cost and labor cost.
+How will you calculate selling price? With prime cost and markup factor.
+1 1 1
+
+Food Cost + Labor Cost ~ 0.30 + 0.52 ~ 0.82
+= 1.2195
+
+Markup Factor =
+
+Prime Cost = Raw Food Cost + Labor Cost = $1.75 + $1.00 = $2.75
+Selling Price = Markup Factor x Prime Cost = 1.2195 x $2.75 = $3.35
+
+Note that if you’re given labor cost in dollar amounts, you should use the selling price formula that
+includes both markup factor and prime cost, rather than calculating markup factor with both food cost and
+labor cost, and multiplying it by the raw food cost.
+
+In the example above, if we weren't given labor cost of $1.00, we couldn't use the prime cost method.
+Instead, we would use:
+
+Selling Price = Markup Factor Xx Raw Food Cost
+1
+
+here Markup Factor = ——_—__—__
+winere MAGTICED BGCLOY Food Cost + Labor Cost
+
+we would end up with
+
+Selling Price = 1.2195 x $1.75 = $2.13
+instead of the answer above, $3.35. See if you can work out the markup factor formula to get 1.2195.
+What if labor cost wasn't given to you in a dollar amount but in terms of how many minutes it
+took at an hourly rate? For example, if you were told that the labor cost was 5 minutes at
+$12/hour, you can calculate the labor cost per minute and multiply that by the minutes taken to
+make the item
+
+$12 1hr $12
+
+hour * 60 min 60min $0.20 per min
+
+$0.20 per minx 5 min = $1.00
+
+Calculate labor cost for the following scenarios:
+10 minutes at $10/hour 2 minutes at $12/hour 8 minutes at $11.75/hour
+
+Calculations and Formulas 39
+© 2022 Veritense™
+
+Example 4.4: Raw food cost is $2.50, labor cost is 30 minutes at $14/hour. Calculate prime cost.
+
+Prime Cost = Raw Food Cost + Labor Cost
+
+Labor Cost = x22" = 34 = $0.233/ min x 30 min = $7.00
+
+hour 60min 60
+
+Prime Cost = Raw Food Cost + Labor Cost = $2.50 + $7.00 = $9.50
+
+What would the prime cost be if the labor cost was 2 hours at $14/hour?
+
+Example 4.5: You make 25 plates for an awards dinner at $15 a plate. You paid 6 waitstaff $20/hour for 3
+hours and 4 kitchen staff $15/hour for 6 hours. Calculate prime cost. Try it on your own before going
+through the calculations below.
+
+Prime Cost = Raw Food Cost + Labor Cost
+$20 $15
+Labor Cost = (x 3 hours x 6 staff) + (——x 6 hours x 4 staff)
+
+= 360 + 360 = $720
+Prime Cost = Raw Food Cost + Labor Cost = $15(25) + $720 = $375 + $720 = $1,095
+
+The first step is to calculate labor cost. Note that we're not converting labor cost per hour into labor cost
+
+per minute because the employees worked full hours. For food cost, note that we’re given the number of
+plates and the cost per plate. If you were given the total cost, you would plug that in. Don’t get tripped up
+if a question gives you the planned budget per plate and the actual amount spent. You'll want to use the
+actual amount spent because you are calculating the prime cost after the fact.
+
+Practice Calculations
+$Q1. If food cost is 22% and raw food cost is $0.12, what should the selling price be?
+
+$Q2. If food cost is 22%, raw food cost is $0.12, and labor cost is $1.75, what should
+the selling price be?
+
+SQ3. If labor cost is 4 minutes at $8/hour, percent food cost is 30%, percent labor cost
+is 41%, and raw food cost is $1.80, what should the selling price be?
+
+Calculations and Formulas 40
+© 2022 Veritense™
+
+Calculating Profitability and Popularity
+
+You'll learn more about menu planning and optimizing profitability by assessing popularity when
+you study Food Service Logistics. However, there are key calculations that you'll need to know
+and you can practice them here.
+
+Popularity index and profit contribution are 2 measures that can be used to assess the success
+of different menu items and make changes to increase profit.
+
+Popularity is assessed by the number of units sold and isn’t tied into profit. You can sell 100
+units of item A and 10 units of Item B (for ten times the price of Item A), and no matter how
+much profit you make from Item B, Item A will still be more popular.
+
+units sold
+
+Popularity index = total units sold
+
+Profitability can be calculated several ways, and the formula you use will depend on what
+you're given in the question. You can calculate profit for a single unit of an item sold (also called
+the unit price profit), or you can multiply that unit price profit by total items sold and then divide
+it by its contribution to total profits (percent profit contribution). To calculate “profit”, you'll see
+either of these:
+
+Unit Price Profit = Selling Price — Food Cost
+Profit =item profit xX units sold
+
+With percent profit contribution, you can see how popularity (the number of items sold) plays
+into profitability, which makes sense given that the strategies earlier on involved increasing
+overall sales in order to increase profitability.
+
+Unit item profit _ Selling Price—Food Cost
+
+Percent Profit Contribution = - -
+Total profit Total profit
+
+You can also calculate food cost percentage.
+
+Food Cost
+
+Food Cost P t = ——_—_
+000 NOSE ET EETEAGE Selling Price
+
+Did you catch that food cost percentage is the unit price profit formula rearranged?
+
+Since you’ve learned about markup factors as well, you can imagine that you might include
+labor cost along with food cost when calculating profit. “Contribution margin” is another term for
+profit. Note that profit, profit contribution, and contribution margin all sound very similar but
+aren't always the same thing.
+
+The questions you will see on the RD exam will ask you to choose what strategy should be used
+for different menu types, or it will ask you to calculate which items on a list are most profitable or
+popular.
+
+Calculations and Formulas 41
+© 2022 Veritense™
+
+You may need to incorporate other foodservice calculation concepts like prime cost, food cost,
+
+edible portion, as purchased, etc.
+
+A key part of getting foodservice calculation questions correct is doing all of the steps. If you
+stop too early in problem solving, you may come up with an incorrect answer (but it might still be
+in the answer choices to trip you up). Writing out each step while including units and then going
+
+back to the question to see what it’s asking for; will help you ace these questions.
+
+This problem will walk you through calculating unit profit, total item profit, food cost percentage,
+and percent profit contribution. Remember that unit profit and total item profit are 2 terms often
+
+called “profit”.
+
+Step 1: Calculate profit for each item by subtracting food cost from selling price.
+
+| Selling Price Units Sold Unit Profit
+$19.50 $6.50
+Chicken parmesan $18.00 $7.50
+
+soso | $250 | 450~—~*
+Veggie Lasagna | $1020 | $1.25.~| —200~—*
+
+item profit for all items on the menu.
+
+Step 2: Multiply the unit profit by the number of units sold for total item profit. Then sum total |
+
+pe Selling Price Units Sold Unit Profit
+
+$19.50 $650 | 175 | $13
+Chicken parmesan $18.00 $7.50 $10.50
+
+Veggie Lasagna $10.20 $1.25
+a
+
+$8.95
+
+soso | s250 | 450 ~+|  ~97~—~*S
+
+Which item had the highest total profit in this example?
+
+Total Item
+Profit
+
+Write out the difference in unit profit and total item profit. Think about how you'll know which one
+
+to use when a question asks just for profit.
+
+Calculations and Formulas 42
+© 2022 Veritense™
+
+Step 3: Calculate food cost percentage by dividing Food Cost by Selling Price. Food cost
+percentage answers the question, “how much of the selling price covers the food cost?” A lower
+food cost percentage means you're selling the item for a high price relative to the food cost.
+Compare Veggie Lasagna’s food cost percentage to its unit profit — why doesn’t it have the
+highest unit profit?
+
+Percentage
+
+[——Pimers | —staso ~~ Cd|SCCY
+[Chicken parmesan | sa00 | $750 | 200 ~=«4 SS
+[Hamburger | soso $280 | 4s0~—=«SS
+[Veggie Lasagna | sto20| $125 | 200~=S«SCSSCS
+
+Step 4: Calculate percent profit contribution by dividing total item profit for each item by the
+profit total.
+
+% Profit
+pe Contribution
+| _Primerib | $1950 | $650
+[Veggie Lasagna_| $1020 ~+| $1.25 —
+
+Step 5: Calculate popularity of each item by dividing the units sold by total sales. To calculate
+total sales, add up all units sold from the menu.
+
+Po Selling Price Units Sold Popularity Index
+p Primers ‘| _‘$19.50 $6.50
+Chicken parmesan $18.00
+
+$9.50 $2.50
+Veggie Lasagna | 1020 | $1.25 | 200
+
+po tote
+
+Which item is most popular?
+Which item contributes the most profit to total profits?
+
+Which item has the lowest food cost percentage? What does this mean? Does this item have
+the highest unit profit? Why or why not?
+
+Calculations and Formulas 43
+© 2022 Veritense™
+
+Profitability Example
+
+Two items with the same food cost percent can have different unit profits due to different selling
+prices. You can rearrange the food cost percent formula to solve for selling price or for food
+cost.
+
+Food Cost P : _ Food Cost Food Cost P ; __ Food Cost
+008 (OSE REPCEMAGE = Selling Price 00 OE NWAIES Selling Price
+
+Food Cost = Selling Price x Food Cost Percentage
+
+Selling Food Cost Fe ood Cost | Unit Profit
+Price Percent
+
+Item A
+
+Food Cost = Selling Price x Food Cost Percentage = $20 x 0.10 = $2
+Unit Price Profit = Selling Price — Food Cost = $20 — $2 = $18
+
+ltem B
+
+Food Cost = Selling Price x Food Cost Percentage = $5 x 0.10 = $0.50
+Unit Price Profit = Selling Price — Food Cost = $5 — $0.50 = $4.50
+Practice Calculation
+
+PQ1. These numbers are for each item sold in a hospital cafeteria over a single week. Calculate
+food cost percentage, percent profit contribution, and popularity index for each item.
+
+[TY Saaing Price Units Sold
+$8.50 $2.50
+
+$3.00 $0.50
+$9.50 g250 | 350
+Meatball Sub $6.50 $3.15
+
+Use the previous examples to walk yourself through each calculation and then check your
+numbers in the answers section. You'll also want to check that you used the right formulas
+because you may have gotten the right answer but not the right way.
+
+A question on the RD exam will likely have you calculate several of these measures and then
+ask which item was most profitable or had the highest food cost percentage, etc. You still need
+to go through the calculations to answer those questions.
+
+Calculations and Formulas 44
+© 2022 Veritense™
+
+Practice Calculation Answers
+
+Cans
+
+You have a recipe written using #2 cans but want to use #10 cans. The recipe calls for 8
+number #2 cans of food. How many #10 cans will you need?
+
+#2 can = 2.5 cups
+8 0z
+8 (#2 cans) = 8x 2.5 cups = 20 cups x cup = 160 oz
+
+32 oz
+10 can =3 qts X qt = 9602
+
+160 07 _ 1.667 (#10 = 2 (#10
+Q60r 7 ( cans) = 2 ( cans)
+
+You could also convert the #2 can into fluid ounces from the beginning:
+
+#2can = 2.5 cups x= = 20 oz 8 (#2 cans) = 8 X 20 oz = 160 oz
+cup
+
+Break-even point
+
+Joe’s Diner has the following financial numbers for the past 6 months. Calculate the break-even
+point.
+
+Step 1: Go back to where the fixed costs and variable costs are described. Write whether each
+item is a fixed cost, sales, or variable cost in the far-right blank column.
+
+a
+a
+[Propery Taxes‘ sesco res
+
+Step 2: Calculate totals for each category and record them below.
+
+Total Sales $29,690
+
+Variable Costs $27,660
+
+Calculations and Formulas 45
+© 2022 Veritense™
+
+Step 3: Copy down the break-event point formula you'll use in this question.
+
+Fixed costs
+
+Variable costs
+(1 ~ ( Sales ))
+
+Formula 1:
+
+Step 4: Calculate the break-even point.
+First, calculate the denominator
+
+Variable costs _ $27,660
+Sales ~ $29,690
+
+= 0.931627
+Variable costs comprise about 4% of all sales.
+1 — 0.931627 = 0.068373
+Then we divide fixed costs by 1 — proportion of variable costs relative to sales.
+
+$10,800
+
+0.068373 = $157,957.09
+
+Cost per meal
+
+Your department is catering the hospital’s board meeting lunch next week. There will be 30
+people in attendance and the cost of food purchased for the event is $820. Your supervisor
+
+told you last week the budget for the event was $25 per meal, maximum. Are you over or
+under pervisor’s budget? By how much?
+
+Over, $2.33 Answer: A. First calculate the total cost per
+Under, $2.33 meal using what was spent and then
+
+Over, $70 determine if it was over or under budget.
+Under, $70
+
+aoop
+
+$820 spent
+
+30 meals
+$27.33 per meal — $25 budget = $2.33 over budget
+
+Cost per meal = = $27.33 per meal
+
+Depreciation
+
+Your department purchased a new bread oven for $16,000. The salvage value is estimated at
+$600 and the expected usable life is 11 years. Calculate the yearly depreciation.
+
+Cost of Equipment — Salvage value
+Years of Usable Life
+
+_ $16,000 — $600
+
+~ i1years
+
+Annual depreciation =
+
+= $1,400.00 per year
+
+Calculations and Formulas 46
+© 2022 Veritense™
+
+Edible Portion, As Purchased, and Yield
+
+EQ1. As foodservice manager, you order 50 pounds of potatoes for $12 total. After peeling,
+chopping, and boiling, the edible portion is 38 pounds. What is the edible portion cost per
+pound?
+
+AP cost _ $12
+EPamount 38
+
+EP cost per pound = = $0.316 or $0.32 per pound
+
+You paid $12 for 50 pounds of potatoes, or $0.24 per pound (AP price per Ib; $12 is AP cost).
+For this question, we want to know what the new food cost per pound is, given that we paid $12
+for 50 pounds of potatoes (and that doesn’t change) and have 38 pounds of potatoes to use to
+feed people. You can imagine that if a recipe calls for 50 pounds of potatoes (prepped), you
+would need to purchase more than 50 pounds in order to have what you need. Similarly, you
+may need to calculate the EP cost when tallying up food cost and profits later on.
+
+EQ2. How many pounds of hamburger do you need to purchase to cook three hundred 3-ounce
+patties with 20% shrinkage?
+
+Yield % = 100 — 20% shrinkage = 80% yield
+
+900 oz
+
+——— = 56.25 lbs
+16 oz per lb
+
+: 30z _
+300 patties x Sach = 900 oz
+56.25 lbs / 80% yield = 70 lbs meat to purchase
+
+First calculate the percent yield using the percent shrinkage given. If your hamburger meat will
+shrink by 20%, that means that you'll end up with 80% of the raw meat that you buy. You also
+need to account for portion size (3 0z) and portion number (300) to get the total amount you
+need for the recipe, and then back-calculate to the amount you need to purchase. Note that you
+need to purchase 70 lbs of meat to get the 57 Ibs cooked it will take to make your 300
+hamburger patties.
+
+EQ3. An 8 lb roast costs $2.79 per pound and has EP of 65%. What is the AP cost?
+
+AP price = 8 lbs x $2.79 per lb = $22.32 spent
+You're given the AP cost per pound ($2.79/Ib) and asked for the AP cost. To calculate AP cost,
+you just multiply the amount per pound times the amount you bought. You don’t need to account
+for EP to answer this question.
+
+EQ4. An 18 lb ready-to-cook turkey is purchased at $0.68 per pound. After cooking and slicing
+
+(handling), it weighs 9.9 pounds. What is the edible portion cost per pound?
+
+Calculations and Formulas 47
+© 2022 Veritense™
+
+EP cost lb AP cost
+r lb = ————_
+Cost BS EP weight
+$0.68 _ APcost _ $12.24 _
+AP cost = ——x 18 lb purchased = $12.24 EP cost per lb = Foon = oops = 3 U24 per lb
+
+lb
+First, we calculate total AP cost by multiplying the AP cost per Ib by the amount purchased.
+Then, we calculate the EP cost per Ib using the 9.9 pounds given. Another question may give
+you percent loss instead so that you have to calculate the EP weight yourself.
+
+EQ5. You need twenty 4-ounce hamburger patties for an upcoming catering event. The
+hamburger meat has 50% yield. How much ground beef should you purchase?
+
+Total EP amount = 40z X 20 servings = 80 oz EP
+
+80 oz
+
+——— = 5 lbs / 0.50 yield = 10 lb h
+16 oz per lb s/ yle S purchase
+
+First, you need to calculate how much edible portion weight you will need and convert it to
+pounds. Take note that you will need 5 pounds of cooked beef to make the patties, and so you
+should expect that you need to buy more. Thus, you divide by the percent yield rather than
+multiplying. If you were given a question that told you that you purchased 10 Ibs of ground beef
+raw, and that it has 50% yield, and were then asked how many 4-oz patties you could make, it
+would be working this problem in reverse.
+
+Calculations and Formulas 48
+© 2022 Veritense™
+
+EQ6. Your chef needs 45 pounds of beef for an upcoming event, so he submits a requisition
+order for 45 pounds of beef. You check the recipe and see that the 45 pounds is actually the
+EP, not the AP. You know that the beef has a 67% yield. How much should the chef actually
+request for this recipe?
+
+45 lbs for recipe
+0.67 yield
+This question is a good example of how to go from EP needed for a recipe to AP weight. The
+chef will need more than 45 pounds of beef raw, so you will divide by the yield rather than
+multiplying.
+
+EQ7. You need 125 two-ounce portions of bacon for breakfast meals this week. Given 25%
+shrinkage, how many pounds of bacon should be purchased to cover 125 portions?
+
+125x20z __ 2500z _ 15.625 lbs
+
+16 oz/lb ~ 16 oz/lb = 15.625 lbs (1-025) yield = 20.833 lbs to purchase
+Always start with calculating the total amount you'll need using the number of portions and the
+portion size. You may even be given the number of servings with a certain scoop size, and so
+you would need to know how many oz is in a scoop. Just like in the last example, if we’re going
+from EP weight to AP weight, we need to divide by yield to get the larger amount to order. If this
+was a multiple-choice question, we would need to round up and select 21 Ibs to purchase
+because if we purchased 20 Ibs, we would not have enough.
+
+= 67.16 lbs to purchase
+
+Selling Price
+
+Hem Food Cost % Labor Cost % 3 Factor
+Pizza
+
+Steak entrée aX
+
+. wv, 1 1 1
+Prime Rib: Markup Factor = ————————————_ = = — = 2.6316
+Food Cost+Labor Cost 0.33+0.05 0.38
+
+1 —-—_1_~_4 ~23616
+
+Pizza Markup Factor = —————————_ =
+Food Cost+Labor Cost 0.12+0.26 0.387
+
+Steak entrée Markup Factor = —~—— = —- = 2.381
+Food Cost 0.42
+
+Calculate labor cost for the following scenarios
+10 minutes at $10/hour: = $10 _thr__ _$10__ ¢9 16667 ner minx 10 min = $1.67
+
+hour 60min 60 min
+
+2 minutes at $12/hour: S12 y thr _ 812 _ $9 99 per minx 2 min = $0.40
+
+hour“. 60min 60min
+
+8 minutes at $11.75/hour: 9 $11.75) ihr _ $11.75
+hour 60 min 60 min
+
+= $0.195 per minx 8 min = $1.57
+
+Calculations and Formulas 49
+© 2022 Veritense™
+
+Selling Price
+
+$Q1. If food cost is 22% and raw food cost is $0.12, what should the selling price be?
+
+—1 = 1 = 4545455 Selling Price = Markup Factor
+Food Cost 0.22 x Raw Food Cost
+= 4.545455 x $0.12 = $0.55
+
+Calculate the markup factor by dividing 1 by the food cost percent in decimal format, and then
+multiply that markup factor by the raw food cost.
+
+$Q2. If food cost is 22%, raw food cost is $0.12, and labor cost is $1.75, what should the selling
+price be?
+
+1 1
+Food Cost 0.22
+
+Markup Factor =
+
+Markup Factor = = 4.545455
+
+Prime Cost = Raw Food Cost ($) + Labor Cost($) = $0.12 + $1.75 = $1.87
+Selling Price = Markup Factor x Prime Cost = 4.545455 x $1.87 = $8.50
+
+Note that we don’t use the markup factor formula with labor cost because we’re given labor cost
+in a dollar amount, not percent. We use the same markup factor as before but incorporate labor
+
+cost into our selling price by using the formula that multiplies markup factor by prime cost, rather
+than raw food cost.
+
+SQ3. If labor cost is 4 minutes at $8/hour, percent food cost is 30%, percent labor cost is 41%,
+and raw food cost is $1.80, what should the selling price be?
+
+Labor cost ($) = 2x —“~ = —8_ = $0.133/min x 4min = $0.533 In this example, since you're
+hr 60min §=—60 min given both labor cost in dollars
+1 1 1 and percent, you'll want to use
+Markup Factor = ~~ yapor Cost = 0308041 O71 1408451 the markup factor formula that
+has labor cost percent in the
+Prime Cost = Raw Food Cost ($) + Labor Cost($) = $1.80 + $0.533 = denominator and the selling
+$2.33 price formula that uses prime
+cost (which uses labor cost in
+Selling Price = Markup Factor x Prime Cost = 1.408451 x $2.33 = dollars).
+$3.29
+Profit
+
+Step 1: Calculate profit for each item by subtracting food cost from selling price. For example,
+the unit profit for prime rib will be $19.50 - $6.50 = $13. Repeat for the other items.
+
+Prime rib: $13; Chicken parmesan: $10.50; Hamburger: $7; Veggie Lasagna: $8.95
+
+Calculations and Formulas 50
+© 2022 Veritense™
+
+Step 2: Multiply the unit profit by the number of units sold for total item profit. Then sum total
+item profit for all items on the menu. For prime rib, calculate total item profit by multiplying 175
+units by $13 profit per unit = $2,275.
+
+Prime rib: $2,275; Chicken parmesan: $2,100; Hamburger: $3,150; Veggie Lasagna: $1,790
+Total: $9,315
+
+What item had the highest total profit in this example? Hamburger - $3,150 is greater than
+the other total item profits.
+
+Write out the difference in unit profit and total item profit. Think about how you’ll know
+which one to use when a question asks just for profit. Unit profit accounts for the selling
+price and food cost but not the items sold. You can’t calculate an items contribution to total
+sales without considering units sold. Total unit profit accounts for both unit profit (how far apart
+are your selling price and food cost) and the number of units sold (popularity).
+
+Step 3: Calculate food cost percentage by dividing Food Cost by Selling Price. For prime rib,
+divide food cost $6.50 by selling price $19.50. Food cost percentage answers the question,
+“how much of the selling price covers the food cost?” A lower food cost percentage means
+you're selling the item for a high price relative to the food cost. Compare Veggie Lasagna’s food
+cost percentage to its unit profit — why doesn’t it have the highest unit profit?
+
+Prime rib: 33%; Chicken parmesan: 42%; Hamburger: 26%; Veggie Lasagna: 12%
+
+Step 4: Calculate percent profit contribution by dividing total item profit for each item by the
+profit total.
+
+Prime rib: $2,275 / $9,315 =0.24 Hamburger: $3,150 / $9,315 = 0.34
+Chicken parmesan: $2,100 / $9,315 = 0.23 Veggie Lasagna: $1,790 / $9,315 = 0.19
+
+Step 5: Calculate popularity of each item by dividing the units sold by total sales. To calculate
+total sales, add up all units sold from the menu. For prime rib, divide 175 units sold by 1,025
+total sales and multiply by 100 for a 17% popularity index.
+
+Prime rib: 17%; Chicken parmesan: 20%; Hamburger: 44%; Veggie Lasagna: 20%
+Total units sold: 1,025
+
+Which item is most popular? Hamburger. It makes up the largest percent of total sales.
+
+What item contributes the most profit to total profits? Hamburger. It makes up the largest percent of
+profits.
+
+What item has the lowest food cost percentage? What does this mean? Does this item have the
+highest unit profit? Why or why not? The Veggie lasagna — the profit margin is highest on this item and
+it is being sold for a high price relative to the cost of producing it. This item does not have the highest unit
+price because unit price is on an absolute scale, but food cost percentage is relative to the actual selling
+price and actual food cost. The same food cost percent of an item with a low selling price will translate
+into lower unit profit than an item with a higher selling price.
+
+Calculations and Formulas 51
+© 2022 Veritense™
+
+Profitability and Popularity Practice Question
+
+PQ1. These numbers are for each item sold in a hospital cafeteria over a single week. Calculate
+food cost percentage, percent profit contribution, and popularity index for each item.
+
+Selling Food Total Item Profit
+Price Cost
+$8.50 | $2.50 | 250 — $8.50 - $2.50 = $6 $6 x 250 = $1,500
+$3.00 | $0.50 $3.50 - $0.50 = $2.50 | $2.50 x 100 = $250
+
+$9.50 $2.50 $9.50 - $2.50 = $7 $7 x 350 = $2,450
+Meatball Sub | $6.50 $3.15 $6.50 - $3.15 = $3.35 | $3.35 x 175 = $586.25
+
+a Popularity Index Percent Profit Contribution | Food Cost Percentage
+
+Calculations and Formulas 52
+© 2022 Veritense™
+
+Study Guide Questions
+
+Answer these study guide questions using the study guide text. These questions will be your
+first pass at applying the knowledge you’ve read and practiced in example calculations in a
+question-and-answer format. Instead of answering them from memory, go to the text and your
+notes. Because these questions are intended to be used as a guide to apply your knowledge
+and develop your critical thinking skills, not a test, and because the answers are in this
+document, there is no answer sheet.
+
+1.
+
+2.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+Activity-based budgeting is what type of budget?
+
+What are the differences between a baseline budget, a zero-based budget, and an
+incremental budget?
+
+Which type of budget accounts for changes in business volume using rate per unit of
+activity? Which type allocates a fixed amount of funding per business activity regardless of
+activity level?
+
+Which type of budget can be used to measure efficiency? Bonus: Why is that?
+
+What is a primary cost driver?
+
+Incremental budgets can be simpler than zero-based budgets but they can also be
+inefficient. Why?
+
+Compare and contrast zero-based budgeting and value proposition budgeting.
+Write out the formula for the current ratio. Think through why a current ratio greater than 1
+would indicate a positive ability to pay bills when due, while a current ratio less than 1 would
+
+indicate the opposite.
+
+Write out the formula for gross profit and net profit. How are they related? Where do
+operating costs come in?
+
+Which types of assets might a foodservice operation own that would accumulate
+depreciation?
+
+What is the purpose of cost-benefit analysis?
+Compare and contrast cost-benefit analysis, value analysis, and value-added research.
+Does increasing the amount of money spent on a product always equate to added value?
+
+How is quality often defined in food service? How would increased quality decrease costs?
+
+Calculations and Formulas 53
+© 2022 Veritense™
+
+15. What are the 5 factors that affect quality?
+
+16. What does it mean when a product is “value-added”? Can you think of an example other
+than pre-cut vegetables?
+
+17. What is the purpose of calculating the break-even point?
+
+18. Describe the relationship between monthly food cost, inventory, cost of production, COGS,
+and net income.
+
+19. Why might you want to forecast future sales volume?
+
+20. List the 3 main types of forecasting.
+
+21. What are some challenges with sizing up recipes for large service food systems?
+22. What factors do you need to consider in make-or-buy decision making?
+
+23. What is the difference between COGS and monthly food cost?
+
+24. Why would management try to keep COGS low? What are the components of COGS that
+you could attempt to decrease in your budget?
+
+25. Define edible portion and as purchased price. Why would the food cost of an item differ
+when raw versus cooked?
+
+26. Write out the different formulas for calculating selling price, as well as the formulas for their
+components, such as prime cost and markup factor. What key things do you need to
+
+remember when performing these calculations for the exam?
+
+27. What 2 measures can be used to assess the performance of menu items and plan changes
+to increase profit? Which measure is tied to profit?
+
+28. While popularity isn’t tied to profit, it contributes to profitability. Write out the formula for
+percent profit contribution to illustrate this, then explain in words.
+
+29. How could two food items with the same food cost percent have different unit profits?
+
+Calculations and Formulas 54

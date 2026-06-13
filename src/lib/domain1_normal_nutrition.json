@@ -1,0 +1,661 @@
+[
+  {
+    "id": "m1-nn-001",
+    "domain": "Domain I",
+    "topic": "Dietary Reference Intakes",
+    "difficulty": "medium",
+    "text": "The Recommended Dietary Allowance (RDA) is set to meet the nutrient needs of what percentage of healthy individuals in a specific age and sex group?",
+    "options": [
+      "50% (the average requirement)",
+      "68% (mean ± 1 SD)",
+      "97–98% (mean + 2 SD of the EAR)",
+      "100% (all individuals)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The RDA is set at the EAR + 2 standard deviations, which covers approximately 97–98% of healthy individuals in the specified age/sex group. The EAR covers 50% of the population. The RDA is used as an individual intake goal. The UL is set where risk of adverse effects is nearly zero, and the AI is used when insufficient evidence exists to establish an EAR/RDA.",
+    "tags": [
+      "DRI",
+      "RDA",
+      "EAR",
+      "nutrient requirements",
+      "dietary reference intakes"
+    ]
+  },
+  {
+    "id": "m1-nn-002",
+    "domain": "Domain I",
+    "topic": "Dietary Reference Intakes",
+    "difficulty": "medium",
+    "text": "An Adequate Intake (AI) is established for a nutrient when:",
+    "options": [
+      "The UL has been exceeded in the population",
+      "Insufficient evidence exists to establish an EAR and RDA",
+      "The nutrient has been proven essential but no deficiency disease exists",
+      "The nutrient is conditionally essential only"
+    ],
+    "correctIndex": 1,
+    "explanation": "The AI is used when there is insufficient scientific evidence to establish an EAR (and therefore an RDA). The AI is set at a level assumed to ensure nutritional adequacy. Examples of nutrients with AIs rather than RDAs include vitamin D (historically), potassium, and dietary fiber. The AI represents a wider range between a possible EAR and UL.",
+    "tags": [
+      "AI",
+      "adequate intake",
+      "DRI",
+      "dietary reference intakes"
+    ]
+  },
+  {
+    "id": "m1-nn-003",
+    "domain": "Domain I",
+    "topic": "Carbohydrates",
+    "difficulty": "medium",
+    "text": "Which disaccharide is composed of glucose and galactose, and which enzyme is required to digest it?",
+    "options": [
+      "Sucrose; sucrase",
+      "Maltose; maltase",
+      "Lactose; lactase",
+      "Amylose; amylase"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lactose (milk sugar) is composed of glucose + galactose and is hydrolyzed by lactase at the brush border. Sucrose = glucose + fructose (hydrolyzed by sucrase). Maltose = glucose + glucose (hydrolyzed by maltase). Amylose is a polysaccharide (not a disaccharide) hydrolyzed by amylase. Lactase deficiency causes lactose intolerance.",
+    "tags": [
+      "disaccharides",
+      "lactose",
+      "lactase",
+      "carbohydrate digestion",
+      "enzymes"
+    ]
+  },
+  {
+    "id": "m1-nn-004",
+    "domain": "Domain I",
+    "topic": "Carbohydrates",
+    "difficulty": "hard",
+    "text": "Why can humans NOT digest cellulose, even though it is composed entirely of glucose?",
+    "options": [
+      "Cellulose is too large to enter the small intestine",
+      "Cellulose contains β-glycosidic bonds that human amylase cannot break (amylase acts on α bonds only)",
+      "Cellulose lacks sufficient glucose units to be nutritionally valuable",
+      "Cellulose is dissolved by gastric acid before reaching the small intestine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cellulose uses β-1,4 glycosidic bonds between glucose units, causing every other glucose to flip, creating a rigid structure with hydrogen cross-links. Human amylase only acts on α-glycosidic bonds (as found in starch and glycogen). Gut microbiota produce cellulase to break down cellulose, but the resulting glucose is used by bacteria, not absorbed by humans. This is why cellulose is classified as insoluble fiber.",
+    "tags": [
+      "cellulose",
+      "fiber",
+      "beta-glycosidic bonds",
+      "amylase",
+      "digestion"
+    ]
+  },
+  {
+    "id": "m1-nn-005",
+    "domain": "Domain I",
+    "topic": "Carbohydrates",
+    "difficulty": "medium",
+    "text": "The Acceptable Macronutrient Distribution Range (AMDR) for carbohydrates in adults is:",
+    "options": [
+      "20–35% of total daily calories",
+      "10–35% of total daily calories",
+      "45–65% of total daily calories",
+      "50–75% of total daily calories"
+    ],
+    "correctIndex": 2,
+    "explanation": "The AMDR for carbohydrates in adults is 45–65% of total daily calories. The AMDR for protein is 10–35% and for fat is 20–35%. The Dietary Guidelines for Americans recommend that added sugars make up <10% of total daily calories and fiber intake should be 14 g per 1,000 kcal (or ≥25 g/day for adults).",
+    "tags": [
+      "AMDR",
+      "carbohydrates",
+      "macronutrients",
+      "DRI",
+      "dietary guidelines"
+    ]
+  },
+  {
+    "id": "m1-nn-006",
+    "domain": "Domain I",
+    "topic": "Protein",
+    "difficulty": "medium",
+    "text": "A patient following a vegan diet is concerned about getting complete protein. Which of the following plant foods is a COMPLETE protein (contains all 9 essential amino acids)?",
+    "options": [
+      "Brown rice",
+      "Black beans",
+      "Quinoa",
+      "Almonds"
+    ],
+    "correctIndex": 2,
+    "explanation": "Quinoa is a complete plant protein, containing all 9 essential amino acids. Other complete plant proteins include buckwheat, hemp seed, chia seed, soy, and spirulina. Most plant proteins are incomplete — grains are low in lysine and threonine, legumes are low in methionine, and nuts/seeds are low in lysine. Protein complementation (combining incomplete proteins throughout the day) addresses this.",
+    "tags": [
+      "complete protein",
+      "quinoa",
+      "vegan",
+      "essential amino acids",
+      "protein complementation"
+    ]
+  },
+  {
+    "id": "m1-nn-007",
+    "domain": "Domain I",
+    "topic": "Protein",
+    "difficulty": "medium",
+    "text": "A dietitian is counseling a vegan patient on protein complementation. Legumes (beans) are low in which limiting amino acid, and should be paired with which food group?",
+    "options": [
+      "Lysine; pair with grains",
+      "Methionine; pair with grains or nuts/seeds",
+      "Tryptophan; pair with soy products",
+      "Leucine; pair with animal proteins"
+    ],
+    "correctIndex": 1,
+    "explanation": "Legumes are low in methionine (a sulfur-containing essential amino acid). They should be complemented with grains (rice, corn, bread) or nuts/seeds, which are rich in methionine but low in lysine. Legumes ARE rich in lysine, so pairing legumes with grains (which are low in lysine) creates a complete protein combination. Classic examples: rice and beans (Latin American), hummus and pita (Middle Eastern).",
+    "tags": [
+      "protein complementation",
+      "legumes",
+      "methionine",
+      "limiting amino acid",
+      "vegan"
+    ]
+  },
+  {
+    "id": "m1-nn-008",
+    "domain": "Domain I",
+    "topic": "Protein",
+    "difficulty": "hard",
+    "text": "Which of the following amino acids is PURELY ketogenic (can only be converted to ketone bodies, NOT glucose)?",
+    "options": [
+      "Alanine",
+      "Phenylalanine",
+      "Leucine",
+      "Glutamine"
+    ],
+    "correctIndex": 2,
+    "explanation": "Leucine and lysine are the only purely ketogenic amino acids — they can only be converted to acetyl-CoA and ketone bodies, NOT glucose. Most amino acids are glucogenic (converted to glucose via gluconeogenesis). Some are both glucogenic AND ketogenic: phenylalanine, tryptophan, tyrosine, isoleucine, threonine. Alanine and glutamine are purely glucogenic.",
+    "tags": [
+      "ketogenic amino acids",
+      "leucine",
+      "lysine",
+      "gluconeogenesis",
+      "amino acid metabolism"
+    ]
+  },
+  {
+    "id": "m1-nn-009",
+    "domain": "Domain I",
+    "topic": "Fat",
+    "difficulty": "medium",
+    "text": "Which oil has the HIGHEST content of saturated fat among common dietary fats?",
+    "options": [
+      "Canola oil",
+      "Olive oil",
+      "Sunflower oil",
+      "Coconut oil"
+    ],
+    "correctIndex": 3,
+    "explanation": "Coconut oil has the highest saturated fat content (~91%) among common dietary fats, followed by palm oil and butter (~68%). Canola oil has the lowest saturated fat content (~7%), followed by safflower and sunflower oils. The Dietary Guidelines recommend limiting saturated fat to <10% of total daily calories. Replacing saturated fat with unsaturated fat (particularly polyunsaturated) reduces cardiovascular disease risk.",
+    "tags": [
+      "saturated fat",
+      "coconut oil",
+      "dietary fat",
+      "fatty acid composition",
+      "cardiovascular"
+    ]
+  },
+  {
+    "id": "m1-nn-010",
+    "domain": "Domain I",
+    "topic": "Fat",
+    "difficulty": "hard",
+    "text": "Which omega-3 fatty acid is found in walnuts, flaxseed, and canola oil, and what is its carbon chain designation?",
+    "options": [
+      "DHA (docosahexaenoic acid); C22:6 n-3",
+      "EPA (eicosapentaenoic acid); C20:5 n-3",
+      "ALA (alpha-linolenic acid); C18:3 n-3",
+      "LA (linoleic acid); C18:2 n-6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Alpha-linolenic acid (ALA) is the plant-based omega-3 fatty acid (C18:3 n-3) found in walnuts, flaxseed, flaxseed oil, soybean oil, and canola oil. EPA (C20:5 n-3) and DHA (C22:6 n-3) are found in marine algae, fish oils, and shellfish. LA (linoleic acid) is an omega-6 fatty acid. Omega-3 fatty acids are named by the position of the FIRST double bond from the methyl (omega) end.",
+    "tags": [
+      "ALA",
+      "omega-3",
+      "alpha-linolenic acid",
+      "fatty acids",
+      "plant sources"
+    ]
+  },
+  {
+    "id": "m1-nn-011",
+    "domain": "Domain I",
+    "topic": "Fat",
+    "difficulty": "medium",
+    "text": "Why are artificial trans fats solid at room temperature despite being unsaturated fats?",
+    "options": [
+      "They contain more carbon atoms than cis-unsaturated fats",
+      "Trans double bonds create a straight chain structure (like saturated fat), allowing tight packing",
+      "Hydrogenation adds extra hydrogen atoms that fill the double bonds completely",
+      "Trans fats have more branching than cis-unsaturated fats"
+    ],
+    "correctIndex": 1,
+    "explanation": "In trans fats, the hydrogens are on OPPOSITE sides of the double bond, resulting in a straight chain structure — like saturated fat. This allows the fatty acids to pack tightly together, making them solid at room temperature. In contrast, cis-unsaturated fats have hydrogens on the SAME side of the double bond, creating a bent shape that prevents tight packing, making them liquid at room temperature. Artificial trans fats are created by partial hydrogenation of liquid vegetable oils.",
+    "tags": [
+      "trans fats",
+      "hydrogenation",
+      "cis/trans",
+      "fatty acid structure",
+      "saturated fat"
+    ]
+  },
+  {
+    "id": "m1-nn-012",
+    "domain": "Domain I",
+    "topic": "Alcohol",
+    "difficulty": "medium",
+    "text": "How many calories per gram does alcohol (ethanol) provide, and why is overconsumption associated with malnutrition?",
+    "options": [
+      "4 kcal/g; alcohol is metabolized like carbohydrate",
+      "7 kcal/g; alcohol provides empty calories and impairs nutrient absorption/metabolism",
+      "9 kcal/g; alcohol is stored as fat when consumed in excess",
+      "5 kcal/g; alcohol is partially excreted before caloric contribution"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alcohol provides 7 kcal/g — more than carbohydrate or protein (4 kcal/g) but less than fat (9 kcal/g). These are 'empty calories' with no nutritional value. Primary malnutrition occurs when alcohol replaces nutritive foods. Secondary malnutrition occurs when GI and liver damage impairs digestion, absorption, and nutrient processing. Excessive alcohol metabolism also impairs the liver's ability to process vitamins and minerals (e.g., thiamin → Wernicke-Korsakoff syndrome).",
+    "tags": [
+      "alcohol",
+      "7 kcal/g",
+      "empty calories",
+      "malnutrition",
+      "ethanol"
+    ]
+  },
+  {
+    "id": "m1-nn-013",
+    "domain": "Domain I",
+    "topic": "Alcohol",
+    "difficulty": "medium",
+    "text": "Wernicke-Korsakoff syndrome, seen in alcoholics, is caused by deficiency of which vitamin, and why is alcohol specifically linked to this deficiency?",
+    "options": [
+      "Vitamin B12; alcohol destroys intrinsic factor production",
+      "Folate; alcohol blocks folate absorption in the duodenum",
+      "Thiamin (B1); alcohol replaces dietary thiamin, impairs liver conversion to TPP, and increases urinary thiamin excretion",
+      "Vitamin C; alcohol increases oxidative stress and depletes ascorbate"
+    ],
+    "correctIndex": 2,
+    "explanation": "Wernicke-Korsakoff syndrome results from thiamin (B1) deficiency. Alcoholism depletes thiamin through three mechanisms: (1) alcohol replaces thiamin-containing foods (primary malnutrition); (2) alcohol damages the liver's ability to convert thiamin to its active coenzyme form TPP (thiamin pyrophosphate); (3) alcohol increases urinary thiamin excretion. Symptoms include abnormal eye movements, poor muscle coordination, memory loss, and confusion.",
+    "tags": [
+      "Wernicke-Korsakoff",
+      "thiamin",
+      "alcohol",
+      "B1",
+      "deficiency"
+    ]
+  },
+  {
+    "id": "m1-nn-014",
+    "domain": "Domain I",
+    "topic": "Phytochemicals",
+    "difficulty": "medium",
+    "text": "Lycopene is a phytochemical found primarily in which food source, and what class of phytochemicals does it belong to?",
+    "options": [
+      "Green tea; flavonoids",
+      "Tomatoes; carotenoids",
+      "Citrus fruits; flavanones",
+      "Cruciferous vegetables; glucosinolates"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lycopene is a carotenoid found primarily in tomatoes (also in watermelon, papaya, guava, and pink grapefruit). Carotenoids are a class of phytochemicals that provide red, orange, and yellow pigmentation and include β-carotene, α-carotene, lutein, and lycopene. Both flavonoids and carotenoids function as antioxidants. Green tea contains catechins (a flavonoid subclass), and cruciferous vegetables contain glucosinolates/isothiocyanates.",
+    "tags": [
+      "lycopene",
+      "carotenoids",
+      "tomatoes",
+      "phytochemicals",
+      "antioxidants"
+    ]
+  },
+  {
+    "id": "m1-nn-015",
+    "domain": "Domain I",
+    "topic": "Botanical Supplements",
+    "difficulty": "hard",
+    "text": "A patient taking warfarin (a blood thinner) reports also taking St. John's Wort for depression. What is the most clinically relevant concern?",
+    "options": [
+      "St. John's Wort increases warfarin levels, increasing bleeding risk",
+      "St. John's Wort makes warfarin LESS effective by inducing its metabolism, reducing anticoagulation",
+      "St. John's Wort has no interaction with warfarin",
+      "St. John's Wort only interacts with antidepressants, not anticoagulants"
+    ],
+    "correctIndex": 1,
+    "explanation": "St. John's Wort induces cytochrome P450 enzymes (CYP450), which are responsible for metabolizing many drugs including warfarin. This INCREASES warfarin metabolism, REDUCING blood levels and anticoagulant effectiveness — potentially increasing thrombosis risk. St. John's Wort interacts with many medications (antidepressants, birth control, heart medications, HIV drugs, cancer medications, statins, anti-rejection drugs) and is generally recommended to be avoided if taking any other medications.",
+    "tags": [
+      "St. John's Wort",
+      "warfarin",
+      "drug-supplement interaction",
+      "CYP450",
+      "anticoagulant"
+    ]
+  },
+  {
+    "id": "m1-nn-016",
+    "domain": "Domain I",
+    "topic": "Botanical Supplements",
+    "difficulty": "medium",
+    "text": "Which botanical supplement is contraindicated in patients with estrogen receptor-positive (ER+) breast cancer due to its estrogenic activity?",
+    "options": [
+      "Valerian root",
+      "Milk thistle",
+      "Black cohosh",
+      "Echinacea"
+    ],
+    "correctIndex": 2,
+    "explanation": "Black cohosh has estrogenic properties and should be avoided in patients with ER+ breast cancer, as estrogen can stimulate tumor growth. Other phytoestrogen-containing supplements to avoid in ER+ breast cancer include: ginseng (can stimulate ER+ and endometrial tumor growth), soy isoflavones, dong quai, ginkgo biloba, licorice root (estrogenic activity), alfalfa, red clover, indole-3-carbinol, and chasteberry. Always ask cancer patients about supplement use.",
+    "tags": [
+      "black cohosh",
+      "ER+ breast cancer",
+      "phytoestrogen",
+      "drug-supplement interaction",
+      "oncology"
+    ]
+  },
+  {
+    "id": "m1-nn-017",
+    "domain": "Domain I",
+    "topic": "Digestion",
+    "difficulty": "medium",
+    "text": "Where does the majority of chemical digestion and nutrient absorption occur in the gastrointestinal tract?",
+    "options": [
+      "Stomach",
+      "Duodenum only",
+      "Small intestine (duodenum, jejunum, ileum)",
+      "Large intestine"
+    ],
+    "correctIndex": 2,
+    "explanation": "The small intestine (primarily the jejunum) is the main site of chemical digestion and absorption. The duodenum serves as a 'prepping station' where bile and pancreatic juice are released. The jejunum is the primary absorption site for macronutrients, most vitamins and minerals. The ileum absorbs vitamin B12 and recycles bile salts. The stomach mainly denatures proteins and produces chyme. The colon absorbs water, electrolytes, and short-chain fatty acids from bacterial fermentation.",
+    "tags": [
+      "GI tract",
+      "digestion",
+      "absorption",
+      "small intestine",
+      "jejunum"
+    ]
+  },
+  {
+    "id": "m1-nn-018",
+    "domain": "Domain I",
+    "topic": "Digestion",
+    "difficulty": "hard",
+    "text": "Which GI hormone is produced by duodenal enterocytes in response to gastric acid in the chyme, and what is its PRIMARY function?",
+    "options": [
+      "Gastrin; stimulates gastric acid secretion",
+      "CCK; stimulates bile release and pancreatic enzyme secretion",
+      "Secretin; inhibits further gastric acid secretion and stimulates pancreatic bicarbonate release to neutralize duodenal pH",
+      "Ghrelin; stimulates appetite"
+    ],
+    "correctIndex": 2,
+    "explanation": "Secretin is produced by duodenal enterocytes (stored as prosecretin) and activated by the presence of gastric acid in the duodenum as chyme enters through the pyloric sphincter. Its primary function is to regulate duodenal pH by: (1) inhibiting further gastric acid secretion (inhibits gastrin), and (2) stimulating pancreatic bicarbonate release to neutralize the acidic chyme. Secretin also stimulates bile acid production.",
+    "tags": [
+      "secretin",
+      "GI hormones",
+      "duodenum",
+      "bicarbonate",
+      "gastric acid"
+    ]
+  },
+  {
+    "id": "m1-nn-019",
+    "domain": "Domain I",
+    "topic": "Digestion",
+    "difficulty": "hard",
+    "text": "Ghrelin is known as the 'hunger hormone.' Which clinical scenario is MOST consistent with elevated ghrelin levels?",
+    "options": [
+      "Obesity with chronic high caloric intake",
+      "Following Roux-en-Y gastric bypass surgery",
+      "After completing a restrictive diet (caloric restriction leading to weight loss)",
+      "After a large meal with high fat content"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ghrelin levels INCREASE after dieting efforts (caloric restriction and weight loss), making weight maintenance difficult — the body fights against weight loss by increasing hunger signals. Counterintuitively, ghrelin is also HIGH in cachectic states and anorexia nervosa. Ghrelin is LOWER in obese individuals and in those who lose weight via gastric bypass (compared to diet-induced weight loss) — a potential mechanism for the superior weight-loss outcomes after RYGB.",
+    "tags": [
+      "ghrelin",
+      "hunger hormone",
+      "caloric restriction",
+      "weight loss",
+      "GI hormones"
+    ]
+  },
+  {
+    "id": "m1-nn-020",
+    "domain": "Domain I",
+    "topic": "Digestion",
+    "difficulty": "medium",
+    "text": "Cholecystokinin (CCK) is released in response to fat and protein in the stomach and small intestine. What are its two primary digestive effects?",
+    "options": [
+      "Increases gastric acid secretion and stimulates insulin release",
+      "Slows gastric emptying and stimulates bile production plus pancreatic enzyme release",
+      "Stimulates intestinal motility and increases water secretion",
+      "Inhibits gastrin and reduces duodenal pH"
+    ],
+    "correctIndex": 1,
+    "explanation": "CCK is produced by small intestinal mucosal cells and acts to: (1) slow gastric emptying (to allow more time for digestion), and (2) stimulate bile production (from the gallbladder) and pancreatic juice release (containing bicarbonate and enzymes). CCK also contributes to satiety via CNS receptors. Bile acid accumulation in the intestine provides negative feedback to reduce CCK secretion once digestion is sufficient.",
+    "tags": [
+      "CCK",
+      "cholecystokinin",
+      "bile",
+      "pancreatic enzymes",
+      "GI hormones"
+    ]
+  },
+  {
+    "id": "m1-nn-021",
+    "domain": "Domain I",
+    "topic": "Absorption",
+    "difficulty": "hard",
+    "text": "How are dietary lipids transported from the enterocyte to the liver?",
+    "options": [
+      "As free fatty acids in the portal vein, directly to the liver",
+      "As VLDL particles entering the blood capillaries in the villi",
+      "As chylomicrons entering the lacteals (lymphatic capillaries), then traveling via lymph to enter the blood at the subclavian vein",
+      "As micelles absorbed directly into blood capillaries in the jejunum"
+    ],
+    "correctIndex": 2,
+    "explanation": "After fat absorption, free fatty acids and monoglycerides are re-esterified to triglycerides in the Golgi apparatus and packaged into chylomicrons. Chylomicrons are too large for blood capillaries, so they enter lacteals (lymphatic capillaries). The lymphatic system transports chylomicrons via the thoracic duct, entering the bloodstream at the subclavian vein. Lipoprotein lipase degrades chylomicrons to chylomicron remnants, taken up by the liver for repackaging into VLDL, LDL, and HDL.",
+    "tags": [
+      "chylomicrons",
+      "lacteals",
+      "lymph",
+      "lipid absorption",
+      "exogenous lipids"
+    ]
+  },
+  {
+    "id": "m1-nn-022",
+    "domain": "Domain I",
+    "topic": "Absorption",
+    "difficulty": "medium",
+    "text": "Glucose and galactose are absorbed at the brush border primarily via which transport mechanism?",
+    "options": [
+      "GLUT5 facilitated diffusion",
+      "Passive diffusion down a concentration gradient",
+      "SGLT-1 active transport co-transport with sodium",
+      "Pinocytosis via micelles"
+    ],
+    "correctIndex": 2,
+    "explanation": "Glucose and galactose are primarily absorbed via SGLT-1 (sodium-glucose co-transporter 1), which requires sodium co-transport (active transport). The sodium gradient is maintained by the Na-K-ATPase pump on the basolateral membrane. SGLT-1 is densest in the duodenum and jejunum. Fructose, by contrast, is absorbed via GLUT5 facilitated diffusion. From the enterocyte into the blood, glucose exits via GLUT-2 facilitated diffusion into the portal vein.",
+    "tags": [
+      "SGLT-1",
+      "glucose absorption",
+      "active transport",
+      "sodium co-transport",
+      "brush border"
+    ]
+  },
+  {
+    "id": "m1-nn-023",
+    "domain": "Domain I",
+    "topic": "Absorption",
+    "difficulty": "hard",
+    "text": "Vitamin B12 absorption requires which factor, where is it produced, and where in the GI tract does absorption occur?",
+    "options": [
+      "Bile acids (produced by the liver); absorbed in the jejunum",
+      "R protein (produced in saliva); absorbed in the duodenum",
+      "Intrinsic factor (produced by gastric parietal cells); absorbed in the terminal ileum",
+      "Transcobalamin (produced in the pancreas); absorbed in the colon"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vitamin B12 absorption requires intrinsic factor (IF), a glycoprotein produced by gastric parietal cells (stimulated by gastrin). B12 initially binds to R protein in the stomach for protection during GI transit. In the ileum, B12 detaches from R protein and binds to IF, and the IF-B12 complex is absorbed in the terminal ileum. Conditions that impair intrinsic factor (gastrectomy, atrophic gastritis, pernicious anemia) require IM B12 injections rather than oral supplementation.",
+    "tags": [
+      "vitamin B12",
+      "intrinsic factor",
+      "parietal cells",
+      "terminal ileum",
+      "pernicious anemia"
+    ]
+  },
+  {
+    "id": "m1-nn-024",
+    "domain": "Domain I",
+    "topic": "Absorption",
+    "difficulty": "hard",
+    "text": "A patient who had a total gastrectomy develops macrocytic anemia with fatigue and neurological symptoms. The patient has been taking oral B12 supplements. Why is the oral supplementation insufficient?",
+    "options": [
+      "The stomach is needed to absorb B12 directly from food",
+      "Without gastric parietal cells, no intrinsic factor is produced — oral B12 cannot be absorbed in the ileum",
+      "Gastrectomy removes the duodenum where B12 is absorbed",
+      "The patient needs higher doses of oral B12 to compensate for reduced intrinsic factor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Intrinsic factor is produced exclusively by gastric parietal cells. After gastrectomy, there are no parietal cells left to produce intrinsic factor. Without IF, the IF-B12 complex cannot form and B12 cannot be absorbed in the terminal ileum — regardless of oral dose. Treatment must be intramuscular (IM) B12 injections, which bypass the need for GI absorption. This is the defining characteristic of pernicious anemia (IF-related B12 deficiency).",
+    "tags": [
+      "gastrectomy",
+      "vitamin B12",
+      "intrinsic factor",
+      "pernicious anemia",
+      "IM injection"
+    ]
+  },
+  {
+    "id": "m1-nn-025",
+    "domain": "Domain I",
+    "topic": "Vitamins",
+    "difficulty": "hard",
+    "text": "Folate bioavailability differs between food folate and synthetic folic acid. Using dietary folate equivalents (DFEs), 1 μg of folic acid from fortified food equals how many DFEs?",
+    "options": [
+      "0.5 DFE",
+      "1.0 DFE",
+      "1.7 DFE",
+      "2.0 DFE"
+    ],
+    "correctIndex": 2,
+    "explanation": "1 DFE = 1 μg food folate = 0.6 μg folic acid from fortified food (= 1.7 DFEs per μg folic acid in food). The conversion factor of 1.7 reflects that folic acid (synthetic, monoglutamate) is ~85% bioavailable vs. natural food folate (polyglutamate, must be cleaved) at ~50% bioavailable. DFE formula: DFE = μg food folate + (μg folic acid × 1.7). On an empty stomach, 0.5 μg folic acid equals 1 DFE (100% bioavailability).",
+    "tags": [
+      "folate",
+      "DFE",
+      "dietary folate equivalents",
+      "folic acid",
+      "bioavailability"
+    ]
+  },
+  {
+    "id": "m1-nn-026",
+    "domain": "Domain I",
+    "topic": "Vitamins",
+    "difficulty": "medium",
+    "text": "Thiamin deficiency manifesting with pitting edema, peripheral neuropathy, and cardiovascular dysfunction is classified as which type of beriberi?",
+    "options": [
+      "Dry beriberi — nervous system symptoms only",
+      "Wet beriberi — cardiovascular and edema symptoms",
+      "Wernicke's encephalopathy — ophthalmoplegia and ataxia",
+      "Pellagra — dermatitis, diarrhea, dementia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wet beriberi (named for its pitting edema) affects the cardiovascular system: edema, heart enlargement, and heart failure. Dry beriberi is the neurological form: peripheral neuropathy (numbness, tingling, loss of muscle function). Wernicke-Korsakoff syndrome is a severe thiamin deficiency seen in alcoholism: abnormal eye movements, ataxia, and memory impairment. Pellagra is niacin deficiency (the 3Ds: dermatitis, diarrhea, dementia).",
+    "tags": [
+      "thiamin",
+      "wet beriberi",
+      "dry beriberi",
+      "B1 deficiency",
+      "edema"
+    ]
+  },
+  {
+    "id": "m1-nn-027",
+    "domain": "Domain I",
+    "topic": "Vitamins",
+    "difficulty": "medium",
+    "text": "Riboflavin (B2) deficiency produces which characteristic clinical signs?",
+    "options": [
+      "Scurvy (bleeding gums, poor wound healing)",
+      "Angular stomatitis (cheilosis), glossitis, red/sore eyes, and dermatitis",
+      "Pellagra (dermatitis, diarrhea, dementia)",
+      "Megaloblastic anemia with neurological symptoms"
+    ],
+    "correctIndex": 1,
+    "explanation": "Riboflavin (B2) deficiency signs include: angular stomatitis (also called cheilosis or angular cheilitis — cracking at mouth corners), glossitis (red/inflamed tongue), sore red eyes, and dermatitis. B2 is crucial for FAD and FMN enzyme cofactors in energy metabolism. Riboflavin deficiency is relatively rare and typically co-occurs with other B vitamin deficiencies. The name 'flavin' means yellow (Latin) — excess riboflavin causes bright yellow urine.",
+    "tags": [
+      "riboflavin",
+      "B2",
+      "angular stomatitis",
+      "cheilosis",
+      "glossitis"
+    ]
+  },
+  {
+    "id": "m1-nn-028",
+    "domain": "Domain I",
+    "topic": "Vitamins",
+    "difficulty": "hard",
+    "text": "Niacin can be synthesized endogenously from which amino acid, and what is the conversion ratio used to calculate niacin equivalents (NE)?",
+    "options": [
+      "Phenylalanine; 45 mg phenylalanine = 1 NE",
+      "Tryptophan; 60 mg tryptophan = 1 NE",
+      "Methionine; 30 mg methionine = 1 NE",
+      "Tyrosine; 90 mg tyrosine = 1 NE"
+    ],
+    "correctIndex": 1,
+    "explanation": "Niacin (B3) can be synthesized from tryptophan: 60 mg tryptophan = 1 niacin equivalent (NE) = 1 mg niacin. This conversion also requires riboflavin (B2) and pyridoxine (B6) as cofactors. Tryptophan intake is estimated as 1% of total protein. DRIs for niacin are expressed as NE to account for both dietary niacin and the niacin synthesized from tryptophan. This is why pellagra can occur in populations eating corn (low in tryptophan) as a dietary staple.",
+    "tags": [
+      "niacin",
+      "tryptophan",
+      "niacin equivalents",
+      "NE",
+      "B3 synthesis"
+    ]
+  },
+  {
+    "id": "m1-nn-029",
+    "domain": "Domain I",
+    "topic": "Digestion",
+    "difficulty": "medium",
+    "text": "In the small intestine, bile emulsifies dietary fat. Where is bile produced and where is it stored before release?",
+    "options": [
+      "Produced in the pancreas; stored in the duodenum",
+      "Produced in the liver; stored in the gallbladder",
+      "Produced in the gallbladder; stored in the hepatic ducts",
+      "Produced in the small intestine; stored in the pyloric sphincter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bile is produced by the liver and stored in the gallbladder. Upon stimulation by CCK (in response to fat and protein in the small intestine), the gallbladder contracts and releases bile into the duodenum via the bile duct. Bile salts emulsify large fat droplets into smaller droplets, increasing surface area for pancreatic lipase to hydrolyze triglycerides into free fatty acids and monoglycerides. Bile salts are recycled and reabsorbed in the terminal ileum (enterohepatic circulation).",
+    "tags": [
+      "bile",
+      "liver",
+      "gallbladder",
+      "emulsification",
+      "lipid digestion"
+    ]
+  },
+  {
+    "id": "m1-nn-030",
+    "domain": "Domain I",
+    "topic": "Absorption",
+    "difficulty": "medium",
+    "text": "Short-chain fatty acids (SCFAs) such as butyrate, acetate, and propionate are produced in the colon by what process, and what is the primary function of butyrate?",
+    "options": [
+      "Hydrolysis of dietary fat by pancreatic lipase; provides energy to liver cells",
+      "Bacterial fermentation of soluble fiber; butyrate is the main energy source for colonocytes and has anti-cancer activity",
+      "Deamination of amino acids by gut bacteria; propionate is converted to ketone bodies",
+      "Saponification of bile acids; acetate is the primary energy source for the brain"
+    ],
+    "correctIndex": 1,
+    "explanation": "SCFAs are produced by commensal gut bacteria fermenting soluble fiber in the colon. Butyrate is the primary energy source for colonocytes (colon epithelial cells) and has anti-cancer activity. Acetate supports growth of other gut microbiota and participates in cholesterol metabolism and lipogenesis. Propionate is used for colonocyte energy and transported to the liver for gluconeogenesis. SCFAs also aid sodium absorption, maintaining the electrolyte gradient for water absorption.",
+    "tags": [
+      "SCFA",
+      "butyrate",
+      "fermentation",
+      "soluble fiber",
+      "colonocytes"
+    ]
+  }
+]

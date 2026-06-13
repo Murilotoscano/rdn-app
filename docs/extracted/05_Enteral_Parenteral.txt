@@ -1,0 +1,1449 @@
+ENTERAL &
+PARENTERAL NUTRITION
+
+a
+
+FOR THE REGISTERED DIETITIAN NUTRITIONIST EXAMINATION
+
+a VERITENSE™ product
+
+WRITTEN BY
+Bailey DeBarmore, PhD MHS RDN LDN
+Creator of the Study Smarter Method by Veritense™
+
+Version: October 1, 2022
+© 2022 Veritense™
+
+Table of Contents_To0c104305242
+
+Enteral Nutrition ......... ec ceccecesecseeeeeeeeeeeaeeeeeeseeeeeseaeeeeaeeseeaeeseeeesesaeesesaeaseeeeecaeeeseseeeseeeeeeaeaeseaeeseaeeeeeeeeeeseeeaes 3
+Indications for enteral NUtIITION...... eee eee eeeeeeeeeeeeneeeeeaeeeeeeeseeeeseeaeseseeseeaeeseeeeesaeaseaeesseeeseaeeseaeeeaeees 3
+Contraindications to Enteral Nutrition .........0...cccccecceeseeeeeeeeeeeeeeeseeeseeeeeesneeeseeeseeesaeeeeeseeeneeseeseeseeeeeneaes 3
+Enteral Nutrition ACCESS .00......cccccecceeeceeeeeseeeeeneeeeeaeeeeeeeesaeeeceesesaeeseeaeseeeseeaaeseeeeeaeeeeeaeseneeseeaeeeeaeeeanees 4
+Gut AtrOPHY o.oo. eee eee ceceeeeeeneeeseeeseeeeneeeneeeceeeseeeeaeseaeeeeesseeeeeseaeseseseaeeeeeseeseaeseeseaeeeeeseeseeseeseeeeeeeneeeaes 6
+Enteral Or parenteral? ..........cecccecccceeseeeseseeeneeeeeseeeeeeeeeeeeeesaeeeseeseeeeeeeaeseeeeeeaesseeseeaeeeeeaeeeneeeseneeeeeaeeeanees 7
+DUMPING SYNCrOME 2.0... eee seceeeeeeeeeaeeeeeeeeeeeeeseaeeesaueeeeaeessuaesecaeeseseeeseeeeeeaeeeseseeeneeaeeeseeeeeaeesnaeeseeeeseaeeaes 7
+REQUIGitAtION........ eee ee ceeeceeeeeeeeeeseeeeeeaeeseeaeeeeeeeesaeeeeeeseaeesesaeeesaeeseaeeeesaeseaeeesesaeesaeeseaeeeeeaeaeneeseneeeeeaaeeeaeees 8
+Dumping Syndrome versus Diarrhea ..........cccccecccceceeeeeseeeeeeeeesaeeseaeeeseeeeeeaeeeseseeeceeeeeeaeesneaeesnaeeseeeeeeeeeeaes 8
+EN Administration ...........cccccccccccseeeseeeeesseeeneeeseeeeeceeeeeneeeeaeeseeeeseaeesesaeseeeseaeesseeeeseeeseaeseceeseneeeeeeaeeeaeees 8
+Enteral Nutrition FOrmulas ...........cccccsesseceeeceeeeeeeeeeeeeseeseeeseeeeeeeeseeeseeeseeaseeaseeaeceseseeeseseseeaseaaseeseseseseneeeeaeenaes 9
+
+Parenteral Nutrition ......... cece cece ecceeeeesseecseeseeseeeseeeseseeeseseeseceeeseseeeseeeesseeesesseaeceseseseeseeeaeseoessecseeeseeeeeeseaeoes 10
+Indications for Parenteral Nutrition .......0.....e cc ecceeeeeeeesseeeeeeseeeeeeeeeeeeeeseesseeeseeeseeeseeesseeeeeeseeeeeeeeeeeeeeaes 11
+Parenteral ACC@SS ..0.....ccccccccesecseeeseseeeceeeeeeeeeseeeeeeeeesaeeseeeeseceeeseseeeceeeescseaseeeeeceeeseaeaseeseaeueeseeeeeeeseaags 12
+Parenteral Nutrition Calculations .............cccccceeeceeeeeeeeeseeeeeeeeeeeeeseeeeeeseeeseeeneeeseeeseeeseeaeeeseeeseaeeseeeeeseeeees 13
+Study Guide Questions ..0.........ccccccce cece cseeeceseeeeeesecaeesesaeseaeeseaeecseaeseaeeseaeseceeeeceeeceaeseeeseeseeeeeeeeseaeees 16
+Parenteral Nutrition Complications ...........0cccce ccc eccccccseceeeececeeeeseeeceeeeeeaeesesaeecseeeescaeseeeeeeeueeseeeeeeeseeeaes 18
+
+Practice QUESTIONS ......... cece eeeeeeeeeeeeeeeeeeeeeeeeeeeeaeceaeceaeeeseesseeeeaeeeaeeeaeeseeseeeeeeseeseaeseeeseeeseeeeeueeeaeeeeeeeneees 19
+
+AMSWETLS.......ccceeseeeeeceeeneeeseneeeeeeeseneeesaeeceeaeeeeeaeeeseeeseaeeceauaeeeaeeeeaaececaeesesaeeseaseseeasesaeeeseeeseaeaseaaesenueeseneeeeeeaeeeaes 21
+Practice QUESTIONS ...........ceeeeeceseeeeeeeeeeeeseeeeeeeeseeeaeeeaueeseeseeseneeeaeeeaeeseeseeeeeesaeeeeeeneeseeesseeseueseeseeeeeneeees 21
+Worksheet ANSWEYSS ..........cccccccceseeeeeeeeeeneeeeeaeeeeeeeeaeeceaeeeseaeeecaeeseaeeecneaeecaeeseeaeeeneeeeeeaeeseeaeeeueeseeeseneaesaes 24
+In-Text Questions and Calculation ANSWETS...........::ccccccceseeeeeeseeeeeeeeeeeeeeeneeesaeeseesaeeeneeeneeeeeseeeeeeeeneeaes 25
+Study Guide Questions .0........ cece ceceecseeeeeseeeseeeeseeeeeeseeesaeseneeeseeeeseeaeseeesecaeeeseeeseeeeesaeseneeeseneeeeeaeeseeees 26
+Calculations (Protein) 2.2.0... cecccccsceecseeeeeseeeseseeeeceeeecaeeseeaeseneeeseseeeseaeseeeseeaeeeseeeseaeeeeeaeseneeeseneesenaeeseneees 27
+
+REPEFENCES 000... eee ecceeceseeseneeeesaeeeseeeeeneeecesaeseneaeesaeeeeaeeecueeeeaesseeeesecaeeseaeeseceeeeeaeeeceseeeneeeeeeaeeeneseeeeeeeeeeseneeeees 28
+
+Terms of use
+
+Bailey DeBarmore is the creator and sole owner of the exclusive copyright to this study resource. This
+publication may not be shared physically or electronically with anyone, manipulated, copied, reprinted and
+sold, altered, or reproduced in any form or by any means without requesting further permission from the
+owner, Bailey DeBarmore. This book is for personal use only by a single individual. It should not be
+distributed to a dietetic internship class or otherwise used for academic purposes without discussing
+terms of use with the owner. By purchasing this item, you agree to the Terms of Use outlined herein. To
+inquire about further permissions for this document, including access for groups such as dietetic
+internship classes or graduate courses, contact the owner to learn about your options.
+
+Enteral and Parenteral Nutrition 2
+© 2022 Veritense™
+
+Enteral Nutrition
+
+Take out a sheet of paper and fold it in half. At the top write “enteral nutrition”. At the top of one side, write
+“indications” and at the top of the other side, write “contraindications”. List out the indications and
+
+contraindications introduced in this section, with room for notes.
+
+Indications for enteral nutrition
+
+Enteral nutrition (EN) is when nutrition is provided to the gut when a person cannot consume
+sufficient (or any) nutrition on their own. There are 5 main indications for enteral nutrition:'
+
+1. Protein-energy malnutrition and inadequate oral nutrient intake for = 5 days
+2. Meeting < 50% of nutrient needs for 5 — 7 days
+
+3. Severe dysphagia
+
+4. Coma
+
+5. Low output enterocutaneous fistula
+
+Each of these indications alone warrants enteral nutrition. Do your own research to elaborate on
+each one, answering the questions and objectives and adding your own notes. Think through
+these questions to help you with your notes. | recommend skimming these questions now, finish
+reading the study guide, and then coming back to answer them.
+
+e Define protein-energy malnutrition. What are the clinical indications?
+
+e Define dysphagia. How is it diagnosed? What is recommended for dysphagia that isn’t
+severe?
+
+e Why might enteral nutrition be preferred over parenteral nutrition in coma patients?
+
+e Define enterocutaneous fistula. Why would we use EN instead of PO intake? What if it was
+high output?
+
+Recommended Reading
+e McClave, SA, Taylor, B E, Martindale, RG, et al. Guidelines for the Provision and Assessment
+of Nutrition Support Therapy in the Adult Critically III Patient: Society of Critical Care
+Medicine and American Society for Parenteral and Enteral Nutrition. JPEN. 2016. 40(2), 159-
+
+211. https://doi.org/10.1177/0148607115621863 PMID: 26773077
+Contraindications to Enteral Nutrition
+
+Each of the contraindications below, on its own, precludes enteral nutrition. Think about why. Do
+your research, like you did for the indications, and add your own notes. You can use the free
+worksheet provided online at www.studysmartermethod.com/freebies. Contraindications to
+enteral nutrition include:?
+
+1. Intestinal obstruction, ileus, or 4. Major upper GI bleeding
+hypomotility 5. Prognosis doesn’t warrant
+
+2. Severe diarrhea or vomiting aggressive nutrition support
+
+3. Severe hemodynamic instability 6. High output enterocutaneous fistula
+
+Enteral and Parenteral Nutrition 3
+© 2022 VAPR2022
+
+Think through these questions to help you with your notes.
+
+e Define ileus. Note that if an intestinal obstruction is high, ostomy access can be obtained
+below.
+
+e Why is severe diarrhea a contraindication to EN?
+
+e What are the signs and symptoms of shock?
+
+e Go online to learn about how practice guidelines have changed with regard to initiating
+enteral nutrition with acute pancreatitis patients.
+
+e What does, “prognosis that doesn’t warrant aggressive nutrition support” mean? Give 3
+examples.
+
+e Why is a high-output enterocutaneous fistula a contraindication to EN?
+
+Enteral Nutrition Access
+
+Section References unless otherwise indicated:
+e Mueller CM, ed. The ASPEN Nutrition Support Core Curriculum. American Society of
+Parenteral and Enteral Nutrition. Silver Spring, MD: 2017. 3% ed.
+e Adult Enteral and Parenteral Nutrition Handbook. Department of Nutrition Services. University
+of Virginia Health System. 2011.
+EN access has 2 parts — where the tube goes in and where the tube ends. X-ray is used to
+verify location of the tube before giving the first feeding. We wouldn't want to start feeding with
+an NJ tube if it’s really only terminating in the stomach. Why? Here are terms relating to EN
+access that you should know.
+
+Nasogastric (NG): Flexible tube is fed through the nose, down the back of throat, and
+terminates in the stomach. OK to use for a few weeks
+
+Nasoduodenal (ND) and Nasojejunal (NJ): Flexible tube is fed through the nose, down the
+back of the throat, and terminates in the small intestine. OK to use for a few weeks
+
+Gastrostomy and jejunostomy: surgically placed directly into stomach or jejunum. By making
+an incision in the abdominal wall (stoma) and is usually done during another preplanned
+surgery. Used if EN needed for more than a few weeks, cannot have a tube through the mouth
+or throat, or vomit frequently (which would displace NG, ND, or NJ tubes).
+
+Percutaneous endoscopic gastrostomy (PEG), percutaneous endoscopic jejunostomy
+(PEJ) or PEG-J tube: lighted endoscope fed through the mouth down into the stomach (or
+jejunum) to guide where the abdominal incision is made and to guide placement of the G-tube
+or J-tube once inserted in the incision. PEG/PEJ tubes can last months or years. Complications
+include gastric content leakage and skin irritation, aspiration (PEG), and bleeding or bowel
+perforation (PEJ). A PEG-J tube is one where the tube enters the stomach and is fed through to
+the jejunum, rather than entering the body directly at the level of the jejunum.
+
+G-tubes are prone to leakage, skin irritation, nausea, vomiting, and bloating. J-tubes do not
+have those downsides but have an increased chance of diarrhea.
+
+Enteral and Parenteral Nutrition 4
+© 2022 VAPR2022
+
+e Compare the complications of G-tubes to J-tubes, and explain the differences.
+
+a TX)
+Oesophagus
+Oesophagus
+—
+Stomach Stomach
+PEG feeding
+tube aN
+
+Jejunostomy
+feeding tube
+
+Duration of access
+
+Nasal and oral tube feeding access is for short term only. If the patient needs long term enteral
+nutrition support, we would switch to G-tube, J-tube, PEG, PEG-J, or PEJ tube.
+
+Terminating location
+
+When the tube terminates beyond the stomach — beyond the pylorus — we call it post-pyloric
+access. We might do this for several reasons:
+
+e To avoid stimulating the pancreas
+e Due to recent esophageal or gastric surgery
+e Due to severe gastroparesis
+
+To avoid stimulus of the pancreas, we want the tube to terminate in the jejunum past the
+ligament of Trietz. Why?
+
+With esophageal or gastric surgery, like a gastric pull-up surgery for esophageal cancer, we
+don’t want to irritate the stomach or risk regurgitation. Gastroparesis is when the stomach isn’t
+moving food through the stomach and into the duodenum. With gastric surgery or gastroparesis,
+there’s no need to avoid stimulating the pancreas so access just beyond the pylorus (in the
+duodenum) is sufficient.
+
+e When would we transition someone from a nasal tube to a G-tube?
+e What are the indications for J tubes (terminating in the jejunum)?
+e How do we verify that a tube is actually terminating in the jejunum?
+
+Enteral and Parenteral Nutrition 5
+© 2022 VAPR2022
+
+Digestion and Absorption
+
+Where the tube terminates has implications for digestion, absorption, and choice of enteral
+formula. If the tube terminates beyond a certain location in the Gl tract, we need to provide a
+formula that will be absorbed where the tube terminates.
+
+Certain nutrients are digested (broken down) in different locations in the intestines, and may be
+broken down into large pieces and then smaller pieces before being absorbed. Then, certain
+nutrients are absorbed in different locations in the intestines. So, we have to consider the
+structure of the nutrients in the enteral formula we are providing and where the tube terminates.
+
+Also, if we are skipping over a part of the intestines where key nutrients are absorbed, we need
+to consider supplementation. For example, which nutrients are absorbed in the duodenum but
+not the jejunum? Thus, what would we need to consider in the nutrition plan for a patient with NJ
+access?
+
+e Describe the digestion process for: protein, carbohydrate, lipid
+e Describe the absorption process for: protein, carbohydrate, lipid
+
+Go to the EN Support worksheet (included with PTEP or free at www.studysmartermethod.com) and label
+the diagram of the Gl tract and complete the 24 page, labeling the diagrams with type of enteral access
+and listing the indications and implications for nutrition care.
+
+Gut atrophy
+
+A healthy Gl tract has well-formed intestinal cells, normal villi, effective tight junctions in order to
+prevent translocation of lumen contents to the blood stream, except through proper cellular
+absorption and transport.
+
+villi
+fart
+
+= % ~~ a normal
+
+hed intestinal
+
+LUMEN i i a villi
+
+effective
+ught —
+
+junctions
+
+Healthy Gut Gut z=
+
+bacterial
+nw =
+
+When the GI tract isn’t utilized for 2 or more weeks, gut atrophy can occur. This condition is
+characterized by inflamed intestinal cells, blunt or malformed villi, leaky channels between
+intestinal cells, translocation of lumen contents into the blood stream.°
+
+Enteral and Parenteral Nutrition 6
+© 2022 VAPR2022
+
+Enteral or parenteral?
+If the gut works, use it! What does that mean in practice?
+
+If a patient isn’t meeting their nutritional needs in the short-term, you don’t need to jump to
+enteral or parenteral nutrition. If they can tolerate an oral diet, small amounts of food or
+transitional diets often work. For enteral feeds, gut integrity can be maintained even with slow
+rates of feeds (like trophic feeds) or tapering up from slow rate to full rate feeds.° If parenteral
+nutrition is warranted, but the gut still works to the point of tolerating trophic enteral feeds, it’s a
+good idea to use both.
+
+Do some research iP Tt CoP
+
+e What are common types of transitional
+
+diets? When are they used? WORKS OSlz lili
+
+e What are trophic feeds?
+Gut check!
+
+e What are 3 aspects of a healthy Gl tract? Explain the function/implication of each.
+e How does gut atrophy occur? How does that play into nutrition support decisions?
+e What are 4 aspects of gut atrophy? Explain the function/implication of each.
+
+e What are the indications for enteral nutrition?
+
+e What are the contraindications for enteral nutrition?
+
+NORMAL
+
+Dumping Syndrome
+
+Under normal conditions, the pyloric sphincter controls the rate ctomach
+of gastric emptying so that only a small amount of bolus enters
+the duodenum at a time. Gastric emptying can be slowed
+(hypomotility, gastroparesis) or it can be too rapid, leading to
+dumping syndrome. We see dumping syndrome after
+bariatric surgery, gastric resection, esophageal pull-up surgery,
+and sometimes with post-pyloric EN access.
+
+gastric
+contents
+
+Dumping syndrome occurs when hypertonic contents enter
+
+the small intestine, causing an influx of fluid into the lumen. G's
+This leads to epigastric fullness, weakness, dizziness, vertigo,
+
+diaphoresis, tachycardia, and/or abdominal cramping. duodenum
+Dumping syndrome occurs within 1 hour of eating or EN
+
+administration.
+
+We can take steps to prevent dumping syndrome with EN by
+tapering up infusion rates, using continuous instead of bolus feeds, and using isotonic formula.
+
+Strategies for oral intake include avoiding fluids with meals, avoiding fatty foods, and avoiding
+high sugar foods.
+
+Enteral and Parenteral Nutrition 7
+© 2022 VAPR2022
+
+Reference: Dumping Syndrome. National Institute of Diabetes and Digestive and Kidney Disease.
+https://www.niddk.nih.gov/health-information/digestive-diseases/dumping-syndrome
+
+Regurgitation
+
+When formula enters the stomach faster than it empties, patients can regurgitate formula,
+particularly if they have poor muscle tone in their esophageal sphincter. If they have a PEG
+tube, formula can backflow into the tube which counts as regurgitation.
+
+Raising the patient’s bed to at least 30 degrees can help prevent regurgitation. Aspiration is
+when regurgitated fluids enter the lungs, leading to infection or aspiration pneumonia.®
+
+Dumping Syndrome versus Diarrhea RAPID EMPTYING
+
+Dumping syndrome results from rapid gastric emptying or
+rapid infusion of formula into the small intestine. Dumping
+syndrome symptoms can occur with jejunal access when
+a hypertonic formula is directly infused into jejunum. It
+manifests as dizziness, sweating, tachycardia, and
+cramping with onset between 15 and 60 minutes after
+feeds.°
+
+Diarrhea after tube feeding is more often due to infection
+(gastroenteritis), antibiotics, medications with sorbitol,
+malabsorption, and formula intolerance.‘ It can also be Influx of fluid
+due to a rapid infusion of solution or bolus feeds (instead into GI lumen in
+of continuous) but will manifest later than dumping response to
+
+syndrome. hypertonic
+contents
+
+If a question asks about the cause of diarrhea following
+enteral feeds, think about the timing of onset.
+
+EN Administration
+
+Continuous drip tube feedings are given at a steady flow rate for as many hours is required to
+administer the nutrients for the day. We often calculate the flow rate assuming a 24-hour
+duration. Continuous drip requires that the patient is tethered to an IV pole or pump.°
+
+Bolus feeds or intermittent feedings are given several times throughout the day, often at meal
+times. Patients often transition from continuous drip in the hospital to bolus feeds when they
+leave in order to have more mobility during the day. However, bolus feeds may be difficult to
+tolerate, especially with post-pyloric access.°®
+
+Combination feeds use bolus feeds during the day and continuous feeds at night.
+Cyclic feeds are given at a faster rate over a shorter period of time, and thus a faster flow rate
+
+must be tolerated. It’s often used overnight so the patient can freely move around during the
+
+Enteral and Parenteral Nutrition 8
+© 2022 VAPR2022
+
+day, or if a patient has a treatment schedule during the day (like chemotherapy) that precludes
+day time feedings.*®
+
+Previous guidelines recommended checking residuals before bolus feeds and every 3-5 hours
+with continuous feeds. A residual of 100 — 150 mL may indicate an obstruction or poor motility.°
+However, current ASPEN guidelines do not use gastric residual volumes as part of routine care
+to monitor ICU patients receiving enteral nutrition and do not recommend withholding EN when
+residuals are < 500 mL and without additional signs of intolerance.
+
+In the EN Support worksheet packet, fill out the table titled “enteral nutrition administration”. Go online to
+learn about the equipment required for each type of feed, and how that interacts with the setting it’s
+typically used in (at home, acute care).
+
+Enteral Nutrition Formulas
+
+Go online and do some research about EN formulas. Try searching (“specialty enteral formula”
+and “dietetics”) and then add your notes.
+
+Intact Formulas
+
+- Polymeric formula
+
+- Protein, carbohydrate, and fat in the same form as dietary intake
+
+- Standard, first-line EN formula (1 cal/mL)
+
+- Also available in high-calorie and high-protein options (1.5 — 2 cal/mL)
+
+Hydrolyzed Formulas
+
+— Monomeric formula
+
+— Pre-digested protein and carbohydrate
+
+— Fat in form of MCTs or oil
+
+o MCTs don't require emulsification and can be absorbed without transforming
+back into triglycerides
+
+— Used with jejunal access, short bowl syndrome, patients with impaired ability to digest
+nutrients
+
+— Tend to be hypertonic, which can lead to excess fluid in the GI tract causing cramping,
+nausea, vomiting, and diarrhea
+
+e Define polymeric and monomeric.
+
+e Define hypertonic and isotonic. Are high-calorie or high-protein intact formulas
+hypertonic?
+
+° Why are MCTs used in hydrolyzed formulas?
+
+e What is short bowel syndrome? Why would we use hydrolyzed formula?
+
+e What does pre-digested protein and carbohydrate mean?
+
+Enteral and Parenteral Nutrition 9
+© 2022 VAPR2022
+
+Review what you've learned about EN access, hypertonic versus isotonic, dumping
+syndrome and diarrhea, and how to mitigate those complications.
+
+Specialty Formulas
+
+Answers provided at the end of the study guide
+
+Glutamine Supplemented
+
+Glutamine requirements are increased during
+Glutamine is a key transporter of nitrogen, carbon, or ATP?
+
+e Specialty formulas with glutamine can improve metabolism and
+prevent atrophy
+Added Fiber
+
+Formulas with added fiber contribute to normal bowel function
+May clog tubes
+Help patients with diarrhea and/or constipation
+
+Soluble fiber is converted to which is used by gut bacteria for food
+o Helps maintain a healthy gut
+
+Controlled Carbohydrate
+
+Some institutions utilize controlled CHO formulas for patients with diabetes
+
+Low CHO/shigh fat formulas can facilitate weaning because excess
+CHO is converted to , releasing CO2 (which is difficult to clear
+with impaired respiratory function)
+
+Parenteral Nutrition
+
+Parenteral nutrition, or IV nutrition, is an alternative to oral or enteral nutrition when patients
+have intestinal failure.
+
+Intestinal failure can result from several different conditions.°
+
+Short bowel syndrome (following extensive surgeries)
+Inflammatory bowel disease (Crohn’s Disease)
+
+Small bowel tumors
+
+Mesenteric root or retroperitoneum tumors
+Congenital malformations of the gut
+
+o Small bowel atresia
+o  Gastroschisis
+o Aganglionosis
+
+Enteral and Parenteral Nutrition 10
+© 2022 VAPR2022
+
+e Necrotizing enterocolitis (NEC)
+
+e Absorptive impairment
+o Intestinal pseudo-obstruction
+o Microvillus inclusion disease
+
+For the exam, you don’t need to know all of these, but they provide context to understand when
+PN is indicated rather than EN or liberalizing a patient's diet. Define the terms above that you
+don’t know.
+
+The important note with parenteral nutrition is that its use is not decided by a diagnosis alone.
+The indications are divided into both “why” and “when”.
+
+Recommended reading: Worthington P, Balint J, Bechtold M, et al. When is Parenteral Nutrition
+Appropriate? JPEN. 2017.
+
+Indications for Parenteral Nutrition
+Why?
+
+The 5 indications for parenteral nutrition answer the “why” question — why a patient can’t use
+oral or enteral nutrition, and why we can’t use the gut.®”
+
+Inability to achieve or maintain enteral access
+Impaired absorption or loss of nutrients
+Mechanical bowel obstruction
+
+Need for bowel rest
+
+Motility disorders
+
+aoPon >
+
+Here are examples for the 5 indications. Define and elaborate on each example. Think about
+what might happen if we fed PO or enterally instead of PN, and think about why something like
+severe neutropenic fever or hemodynamic instability would lead to the inability to achieve or
+maintain enteral access. Answer the “WHY” question.
+
+Inability to achieve or maintain enteral Mechanical bowel obstruction
+access Intestinal stenosis or stricture
+Hemodynamic instability Inflammatory disease
+
+Active GI bleeding Severe adhesions
+
+Severe neutropenic fever
+
+Impaired absorption or loss of nutrients
+
+Short bowel syndrome Volvulus
+
+Bariatric surgery complications (e.g. high Radiation or chemotherapy-related
+
+output intestinal fistula) enteropathy
+
+Need for bowel rest
+
+Ischemic bowel Pre-operative NPO status but severely
+Severe pancreatitis malnourished with non-functional Gl tract for
+Chylous fistula 7-10 days before surgery
+
+Enteral and Parenteral Nutrition 11
+© 2022 VAPR2022
+
+Motility disorders
+
+Prolonged ileus Scleroderma
+
+Pseudo-obstruction Organ myopathy
+
+Severe adhesions Hirschprung’s disease
+When?
+
+Deciding when parenteral nutrition is indicated is a combination of nutritional status, intake, and
+then, how long you wait to initiate parenteral nutrition.®
+
+Well-nourished stable patients who is
+unable to meet at least 50% of nutritional > Initiate PN after 7 days
+needs PO or via enteral nutrition
+
+Nutritionally-at-risk patient unlikely to
+
+achieve sufficient oral or EN intake ° initiate PN within 3-6 days
+Moderately or severely malnourished
+patient in which oral intake or EN is not > Initiate PN as soon as possible
+possible
+. . Delay PN until condition is
+Metabolically unstable patient > improved
+e Go online and research how you would determine the nutritional status (well-
+
+nourished, nutritionally-at-risk, moderately, or severely malnourished) of a patient.
+Also, research what “metabolically unstable” means.
+
+Parenteral Access
+
+Central Access
+
+Central access is venous access delivered to the superior vena cava or right atrium. Central
+access is achieved by a catheter (tunneled or not) into the chest, or a PICC line, which is
+peripherally inserted (arm) and threaded up to the chest. Look up images online of a tunneled
+catheter, PICC line, and central access catheter.
+
+Hypertonic solutions can be provided via central access because the large vena cava dilutes
+parenteral nutrition via its large blood volume and high blood flow rate.®
+
+Enteral and Parenteral Nutrition 12
+© 2022 VAPR2022
+
+Peripheral Access
+
+Peripheral access is achieved via a short IV cannula in the hand or arm and shouldn't be used
+for more than 10 — 14 days. °° Peripheral PN (PPN) is used when central access is
+contraindicated or for short term PN. Look up reasons online why central access might be
+contraindicated.
+
+With PPN, it’s important to maintain formula osmolarity below 900 — 1,100 mOsm/L.*® Why?
+
+Note that we typically only use PPN for supplemental PN or as a bridge to other therapy
+because large amounts of nutrients can’t be provided through small peripheral veins, and small
+veins cannot tolerate hypertonic solution, because they result in a large fluid shift into vascular
+compartments leading to phlebitis or thrombosis
+
+Amino acids and dextrose contribute to hypertonicity of PN formula, but fat does not. As long as
+the patient does not have delayed blood lipid clearance, lipids can be given peripherally even
+when other PN is given centrally.
+
+Osmolarity
+
+To calculate osmolarity, multiply dextrose g/L by 5, amino acid g/L by 10 and add 300-400 for
+vitamins and minerals. Remember, lipids don’t contribute to osmolarity.
+
+After we talk about parenteral formula calculations, we'll revisit osmolarity.
+
+° Why do we calculate osmolarity of PPN solutions?
+
+Parenteral Nutrition Calculations
+
+Now we'll discuss the components of parenteral nutrition formula: dextrose, lipids, and amino
+acids, and how to calculate the necessary parameters.
+
+Dextrose
+
+Dextrose, or D-glucose, provides the primary energy source in parenteral nutrition (45-60% of
+total calories) and only has 3.4 kcal per gram because singular dextrose molecules have an
+attached water molecule which doesn’t contribute calories.*® Dietary carbohydrates are typically
+chained together and provide 4 kcal per gram. In parenteral nutrition, dextrose concentrations
+are abbreviated as D(%)W, which tells you the % dextrose in water (W).
+
+— D50W is 50% dextrose in water, or 50 g dextrose per 100 mL water (or 500 g
+dextrose per L)
+
+— D5W is 5% dextrose in water, or 5 g dextrose per 100 mL water (or 50 g dextrose
+per L)
+
+Enteral and Parenteral Nutrition 13
+© 2022 VAPR2022
+
+Glucose Infusion Rate (GIR)
+
+Infusion rate is how quickly the parenteral nutrition formula enters the blood stream and is
+something we need to calculate. We often start with a GIR s 3 mg/kg/min and can advance to a
+maximum of about 5 mg/kg/min in adults, with some sources using 4 mg/kg/min.
+
+Infusion rate is important to control because a rate in excess of 0.36 g dextrose per kg body
+weight per hour can lead to hyperglycemia, fatty liver, and respiratory issues® because glucose
+is oxidized at a maximum rate of 0.36 g/kg/hour in our body. The maximum oxidation rate is the
+same as the maximum infusion rate for dextrose. We can calculate the maximum grams of
+dextrose to give a patient as 0.36 g x body weight x 24 hours.
+
+To calculate glucose infusion rate (GIR), which is typically mg/kg/min, convert grams to
+milligrams, divide by body weight (kg), and divide by minutes per day (or per infusion duration).
+Note: There are 1,440 minutes in a day. We try to keep GIR less than 4 mg/kg/min. Answers
+provided at the end of the study guide
+
+If your patient weighs 85 kg, what would their maximum dextrose tolerance be (in grams)? TIP:
+Use the maximum infusion rate for dextrose.
+
+A patient weighs 70 kg and is given 1500 mL of parenteral nutrition containing 300 g dextrose,
+110 grams amino acids, and 50 grams fat. Calculate the calories from dextrose and the GIR.
+Then calculate the GIR using g/kg/hr. What if the infusion is given over 12 hours?
+
+Amino Acids
+
+Amino acids provide 4 calories/gram and around 16% of amino acids are nitrogen. Standard
+amino acid solutions are 500 mL and are a crystalline L-amino acid solution that is 100%
+utilizable by the body (a mixture of essential and nonessential amino acids to mimic egg
+albumin). Standard amino acid concentrations vary from 3% to 10%.*°:*9
+
+— A83% solution contains 3 grams amino acids per 100 mL
+— A10% solution contains 10 g amino acids per 100 mL
+
+How many grams of amino acids would be in 500 mL of a 3% AA solution? 7% AA solution?
+How many grams of amino acids would be in 1.5 L of 3.5% AA solution? 0.75 L of 8.5%?
+
+Non-Protein Calorie:Nitrogen Ratio
+
+With parenteral nutrition, we calculate non-protein calorie:nitrogen ratio. ®
+
+Our goal is for the amino acids in the PN to be used for protein synthesis, not calorie
+requirements. We want to provide sufficient calories from other sources so that the body can
+use amino acids for protein synthesis. ° Amino acids are hypertonic. Common non-protein
+calorie:nitrogen ratios are: ®
+
+e 80:1 for critically ill patients
+e 100:1 for patients with difficulty maintaining muscle mass
+
+Enteral and Parenteral Nutrition 14
+© 2022 VAPR2022
+
+e 150:1 for unstressed and stable patients
+
+To calculate NPC:N ratio, divide total NPC by grams of N. To convert protein (g) to nitrogen (g)
+divide by 6.25 or multiply by 0.16.
+
+Think through what the ratios above mean — why 80:1 for ill patients but 150:1 for stable
+patients? Create some example calculations to help your case.
+
+Lipids
+
+Lipids are used by the body for energy and as a source of essential fatty acids. They provide
+20-40% of total calories. Calories from fat shouldn’t exceed 60% in order to avoid
+consequences of excess lipid administration including fat overload syndrome (leading to
+neurologic, cardiac, pulmonary, kidney, and liver dysfunction), increased thrombocyte adhesion,
+RES dysfunction, and impaired immune response.?
+
+PN lipid emulsions are typically a mixture of soybean oil and/or safflower oil, glycerol, and egg
+phospholipid.
+
+To avoid essential fatty acid deficiency, 2-4% of the total estimated calorie needs should come
+from lipids that include linoleic acid. ° Lipids should not exceed 60% of non-protein calories or 1
+— 2.5 g/kg/day. Critically ill patients should not receive more than 1 g/kg/day. ° Why?
+
+— Maximum lipid dose: 2.5 g/kg/day
+
+— Maximum hourly lipid infusion rate: 0.11 g/kg/hr
+
+— Typical rate of 4-6 hours for 10% lipid emulsions and 12-24 hours for 20% lipid
+emulsions
+
+Go online and look up the signs and symptoms of essential fatty acid deficiency.
+
+Lipid Volume and Concentration
+
+A 10% emulsion is 1.1 kcal/mL and a 20% emulsion is 2 kcal/mL.
+
+Calculate the calories and grams of lipid in the following emulsion-volume combinations
+
+e 100 mL, 10% emulsion
+e 250 mL, 10% emulsion
+e 200 mL, 20% emulsion
+e 500 mL, 20% emulsion
+
+Lipid Dose and Lipid Infusion Rate
+
+Example: A patient weighs 70 kg and is given 1500 mL of parenteral nutrition containing 300 g
+dextrose, 110 grams amino acids, and 50 grams fat. Calculate the lipid dose and lipid infusion
+
+Enteral and Parenteral Nutrition 15
+© 2022 VAPR2022
+
+50 g lipid / 70 kg = 0.71 g/kg/day
+
+In order to calculate hourly lipid infusion rate (g/kg/hour), convert milliliters to grams lipid,
+divide by body weight, and divide by infusion time in hours. To convert mL to grams lipid,
+determine the number of calories in the emulsion and divide by 10 kcal/g.
+
+50 g lipid / 70 kg / 12 hrs = 0.06 g/kg/hr
+
+Parenteral lipids are isotonic and calorically dense; thus, they are useful for hypermetabolic
+patients who need increased calories but are limited by the dextrose infusion rate and for
+patients with volume or carbohydrate restrictions because isotonic components won't increase
+fluid. ° Lipids are typically hung separately than dextrose and amino acid solutions, and are
+given once or twice a week (compared to daily infusions of dextrose and amino acid solutions)
+but can be combined with dextrose and amino acids (called a 3-in-1, or Total Nutrient
+Admixture).® In contrast, 2-in-1 is dextrose, amino acids, electrolytes, vitamins, minerals, and
+trace elements with a fat emulsion given on a separate line. ® We do not provide lipid emulsions
+daily in order to prevent hyperlipidemia. If we provided continuous lipid infusions, the body
+wouldn't have time to clear the lipids from the blood.® Lipids can be administered over 12 hours
+or 24 hours. Providing lipids over 24 hours (rather than 12 hours) can improve lipid clearance
+and should be used if the patient is not tolerating 12-hour infusions. ° Contraindications to using
+a lipid emulsion at all include abnormal lipid metabolism, lipid nephrosis, acute pancreatitis, and
+severe egg allergy. ° Proceed with caution if the patient has a blood coagulation disorder,
+moderate to severe liver disease, or compromised pulmonary function.
+
+e How much of the total calorie needs should be from PN lipids? Why?
+e Why would we take advantage of IV lipids in PN?
+
+Study Guide Questions
+
+Answer these study guide questions using the study guide text. These questions will be your
+first pass at applying the knowledge you’ve read and practiced in example calculations in a
+question-and-answer format. Instead of answering them from memory, go to the text and your
+notes.
+
+1. Patient was admitted to the ICU after bowel surgery. She is 80% of her ideal body
+weight and will remain NPO for 7 days. Would you consider starting her on PN, and if so,
+when?
+Why don’t we provide lipid emulsions continuously?
+Why do we calculate dextrose infusion rate?
+Why do we taper up PN infusion rates?
+For the following solutions, calculate calories, NPC, NPC:N ratio, percent NPC from fat,
+and osmolarity.
+
+a. 1.5L D50W, 1.5 L 8% AA, 500 mL 10% lipid
+
+b. 0.5L D20W, 1 L 3.5% AA, 200 mL 20% lipid
+
+aoPon
+
+Enteral and Parenteral Nutrition 16
+© 2022 VAPR2022
+
+Enteral and Parenteral Nutrition 17
+© 2022 VAPR2022
+
+Parenteral Nutrition Complications
+
+Why don’t we recommend PN globally? Why do we go through steps for the what, why, and
+how?
+
+— Because there are risks and complications
+— Without use for 2 or more weeks, the GI tract can atrophy, and gut bacteria can
+translocate into the circulatory system leading to infection
+— Peripheral access can lead to phlebitis and thrombosis
+o Why?
+— Central access lines can lead to serious systemic infections
+
+Specific things that should be monitored when a patient is on parenteral nutrition include:®
+
+— Hypertriglyceridemia — Catheter-related blood stream infections
+— Hyperglycemia — PN-associated liver disease
+— Fluid and electrolyte imbalance — Respiratory issues
+
+Hypertriglyceridemia: high blood triglycerides can occur with hyperglycemia, particularly with
+renal insufficiency, steroid medications, and large IV fat emulsions.
+
+Hyperglycemia: elevated blood glucose can occur when the body is unable to transport
+glucose into its cells fast enough, whether due to insulin resistance or diabetes, steroid
+medications, body stress, or excess dextrose infusion.
+
+Fluid and electrolyte imbalance: dosing PN components per day is helpful, especially when
+the total volume of PN solution changes. We often need to adjust the additional fluid and
+electrolyte additions due to physiologic stress, wound drainage, blood loss, Gl fluid loss, organ
+malfunction, hormonal abnormalities, medications, IV fluids, and parenteral electrolyte
+shortages.
+
+Catheter-related bloodstream infections: central access is ideal to address osmolarity
+concerns but there is an increased risk of bloodstream infection. This complication is a major
+reason we don’t globally prescribe parenteral nutrition.
+
+PN-associated liver disease: When excess glucose is converted to fat, it can lead to steatosis
+(fatty liver). The lack of bile duct stimulation in patients receiving PN can lead to cholestasis
+and/or gallbladder stones. Continuous infusion and high IV fat emulsion dosages are more likely
+to contribute to PN-associated liver disease than spaced out infusions.
+
+Respiratory issues: When excess glucose is converted to fat, the process produces extra
+carbon dioxide that can be problematic for patients with respiratory issues. To avoid this, it’s
+important to stay below the maximum dextrose rate.
+
+Enteral and Parenteral Nutrition 18
+© 2022 VAPR2022
+
+Practice Questions
+
+Answer these practice questions using the Study Smarter Method by Veritense™ that you read about in
+Chapter 2 and 3 of the Study Smarter Method for the RD-Exam section. Instead of answering these
+questions using your memory and logic, use the study guide text and/or your own research to determine
+which answer is correct (and why), and why the other answers are incorrect. Pay attention to the question
+itself, and be sure you know what the question is asking. There are answers with explanations following.
+If this is your first set of practice questions, go back and skim Chapters 2 and 3 in the Study Smarter
+Method for the RD-Exam section to remind yourself of the types of questions and how to answer them.
+
+1.
+
+Which of the following is NOT an indication for enteral nutrition?
+a. Protein-energy malnutrition and inadequate intake for 2 5 days
+b. High output enterocutaneous fistula
+c. Coma
+d. Severe dysphagia
+A patient with gastric-terminating enteral access is at risk for the following issues
+EXCEPT:
+a. Diarrhea
+b. Nausea
+c. Vomiting
+d. Bloating
+
+For the past week, a patient receiving enteral feeds has experienced abdominal
+cramping 30 minutes following bolus feeds. What would be an appropriate step to take?
+a. Raise the head of the bed at least 30 degrees during bolus feeds
+b. Switch to a hypertonic formula
+c. Go back to continuous feeds and taper up infusion rates depending on tolerance
+d. Check medication list for drugs containing sorbitol
+
+Which of the following patients is a candidate for immediate parenteral nutrition
+initiation?
+a. A patient who is hemodynamically unstable
+b. A nutritionally at-risk patient currently on home tube-feeds but not achieving
+sufficient intake
+c. A well-nourished patient unable to meet 50% of their nutritional needs
+d. A moderately malnourished patient with a bowel obstruction
+
+Which of the following is NOT a potential complication from parenteral nutrition?
+a. Hypertriglyceridemia
+b. Respiratory issues
+c. PN-associated kidney disease
+d. Catheter-related bloodstream infections
+
+Enteral and Parenteral Nutrition 19
+© 2022 VAPR2022
+
+Your sedentary patient is male, 5 ft 9 in, weighs 80 kg, and is 41 years old. How many L
+
+of 1.5 kcal/mL formula should be provided in his cyclic feeds over 12 hours?
+
+a.
+b.
+c.
+d.
+
+0.8L
+0.9L
+1.2L
+1.4L
+
+A patient on parenteral nutrition weighs 70 kg and is receiving 2 L of D15 solution. What
+
+is the glucose infusion rate?
+
+a.
+
+0.003 mg/kg/min
+
+b. 0.30 mg/kg/min
+c.
+d. 30 mg/kg/min
+
+2.98 mg/kg/min
+
+A patient on parenteral nutrition weighs 43 kg and is receiving 200 mL, 20% fat emulsion
+
+over 12 hours. What is the lipid infusion rate?
+
+a.
+b.
+c.
+d.
+
+0.02 g/kg/hr
+0.04 g/kg/hr
+0.08 g/kg/hr
+0.16 g/kg/hr
+
+What is the maximum daily lipid amount for a 82 kg patient on parenteral nutrition?
+a.
+b.
+c.
+d.
+
+82 g/day
+
+108 g/day
+180 g/day
+205 g/day
+
+10. What is the maximum daily dextrose for a 72 kg patient on parenteral nutrition?
+
+a.
+b.
+c.
+d.
+
+26 g/day
+311 g/day
+622 g/day
+1369 g/day
+
+Enteral and Parenteral Nutrition 20
+© 2022 VAPR2022
+
+Answers
+Practice Questions
+
+1. Which of the following is NOT an indication for enteral nutrition?
+a. Protein-energy malnutrition and inadequate intake for 2 5 days
+b. High output enterocutaneous fistula
+c. Coma
+d. Severe dysphagia
+
+Answer: B. Low-output enterocutaneous fistulas are an indication for enteral nutrition, but high-output
+enterocutaneous fistulas are an indication for parenteral nutrition (and a contraindication to enteral
+nutrition).
+
+2. A patient with gastric-terminating enteral access is at risk for the following issues EXCEPT:
+
+a. Diarrhea
+b. Nausea
+c. Vomiting
+d. Bloating
+
+Answer: A. Gastric-terminating enteral access increases risk of nausea, vomiting, and bloating compared
+to access terminating in the small intestine. G-tubes are also prone to leakage and resulting skin irritation.
+J-tubes do not have the risks associated here with G-tubes but do increase the risk of diarrhea.
+
+3. For the past week, a patient receiving enteral feeds has experienced abdominal cramping 30
+minutes following bolus feeds. What would be an appropriate step to take?
+a. Raise the head of the bed at least 30 degrees during bolus feeds
+b. Switch to a hypertonic formula
+c. Go back to continuous feeds and taper up infusion rates depending on tolerance
+d. Check medication list for drugs containing sorbitol
+
+Answer: C. Dumping syndrome occurs when hypertonic contents enter the small intestine, causing an
+influx of fluid into the lumen. This leads to epigastric fullness, weakness, dizziness, vertigo, diaphoresis,
+tachycardia, and/or abdominal cramping. Dumping syndrome occurs between 15 minutes and 60 minutes
+of eating or EN administration. Infusing hypertonic formula with jejunal access carries high risk of
+dumping syndrome. Steps to prevent dumping syndrome with EN by tapering up infusion rates, using
+continuous instead of bolus feeds, and using isotonic formula. Diarrhea after tube feeding is more often
+due to infection (gastroenteritis), antibiotics, medications with sorbitol, malabsorption, and formula
+intolerance. It can also be due to a rapid infusion of solution or bolus feeds (instead of continuous) but
+will manifest later than dumping syndrome.
+
+Enteral and Parenteral Nutrition 21
+© 2022 VAPR2022
+
+4. Which of the following patients is a candidate for immediate parenteral nutrition initiation?
+a. A patient who is hemodynamically unstable
+b. A nutritionally at-risk patient currently on home tube-feeds but not achieving sufficient
+intake
+c. Awell-nourished patient unable to meet 50% of their nutritional needs
+d. A moderately malnourished patient with a bowel obstruction
+
+Answer: D. A moderately or severely malnourished patient in which oral intake or EN is not possible is a
+candidate for initiating PN as soon as possible. A well-nourished patient who is unable to meet at least
+505 of their nutrition needs PO or via EN should have PN initiated after 7 days (answer C). A
+metabolically or hemodynamically unstable patient should have PN delayed until their medical condition
+improves (answer A). A nutritionally-at-risk patient who is unlikely to achieve sufficient oral or EN intake
+should have PN initiated within 3-5 days. How do we define “well-nourished”, “nutritionally-at-risk”,
+“malnourished”? What if the question replaced those terms with those definitions (such as weight loss) —
+
+would you be able to combine those concepts to answer the question?
+
+5. Which of the following is NOT a potential complication from parenteral nutrition?
+a. Hypertriglyceridemia
+b. Respiratory issues
+c. PN-associated kidney disease
+d. Catheter-related bloodstream infections
+
+Answer: C. PN-associated liver disease is a risk with parenteral nutrition, along with hypertriglyceridemia,
+hyperglycemia, fluid and electrolyte imbalances, catheter-related bloodstream infections, and respiratory
+issues.
+
+6. Your sedentary patient is male, 5 ft 9 in, weighs 80 kg, and is 41 years old. How many L of 1.5
+kcal/mL formula should be provided in his cyclic feeds over 12 hours?
+
+a 0.8L
+b. O.9L
+ce 1.2L
+d. 1.4L
+
+Answer: D. Calculate BMR using the Harris-Benedict equation for men: 66 + (6.23 x (80 kg x 2.2 kg/Ib)) +
+(12.7 x 59 in) - (6.8 x 41 yrs) = 1759.98 kcal/day. The question says the patient is sedentary: use an
+activity factor of 1.2: 1759.98 kcal/day x 1.2 = 2111.976 kcal/day. Divide the kcal/day by the kcal per mL
+in the formula: 2111.976 kcal/day / 1.5 kcal/mL = 1407.984 mL / 1000 mL per L = 1.4L. Repeat this
+calculation using 1 kcal/mL formula for the same patient, and then again assuming the patient is a woman
+with an activity level of 1.375.
+
+Enteral and Parenteral Nutrition 22
+© 2022 VAPR2022
+
+7. A patient on parenteral nutrition weighs 70 kg and is receiving 2 L of D15 solution. What is the
+glucose infusion rate?
+a. 0.003 mg/kg/min
+b. 0.30 mg/kg/min
+c. 2.98 mg/kg/min
+d. 30 mg/kg/min
+
+Answer: C. To calculate the GIR, you need to calculate the mg of dextrose in the solution, then divide by
+the time and patient's weight. D15 is 15% dextrose, or 15 g dextrose per 100 mL. The patient is receiving
+2 L (2000 mL), or 300 g of dextrose (2000 mL x 15% = 300 g). To convert g to mg, multiply by 1000 (300
+g x 1000 mg/g = 300,000 mg). Then, to convert to GIR with the units in the answers (mg/kg/min), divide
+300,000mg by 1,440 min/day x 80 kg body weight (300,000 mg / [1,440 min/day x 70 kg] = 300,000 mg /
+100,800 = 2.98 mg/kg/min.
+
+8. A patient on parenteral nutrition weighs 43 kg and is receiving 200 mL, 20% fat emulsion over 12
+hours. What is the lipid infusion rate?
+a. 0.02 g/kg/hr
+b. 0.04 g/kg/hr
+c. 0.08 g/kg/hr
+d. 0.16 g/kg/hr
+
+Answer: C. To calculate the lipid infusion rate, calculate the number of calories from the fat emulsion
+(200 mL x 2 kcal/mL = 400 kcal). Then convert the fat calories into grams lipid (400 k cal / 10 kcal per g
+lipid = 40 g lipid). Finally, divide the grams of lipid by the patient's weight and the infusion time (40 g lipid /
+43 kg body weight / 12 hours = 0.08 g/kg/hr).
+
+9. What is the maximum daily lipid amount for a 82 kg patient on parenteral nutrition?
+a. 82 g/day
+b. 108 g/day
+c. 180 g/day
+d. 205 g/day
+
+Answer: D. The maximum daily lipid amount is 2.5 g/kg for parenteral nutrition. To calculate, multiply 2.5
+g/kg by the patient’s weight in kg: 2.5 g/kg x 82 kg = 205 g/day.
+
+10. What is the maximum daily dextrose for a 72 kg patient on parenteral nutrition?
+a. 26 g/day
+b. 311 g/day
+Cc. 622 g/day
+d. 1369 g/day
+
+Answer: C. The maximum glucose infusion rate is 0.36 g per day. To calculate maximum daily dextrose,
+multiply that rate by the patient’s weight in kg and then 24 hours per day. 0.36 g/day x 72 kg x 24 hr = 622
+g dextrose/day.
+
+Enteral and Parenteral Nutrition 23
+Worksheet Answers
+
+Nasogastric (NG)
+
+PEG, G-tube
+
+Raise the head of the bed 30 degrees to reduce the risk
+
+of regurgitation
+
+} PEG is placed endoscopically
+while G-tube is placed during a
+
+Nasojejunal (NJ)
+
+Flexible tube threaded through
+the nose down the back of the
+throat and into the stomach
+
+Use X-ray to verify placement
+prior to the first feed
+
+Consider raising the head of the
+bed 30 degrees to reduce the
+risk of regurgitation
+
+© 2022 VAPR2022
+
+Main difference between NJ and
+PEG-J or PEJ tube is duration of
+EN access required
+
+Post-pyloric access used to
+avoid stimulating the pancreas,
+in cases of severe gastroparesis,
+gastric intolerance, or after
+esophageal or gastric surgery
+
+Need to use hydrolyzed formula
+or intact formula + enzymes
+because we are bypassing the
+
+duodenum where key digestion occurs
+
+Used for long term EN needs
+
+pre-planned surgery
+
+Main difference between nasal
+and PEG access is the length of
+time a patient will be receiving
+EN
+
+See above for post-pyloric access
+notes.
+
+Difference between PEG-J and
+PEJ tube is that with a PEJ tube
+the port is inserted directly into
+the jejunum, rather than through
+the stomach and threading the
+tube through to the jejunum
+
+Need to use hydrolyzed formula because we are
+
+bypassing the duodenum where key digestion occurs.
+
+May still experience diarrhea and dumping syndrome
+with hydrolyzed formulas, particularly after bolus feeds
+
+Pros
+
+Continuous
+feeds
+
+Bolus feeds
+
+Combination
+feeds
+
+Better tolerated than bolus feeds
+Common in hospital settings
+Can control rate via pump
+
+More mobility for patient
+
+For home tube feeding patients,
+provides an eating schedule
+Provides a more normal feeding
+schedule during the day (bolus)
+Patient can be mobile during the
+day, such as attending physical
+therapy
+
+Can get additional nutrition via
+continuous feed at night
+
+Patient tethered to IV pole or pump
+Patient may have trouble tolerating,
+
+especially with post pyloric access
+
+Requires the equipment for
+continuous feeds
+
+Cyclic feeds
+
+Indicated if patient cannot tolerate
+nutrition during the day (cancer
+
+Requires equipment for continuous
+
+Enteral and Parenteral Nutrition 24
+© 2022 VAPR2022
+
+In-Text Questions and Calculation Answers
+
+Glutamine Supplemented
+
+e Glutamine requirements are increased during stress (trauma, burns, sepsis, surgery,
+catabolic state)
+
+e Glutamine is a key transporter of: nitrogen, carbon, or ATP?
+
+e Specialty formulas with glutamine can improve glucose and protein metabolism and prevent
+Gl atrophy
+
+Added Fiber
+
+e Formulas with added fiber contribute to normal bowel function
+
+e May clog tubes
+
+e Help patients with diarrhea and/or constipation
+
+e Soluble fiber is converted to short chain fatty acids which is used by gut bacteria for food
+
+o Helps maintain a healthy gut
+Controlled Carbohydrate
+
+e Some institutions utilize controlled CHO formulas for patients with diabetes
+
+e Low CHO/shigh fat formulas can facilitate ventilator weaning because excess CHO is
+converted to fat releasing CO2 (which is difficult to clear with impaired respiratory function)
+
+A patient weighs 70 kg and is given 1500 mL of parenteral nutrition containing 300 g dextrose,
+110 grams amino acids, and 50 grams fat. Calculate the calories from dextrose and the GIR.
+
+Calculate the calories from 300 g dextrose 300 g dextrose x 3.4 kcal/g = 1,020 kcal
+Convert dextrose grams to milligrams 300 g dextrose x 1000 mg/g = 300,000 mg
+300,000 mg dextrose / 70 kg / 1440 minutes per
+day = 2.98 mg/kg/min
+
+Now, calculate the GIR using g/kg/hr. 300 g dextrose / 70 kg / 24 hours = 0.18 g/kg/hr
+Calculate GIR per hour
+
+Calculate dextrose rate per minute
+
+300 g dextrose / 70 kg / 12 hours = 0.36 g/kg/hr
+300,000 mg dextrose / 70 kg / 720 mins = 5.95
+mg/kg/min
+
+What if the infusion is given over 12 hours?
+Calculate GIR using 12 hours instead of 24 hours
+
+If your patient weighs 85 kg, what would their maximum dextrose tolerance be (in grams)?
+TIP: Use the maximum infusion rate for dextrose.
+0.36 g/kg/hr x 85 kg x 24 hours = 734.4 g dextrose per day
+
+How many grams of amino acids would be in 500 mL of a 3% AA solution?
+7% AA solution?
+
+3% AA solution has 3 g per 100 mL 7% AA solution has 7 g per 100 mL
+500 mL 3944 _|s AA 500 mL 794A _ 35 AA
+m* t00mL 9 m'* 00mL ~°?9
+How many grams of amino acids would be in 1.5 L of 3.5% AA solution?
+0.75 L of 8.5%?
+1.5 Lis the same as 1500 mL and 3.5% 0.75 Lis the same as 750 mL and 8.5%
+AA solution has 3.5 g per 100 mL AA solution has 8.5 g per 100 mL
+1500 mL 3.59 AA _ 52.59 AA 750 mL 85g AA _ 64g AA
+m*700mL 9 m*700mL~ 9
+
+Enteral and Parenteral Nutrition 25
+© 2022 VAPR2022
+
+Calculate the calories and grams of lipid in the following emulsion-volume combinations
+
+100 mL, 10% emulsion
+
+100 mL x*2* = 110 kcal glipid — i
+1mL 110 kcal x 10 keal = 11 g lipid
+250 mL, 10% emulsion
+1.1 kcal _ li id
+250 mL x =~ = 275 kal 275 kcal x = — = 275 g lipid
+200 mL, 20% emulsion
+2 kcal _ li id
+200 mb xTor = *00keal 400 keal x" = 40 g lipid
+500 mL, 20% emulsion
+2kcal _ livid
+500 mL x —— = 1,000 kcal gee ..
+1mL 1,000 kcal x 10 keal 100 g lipid
+
+How much of the total calorie needs should be from PN lipids? Why?
+— Atleast 4% of calories should come from lipids to avoid essential fatty acid deficiency.
+Why would we take advantage of IV lipids in PN?
+
+— Lipid emulsions don’t contribute to tonicity.
+
+Study Guide Questions
+
+1. Patient was admitted to the ICU after bowel surgery. She is 80% of her ideal body weight and will
+remain NPO for 7 days. Would you consider starting her on PN, and if so, when?
+
+Patient is nutritionally at risk and unlikely to achieve desired oral intake or EN within 3-5 days — initiate PN
+immediately.
+
+2. Why don’t we provide lipid emulsions continuously?
+
+We want to give the body a chance to clear lipids from the blood. Continuous administration of lipids can
+lead to hyperlipidemia so we usually provide it 1 to 2 days per week, and at 4 to 24 hours per bag.
+
+3. Why do we calculate dextrose infusion rate?
+
+The body can only oxidize glucose at a certain rate (0.36 g/kg/hr) and if we provide excess dextrose, we
+increase their risk of fatty liver.
+
+4. Why do we taper up PN infusion rates?
+
+By starting infusion rates slowly, we allow the body to adjust to the glucose load, the hyperosmolarity of
+the solution, and reduce the risk of fluid overload. We often start with 1 L of the solution for 24 hours, and
+increase by 1 L a day until we get to goal volume. It’s important to monitor blood glucose and electrolytes.
+If the pump is turned off, don’t try to “catch-up”.
+
+Enteral and Parenteral Nutrition 26
+© 2022 VAPR2022
+
+Calculations (Protein)
+
+8. For the following solutions, calculate calories, NPC, NPC:N ratio, percent NPC from fat, and
+osmolarity.
+
+1.5 L D50W, 1.5 L 8% AA, 500 mL 10% lipid
+
+Calories
+
+1500 mL x 50 g/100 mL = 750 g dextrose x 3.4 cal/g = 2550 kcal
+1500 mL x 8 g/100 mL = 120 g AA x 4 cal/g = 480 kcal
+
+500 mL x 1.1 kcal/mL = 550 kcal
+
+2550 + 480 + 550 = 3,580 kcal
+
+NPC and NPC:N ratio
+
+2550 + 500 = 3100 NPC
+
+120 g AA/6.25=19.2gN
+
+3100 NPC / 19.2 g N= 161:1 ratio
+
+% NPC from Fat: 550 kcal from lipid / 3100 NPC = 17.7%
+
+Osmolarity
+
+1.5 Lx 500 g/1 L = 750 g dextrose
+
+1500 mL x 8 g/100 mL = 120g AA
+
+(750 g dextrose x 5 mOsm/g) + (120 g AA x 10 mOsm/g) = 3750 + 1200 + (300 to 400)
+= 5250 to 5350 mOsm/L
+
+Note that you can also calculate this using g per L:
+(500 g dextrose/L x 5 mOsm/g x 1.5 L) + (80 g AA/L x 10 mOsm/g x 1.5 L) + 300-400 mOsm/L
+= 5250 - 5350 mOsm/L
+
+0.5 L D20W, 1 L 3.5% AA, 200 mL 20% lipid
+
+Calories
+
+500 mL x 20 g/100 mL = 100 g dextrose x 3.4 kcal/g = 340 kcal
+1000 mL x 3.5 g/100 mL = 35 g AA x 4 kcal/g = 140 kcal
+
+200 mL x 2 cal/mL = 400 kcal
+
+340 + 140 + 400 = 880 kcal
+
+NPC and NPC:N ratio
+
+340 + 400 = 740 NPC
+
+35 g AA/6.25=5.6gN
+
+740 NPC /5.6 g N = 132:1 ratio
+
+% NPC from Fat: 400 kcal from lipid / 740 NPC = 54%
+
+Osmolarity
+
+500 mL x 20 g/100 mL = 100 g dextrose
+
+1000 mL x 3.5 g/100 mL = 35g AA
+
+(100 g dextrose x 5) + (350 g AA x 10) = 500 + 350 + 300 to 400 = 1150 to 1250 mOsm/L
+
+Enteral and Parenteral Nutrition 27
+© 2022 VAPR2022
+
+References
+
+1 Tube Feeding Tutorial. California State University, Northridge.
+https://www.csun.edu/~cjh78264/tubefeeding/introduction.html
+
+2 Seres, D. Nutrition support in critically ill patients: An overview. In: UpToDate, Post, TW (Ed),
+UpToDate, Waltham, MA, 2020.
+
+3 Shaw D, Gohil K, and Basson MD. Intestinal mucosal atrophy and adaptation. World J Gastroenterol.
+2012. 18(44);6357-6375. https://www.ncbi.nim.nih.gov/pmc/articles/PMC3508630/
+
+4 Mueller CM, ed. The ASPEN Nutrition Support Core Curriculum. American Society of Parenteral and
+Enteral Nutrition. Silver Spring, MD: 2017. 3'¢ ed.
+
+5 Bear DE, Hart N, and Puthucheary Z. Continuous or intermittent feeding: pros and cons. Curr Opin Crit
+Care. 2018. 24(4):256-261. https://pubmed.ncbi.nim.nih.govw/29877877/
+
+® Madsen H and Franek! EH. The Hitchhiker's Guide to Parenteral Nutrition Management for Adult
+Patients. Practical Gastroenterology. 2006. 7:46-68.
+
+7 Worthington P, Balint J, Bechtold M, et al. When is Parenteral Nutrition Appropriate? JPEN. 2017.
+41(3):324-377. PMID: 28333597 DOI: 10.1177/0148607117695251
+
+8 Parenteral Nutrition Tutorial. California State University, Northridge.
+http:/Awww.csun.edu/~cjh78264/parenteral/index.html
+
+8 Adult Enteral and Parental Nutrition Handbook. Department of Nutrition Services. University of Virginia
+Health System. 2011. http:/Awww.healthsystem.virginia.edu/pub/dietitian/nutrition_manual/adult-enteral-
+parental-nutrition-handbook
+
+Enteral and Parenteral Nutrition 28

@@ -8,7 +8,7 @@ export interface Option {
 
 export interface Question {
     id: string;
-    moduleId: string; // e.g. "mod1"
+    moduleId?: string; // e.g. "mod1"
     domain: string; // e.g. "I. Food and Nutrition Sciences"
     topic?: string;
     subtopic?: string;
@@ -21,6 +21,20 @@ export interface Question {
     references?: string[];
     tags?: string[];
     changeLog?: string;
+}
+
+export type CdrQuestionType = 'knowledge' | 'application' | 'calculation' | 'case-based' | 'best-next-step';
+
+export interface CdrQuestion extends Question {
+    questionNumber: number;
+    correctLetter: 'A' | 'B' | 'C' | 'D';
+    correctText: string;
+    subtopic: string;
+    concept: string;
+    formula?: string;
+    questionType: CdrQuestionType;
+    sourcePdf: string;
+    location: string;
 }
 
 export interface ExamSession {

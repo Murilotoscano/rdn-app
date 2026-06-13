@@ -1,0 +1,24 @@
+OCR started at Tue Jun  9 19:43:44 EDT 2026
+Processing: 01_Food_Science
+  -> 49 pages OCR'd -> /Users/murilotoscano/Desktop/SIMULADO RDN MURILO - ABACUS/rdn-app/docs/extracted/01_Food_Science.txt
+Processing: 02_Normal_Nutrition
+  -> 68 pages OCR'd -> /Users/murilotoscano/Desktop/SIMULADO RDN MURILO - ABACUS/rdn-app/docs/extracted/02_Normal_Nutrition.txt
+Processing: 03_04_MNT_Resource
+  -> 106 pages OCR'd -> /Users/murilotoscano/Desktop/SIMULADO RDN MURILO - ABACUS/rdn-app/docs/extracted/03_04_MNT_Resource.txt
+Processing: 04_Renal_Supplement
+  -> 19 pages OCR'd -> /Users/murilotoscano/Desktop/SIMULADO RDN MURILO - ABACUS/rdn-app/docs/extracted/04_Renal_Supplement.txt
+Processing: 05_Calculations
+  -> 56 pages OCR'd -> /Users/murilotoscano/Desktop/SIMULADO RDN MURILO - ABACUS/rdn-app/docs/extracted/05_Calculations.txt
+Processing: 05_Enteral_Parenteral
+  -> 29 pages OCR'd -> /Users/murilotoscano/Desktop/SIMULADO RDN MURILO - ABACUS/rdn-app/docs/extracted/05_Enteral_Parenteral.txt
+Processing: 06_Food_Service_Logistics
+  -> 70 pages OCR'd -> /Users/murilotoscano/Desktop/SIMULADO RDN MURILO - ABACUS/rdn-app/docs/extracted/06_Food_Service_Logistics.txt
+Processing: 07_Management_Concepts
+  -> 96 pages OCR'd -> /Users/murilotoscano/Desktop/SIMULADO RDN MURILO - ABACUS/rdn-app/docs/extracted/07_Management_Concepts.txt
+Processing: 08_Counseling
+  -> 42 pages OCR'd -> /Users/murilotoscano/Desktop/SIMULADO RDN MURILO - ABACUS/rdn-app/docs/extracted/08_Counseling.txt
+Processing: 09_Research_Concepts
+  -> 51 pages OCR'd -> /Users/murilotoscano/Desktop/SIMULADO RDN MURILO - ABACUS/rdn-app/docs/extracted/09_Research_Concepts.txt
+Skipping (already has text layer): Food Service Logistics _ All Access Dietetics OCR
+  -> extracted with pdftotext
+OCR completed at Tue Jun  9 19:59:26 EDT 2026

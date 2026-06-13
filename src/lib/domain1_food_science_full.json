@@ -1,0 +1,647 @@
+[
+  {
+    "id": "m1-fs-001",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "easy",
+    "text": "Mayonnaise is an example of which type of colloid system?",
+    "options": [
+      "Foam (air dispersed in liquid)",
+      "Sol (solid dispersed in liquid)",
+      "Emulsion (liquid dispersed in liquid)",
+      "Gel (liquid dispersed in solid)"
+    ],
+    "correctIndex": 2,
+    "explanation": "An emulsion is a liquid-in-liquid colloid. Mayonnaise is an oil-in-water emulsion stabilized by lecithin from egg yolk, which acts as an emulsifier by having hydrophilic and hydrophobic ends. Foam has air dispersed in liquid (whipped cream), sol has solid dispersed in liquid (gelatin before setting), and gel has liquid dispersed in solid (jelly after setting).",
+    "tags": [
+      "colloids",
+      "emulsions",
+      "food-science",
+      "lecithin"
+    ]
+  },
+  {
+    "id": "m1-fs-002",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Which water activity (aw) level is the threshold below which no microorganism can survive?",
+    "options": [
+      "0.70",
+      "0.60",
+      "0.50",
+      "0.85"
+    ],
+    "correctIndex": 2,
+    "explanation": "No microorganism can survive below aw of 0.50. Bacteria generally require aw of 0.85–1.0 to grow; yeasts and molds can tolerate lower aw. Reducing water activity through drying, salting, or adding sugar is a key food preservation strategy. At aw < 0.50, even the most resistant microorganisms cannot grow.",
+    "tags": [
+      "water-activity",
+      "food-preservation",
+      "microbiology",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-003",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Which pigment is responsible for the red and blue colors in fruits and vegetables and is water-soluble?",
+    "options": [
+      "Chlorophyll",
+      "Carotenoids",
+      "Anthocyanins",
+      "Anthoxanthins"
+    ],
+    "correctIndex": 2,
+    "explanation": "Anthocyanins are water-soluble flavonoid pigments responsible for red, blue, and purple colors in foods like blueberries, red cabbage, and cherries. Their color is pH-dependent — red in acidic conditions, blue-purple in alkaline conditions. Chlorophyll is fat-soluble and green; carotenoids are fat-soluble and yellow-to-red (but not blue); anthoxanthins are white/cream-colored flavonoids.",
+    "tags": [
+      "pigments",
+      "fruits-vegetables",
+      "flavonoids",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-004",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "easy",
+    "text": "Which of the following foods has the FASTEST respiration rate and therefore the shortest shelf life at room temperature?",
+    "options": [
+      "Nuts",
+      "Dates",
+      "Broccoli",
+      "Apples"
+    ],
+    "correctIndex": 2,
+    "explanation": "Broccoli and spinach have extremely fast respiration rates, which means they consume stored energy rapidly and deteriorate quickly at room temperature. Nuts and dates have very slow respiration rates and much longer shelf lives. High respiration rates produce heat and accelerate aging, which is why broccoli must be refrigerated and sold quickly after harvest.",
+    "tags": [
+      "respiration-rate",
+      "fruits-vegetables",
+      "postharvest",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-005",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Ethylene gas is produced naturally by ripening fruit. Which practice takes advantage of this property in food production?",
+    "options": [
+      "Blanching fruit before freezing to inactivate enzymes",
+      "Storing apples and bananas together to accelerate ripening",
+      "Treating fruit with sulfites to prevent browning",
+      "Using modified atmosphere packaging to reduce oxygen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ethylene gas is a plant hormone that triggers and accelerates ripening. Storing ethylene-producing fruits (like apples) together with ethylene-sensitive fruits (like bananas) will cause the bananas to ripen faster. This principle is also used commercially, where unripe tomatoes or bananas are exposed to ethylene gas in controlled chambers to ripen them for market. Blanching, sulfites, and MAP are unrelated to ethylene's ripening function.",
+    "tags": [
+      "ethylene",
+      "ripening",
+      "fruits-vegetables",
+      "postharvest"
+    ]
+  },
+  {
+    "id": "m1-fs-006",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "A patient asks why bread made from high-protein flour is chewier than cake. The correct explanation relates to:",
+    "options": [
+      "Higher starch content in bread flour creating a denser product",
+      "Gluten network formation from gliadin and glutenin requiring high-protein flour",
+      "Lower water activity in bread flour preventing starch gelatinization",
+      "Bran content in bread flour interfering with fat distribution"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gluten is formed when water is mixed with wheat flour proteins — specifically gliadin (a prolamin) and glutenin. High-protein bread flour (12–14%) forms a strong, elastic gluten network that traps CO2, resulting in a chewy crumb. Cake flour has only 5–8% protein and forms a weak gluten network, producing a soft, tender crumb. The difference is protein content and gluten network strength, not starch or bran.",
+    "tags": [
+      "gluten",
+      "flour",
+      "protein",
+      "baking",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-007",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "A patient with celiac disease asks which of the following grains are safe to eat. Which response is correct?",
+    "options": [
+      "Barley, rye, and oats are safe; only wheat must be avoided",
+      "Amaranth, millet, teff, buckwheat, and quinoa are all gluten-free whole grains",
+      "Durum, bulgur, and kamut are safe because they are whole grains",
+      "Oats are always safe because they do not contain prolamin proteins"
+    ],
+    "correctIndex": 1,
+    "explanation": "The gluten-free whole grains are amaranth, millet, teff, buckwheat, and quinoa. Gluten-containing grains include wheat (and its forms: bulgur, kamut, durum, farina, orzo), rye, barley, and triticale. Oats do contain avenin (a prolamin) and glutenin — technically capable of forming gluten — and are frequently contaminated with wheat during growing or processing. Celiac patients should avoid oats unless certified gluten-free.",
+    "tags": [
+      "celiac-disease",
+      "gluten-free",
+      "whole-grains",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-008",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "hard",
+    "text": "Leftover pasta that has been refrigerated overnight feels harder and less digestible than freshly cooked pasta. This is BEST explained by:",
+    "options": [
+      "Syneresis — the gel releases water making the pasta sticky and hard",
+      "Dextrinization — partial hydrolysis of starch increases sweetness",
+      "Retrogradation — amylose and amylopectin re-form hydrogen bonds as starch cools",
+      "Gelatinization — starch granules absorb water and swell during cooling"
+    ],
+    "correctIndex": 2,
+    "explanation": "Retrogradation occurs when amylose and amylopectin chains in cooked, gelatinized starch re-form hydrogen bonds upon cooling, causing the starch to become firm and less digestible. This is why leftover pasta or rice feels hard and why bread goes stale. Syneresis is the expulsion of liquid from a gel (a consequence of retrogradation). Gelatinization is what makes pasta soft when first cooked. Dextrinization is partial starch hydrolysis by dry heat.",
+    "tags": [
+      "retrogradation",
+      "starch",
+      "gelatinization",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-009",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Which type of milk pasteurization produces a shelf-stable product that does NOT require refrigeration?",
+    "options": [
+      "High Temperature Short Time (HTST) — 161°F for 15 seconds",
+      "Ultra-Pasteurization (UP) — 280°F for 2 seconds",
+      "Ultra-High Temperature (UHT) — sterile aseptic conditions",
+      "Low Temperature Vat — 145°F for 30 minutes"
+    ],
+    "correctIndex": 2,
+    "explanation": "UHT (Ultra-High Temperature) pasteurization is performed under sterile, aseptic conditions and results in a product that does NOT require refrigeration. The aseptic packaging prevents recontamination. HTST (most common US method), HHST, and UP all still require refrigeration. UP extends shelf life longer than HTST but the product remains perishable once opened. Only UHT eliminates the refrigeration requirement.",
+    "tags": [
+      "pasteurization",
+      "UHT",
+      "milk",
+      "food-preservation",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-010",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Casein and whey are the two main proteins in milk, with casein making up approximately what percentage of total milk protein?",
+    "options": [
+      "20%",
+      "40%",
+      "60%",
+      "80%"
+    ],
+    "correctIndex": 3,
+    "explanation": "Casein makes up approximately 80% of milk protein, while whey accounts for the remaining 20%. Casein digests more slowly than whey in the body. Cheese is primarily casein (coagulated by rennet). Cream cheese and cottage cheese are made via acid coagulation and have lower calcium content than rennet-coagulated cheeses. Whey and casein protein supplements are both derived from milk.",
+    "tags": [
+      "casein",
+      "whey",
+      "milk-protein",
+      "dairy",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-011",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Why are dairy products typically sold in opaque containers?",
+    "options": [
+      "To prevent calcium precipitation when exposed to ultraviolet light",
+      "Because lactose crystallizes when milk is exposed to light",
+      "Riboflavin (vitamin B2) in milk is destroyed by light exposure",
+      "To maintain the homogenization of fat globules in the emulsion"
+    ],
+    "correctIndex": 2,
+    "explanation": "Riboflavin (vitamin B2) is a light-sensitive vitamin found in milk. Exposure to light degrades riboflavin, reducing nutritional quality. This is why milk and dairy products are sold in opaque containers. The same principle applies to riboflavin-containing foods such as fortified cereals and some supplements, which may also use opaque packaging.",
+    "tags": [
+      "riboflavin",
+      "milk",
+      "dairy",
+      "food-science",
+      "vitamins"
+    ]
+  },
+  {
+    "id": "m1-fs-012",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "easy",
+    "text": "The egg white protein avidin is nutritionally significant because it:",
+    "options": [
+      "Contains all essential amino acids, making eggs a complete protein",
+      "Binds biotin and prevents its absorption when eggs are consumed raw",
+      "Acts as an emulsifier in baked goods when egg whites are whipped",
+      "Coagulates at a lower temperature than egg yolk proteins"
+    ],
+    "correctIndex": 1,
+    "explanation": "Avidin is an egg white protein that binds biotin (vitamin B7) and prevents its absorption. Consuming large amounts of raw egg whites can cause biotin deficiency (biotin-avidin deficiency syndrome). Cooking denatures avidin, eliminating this binding capacity and making biotin available. This is one reason raw egg whites should be avoided. Eggs are indeed a complete protein, but that's not specific to avidin.",
+    "tags": [
+      "avidin",
+      "biotin",
+      "eggs",
+      "nutrient-absorption",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-013",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "At what temperature does egg white BEGIN to coagulate?",
+    "options": [
+      "60°C (140°F)",
+      "62°C (144°F)",
+      "69°C (156°F)",
+      "82°C (180°F)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Egg white begins to coagulate at 60°C (140°F) and is completely coagulated by 70°C (158°F). Egg yolk begins coagulation at 62°C (144°F). Whole beaten eggs coagulate at 69°C (156°F). Adding milk to scrambled eggs raises the coagulation temperature to 82°C (180°F) — milk proteins dilute the egg proteins, requiring more heat. Sugar slows coagulation; salt and vinegar accelerate it.",
+    "tags": [
+      "egg-coagulation",
+      "eggs",
+      "food-science",
+      "temperature"
+    ]
+  },
+  {
+    "id": "m1-fs-014",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Which cut of beef would be MOST appropriate for braising (moist heat cooking)?",
+    "options": [
+      "Tenderloin (short loin)",
+      "Rib roast (rib section)",
+      "Sirloin steak",
+      "Brisket (lower chest)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Brisket comes from the lower chest area, which gets heavy exercise and has more connective tissue (collagen and elastin). Tougher cuts with more connective tissue require moist heat methods like braising or stewing to break down the collagen into gelatin and tenderize the meat. Tender cuts from the short loin, rib, and sirloin — which are near the backbone and have less connective tissue — are appropriate for dry heat methods like grilling and roasting.",
+    "tags": [
+      "meat",
+      "collagen",
+      "braising",
+      "cooking-methods",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-015",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "hard",
+    "text": "Which factor would LOWER the melting point of a lipid?",
+    "options": [
+      "Longer carbon chain length",
+      "Presence of cis double bonds",
+      "Trans configuration of double bonds",
+      "Saturated (no double bonds) fatty acids"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cis double bonds introduce bends in fatty acid chains, preventing close packing and lowering the melting point. This is why unsaturated vegetable oils are liquid at room temperature. In contrast, saturated fatty acids (no double bonds) are straight and stack closely, yielding a higher melting point (solid fat). Trans fatty acids, despite having a double bond, are straight like saturated fats and have a higher melting point than their cis counterparts. Longer chain length also raises the melting point.",
+    "tags": [
+      "lipids",
+      "melting-point",
+      "fatty-acids",
+      "cis-trans",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-016",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Partially hydrogenated oils (PHOs) were removed from the food supply because the FDA determined they were not GRAS. The primary reason was their content of:",
+    "options": [
+      "Saturated fatty acids",
+      "Omega-6 polyunsaturated fatty acids",
+      "Trans fatty acids",
+      "Long-chain monounsaturated fatty acids"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hydrogenation adds hydrogen to unsaturated fats to make them more solid. Partial hydrogenation creates trans fatty acids, which raise LDL cholesterol and lower HDL cholesterol, increasing cardiovascular disease risk. In 2015, the FDA determined PHOs are not Generally Recognized As Safe (GRAS). Fully hydrogenated oils are still allowed as they are saturated rather than trans. Natural trans fats (from ruminants) are also still permitted.",
+    "tags": [
+      "trans-fats",
+      "hydrogenation",
+      "PHO",
+      "FDA",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-017",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Baking powder differs from baking soda in that baking powder:",
+    "options": [
+      "Requires both liquid AND an acidic ingredient for activation",
+      "Contains baking soda plus an acid and requires only liquid for activation",
+      "Produces steam rather than carbon dioxide as its leavening gas",
+      "Must be activated by yeast fermenting available sugars"
+    ],
+    "correctIndex": 1,
+    "explanation": "Baking soda (sodium bicarbonate) requires BOTH a liquid AND an acidic ingredient (buttermilk, yogurt, vinegar, lemon juice, cream of tartar) to produce CO2. Baking powder contains baking soda PLUS a dry acid (like cream of tartar), so it only needs liquid (water) to activate. This makes baking powder more convenient for recipes that don't have an acidic ingredient. Yeast produces CO2 through fermentation of sugars — a biological leavening process.",
+    "tags": [
+      "leavening",
+      "baking-soda",
+      "baking-powder",
+      "CO2",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-018",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "A baker is making pancakes (pour batter) and muffins (drop batter). What is the correct liquid-to-flour ratio for each?",
+    "options": [
+      "Pour batter 1:1; Drop batter 1:2",
+      "Pour batter 1:2; Drop batter 1:1",
+      "Pour batter 4:1; Drop batter 1:1",
+      "Pour batter 1:1; Drop batter 1:4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pour batter (pancakes, popovers) has a liquid:flour ratio of 1:1, making it thin enough to pour. Drop batter (muffins, drop cookies) has a ratio of 1:2, making it thicker and drop-able from a spoon. Soft dough (biscuits, yeast bread) has a ratio of 1:3, and stiff dough (cut-out cookies, pie crust, pasta) has a ratio of 1:4. The ratios reflect the progressive decrease in liquid relative to flour.",
+    "tags": [
+      "batters-doughs",
+      "liquid-flour-ratio",
+      "baking",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-019",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "A home canner is preparing low-acid green beans (pH > 4.5). Which canning method is required to safely prevent Clostridium botulinum?",
+    "options": [
+      "Water bath canning at 212°F (100°C) for an extended time",
+      "Pressure canning reaching 240°F (116°C) to destroy spores",
+      "Refrigerator pickling with vinegar to lower pH below 4.5",
+      "Salt curing at room temperature for 48 hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "C. botulinum thrives in low-oxygen, low-acid (pH > 4.5) environments — exactly the conditions inside a sealed can of vegetables. Its spores are not destroyed at 212°F (boiling water temperature). Only a pressure canner can reach 240°F (116°C), which is sufficient to destroy botulinum spores. Low-acid foods (vegetables, meats, dried beans, soups) MUST use a pressure canner. High-acid foods (fruits, jams, pickles with pH ≤ 4.5) can safely use a water bath canner.",
+    "tags": [
+      "canning",
+      "botulism",
+      "food-safety",
+      "food-preservation",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-020",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Which food preservation method uses sublimation to produce a high-quality dried product with superior flavor and color retention?",
+    "options": [
+      "Spray drying",
+      "Tunnel drying",
+      "Freeze-drying",
+      "Dehydration"
+    ],
+    "correctIndex": 2,
+    "explanation": "Freeze-drying uses sublimation — the direct transition from frozen to gaseous state without passing through a liquid phase. This is achieved by placing frozen food in a vacuum dehydrator. Because the food is never heated through liquid, cellular structure, flavor, color, and nutrients are better preserved than with conventional drying methods. Spray drying creates powders from liquid slurries. Tunnel drying uses warm air convection. Dehydration removes ≥80% of water but uses heat.",
+    "tags": [
+      "freeze-drying",
+      "sublimation",
+      "food-preservation",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-021",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Which food preservation technology uses 50,000 pounds per square inch of pressure to destroy microbial cell membranes without heat?",
+    "options": [
+      "Pulsed light processing",
+      "Ohmic heating",
+      "High pressure processing (Pascalization)",
+      "Ultrasonication"
+    ],
+    "correctIndex": 2,
+    "explanation": "High Pressure Processing (HPP), also called Pascalization, uses approximately 50,000 psi for 15+ minutes to destroy microbial cell membranes through extreme pressure. It is a non-thermal method that preserves flavor and nutrients better than heat treatments. It is used for guacamole, jams, yogurt, rice cakes, and mayonnaise. Pulsed light uses intense light flashes. Ohmic heating uses electricity. Ultrasonication uses sound waves.",
+    "tags": [
+      "HPP",
+      "pascalization",
+      "food-preservation",
+      "non-thermal",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-022",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Which antioxidant food additive is approved by the FDA and commonly added to frozen foods containing fat to prevent rancidity?",
+    "options": [
+      "Sodium benzoate",
+      "Calcium propionate",
+      "Butylated hydroxytoluene (BHT)",
+      "Potassium sorbate"
+    ],
+    "correctIndex": 2,
+    "explanation": "BHT (butylated hydroxytoluene) and BHA (butylated hydroxyanisole) are FDA-approved antioxidant food additives commonly added to frozen foods containing fat to prevent oxidative rancidity. Rancidity occurs when fats are broken down by water, heat, or oxygen, producing off-flavors and aromas. Sodium benzoate and calcium propionate are antimicrobials (prevent microbial growth), not antioxidants. Potassium sorbate is also an antimicrobial.",
+    "tags": [
+      "antioxidants",
+      "BHT",
+      "rancidity",
+      "food-additives",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-023",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "A patient with phenylketonuria (PKU) asks which artificial sweetener to avoid. The correct answer is:",
+    "options": [
+      "Saccharin",
+      "Acesulfame-K",
+      "Aspartame",
+      "Sucralose"
+    ],
+    "correctIndex": 2,
+    "explanation": "Aspartame contains phenylalanine, an amino acid that individuals with PKU cannot properly metabolize due to lack of phenylalanine hydroxylase. Accumulation of phenylalanine causes neurological damage. All products containing aspartame must include a warning label stating 'Phenylketonurics: Contains Phenylalanine.' Saccharin, acesulfame-K, and sucralose do not contain phenylalanine and are safe for PKU patients.",
+    "tags": [
+      "PKU",
+      "aspartame",
+      "phenylalanine",
+      "sweeteners",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-024",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "The Maillard reaction differs from caramelization in that the Maillard reaction:",
+    "options": [
+      "Occurs at higher temperatures and does not involve amino acids",
+      "Is an enzymatic reaction that browns cut fruit exposed to oxygen",
+      "Involves a reaction between amino acids and sugars when heated",
+      "Occurs only in the presence of fats and heat, producing brown color"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Maillard reaction is a NON-enzymatic chemical reaction between an amino acid and a reducing sugar under heat, producing browning, flavor, and color (searing meat, toasting bread, umami flavors). Caramelization is also non-enzymatic but involves ONLY sugar + heat (no amino acids) and occurs at higher temperatures. Enzymatic browning is a third distinct process — it involves oxidation of phenolic compounds by polyphenol oxidase in cut or damaged produce exposed to oxygen.",
+    "tags": [
+      "Maillard-reaction",
+      "caramelization",
+      "browning",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-025",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "easy",
+    "text": "One standard alcoholic drink is defined as the amount containing 1 oz of alcohol. Which option correctly matches beverage type to its standard serving size?",
+    "options": [
+      "Beer 5 oz (12% ABV), Wine 12 oz (5% ABV), Spirits 1.5 oz (80 proof)",
+      "Beer 12 oz (5% ABV), Wine 5 oz (12% ABV), Spirits 1.5 oz (80 proof)",
+      "Beer 8 oz (5% ABV), Wine 5 oz (12% ABV), Spirits 2 oz (80 proof)",
+      "Beer 12 oz (5% ABV), Wine 4 oz (15% ABV), Spirits 1 oz (80 proof)"
+    ],
+    "correctIndex": 1,
+    "explanation": "One standard drink = 1 oz of alcohol, which is contained in: 12 oz beer (5% ABV), 5 oz wine (12% ABV), or 1.5 oz spirits (80 proof = 40% ABV). Beer is brewed from fermented grains; wine from fermented fruit juice; spirits are distilled from fermented grains, potatoes, corn, agave, or other botanicals. This is relevant for dietary counseling regarding alcohol intake recommendations.",
+    "tags": [
+      "alcohol",
+      "standard-drink",
+      "beverages",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-026",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "USDA beef grading classifies quality into three grades based on marbling, firmness, color, and texture. Which correctly orders them from HIGHEST to LOWEST quality?",
+    "options": [
+      "Choice, Prime, Select",
+      "Prime, Select, Choice",
+      "Prime, Choice, Select",
+      "Select, Choice, Prime"
+    ],
+    "correctIndex": 2,
+    "explanation": "USDA beef quality grades from highest to lowest are: Prime > Choice > Select. Prime has the most marbling (intramuscular fat), producing the most tender, juicy, flavorful beef but also the highest fat content and cost. Choice is less marbled but still high quality. Select is the leanest and least expensive. Grading is voluntary (unlike inspection, which is mandatory per the Wholesome Meat Act of 1967). Pork has no USDA quality grades.",
+    "tags": [
+      "USDA-grading",
+      "beef",
+      "meat",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-027",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "An irradiated food product is required to display what symbol on its packaging?",
+    "options": [
+      "The 'USDA Organic' shield",
+      "The radura symbol",
+      "The FDA 'GRAS' designation",
+      "The CE marking for non-thermal processing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Irradiated foods must be labeled with the 'radura' symbol — a distinctive logo showing a plant inside a broken circle of stylized petals. Irradiation reduces microbial growth and extends shelf life in meat and some produce but causes depolymerization of polysaccharides (cellulose, pectin), making produce less firm. It is therefore only used for select produce types and meat. The radura symbol is required regardless of whether the word 'irradiated' appears on the label.",
+    "tags": [
+      "irradiation",
+      "radura",
+      "food-labeling",
+      "food-preservation",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-028",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "hard",
+    "text": "Polymerization during frying affects oil quality by:",
+    "options": [
+      "Increasing smoke point and reducing oil viscosity",
+      "Linking free fatty acids together, increasing viscosity and lowering smoke point",
+      "Converting unsaturated to saturated fatty acids, raising the melting point",
+      "Causing oxidative rancidity, which improves frying oil color"
+    ],
+    "correctIndex": 1,
+    "explanation": "During frying at high temperatures, free fatty acids (FFAs) link together through polymerization, making the oil more viscous and prone to foaming. The linked FFAs lower the oil's smoke point. Food particles and salt also lower smoke point. Poor-quality frying oil leaves a sticky film on equipment. Maintaining oil quality requires: not over-salting food before frying, not overcrowding batches, filtering regularly, and covering oil to limit light exposure.",
+    "tags": [
+      "polymerization",
+      "frying",
+      "smoke-point",
+      "oil-quality",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-029",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "An 8-oz cup of regular coffee contains approximately how much caffeine, and how does this compare to decaffeinated coffee?",
+    "options": [
+      "Regular: 175 mg; Decaf: 8 mg",
+      "Regular: 150 mg; Decaf: 5 mg",
+      "Regular: 95 mg; Decaf: 3 mg",
+      "Regular: 63 mg; Decaf: 1 mg"
+    ],
+    "correctIndex": 2,
+    "explanation": "An average 8-oz cup of regular coffee contains approximately 95 mg of caffeine. Decaffeinated coffee contains approximately 3 mg per cup. Espresso, despite being stronger in flavor, has only 63 mg per 1.5 oz shot. The CNS-stimulating effects of coffee are due to both caffeine and theobromine. Decaffeination can be done via solvent methods (dichloromethane, ethyl acetate) or non-solvent methods (liquid CO2), and occurs before roasting.",
+    "tags": [
+      "caffeine",
+      "coffee",
+      "beverages",
+      "food-science"
+    ]
+  },
+  {
+    "id": "m1-fs-030",
+    "domain": "Domain I",
+    "topic": "Food Science",
+    "difficulty": "medium",
+    "text": "Olestra is an FDA-approved fat replacer used to make fat-free chips and snack foods. It is calorie-free because it is:",
+    "options": [
+      "A carbohydrate-based replacer made from modified corn starch",
+      "A protein-based replacer made from egg white microspheres",
+      "A sucrose polyester that is non-absorbable by the GI tract",
+      "A mono- and diglyceride blend that provides fewer calories than triglycerides"
+    ],
+    "correctIndex": 2,
+    "explanation": "Olestra is a fat-based fat replacer made from sucrose polyesters — fatty acids esterified to sucrose rather than glycerol. The large molecular structure cannot be digested or absorbed by the GI tract, making it calorie-free. It is used in fat-free chips, crackers, and snack foods. However, it can cause gastrointestinal side effects (diarrhea, cramping) in some people. Simplesse and Dairy-Lo are protein-based fat replacers; carbohydrate-based replacers use starches, gums, and cellulose.",
+    "tags": [
+      "fat-replacers",
+      "olestra",
+      "food-additives",
+      "food-science"
+    ]
+  }
+]

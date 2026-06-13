@@ -1,0 +1,664 @@
+[
+  {
+    "id": "m2-mnt-031",
+    "domain": "Domain II",
+    "topic": "Food Allergies",
+    "difficulty": "medium",
+    "text": "Since 2023, which allergen was added to the FDA's 'Big Nine' major food allergens list?",
+    "options": [
+      "Mustard",
+      "Sesame",
+      "Celery",
+      "Lupin"
+    ],
+    "correctIndex": 1,
+    "explanation": "In 2023, sesame became the 9th major food allergen recognized by the FDA, joining milk, eggs, tree nuts, peanuts, wheat, soy, fish, and shellfish.",
+    "tags": [
+      "food allergies",
+      "Big Nine",
+      "sesame",
+      "FDA"
+    ]
+  },
+  {
+    "id": "m2-mnt-032",
+    "domain": "Domain II",
+    "topic": "Food Allergies",
+    "difficulty": "medium",
+    "text": "An infant is diagnosed with cow's milk protein allergy. Which formula is most appropriate?",
+    "options": [
+      "Soy-based formula",
+      "Extensively hydrolyzed or amino acid-based formula",
+      "Goat milk formula",
+      "Whole cow's milk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Soy formula is NOT recommended for infants with cow's milk allergy due to cross-reactivity. Extensively hydrolyzed or amino acid-based formulas are the appropriate choice.",
+    "tags": [
+      "food allergies",
+      "cow's milk allergy",
+      "infant formula",
+      "soy"
+    ]
+  },
+  {
+    "id": "m2-mnt-033",
+    "domain": "Domain II",
+    "topic": "Food Allergies",
+    "difficulty": "medium",
+    "text": "What is the key distinction between a food allergy and a food intolerance?",
+    "options": [
+      "Food allergy involves the immune system (IgE-mediated); food intolerance does not",
+      "Food intolerance is always more severe than a food allergy",
+      "Food allergy only affects the GI tract; food intolerance affects multiple systems",
+      "Food intolerance involves IgG antibodies; food allergy involves IgA antibodies"
+    ],
+    "correctIndex": 0,
+    "explanation": "Food allergies involve an immune response (typically IgE-mediated), while food intolerances are non-immune reactions (e.g., lactase deficiency causing lactose intolerance). Allergies can be life-threatening; intolerances generally are not.",
+    "tags": [
+      "food allergies",
+      "food intolerance",
+      "IgE",
+      "immune response"
+    ]
+  },
+  {
+    "id": "m2-mnt-034",
+    "domain": "Domain II",
+    "topic": "Food Allergies",
+    "difficulty": "hard",
+    "text": "A dietitian is working with a patient suspected of having multiple food sensitivities. After completing a 7-day food diary, the next most appropriate diagnostic step is:",
+    "options": [
+      "Immediate oral food challenge",
+      "Elimination diet for 4–12 weeks",
+      "Skin prick testing only",
+      "Double-blind placebo-controlled food challenge without elimination"
+    ],
+    "correctIndex": 1,
+    "explanation": "After a food diary identifies suspected triggers, an elimination diet (4–12 weeks) removes suspected allergens to confirm symptom improvement. An oral food challenge follows to reintroduce foods systematically under supervision.",
+    "tags": [
+      "food allergies",
+      "elimination diet",
+      "diagnosis",
+      "oral food challenge"
+    ]
+  },
+  {
+    "id": "m2-mnt-035",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "medium",
+    "text": "A patient with HIV/AIDS and a low CD4 count asks about food safety. Which food should the dietitian advise the patient to avoid?",
+    "options": [
+      "Pasteurized orange juice",
+      "Cooked chicken breast",
+      "Raw oysters",
+      "Canned vegetables"
+    ],
+    "correctIndex": 2,
+    "explanation": "Patients with HIV/AIDS and low CD4 counts are immunocompromised and must avoid foods with high pathogen risk: raw shellfish, raw eggs, unpasteurized cheeses, and undercooked meats due to risk of life-threatening foodborne illness.",
+    "tags": [
+      "HIV/AIDS",
+      "food safety",
+      "immunocompromised",
+      "CD4",
+      "raw shellfish"
+    ]
+  },
+  {
+    "id": "m2-mnt-036",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "hard",
+    "text": "Which laboratory values should be routinely monitored in a patient with HIV/AIDS receiving antiretroviral therapy?",
+    "options": [
+      "CD4 count, viral load, lipids, blood glucose, and anemia markers",
+      "Only CD4 count and viral load",
+      "Albumin, prealbumin, and transferrin",
+      "Thyroid function and cortisol levels only"
+    ],
+    "correctIndex": 0,
+    "explanation": "HIV/AIDS management requires monitoring CD4 count (immune status), viral load (disease activity), CRP (inflammation), lipid panels and blood glucose (metabolic effects of antiretrovirals), and anemia markers (common complication).",
+    "tags": [
+      "HIV/AIDS",
+      "laboratory monitoring",
+      "CD4",
+      "viral load",
+      "antiretroviral"
+    ]
+  },
+  {
+    "id": "m2-mnt-037",
+    "domain": "Domain II",
+    "topic": "Malnutrition",
+    "difficulty": "hard",
+    "text": "According to current AND/ASPEN malnutrition consensus criteria, which laboratory marker is recommended for diagnosing malnutrition?",
+    "options": [
+      "Serum albumin",
+      "Serum prealbumin",
+      "C-reactive protein (CRP)",
+      "None — malnutrition is diagnosed based on clinical criteria, not lab values"
+    ],
+    "correctIndex": 3,
+    "explanation": "Current AND/ASPEN guidelines no longer recommend albumin or prealbumin for nutrition status assessment because they are negative acute-phase proteins that reflect inflammation, not nutrition. Malnutrition is diagnosed using clinical criteria: inadequate intake, weight loss, loss of muscle/fat mass, fluid accumulation, and reduced grip strength.",
+    "tags": [
+      "malnutrition",
+      "AND/ASPEN",
+      "albumin",
+      "prealbumin",
+      "diagnosis",
+      "clinical criteria"
+    ]
+  },
+  {
+    "id": "m2-mnt-038",
+    "domain": "Domain II",
+    "topic": "Malnutrition",
+    "difficulty": "medium",
+    "text": "A patient presents with edema, distended abdomen, skin lesions, and adequate energy intake but severely inadequate protein intake. Which form of malnutrition best describes this presentation?",
+    "options": [
+      "Marasmus",
+      "Kwashiorkor",
+      "Mixed malnutrition",
+      "Cachexia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kwashiorkor results from severe protein deficiency with relatively adequate energy intake. Classic features include peripheral edema, ascites, hepatomegaly, and skin changes. Treatment includes ReSoMal for rehydration.",
+    "tags": [
+      "kwashiorkor",
+      "malnutrition",
+      "protein deficiency",
+      "edema",
+      "ReSoMal"
+    ]
+  },
+  {
+    "id": "m2-mnt-039",
+    "domain": "Domain II",
+    "topic": "Malnutrition",
+    "difficulty": "medium",
+    "text": "A severely malnourished child presents with wasting, muscle atrophy, hypothermia, and deficiency of both protein and energy. Which condition is most consistent with this presentation?",
+    "options": [
+      "Kwashiorkor",
+      "Marasmus",
+      "Refeeding syndrome",
+      "ARFID"
+    ],
+    "correctIndex": 1,
+    "explanation": "Marasmus results from severe deficiency of both protein and energy (total starvation). Features include extreme wasting, cachexia, and hypothermia. Treatment follows a 3-phase protocol: resuscitation, rehabilitation, and follow-up.",
+    "tags": [
+      "marasmus",
+      "malnutrition",
+      "wasting",
+      "protein-energy",
+      "hypothermia"
+    ]
+  },
+  {
+    "id": "m2-mnt-040",
+    "domain": "Domain II",
+    "topic": "Malnutrition",
+    "difficulty": "hard",
+    "text": "Which etiology of malnutrition is associated with high levels of inflammation and typically seen in ICU patients with sepsis or major trauma?",
+    "options": [
+      "Starvation-related malnutrition",
+      "Chronic disease-related malnutrition",
+      "Acute disease or injury-related malnutrition",
+      "Social determinant-related malnutrition"
+    ],
+    "correctIndex": 2,
+    "explanation": "The AND/ASPEN framework classifies malnutrition into 3 etiologies: starvation-related (no inflammation), chronic disease-related (mild-moderate inflammation), and acute disease/injury-related (severe inflammation, e.g., sepsis, major burns, trauma).",
+    "tags": [
+      "malnutrition",
+      "etiology",
+      "inflammation",
+      "AND/ASPEN",
+      "acute disease"
+    ]
+  },
+  {
+    "id": "m2-mnt-041",
+    "domain": "Domain II",
+    "topic": "Inborn Errors of Metabolism",
+    "difficulty": "medium",
+    "text": "An infant is diagnosed with phenylketonuria (PKU). Which dietary modification is the cornerstone of nutritional management?",
+    "options": [
+      "Low tyrosine, high phenylalanine diet",
+      "Low phenylalanine diet with phenylalanine-free formula",
+      "High branched-chain amino acid supplementation",
+      "Galactose-free diet with soy formula"
+    ],
+    "correctIndex": 1,
+    "explanation": "PKU results from phenylalanine hydroxylase deficiency, causing phenylalanine accumulation. Treatment requires a low-phenylalanine diet (restricting high-protein foods) plus a phenylalanine-free medical formula to provide adequate amino acids including tyrosine.",
+    "tags": [
+      "PKU",
+      "phenylketonuria",
+      "inborn errors",
+      "phenylalanine",
+      "tyrosine"
+    ]
+  },
+  {
+    "id": "m2-mnt-042",
+    "domain": "Domain II",
+    "topic": "Inborn Errors of Metabolism",
+    "difficulty": "hard",
+    "text": "A newborn is diagnosed with maple syrup urine disease (MSUD). Which amino acids must be restricted in the diet?",
+    "options": [
+      "Phenylalanine and tyrosine",
+      "Leucine, isoleucine, and valine",
+      "Threonine and isoleucine",
+      "Methionine and cysteine"
+    ],
+    "correctIndex": 1,
+    "explanation": "MSUD involves a deficiency of branched-chain alpha-ketoacid dehydrogenase, impairing metabolism of branched-chain amino acids (BCAAs): leucine, isoleucine, and valine. Accumulation causes neurotoxicity. Dietary management restricts all three BCAAs.",
+    "tags": [
+      "MSUD",
+      "maple syrup urine disease",
+      "BCAA",
+      "leucine",
+      "isoleucine",
+      "valine"
+    ]
+  },
+  {
+    "id": "m2-mnt-043",
+    "domain": "Domain II",
+    "topic": "Inborn Errors of Metabolism",
+    "difficulty": "hard",
+    "text": "An infant with galactosemia requires which of the following dietary interventions?",
+    "options": [
+      "Phenylalanine-free formula",
+      "Soy-based formula (lactose and galactose-free)",
+      "Extensively hydrolyzed casein formula",
+      "Low-fat formula with medium-chain triglycerides"
+    ],
+    "correctIndex": 1,
+    "explanation": "Galactosemia results from GALT enzyme deficiency, causing galactose accumulation. Treatment requires elimination of all lactose and galactose sources. Soy-based formula is appropriate as it is free of lactose and galactose.",
+    "tags": [
+      "galactosemia",
+      "GALT",
+      "inborn errors",
+      "soy formula",
+      "lactose-free"
+    ]
+  },
+  {
+    "id": "m2-mnt-044",
+    "domain": "Domain II",
+    "topic": "Inborn Errors of Metabolism",
+    "difficulty": "hard",
+    "text": "A child with glycogen storage disease type I (von Gierke disease) requires which primary dietary modification?",
+    "options": [
+      "High fructose, low glucose diet",
+      "Low lactose, low fructose, low sucrose diet with uncooked cornstarch",
+      "High protein, low carbohydrate ketogenic diet",
+      "Galactose-free, lactose-free diet with soy formula"
+    ],
+    "correctIndex": 1,
+    "explanation": "GSD type I (glucose-6-phosphatase deficiency) causes fasting hypoglycemia. Treatment requires avoiding fructose, lactose, and sucrose (which are converted to glucose-6-phosphate), and using uncooked cornstarch to provide slow-release glucose and prevent hypoglycemia.",
+    "tags": [
+      "GSD",
+      "glycogen storage disease",
+      "von Gierke",
+      "cornstarch",
+      "fructose",
+      "fasting hypoglycemia"
+    ]
+  },
+  {
+    "id": "m2-mnt-045",
+    "domain": "Domain II",
+    "topic": "Cancer",
+    "difficulty": "medium",
+    "text": "A cancer patient undergoing active treatment is hypermetabolic. What is the recommended caloric goal?",
+    "options": [
+      "20–25 kcal/kg",
+      "25–30 kcal/kg",
+      "30–35 kcal/kg",
+      "40–45 kcal/kg"
+    ],
+    "correctIndex": 2,
+    "explanation": "For hypermetabolic cancer patients or those in the first month post-transplant, 30–35 kcal/kg is recommended. Sedentary cancer patients require 25–30 kcal/kg, while severely stressed patients (GVHD, head and neck cancer) may need ≥35 kcal/kg.",
+    "tags": [
+      "cancer",
+      "oncology",
+      "calories",
+      "hypermetabolism",
+      "active treatment"
+    ]
+  },
+  {
+    "id": "m2-mnt-046",
+    "domain": "Domain II",
+    "topic": "Cancer",
+    "difficulty": "hard",
+    "text": "A post-bone marrow transplant patient with graft-versus-host disease (GVHD) and significant GI losses requires nutrition support. What protein goal is most appropriate?",
+    "options": [
+      "1.0–1.2 g/kg",
+      "1.2–1.5 g/kg",
+      "1.5–2.0 g/kg",
+      "1.5–2.5 g/kg"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bone marrow transplant patients with GVHD or wasting syndrome have the highest protein needs in oncology: 1.5–2.5 g/kg due to severe catabolism, GI protein losses, and immune system demands.",
+    "tags": [
+      "cancer",
+      "bone marrow transplant",
+      "GVHD",
+      "protein",
+      "wasting"
+    ]
+  },
+  {
+    "id": "m2-mnt-047",
+    "domain": "Domain II",
+    "topic": "Cancer",
+    "difficulty": "medium",
+    "text": "A sedentary patient with a solid tumor malignancy is receiving outpatient chemotherapy. What is the recommended caloric goal?",
+    "options": [
+      "20–25 kcal/kg",
+      "25–30 kcal/kg",
+      "35–40 kcal/kg",
+      "40–45 kcal/kg"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sedentary cancer patients require 25–30 kcal/kg. Higher goals (30–35 kcal/kg) apply to hypermetabolic or newly transplanted patients, and ≥35 kcal/kg for severely stressed patients with GVHD or head and neck cancers.",
+    "tags": [
+      "cancer",
+      "outpatient",
+      "sedentary",
+      "calories",
+      "chemotherapy"
+    ]
+  },
+  {
+    "id": "m2-mnt-048",
+    "domain": "Domain II",
+    "topic": "Malnutrition",
+    "difficulty": "medium",
+    "text": "According to the Malnutrition Quality Improvement Initiative (MQii), within how many hours of hospital admission should a nutrition screening be completed?",
+    "options": [
+      "6 hours",
+      "12 hours",
+      "24 hours",
+      "48 hours"
+    ],
+    "correctIndex": 2,
+    "explanation": "The MQii includes 4 electronic clinical quality measures (eCQMs). Nutrition screening must be completed within 24 hours of admission. If positive, a full nutrition assessment should also be completed within 24 hours.",
+    "tags": [
+      "malnutrition",
+      "MQii",
+      "nutrition screening",
+      "24 hours",
+      "hospital"
+    ]
+  },
+  {
+    "id": "m2-mnt-049",
+    "domain": "Domain II",
+    "topic": "Inborn Errors of Metabolism",
+    "difficulty": "hard",
+    "text": "A child diagnosed with medium-chain acyl-CoA dehydrogenase (MCAD) deficiency requires which primary dietary intervention?",
+    "options": [
+      "High fat ketogenic diet",
+      "Avoidance of fasting and low-fat diet",
+      "Low phenylalanine diet with medical formula",
+      "Galactose and lactose elimination"
+    ],
+    "correctIndex": 1,
+    "explanation": "MCAD deficiency impairs oxidation of medium-chain fatty acids. The primary risk is hypoglycemia during fasting when fatty acid oxidation is needed for energy. Treatment requires avoiding prolonged fasting and a low-fat diet to reduce dependence on fatty acid oxidation.",
+    "tags": [
+      "MCAD",
+      "inborn errors",
+      "fasting",
+      "fatty acid oxidation",
+      "hypoglycemia"
+    ]
+  },
+  {
+    "id": "m2-mnt-050",
+    "domain": "Domain II",
+    "topic": "Mental Health",
+    "difficulty": "medium",
+    "text": "A patient on long-term antipsychotic therapy reports significant weight gain. Which mechanism is most responsible for this side effect?",
+    "options": [
+      "Increased metabolic rate from dopamine blockade",
+      "Anticholinergic effects causing fluid retention",
+      "Histamine and serotonin receptor blockade increasing appetite and reducing satiety",
+      "Direct anabolic effect on muscle tissue"
+    ],
+    "correctIndex": 2,
+    "explanation": "Antipsychotic-induced weight gain is primarily due to histamine (H1) and serotonin (5-HT2C) receptor blockade, which increases appetite and reduces satiety. Clozapine and olanzapine have the highest risk; aripiprazole and ziprasidone have lower risk.",
+    "tags": [
+      "mental health",
+      "antipsychotics",
+      "weight gain",
+      "histamine",
+      "serotonin"
+    ]
+  },
+  {
+    "id": "m2-mnt-051",
+    "domain": "Domain II",
+    "topic": "Cancer",
+    "difficulty": "hard",
+    "text": "A head and neck cancer patient undergoing radiation therapy develops severe mucositis and dysphagia. What is the most appropriate nutrition intervention?",
+    "options": [
+      "Continue oral diet with texture modification only",
+      "Initiate enteral nutrition via nasogastric tube",
+      "Initiate parenteral nutrition immediately",
+      "Restrict calories to reduce tumor growth"
+    ],
+    "correctIndex": 1,
+    "explanation": "Head and neck cancer patients with severe mucositis and dysphagia from radiation often cannot maintain adequate oral intake. Enteral nutrition via nasogastric or gastrostomy tube is preferred over parenteral nutrition when the GI tract is functional.",
+    "tags": [
+      "head and neck cancer",
+      "radiation",
+      "mucositis",
+      "dysphagia",
+      "enteral nutrition"
+    ]
+  },
+  {
+    "id": "m2-mnt-052",
+    "domain": "Domain II",
+    "topic": "Malnutrition",
+    "difficulty": "medium",
+    "text": "A nutrition-focused physical exam (NFPE) reveals bilateral temporal wasting and loss of interosseous muscle mass. What does this finding indicate?",
+    "options": [
+      "Fluid overload",
+      "Vitamin C deficiency",
+      "Muscle wasting consistent with malnutrition",
+      "Hypermetabolic state from infection only"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nutrition-focused physical exam findings of temporal wasting (temporalis muscle) and interosseous muscle loss are objective signs of muscle wasting, consistent with malnutrition diagnosis per AND/ASPEN criteria.",
+    "tags": [
+      "malnutrition",
+      "NFPE",
+      "muscle wasting",
+      "temporal",
+      "physical exam"
+    ]
+  },
+  {
+    "id": "m2-mnt-053",
+    "domain": "Domain II",
+    "topic": "Food Allergies",
+    "difficulty": "medium",
+    "text": "What is the primary difference between IgE-mediated food allergy and non-IgE-mediated food sensitivity?",
+    "options": [
+      "IgE-mediated reactions are always delayed; non-IgE reactions are immediate",
+      "IgE-mediated reactions are immediate (within 2 hours); non-IgE reactions are delayed (hours to days)",
+      "Non-IgE reactions require epinephrine treatment; IgE reactions do not",
+      "IgE reactions only affect the GI tract; non-IgE reactions are systemic"
+    ],
+    "correctIndex": 1,
+    "explanation": "IgE-mediated food allergies cause immediate reactions (within minutes to 2 hours) including anaphylaxis. Non-IgE-mediated reactions (e.g., food protein-induced enterocolitis) are delayed, occurring hours to days after exposure.",
+    "tags": [
+      "food allergies",
+      "IgE",
+      "non-IgE",
+      "immediate",
+      "delayed",
+      "anaphylaxis"
+    ]
+  },
+  {
+    "id": "m2-mnt-054",
+    "domain": "Domain II",
+    "topic": "Inborn Errors of Metabolism",
+    "difficulty": "hard",
+    "text": "A patient with tyrosinemia type I requires which dietary restriction?",
+    "options": [
+      "Leucine, isoleucine, and valine",
+      "Phenylalanine only",
+      "Tyrosine, phenylalanine, and methionine",
+      "Galactose and lactose"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tyrosinemia type I results from fumarylacetoacetate hydrolase deficiency causing accumulation of toxic tyrosine metabolites. Dietary management restricts tyrosine, phenylalanine (precursor to tyrosine), and methionine.",
+    "tags": [
+      "tyrosinemia",
+      "inborn errors",
+      "tyrosine",
+      "phenylalanine",
+      "methionine"
+    ]
+  },
+  {
+    "id": "m2-mnt-055",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "medium",
+    "text": "Compared to the general population, how does resting energy expenditure (REE) change in patients with HIV/AIDS?",
+    "options": [
+      "Decreases by 10–15%",
+      "Remains unchanged",
+      "Increases by 5–17%",
+      "Increases by 30–50%"
+    ],
+    "correctIndex": 2,
+    "explanation": "HIV/AIDS increases REE by 5–17% due to chronic inflammation and immune activation. However, total energy expenditure (TEE) may remain similar to the general population due to reduced physical activity.",
+    "tags": [
+      "HIV/AIDS",
+      "REE",
+      "energy expenditure",
+      "metabolism",
+      "inflammation"
+    ]
+  },
+  {
+    "id": "m2-mnt-056",
+    "domain": "Domain II",
+    "topic": "Cancer",
+    "difficulty": "medium",
+    "text": "A cancer patient receiving active treatment requires protein support. Which protein goal is most appropriate?",
+    "options": [
+      "0.8–1.0 g/kg",
+      "1.0–1.2 g/kg",
+      "1.2–1.5 g/kg",
+      "2.0–2.5 g/kg"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cancer patients receiving active treatment (chemotherapy, radiation) require 1.2–1.5 g/kg protein to support immune function, tissue repair, and counteract catabolism. Higher goals (1.5–2.0 g/kg) apply to transplant patients.",
+    "tags": [
+      "cancer",
+      "protein",
+      "active treatment",
+      "chemotherapy",
+      "radiation"
+    ]
+  },
+  {
+    "id": "m2-mnt-057",
+    "domain": "Domain II",
+    "topic": "Malnutrition",
+    "difficulty": "hard",
+    "text": "Which of the following best represents chronic disease-related malnutrition according to the AND/ASPEN etiology framework?",
+    "options": [
+      "A patient with sepsis and multi-organ failure",
+      "A patient with end-stage COPD and mild-to-moderate inflammation",
+      "A patient with anorexia nervosa and no inflammation",
+      "A patient with a traumatic brain injury in the ICU"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chronic disease-related malnutrition is associated with mild-to-moderate inflammation (e.g., COPD, heart failure, chronic kidney disease). Acute disease/injury-related malnutrition involves high inflammation (sepsis, trauma). Starvation-related involves no inflammation.",
+    "tags": [
+      "malnutrition",
+      "chronic disease",
+      "AND/ASPEN",
+      "etiology",
+      "inflammation",
+      "COPD"
+    ]
+  },
+  {
+    "id": "m2-mnt-058",
+    "domain": "Domain II",
+    "topic": "Inborn Errors of Metabolism",
+    "difficulty": "hard",
+    "text": "A patient with methylmalonic acidemia (MMA) requires which nutritional intervention?",
+    "options": [
+      "High leucine, low valine diet",
+      "Low threonine and isoleucine with pharmacological vitamin B12",
+      "Galactose-free diet with soy formula",
+      "Low phenylalanine diet with tyrosine supplementation"
+    ],
+    "correctIndex": 1,
+    "explanation": "MMA results from methylmalonyl-CoA mutase deficiency. Treatment requires restriction of threonine and isoleucine (precursors to methylmalonyl-CoA) and pharmacological doses of vitamin B12 (cobalamin), which may activate residual enzyme activity in some patients.",
+    "tags": [
+      "MMA",
+      "methylmalonic acidemia",
+      "threonine",
+      "isoleucine",
+      "vitamin B12",
+      "inborn errors"
+    ]
+  },
+  {
+    "id": "m2-mnt-059",
+    "domain": "Domain II",
+    "topic": "Cancer",
+    "difficulty": "hard",
+    "text": "A cancer patient with severe protein-losing enteropathy and wasting syndrome requires which protein goal?",
+    "options": [
+      "0.8–1.0 g/kg",
+      "1.0–1.2 g/kg",
+      "1.2–1.5 g/kg",
+      "1.5–2.5 g/kg"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cancer patients with protein-losing enteropathy or severe wasting syndrome have the highest protein needs: 1.5–2.5 g/kg to compensate for GI protein losses and severe catabolism.",
+    "tags": [
+      "cancer",
+      "protein-losing enteropathy",
+      "wasting",
+      "protein",
+      "high needs"
+    ]
+  },
+  {
+    "id": "m2-mnt-060",
+    "domain": "Domain II",
+    "topic": "Mental Health",
+    "difficulty": "medium",
+    "text": "Which side effect of antipsychotic medications is most directly related to extrapyramidal symptoms rather than metabolic effects?",
+    "options": [
+      "Weight gain",
+      "Hyperglycemia",
+      "Tardive dyskinesia",
+      "Hyperlipidemia"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tardive dyskinesia is an extrapyramidal side effect of antipsychotics caused by dopamine receptor blockade, leading to involuntary movements. Weight gain, hyperglycemia, and hyperlipidemia are metabolic side effects.",
+    "tags": [
+      "mental health",
+      "antipsychotics",
+      "tardive dyskinesia",
+      "extrapyramidal",
+      "dopamine"
+    ]
+  }
+]

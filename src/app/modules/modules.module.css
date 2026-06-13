@@ -74,3 +74,55 @@
     padding-top: 16px;
     margin-top: auto;
 }
+
+/* Premium Card Styles */
+.premiumCard {
+    border-color: rgba(99, 102, 241, 0.3);
+    background: linear-gradient(180deg, var(--surface) 0%, rgba(99, 102, 241, 0.02) 100%);
+}
+
+.premiumCard:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.15);
+}
+
+.premiumIcon {
+    background: rgba(99, 102, 241, 0.1);
+}
+
+.premiumBadge {
+    background: linear-gradient(135deg, var(--accent) 0%, #4f46e5 100%);
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* AI Card Styles */
+.aiCard {
+    border-color: rgba(236, 72, 153, 0.3);
+    background: linear-gradient(180deg, var(--surface) 0%, rgba(236, 72, 153, 0.02) 100%);
+}
+
+.aiCard:hover {
+    border-color: #ec4899;
+    box-shadow: 0 4px 20px rgba(236, 72, 153, 0.15);
+}
+
+.aiIcon {
+    background: rgba(236, 72, 153, 0.1);
+}
+
+.aiBadge {
+    background: linear-gradient(135deg, #ec4899 0%, #d946ef 100%);
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}

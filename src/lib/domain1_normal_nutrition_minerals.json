@@ -1,0 +1,674 @@
+[
+  {
+    "id": "m1-nn2-001",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "easy",
+    "text": "Pellagra is the deficiency disease associated with niacin (vitamin B3). Which set of symptoms is classically associated with pellagra?",
+    "options": [
+      "Bleeding gums, poor wound healing, perifollicular hemorrhages",
+      "Dermatitis, diarrhea, dementia, and death",
+      "Night blindness, xerophthalmia, Bitot's spots",
+      "Angular stomatitis, cheilosis, magenta-colored tongue"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pellagra is characterized by the '4 D's': Dermatitis, Diarrhea, Dementia, and Death (if untreated). It was prevalent in the early 1900s US due to heavy reliance on corn, in which ~70% of niacin is bound and unavailable. Treating corn with a base (nixtamalization) increases niacin bioavailability. Bleeding gums = scurvy (vitamin C deficiency); night blindness = vitamin A deficiency; angular stomatitis = riboflavin (B2) deficiency.",
+    "tags": [
+      "niacin",
+      "pellagra",
+      "B3",
+      "deficiency",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-002",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Nicotinic acid (niacin) is used pharmacologically above the RDA level for which purpose, and what is a key toxicity sign at high doses?",
+    "options": [
+      "To improve insulin sensitivity; peripheral neuropathy",
+      "To optimize plasma lipid profiles; niacin flush and liver damage",
+      "To prevent pellagra in corn-dependent populations; corneal ulceration",
+      "To enhance heme synthesis; microcytic anemia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pharmacologic doses of nicotinic acid (not nicotinamide) are used to optimize plasma lipid profiles — raising HDL and lowering triglycerides. At these supratherapeutic doses, niacin toxicity can occur, manifesting as niacin flush (painful skin flushing/tingling), GI distress, and liver damage. Extended-release formulations are used to reduce these side effects. Nicotinamide (the other form) does not cause toxicity or lipid effects at the same doses.",
+    "tags": [
+      "niacin",
+      "pharmacologic",
+      "lipids",
+      "toxicity",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-003",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Pantothenic acid (vitamin B5) is critically important in metabolism because it is a component of which two molecules central to all three macronutrient pathways?",
+    "options": [
+      "NAD+ and NADP+",
+      "FAD and FMN",
+      "Coenzyme A (CoA) and acyl carrier protein (ACP)",
+      "Thiamine pyrophosphate (TPP) and pyridoxal phosphate (PLP)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Pantothenic acid (B5) is a structural component of Coenzyme A (CoA) and acyl carrier protein (ACP). CoA is central to all three macronutrient metabolic pathways — as acetyl CoA in the TCA cycle, in fatty acid oxidation, and in amino acid catabolism. ACP plays a key role in lipogenesis (fatty acid synthesis). This makes B5 uniquely positioned at the intersection of glucose, protein, and lipid metabolism.",
+    "tags": [
+      "pantothenic-acid",
+      "B5",
+      "CoA",
+      "metabolism",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-004",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Unlike most B vitamins, vitamin B6 (pyridoxine) excess can cause toxicity. What is the primary sign of vitamin B6 toxicity?",
+    "options": [
+      "Megaloblastic anemia due to impaired DNA synthesis",
+      "Niacin flush and painful skin tingling",
+      "Neurological damage (peripheral neuropathy)",
+      "Wernicke-Korsakoff syndrome (confusion, ataxia)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vitamin B6 (pyridoxine) is unique among water-soluble vitamins (along with niacin) in that excess intake causes toxicity. High-dose B6 supplementation leads to neurological damage, specifically sensory peripheral neuropathy. B6 deficiency, in contrast, can cause microcytic hypochromic anemia (due to reduced heme synthesis) and neurological symptoms from decreased neurotransmitter production. Wernicke-Korsakoff = thiamin (B1) deficiency; megaloblastic anemia = B12 or folate deficiency.",
+    "tags": [
+      "B6",
+      "pyridoxine",
+      "toxicity",
+      "peripheral-neuropathy",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-005",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "easy",
+    "text": "Consuming large quantities of raw egg whites regularly can lead to biotin deficiency. The mechanism is:",
+    "options": [
+      "Raw eggs contain an enzyme that destroys biotin in the GI tract",
+      "Avidin, a protein in raw egg white, binds biotin and prevents its absorption",
+      "Raw egg white raises gastric pH, impairing biotin's active transport mechanism",
+      "Egg white competes with biotin for the SMVT sodium-multivitamin transporter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Avidin is a glycoprotein in raw egg whites that binds biotin with extremely high affinity, preventing its absorption in the small intestine. Cooking denatures avidin, eliminating its biotin-binding capacity. Biocytin (biotinyl-lysine) in food must first be cleaved by biotinidase before free biotin can be absorbed via the sodium-dependent multivitamin transporter (SMVT). Biotin deficiency from raw egg white consumption is known as egg white injury or avidin-biotin interaction.",
+    "tags": [
+      "biotin",
+      "avidin",
+      "egg-white",
+      "B7",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-006",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "easy",
+    "text": "Vitamin C deficiency causes scurvy. The primary mechanism of scurvy symptoms is:",
+    "options": [
+      "Impaired serotonin synthesis leading to mood changes and depression",
+      "Reduced erythrocyte production causing megaloblastic anemia",
+      "Inability to maintain collagen integrity in connective tissue",
+      "Impaired immune function causing recurrent bacterial infections"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vitamin C is essential for hydroxylation reactions required in collagen synthesis (specifically hydroxylation of proline and lysine residues). Without adequate vitamin C, collagen cannot maintain its triple helix structure, leading to connective tissue breakdown. Scurvy manifests as bleeding gums, poor wound healing, perifollicular hemorrhages, and weakened connective tissues. Excess vitamin C increases oxalic acid excretion, raising kidney stone risk.",
+    "tags": [
+      "vitamin-C",
+      "scurvy",
+      "collagen",
+      "deficiency",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-007",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "A patient with vitamin A deficiency would most likely present with which manifestations?",
+    "options": [
+      "Night blindness and xerophthalmia (dry eyes/corneal damage)",
+      "Bleeding gums and perifollicular hemorrhages",
+      "Bone pain and hypercalcemia",
+      "Megaloblastic anemia and glossitis"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vitamin A deficiency causes xerophthalmia (dry eyes → corneal ulceration → blindness) and night blindness because retinal (the aldehyde form of vitamin A) is the visual chromophore. Hyperkeratosis (skin thickening) also occurs. Vitamin A is stored primarily in the liver — deficiency doesn't manifest in blood biomarkers until stores are exhausted. Vitamin A toxicity (excess retinoids) causes birth defects in pregnancy. Excess beta-carotene causes carotenemia (orange skin) but NOT vitamin A toxicity.",
+    "tags": [
+      "vitamin-A",
+      "xerophthalmia",
+      "deficiency",
+      "retinol",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-008",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Which correctly describes the two-step activation pathway for vitamin D?",
+    "options": [
+      "Skin → liver (calcidiol) → kidney (calcitriol); calcitriol enhances Ca and P absorption",
+      "Skin → kidney (calcidiol) → liver (calcitriol); calcitriol enhances Ca absorption only",
+      "Diet → liver (calcitriol) → adipose storage; calcitriol inhibits parathyroid hormone",
+      "Diet → duodenum (ergocalciferol) → liver (cholecalciferol); activates calcium channels"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vitamin D activation requires two hydroxylation steps: (1) the liver converts D2/D3 to calcidiol (25-hydroxyvitamin D3), and (2) the kidney converts calcidiol to calcitriol (1,25-dihydroxyvitamin D3), the active form. Calcitriol enhances absorption of both calcium AND phosphorus in the small intestine. Vitamin D3 can also be synthesized in skin from 7-dehydrocholesterol via UV exposure. Excess vitamin D is stored in adipose tissue and can be excreted via bile or as water-soluble urinary metabolites.",
+    "tags": [
+      "vitamin-D",
+      "calcitriol",
+      "calcidiol",
+      "calcium-absorption",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-009",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Phylloquinone (vitamin K1) and menaquinone (vitamin K2) differ primarily in their dietary sources. Which statement correctly describes each?",
+    "options": [
+      "K1 from gut microbiota; K2 from green leafy vegetables",
+      "K1 from green leafy vegetables; K2 produced by gut microbiota",
+      "K1 from animal products; K2 from plant foods",
+      "K1 from fermented dairy; K2 from fortified cereals"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phylloquinone (vitamin K1) is the predominant dietary form of vitamin K, found in green leafy vegetables (kale, spinach, broccoli). Menaquinones (vitamin K2) are produced by gut microbiota in the large intestine. Vitamin K has a short half-life, is rapidly metabolized, and is excreted mainly in feces. Blood and tissue levels are typically low. Vitamin K is absorbed in the ileum and transported via chylomicrons to the liver, then to peripheral tissues including heart, brain, pancreas, and bone.",
+    "tags": [
+      "vitamin-K",
+      "phylloquinone",
+      "menaquinone",
+      "gut-microbiota",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-010",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Iron is absorbed in the duodenum in which form, and what nutrient enhances non-heme iron absorption?",
+    "options": [
+      "Ferric iron (Fe3+); calcium enhances absorption",
+      "Ferrous iron (Fe2+); vitamin C enhances absorption",
+      "Heme iron (Hgb-Fe3+); folate enhances absorption",
+      "Ferrous iron (Fe2+); vitamin B12 enhances absorption"
+    ],
+    "correctIndex": 1,
+    "explanation": "Iron is absorbed by enterocytes as ferrous iron (Fe2+) or heme iron. Non-heme iron supplements and dietary non-heme iron may be in the ferric form (Fe3+) and must be reduced to ferrous iron for absorption. Vitamin C enhances non-heme iron absorption by: (1) reducing Fe3+ to Fe2+, and (2) forming a water-soluble iron-ascorbate complex. Heme iron is absorbed faster and bypasses these feedback mechanisms. Calcium, phytates, oxalates, and polyphenols inhibit iron absorption. Storage form = ferritin; transport = transferrin.",
+    "tags": [
+      "iron",
+      "ferrous",
+      "absorption",
+      "vitamin-C",
+      "duodenum",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-011",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Iron and copper share a similar absorption pattern. Which correctly describes the forms in which each is absorbed by enterocytes?",
+    "options": [
+      "Iron as Fe3+ (ferric); copper as Cu2+ (cupric)",
+      "Iron as Fe2+ (ferrous); copper as Cu2+ (cupric)",
+      "Iron as Fe2+ (ferrous); copper as Cu+ (cuprous)",
+      "Iron as Fe3+ (ferric); copper as Cu+ (cuprous)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Both iron and copper must be in their REDUCED forms for enterocyte absorption: iron as Fe2+ (ferrous) and copper as Cu+ (cuprous). Dietary cupric copper (Cu2+) is enzymatically reduced to cuprous copper (Cu+) before absorption — vitamin C stimulates this reduction. Once in circulation, copper is re-oxidized to cupric (Cu2+) to bind albumin. Copper is stored as metallothionein in the liver and transported to peripheral tissues via ceruloplasmin.",
+    "tags": [
+      "iron",
+      "copper",
+      "absorption",
+      "ferrous",
+      "cuprous",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-012",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Which compound inhibits the absorption of zinc, iron, AND calcium?",
+    "options": [
+      "Oxalate only",
+      "Polyphenols only",
+      "Phytate",
+      "Tannins"
+    ],
+    "correctIndex": 2,
+    "explanation": "Phytates (phytic acid), found in whole grains and legumes, inhibit the absorption of zinc, iron, and calcium by forming insoluble complexes with these minerals in the intestinal lumen. Oxalates also inhibit calcium (and iron) but are found in different foods (spinach, rhubarb, sweet potatoes). Polyphenols inhibit iron and zinc. Tannins (in tea/coffee) inhibit iron. Vitamin C does NOT inhibit phytate absorption — instead, it can partially overcome phytate's inhibition of iron by reducing Fe3+ to Fe2+.",
+    "tags": [
+      "phytates",
+      "mineral-absorption",
+      "zinc",
+      "iron",
+      "calcium",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-013",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Transferrin and ferritin are both important iron-related proteins. Which statement correctly describes their roles?",
+    "options": [
+      "Ferritin transports iron in blood; transferrin stores iron in cells",
+      "Transferrin transports iron in blood; ferritin is the intracellular storage form",
+      "Both are storage proteins; ferritin in liver, transferrin in spleen",
+      "Transferrin binds iron in the intestinal lumen; ferritin facilitates duodenal absorption"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ferritin is the intracellular storage form of iron — formed when Fe2+ binds to apoferritin inside enterocytes and other cells. Transferrin is the blood glycoprotein that transports iron in circulation to the liver and other tissues. Transferrin levels are inversely related to free iron in blood (high iron → low transferrin saturation available). Serum ferritin reflects body iron stores. Both ferritin and transferrin saturation are clinical markers used in iron-deficiency anemia assessment.",
+    "tags": [
+      "ferritin",
+      "transferrin",
+      "iron-transport",
+      "iron-storage",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-014",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "easy",
+    "text": "Iodine deficiency during pregnancy can cause cretinism in the infant. What is the best public health intervention to prevent iodine deficiency?",
+    "options": [
+      "Mandatory supplementation of prenatal vitamins with iodine",
+      "Fortification of dairy animal feed with iodine",
+      "Universal iodization of table salt (iodized salt)",
+      "Mandatory consumption of seaweed products"
+    ],
+    "correctIndex": 2,
+    "explanation": "Iodized salt (universal salt iodization) is the primary global public health strategy for preventing iodine deficiency disorders. Goiter (thyroid enlargement) and cretinism (intellectual disability, stunted growth, hypothyroidism in infants born to iodine-deficient mothers) are eliminated in regions with access to iodized salt. Foods high in iodine include seaweed, seafood, dairy (from fortified animal feed), and iodized salt. Goitrogens in cassava, cruciferous vegetables, soy, and peanuts can exacerbate iodine deficiency.",
+    "tags": [
+      "iodine",
+      "iodized-salt",
+      "goiter",
+      "cretinism",
+      "public-health",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-015",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "hard",
+    "text": "Goitrogens are compounds that interfere with iodine utilization and can exacerbate iodine deficiency. Which food group is a source of goitrogens?",
+    "options": [
+      "Red meat and poultry",
+      "Citrus fruits and berries",
+      "Cruciferous vegetables, soybeans, and cassava",
+      "Whole grains and enriched cereals"
+    ],
+    "correctIndex": 2,
+    "explanation": "Goitrogens are compounds that interfere with iodide digestion, absorption, or thyroid hormone synthesis. Key goitrogenic foods include cruciferous vegetables (broccoli, cabbage, kale), soybeans, peanuts, onions, garlic, and cassava. Cassava is particularly relevant in tropical and subtropical regions where iodine deficiency is already common. Goitrogens are typically only clinically significant in individuals with underlying iodine deficiency — cooking reduces goitrogenic activity in most vegetables.",
+    "tags": [
+      "goitrogens",
+      "iodine",
+      "thyroid",
+      "cruciferous",
+      "cassava",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-016",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Calcium absorption in the small intestine is facilitated by calbindin. Which factor INCREASES calbindin expression and thereby enhances calcium absorption?",
+    "options": [
+      "High dietary phosphorus intake",
+      "Elevated parathyroid hormone levels",
+      "High vitamin D (calcitriol) levels",
+      "Alkaline intestinal pH from antacid use"
+    ],
+    "correctIndex": 2,
+    "explanation": "Calcitriol (active vitamin D) upregulates transcription of calbindin, the calcium-binding protein that facilitates Ca2+ transport across the enterocyte via the TRPV6 channel. Without vitamin D, intestinal calcium absorption drops significantly. Calcium crosses the basolateral membrane via the calcium-magnesium ATPase pump. Oxalates and phytates inhibit calcium absorption. Vitamin D deficiency causes rickets (children) and osteoporosis/osteopenia (adults) via hypocalcemia.",
+    "tags": [
+      "calcium",
+      "calbindin",
+      "vitamin-D",
+      "absorption",
+      "TRPV6",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-017",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Phosphorus has numerous essential functions in the body. Which of the following is NOT a function of phosphorus?",
+    "options": [
+      "Component of hydroxyapatite in bone and teeth",
+      "Part of the phospholipid bilayer in cell membranes",
+      "Component of the ATP molecule (energy currency)",
+      "Required cofactor for vitamin C absorption in the duodenum"
+    ],
+    "correctIndex": 3,
+    "explanation": "Phosphorus (as phosphate) is critical for bone/tooth strength via hydroxyapatite, cell membrane phospholipids, DNA/RNA backbone structure, ATP (energy), phosphorylation reactions (G6P formation), and second messengers (cAMP, IP3). Vitamin C absorption occurs via the sodium-vitamin C co-transporter (SVCT) — phosphorus is not a required cofactor for this. Phosphorus absorption occurs primarily via sodium co-transport and is enhanced by calcitriol (active vitamin D).",
+    "tags": [
+      "phosphorus",
+      "functions",
+      "hydroxyapatite",
+      "ATP",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-018",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Selenium's homeostasis is unusual among minerals in that it is maintained primarily by:",
+    "options": [
+      "Regulation of intestinal absorption based on body stores",
+      "Hepatic sequestration and bile excretion when stores are adequate",
+      "Urinary excretion rather than controlling intestinal absorption",
+      "Storage in muscle tissue with controlled release during deficiency"
+    ],
+    "correctIndex": 2,
+    "explanation": "Unlike many minerals, selenium homeostasis is maintained primarily through regulation of URINARY EXCRETION rather than by controlling intestinal absorption. Selenium is readily absorbed from the diet (both organic forms from plants/animals and inorganic sodium selenate/selenite). In the body, selenium plays an antioxidant role as a component of glutathione peroxidase and is involved in iodine metabolism. Selenium can bioaccumulate in the food chain near high-selenium soils.",
+    "tags": [
+      "selenium",
+      "homeostasis",
+      "urinary-excretion",
+      "antioxidant",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-019",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "hard",
+    "text": "Manganese is a cofactor for superoxide dismutase (SOD). What is the reaction catalyzed by SOD, and which other minerals also serve as SOD cofactors?",
+    "options": [
+      "SOD converts hydrogen peroxide to water; cofactors are iron and zinc",
+      "SOD converts superoxide radical to hydrogen peroxide; cofactors are copper and zinc",
+      "SOD converts oxaloacetate in the Krebs cycle; cofactors are magnesium and cobalt",
+      "SOD neutralizes free radicals directly; sole cofactor is manganese"
+    ],
+    "correctIndex": 1,
+    "explanation": "Superoxide dismutase (SOD) converts superoxide (O2•−) to hydrogen peroxide (H2O2), which is then further converted to water by catalase or glutathione peroxidase. SOD is an important antioxidant enzyme. Manganese is the cofactor for mitochondrial SOD (Mn-SOD), while copper and zinc are cofactors for cytosolic SOD (Cu/Zn-SOD). Manganese is also involved in the Krebs cycle via oxaloacetate. Manganese is excreted via bile and deficiency/toxicity are both rare.",
+    "tags": [
+      "manganese",
+      "SOD",
+      "superoxide-dismutase",
+      "copper",
+      "zinc",
+      "antioxidant",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-020",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "A patient taking warfarin (an anticoagulant) should be counseled about their intake of which nutrient, because it plays a key role in clotting factor synthesis?",
+    "options": [
+      "Vitamin E — high-dose supplements can enhance warfarin's anticoagulant effect",
+      "Vitamin K — it activates clotting factors and can antagonize warfarin",
+      "Vitamin D — it increases calcium levels affecting clot formation",
+      "Vitamin A — it is required for synthesis of clotting proteins in the liver"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vitamin K is essential for the activation of clotting factors II, VII, IX, and X (as well as proteins C and S). Warfarin works by antagonizing vitamin K's role in this process. Patients on warfarin must maintain CONSISTENT vitamin K intake — sudden increases in vitamin K (e.g., large servings of green leafy vegetables) can reduce warfarin's effectiveness, while decreases can increase bleeding risk. Vitamin E at high doses can also potentiate anticoagulation but is a secondary concern. The main counseling point is vitamin K consistency.",
+    "tags": [
+      "vitamin-K",
+      "warfarin",
+      "anticoagulation",
+      "clotting-factors",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-021",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "easy",
+    "text": "Vitamin A is stored primarily in which organ, and what is the storage form of vitamin A?",
+    "options": [
+      "Adipose tissue; retinal",
+      "Liver; retinyl esters",
+      "Skeletal muscle; retinoic acid",
+      "Bone marrow; beta-carotene"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vitamin A is stored predominantly in the LIVER (not adipose tissue, unlike vitamins D and E) as retinyl esters. Dietary retinyl esters are hydrolyzed to retinol in the intestinal lumen, repackaged into retinyl esters in enterocytes, incorporated into chylomicrons, and delivered to the liver. From the liver, retinol is bound to retinol-binding protein (RBP) and transported with transthyretin (TTR) to peripheral tissues. Because liver stores are maintained, blood biomarkers of vitamin A don't fall until stores are exhausted.",
+    "tags": [
+      "vitamin-A",
+      "retinyl-esters",
+      "liver",
+      "storage",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-022",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Excessive beta-carotene consumption causes carotenemia but NOT vitamin A toxicity. The best explanation is:",
+    "options": [
+      "Beta-carotene is water-soluble and rapidly excreted by the kidneys",
+      "The body converts only a small fraction of beta-carotene to active vitamin A, and excess is stored harmlessly in subcutaneous fat",
+      "Beta-carotene is absorbed by passive diffusion and cannot trigger active transport of retinol",
+      "Beta-carotene competes with retinol for the retinol-binding protein, reducing uptake"
+    ],
+    "correctIndex": 1,
+    "explanation": "The body converts beta-carotene to active vitamin A (retinol) inefficiently — only a small fraction is converted, and conversion decreases further when vitamin A stores are adequate. Excess unconverted beta-carotene accumulates in subcutaneous fat, giving the skin an orange color (carotenemia/carotenodermia) — a harmless and reversible condition. This is in contrast to excessive preformed vitamin A (retinol/retinyl esters from supplements or liver), which can accumulate to toxic levels causing teratogenicity, bone abnormalities, and liver damage.",
+    "tags": [
+      "beta-carotene",
+      "carotenemia",
+      "vitamin-A",
+      "toxicity",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-023",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "A patient asks which foods most increase their risk of kidney stones and high uric acid due to vitamin C excess. You counsel that high-dose vitamin C supplementation increases urinary excretion of:",
+    "options": [
+      "Calcium and phosphate, increasing hydroxyapatite crystal formation",
+      "Oxalic acid and uric acid, increasing the risk of calcium oxalate and urate stones",
+      "Iron and copper, reducing body stores of both minerals",
+      "Vitamin B6 and folate, causing secondary B-vitamin deficiencies"
+    ],
+    "correctIndex": 1,
+    "explanation": "High-dose vitamin C can cause diarrhea and GI cramping. More importantly, excessive vitamin C increases the urinary excretion of BOTH oxalic acid (a metabolite of ascorbate) and uric acid. Both increase kidney stone risk — oxalic acid contributes to calcium oxalate stones (the most common kidney stone type) and high uric acid contributes to urate stones. This is why the RDA for vitamin C is sufficient, and megadosing via supplements is not recommended without medical supervision.",
+    "tags": [
+      "vitamin-C",
+      "kidney-stones",
+      "oxalic-acid",
+      "uric-acid",
+      "toxicity",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-024",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Which mineral is transported in the blood primarily bound to ceruloplasmin and stored in the liver as metallothionein?",
+    "options": [
+      "Iron",
+      "Zinc",
+      "Selenium",
+      "Copper"
+    ],
+    "correctIndex": 3,
+    "explanation": "Copper is stored in the liver as metallothionein and transported to peripheral tissues via ceruloplasmin (a copper-containing plasma glycoprotein). Copper is absorbed in its reduced cuprous form (Cu+), transported across the basolateral membrane via ATP7A, and then re-oxidized to cupric (Cu2+) for albumin binding before ceruloplasmin transport. Zinc also forms metallothionein in the liver. Iron is transported by transferrin and stored as ferritin. Selenium homeostasis is maintained by urinary excretion.",
+    "tags": [
+      "copper",
+      "ceruloplasmin",
+      "metallothionein",
+      "transport",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-025",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "A patient's 3-day food recall reveals they regularly consume spinach and rhubarb with their calcium-fortified orange juice. As a dietitian, you are concerned because spinach and rhubarb are high in:",
+    "options": [
+      "Phytates, which bind calcium and prevent absorption",
+      "Tannins, which chelate calcium in the GI tract",
+      "Oxalates, which form insoluble calcium oxalate complexes reducing calcium absorption",
+      "Goitrogens, which interfere with calcium utilization in bone"
+    ],
+    "correctIndex": 2,
+    "explanation": "Spinach and rhubarb are among the foods HIGHEST in oxalates. Oxalic acid binds calcium in the GI tract to form insoluble calcium oxalate, reducing calcium bioavailability. This is why spinach, despite its calcium content, is a poor calcium source — most of its calcium is bound by oxalate. Other high-oxalate foods include dried beans and sweet potatoes. Phytates (from whole grains and legumes) also inhibit calcium absorption. The calcium in dairy is much better absorbed than from high-oxalate plant sources.",
+    "tags": [
+      "oxalates",
+      "calcium",
+      "spinach",
+      "absorption",
+      "bioavailability",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-026",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Zinc absorption is transported into enterocytes via ZIP4. Which compound inhibits zinc absorption?",
+    "options": [
+      "Vitamin C and citric acid",
+      "Phytates, oxalates, polyphenols, and non-heme iron",
+      "Calcium supplements taken without food",
+      "Intrinsic factor and vitamin B12"
+    ],
+    "correctIndex": 1,
+    "explanation": "Zinc absorption (via ZIP4 transporter) is inhibited by phytates, oxalates, polyphenols, and non-heme iron. High zinc intake upregulates thionein, shifting zinc toward storage (metallothionein) rather than circulation. Zinc stores are found in liver, bone, pancreas, and kidney. Zinc is excreted in feces via sloughed enterocytes. We absorb up to 40% of dietary zinc. Vitamin C enhances IRON absorption, not zinc. Intrinsic factor is relevant to B12 absorption only.",
+    "tags": [
+      "zinc",
+      "ZIP4",
+      "phytates",
+      "inhibitors",
+      "absorption",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-027",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Vitamin E is transported to tissues via which lipoprotein, and where is excess vitamin E stored?",
+    "options": [
+      "HDL; stored in the liver only",
+      "Chylomicrons → liver → VLDL; stored in liver, adipose tissue, and cellular membranes",
+      "LDL; stored primarily in bone marrow",
+      "Albumin; stored in skeletal muscle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vitamin E is a fat-soluble vitamin absorbed via micelles in the jejunum, transported to the liver via chylomicrons, and then distributed to peripheral tissues via VLDL. Excess vitamin E is stored in the liver, adipose tissue, and cellular membranes (it is a membrane antioxidant). Vitamin E can also be excreted in feces. Being fat-soluble, vitamins A, D, E, and K are all initially absorbed in micelles and transported via chylomicrons, though their subsequent transport and storage differ.",
+    "tags": [
+      "vitamin-E",
+      "VLDL",
+      "chylomicrons",
+      "fat-soluble",
+      "transport",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-028",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "hard",
+    "text": "The Dietary Supplement Health and Education Act (DSHEA) of 1994 defines dietary supplements as products that must be:",
+    "options": [
+      "FDA-approved before marketing and tested for efficacy",
+      "Labeled as dietary supplements, taken by mouth, and containing ≥1 dietary ingredient",
+      "Prescribed by a licensed healthcare provider and dispensed by a pharmacist",
+      "Free of all allergens and GRAS-certified by the FDA"
+    ],
+    "correctIndex": 1,
+    "explanation": "DSHEA 1994 defines dietary supplements as products that: (1) are intended to supplement the diet, (2) contain at least 1 dietary ingredient (vitamins, minerals, herbs, amino acids, etc.) or their constituents, (3) are intended to be taken by MOUTH only (pill, capsule, tablet, liquid — NOT topical), and (4) are labeled on the front panel as a dietary supplement. DSHEA notably does NOT require FDA pre-market approval for safety or efficacy — manufacturers are responsible for ensuring safety before marketing.",
+    "tags": [
+      "DSHEA",
+      "dietary-supplements",
+      "FDA",
+      "regulation",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-029",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "A vegetarian patient asks about protein complementation. Which combination is NOT an effective complementary protein pairing?",
+    "options": [
+      "Corn tortillas with black beans",
+      "Rice with lentils",
+      "Squash with kidney beans",
+      "Whole wheat bread with peanut butter"
+    ],
+    "correctIndex": 2,
+    "explanation": "Effective protein complementation pairs foods with different limiting amino acids: Grains (low in lysine) + legumes (low in methionine) = complete protein; Vegetables (low in methionine) + grains, nuts, or seeds = complete protein. Squash paired with beans is NOT effective because both are low in methionine — vegetables should be paired with grains/nuts/seeds, not legumes. Corn + beans, rice + lentils, and bread + peanut butter are all classic grain-legume pairings that complement each other's limiting amino acids.",
+    "tags": [
+      "protein-complementation",
+      "vegetarian",
+      "limiting-amino-acids",
+      "normal-nutrition"
+    ]
+  },
+  {
+    "id": "m1-nn2-030",
+    "domain": "Domain I",
+    "topic": "Normal Nutrition",
+    "difficulty": "medium",
+    "text": "Which of the following omega-3 fatty acids and their PRIMARY dietary sources are correctly matched?",
+    "options": [
+      "ALA → fish oil and shellfish; EPA → flaxseed and walnuts; DHA → animal fat",
+      "ALA → flaxseed, canola oil, walnuts; EPA → marine algae and fish oil; DHA → animal fat and fish oil",
+      "ALA → corn oil and safflower oil; EPA → soybean oil; DHA → egg yolk",
+      "ALA → marine algae; EPA → linseed oil; DHA → coconut oil"
+    ],
+    "correctIndex": 1,
+    "explanation": "The three key omega-3 fatty acids: ALA (alpha-linolenic acid, C18:3 n-3) is found in plant sources — flaxseed, flaxseed oil, canola oil, soybean oil, walnuts. EPA (eicosapentaenoic acid) is found in marine algae (primary synthesizer), fish oil, and shellfish. DHA (docosahexaenoic acid) is found in animal fat, fish oil, and shellfish. ALA is the only essential omega-3 (cannot be synthesized); EPA and DHA can be synthesized from ALA, though conversion is limited. Omega-6 fatty acids (linoleic acid) are found in corn, safflower, and sunflower oils.",
+    "tags": [
+      "omega-3",
+      "ALA",
+      "EPA",
+      "DHA",
+      "fatty-acids",
+      "normal-nutrition"
+    ]
+  }
+]

@@ -1,0 +1,626 @@
+[
+  {
+    "id": "m2-mnt-151",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "A patient with hyperlipidemia is prescribed a cardioprotective dietary pattern. Which of the following correctly describes the saturated and trans fat recommendation?",
+    "options": [
+      "Less than 10% of total energy intake",
+      "Less than 7% of total energy intake",
+      "Less than 5% of total energy intake",
+      "Less than 15% of total energy intake"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cardioprotective dietary pattern limits saturated and trans fats to <7% of total energy intake. Other key features: total fat 25-35%, cholesterol <200 mg/day, plant stanols and sterols 2-3 g/day, fiber 25-38 g/day (≥50% soluble), omega-3 fatty acids, and limited refined carbohydrates and added sugars.",
+    "tags": [
+      "cardiovascular",
+      "hyperlipidemia",
+      "cardioprotective-diet"
+    ]
+  },
+  {
+    "id": "m2-mnt-152",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "According to the 2017 ACC/AHA Hypertension Guidelines, a patient with a blood pressure of 132/85 mmHg would be classified as:",
+    "options": [
+      "Normal blood pressure",
+      "Elevated blood pressure",
+      "Stage 1 hypertension",
+      "Stage 2 hypertension"
+    ],
+    "correctIndex": 2,
+    "explanation": "2017 ACC/AHA classification: Normal = <120/<80; Elevated = 120-129/<80; Stage 1 = 130-139 OR 80-89; Stage 2 = ≥140 OR ≥90. At 132/85, this patient meets Stage 1 criteria (SBP 130-139 AND/OR DBP 80-89). Under the older 2003 JNC7 guidelines, this would have been 'prehypertension.'",
+    "tags": [
+      "hypertension",
+      "blood-pressure",
+      "ACC-AHA"
+    ]
+  },
+  {
+    "id": "m2-mnt-153",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "The DASH Eating Plan is recommended for a patient with hypertension. Which statement BEST describes the sodium recommendation in the DASH plan?",
+    "options": [
+      "Limit sodium to 500-1,000 mg/day",
+      "Limit sodium to 1,500-2,300 mg/day with emphasis on potassium, calcium, magnesium, and fiber",
+      "No specific sodium restriction; focus on fruits and vegetables only",
+      "Limit sodium to 3,000-4,000 mg/day for mild hypertension"
+    ],
+    "correctIndex": 1,
+    "explanation": "The DASH (Dietary Approaches to Stop Hypertension) Eating Plan limits sodium to 1,500–2,300 mg/day, with emphasis on foods high in potassium, calcium, magnesium, and fiber. It emphasizes fruits, vegetables, whole grains, and low-fat dairy while limiting fats and replacing saturated fats with unsaturated fats.",
+    "tags": [
+      "hypertension",
+      "DASH",
+      "sodium"
+    ]
+  },
+  {
+    "id": "m2-mnt-154",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "A 67-year-old patient with heart failure is assessed for energy and protein needs. Which protein target is appropriate for a normally nourished patient with heart failure?",
+    "options": [
+      "0.8 g/kg/day",
+      "1.12 g/kg/day",
+      "1.5–2.0 g/kg/day",
+      "2.0–2.5 g/kg/day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Heart failure protein recommendations: 1.12 g/kg for normally nourished patients, 1.37 g/kg for stable depleted patients. Fluid is restricted to <2 L/day depending on symptoms. Energy needs should ideally be assessed via indirect calorimetry. Patients are also at risk of cardiac cachexia. Dry weight should be used for calculations due to potential fluid overload.",
+    "tags": [
+      "heart-failure",
+      "protein",
+      "MNT"
+    ]
+  },
+  {
+    "id": "m2-mnt-155",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "A patient experiencing symptoms only at rest is classified in the New York Heart Association (NYHA) classification as:",
+    "options": [
+      "Class I — no limitation of physical activity",
+      "Class II — slight limitation of physical activity",
+      "Class III — marked limitation of physical activity",
+      "Class IV — symptoms at rest"
+    ],
+    "correctIndex": 3,
+    "explanation": "NYHA Heart Failure Classification: Class I = ordinary activity causes no symptoms; Class II = ordinary activity causes slight symptoms; Class III = less than ordinary activity causes symptoms; Class IV = symptoms at rest, unable to carry on any physical activity without discomfort. Class IV represents the most severe heart failure.",
+    "tags": [
+      "heart-failure",
+      "NYHA",
+      "classification"
+    ]
+  },
+  {
+    "id": "m2-mnt-156",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "hard",
+    "text": "Using the Mifflin-St. Jeor equation, what is the estimated RMR for a 55-year-old man who weighs 80 kg and is 175 cm tall?",
+    "options": [
+      "1,605 kcal/day",
+      "1,655 kcal/day",
+      "1,730 kcal/day",
+      "1,800 kcal/day"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mifflin-St. Jeor for men: (10 × Weight kg) + (6.25 × Height cm) − (5 × Age) + 5 = (10 × 80) + (6.25 × 175) − (5 × 55) + 5 = 800 + 1093.75 − 275 + 5 = 1,623.75 kcal. The closest answer is 1,605. For coronary heart disease, RMR × 1.3 is used as the total energy estimate (activity factor for sedentary).",
+    "tags": [
+      "Mifflin-St-Jeor",
+      "RMR",
+      "calculations",
+      "cardiovascular"
+    ]
+  },
+  {
+    "id": "m2-mnt-157",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "Which serum LDL-cholesterol level is considered 'desirable' according to standard lipid guidelines?",
+    "options": [
+      "Less than 70 mg/dL",
+      "Less than 100 mg/dL",
+      "Less than 130 mg/dL",
+      "Less than 160 mg/dL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Desirable LDL-C is <100 mg/dL. Borderline high = 130-159 mg/dL; High = 160-189 mg/dL; Very high = ≥190 mg/dL. For patients with diabetes AND diagnosed cardiovascular disease, the LDL-C target is <70 mg/dL. HDL-C desirable values are ≥40 mg/dL (men) and ≥50 mg/dL (women). Normal triglycerides = <150 mg/dL.",
+    "tags": [
+      "cardiovascular",
+      "lipids",
+      "LDL",
+      "lab-values"
+    ]
+  },
+  {
+    "id": "m2-mnt-158",
+    "domain": "Domain II",
+    "topic": "Diabetes Mellitus",
+    "difficulty": "medium",
+    "text": "According to diagnostic criteria, which combination of test results confirms a diagnosis of diabetes mellitus?",
+    "options": [
+      "Fasting plasma glucose of 118 mg/dL AND A1c of 6.3%",
+      "Fasting plasma glucose of 130 mg/dL AND A1c of 6.0%",
+      "Fasting plasma glucose of 128 mg/dL AND A1c of 6.6%",
+      "2-hour OGTT of 195 mg/dL AND A1c of 6.2%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Diabetes diagnosis requires two abnormal results. Criteria: Fasting plasma glucose ≥126 mg/dL OR 2-hr OGTT ≥200 mg/dL OR A1c ≥6.5%. Option C has both: FPG 128 mg/dL (≥126) AND A1c 6.6% (≥6.5%). Prediabetes: FPG 100-125 mg/dL, 2-hr OGTT 140-199 mg/dL, A1c 5.7-6.4%. Option A (FPG 118, A1c 6.3%) = prediabetes.",
+    "tags": [
+      "diabetes",
+      "diagnosis",
+      "A1c",
+      "fasting-glucose"
+    ]
+  },
+  {
+    "id": "m2-mnt-159",
+    "domain": "Domain II",
+    "topic": "Diabetes Mellitus",
+    "difficulty": "medium",
+    "text": "A patient with type 1 diabetes uses rapid-acting insulin. Which onset time is correct for rapid-acting (prandial) insulin?",
+    "options": [
+      "Onset 30 min–1 hr, peak 2–4 hr, duration 6–8 hr",
+      "Onset 5–15 min, peak 1–3 hr, duration 3–5 hr",
+      "Onset 1–2 hr, peak 4–12 hr, duration 14–24 hr",
+      "Onset 1–4 hr, no significant peak, duration 20–24 hr"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rapid-acting (prandial) insulin (aspart, lispro, glulisine): onset 5-15 min, peak 1-3 hr, duration ~3-5 hr. Short-acting (regular) insulin: onset 30 min–1 hr, peak 2-4 hr, duration 6-8 hr (higher hypoglycemia risk than rapid-acting). NPH (intermediate): onset 1-2 hr, peak 4-12 hr, duration 14-24 hr. Glargine/long-acting: onset 3-4 hr, relatively flat peak, duration 20-24 hr.",
+    "tags": [
+      "diabetes",
+      "insulin",
+      "type-1",
+      "pharmacology"
+    ]
+  },
+  {
+    "id": "m2-mnt-160",
+    "domain": "Domain II",
+    "topic": "Diabetes Mellitus",
+    "difficulty": "easy",
+    "text": "Type 1 diabetes is caused by:",
+    "options": [
+      "Peripheral insulin resistance in muscle and fat tissues",
+      "Autoimmune destruction of pancreatic islet beta cells",
+      "Insulin resistance due to obesity and metabolic syndrome",
+      "Relative insulin deficiency due to insufficient insulin secretion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Type 1 diabetes (immune-mediated) is caused by autoimmune destruction of pancreatic islet beta cells, leading to absolute insulin deficiency. Without insulin, patients develop diabetic ketoacidosis (DKA). Type 2 diabetes involves peripheral insulin resistance AND relative insulin deficiency (insufficient compensatory insulin secretion). Latent autoimmune diabetes of adults (LADA) is adult-onset type 1 with positive autoantibodies.",
+    "tags": [
+      "diabetes",
+      "type-1",
+      "pathophysiology",
+      "autoimmune"
+    ]
+  },
+  {
+    "id": "m2-mnt-161",
+    "domain": "Domain II",
+    "topic": "Diabetes Mellitus",
+    "difficulty": "medium",
+    "text": "For a patient with type 1 diabetes, the recommended hemoglobin A1c target for adults aged 18–65 years is:",
+    "options": [
+      "Less than 6.0%",
+      "Less than 7.0%",
+      "Less than 7.5%",
+      "Less than 8.0%"
+    ],
+    "correctIndex": 1,
+    "explanation": "A1c targets: Adults 18-65 = <7.0%; Youth under 18 = <7.5% (higher due to hypoglycemia risk during growth); Healthy older adults >65 = <7.5%; Complex older adults = <8.0%; Poor health = <8.5%. Research shows A1c <7% reduces risk of macrovascular (CVD, stroke) and microvascular (nephropathy, retinopathy, neuropathy) complications in type 1 diabetes.",
+    "tags": [
+      "diabetes",
+      "A1c",
+      "glycemic-targets"
+    ]
+  },
+  {
+    "id": "m2-mnt-162",
+    "domain": "Domain II",
+    "topic": "Diabetes Mellitus",
+    "difficulty": "medium",
+    "text": "A physician recommends metformin as first-line therapy for a newly diagnosed patient with type 2 diabetes. What is the primary mechanism of action of metformin (biguanide)?",
+    "options": [
+      "Stimulates insulin secretion from the pancreas",
+      "Delays carbohydrate absorption in the intestine",
+      "Reduces hepatic glucose production and may reduce insulin resistance",
+      "Increases glucose excretion in the urine"
+    ],
+    "correctIndex": 2,
+    "explanation": "Metformin (biguanide) reduces hepatic glucose production, decreases intestinal glucose absorption, and may reduce insulin resistance — it is a euglycemic agent that normalizes blood glucose without causing hypoglycemia on its own. Sulfonylureas/meglitinides stimulate insulin secretion. Alpha-glucosidase inhibitors delay CHO absorption. SGLT2 inhibitors increase urinary glucose excretion.",
+    "tags": [
+      "diabetes",
+      "type-2",
+      "metformin",
+      "medications"
+    ]
+  },
+  {
+    "id": "m2-mnt-163",
+    "domain": "Domain II",
+    "topic": "Diabetes Mellitus",
+    "difficulty": "medium",
+    "text": "A patient with type 2 diabetes develops darkened, thickened skin in skin folds (axilla and neck). This finding is most consistent with:",
+    "options": [
+      "Diabetic nephropathy",
+      "Acanthosis nigricans — a sign of insulin resistance",
+      "Diabetic neuropathy causing skin changes",
+      "Allergic reaction to insulin therapy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Acanthosis nigricans (darkened, thickened, velvety skin in skin folds) is a clinical sign of insulin resistance and is associated with type 2 diabetes risk, obesity, PCOS, and metabolic syndrome. It is listed as one of the clinical conditions associated with insulin resistance that should prompt screening for type 2 diabetes, along with PCOS and severe obesity.",
+    "tags": [
+      "diabetes",
+      "type-2",
+      "acanthosis-nigricans",
+      "insulin-resistance"
+    ]
+  },
+  {
+    "id": "m2-mnt-164",
+    "domain": "Domain II",
+    "topic": "Diabetes Mellitus",
+    "difficulty": "medium",
+    "text": "A pregnant patient screens negative for type 2 diabetes at her first prenatal visit. When should she be screened for gestational diabetes mellitus (GDM)?",
+    "options": [
+      "At 8–12 weeks gestation",
+      "At 16–20 weeks gestation",
+      "At 24–28 weeks gestation",
+      "At 32–36 weeks gestation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Screening for gestational diabetes occurs between 24 and 28 weeks of gestation using either a one-step (75g 2-hour OGTT) or two-step method (50g nonfasting challenge, then 100g 3-hour OGTT if positive). GDM is diabetes diagnosed in the 2nd or 3rd trimester due to increasing insulin-antagonistic hormones causing insulin resistance.",
+    "tags": [
+      "gestational-diabetes",
+      "GDM",
+      "screening",
+      "pregnancy"
+    ]
+  },
+  {
+    "id": "m2-mnt-165",
+    "domain": "Domain II",
+    "topic": "Diabetes Mellitus",
+    "difficulty": "medium",
+    "text": "Untreated gestational diabetes is associated with which neonatal complication due to in utero hyperglycemia causing fetal hyperinsulinism?",
+    "options": [
+      "Neonatal hyperglycemia and type 1 diabetes",
+      "Neonatal macrosomia and neonatal hypoglycemia",
+      "Intrauterine growth restriction",
+      "Neonatal respiratory distress syndrome only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Untreated maternal hyperglycemia in GDM → excess glucose crosses the placenta → fetal pancreas secretes excess insulin → neonatal macrosomia (large for gestational age). After birth, maternal glucose transfer stops but fetal pancreas continues excess insulin secretion → neonatal hypoglycemia. GDM also increases risk of maternal hypertension, preeclampsia, and polyhydramnios.",
+    "tags": [
+      "gestational-diabetes",
+      "macrosomia",
+      "neonatal-hypoglycemia"
+    ]
+  },
+  {
+    "id": "m2-mnt-166",
+    "domain": "Domain II",
+    "topic": "Anemias",
+    "difficulty": "medium",
+    "text": "Iron deficiency anemia is classified as which type of anemia based on red blood cell morphology?",
+    "options": [
+      "Macrocytic, normochromic",
+      "Normocytic, normochromic",
+      "Microcytic, hypochromic",
+      "Macrocytic, hypochromic"
+    ],
+    "correctIndex": 2,
+    "explanation": "Iron deficiency anemia = microcytic (small RBCs) + hypochromic (low hemoglobin content/pale RBCs). Megaloblastic anemia (B12/folate deficiency) = macrocytic + normochromic or hypochromic. Anemia of chronic disease = typically normocytic, normochromic. Microcytic hypochromic anemia is the last and most severe stage of iron deficiency, manifesting after prolonged depletion.",
+    "tags": [
+      "anemia",
+      "iron-deficiency",
+      "microcytic",
+      "hypochromic"
+    ]
+  },
+  {
+    "id": "m2-mnt-167",
+    "domain": "Domain II",
+    "topic": "Anemias",
+    "difficulty": "medium",
+    "text": "Which biochemical marker is considered the MOST SENSITIVE early indicator of iron deficiency?",
+    "options": [
+      "Hemoglobin",
+      "Serum iron",
+      "Ferritin and transferrin saturation (TIBC)",
+      "Mean corpuscular volume (MCV)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ferritin and transferrin saturation (TIBC) are the most sensitive early markers of iron deficiency — they change early in depletion and specifically reflect iron status. Hemoglobin is NOT used to diagnose iron deficiency anemia because it only decreases late in the disease and does not distinguish between types. MCV also changes late. TIBC is a reverse acute-phase reactant (decreases with inflammation).",
+    "tags": [
+      "anemia",
+      "iron-deficiency",
+      "ferritin",
+      "TIBC",
+      "lab-values"
+    ]
+  },
+  {
+    "id": "m2-mnt-168",
+    "domain": "Domain II",
+    "topic": "Anemias",
+    "difficulty": "medium",
+    "text": "A patient with iron deficiency anemia wants to maximize iron absorption. Which dietary recommendation is most appropriate?",
+    "options": [
+      "Consume iron supplements with coffee or tea",
+      "Pair nonheme iron foods with vitamin C-rich foods",
+      "Avoid heme iron sources and focus on plant-based iron",
+      "Consume iron with high-fiber foods to slow absorption"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vitamin C (ascorbic acid) binds nonheme iron and forms an easily absorbed complex, significantly improving nonheme iron absorption. Heme iron (meat, fish, poultry) is ~15% absorbable; nonheme iron is 3-8% absorbable. Inhibitors include tannins (tea, coffee), fiber, phytates (legumes, whole grains), and oxalates. Consuming heme iron with nonheme iron also improves total iron absorption.",
+    "tags": [
+      "anemia",
+      "iron-absorption",
+      "vitamin-C",
+      "dietary-counseling"
+    ]
+  },
+  {
+    "id": "m2-mnt-169",
+    "domain": "Domain II",
+    "topic": "Anemias",
+    "difficulty": "medium",
+    "text": "A patient with a history of gastric surgery presents with macrocytic anemia, fatigue, and paresthesia (tingling in the hands and feet). The most likely cause is:",
+    "options": [
+      "Iron deficiency anemia",
+      "Folate deficiency anemia",
+      "Vitamin B12 deficiency (pernicious anemia)",
+      "Anemia of chronic disease"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vitamin B12 deficiency causes macrocytic (megaloblastic) anemia AND neurologic symptoms (paresthesia, poor coordination, disturbed vision) due to inadequate nerve myelination — neurologic symptoms are unique to B12 deficiency. Gastric surgery reduces intrinsic factor (IF) production, which is required for B12 absorption in the ileum. Folate deficiency causes macrocytic anemia but NOT neurological symptoms (ageusia and diarrhea instead).",
+    "tags": [
+      "anemia",
+      "vitamin-B12",
+      "pernicious-anemia",
+      "paresthesia"
+    ]
+  },
+  {
+    "id": "m2-mnt-170",
+    "domain": "Domain II",
+    "topic": "Anemias",
+    "difficulty": "hard",
+    "text": "To differentiate between vitamin B12 deficiency and folate deficiency as the cause of megaloblastic anemia, which laboratory test is MOST specific?",
+    "options": [
+      "Serum homocysteine",
+      "Mean corpuscular volume (MCV)",
+      "Serum methylmalonic acid (MMA)",
+      "RBC folate concentration"
+    ],
+    "correctIndex": 2,
+    "explanation": "Elevated methylmalonic acid (MMA) is specific to vitamin B12 deficiency. MMA accumulates when B12 deficiency prevents methylmalonyl CoA from converting to succinyl CoA. Homocysteine is elevated in BOTH B12 AND folate (AND B6) deficiency — not specific. MCV is elevated in both megaloblastic anemias. Note: treating folate deficiency with folate reverses hematopoietic but NOT neurologic effects of B12 deficiency — so distinguishing is clinically important.",
+    "tags": [
+      "anemia",
+      "B12",
+      "folate",
+      "MMA",
+      "differential-diagnosis"
+    ]
+  },
+  {
+    "id": "m2-mnt-171",
+    "domain": "Domain II",
+    "topic": "Anemias",
+    "difficulty": "medium",
+    "text": "Ferritin is an acute-phase reactant. In a patient with active rheumatoid arthritis and suspected iron deficiency anemia, what effect does inflammation have on ferritin levels?",
+    "options": [
+      "Ferritin decreases, making it an unreliable marker of iron stores",
+      "Ferritin increases, making it falsely appear that iron stores are adequate",
+      "Ferritin is unaffected by inflammation in autoimmune conditions",
+      "Ferritin decreases only with infectious causes of inflammation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ferritin is an acute-phase reactant that INCREASES with inflammation, masking true iron depletion — stores may appear adequate when they are actually low. This makes distinguishing true iron deficiency from anemia of chronic/inflammatory disease (ACD) challenging. In ACD, ferritin may be normal or elevated, serum iron is low, and TIBC is low (unlike iron deficiency anemia where TIBC is elevated).",
+    "tags": [
+      "anemia",
+      "ferritin",
+      "acute-phase-reactant",
+      "inflammation"
+    ]
+  },
+  {
+    "id": "m2-mnt-172",
+    "domain": "Domain II",
+    "topic": "Anemias",
+    "difficulty": "medium",
+    "text": "Anemia of chronic and inflammatory disease (ACD) is the second most common type of anemia. What is the appropriate medical treatment for ACD?",
+    "options": [
+      "Oral ferrous sulfate supplementation",
+      "Intramuscular vitamin B12 injections",
+      "Recombinant erythropoietin (EPO) therapy",
+      "High-dose oral folate supplementation"
+    ],
+    "correctIndex": 2,
+    "explanation": "ACD (associated with chronic infection, cancer, CKD, heart failure, autoimmune diseases like RA/IBD) results from decreased erythropoiesis and dysfunctional iron metabolism due to inflammation. Treatment is recombinant erythropoietin (EPO), NOT iron supplementation (since ferritin levels are falsely elevated and additional iron can be harmful). ACD is typically mild and normocytic-normochromic.",
+    "tags": [
+      "anemia",
+      "ACD",
+      "erythropoietin",
+      "chronic-disease"
+    ]
+  },
+  {
+    "id": "m2-mnt-173",
+    "domain": "Domain II",
+    "topic": "Gastrointestinal Disorders",
+    "difficulty": "easy",
+    "text": "A patient with GERD asks which foods should be avoided. Which of the following is most likely to worsen GERD by relaxing the lower esophageal sphincter?",
+    "options": [
+      "Brown rice and whole grain bread",
+      "Lean chicken breast and steamed vegetables",
+      "Chocolate, high-fat foods, and peppermint",
+      "Low-fat yogurt and non-citrus fruits"
+    ],
+    "correctIndex": 2,
+    "explanation": "Foods that relax the lower esophageal sphincter (LES) and worsen GERD include: chocolate, high-fat foods, peppermint, spearmint, caffeine, and alcohol. Foods that increase gastric acidity (pepper, caffeine, alcohol, citrus) also exacerbate symptoms. Nutrition therapy also includes small frequent meals, weight loss if obese, not lying down 3 hours after eating, and elevating the head 6-9 inches during sleep.",
+    "tags": [
+      "GERD",
+      "lower-esophageal-sphincter",
+      "dietary-modifications"
+    ]
+  },
+  {
+    "id": "m2-mnt-174",
+    "domain": "Domain II",
+    "topic": "Gastrointestinal Disorders",
+    "difficulty": "medium",
+    "text": "A patient is diagnosed with Crohn's disease. Which statement correctly distinguishes Crohn's disease from ulcerative colitis (UC)?",
+    "options": [
+      "Crohn's disease affects only the colon and rectum; UC can affect any portion of the GI tract",
+      "Crohn's disease has continuous mucosal damage; UC has skip lesions",
+      "Crohn's disease is transmural and can affect any portion of the GI tract with skip areas; UC affects only the mucosa continuously from the rectum",
+      "Crohn's disease causes bloody diarrhea; UC causes steatorrhea"
+    ],
+    "correctIndex": 2,
+    "explanation": "Key distinctions: Crohn's = any portion of GI tract (mouth to anus), transmural (all layers), skip lesions, complications include fistulas, strictures, oxalate kidney stones, short bowel syndrome. UC = lower bowel only (colon and rectum always affected), mucosa only, continuous damage, bloody diarrhea is a hallmark. Both are inflammatory bowel diseases with autoimmune etiology.",
+    "tags": [
+      "IBD",
+      "Crohn's",
+      "ulcerative-colitis",
+      "differential-diagnosis"
+    ]
+  },
+  {
+    "id": "m2-mnt-175",
+    "domain": "Domain II",
+    "topic": "Gastrointestinal Disorders",
+    "difficulty": "medium",
+    "text": "During an exacerbation of Crohn's disease, which dietary modification is most appropriate?",
+    "options": [
+      "High-fiber, high-fat diet to increase caloric intake",
+      "Low-residue (low-fiber), low-fat, high-protein, high-calorie diet with small frequent meals",
+      "Clear liquid diet only for the duration of the exacerbation",
+      "Normal diet with probiotic supplementation only"
+    ],
+    "correctIndex": 1,
+    "explanation": "During IBD exacerbation: low-fat, low-residue (low-fiber), high-protein, high-calorie diet with small frequent meals. Fiber is only restricted during exacerbations or bowel strictures. Protein needs are 1-1.5 g/kg/day. Micronutrient replenishment includes vitamin D, zinc, calcium, magnesium, folate, B12, and iron. The goal is to reduce mucosal stimulation while meeting increased metabolic needs.",
+    "tags": [
+      "IBD",
+      "Crohn's",
+      "exacerbation",
+      "low-residue"
+    ]
+  },
+  {
+    "id": "m2-mnt-176",
+    "domain": "Domain II",
+    "topic": "Gastrointestinal Disorders",
+    "difficulty": "medium",
+    "text": "A patient with Crohn's disease is at increased risk of which type of kidney stone?",
+    "options": [
+      "Uric acid stones",
+      "Struvite (magnesium ammonium phosphate) stones",
+      "Calcium oxalate stones due to enteric hyperoxaluria",
+      "Calcium phosphate stones from hypercalciuria"
+    ],
+    "correctIndex": 2,
+    "explanation": "Crohn's disease is associated with calcium oxalate kidney stones via enteric hyperoxaluria. Fat malabsorption (from disease or bowel resection) causes dietary calcium to bind fat in the gut instead of binding oxalate → free oxalate is absorbed and excreted in urine → oxalate crystallizes with urinary calcium. Dietary oxalate restriction is recommended. Paradoxically, adequate dietary calcium (not low calcium) is protective because it binds oxalate in the GI tract.",
+    "tags": [
+      "Crohn's",
+      "kidney-stones",
+      "oxalate",
+      "enteric-hyperoxaluria"
+    ]
+  },
+  {
+    "id": "m2-mnt-177",
+    "domain": "Domain II",
+    "topic": "Gastrointestinal Disorders",
+    "difficulty": "medium",
+    "text": "A patient with irritable bowel syndrome (IBS) is counseled on the low FODMAP diet. What does FODMAP stand for and what is the purpose of the diet?",
+    "options": [
+      "Fat, Oils, Dairy, Meat, Alcohol, Proteins — eliminates high-fat foods to reduce motility",
+      "Fermentable Oligosaccharides, Disaccharides, Monosaccharides, and Polyols — reduces fermentable carbohydrates that cause GI symptoms",
+      "Fiber, Osmotic agents, Dairy, Medications, Antacids, Probiotics — a multicomponent treatment",
+      "Food Oxidants, Dietary Modulators, Allergens, Proteins — eliminates food allergens"
+    ],
+    "correctIndex": 1,
+    "explanation": "FODMAP = Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyols — short-chain fermentable carbohydrates poorly absorbed in the small intestine that cause osmotic effects and fermentation, leading to IBS symptoms (bloating, gas, diarrhea, abdominal pain). The low FODMAP diet reduces these carbohydrates. IBS diagnosis requires ruling out other conditions (celiac disease, IBD) and is based on Rome IV criteria.",
+    "tags": [
+      "IBS",
+      "FODMAP",
+      "dietary-intervention"
+    ]
+  },
+  {
+    "id": "m2-mnt-178",
+    "domain": "Domain II",
+    "topic": "Gastrointestinal Disorders",
+    "difficulty": "hard",
+    "text": "A patient with celiac disease is found to have low iron levels. The RDN suspects this is related to malabsorption. Which section of the intestine is the primary site for both iron and B12 absorption?",
+    "options": [
+      "Iron is absorbed in the stomach; B12 in the colon",
+      "Both iron and B12 are absorbed primarily in the duodenum/jejunum",
+      "Iron is absorbed in the duodenum/proximal jejunum; B12 is absorbed in the ileum",
+      "Both are absorbed throughout the small intestine equally"
+    ],
+    "correctIndex": 2,
+    "explanation": "Iron is absorbed primarily in the duodenum and proximal jejunum (the most common site of celiac disease damage). Vitamin B12 is absorbed specifically in the ileum, requiring intrinsic factor (IF) from gastric parietal cells and calcium. Celiac disease damages the duodenal and jejunal villi, impairing iron, folate, calcium, and fat-soluble vitamin absorption. B12 malabsorption occurs with ileal disease (e.g., Crohn's ileitis) or IF deficiency.",
+    "tags": [
+      "celiac-disease",
+      "malabsorption",
+      "iron",
+      "B12",
+      "absorption-sites"
+    ]
+  },
+  {
+    "id": "m2-mnt-179",
+    "domain": "Domain II",
+    "topic": "Gastrointestinal Disorders",
+    "difficulty": "medium",
+    "text": "A patient with type 2 diabetes on metformin therapy develops macrocytic anemia. Metformin can contribute to this by interfering with the absorption of:",
+    "options": [
+      "Folate",
+      "Iron",
+      "Vitamin B12",
+      "Vitamin B6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Metformin interferes with vitamin B12 absorption (a drug-nutrient interaction). It competes with calcium-dependent B12-IF receptors in the ileum. Increasing calcium intake can help reverse the metformin-related B12 malabsorption. Other medications that affect B12 include paraaminosalicylic acid, colchicine, neomycin, and antiretrovirals. Metformin is also listed in drugs that affect folate, but B12 deficiency is the most clinically significant association.",
+    "tags": [
+      "metformin",
+      "vitamin-B12",
+      "drug-nutrient-interaction",
+      "anemia"
+    ]
+  },
+  {
+    "id": "m2-mnt-180",
+    "domain": "Domain II",
+    "topic": "Diabetes Mellitus",
+    "difficulty": "medium",
+    "text": "A patient with type 2 diabetes is prescribed an SGLT2 inhibitor. Which nutrition-related side effect should the RDN monitor for?",
+    "options": [
+      "Hypoglycemia and weight gain",
+      "Increased urinary frequency, urinary/genital infections, and risk of dehydration",
+      "Nausea, vomiting, and pancreatitis",
+      "Bone loss, fluid retention, and anemia"
+    ],
+    "correctIndex": 1,
+    "explanation": "SGLT2 inhibitors (canagliflozin/Invokana, dapagliflozin/Farxiga, empagliflozin/Jardiance) lower blood glucose by blocking renal glucose reabsorption, causing increased urinary glucose excretion. Side effects include: increased urinary frequency, urinary and genitourinary infections, potential dehydration, and increased blood potassium. They are contraindicated with kidney problems. Weight loss (not gain) is typical with SGLT2 inhibitors.",
+    "tags": [
+      "diabetes",
+      "SGLT2-inhibitors",
+      "medications",
+      "side-effects"
+    ]
+  }
+]

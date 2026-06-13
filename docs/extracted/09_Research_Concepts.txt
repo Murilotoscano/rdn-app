@@ -1,0 +1,2357 @@
+RESEARCH CONCEPTS
+
+FOR THE REGISTERED DIETITIAN NUTRITIONIST EXAMINATION
+
+a VERITENSE™ product
+
+WRITTEN BY
+Bailey DeBarmore, PhD MHS RDN LDN
+Creator of the Study Smarter Method by Veritense™
+
+Version: June 1, 2022
+
+© 2022 Veritense™
+
+Table of Contents
+
+TOIrMS Of USC 0.0... eeeceeccceceeeeeeeenneeeeeeeeeeeeeeeeeuaaeeeeeeeeeseeeeseaaeaeeeeeeeeeeeseneceaaeeeeeeeeeseeeeeeeneeees 3
+Study DeSIQNS .............cccccccee eee eeeeeeeeeeeneeeeeeeeeeeeeeeeeeaaeeeeeeeeeeeeeeeaaaaeeeeeseeeeeeneceaeaeeeeseeeeeeneeea 4
+1O7e)| (=To) (ale Ne [= C- ee eer ree 4
+Observational Studies.............cccccccceceecceeteeseeeeeeeeeeeeaseeeeeaaeaaaeaseeaeaaaesaaeeaeeaseaeeeaaseesaaanaaea 4
+Experimental Studies ..............:ccccccccccesssseeeeeeeeeeeseeeeeaeeeeeeeeeeeeeeeeeaaeeeeeeeseeeeeeesseeeeeeeeeess 6
+Study Guide QueSTIONS ......... eee eee e cece cece eee eeeeeeeeeeseaaaeaeeeeeeeeeeeeeenceaaaaeeeeeeeeseeeeeeneeees 9
+Study Guide Questions (ANSWETS)............:::cccceceeeeeeeseeeeseeeeeeeeeeesseeeeeeneeeeeeeeeeseeseeeeeenes 10
+Other Study De@SIQNS................ccccccceeeeeeeeeeeeeeeaeeeeeeeeeeeeeeneeaaaaeeeeeeeeeeeeeeeaaeeeeeeeeeeeeeeeeaaes 11
+Recruitment Strategies .......... cece cececeeeeeeeeneeeeeeeseeeeeeeeenaaeeeeeeeaeeeseeseeaeeeeeeeeeeeeeeeeeaas 14
+Food Science De@SIQNS..............ccceceeeeceeesnee cece eeeeseeeeeeaaeeeeeeeeeeeeseeeanaeeeeeeeeeeeeeeeeeneaeeeeees 15
+Quality Of EViId@NCe 00.0.2... ccc cece ceeeeeeeenaeeeeeneeeeeeaeeeeeeeeeeeaaeeeeaeeeseaaeessenaeeeseeaeesseeeeesas 16
+Quantitative verSUS Qualitative ......... cece cece ee ceeeecenneeeeeeeeeseeeeeeeaaaeeeeeeeeeeeeeeeeeaaaeeeees 20
+QUANTITATIVE oe ccc cc cccteeeeeeseeeeeeeseeaeeeeesecaeeeeceesaueeeecceeeuaeeeseeaueeeseeeceeseeseeseeeaeeeees 20
+QUaAIItATIVE 2... eee cece ee eeeeeceeeeeeeeeaeeeeeeeeeueeeeeeseaeeeeseeeaaeeeesseaeeeseeeeeeaeeeeeeeeeeeeeees 23
+Epidemiology Methods and Biostatistics «2.0.0.2... ccc cece eeeeeeeeeeeeeeeeeeeeeeeeeeaeeeeeeeeeeee 25
+VaAliGity o.oo... e cece cece ccc ceceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeseeueeeeceasaeeeeeseaaeeeecauseeesaasaaueaasaaaaaaeeaaaaaeas 25
+Reliability ......0......cccccecccsssecceecessseeeeeeeseeeeeeeeeeueeeeeeseeeeesceeeaaeeseceeueeeseeseaeeeeecesseaeeeeeeeses 25
+Bias ANd ErrOr...........eececcceeeseceeeeeeeeeeeenenneaeeeeeeeeeeeeeeeesaaaeeeeeeeeeeeseeeaeeeeeeeeeeeeseeeseneeaaeeeees 26
+ACCUracy ANC PFeCiSiON ..............ccceeeeeeeeeeeeeeeeeeeeneeeeeeeeeeeeeeeeeeaeeaeeeeeseeeeeeseenaaeeeeeeeeeeey 29
+Sensitivity and Specificity 2.0.0.0... e cece eeeeeeeeeeaaeaeeeeeeeeseeeeeeaaaaeeeeeeeeeeeeeeeaaes 30
+Positive Predictive and Negative Predictive Value .0.............ceeeccecceeeeeeeeeeeeeeeenneneeeeees 31
+Study Guide QUESTIONS... eee eee ccceteee cece eee eeeeeeenaaaaeeeeeeeeeeeeeseeeeaaeeeeeeeeeeeeneeaaes 32
+Study Guide Questions (ANSWETS)...........c:::cccceceeeeeeesesssseeeaeeeeeeesseeeeeeeeeeeeeeeeeeeeseeeeeenes 34
+Prevalence and INCIGONCE .............cecececeeeee cece eeeeeeeeeeeeeeeeeeeeeeeseeeeaaaeeeeeeeeeeseeeeeeaaaeeeees 36
+Morbidity and Mortality Rates 2.0.00... cece ee eeeeeenneeeeeeeeeeeeeeeeeeeaaeeeeeeeeeeeeeeseneaeeeeees 40
+Odds RattiOS ......... cece cece cece ceecceeeeeeeeeeeeeenaaaaeaeeeeeeeeseeeeeeaaaaeeeeeesseeseeecaeeeeeeseeeeeeeeeeeaaes 41
+Mean, Median, Mode.............cc.ccccccsseeccceeccccueceuececceucecceeeceueeeseueeeseeeceuueeeseeeeeseeseeees 43
+Standard deviation ...............cccccceeeceeeeeeeeeeeeneeeeeeeeeeeeeeeenecaaeaeeeeeeeeeeeseeenaaeeeeeeeeeeeeeeeeaaes 45
+Practice QUESTIONS 2.0.0... ccc cece cceeeseeeeeeeeeeeeeeeeeeeeaeeeeeeesseeeeeeeeueeaeeeeeeeeeeeeeeeeaaeeeeeeeeeees 46
+Practice Questions (ANSWETS) ............:cccceeecceeeeeeeeeeeeeeeeeeeeeeeeeeeaaeeaeeeeeeeeeeeeseeaaeeeeeeeeeeey 48
+
+Research Concepts 2
+© 2022 Veritense™
+
+Terms of use
+
+Bailey DeBarmore is the creator and sole owner of the exclusive copyright to this study
+resource.
+
+This publication may not be shared physically or electronically with anyone, manipulated,
+copied, reprinted and sold, altered, or reproduced in any form or by any means without
+requesting further permission from the owner, Bailey DeBarmore.
+
+This book is for personal use only by a single individual. It should not be distributed to a dietetic
+internship class or otherwise used for academic purposes without discussing terms of use with
+the owner. By purchasing this item, you agree to the Terms of Use outlined herein.
+
+To inquire about further permissions for this document, including access for groups such as
+dietetic internship classes or graduate courses, contact the owner to learn about your options.
+
+Research Concepts 3
+© 2022 Veritense™
+
+Study Designs
+Collecting data
+How is research data collected? There are several ways.
+
+e Use existing data — analyze NHANES or BRFSS data
+
+e Conduct a survey — ask a sample of the population your questions
+
+e Use acensus — ask every individual in your population your questions
+
+e Design an experiment — have half of the GI surgery patients receive trophic EN and the
+other half remain NPO for 2 weeks
+
+e Simulate data — use a computer model to replicate the conditions of a process or
+situation, like simulating lung cancer rates in 20 years if 80% of current high schoolers
+use e-cigarettes versus 5% use e-cigarettes
+
+Is there a best way to collect data? How data is collected relates closely to study designs, which
+are divided broadly into observational studies and experimental studies.
+
+Observational Studies
+
+In observational studies, the researcher doesn’t intervene or manipulate the conditions, they just
+gather information. Thus, the results are measures of association or correlation, not causation.
+
+Prospective studies, like the Framingham Heart Follow over time
+Study, have an established protocol where all Identify outcome
+participants attend clinic visits in the same way, O x
+answer the same surveys, and have the same
+
+tests done. However, the researchers do not Study start
+
+manipulate anything, they just collect data and Measure exposure
+
+assess their observations. Prospective studies essentially, “watch and wait” for outcomes to
+develop and measure markers and conditions along the way, such as subclinical manifestations
+of heart disease before a heart attack. The key with prospective studies is that the outcome is
+measured after the exposure.
+
+Example: Healthy Eating Index and Ischemic Stroke
+
+In a large cohort study constructed in 1980, a group of 20,000 adults aged 30 — 80 were recruited and
+attended regular clinic visits every 5 years. Between Clinic visits, study staff contacted participants via
+telephone. At every 5-year clinic visit, participants completed a food frequency questionnaire. Using this
+data, study investigators studied the association between the Healthy Eating Index from the dietary data
+and the risk of hospitalization from ischemic stroke, beginning with a baseline in 1980 and following
+participants through 2010.
+
+Why is this study prospective?
+
+Research Concepts 4
+© 2022 Veritense™
+
+Retrospective studies can be
+
+constructed from non-research data or
+
+using ancillary studies where the outcome
+
+is measured before the exposure because ©
+
+you are looking backwards in time. These Go backwards in
+retrospective cohorts can be constructed time to measure
+from electronic health records by exposure
+identifying a certain group of persons that
+
+meet your criteria and cataloguing their data. It is retrospective because all of the data has
+already been collected. Limitations lie in the type and quality of data collected as the data was
+not intended for research, or if it was, the data was not intended for the present research
+question. Retrospective studies, like case-control studies, can be embedded within cohort
+studies or can be done via secondary data analysis. These studies may be subject to recall
+bias, where the occurrence of the outcome affects reporting of the exposure.
+
+Identify outcome
+
+x
+
+Example: Food-borne illness infection at school picnic
+
+The local health department is called in to investigate an outbreak of food-borne illness among students,
+teachers, and parents who attended a school picnic. Because the investigators knew who had been ill
+and who had not, they are measuring the outcome first and go backwards to measure exposure, thus, it is
+retrospective. Because the investigators have a discrete population — attendees at the picnic — itis a
+cohort study.
+
+Observational study designs include cross-sectional studies, case-control studies, and cohort
+studies.
+
+In cross-sectional studies, you measure the exposure and outcome at the same time, like a
+snapshot in time. Surveys are often cross-sectional, such as NHANES and BRFSS. Cross-
+sectional studies are efficient and work well when we are starting to explore an issue.
+
+In case-control studies, you measure the outcome at the start of the study and go backwards
+to measure the exposure. For example, if you are interested in looking at prenatal exposures in
+mothers with premature born children, you could identify all the mother-child dyads in the NICU
+at your hospital, and then interview the mothers about their behaviors during pregnancy. An
+advantage of case-control studies is that you can look at multiple exposures or risk factors, and
+this design is efficient for rare conditions. However, information that relies on memory may be
+subject to recall bias and it can be difficult to find a suitable control group for some conditions.
+
+In cohort studies, the exposure is measured before the outcome develops. Cohort studies can
+be prospective, where you recruit participants and follow them over time, or retrospective, using
+existing data where the exposure was still measured prior to the outcome. Some advantages
+include standardized measurement of variables and cheaper than randomized trials.
+Disadvantages include lack of randomization and the length of time often required to observe
+participants prior to developing the outcome.
+
+Cohort is a general term — you might hear about “birth cohorts”, or everyone who graduated at
+the same time as you in college could be considered a cohort.
+
+Research Concepts 5
+© 2022 Veritense™
+
+Example: ICU Readmission after Cardiac Surgery
+
+Investigators want to study the predictors of ICU readmission during a single hospital stay following
+cardiac surgery. They identify patients who underwent cardiac surgery from January to December of 2010
+and were admitted to the ICU at least once. Cases are those that were readmitted to the ICU following
+the initial |CU stay. Controls were those not readmitted to the ICU (one ICU stay during the cardiac
+surgery-related hospitalization). Example based on Benetis et al, Med Sci Monitor, 2013 Feb 28;19:148-
+152.
+
+Why is this study retrospective?
+
+A key part of research is identifying the independent and dependent variable. In a hypothesis,
+you state that the independent variable (often X) affects the dependent variable (often Y) ina
+certain way. In an experiment, X is what you manipulate while you measure what happens in Y.
+In an observational study, X is what you observe and record while you measure what happens
+in Y or if Y happens.
+
+Independent Variable Dependent Variable (Y)
+Central obesi
+
+Longer surgery time Risk of brain anoxia
+Coronary atherosclerosis Heart attack
+
+Experimental Studies
+
+In experimental studies, the researchers manipulate the environment, like randomizing one
+group to receive standard diet instruction and another group to receive diet instructions plus a
+group exercise class. Another example is randomizing one group to receive a new high-dose
+fish oil pill and the other group to receive a placebo pill. In health care, experimental studies are
+typically randomized controlled trials, like the previous example, in contrast to the basic
+sciences. Note that all randomized controlled trials are prospective.
+
+Example: Group Wellness Classes and Diabetes Blood Sugar Control
+
+At a large university center with outpatient clinics, study investigators designed a randomized
+controlled trial to assess the effect of group wellness classes on blood sugar control among
+patients with diabetes. The hypothesis is that those randomized to the intervention (group
+wellness classes + usual care) would have better blood sugar control than patients randomized
+to the control (only usual care).
+
+Why would we want to randomize an intervention? You can imagine that if you have a
+cohort study and observed persons who volunteered for a group wellness class, or who started
+exercising on their own or eating better, those people are likely different in important ways than
+those who did not volunteer. Those factors, along with employment status (do they have time to
+exercise or are they working multiple part-time jobs?), income (can they afford healthier foods?),
+personality, baseline health status, family support, and many other factors likely influence their
+blood sugar control at baseline and their ability to change it. Those factors are called
+confounders.
+
+Research Concepts 6
+© 2022 Veritense™
+
+By randomizing the patients to an intervention or control, we hope the two groups will have
+equal influence from those confounding factors and due to that, we can isolate the effect of the
+intervention independently from those confounders.
+
+So, why don’t we always do research with randomized trials? Due to ethical and practical
+reasons, we can’t randomize every hypothetical “treatment”. We wouldn't randomize people to
+smoke or not smoke because we know it’s harmful. Nor would we randomize someone to
+become pregnant or not. Furthermore, we can’t randomize some things in vulnerable
+populations, such as drugs with unknown safety in pregnant women.
+
+What is a placebo?
+
+A placebo is when the control group (the group not randomized to the intervention) receives
+some sort of “treatment” that is similar. Classically, if you were to randomize one group to an
+active drug, those in the control group would receive a placebo pill that looked similar but was
+just made of sugar. This way, the control group would not know whether or not they were
+receiving the treatment. There is something called the placebo effect where recipients feel like
+they are getting some sort of intervention, believe in it, and show improved outcomes. Note that
+this is a simplified explanation of the placebo effect.
+
+Causation versus Correlation
+
+In the previous section, | explained why we would want to randomize an intervention. The
+results of randomization give us the ability to infer causation of the independent variable on the
+dependent variable. In contrast, since there is no randomization in observational studies (which
+is stronger than analytic control procedures, if done properly), we typically can only infer
+association or correlation. You'll note how many mainstream media sources will infer causation
+from observational studies, which mislead consumers. They might even imply that results from a
+mouse study are generalizable to humans. On the RD exam, you will likely see questions about
+causation versus correlation and the key is to identify if the study was randomized. If it was
+randomized, you can infer causation. If not, you cannot.
+
+An example of how correlation is not causation is the association between ice cream sales and
+crime sprees. When looking at these two factors, they are positively correlated. However, the
+correlation doesn’t account for the fact that in the summer, both ice cream sales and crime
+sprees increase. Correlation also does not account for timing, where X may cause Y, or Y may
+cause X. There may also be a correlation due to random chance. These are very simplified
+explanations of causation and correlation. If you are interested in pursuing this more, you can
+read up on causal inference and epidemiology.
+
+Research Concepts 7
+© 2022 Veritense™
+
+Correlation also refers to a statistical parameter, often called r. You can measure positive and
+negative correlation quantitatively but only for linear relationships. Correlation does not capture
+curved, or other shaped relationships, in the data. Take a look at the diagram where r= 0. One
+image is a random scatter of data points, but the other two show a clear pattern. However, since
+the relationship between the data points isn’t linear, no correlation is detected.
+
+Positive correlation: X and Y increase together or decrease together
+Negative correlation: as X increases, Y decreases or as X decreases, Y increases
+
+The correlation coefficient rcan range from -1 to +1 where positive correlation is above 0 and
+negative correlation is below 0. A perfect positive correlation is +1 and a perfect negative
+correlation is -1. Thus, a stronger correlation is going to be an rcloser to +1 or -1, such as 0.80
+or -0.80.
+
++1
+
+0.80
+
+o
+
+<
+ne
+
+<
+ne
+
+<
+in
+
+-0.80
+
+Z
+é
+
+Research Concepts 8
+© 2022 Veritense™
+
+Study Guide Questions
+
+Answer these study guide questions using the study guide text. These questions will be your first pass at
+applying the knowledge you've read and practiced in example calculations in a question-and-answer
+format. Instead of answering them from memory, go to the text and your notes.
+
+In the following 4 studies, decide if the study design described is prospective (P) or
+retrospective (R) and explain why. Then identify the independent and dependent variables.
+
+1.
+
+2.
+
+Identify lung cancer cases among factory workers and determine if they were exposed to
+asbestos in the 5 years before diagnosis. Is asbestos associated with lung cancer?
+
+Identify patients with diabetes at hospital admission and record key aspects of their
+hospital stay. Examine the relationship between hospital admission characteristics and
+mechanical ventilation as an event.
+
+Identify trauma surgery patients in the medical record database over the past year and
+classify them as having received enteral nutrition, parenteral nutrition, oral intake, or no
+food (NPO). Examine the relationship between feeding method and length of hospital
+stay.
+
+Identify mothers whose baby died from Sudden Infant Death Syndrome (SIDS). Identify
+mothers with babies born the same day who are still alive. Send questionnaires to the
+mothers asking about sleeping and feeding patterns.
+
+In the following 4 studies, decide if the study design described is observational or experimental
+(O or E). Then identify the independent and dependent variables and the specific study type.
+
+5.
+
+Investigators measure coronary artery calcium and follow participants for 20 years for
+risk of heart attack.
+
+Investigators identify cases of sleep apnea and survey patients about their eating habits
+before bed.
+
+Investigators randomize patients to a rapid extubation protocol in the ICU or to standard
+procedure.
+
+Investigators record which patients are fed enterally within 8 days of admission
+compared to those who remain NPO and record serum prealbumin at discharge.
+
+Research Concepts 9
+© 2022 Veritense™
+
+Study Guide Questions (Answers)
+
+1. Identify lung cancer cases among factory workers and determine if they were exposed to
+asbestos in the 5 years before diagnosis. Is asbestos associated with lung cancer?
+
+a. Retrospective — exposure measured after outcome. Independent = asbestos,
+dependent = lung cancer
+
+2. Identify patients with diabetes at hospital admission and record key aspects of their
+hospital stay. Examine the relationship between hospital admission characteristics and
+mechanical ventilation as an event.
+
+a. Prospective — exposure measured before outcome (at hospital admission).
+Independent = hospital admission characteristics, dependent = mechanical
+ventilation
+
+3. Identify trauma surgery patients in the medical record database over the past year and
+classify them as having received enteral nutrition, parenteral nutrition, oral intake, or no
+food (NPO). Examine the relationship between feeding method and length of hospital
+Stay.
+
+a. Retrospective — exposure measured after outcome. Independent t= feeding
+method, dependent = length of hospital stay.
+
+4. Identify mothers whose baby died from Sudden Infant Death Syndrome (SIDS). Identify
+mothers with babies born the same day who are still alive. Send questionnaires to the
+mothers asking about sleeping and feeding patterns.
+
+a. Retrospective — exposure measured after outcome (case control study).
+Independent = sleeping and feeding patterns, dependent = SIDS. Note that this
+is a classic example for case-control studies, illustrating the possibility of recall
+bias, as mothers whose baby died likely think and worry about the events leading
+up to it much more than mothers whose baby did not die.
+
+5. Investigators measure coronary artery calcium and follow participants for 20 years for
+risk of heart attack.
+
+a. Observational — prospective cohort. Independent — coronary artery calcium,
+dependent = heart attack
+
+6. Investigators identify cases of sleep apnea and survey patients about their eating habits
+before bed.
+
+a. Observational -= case-control study. Independent — eating habits before bed,
+dependent = sleep apnea.
+
+7. Investigators randomize patients to a rapid extubation protocol in the ICU or to standard
+procedure.
+
+a. Experimental — randomized control trial, independent — rapid extubation protocol,
+dependent — not given.
+
+8. Investigators record which patients are fed enterally within 8 days of admission
+compared to those who remain NPO and record serum prealbumin at discharge.
+
+a. Observational — prospective clinical. Independent: enteral feed within 8 days of
+admission, dependent — prealbumin at discharge.
+
+Research Concepts 10
+© 2022 Veritense™
+
+Other Study Designs
+
+In the previous section, | mentioned several types of study designs, like cohort, cross-sectional,
+case-control, and randomized control. We categorized them by retrospective and prospective,
+observational, and experimental. Now we'll talk about some other study designs that overlap
+with the categories we looked at, but can also be described without categorizing them.
+
+Surveys
+
+In the words of CDR, surveys are “the least expensive systematic study of a cross section of
+individuals.” Did you conduct any surveys as part of your college nutrition courses? Have you
+ever read a research study that used a survey and published the survey questions in the
+supplemental material? Have you ever completed a survey sent to you via email?
+
+Survey questions should be phrased in a certain way as to not introduce bias when asking the
+question. They may be administered by an interviewer or via computer, and may have
+responses using open ended questions, scales, or a list of choices.
+
+At cohort study visits, participants may undergo physical examinations, lab tests, and imaging
+procedures, but may also complete surveys (questionnaires). Those measures may be repeated
+over time, such as a food frequency questionnaire, which is a survey!
+
+Disadvantages
+Survey results are dependent on respondent's honesty
+and motivation.
+
+Advantages
+Surveys can be done in a variety of ways — telephone,
+mail, online, in person.
+
+Surveys are efficient for collecting data on a large Look up social desirability bias and survey burden.
+
+population.
+
+Survey results can be biased by non-response bias —
+those who don't return the survey or who decline to
+participate may be different in some systematic way
+compared to those who participate.
+
+Surveys can focus on specific questions related to the
+research question, but also collect basic information to
+describe your population and relate them to other study
+populations. These include demographic variables
+(gender, sex, race, ethnicity, educational level,
+household income, urban or rural residence) and other
+variables.
+
+Look up healthy volunteer effect.
+
+Questions or answer choices may be interpreted
+differently by different respondents.
+
+— questions may not measure what you intend for
+them to measure (validity)
+
+Surveys can be used to address many research topics.
+
+Focus Groups
+
+Focus groups are a qualitative research technique that groups together a
+small number of people with a moderator to lead them through a discussion.
+
+Discussion questions are open-ended and the goal is to collect information O O O
+about the thoughts and feelings that aren’t easily captured in standard survey
+responses, like scales.
+
+Focus groups also help discover thoughts behind actions, such as why community members
+aren't buying more produce or biking to work, despite sales and incentives.
+
+Research Concepts 11
+© 2022 Veritense™
+
+The moderator may also step out of the room and observe the group so the participants don’t
+feel self-conscious, especially if the moderator is representative of a certain stakeholder.
+
+Advantages
+Focus groups are useful when outcomes are
+unpredictable.
+
+Disadvantages
+A dominant voice in the group can dominate the
+discussion and discourage others from speaking up.
+
+Use when you want open feedback but don’t need to
+compare results.
+
+“Groupthink” is a concern. What is groupthink?
+
+Participants are less likely to express negative ideas in-
+person than with a survey.
+
+Participants can express ideas and feelings not
+captured in a survey.
+
+Focus groups require a skilled moderator.
+
+Comments from other participants can stimulate more
+discussion.
+
+Focus groups are resource intensive, both to plan and
+conduct. They also have notable participant burden
+since they take time.
+
+Moderator can observe dynamics between focus group
+members.
+
+Health Risk Appraisal
+
+A health risk appraisal, or health risk assessments, are the first step in multi-step health
+promotion programs. They are individual-level assessments often used by wellness companies
+and health insurance companies. There is no standard way to conduct a health risk appraisal
+but it may include the following:
+
+1. Participant provides self-reported health-related information, including
+e Behaviors: eating patterns, average sleep duration, employment status, smoking
+frequency, alcohol consumption
+e Risk factors or diagnoses: Have you ever been diagnosed with...diabetes, heart
+disease, heart failure? Has a doctor ever told you that you have hypertension? Have you
+ever had a stroke or heart attack?
+
+2. Participant receives individualized feedback based on self-reported health information
+e You mentioned being diagnosed with diabetes. Because you have diabetes, you are ata
+higher risk of developing heart disease, including stroke, heart attack, or heart failure.
+
+3. Information is used to provide at least one recommendation or intervention towards
+
+promoting health, sustaining function, or preventing disease
+
+e You can reduce your risk of heart disease by eating more colorful foods and reducing
+your intake of processed foods.
+
+e If you quit smoking, after 6 months your risk of heart disease will be similar to someone
+who has never smoked.
+
+e As you age, it’s important to maintain your balance and strength. You can do this by
+walking regularly, doing weight-bearing exercises, or participating in yoga or tai chi
+exercises.
+
+Research Concepts 12
+© 2022 Veritense™
+
+The health risk assessment may also include clinical exams to record height, weight, BMI, heart
+rate, blood pressure, and functional tests like grip strength, chair rise, or a walk test. A term
+used in the wellness industry for this is a “biometric screening”, which includes blood lipids and
+sugar, BMI, blood pressure, and waist circumference.
+
+Many employers offer health risk assessments and even provide financial incentives to
+complete them or achieve certain benchmarks. They may employ a wellness company to
+administer them, analyze the data, and make recommendations for company-wide wellness
+programs.
+
+Screening
+
+The biometric component of a health risk assessment may serve as a
+screening tool for hypertension, diabetes, or heart disease risk. However, to
+screen for other diseases, we need to conduct tests that relate to the
+disease-specific processes.
+
+See below for screening test examples and contrast them against the
+diagnostic test. Diagnostic tests are typically more invasive or costly, and are only done if the
+screening test is positive. Other diseases don’t have a separate screening or diagnostic test,
+though it might be called a screening test based on the setting. For example, checking
+everyone's blood pressure at a community health fair day, providing feedback to those with
+borderline or high blood pressure, and recommending that they see their physician is screening.
+If they go see their physician and their blood pressure is still elevated, the physician would
+consider that a diagnostic test.
+
+Some screening tests are simply a set of questions, and with enough positive answers, signify
+the need to proceed for diagnostic testing. For example, a doctor may order hepatitis C testing
+(diagnostic) if a patient received a blood transfusion or organ transplant before 1992, has ever
+used injectable drugs, or has chronic liver disease, HIV, or AIDS (screening questions) because
+these are all factors associated with increased risk. For patients who answer no to all of these
+questions, the cost associated with the diagnostic test outweighs the unlikely positive result.
+
+Screening Test Disease Diagnostic Test
+
+Blood pressure Hypertension Elevated blood pressure after
+P yP standard protocol
+Blood sugar Diabetes Oral glucose tolerance test
+
+Pap smear Cervical cancer Biopsy
+
+Prostate specific antigen blood test Prostate cancer Biopsy
+
+Research Concepts 13
+© 2022 Veritense™
+
+Recruitment Strategies
+
+To find participants for a prospective study, observational or experimental, there are two ways
+you can go about it statistically. The goal of probability sampling strategies is to reduce
+“sampling error’, more commonly called selection bias. You may see the term “sampling error”
+instead on the exam.
+
+Probability Strategies
+
+Random Sampling: With random sampling, each individual in the population
+
+has the same probability of being sampled. This method is most often done by Q
+assigning a number to each potential participant. For example, using a list of
+
+DMV driver’s license numbers, class roster, or patient registry, and then ie
+drawing a random sample. Another way to think about it would be to label
+
+each person in your internship class with a number. Then, for each person, flip
+
+a coin where heads means they are included in the study and tails means they are not. Thus,
+selection would be due to chance.
+
+The population that you draw your random sample from matters. Imagine you want to do a
+
+study on how frequently older adults go to the gym. If you draw a random sample from a list of
+gym members versus a random sample from a telephone list, your results will
+likely differ, because everyone on the gym membership list has joined a gym.
+
+Cluster Sampling: When the population of interest exists in “units,” rather than
+individuals, we call them clusters. For example, if you wanted to implement a
+healthy lunch initiative at local elementary school, it would be difficult to
+randomize each student. Instead, we call each school a “cluster” and we
+randomize each school to the intervention or not. Thus, the “unit of
+randomization” is the school.
+
+Nationally representative surveys utilize multi-stage sampling. NHANES
+samples at the county level first, then by segments, then by households, and
+then by individuals.
+
+Non-Probability Sampling
+
+Convenience Sampling: Convenience sampling means you sample participants in a way that
+is convenient. For example, you need college students to fill out your survey. You sit in the
+student union and ask each person that walks by to fill out your survey. You might approach it
+systematically by asking every 5" person who walks in to fill out your survey.
+
+Snowball Sampling: You ask participants to write down the name of acquaintances they think
+would be open to participating. Your final sample will likely be more similar to one another in
+certain ways because friends, families, and neighbors will join. However, this can be
+advantageous if you are studying something that is environmental or cultural.
+
+Research Concepts 14
+© 2022 Veritense™
+
+Food Science Designs
+Paired Comparison Test
+
+Also called a preference test, in a paired comparison test, a judge is presented with 2 samples
+(A and B) and asked to choose the one that is higher in a certain attribute. Attributes can be
+things like sweetness, crispness, or a certain color. Samples are presented in two possible
+sequences, randomized across at least 30 judges (AB, BA).
+
+Example: Apple Pies
+
+You want to see if the judges prefer a home-baked apple pie versus
+
+store-bought, specifically regarding appearance. You recruit judges and
+present 15 with home-baked followed by store-bought, and the other 15
+jud presented with store-bought followed by home-baked.
+
+Triangle Test
+
+In a triangle test, two identical samples and one different sample are presented to the judge.
+The judge identifies which is different. In contrast to the paired comparison test, there is no
+specific question about sensory characteristics. There are 6 possible sequences: ABB, BAA,
+AAB, BBA, ABA, BAB that are randomized across all judges. All 6 sequences must be
+presented the same number of times. If you have 30 judges, each sequence would be
+presented to 5 judges each.
+
+Example: Cola
+
+You want to see if judges can tell the difference between store-brand cola and
+
+brand-name cola. You present samples to each judge, in the 6 different
+sequences, and record which one they indicate is different from the others.
+
+Quantitative Descriptive Test (QDA)
+
+QDA is a descriptive test that recruits 8 to 12 panelists that are trained on sensory
+characteristics. The first step is for panelists to agree on terminology beforehand. They rate
+samples based on various sensory characteristics, such as juiciness, sweetness, firmness,
+crispness, acidity, aroma — typically positive attributes.
+
+Example: Burgers
+
+Panelists are asked to express the degree to which a characteristic is present in ~~
+samples of a fast food burger by assigning a value on the scales previously —_——
+determined.
+
+On a sheet of paper, write out the definitions and provide examples for the following terms:
+health risk appraisal, screening, triangle test, focus group, descriptive test, survey, and paired
+comparison test.
+
+Research Concepts 15
+© 2022 Veritense™
+
+Quality of Evidence
+
+There are several resources from the Academy of Nutrition and Dietetics that you need to be
+familiar with for the exam. One of them is the Evidence Analysis Library. For a variety of topics,
+the Academy’s EAL Working Group has put together guidelines based on current evidence in
+the form of systematic reviews, evidence-based nutrition practice guidelines, and position
+papers. The following are from the Academy’s EAL Topic List page (www.andeal.org/topic-list):
+
+e Systematic review: “a high-level process that collects and critically analyzes multiple research
+studies or papers on a clearly formulated question using explicit methods to identify, select, and
+critically appraise the primary research.”
+
+e Evidence-based nutrition practice guideline: “guiding statements, developed from a systematic
+review, designed to assist practitioner and patients’ decisions about appropriate nutrition care for
+specific disease states or conditions.”
+
+e Position paper: “a critical analysis of current facts, data and research literature on a specific issue. A
+key feature is the Position Statement, which presents the Academy’s stance on a specific issue that
+impacts the public’s nutritional status and is controversial, confusing, or requires professional
+clarification. As of 2017, all new and updated Academy position papers are generated from EAL
+systematic reviews.”
+
+Position paper topics include adult weight management, breastfeeding, chronic kidney disease,
+fluoride, single service portion sized meals and weight management, vegetarian nutrition, and
+many more. | highly suggest reading the EAL resources for the following topics to prepare for
+the exam.
+
+Evidence Grades
+
+In the EAL, you will find different Evidence Grades associated with different statements. The
+Evidence Grades reflect how consistent and strong the evidence is behind a recommendation.
+You should be familiar with what the four grades mean and their order (Grade | is strong while
+Grade Ill is weak, not the other way around).
+
+The narrative explanations of the evidence grades provide an overview of how and why the
+evidence grades are assigned. The expert workgroup members consider various aspects of the
+existing research to assign these evidence grades. These aspects include:
+
+e Quality of the study e Consistency of findings across studies
+o Scientific rigor and validity o Magnitude of effect
+o Design and execution e Clinical impact
+e Quantity of studies and subjects o Importance of studied outcomes
+o Number of studies e Generalizability of findings
+o Number of subjects in o To the population of interest
+studies
+
+Research Concepts 16
+© 2022 Veritense™
+
+In the next few pages, | go more in depth on the evidence grades, with examples of statements
+in each category, from the Adult Weight Management and Diabetes Management Guidelines in
+the Academy’s Evidence Analysis Library. You can see the distinction between strong/good and
+fair as a thin line because we often consider recommendations as “no-brainers” that have fair
+evidence.
+
+In your own words and on a sheet of paper, write out the definitions and examples of each
+grade of evidence based on the past few pages. Questions on the exam will likely require you to
+know which grade (Grade | or Grade IV or V) correspond to the highest quality of evidence and
+recognize the definition.
+
+Grade |: Good / Strong - “The evidence consists of results from studies of
+strong design for answering the question addressed. The results are both
+Clinically important and consistent with minor exceptions at most. The results
+are free of serious doubts about generalizability, bias, and flaws in research
+design. Studies with negative results have sufficiently large sample sizes to
+have adequate statistical power.”
+
+Grade Il: Fair - “The evidence consists of results from studies of strong design
+answering the question addressed, but there is uncertainty attached to the
+conclusion because of inconsistencies among the results from different
+studies or because of doubts about generalizability, bias, research design
+flaws, or adequacy of sample size. Alternatively, the evidence consists solely
+of results from weaker designs for the questions addressed, but the results
+have been confirmed in separate studies and are consistent with minor
+exceptions at most.”
+
+Grade Ill: Limited / Weak - “The evidence consists of results from a limited
+number of studies of weak design for answering the questions addressed.
+Evidence from studies of strong design is either unavailable because no
+studies of strong design have been done or because the studies that have
+been done are inconclusive due to lack of generalizability, bias, design flaws,
+or inadequate sample sizes.”
+
+Grade IV: Expert opinion only / Consensus - “The support of the conclusion
+consists solely of the statement of informed medical commentators based on
+their clinical experience, unsubstantiated by the results of any research
+studies.”
+
+Grade V: Insufficient Evidence / Grade Not Assignable- “There is no
+evidence available that directly supports or refutes the conclusion.”
+
+To visit the EAL, sign in to your www.eatrightpro.org account, go to Research — Applied
+Practice — Evidence Analysis Library.
+
+Research Concepts 17
+© 2022 Veritense™
+
+As you read through the next few pages, highlight and write down any terms you’re not familiar
+with. Look them up later.
+
+Grade |: Good/Strong
+
+Quality Strong study design, free from design flaws, bias, and execution problems
+
+Findings consistent in direction and effect size / degree of association,
+
+Consistency statistical significance, with minor exceptions
+
+One to several good quality studies, large number of subjects, studies with
+Quantity negative results have sufficiently large sample size for adequate statistical
+power
+
+Outcome relates directly to question, size of effect clinically meaningful,
+statistically significant difference is large
+
+a Studied population, intervention, and outcomes free from serious doubts about
+Generalizability wa
+generalizability
+
+Example: Medical Nutrition Therapy: MNT provided by an RDN is recommended for overweight and
+obese adults. MNT provided by an RDN results in both statistically significant and clinically meaningful
+weight loss in overweight and obese adults, as well as reduced risk for diabetes, disorders of lipid
+metabolism and hypertension.
+
+Clinical Impact
+
+Grade Il: Fair
+
+. Strong study design, minor methods concerns or only studies of weak study
+Quality design
+
+Inconsistency among studies with strong design or consistency with minor
+
+Consistency exceptions across weaker study designs
+
+Several studies by independent investigators, but doubts about adequacy of
+
+Quantity sample size to avoid type | and type II error
+
+Clinical Impact Some doubt about statistical or clinical significance of the effect
+Generalizability Minor doubts about generalizability
+
+Example: Referral to RDN for MNT: For weight loss and weight maintenance, the RDN should
+individualize the meal pattern to distribute calories at meals and snacks throughout the day, including
+breakfast. The majority of observational research reported that breakfast consumption is associated
+with a lower BMI and decreased obesity risk. Several studies suggest that cereal-based breakfasts are
+associated with lower BMI while breakfasts that are very high in energy are associated with higher BMI.
+
+Research Concepts 18
+© 2022 Veritense™
+
+Grade Ill: Limited/Weak
+
+Quality
+
+Studies of weak design or inconclusive findings due to design flaws, bias, or
+execution problems
+
+Unexplained inconsistency among results from other studies, or a single study
+
+Consistency only
+
+Limited number of studies, low number of subjects studied, and/or inadequate
+
+Quantity sample size for statistical power
+
+Studied outcome is an intermediate outcome or surrogate for the true outcome
+of interest, or the effect size is small or lacks statistical or clinical significance
+
+ae Serious doubts about generalizability due to a narrow or different study
+Generalizability , . .
+population, intervention, or outcomes studied
+
+Example: Educate on intake of FDA-approved non-nutritive sweeteners: The RDN should educate
+adults with diabetes that intake of FDA-approved non-nutritive sweeteners within the recommended
+daily intake levels established by FDA will not have a significant effect on glycemic control. Research
+reports no significant impact of consuming FDA-approved non-nutritive sweeteners independent of
+weight loss on A1C, fasting glucose levels or insulin levels.
+
+Clinical Impact
+
+Grade IV: Expert Opinion Only/Consensus
+
+No studies available; conclusions based on usual practice, expert consensus,
+
+Quali . a . .
+ty clinical experience, opinion, or extrapolation from basic research
+
+Conclusion supported solely by statement of informed nutrition or medical
+
+Consistency experts
+
+Quantity Unsubstantiated by published research studies
+
+Clinical Impact Objective data unavailable
+
+Generalizability Generalizability limited to scope of experience
+
+Example: Encourage physical activity for weight loss: For weight maintenance, the RDN should
+encourage physical activity as part of a comprehensive weight management program, individualized to
+accumulate 200 to 300 minutes or more of physical activity per week, depending on intensity, unless
+medically contraindicated. Some studies support the value of approximately 200 to 300 minutes per
+week of physical activity during weight maintenance to reduce weight regain after weight loss.
+
+Research Concepts 19
+© 2022 Veritense™
+
+Quantitative versus Qualitative
+Quantitative
+
+Quantitative Data
+
+For the exam, you'll need to understand the difference between quantitative and qualitative
+data. Here are features of quantitative data.
+
+e Information that can be measured and written in numbers
+
+e Discover facts and associations; test theories and hypotheses
+
+e Data collected through measurement, including controlled observation, experiments, and
+surveys, with a rating scale or yes/no answers
+
+e Data analyzed by numerical comparison and statistical analysis (descriptive statistics
+and inferential statistics)
+
+e Data reported through statistical analyses, including means, standard deviations,
+medians, ranges, percentages, odds ratios, and hazard ratios
+
+e Large sample sizes to conduct meaningful and accurate statistical analyses
+
+e May include random sampling or survey sampling to improve robustness of conclusions
+
+Quantitative Research
+
+For an example of quantitative research, let’s use an example of a randomized trial. Your clinic
+is exploring the effectiveness of a diabetes control program that involves group classes on
+topics, like diet and exercise, to meet twice a week. Your team designs a trial where you
+randomize your patients with diabetes to either attend the group classes twice a week for 12
+weeks, in addition to regular clinic check-ups, or just regular clinic check-ups alone (usual care,
+control group). At the beginning of the trial, you measure each participants’ weight, height, waist
+circumference, heart rate, blood pressure, fasting blood glucose, and hemoglobin A1c. You also
+conduct a 24-hour dietary recall and a physical activity questionnaire with each participant.
+Every 4 weeks after randomization, you repeat these measurements, including the 24-hour
+recall and physical questionnaire in both the treatment group and the control group.
+
+Ciimc patents
+
+aghgigigizay
+
+Randomization
+
+7
+agigig = Aggy
+
+Control group Treatment group
+| | Clinic check-ups
+i) on oO Group classes
+
+O.0 \a ay about ciet &
+i a i exercise
+e
+
+®-®@
+Clinic check-ups only e%s
+
+Research Concepts 20
+© 2022 Veritense™
+
+Below is a hypothetical table (Table 1) we might produce from our randomized trial. Note that
+there is very little difference in treatment and control group characteristics at baseline because
+that is what randomization intends to do.
+
+Instead, if we had asked clinic patients which group they wanted to be in, we might have
+patients with better glucose control, more physical activity, lower BMI, or of a younger age in the
+treatment group, or it could go the other way where patients who are doing worse self-select
+themselves to the more intensive treatment program. Randomization, in theory, removes the
+effect of these characteristics so that we can isolate the effect of our treatment.
+
+In some studies, you might see a column for p-values, where a value of <0.05 or <0.01 (called
+the alpha level) is deemed “statistically significant”. This column is unnecessary for most, if not
+all, studies and are especially unnecessary for randomized trials. If randomization was done
+correctly, any “statistically significant” differences between the two groups would be due to
+random chance. Note in the table that we don’t have names, themes, codes, or quotes from
+participants. Instead, we have numbers expressed as mean + SD or % (N).
+
+Table 1. Baseline characteristics of study population.
+
+Treatment Group Control Group
+(N = 25) (N = 25)
+Age (years) 44+4 45+5
+Female 48% (12) 52% (13)
+White 40% (10) 44% (11)
+Body mass index (kg/m?) 37+2 38 +3
+Systolic blood pressure (mmHg) 131 +2 133 +2
+Fasting blood glucose (mmol/L) 156 +11 162 +9
+Hemoglobin A1C (%) 7.2 +1.2 7.4 +1.4
+Average physical activity (min/wk) 20 +15 24 +13
+
+Research Concepts 21
+© 2022 Veritense™
+
+Here is a hypothetical Table 2, which shows the average changes in key parameters or
+outcomes, such as change in weight, blood pressure, fasting glucose, and physical activity. You
+can see the average measures, followed by the range of change in parentheses. All of the
+results from this study are expressed as numbers, quantifying what was measured, and allowing
+for direct and statistical comparison between the treatment and control group.
+
+Table 2. Average change in key parameters over study time in treatment and control group.
+
+Treatment Group
+(N = 25)
+
+Average % weight change
+
+4 weeks - 2% (-1.5 — -2.2%)
+8 weeks - 3% (-2.6 — -3.4%)
+12 weeks - 4% (-3.2 — -4.1%)
+
+Average change in systolic blood
+pressure (mmHg)
+
+4 weeks - 1 mmHg (+1 — -2 mmHg)
+8 weeks - 3 mmHg (-2 — -4 mmHg)
+12 weeks - 5 mmbug (-3 — -6 mmHg)
+
+Average change in fasting blood
+glucose (mmol/L)
+
+4 weeks - 2 (+1 - -3 mmol/L)
+8 weeks - 4(- 1—-5 mmol/L)
+12 weeks - 9 (- 6 --11 mmol/L)
+
+Average change in weekly
+physical activity
+
+4 weeks + 10 (9-15 min/wk)
+8 weeks + 15 (11 — 17 min/wk)
+12 weeks + 20 (18 — 24 min/wk)
+
+Control Group
+(N = 25)
+
++ 0.5% (0.2 — 0.7%)
+- 0.8% (-0.6 — -0.9%)
+- 1% (-1.6 — -2.3%)
+
++ 2mmbHg (1 —-3 mmHg)
++4mmbg (2 —- 6 mmHg)
++9 mmHg (7 — 11 mmHg)
+
++2 (1-3 mmol/L)
++ 3 (2—4 mmol/L)
++2 (1-3 mmol/L)
+
++5 (- 2—7 min/wk)
++ 10 (9 — 12 min/wk)
++12 (10 — 15 min/wk)
+
+Research Concepts 22
+© 2022 Veritense™
+
+Qualitative
+Qualitative Data
+The following list describes qualitative data.
+
+e Information about qualities, often expressed in themes or quotes
+
+e Attempt to understand human behavior from the interviewee’s perspective
+
+e Collect information via observation and interviews
+
+e Data analyzed by themes and descriptions
+
+e Data reported in quotes from interviewees
+
+e Non-statistical analyses used, including content analysis, grounded theory, and thematic
+analysis
+
+e Smaller sample sizes used due to the burden of interviewing participants
+
+e Context-rich data of words and texts, photographs, videos, and sound recordings
+
+e Difficult to apply reliability and validity standards due to subjectivity
+
+Qualitative Research
+
+For an example of qualitative research, I'll use a project | did for my Social Nutrition course in
+college. The purpose was to understand the variety of childhood experiences around food and
+eating among college students. My methods included writing an open-ended interview script
+and conducting content analysis to discover themes.
+
+Using previous literature, | came up with a draft interview script that asked questions about how
+often the interviewee ate family meals, who typically purchased and prepared foods, what their
+feelings and memories about food were growing up, and how those feelings changed over time.
+
+| piloted this script with several interviewees to allow for refinement. Sometimes, the questions
+you draft aren’t actually asking what you think they are. People interpret questions differently
+and the nature of qualitative research is that it is incredibly subjective. By piloting, you can
+identify when that occurs, and reformat your questions so that they have better construct
+validity.
+
+As the researcher, you are immersed in the situation you construct for your participant, and
+similar to nutrition counselling, you learn the most about your interviewee by using well phrased,
+open-ended questions.
+
+During interviews, data collection is done in the form of taking notes and often recording
+interviews for verbatim transcripts later. Those transcripts are then reviewed via thematic
+analysis to discover themes.
+
+While you don’t need to know details of how to conduct qualitative research or analysis, it is
+helpful to have these examples to distinguish between the two.
+
+Take out a sheet of paper and write out the characteristics, advantages, disadvantages, and
+examples of quantitative versus qualitative data and research.
+
+Research Concepts 23
+© 2022 Veritense™
+
+Thematic Analysis
+
+To conduct thematic analysis, go through these 6 steps.
+
+Familiarization Transcribe the data and prepare the narrative.
+Re-read the data and note initial ideas.
+
+Code interesting features in a systematic fashion across the
+Generate initial codes entire data set.
+Collate data relevant to each code.
+
+Search for themes Collate codes into potential themes.
+Gather data relevant to each theme.
+
+Examine if themes work in relation to the coded extracts and
+. the data as a whole.
+4 Review themes Review the data to search for additional themes.
+Generate a thematic map of analysis.
+
+Define and name Refine theme specifics and the overall story being told.
+themes Generate clear definitions and names for each theme.
+
+Select compelling examples.
+
+Complete final analysis of each extract.
+
+Relate the analysis back to the research question, objective,
+and existing literature.
+
+Produce the report
+
+Siem
+transcribe “
+interview note | initia Ele Ee =n A
+
+Generate initial codes
+
+Collate data for each
+code Collate codes into
+potential themes
+
+Research Concepts 24
+© 2022 Veritense™
+
+Epidemiology Methods and Biostatistics
+Validity
+
+Validity is the extent to which an instrument measures what it is supposed to measure. It’s
+helpful to think of validity in two ways: is it measuring what you want it to measure (for example,
+depression but not anxiety) and the general accuracy of the measure.
+
+Is it measuring what you want it to measure?
+
+There are different types of validity that are tested when a new instrument is developed. For
+example, let's imagine a group of researchers are developing a questionnaire for depression.
+Before this instrument should be used in research, the researchers should demonstrate that it is
+valid.
+
+e Face validity: does it seem like it is a valid measure of depression? Do the questions and range of
+options seem appropriate? Or does it ask about things not related or relevant to depression?
+
+e Content validity: does it measure what it is intended to measure? Questions should consider the
+known symptoms of depression, such as mood, sleeping issues, weight change, and so on. If their
+questions are more congruent with symptoms of anxiety, they won't be capturing depression like they
+think.
+
+e Construct validity: ability to measure an abstract concept adequately. If they gave a similar
+questionnaire on happiness or satisfaction, would the results be opposite of the depression
+questionnaire? Is there divergence to distinguish between the two different constructs?
+
+e Criterion validity: extent to which the measurement is able to produce accurate findings when
+compared to a gold standard, such as a clinical diagnosis of depression. The researchers could
+calculate the sensitivity and specificity of their questionnaire compared to a clinical diagnosis.
+
+General Accuracy
+
+When thinking about general accuracy, we relate validity to systematic bias. Teachers often use
+a bullseye example. If the center of the target is the truth, a valid measure will hit the truth most
+of the time. If it is not a valid measure, it will be consistently somewhere else on the target. We'll
+talk more about this with bias and error.
+
+Reliability
+
+Reliability is the degree to which a measurement produces consistent outcomes. Does the
+instrument consistently measure what it is intended to measure? Just like with validity, there are
+different ways to measure and quantify reliability because there are different aspects of
+reliability.
+
+e  Test-retest reliability: refers to repeatability. If we administer the depression questionnaire to one
+group of individuals, and then administer it again a week later to the same people, we would expect
+very similar levels of depression. In nutrition, you can think about the test-retest reliability of a food
+frequency questionnaire.
+
+Research Concepts 25
+© 2022 Veritense™
+
+e Internal consistency: do similar questions give rise to similar answers? If we have two questions
+about sleep and two questions about mood on our depression questionnaire, do they give consistent
+answers for the same person?
+
+e Inter-rater reliability: if two staff members administer the depression questionnaire to the same
+person, will the results be similar? If our staff members are straying from the wording or changing
+their protocol in some way, the results may not be consistent. We also use inter-rater reliability when
+we have adjudicated events, such as two dietitians reviewing the same medical charts and
+determining who is malnourished. When there is some level of subjectivity, we use inter-rater
+reliability to look at consistency and agreement between the two experts.
+
+General precision
+
+Just as validity is related to general accuracy, reliability is related to general precision and
+random error. Consistent measures fall consistently close together. With the bullseye example,
+points clustered together are considered reliable. Points spread out would not be reliable or
+precise.
+
+Bias and Error
+
+If you step on your bathroom scale each day and it is not calibrated, it may consistently give you
+a reading that is 2 lbs higher than the truth. This would be a reliable measure, but it would also
+be biased. In contrast, if your scale sometimes gives you + 1 pound, - 1 pound, +2.5 pounds,
+and so on, it is not producing a consistent measure and there is no rhyme or reason as to the
+number it gives you. This is random error.
+
+See the table below for an example of 4 readings relative to the truth, 150 Ib.
+
+ee ee
+155.2 Ib 152 Ib 154 Ib
+
+154.9 Ib 151 Ib 157 Ib
+155 Ib 148 Ib 153 Ib
+
+Bias is related to accuracy and validity. How close is your measurement to the truth of 150 Ibs?
+Random error is related to precision and reliability. How consistent are your measurements to
+one another? How close together are they?
+
+Bias is also referred to as systematic error in contrast to precision which is random error.
+There are different types of bias, many of which carry the term “error,” so don’t be confused.
+Some types of bias include non-response error, measurement error, sampling error, and
+social desirability bias, among others. You may see both non-response error and non-
+response bias. They refer to the same thing.
+
+Research Concepts 26
+© 2022 Veritense™
+
+Active Learning Opportunity: A great active learning technique would be to write the terms in
+this packet on one side of flashcards and the definition on the other. Then, repeat. Flip one set
+of flashcards so the terms face up and the other so the definitions face up. Spread them out
+before you and match them up. This method is particularly effective if you learn best when using
+your hands or manipulating information. It’s easy to check your matching by simply flipping over
+one of the cards.
+
+Types of Bias
+
+“Bias is any process at any stage of inference which tends to produce results or conclusions
+that differ systematically from the truth.” — Sackett (1979)
+
+PS. You don't need to know that quote as a definition.
+
+Observer effect: the researcher or interviewer's body language or intonation affects the way
+participants respond. This can occur during a nutrition counseling session, too.
+
+* In research, you may be reading out questions to a participant in contrast to a participant
+doing a paper-and-pen or computer survey. The tone of your voice, sighing, or remarking on
+an answer, instead of just saying “Ok” can influence the interview. The fact that another
+person is “witnessing” their responses can also influence the interview.
+
+* In counseling, we can generally avoid leading questions via open ended questions, however
+it can still persist. For example, asking “What do you dislike about your current situation?” is
+a leading question because you automatically assign “dislike” instead of asking “How do you
+feel about your current situation?”
+
+Social desirability bias: occurs when the participant responds in a way that they think they
+should. We see this often when asking about societal taboos, such as illicit drug use or
+smoking, particularly during pregnancy.
+
+* In research, we often ask about taboo topics via self-administered surveys. For example,
+NHANES now uses computerized surveys that participants fill out in a private booth with the
+aim that we will get more accurate measures of smoking prevalence and drug use.
+
+* In counseling, we can address this bias by developing a strong and neutral relationship with
+our patient. If they know that they will not be judged, they will be honest and progress can
+be made.
+
+Selection bias: occurs when the people you decide to include in your study are not
+representative of the population you are aiming to study. For example, if you want to study the
+health of children in your county, but you only enroll children from private school, you will likely
+encounter selection bias because children in private school do not adequately represent all
+children in your county. One way to address selection bias is random sampling, such as taking a
+list of all children in your county and randomly choosing participants. Selection bias is one of the
+main threats to validity and generalizability. It is almost never possible (time-wise and
+
+Research Concepts 27
+© 2022 Veritense™
+
+financially) to recruit every single member of your target population so you have to make a
+decision about who is included.
+
+Sampling error: similar to selection bias but it occurs at the stage of analysis. When the data
+points used in analysis do not represent the entire population of data, the results of the analysis
+will not represent the results obtained from the entire population.
+
+In the diagram, the target population is who
+we want to do research about. We select
+our study population to represent this target
+population as best we can. Selection bias
+occurs when as we select participants from
+the target population to be in the study
+population. Sampling error occurs as we
+select participants from our study population
+into our sample population, or our analytic
+sample, as it is sometimes called.
+
+sampling error
+
+Reporting bias: occurs when the direction or statistical significance of results influences
+whether and how the research is reported. Some researchers conduct their experiments but
+only report what they find to be significant. This borders on unethical research practice because
+it is not transparent.
+
+Publication bias: occurs when papers finding a null result (no association) are not submitted
+to review, or are not selected for publication, in favor of reports finding strong positive or
+negative findings. The result is a body of literature with only strong positive or negative findings.
+Due to this, other researchers are repeating the same studies that have already resulted in null
+results since they are not aware that has already been done.
+
+Measurement error: an error in the difference between a measured quantity and the true
+value. It is composed of both random error as a result of imprecision, and systematic error as a
+result of inaccuracy. Note that random error will always be present. Systematic error, or bias,
+can be caused by a miscalibrated instrument (like the body weight scale), an invalid
+questionnaire, etc.
+
+Misclassification error: a type of measurement error that applies to variables that are
+categorical or binary. The result of misclassification error is that someone is shifted into another
+category.
+
+Non-response bias: if you send out a survey to 1,000 people in your county and only 100
+responds, you should be concerned about non-response bias. That is, the people who did not
+respond may be systematically different than those who did respond. Good quality studies
+report their response rate.
+
+Healthy volunteer bias: the flip-side of non-response bias. Persons who volunteer for research
+trials, or who are most likely to respond to health surveys, tend to be healthier, more aware of
+their health status, and even of a higher socioeconomic status than those who do not.
+
+Research Concepts 28
+© 2022 Veritense™
+
+Accuracy and Precision
+
+In the Validity and Reliability section, | discussed a “bullseye”. The “truth” is the very center of
+the inner circle. High accuracy means getting close to the truth. High precision means having
+points clustered close together. How do accuracy and precision relate to validity and reliability?
+How would the example about weighing yourself fit in with this?
+
+s — —
+Low accuracy High ‘accuracy Low accuracy High accuracy
+Low precision Low precision High precision High precision
+
+On a sheet of paper, write out the definitions of terms we’ve discussed so far: validity, accuracy,
+bias, reliability, precision, and random error. Research more online to round out your
+understanding. Questions on the RD exam will ask about the definitions of validity or reliability
+and you'll need to be able to identify which is which.
+
+Research Concepts 29
+© 2022 Veritense™
+
+Sensitivity and Specificity
+When we use a screening test, those we screen will fall into 4 categories.
+
+Among those who truly have the disease, the screening test will correctly identify some
+(true positives, TP) and incorrectly miss some (false negatives, FN).
+
+Among those who truly do not have the disease, the screen will incorrectly classify some
+as positive (false positive, FP) and correctly classify others as disease-free (true
+negatives, TN).
+
+These four groups are depicted in contingency tables. Along the top is the true disease status
+and on the side is the screening test results.
+
+Sensitivity and specificity are statistical properties of a test. They do not vary with how common
+a disease is. Two different screening tests for the same disease likely have different sensitivity
+and specificity.
+
+Sensitivity is the ability of a test to correctly identify those with a disease. That is, how often a
+positive test result corresponds to positive disease status.
+
+Specificity is the ability of a test to correctly identify those without disease as disease-free. That
+is, how often a negative test result corresponds to negative disease status.
+
+A test with 100% sensitivity would produce a positive test in everyone with the disease. No one
+would have a false negative result. A test with 100% specificity would produce a negative test in
+everyone without the disease. No one would have a false positive test result.
+
+True Status / Gold Standard
+
+Positive Negative
+
+TP TN
+
+Research Concepts 30
+© 2022 Veritense™
+
+Positive Predictive and Negative Predictive Value
+
+We're going to continue with the cancer screening example but now focus on positive predictive
+value (PPV) and negative predictive value (NPV). Both are a function of the test and the
+prevalence of the disease in the population being tested.
+
+Positive predictive value is the probability that a patient has the disease, given a positive
+screening test value.
+
+Negative predictive value is the probability that a patient does not have the disease, givena
+negative screening test value.
+
+With sensitivity and specificity, we were looking at the right and left columns, up and down. With
+PPV and NPV, we will be looking across the rows, but we'll still be using the true positive and
+true negative cells.
+
+The PPV is useful for answering the question, “Given that | had a positive test result, what is the
+probability | have the disease?” Because the PPV is a function of both the test and the
+underlying population, PPV will be different in a population with a high disease prevalence than
+in a population with a low disease prevalence.
+
+True Status / Gold Standard
+
+Positive Negative
+
+TP + FN FP + TN
+
+TP TN
+
+PPV= NPV=
+TP + FP FN + TN
+
+Research Concepts 31
+© 2022 Veritense™
+
+Study Guide Questions
+
+Answer these study guide questions using the study guide text. These questions will be your first pass at
+applying the knowledge you’ve read and practiced in example calculations in a question-and-answer
+format. Instead of answering them from memory, go to the text and your notes.
+
+1. Ina hypothetical study population of 40 people, 12 of them have cancer and 28 are cancer-free. The
+standard way to diagnose this type of cancer is a biopsy. Biopsies involve taking a tissue sample and
+examining the pathology to determine if the cells are cancerous. We will call biopsy the “gold
+standard” and it will stand in for the truth, which we never completely know.
+
+In this hypothetical example, the biopsy test correctly classifies cancer 100% of the time, and
+correctly excludes cancer 100% of the time (sensitivity and specificity are both 100%). In this small
+study to test the properties of a new blood test, we find the following results. Of those who truly have
+cancer, 9 had a positive blood test (true positive). Of those who are truly cancer free, 1 has a positive
+blood test (false positive). Positive test results are denoted by a filled, solid black circle.
+
+a.
+
+b.
+
+Which test goes along the top of the table? Which test goes along the side? Fill in the bottom
+totals of the total, corresponding to TP+FN and FP+TN in the example table.
+
+Which people correspond to true positives? Which people correspond to false positives? Fill in
+those cells in the table.
+
+Fill in the rest of the table with math.
+
+Calculate the sensitivity and the specificity of the test, and interpret what they mean. Note that on
+the exam you won't need to calculate sensitivity or specificity. You'll need to know the definition
+and how to interpret the rules.
+
+Have cancer Cancer-free
+
+“a nae Sensitivity =
+
+Specificity =
+
+Research Concepts 32
+© 2022 Veritense™
+
+Use your contingency table from calculating sensitivity and specificity (question 1) to answer
+questions 2 and 3.
+
+2.
+
+Imagine that one of the patients with a positive blood test result comes in to their doctor’s
+
+office for a follow-up. They want to know how likely it is they have cancer. Calculate the PPV
+and interpret.
+
+Imagine that one of the patients with a negative blood test result asks their doctor over the
+
+phone, after getting the good news, how likely it is that they really don’t have cancer.
+Calculate the NPV and interpret.
+
+Fill in the statements with the correct term: specific, negative predictive value, sensitivity,
+
+positive predictive value. Terms may repeat.
+
+a.
+
+b.
+
+If 100 patients with a disease are tested but only 80 test positive for the disease, that
+means the test has a of 80%.
+
+If 100 patients without a disease are tested and 90 test negative for the disease, that
+means the test has a of 90%.
+
+If 100 patients test positive on a screening test but only 20 truly have the disease, that
+means that the is 20%.
+
+If 100 patients test negative on a screening test but only 97% are truly disease-free, that
+means the is 97%.
+
+The ability of a test to correctly identify all screened individuals who are positive for a
+disease is the test's .
+
+The ability of a test to correctly exclude all screened individuals without a disease is the
+test's
+
+5. For the following contingency table, calculate the sensitivity, specificity, PPV, and NPV.
+Interpret the numbers with the wording of the previous fill-in-the blanks and matching.
+
+Colonoscopy
+
++ -
+FIT blood + 6,730
+test 93,270
+
+1,000 99,000 100,000
+
+Research Concepts 33
+© 2022 Veritense™
+
+Study Guide Questions (Answers)
+
+1. In ahypothetical study population of 40 people, 12 of them have cancer and 28 are
+cancer-free. The standard way to diagnose this type of cancer is a biopsy. Biopsies
+involve taking a tissue sample and examining the pathology to determine if the cells are
+cancerous. We will call biopsy the “gold standard” and it will stand in for the truth, which
+
+we never completely know.
+Biopsy
+
+Sensitivity = 9 / 12 = 0.75 — A sensitivity of + .
+
+0.75, or 75% means that the blood test + 9 | 4] 10
+identifies 75% of those who truly have cancer, 8!00d Test 30
+
+Conversely, the test has a false negative rate
+of 25%. 12 28 40
+
+Specificity = 27 / 28 = 0.96 — A specificity of 0.96 or 96% means that the blood test correctly
+identifies 96% of those who truly do not have cancer. Conversely, the test has a false positive
+rate of 4%.
+
+2. Imagine that one of the patients with a positive blood test result comes in to their
+doctor's office for a follow-up. They want to know how likely it is they have cancer.
+Calculate the PPV and interpret.
+
+PPV =9/10=0.90 — A PPV of 90% means that for patients with a positive test result, there is
+a 90% probability that they do have cancer.
+
+3. Imagine that one of the patients with a negative blood test result asks their doctor over
+the phone, after getting the good news, how likely it is that they really don’t have cancer.
+Calculate the NPV and interpret.
+
+NPV = 27/30 =0.90 — An NPV of 90% means that for patients with a negative test result,
+there is a 90% probability that they do not have cancer.
+
+Research Concepts 34
+© 2022 Veritense™
+
+4. Fill in the statements with the correct term: specific, negative predictive value, sensitivity,
+positive predictive value. Terms may repeat.
+
+a. If 100 patients with a disease are tested but only 80 test positive for the disease, that
+
+means the test has a __sensitivity of 80%.
+
+b. If 100 patients without a disease are tested and 90 test negative for the disease, that
+means the test has a__ specificity of 90%.
+
+c. If 100 patients test positive on a screening test but only 20 truly have the disease,
+that means that the __ PPV is 20%.
+
+d. If 100 patients test negative on a screening test but only 97% are truly disease-free,
+that means the __NPV. is 97%.
+
+e. The ability of a test to correctly identify all screened individuals who are positive for a
+disease is the test’s sensitivity .
+
+f. The ability of a test to correctly exclude all screened individuals without a disease is
+the test’s specificity
+
+5. For the following contingency table, calculate the sensitivity, specificity, PPV, and NPV.
+Interpret the numbers with the wording of the previous fill-in-the blanks and matching.
+
+Sensitivity = 790 / 1000 = 0.79
+
+Colonoscopy
+79% of those identified with colon cancer via + -
+colonoscopy also had a positive FIT blood test. FIT blood + 790 5.940 | 6,730
+Specificity =93,060 / 99,000 = 0.94 test . 93,060 | 93,270
+
+94% of those without colon cancer (via OOO SON0N TOWN
+colonoscopy) were correctly identified as cancer-free by the FIT blood test.
+
+PPV = 790 / 6.730 = 0.117
+
+For those with a positive FIT blood test, there is a 11.7% probability they actually have cancer.
+
+NPV = 93,060 / 93.270 = 0.998
+
+For those with a negative FIT blood test, there is a 99.8% probability they are cancer-free.
+
+Research Concepts 35
+© 2022 Veritense™
+
+Prevalence and Incidence
+
+Prevalence is the number of existing disease cases during a period of time. In contrast,
+incidence is the number of new disease cases that develop over a period of time.
+
+For example, when we measure prevalence of heart disease in 2012, we don't distinguish
+between people who had heart disease in 2011 and those who were newly diagnosed with heart
+disease in 2012.
+
+Here are 2 example questions.
+
+A research article describes the number of new and existing cases of type 2 diabetes in the US in 2010.
+What does this number refer to?
+
+a. Incidence
+b. Prevalence
+c. Specificity
+d. Sensitivity
+
+A community nutritionist wants to find out how many new cases of pediatric obesity there were in her
+county in the last year. What is she trying to estimate?
+
+a. Incidence
+b. Prevalence
+c. Specificity
+d. Sensitivity
+
+Why does distinguishing between prevalence and incidence matter?
+
+Many of our statistics come from cross-sectional surveys, such as NHANES and the BRFSS.
+These surveys are snapshots in time — they do not identify people without disease and then
+follow them up over time to see how many people develop disease.
+
+The number of cases we identify during a period of time is a function of the incidence of the
+disease and the duration of the disease. Duration is a function of the severity and mortality of
+the disease.
+
+Prevalence = Incidence x Duration
+
+Those who are living longer with a disease are more likely to show up in our survey results than
+those who don't live as long with the disease. You can imagine that people with more severe
+disease may be more likely to die, and then less likely to be captured in our survey.
+
+When trying to measure acute versus chronic disease, we also run into a duration problem. It is
+difficult to estimate the incidence of food borne illnesses because some less severe forms self-
+resolve at home after a few days. If someone is still sick after a few days, they may go to the
+emergency department and be captured in a state surveillance system. They are likely
+experiencing a more severe form of food borne illness than
+
+someone who felt better after a few days. aoUapIoU| :\W ‘eoUa|eAed °g
+
+Research Concepts 36
+© 2022 Veritense™
+
+When the duration of disease is very short, duration ~0 and prevalence approximates incidence
+in the formula. When there is effective treatment for a disease, but not a cure, prevalence will
+continue to grow as people live longer with the disease.
+
+Incidence
+
+Imagine prevalence as a bathtub of water. The amount of water in the bathtub is a function of
+the water coming into the tub from the faucet and the water draining out of the tub through the
+drain. The water coming into the tub is incidence, or new cases. The water draining out of the
+tub is death as persons who die are no longer in our pool of cases.
+
+For a disease where there is a cure or recovery, you could think of that as evaporation of the
+water out of the tub because those cases leave the prevalence pool as well.
+
+The duration of the disease is a function of it being acute or chronic, as well as the severity or
+mortality. Very severe diseases that quickly lead to death have a short duration. Acute diseases,
+like a week of the flu, come in and out of the pool quickly, so quickly, that incidence and
+prevalence is often equivalent with duration making little difference.
+
+Let’s focus on incidence now. If you were only
+interested in the number of new cases of a disease,
+instead of measuring the total number of cases
+(prevalence) that would be water in the bathtub,
+you want to capture the water coming in from the
+faucet.
+
+You can see that when we measure prevalence, we
+don't distinguish between the water droplets that
+have been in the bathtub for a while compared to
+the brand-new water droplets from the faucet.
+
+In this diagram, the bucket capturing the water from
+the faucet is incidence. We’re not including any of
+the pre-existing cases in the bathtub. We're also
+not accounting for death rates.
+
+Research articles will often report incidence as a rate — that is, the number of new cases in the
+at-risk population over a certain period of time. In a survey, we might calculate an “event rate”
+when we know someone had a heart attack, for example, but don’t know if it was their first. We
+
+Research Concepts 37
+© 2022 Veritense™
+
+can report the number of heart attacks in our county per year as an event rate. If we have a
+prospective cohort study and identify everyone who has never had a heart attack and follow
+them for 20 years, we could calculate a true incidence rate using the number of years each
+person was under follow-up as our denominator, and the number who had a _ heart attack for the
+1 time as the numerator.
+
+Here’s another way to think about prevalence and incidence with a cross-sectional survey
+conducted over one year. We want to describe the prevalence of diabetes in our community.
+We start the survey on Jan 1, 2012 and end it on Dec 31, 2012. To measure diabetes, we ask
+participants, “has a doctor ever told you that you have diabetes?” The dotted line shows each
+person's course, and the x symbol indicates when the person was diagnosed with diabetes. The
+open circle is when they are surveyed. We conduct the survey 3 times throughout the year.
+
+* —— Survey Period — —>
+
+i oo
+
+2 weseee bane . Settee EEE. @ Doon eescess:
+
+4 QGreedecccsssssenssenssensssense Gp snscessssenssessensssnsse|ecsesses:
+
+Jan 1, 2012 Dec 31, 2012
+
+Person 1 is not included in our survey because they passed away before the start of our survey.
+Had they been surveyed, they would have been a case.
+
+Person 2 was diagnosed with diabetes early on in the survey period and surveyed late in the
+year. They are a diabetes case because they were diagnosed before we surveyed them.
+
+Person 3 is diagnosed with diabetes after our survey period, so when we survey them, they do
+not report diabetes and we classify them as a non-case.
+
+Person 4 is diagnosed with diabetes before the start of the survey period, and is surveyed
+midway through the year. They are classified as a case.
+
+Person 5 has not been diagnosed with diabetes and is surveyed early on in the survey period.
+They are classified as without diabetes.
+
+Research Concepts 38
+© 2022 Veritense™
+
+PPV and Prevalence
+
+In the previous section, | mentioned that specificity and sensitivity are characteristics of a test,
+while PPV and NPV vary both by the test characteristics and the underlying prevalence of the
+disease in the population, or how common the disease is.
+
+In each example below, the same screening test is used, which means the sensitivity and
+specificity doesn’t vary because those are inherent to the test. However, the disease prevalence
+varies in each population at 0.1%, 7%, and 18%.
+
+Calculate the PPV for each example.
+
+Disease Status
+Pop #1
+
+Screening
+Test
+
+100 99,900 100,000
+
+Disease Status
+
+Pop #2
+
++ -
+Screening 6,440 | 1,860
+
+Test
+
+7,000 93,000 100,000
+
+Disease Status
+Pop #3
+
++
+Screening + | 16,960 18,200
+Test —_—'|_ 4.440 | 80,360 | 81,800
+
+18,000 82,000 100,000
+
+Research Concepts 39
+© 2022 Veritense™
+
+The population prevalence of the disease and the positive predictive value is highest in
+Population 3. PPV increases with increasing prevalence, even with the same exact screening
+test. How do we interpret PPV? The likelihood of truly having the disease given a positive test
+result. It makes sense that PPV would vary with prevalence — in a low prevalence population,
+the likelihood of having the diseases (positive test or not) would be lower than in a high
+prevalence population. When talking about cost effectiveness, you can see that a screening test
+with the given sensitivity and specificity has a higher yield in a higher prevalence or high-risk
+population. A real-world example is HIV screening in either a general clinic, an STI clinic, or an
+IV-drug treatment clinic as each setting has an increased risk for HIV prevalence.
+
+Answers:
+
+e Population #1: PPV = 92 / 2,090 = 0.04
+e Population #2: PPV = 6,440 / 8,300 = 0.76
+e Population #3: PPV = 16,560 / 18,200 = 0.91
+
+By the way, to calculate overall prevalence, you divide TP + FN /N, so for Population #1, that
+would be 100 / 100,000 = 0.1%
+
+Morbidity and Mortality Rates
+
+The RD exam may ask you a question about mortality rates or about morbidity rates. You need
+to know the difference between morbidity and mortality.
+
+Morbidity refers to the state of being unhealthy, Mortality refers to death.
+not in good health, or with disease.
+
+It may be used to talk about death
+It may be used as a general indicator of health in _ from all-causes or from a specific
+a community. disease.
+
+Here’s an example question.
+
+A new research study reports a 12% mortality rate among infants in your state, but a 10% infant
+mortality rate in your neighboring state, over the past year. This means that:
+
+More infants died in your state than the other state
+
+More infants died in the other state than in your state
+
+12% of infants in your state have some sort of disease
+
+More infants in your state have disease than in the
+
+other state V JeMsuy
+
+aQoo0®
+
+Research Concepts 40
+© 2022 Veritense™
+
+Odds Ratios
+
+You may get a question on the exam asking you to interpret an odds ratio. Odds ratios are a
+measure of association between a dependent and independent variable, and can be calculated
+from a simple contingency table or can be adjusted for other related variables.
+
+Let’s walk through an example. The Healthy Eating Index is a measure of diet quality assessed
+against the Dietary Guidelines for Americans and ranges from 0 to 100. The overall score is
+made of 13 components, reflecting different types of foods and different recommendations. A
+research study examined the association between the Healthy Eating Index score and
+prevalence of diabetes. They dichotomized the HEI at 50.
+
+The odds ratio reported was 1.5 and can be interpreted as:
+
+e The odds of diabetes in those with HEI < 50 was 1.5 times the odds of diabetes in those with
+HEI = 50.
+e The odds ratio of diabetes for those with HEI < 50 versus HEI 2 50 was 1.5.
+
+The key is identifying the two groups being compared (HEI < 50 and HEI 2 50) and the outcome
+variable (diabetes).
+
+When the odds ratio is less than 1, indicating a lower odds in the “exposed” group (HEI < 50 in
+this example), the interpretation can be a little trickier (you'll see in the next few pages). We can
+flip our comparison groups for this example.
+
+If the calculated odds ratio was 0.67, the following interpretations would be correct:
+
+e The odds of diabetes in those with HEI < 50 was 0.67 times the odds of diabetes in those
+with HEI 2 50.
+e The odds ratio of diabetes for those with HEI < 50 versus HEI 2 50 was 0.67.
+
+The following interpretations of the odds ratio are common but not technically correct.
+
+e The odds of diabetes in those with HEI < 50 was 1.5 times higher than the odds of diabetes
+in those with HEI 2 50.
+
+e The odds of diabetes in those with HEI < 50 was 1.5-fold higher than the odds of diabetes in
+those with HEI 2 50.
+
+Research Concepts 41
+© 2022 Veritense™
+
+Let’s do some math to show that those two interpretations are incorrect.
+
+If the probability of diabetes in the HEI < 50 group is 10%, and the probability of diabetes in the
+HEI 2 50 group was 14%, then the corresponding odds are 11% and 16.7%. Don’t worry about
+knowing how to calculate odds from probabilities.
+
+Odds(Diabetes | HEI <50) _0.16666667 _
+Odds (Diabetes |HEI>50) 0.1111111
+
+If the odds of diabetes were higher in the HEI! 2 50 group, the denominator would be larger than
+the numerator, and the resulting odds ratio would be less than 1. This can be interpreted as
+reduced odds in the “exposed” group, which is in the numerator.
+
+If you say that the odds are 1.5 times higher, what you’re really saying is that the odds in the
+HEI < 50 group is (0.11) + (0.11 * 1.5) = 0.11 * 0.167 = 0.278 but that’s not the odds ratio, so it
+can't be true.
+
+If you say the odds are 1.5-fold higher, it would be the same as saying “times higher” but
+because “folds higher” typically isn’t used correctly, most people don’t know the exact meaning
+so it can be misinterpreted.
+
+When the odds ratio is less than 1, you may see different, incorrect interpretations.
+
+e The odds of diabetes in the HEI 2 50 group was 0.67 times lower than the odds of diabetes
+in the HEI < 50 group.
+
+e The odds of diabetes in the HEI 2 50 group was 0.33 times lower than the odds of diabetes
+in the HEI < 50 group.
+
+Lastly, there is an interpretation of odds ratios that is technically correct but easy to misinterpret.
+They are usually expressed as a percent. You may have seen stories on the news talk about a
+390% increase in economic growth. These stories are an example of manipulating numbers to
+tell the story that you want.
+
+Talking about percent increase or decrease in odds ratios is similarly misleading because actual
+magnitude of the resulting difference depends on the baseline risk. For example, let’s say a
+certain lifestyle behavior carries a 10% increased risk of disease. If a patient’s baseline risk for
+an event is 0.001%, that 10% increased risk means much less compared to a patient with a
+baseline risk of 7%, because 10% of 0.001% is much smaller than 10% of 7%.
+
+For an odds ratio of 1.5, you could interpret it as 50% higher odds. For an odds ratio of 0.67,
+you could interpret it as 33% lower odds. But by transforming the odds ratio into percentages,
+you take the interpretation one more step away from the calculated numbers.
+
+Research Concepts 42
+© 2022 Veritense™
+
+Odds Ratio Practice
+
+When interpreting odds ratios, there’s no need to re-invent the wheel. Use the correct
+interpretations on the previous pages for a “template” — don’t jazz it up or change the words, or
+it'll likely be incorrect.
+
+OR 0.67 with 2 groups: HEI 2 50 and comparison group HEI < 50; outcome: diabetes.
+
+o The odds of diabetes in those with HEI = 50 was 0.67 times the odds of diabetes in
+those with HEI < 50.
+o The odds ratio of diabetes for those with HEI 2 50 versus HEI < 50 was 0.67.
+
+1. OR 1.12 with 2 groups diabetes versus no diabetes; outcome: heart attack.
+2. OR 1.5 with 2 groups: pregnant versus not pregnant women; outcome: normal
+folic acid level
+
+Answers:
+
+1. OR 1.12 with 2 groups diabetes versus no diabetes; outcome: heart attack.
+o The odds of heart attack in those with diabetes was 1.12 times the odds of heart
+attack among those without diabetes.
+o The odds ratio of heart attack for those with diabetes versus those without diabetes
+was 1.12.
+2. OR 1.5 with 2 groups: pregnant versus not pregnant women; outcome: normal
+folic acid level
+o The odds of normal folic acid levels in pregnant women was 1.5 times the odds of
+normal folic acid levels in not-pregnant women.
+o The odds ratio of a normal folic acid level for pregnant women versus not-pregnant
+women was 1.5.
+
+Mean, Median, Mode
+
+Mean, median, and mode are all measures of central
+tendency in a group of numbers or a data set — that is,
+what is the most common value?
+
+Which value you choose to report depends on many
+things, such as the size of your sample and the
+distribution.
+
+The mean is the average across the population, such as
+
+average age. The median is the 50" percentile, which may
+
+or may not be the mean, depending on the distribution.
+
+You may have heard of percentiles with infant and Mean
+
+Median
+children’s growth charts. Mode
+
+The mode is the most frequent value.
+
+Research Concepts 43
+© 2022 Veritense™
+
+The image on the previous page is a normal distribution of a continuous variable, such as age.
+In anormal distribution, or bell curve, the mean, median, and mode are the same.
+
+Positive skew
+
+Median Median
+' |
+Mean Mean
+
+When a distribution is skewed (like the distributions above), the mean, median, and mode no
+longer lie atop one another. Instead, they spread out. With negative skew, the mean is lower
+than the median. With positive skew, the mean is higher than the median. With either type of
+skew, we would report the median rather than the mean.
+
+Total cholesterol is typically positively skewed (pulled away from zero, towards high values). We
+would want to report the median total cholesterol, rather than the mean, which is exaggerated
+because of a few people with very high numbers. You might see the same pattern with BMI.
+
+Test Your Knowledge
+In a negatively skewed distribution, the median will be the mean.
+
+a. greater than
+b. less than
+
+In a positively skewed distribution, the median will be the mean.
+
+a. greater than
+b. less than
+
+When a distribution is not normally distributed, we would report the
+
+a. median
+b. mean
+c. mode
+
+Vv ‘dg ‘Vv :suemsuy
+
+Research Concepts 44
+© 2022 Veritense™
+
+Standard deviation
+Standard deviation is a way to describe the spread of a distribution.
+
+We use standard deviations all the time — such as Z-scores to examine the risk of osteoporosis.
+From a study on bone density in the population, an average was determined and all the other
+values were standardized to that value so that they fall within 1, 2, 3, or more standard
+deviations. Hence, a Z-score of 1 SD or 2 SD below the norm would signal low bone density, or
+bone density below average.
+
+Sometimes you'll see Z-scores and sometimes you'll see T-scores. They’re similar but different
+in nuances you don’t need to know for the exam. If you’re interested in learning more, check out
+online statistical courses.
+
+459 529 599 669 809 949 1019 1089 25 2 “1.5 1 0 +1 415 42
+Bone Mineral Density Bone Mineral Density Z-Scores
+White Women, age 65 White Women, age 65
+Actual BMD values Standard Distribution
+
+Here’s a simplified example. For white women age 65, the average bone mineral density is 809
+with SD 140. To create a Z-score distribution, we would set the mean value, 809, to zero. A
+white woman age 65 with BMD 459 would have a Z-score of -2.5, while someone with a BMD of
+949 would have a Z-score of +1.
+
+(Individual BMD — mean BMD)
+
+Zr-— =
+score SD
+
+Using the formula above, calculate out how | got the Z-scores of -2.5 and +1.
+
+Research Concepts 45
+© 2022 Veritense™
+
+Practice Questions
+
+Answer these practice questions using the Study Smarter Method by Veritense™ that you read about in
+Chapter 2 and 3 of the Study Smarter Method for the RD-Exam section. Instead of answering these
+questions using your memory and logic, use the study guide text and/or your own research to determine
+which answer is correct (and why), and why the other answers are incorrect. Pay attention to the question
+itself, and be sure you know what the question is asking. There are answers with explanations following.
+If this is your first set of practice questions, go back and skim Chapters 2 and 3 in the Study Smarter
+Method for the RD-Exam section to remind yourself of the types of questions and how to answer them.
+
+1.
+
+Researchers want to design a study that identifies patients experiencing GERD and
+follow them for 10 years and record who develops Barrett’s esophagus. What type of
+study is this?
+
+a. Case-control
+
+b. Prospective
+
+c. Retrospective
+
+d. Randomized trial
+
+Which of the following is a disadvantage of case-control studies?
+a. Controls can be difficult to find
+b. Efficient for studying rare conditions
+c. Data may be subject to recall bias
+d. AandC
+
+You would like to conduct a study that examines the association of childhood sugar-
+sweetened beverage consumption on risk of cancer in adulthood. Which would be the
+best study design?
+
+a. Randomized trial
+
+b. Prospective cohort study
+
+c. Case control study
+
+d. Cross-sectional survey
+
+Estimate the correlation coefficient (r) for the data in the following e
+graph. 7
+a. 0.9
+b. 0.2
+c. 0
+d. -0.2
+
+Research Concepts 46
+© 2022 Veritense™
+
+5. Which of the following is an example of snowball sampling?
+
+a.
+
+b.
+
+d.
+
+After identifying an individual with newly-diagnosed HIV, you ask them to share
+information about your study with members of their support group
+
+You ask every 3” person who walks into the shopping mall food court to fill out
+your survey
+
+You use a random number generator to select patients from a cardiovascular
+disease registry list
+
+A and B
+
+6. Which of the following is NOT considered when assigning evidence grades in the
+Evidence Analysis Library?
+
+a.
+
+b.
+c.
+d
+
+Scientific rigor and validity
+
+Clinical impact of studied outcomes
+Consistency of findings across studies
+Number of authors contributing to the research
+
+7. The results of a 3-day food record were obtained in June and again a month later. What
+is this called?
+
+Validity
+
+Sensitivity
+
+Reliability
+
+Specificity
+
+a.
+
+b.
+c.
+d
+
+8. You want to make sure the tool you are using to collect data about dietary supplements
+in your community has validity. To ensure the tool is valid, you need to select a tool that:
+has been used repeatedly in the literature
+
+a.
+b
+c.
+d. yields primarily quantitative data
+
+. contains words and phrases familiar to participants
+
+measures accurately what it is intended to measure
+
+Research Concepts 47
+© 2022 Veritense™
+
+Practice Questions (Answers)
+
+1. Researchers want to design a study that identifies patients experiencing GERD and
+follow them for 10 years and record who develops Barrett's esophagus. What type of
+study is this?
+
+a. Case-control
+
+b. Prospective
+
+c. Retrospective
+
+d. Randomized trial
+
+Answer: B. This is a prospective observational study: prospective because they are measuring
+the exposure (GERD) at case identification and following participants forward to the outcome,
+Barrett’s esophagus; observational because there is no treatment or controlled exposure.
+
+2. Which of the following is a disadvantage of case-control studies?
+a. Controls can be difficult to find
+b. Efficient for studying rare conditions
+c. Data may be subject to recall bias
+d. AandC
+
+Answer: D. In case-control studies, you identify cases by measuring the outcome and then
+move backwards to measure the exposure. You often match to controls that are similar to the
+cases in everything but the outcome. Advantages of this study design include the ability to look
+at multiple exposures, efficient for rare outcomes since you identify cases based on the
+outcome, and they can be nested within existing cohort studies. However, information that relies
+on memory may be subject to recall bias, and it can be difficult for some conditions to find a
+suitable control group.
+
+3. You would like to conduct a study that examines the association of childhood sugar-
+sweetened beverage consumption on risk of cancer in adulthood. Which would be the
+best study design?
+
+a. Randomized trial
+
+b. Prospective cohort study
+c. Case control study
+
+d. Cross-sectional survey
+
+Answer: B. A prospective cohort study would be the best option, because this study design
+works well for outcomes that take a long time to develop. By enrolling children at the time of the
+exposure, you would gain a more accurate measure of their sugar-sweetened beverage intake
+than if you conducted a case-control study or cross-sectional survey in adulthood and asked
+them to recall their consumption. A randomized trial would not be feasible resource-wise for a
+study this long, and may not be ethical if we believe sugar-sweetened beverages are harmful.
+
+Research Concepts 48
+© 2022 Veritense™
+
+4. Estimate the correlation coefficient (r) for the data in the following
+graph. Y
+a. 0.9
+b. 0.2
+c. 0
+d. -0.2
+
+Answer: C. Correlation can only measure linear relationships, so data points that form a non-
+linear relationship would return a correlation coefficient of 0, even though there seems to be a
+strong pattern here. Remember that for linear relationships, a positive correlation is seen if X
+and Y increases together or decrease together, while a negative correlation is seen when X and
+Y have an inverse relationship.
+
+5. Which of the following is an example of snowball sampling?
+
+a. After identifying an individual with newly-diagnosed HIV, you ask them to share
+information about your study with members of their support group
+
+b. You ask every 3 person who walks into the shopping mall food court to fill out your
+survey
+
+c. You use a random number generator to select patients from a cardiovascular
+disease registry list
+
+d. AandB
+
+Answer: A. Snowball sampling is done when you ask participants to share information of
+people they think would be open to participating in your study, or if that is not appropriate, you
+ask participants to share information about your study with their acquaintances. This may result
+in a study population that is more homogenous than using other methods, so this method is
+typically only used when you are studying something environmental, cultural, or network based.
+Answer choice B is an example of convenience sampling, while answer choice C is an example
+of random sampling.
+
+6. Which of the following is NOT considered when assigning evidence grades in the
+Evidence Analysis Library?
+a. Scientific rigor and validity
+b. Clinical impact of studied outcomes
+c. Consistency of findings across studies
+d. Number of authors contributing to the research
+
+Answer: D. Evidence grades, ranging from Grade | (strong) to Grade IV (consensus) or Grade
+IV (insufficient evidence) are assigned based on quality of the study (including scientific rigor
+and validity, design and execution), the number of studies and subjects, consistency of findings
+across studies and the magnitude of the effect across studies, the importance of the studied
+outcomes (clinical impact), and the generalizability of the findings to the population of interest.
+
+Research Concepts 49
+© 2022 Veritense™
+
+7. The results of a 3-day food record were obtained in June and again a month later. What
+is this called?
+a. Validity
+b. Sensitivity
+c. Reliability
+d. Specificity
+
+Answer: C. This isn’t a great question, but is reflective of what you might see on the exam. Why
+isn’t it a great question? Because it’s plausible that someone would change how they eat within
+a month, and the question doesn’t specify that the 3-day food record is being done with the
+same person. But the idea of repeating the same procedure in the same way, with the same
+person, is getting at reliability. Don’t just be able to recognize that it’s referring to reliability, be
+able to write out the definitions of the other answers, too.
+
+8. You want to make sure the tool you are using to collect data about dietary supplements
+in your community has validity. To ensure the tool is valid, you need to select a tool that:
+a. has been used repeatedly in the literature
+b. contains words and phrases familiar to participants
+c. measures accurately what it is intended to measure
+d. yields primarily quantitative data
+
+Answer: C. Many researchers use instruments that have been used previously in literature
+because repeated use is often confused with validity. It’s important to note that an instrument
+that has been validated in a certain population is not necessarily valid in another population.
+You would want to make sure you use an instrument validated in a population like yours, not
+one developed for another culture or another country. Answer choice B speaks to face validity,
+which is only one aspect of validity. Quantitative data does not have anything to do with validity,
+they are 2 separate concepts. Answer choice C is the verbatim definition of validity.
+
+L = Ovi / (608 — 676) ‘S°2- = Ov / (608 — 6Sr)
+
+Research Concepts 50

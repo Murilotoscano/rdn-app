@@ -1,0 +1,333 @@
+[
+  {
+    "id": "m3-mgmt-031",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "easy",
+    "text": "According to Maslow's Hierarchy of Needs, which level must be satisfied BEFORE an employee can be motivated by esteem needs?",
+    "options": [
+      "Self-actualization",
+      "Esteem and belonging/love needs",
+      "Physiological and safety needs (basic/deficiency needs), THEN belonging/love needs",
+      "Esteem needs can be pursued simultaneously with physiological needs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Maslow's Hierarchy (bottom to top): (1) Physiological — food, water, warmth, rest; (2) Safety — security; (3) Belonging/Love — relationships, friends; (4) Esteem — prestige, accomplishment, respect; (5) Self-Actualization — achieving full potential. Lower needs must be met BEFORE higher needs can motivate behavior. Basic/physiological + safety = 'D-needs' (Deficiency needs) — motivation DECREASES as needs are met. Self-actualization = 'B-needs' (Being needs) — motivation INCREASES as lower needs are met. Esteem needs are stronger in children and adolescents than in certain adults.",
+    "tags": [
+      "Maslow",
+      "hierarchy-of-needs",
+      "motivation",
+      "D-needs",
+      "B-needs"
+    ]
+  },
+  {
+    "id": "m3-mgmt-032",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A manager believes employees are naturally lazy, avoid work if possible, and must be tightly controlled and threatened to perform. Which management theory does this reflect?",
+    "options": [
+      "Theory Y",
+      "Theory Z of Ouchi",
+      "Theory X",
+      "Contingency theory"
+    ],
+    "correctIndex": 2,
+    "explanation": "McGregor's Theory X: employees must be controlled, directed, and coerced; employees have little ambition, dislike work, are irresponsible, avoid work; primary motivation = money then security. Hard management approaches (coercion, threats, micromanagement, tight controls) may result in hostility and poor performance. Soft approaches may result in workers wanting more reward for less work. Theory Y: employees seek responsibility, self-control, and intrinsic motivation — builds on esteem and self-actualization (Maslow). Theory Z (Ouchi): Japanese management — employee loyalty, extensive training, slow promotions, group decision-making, lifetime employment.",
+    "tags": [
+      "Theory-X",
+      "Theory-Y",
+      "McGregor",
+      "management-theories",
+      "motivation"
+    ]
+  },
+  {
+    "id": "m3-mgmt-033",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which management theory uses key tools including decentralization, delegation, participative management, and employee self-evaluations?",
+    "options": [
+      "Theory X — tight controls ensure compliance",
+      "Theory Y — employees seek responsibility and exercise self-control",
+      "Theory Z — extensive training builds loyalty",
+      "Scientific management — 'one right way' optimizes efficiency"
+    ],
+    "correctIndex": 1,
+    "explanation": "McGregor's Theory Y assumes employees naturally seek responsibility and exert effort at work as naturally as play. Theory Y builds on Maslow's esteem and self-actualization needs. Key tools: (1) decentralization and delegation — pushes authority down; (2) broadening job descriptions — increases scope and challenge; (3) participative management — consulting employees in decisions; (4) employee goal-setting and self-evaluations. Theory Y does NOT mean a 'soft' approach. Theory Z focuses on employee loyalty, family culture, stable employment, group decision-making, slow promotions, and lifetime employment (Japanese management, 1980s boom).",
+    "tags": [
+      "Theory-Y",
+      "McGregor",
+      "management-theories",
+      "decentralization",
+      "participative-management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-034",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which management theory is characterized by stable employment, high employee loyalty, slow promotions, group decision-making, and a focus on employee well-being inside AND outside of work?",
+    "options": [
+      "McGregor's Theory X",
+      "McGregor's Theory Y",
+      "Theory Z of Ouchi (Japanese management)",
+      "Scientific management (Taylorism)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Theory Z of Ouchi (1980s Japanese management): employees desire affiliation and support from their company; family culture and traditions are important; extensive training builds order and moral obligation to work hard; managers focus on loyalty and employee well-being in AND outside of work. Results: low turnover, high productivity, high morale, high satisfaction. Characteristics: slow promotions, group decision-making, lifetime employment opportunities. Theory X = coercion/control; Theory Y = self-direction/esteem; Theory Z = loyalty/family culture. Connect to Maslow: Theory Z taps belonging/love needs (Level 3).",
+    "tags": [
+      "Theory-Z",
+      "Ouchi",
+      "Japanese-management",
+      "loyalty",
+      "group-decision-making"
+    ]
+  },
+  {
+    "id": "m3-mgmt-035",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which of the following correctly identifies the 5 functional subsystems of the foodservice system?",
+    "options": [
+      "Planning, Organizing, Staffing, Directing, Controlling",
+      "Procurement, Production, Distribution and Service, Sanitation, Maintenance",
+      "Inputs, Transformation, Outputs, Feedback, Environment",
+      "Finance, Human Resources, Marketing, Operations, Quality"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 5 FUNCTIONAL SUBSYSTEMS of the foodservice system are: (1) Procurement, (2) Production, (3) Distribution and Service, (4) Sanitation, (5) Maintenance. These are classified by FUNCTION, not by management role. Storage is NOT a functional subsystem (common distractor). The 5 management functions (POSDC) are a separate concept — planning, organizing, staffing, directing, controlling. Systems theory uses inputs → transformation → outputs (with feedback and environment). These are related but distinct concepts.",
+    "tags": [
+      "foodservice-system",
+      "functional-subsystems",
+      "procurement",
+      "production",
+      "systems-theory"
+    ]
+  },
+  {
+    "id": "m3-mgmt-036",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "An organization where all clinical RDs report to the Nutrition Manager, all foodservice staff report to the Foodservice Manager, and all managers require Director approval for major decisions — all following the same policies — is best described as:",
+    "options": [
+      "Decentralized — authority delegated to individual managers",
+      "Centralized — decision-making authority concentrated in upper management",
+      "Functional organization — units divided by specialized function",
+      "Line and staff organization — combination of line authority with specialist staff"
+    ],
+    "correctIndex": 1,
+    "explanation": "Centralized organization: decision-making authority concentrated in upper management; good for established processes, close control, uniformity of policies, and use of specialized experts. Key indicators: all managers require Director approval; same policies applied organization-wide. Decentralized: authority delegated to lower levels — good for adaptability, innovation, quick decisions, diverse/geographically dispersed businesses. Scope of authority: in centralized = greater at upper levels; in decentralized = similar at all levels. Neither is inherently superior — effectiveness depends on organizational attributes.",
+    "tags": [
+      "centralized",
+      "decentralized",
+      "organizational-structure",
+      "scope-of-authority",
+      "management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-037",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A regional nutrition director is now responsible for foodservice department directors across five states. Compared to her previous role as a single department director, her span of control will:",
+    "options": [
+      "Increase — she now has authority over more people",
+      "Decrease — geographical dispersion of workers reduces span of control",
+      "Stay the same — span of control is organizational, not individual",
+      "Increase — decentralized authority expands each manager's control"
+    ],
+    "correctIndex": 1,
+    "explanation": "Span of control = an individual manager's ability to efficiently and effectively supervise all work sites and workers. Factors that DECREASE span of control: geographical dispersion of workers, complicated work, workers across several departments, and vague policies. Despite managing MORE people, the geographic spread across five states makes it harder to supervise effectively — decreasing span of control. Contrast: scope of authority = organizational level (centralized vs. decentralized); span of control = individual manager level. Standardized policies INCREASE span of control by reducing ambiguity.",
+    "tags": [
+      "span-of-control",
+      "scope-of-authority",
+      "geographic-dispersion",
+      "management",
+      "organizational-structure"
+    ]
+  },
+  {
+    "id": "m3-mgmt-038",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "In which type of organizational structure does each employee report to only ONE superior, authority flows strictly top-to-bottom, and this is considered the simplest, most traditional form?",
+    "options": [
+      "Functional organization",
+      "Line and staff organization",
+      "Line organization (scalar/unity of command)",
+      "Matrix organization"
+    ],
+    "correctIndex": 2,
+    "explanation": "Line organization encompasses 3 related principles: (1) Unity of Command — each employee is accountable to ONLY ONE superior; (2) Scalar Principle — each employee reports directly to their immediate supervisor only (chain of command); (3) Line Authority — multiple employees report to a single administrator. In line organization: authority flows DOWN (top to bottom); responsibility flows UP (bottom to top). Advantages: fixed responsibility, quick decision-making, clearly defined levels of authority. It is the simplest and most traditional form, but present even in complex organizations. Functional organization: units divided by function (HR, finance, foodservice).",
+    "tags": [
+      "line-organization",
+      "unity-of-command",
+      "scalar-principle",
+      "organizational-structure",
+      "chain-of-command"
+    ]
+  },
+  {
+    "id": "m3-mgmt-039",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A hospital organizes its departments by specialized function — nursing, foodservice, finance, HR, pharmacy — each with its own internal hierarchy. This is an example of:",
+    "options": [
+      "Line organization",
+      "Functional organization",
+      "Line and staff organization",
+      "Centralized organization"
+    ],
+    "correctIndex": 1,
+    "explanation": "Functional organization: units divided based on specific FUNCTIONS (operations, finance, marketing, HR, foodservice, nursing). Within each functional unit, there are levels of authority — so line authority can still exist within functional organization. This connects to the foodservice system's 5 functional subsystems (procurement, production, distribution, sanitation, maintenance). Line organization = simple chain of command. Line and staff organization = combination of line organization with specialist 'shoot-offs' (staff reporting to multiple levels, like HR or legal advisors across divisions).",
+    "tags": [
+      "functional-organization",
+      "organizational-structure",
+      "foodservice-system",
+      "line-authority",
+      "management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-040",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "When multiple people or functional units work together and produce an outcome GREATER than the sum of their individual contributions, this is called:",
+    "options": [
+      "Synergy",
+      "Delegation",
+      "Centralization",
+      "Line authority"
+    ],
+    "correctIndex": 0,
+    "explanation": "Synergy: the outcome of multiple people/functional units working together is GREATER than the sum of them working alone. Managers can foster synergy by: creating teams where members complement each other, facilitating collaboration through open workspaces, and setting common objectives. Synergy in marketing: launching multiple low-cost initiatives rather than a single large campaign (especially effective for small departments with limited budgets). Example: bakery department creates a brochure + bundles breakfast catering with coffee service — the combined effect exceeds what either initiative would achieve alone.",
+    "tags": [
+      "synergy",
+      "organizational-structure",
+      "teamwork",
+      "marketing",
+      "management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-041",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Management by Objective (MBO) is associated with which decision-making style?",
+    "options": [
+      "Autocratic — manager makes all decisions independently",
+      "Participative — manager seeks employee input in setting goals",
+      "Consensus — entire group must agree on all objectives",
+      "Democratic — employees vote on organizational objectives"
+    ],
+    "correctIndex": 1,
+    "explanation": "Management by Objective (MBO): manager works WITH employees to review organizational objectives, formulate goals, and track/monitor goal achievement. Key features: control from within (not top-down), performance goals established WITH employees, focuses on PARTICIPATIVE decision-making (manager seeks input from others before making decisions — but the final decision remains with the manager). MBO connects to Theory Y (employees seek responsibility) and to Maslow's esteem/self-actualization needs. Autocratic: manager decides alone. Consensus: everyone must agree. Democratic: majority vote rules.",
+    "tags": [
+      "management-by-objective",
+      "MBO",
+      "participative-management",
+      "decision-making",
+      "Theory-Y"
+    ]
+  },
+  {
+    "id": "m3-mgmt-042",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Delegation gives an employee responsibility for a task AND the authority to alter procedures to achieve the desired outcome. Which HBL maturity level is NOT appropriate for delegation?",
+    "options": [
+      "M4 — able and willing",
+      "M3 — able but unwilling",
+      "M2 — unable but willing",
+      "Both M1 and M2 are not appropriate for delegation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Effective delegation requires the employee to have the CAPABILITY (mental/physical ability) to perform the task. A manager should assess an employee's skills against the difficulty of the task before delegating. M1 (unable and unwilling) and M2 (unable but willing): both lack the skills/ability for the task — delegation is inappropriate. M3 (able but unwilling) corresponds to S3 Participating — some delegation possible but requires support. M4 (able and willing) corresponds to S4 Delegating — full delegation appropriate. Delegation ≠ telling someone what to do or micromanaging daily progress reports — it gives genuine responsibility and authority.",
+    "tags": [
+      "delegation",
+      "HBL",
+      "M1",
+      "M2",
+      "capability",
+      "management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-043",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "easy",
+    "text": "Which of the following is a union STRATEGY (not an employer strategy) in a labor dispute?",
+    "options": [
+      "Lockout — management prevents union employees from entering the workplace",
+      "Strikebreakers ('scabs') — non-union workers brought in to replace strikers",
+      "Picket — employees publicly demonstrate outside the employer building",
+      "Yellow-dog contract — employees sign agreement not to join a union"
+    ],
+    "correctIndex": 2,
+    "explanation": "Union strategies: Strike (don't go to work), Picket (public demonstration outside employer), Boycott (refusal to do business), Collective work stoppage, Featherbedding (getting employers to pay for work not performed), Collective bargaining, Hot cargo agreement. Employer strategies: Lockout (prevent union employees from entering), Sell and close (threat of job loss), Strikebreakers/scabs (non-union replacement workers), Blacklist (circulate list of union members to discriminate), Yellow-dog contracts (anti-union pledge — now illegal), Management-run operations (admin doing union jobs during strike). Grievance: employee's right to present complaints and have conditions adjusted per CBA.",
+    "tags": [
+      "union-strategies",
+      "employer-strategies",
+      "strike",
+      "picket",
+      "labor-dispute"
+    ]
+  },
+  {
+    "id": "m3-mgmt-044",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Upward communication involves communication from lower to upper levels of an organization. Which function is a KEY use of upward communication in fraud detection?",
+    "options": [
+      "Exit interviews",
+      "Performance reviews",
+      "Whistleblowing",
+      "Annual budget reporting"
+    ],
+    "correctIndex": 2,
+    "explanation": "Upward communication: flows from bottom of organizational hierarchy to the top. Key uses: whistleblowing (fraud detection), exit interviews (source of information for business decisions, process reengineering, quality control). Disadvantage of upward communication: (1) employees may fear to participate (retaliation concerns); (2) information may be distorted as it passes through each management tier (like 'telephone game'). This connects to organizational structure — flatter organizations with fewer management tiers reduce distortion in upward communication.",
+    "tags": [
+      "upward-communication",
+      "whistleblowing",
+      "fraud-detection",
+      "organizational-structure",
+      "management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-045",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which of the following most accurately distinguishes 'authority,' 'responsibility,' and 'accountability' in the context of delegation?",
+    "options": [
+      "Authority = obligation to perform; Responsibility = power to decide; Accountability = ability to perform",
+      "Authority = power to make decisions; Responsibility = obligation to perform; Accountability = being answerable for results",
+      "Authority = chain of command; Responsibility = span of control; Accountability = scope of authority",
+      "All three are synonymous and used interchangeably in management literature"
+    ],
+    "correctIndex": 1,
+    "explanation": "Delegation requires understanding 4 key terms: (1) Authority: POWER to make decisions (e.g., power to delegate); flows from upper to lower levels; (2) Capability: mental/physical ABILITY to perform a task; (3) Responsibility: OBLIGATION to perform an assigned activity — both manager AND employee share responsibility after delegation; (4) Accountability: being responsible/answerable to an organization or manager — both manager and employee are accountable, but the employee reports back to the manager against performance standards. Delegation transfers responsibility and authority to the employee while the manager retains ultimate accountability.",
+    "tags": [
+      "authority",
+      "responsibility",
+      "accountability",
+      "delegation",
+      "management-concepts"
+    ]
+  }
+]

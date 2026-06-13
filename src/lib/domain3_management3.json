@@ -1,0 +1,489 @@
+[
+  {
+    "id": "m3-mgmt-046",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "In systems theory, which term describes information that flows BACK into the system about whether operations worked or failed, to help restore equilibrium?",
+    "options": [
+      "Equifinality",
+      "Transformation",
+      "Feedback",
+      "Interdependency"
+    ],
+    "correctIndex": 2,
+    "explanation": "Key systems theory terms: Feedback — information on how operations worked or failed, used to modify operations and restore equilibrium (can be INTERNAL or EXTERNAL). Internal feedback: within the department (e.g., patients complaining to DTR → DTR tells manager → manager tells chef). External feedback: from outside the system (e.g., health inspector assessment, Joint Commission survey). Equifinality: outputs can be achieved in multiple ways (e.g., quality meals from scratch OR pre-prepared). Transformation: processes that change inputs into outputs. Interdependency: continual relationships between subunits enabling efficient/effective systems. Linking processes: communication and decision-making.",
+    "tags": [
+      "systems-theory",
+      "feedback",
+      "internal-feedback",
+      "external-feedback",
+      "equifinality"
+    ]
+  },
+  {
+    "id": "m3-mgmt-047",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A hospital's health inspector conducts a surprise inspection of the dish room. In systems theory terms, this inspection is an example of:",
+    "options": [
+      "Internal feedback — information from within the department",
+      "External feedback — information from outside the system",
+      "A transformation process — converting inputs to outputs",
+      "A linking process — communication that unifies the system"
+    ],
+    "correctIndex": 1,
+    "explanation": "External feedback comes from outside the organizational system or subsystem — examples include: The Joint Commission survey, health inspector assessment, customer comment cards from the community, or regulatory agency reports. Internal feedback comes from WITHIN the system — example: patients and cafeteria customers telling DTRs/RDNs that food is cold; the DTRs relaying that to the foodservice manager; who discusses it with the chef. Important distinction: feedback from patients is INTERNAL (not external) because patients are part of the hospital system. External = comes from outside the organization.",
+    "tags": [
+      "systems-theory",
+      "external-feedback",
+      "internal-feedback",
+      "health-inspector",
+      "Joint-Commission"
+    ]
+  },
+  {
+    "id": "m3-mgmt-048",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which of the following is an INPUT in the Foodservice Systems Model?",
+    "options": [
+      "Customer satisfaction",
+      "Financial accountability",
+      "Personnel (staff)",
+      "Finished meals (products)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Foodservice Systems Model: INPUTS include — time, people (personnel), raw materials, information, money, facilities, energy. TRANSFORMATION PROCESSES include — purchasing, production, sanitation, service/distribution (the 5 functional subsystems). OUTPUTS include — finished products/meals, services, customer satisfaction, employee satisfaction, financial accountability. Memory system: financial records, personnel records, forecasting data. Environment: regulatory agencies, economy, society, culture. Controls: plans, contracts, laws/regulations. Customer satisfaction is an OUTPUT; finished meals are OUTPUTS; personnel are INPUTS.",
+    "tags": [
+      "systems-theory",
+      "foodservice-systems-model",
+      "inputs",
+      "outputs",
+      "transformation"
+    ]
+  },
+  {
+    "id": "m3-mgmt-049",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Strategic planning asks 4 key questions. Which of the following is NOT one of them?",
+    "options": [
+      "Where are we now?",
+      "Where are we going?",
+      "Who is responsible for each objective?",
+      "Are we on track?"
+    ],
+    "correctIndex": 2,
+    "explanation": "Strategic planning is a continuous and systematic management process to determine long-term goals, the best approach to accomplish them, and how success will be measured. The 4 key questions are: (1) Where are we now? (2) Where are we going? (3) How do we get there? (4) Are we on track? Key features: continuous, systematic, future-thinking, creates a plan to accomplish outcomes, analyzes the organization in context of its environment, determines success criteria, and evaluates progress. Strategic planning is NOT used in evaluation — it is used to INFORM policies and operational decisions. 'Who is responsible' relates to organizing, not strategic planning.",
+    "tags": [
+      "strategic-planning",
+      "management-functions",
+      "long-term-goals",
+      "strategy"
+    ]
+  },
+  {
+    "id": "m3-mgmt-050",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "The 4 P's of the marketing mix are Price, Promotion, Place, and Product. A foodservice director updates the hospital cafeteria's menu and creates new entrees to meet patient demand for plant-based options. Which 'P' does this represent?",
+    "options": [
+      "Price",
+      "Promotion",
+      "Place",
+      "Product"
+    ],
+    "correctIndex": 3,
+    "explanation": "4 P's of Marketing Mix: (1) Product — tangible good or intangible service developed to meet a specific consumer need/demand; must understand the problem it solves and convey benefits to consumers. (2) Price — affects how a product is sold; linked to perceived value; price too HIGH or too LOW will hinder sales. (3) Promotion — marketing communication strategies: advertising, sales promotions, special offers, public relations; the COMMUNICATION part of marketing. (4) Place — how the product is provided to customers; placement strategy must complement rest of product strategy. Creating new menu items to meet demand = Product.",
+    "tags": [
+      "marketing",
+      "4-Ps",
+      "product",
+      "promotion",
+      "place",
+      "price"
+    ]
+  },
+  {
+    "id": "m3-mgmt-051",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A hospital cafeteria markets its new 'Heart Healthy' menu to employees aged 40–65 in white-collar professional roles. This marketing strategy uses which type of market segmentation?",
+    "options": [
+      "Geographic segmentation — based on physical location",
+      "Psychographic segmentation — based on personality and interests",
+      "Behavioristic segmentation — based on consumer behaviors",
+      "Demographic segmentation — based on age, occupation, and related characteristics"
+    ],
+    "correctIndex": 3,
+    "explanation": "4 types of market segmentation: (1) Geographic — physical location (region, city, rural vs. urban); (2) Psychographic — personality, interests, beliefs, values, lifestyle; (3) Behavioristic — consumer behaviors towards products (usage patterns, brand loyalty); (4) Demographic — age, sex, race, ethnicity, income, education, and occupation — 'they describe a person.' Marketing to employees aged 40–65 in white-collar roles targets age and occupation → demographic segmentation. VALS (Values and Lifestyles) segments use BOTH psychographic and demographic traits to classify consumers into 8 groups (Innovators, Survivors, Makers, Experiencers, Strivers, Achievers, Believers, Thinkers).",
+    "tags": [
+      "marketing",
+      "market-segmentation",
+      "demographic",
+      "psychographic",
+      "VALS"
+    ]
+  },
+  {
+    "id": "m3-mgmt-052",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "In the VALS framework, which consumer group is characterized by having HIGH resources, high self-esteem, and exhibiting ALL THREE primary motivations (ideals, achievement, and self-expression)?",
+    "options": [
+      "Achievers — goal-oriented, committed to career and family",
+      "Thinkers — mature, reflective, value order and knowledge",
+      "Innovators — successful, sophisticated, abundant resources",
+      "Experiencers — young, impulsive, variety-seeking"
+    ],
+    "correctIndex": 2,
+    "explanation": "VALS 8 segments: Innovators: highest resources + highest income + all 3 primary motivations (ideals, achievement, self-expression). Survivors: lowest resources, no primary motivation (focused on meeting basic needs). Thinkers: motivated by ideals, mature, value order/knowledge. Achievers: motivated by achievement, high income, career/family committed. Believers: motivated by ideals, conservative, traditional values. Strivers: motivated by achievement, concerned about others' opinions. Experiencers: motivated by self-expression, young, impulsive. Makers: motivated by self-expression, lower income, self-sufficient. Connect to Maslow: Survivors = physiological/safety needs; Innovators = self-actualization.",
+    "tags": [
+      "VALS",
+      "marketing",
+      "Innovators",
+      "market-segmentation",
+      "consumer-behavior"
+    ]
+  },
+  {
+    "id": "m3-mgmt-053",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which cultural competence model was specifically designed to overcome COMMUNICATION BARRIERS in healthcare encounters?",
+    "options": [
+      "ETHNIC model — focuses on patient's understanding of illness within their culture",
+      "LEARN model — Listen, Explain, Acknowledge, Recommend, Negotiate",
+      "BATHE model — focuses on psychosocial context of the patient visit",
+      "GREET model — designed for immigrant populations and acculturation"
+    ],
+    "correctIndex": 1,
+    "explanation": "LEARN model (Berlin & Fowlkes, 1983): designed to overcome COMMUNICATION BARRIERS in healthcare encounters. Stands for: Listen (with empathy, open-ended questions); Explain (your perception of the problem); Acknowledge (discuss differences and similarities); Recommend (treatment rooted in acknowledgment step); Negotiate (agreement between patient and practitioner). BATHE: Background, Affect, Trouble, Handling, Empathy — focuses on PSYCHOSOCIAL context. ETHNIC: Explanation, Treatment, Healers, Negotiation, Intervention, Collaboration — focuses on patient's cultural understanding of their illness. GREET: Generation, Reason, Extended family, Ethnic behavior, Time in US — for IMMIGRANT populations/acculturation.",
+    "tags": [
+      "cultural-competence",
+      "LEARN",
+      "communication-barriers",
+      "BATHE",
+      "ETHNIC",
+      "GREET"
+    ]
+  },
+  {
+    "id": "m3-mgmt-054",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "An RDN working with a recent immigrant asks questions about acculturation, why the patient emigrated, and how long they have lived in the US to better understand their health context. Which cultural competence model is being used?",
+    "options": [
+      "BATHE model",
+      "ETHNIC model",
+      "GREET model",
+      "Campinha-Bacote model"
+    ],
+    "correctIndex": 2,
+    "explanation": "GREET model (Chong, 2002): designed for IMMIGRANT populations. Stands for: Generation (how acculturated is the patient?), Reason (why did the patient immigrate?), Extended family (has acculturation been affected by family?), Ethnic behavior (traditional language, clothing, rituals as indicators of cultural adjustment), Time living in the US (amount of time may suggest degree of acclimation). Acculturation = assimilation to a different culture. Acclimation = becoming accustomed to new climate/conditions. BATHE focuses on psychosocial context (any patient). ETHNIC focuses on cultural illness beliefs and treatments. Campinha-Bacote focuses on provider's 5-step journey: awareness → knowledge → skill → encounter → desire.",
+    "tags": [
+      "cultural-competence",
+      "GREET",
+      "immigrant",
+      "acculturation",
+      "cultural-humility"
+    ]
+  },
+  {
+    "id": "m3-mgmt-055",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which best describes the difference between cultural COMPETENCE and cultural HUMILITY?",
+    "options": [
+      "Cultural competence is an ongoing process; cultural humility implies an endpoint of being 'competent'",
+      "Cultural humility requires awareness of historic legacies and ongoing self-reflection; cultural competence is an organizational policy set with potential for stereotyping",
+      "Cultural sensitivity and cultural humility are synonymous terms",
+      "Cultural competence is for individual providers; cultural humility is an organizational framework"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cultural humility: ability to maintain an 'other-oriented' interpersonal stance; requires awareness of historic realities (violence, oppression) AND self-awareness of one's own beliefs; no implied endpoint. Cultural competence: congruent attitudes, behaviors, and policies implemented by organizations; shortcomings include: centering 'whiteness' as the norm, implying an endpoint of being 'competent,' and potential for stereotyping by applying group knowledge to an individual. Cultural sensitivity: awareness of similarities and differences between cultures (more basic than humility or competence). Dominant force in how a patient views healthcare = individual experience. Social hierarchy, race, ethnicity = secondary drivers.",
+    "tags": [
+      "cultural-humility",
+      "cultural-competence",
+      "cultural-sensitivity",
+      "stereotyping",
+      "bias"
+    ]
+  },
+  {
+    "id": "m3-mgmt-056",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "The Campinha-Bacote model of cultural competence includes 5 steps. Which step represents the healthcare provider's INTERNAL MOTIVATION to engage in culturally competent care?",
+    "options": [
+      "Cultural awareness",
+      "Cultural knowledge",
+      "Cultural skills",
+      "Cultural desire"
+    ],
+    "correctIndex": 3,
+    "explanation": "Campinha-Bacote Model (1998): 5 steps for cultural competence: (1) Cultural Awareness — self-examining own biases and professional background; (2) Cultural Knowledge — obtaining educational foundation about culturally diverse groups; integrating health-related beliefs and values; (3) Cultural Skills — collecting relevant cultural data; conducting culturally-based assessments; (4) Cultural Encounters — face-to-face interactions with culturally diverse clients to modify existing beliefs and prevent stereotyping; (5) Cultural Desire — INTERNAL MOTIVATION of the healthcare provider to engage in the process of becoming culturally competent. The cultural encounter step is the best time to discuss nutrition.",
+    "tags": [
+      "Campinha-Bacote",
+      "cultural-desire",
+      "cultural-competence",
+      "cultural-encounters",
+      "cultural-awareness"
+    ]
+  },
+  {
+    "id": "m3-mgmt-057",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A quality improvement team uses the FOCUS model to identify a patient meal delivery problem. In the 'F' step (Find the problem), which tools are specifically mentioned to help select the most important problem?",
+    "options": [
+      "PERT chart and Gantt chart",
+      "Pareto chart and Cause-and-Effect (Fishbone) diagram",
+      "PDSA cycle and DMAIC framework",
+      "Delphi method and nominal group technique"
+    ],
+    "correctIndex": 1,
+    "explanation": "FOCUS model: Find → Organize → Clarify → Understand → Select. In the FIND step: (1) identify a process to improve; (2) use PARETO CHARTS and CAUSE-AND-EFFECT DIAGRAMS to select the most important problem. Pareto charts: bar graph of complaint/cost frequency (descending) + line graph of cumulative percentage — identifies the few factors responsible for most of the problem ('80/20 rule'). Cause-and-effect/Fishbone/Ishikawa diagrams: identify root causes and contributing factors through structured brainstorming. PDSA = the action cycle that follows FOCUS. PERT = project timeline tool, not problem identification.",
+    "tags": [
+      "FOCUS-model",
+      "Pareto-chart",
+      "cause-and-effect",
+      "fishbone",
+      "quality-improvement"
+    ]
+  },
+  {
+    "id": "m3-mgmt-058",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A foodservice department tests a new tray delivery system on one unit for 2 weeks (pilot), reviews the results, and then decides whether to expand it hospital-wide. Which performance improvement model does this describe?",
+    "options": [
+      "FADE model — Focus, Analyze, Develop, Execute",
+      "PDSA cycle — Plan, Do, Study, Act",
+      "Lean Six Sigma — DMAIC framework",
+      "Kaizen — daily continuous improvement"
+    ],
+    "correctIndex": 1,
+    "explanation": "PDSA cycle (Plan-Do-Study-Act): a 4-stage, iterative problem-solving model. PLAN: determine how changes will be implemented; what to measure. DO: implement the intervention — typically as a PILOT STUDY or small-scale implementation. STUDY: determine the impact; examine planned measures. ACT: reflect on plan and outcomes; decide next steps — cycles back to PLAN for another iteration. Key feature: it IS a CYCLE — multiple iterations are expected. The fact that the team tested on 'one unit for 2 weeks' (pilot) and will then decide = PDSA. FOCUS (precedes PDSA in the FOCUS-PDSA combined model) = problem identification before implementing the PDSA cycle.",
+    "tags": [
+      "PDSA",
+      "Plan-Do-Study-Act",
+      "pilot-study",
+      "quality-improvement",
+      "performance-improvement"
+    ]
+  },
+  {
+    "id": "m3-mgmt-059",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which statement BEST distinguishes Quality Assurance (QA) from Quality Improvement (QI)?",
+    "options": [
+      "QA focuses on continuous system improvement; QI focuses on individual compliance with standards",
+      "QA measures compliance against standards (individual-focused, defensive); QI is a continuous proactive process focused on systems and processes",
+      "QA and QI are synonymous — both focus on preventing problems through system analysis",
+      "QI is reactive and corrective; QA is proactive and preventative"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quality Assurance (QA): measures COMPLIANCE against established standards; typically focuses on INDIVIDUALS; DEFENSIVE and reactive; outcomes-focused; checks if standards are being met. Quality Improvement (QI): CONTINUOUS improvement process focused on SYSTEMS and PROCESSES; PROACTIVE and PREVENTATIVE; patient-care focused; seeks to improve the overall process, not just identify non-compliance. IOM Framework for Health Care Quality (6 domains): Safe, Effective, Patient-Centered, Timely, Efficient, Equitable. TQM is customer-focused, continuous, and involves ALL employees — more aligned with QI than QA. QI occurs during planning AND controlling functions.",
+    "tags": [
+      "quality-assurance",
+      "quality-improvement",
+      "QA",
+      "QI",
+      "TQM",
+      "IOM"
+    ]
+  },
+  {
+    "id": "m3-mgmt-060",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which performance improvement approach is uniquely characterized by involving ALL employees (not just management) in continuously improving workplace operations, and originated as a Japanese business philosophy?",
+    "options": [
+      "Total Quality Management (TQM) — customer-focused, 8 key aspects",
+      "KAIZEN — Japanese word for 'continuous improvement,' involves all employees",
+      "FADE model — Focus, Analyze, Develop, Execute",
+      "Six Sigma — DMAIC framework using statistical analyses"
+    ],
+    "correctIndex": 1,
+    "explanation": "KAIZEN (introduced by Masaaki Imai, 1986): Japanese word for 'continuous improvement' ('Kai' = change; 'Zen' = for the better). KEY DIFFERENTIATOR: involves ALL employees — not just management dictating changes to workers. 5 Principles: (1) Know your customer; (2) Let it flow (eliminate waste); (3) Go to Gemba (workplace — observe where work actually happens); (4) Empower people; (5) Be transparent (real data). 4 Pillars of Kaizen Change Model: Daily, Breakthrough, Leaders, Support. 'Gemba' = workplace — managers should observe where laborers actually work. TQM also emphasizes all employees but does NOT have the 'go to gemba' principle or the same Japanese philosophy origin.",
+    "tags": [
+      "Kaizen",
+      "continuous-improvement",
+      "gemba",
+      "performance-improvement",
+      "all-employees"
+    ]
+  },
+  {
+    "id": "m3-mgmt-061",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "The FADE quality improvement model stands for:",
+    "options": [
+      "Find, Assess, Develop, Evaluate",
+      "Focus, Analyze, Develop, Execute",
+      "Find, Analyze, Design, Evaluate",
+      "Focus, Act, Design, Enforce"
+    ],
+    "correctIndex": 1,
+    "explanation": "FADE model: (1) FOCUS — generate list of problems, select 1, verify and define it; (2) ANALYZE — decide what you need to know, collect baseline data and patterns, determine influential factors; (3) DEVELOP — generate solutions, select solution, develop implementation plan; (4) EXECUTE — gain team commitment, execute plan, monitor impact. FADE incorporates 4 aspects: considers both systems and processes, focuses on patients, focuses on teamwork, and uses data. Similar to CQI in aspects 1, 3, and 4. Like all good quality improvement models: it takes time to assess what really needs to be done BEFORE acting, and time AFTER to evaluate if it worked.",
+    "tags": [
+      "FADE",
+      "quality-improvement",
+      "Focus-Analyze-Develop-Execute",
+      "performance-improvement"
+    ]
+  },
+  {
+    "id": "m3-mgmt-062",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A Pareto chart was used to analyze cafeteria complaints. The chart shows that addressing the top 3 complaint categories would reduce total complaints by approximately 75%. This illustrates which principle?",
+    "options": [
+      "Equifinality — multiple approaches lead to the same outcome",
+      "The 80/20 rule — a small number of factors account for most of the problem",
+      "Critical path analysis — the longest path determines total project duration",
+      "Synergy — combined effect exceeds individual contributions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pareto chart: 2 components — (1) bar graph showing descending frequency/cost of occurrences; (2) line graph showing cumulative % of total occurrences/cost. Purpose: identify the MOST IMPORTANT factors (few causes = most of the problem). This reflects the 80/20 rule: ~20% of causes account for ~80% of problems. Without a Pareto chart, managers might subjectively focus on the wrong problems. If cost-based: helps determine how many problems to fix to meet budget. Used in the 'F' step of FOCUS model and in the Analyze step of DMAIC/Six Sigma. Fishbone/Ishikawa diagrams identify ROOT CAUSES; Pareto charts prioritize by FREQUENCY/COST.",
+    "tags": [
+      "Pareto-chart",
+      "80-20-rule",
+      "quality-improvement",
+      "FOCUS-model",
+      "project-management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-063",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A project manager draws a diagram with boxes (nodes) connected by arrows showing task sequences and writes time estimates along each line to identify the longest path through the project. This is a:",
+    "options": [
+      "Pareto chart — shows frequency of complaints in descending order",
+      "Fishbone diagram — identifies root causes of a problem",
+      "PERT chart — Program Evaluation and Review Technique for project planning",
+      "Gantt chart — horizontal bar chart showing task schedule over time"
+    ],
+    "correctIndex": 2,
+    "explanation": "PERT chart (Program Evaluation Review Technique): used to schedule, organize, and coordinate tasks. Construction: (1) tasks written in nodes (boxes); (2) directional arrows show sequential dependencies; (3) time estimates written on each line; (4) CRITICAL PATH ANALYSIS = bolded line showing the LONGEST path by duration (determines project timeline). Uses: forward planning (estimate project duration) OR backward planning (work back from hard deadline). Helps evaluate labor/time/material resources needed. Limitation: time estimates are just estimates — works best when tasks are well-understood. If research needed to fill in chart isn't offset by benefit, another tool may be better.",
+    "tags": [
+      "PERT-chart",
+      "critical-path",
+      "project-management",
+      "scheduling",
+      "planning"
+    ]
+  },
+  {
+    "id": "m3-mgmt-064",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Lean methodology uses the '3M model.' Which of the following correctly defines Muda, Mura, and Muri?",
+    "options": [
+      "Muda = inconsistencies causing production fluctuations; Mura = waste/non-value activities; Muri = dissatisfaction/unused resources",
+      "Muda = waste (non-value-adding activities); Mura = inconsistencies causing production fluctuations; Muri = dissatisfaction/unused resources",
+      "Muda = continuous improvement; Mura = gemba (workplace); Muri = customer value",
+      "Muda = defects only; Mura = waiting time only; Muri = overproduction only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lean 3M model: Muda = Japanese for WASTE — any activity that does NOT add value; 8 types = DOWNTIME (Defects, Overproduction, Waiting, Non-utilized talents, Transportation, Inventory, Motion, Extra processing). Mura = INCONSISTENCIES in business operations causing production fluctuations and suboptimal resource utilization (uneven workloads, inventory accumulation). Muri = DISSATISFACTION/UNUSED RESOURCES — customers waiting, ovens not utilized, stressed staff; Muri leads to Muda. Lean + Six Sigma = Lean Six Sigma: Lean first makes workplace efficient (using Kaizen, 5S), then Six Sigma's DMAIC (Define, Measure, Analyze, Improve, Control) addresses remaining root causes statistically.",
+    "tags": [
+      "Lean",
+      "3M-model",
+      "Muda",
+      "Mura",
+      "Muri",
+      "waste",
+      "Lean-Six-Sigma"
+    ]
+  },
+  {
+    "id": "m3-mgmt-065",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Six Sigma uses the DMAIC framework. What does DMAIC stand for, in order?",
+    "options": [
+      "Define, Measure, Analyze, Improve, Control",
+      "Design, Measure, Assess, Implement, Check",
+      "Define, Monitor, Analyze, Improve, Confirm",
+      "Discover, Measure, Analyze, Innovate, Control"
+    ],
+    "correctIndex": 0,
+    "explanation": "Six Sigma DMAIC: (1) DEFINE — define the problem, objectives, scope, resources, timeline; (2) MEASURE — identify and measure baseline metrics to compare against later; (3) ANALYZE — analyze the process; root cause analysis using Pareto charts and fishbone diagrams; statistical validation; (4) IMPROVE — identify and implement improvements; test solutions (pilot studies); (5) CONTROL — ensure improvements are sustained; monitor performance; standardize processes; verify benefits vs. anticipated benefits. Six Sigma goal: create effective processes using data and statistics. Lean Six Sigma = Lean (waste reduction) + Six Sigma (statistical problem-solving). The DMAIC framework shares concepts with FOCUS-PDSA and FADE.",
+    "tags": [
+      "Six-Sigma",
+      "DMAIC",
+      "Lean-Six-Sigma",
+      "quality-improvement",
+      "Define-Measure-Analyze-Improve-Control"
+    ]
+  },
+  {
+    "id": "m3-mgmt-066",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A manager uses the RUMBA model to set goals with her team. What does RUMBA stand for?",
+    "options": [
+      "Reliable, Understandable, Measurable, Believable, Achievable",
+      "Reasonable, Understandable, Measurable, Believable, Achievable",
+      "Reasonable, Unified, Measurable, Balanced, Achievable",
+      "Realistic, Understandable, Modifiable, Believable, Assignable"
+    ],
+    "correctIndex": 1,
+    "explanation": "RUMBA model: an individualized goal-setting tool for managers engaging their team with change. R = Reasonable (reasonable goals increase team buy-in and creative processes); U = Understandable (verbalizing goals in easy-to-understand language so everyone is on the same page); M = Measurable (measurable goals prevent team disillusionment); B = Believable (manager demonstrates belief in the project's success); A = Achievable (explaining specific milestones stimulates personal achievement in addition to the overall plan). An effective leader accepts change as part of life and works with their team to embrace it. RUMBA complements PDSA by providing a goal-setting framework before and during implementation.",
+    "tags": [
+      "RUMBA",
+      "goal-setting",
+      "performance-improvement",
+      "management",
+      "change-management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-067",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "The Delphi method and Delbecq's nominal group technique are both planning processes. Which statement CORRECTLY distinguishes them?",
+    "options": [
+      "Delphi uses face-to-face group discussion; nominal group technique uses anonymous questionnaires",
+      "Delphi uses anonymous individual questionnaires with iterative statistical tallying; nominal group technique uses structured small-group discussion with voting",
+      "Both require all participants to be in the same room simultaneously",
+      "Nominal group technique is for expert consensus; Delphi is for community planning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Delphi method: group of EXPERTS contacted INDIVIDUALLY and ANONYMOUSLY via questionnaires; responses statistically tallied → summary sent back with another questionnaire; goal = reduce range of responses and reach consensus. Works well when experts are geographically dispersed. Nominal group technique (Delbecq): structured SMALL-GROUP DISCUSSION; moderator presents question; each person writes ideas SEPARATELY; each shares their idea; moderator records all on board; group discusses, revises, then VOTES on the best idea. Charrette: collaborative planning process involving all interested parties, resulting in a master plan for community change. None of the three require anonymous questionnaires in a face-to-face setting simultaneously.",
+    "tags": [
+      "Delphi-method",
+      "nominal-group-technique",
+      "planning-processes",
+      "charrette",
+      "consensus"
+    ]
+  }
+]

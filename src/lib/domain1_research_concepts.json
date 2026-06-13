@@ -1,0 +1,655 @@
+[
+  {
+    "id": "m1-rc-001",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "Researchers identify patients with Barrett's esophagus (the outcome) and then interview them about past dietary exposures. What study design is this, and what type of bias is it susceptible to?",
+    "options": [
+      "Prospective cohort study; selection bias",
+      "Randomized controlled trial; placebo effect",
+      "Case-control study; recall bias",
+      "Cross-sectional study; measurement error"
+    ],
+    "correctIndex": 2,
+    "explanation": "In a case-control study, the outcome is identified FIRST and then investigators look backwards to measure exposure — this is retrospective. Because subjects must recall past behaviors or exposures, case-control studies are particularly susceptible to recall bias: cases (with disease) may remember and report exposures differently than controls (without disease). Advantages of case-control designs include efficiency for rare outcomes and the ability to examine multiple exposures.",
+    "tags": [
+      "case-control",
+      "retrospective",
+      "recall-bias",
+      "study-design",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-002",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "easy",
+    "text": "Investigators enroll 5,000 healthy adults, measure their dietary patterns, and follow them for 20 years to see who develops type 2 diabetes. What study design is this?",
+    "options": [
+      "Retrospective case-control study",
+      "Randomized controlled trial",
+      "Cross-sectional survey",
+      "Prospective cohort study"
+    ],
+    "correctIndex": 3,
+    "explanation": "This is a prospective cohort study: participants are enrolled BEFORE the outcome develops, the exposure (dietary pattern) is measured at baseline, and participants are followed FORWARD in time. All RCTs are also prospective, but this study has no randomization or intervention — investigators only observe and record. Key advantage: standardized measurement of variables. Disadvantage: requires long follow-up time and lack of randomization limits causal inference.",
+    "tags": [
+      "prospective-cohort",
+      "study-design",
+      "observational",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-003",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "A hospital dietitian uses electronic health records to identify patients who had cardiac surgery in 2020 and classifies them by feeding method (EN vs PN vs oral). She then compares length of stay. What type of study is this?",
+    "options": [
+      "Prospective cohort — exposure measured before outcome",
+      "Randomized controlled trial — dietitian assigned feeding method",
+      "Retrospective cohort — data already collected, exposure measured before outcome in time",
+      "Cross-sectional — exposure and outcome measured simultaneously"
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a retrospective cohort study. Even though the data already exists in EHRs, the exposure (feeding method) occurred BEFORE the outcome (length of stay) in calendar time — so it is still a cohort design. It is retrospective because all data was collected in the past and the investigator is looking backwards. Limitations include that EHR data was not originally collected for research purposes, limiting data quality and variable control.",
+    "tags": [
+      "retrospective-cohort",
+      "study-design",
+      "EHR",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-004",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "easy",
+    "text": "NHANES measures dietary intake and BMI in a national sample at a single point in time. What study design is this?",
+    "options": [
+      "Prospective cohort",
+      "Cross-sectional",
+      "Case-control",
+      "Randomized controlled trial"
+    ],
+    "correctIndex": 1,
+    "explanation": "NHANES (National Health and Nutrition Examination Survey) and BRFSS are examples of cross-sectional studies — they measure both exposure and outcome simultaneously, like a 'snapshot in time.' Cross-sectional studies are efficient and inexpensive, and are well-suited for estimating prevalence. They cannot establish causality because the temporal relationship (which came first, exposure or outcome?) cannot be determined. NHANES data is used for nationally representative estimates of nutrition and health.",
+    "tags": [
+      "cross-sectional",
+      "NHANES",
+      "study-design",
+      "prevalence",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-005",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "Clinicians randomize 200 ICU patients to early enteral nutrition vs NPO for 48 hours and compare 30-day mortality. Why does randomization allow causal inference in this study?",
+    "options": [
+      "Randomization ensures blinding so patients don't know which group they are in",
+      "Randomization distributes known and unknown confounders equally between groups, isolating the treatment effect",
+      "Randomization prevents recall bias by removing the need for participant self-report",
+      "Randomization ensures the study meets statistical power requirements"
+    ],
+    "correctIndex": 1,
+    "explanation": "Randomization distributes both known and unknown confounders (patient age, severity of illness, comorbidities, etc.) roughly equally between groups. This means any differences in outcomes are attributable to the intervention itself, allowing causal inference. Observational studies can only demonstrate association/correlation because without randomization, confounders may systematically differ between groups. On the RD exam: if randomized → can infer causation; if not randomized → association only.",
+    "tags": [
+      "RCT",
+      "randomization",
+      "causation",
+      "confounders",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-006",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "A correlation coefficient (r) of -0.85 between dietary sodium intake and arterial compliance means:",
+    "options": [
+      "There is a strong positive correlation — both increase together",
+      "There is no meaningful linear relationship between the two variables",
+      "There is a strong negative correlation — as sodium intake increases, arterial compliance decreases",
+      "Sodium intake causes reduced arterial compliance in 85% of cases"
+    ],
+    "correctIndex": 2,
+    "explanation": "The correlation coefficient r ranges from -1 to +1. A value of -0.85 indicates a strong negative (inverse) linear correlation: as sodium intake increases, arterial compliance decreases. Values closer to ±1 indicate stronger linear relationships. Correlation does NOT imply causation — it only describes the direction and strength of a linear relationship. Note that r = 0 does not always mean no relationship; it means no LINEAR relationship (a curved pattern would also give r = 0).",
+    "tags": [
+      "correlation",
+      "correlation-coefficient",
+      "statistics",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-007",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "In the Academy of Nutrition and Dietetics Evidence Analysis Library (EAL), which evidence grade represents the STRONGEST quality of evidence?",
+    "options": [
+      "Grade II: Fair",
+      "Grade III: Limited/Weak",
+      "Grade I: Good/Strong",
+      "Grade IV: Expert Opinion Only"
+    ],
+    "correctIndex": 2,
+    "explanation": "EAL Evidence Grades from strongest to weakest: Grade I (Good/Strong) → Grade II (Fair) → Grade III (Limited/Weak) → Grade IV (Expert Opinion Only/Consensus) → Grade V (Insufficient Evidence). Grade I requires strong study design, consistent and clinically meaningful findings, adequate sample sizes, and generalizability. Grade IV is based solely on expert opinion with no supporting research studies. Evidence grades are assigned by considering quality, quantity, consistency, clinical impact, and generalizability of findings.",
+    "tags": [
+      "EAL",
+      "evidence-grades",
+      "Academy-AND",
+      "research",
+      "quality-of-evidence"
+    ]
+  },
+  {
+    "id": "m1-rc-008",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "A researcher sends a survey to 2,000 community members but only 200 respond. The researcher should be concerned about which type of bias?",
+    "options": [
+      "Observer effect — the researcher influenced respondent answers",
+      "Social desirability bias — respondents answered to appear favorable",
+      "Non-response bias — those who didn't respond may differ systematically from those who did",
+      "Healthy volunteer bias — only the most engaged community members responded"
+    ],
+    "correctIndex": 2,
+    "explanation": "Non-response bias (also called non-response error) occurs when persons who don't respond to a survey differ systematically from those who do respond. A 10% response rate (200/2,000) raises serious concerns about representativeness. Good quality studies report their response rate. Healthy volunteer bias is related — people who volunteer for research tend to be healthier and more health-conscious. Social desirability bias occurs when respondents answer as they think they 'should,' particularly for taboo behaviors.",
+    "tags": [
+      "non-response-bias",
+      "survey",
+      "bias",
+      "sampling",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-009",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "Two registered dietitians independently review 50 medical charts to identify malnourished patients. Comparing their classifications to assess agreement is an example of:",
+    "options": [
+      "Test-retest reliability",
+      "Internal consistency",
+      "Inter-rater reliability",
+      "Criterion validity"
+    ],
+    "correctIndex": 2,
+    "explanation": "Inter-rater reliability measures the consistency and agreement between two or more raters who independently assess the same subjects. When there is some subjectivity in assessment (like malnutrition classification), inter-rater reliability quantifies how much two trained experts agree. Test-retest reliability is administering the same instrument twice to the same person. Internal consistency checks whether similar questions within an instrument yield similar answers. Criterion validity compares a measure to a gold standard.",
+    "tags": [
+      "inter-rater-reliability",
+      "reliability",
+      "validity",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-010",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "A bathroom scale consistently reads 3 lbs HIGHER than the true weight for every person measured. This describes:",
+    "options": [
+      "High accuracy, high precision",
+      "High precision, low accuracy (systematic bias)",
+      "Low precision, low accuracy (random error)",
+      "High accuracy, low precision"
+    ],
+    "correctIndex": 1,
+    "explanation": "This scale is PRECISE (consistent) — it gives the same +3 lb error every time — but NOT ACCURATE (not close to truth). This is systematic bias (also called systematic error). A scale that gives random readings (+1, -2, +3 lbs) has random error — not precise, not accurate. The bullseye analogy: accurate = close to center (truth); precise = close together. Bias = systematic error = validity problem; random error = precision problem = reliability issue.",
+    "tags": [
+      "accuracy",
+      "precision",
+      "bias",
+      "systematic-error",
+      "reliability",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-011",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "hard",
+    "text": "A new blood test for pancreatic cancer has a sensitivity of 85% and specificity of 92%. In a population of 10,000 where disease prevalence is 1%, approximately how many FALSE POSITIVES would be expected?",
+    "options": [
+      "8 false positives",
+      "85 false positives",
+      "792 false positives",
+      "150 false positives"
+    ],
+    "correctIndex": 2,
+    "explanation": "With 1% prevalence: 100 truly have cancer (99,900 do not). Sensitivity 85%: 85 true positives, 15 false negatives. Specificity 92%: 92% of 9,900 cancer-free = 9,108 true negatives; 8% = 792 false positives. So ~792 false positives occur — for every true positive (85), there are ~9 false positives! This illustrates why screening tests in low-prevalence populations yield poor PPV. PPV = 85 / (85 + 792) ≈ 9.7%. High PPV requires high disease prevalence or extremely high specificity.",
+    "tags": [
+      "sensitivity",
+      "specificity",
+      "false-positive",
+      "screening",
+      "prevalence",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-012",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "Sensitivity is the ability of a test to correctly identify those WITH disease. Which formula correctly calculates sensitivity?",
+    "options": [
+      "True Positives / (True Positives + False Positives)",
+      "True Negatives / (True Negatives + False Positives)",
+      "True Positives / (True Positives + False Negatives)",
+      "True Negatives / (True Negatives + False Negatives)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sensitivity = TP / (TP + FN) — reading DOWN the 'disease positive' column of the contingency table. A test with 100% sensitivity has no false negatives. Specificity = TN / (TN + FP) — reading DOWN the 'disease negative' column. PPV = TP / (TP + FP) — reading ACROSS the 'positive test' row. NPV = TN / (TN + FN) — reading ACROSS the 'negative test' row. Sensitivity and specificity are properties of the test itself; PPV and NPV vary with disease prevalence.",
+    "tags": [
+      "sensitivity",
+      "specificity",
+      "PPV",
+      "NPV",
+      "screening",
+      "formula",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-013",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "hard",
+    "text": "The same screening test for HIV is used in a general clinic (prevalence 0.5%) and an IV drug treatment clinic (prevalence 20%). Which statement about PPV is correct?",
+    "options": [
+      "PPV is the same in both settings because sensitivity and specificity don't change",
+      "PPV is higher in the IV drug clinic because higher prevalence increases PPV with the same test",
+      "PPV is higher in the general clinic because larger volume produces more true positives",
+      "PPV is determined solely by specificity and is unaffected by prevalence"
+    ],
+    "correctIndex": 1,
+    "explanation": "PPV varies with BOTH test characteristics (sensitivity, specificity) AND disease prevalence. With the same test, a higher-prevalence population produces more true positives relative to false positives, increasing PPV. This is why targeted screening in high-risk populations (like an STI clinic for STI screening, or an IV drug clinic for HIV screening) is more cost-effective and yields higher PPV than universal screening in low-prevalence general populations. Sensitivity and specificity are intrinsic test properties and don't change with prevalence.",
+    "tags": [
+      "PPV",
+      "prevalence",
+      "screening",
+      "HIV",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-014",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "easy",
+    "text": "A community nutritionist wants to track how many NEW cases of childhood obesity developed in her county in the past year. What epidemiologic measure is she trying to estimate?",
+    "options": [
+      "Prevalence — total existing cases at a point in time",
+      "Incidence — new cases developing over a time period",
+      "Morbidity rate — proportion of population with any illness",
+      "Mortality rate — number of deaths in the population"
+    ],
+    "correctIndex": 1,
+    "explanation": "Incidence = the number of NEW disease cases that develop over a period of time (the 'faucet' filling the bathtub). Prevalence = existing cases during a period of time (all the water in the bathtub, old and new). Prevalence = Incidence × Duration. Cross-sectional surveys like NHANES measure prevalence. When disease duration is very short (e.g., acute food poisoning), prevalence ≈ incidence. For chronic diseases with effective treatments (longer duration), prevalence grows even if incidence stays stable.",
+    "tags": [
+      "incidence",
+      "prevalence",
+      "epidemiology",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-015",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "HIV treatment has dramatically improved, allowing patients to live for decades with the infection. Even if the rate of NEW HIV infections (incidence) remains constant, what happens to HIV PREVALENCE?",
+    "options": [
+      "Prevalence decreases because patients are dying less from HIV",
+      "Prevalence remains constant since incidence is unchanged",
+      "Prevalence increases because patients live longer with the disease, staying in the 'prevalence pool' longer",
+      "Prevalence is unaffected by treatment duration"
+    ],
+    "correctIndex": 2,
+    "explanation": "Using the bathtub analogy: Prevalence = Incidence × Duration. When effective treatment extends life with disease (increases duration), prevalence rises even if incidence stays the same — because patients remain in the 'prevalence pool' longer before dying or recovering. This is why HIV prevalence has increased in the US despite stable or declining incidence. The 'drain' (death) from the prevalence bathtub is reduced with effective treatment.",
+    "tags": [
+      "prevalence",
+      "incidence",
+      "duration",
+      "epidemiology",
+      "HIV",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-016",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "easy",
+    "text": "A news report states that a new county has a 15% infant MORTALITY rate. This means:",
+    "options": [
+      "15% of infants in that county have some form of illness",
+      "15% of infants born in that county died",
+      "15% more infants are ill in that county compared to neighboring counties",
+      "Infant morbidity rate is 15% higher than the national average"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mortality refers to DEATH. A 15% infant mortality rate means 15% of infants in that county died. Morbidity refers to the state of being unhealthy or having disease (not death). Morbidity rates are used as general indicators of health in a community. Mortality rates can refer to all-cause mortality or disease-specific mortality. On the exam, knowing this simple distinction — morbidity = disease/illness, mortality = death — is sufficient.",
+    "tags": [
+      "mortality",
+      "morbidity",
+      "epidemiology",
+      "definitions",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-017",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "A study finds an odds ratio (OR) of 1.8 for heart attack among patients with diabetes versus those without. The CORRECT interpretation is:",
+    "options": [
+      "Diabetic patients have 1.8 times HIGHER odds of heart attack than non-diabetic patients",
+      "The odds of heart attack in patients with diabetes was 1.8 times the odds in those without diabetes",
+      "Diabetes increases the risk of heart attack by 180%",
+      "Patients with diabetes are 80% more likely to have a heart attack"
+    ],
+    "correctIndex": 1,
+    "explanation": "The correct phrasing for an odds ratio is: 'The odds of [outcome] in [exposed group] was [OR] times the odds of [outcome] in [comparison group].' The phrases 'times higher' or 'fold higher' are technically incorrect — they imply addition rather than multiplication. 'Increases by 80%' conflates percent change with the OR itself. The cleanest correct interpretations are: OR = 1.8 times the odds, OR 'the OR of heart attack for those with vs. without diabetes was 1.8.'",
+    "tags": [
+      "odds-ratio",
+      "interpretation",
+      "statistics",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-018",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "In a positively skewed distribution of BMI data, which statement about the mean and median is correct?",
+    "options": [
+      "Mean = Median = Mode (they are the same in any distribution)",
+      "The median is greater than the mean because extreme low values pull the mean down",
+      "The mean is greater than the median because extreme high values pull the mean up",
+      "The mode is the best measure to report for skewed BMI data"
+    ],
+    "correctIndex": 2,
+    "explanation": "In a positively skewed distribution, the tail extends toward the right (high values). A few individuals with very high BMIs pull the MEAN upward, making it higher than the median. The median (50th percentile) is more resistant to outliers. For skewed data (like BMI, income, cholesterol), the MEDIAN is the preferred measure of central tendency to report. In a normal (bell-curve) distribution, mean = median = mode. In negatively skewed data, the mean is LESS than the median.",
+    "tags": [
+      "skewed-distribution",
+      "mean",
+      "median",
+      "statistics",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-019",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "A white woman age 65 has a bone mineral density (BMD) of 529. The population mean BMD for her demographic group is 809 with SD of 140. What is her Z-score and what does it mean?",
+    "options": [
+      "Z = +2.0; her BMD is 2 standard deviations above average",
+      "Z = -2.0; her BMD is 2 standard deviations below average, indicating low bone density",
+      "Z = -0.5; her BMD is slightly below average but within normal range",
+      "Z = +1.4; her BMD is above average"
+    ],
+    "correctIndex": 1,
+    "explanation": "Z-score = (Individual value − Mean) / SD = (529 − 809) / 140 = −280 / 140 = −2.0. A Z-score of −2.0 means her BMD is 2 standard deviations BELOW the mean for white women age 65 — indicating significantly low bone density and elevated fracture risk. Z-scores standardize values around the mean (Z=0), with negative values below average. Z-scores are used in bone density (DEXA), growth charts, and other clinical measures requiring comparison to a reference population.",
+    "tags": [
+      "Z-score",
+      "standard-deviation",
+      "bone-density",
+      "statistics",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-020",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "Which sampling strategy assigns each individual in the population an equal probability of being selected, typically using a numbered list and random draw?",
+    "options": [
+      "Convenience sampling",
+      "Snowball sampling",
+      "Cluster sampling",
+      "Random sampling"
+    ],
+    "correctIndex": 3,
+    "explanation": "Random sampling gives every individual in the target population an equal probability of selection, typically via numbered lists (DMV records, patient registries, class rosters) with random draws. This reduces selection bias. Convenience sampling recruits participants who are easily accessible (e.g., asking people in a student union). Snowball sampling asks participants to recruit acquaintances. Cluster sampling uses groups ('clusters' like schools) as units of randomization — used when individual randomization is impractical.",
+    "tags": [
+      "random-sampling",
+      "sampling-strategies",
+      "selection-bias",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-021",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "easy",
+    "text": "Which sampling strategy would be BEST for studying dietary behaviors among undocumented immigrants who are difficult to reach through standard survey methods?",
+    "options": [
+      "Random sampling from the national census",
+      "Cluster sampling using schools as randomization units",
+      "Snowball sampling — asking enrolled participants to recruit similar acquaintances",
+      "Systematic convenience sampling at a community health fair"
+    ],
+    "correctIndex": 2,
+    "explanation": "Snowball sampling is most appropriate when the target population is hard to reach, sensitive, or connected by shared cultural/environmental/network characteristics. Participants recruit acquaintances who may be open to participating, making it useful for studying immigrant communities, people with stigmatized conditions (e.g., IV drug users), or other populations where standard sampling frames don't exist. Disadvantage: the resulting sample tends to be more homogenous than the broader population.",
+    "tags": [
+      "snowball-sampling",
+      "hard-to-reach",
+      "qualitative",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-022",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "A nutrition researcher develops a new questionnaire for measuring diet quality. She compares scores from her questionnaire to a 7-day weighed food record (considered the gold standard). What type of validity is she assessing?",
+    "options": [
+      "Face validity — does the questionnaire look like it measures diet quality",
+      "Content validity — does it cover all relevant components of diet",
+      "Criterion validity — does it produce accurate results compared to a gold standard",
+      "Construct validity — does it distinguish diet quality from other health behaviors"
+    ],
+    "correctIndex": 2,
+    "explanation": "Criterion validity measures the extent to which an instrument produces accurate results compared to a gold standard (or criterion). Comparing a new FFQ to a 7-day weighed food record is a classic criterion validity assessment. Face validity is the subjective sense that items 'look right.' Content validity is whether all relevant dimensions of the construct are represented. Construct validity tests whether the instrument distinguishes between related but different constructs.",
+    "tags": [
+      "criterion-validity",
+      "validity",
+      "questionnaire",
+      "food-frequency",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-023",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "A study on substance use during pregnancy uses a computer-administered survey in a private booth rather than a face-to-face interview. This is done primarily to reduce which type of bias?",
+    "options": [
+      "Recall bias — self-administered surveys improve memory accuracy",
+      "Social desirability bias — participants are more honest about taboo behaviors without an interviewer present",
+      "Observer effect — removes the interviewer's body language from the equation",
+      "Both B and C"
+    ],
+    "correctIndex": 3,
+    "explanation": "Both social desirability bias AND observer effect are reduced by computer-administered surveys in private settings. Social desirability bias occurs when participants answer in socially acceptable ways rather than truthfully — especially important for stigmatized behaviors like drug use, alcohol, smoking, or sexual behaviors during pregnancy. Observer effect occurs when an interviewer's tone, body language, or reactions influence participant responses. NHANES uses computerized private-booth surveys for sensitive questions for exactly this reason.",
+    "tags": [
+      "social-desirability-bias",
+      "observer-effect",
+      "survey-methods",
+      "bias",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-024",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "Publication bias in nutrition research means that:",
+    "options": [
+      "Studies funded by industry are more likely to be published than independently funded studies",
+      "Journals tend to publish studies with positive or significant findings, leaving null results unpublished",
+      "Researchers selectively report only statistically significant outcomes within their studies",
+      "High-impact journals only accept studies with large sample sizes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Publication bias occurs when studies with statistically significant (positive or negative) findings are preferentially submitted to and accepted by journals, while null results (no association found) are not published. This creates a biased literature that overestimates the strength of associations. Researchers may be repeating studies that others have already conducted with null results without knowing it. Note: selectively reporting significant outcomes from within a single study is reporting bias — a related but distinct concept.",
+    "tags": [
+      "publication-bias",
+      "null-results",
+      "research-bias",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-025",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "In a food science sensory triangle test, participants are presented with three samples. What is the purpose and structure of this test?",
+    "options": [
+      "Participants rate three products on a scale for multiple sensory attributes",
+      "Three samples (two identical, one different) are presented and participants identify the odd one out",
+      "Judges compare two samples (A and B) and choose which ranks higher on a specific attribute",
+      "A trained panel of 8–12 panelists rates samples using agreed-upon sensory terminology"
+    ],
+    "correctIndex": 1,
+    "explanation": "In a triangle test, two identical samples and one different sample are presented, and judges identify which is the odd sample. It tests whether a detectable difference exists between two products (e.g., store-brand vs. name-brand cola), without asking about specific sensory characteristics. Six possible sequences (ABB, BAA, AAB, BBA, ABA, BAB) are randomly distributed across at least 30 judges. In contrast, the paired comparison test asks judges to choose between 2 samples on a specific attribute, and QDA uses a trained panel to rate multiple sensory characteristics.",
+    "tags": [
+      "triangle-test",
+      "sensory-evaluation",
+      "food-science-design",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-026",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "Qualitative research differs from quantitative research primarily in that qualitative research:",
+    "options": [
+      "Uses larger sample sizes to achieve statistical power",
+      "Reports results as means, standard deviations, and odds ratios",
+      "Collects data on qualities, themes, and perspectives through interviews and open-ended questions",
+      "Tests pre-specified hypotheses using controlled experimental designs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Qualitative research collects non-numerical data — themes, quotes, perspectives, and descriptions — typically through interviews, focus groups, or observation. It uses smaller sample sizes (due to interview burden) and reports themes via content analysis or thematic analysis. Quantitative research collects numerical data (means, SDs, percentages, ORs) using surveys with rating scales, experiments, or standardized measurements, and uses inferential statistical analysis. Focus groups are a qualitative technique for exploring thoughts and feelings not captured by standard surveys.",
+    "tags": [
+      "qualitative",
+      "quantitative",
+      "research-methods",
+      "focus-groups",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-027",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "easy",
+    "text": "A focus group is used instead of a standard survey when a researcher wants to:",
+    "options": [
+      "Ensure random sampling from a large representative population",
+      "Collect open-ended feedback and understand the reasoning behind behaviors or attitudes",
+      "Compare numerical outcomes between intervention and control groups",
+      "Establish a nationally representative prevalence estimate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Focus groups use a small group of participants with a trained moderator to discuss topics in depth via open-ended questions. They are valuable when researchers want to understand the WHY behind behaviors (e.g., why community members don't purchase produce even with incentives). They capture nuance not available in surveys. Disadvantages include groupthink, dominant voices suppressing others, resource intensity, and participant burden. The moderator may step out to allow more candid discussion.",
+    "tags": [
+      "focus-groups",
+      "qualitative",
+      "research-methods",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-028",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "A prospective cohort study examining the relationship between childhood SSB consumption and adult cancer risk would be preferred over a case-control study PRIMARILY because:",
+    "options": [
+      "Case-control studies cannot be used for outcomes that occur in adulthood",
+      "A prospective cohort avoids recall bias by measuring SSB exposure in childhood before cancer develops",
+      "Prospective cohort studies are cheaper and faster to conduct than case-control studies",
+      "Case-control studies cannot study dietary exposures"
+    ],
+    "correctIndex": 1,
+    "explanation": "The key advantage of a prospective cohort for this question is that dietary exposure (SSB intake) is measured IN CHILDHOOD — before the outcome (cancer) develops — avoiding recall bias. In a case-control study, adult cancer patients would need to recall their childhood beverage habits, which are subject to significant recall bias and misclassification. A prospective cohort requires long follow-up time (decades) and is expensive, but provides a more accurate exposure measure. An RCT would be unethical if SSBs are believed to be harmful.",
+    "tags": [
+      "prospective-cohort",
+      "recall-bias",
+      "case-control",
+      "study-design",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-029",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "hard",
+    "text": "A cluster randomized trial evaluates a school lunch nutrition program. Schools (not individual students) are randomized to intervention or control. 'School' is defined as the:",
+    "options": [
+      "Confounder — school type explains the intervention-outcome relationship",
+      "Dependent variable — school-level outcomes are measured",
+      "Unit of randomization (cluster) — individual student randomization was impractical",
+      "Matching variable — controls are matched to cases by school"
+    ],
+    "correctIndex": 2,
+    "explanation": "In cluster sampling/cluster randomized trials, when individual randomization is impractical (e.g., randomizing individual students while they share the same lunch), the 'cluster' (school) becomes the unit of randomization. All students within a school receive the same intervention. This preserves program integrity but reduces statistical power compared to individual randomization. NHANES uses multi-stage cluster sampling: county → segment → household → individual. Cluster RCTs are also called group-randomized trials.",
+    "tags": [
+      "cluster-sampling",
+      "cluster-RCT",
+      "unit-of-randomization",
+      "research"
+    ]
+  },
+  {
+    "id": "m1-rc-030",
+    "domain": "Domain I",
+    "topic": "Research Concepts",
+    "difficulty": "medium",
+    "text": "The EAL defines a systematic review as a high-level process that collects and critically analyzes multiple research studies. How does an evidence-based nutrition practice guideline differ from a systematic review?",
+    "options": [
+      "A systematic review applies only to clinical settings, while practice guidelines cover all nutrition research",
+      "A systematic review synthesizes evidence; a practice guideline translates that synthesis into actionable recommendations for specific disease states",
+      "Practice guidelines are based on expert opinion only, while systematic reviews use research data",
+      "There is no meaningful difference — both result in position statements"
+    ],
+    "correctIndex": 1,
+    "explanation": "A systematic review is the research synthesis process — it collects, critically appraises, and analyzes primary research studies on a focused question. An evidence-based nutrition practice guideline is the clinical translation step — guiding statements developed FROM a systematic review, designed to help practitioners and patients make decisions about appropriate nutrition care for specific diseases. Position papers present the Academy's official stance on controversial issues and (since 2017) are generated from EAL systematic reviews. All three are available through the Academy's Evidence Analysis Library at andeal.org.",
+    "tags": [
+      "systematic-review",
+      "EAL",
+      "practice-guidelines",
+      "evidence-based",
+      "research"
+    ]
+  }
+]

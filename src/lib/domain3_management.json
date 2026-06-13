@@ -1,0 +1,663 @@
+[
+  {
+    "id": "m3-mgmt-001",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "easy",
+    "text": "Which of the following correctly lists the 5 management functions in order?",
+    "options": [
+      "Planning, Organizing, Staffing, Directing, Controlling",
+      "Planning, Organizing, Directing, Staffing, Controlling",
+      "Organizing, Planning, Staffing, Controlling, Directing",
+      "Planning, Staffing, Organizing, Directing, Evaluating"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 5 management functions (POSDC) are: Planning, Organizing, Staffing, Directing, Controlling. Mnemonic: 'POSDC'. Planning is the PRIMARY function — all others flow from it. These functions are PERVASIVE (same across all departments and levels of management) but NOT stepwise (a manager may perform multiple functions in one day). The functions set plans and objectives but do NOT outline exactly how objectives should be achieved.",
+    "tags": [
+      "5-management-functions",
+      "POSDC",
+      "planning",
+      "controlling",
+      "management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-002",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A foodservice director is conducting annual performance reviews, comparing employee output to established productivity standards and taking corrective action where needed. Which management function is being performed?",
+    "options": [
+      "Planning",
+      "Organizing",
+      "Directing",
+      "Controlling"
+    ],
+    "correctIndex": 3,
+    "explanation": "Controlling involves: (1) establishing performance standards, (2) measuring actual performance, (3) comparing actual to standard performance, and (4) taking corrective action. Quality improvement activities occur during BOTH planning and controlling. Key characteristics of controlling: it's an 'end function' (occurs after performance), pervasive, forward-looking (past informs future), dynamic (continuous review), and related to planning (without one, the other is meaningless).",
+    "tags": [
+      "controlling",
+      "management-functions",
+      "performance-standards",
+      "corrective-action"
+    ]
+  },
+  {
+    "id": "m3-mgmt-003",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A new hospital cafeteria manager is assigning specific duties to each staff member, clarifying who reports to whom, and establishing authority relationships. Which management function does this describe?",
+    "options": [
+      "Planning",
+      "Organizing",
+      "Staffing",
+      "Directing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Organizing involves: grouping activities, delegating authority, creating responsibility, and coordinating relationships (horizontally and vertically). Everyone should know who they are accountable to and what authority they have. Organizing also avoids duplication of efforts (waste of time/money/staff). Delegation is a key part of organizing. Organizing leads to: well-defined jobs, clear lines of authority, coordination of roles, specialization of jobs, effective administration, and scope for new changes.",
+    "tags": [
+      "organizing",
+      "management-functions",
+      "delegation",
+      "authority",
+      "responsibility"
+    ]
+  },
+  {
+    "id": "m3-mgmt-004",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which management skill is MOST important at higher levels of management?",
+    "options": [
+      "Technical skill — knowledge to perform specific tasks",
+      "Human/interpersonal skill — communication and relationship management",
+      "Conceptual skill — ability to integrate activities and interests of the organization",
+      "Administrative skill — ability to document and report performance metrics"
+    ],
+    "correctIndex": 2,
+    "explanation": "The 3 management skills are: (1) Technical — knowledge and capabilities to perform specific tasks; (2) Human/Interpersonal — soft skills like communication and relationship building (contrast to hard/technical skills); (3) Conceptual — ability to integrate activities and interests of the organization — the MOST important at higher levels of management. Lower-level managers need more technical skills; upper-level managers need more conceptual skills. Soft skills (human/interpersonal) are generally preferred over technical expertise when hiring because technical skills can be learned.",
+    "tags": [
+      "management-skills",
+      "conceptual-skill",
+      "technical-skill",
+      "human-skills",
+      "leadership"
+    ]
+  },
+  {
+    "id": "m3-mgmt-005",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "On a new employee's first day of work, when should performance objectives be given?",
+    "options": [
+      "At the end of the 90-day probationary period",
+      "During the first formal performance review (typically at 6 months)",
+      "On the day they are hired",
+      "After completing all initial training modules"
+    ],
+    "correctIndex": 2,
+    "explanation": "Performance objectives should be given on the day a new employee is hired — this sets clear expectations from day one. The staffing function includes: recruiting, screening, selecting, hiring, orienting, training, supervising, and evaluating employees. A standardized orientation and training program ensures all employees know policies, procedures, job tasks, and expectations, and reduces miscommunication. Planned in-service trainings should be based on observing staff and their work area to identify topics that need to be addressed.",
+    "tags": [
+      "staffing",
+      "new-employee",
+      "performance-objectives",
+      "orientation",
+      "training"
+    ]
+  },
+  {
+    "id": "m3-mgmt-006",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which is the correct order of progressive discipline steps for employee performance problems?",
+    "options": [
+      "Written warning → Verbal warning → Suspension → Termination",
+      "Verbal warning → Written warning → Suspension → Termination",
+      "Counseling session → Written warning → Termination → Appeal",
+      "Verbal warning → Suspension → Written warning → Termination"
+    ],
+    "correctIndex": 1,
+    "explanation": "Progressive discipline is a graduated range of responses to conduct/performance problems: (1) Verbal warning, (2) Written warning, (3) Suspension, (4) Termination. All 4 steps require formal documentation. Key principle: CONSISTENCY — every employee receives the same treatment for the same offense. Informal conversations (advice, coaching) do NOT require formal documentation. When evaluating a discipline scenario on the exam: assess the problem, the appropriateness of the response, and whether formal documentation is indicated.",
+    "tags": [
+      "progressive-discipline",
+      "staffing",
+      "verbal-warning",
+      "written-warning",
+      "termination"
+    ]
+  },
+  {
+    "id": "m3-mgmt-007",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A hospital foodservice director represents the department at a board meeting, speaks about the department's accomplishments, and serves as a ceremonial authority figure. Which Mintzberg management role is this?",
+    "options": [
+      "Liaison",
+      "Figurehead",
+      "Monitor",
+      "Spokesperson"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mintzberg's roles are grouped into 3 categories: Interpersonal (Figurehead, Leader, Liaison), Informational (Monitor, Disseminator, Spokesperson), and Decisional (Entrepreneur, Disturbance Handler, Resource Allocator, Negotiator). Figurehead: social, ceremonial, and legal responsibilities — serves as authority figure and inspiration source. Spokesperson: transmits information about the organization and goals to OUTSIDE parties. Liaison: communicates with internal AND external contacts. Monitor: seeks information about the industry, tracks changes, monitors team productivity.",
+    "tags": [
+      "Mintzberg",
+      "figurehead",
+      "management-roles",
+      "interpersonal",
+      "leadership"
+    ]
+  },
+  {
+    "id": "m3-mgmt-008",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A manager mediates an unexpected conflict between two employees that disrupts operations. Which Mintzberg decisional role is this?",
+    "options": [
+      "Entrepreneur",
+      "Resource Allocator",
+      "Disturbance Handler",
+      "Negotiator"
+    ],
+    "correctIndex": 2,
+    "explanation": "Decisional roles use information to make decisions and include: (1) Entrepreneur — creates and controls change, generates new ideas; (2) Disturbance Handler — takes charge when unexpected roadblocks occur, mediates disputes; (3) Resource Allocator — determines where organizational resources are applied, allocates funding and staff; (4) Negotiator — directs important negotiations within the team/department/organization. Disturbance handler is the most reactive role; Entrepreneur is the most proactive/innovative role.",
+    "tags": [
+      "Mintzberg",
+      "disturbance-handler",
+      "decisional-roles",
+      "conflict-resolution",
+      "management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-009",
+    "domain": "Domain III",
+    "topic": "Labor Law",
+    "difficulty": "medium",
+    "text": "Which labor law (1) created the National Labor Relations Board, (2) guarantees private-sector workers the right to unionize and engage in collective bargaining, and (3) permits states to pass right-to-work laws?",
+    "options": [
+      "Taft-Hartley Act (1947)",
+      "Landrum-Griffin Act (1959)",
+      "National Labor Relations Act / Wagner Act (1935)",
+      "Fair Labor Standards Act (1938)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The National Labor Relations Act (NLRA / Wagner Act, 1935): Created the NLRB; guarantees private-sector employees the right to organize, join unions, engage in collective bargaining, and strike; protects the right TO join AND NOT to join a union; requires unions to provide 'duty of fair representation'; permits states to pass right-to-work laws governing public sector unions. Pro-LABOR. Taft-Hartley (1947): outlawed closed shops, added unfair labor practices for unions — Pro-MANAGEMENT. Landrum-Griffin (1959): imposed code of conduct on unions to address corruption.",
+    "tags": [
+      "NLRA",
+      "Wagner-Act",
+      "labor-law",
+      "collective-bargaining",
+      "NLRB"
+    ]
+  },
+  {
+    "id": "m3-mgmt-010",
+    "domain": "Domain III",
+    "topic": "Labor Law",
+    "difficulty": "medium",
+    "text": "A hospital employee does not belong to the union but pays partial union dues that cover only collective bargaining and grievance adjustments — NOT political activity. This arrangement is called a(n):",
+    "options": [
+      "Closed shop",
+      "Union shop",
+      "Agency shop",
+      "Open shop"
+    ],
+    "correctIndex": 2,
+    "explanation": "Agency shop: employee does NOT need to be a union member but MUST pay partial dues covering only benefits received (collective bargaining, grievance adjustments) — not political activity or union organization. Closed shop: ONLY union members can be hired — outlawed by Taft-Hartley (1947). Union shop: can be hired without union membership but must JOIN within a certain time period (e.g., 30 days). Open shop / right-to-work: no one can be compelled to join OR pay dues — still benefits from union activities. Arbitration: third party with POWER to dictate settlement. Mediation: third party with NO power to dictate.",
+    "tags": [
+      "agency-shop",
+      "union-shop",
+      "closed-shop",
+      "open-shop",
+      "labor-law"
+    ]
+  },
+  {
+    "id": "m3-mgmt-011",
+    "domain": "Domain III",
+    "topic": "Labor Law",
+    "difficulty": "medium",
+    "text": "Which labor legislation established the federal minimum wage, overtime pay eligibility, and child labor standards?",
+    "options": [
+      "Civil Rights Act of 1964",
+      "Fair Labor Standards Act of 1938",
+      "National Labor Relations Act of 1935",
+      "Equal Pay Act of 1963"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fair Labor Standards Act (FLSA, 1938): established federal minimum wage, overtime pay, child labor standards, and recordkeeping requirements. Key FLSA amendments: Equal Pay Act (1963) — illegal to pay different wages based on sex; Age Discrimination in Employment Act (1967) — protects workers ≥ 40 years old; ACA — provides nursing mothers break time. Civil Rights Act (1964): ended segregation, created EEOC, prohibits employment discrimination based on race, color, religion, sex, national origin (Title VII). Remember FLSA = wages, hours, child labor.",
+    "tags": [
+      "FLSA",
+      "Fair-Labor-Standards-Act",
+      "minimum-wage",
+      "child-labor",
+      "overtime"
+    ]
+  },
+  {
+    "id": "m3-mgmt-012",
+    "domain": "Domain III",
+    "topic": "Labor Law",
+    "difficulty": "medium",
+    "text": "The Taft-Hartley Act (Labor Management Relations Act, 1947) is considered 'pro-management' because it:",
+    "options": [
+      "Created the National Labor Relations Board to protect workers",
+      "Established the federal minimum wage and overtime standards",
+      "Outlawed closed shops and added a list of unfair labor practices by UNIONS",
+      "Protected union members from unions misusing pension funds"
+    ],
+    "correctIndex": 2,
+    "explanation": "Taft-Hartley Act (1947) is pro-MANAGEMENT: outlawed closed shops; permitted union shops in certain scenarios; added 'unfair labor practices' on the part of UNIONS (not employers) to the NLRA; allowed the US president to stop national strikes for up to 80 days; addressed union issues like restraining employee rights, charging excessive fees, and refusing to bargain in good faith. Landrum-Griffin (1959) — protected union members from unions misusing dues/pension funds (anti-corruption). Wagner Act (1935) — created NLRB (pro-labor).",
+    "tags": [
+      "Taft-Hartley",
+      "Labor-Management-Relations-Act",
+      "closed-shop",
+      "unfair-labor-practices",
+      "pro-management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-013",
+    "domain": "Domain III",
+    "topic": "Leadership",
+    "difficulty": "medium",
+    "text": "A food service director focuses on maintaining current operations, motivates employees through a reward-and-punishment system, and is most effective in crisis situations with specific parameters. Which leadership style is this?",
+    "options": [
+      "Transformational leadership",
+      "Transactional leadership",
+      "Contingency/situational leadership",
+      "Servant leadership"
+    ],
+    "correctIndex": 1,
+    "explanation": "Transactional leadership: focus on supervision, organization, and performance; goal is to MAINTAIN THE STATUS QUO; motivates through rewards and punishments (short-term); effective in a crisis and when projects have very specific parameters. Transformational leadership: connects to employees' sense of identity and mission; goal is to CHANGE THE FUTURE; acts as positive role model; effective in smaller organizations. Contingency/situational: changes leadership approach with the situation; used when tasks and environment vary. Transformational = change; Transactional = status quo maintenance.",
+    "tags": [
+      "transactional-leadership",
+      "transformational-leadership",
+      "leadership-styles",
+      "rewards-punishments"
+    ]
+  },
+  {
+    "id": "m3-mgmt-014",
+    "domain": "Domain III",
+    "topic": "Leadership",
+    "difficulty": "hard",
+    "text": "Using the Hersey-Blanchard-Johnson (HBL) model, a manager has a new employee who lacks the skills needed for the task but is enthusiastic and eager to learn. Which maturity level and leadership style apply?",
+    "options": [
+      "M1 — S1 Telling (high task, low relationship behavior)",
+      "M2 — S2 Selling (high task, high relationship behavior)",
+      "M3 — S3 Participating (low task, high relationship behavior)",
+      "M4 — S4 Delegating (low task, low relationship behavior)"
+    ],
+    "correctIndex": 1,
+    "explanation": "HBL model matches follower maturity to leadership style: M2 (Unable but Willing) — follower lacks ability/experience but IS enthusiastic. Requires HIGH task behavior (needs direction) AND HIGH relationship behavior (needs encouragement to support learning). Leadership style: S2 SELLING — leader explains goals, methods, and reasons; provides both direction and support. M1 (Unable and Unwilling): high task, LOW relationship — S1 Telling (directive only). M3 (Able but Unwilling): LOW task, high relationship — S3 Participating. M4 (Able and Willing): low task, low relationship — S4 Delegating.",
+    "tags": [
+      "HBL",
+      "Hersey-Blanchard",
+      "leadership-model",
+      "maturity-levels",
+      "selling-style"
+    ]
+  },
+  {
+    "id": "m3-mgmt-015",
+    "domain": "Domain III",
+    "topic": "Leadership",
+    "difficulty": "hard",
+    "text": "A highly experienced, confident RDN needs no direction or motivation from their manager and independently plans and executes complex projects. Which HBL maturity/leadership combination is MOST appropriate?",
+    "options": [
+      "M1 — S1 Telling",
+      "M2 — S2 Selling",
+      "M3 — S3 Participating",
+      "M4 — S4 Delegating"
+    ],
+    "correctIndex": 3,
+    "explanation": "M4 (Able and Willing): follower is capable, experienced, confident, and committed. Requires LOW task behavior (no need for direction) and LOW relationship behavior (self-motivated, no need for support). Leadership style: S4 DELEGATING — leader gives full responsibility to the follower to set goals, plan, and execute. The leader's role is to observe and monitor. This is the most hands-off leadership style and is only appropriate for the most capable, self-directed employees. Using S1 Telling with an M4 follower would be micromanaging and demotivating.",
+    "tags": [
+      "HBL",
+      "delegating",
+      "M4",
+      "leadership-model",
+      "experienced-employee"
+    ]
+  },
+  {
+    "id": "m3-mgmt-016",
+    "domain": "Domain III",
+    "topic": "Leadership",
+    "difficulty": "medium",
+    "text": "A manager must implement a complex regulatory change quickly with little time for consultation. Which decision-making style is MOST appropriate?",
+    "options": [
+      "Democratic — defer to the majority vote of the team",
+      "Consensus — wait until everyone agrees before proceeding",
+      "Autocratic — make the decision independently with available information",
+      "Participative — gather input from all stakeholders before deciding"
+    ],
+    "correctIndex": 2,
+    "explanation": "Autocratic decision making is MOST appropriate when: making several complex, stressful, and simultaneous changes in a short period of time; there is little time to consult employees; decisions must be made with available information. Democratic: accepts group majority — good for team morale, slower. Consensus: entire group must agree — slowest, requires full agreement. Participative: leader gathers input before deciding but retains final authority — good for important decisions with time available. Time pressure → Autocratic. Group buy-in needed → Democratic or Consensus.",
+    "tags": [
+      "decision-making",
+      "autocratic",
+      "democratic",
+      "consensus",
+      "participative"
+    ]
+  },
+  {
+    "id": "m3-mgmt-017",
+    "domain": "Domain III",
+    "topic": "Healthcare System",
+    "difficulty": "medium",
+    "text": "The Joint Commission (TJC) is a hospital accrediting organization. How often does TJC conduct on-site surveys of hospitals?",
+    "options": [
+      "Annually",
+      "Every 2 years",
+      "Every 3 years with annual self-assessments",
+      "Every 5 years with biannual self-assessments"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Joint Commission (TJC), established 1951, conducts on-site surveys every 3 years with annual self-assessments prepared by hospitals. TJC: independent, not-for-profit; has had deeming authority from CMS since 1966; accredits hospitals, home care, rehab, long-term care, behavioral health, and more. TJC standards are based on National Patient Safety Goals and EXCEED CMS Conditions of Participation (CoPs). DNVGL Healthcare (deeming authority since 2008) conducts ANNUAL surveys. NCQA accredits health plans and Patient-Centered Medical Homes using HEDIS data.",
+    "tags": [
+      "Joint-Commission",
+      "TJC",
+      "accreditation",
+      "deeming-authority",
+      "CMS"
+    ]
+  },
+  {
+    "id": "m3-mgmt-018",
+    "domain": "Domain III",
+    "topic": "Healthcare System",
+    "difficulty": "medium",
+    "text": "Accountable Care Organizations (ACOs) are an example of which payment model?",
+    "options": [
+      "Fee-for-service (volume-based) care",
+      "Alternative Payment Model (APM) / value-based care",
+      "Bundled payment for individual episodes only",
+      "Medicare Advantage supplemental coverage"
+    ],
+    "correctIndex": 1,
+    "explanation": "ACOs are groups of healthcare professionals/hospitals who voluntarily coordinate care for Medicare patients — an Alternative Payment Model (APM). APMs are 'alternative' to traditional fee-for-service (FFS) care. FFS incentivizes MORE procedures/services regardless of quality. Value-based care ties reimbursements to quality metrics and reduced costs. The ACA created the Center for Medicare and Medicaid Innovation (CMMI) to develop APMs. During COVID-19, providers using APMs were better able to manage financial volatility than FFS providers. ACOs aim to prevent errors and avoid unnecessary duplication.",
+    "tags": [
+      "ACOs",
+      "value-based-care",
+      "APM",
+      "fee-for-service",
+      "CMS",
+      "ACA"
+    ]
+  },
+  {
+    "id": "m3-mgmt-019",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "easy",
+    "text": "Which of the following correctly defines the difference between 'effective' and 'efficient' management?",
+    "options": [
+      "Effective = getting the most output from least input; Efficient = producing intended results",
+      "Effective = producing intended results (doing things well); Efficient = getting the most output from least input",
+      "Effective = suitable for the purpose; Efficient = good value for money/time spent",
+      "Effective = completing tasks quickly; Efficient = completing tasks accurately"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 4 E's of management: (1) Efficient: getting the MOST OUTPUT from the LEAST INPUT; (2) Effective: doing things well, PRODUCING INTENDED RESULTS; (3) Economical: good VALUE for money/time/effort spent ('thrifty'); (4) Expedient: suitable for a purpose given the circumstance. Efficient ≠ effective: you can efficiently do the wrong thing (fast + wrong = ineffective). The goal is to be BOTH efficient AND effective. Controlling ensures effective AND efficient utilization of organizational resources.",
+    "tags": [
+      "4-Es",
+      "efficient",
+      "effective",
+      "economical",
+      "management-concepts"
+    ]
+  },
+  {
+    "id": "m3-mgmt-020",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "easy",
+    "text": "A manager discovers an employee is submitting false reimbursement claims and redirecting company funds to a personal account. Which crime does this describe?",
+    "options": [
+      "Pilfering",
+      "Robbery",
+      "Embezzling",
+      "Burglary"
+    ],
+    "correctIndex": 2,
+    "explanation": "5 types of theft: (1) Theft: taking property without force (often premeditated); (2) Pilfering: stealing things of relatively little value (petty theft); (3) Robbery: taking property that may involve force and person-to-person interaction; (4) Embezzling: stealing money or MISAPPROPRIATING money belonging to the employer — what the employee did here; (5) Burglary: entering a building with INTENTION to steal (property doesn't have to actually be stolen; no person-to-person interaction required). Embezzlement is specifically about financial misappropriation by someone in a position of trust.",
+    "tags": [
+      "embezzlement",
+      "theft",
+      "pilfering",
+      "robbery",
+      "burglary",
+      "management-concepts"
+    ]
+  },
+  {
+    "id": "m3-mgmt-021",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which management theory, also known as 'Taylorism,' holds that there is 'one right way' to perform a task and emphasizes matching workers to jobs based on capability?",
+    "options": [
+      "Systems theory",
+      "Contingency theory",
+      "Scientific management",
+      "Human relations theory"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scientific management ('Taylorism') has 4 principles: (1) Use the scientific method to find the most efficient process — 'one right way'; (2) Match workers to jobs based on capability and motivation, then train for maximum efficiency; (3) Monitor performance and supervise to ensure maximum efficiency; (4) Divide work between managers and workers to apply scientific management principles. Key distinguishing feature: 'one right way' — in contrast to continuous improvement and other modern theories that accept multiple valid approaches. Named after Frederick Winslow Taylor.",
+    "tags": [
+      "scientific-management",
+      "Taylorism",
+      "management-theories",
+      "one-right-way",
+      "efficiency"
+    ]
+  },
+  {
+    "id": "m3-mgmt-022",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A job posting lists required qualifications, education, and skills for a clinical nutrition manager position. This document is a:",
+    "options": [
+      "Job description — outlines tasks, duties, and responsibilities",
+      "Job specification — outlines desired qualifications, skills, and abilities of the ideal candidate",
+      "Performance standard — outlines minimum acceptable performance benchmarks",
+      "Position analysis — outlines compensation and benefits for the position"
+    ],
+    "correctIndex": 1,
+    "explanation": "Job description: lists job title, TASKS, DUTIES, ROLES, and RESPONSIBILITIES — what the candidate will DO if hired. Job specification: lists desired QUALIFICATIONS, SKILLS, and ABILITIES needed to perform the job — characterizes the IDEAL CANDIDATE. Both are required for every job, regardless of level. Distinction: description = what the job IS; specification = who the ideal person IS. On the exam: if asked about a document listing 'required education, certifications, and experience,' that's a job specification.",
+    "tags": [
+      "job-description",
+      "job-specification",
+      "staffing",
+      "recruiting",
+      "HR"
+    ]
+  },
+  {
+    "id": "m3-mgmt-023",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Collective bargaining results in a document that outlines terms of employment for all union members. What is this document called?",
+    "options": [
+      "Grievance procedure",
+      "Collective bargaining agreement (CBA)",
+      "Union charter",
+      "Arbitration ruling"
+    ],
+    "correctIndex": 1,
+    "explanation": "Collective bargaining: negotiation between employer representatives (HR) and union representatives on behalf of all union members — 'collective' because the union bargains FOR all members. The result is a Collective Bargaining Agreement (CBA): outlines terms of employment for bargaining unit members; enforced by the union via grievance procedures and arbitration. Management CANNOT change working conditions without negotiating with union representatives. At-will employment (no CBA): employer can fire/adjust conditions at nearly any time for nearly any reason. CBA positions require 'just cause' for termination.",
+    "tags": [
+      "collective-bargaining",
+      "CBA",
+      "labor-union",
+      "grievance",
+      "at-will-employment"
+    ]
+  },
+  {
+    "id": "m3-mgmt-024",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "An employee with exceptional skills finds their job tasks too demanding and stressful. As their manager, which approach BEST addresses this situation?",
+    "options": [
+      "Rewrite the job description to match their current capabilities",
+      "Reiterate performance standards to remind them of expectations",
+      "Simplify tasks, lessen workload, and reduce time pressure while maintaining positive dialogue",
+      "Provide additional staff and equipment resources without empowering the employee"
+    ],
+    "correctIndex": 2,
+    "explanation": "When an employee finds tasks too demanding, the manager should EMPOWER and MOTIVATE by: simplifying tasks, lessening workload, reducing time pressure, maintaining a positive attitude, and having constructive conversation. Rewriting the job description to match their current limitations would lower standards and not help the employee grow. Reiterating performance standards without addressing the workload issue does not reduce job demands. Additional resources (equipment, staff) do not empower the employee themselves — empowerment means helping them develop their own capacity. The goal is to help the employee improve performance.",
+    "tags": [
+      "employee-performance",
+      "empowerment",
+      "motivation",
+      "directing",
+      "management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-025",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which decision-making technique involves balancing the cost of waiting in line against the cost of expanding facilities to prevent long queues?",
+    "options": [
+      "Game theory",
+      "Simulation",
+      "Queuing theory",
+      "Artificial intelligence"
+    ],
+    "correctIndex": 2,
+    "explanation": "Decision-making techniques: (1) Game theory: introduces competitive component — maximize gains with minimum losses regardless of competitor actions; (2) Simulation: uses computers to imitate real-life occurrences (e.g., virtual reality); (3) Artificial intelligence: technology duplicates thought processes of experienced decision makers; (4) Queuing theory: balances the cost of WAITING IN LINES against the cost of EXPANDING FACILITIES to prevent them — classic example: how many cafeteria cashiers to staff given customer line length. Each technique applies to different types of management decisions.",
+    "tags": [
+      "queuing-theory",
+      "decision-making-techniques",
+      "game-theory",
+      "simulation",
+      "AI"
+    ]
+  },
+  {
+    "id": "m3-mgmt-026",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "The Civil Rights Act of 1964 Title VII prohibits employment discrimination based on which protected characteristics?",
+    "options": [
+      "Race, color, and national origin only",
+      "Race, color, religion, sex, and national origin",
+      "Race, age, disability, sex, and pregnancy",
+      "Race, color, religion, sex, national origin, age, and disability"
+    ],
+    "correctIndex": 1,
+    "explanation": "Civil Rights Act of 1964 Title VII prohibits employment and union discrimination based on: race, color, religion, sex, and national origin. It also created the Equal Employment Opportunity Commission (EEOC), which can file lawsuits on behalf of aggrieved employees. The Act has been supplemented by additional legislation extending protection: Pregnancy Discrimination Act (1978), Age Discrimination in Employment Act (1967, protects those ≥40 years), and Americans with Disabilities Act (ADA, 1990). Remember: the original 1964 Act has 5 protected classes — subsequent laws added more.",
+    "tags": [
+      "Civil-Rights-Act",
+      "Title-VII",
+      "EEOC",
+      "discrimination",
+      "employment-law"
+    ]
+  },
+  {
+    "id": "m3-mgmt-027",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A manager's leadership style changes depending on the needs of each situation — hands-on with new employees and hands-off with experienced ones. Which leadership theory does this exemplify?",
+    "options": [
+      "Transactional leadership",
+      "Transformational leadership",
+      "Contingency/Situational leadership",
+      "Scientific management"
+    ],
+    "correctIndex": 2,
+    "explanation": "Contingency/Situational leadership: changes the leadership approach depending on the situation; used when tasks and environment vary; recognizes that organizations are open systems requiring flexible management. The HBL (Hersey-Blanchard-Johnson) model is the primary situational leadership model tested on the RDN exam — it matches leadership style (Telling/Selling/Participating/Delegating) to follower maturity (M1-M4). A single leader's style may change based on the situation, the task, and the specific employee. Transactional = status quo; Transformational = change future.",
+    "tags": [
+      "situational-leadership",
+      "contingency-leadership",
+      "HBL",
+      "leadership-styles",
+      "management"
+    ]
+  },
+  {
+    "id": "m3-mgmt-028",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "Which document protects dietitians in certain states from unlicensed individuals calling themselves 'dietitians' by providing title protection?",
+    "options": [
+      "The Academy of Nutrition and Dietetics Code of Ethics",
+      "State dietitian licensure laws with title protection provisions",
+      "The Commission on Dietetic Registration certification requirements",
+      "The Affordable Care Act credentialing standards"
+    ],
+    "correctIndex": 1,
+    "explanation": "Some states have licensure laws for dietitians — to practice in those states, an RD must be issued a license by the appropriate state agency. These statutes include a TITLE PROTECTION provision, which prevents unlicensed individuals from presenting themselves to the public as a 'dietitian.' This differs from certification (voluntary, by CDR) and accreditation (for organizations). Not all states require licensure — the dietetics practice scope varies by state. Licensure laws are a form of regulation that protects both the profession and the public.",
+    "tags": [
+      "licensure",
+      "title-protection",
+      "state-laws",
+      "credentialing",
+      "RDN"
+    ]
+  },
+  {
+    "id": "m3-mgmt-029",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A hospital's accreditation by The Joint Commission means it has also achieved which status with CMS?",
+    "options": [
+      "NCQA certification for health plan quality",
+      "CMS certification (deemed to meet federal regulatory standards for Medicare/Medicaid reimbursement)",
+      "ISO 9001 certification for continuous quality improvement",
+      "State health department licensure for facility operation"
+    ],
+    "correctIndex": 1,
+    "explanation": "If a hospital is accredited by an organization with DEEMING AUTHORITY (like TJC or DNVGL), it is automatically DEEMED to meet CMS Conditions of Participation (CoPs) and is thus CMS-certified — eligible for Medicare/Medicaid reimbursement. However, a hospital does NOT need accreditation to be CMS-certified — it can be certified directly through CMS state agency surveys. Why pay for accreditation? Time is money: without accreditation, hospitals must wait for an unannounced CMS survey and are ineligible for reimbursement during that wait. TJC has had deeming authority since 1966.",
+    "tags": [
+      "Joint-Commission",
+      "TJC",
+      "CMS",
+      "deeming-authority",
+      "Medicare",
+      "accreditation"
+    ]
+  },
+  {
+    "id": "m3-mgmt-030",
+    "domain": "Domain III",
+    "topic": "Management Concepts",
+    "difficulty": "medium",
+    "text": "A mediator is brought in to help resolve a labor dispute between hospital management and the nurses' union. How does mediation differ from arbitration?",
+    "options": [
+      "Mediators have binding authority; arbitrators do not",
+      "Arbitrators have the power to dictate settlement terms; mediators do not",
+      "Mediation is only for union disputes; arbitration applies to all employment contracts",
+      "Arbitration requires both parties' agreement; mediation can be imposed unilaterally"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arbitration: third-party ARBITRATOR has the POWER to DICTATE settlement terms — guarantees resolution. Mediation: MEDIATOR facilitates dialogue but has NO power to dictate a final ruling — parties must still agree. Healthcare exception under the NLRA (amended 1974): unions representing healthcare workers must provide 90 days' notice before terminating labor agreements and labor disputes must be submitted to MEDIATION (not left to strike) to protect essential services. Mediation preferred over arbitration in healthcare to maintain service continuity while still seeking voluntary resolution.",
+    "tags": [
+      "arbitration",
+      "mediation",
+      "labor-dispute",
+      "NLRA",
+      "collective-bargaining"
+    ]
+  }
+]

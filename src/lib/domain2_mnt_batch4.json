@@ -1,0 +1,632 @@
+[
+  {
+    "id": "m2-mnt-091",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "medium",
+    "text": "A patient is 6 months post-Roux-en-Y gastric bypass and reports episodes of sweating, palpitations, and lightheadedness occurring 1–3 hours after meals. Which complication is most likely responsible?",
+    "options": [
+      "Early dumping syndrome",
+      "Late dumping syndrome (reactive hypoglycemia)",
+      "Anastomotic leak",
+      "Iron deficiency anemia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Late dumping syndrome (reactive hypoglycemia) occurs 1–3 hours postprandially due to rapid carbohydrate absorption causing an exaggerated insulin response and subsequent hypoglycemia. Early dumping occurs within 30 minutes of eating due to rapid gastric emptying into the small intestine.",
+    "tags": [
+      "bariatric surgery",
+      "dumping syndrome",
+      "reactive hypoglycemia",
+      "RYGB"
+    ]
+  },
+  {
+    "id": "m2-mnt-092",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "medium",
+    "text": "According to ASMBS guidelines, what is the recommended protein intake for post-bariatric surgery patients?",
+    "options": [
+      "0.8 g/kg actual body weight",
+      "1.1–1.5 g/kg ideal body weight",
+      "2.0–2.5 g/kg ideal body weight",
+      "60–80 g/day regardless of weight"
+    ],
+    "correctIndex": 1,
+    "explanation": "ASMBS Integrated Health Nutritional Guidelines recommend 1.1–1.5 g protein/kg ideal body weight post-bariatric surgery to support wound healing, preserve lean body mass, and support recovery. Actual body weight is not used as the reference due to obesity.",
+    "tags": [
+      "bariatric surgery",
+      "protein",
+      "ASMBS",
+      "post-operative nutrition"
+    ]
+  },
+  {
+    "id": "m2-mnt-093",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "hard",
+    "text": "Which bariatric surgery procedure is associated with the HIGHEST risk of micronutrient deficiencies, particularly iron, B12, and fat-soluble vitamins?",
+    "options": [
+      "Laparoscopic adjustable gastric banding (LAGB)",
+      "Sleeve gastrectomy",
+      "Roux-en-Y gastric bypass (RYGB)",
+      "Biliopancreatic diversion with duodenal switch (BPD/DS)"
+    ],
+    "correctIndex": 3,
+    "explanation": "BPD/DS causes the most severe malabsorption of all bariatric procedures due to the extensive bypass of the absorptive small intestine. While RYGB also causes significant deficiencies, BPD/DS has the highest risk for fat-soluble vitamin (A, D, E, K), iron, B12, calcium, and zinc deficiencies.",
+    "tags": [
+      "bariatric surgery",
+      "micronutrients",
+      "malabsorption",
+      "BPD/DS"
+    ]
+  },
+  {
+    "id": "m2-mnt-094",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "medium",
+    "text": "When should micronutrient status be assessed in a bariatric surgery candidate?",
+    "options": [
+      "Only after surgery if symptoms develop",
+      "Preoperatively, to minimize postoperative deficiencies",
+      "At 6 months post-surgery for the first time",
+      "Only if BMI exceeds 50 kg/m²"
+    ],
+    "correctIndex": 1,
+    "explanation": "ASMBS guidelines recommend preoperative assessment of micronutrient status in all bariatric candidates. Deficiencies are common in obese patients due to inflammation, hyperinsulinemia, medications, and adipose tissue sequestration of fat-soluble vitamins. Identifying and correcting deficiencies before surgery minimizes postoperative complications.",
+    "tags": [
+      "bariatric surgery",
+      "preoperative",
+      "micronutrients",
+      "assessment"
+    ]
+  },
+  {
+    "id": "m2-mnt-095",
+    "domain": "Domain II",
+    "topic": "Type 1 Diabetes",
+    "difficulty": "medium",
+    "text": "A 17-year-old with newly diagnosed type 1 diabetes is hospitalized for DKA. What is the PRIMARY MNT goal for this patient during hospitalization?",
+    "options": [
+      "Implement a strict carbohydrate-counting meal plan",
+      "Conduct nutrition assessment and provide basic nutrition education with a follow-up plan",
+      "Educate about all aspects of long-term diabetes management",
+      "Calculate exact insulin-to-carbohydrate ratios"
+    ],
+    "correctIndex": 1,
+    "explanation": "For a newly diagnosed type 1 diabetes patient hospitalized for DKA, the RDN typically only has time for a nutrition assessment and basic nutrition education. The in-hospital MNT goals are to optimize glycemic control, meet metabolic demands, and include a plan for follow-up MNT in the discharge plan. Comprehensive diabetes education occurs in the outpatient setting.",
+    "tags": [
+      "type 1 diabetes",
+      "DKA",
+      "hospitalization",
+      "MNT goals"
+    ]
+  },
+  {
+    "id": "m2-mnt-096",
+    "domain": "Domain II",
+    "topic": "Type 1 Diabetes",
+    "difficulty": "hard",
+    "text": "A patient with type 1 diabetes uses rapid-acting insulin (lispro) before meals. What is the expected onset, peak, and duration of this insulin?",
+    "options": [
+      "Onset 30 min–1 hr; peak 2–4 hr; duration 6–8 hr",
+      "Onset 5–15 min; peak 1–3 hr; duration 3–5 hr",
+      "Onset 1–2 hr; peak 4–12 hr; duration 14–24 hr",
+      "Onset 3–4 hr; no peak; duration 20–24 hr"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rapid-acting insulin analogs (lispro, aspart, glulisine) have an onset of 5–15 minutes, peak at 1–3 hours, and last 3–5 hours (~4 hours). This is distinguished from short-acting (regular) insulin which has a slower onset (30 min–1 hr), longer peak (2–4 hr), and duration of 6–8 hours.",
+    "tags": [
+      "type 1 diabetes",
+      "insulin",
+      "rapid-acting",
+      "pharmacokinetics"
+    ]
+  },
+  {
+    "id": "m2-mnt-097",
+    "domain": "Domain II",
+    "topic": "Type 1 Diabetes",
+    "difficulty": "medium",
+    "text": "Using the exchange list system, approximately how many grams of carbohydrate does one starch exchange contain?",
+    "options": [
+      "5 g",
+      "10 g",
+      "15 g",
+      "20 g"
+    ],
+    "correctIndex": 2,
+    "explanation": "In the exchange list system, one starch exchange contains approximately 15 g of carbohydrate, 0–3 g protein, 0–1 g fat, and ~80 calories. Examples of one starch exchange include ⅓ cup cooked cereal, ½ cup cooked rice or pasta, or 1 oz bread (1 slice).",
+    "tags": [
+      "type 1 diabetes",
+      "exchange list",
+      "carbohydrate counting",
+      "meal planning"
+    ]
+  },
+  {
+    "id": "m2-mnt-098",
+    "domain": "Domain II",
+    "topic": "Type 1 Diabetes",
+    "difficulty": "hard",
+    "text": "An adult patient with type 1 diabetes ages 35-60, without significant comorbidities, has an HbA1c target of <7.0%. If this patient is an older adult (>65 years) with complex health needs, what HbA1c target is recommended?",
+    "options": [
+      "< 6.5%",
+      "< 7.0%",
+      "< 8.0%",
+      "< 8.5%"
+    ],
+    "correctIndex": 2,
+    "explanation": "For older adults (>65 years) with complex/intermediate health needs, the recommended HbA1c target is <8.0%. Healthy older adults (without significant comorbidities) have a target <7.5%, while those with poor health have a target <8.5%. Tighter targets for healthier older adults reduce complications but less strict targets for complex patients balance glycemic control against hypoglycemia risk.",
+    "tags": [
+      "type 1 diabetes",
+      "HbA1c",
+      "glycemic targets",
+      "older adults"
+    ]
+  },
+  {
+    "id": "m2-mnt-099",
+    "domain": "Domain II",
+    "topic": "Type 1 Diabetes",
+    "difficulty": "medium",
+    "text": "A patient using NPH insulin (intermediate-acting) is at highest risk for hypoglycemia at what time point?",
+    "options": [
+      "30 minutes after injection",
+      "2–3 hours after injection",
+      "Approximately 8 hours after injection",
+      "More than 14 hours after injection"
+    ],
+    "correctIndex": 2,
+    "explanation": "NPH (intermediate-acting) insulin peaks at approximately 8 hours after injection, which is when the risk of hypoglycemia is highest. This is why patients using NPH may need an afternoon snack to prevent hypoglycemia. NPH has an onset of 1–2 hours and a duration of 14–24 hours.",
+    "tags": [
+      "insulin",
+      "NPH",
+      "hypoglycemia",
+      "intermediate-acting"
+    ]
+  },
+  {
+    "id": "m2-mnt-100",
+    "domain": "Domain II",
+    "topic": "Type 2 Diabetes",
+    "difficulty": "medium",
+    "text": "According to the Academy's Nutrition Practice Guideline, how many MNT encounters should an RDN provide to a newly diagnosed type 2 diabetes patient in the first 6 months?",
+    "options": [
+      "1 encounter",
+      "2–3 encounters",
+      "3–6 encounters",
+      "6–10 encounters"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Academy's Nutrition Practice Guideline for Diabetes in Adults recommends 3–6 MNT encounters in the first 6 months for adults with type 2 diabetes, with additional encounters beyond 6 months based on individualized assessment, plus at least 1 follow-up encounter per year.",
+    "tags": [
+      "type 2 diabetes",
+      "MNT encounters",
+      "follow-up",
+      "Academy guidelines"
+    ]
+  },
+  {
+    "id": "m2-mnt-101",
+    "domain": "Domain II",
+    "topic": "Type 2 Diabetes",
+    "difficulty": "hard",
+    "text": "A patient with type 2 diabetes is prescribed metformin. Which mechanism of action best describes this biguanide medication?",
+    "options": [
+      "Stimulates insulin secretion from pancreatic beta cells",
+      "Delays carbohydrate absorption in the intestine",
+      "Reduces hepatic glucose production and increases peripheral glucose uptake",
+      "Increases glucose excretion in the urine"
+    ],
+    "correctIndex": 2,
+    "explanation": "Metformin (a biguanide) is euglycemic — it reduces hepatic glucose production, decreases intestinal glucose absorption, and may improve insulin sensitivity by increasing glucose uptake. It should not cause hypoglycemia on its own. Common GI side effects include nausea, vomiting, diarrhea, and gas.",
+    "tags": [
+      "type 2 diabetes",
+      "metformin",
+      "biguanide",
+      "mechanism of action"
+    ]
+  },
+  {
+    "id": "m2-mnt-102",
+    "domain": "Domain II",
+    "topic": "Type 2 Diabetes",
+    "difficulty": "hard",
+    "text": "A patient with type 2 diabetes is prescribed a GLP-1 receptor agonist (e.g., liraglutide). Which nutrition-related side effect is most common and may require dietary counseling?",
+    "options": [
+      "Hypoglycemia and dizziness",
+      "Nausea, vomiting, diarrhea, and abdominal pain",
+      "Fluid retention and bone fractures",
+      "Upper respiratory tract infections"
+    ],
+    "correctIndex": 1,
+    "explanation": "GLP-1 receptor agonists (e.g., liraglutide, exenatide, dulaglutide) commonly cause nausea, vomiting, diarrhea, abdominal pain, and headache due to delayed gastric emptying. These GI effects are typically dose-dependent and improve over time. Hypoglycemia can occur if taken with sulfonylureas or insulin, but not as a standalone effect.",
+    "tags": [
+      "type 2 diabetes",
+      "GLP-1 receptor agonist",
+      "side effects",
+      "medication"
+    ]
+  },
+  {
+    "id": "m2-mnt-103",
+    "domain": "Domain II",
+    "topic": "Type 2 Diabetes",
+    "difficulty": "medium",
+    "text": "Using diagnostic criteria for type 2 diabetes, which of the following fasting plasma glucose levels confirms a diagnosis of diabetes (assuming confirmed on a second test)?",
+    "options": [
+      "95 mg/dL",
+      "110 mg/dL",
+      "130 mg/dL",
+      "126 mg/dL"
+    ],
+    "correctIndex": 3,
+    "explanation": "A fasting plasma glucose ≥126 mg/dL on two separate occasions confirms a diabetes diagnosis. A fasting glucose of 100–125 mg/dL indicates prediabetes. A 2-hour plasma glucose ≥200 mg/dL or HbA1c ≥6.5% also confirms diabetes.",
+    "tags": [
+      "type 2 diabetes",
+      "diagnosis",
+      "fasting plasma glucose",
+      "diagnostic criteria"
+    ]
+  },
+  {
+    "id": "m2-mnt-104",
+    "domain": "Domain II",
+    "topic": "Type 2 Diabetes",
+    "difficulty": "medium",
+    "text": "An RDN is screening a patient for type 2 diabetes risk. Which waist circumference is considered HIGH risk for metabolic disease in a non-Asian woman?",
+    "options": [
+      "≥ 30 inches (76 cm)",
+      "≥ 31.5 inches (80 cm)",
+      "≥ 35 inches (88 cm)",
+      "≥ 40 inches (102 cm)"
+    ],
+    "correctIndex": 2,
+    "explanation": "A waist circumference ≥35 inches (88 cm) in women is considered high risk for metabolic diseases, including type 2 diabetes and CVD. For men, the cutoff is ≥40 inches (102 cm). Asian-specific cutoffs are lower: ≥31.5 inches (80 cm) for Asian women and ≥35 inches (90 cm) for Asian men.",
+    "tags": [
+      "type 2 diabetes",
+      "waist circumference",
+      "screening",
+      "metabolic risk"
+    ]
+  },
+  {
+    "id": "m2-mnt-105",
+    "domain": "Domain II",
+    "topic": "Type 2 Diabetes",
+    "difficulty": "hard",
+    "text": "A patient with type 2 diabetes and diagnosed cardiovascular disease has a blood pressure target of:",
+    "options": [
+      "< 140/90 mmHg",
+      "< 130/80 mmHg",
+      "< 120/70 mmHg",
+      "< 150/90 mmHg"
+    ],
+    "correctIndex": 1,
+    "explanation": "Patients with diabetes AND diagnosed cardiovascular disease have a more aggressive blood pressure target of <130/80 mmHg (SBP <130, DBP <80). Patients with diabetes alone (without diagnosed CVD) have a target of <140/90 mmHg. These tighter targets reflect the additive cardiovascular risk.",
+    "tags": [
+      "type 2 diabetes",
+      "blood pressure",
+      "cardiovascular disease",
+      "treatment goals"
+    ]
+  },
+  {
+    "id": "m2-mnt-106",
+    "domain": "Domain II",
+    "topic": "Gestational Diabetes",
+    "difficulty": "medium",
+    "text": "When is screening for gestational diabetes typically performed in a pregnant person who tested negative for type 2 diabetes at their first prenatal visit?",
+    "options": [
+      "At 10–14 weeks gestation",
+      "At 18–20 weeks gestation",
+      "At 24–28 weeks gestation",
+      "At 32–36 weeks gestation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Screening for gestational diabetes occurs between 24 and 28 weeks gestation. This corresponds to the second trimester when increased placental hormones (estrogen, progesterone, cortisol, hPL) create insulin resistance. Pregnant persons with type 2 diabetes risk factors are screened for preexisting type 2 diabetes at their first prenatal visit.",
+    "tags": [
+      "gestational diabetes",
+      "screening",
+      "prenatal",
+      "timing"
+    ]
+  },
+  {
+    "id": "m2-mnt-107",
+    "domain": "Domain II",
+    "topic": "Gestational Diabetes",
+    "difficulty": "hard",
+    "text": "Using the one-step approach (2-hour 75g OGTT) for diagnosing gestational diabetes, which fasting glucose value meets the diagnostic criterion?",
+    "options": [
+      "≥ 85 mg/dL",
+      "≥ 92 mg/dL",
+      "≥ 100 mg/dL",
+      "≥ 110 mg/dL"
+    ],
+    "correctIndex": 1,
+    "explanation": "For the one-step approach using a 2-hour 75g fasting OGTT, gestational diabetes is diagnosed if ANY of the following are met: fasting ≥92 mg/dL, 1-hour ≥180 mg/dL, or 2-hour ≥153 mg/dL. Only one abnormal value is needed for diagnosis with the one-step method.",
+    "tags": [
+      "gestational diabetes",
+      "diagnosis",
+      "OGTT",
+      "one-step method"
+    ]
+  },
+  {
+    "id": "m2-mnt-108",
+    "domain": "Domain II",
+    "topic": "Gestational Diabetes",
+    "difficulty": "hard",
+    "text": "An untreated gestational diabetes patient delivers a macrosomic infant who develops hypoglycemia shortly after birth. What is the physiological explanation for neonatal hypoglycemia?",
+    "options": [
+      "The neonate's pancreas is underdeveloped and cannot produce insulin",
+      "Maternal insulin crosses the placenta and suppresses neonatal blood glucose",
+      "The fetus's pancreas released excess insulin in utero; after birth, high insulin levels persist without maternal glucose supply",
+      "The neonate's liver glycogen stores are depleted due to fetal hyperglycemia"
+    ],
+    "correctIndex": 2,
+    "explanation": "Maternal hyperglycemia causes the fetal pancreas to release excess insulin in utero (due to high glucose crossing the placenta). After birth, when placental glucose transfer ceases, the neonate's pancreas continues releasing high levels of insulin, resulting in hypoglycemia. This also explains macrosomia — excess fetal insulin promotes fat and glycogen storage in utero.",
+    "tags": [
+      "gestational diabetes",
+      "neonatal hypoglycemia",
+      "macrosomia",
+      "pathophysiology"
+    ]
+  },
+  {
+    "id": "m2-mnt-109",
+    "domain": "Domain II",
+    "topic": "Gestational Diabetes",
+    "difficulty": "medium",
+    "text": "MNT goals for a patient with gestational diabetes include which of the following carbohydrate intake recommendations?",
+    "options": [
+      "Eliminate all carbohydrates to normalize blood glucose",
+      "Consume no more than 45 g carbohydrates in one sitting, choosing whole foods over processed",
+      "Limit total daily carbohydrates to under 50 g/day",
+      "Distribute 60% of calories as carbohydrates throughout 3 meals"
+    ],
+    "correctIndex": 1,
+    "explanation": "MNT for gestational diabetes includes eating regularly throughout the day (3 meals, 2–3 snacks), consuming no more than 45 g carbohydrates per sitting, choosing whole foods rather than processed foods, and avoiding juice/soda while limiting sweets. Total carbohydrate elimination is not recommended as adequate carbohydrates are needed for fetal development and to prevent ketosis.",
+    "tags": [
+      "gestational diabetes",
+      "MNT",
+      "carbohydrate",
+      "meal planning"
+    ]
+  },
+  {
+    "id": "m2-mnt-110",
+    "domain": "Domain II",
+    "topic": "Gestational Diabetes",
+    "difficulty": "medium",
+    "text": "Energy needs during the third trimester of pregnancy require what additional kilocalories above the non-pregnant EER?",
+    "options": [
+      "+ 200 kcal/day",
+      "+ 340 kcal/day",
+      "+ 452 kcal/day",
+      "+ 500 kcal/day"
+    ],
+    "correctIndex": 2,
+    "explanation": "Energy needs during the third trimester require the non-pregnant EER plus 452 kcal/day. The second trimester requires an additional +340 kcal/day. The first trimester requires no additional calories. These recommendations apply to patients with gestational diabetes and are the same as general pregnancy recommendations.",
+    "tags": [
+      "gestational diabetes",
+      "energy needs",
+      "pregnancy",
+      "EER"
+    ]
+  },
+  {
+    "id": "m2-mnt-111",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "hard",
+    "text": "According to the National Cholesterol Education Program (NCEP ATP III) criteria, how many of the 5 components must be present to diagnose metabolic syndrome?",
+    "options": [
+      "Any 1 of 5",
+      "Any 2 of 5",
+      "Any 3 of 5",
+      "All 5"
+    ],
+    "correctIndex": 2,
+    "explanation": "The NCEP ATP III criteria require any 3 of 5 components to diagnose metabolic syndrome: (1) fasting glucose ≥100 mg/dL, (2) low HDL (<40 mg/dL men, <50 mg/dL women), (3) elevated triglycerides ≥150 mg/dL, (4) elevated waist circumference (≥40 in men, ≥35 in women), and (5) elevated blood pressure ≥130/85 mmHg. The 2009 IDF consensus also requires any 3 of the same 5 criteria.",
+    "tags": [
+      "metabolic syndrome",
+      "NCEP ATP III",
+      "diagnostic criteria",
+      "definition"
+    ]
+  },
+  {
+    "id": "m2-mnt-112",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "medium",
+    "text": "MNT counseling for metabolic syndrome should incorporate which behavioral approach to facilitate lifestyle change?",
+    "options": [
+      "Prescriptive dietary rules without patient input",
+      "Motivational interviewing, behavior theory, cognitive behavioral therapy, and Stages of Change",
+      "Strict calorie counting with weekly weigh-ins",
+      "Low-fat diet only, regardless of patient preferences"
+    ],
+    "correctIndex": 1,
+    "explanation": "MNT for metabolic syndrome combines behavior theory and cognitive behavioral therapy, uses motivational interviewing techniques, and assesses client readiness for change based on the Stages of Change (Transtheoretical) model. Patient-centered goals and addressing knowledge deficits are key components of the counseling approach.",
+    "tags": [
+      "metabolic syndrome",
+      "motivational interviewing",
+      "behavior change",
+      "counseling"
+    ]
+  },
+  {
+    "id": "m2-mnt-113",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "medium",
+    "text": "Which combination of conditions characterizes metabolic syndrome?",
+    "options": [
+      "Anemia, osteoporosis, and renal failure",
+      "Abdominal obesity, hyperglycemia, dyslipidemia, and hypertension",
+      "Hypothyroidism, hyperlipidemia, and fatigue",
+      "Malnutrition, sarcopenia, and low albumin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Metabolic syndrome is characterized by the co-occurrence of abdominal obesity, hyperglycemia (elevated fasting glucose or diabetes), dyslipidemia (low HDL and/or elevated triglycerides), and hypertension. This cluster of conditions is associated with increased cardiovascular disease risk and insulin resistance.",
+    "tags": [
+      "metabolic syndrome",
+      "definition",
+      "components",
+      "cardiovascular risk"
+    ]
+  },
+  {
+    "id": "m2-mnt-114",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "medium",
+    "text": "A patient with recurrent gout is asking about dietary modifications. Which food group should he most significantly limit to reduce purine load?",
+    "options": [
+      "Dairy products and eggs",
+      "Whole grains and legumes",
+      "Organ meats (liver, kidney), red meat, and seafood",
+      "Fruits and vegetables"
+    ],
+    "correctIndex": 2,
+    "explanation": "High-purine animal foods including organ/glandular meats (liver, kidney, sweetbreads, foie gras), red meat, and seafood are most associated with acute gout episodes. ASMBS guidelines recommend limiting meat, fish, and poultry to 4–6 oz/day. Beer also significantly increases gout risk. Low-fat dairy may actually be protective.",
+    "tags": [
+      "gout",
+      "purines",
+      "diet",
+      "hyperuricemia"
+    ]
+  },
+  {
+    "id": "m2-mnt-115",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "medium",
+    "text": "What is the recommended fluid intake for a patient with gout to help prevent uric acid crystal formation?",
+    "options": [
+      "4–6 cups/day total fluids",
+      "6–8 cups/day primarily water",
+      "8–16 cups/day with at least half as water",
+      "12–20 cups/day of any beverage"
+    ],
+    "correctIndex": 2,
+    "explanation": "MNT for gout recommends 8–16 cups of fluid per day, with at least half as water. Adequate hydration helps dilute uric acid in urine and prevent crystal formation. Dehydration can contribute to crystal formation and trigger acute gout episodes. Beer should be avoided as it significantly increases gout risk.",
+    "tags": [
+      "gout",
+      "hydration",
+      "fluid intake",
+      "MNT"
+    ]
+  },
+  {
+    "id": "m2-mnt-116",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "hard",
+    "text": "Why do patients with renal insufficiency have an elevated risk of developing gout?",
+    "options": [
+      "The kidneys produce excess uric acid in renal disease",
+      "The major route of uric acid excretion is through the kidneys; impaired renal function leads to hyperuricemia",
+      "Renal disease causes increased dietary purine absorption",
+      "Chronic kidney disease promotes uric acid crystal deposition in joints via inflammation"
+    ],
+    "correctIndex": 1,
+    "explanation": "The major route of uric acid excretion is through the kidneys (~70%). When renal function is impaired, uric acid accumulates in the blood (hyperuricemia), increasing the risk of monosodium urate crystal deposition in joints. This is why comorbidities such as renal insufficiency and hypertension are major risk factors for gout.",
+    "tags": [
+      "gout",
+      "renal insufficiency",
+      "hyperuricemia",
+      "uric acid excretion"
+    ]
+  },
+  {
+    "id": "m2-mnt-117",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "medium",
+    "text": "Up to what percentage of people with PCOS have insulin resistance with compensatory hyperinsulinemia?",
+    "options": [
+      "20–30%",
+      "40–50%",
+      "Up to 70%",
+      "Nearly 90%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Up to 70% of people with PCOS have insulin resistance with compensatory hyperinsulinemia. This promotes central adiposity, food cravings, difficulty losing weight, and hypoglycemic events. Insulin resistance in PCOS also increases the risk of impaired glucose tolerance, type 2 diabetes, cardiovascular disease, and kidney disease.",
+    "tags": [
+      "PCOS",
+      "insulin resistance",
+      "hyperinsulinemia",
+      "prevalence"
+    ]
+  },
+  {
+    "id": "m2-mnt-118",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "medium",
+    "text": "What is the primary MNT weight loss goal for an overweight patient with PCOS in the first 6 months?",
+    "options": [
+      "Achieve BMI <25 kg/m² within 6 months",
+      "Lose at least 20% of body weight",
+      "Prioritize weight loss of up to 10% of body weight in the first 6 months",
+      "Maintain current weight without further gain"
+    ],
+    "correctIndex": 2,
+    "explanation": "MNT for PCOS includes prioritizing a weight loss of up to 10% in the first 6 months for overweight/obese patients. This modest weight loss can significantly improve menstrual function, reduce androgen levels, improve insulin sensitivity, and reduce long-term complication risk. The nutrition counseling approach is the same as for overweight patients without PCOS.",
+    "tags": [
+      "PCOS",
+      "weight loss",
+      "MNT goals",
+      "6 months"
+    ]
+  },
+  {
+    "id": "m2-mnt-119",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "hard",
+    "text": "Which biochemical markers are most relevant to review during the nutrition assessment of a patient with PCOS?",
+    "options": [
+      "Serum ferritin, TIBC, and transferrin saturation",
+      "Fasting glucose, glucose tolerance test, HbA1c, lipid profile, serum 25(OH)D, hemoglobin, and hematocrit",
+      "Prealbumin, albumin, and C-reactive protein",
+      "TSH, free T4, and anti-TPO antibodies"
+    ],
+    "correctIndex": 1,
+    "explanation": "Key biochemical markers for PCOS nutrition assessment include: fasting glucose, results of glucose tolerance test, hemoglobin A1C (insulin resistance risk), lipid profile (CVD risk), serum 25(OH)D levels (vitamin D deficiency is common in PCOS), and hemoglobin/hematocrit. These markers guide nutrition diagnosis and intervention.",
+    "tags": [
+      "PCOS",
+      "biochemical assessment",
+      "labs",
+      "nutrition assessment"
+    ]
+  },
+  {
+    "id": "m2-mnt-120",
+    "domain": "Domain II",
+    "topic": "Type 1 Diabetes",
+    "difficulty": "hard",
+    "text": "The term 'Latent Autoimmune Diabetes of Adults' (LADA) describes which clinical scenario?",
+    "options": [
+      "Type 2 diabetes that has progressed to requiring insulin after 10+ years",
+      "Adult-onset type 1 diabetes: patients typically over 35, not obese, positive for autoantibodies, initially managed without insulin",
+      "A severe form of type 2 diabetes associated with extreme obesity and insulin resistance",
+      "Gestational diabetes that persists beyond delivery and is reclassified as type 1"
+    ],
+    "correctIndex": 1,
+    "explanation": "LADA is the term for adult-onset type 1 diabetes. These patients are typically over age 35, not obese, and positive for one of the five autoantibodies that contribute to beta-cell destruction. Unlike classic type 1 diabetes, they don't typically present with weight loss or ketoacidosis and can initially be managed with oral medications. However, they progress to requiring insulin faster than typical type 2 patients.",
+    "tags": [
+      "LADA",
+      "type 1 diabetes",
+      "adult onset",
+      "autoantibodies"
+    ]
+  }
+]

@@ -1,0 +1,3191 @@
+FOOD SERVICE LOGISTICS
+
+FOR THE REGISTERED DIETITIAN NUTRITIONIST EXAMINATION
+
+a VERITENSE™ product
+
+WRITTEN BY
+Bailey DeBarmore, PhD MHS RDN LDN
+Creator of the Study Smarter Method by Veritense™
+
+Version: Oct 1, 2022
+
+© 2022 Veritense™
+
+Table of Contents
+
+Menu Developme nt ............ceceeccceseteeceeecceseseeeeeeceeeeeseeeeeeeeeseeeeeeeeaeeeeeeeeceeeeeeaeeeeeceseeeeeeaeeeseeeeeeeeeseeaeseeseeeeeeenaes 3
+Menu Planning Principles ..............ccccceecseseeeseseeeeeeeeceeeeeeeaeeeceseaaeeeeseeaeeeseneaeeeseseseeeseneaeesseneaeeeseneeeeeeeaeaeees 3
+Types Of M@nusS 2.0.0.0... cceceeseeesceeneeeneceeaeeeaeeeaeceaeeeneeeneeeeaeeaesaeeeseecseeecaeseaeseaeeseeeneeesaeeeaeseaeeeaeeeeeeeneeeeaeeeaeees 4
+Profitability and Popularity ............c cece cece eecseeeeeeeeecseeseaeeesseesesaeeceeeeeeaeeeesaeesceeeeseeeseeaeeccaseceaeeseeaeeeaeees 5
+Finance And FOOdServiCe ............cccccceeceeseeeseeeseeeeeeeeeeeeseeeesaeeeeeeseaeeeeeaeeeeeeeaeeeeeeeseseeeeeeaeeeseeeseneeeeeaeeeeees 9
+
+Procurement and Production .0..........cccceesccceeeeeseeeeeeeeeseeeeeeaeeeeeeeseseeeseaeeeeseaeeeaeeeseseeeseeeeeeaeeeeeeeeeneeeeeeeeeneeeees 12
+Contract implementation ............ccecceceeeeeeeeeeeeeeeeeeeeeeeeceseeseecseeeseaeeaeeeeaeeneeeneeenaeseaeseseeeaaeeaeeaeseaeseneseaaeenaes 13
+Specification DevelopMent ............:cceceeeceseeeseeeeeeeeeeeeeeeeneceeeeseeeeeeeeeeaeenaeenaeseaeeeseseseseeaeenaceaeeeneseaesenaeenaes 13
+Group PUrChASING ..........eseeeeseeeeeeeeeneeeeseeeeaeeeseseeeceeseeaeesenaesecaeeseaaeesaaeseaeesecaeeeseeseceeseeaeseneeeseneeeeeaeeseaeees 13
+Prime Vendor Agreement ............ccccecseceeeseeeseeeeeneeeeeeaeeeeeseaecesaeesesaeecesaeeeseeseeaeeeseeeseeeeenaesenaeeseneeeeneaeeaes 14
+Purchasing ProcesS...........ccccccscecseseseeseeceeseeeneeeeeeeeeeeeeeeeseaesecaeeseaeeceeaeseeeseaeecseeeeseaeeeeaesenaeeseneeeeeeaeeeaes 15
+RECEIVING POCESS .........ceeeeeesceeseeeeeteeeeeeceeeneeeseseeeeeeeseaeeseeaeeecaeeseaeeceeaeseaeeseaueeeneeeeeeaeessaesenueeseneeeeeeaeeeaes 15
+IVOMOLY 00... eeeececeseeeseeeeeeteeeeeneeeseeeeeeaeeseeaeeeeeeseseeseeaeecaeesesaeeecaeesesaescnsaeseaeesesueecseeeseeeseeaeseeeeseneeeeneaeeeaes 16
+Foodservice Production SYSteMS ..0.........ccceccccccccseeceeesseeeeecesaeececeeaeececseaeeeseceseeeseeceaeeceeseseeceeeueeeeeesaaeees 21
+Food Distribution and Service SysteEMS...........c cece ccccceeeceeceseeeeseseeeeeceeseeeeecceeeeceesueeceeseaeeceeeueeesensaeeees 23
+Practice Questions (Group 1) ........ cece ccecceeeeeseeeeseeeeeaeeeeeaesecaeeceseeeceeaeseaeeseeaeeesaeeeeeeeseeeeseaeeeseeeeeeeaeeaes 26
+Practice Questions (Group 1) ANSWETS .0.......::ccceccceceeseeeeeeceeeeeeeeeeceseeseaeesesueessaeeeseaeeseeaeecaeeseeeeeeeeeeeaes 29
+EqQUIPMENS.......... cece ccccccceceseeeeeeeseeeeeeseeeeeeeeeceeceesueeeseececeeeesesaeeeeeeseeeeeeeeaeeeeceeceeeeeeaeseeeesuceeeeenaesaeeseeeeeeeeaea 34
+Study Guide Questions (Equipment) ..............ccccce cece ceeeeeeceeeeeseeeseeeeeeeeeeaeseseeeeesaeeseaeseeeeseneeeeeseeseaeees 39
+Study Guide Questions (ANSWETS)..........:cc:ccccceecceseeeceeeceeseeecaeeceseeeceeeecaeeeeaeesceeeeesaeeseeeeeeesseeeeecseeeeaeees 40
+Facility Specifications ..........e eee ecceeeceeeeeeeeeeeeeeeeeeeeeeseeceeseeseeeeaeesaeeseeeseesseeeseeesaeesaeeseeeseeesseeeeeeeeeeneeees 49
+Safety oo. eee ccceceeeeeeeeseesseeeeeeeeeeeeesneeeseeeseeesueeeseeesuecenecsneceneeseeeseaeesaeeeseeeaeeenaeseaeseaeseeaseaeeaaeseaesenesenaeenaes 55
+SAMitAtion oo... eee cece cecceeeeseeeseeeeeeeeceeeneeeeeeeeesuaeeseeesuecsneseneceneesseeseaesaeeesaeeaeeenaeseseseaeeenaseaeeaeenaesenesenaeeeaes 57
+Sustainability 0.2... ee eee cceeseeceeeeeeeeeseeeseeeseeeeaeeeseesseeeseeeeeeceneeseecaesaesenaeeneeseaeseaeseaaeeaeeaaeeaeeeaeseaeseaaeenaes 59
+Practice Questions (GrOUP 2) .......eeccceeeeeceeeeeneeeeeeseeeseeseeeesaeeeaeeeaeeseeeseeeneessaeeeaeseaeeseeeeneeseneseseseeeeeneeaes 61
+Practice Questions (Group 2) ANSWEFS .........:ccccecceeseeeeseeeeeeeeeceeeseeeceeeseeeeneeeseeesaeeeneeseeesaeeseeeeeseneeeneeeaes 64
+
+REPEFENCES 00... eee ceececeneeceneeeeeseeeseaeeenaeecesaeseneeeeaaeeseaeeecneeeeeaeeeneaesenaeeseseeeseaeeeeaeeeseseeeneeeeeeaeaseaseeneeeeeeeeeueeeees 69
+
+Terms of use: Bailey DeBarmore is the creator and sole owner of the exclusive copyright to this study resource.
+This publication may not be shared physically or electronically with anyone, manipulated, copied, reprinted and sold,
+altered, or reproduced in any form or by any means without requesting further permission from the owner, Bailey
+DeBarmore. This book is for personal use only by a single individual. It should not be distributed to a dietetic
+internship class or otherwise used for academic purposes without discussing terms of use with the owner. By
+purchasing this item, you agree to the Terms of Use outlined herein. To inquire about further permissions for this
+document, including access for groups such as dietetic internship classes or graduate courses, contact the owner to
+learn about your options.
+
+Food Service Logistics 2
+© 2022 Veritense™
+
+Menu Development
+
+Section Source (unless otherwise indicated)
+e Gregoire MB, Spears MC. Foodservice Organizations: A Managerial and Systems Approach. 9th ed. Upper
+Saddle River, NJ: Pearson; 2016.
+
+Menu Planning Principles
+When it comes to putting together a menu, the manager should consider both profit and
+aesthetics as they go hand in hand.
+
+* Menu engineering: allows the manager to examine a menu item’s profitability and
+popularity so that proactive planning, recipe changes, and selling price decisions can be
+made. The menu can be re-engineered to encourage customers to buy certain items.
+
+* Is it not a replacement for poor purchasing practices, food rotations, inventory waste,
+or lack of standardized recipes that are increasing base food cost?
+
+* Assess popularity by using the percent of total sales and profitability by using the
+percent of profit — obviously, the more units of an item that sells, the more popular it
+will be but the number of units sold will also contribute to the profitability.
+
+* Menu planning principles: you want to have a variety of color, flavors, textures, and food
+shapes
+
+* You may have a question on the exam that gives you 4 different example meals and
+asks which reflects “proper menu planning principles”. Visualize each option in terms
+of color, flavor, texture, and food shapes.
+
+¢ Flavors — you don’t want all spicy, all savory, or all sour
+* Texture — you don’t want all tough, all crunchy, or all mushy
+* Color — you don’t want all white or all brown
+
+* Food shapes — you don’t want all round or all flat
+
+Which of these meals follows menu planning principles?
+
+A: Italian meatballs, whole B: Grilled chicken, mashed C: Steak, sautéed broccoli,
+baby potatoes, roasted potatoes, roasted cauliflower, rice pilaf, vanilla frozen yogurt
+brussels sprouts, fresh lemon sorbet
+
+cherries
+
+Food Service Logistics 3
+© 2022 Veritense™
+
+Types of Menus
+
+There are different types of
+menus and the menu type
+impacts everything from
+purchasing to production to
+scheduling. '
+
+Static Menu \
+
+Static menu: does not change == =<. AF
+daily or seasonally; typically = ce ee
+grouped by appetizers, entrees, =
+salads, soups, desserts, etc. tc Cycle Menu
+Example: Red Lobster, TGIF,
+Olive Garden, fast food chains
+
+Du jour menu: has specials for
+the day. Offers flexibility,
+especially for small and busy restaurants; customizable each day and/or throughout the day and
+may apply to a single, special item (Soup du jour) in conjunction with a static menu
+
+Prix fixe menu (a.k.a. fixed price): may present an entire meal, or several options within each
+meal category, for a single price
+
+Table d’héte menu: a bit more upscale than prix fixe, may vary entrée price
+
+A la carte menus: prices each food item separately. Instead of entrée items like steak
+accompanied by a side salad and mashed potatoes, customers will order each item separately
+
+Single-use menu: used once, such as that for a special event
+
+Cycle menu: for each day of a cycle, the menu is different. The cycle then repeats on a regular
+basis (usually weekly or monthly), covers variety with some control over purchasing, production,
+and cost. Cycle menus save time and control food costs while still offering variety that can
+incorporate seasonality, holidays, and USDA commodity foods. Using cycle menus is a more
+efficient approach to plan menus, develop specifications, standardize purchasing procedures
+and gives the ability to buy in bulk, as well as accounting for increased or decreased needs
+based on the last cycle iteration (it reduces food waste, reduces storage cost, and keeps
+appropriate stock). Staff familiarity with recipes also leads to efficient production.
+
+e What benefits does a cycle menu offer?
+
+Food Service Logistics 4
+© 2022 Veritense™
+
+What type of menu are the examples below?
+
+Menu #1
+
+Two eggs $3.50
+Hotcake $2.00
+French toast $2.00
+
+Menu #2
+
+Appetizer
+
+Appetizer
+
+House salad
+Chicken tortilla soup
+
+House salad
+Chicken tortilla soup
+
+Whole grain toast
+Fruit cup
+Yogurt and muesli
+Coffee
+Espresso
+
+Dessert
+Fresh orange juice $1.50
+Flourless chocolate cake
+Chilled apple juice $1.50 Lemon zest créme brulee
+
+Almond-crusted halibut - $35
+Pecan chicken - $35
+Peppercorn steak - $45
+
+Almond-crusted halibut
+Pecan chicken
+Peppercorn steak
+
+Dessert
+
+Flourless chocolate cake
+Lemon zest creme brulee
+
+Menu #1 is an example of an a /a carte menu because each item has its own price and you can
+mix and match items.
+
+Menu #2 is an example of a prix fixe menu because there is 1 price for the 3-course meal.
+
+Menu #3 is a table d’héte menu because, like prix fixe, there is one main cost (not shown) but
+the cost of the main meal (entrée) changes. A restaurant may decide to do this to account for
+higher food costs associated with steak versus chicken.
+
+Profitability and Popularity
+
+Contribution margin indicates profitability and menu mix indicates popularity.
+Classifying menu items
+
+There are 4 types of menu items:
+
+1) Plow horse — very popular but doesn't bring in a lot of money
+2) Star —high in profit and high in sales
+
+3) Puzzle — don’t sell much but profitable when it does
+
+4) Dog — low profit and low sales
+
+Plow horse — popular but not profitable
+
+Popularity
+
+*
+ry
+
+Items that are very popular but don’t bring in a lot of money — and
+
+ef
+gt
+
+they are price sensitive. Customers are often aware of a typical price ow 1
+
+Profitability high
+
+and increasing the price to increase profit can reduce sales. An
+example is pepperoni pizza at a pizza parlor — the waitstaff doesn’t
+have to promote them to get sales, but they don’t bring in as much profit as other items. You
+might try changing the portion size to decrease the food cost. Similar to dogs, plow horse items
+might bring in customers and then you hope they order additional items. One example is steak —
+
+Food Service Logistics 5
+© 2022 Veritense™
+
+a whole family comes in because someone in the family wants steak, or people see steak ona
+restaurant menu and feel it is a classy place.
+
+To create more profitable versions of these popular staples, you can:
+e Improve appearance
+
+e Decrease portion size (easiest to do)
+
+e Decrease food cost
+
+Star — popular and profitable
+
+Items high in profit and high in sales — they are very popular and not price sensitive. In the
+bartending world, margaritas are a classic star. Customers will ask for the drink without
+checking the price, in contrast to bottled beer where they might ask to see the menu for pricing
+to decide. You can take advantage of stars by increasing the price because it won't translate
+into lost sales.
+
+e Don’t mess with these items
+
+e Keep them consistent and continue promoting them, such as with chef specials
+
+Puzzle — not popular but profitable
+
+These are dishes that you don’t sell very many of but when you do, you make a lot of money
+(low popularity but high profitability). You try to increase the number of units sold by jazzing up
+the item description, adding a photo, highlighting it as a special, moving it to the first or last item
+of a category on the written menu, or adjusting the price. For example, it’s typical for a fine
+dining restaurant to have steak on its menu. If their steak dish is a puzzle, they wouldn't just
+remove it but instead, try to increase the units sold. If it's not a staple item, you might consider
+removing it from the menu.
+
+Try to improve popularity by:
+e Reducing the selling price
+e Featuring it as a special
+e Giving it top priority on the menu
+e Offer a smaller portion size
+
+Dog — not popular or profitable
+
+These are dishes with low profit and low sales numbers. Relative to what you can charge, “dog
+items” cost a lot of money to make and you don't sell enough units to offset that extra food cost.
+However, in some cases, you keep them on your menu because these might be unique items
+that bring people into your restaurant whether or not they will order the item. You can increase
+the price because those who do want to buy it won’t change their mind based on price.
+
+To improve popularity or profitability:
+
+e_ Assess if this item is customer specific - items on the children’s menu (chicken fingers,
+mac and cheese, PB&J). Relegate to a “hidden” spot on the menu — children’s menus
+are often on the back page in the bottom corner
+
+e If not customer-specific, try increasing the selling price
+
+Food Service Logistics 6
+© 2022 Veritense™
+
+Use the example on the below and the graph worksheet available in your RD exam toolkit or at
+www.studysmartermethod.com to take notes on the 4 types of menu items and how you can
+solve their associated issues.
+
+Example: Joe’s Diner
+
+Joe has been running Joe’s Diner which his grandparents started back in the 1950's. Joe’s
+Diner is in a small college town and a popular place for locals and students alike. Below are 4
+scenarios concerning Joe’s menu. Classify each one as a plow horse, star, puzzle, or dog and
+write out why. These examples are intentionally vague and not reflective of a question you might
+get on the exam. Instead, they are practice at identifying the different menu classifications in a
+different way through active learning.
+
+1. The Signature Italiano Sandwich is a lunch favorite at Joe’s Diner but not the most
+profitable. Joe is trying to decide between swapping expensive Italian soppressota for
+pepperoni to reduce food cost or serving a half-hoagie instead of a full-size sub.
+
+2. Pizzas are offered on the Joe’s Diner menu but so are a lot of other Italian-American
+favorites. When a group comes in looking for pizza, he sells a lot of pies, but they don’t
+make up a large portion of his sales overall. He’s thinking about making Wednesday
+evenings “Pizza Pie Night”, offering a special discount for college kids.
+
+3. One of the first items on the menu back in the 1950’s was liver and onions. Miss Martha
+hosts a bridge club at Joe’s Diner every week and orders liver and onions every time.
+Joe doesn’t make much money off the item relative to the cost of buying the liver and
+only Miss Martha and her friends order the item.
+
+4. Joe’s Diner is popular on the weekends with local college kids who come in for brunch.
+The majority of his weekend sales are omelets which are cheap and easy for Joe to
+make
+
+ANSWERS
+
+1. Popular, but not profitable. This item is a plow horse — Joe sells a lot of these
+sandwiches but wants to increase his profit margin by reducing food cost.
+
+2. Not popular, but profitable. Pizzas are a ‘puzzle’ item — when Joe does sell pizza he
+makes a profit, but he doesn’t sell many overall (that is, pizza doesn’t make up a large
+percentage of total sales).
+
+3. Not popular or profitable. Liver and onions is a dog item — Joe keeps it on the menu for
+nostalgia and his customer base.
+
+4. Popular and profitable - Omelet’s are a start. They have a low food cost percentage,
+meaning Joe can sell them for more than it costs to make and they are popular on his
+busiest days.
+
+Food Service Logistics 7
+© 2022 Veritense™
+
+Assessing Profitability
+Popularity index is calculated by dividing the sales of an item by total sales.
+
+Profit contribution is calculated by calculating profit (subtracting food cost from selling price) and
+then dividing by the total profits.
+
+Given the following profit contributions and popularity indexes, plot each item on the graph. The
+X-axis is profitability (profit contribution) and the Y-axis is popularity (popularity index). Then,
+classify each item as a dog, puzzle, star, or plow horse.
+
+rime rib
+
+eggie Lasagna
+
+40%
+35%
+30%
+25%
+20%
+15%
+10%
+
+5%
+
+0%
+0% 10% 20% 30% 40%
+
+Food Service Logistics 8
+© 2022 Veritense™
+
+ANSWERS
+
+Profit Popularity . | —
+Contribution Index e b
+Chicken
+
+Chicken
+Plow horse e
+parmesan
+e Prime no
+Veggie : 0% ”
+Lasagna
+
+Finance and Foodservice
+
+There is overlap between financial concepts at the management level, such as budgets and
+cost-benefit analysis, and financial concepts in context of foodservice. The below concepts are
+discussed in the Calculations and Formulas Study Guide. Be sure you’re familiar with the
+following topics in addition to what is covered in this section.
+
+e Budget types e Cost-Benefit Analysis
+e Finance ratios e Value-Added Research
+e Balance sheets e Break-even Point
+
+Build on what you know about finance and foodservice as you review the following sections on
+controlling food cost, improving scheduling efficiency, and forecasting production.
+
+Menu and Food Cost
+Menu Cost
+
+There are several ways to control menu costs in foodservice. These include making seasonal
+changes to the menu items and also having the same menus across different avenues. For
+example, in a hospital with a commercial cafeteria and patient services, having the same menu
+for both will decrease costs by reducing food cost, labor and production cost, and optimizing
+inventory and food usage. Making seasonal changes to the menu will optimize the availability of
+items, while also reducing costs.
+
+Having the same menu items will reduce food cost partly by decreasing food waste, and it will
+reduce labor cost because it is quicker for a cook to prepare several of the same menu item
+
+Food Service Logistics 9
+© 2022 Veritense™
+
+rather than several different menu items. Additionally, having the same items on the menu
+means that less items need to be kept in inventory.
+
+Food Cost
+
+Standardized recipes will reduce food waste and thus, reduce cost.' Ingredient and portion
+control will also help reduce food cost. Having a system in place to control who takes items out
+of the storage room, such as a request system, will control who has access to what.
+
+Using proper measuring tools, such as scoop sizes to serve portions, will ensure that a recipe
+intended to serve 100 patients actually does serve 100 patients. Using proper measuring tools
+while preparing food will also ensure that only the appropriate amount of ingredients is used.
+
+In summary, measures taken to decrease food cost, decrease labor/production cost, and
+optimize inventory and food usage will all result in a better control of total costs.
+
+Forecasting production
+
+In any business, you may try to forecast future sales volume to better estimate preparation or
+anticipated costs. There are different forecast methods and they make different assumptions.
+
+There are 3 main types of forecasting methods: qualitative techniques, time series and
+projection, and causal models.
+
+Qualitative techniques are based on expert opinion and consider special events relevant to
+the industry. The idea of special events can be illustrated easily with the technology field — a
+fast-paced industry that has to account for exponential growth in technological knowledge.
+Qualitative techniques may or may not consider historical data. They include Delphi methods,
+market research, panel consensus, visionary forecast, and historical analogy.
+
+Time series and projection methods, including exponential smoothing and moving
+averages, look at patterns and changes in patterns using only historical data. If you have a new
+product or are running a new menu campaign without historical data, you would not be able to
+use these methods. You would want to turn to qualitative information instead since historical
+data is scant.
+
+When using a moving average, each point of the average is the average of n consecutive
+points prior. The number of data points prior (n) depend on the effect of seasons, stability of the
+estimate, and anticipated irregularity. If you use a 3-month moving average, the average for
+month 4 would be an average of the previous 3 months, rather than an average of the entire
+past year. Exponential smoothing is similar to moving average but gives more weight to recent
+data points.
+
+Note that moving average and exponential smoothing models assume that sales follow a certain
+pattern over time. We can then project that pattern, accounting for differences we anticipate.
+The simplest type of projection would assume constant growth. Other types of time series and
+projection methods include Box-Jenkins, X-11, trend projections, and life-cycle analysis.
+
+Food Service Logistics 10
+© 2022 Veritense™
+
+Causal methods for forecasting include regression models, econometric models, intention-to-
+buy surveys, and input-output models. You may see regression on the exam, such as “linear
+regression”. Regression models can include the effect of several variables or factors that will
+influence anticipated sales volume. These models are more statistically intensive than moving
+averages and do not assume a certain pattern in sales.
+
+See examples of forecasting methods in the Calculations and Formulas Study Guide.
+Scheduling and Efficiency
+Having an effective production plan and schedule will help control costs in several ways.
+
+e Reduces wasted time and improves process flow to reduce labor cost.
+
+e Decreases the need for safety stocks and work-in-process inventories which will reduce
+inventory costs.
+
+e Optimizes equipment usage and increases work capacity. For example, scheduling recipe
+production for 2 cooks using the same equipment would not be efficient and would lead to
+downtime. Instead, having a morning cook and an afternoon cook stagger these recipes
+would be more efficient.
+
+As you reviewed in the Management Concepts Study Guide, planning is a key management
+function. In order to craft a production plan that optimizes efficiency, you need certain
+information and skills, including:
+
+e Forecast sales volume e Standardized recipes and scheduling
+
+e An inventory control system e Anunderstanding of potential problems
+
+e Operational capacity (equipment & labor)
+To actually plan out the processes, you may use tools like PERT charts (reviewed in
+Management Concepts study guide), particularly if you have a large project that will require
+many steps. You'll want to identify what must happen first and what the shortest path is to
+success. Planning means you will have enough materials for all the recipes, that you anticipate
+bottlenecks and shift to another part of the process if you can, and you identify any specialized
+positions that you need to hire to fill prior to beginning your endeavor.
+
+As you review material for the exam, always think back to how they fit together for running an
+effective and profitable foodservice enterprise.
+
+e How does an effective production plan and schedule help control costs?
+
+Food Service Logistics 11
+© 2022 Veritense™
+
+Procurement and Production
+
+Section Source (unless otherwise indicated)
+
+e Gregoire MB, Spears MC. Foodservice Organizations: A Managerial and Systems Approach. 9th ed. Upper
+
+Saddle River, NJ: Pearson; 2016.
+
+Procurement includes receiving, purchasing, inventory control, and storage. Procurement also
+refers to a specific process of developing specifications, contacting sources, evaluating bids,
+and choosing a supplier. This procurement process can be informal or formal and, depending
+on the funding source, there may be regulations. For example, school lunch programs are
+funded by the USDA and must follow certain procurement processes.
+
+Informal Procurement Process
+
+Develop specifications in writing
+
+Identify sources eligible, able, and willing to provide products
+
+Contact sources
+
+Evaluate bidders’ response
+
+Determine most responsive and responsible bidder at the lowest price
+
+oPoNn=
+
+Formal Procurement uses the same process as informal procurement but scores bidders
+based on established scoring criteria, such as locally grown items receiving extra points. There
+are two methods of formal procurement: competitive sealed bidding and competitive negotiation.
+
+Competitive sealed bidding uses an invitation to bid and competitive negotiation uses a
+request for proposal, or RFP.
+
+In the bidding process, you may come across terms like wholesaler, broker, and manufacturer’s
+representative.
+
+The wholesale trade industry obtains products below retail value, sells them to retail
+establishments, and marks up the price to retail value to make their profit. Wholesalers
+purchase and sell goods, and take ownership of those goods.
+
+A broker is an independent sales representative who contracts with certain manufacturers,
+processors, and prime source producers to arrange transactions between the two parties.
+Brokers don’t keep inventory and thus, have no title to the goods sold but are paid a
+commission.
+
+A manufacturer’s representative or agent sells manufacturer products to wholesale and retail
+customers. The wholesaler or retailer pays the manufacturer’s representative a commission on
+the sale.
+
+e What is the difference between an informal and formal procurement process?
+e What are the 5 steps in the procurement process?
+
+Food Service Logistics 12
+© 2022 Veritense™
+
+Contract implementation
+
+When a bid is confirmed and turned into a contract, an implementation plan for the contract
+should be drafted. To develop this implementation plan, the foodservice manager should
+consider several questions that will impact the relationship between the department and the
+supplier.
+
+How will purchase data be tracked?
+
+How will performance data be reported and evaluated?
+
+Who will assess and report compliance with established policies?
+
+How will performance affect employees and existing contracts?
+
+How will adjustments to policies and goals be made? Who will have final authority?
+
+aron>
+
+From this brief overview, you can see that contract implementation is more complicated than it
+may seem. If the contract is between a food service management company and a hospital,
+specific documents that need to be developed may include standardized employee orientation
+manuals, employee performance evaluations and key performance indicators (KPIs). KPls for a
+foodservice department may be plate cost, food cost, meals per labor hour, and sales per labor
+hour. Your dietetic internship may have been with a food service management company that
+had contracts with a single hospital or with multiple hospitals where you did your clinical
+rotations.
+
+Specification Development
+
+Specifications should be carefully developed to ensure consistency of 1) price, 2) product
+quality, 3) operational function, and 4) fit for purpose.
+
+Specifications are provided to potential bidders and if a contract is agreed upon with those
+specifications, any extra cost of reformulating specifications will fall to you, not the supplier.
+Specifications will include both product requirements and product preferences. Product
+preferences should have a built-in tolerance level that suppliers can operate within.
+
+Examples of information that would be included in a specification include the grade and brand
+(grade of meat, brand of dairy), count per container (if you are ordering 12 containers a month,
+they should have the right number of units), and the price per unit.
+
+Group Purchasing
+
+Group purchasing is when foodservice operations create collective buying power to purchase
+more products at a lower price. These are called Group Purchasing Organizations, or GPOs.
+The foodservice operations may be schools or community hospital units, for example, that order
+similar products in a similar location.
+
+While lower purchasing costs are a benefit to being part of a GPO, there are drawbacks in terms
+of losing individuality. Also, some GPOs have fee structures and there are rules and regulations
+to follow at multiple levels (federal, state, local, and district).
+
+Food Service Logistics 13
+© 2022 Veritense™
+
+Table 1. Advantages and disadvantages of group purchasing in foodservice
+
+Advantages
+Increased purchasing power
+Increased menu variety and quality
+Labor savings
+Cost savings
+
+Disadvantages
+Requires accurate menu forecasting
+Requires membership agreement
+Requires delivery and storage capacity
+Requires minimum case orders
+
+You are the foodservice manager at a small community hospital. There are several other
+healthcare businesses in the area that require foodservice, and at local meetings, you’ve
+discussed the idea of forming a Group Purchasing Organization. Some members shared their
+motivations for joining your GPO and some shared their reservations. Match these comments to
+the advantages and disadvantages above.
+
+e The manager from Hospital A has been wanting to increase the variety of their menu but
+can’t afford it. The manager is looking forward to being able to purchase those new
+products for less with the GPO.
+
+e The assistant manager at the rehabilitation center just quit, and the manager is
+scrambling to get all the work done. At GPO meetings, the manager confides in you that
+she has run out of inventory the past few months and had to order items to cover the
+difference. What process should she focus on?
+
+e The majority of the group agrees to order ground turkey next month, but the minimum
+case order is larger than other order quantities. You draft up a cyclic menu that uses the
+ground turkey in several different ways but are concerned about being able to store the
+ground turkey frozen in your small freezer unit.
+
+siapso eased WNnwiuIW pue ‘jusWse1be
+diysuequiaw ‘Ayoedeo abes0}s pue Aianljap SauinbaiOdg5 =e
+Bunsesai0} nuaw aroidwi 0} spaeu saHeueyy se
+Ayipenb pue AjaueA nuowW peseasou] =e
+
+Prime Vendor Agreement
+
+A prime vendor agreement is a pricing contract that a supplier offers to businesses on products
+they frequently buy. It is also used when a single vendor provides a customer with a majority of
+purchases. Prime vendor agreements fit well with wholesale distribution and should benefit both
+buyer and seller.
+
+Pricing can be calculated with one of these several methods.
+
+e Cost-plus pricing: product cost + flat markup fee
+
+e Cost-percentage pricing: product cost + percentage rate
+e Cost pricing: product cost
+
+e Market pricing: market price
+
+Food Service Logistics 14
+© 2022 Veritense™
+
+Cost-percentage pricing is typically used when the product is subject to spoilage, and market
+pricing is used when the price of a product goes up and down during the year.
+
+Just like with contract implementation, price audits should occur to make sure best practices of
+the prime vendor agreement are being met.
+
+Purchasing Process
+
+As foodservice manager, you want to prep for next month’s menu. To start the purchasing
+process, you use a requisition form to request items from the purchasing manager. The
+purchasing manager will writeup the purchase order and give it to the supplier. After receiving
+the products, the supplier invoices the purchasing manager.
+
+Requisition form: internal form used by the foodservice manager or chef to request items from
+the purchasing manager or purchasing department
+
+Purchase order: lists items to be purchased from supplier and is completed by buyer
+
+Invoice: provided by supplier to buyer in order to request payment for items received
+
+Chef goes to the purchasing manager with a indicating the items
+
+needed for next week’s catering event. The purchasing manager drafts a and
+
+sends it to the supplier to place the order. When the items arrive, the receiving clerk gets the
+from the driver and checks it against the order, then delivers it to the purchasing
+
+manager.
+
+Receiving Process
+The receiving process is:
+
+1) Compare purchase order to invoice
+
+2) Inspect items against invoice
+
+3) Accept or reject items — fresh produce and frozen foods should be examined before
+accepting the item
+
+4) Complete receiving records and sign the invoice
+
+5) Place products in appropriate storage
+
+e Write out the 5 steps in the receiving process, noting the order in which steps are
+completed.
+
+Food Service Logistics 15
+© 2022 Veritense™
+
+The invoice is a delivery slip that accompanies the order listing the items ordered, the unit price,
+and the total cost. During receiving, you check the items received and the purchase order
+against the invoice.
+
+Blind check receiving method is when you give the receiving clerk an invoice or purchase
+order that lists the items but does not include the quantity, weight, or price. That information
+needs to be filled in and is used to check the delivery against the invoice. This takes longer and
+thus, costs more.
+
+FOB origin means “free on board”. Liability and title possession of the items ordered shift to the
+customer when the shipment leaves the point of origin. CIF origin (cost insurance and freight) is
+the opposite as responsibility transfers to the buyer only when the goods arrive at the
+destination.
+
+Inventory
+
+Inventory control is key to effective kitchen management. Money is spent on goods that are then
+transformed and sold. When goods spoil, are pilfered, or are insufficient to produce goods to be
+sold, the financial health of the foodservice company or department suffers.
+
+In order to calculate food cost and cost percentages, you need to have a system to track and
+record inventory. The complexity of the record keeping system depends on the size of the
+operation and/or the number of people managing inventory. Having a system in place also helps
+with receiving — the order specifications expected (purchased) should match the purchase order
+in the inventory system.
+
+Security measures for large operations is particularly important to avoid pilfering and to
+identify when standardized recipes are not being used. Depending on the size of the
+operation, the record system for outgoing inventory may differ. Larger operations may have
+separate storage areas, coolers, and even a purchasing manager from which the foodservice
+manager or chef in charge would “order” food through from the storeroom. For smaller
+operations, taking a count of inventory at the end of the day may be sufficient. Having someone
+in charge of moving inventory from storage areas to prep areas and someone in charge of
+requisition forms means there will be a record of outgoing inventory. It can be helpful to have
+someone accountable for this, rather than relying on all personnel to use proper procedures at
+all times, because staff may feel it’s easier to enter the storage room and take what they need
+for their item.
+
+One type of inventory classification system that takes into account the value of different
+inventory items is the ABC inventory classification system. Relative importance of each item
+is quantified using the activity level which looks at what percent of total inventory an item
+contributes, along with how much it contributes to the annual total of purchases. “A” items are
+those that make up 10-20% of the total number of items kept in inventory but make up 60-80%
+of the total value of purchases. “C” items are those that are 50-60% of inventory kept on hand
+but with only 5-10% of the total purchases. “B” items fall between the “A” and “C’” item ranges.
+
+Food Service Logistics 16
+© 2022 Veritense™
+
+You want to classify 3 types of items in your inventory. Total costs in purchasing spent over the
+past year was $420,000 and you keep 5,000 units of inventory on hand. You have 500 units of
+Item #1 and purchasing costs for the past year were $315,000. Item #2 has 3,000 units in
+storage and purchasing costs were $21,000. Item #3 has 1,500 units with purchasing costs of
+$84,000. Classify each item as “A”, “B”, or “C”. Cover up the bottom of the page if you want to
+
+work through it on your own.
+
+Item #1
+Item #2
+Item #3
+Item #1: A item
+Percent of Purchases
+$315,000 = 75%
+$420,000 °°”°
+Item #2: C item
+Percent of Purchases
+$21,000
+—_ = 5%
+$420,000
+Item #3: B item
+Percent of Purchases
+$84,000 = 20%
+$420,000 ~~
+Inventory Types
+
+Percent of Units
+
+500
+
+— ~ 190
+5,000 10%
+
+Percent of Units
+
+3,000 _ «0%
+5,000.
+
+Percent of Units
+
+1,500 | 300%
+5,000.
+
+There are only 2 types of inventory. Perpetual inventory is a running balance of inventory on
+hand. Records for each product are maintained, with the date that items were received, the date
+items were removed, the reorder point, the purchase unit size, and par stock all in one place.
+Perpetual inventory can be time consuming and thus, expensive. It may only be used for costly
+items in small operations. Accuracy of perpetual inventory may be verified by physical inventory
+
+methods.
+
+Physical inventory is completed a minimum of once a month with physical counts recorded on
+a spreadsheet. The product name, unit size, count, unit price, and total value are recorded. The
+unit price and total value are added after counting and “extended” to closing inventory. The
+next time physical inventory is taken, the opening inventory is compared to the closing
+
+inventory to determine monthly food cost.
+
+Food Service Logistics 17
+© 2022 Veritense™
+
+Inventory Management
+
+FIFO -— first in, first out. This inventory management method ensures that stock is being rotated
+so that the first item stocked (the oldest item) will be used before more recent items.” This
+means that new items will be stocked behind older items, so that older items are the most
+visible and easiest to grab.
+
+LIFO — last in, first out. This inventory management method has the newest stock used first.”
+This method might be used for items that would spoil. New items are stocked in front of older
+items, and may replace older items if they have spoiled.
+
+Write FIFO or LIFO next to the statement that matches the definition.
+
+a. Newer items are used before older items
+b. Older items are used before newer items
+
+Inventory turnover is how many times in a month inventory is transformed into revenue. It also
+tells you how many weeks supply you typically have at a time. Inventory turnover every 1-2
+weeks (2-3 times a month) is normal.
+
+First, calculate average food inventory (of beginning and ending inventory). Then, calculate food
+cost as the beginning inventory plus purchases that month minus the ending inventory. Finally,
+calculate inventory turnover by dividing food cost by average food inventory.
+
+Food cost
+Inventory Turnover = —
+Average food inventory
+
+e Write out the inventory turnover formula plugging in the formulas for food cost and average
+food inventory given in the previous paragraph.
+
+Low turnover rate (>2 weeks) means there is a large portion of money in inventory which
+increases storage space requirements, energy requirements, capital costs, and spoilage. High
+turnover rate (<1 week) might indicate pilfering or that standardized recipes are not being used.
+
+The last part of inventory management is knowing when to reorder to maintain par stock, or
+safety stock. If you always want to have at least 5 cans of canned peaches in stock (par stock:
+5 cans), then the reorder point of canned peaches needs to account for lead time and safety
+stock. You can use economic order quantity to help calculate safety stock. The economic order
+quantity (EOQ) is the optimum quantity of an item to be purchased each time to minimize the
+cost of ordering and carrying an item in inventory.
+
+For example, if your supplier has number 10 cans of tomato sauce in cases of 6 and cases of
+20, you need to decide which case size works best for you. To do that, you need to consider
+holding cost (aka inventory cost-- the cost of carrying the average quantity in inventory), fixed
+ordering cost (the cost of placing orders on items with a fixed cost),
+
+purchase price per unit, and annual demand (sales per year). Total cost Odls :9 ‘O51:
+
+Food Service Logistics 18
+© 2022 Veritense™
+
+is the sum of ordering cost, holding cost, and purchase cost, where purchase cost is the
+variable cost of goods that fluctuates throughout the year, multiplied by the annual demand
+quantity.
+
+F = fixed ordering cost
+
+S = sales per year (annual demand)
+C = inventory cost as percent of total cost
+P = purchase price per unit
+
+TOTALCOST |
+
+\ Varn
+° are eo
+ss 7” INVENTORY
+
+_—— P
+
+CARRYING COST
+
+*
+
+Cost
+
+SETUP + FIXED
+ORDER COST
+
+Order quantity
+
+Once you have your safety stock number, you can figure out your re-order point timing, which is
+used in fixed order quantity inventory systems and means you will reorder X days before
+reaching your safety stock number rather than waiting until you reach your safety stock number.
+Re-order point timing accounts for lead/delivery time.
+
+Over time, your inventory quantity fluctuates Using the lead time for your item (how long it
+
+Stock | | eplenish takes to be delivered), back calculate from the
+hems get used and then f ‘shea Stock time you will hit your safely stock to when you
+need to reorder, accounting for lead time
+
+Time Time
+
+Re — order point = Safety Stock + Average Sales x Lead Time
+
+Food Service Logistics 19
+© 2022 Veritense™
+
+Par stock ordering brings stock numbers up to par level each time an order is placed,
+regardless of how much is on hand. This system means that stock is allowed to dip below par
+level.
+
+Minimum-maximum stock method means that we deplete stock to the safety level (par stock
+level) before an order is placed. When the quantity reaches par level, we re-order so that we’re
+brough up to the maximum level (which is decided ahead of time). The number of units ordered
+each time will be the same — this would be the difference between the maximum level and par
+stock level. Orders for some items with this method may be standing orders that eliminate the
+cost associated with ordering daily or weekly orders (like paying an employee to do so).
+
+Just-in-time purchasing is when you purchase items as needed for immediate production and
+consumption without storing or recording in inventory. This means that the receiving clerk will
+deliver items from the loading dock to the kitchen station where they will be used, without
+logging them into inventory.
+
+When you cost out inventory, you have to decide on your purchase price method to determine
+the cost of products since the cost of items changes over time.
+
+Date Number Unit Cost Value
+Opening inventory on 1* of month 10 cans $2.15 $21.50
+
+Received on 8" of month 16 cans $2.25 $36.00
+Received on 15" of month 12 cans $2.15 $25.80
+
+Received on 23” of month 8 cans $2.60 $20.80
+
+You take physical inventory and there are 25 cans of peaches. The most recent purchase order
+had the cans priced at $2.60. If you assume the unit cost of the 25 cans was $2.60, the price
+paid for the last-in items, then the value of your inventory is $65 (LIFO). However, if you look at
+the inventory, you can see that the 25 cans left are those from the 23%, the 15", and 5 from the
+8" of the month. Using each orders unit cost, the value would be $57.85. If you use the price
+paid for the first-in items (FIFO, $2.25 on the 8") for all 25 cans, the inventory would be valued
+at $56.25.
+
+A pricing method should be decided upon for managing inventory and used consistently so that
+the data can be used for forecasting.
+
+You can also use weighted average purchase pricing. It is more time consuming and uses
+the average price paid for the product over time.
+
+(Units in Opening Inventory x Purchase Price) + (Units Purchased During Month x Purchase Price)
+Total # Units
+
+Food Service Logistics 20
+© 2022 Veritense™
+
+Foodservice Production Systems
+
+A foodservice operation is made up of the foodservice system and a distribution model. A single
+foodservice operation may contain more than one type of foodservice system. Once a
+foodservice manager decides on the type of production system for a new kitchen, it’s important
+to visit similar facilities before meeting with equipment manufacturers. Seeing different layout
+options in-use allows the manager to see the equipment, the workflow, and how service works.
+
+Different foodservice systems vary in terms of:
+
+e where food is prepared e how long foods are held
+e what type of food is purchased e labor and equipment required
+e how foods are held e if food is transported
+
+The 4 different types of foodservice systems include conventional, ready prepared, commissary,
+and assembly/serve. Use the tables in the Foodservice Logistics freebie packet at
+www.studysmartermethod.com to organize your notes or find the worksheets in your RD exam
+Toolkit if purchased via PTEP.
+
+Conventional
+
+Also known as “cook-to-serve”, conventional foodservice systems have kitchens that produce
+items for immediate service. Food is purchased, transformed into the final product to serve, and
+then held at serving temperature until actually served.
+
+An example includes restaurants and cafeterias. Food is prepared in the same place it is served
+and mostly raw food is purchased, though some convenience items may be purchased. Foods
+are held at serving temperature until served. Labor requirements are heavy and equipment for
+holding food, like chafers and other equipment we'll discuss, are necessary. Food isn’t
+transported in this food system.
+
+Advantages of conventional foodservice systems include high food quality and flexibility in the
+foods that can be produced. Any food that can be held for up to 2 hours can be produced in this
+type of foodservice system, and food quality is maintained if held within this time limit.
+
+However, disadvantages of the conventional foodservice system include less time flexibility and
+more labor because food is produced so close to service. Workload is unevenly distributed and
+limited to the length of time that hot food can be held.
+
+Ready Prepared
+
+Also known as “cook/chill” and “cook/freeze”, ready prepared foodservice systems have
+kitchens that produce and chill menu items and then heat items back up for service. This system
+type is often used in combination with other systems.
+
+Food Service Logistics 21
+© 2022 Veritense™
+
+Food is prepared on location and then chilled or frozen to be used later on (in the same location
+or transported). Large refrigerators and freezers are required for this method, as well as
+reheating equipment to warm chilled or frozen food for service time.
+
+Advantages of this method include the ability to prepare food in bulk or in individual portions
+which evens out the workload. The menu also supports an increased variety of chilled and
+frozen items. If food is transported, this method has the advantage of transporting foods chilled
+or frozen, which is easier to do than transporting hot food. Think about this aspect of ready
+prepared foodservice when we talk about commissary.
+
+Disadvantages of this method include large equipment requirements — large refrigerators,
+freezers and the budget for the high energy costs associated with that equipment. If the power
+goes out, a large amount of food can be lost and food safety can be an issue. Also, not all foods
+freeze or chill well, so while there is the possibility of variety because of the ready prepared
+method, some foods aren’t compatible because they cannot be frozen or chilled well. Freezer
+burn, textural changes, and emulsion separation are all food quality concerns with the ready
+prepared method, and hot food undergoes 2 heating periods — when it’s first cooked (before
+chilling or freezing) and when it’s reheated for preparation.
+
+Commissary
+
+In a commissary foodservice system, the food is prepared in a large, central kitchen and then
+delivered in bulk for final production and service. The commissary system is ideal for serving
+large volumes of food. Food may be transported frozen, chilled, or hot. Examples include school
+systems and airline foods. Raw food is purchased, prepared, and then held frozen, chilled, or
+hot during transport until service.
+
+Advantages include cost savings (low food cost, lack of equipment duplication, low labor cost),
+limited workload variability, uniform products across service locations, and no cooking during
+mealtime. Disadvantages include food safety concerns and quality concerns during holding and
+transporting. This method requires reliable transportation and a large production kitchen where
+the cost of that large kitchen is only offset by the large quantity of food it’s able to produce.
+
+Since food is transported to the satellite locations, meals can be prepared any time of day in
+contrast to conventional foodservice systems where employees have higher workload prior to
+mealtimes. Cost savings from avoiding equipment duplication refers to the fact that all of the
+food production is done at one location, rather than at several satellite kitchens.
+
+Assembly/Serve
+
+Assembly/serve foodservice systems are also called “convenience food” or “minimal cooking
+concept”. Prepared food that requires minimal assembly or cooking prior to service is
+purchased. Examples include convenience stores, kiosks, fast food, and special diet menus in
+hospitals. Food is held chilled or frozen before being assembled or heated for serving. The only
+labor and equipment required is enough to assemble the food and transport it.
+
+Food Service Logistics 22
+© 2022 Veritense™
+
+Advantages of the assembly/serve foodservice system is the reduced labor and skill required,
+compared to other foodservices systems, as food is purchased already prepared. It also
+requires minimal equipment. Pre-portioned items are helpful for a la carte menus and better
+portion control means less waste. An important note is that the advantages of this method are
+only conferred to a small foodservice operation. Why? The higher food cost from purchasing
+prepared food items versus equipment investment isn’t offset with a large foodservice operation
+— larger foodservice operations will save money by lowering food cost. Disadvantages of this
+system include a limited menu because the variety of the menu is subject to market availability
+of prepared foods. Food is also purchased at a higher cost compared to raw food, and the
+quality of the pre-prepared foods is not the same as fresh. While minimal equipment for cooking
+and other preparation is required (an advantage), refrigerator and freezer space are required.
+
+Food Distribution and Service Systems
+
+Section Source (unless otherwise indicated)
+e Gregoire MB, Spears MC. Foodservice Organizations: A Managerial and Systems Approach. 9th ed. Upper
+Saddle River, NJ: Pearson; 2016.
+
+To distinguish centralized and decentralized delivery-service systems, focus on the format of the
+food when it’s transported. These delivery service systems may also be called “centralized meal
+assembly” and “decentralized meal assembly”.
+
+Centralized Delivery-Service System
+
+In a centralized system, prepared food is portioned and assembled for meals at a central
+location. The completed orders are then transported to the customers. You'll see this system in
+fast food, restaurants, banquet services, hospitals, and long-term care facilities. Like with
+conventional foodservice systems, workload can be uneven and excessively long. Important
+things for a manager to consider with centralized systems is the need for close supervision, food
+quality control, and portion size control.
+
+It's easier to understand a centralized system in contrast to a decentralized system. A key
+difference is how the food is transported — plated or in bulk?
+
+Decentralized Delivery-Service System
+
+In a decentralized service system, there is a main kitchen and satellite locations. The satellite
+locations might be a serving or assembly galley, a ward kitchen, or satellite kitchens. Bulk
+quantities of food are prepared and transported to the satellite locations — they may be
+transported hot or cold. Staff at the satellite locations reheat, portion, and assemble the meals
+as necessary. After meal service, dishes are returned to the central kitchen.
+
+Decentralized systems are used when there is a large distance between kitchen and consumer,
+and/or the menu items travel better in bulk than plated. This type of system might be used in
+large hospitals, medical centers, school districts, and hotels.
+
+Food Service Logistics 23
+© 2022 Veritense™
+
+Choosing Between Centralized and De-Centralized
+
+Knowing what type of business might use centralized versus decentralized isn’t the key point.
+Rather, these locations provide an example of why a certain system might be preferred over
+another. Restaurants, smaller hospitals, and long-term care facilities don’t have a large distance
+between kitchen and consumer. Larger hospitals or medical centers may have a larger distance
+and may also have the extra space for serving galleys. Many patient wards have a pantry where
+tray service can be set up before distributing. However, other hospitals prep trays in the
+production kitchen, load them in holding carts, and deliver them immediately to patients
+(centralized). Similarly, a large school may have a large enough kitchen to prep and serve food,
+but smaller schools may not have a kitchen onsite.
+
+As a foodservice manager, choosing the type of distribution (delivery) system your foodservice
+operation will use depends on service-based factors and customer-based factors.
+
+Use the worksheet table you have (or get it at www.studysmartermethod.com) to summarize
+what you’ve learned so far about service-based factors and customer-based factors. Think
+about how the type of foodservices system and foodservice organization impacts the choice of
+the distribution system. Come up with your own examples of the service-based factors. Add
+your own research.
+
+Service-based factors include:
+
+* Type of foodservice system * Food safety concerns
+* Type of foodservice organization * Meal service timing
+
+* Facility size and layout * Energy usage
+
+* Personnel skill * Service style
+
+* Economic factors
+
+Facility size and layout considerations include asking, “Is the facility spread out? Are there
+elevators or conveyor belts that could help transport food? What equipment is available in each
+area? What can a central kitchen accomplish compared to a satellite kitchen? If food is being
+transported, is there a loading dock to load the food onto trucks?”
+
+Personnel skill considerations include any specialty items or preparations that need to be
+done. For example, is there a specialty cafeteria counter for sushi or hibachi grilling that would
+require a specific skill set?
+
+Economic factors include the amount of labor and equipment required, the cost of inputs and
+outputs, the cost of transporting food, and considerations to avoid equipment duplication. What
+foodservice system is designed to avoid equipment duplication?
+
+Food safety concerns include time and temperature relationships — do you need new
+equipment to meet food safety standards? Can food be delivered in time?
+
+Meal service timing concerns are closely tied with customer-based factors. Are customers
+served at once or can service periods be staggered? For example, can different hospital floors
+be served at different times, or can a school have staggered lunch periods?
+
+Food Service Logistics 24
+© 2022 Veritense™
+
+Energy usage is tied with economic factors, namely equipment requirements. If dishes from
+satellite locations are going to be washed back at a main kitchen, a large capacity warewasher,
+such as a conveyor washer, might be required. This type of equipment has high energy usage
+and requires specialty wiring.
+
+I'll go into service style in-depth in the next section.
+
+Customer-based factors include the overall number of customers served, how quickly
+customers are served, if groups are served at once, and in what environment are customers
+served.
+
+Service Style
+Self-service: customer carries food from display place to dining area
+
+Cafeteria style
+e Traditional: customers follow each other in a line and are served by employees standing
+behind the counter
+e Hollow square/free-flow/scramble: separate counter areas provide different menu types;
+this format increase speed and flexibility compared to the traditional cafeteria style
+
+Machine vending: an outside company is contracted to keep items stocked. Items may include
+drinks, snacks, sandwiches, microwave items, or frozen foods. Machine vending is often used in
+supplement to other types of foodservice, like handling off-hours.
+
+Buffet — provides many options and items but must optimize eye appeal and choose items that
+hold up under long presentation time
+
+Drive-thru — pretty self-explanatory!
+
+Tray service — trays are delivered to floor pantry or to the patient. Tray service requires
+cooperation between different subsystems, such as foodservice and nursing in a hospital. Food
+quality and food safety issues also need to be addressed with holding times pre- and post-
+delivery
+
+Wait service
+e American — plates are individually prepared for customers and delivered by server with
+all guests at one table served before moving on to the next table
+e French — portions are brought to customers on a platter delivered to customers while the
+chief server “completes a table” by carving, deboning, or creating a sauce table-side
+e Russian — food is prepared and portioned in the kitchen on a serving platter and then
+plated for the customer at the table
+
+What type of service did your high school use? What about the hospital where you did
+rotations? Have you worked anywhere else, like a long-term care facility or rehabilitation center,
+that served food?
+
+Food Service Logistics 25
+© 2022 Veritense™
+
+Practice Questions (Group 1)
+
+Answer these practice questions using the Study Smarter Method by Veritense™ that you read about in
+Chapter 2 and 3 of the Study Smarter Method for the RD-Exam section. Instead of answering these
+questions using your memory and logic, use the study guide text and/or your own research to determine
+which answer is correct (and why), and why the other answers are incorrect. Pay attention to the question
+itself, and be sure you know what the question is asking. There are answers with explanations following.
+If this is your first set of practice questions, go back and skim Chapters 2 and 3 in the Study Smarter
+Method for the RD-Exam section to remind yourself of the types of questions and how to answer them.
+
+1. The head of the foodservice department informs you that a new specialty diet will be added to the
+
+patient menu by the end of the year. They want you to draft up the advantages and disadvantages of
+a ready prepared versus assembly serve system. Which of following aspects differ between the two
+foodservice systems?
+
+a. Menu variety is limited to what can be chilled or frozen
+
+b. Less food waste with assembly serve system
+
+c. Less labor required for ready prepared system
+
+d. Lower food cost with assembly serve system
+
+2. What advantages does a ready prepared foodservice system have over a conventional foodservice
+system?
+a. More even workload
+b. More labor required
+c. Lower energy costs
+d. One heating period
+
+3. Which type of foodservice system may be particularly prone to food safety concerns?
+a. Commissary
+b. Assembly-serve
+c. Conventional
+d. Ready prepared
+
+4. Which of the following examples follows good menu planning principles?
+a. Steak, sauteed broccoli, rice pilaf
+b. Grilled tilapia, roasted cauliflower, vanilla ice cream
+c. Meatballs, whole baby potatoes, roasted Brussel sprouts
+d. AandC
+
+5. As the new director of foodservice operations for a hospital, you decide to standardize purchasing
+procedures and begin buying ingredients in bulk when possible. Which type of menu would pair well
+with the changes you want to make?
+
+a. Static menu
+
+b. Prix fixe menu
+c. Cycle menu
+
+d. Seasonal menu
+
+Food Service Logistics 26
+6.
+
+7.
+
+10.
+
+11.
+
+© 2022 Veritense™
+
+One of your menu items is profitable when sold, but overall, not very popular with customers. What
+steps could you take to improve its popularity?
+
+a. Increase the selling price
+
+b. Position in a prime spot on the menu
+
+c. Move to the back page
+
+d. None of the above
+
+What are the steps, in order, for a formal procurement process?
+
+a. Develop written specifications, identify potential sources, contact sources, evaluate
+bidders’ responses, determine the best bidder based on response and price
+
+b. Develop written specifications, contact potential sources, identify best sources, evaluate
+bidders’ responses, determine the best bidder based on response and price
+
+c. Develop written specifications, determine the best bidder based on response and price,
+score bidders’ responses, contact sources
+
+d. Develop written specifications, issue a request-for-proposal, score bidders’ responses,
+determine the best bidder based on response and price
+
+Over the past year, your department spent $560,000 in purchasing and kept, on average, 9000 units
+of inventory on hand. Item 1 costs were $330,000 for 900 units. Item 2 costs were $40,000 for 5000
+units. Item 3 costs were $29,000 for 4700 units. Item 4 costs were $400,000 for 8000 units. Which
+item would be classified as an “A” item?
+
+a. Item 1
+b. Item 2
+c. lItem3
+d. Item 4
+Being part of a group purchasing organization can purchasing power and
+
+menu variety.
+a. Increase, decrease
+b. Increase, increase
+c. Decrease, decrease
+d. Decrease, increase
+
+Which of the following examples represents the correct stocking order for a LIFO inventory
+management system, with expiration dates listed from left-to-right representing front-to-back of the
+shelf?
+
+June-1-2020; June-13-2020; June-20-2020; July-7-2020
+
+July-7-2020; July-31-2020; June-30-2020; June-1-2020
+
+July-21-2020; July-15-2020; July-1-2020; June-20-2020
+
+June-1-2020; July-1-2020; August-1-2020; May-1-2020
+
+aoop
+
+As the person in charge of food purchasing for your department, you are meeting with a potential
+vendor for the first time to determine what type of meat they could provide. When you meet with
+them, you should have a(n) prepared.
+
+a. Prime vendor agreement
+
+b. Requisition form
+
+c. Item specification
+
+d. Purchase order
+
+Food Service Logistics 27
+© 2022 Veritense™
+
+12. What is the definition of an “A” item using ABC inventory classification?
+
+a.
+
+b.
+c.
+d.
+
+An item that makes up 50-60% of total items in inventory and 5-10% of purchases
+An item that makes up 5-10% of total items in inventory and 60-80% of purchases
+An item that makes up 30-50% of total items in inventory and 20-40% of purchases
+An item that makes up 10-20% of total items in inventory and 60-80% of purchases
+
+13. Which inventory management method ensures older items are most visible?
+
+a.
+b.
+c.
+d.
+
+FIFO
+
+LIFO
+Perpetual
+Safety stock
+
+14. Calculate the economic order quantity for purchasing #10 cans of tomato sauce using the following
+information: fixed order cost of $8.00, annual demand of 12 cases per year, 3% of inventory costs,
+and $58.50 per case of 20.
+
+a.
+
+b.
+c.
+d
+
+11
+18
+80
+90
+
+Food Service Logistics 28
+© 2022 Veritense™
+
+Practice Questions (Group 1) Answers
+
+1. The head of the foodservice department informs you that a new specialty diet will be added to the
+
+patient menu by the end of the year. They want you to draft up the advantages and disadvantages of
+a ready prepared versus assembly serve system. Which of following aspects differ between the two
+foodservice systems?
+
+a. Menu variety is limited to what can be chilled or frozen
+
+b. Less food waste with assembly serve system
+
+c. Less labor required for ready prepared system
+
+d. Lower food cost with assembly serve system
+
+Answer: B, less food waste with assembly serve system. Both assembly serve and ready prepared
+are limited to what can be chilled or frozen, however because items are purchased pre-portioned in an
+assembly serve system, there is less food waste. Ready prepared systems require more labor than
+assembly serve systems (though conventional systems require the most labor), but food cost is higher
+with assembly serve because prepared foods are more expensive than raw foods.
+
+2. What advantages does a ready prepared foodservice system have over a conventional foodservice
+system?
+a. More even workload
+b. More labor required
+c. Lower energy costs
+d. One heating period
+
+Answer: A, more even workload. Conventional foodservice systems have uneven workloads in the
+schedule because the majority of food preparation is done just prior to service so that food is held only for
+the maximum of 2 hours. For this same reason, conventional systems require more labor than ready
+prepared. Ready prepared foodservice systems prepare food in advance and then chill or freeze items,
+and reheat prior to service. Thus, food production can occur at any time and is not tethered to meal time.
+However, conventional systems may have lower energy costs compared to ready prepared because of
+the high energy requirement of large refrigerators and freezers required to hold chilled and frozen food.
+Additionally, in a ready prepared foodservice system, the food undergoes two heating periods, which may
+reduce food quality.
+
+3. Which type of foodservice system may be particularly prone to food safety concerns?
+a. Commissary
+b. Assembly-serve
+c. Conventional
+d. Ready prepared
+
+Answer: A, commissary. Because all items are prepared at a single central kitchen, transported and
+then held onsite, food safety is of particular concern with this type of foodservice system. Write your own
+questions, modeled after these 3, so that the answer would be the other types of foodservice systems
+and concepts covered in this section.
+
+Food Service Logistics 29
+© 2022 Veritense™
+
+4. Which of the following examples follows good menu planning principles?
+a. Steak, sauteed broccoli, rice pilaf
+b. Grilled tilapia, roasted cauliflower, vanilla ice cream
+c. Meatballs, whole baby potatoes, roasted Brussel sprouts
+d. AandC
+
+Answer: A. Meu planning principles center around a variety of color, flavors, texture, and food shapes —
+thinking about how the food looks upon the plate, as well as the different textures and flavors. Answer
+choice B foods are all white. Answer choice C foods are all round.
+
+5. As the new director of foodservice operations for a hospital, you decide to standardize purchasing
+procedures and begin buying ingredients in bulk when possible. Which type of menu would pair well
+with the changes you want to make?
+
+a. Static menu
+
+b. Prix fixe menu
+c. Cycle menu
+
+d. Seasonal menu
+
+Answer: C. A cycle menu has a different menu for each day of the cycle (such as the week or month),
+that provides variety for the customer while providing control over purchasing, production, and cost for the
+operation side. Cycle menus save time and control food costs while still offering variety that can
+incorporate seasonality, holidays, and USDA commodity foods (which are used commonly for school
+menus). Define static menu, du jour menu, prix fixe menu, table d’héte menu, a la carte menu, and single-
+use menu.
+
+6. One of your menu items is profitable when sold, but overall, not very popular with customers. What
+steps could you take to improve its popularity?
+a. Increase the selling price
+b. Position in a prime spot on the menu
+c. Move to the back page
+d. None of the above
+
+Answer: B. Items that are profitable but not popular are puzzle items. Strategies to improve popularity
+include reducing the selling price or offering a smaller portion size, or featuring it as a special, or give ita
+prime visibility spot on the menu. Dog items are not popular or profitable, stars are popular and profitable,
+and plowhorses are popular but not profitable.
+
+Food Service Logistics 30
+© 2022 Veritense™
+
+7. What are the steps, in order, for a formal procurement process?
+
+a. Develop written specifications, identify potential sources, contact sources, evaluate
+bidders’ responses, determine the best bidder based on response and price
+
+b. Develop written specifications, contact potential sources, identify best sources, evaluate
+bidders’ responses, determine the best bidder based on response and price
+
+c. Develop written specifications, determine the best bidder based on response and price,
+score bidders’ responses, contact sources
+
+d. Develop written specifications, issue a request-for-proposal, score bidders’ responses,
+determine the best bidder based on response and price
+
+Answer: D. The 5 steps of the informal procurement process are develop written specifications, identify
+potential sources, contact sources, evaluate bidders’ responses, determine the best bidder based on
+response and price. The main difference between informal and formal procurement is that formal
+procurement processes involve scoring bidders using an established scoring criterion. Additionally, formal
+procurement processes may alter the way they contact potential sources, with competitive sealed bidding
+issuing potential sources an invitation to bid while competitive negotiation issuing a broad request-for-
+proposals. Answer A is the correct answer for the informal procurement process. Answer B has mixed the
+24 and 3" steps of informal procurement. Answer choice C has mixed up several of the steps for formal
+procurement.
+
+8. Over the past year, your department spent $560,000 in purchasing and kept, on average, 9000 units
+of inventory on hand. Item 1 costs were $330,000 for 900 units. Item 2 costs were $40,000 for 5000
+units. Item 3 costs were $29,000 for 4700 units. Item 4 costs were $400,000 for 8000 units. Which
+item would be classified as an “A” item?
+
+a. Item 1
+b. Item 2
+c. lItem3
+d. Item 4
+
+Answer: A. An “A” item makes up 10-20% of inventory and about 60-80% of costs. Item 1 made up 10%
+of inventory and 59% of cost. A “C” item makes up about half of inventory (50-60%) but only 5-10% of
+costs. A “B” item falls somewhere in between. Item 2 made up 56% of inventory and 7% of costs. Item 3
+made up 52% of inventory and 5% of costs. Items 2 and 3 are what types of items? Item 4 made up 89%
+of inventory and 71% of costs. To calculate percent of inventory, divide the item units by 9000 units of
+inventory. To calculate percent of costs, divide the item cost by $560,000. Tip: for questions like this,
+rearrange the information in the question into a chart, such as a table with item name, number of units,
+and purchasing costs.
+
+9. Being part of a group purchasing organization can purchasing power and
+menu variety.
+a. Increase, decrease
+b. Increase, increase
+c. Decrease, decrease
+d. Decrease, increase
+
+Answer: B. Advantages of being part of a group purchasing organization are an increase in purchasing
+power and an increase in menu variety and quality. Group purchasing is when foodservice operations
+create collective buying power to purchase more products at a lower price, including being able to afford
+an increase in menu variety because the cost is shared across the group members. Drawbacks include
+the need for larger delivery and storage capacity due to minimum case orders as well as fee structures
+
+Food Service Logistics 31
+© 2022 Veritense™
+
+and agreed upon membership terms. Finally, your department should have a system in place for accurate
+menu forecasting.
+
+10. Which of the following examples represents the correct stocking order for a LIFO inventory
+management system, with expiration dates listed from left-to-right representing front-to-back of the
+shelf.
+
+June-1-2020; June-13-2020; June-20-2020; July-7-2020
+
+July-7-2020; July-31-2020; June-30-2020; June-1-2020
+
+July-21-2020; July-15-2020; July-1-2020; June-20-2020
+
+June-1-2020; July-1-2020; August-1-2020; May-1-2020
+
+2908p
+
+Answer: C. LIFO stands for least in, first out, and new items are stocked in front of older items, so the
+expiration dates would proceed from front-to-back (left-to-rate) latest to earliest. Answer choice A is an
+example of FIFO. The other answer choices are mis-ordered dates. Which system would be used for
+canned goods versus refrigerated milk?
+
+11. As the person in charge of food purchasing for your department, you are meeting with a potential
+vendor for the first time to determine what type of meat they could provide. When you meet with
+them, you should have a(n) prepared.
+
+a. Prime vendor agreement
+b. Requisition form
+
+c. Item specification
+
+d. Purchase order
+
+Answer: C. An item specification is provided to potential bidders or vendors to specify what you need,
+such as the grade of meat, brand of dairy, counts per containers and cases per order, and price per unit.
+Specifications are developed to communicate needs with vendors and ensure consistency of price,
+product quality, operational function, and fit for purpose. Prime vendor agreements are pricing contracts
+that a vendor offers you on products you frequently buy, particularly wholesale distributors. Requisition
+forms are filled out by anyone needing to request items from the purchasing manager. After receiving he
+requisition form, the purchasing manager will writeup the purchase order and provide it to the supplier. In
+this scenario, you would not bring the purchase order because no one has requisitioned items and you
+are meeting with the vendor for the first time.
+
+12. What is the definition of an “A” item using ABC inventory classification?
+a. Anitem that makes up 50-60% of total items in inventory and 5-10% of purchases
+b. An item that makes up 5-10% of total items in inventory and 60-80% of purchases
+c. An item that makes up 30-50% of total items in inventory and 20-40% of purchases
+d. An item that makes up 10-20% of total items in inventory and 60-80% of purchases
+
+Answer: D. An “A” item is one that that makes up only 10-20% of total items in inventory but makes up
+60-80% of total inventory purchases. A “C’” item is one that makes up 50-60% of items in inventory but
+only 5-10% of purchase costs (answer choice A). A “B” item is one that falls in between, making up 20-
+50% of items in inventory and 10-60% of costs (answer C is an example). Draw a chart or diagram
+illustrating A, B, and C items.
+
+Food Service Logistics 32
+© 2022 Veritense™
+
+13. Which inventory management method ensures older items are most visible?
+
+a. FIFO
+b. LIFO
+c. Perpetual
+
+d. Safety stock
+
+Answer: A. FIFO: first in, first out. Stock is rotated so that the oldest item (the first item stocked), is at the
+front and will be used before more recently stocked items. New items are stocked behind older items.
+LIFO is last in, first out, and is used for items that might spoil. New items are stocked in front of older
+items and will replace older items that have spoiled. Perpetual is a type of inventory, and is a running
+balance of inventory on hand, and may be verified by physical inventory methods. Safety stock, or par
+stock, is the number of units you want to always have on hand.
+
+14. Calculate the economic order quantity for purchasing #10 cans of tomato sauce using the following
+information: fixed order cost of $8.00, annual demand of 12 cases per year, 3% of inventory costs,
+and $58.50 per case of 20.
+
+a. 11
+b. 18
+c. 80
+d. 90
+
+Answer: C.
+
+F = fixed ordering cost = $8
+S = sales per year (annual demand) = 12 cases per year x $58.50 per case = $702
+C = inventory cost as percent of total cost = 0.03
+
+P = purchase price per unit = $58.50
+
+lars 2($8* $702) {11232
+FOQ= |cp = 0.03($58.50) _ L755 ~ VO400 = 80
+
+Food Service Logistics 33
+© 2022 Veritense™
+
+Equipment
+
+As you go through this equipment section, think about what equipment would be needed for the
+different foodservice systems, food system organizations, and distribution systems.
+
+The National Sanitation Foundation (NSF) is accredited by the American National Standards
+Institute (ANSI). NSF has developed standards for public health, safety, environment, and
+sustainability assessment. The NSF/ANSI standards are developed with input from industry
+representatives, public health and regulatory officials, and user representatives. Their standards
+include national standards for foodservice equipment. They offer the “NSF Mark” that assures
+rigorous testing of the equipment their mark is on.
+
+When buying equipment, NSF rating, warranties, depreciation, steel gauge, and wall/floor
+clearance are important to consider for nearly all types of equipment. Other specifications are
+unique to each type of equipment — such as hot versus low water temperature in dishwashers,
+BTUs in gas ranges, and voltage in electric ranges.
+
+Warewashers
+
+“Warewashers’ is the general term for dishwashing equipment in commercial foodservice
+operations. Wares include dishes, glasses, and silverware. Types of warewashers differ in water
+temperature and style.
+
+Temperature Styles
+
+High temperature warewashers use super-heated water to clean dishes, reaching a rinsing
+temperature of 180 degrees F and don’t require a chemical sanitizing solution. While a flash dry
+feature reduces the energy needed to dry with these models, the hot water requirement uses
+more energy compared to low temperature models.
+
+Low temperature warewashers use sanitizing chemicals and cleaning agents to clean and
+sanitize dishes. Compared to high temperature models, these models create less steam and
+heat. You can imagine that less steam and less ambient heat might make the dish room more
+pleasant for employees or may be preferred for an under-bar glass washer.
+
+Dish racks
+
+Dish racks come with different peg styles depending on the type of
+glasses versus plates. The racks are loaded into the dishwasher with
+the ability to remove them for storage. Thus, dish racks are a key
+multipurpose tool for foodservice kitchens.
+
+Food Service Logistics 34
+Warewasher Styles
+
+Styles of warewashers include under counter dishwashers, glass
+washers, door type dishwashers, and conveyor dishwashers.
+
+Under counter dishwashers are the most compact option and
+resemble residential dishwashers. They are versatile in that they
+can be freestanding or built in, like behind a bar. They can be low
+temperature to save energy. While they look similar to residential
+dishwashers, they clean at a much faster rate — 20 racks in a single
+hour.
+
+Glass washers come in several desigsn, including rotary,
+conveyor, and door-type under counter. The door-type is similar,
+if not identical, to the under counter dishwashers but is meant
+mainly for glasses. Why would we want a glass washer?
+Advantageous for bars and cafes that need a steady supply of
+clean glasses without needing an employee dedicated to washing
+dishes. Glass washers use lower water pressure than regular dish
+washers so that they safely clean glasses.
+
+Door type dishwashers are the most common commercial
+dishwasher. You load dish racks with dirty dishes into the
+washer. Different models wash different numbers of racks
+(single rack versus double rack). If the door slides up, there is a
+safety switch feature to turn off the cycle. Door type
+dishwashers have a larger capacity than undercounter washers
+which make them a better alternative in large resturants, but
+they use more energy and more detergent.
+
+Conveyor dishwashers are the largest available commercial
+dishwasher. “Flight type continuous conveyor’ is the most
+efficent and effective dishwasher for high volume foodservice,
+cleaning up to 1,000 dishracks in a single day. You can choose
+from low temperature and high temperature models, and
+installation requires specialty hard-wiring due to its size and its
+energy requirements.
+
+© 2022 Veritense™
+
+Food Service Logistics
+
+35
+© 2022 Veritense™
+
+Commercial Sinks i. 4
+
+Sinks are used throughout a foodservice kitchen for different =
+needs.
+
+Handwashing sink
+
+The FDA issues the Model Food Code. This food code requires
+at least 1 hand-sink inside of, or at the entrance to, a food prep
+area. Hand-sinks should be easily accessible by employees that
+work in food prep, food serving, and warewashing.
+
+One compartment sink
+
+A handwashing sink is a one compartment sink. However, there
+may be additional one compartment sinks around the kitchen to
+prep produce, soak pots and pans, or in a bar area.
+
+Two compartment sink
+
+Two compartment sinks are often used to thaw and prep meats
+or frozen bagged sides, or to use as a vegetable sanitizing and ¥
+prep station.
+
+What type of foodservice system would need plenty of two
+compartment sinks to thaw food items?
+
+Three compartment sink
+
+Three compartment sinks are used to wash, rinse, and
+sanitize dishes.
+
+Four compartment sink
+
+Four compartment sinks are used to scrape food waste,
+wash, rinse, and sanitize separately.
+
+Food Service Logistics 36
+© 2022 Veritense™
+
+Food Holding and Warming
+
+Countertop warmers are used in display cases and for soups and side dishes.
+
+Strip warmers are used to keep food on the line, or in a buffet, at the correct temperature.
+Heat lamps are placed over prepared food or at a carving station to keep them warm.
+
+Drawer warmers are used to keep food warm and ready to serve.
+
+Countertop warmer Strip warmer . Drawer warmer
+
+Electric steam tables have food wells and can be used to display hot or cold foods.
+
+Bain Marie is an electric steam table hooked up to a food rethermalizer to heat the water
+keeping food wells hot. Bain Marie might also be used to thaw large amounts of frozen food or
+for cooking.
+
+Bain Marie Heater (food rethermalizer) can be used to heat sink water or to heat a Bain
+Marie.
+
+Cook and hold ovens cook food and then keep it hot until serving time without drying it out.
+
+Electric steam table Bain Marie Bain Marie Heater Cook and hold oven
+
+Refrigerated holding cabinet holds food at the correct cold temperature prior to serving.
+
+Holding cabinets keep food at the right temperature.
+
+Food Service Logistics 37
+© 2022 Veritense™
+
+Banquet carts can be heated or not. Non-heated banquet carts are often called “Queen Mary”
+carts and have open sides. Heated banquet carts have doors and will keep plated dishes at the
+
+correct temperature.
+
+Meal delivery carts will keep foods at the right temperature during transport and may be used
+to hold patient meal trays.
+
+iL
+
+tt
+
+=
+‘=
+=
+=
+|
+
+4
+
+Refrigerated holding Holding cabinet Banquet cart Meal delivery cart
+cabinet
+
+Retarder proofers will refrigerate dough and then heat it for proofing.
+
+Oven proofer combo will proof and then bake dough in the same equipment using different
+controls.
+
+Proofing cabinets are used for proofing bread products.
+
+Retarder proofers Oven proofer combo Proofing cabinets
+
+Food Service Logistics 38
+© 2022 Veritense™
+
+Study Guide Questions (Equipment)
+
+Answer these study guide questions using the study guide text. These questions will be your
+first pass at applying the knowledge you’ve read and practiced in example calculations in a
+question-and-answer format. Instead of answering them from memory, go to the text and your
+notes.
+
+1.
+
+A hotel is hosting a gala for the regional dietetic association which includes a plated dinner
+service. The chef has the staff begin preparing the menu items a week in advance, chilling
+and freezing items to thaw the day before. On the day of the event, the kitchen staff cook
+the items that don’t store well chilled or frozen. All of the food is prepared in the hotel kitchen
+and transported to the ballroom on banquet carts for service. This is an example of a
+delivery service system using and
+foodservice systems.
+
+A hospital kitchen provides meals for the entire health system. One group of employees is
+responsible for prepping food in bulk and transporting it to satellite sites, like the long-term
+rehabilitation center and the ambulatory care center, which has its own cafeteria. This is an
+
+example of a foodservice system. The staff at the satellite centers
+complete the cooking and assembly process before meal time and serve it. This is an
+example of a delivery service system.
+
+Another group of employees is responsible for prepping food to serve at the main hospital
+cafeteria. General items are prepped and kept warm in holding carts and electric steam
+tables. Specialty items are prepped to be cooked at specialty counters, including a sushi
+counter and burger station. This is an example of a cafeteria service
+
+style.
+The final group of employees is responsible for patient meal service. The meal prep line
+involves assembling thawed items onto trays, loading them onto meal delivery carts and
+
+delivering the trays to patients. This is an example of
+
+Employees that work in a food service system have a relatively even
+workload throughout the day.
+
+Employees that work ina food service system have a heavy workload
+close to meal time.
+
+Food Service Logistics 39
+© 2022 Veritense™
+
+Study Guide Questions (Answers)
+
+1.
+
+A hotel is hosting a gala for the regional dietetic association which includes a plated dinner
+service. The chef has the staff begin preparing the menu items a week in advance, chilling
+and freezing items to thaw the day before. On the day of the event, the kitchen staff cook
+the items that don’t store well chilled or frozen. All of the food is prepared in the hotel
+kitchen, and transported to the ballroom on banquet carts for service. This is an example of
+a centralized delivery service system using conventional and ready-prepared foodservice
+systems.
+
+A hospital kitchen provides meals for the entire health system. One group of employees is
+responsible for prepping food in bulk and transporting it to satellite sites, like the long-term
+rehabilitation center and the ambulatory care center, which has its own cafeteria. This is an
+example of a ready-prepared foodservice system. The staff at the satellite centers complete
+the cooking and assembly process before meal time and serve it. This is an example of a
+decentralized delivery service system.
+
+Another group of employees is responsible for prepping food to serve at the main hospital
+cafeteria. General items are prepped and kept warm in holding carts and electric steam
+tables. Specialty items are prepped to be cooked at specialty counters, including a sushi
+counter and burger station. This is an example of a hollow square / free-flow / scramble
+cafeteria service style.
+
+The final group of employees is responsible for patient meal service. The meal prep line
+involves assembling thawed items onto trays, loading them onto meal delivery carts, and
+
+delivering the trays to patients. This is an example of tray service.
+
+Employees that work in a ready-prepared for satellite sites food service system have a
+relatively even workload throughout the day.
+
+Employees that work in a cook-to-serve group for cafeteria food service system have a
+heavy workload close to meal time.
+
+Food Service Logistics 40
+© 2022 Veritense™
+
+Storage Requirements
+
+In addition to proper temperature control, proper layout, humidity, and ventilation is important for
+dry storage, refrigeration storage, and freezer storage.
+
+Dry storage
+
+Dry storage items include canned goods, baking supplies like flour and J 1]
+sugar, other grains, and cereals. Dry storage areas should be kept clean
+and well ventilated in order to prevent high humidity, mold, and bacterial
+growth. The optimal temperature for dry storage is 50°F — 70°F with
+humidity of 50-60%. Shelving should be at least 6” off the floor, aisles
+should be wide enough for carts, and the area
+
+f should be kept locked to prevent pilfering.
+
+Foods should be stored off the floor and away
+
+from the walls to maintain ventilation, and away
+.. from heat sources, like hot vents, and light.
+
+: Heat and light will decrease shelf life. Dry storage shelving has
+
+minimum height requirements to prevent food from being too close to
+
+the floor while also being away from the wall for pest control.
+
+a Refrigerated storage
+
+Refrigeration slows bacterial growth and should be kept between 32°F
+and 40°F. Thermometers should be accurate and within 3°F. Open,
+slotted shelving allows air circulation around shelves and walls which
+helps maintain proper food temperatures. Doors should have a good seal
+to maintain efficiency. Refrigerator doors often have plastic flaps that help
+air stay inside.
+
+Freezer storage
+
+When frozen food is received, it should be stored frozen immediately.
+Freezer storage space should be kept at 0°F or below and thermometers
+should be accurate within 3°F. Just like refrigeration, freezers should
+have open, slotted shelving for air circulation and doors should have a tight seal.
+
+Food Service Logistics 41
+© 2022 Veritense™
+
+Ovens and Fryers
+
+Ideally, a cooking method is fast, consistent, and even. The cooking time is fast, the heating is
+consistent, and the cooking is even. You'll see these listed as advantages (or the lack of as
+disadvantages) over and over again. Differentiate different types of ovens by their
+disadvantages — when would you not want to use them, and any unique function they do play,
+like for specialty foods (i.e. a pizza oven).
+
+Standard oven
+
+Also called a conventional oven, a standard oven has 2 heating
+elements that heat the air inside the oven. Dishes closest to the active
+heating element (at top or bottom) will cook faster.
+
+Standard ovens are inexpensive, can be used to cook nearly anything,
+and are easy to repair. Disadvantages include the inconsistent
+heating, uneven cooking, and slow cook times.
+
+Steam oven
+
+A steam oven cooks with water vapor, and can maintain flavor and
+nutrients of the food items. Cooking time is very fast, consistent, and
+even. It is a healthy alternative to frying but cannot brown or crisp food
+and shouldn’t be used for delicate foods.
+
+Convection oven
+
+In contrast to a standard oven, convection ovens circulate warm
+air inside the oven for faster, even cooking and consistent
+heating. These ovens can also cook at a lower temperature than
+standard ovens, are affordable, and very versatile. However,
+convection ovens cannot be used for all types of cuisine. There
+are also specific convection ovens for bread items called bakery
+convection ovens.
+
+Food Service Logistics 42
+© 2022 Veritense™
+
+Rotary Oven
+
+A rotary oven allows for bulk production of food items, particularly flour-based foods like bread.
+Anything that cooks at the same temperature can go in — rolls, bread, cookies, and cake.
+Furthermore, rotary ovens provide a compact solution in
+contrast to several ovens, or even stacked ovens. Rotary
+ovens offer uniform baking and even cooking to all items
+compared to standard ovens where items closest to the
+heating elements will cook faster and brown more. Rotary
+ovens use an air distribution system to distribute warm air
+to achieve the consistent cooking. Rotary ovens look like a
+large walk-in chamber and have a special perforated tray.
+To understand better, look up a video of rotary ovens
+online.
+
+Microwave oven
+
+Microwave ovens cook faster than standard ovens and consume less
+energy than ovens or stovetops. However, microwave ovens are
+limited in the quantity of food they can cook and overcooking may lead
+to soft and soggy food. You might find microwaves in satellite kitchens
+and in self-service areas.
+
+Combination oven
+
+Combination ovens combine convection (circulated warm air) and
+steam (water vapor). Advantages include faster cooking times and
+consistent heating. However, combination ovens are very expensive.
+
++
+
+re
+
+Food Service Logistics 43
+© 2022 Veritense™
+
+Deck oven
+
+Deck ovens have a heavy stone shelf (deck) that heats up. The food is placed on the deck,
+allowing for fine control of heating (cooler at the top, hotter at the bottom). Some deck oven
+models can be stacked (i.e. a double deck, pictured on the right below) or are for pizzas (i.e. a
+pizza deck oven, pictured on the left below). Deck ovens are great for baking but have long
+preheating times and the deck shelf must be reheated between items.
+
+Rotisserie oven
+
+Rotisserie ovens are used to slowly cook meat, particularly large
+pieces of meat. You may have seen a rotisserie oven at a grocery
+store for rotisserie chickens. These ovens prevent meat from
+drying out because the meat retains its natural juices and the
+rotation causes very even cooking. The downside, compared to
+other methods of cooking meat, is that rotisserie ovens take a
+long time.
+
+Conveyor oven
+
+Conveyor ovens force hot air up through a perforated sheet which
+quickens the cooking time (called “impingement”). Cooking time is
+very fast, heating is consistent, and cooking is even. The structure
+allows for high output and less attention by workers. Models can also
+be stacked to save floor space. However, conveyor ovens aren't ideal
+for small items or delicate foods, have low clearance limits, and their
+high heat and fast speed of cooking can deteriorate flavor and texture
+in some foods. Have you ever been to a build your own pizza
+restaurant? Did they have a conveyor oven to cook pizza?
+
+Food Service Logistics 44
+© 2022 Veritense™
+
+Fryers
+
+Gas fryers use a building’s gas line to heat the fryer and heat up faster than electric fryers.
+Electric fryers run off electricity and aren’t ideal for large batches or repeat batches of food
+because the temperature will fall between batches.
+
+Tube-style fryer Open-pot fryer Flat bottom fryer
+
+Tube style fryers are used for frying onion rings, chicken, fish, or anything in a frying basket
+(i.e. French fries, cheese sticks). The heating element is within the tubes and affixed to the fry
+pot. This style fryer is heated by gas and has a better sediment zone than the other models. The
+sediment zone keeps sediment separate from oil, which prolongs oil life and prevents poor
+flavor of food. This style is harder to clean than open pot fryers.
+
+Open pot fryers can use gas or electricity. They are easy to clean and can be used for nearly
+any type of food. These fryers have a shallow sediment zone that can get clogged easily so it is
+best to use for low-sediment foods. They can be used for basket fried foods like French fries,
+hash browns, and frozen foods.
+
+Flat bottom fryers are heated from below by gas and are best for items that will float in oil at
+the top, such as donuts and battered foods. There is no sediment zone, which is why you only
+use lighter foods with minimum sediment. These are also called shallow fryers or donut fryers.
+They may have a tray that hinges into the oil and easily comes out.
+
+Fryers can also be classified by floor
+models or countertop. You can imagine
+in a cafeteria setup; you might want to
+have a countertop fryer that is making
+fresh food during meal service rather
+than holding fried foods at serving
+temperature.
+
+Food Service Logistics 45
+© 2022 Veritense™
+
+Commercial ranges
+
+Gas ranges have open burners and dials that allow for precise cooking temperature control.
+Immediate heat from open burners leads to shorter cook times. Gas is typically more efficient
+than electric models with lower operational costs, unless gas prices in your area are high. Gas
+models require special hookups to the buildings gas line which may make installation more
+expensive than an electric range. British Thermal Units (BTUs) measure gas usage.
+
+Electric ranges have protective tops above tubes with metal elements. Compared to gas
+ranges, electric ranges are easier and cheaper to install. With improvements in technology,
+electric ranges are more common commercially than
+they used to be.
+
+Induction surfaces are an additional consideration that
+don't require a fume hood and don't emit heat into the
+air which frees up space in the kitchen and keeps the
+kitchen cooler. Cookware with induction must contain a
+ferrous metal (i.e. cast iron) and not all foods can be
+cooked in that type of cookware. Considerations in
+deciding on an electric range to purchase include
+voltage, conductive versus inductive heat, NSF rating,
+warranties, steel gauge, and wall and floor clearance.
+
+Ranges can also vary in their base. Ovens are
+commonly the base of ranges though a refrigerated
+unit or open/closed storage unit where the oven would
+typically be are alternate options.
+
+Work Tables
+
+Work tables differ in many things, including their stainless-steel gauge, bottom shelf, edges and
+high risers, and top.
+
+Material
+
+More durable work tables cost more money so it’s important to consider what type of activities
+will be done in what areas. Commercial kitchens typically have an assembly area, cold prep
+area, and butcher area. To optimize those prep areas, you might also include handwashing
+sinks, undershelf sorting, and other options. Durability of the stainless steel (the gauge) is
+important to consider before purchasing.
+
+Food Service Logistics 46
+© 2022 Veritense™
+
+There are also 2 types of stainless steel used: Type 304 and Type 430. Type 304 is highly
+resistant to corrosion and rust, and is durable, easy to sanitize, and tolerates moisture. It has
+high chromium nickel and is not magnetic. Type 430 is lower grade than Type 304, and includes
+iron so it is less resistant to corrosion. It’s used for produce prep, mixing ingredients, and
+plating. It’s slightly magnetic.
+
+Increasing
+durability
+
+18 gauge 16 gauge 14 gauge
+Salad and sandwich prep General use Butcher use, most durable
+General sorting and assembly Stands up to pounding
+Susceptible to dents and dings and chopping
+
+— no pounding or chopping
+
+Storage
+
+An open-base table is optimal when you have large storage bins that won't fit on a shelf. An
+undershelf is optimal when you have smaller things to store, like a half bin or bowls.
+
+Top and Edge
+
+Stainless steel tops are good for general work. Poly top is often used for delis, meat counters,
+and bakeries because it doubles as a cutting board. Wood top is also an option.
+
+Food Service Logistics 47
+© 2022 Veritense™
+
+Square/flat edges allow worktables to be placed next to each other. Rounded edges make the
+table easier to clean, especially if there are high rises. Countertop or marine edges have a drip-
+containing ridge and are optimal for butcher tables. Bakers tables are typically wood top with
+high risers and rounded corners to keep flour within the space, while also being easy to clean.
+
+Food Service Logistics 48
+© 2022 Veritense™
+
+Facility Specifications
+Flooring Selection
+
+Why do you need to know about flooring requirements for kitchen and food service? As a
+foodservice manager, you may be in charge of designing a new foodservice space and/or
+updating existing space to meet quality standards. To select the appropriate type of flooring for
+your operation, you need to understand the factors to consider, as well as the standards they
+need to meet. I'll start by presenting the factors to consider and then talk about examples that
+meet these. The exam may ask you about certain features of a flooring type, (i.e. “What does
+resiliency refer to?”) or it may ask you to select the best flooring choice given a certain situation.
+
+“Regular factors” apply to floors anywhere. “Unique factors” are flooring factors unique to
+foodservice.
+
+Table 2. Factors affecting flooring selection
+
+Regular Factors Unique Factors
+Equipment Water
+Foot traffic Food waste
+
+Grease
+Cleaning products
+
+Equipment — if a space has heavy equipment, it needs flooring that can accommodate not only
+the weight but the way that heavy equipment is moved
+
+Foot traffic — different flooring types may scratch or wear away with high traffic and may be
+dangerous when wet. Nonslip surfaces are particularly important for foodservice operations. The
+largest number of employee injuries in kitchens is from slippery floors.°
+
+Water — foodservice flooring areas often contain drains and not all flooring materials can
+accommodate the sloping floors
+
+Food waste, grease, and cleaning are all related — the flooring material in a foodservice
+operation must be able to withstand regular cleanings, including specialty cleaners meant to
+clean up grease
+
+As we move into typical flooring materials used in foodservice operations, keep these 4 things in
+mind: safety, sanitation, comfort, and aesthetics. I’ve grouped resiliency with aesthetics, but it’s
+also relevant to safety and sanitation. A cracked floor isn't safe, aesthetically pleasing, or a good
+situation for maintaining sanitation. Plus, you'll have to pay for it to be fixed.
+
+4 things to consider with foodservice flooring
+
+Safety and slip Sanitation and Comfort and worker | Aesthetics and
+resistance infection control fatigue durability
+Slip resistant material | Pre-treatment Soft underlayers Resiliency
+
+Seams and grout Protective coatings
+
+Food Service Logistics 49
+© 2022 Veritense™
+
+As | mentioned before, the exam may ask you about certain features of a flooring type, (i.e.
+“What does resiliency refer to?”) or it may ask you to select the best flooring choice given a
+certain situation or requirement. I'll provide a general description of each flooring type here.
+
+Quarry tile |
+ae: Quarry tile
+Quarry tile, also called non-porcelain ceramic tile, is oa —
+A
+
+common and an industry standard. It’s natural
+material, cheaper than porcelain tile, and combined
+with epoxy grout. It’s slip-resistant and often paired
+with rubber mats, especially for worker fatigue.
+Standard cleaners are ok to use on quarry tile, but
+the grout lines need to be sealed every year to avoid
+bacterial growth.
+
+J
+
+Natural stone and tile
+
+Natural stone tile and brick is another option, often used in cafes, delis, and restaurants where
+the kitchen area is visible to customers. Slate and granite are easier to maintain than other
+natural stone in terms of cleaning. Brick is porous and must be sealed twice a year. Importantly,
+polished tile can be incredibly slippery when wet.
+
+Epoxy flooring
+
+Epoxy flooring is a protective coating on concrete flooring and is incredibly strong - strong
+enough to be used in manufacturing facilities and airplane hangars, while sanitary enough to be
+used in labs. A slip-resistant coating can be used to improve slip resistance or rubber mats can
+be added. It’s easy to maintain with standard cleaners and resistant to abrasion, physical
+impact, and chemicals. Concrete floor is hard so it’s important that measures are taken for
+comfort and worker fatigue.
+
+Vinyl/PVC flooring
+
+Vinyl/PVC flooring can be vinyl sheet or tile. There are luxury options, called luxury vinyl tile
+(LVT) that provide flexible design options. Vinyl flooring is good for customer areas, even if
+highly trafficked. Commercial vinyl flooring is sometimes called “resilient” flooring.
+
+Vinyl flooring is waterproof and slip-resistant. It can be pretreated for microbial infection control.
+There are minimal seams and no grout which helps with cleaning, though it might require a
+special cleaner. Vinyl flooring can also include a silver ion core which is antimicrobial (useful
+also in operating rooms).
+
+Vinyl takes on the properties of the subfloor, so installing vinyl flooring over a soft layer can
+reduce dinnerware breakage and be better for reducing worker fatigue. Finally, for aesthetics
+and durability, the synthetic polymers in vinyl make it resilient with maximal durability. This
+flooring is resistant to abrasion, chemicals, grease, and physical impact.
+
+Food Service Logistics 50
+© 2022 Veritense™
+
+Lighting Requirements
+
+Why bother with lighting requirements? Because if you can’t see it, it’s probably not clean or
+safe.
+
+Lighting helps to:
+
+1. Create a safe and welcoming environment
+2. Optimize visibility
+
+3. Provide safe and efficient traffic patterns
+4. Minimize operating costs
+
+Lighting helps with warmth, clarity, and sanitation. It
+also effects productivity and worker safety. As a
+manager, you can minimize operating costs by using
+similar types of lighting components for easy
+maintenance and save money by increasing sanitation
+and safety (i.e. less workers compensation).
+
+Lighting requirements are communicated in “foot-
+candles”.
+
+1 foot-candle = illuminance cast on a 1 x 1 foot
+surface 1 foot away by a 1-candela light source.
+
+1 foot away
+An overcast day is about 100 foot-candles while a
+sunny day is about 10,000 foot-candles. 1 lumen
+
+. . . . oa (1 candle)
+Because lighting has implications for both safety and
+
+sanitation, the food code has lighting requirements for different foodservice areas. Fill out the
+lighting requirement table worksheet.
+
+Table 3. Lighting Requirements for Food Service Areas
+
+Area Intensity Distance
+Walk-in refrigeration, dry food storage, and all areas 110 lux 75 cm (380 in)
+during cleaning (10-ft candles) above floor
+Inside reach-in and under-counter refrigerators 220 lux -
+20-ft candles
+
+Self-service food areas and areas where packaged 220 lux
+food is sold (20-ft candles)
+Areas for handwashing, dishwashing, equipment and 220 lux 75 cm (380 in)
+
+utensil storage, and toilet rooms (20-ft candles) above floor
+Preparation areas working with food, knives, slicers, 540 lux -
+grinders, or saws
+Source: National Restaurant Association Education Foundation. ServSafe Coursebook. 6th ed. Chicago: NRA;
+2012:11-16
+
+Food Service Logistics 51
+© 2022 Veritense™
+
+You're working on the kitchen area design and need to decide which types of work tables will be
+in each area. There is no single right answer for each one — you're actively learning by applying
+what you’ve read. Provide rationale for your choice when applicable and check your answers on
+the next page.
+
+Storage
+
+Top
+
+Lighting
+
+e What areas require the most lighting? The least?
+e What is the range of lighting requirements in a foodservice kitchen and storage
+space?
+
+Food Service Logistics 52
+© 2022 Veritense™
+
+[ANSWERS _| Salad Prer ‘Bakery  ————s(| Butcher
+18 gauge 16 or 14 gauge 14 gauge (heaviest
+
+Type 430 OK Type 304 — many Type 304 — don’t
+bakery tools are want knives to dent
+metal and magnetic tables
+
+Storage Undershelf Undershelf for half Undershelf
+bins
+= Sachse emer temo
+can in the kitchen
+
+[Top  ——C™—C—s| Stainless Si éPolyorwood
+20 — 50+ foot candles | 20 — 50+ foot candles | > ———E foot candles
+
+Motion Economy
+
+Motion economy is focused on improving manual work in manufacturing and foodservice in
+order to reduce fatigue and unnecessary movements.
+
+These improvements can be accomplished in three overall ways:
+
+1. Workplace arrangement
+2. Tool and equipment designs
+3. Human body motion patterns
+
+Maximum Normal Normal
+working area working working
+area area
+
+Left hand Right hand
+
+Food Service Logistics 53
+© 2022 Veritense™
+
+Workplace arrangements — materials and tools should be arranged to support the appropriate
+sequence of motions with pre-positioning to reduce the need for searching. Defined and fixed
+stations should be provided for habit formation — such as a dedicated bakery table with
+undershelf storage for commonly used ingredients. Finally, proper illumination without glare is
+needed to avoid eye strain. In foodservice systems, the food code lighting requirement would be
+the minimum.
+
+Tool and equipment design — ergonomic design and comfort grips can reduce worker fatigue
+
+Human body motion patterns — should be simultaneous, symmetrical, natural, rhythmic, and
+habitual’
+
+HVAC
+
+HVAC stands for heating, ventilation, and air conditioning, and includes all the different systems,
+machines, and technology used for heating, ventilation, and air conditioning of indoor spaces. In
+foodservice, we’re mostly concerned about the ventilation portion of HVAC. Ventilation systems
+work on a loop, taking air from the workspace, removing the exhaust, and mixing the recycled
+air with outside air before venting it back into the workspace. There may be dedicated exhausts
+for the cooking area (from the fume hood to a specific exhaust) and from restrooms.
+
+Supply air comes from outside of the building. Outdoor air is sucked into the system and
+supplies air into the workspace. Air from the workspace is filtered into exhaust and return air.
+Exhaust exits the building while return air mixes with supply air and is recirculated. Be familiar
+with the definition of supply air, return air, and exhaust air.
+
+Supply Air Supply Air EN
+
+Return Air
+
+Kitchen
+
+Food Service Logistics 54
+© 2022 Veritense™
+
+Safety
+
+Safety categories you need to know for the RD exam include different types of fires and how to
+put them out, what contributes to fire risk in the kitchen, workplace safety, and safety
+investigations. Note that OSHA investigates workplace accidents.
+
+Workplace Safety
+
+Workplace safety falls into general categories, including strains and sprains, slips, trips and
+falls, burns and scalds, knives and cuts, electrical hazards, hazardous chemicals, fire hazards,
+heat hazards, machine guarding, and heat and cold exposure.
+
+Particularly dangerous equipment will have guards in place and may be restricted by local law
+with persons under a certain age prohibited from operating the machinery (usually 18 years).'
+You should be familiar with these restrictions. For example, a teenager may be old enough to
+work at a sub sandwich shop but not old enough to operate the deli meat cutting machine.
+
+For storage, heavier items should be on lower shelves and lighter items on top shelves. To
+prevent strains and sprains, frequently used items should be stacked to waist level.
+
+To prevent slips, trips, and falls, employees should wear appropriate nonslip footwear and use
+no-skid waxes. Hallways should not be cluttered or obstructed, and items should only be carried
+at a height over which the employee can see.
+
+To prevent cold exposure, employees loading material in refrigerator or freezer areas should
+wear appropriate protective equipment. Condensation can cause floors to become wet and
+slippery. Floors in walk-in refrigerators and freezers should be nonslip and free of clutter.
+
+Electrical hazards include worn electric cords, damaged extension cords, ungrounded outlets,
+faulty equipment wiring, damaged connectors, wet clean-up processes, and unsafe work
+practices. Fire hazards include poor housekeeping, unemptied grease traps, dirty air ducts,
+improper storage of flammable items, and faulty or frayed electrical cords.
+
+Proper uniforms in the kitchen, including long-sleeved cotton shirts and pants, a clean, dry
+apron of the proper length, and proper use of protective gear, like oven mitts, are important to
+prevent burns. Steam burns and grease burns are of particular concern in kitchens.
+
+e Ona piece of paper, write out these different categories of worker safety with examples.
+Emergency Preparedness
+
+Food service operations in the US should have disaster plans in place in the event of an
+emergency, including hospitals and long-term care facilities. Review the following articles to
+prepare for the exam:
+
+Nutrition Care Manual: Disaster Preparedness (https://bit.ly/S6oyatb)
+
+Food Safety in a Disaster or Emergency: https://www.foodsafety.gov/keep-food-safe/food-
+safety-in-disaster-or-emergency
+
+Food Service Logistics 55
+© 2022 Veritense™
+
+Fire Safety
+
+Different fire extinguishers are used for different types of fire. You need to know generally what
+type of fire extinguisher is used for which type of fire. The additional information is here to help
+you create those connections rather than trying to brute memorize it.
+
+Table 4. Types of fires and the fire suppression technique
+
+Fire Class _| Description | Examples Fire Suppression Techniques
+
+Class A Combustible | Wood, paper, fabric, Water extinguisher, foam extinguisher, wet
+materials trash chemical suppression
+
+Class B Flammable Gasoline or natural gas | Water stream not used because it will scatter
+liquids and the fuel and spread flames
+gases Dry chemical extinguisher, carbon dioxide
+
+extinguisher
+Foam extinguisher for flammable liquids only
+
+Class C Electrical Short-circuited Water not used because it’s conductive
+fires machinery or
+overloaded electrical Ammonium sulfate or carbon dioxide fire
+cables extinguishers can be used
+Class D Flammable Metal “sawdust” can Dry powder extinguishers
+metals combust and burn in
+
+contact with air or water
+Class K Cooking oils | K for “kitchen fires” Class K fire extinguishers are wet chemical
+and fats and will turn oil into a foam. Water stream not
+
+used because it will cause the fuel to scatter.
+Can also smother small kitchen fires with fire
+blankets.
+
+Note that there are more types of fires than just Class A combustible (which is the only one to
+use water with). Other fire extinguishers include wet chemical suppression, dry chemical
+suppression, foam smothering, and dry powder smothering. Non-water fire extinguishers work
+by absorbing heat and/or smothering the fire. Chemical suppression extinguishers work through
+chemical reactions that use up (i.e. remove) oxygen. The ‘Fire Triangle’ consists of oxygen,
+heat, and fuel. Fire suppression techniques address at least 1 of these components.
+
+e Water extinguishers: Used for Class A fires to remove heat from burning materials
+
+e Carbon dioxide extinguisher: Used for Class B and C fires, the carbon dioxide blankets the fuel and
+displaces oxygen and can also remove heat by cold discharge.
+
+e Chemical foam extinguisher: Used for Class A and Class B- flammable liquids (not gas). The foam
+blankets the fire, preventing oxygen from reaching it.
+
+e Dry chemical extinguishers interrupt the chemical reaction between the 3 elements in the fire
+triangle. Regular dry chemical extinguishers only work with Class B and C, and can exacerbate Class
+A fires. There are multipurpose, dry chemical fire extinguishers that can be used in Class A, B, and C
+fires — these are the red fire extinguishers you commonly see and may be labeled as ABC
+extinguishers.
+
+e Dry powder extinguishers separate fuel and oxygen or remove heat using sodium chloride, sodium
+carbonate, copper, graphite, or other materials. They are for Class D fires only.
+
+e Wet chemical extinguishers create a soapy foam blanket that excludes air (removing oxygen) and
+cools the fuel below its ignition temperature. Wet chemical extinguishers were developed for Class K
+fires but some may be used on Class A fires in kitchens. They are silver.
+
+Food Service Logistics 56
+© 2022 Veritense™
+
+Sanitation
+
+Sanitizers are chemicals and need proper storage and training on their usage. In the US,
+chemical sanitizers and antimicrobial agents are regulated. For sanitizers and antimicrobial
+agents used on food, food product contact surfaces, and nonfood product contact surfaces are
+registered with the EPA (Environmental Protection Agency),
+
+The FDA (Food and Drug Administration) evaluates residues from sanitizer use that may enter
+the food supply. The FDA maintains the Code of Federal Regulations with approved no-rinse
+food contact sanitizers, nonfood contact sanitizers, and their maximum usage levels.
+
+The USDA (United States Department of Agriculture) maintains the USDA List of Proprietary
+Substances and Nonfood Product Contact Compounds, which includes antimicrobial
+compounds used in meat, poultry, and other products regulated by the USDA FSIS (Food
+Safety and Inspection Service)
+
+Cleaning, sanitizing, and disinfecting are often used synonymously but mean different things.
+Cleaning physically removes debris by scrubbing, washing, and rinsing. It may include soap,
+detergent, or water.
+
+Sanitizers
+
+Sanitizers are products that kill 99.9% of germs. They reduce, but may not eliminate,
+microorganisms to the “safe level” determined by public health codes. In foodservice, we
+sanitize food and food contact surfaces.
+
+Sanitizers include chlorine compounds, quaternary ammonium compounds, and iodine
+compounds. Different sanitizers have different usage requirements because different
+temperatures or pH’s affect the effectiveness.
+
+Chlorine. In foodservice, chlorine must be “food grade” and not contain any fragrances,
+thickeners, or additives. Chlorine is corrosive to metal surfaces and has human safety concerns
+due to skin irritation and mucous membrane damage. Chlorine’s effectiveness is affected by pH,
+temperature, and soil load but not by water hardness. Chlorine is effective against fungi and
+bacterial spores.
+
+Quaternary Ammonium. Quaternary ammonium compounds, or “quats”, are commonly used in
+foodservice because they are effective against bacteria, mold, yeast, and viruses, and are
+active and stable across a large temperature range. Quats shouldn’t be used with hard water or
+heavy soil. Rinsing after cleaning is important because if any detergent is left on a dish, quats
+will react and form dangerous gases. An advantage of quats are that they are non-irritating,
+non-corrosive, and stable across a relatively wide pH range.
+
+lodine. lodine compounds, called “iodophors” are active against bacteria, mold, fungi, viruses,
+yeasts, and protozoans. They evaporate at 120 °F and thus, can’t be used with high
+temperature water. lodophors shouldn't be used with basic pH water and may stain plastics
+yellow/brown.
+
+Food Service Logistics 57
+© 2022 Veritense™
+
+For the following statements, write in chlorine, quaternary ammonium, or iodine where correct.
+
+Check your answers on the following pages.
+
+Affected by water hardness
+Affected by pH
+
+Affected by water temperature
+Works against protozoans
+
+Works against bacteria
+
+Works against spores
+Corrosive
+
+Affected by soil load
+
+PH stable
+
+Temperature stable
+
+Not affected by water hardness
+
+Factors Affecting Sanitizers
+
+e Sanitizer concentration (too much = toxic, too little = ineffective)
+
+e Ideal temperature
+e Contact time required
+e Water pH and water hardness
+
+e Adequate cleaning (to reduce soil) and rinsing (to reduce detergent residue)
+e Material being cleaned, if inanimate (plastic, metal, wood, glass)
+
+e Microbial load
+e Type of microorganism present
+
+Training
+
+Managers should make sure that employees are trained on which sanitizer to use when, how to
+mix sanitizers to the proper concentration, how to test the concentration and at what
+temperature, how to use the sanitizer, how to store the sanitizer when not in use, and chemical
+
+safety considerations if something goes wrong.
+
+e Write out the advantages and disadvantages (or considerations to make) for each of the
+
+3 sanitizers discussed.
+
+Food Service Logistics 58
+Sanitizer Answers
+
+Affected by water hardness
+Affected by pH
+
+Affected by water temperature
+Works against protozoans
+Works against bacteria
+
+Works against spores
+Corrosive
+
+Affected by soil load
+
+PH stable
+
+Temperature stable
+
+Not affected by water hardness
+
+Sustainability
+
+© 2022 Veritense™
+
+Quats
+
+lodine, chlorine
+lodine, chlorine
+lodine
+
+lodine, quats
+Chlorine
+Chlorine
+Quats, chlorine
+Quats
+
+Quats
+
+Chlorine
+
+Sustainability includes practices used to meet the needs of a current generation without
+compromising the ability of future generations to meet their own needs.
+
+In foodservice, water and energy efficiency, green building materials, HVAC, sustainable food
+products, material recycling, and waste management are the 7 key aspects of sustainability.
+Integrated waste management systems focus on reducing the amount of waste that goes to
+landfills through 1) source reduction, 2) recycling and 3) waste incineration.
+
+Sustainability in food products includes a focus on local purchasing, and sustainability in food
+processing, packaging, and selling. The most commonly recycled item in foodservice operations
+is cardboard, because almost every product arrives in some form of cardboard carton.' Solid
+waste from foodservice operations is 60-70% packaging, including napkins, straws, and other
+customer waste, with 30-40% from food production and preparation areas. Which area of
+foodservice produces more solid waste — customer use or food production/preparation?
+
+Food preparation is the highest energy consumer in foodservice. HVAC, sanitation, lighting, and
+
+refrigeration follow it.
+
+Decreased energy use — carefully planned windows to improve air circulation, digital timing
+controls on air conditioners, water heaters, and refrigerators, as well as energy-efficient
+equipment, and farm-to-fork programs can all reduce energy use.
+
+Sustainable design — using recycled building materials, recycled paper, and biodegradable
+utensils in production, while recycling any plastic, paper, and cardboard material outputs. Note
+that cardboard is the most commonly recycled material in foodservice operations
+because the majority of items purchased for inventory arrive in cardboard boxes. It’s
+important to have an accessible recycling system, both in the kitchen and in the exterior waste
+management location, to handle cardboard for adequate recycling.
+
+Grow your own — some restaurants and other foodservice businesses are growing their own
+vegetables, fruits, and herbs to minimize the effect of purchasing, transport, logistics, and
+
+Food Service Logistics 59
+© 2022 Veritense™
+
+storage on the environment. Restaurant gardens also contribute to green space and water run-
+off control.
+
+Waste management - this is related to inventory management. Using data to accurately
+estimate what the department needs and then buying and storing only that much results in less
+waste. Businesses can also partner with suppliers to reduce the amount of packaging used in
+shipping supplies. Careful menu planning can also help reduce inventory waste by analyzing the
+performance of different items on the menu and reducing the menu offerings to only high quality
+and high performing items to reduce the variety of ingredients that need to be kept in stock.
+Simple steps like installing a can crusher at prep stations will facilitate aluminum recycling.
+
+Purchasing in-season — by purchasing produce in-season, restaurants aren’t supporting long-
+range shipping that harms the environment. In-season purchasing can be done at the local level
+by buying product from local farms, dairies, or vineyards to save money on packaging,
+transportation, and storage, while also being able to offer customers “farm-to-fork” or “farm
+fresh” items and support their local economy.
+
+Foodservice operations can partake in Energy Star and Leadership in Energy and
+Environmental Design (LEED) sustainability programs.
+
+e List the 7 aspects of foodservice sustainability.
+
+e List the 5 ways a foodservice department can contribute to sustainability.
+
+e Your boss wants you to lead a new sustainability initiative for the foodservice
+department. Brainstorm how you can improve sustainability in each of the foodservice
+subsystems (procurement, production, distribution and service, sanitation, maintenance),
+using the 5 ways to improve sustainability listed previously.
+
+Food Service Logistics 60
+© 2022 Veritense™
+
+Practice Questions (Group 2)
+
+Answer these practice questions using the Study Smarter Method by Veritense™ that you read about in
+Chapter 2 and 3 of the Study Smarter Method for the RD-Exam section. Instead of answering these
+questions using your memory and logic, use the study guide text and/or your own research to determine
+which answer is correct (and why), and why the other answers are incorrect. Pay attention to the question
+itself, and be sure you know what the question is asking. There are answers with explanations following.
+If this is your first set of practice questions, go back and skim Chapters 2 and 3 in the Study Smarter
+Method for the RD-Exam section to remind yourself of the types of questions and how to answer them.
+
+1. The kitchen in your foodservice department relies on previously cooked food that is frozen,
+thawed to room temperature, and heated for service. What type of equipment would you
+expect to find in this kitchen?
+
+a. Two-compartment sinks
+b. Conveyor dishwasher
+c. Heat lamps
+
+d. Proofing cabinets
+
+2. Which of the following specifications for a dry storage room are correct?
+a. 50-70 degrees F, 60-70% humidity, shelving 6” off the floor
+b. 60-74 degrees F, 50-60% humidity, shelving 6” off the floor
+c. 50-70 degrees F, 50-60% humidity, shelving 9” off the floor
+d. 50-70 degrees F, 50-60% humidity, shelving 6” off the floor
+
+3. Compared to a conventional oven, steam ovens have cooking times,
+heating, and cooking.
+a. Faster, more consistent, more even
+b. Longer, more consistent, more even
+c. Faster, less consistent, less even
+d. Longer, less consistent, less even
+
+4. You want to buy a fryer for the foodservice kitchen. You will be using it for large batches of
+food and need it to be easy to clean. Which type of fryer would be best?
+a. Electric, open-pot
+b. Electric, tube-style
+c. Gas, open-pot
+d. Gas, tube-style
+
+5. You are ordering new butcher prep tables for the commercial kitchen. What type and gauge
+of stainless steel should you look for?
+a. Type 304, 14 gauge
+b. Type 430, 14 gauge
+c. Type 304, 18 gauge
+d. Type 430, 18 gauge
+
+Food Service Logistics 61
+© 2022 Veritense™
+
+6. What are the lighting requirements for an area with a butcher table and produce prep
+station?
+a. 10-foot candles
+b. 20-foot candles
+c. 50-foot candles
+d. 75-foot candles
+
+7. Which of the following does NOT reflect the principles of motion economy?
+a. Butcher knives with comfort grips
+b. Worktable with common ingredients stored on an undershelf
+c. Commonly used items within normal working area reach
+d. Asymmetric tabletop storage reflecting hand dominance
+
+8. Workspace air comes from outside and is filtered into and
+a. Exhaust, return air
+b. Supply air, return air
+c. Exhaust, supply air
+d. None of the above
+
+9. Which of the following policies would improve workplace safety?
+a. Storing heavier items on top shelves
+b. Checking for electrical hazards before mopping
+c. Stacking frequently used items at waist level
+d. BandC
+
+10. You are the director of foodservice at a large hospital. There is a snowstorm and power has
+gone out. Which of the following is false?
+a. Refrigerators will keep food cold for 4 hours if unopened
+b. A full freezer will keep temperature for 48 hours
+c. At-risk foods that exceed 40 degrees F for more than 2 hours should be discarded
+d. Perishable items can be placed outside in the snow to keep them cold
+
+11. The power to your food service kitchen was out for 6 hours. The power is back on, but the
+refrigerator and freezer temperatures aren’t back to normal yet.
+a. Discard perishable refrigerated food
+b. Discard frozen food that contains ice crystals
+c. Refreeze frozen food that is between 40 to 50 degrees F
+d. AandB
+
+Food Service Logistics 62
+© 2022 Veritense™
+
+12. What type of fire extinguisher should be kept close to the fryer and stove in a commercial
+kitchen?
+a. ClassA
+b. Class B
+c. Class D
+d. Class K
+
+13. The approves no-rinse sanitizers used on produce and the approves
+antimicrobial compounds that can be used in meat.
+a. FDA, USDA
+b. FSIS, FDA
+c. FSIS, USDA
+d. USDA, FDA
+
+14. What type of sanitizer can be used with hard water?
+a. Chlorine
+b. Quaternary ammonium
+c. lodine
+d. BandC
+
+15. lf you are concerned about viruses, what type of sanitizer should you use?
+a. Chlorine
+b. Quaternary ammonium
+c. lodine
+d. BorC
+
+16. What foodservice unit produces the most solid waste (non-recyclable)?
+a. Procurement
+b. Production
+c. Service
+d. Maintenance
+
+17. Which of the following examples would be classified as a sustainability effort?
+a. Careful menu planning and use of standardized recipes
+b. Switching to from plastic to compostable plates and utensils for customer service
+c. Purchasing in-season produce
+d. All of the above
+
+Food Service Logistics 63
+© 2022 Veritense™
+
+Practice Questions (Group 2) Answers
+
+1. The kitchen in your foodservice department relies on previously cooked food that is frozen, thawed to
+room temperature, and heated for service. What type of equipment would you expect to find in this
+kitchen?
+
+a. Two-compartment sinks
+b. Conveyor dishwasher
+c. Heat lamps
+
+d. Proofing cabinets
+
+Answer: A. This question is describing a ready-prepared (or cook/freeze) operation. Because foods are
+frozen, and then heated for service (and the question specifically mentions thawing), you would expect
+this kitchen to have a large capacity for thawing foods, such as two-compartment sinks. Conveyor
+dishwashers are the largest available commercial dishwashers — the question does not mention capacity
+for dishwashing. Heat lamps are used to keep meats at carving stations warm and does not apply to this
+scenario. Heating equipment this kitchen might have, however, include a Bain Marie, which is an electric
+steam table that can be used to keep food warm or to thaw large amounts of frozen food, or a cook and
+hold oven to cook foods and keep hot until serving. A proofing cabinet is used to proof bread dough and
+would be expected at a pizza restaurant or bakery.
+
+2. Which of the following specifications for a dry storage room are correct?
+a. 50-70 degrees F, 60-70% humidity, shelving 6” off the floor
+b. 60-74 degrees F, 50-60% humidity, shelving 6” off the floor
+c. 50-70 degrees F, 50-60% humidity, shelving 9” off the floor
+d. 50-70 degrees F, 50-60% humidity, shelving 6” off the floor
+
+Answer: D. Dry storage rooms should be clean and well-ventilated, with optimal temperature of 50 — 70
+degrees F and humidity kept at 50 —- 60% to prevent mold and bacterial growth. Shelves should be at
+least 6” off the floor and away from the walls to maintain ventilation. There should not be heat, light, or
+vents close to where units are stored. What are the optimal specifications for refrigerated storage and
+freezer storage? How accurate do thermometers need to be for freezer storage? Why?
+
+3. Compared to a conventional oven, steam ovens have cooking times, heating, and
+cooking.
+a. Faster, more consistent, more even
+b. Longer, more consistent, more even
+c. Faster, less consistent, less even
+d. Longer, less consistent, less even
+
+Answer: A. Conventional, or standard ovens, are inexpensive and easy to repair, but have longer
+cooking times, inconsistent heating, and uneven cooking. Steam ovens cook with water vapor and have
+very fast cooking times with consistent and even heating and cooking. However, they cannot be used for
+delicate foods, and they do not brown or crisp foods. Answer choice D compares conventional ovens to
+steam ovens. Compare standard ovens and steam ovens to convention ovens and microwave ovens.
+
+Food Service Logistics 64
+© 2022 Veritense™
+
+4. You want to buy a fryer for the foodservice kitchen. You will be using it for large batches of food and
+need it to be easy to clean. Which type of fryer would be best?
+a. Electric, open-pot
+b. Electric, tube-style
+c. Gas, open-pot
+d. Gas, tube-style
+
+Answer: C. Because you are using large batches, you should use a gas fryer because the temperature of
+oil in electric fryers will decrease between batches. Because you need a fryer that is easy to clean, you
+should avoid tube-style fryers (which are typically or always gas) and select an open-pot fryer. Flat bottom
+fryers are easy to clean, are typically gas and can only be used for specific items like donuts or battered
+foods.
+
+5. You are ordering new butcher prep tables for the commercial kitchen. What type and gauge of
+stainless steel should you look for?
+a. Type 304, 14 gauge
+b. Type 430, 14 gauge
+c. Type 304, 18 gauge
+d. Type 430, 18 gauge
+
+Answer: A. Type 304 stainless steel is durable, easy to sanitize, and resistant to corrosion and rust.
+Type 430 is lower grade and is used for prep work, plating, and ingredient mixing. Lower gauge stainless
+steel has higher durability. 18 gauge would be used for prep and sorting/assembly, but nothing requiring
+pounding or chopping. Which answer choice would you use for a salad prep table or a plating table?
+
+6. What are the lighting requirements for an area with a butcher table and produce prep station?
+a. 10-foot candles
+b. 20-foot candles
+c. 50-foot candles
+d. 75-foot candles
+
+Answer: C. Lighting in areas working with food, knives, and slicers should be 50-foot candles (540 lux).
+Lighting for walk-in refrigeration, dry food storage, and areas being cleaned is 10-foot candles with lights
+30 in (75 cm) above the floor. Lighting for reach-in and under-counter refrigerators, self-service food
+areas with packaged foods, handwashing and dishwashing areas, equipment storage, and toilet rooms is
+20-foot candles.
+
+7. Which of the following does NOT reflect the principles of motion economy?
+a. Butcher knives with comfort grips
+b. Worktable with common ingredients stored on an undershelf
+c. Commonly used items within normal working area reach
+d. Asymmetric tabletop storage reflecting hand dominance
+
+Answer: D. Motion economy principles include workplace arrangements that support appropriate motion sequence
+with pre-positioning, habit formation, and are properly illuminated to reduce glare; ergonomic designs and comfort
+grips to reduce worker fatigue; and support simultaneous, symmetrical, natural, rhythmic, and habitual human body
+motion patterns. While asymmetric tabletop storage with common ingredients stored on the right for a right-handed
+baker may be a specific example of having commonly used items within normal area reach, the asymmetry is in
+contrast with general defined motion economy principles. Did you find this question tricky or overly specific? When
+you encounter questions like these, remember that you are searching for the best answer.
+
+Food Service Logistics 65
+© 2022 Veritense™
+
+8. Workspace air comes from outside and is filtered into and
+a. Exhaust, return air
+b. Supply air, return air
+c. Exhaust, supply air
+d. None of the above
+
+Answer: A. Supply air is outdoor air sucked into the HVAC system and supplies air into the workspace.
+The workspace air is then filtered into exhaust air and return air. Exhaust air exits the building completely,
+but return air mixes with supply air and is recirculated.
+
+9. Which of the following policies would improve workplace safety?
+a. Storing heavier items on top shelves
+b. Checking for electrical hazards before mopping
+c. Stacking frequently used items at waist level
+d. BandC
+
+Answer: D. Heavy items should be stored on lower shelves with lighter items on top shelves. It is
+important to check for electrical hazards such as worn electric cords, damaged extension cords,
+ungrounded outlets, faulty equipment wiring, damaged connectors before beginning wet cleaning, like
+mopping. To prevent strains and sprains, stack frequently accessed items at waist level. What are other
+workplace safety policies?
+
+10. You are the director of foodservice at a large hospital. There is a snowstorm and power has gone out.
+Which of the following is false?
+a. Refrigerators will keep food cold for 4 hours if unopened
+b. A full freezer will keep temperature for 48 hours
+c. At-risk foods that exceed 40 degrees F for more than 2 hours should be discarded
+d. Perishable items can be placed outside in the snow to keep them cold
+
+Answer: D. You should not place perishable foods outside in the snow. Instead, you should make ice by
+filling buckets, empty containers, and cans with water and placing them outside to freeze. The ice can
+then be used in refrigerators, freezers, and coolers. If refrigerators and freezers are kept closed,
+refrigerators will keep food cold for 4 hours and a full freezer will hold temperature for 48 hours (24 hours
+if it is half full). At-risk foods such as refrigerate dor frozen meat, poultry, fish, or eggs should be cooked to
+their safe minimum internal temperature — and discarded if they were kept above 40 degrees for more
+than 2 hours (or 1 hour if above 90 degrees, such as during a power outage in the summer). Read the
+following articles if you haven't already: Nutrition Care Manual: Disaster Preparedness
+
+(https://bit.ly/860yatb) and Food Safety in a Disaster or Emergency: https:/Awww.foodsafety.gov/keep-
+food-safe/food-safety-in-disaster-or-emergency
+
+Food Service Logistics 66
+© 2022 Veritense™
+
+11. The power to your food service kitchen was out for 6 hours. The power is back on, but the refrigerator
+and freezer temperatures aren't back to normal yet.
+a. Discard perishable refrigerated food
+b. Discard frozen food that contains ice crystals
+c. Refreeze frozen food that is between 40 to 50 degrees F
+d. AandB
+
+Answer: A. Because the power was out for more than 4 hours, you should discard perishable foods that
+were in the refrigerator. However, for frozen foods, if the freezer thermometer is 40 degrees F or below,
+the food can be refrozen. If the thermometer isn’t working or there isn’t one in the freezer, measure the
+temperature of each food. Frozen food that is below 40 degrees or F can be safely re-frozen.
+Alternatively, food that still has ice crystals can be refrozen. Answer choice B is wrong because you can
+refreeze those items. Answer choice C is wrong because it should read 40 degrees F or below. Answer
+choice D is wrong because answer choice B is wrong. Read the following articles if you haven't already:
+Nutrition Care Manual: Disaster Preparedness (https://bit.ly/360yatb) and Food Safety in a Disaster or
+Emergency: https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergenc
+
+12. What type of fire extinguisher should be kept close to the fryer and stove in a commercial kitchen?
+
+a. ClassA
+b. ClassB
+c. Class D
+d. Class K
+
+Answer: D. Class K, or “kitchen fire” extinguishers, are used to extinguish cooking oils and fats. They are
+wet chemical extinguishers that turn oil into foam. Water would cause the fuel to scatter and exacerbate
+the situation. Describe Class A, B, C, and D extinguishers and what scenarios they are used for or write
+your own questions for them.
+
+13. The approves no-rinse sanitizers used on produce and the approves antimicrobial
+compounds that can be used in meat.
+a. FDA, USDA
+b. FSIS, FDA
+c. FSIS, USDA
+d. USDA, FDA
+
+Answer: A. The FDA evaluates residues from sanitizers that may enter the food supply, including no-
+rinse sanitizers used for food contact and non-food contact sanitizers. The USDA maintains the list of
+antimicrobial compounds that can be used in products regulated by the USDA FSIS, including meat and
+
+poultry.
+
+Food Service Logistics 67
+© 2022 Veritense™
+
+14. What type of sanitizer can be used with hard water?
+
+a. Chlorine
+
+b. Quaternary ammonium
+c. lodine
+
+d. BandC
+
+Answer: A. Chlorine is affected by pH, temperature, and soil load. It is effective against fungi and
+bacterial spores. Quaternary ammonium stable across large temperature and pH ranges but shouldn't be
+used with hard water or heavy soil. All quaternary ammonium sanitizers require rinsing. They are effective
+across bacteria, mold, yeast, and viruses. lodine compounds are active against bacteria, mold, fungi,
+viruses, yeast, and protozoans. They cannot be used with high temperature water or with high pH levels.
+Answer choice D would be correct if the question was “what types of sanitizers cannot be used with hard
+water?”.
+
+15. If you are concerned about viruses, what type of sanitizer should you use?
+
+a. Chlorine
+
+b. Quaternary ammonium
+c. lodine
+
+d. Borc
+
+Answer: D. Quaternary ammonium or iodine can be used against viruses. Chlorine is effective against
+fungi and bacterial spores. What are other considerations you would need to know to select between
+quaternary ammonium or iodophors?
+
+16. What foodservice unit produces the most solid waste (non-recyclable)?
+a. Procurement
+b. Production
+c. Service
+d. Maintenance
+
+Answer: C. Nearly 60-80% of solid waste in foodservice comes from packaging including customer waste
+like napkins, straws, and food packaging. Thirty to forty percent of waste comes from food production and
+preparation. Procurement produces a large amount of cardboard, as nearly every product arriving in
+inventory is in a cardboard carton — however, cardboard is recyclable.
+
+17. Which of the following examples would be classified as a sustainability effort?
+a. Careful menu planning and use of standardized recipes
+b. Switching to from plastic to compostable plates and utensils for customer service
+c. Purchasing in-season produce
+d. All of the above
+
+Answer: D. Careful menu planning and use of standardized recipes can improve inventory management
+and reduce food waste, which addresses the waste management principle of foodservice sustainability.
+Answer choices B and C are examples of sustainable design and purchasing in-season.
+
+Food Service Logistics 68
+© 2022 Veritense™
+
+References
+
+1 Gregoire MB, Spears MC. Foodservice Organizations: A Managerial and Systems Approach. 9th ed.
+Upper Saddle River, NJ: Pearson; 2016.
+
+2 National Restaurant Association Education Foundation. ServSafe Coursebook. 6th ed. Chicago: NRA;
+2012:7-3.
+
+3 Martin J, Oakley C. Managing Child Nutrition Programs — Leadership For Excellence. 2nd ed.
+Gaithersburg, MD: Jones & Bartlett; 2008:643.
+
+Food Service Logistics 69

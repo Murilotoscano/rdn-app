@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
-import { ArrowLeft, BookOpen, CheckCircle } from "lucide-react";
+import React, { useState, useRef } from "react";
+import { ArrowLeft, BookOpen, CheckCircle, GraduationCap } from "lucide-react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import styles from "./day.module.css";
@@ -13,14 +13,15 @@ const DayPage = () => {
     const id = parseInt(params.id as string, 10);
     const dayData = studyPlanData[id];
 
-    const [activeTab, setActiveTab] = useState<"theory" | "practice">("theory");
+    const [practiceVisible, setPracticeVisible] = useState(false);
     const [answers, setAnswers] = useState<Record<string, number>>({});
+    const practiceRef = useRef<HTMLDivElement>(null);
 
     if (!dayData) {
         return (
             <div className={styles.container}>
-                <p>Dia não encontrado.</p>
-                <Link href="/study-plan" className={styles.backButton}>Voltar</Link>
+                <p>Day not found.</p>
+                <Link href="/study-plan" className={styles.backButton}>Go Back</Link>
             </div>
         );
     }
@@ -30,46 +31,64 @@ const DayPage = () => {
         setAnswers({ ...answers, [questionId]: optionIndex });
     };
 
+    const startPractice = () => {
+        setPracticeVisible(true);
+        setTimeout(() => {
+            practiceRef.current?.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+    };
+
     return (
         <div className={styles.container}>
             <header className={styles.header}>
                 <Link href="/study-plan" className={styles.backButton}>
                     <ArrowLeft size={20} className="inline mr-2" />
-                    Voltar para o Plano
+                    Back to Plan
                 </Link>
-                <h1 className={styles.title}>Dia {dayData.id}: {dayData.title}</h1>
+                <h1 className={styles.title}>Day {dayData.id}: {dayData.title}</h1>
                 <p className={styles.subtitle}>{dayData.theoryTitle}</p>
             </header>
 
-            <div className={styles.tabs}>
-                <button 
-                    className={`${styles.tab} ${activeTab === "theory" ? styles.active : ""}`}
-                    onClick={() => setActiveTab("theory")}
-                >
-                    <BookOpen size={18} className="inline mr-2" />
-                    Teoria
-                </button>
-                <button 
-                    className={`${styles.tab} ${activeTab === "practice" ? styles.active : ""}`}
-                    onClick={() => setActiveTab("practice")}
-                >
-                    <CheckCircle size={18} className="inline mr-2" />
-                    Prática ({dayData.questions.length})
-                </button>
-            </div>
-
             <main className={styles.contentArea}>
-                {activeTab === "theory" && (
+                <div className={styles.theorySection}>
+                    <div className={styles.sectionHeader}>
+                        <BookOpen size={24} className={styles.sectionIcon} />
+                        <h2 className={styles.sectionTitle}>Deep Study Content</h2>
+                    </div>
+
+                    <div style={{ backgroundColor: '#f8fafc', padding: '16px', borderRadius: '8px', borderLeft: '4px solid #6366f1', marginBottom: '24px' }}>
+                        <p style={{ margin: 0, fontSize: '14px', fontWeight: '600', color: '#475569' }}>Today's Objectives:</p>
+                        <p style={{ margin: '4px 0 0 0', fontSize: '14px' }}>📚 <strong>Theory:</strong> {dayData.theoryGoal}</p>
+                        <p style={{ margin: '4px 0 0 0', fontSize: '14px' }}>✍️ <strong>Practice:</strong> {dayData.practiceGoal}</p>
+                    </div>
+                    
                     <div 
                         className={styles.theoryContent} 
-                        dangerouslySetInnerHTML={{ __html: dayData.theoryContent as string }}
+                        dangerouslySetInnerHTML={{ __html: dayData.theoryContent }}
                     />
-                )}
 
-                {activeTab === "practice" && (
-                    <div className={styles.practiceContent}>
+                    {!practiceVisible && (
+                        <div className={styles.startPracticeContainer}>
+                            <button 
+                                className={styles.startPracticeBtn}
+                                onClick={startPractice}
+                            >
+                                <GraduationCap size={20} className="mr-2" />
+                                I've finished studying. Start Practice!
+                            </button>
+                        </div>
+                    )}
+                </div>
+
+                {practiceVisible && (
+                    <div ref={practiceRef} className={styles.practiceSection}>
+                        <div className={styles.sectionHeader}>
+                            <CheckCircle size={24} className={styles.sectionIconPractice} />
+                            <h2 className={styles.sectionTitle}>Practice Questions ({dayData.questions.length})</h2>
+                        </div>
+
                         {dayData.questions.length === 0 ? (
-                            <p>Nenhuma questão disponível para este dia.</p>
+                            <p>No questions available for this day.</p>
                         ) : (
                             dayData.questions.map((q, index) => {
                                 const answered = answers[q.id] !== undefined;
@@ -105,7 +124,7 @@ const DayPage = () => {
                                         
                                         {answered && (
                                             <div className={styles.explanation}>
-                                                <strong>{isCorrect ? "✅ Correto!" : "❌ Incorreto."}</strong>
+                                                <strong>{isCorrect ? "✅ Correct!" : "❌ Incorrect."}</strong>
                                                 <p style={{marginTop: "8px"}}>{q.explanation}</p>
                                             </div>
                                         )}
@@ -114,15 +133,17 @@ const DayPage = () => {
                             })
                         )}
 
-                        <button 
-                            className={styles.markCompleteBtn}
-                            onClick={() => {
-                                alert("Dia concluído com sucesso!");
-                                router.push("/study-plan");
-                            }}
-                        >
-                            Concluir Dia {dayData.id}
-                        </button>
+                        <div className={styles.completionSection}>
+                            <button 
+                                className={styles.markCompleteBtn}
+                                onClick={() => {
+                                    alert("Day completed successfully!");
+                                    router.push("/study-plan");
+                                }}
+                            >
+                                Finish Day {dayData.id}
+                            </button>
+                        </div>
                     </div>
                 )}
             </main>

@@ -1,0 +1,660 @@
+[
+  {
+    "id": "m2-renal-001",
+    "domain": "Domain II",
+    "topic": "Fluid and Electrolytes",
+    "difficulty": "medium",
+    "text": "In the resting state, which of the following electrolytes resides PRIMARILY in the extracellular fluid (ECF)?",
+    "options": [
+      "Potassium (K+)",
+      "Phosphate (PO4³⁻)",
+      "Sodium (Na+)",
+      "Magnesium (Mg²+)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sodium (Na+), calcium (Ca²+), and chloride (Cl-) reside primarily in the ECF at resting state. Potassium (K+) and phosphate (PO4³⁻) reside primarily in the intracellular fluid (ICF). This distribution is maintained by the sodium-potassium ATPase pump and is essential for cell function and fluid balance.",
+    "tags": [
+      "electrolytes",
+      "ECF",
+      "ICF",
+      "sodium",
+      "fluid compartments"
+    ]
+  },
+  {
+    "id": "m2-renal-002",
+    "domain": "Domain II",
+    "topic": "Fluid and Electrolytes",
+    "difficulty": "medium",
+    "text": "Which electrolyte is the PRIMARY determinant of extracellular fluid (ECF) tonicity?",
+    "options": [
+      "Chloride",
+      "Potassium",
+      "Sodium",
+      "Bicarbonate"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sodium is the main osmotically active substance in the ECF and is the primary determinant of ECF tonicity. Tonicity refers to the ability of a solution to attract water across a membrane. Changes in serum sodium levels directly reflect changes in ECF osmolarity and drive fluid shifts between compartments.",
+    "tags": [
+      "sodium",
+      "tonicity",
+      "osmolarity",
+      "ECF",
+      "fluid balance"
+    ]
+  },
+  {
+    "id": "m2-renal-003",
+    "domain": "Domain II",
+    "topic": "Fluid and Electrolytes",
+    "difficulty": "hard",
+    "text": "A hypertonic enteral formula is administered and a patient develops watery diarrhea and cramping. What is the physiological explanation?",
+    "options": [
+      "The hypertonic formula has inadequate protein to maintain oncotic pressure",
+      "The high solute concentration pulls water into the intestinal lumen via osmosis, causing GI distress",
+      "The formula is too cold and stimulates intestinal motility",
+      "Hypertonic formulas are absorbed too quickly and overwhelm intestinal transporters"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hypertonic enteral formulas (>300 mOsm/L) have a higher solute concentration than plasma. When delivered into the GI tract, osmosis draws water from the blood into the intestinal lumen to equilibrate concentrations. This results in watery diarrhea, cramping, and GI distress. Standard isotonic formulas (~300 mOsm/L) are better tolerated.",
+    "tags": [
+      "enteral nutrition",
+      "hypertonic formula",
+      "osmolarity",
+      "diarrhea",
+      "GI symptoms"
+    ]
+  },
+  {
+    "id": "m2-renal-004",
+    "domain": "Domain II",
+    "topic": "Dehydration",
+    "difficulty": "medium",
+    "text": "A patient presents with serum sodium of 155 mmol/L and elevated BUN. Which type of dehydration is most consistent with these labs?",
+    "options": [
+      "Isotonic (isonatremic) dehydration",
+      "Hypotonic (hyponatremic) dehydration",
+      "Hypertonic (hypernatremic) dehydration",
+      "Euvolemic hyponatremia"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hypertonic (hypernatremic) dehydration is characterized by sodium >150 mmol/L and elevated BUN. It results primarily from water loss (rather than proportional water and electrolyte loss), leading to increased solute concentration in the ECF. Causes include water deprivation, excessive sweating, hyperventilation, uncontrolled diabetes with polyuria, and heat stroke.",
+    "tags": [
+      "dehydration",
+      "hypertonic",
+      "hypernatremia",
+      "BUN",
+      "sodium"
+    ]
+  },
+  {
+    "id": "m2-renal-005",
+    "domain": "Domain II",
+    "topic": "Dehydration",
+    "difficulty": "hard",
+    "text": "A patient with cystic fibrosis presents with dehydration after a heat wave. Which type of dehydration would be most expected and why?",
+    "options": [
+      "Hypertonic dehydration — excess water loss from polyuria",
+      "Isotonic dehydration — equal loss of water and electrolytes through sweat",
+      "Hypotonic dehydration — excessive salt loss in sweat leads to low serum sodium",
+      "Hypervolemic dehydration — increased sodium retention from aldosterone"
+    ],
+    "correctIndex": 2,
+    "explanation": "Patients with cystic fibrosis have a CFTR mutation that leads to excessive salt loss in sweat (hypertonic sweat). During heat exposure, they lose proportionally more electrolytes (especially sodium) than water, resulting in hypotonic (hyponatremic) dehydration. In contrast, patients with DKA typically present with hypertonic dehydration due to urinary water loss from osmotic diuresis.",
+    "tags": [
+      "cystic fibrosis",
+      "dehydration",
+      "hypotonic",
+      "salt loss",
+      "sweat"
+    ]
+  },
+  {
+    "id": "m2-renal-006",
+    "domain": "Domain II",
+    "topic": "Dehydration",
+    "difficulty": "medium",
+    "text": "Diarrhea can cause all three types of dehydration as well as which electrolyte abnormalities?",
+    "options": [
+      "Hypercalcemia, hypophosphatemia, hyperkalemia",
+      "Hypocalcemia, hyperphosphatemia, hypokalemia",
+      "Hypercalcemia, hyperphosphatemia, hypokalemia",
+      "Hypocalcemia, hypophosphatemia, hyperkalemia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Diarrhea can result in hypocalcemia, hyperphosphatemia, and hypokalemia. Hypokalemia can also result from vomiting. Dehydration itself can lead to hyperkalemia due to fluid shifts (potassium moves from ICF to ECF in dehydration). Diarrhea causes all three types of dehydration depending on the relative loss of water versus electrolytes.",
+    "tags": [
+      "diarrhea",
+      "dehydration",
+      "electrolytes",
+      "hypokalemia",
+      "hypocalcemia"
+    ]
+  },
+  {
+    "id": "m2-renal-007",
+    "domain": "Domain II",
+    "topic": "Fluid Needs",
+    "difficulty": "medium",
+    "text": "Using the stepwise method for estimating fluid needs, what is the daily fluid requirement for a patient weighing 70 kg?",
+    "options": [
+      "1,600 mL/day",
+      "2,000 mL/day",
+      "2,500 mL/day",
+      "2,600 mL/day"
+    ],
+    "correctIndex": 2,
+    "explanation": "Using the stepwise method: 100 mL/kg × 10 kg = 1,000 mL + 50 mL/kg × 10 kg = 500 mL + 20 mL/kg × 50 kg (remaining) = 1,000 mL → Total = 2,500 mL/day. Cross-checking with 30–35 mL/kg gives 2,100–2,450 mL/day, which is consistent. Both methods are acceptable for estimating adult fluid needs.",
+    "tags": [
+      "fluid needs",
+      "fluid calculation",
+      "stepwise method",
+      "hydration"
+    ]
+  },
+  {
+    "id": "m2-renal-008",
+    "domain": "Domain II",
+    "topic": "Fluid Needs",
+    "difficulty": "medium",
+    "text": "Using the simplified formula of 30–35 mL/kg/day, approximately how much fluid does a 60 kg adult require per day?",
+    "options": [
+      "1,500–1,800 mL/day",
+      "1,800–2,100 mL/day",
+      "1,800–2,100 mL/day is too low; they need ≥3,000 mL/day",
+      "2,000–2,200 mL/day"
+    ],
+    "correctIndex": 1,
+    "explanation": "At 30–35 mL/kg/day for a 60 kg adult: 30 × 60 = 1,800 mL to 35 × 60 = 2,100 mL/day. Note that this simplified formula tends to overestimate needs for larger individuals and underestimate for smaller individuals. The stepwise formula is more precise across a wider range of body weights.",
+    "tags": [
+      "fluid needs",
+      "fluid calculation",
+      "hydration",
+      "estimation"
+    ]
+  },
+  {
+    "id": "m2-renal-009",
+    "domain": "Domain II",
+    "topic": "Acid-Base Balance",
+    "difficulty": "hard",
+    "text": "A patient has arterial blood gas values: pH 7.28, PCO2 55 mmHg, HCO3- 24 mEq/L. Which acid-base disorder does this represent?",
+    "options": [
+      "Metabolic acidosis",
+      "Respiratory acidosis",
+      "Metabolic alkalosis",
+      "Respiratory alkalosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "pH <7.35 = acidemia. PCO2 is elevated (55 mmHg, normal 35–45) and HCO3- is normal (22–26). Elevated PCO2 with low pH = respiratory acidosis. The kidneys will compensate by increasing bicarbonate reabsorption over time. Causes include COPD exacerbation, asthma, pneumonia, respiratory muscle weakness, or CNS depression.",
+    "tags": [
+      "acid-base",
+      "respiratory acidosis",
+      "ABG",
+      "PCO2",
+      "pH"
+    ]
+  },
+  {
+    "id": "m2-renal-010",
+    "domain": "Domain II",
+    "topic": "Acid-Base Balance",
+    "difficulty": "hard",
+    "text": "A patient has ABG values: pH 7.50, PCO2 32 mmHg, HCO3- 25 mEq/L. What is the primary acid-base disturbance?",
+    "options": [
+      "Metabolic alkalosis",
+      "Respiratory alkalosis",
+      "Metabolic acidosis",
+      "Respiratory acidosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "pH >7.45 = alkalemia. PCO2 is low (32 mmHg) and HCO3- is normal. Low PCO2 with high pH = respiratory alkalosis. Causes include hyperventilation, anxiety/panic attacks, pain, hypoxemia, pregnancy, or pulmonary disease. The kidneys compensate by decreasing bicarbonate reabsorption and reducing ammonium excretion.",
+    "tags": [
+      "acid-base",
+      "respiratory alkalosis",
+      "ABG",
+      "hyperventilation",
+      "pH"
+    ]
+  },
+  {
+    "id": "m2-renal-011",
+    "domain": "Domain II",
+    "topic": "Acid-Base Balance",
+    "difficulty": "hard",
+    "text": "A patient with prolonged vomiting and nasogastric suctioning is found to have pH 7.52, PCO2 46 mmHg, HCO3- 34 mEq/L. What acid-base disorder is present?",
+    "options": [
+      "Respiratory alkalosis",
+      "Metabolic acidosis",
+      "Metabolic alkalosis, chloride-responsive",
+      "Metabolic alkalosis, chloride-resistant"
+    ],
+    "correctIndex": 2,
+    "explanation": "pH >7.45 = alkalemia. HCO3- is elevated (34 mEq/L) and PCO2 is normal-to-slightly elevated (compensatory). Elevated HCO3- with high pH = metabolic alkalosis. Vomiting and NG suctioning cause loss of hydrochloric acid (HCl), leading to chloride-responsive (saline-responsive) metabolic alkalosis with normal urinary chloride. Treatment includes IV saline to replace chloride.",
+    "tags": [
+      "metabolic alkalosis",
+      "acid-base",
+      "vomiting",
+      "NG suctioning",
+      "chloride-responsive"
+    ]
+  },
+  {
+    "id": "m2-renal-012",
+    "domain": "Domain II",
+    "topic": "Acid-Base Balance",
+    "difficulty": "hard",
+    "text": "High anion gap metabolic acidosis is associated with which of the following causes? Select the BEST answer.",
+    "options": [
+      "Diarrhea, renal tubular acidosis, hyperchloremia",
+      "Lactic acidosis, ketoacidosis, uremia, salicylate toxicity",
+      "Vomiting, NG suctioning, loop diuretics",
+      "Hyperaldosteronism, Cushing's syndrome, Bartter syndrome"
+    ],
+    "correctIndex": 1,
+    "explanation": "High anion gap metabolic acidosis is caused by accumulation of unmeasured anions: lactic acidosis (metformin, liver failure, infection, ischemia), ketoacidosis, uremia (rhabdomyolysis, renal insufficiency), salicylate toxicity, methanol/paraldehyde poisoning, and excess iron. Normal anion gap metabolic acidosis (choice A) is caused by loss of bicarbonate (diarrhea, RTA, hyperchloremia). Choices C and D cause metabolic alkalosis.",
+    "tags": [
+      "metabolic acidosis",
+      "anion gap",
+      "lactic acidosis",
+      "ketoacidosis",
+      "acid-base"
+    ]
+  },
+  {
+    "id": "m2-renal-013",
+    "domain": "Domain II",
+    "topic": "Acid-Base Balance",
+    "difficulty": "medium",
+    "text": "How do the kidneys respond when blood pH drops to 7.2 (acidosis)?",
+    "options": [
+      "Decrease bicarbonate reabsorption and decrease hydrogen ion secretion",
+      "Increase bicarbonate reabsorption, increase H+ secretion, increase ammonia secretion",
+      "Increase bicarbonate excretion and decrease ammonia production",
+      "Increase PCO2 retention to buffer the acidic environment"
+    ],
+    "correctIndex": 1,
+    "explanation": "In response to acidosis (pH <7.35), the kidneys: (1) increase bicarbonate reabsorption to restore alkaline buffer, (2) increase hydrogen ion secretion from renal epithelial cells to excrete excess acid, and (3) increase ammonia (NH3) secretion to create the NH4+ buffer that absorbs excess H+ in the urine. These renal responses are slower than the respiratory response but have a larger, more sustained effect.",
+    "tags": [
+      "acidosis",
+      "kidney response",
+      "bicarbonate",
+      "pH regulation",
+      "acid-base"
+    ]
+  },
+  {
+    "id": "m2-renal-014",
+    "domain": "Domain II",
+    "topic": "Kidney Hormones",
+    "difficulty": "medium",
+    "text": "In patients with chronic kidney disease (CKD), anemia commonly develops due to reduced production of which kidney hormone?",
+    "options": [
+      "Renin",
+      "Calcitriol",
+      "Erythropoietin (EPO)",
+      "Angiotensin II"
+    ],
+    "correctIndex": 2,
+    "explanation": "The kidneys produce erythropoietin (EPO), which stimulates red blood cell synthesis in the bone marrow. In CKD, declining kidney function leads to insufficient EPO production, resulting in normocytic normochromic anemia. Treatment includes recombinant EPO (darbepoetin alfa, epoetin alfa) injections. This is a major nutritional concern in CKD/ESRD patients.",
+    "tags": [
+      "CKD",
+      "erythropoietin",
+      "anemia",
+      "kidney hormones",
+      "ESRD"
+    ]
+  },
+  {
+    "id": "m2-renal-015",
+    "domain": "Domain II",
+    "topic": "Kidney Hormones",
+    "difficulty": "hard",
+    "text": "In the renin-angiotensin system, what is the role of angiotensin-converting enzyme (ACE)?",
+    "options": [
+      "Converts angiotensin II to angiotensin I in the kidneys",
+      "Converts angiotensinogen (from the liver) to angiotensin I",
+      "Converts angiotensin I to angiotensin II",
+      "Stimulates renin release from the juxtaglomerular cells"
+    ],
+    "correctIndex": 2,
+    "explanation": "ACE (angiotensin-converting enzyme) converts angiotensin I to angiotensin II. The sequence is: (1) Low blood pressure → kidneys release renin; (2) Renin cleaves angiotensinogen (from the liver) into angiotensin I; (3) ACE converts angiotensin I to angiotensin II; (4) Angiotensin II constricts blood vessels and stimulates aldosterone to increase blood pressure. ACE inhibitors (e.g., lisinopril) are used to treat hypertension and slow CKD progression.",
+    "tags": [
+      "renin-angiotensin",
+      "ACE",
+      "blood pressure",
+      "angiotensin",
+      "kidney hormones"
+    ]
+  },
+  {
+    "id": "m2-renal-016",
+    "domain": "Domain II",
+    "topic": "Kidney Hormones",
+    "difficulty": "hard",
+    "text": "Vitamin D activation requires which sequence of metabolic steps?",
+    "options": [
+      "Sun/diet → cholecalciferol → kidney → calcidiol → liver → calcitriol",
+      "Sun/diet → cholecalciferol → liver → calcidiol (25-OH D3) → kidney → calcitriol (1,25-OH D3)",
+      "Sun/diet → ergocalciferol → kidney → calcidiol → liver → calcitriol",
+      "Liver → cholecalciferol → kidney → calcitriol → bone"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vitamin D activation: (1) Cholecalciferol (D3) is produced from 7-dehydrocholesterol in the skin via sun exposure, or obtained from food (D3) or supplements (D2 ergocalciferol or D3); (2) transported to the liver where it is hydroxylated to calcidiol (25-hydroxyvitamin D3) — this is what is measured in blood tests; (3) transported to the kidneys where it is hydroxylated to calcitriol (1,25-dihydroxyvitamin D3) — the active form. In CKD, impaired kidneys cannot activate vitamin D, leading to hypocalcemia.",
+    "tags": [
+      "vitamin D",
+      "calcitriol",
+      "calcidiol",
+      "kidney hormones",
+      "activation pathway"
+    ]
+  },
+  {
+    "id": "m2-renal-017",
+    "domain": "Domain II",
+    "topic": "Kidney Hormones",
+    "difficulty": "medium",
+    "text": "In CKD, which two hormones produced or activated by the kidney are commonly deficient, contributing to anemia and metabolic bone disease?",
+    "options": [
+      "Insulin and glucagon",
+      "Erythropoietin (EPO) and calcitriol (active vitamin D)",
+      "Renin and angiotensin II",
+      "Parathyroid hormone and aldosterone"
+    ],
+    "correctIndex": 1,
+    "explanation": "In CKD, failing kidneys cannot produce sufficient erythropoietin (EPO), leading to anemia. Additionally, the kidneys cannot convert calcidiol to calcitriol (active vitamin D), leading to reduced calcium absorption and secondary hyperparathyroidism → metabolic bone disease (renal osteodystrophy). Both deficiencies worsen with declining GFR and are key targets of MNT and medical management in CKD.",
+    "tags": [
+      "CKD",
+      "EPO",
+      "calcitriol",
+      "anemia",
+      "renal osteodystrophy"
+    ]
+  },
+  {
+    "id": "m2-renal-018",
+    "domain": "Domain II",
+    "topic": "Kidney Function",
+    "difficulty": "medium",
+    "text": "Which of the following would NOT be filtered and excreted by the kidneys?",
+    "options": [
+      "Urea (from protein catabolism)",
+      "Thiamin (vitamin B1)",
+      "Vitamin K",
+      "Vitamin C (ascorbic acid)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The kidneys filter and excrete water-soluble substances: water-soluble vitamins (B vitamins, vitamin C), urea from protein catabolism, water-soluble drugs, and water-soluble environmental toxins. Fat-soluble vitamins (A, D, E, K) are NOT excreted by the kidneys — they are stored in adipose tissue and the liver. This is why fat-soluble vitamin toxicity is more common with excess supplementation.",
+    "tags": [
+      "kidney function",
+      "waste excretion",
+      "fat-soluble vitamins",
+      "water-soluble vitamins",
+      "renal"
+    ]
+  },
+  {
+    "id": "m2-renal-019",
+    "domain": "Domain II",
+    "topic": "Kidney Function",
+    "difficulty": "medium",
+    "text": "In patients with CKD, why must medication dosages be carefully adjusted?",
+    "options": [
+      "CKD increases hepatic drug metabolism, altering drug efficacy",
+      "Impaired kidney function means drugs are not excreted as efficiently and accumulate in blood",
+      "CKD increases GI absorption of medications",
+      "Patients with CKD have reduced body fat, altering drug distribution"
+    ],
+    "correctIndex": 1,
+    "explanation": "The kidneys excrete many water-soluble drugs and their metabolites. In CKD, impaired renal clearance means drugs remain in circulation longer, increasing the risk of drug toxicity. Clinicians must reduce doses or extend dosing intervals for renally-cleared medications. Contrast agents used in imaging procedures also increase the risk of acute kidney injury (AKI) in CKD patients.",
+    "tags": [
+      "CKD",
+      "drug dosing",
+      "renal clearance",
+      "medication",
+      "pharmacology"
+    ]
+  },
+  {
+    "id": "m2-renal-020",
+    "domain": "Domain II",
+    "topic": "Kidney Function",
+    "difficulty": "medium",
+    "text": "Signs of low extracellular fluid (ECF) volume include which of the following?",
+    "options": [
+      "Peripheral edema, anasarca, and pulmonary edema",
+      "Elevated BUN, poor skin elasticity, dry mucous membranes, and orthostatic hypotension",
+      "Weight gain, sacral edema, and hypertension",
+      "Hyponatremia, confusion, and seizures"
+    ],
+    "correctIndex": 1,
+    "explanation": "Signs of low ECF volume (dehydration/hypovolemia) include elevated BUN (due to reduced renal perfusion and urea concentration), poor skin elasticity (tenting), dry mucous membranes, and orthostatic hypotension (blood pressure drops when standing due to inadequate plasma volume). Edema and anasarca indicate EXCESS ECF volume, as seen in heart failure, renal failure, or cirrhosis.",
+    "tags": [
+      "dehydration",
+      "ECF",
+      "clinical signs",
+      "BUN",
+      "hypovolemia"
+    ]
+  },
+  {
+    "id": "m2-renal-021",
+    "domain": "Domain II",
+    "topic": "Kidney Function",
+    "difficulty": "hard",
+    "text": "A patient in cirrhosis with ascites would have which ECF status, and what kidney response would be expected?",
+    "options": [
+      "Low ECF — kidneys reabsorb water, producing concentrated urine",
+      "Excess ECF — kidneys excrete water, producing dilute urine",
+      "Normal ECF — kidneys maintain homeostasis without adjustment",
+      "Low ECF — kidneys excrete sodium to reduce osmolarity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cirrhosis with ascites causes excess ECF volume (fluid shifts into the peritoneal cavity and interstitial space). When ECF solute concentration decreases, the kidneys excrete water to restore osmolarity, producing dilute urine. However, in cirrhosis, effective arterial blood volume is reduced despite total ECF excess, causing paradoxical sodium and water retention — contributing to worsening ascites and edema.",
+    "tags": [
+      "cirrhosis",
+      "ascites",
+      "ECF volume",
+      "kidney function",
+      "fluid regulation"
+    ]
+  },
+  {
+    "id": "m2-renal-022",
+    "domain": "Domain II",
+    "topic": "Fluid and Electrolytes",
+    "difficulty": "medium",
+    "text": "Total body water (TBW) accounts for approximately what percentage of body weight in men, and how is it distributed?",
+    "options": [
+      "45% of body weight; 50% ICF and 50% ECF",
+      "60% of body weight; 60% ICF and 40% ECF",
+      "55% of body weight; 70% ICF and 30% ECF",
+      "65% of body weight; 80% ICF and 20% ECF"
+    ],
+    "correctIndex": 1,
+    "explanation": "TBW makes up approximately 60% of male body weight (55% in females; lower in obese and elderly individuals). Of TBW, 60% is intracellular (ICF) and 40% is extracellular (ECF). Of the ECF, approximately 20% is plasma volume and 80% is interstitial fluid. Obese and elderly individuals have lower TBW percentages because fat tissue and aging reduce water content.",
+    "tags": [
+      "total body water",
+      "fluid compartments",
+      "ICF",
+      "ECF",
+      "body composition"
+    ]
+  },
+  {
+    "id": "m2-renal-023",
+    "domain": "Domain II",
+    "topic": "Dehydration",
+    "difficulty": "medium",
+    "text": "Isotonic (isonatremic) dehydration is characterized by which laboratory findings?",
+    "options": [
+      "Serum sodium >150 mmol/L and elevated BUN",
+      "Serum sodium <130 mmol/L and normal BUN",
+      "Serum sodium within normal limits (130–150 mmol/L) and normal BUN",
+      "Serum sodium <130 mmol/L and elevated BUN"
+    ],
+    "correctIndex": 2,
+    "explanation": "Isotonic (isonatremic/hypovolemic) dehydration involves equal loss of water and electrolytes in proportion to plasma levels, so serum sodium remains within normal limits (130–150 mmol/L) and BUN is also within normal range. It is the most common type of dehydration, caused by excessive sweating, vomiting, diarrhea, or bleeding. Unlike hypertonic dehydration, it does not cause cerebral edema risk with rehydration.",
+    "tags": [
+      "isotonic dehydration",
+      "isonatremic",
+      "sodium",
+      "BUN",
+      "dehydration types"
+    ]
+  },
+  {
+    "id": "m2-renal-024",
+    "domain": "Domain II",
+    "topic": "Fluid and Electrolytes",
+    "difficulty": "medium",
+    "text": "Normal saline (0.9% NaCl) and Lactated Ringer's solution differ in which way?",
+    "options": [
+      "Normal saline contains potassium; Lactated Ringer's does not",
+      "Normal saline contains only sodium and chloride; Lactated Ringer's also contains bicarbonate and calcium",
+      "Lactated Ringer's is hypotonic; Normal saline is isotonic",
+      "Normal saline contains glucose; Lactated Ringer's does not"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normal saline (0.9% NaCl) contains only sodium and chloride (~308 mOsm/L). Lactated Ringer's solution contains sodium, chloride, bicarbonate (as lactate), and calcium — making it more physiologically similar to plasma. Lactated Ringer's is often preferred for large volume resuscitation because excess normal saline can cause hyperchloremic metabolic acidosis.",
+    "tags": [
+      "IV fluids",
+      "normal saline",
+      "Lactated Ringers",
+      "fluid composition",
+      "electrolytes"
+    ]
+  },
+  {
+    "id": "m2-renal-025",
+    "domain": "Domain II",
+    "topic": "Acid-Base Balance",
+    "difficulty": "hard",
+    "text": "A patient receiving excessive normal saline for fluid resuscitation develops metabolic acidosis. What is the most likely mechanism?",
+    "options": [
+      "Normal saline increases PCO2 by suppressing respiratory drive",
+      "Normal saline contains acetate which is converted to acid in the liver",
+      "Excess chloride from large volumes of normal saline displaces bicarbonate, causing hyperchloremic normal anion gap metabolic acidosis",
+      "Normal saline causes hyponatremia, which triggers metabolic acidosis"
+    ],
+    "correctIndex": 2,
+    "explanation": "Large volumes of normal saline (0.9% NaCl) deliver excess chloride. Because electroneutrality must be maintained, excess chloride displaces bicarbonate (HCO3-), resulting in hyperchloremic normal anion gap metabolic acidosis. This is an iatrogenic cause of metabolic acidosis listed among causes of normal anion gap metabolic acidosis, along with diarrhea, RTA, and Addison's disease.",
+    "tags": [
+      "normal saline",
+      "hyperchloremia",
+      "metabolic acidosis",
+      "normal anion gap",
+      "IV fluids"
+    ]
+  },
+  {
+    "id": "m2-renal-026",
+    "domain": "Domain II",
+    "topic": "Kidney Function",
+    "difficulty": "medium",
+    "text": "Glomerular filtration rate (GFR) is a key marker of kidney function estimated from which laboratory measurement?",
+    "options": [
+      "Serum albumin",
+      "Urinary urea nitrogen",
+      "Serum BUN-to-creatinine ratio",
+      "Excreted creatinine in urine (creatinine clearance)"
+    ],
+    "correctIndex": 3,
+    "explanation": "GFR is estimated (eGFR) from excreted creatinine in urine (creatinine clearance), adjusted for age, sex, and other parameters. Creatinine is a byproduct of muscle creatine metabolism and is filtered by the glomerulus. As GFR declines, creatinine accumulates in the blood. eGFR is used to stage CKD: Stage 1 (≥90 mL/min/1.73m²) through Stage 5 ESRD (<15 mL/min/1.73m²).",
+    "tags": [
+      "GFR",
+      "eGFR",
+      "creatinine",
+      "kidney function",
+      "CKD staging"
+    ]
+  },
+  {
+    "id": "m2-renal-027",
+    "domain": "Domain II",
+    "topic": "Fluid and Electrolytes",
+    "difficulty": "hard",
+    "text": "A patient is given a hypotonic IV solution. What happens to intracellular fluid volume?",
+    "options": [
+      "ICF decreases as water moves from cells into ECF",
+      "ICF remains unchanged because the kidneys compensate immediately",
+      "ICF increases as water moves from the hypotonic ECF into cells via osmosis",
+      "ICF increases due to sodium influx into cells"
+    ],
+    "correctIndex": 2,
+    "explanation": "A hypotonic solution has lower solute concentration than plasma (<300 mOsm/L). When administered, it makes the ECF hypotonic relative to the ICF. Via osmosis, water moves from areas of lower tonicity (ECF) to higher tonicity (ICF), causing cells to swell. Rapid administration of hypotonic fluids can cause cerebral edema, particularly dangerous in hypernatremic dehydration where overly rapid rehydration must be avoided.",
+    "tags": [
+      "hypotonic",
+      "osmosis",
+      "ICF",
+      "fluid shifts",
+      "cell swelling"
+    ]
+  },
+  {
+    "id": "m2-renal-028",
+    "domain": "Domain II",
+    "topic": "Acid-Base Balance",
+    "difficulty": "medium",
+    "text": "Which condition would cause normal anion gap (rather than high anion gap) metabolic acidosis?",
+    "options": [
+      "Lactic acidosis from sepsis",
+      "Diabetic ketoacidosis (DKA)",
+      "Renal tubular acidosis (RTA) or severe diarrhea",
+      "Salicylate (aspirin) toxicity"
+    ],
+    "correctIndex": 2,
+    "explanation": "Normal anion gap metabolic acidosis occurs due to bicarbonate loss or bicarbonate replacement by chloride (without accumulation of unmeasured anions). Causes include: renal tubular acidosis, GI bicarbonate loss from diarrhea/fistulas/ostomies, hyperchloremia from excess saline or PN, and Addison's disease. High anion gap metabolic acidosis is caused by accumulation of organic acids: lactic acid (sepsis), ketoacids (DKA), uremia, salicylates.",
+    "tags": [
+      "anion gap",
+      "metabolic acidosis",
+      "RTA",
+      "diarrhea",
+      "acid-base"
+    ]
+  },
+  {
+    "id": "m2-renal-029",
+    "domain": "Domain II",
+    "topic": "Dehydration",
+    "difficulty": "hard",
+    "text": "Rapid rehydration of a patient with hypertonic (hypernatremic) dehydration carries which serious risk?",
+    "options": [
+      "Metabolic alkalosis from rapid sodium replacement",
+      "Osmotic cerebral edema due to rapid water entry into brain cells",
+      "Hyperkalemia from rapid volume expansion",
+      "Pulmonary fibrosis from excess fluid administration"
+    ],
+    "correctIndex": 1,
+    "explanation": "In hypertonic dehydration, brain cells adapt to high serum osmolarity by producing idiogenic osmoles to maintain equilibrium. Rapid rehydration rapidly lowers serum osmolarity, causing water to flow into brain cells faster than they can adapt, resulting in osmotic cerebral edema (cerebral swelling). This is why hypernatremic dehydration must be corrected SLOWLY (≤0.5 mEq/L/hr sodium reduction) to prevent neurological injury.",
+    "tags": [
+      "hypertonic dehydration",
+      "hypernatremia",
+      "cerebral edema",
+      "rehydration",
+      "osmosis"
+    ]
+  },
+  {
+    "id": "m2-renal-030",
+    "domain": "Domain II",
+    "topic": "Kidney Function",
+    "difficulty": "medium",
+    "text": "In end-stage renal disease (ESRD), which nutritional waste product accumulates in the blood between dialysis sessions, causing malaise?",
+    "options": [
+      "Creatine",
+      "Urea",
+      "Albumin",
+      "Uric acid"
+    ],
+    "correctIndex": 1,
+    "explanation": "Urea is the primary waste product of protein catabolism (from amino acid deamination). In ESRD, the kidneys cannot adequately excrete urea, which accumulates between dialysis sessions and causes uremia — manifesting as malaise, nausea, and cognitive dysfunction. This is why CKD diets historically restricted protein to reduce urea production. Dialysis removes urea and other uremic toxins.",
+    "tags": [
+      "ESRD",
+      "urea",
+      "uremia",
+      "dialysis",
+      "protein catabolism"
+    ]
+  }
+]

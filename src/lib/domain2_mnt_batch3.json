@@ -1,0 +1,688 @@
+[
+  {
+    "id": "m2-mnt-061",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "medium",
+    "text": "A cancer patient on chemotherapy reports a persistent metallic taste that reduces food intake. Which dietary modification is most appropriate?",
+    "options": [
+      "Encourage red meat and coffee to mask the taste",
+      "Use plastic utensils and serve foods cold or at room temperature",
+      "Increase citrus fruits to stimulate taste buds",
+      "Recommend spicy foods to override the metallic sensation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dysgeusia (altered taste) is common in chemotherapy patients. Plastic utensils reduce metallic taste from metal cutlery. Cold or room-temperature foods have less odor and taste intensity. Red meat, coffee, chocolate, and citrus typically worsen dysgeusia.",
+    "tags": [
+      "cancer",
+      "dysgeusia",
+      "chemotherapy",
+      "metallic taste",
+      "nutrition impact symptoms"
+    ]
+  },
+  {
+    "id": "m2-mnt-062",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "medium",
+    "text": "A patient undergoing radiation to the head and neck develops severe xerostomia. Which dietary recommendation is most appropriate?",
+    "options": [
+      "Restrict fluid intake to reduce salivary gland stimulation",
+      "Encourage dry, crunchy foods to stimulate saliva production",
+      "Increase fluid intake, offer moist foods, and suggest sugar-free gum",
+      "Recommend acidic beverages to stimulate salivary flow"
+    ],
+    "correctIndex": 2,
+    "explanation": "Xerostomia (dry mouth) from radiation requires increasing fluid intake, offering moist and soft foods, sugar-free gum to stimulate residual salivary flow, and using a humidifier. Dry, crunchy, or acidic foods worsen discomfort.",
+    "tags": [
+      "xerostomia",
+      "radiation",
+      "head and neck cancer",
+      "dry mouth",
+      "nutrition impact symptoms"
+    ]
+  },
+  {
+    "id": "m2-mnt-063",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "medium",
+    "text": "A neutropenic cancer patient asks which foods to avoid. Which of the following poses the greatest infection risk?",
+    "options": [
+      "Well-cooked chicken breast",
+      "Pasteurized apple juice",
+      "Aged blue cheese",
+      "Steamed broccoli"
+    ],
+    "correctIndex": 2,
+    "explanation": "Neutropenic patients must avoid high-risk foods: raw or undercooked meats, raw seafood, aged/soft cheeses, unpasteurized juices, and raw sprouts. Aged blue cheese harbors mold and bacteria that can cause life-threatening infections in immunocompromised patients.",
+    "tags": [
+      "neutropenia",
+      "cancer",
+      "food safety",
+      "immunocompromised",
+      "aged cheese"
+    ]
+  },
+  {
+    "id": "m2-mnt-064",
+    "domain": "Domain II",
+    "topic": "Nutritional Anemias",
+    "difficulty": "medium",
+    "text": "A patient presents with microcytic hypochromic anemia, low serum ferritin, and elevated TIBC. Which is the most appropriate treatment?",
+    "options": [
+      "Vitamin B12 intramuscular injection",
+      "Oral folic acid supplementation",
+      "Ferrous sulfate with vitamin C",
+      "Erythropoietin injection"
+    ],
+    "correctIndex": 2,
+    "explanation": "Low ferritin, elevated TIBC, and microcytic hypochromic anemia indicate iron deficiency anemia. Treatment is ferrous sulfate (oral iron). Vitamin C enhances non-heme iron absorption and should be taken simultaneously.",
+    "tags": [
+      "iron deficiency anemia",
+      "microcytic",
+      "ferritin",
+      "TIBC",
+      "ferrous sulfate",
+      "vitamin C"
+    ]
+  },
+  {
+    "id": "m2-mnt-065",
+    "domain": "Domain II",
+    "topic": "Nutritional Anemias",
+    "difficulty": "hard",
+    "text": "A patient with macrocytic anemia has elevated homocysteine and elevated methylmalonic acid (MMA). Which deficiency is most likely?",
+    "options": [
+      "Iron deficiency",
+      "Folate deficiency",
+      "Vitamin B12 deficiency",
+      "Copper deficiency"
+    ],
+    "correctIndex": 2,
+    "explanation": "Both B12 and folate deficiency cause elevated homocysteine and macrocytic anemia. However, only B12 deficiency elevates methylmalonic acid (MMA). Normal MMA with elevated homocysteine points to folate deficiency.",
+    "tags": [
+      "vitamin B12",
+      "megaloblastic anemia",
+      "MMA",
+      "homocysteine",
+      "macrocytic"
+    ]
+  },
+  {
+    "id": "m2-mnt-066",
+    "domain": "Domain II",
+    "topic": "Nutritional Anemias",
+    "difficulty": "medium",
+    "text": "A patient with pernicious anemia requires B12 supplementation. Which route and dose is most appropriate?",
+    "options": [
+      "Oral B12 10 mcg daily",
+      "Intramuscular B12 or high-dose oral 1000 mcg daily",
+      "Sublingual B12 50 mcg weekly",
+      "Dietary counseling to increase B12-rich foods only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pernicious anemia results from intrinsic factor (IF) deficiency, impairing B12 absorption in the terminal ileum. Treatment requires intramuscular/subcutaneous B12 injections or high-dose oral B12 (1000 mcg/day) to allow passive absorption without IF.",
+    "tags": [
+      "pernicious anemia",
+      "intrinsic factor",
+      "vitamin B12",
+      "intramuscular",
+      "supplementation"
+    ]
+  },
+  {
+    "id": "m2-mnt-067",
+    "domain": "Domain II",
+    "topic": "Nutritional Anemias",
+    "difficulty": "medium",
+    "text": "A patient with chronic kidney disease has normocytic anemia with elevated ferritin. Which type of anemia is most consistent with this presentation?",
+    "options": [
+      "Iron deficiency anemia",
+      "Vitamin B12 deficiency anemia",
+      "Anemia of chronic disease (ACD)",
+      "Folate deficiency anemia"
+    ],
+    "correctIndex": 2,
+    "explanation": "Anemia of chronic disease (ACD) presents with normocytic anemia and falsely elevated ferritin (an acute-phase protein). It results from chronic inflammation sequestering iron. Treatment targets the underlying disease; erythropoietin may be used in CKD.",
+    "tags": [
+      "anemia of chronic disease",
+      "ACD",
+      "normocytic",
+      "ferritin",
+      "CKD",
+      "inflammation"
+    ]
+  },
+  {
+    "id": "m2-mnt-068",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "medium",
+    "text": "A patient with Crohn's disease is at highest risk for which type of kidney stones?",
+    "options": [
+      "Uric acid stones",
+      "Calcium phosphate stones",
+      "Oxalate stones",
+      "Struvite stones"
+    ],
+    "correctIndex": 2,
+    "explanation": "Crohn's disease causes fat malabsorption. Unabsorbed fatty acids bind calcium in the gut, leaving oxalate free to be absorbed. This hyperoxaluria leads to calcium oxalate kidney stones. Dietary management includes low-oxalate diet and adequate calcium intake.",
+    "tags": [
+      "Crohn's disease",
+      "oxalate stones",
+      "fat malabsorption",
+      "hyperoxaluria",
+      "kidney stones"
+    ]
+  },
+  {
+    "id": "m2-mnt-069",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "medium",
+    "text": "Which of the following best distinguishes Crohn's disease from ulcerative colitis?",
+    "options": [
+      "Crohn's affects only the colon; UC affects the entire GI tract",
+      "Crohn's is transmural with skip lesions; UC is mucosal and continuous",
+      "UC causes fistulas and strictures; Crohn's does not",
+      "Both conditions are treated identically with the same dietary restrictions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Crohn's disease is transmural (full thickness), can affect any part of the GI tract, and presents with skip lesions, fistulas, and strictures. UC is limited to the mucosal layer of the colon and rectum, presenting as continuous inflammation from the rectum proximally.",
+    "tags": [
+      "Crohn's disease",
+      "ulcerative colitis",
+      "IBD",
+      "transmural",
+      "skip lesions",
+      "mucosal"
+    ]
+  },
+  {
+    "id": "m2-mnt-070",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "medium",
+    "text": "During an IBD flare, which dietary approach is most appropriate?",
+    "options": [
+      "High fiber, high fat diet to promote gut healing",
+      "Low residue, low fat, high protein diet",
+      "High FODMAP diet to improve gut microbiome",
+      "Unrestricted diet with probiotic supplementation only"
+    ],
+    "correctIndex": 1,
+    "explanation": "During an IBD exacerbation, a low-residue, low-fat, high-protein diet reduces bowel stimulation and supports tissue repair. Key micronutrients to supplement include vitamin D, zinc, calcium, magnesium, folate, B12, and iron due to malabsorption.",
+    "tags": [
+      "IBD",
+      "Crohn's",
+      "ulcerative colitis",
+      "flare",
+      "low residue",
+      "high protein"
+    ]
+  },
+  {
+    "id": "m2-mnt-071",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "hard",
+    "text": "A patient with irritable bowel syndrome (IBS) is prescribed a low-FODMAP diet. Which food should be eliminated during the initial phase?",
+    "options": [
+      "Rice and quinoa",
+      "Lactose-free milk",
+      "Apples and wheat bread",
+      "Carrots and blueberries"
+    ],
+    "correctIndex": 2,
+    "explanation": "Apples contain excess fructose (monosaccharides) and wheat contains fructans (oligosaccharides) — both are high-FODMAP foods. The elimination phase lasts 6–8 weeks, followed by systematic reintroduction by FODMAP category.",
+    "tags": [
+      "IBS",
+      "FODMAP",
+      "fructose",
+      "fructans",
+      "elimination diet",
+      "wheat",
+      "apples"
+    ]
+  },
+  {
+    "id": "m2-mnt-072",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "medium",
+    "text": "A patient diagnosed with celiac disease asks which grains are safe to consume. Which of the following is allowed?",
+    "options": [
+      "Barley",
+      "Rye",
+      "Triticale",
+      "Quinoa"
+    ],
+    "correctIndex": 3,
+    "explanation": "Quinoa is a gluten-free grain safe for celiac disease. Forbidden grains include wheat, barley, rye, triticale, and oats (due to cross-contamination risk). Safe grains include rice, corn, quinoa, amaranth, buckwheat, sorghum, teff, and millet.",
+    "tags": [
+      "celiac disease",
+      "gluten-free",
+      "quinoa",
+      "grains",
+      "barley",
+      "rye"
+    ]
+  },
+  {
+    "id": "m2-mnt-073",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "hard",
+    "text": "A patient with celiac disease is concerned about a gluten-free product label. What is the FDA threshold for gluten-free labeling?",
+    "options": [
+      "<5 ppm gluten",
+      "<10 ppm gluten",
+      "<20 ppm gluten",
+      "<50 ppm gluten"
+    ],
+    "correctIndex": 2,
+    "explanation": "The FDA requires gluten-free labeled products to contain less than 20 parts per million (ppm) of gluten. This threshold is considered safe for most individuals with celiac disease.",
+    "tags": [
+      "celiac disease",
+      "gluten-free",
+      "FDA",
+      "20 ppm",
+      "labeling"
+    ]
+  },
+  {
+    "id": "m2-mnt-074",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "medium",
+    "text": "Which nutrient deficiencies are most common in untreated celiac disease?",
+    "options": [
+      "Vitamin A, vitamin E, and zinc",
+      "Calcium, vitamin D, iron, and folate",
+      "Vitamin B12, niacin, and selenium",
+      "Magnesium, phosphorus, and vitamin K"
+    ],
+    "correctIndex": 1,
+    "explanation": "Celiac disease damages the proximal small intestine (duodenum and jejunum), impairing absorption of calcium, vitamin D, iron, and folate — all absorbed in this region. Long-term consequences include osteoporosis and anemia.",
+    "tags": [
+      "celiac disease",
+      "malabsorption",
+      "calcium",
+      "vitamin D",
+      "iron",
+      "folate",
+      "osteoporosis"
+    ]
+  },
+  {
+    "id": "m2-mnt-075",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "medium",
+    "text": "A patient with a new ileostomy should be monitored most closely for deficiency of which nutrient?",
+    "options": [
+      "Vitamin C and folate",
+      "Vitamin B12 and vitamin D",
+      "Vitamin A and vitamin E",
+      "Thiamine and riboflavin"
+    ],
+    "correctIndex": 1,
+    "explanation": "The terminal ileum (removed or bypassed in ileostomy) is the site of vitamin B12 and vitamin D absorption. Ileostomy patients also need monitoring of electrolytes and oxalate restriction due to fat malabsorption.",
+    "tags": [
+      "ileostomy",
+      "ostomy",
+      "vitamin B12",
+      "vitamin D",
+      "terminal ileum",
+      "malabsorption"
+    ]
+  },
+  {
+    "id": "m2-mnt-076",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "A patient with hyperlipidemia asks about dietary changes. Which recommendation is most consistent with a cardioprotective diet?",
+    "options": [
+      "Increase saturated fat to 15% of calories and eliminate all dietary fat",
+      "Limit saturated and trans fat to <7% of calories; increase soluble fiber and plant sterols",
+      "Eliminate all dietary cholesterol and increase refined carbohydrates",
+      "Restrict all fats to <5% of total calories"
+    ],
+    "correctIndex": 1,
+    "explanation": "A cardioprotective diet limits saturated and trans fat to <7% of calories, dietary cholesterol to <200 mg/day, and includes 2–3 g/day of plant sterols/stanols and soluble fiber to reduce LDL cholesterol.",
+    "tags": [
+      "hyperlipidemia",
+      "cardioprotective diet",
+      "saturated fat",
+      "plant sterols",
+      "soluble fiber",
+      "LDL"
+    ]
+  },
+  {
+    "id": "m2-mnt-077",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "A patient with hypertension is counseled on the DASH diet. Which nutrient profile best describes the DASH dietary pattern?",
+    "options": [
+      "High sodium, low potassium, low calcium",
+      "Low sodium (1500–2300 mg/day), high potassium, calcium, magnesium, and fiber",
+      "High protein, very low carbohydrate, low sodium",
+      "Low fat, low sodium, low potassium"
+    ],
+    "correctIndex": 1,
+    "explanation": "The DASH diet reduces blood pressure by limiting sodium to 1500–2300 mg/day while emphasizing foods rich in potassium, calcium, magnesium, and fiber — nutrients that counteract sodium's pressor effects.",
+    "tags": [
+      "hypertension",
+      "DASH diet",
+      "sodium",
+      "potassium",
+      "calcium",
+      "magnesium",
+      "blood pressure"
+    ]
+  },
+  {
+    "id": "m2-mnt-078",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "hard",
+    "text": "According to the 2017 ACC/AHA guidelines, a patient with a blood pressure of 134/85 mmHg would be classified as:",
+    "options": [
+      "Normal",
+      "Elevated",
+      "Stage 1 hypertension",
+      "Stage 2 hypertension"
+    ],
+    "correctIndex": 2,
+    "explanation": "2017 ACC/AHA classification: Normal <120/80; Elevated 120–129/<80; Stage 1: 130–139/80–89; Stage 2: ≥140/≥90. A reading of 134/85 falls within Stage 1 hypertension.",
+    "tags": [
+      "hypertension",
+      "blood pressure",
+      "ACC/AHA",
+      "stage 1",
+      "classification"
+    ]
+  },
+  {
+    "id": "m2-mnt-079",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "A patient with heart failure (NYHA Class III) requires nutrition support. Which fluid restriction is most appropriate?",
+    "options": [
+      "No fluid restriction needed",
+      "<3 liters per day",
+      "<2 liters per day",
+      "<500 mL per day"
+    ],
+    "correctIndex": 2,
+    "explanation": "Heart failure management requires fluid restriction of <2 liters per day to prevent fluid overload and reduce cardiac workload. Protein goals are 1.12–1.37 g/kg to support cardiac muscle and prevent cardiac cachexia.",
+    "tags": [
+      "heart failure",
+      "NYHA",
+      "fluid restriction",
+      "2 liters",
+      "cardiac cachexia"
+    ]
+  },
+  {
+    "id": "m2-mnt-080",
+    "domain": "Domain II",
+    "topic": "Pulmonary Disease",
+    "difficulty": "hard",
+    "text": "A patient with ARDS requires enteral nutrition. Which specialized formula component has evidence for reducing inflammation in ARDS?",
+    "options": [
+      "High branched-chain amino acids",
+      "EPA and GLA (fish oil and borage oil)",
+      "High medium-chain triglycerides",
+      "Concentrated glucose polymer formula"
+    ],
+    "correctIndex": 1,
+    "explanation": "Enteral formulas enriched with EPA (eicosapentaenoic acid from fish oil) and GLA (gamma-linolenic acid from borage oil) have anti-inflammatory properties and should be initiated within 24 hours in ARDS patients per nutrition support guidelines.",
+    "tags": [
+      "ARDS",
+      "enteral nutrition",
+      "EPA",
+      "GLA",
+      "fish oil",
+      "borage oil",
+      "anti-inflammatory"
+    ]
+  },
+  {
+    "id": "m2-mnt-081",
+    "domain": "Domain II",
+    "topic": "Pulmonary Disease",
+    "difficulty": "medium",
+    "text": "A patient with COPD has a BMI of 18 kg/m². Why is this particularly concerning?",
+    "options": [
+      "Low BMI in COPD is associated with better lung function",
+      "BMI <20 in COPD is associated with increased mortality",
+      "COPD patients should maintain BMI <20 to reduce breathing effort",
+      "Low BMI has no specific significance in COPD management"
+    ],
+    "correctIndex": 1,
+    "explanation": "In COPD, BMI <20 is independently associated with increased mortality. Malnutrition impairs respiratory muscle strength and immune function. Caloric goals are approximately 30 kcal/kg with small, frequent meals to reduce dyspnea from a full stomach.",
+    "tags": [
+      "COPD",
+      "BMI",
+      "mortality",
+      "malnutrition",
+      "respiratory muscle",
+      "30 kcal/kg"
+    ]
+  },
+  {
+    "id": "m2-mnt-082",
+    "domain": "Domain II",
+    "topic": "Pulmonary Disease",
+    "difficulty": "hard",
+    "text": "A patient with cystic fibrosis has a BMI of 18 and is below the 10th percentile for weight. Which intervention is indicated?",
+    "options": [
+      "Standard oral diet with no supplementation",
+      "Low-fat diet to reduce steatorrhea",
+      "Enteral nutrition support in addition to oral intake",
+      "Parenteral nutrition as first-line therapy"
+    ],
+    "correctIndex": 2,
+    "explanation": "In cystic fibrosis, enteral nutrition is indicated when BMI <19 (adults) or weight falls below the 10th percentile (children) despite oral supplementation. CF patients require 1.2–2× REE due to malabsorption, chronic infection, and increased work of breathing.",
+    "tags": [
+      "cystic fibrosis",
+      "enteral nutrition",
+      "BMI",
+      "malnutrition",
+      "10th percentile",
+      "high calorie"
+    ]
+  },
+  {
+    "id": "m2-mnt-083",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "medium",
+    "text": "A patient with GERD asks about dietary modifications. Which recommendation is most appropriate?",
+    "options": [
+      "Eat large meals to dilute stomach acid",
+      "Lie down after meals to promote digestion",
+      "Avoid caffeine, alcohol, chocolate, and high-fat foods; eat small frequent meals",
+      "Increase citrus fruit intake to neutralize stomach acid"
+    ],
+    "correctIndex": 2,
+    "explanation": "GERD management includes avoiding lower esophageal sphincter relaxants: caffeine, alcohol, chocolate, peppermint, citrus, high-fat foods, and spicy foods. Small, frequent meals reduce gastric pressure. Patients should not lie down for 3 hours after eating and should elevate the head of bed 6–9 inches.",
+    "tags": [
+      "GERD",
+      "gastroesophageal reflux",
+      "dietary modifications",
+      "LES",
+      "caffeine",
+      "chocolate",
+      "small meals"
+    ]
+  },
+  {
+    "id": "m2-mnt-084",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "A patient with coronary artery disease is placed on a Therapeutic Lifestyle Changes (TLC) diet. What is the recommended daily sodium intake?",
+    "options": [
+      "<1000 mg/day",
+      "≤2000 mg/day",
+      "<3500 mg/day",
+      "No sodium restriction required"
+    ],
+    "correctIndex": 1,
+    "explanation": "The TLC diet for coronary artery disease recommends sodium ≤2000 mg/day, saturated fat <7% of calories, dietary cholesterol <200 mg/day, and total fiber 25–30 g/day to reduce cardiovascular risk.",
+    "tags": [
+      "coronary artery disease",
+      "TLC diet",
+      "sodium",
+      "saturated fat",
+      "cholesterol",
+      "fiber"
+    ]
+  },
+  {
+    "id": "m2-mnt-085",
+    "domain": "Domain II",
+    "topic": "Nutritional Anemias",
+    "difficulty": "medium",
+    "text": "A patient with macrocytic anemia has elevated homocysteine but normal methylmalonic acid (MMA). Which deficiency is most likely?",
+    "options": [
+      "Vitamin B12 deficiency",
+      "Iron deficiency",
+      "Folate deficiency",
+      "Copper deficiency"
+    ],
+    "correctIndex": 2,
+    "explanation": "Folate deficiency causes macrocytic anemia and elevated homocysteine, but MMA remains normal (unlike B12 deficiency which elevates both). Folate supplementation must be used cautiously to avoid masking B12 deficiency neurological symptoms.",
+    "tags": [
+      "folate deficiency",
+      "macrocytic anemia",
+      "homocysteine",
+      "MMA",
+      "vitamin B12",
+      "differential"
+    ]
+  },
+  {
+    "id": "m2-mnt-086",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "hard",
+    "text": "Which supplement has evidence for promoting mucosal healing in Crohn's disease during remission?",
+    "options": [
+      "High-dose vitamin C",
+      "Glutamine and omega-3 fatty acids",
+      "Iron and vitamin B6",
+      "Zinc and vitamin A only"
+    ],
+    "correctIndex": 1,
+    "explanation": "During Crohn's remission, glutamine (fuel for enterocytes) and omega-3 fatty acids (anti-inflammatory) have evidence for maintaining remission and supporting mucosal integrity. Probiotics may also be beneficial.",
+    "tags": [
+      "Crohn's disease",
+      "remission",
+      "glutamine",
+      "omega-3",
+      "mucosal healing",
+      "probiotics"
+    ]
+  },
+  {
+    "id": "m2-mnt-087",
+    "domain": "Domain II",
+    "topic": "Cardiovascular Disease",
+    "difficulty": "medium",
+    "text": "What is the recommended daily intake of plant sterols/stanols to reduce LDL cholesterol in patients with hyperlipidemia?",
+    "options": [
+      "0.5–1.0 g/day",
+      "2–3 g/day",
+      "5–7 g/day",
+      "10 g/day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Plant sterols and stanols at 2–3 g/day competitively inhibit cholesterol absorption in the small intestine, reducing LDL cholesterol by approximately 10–15%. They are found in fortified foods and supplements.",
+    "tags": [
+      "hyperlipidemia",
+      "plant sterols",
+      "stanols",
+      "LDL",
+      "cholesterol",
+      "cardioprotective"
+    ]
+  },
+  {
+    "id": "m2-mnt-088",
+    "domain": "Domain II",
+    "topic": "Pulmonary Disease",
+    "difficulty": "medium",
+    "text": "A patient with pneumonia and sepsis requires protein support. What protein goal is most appropriate?",
+    "options": [
+      "0.8 g/kg (DRI)",
+      "1.0–1.2 g/kg",
+      "1.5–2.0 g/kg",
+      "2.0 g/kg"
+    ],
+    "correctIndex": 3,
+    "explanation": "Septic patients with pneumonia require 2 g/kg protein due to severe catabolism and increased immune demands. Non-septic pneumonia patients require 1–1.5 g/kg. Higher protein intake supports immune function and prevents muscle wasting.",
+    "tags": [
+      "pneumonia",
+      "sepsis",
+      "protein",
+      "2 g/kg",
+      "critical care",
+      "catabolism"
+    ]
+  },
+  {
+    "id": "m2-mnt-089",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "medium",
+    "text": "A patient with cancer-associated cachexia syndrome (CACS) is prescribed megestrol acetate. Which side effect requires monitoring?",
+    "options": [
+      "Hypoglycemia and weight loss",
+      "Thromboembolism, hyperglycemia, and osteoporosis",
+      "Renal failure and electrolyte imbalances",
+      "Megaloblastic anemia and peripheral neuropathy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Megestrol acetate (a progestational agent) stimulates appetite in CACS but carries significant risks: thromboembolic events (DVT/PE), hyperglycemia, and osteoporosis from glucocorticoid-like effects. Monitoring these side effects is essential.",
+    "tags": [
+      "cancer cachexia",
+      "CACS",
+      "megestrol acetate",
+      "thromboembolism",
+      "hyperglycemia",
+      "osteoporosis"
+    ]
+  },
+  {
+    "id": "m2-mnt-090",
+    "domain": "Domain II",
+    "topic": "GI Disorders",
+    "difficulty": "medium",
+    "text": "After ileostomy surgery, what is the recommended dietary progression?",
+    "options": [
+      "Start immediately with a high-fiber diet",
+      "Begin with clear liquids, advance to low-residue, then regular diet",
+      "Start with full liquids and advance to high-fiber immediately",
+      "Parenteral nutrition for 2 weeks before oral feeding"
+    ],
+    "correctIndex": 1,
+    "explanation": "Post-ostomy dietary progression follows: clear liquids → low-residue diet → regular diet. This gradual approach allows the stoma to heal and adapt. Long-term, ileostomy patients need monitoring of B12, vitamin D, electrolytes, and fluid balance.",
+    "tags": [
+      "ileostomy",
+      "ostomy",
+      "dietary progression",
+      "low residue",
+      "clear liquids",
+      "post-surgical"
+    ]
+  }
+]

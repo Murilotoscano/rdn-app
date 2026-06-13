@@ -1,0 +1,519 @@
+[
+  {
+    "id": "m2-mnt-181",
+    "domain": "Domain II",
+    "topic": "Metabolic and Endocrine Disorders",
+    "difficulty": "medium",
+    "text": "According to the NCEP ATP III criteria, a patient is diagnosed with metabolic syndrome if they meet at least 3 of 5 criteria. Which combination meets the diagnostic threshold?",
+    "options": [
+      "Fasting glucose 95 mg/dL, TG 130 mg/dL, waist circumference 38 in (men)",
+      "Blood pressure 128/82 mmHg, TG 160 mg/dL, HDL 38 mg/dL (men), fasting glucose 102 mg/dL",
+      "Blood pressure 120/78 mmHg, TG 140 mg/dL, HDL 42 mg/dL (men)",
+      "Fasting glucose 98 mg/dL, waist circumference 36 in (men), HDL 45 mg/dL (men)"
+    ],
+    "correctIndex": 1,
+    "explanation": "NCEP ATP III requires any 3 of 5: (1) fasting glucose ≥100 mg/dL, (2) TG ≥150 mg/dL, (3) HDL ≤40 mg/dL (men)/≤50 mg/dL (women), (4) waist ≥40 in/102 cm (men) or ≥35 in/88 cm (women), (5) BP ≥130/85 mmHg. Option B meets 3: TG 160 (≥150) ✓, HDL 38 (≤40 men) ✓, glucose 102 (≥100) ✓. BP 128/82 is below the ≥130/85 threshold.",
+    "tags": [
+      "metabolic-syndrome",
+      "NCEP-ATP-III",
+      "diagnosis"
+    ]
+  },
+  {
+    "id": "m2-mnt-182",
+    "domain": "Domain II",
+    "topic": "Metabolic and Endocrine Disorders",
+    "difficulty": "medium",
+    "text": "An RDN is providing MNT for a patient with metabolic syndrome. What is the recommended weight loss goal for the first year of treatment?",
+    "options": [
+      "2–5% of body weight",
+      "7–10% of body weight",
+      "15–20% of body weight",
+      "Any amount; there is no specific target"
+    ],
+    "correctIndex": 1,
+    "explanation": "For metabolic syndrome, MNT goals include promoting a healthful, cardioprotective eating pattern with reduced energy intake to achieve 7–10% weight loss in the first year. Physical activity should be at least 30 minutes, 5 days per week. MNT addresses all components: reducing triglycerides, normalizing blood pressure, and achieving normal fasting glucose through individualized counseling including behavior theory and motivational interviewing.",
+    "tags": [
+      "metabolic-syndrome",
+      "weight-loss",
+      "MNT-goals"
+    ]
+  },
+  {
+    "id": "m2-mnt-183",
+    "domain": "Domain II",
+    "topic": "Metabolic and Endocrine Disorders",
+    "difficulty": "medium",
+    "text": "Gout is characterized by deposition of which substance in joints and tissues?",
+    "options": [
+      "Calcium pyrophosphate crystals",
+      "Monosodium urate crystals from hyperuricemia",
+      "Calcium oxalate crystals from hyperoxaluria",
+      "Cholesterol crystals from hyperlipidemia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gout is a crystal-induced arthritis caused by deposition of monosodium urate crystals due to chronic hyperuricemia. It typically presents as acute, painful monoarthritis (often the first metatarsophalangeal joint — big toe). Diagnosis is made by analyzing synovial fluid for urate crystals. Calcium pyrophosphate causes pseudogout. Repeated acute episodes can cause permanent joint damage and uric acid kidney stones.",
+    "tags": [
+      "gout",
+      "uric-acid",
+      "pathophysiology"
+    ]
+  },
+  {
+    "id": "m2-mnt-184",
+    "domain": "Domain II",
+    "topic": "Metabolic and Endocrine Disorders",
+    "difficulty": "medium",
+    "text": "A patient with gout asks about dietary modifications. Which food is associated with the HIGHEST risk of triggering acute gout episodes?",
+    "options": [
+      "Chicken breast",
+      "Low-fat dairy products",
+      "Beer and organ meats (liver, kidney, sweetbreads)",
+      "Whole grain bread and legumes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Research shows the highest risk of acute gout episodes with: beer (higher risk than other alcohols), organ/glandular meats (liver, kidney, sweetbreads), red meat, and seafood. Beer is particularly problematic — it contains both purines (guanosine) and alcohol. Dehydration also increases crystal formation. MNT includes 8-16 cups fluid/day (≥50% water), limiting meat/fish/poultry to 4-6 oz/day, and discussing alcohol abstention with the physician.",
+    "tags": [
+      "gout",
+      "diet",
+      "purines",
+      "alcohol"
+    ]
+  },
+  {
+    "id": "m2-mnt-185",
+    "domain": "Domain II",
+    "topic": "Metabolic and Endocrine Disorders",
+    "difficulty": "medium",
+    "text": "Which medication class is known to impair uric acid excretion and increase the risk of hyperuricemia and gout?",
+    "options": [
+      "ACE inhibitors and ARBs",
+      "Thiazide and loop diuretics",
+      "Statins and fibrates",
+      "Beta-blockers and calcium channel blockers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Medications that impair uric acid secretion and increase gout risk include thiazide diuretics, loop diuretics, low-dose aspirin, cyclosporine, niacin, tuberculosis drugs, some chemotherapy drugs, and didanosine (HAART). Thiazides and loop diuretics are the most commonly implicated. Since the kidneys are the primary route of uric acid excretion, any drug reducing renal urate clearance can precipitate gout.",
+    "tags": [
+      "gout",
+      "drug-nutrient-interaction",
+      "diuretics",
+      "hyperuricemia"
+    ]
+  },
+  {
+    "id": "m2-mnt-186",
+    "domain": "Domain II",
+    "topic": "Metabolic and Endocrine Disorders",
+    "difficulty": "medium",
+    "text": "A patient is diagnosed with polycystic ovarian syndrome (PCOS). Up to what percentage of patients with PCOS have insulin resistance?",
+    "options": [
+      "10–20%",
+      "30–40%",
+      "Up to 70%",
+      "Nearly 100%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Up to 70% of people with PCOS have insulin resistance with compensatory hyperinsulinemia. This promotes central adiposity, difficulty losing weight, food cravings, and hypoglycemic events. PCOS is an endocrine disorder characterized by increased androgens (causing hirsutism, alopecia, acne) and irregular menstrual cycles from ovarian cysts. Patients are at increased risk of type 2 diabetes, CVD, and kidney disease.",
+    "tags": [
+      "PCOS",
+      "insulin-resistance",
+      "endocrine"
+    ]
+  },
+  {
+    "id": "m2-mnt-187",
+    "domain": "Domain II",
+    "topic": "Metabolic and Endocrine Disorders",
+    "difficulty": "easy",
+    "text": "What is the recommended weight loss target for the first 6 months of MNT for a patient with PCOS who is overweight?",
+    "options": [
+      "2–3% of body weight",
+      "5% of body weight",
+      "Up to 10% of body weight",
+      "20% of body weight"
+    ],
+    "correctIndex": 2,
+    "explanation": "MNT for PCOS prioritizes energy needs for weight loss of up to 10% in the first 6 months to support medical care goals: achieving regular menstrual function, reducing androgen and insulin levels, improving skin symptoms, and preventing long-term complications. The nutrition counseling approach is the same as for overweight/obese patients without PCOS and includes behavior change support.",
+    "tags": [
+      "PCOS",
+      "weight-loss",
+      "MNT"
+    ]
+  },
+  {
+    "id": "m2-mnt-188",
+    "domain": "Domain II",
+    "topic": "Metabolic and Endocrine Disorders",
+    "difficulty": "easy",
+    "text": "A patient has a BMI of 32 kg/m². According to standard BMI classification, this patient is classified as:",
+    "options": [
+      "Overweight",
+      "Obesity Class I",
+      "Obesity Class II",
+      "Obesity Class III (severe)"
+    ],
+    "correctIndex": 1,
+    "explanation": "BMI classification: Overweight = 25.0–29.9; Obesity Class I = 30.0–34.9; Obesity Class II = 35.0–39.9; Obesity Class III (severe/morbid) = ≥40.0. BMI 32 falls in Class I obesity. High-risk waist circumference: >40 in (102 cm) for men and >35 in (88 cm) for women. For Asian populations, lower cut-offs apply (≥35 in/90 cm for men, ≥31.5 in/80 cm for women).",
+    "tags": [
+      "obesity",
+      "BMI",
+      "classification"
+    ]
+  },
+  {
+    "id": "m2-mnt-189",
+    "domain": "Domain II",
+    "topic": "Cancer",
+    "difficulty": "medium",
+    "text": "Cancer-related anorexia/cachexia syndrome (CACS) is characterized by:",
+    "options": [
+      "Excessive weight gain and hyperphagia due to metabolic changes",
+      "Anorexia and significant weight loss despite adequate nutritional intake",
+      "Normal appetite with isolated muscle wasting",
+      "Weight loss only in patients receiving chemotherapy"
+    ],
+    "correctIndex": 1,
+    "explanation": "CACS (Cancer-related anorexia/cachexia syndrome) is defined as anorexia combined with significant weight loss that does not fully respond to conventional nutritional support. It is driven by tumor-induced metabolic changes, cytokine production, and altered metabolism — not simply inadequate intake. It is a major cause of morbidity and mortality in cancer patients. MNT focuses on maximizing caloric intake, managing symptoms, and preserving lean body mass.",
+    "tags": [
+      "cancer",
+      "cachexia",
+      "anorexia",
+      "CACS"
+    ]
+  },
+  {
+    "id": "m2-mnt-190",
+    "domain": "Domain II",
+    "topic": "Cancer",
+    "difficulty": "medium",
+    "text": "A patient receiving chemotherapy develops mucositis. Which dietary modification is most appropriate?",
+    "options": [
+      "High-fiber, high-residue diet to stimulate healing",
+      "Dry, crunchy foods to clean oral surfaces",
+      "Soft, moist foods; avoid hot, spicy, acidic, and rough-textured foods",
+      "Increase alcohol-based mouth rinses with meals to reduce pain"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mucositis (oral inflammation/ulcerations from chemotherapy or radiation) requires: soft, moist foods that are easy to swallow; avoiding hot, spicy, acidic, and rough-textured foods that irritate mucous membranes. Common nutrition impact symptoms of cancer treatment include mucositis, xerostomia (dry mouth), nausea/vomiting, diarrhea, constipation, dysgeusia (taste alterations), and neutropenia — each requiring tailored dietary modifications.",
+    "tags": [
+      "cancer",
+      "mucositis",
+      "chemotherapy",
+      "dietary-modifications"
+    ]
+  },
+  {
+    "id": "m2-mnt-191",
+    "domain": "Domain II",
+    "topic": "Cancer",
+    "difficulty": "medium",
+    "text": "A patient receiving radiation therapy to the head and neck develops xerostomia. Which dietary strategy is most appropriate?",
+    "options": [
+      "Increase dry, high-fiber foods to stimulate saliva production",
+      "Increase fluids, use moist cooking methods, and choose soft foods",
+      "Limit fluid intake to prevent aspiration risk",
+      "Recommend a high-fat diet to lubricate the oral mucosa"
+    ],
+    "correctIndex": 1,
+    "explanation": "Xerostomia (dry mouth) from radiation therapy to the head/neck area is managed by: increasing fluid intake with meals, using moist cooking methods (braising, stewing), choosing soft and moist foods, avoiding dry/crumbly textures, and using artificial saliva if needed. Radiation to the salivary glands can permanently reduce saliva production. Saliva is essential for swallowing, taste, and oral hygiene.",
+    "tags": [
+      "cancer",
+      "xerostomia",
+      "radiation",
+      "dry-mouth"
+    ]
+  },
+  {
+    "id": "m2-mnt-192",
+    "domain": "Domain II",
+    "topic": "Critical Care",
+    "difficulty": "medium",
+    "text": "Early enteral nutrition (within 24-48 hours) is recommended for critically ill patients because it:",
+    "options": [
+      "Eliminates the need for intravenous fluid resuscitation",
+      "Maintains gut integrity, reduces bacterial translocation, and improves outcomes",
+      "Provides higher caloric density than parenteral nutrition",
+      "Avoids the risk of refeeding syndrome associated with TPN"
+    ],
+    "correctIndex": 1,
+    "explanation": "Early enteral nutrition (within 24-48 hours of ICU admission) in critically ill patients: maintains intestinal mucosal integrity, reduces bacterial translocation across the gut wall, modulates the immune response, and improves clinical outcomes including reduced infectious complications. The GI tract is considered the 'motor of the systemic inflammatory response' — keeping it active via enteral feeding is a key principle of critical care nutrition.",
+    "tags": [
+      "critical-care",
+      "enteral-nutrition",
+      "gut-integrity"
+    ]
+  },
+  {
+    "id": "m2-mnt-193",
+    "domain": "Domain II",
+    "topic": "Critical Care",
+    "difficulty": "medium",
+    "text": "A patient with severe burns covering 40% of total body surface area (TBSA) is in the hypermetabolic phase. What is a key principle of nutrition support for major burns?",
+    "options": [
+      "Restrict protein to prevent increased urea production",
+      "Provide high-energy, high-protein nutrition early to support wound healing and prevent catabolism",
+      "Avoid enteral feeding until the acute phase resolves",
+      "Restrict fat to less than 10% of energy to prevent wound infection"
+    ],
+    "correctIndex": 1,
+    "explanation": "Major burns cause extreme hypermetabolism — energy and protein needs are dramatically increased to support wound healing, immune function, and prevent catabolism. High-energy, high-protein nutrition (including arginine and glutamine supplementation) is initiated early (enteral route preferred). Burns >20% TBSA require aggressive nutrition support. Key micronutrients for wound healing include vitamin C, zinc, and vitamin A.",
+    "tags": [
+      "burns",
+      "hypermetabolism",
+      "critical-care",
+      "protein"
+    ]
+  },
+  {
+    "id": "m2-mnt-194",
+    "domain": "Domain II",
+    "topic": "Eating Disorders",
+    "difficulty": "medium",
+    "text": "A patient with severe anorexia nervosa is medically stabilized and begins nutritional rehabilitation. Aggressive refeeding with high carbohydrate intake can precipitate which life-threatening complication?",
+    "options": [
+      "Hyperkalemia and metabolic alkalosis",
+      "Refeeding syndrome — hypophosphatemia, hypokalemia, hypomagnesemia",
+      "Hypernatremia and fluid overload",
+      "Hypercalcemia from bone resorption"
+    ],
+    "correctIndex": 1,
+    "explanation": "Refeeding syndrome occurs when malnourished patients receive rapid nutritional rehabilitation, particularly high carbohydrate loads. Insulin release drives intracellular shifts of phosphorus, potassium, and magnesium → severe hypophosphatemia, hypokalemia, hypomagnesemia. This can cause cardiac arrhythmias, respiratory failure, seizures, and death. Prevention: start nutrition slowly, correct electrolytes first, closely monitor electrolytes and cardiac function. Thiamin (B1) supplementation before refeeding is critical.",
+    "tags": [
+      "eating-disorders",
+      "anorexia-nervosa",
+      "refeeding-syndrome",
+      "hypophosphatemia"
+    ]
+  },
+  {
+    "id": "m2-mnt-195",
+    "domain": "Domain II",
+    "topic": "Eating Disorders",
+    "difficulty": "medium",
+    "text": "A patient with bulimia nervosa who self-induces vomiting is most likely to develop which electrolyte imbalance?",
+    "options": [
+      "Hypernatremia from dehydration",
+      "Hypokalemia and metabolic alkalosis from repeated vomiting",
+      "Hyperphosphatemia from increased bone resorption",
+      "Hypermagnesemia from laxative abuse"
+    ],
+    "correctIndex": 1,
+    "explanation": "Repeated self-induced vomiting causes: hypokalemia (loss of potassium in vomitus and through renal compensation), metabolic alkalosis (loss of HCl raises blood pH), and hyponatremia. Other signs include parotid gland enlargement (from repeated purging), dental erosion (from gastric acid), and Russell's sign (calluses on knuckles). Laxative abuse can cause hypokalemia via GI losses and metabolic acidosis.",
+    "tags": [
+      "eating-disorders",
+      "bulimia",
+      "hypokalemia",
+      "electrolytes"
+    ]
+  },
+  {
+    "id": "m2-mnt-196",
+    "domain": "Domain II",
+    "topic": "Malnutrition",
+    "difficulty": "medium",
+    "text": "According to the Academy of Nutrition and Dietetics/ASPEN consensus statement, which finding is used to identify and document adult malnutrition (undernutrition)?",
+    "options": [
+      "A single low albumin level in the absence of other findings",
+      "At least 2 of 6 characteristic findings including inadequate intake, weight loss, loss of muscle mass, loss of subcutaneous fat, fluid accumulation, or reduced grip strength",
+      "BMI below 18.5 kg/m² alone",
+      "Serum transferrin below normal with concurrent low hemoglobin"
+    ],
+    "correctIndex": 1,
+    "explanation": "The AND/ASPEN consensus (2012) requires at least 2 of 6 characteristics to identify malnutrition: (1) insufficient energy intake, (2) weight loss, (3) loss of muscle mass, (4) loss of subcutaneous fat, (5) fluid accumulation (which may mask weight loss), and (6) diminished functional status (reduced grip strength). Albumin and prealbumin are NOT recommended for malnutrition diagnosis — they are negative acute-phase reactants that reflect inflammation, not nutrition status.",
+    "tags": [
+      "malnutrition",
+      "AND-ASPEN",
+      "diagnosis",
+      "assessment"
+    ]
+  },
+  {
+    "id": "m2-mnt-197",
+    "domain": "Domain II",
+    "topic": "Malnutrition",
+    "difficulty": "medium",
+    "text": "Kwashiorkor is characterized by protein deficiency with relatively adequate energy intake. Which clinical finding distinguishes kwashiorkor from marasmus?",
+    "options": [
+      "Severe muscle wasting and sunken cheeks",
+      "Edema (fluid accumulation), fatty liver, and skin/hair changes despite relatively preserved body weight",
+      "Extreme overall wasting with no edema",
+      "Hyperkalemia and metabolic acidosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kwashiorkor = protein deficiency with some caloric intake: characterized by edema (from low oncotic pressure due to hypoalbuminemia), fatty liver (reduced lipoprotein synthesis), skin/hair changes (flag sign, dermatitis), while body weight may appear near-normal due to fluid. Marasmus = overall energy-protein deficiency: severe wasting of muscle and fat, no edema, sunken appearance. Marasmic-kwashiorkor combines features of both.",
+    "tags": [
+      "malnutrition",
+      "kwashiorkor",
+      "marasmus",
+      "protein-energy-malnutrition"
+    ]
+  },
+  {
+    "id": "m2-mnt-198",
+    "domain": "Domain II",
+    "topic": "Inborn Errors of Metabolism",
+    "difficulty": "medium",
+    "text": "A newborn is diagnosed with phenylketonuria (PKU) via newborn screening. What is the primary nutrition intervention?",
+    "options": [
+      "High-protein diet with phenylalanine supplements",
+      "Phenylalanine-restricted diet using specialized formula with adequate tyrosine supplementation",
+      "Gluten-free diet with rice-based formula",
+      "Elimination of all branched-chain amino acids from the diet"
+    ],
+    "correctIndex": 1,
+    "explanation": "PKU is caused by a deficiency in phenylalanine hydroxylase (PAH), which converts phenylalanine (Phe) to tyrosine (Tyr). Without the enzyme, phenylalanine accumulates and is neurotoxic. Treatment: phenylalanine-restricted diet using specialized Phe-free medical formula to meet protein needs, with carefully controlled natural protein to provide just enough Phe for growth. Tyrosine becomes an essential amino acid in PKU. Early and lifelong dietary management prevents intellectual disability.",
+    "tags": [
+      "PKU",
+      "phenylketonuria",
+      "inborn-errors",
+      "phenylalanine"
+    ]
+  },
+  {
+    "id": "m2-mnt-199",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "easy",
+    "text": "The FDA requires labeling of the 'Big 9' major food allergens. Which of the following is on the FDA's major allergen list?",
+    "options": [
+      "Corn, garlic, tomatoes, and chocolate",
+      "Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soybeans, and sesame",
+      "Gluten, lactose, fructose, and sorbitol",
+      "Red dyes, sulfites, MSG, and artificial sweeteners"
+    ],
+    "correctIndex": 1,
+    "explanation": "The FDA's 'Big 9' major food allergens (FALCPA + sesame added in 2023): milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soybeans, and sesame. These must be declared on food labels. Food intolerance (e.g., lactose intolerance) involves non-immune GI symptoms. Food allergy = immune-mediated reaction. Anaphylaxis is the most severe allergic reaction requiring epinephrine.",
+    "tags": [
+      "food-allergies",
+      "FDA",
+      "Big-9",
+      "labeling"
+    ]
+  },
+  {
+    "id": "m2-mnt-200",
+    "domain": "Domain II",
+    "topic": "HIV and AIDS",
+    "difficulty": "medium",
+    "text": "An RDN providing MNT for a patient with HIV/AIDS should prioritize which nutrition concern?",
+    "options": [
+      "Restricting all dietary fat to prevent lipodystrophy",
+      "Assessing for malnutrition, wasting, drug-nutrient interactions, and food safety",
+      "Eliminating all fruits and vegetables to prevent opportunistic infections",
+      "Restricting protein to prevent kidney damage from antiretroviral therapy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Key nutrition concerns in HIV/AIDS include: malnutrition and HIV-associated wasting syndrome (weight loss ≥10% + chronic diarrhea or weakness), drug-nutrient interactions with antiretroviral therapy (ART), food safety (immunocompromised patients are at high risk of foodborne illness), metabolic complications of ART (lipodystrophy, dyslipidemia, insulin resistance), and ensuring adequate micronutrient intake. Energy and protein needs are increased, especially with active infection.",
+    "tags": [
+      "HIV-AIDS",
+      "malnutrition",
+      "wasting",
+      "drug-nutrient-interaction"
+    ]
+  },
+  {
+    "id": "m2-mnt-201",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "medium",
+    "text": "A patient with COPD is experiencing significant unintentional weight loss. What is the appropriate nutrition approach?",
+    "options": [
+      "Restrict calories to reduce CO2 production from metabolism",
+      "Prevent weight loss and maintain or restore lean body mass even if the patient is overweight",
+      "Recommend high-carbohydrate diet to provide quick energy for breathing muscles",
+      "Restrict protein to reduce ammonia production and respiratory burden"
+    ],
+    "correctIndex": 1,
+    "explanation": "For COPD, MNT goals include: preventing weight loss even in overweight patients, maintaining or restoring lean body mass, and liberalizing diet to meet energy needs with small frequent meals of easy-to-chew, swallow, and digest foods. Energy ~30 kcal/kg, protein 0.8 g/kg/day (DRI). Note: high-fat, low-carbohydrate enteral formulas for respiratory disorders are NOT recommended. Undernutrition in COPD is associated with reduced lung function and poor outcomes.",
+    "tags": [
+      "COPD",
+      "weight-loss",
+      "respiratory",
+      "MNT"
+    ]
+  },
+  {
+    "id": "m2-mnt-202",
+    "domain": "Domain II",
+    "topic": "Neurological Disease",
+    "difficulty": "medium",
+    "text": "A patient recovering from a stroke presents with dysphagia (difficulty swallowing). Which is the most appropriate initial nutrition intervention?",
+    "options": [
+      "Immediately advance to a regular diet to encourage swallowing practice",
+      "Perform a swallowing assessment and implement texture-modified diet and/or thickened liquids as indicated",
+      "Initiate parenteral nutrition to bypass the swallowing mechanism",
+      "Restrict oral intake until spontaneous swallowing reflex returns"
+    ],
+    "correctIndex": 1,
+    "explanation": "Post-stroke dysphagia requires a formal swallowing evaluation (by the speech-language pathologist) and a texture-modified diet per IDDSI (International Dysphagia Diet Standardisation Initiative) framework — pureed, minced, soft, or regular textures with appropriate liquid consistency (thin, nectar, honey, or pudding thick). Early enteral feeding via NG tube may be needed if oral intake is unsafe. Aspiration pneumonia is the major complication of untreated dysphagia.",
+    "tags": [
+      "stroke",
+      "dysphagia",
+      "texture-modified-diet",
+      "neurological"
+    ]
+  },
+  {
+    "id": "m2-mnt-203",
+    "domain": "Domain II",
+    "topic": "Neurological Disease",
+    "difficulty": "medium",
+    "text": "A patient with Alzheimer's disease is losing weight unintentionally. Which factor most commonly contributes to inadequate intake in dementia patients?",
+    "options": [
+      "Increased metabolic rate from neurological activity",
+      "Cognitive decline impairing the ability to recognize hunger and complete the task of eating",
+      "Malabsorption due to GI atrophy",
+      "Intentional dietary restriction due to depression"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Alzheimer's disease and dementia, inadequate intake is primarily driven by: cognitive decline (inability to recognize hunger, forgetting to eat, apraxia of eating — inability to use utensils), behavioral changes (agitation, wandering), dysphagia in advanced stages, and reduced sensory perception. Strategies include: finger foods, nutrient-dense snacks, cueing and assistance with meals, eating in a calm environment, and small frequent offerings. Weight loss in dementia is associated with accelerated disease progression.",
+    "tags": [
+      "Alzheimer's",
+      "dementia",
+      "dysphagia",
+      "weight-loss"
+    ]
+  },
+  {
+    "id": "m2-mnt-204",
+    "domain": "Domain II",
+    "topic": "Gastrointestinal Disorders",
+    "difficulty": "medium",
+    "text": "A patient undergoes a total gastrectomy. Which nutrient requires supplementation for life following this procedure?",
+    "options": [
+      "Vitamin C, given the increased metabolic demands post-surgery",
+      "Vitamin B12 via injection or high-dose oral supplementation, due to loss of intrinsic factor production",
+      "Calcium supplements only, as gastric acid loss impairs absorption",
+      "Iron supplements only, as heme iron absorption requires gastric acid"
+    ],
+    "correctIndex": 1,
+    "explanation": "After total gastrectomy, the stomach (including parietal cells that produce intrinsic factor/IF) is removed. Without IF, dietary vitamin B12 cannot be absorbed in the ileum. Lifelong B12 supplementation via intramuscular injection or very high oral doses (1000 mcg — ~1% absorbs passively) is required. Other post-gastrectomy concerns include: iron deficiency (reduced gastric acid), calcium malabsorption, dumping syndrome, and fat-soluble vitamin deficiencies.",
+    "tags": [
+      "gastric-surgery",
+      "gastrectomy",
+      "vitamin-B12",
+      "intrinsic-factor"
+    ]
+  },
+  {
+    "id": "m2-mnt-205",
+    "domain": "Domain II",
+    "topic": "Gastrointestinal Disorders",
+    "difficulty": "medium",
+    "text": "A patient with celiac disease is placed on a gluten-free diet. Which grains are safe to include?",
+    "options": [
+      "Wheat, rye, and barley — these are acceptable in small amounts",
+      "Rice, corn (maize), quinoa, and certified gluten-free oats",
+      "Spelt, kamut, and triticale, as they have lower gluten content",
+      "All whole grain products labeled 'natural' or 'organic'"
+    ],
+    "correctIndex": 1,
+    "explanation": "Celiac disease requires strict lifelong avoidance of gluten (found in wheat, rye, barley, and their derivatives like spelt, kamut, triticale, and regular oats contaminated during processing). Safe grains include rice, corn, quinoa, millet, buckwheat, sorghum, teff, amaranth, and certified gluten-free oats. The only medical treatment for celiac disease is a strict gluten-free diet, which allows intestinal villi to heal and resolves malabsorption of iron, calcium, folate, and fat-soluble vitamins.",
+    "tags": [
+      "celiac-disease",
+      "gluten-free",
+      "grains"
+    ]
+  }
+]

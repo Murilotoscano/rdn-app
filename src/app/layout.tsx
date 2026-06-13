@@ -26,8 +26,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" suppressHydrationWarning>
+      <body suppressHydrationWarning>
+        <div style={{ 
+          position: "fixed", 
+          top: "10px", 
+          right: "10px", 
+          fontSize: "12px", 
+          fontWeight: "bold",
+          background: "#ef4444", 
+          color: "white",
+          padding: "4px 8px",
+          borderRadius: "4px",
+          zIndex: 9999,
+          boxShadow: "0 2px 4px rgba(0,0,0,0.2)"
+        }}>
+          v2.5.0-en
+        </div>
         {children}
       </body>
     </html>

@@ -1,0 +1,659 @@
+[
+  {
+    "id": "m2-entp-001",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition",
+    "difficulty": "medium",
+    "text": "Which of the following is a CONTRAINDICATION to enteral nutrition?",
+    "options": [
+      "Protein-energy malnutrition with inadequate intake for 5 days",
+      "Low-output enterocutaneous fistula",
+      "High-output enterocutaneous fistula",
+      "Coma with intact GI function"
+    ],
+    "correctIndex": 2,
+    "explanation": "High-output enterocutaneous fistulas are a CONTRAINDICATION to enteral nutrition because feeding via the gut would increase fistula output and worsen the condition. Low-output enterocutaneous fistulas ARE an indication for EN. The other options (PEM with 5 days inadequate intake, coma) are indications for EN.",
+    "tags": [
+      "enteral nutrition",
+      "contraindications",
+      "fistula",
+      "indications"
+    ]
+  },
+  {
+    "id": "m2-entp-002",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition",
+    "difficulty": "medium",
+    "text": "Which of the 5 main indications for enteral nutrition is present when a patient is consuming less than 50% of their estimated needs for 5–7 days?",
+    "options": [
+      "Severe dysphagia",
+      "Meeting < 50% of nutrient needs for 5–7 days",
+      "Low-output enterocutaneous fistula",
+      "Coma"
+    ],
+    "correctIndex": 1,
+    "explanation": "One of the 5 main indications for EN is meeting <50% of nutrient needs for 5–7 days. The 5 indications are: (1) protein-energy malnutrition with inadequate intake ≥5 days, (2) meeting <50% of needs for 5–7 days, (3) severe dysphagia, (4) coma, and (5) low-output enterocutaneous fistula. Each alone warrants EN.",
+    "tags": [
+      "enteral nutrition",
+      "indications",
+      "nutrient needs",
+      "malnutrition"
+    ]
+  },
+  {
+    "id": "m2-entp-003",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "medium",
+    "text": "A patient needs long-term enteral nutrition support (>4 weeks) and frequently vomits, making a nasal tube impractical. Which access route is most appropriate?",
+    "options": [
+      "Nasogastric (NG) tube",
+      "Nasoduodenal (ND) tube",
+      "Percutaneous endoscopic gastrostomy (PEG) tube",
+      "Nasojejunal (NJ) tube"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nasal/oral tube access is for short-term use only (a few weeks). When long-term EN is needed, or when the patient vomits frequently (which would displace nasal tubes), a surgically placed tube such as PEG, G-tube, or J-tube is appropriate. PEG uses an endoscope to guide placement and can last months to years.",
+    "tags": [
+      "enteral nutrition access",
+      "PEG",
+      "long-term",
+      "tube feeding"
+    ]
+  },
+  {
+    "id": "m2-entp-004",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "hard",
+    "text": "A patient has a nasojejunal (NJ) tube with post-pyloric access. Which statement best describes the nutritional implication of bypassing the duodenum?",
+    "options": [
+      "No nutritional implication — all digestion occurs in the stomach",
+      "Key nutrients absorbed in the duodenum (iron, calcium, fat-soluble vitamins) may be inadequately absorbed, requiring supplementation",
+      "Post-pyloric access eliminates the need for a hydrolyzed formula",
+      "Jejunal access improves tolerance of hypertonic formulas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bypassing the duodenum with post-pyloric (jejunal) access means skipping a key site for digestion and absorption. Iron, calcium, fat-soluble vitamins, and other nutrients are primarily absorbed in the duodenum. NJ/PEJ access also requires hydrolyzed (pre-digested) formula or intact formula plus enzymes, because key digestive processes in the duodenum are bypassed.",
+    "tags": [
+      "enteral nutrition",
+      "post-pyloric",
+      "duodenum",
+      "nutrient absorption",
+      "jejunal access"
+    ]
+  },
+  {
+    "id": "m2-entp-005",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "medium",
+    "text": "Post-pyloric enteral access (terminating beyond the pylorus) is indicated in which of the following clinical situations?",
+    "options": [
+      "Patient with intact gastric motility who needs short-term EN",
+      "Patient with esophageal cancer and recent gastric pull-up surgery",
+      "Patient requiring long-term EN via PEG tube",
+      "Patient with mild gastroparesis who tolerates gastric feeds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Post-pyloric (duodenal/jejunal) access is indicated to: (1) avoid stimulating the pancreas (tube terminates past the ligament of Treitz), (2) accommodate recent esophageal or gastric surgery (like gastric pull-up for esophageal cancer), and (3) manage severe gastroparesis. In recent esophageal/gastric surgery, post-pyloric access avoids irritating the surgical site.",
+    "tags": [
+      "post-pyloric",
+      "jejunal access",
+      "EN access",
+      "gastroparesis",
+      "gastric surgery"
+    ]
+  },
+  {
+    "id": "m2-entp-006",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "A patient receiving jejunal tube feeds develops dizziness, sweating, tachycardia, and cramping 20 minutes after bolus feeds are administered. What is the most likely cause?",
+    "options": [
+      "Aspiration pneumonia from regurgitation",
+      "Dumping syndrome from hypertonic formula infused directly into the jejunum",
+      "Diarrhea from antibiotic use",
+      "Hypoglycemia from insulin administration"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dumping syndrome occurs when hypertonic contents enter the small intestine, causing an osmotic influx of fluid into the lumen. Symptoms (dizziness, sweating, tachycardia, cramping) occur within 15–60 minutes of feeds. With jejunal access, hypertonic formula directly infused into the jejunum bypasses the pyloric sphincter's normal rate control, worsening risk. Management: switch to continuous feeds, taper infusion rates, use isotonic formula.",
+    "tags": [
+      "dumping syndrome",
+      "jejunal access",
+      "enteral nutrition",
+      "hypertonic",
+      "complications"
+    ]
+  },
+  {
+    "id": "m2-entp-007",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A patient on continuous tube feeds develops loose stools 6 hours after feeds begin. Which of the following is the MOST likely cause of this diarrhea (vs. dumping syndrome)?",
+    "options": [
+      "Hypertonic formula causing osmotic fluid shift within 30 minutes of feeds",
+      "Antibiotics, medications containing sorbitol, or formula intolerance — manifesting hours after feeds",
+      "Regurgitation of formula into the lungs",
+      "Inadequate fiber content causing constipation followed by overflow diarrhea"
+    ],
+    "correctIndex": 1,
+    "explanation": "The key distinction between dumping syndrome and diarrhea: dumping syndrome occurs 15–60 minutes after feeds (from rapid gastric emptying of hypertonic contents); diarrhea from other causes manifests LATER. Common causes of diarrhea after tube feeding include: antibiotics, medications with sorbitol, gastroenteritis/infection, malabsorption, and formula intolerance. Timing is the critical clue on exam questions.",
+    "tags": [
+      "diarrhea",
+      "dumping syndrome",
+      "enteral nutrition",
+      "timing",
+      "differential diagnosis"
+    ]
+  },
+  {
+    "id": "m2-entp-008",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "To prevent regurgitation and aspiration in a patient receiving gastric tube feeds, the bed should be elevated to at least what angle?",
+    "options": [
+      "15 degrees",
+      "30 degrees",
+      "45 degrees",
+      "60 degrees"
+    ],
+    "correctIndex": 1,
+    "explanation": "Raising the head of the bed to at least 30 degrees during and after tube feeding reduces the risk of regurgitation and aspiration. Aspiration occurs when regurgitated formula enters the lungs, leading to aspiration pneumonia. If a patient has a PEG tube, formula can backflow into the tube (also counted as regurgitation). Head-of-bed elevation is a standard of care for tube-fed patients.",
+    "tags": [
+      "regurgitation",
+      "aspiration",
+      "enteral nutrition",
+      "bed elevation",
+      "prevention"
+    ]
+  },
+  {
+    "id": "m2-entp-009",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition",
+    "difficulty": "medium",
+    "text": "Gut atrophy occurs when the GI tract is not utilized for 2 or more weeks. Which of the following best describes a consequence of gut atrophy?",
+    "options": [
+      "Increased intestinal villi height and improved absorption",
+      "Blunted villi, leaky tight junctions, and translocation of gut bacteria into the bloodstream",
+      "Increased mucus production and reduced intestinal permeability",
+      "Improved intestinal immune function due to reduced workload"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gut atrophy (from non-use for ≥2 weeks) is characterized by: inflamed intestinal cells, blunted/malformed villi (reduced absorptive surface), leaky tight junctions between cells, and bacterial translocation from the intestinal lumen into the bloodstream — leading to systemic infection. This is a key reason to prefer enteral over parenteral nutrition when the gut works, even with trophic feeds.",
+    "tags": [
+      "gut atrophy",
+      "bacterial translocation",
+      "enteral nutrition",
+      "villi",
+      "tight junctions"
+    ]
+  },
+  {
+    "id": "m2-entp-010",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "medium",
+    "text": "A patient with short bowel syndrome following extensive bowel resection requires EN. Which formula type is most appropriate and why?",
+    "options": [
+      "Standard polymeric formula (1 kcal/mL) — provides intact proteins and carbohydrates",
+      "High-calorie polymeric formula (2 kcal/mL) — more calories in less volume",
+      "Hydrolyzed (monomeric) formula — pre-digested nutrients absorbed without full digestive capacity",
+      "Controlled carbohydrate formula — reduces CO2 production"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hydrolyzed (monomeric) formulas contain pre-digested protein (amino acids/peptides) and carbohydrates, and use MCTs for fat (which don't require emulsification and can be absorbed without full lymphatic transport). They are indicated for jejunal access, short bowel syndrome, and impaired digestion. Standard polymeric formulas require full digestive capacity, which is compromised in short bowel syndrome.",
+    "tags": [
+      "hydrolyzed formula",
+      "short bowel syndrome",
+      "EN formulas",
+      "MCT",
+      "monomeric"
+    ]
+  },
+  {
+    "id": "m2-entp-011",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "medium",
+    "text": "Why are low carbohydrate/high fat enteral formulas beneficial for patients receiving mechanical ventilation?",
+    "options": [
+      "Fat provides more calories per gram, reducing total formula volume needed",
+      "Excess carbohydrate is converted to fat, releasing CO2 — difficult to clear with impaired respiratory function; fat produces less CO2",
+      "Low carbohydrate formulas prevent hyperglycemia in all ventilated patients",
+      "High fat formulas reduce enteral feeding intolerance and dumping syndrome"
+    ],
+    "correctIndex": 1,
+    "explanation": "When excess carbohydrate (beyond the body's oxidation capacity) is converted to fat (lipogenesis), it releases CO2. Patients on mechanical ventilation with impaired respiratory function have difficulty clearing excess CO2, increasing PCO2 and potentially worsening respiratory acidosis, making ventilator weaning harder. Low CHO/high fat formulas reduce CO2 production, facilitating ventilator weaning.",
+    "tags": [
+      "enteral formula",
+      "ventilator",
+      "CO2",
+      "respiratory",
+      "controlled carbohydrate"
+    ]
+  },
+  {
+    "id": "m2-entp-012",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "medium",
+    "text": "Glutamine-supplemented enteral formulas are particularly beneficial in which clinical population?",
+    "options": [
+      "Patients with chronic kidney disease",
+      "Patients with hyperlipidemia",
+      "Critically ill, trauma, burn, or surgical patients with increased stress and catabolism",
+      "Patients with constipation or irregular bowel function"
+    ],
+    "correctIndex": 2,
+    "explanation": "Glutamine requirements are significantly increased during physiologic stress: trauma, burns, sepsis, major surgery, and catabolic states. Glutamine is a key transporter of nitrogen and carbon and serves as fuel for intestinal cells and immune cells. Glutamine-supplemented formulas can improve glucose and protein metabolism and help prevent GI atrophy in stressed patients.",
+    "tags": [
+      "glutamine",
+      "EN formula",
+      "critical care",
+      "stress metabolism",
+      "specialty formula"
+    ]
+  },
+  {
+    "id": "m2-entp-013",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition",
+    "difficulty": "medium",
+    "text": "Which of the following patients warrants IMMEDIATE initiation of parenteral nutrition?",
+    "options": [
+      "A well-nourished, stable patient who will be NPO for 5 days post-surgery",
+      "A nutritionally-at-risk patient who cannot meet EN intake goals",
+      "A moderately malnourished patient in whom oral and enteral nutrition are not possible",
+      "A metabolically unstable patient in the ICU"
+    ],
+    "correctIndex": 2,
+    "explanation": "Timing for PN: (1) Well-nourished, stable: initiate PN after 7 days if still unable to meet ≥50% needs; (2) Nutritionally at-risk: initiate within 3–5 days; (3) Moderately/severely malnourished AND oral/EN not possible: initiate AS SOON AS POSSIBLE; (4) Metabolically unstable: DELAY PN until condition improves. A malnourished patient who cannot use the gut needs PN immediately.",
+    "tags": [
+      "parenteral nutrition",
+      "indications",
+      "timing",
+      "malnutrition",
+      "when to initiate"
+    ]
+  },
+  {
+    "id": "m2-entp-014",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition",
+    "difficulty": "medium",
+    "text": "Peripheral parenteral nutrition (PPN) should maintain formula osmolarity below what threshold to prevent phlebitis or thrombosis in small peripheral veins?",
+    "options": [
+      "300–400 mOsm/L",
+      "500–600 mOsm/L",
+      "900–1,100 mOsm/L",
+      "1,500–2,000 mOsm/L"
+    ],
+    "correctIndex": 2,
+    "explanation": "PPN osmolarity must stay below 900–1,100 mOsm/L. Small peripheral veins cannot tolerate hypertonic solutions; excess osmolarity causes large fluid shifts into vascular compartments, leading to phlebitis (vein inflammation) or thrombosis (clot). Central access (superior vena cava) can handle hypertonic PN because the large blood volume and flow rate dilutes the solution.",
+    "tags": [
+      "PPN",
+      "peripheral parenteral nutrition",
+      "osmolarity",
+      "phlebitis",
+      "central access"
+    ]
+  },
+  {
+    "id": "m2-entp-015",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Calculations",
+    "difficulty": "hard",
+    "text": "Dextrose in parenteral nutrition provides how many kcal per gram, and why is this different from dietary carbohydrate?",
+    "options": [
+      "4 kcal/g — same as dietary carbohydrate",
+      "3.4 kcal/g — dextrose is a monosaccharide with an attached water molecule that doesn't contribute calories",
+      "2.5 kcal/g — dextrose is partially metabolized before reaching cells",
+      "5.0 kcal/g — dextrose in solution has higher caloric density than dietary carbohydrate"
+    ],
+    "correctIndex": 1,
+    "explanation": "PN dextrose provides 3.4 kcal/g (vs. 4 kcal/g for dietary carbohydrates) because individual dextrose molecules have an attached water molecule that doesn't contribute calories. Dietary carbohydrates are chained together (polysaccharides) without this extra water, providing 4 kcal/g. This distinction is important for accurate PN calorie calculations.",
+    "tags": [
+      "dextrose",
+      "parenteral nutrition",
+      "calories",
+      "3.4 kcal/g",
+      "calculation"
+    ]
+  },
+  {
+    "id": "m2-entp-016",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Calculations",
+    "difficulty": "hard",
+    "text": "A patient weighing 80 kg receives 2,400 mL of D15W (15% dextrose) over 24 hours. What is the glucose infusion rate (GIR) in mg/kg/min?",
+    "options": [
+      "1.25 mg/kg/min",
+      "2.08 mg/kg/min",
+      "3.13 mg/kg/min",
+      "4.50 mg/kg/min"
+    ],
+    "correctIndex": 2,
+    "explanation": "Step 1: Dextrose grams = 2,400 mL × 15 g/100 mL = 360 g. Step 2: Convert to mg: 360,000 mg. Step 3: GIR = 360,000 mg ÷ (80 kg × 1,440 min/day) = 360,000 ÷ 115,200 = 3.13 mg/kg/min. This is within the safe limit of ≤4 mg/kg/min. If GIR exceeded 4–5 mg/kg/min, the patient would be at risk for hyperglycemia, fatty liver, and excess CO2 production.",
+    "tags": [
+      "GIR",
+      "glucose infusion rate",
+      "dextrose",
+      "PN calculation",
+      "parenteral nutrition"
+    ]
+  },
+  {
+    "id": "m2-entp-017",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Calculations",
+    "difficulty": "hard",
+    "text": "What is the maximum daily dextrose allowance for a 60 kg patient on parenteral nutrition (using the maximum oxidation rate of 0.36 g/kg/hr)?",
+    "options": [
+      "216 g/day",
+      "360 g/day",
+      "518 g/day",
+      "720 g/day"
+    ],
+    "correctIndex": 2,
+    "explanation": "Maximum dextrose = 0.36 g/kg/hr × body weight × 24 hr = 0.36 × 60 × 24 = 518.4 g/day. Exceeding the maximum oxidation rate of 0.36 g/kg/hr leads to hyperglycemia, fatty liver (lipogenesis from excess glucose), and respiratory issues (CO2 production from fat synthesis). This limit guides safe PN dextrose dosing.",
+    "tags": [
+      "dextrose",
+      "maximum dose",
+      "PN calculation",
+      "0.36 g/kg/hr",
+      "parenteral nutrition"
+    ]
+  },
+  {
+    "id": "m2-entp-018",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Calculations",
+    "difficulty": "hard",
+    "text": "A PN order contains 75 g amino acids and 1,700 non-protein kcal. What is the NPC:N ratio?",
+    "options": [
+      "80:1",
+      "113:1",
+      "142:1",
+      "166:1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Step 1: Convert amino acids to nitrogen: 75 g ÷ 6.25 = 12 g nitrogen. Step 2: NPC:N = 1,700 NPC ÷ 12 g N ≈ 142:1. This is close to the 150:1 target for unstressed/stable patients (common options: 80:1 critically ill; 100:1 for patients with difficulty maintaining muscle mass; 150:1 for stable patients). The goal is to provide enough non-protein calories so amino acids can be used for protein synthesis, not oxidized for energy.",
+    "tags": [
+      "NPC:N ratio",
+      "parenteral nutrition",
+      "non-protein calories",
+      "nitrogen",
+      "calculation"
+    ]
+  },
+  {
+    "id": "m2-entp-019",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Calculations",
+    "difficulty": "hard",
+    "text": "A patient on PN receives 500 mL of 20% lipid emulsion. What is the maximum recommended hourly lipid infusion rate for a 70 kg patient, and is this within limits?",
+    "options": [
+      "Maximum is 0.11 g/kg/hr; 500 mL 20% lipid over 24 hours = 0.09 g/kg/hr — within limits",
+      "Maximum is 0.11 g/kg/hr; 500 mL 20% lipid over 12 hours = 0.12 g/kg/hr — exceeds limits",
+      "Maximum is 0.5 g/kg/hr; any 20% lipid infusion is within limits",
+      "Maximum is 2.5 g/kg/hr; lipid infusion is always within limits"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maximum hourly lipid infusion rate = 0.11 g/kg/hr. Calculate: 500 mL × 2 kcal/mL = 1,000 kcal ÷ 10 kcal/g = 100 g lipid. Over 12 hours: 100 g ÷ 70 kg ÷ 12 hr = 0.119 g/kg/hr — slightly exceeds the 0.11 g/kg/hr limit. Over 24 hours: 100 g ÷ 70 kg ÷ 24 hr = 0.060 g/kg/hr — well within limits. Extending the infusion to 24 hours improves lipid clearance.",
+    "tags": [
+      "lipid infusion rate",
+      "PN calculation",
+      "20% emulsion",
+      "parenteral nutrition",
+      "maximum dose"
+    ]
+  },
+  {
+    "id": "m2-entp-020",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Calculations",
+    "difficulty": "hard",
+    "text": "What is the maximum daily lipid dose for a 75 kg critically ill patient on parenteral nutrition?",
+    "options": [
+      "75 g/day (1 g/kg/day maximum for critically ill)",
+      "112 g/day (1.5 g/kg/day)",
+      "187.5 g/day (2.5 g/kg/day maximum)",
+      "300 g/day (4 g/kg/day)"
+    ],
+    "correctIndex": 0,
+    "explanation": "For critically ill patients, the maximum lipid dose is 1 g/kg/day (compared to 2.5 g/kg/day for non-critically ill patients). For a 75 kg critically ill patient: 1 g/kg × 75 kg = 75 g/day. This lower limit for critically ill patients is due to impaired lipid clearance, immune suppression from excessive lipids, and risk of fat overload syndrome. Lipids must constitute at least 2–4% of calories to prevent essential fatty acid deficiency.",
+    "tags": [
+      "lipid dose",
+      "critically ill",
+      "PN calculation",
+      "1 g/kg/day",
+      "parenteral nutrition"
+    ]
+  },
+  {
+    "id": "m2-entp-021",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Calculations",
+    "difficulty": "medium",
+    "text": "How many grams of amino acids are in 750 mL of a 7% amino acid solution?",
+    "options": [
+      "7 g",
+      "52.5 g",
+      "75 g",
+      "105 g"
+    ],
+    "correctIndex": 1,
+    "explanation": "A 7% amino acid solution contains 7 g per 100 mL. Calculate: 750 mL × (7 g/100 mL) = 52.5 g amino acids. Amino acids provide 4 kcal/g and approximately 16% nitrogen (to convert protein g to nitrogen g, divide by 6.25 or multiply by 0.16). Standard AA solutions range from 3–10% concentration.",
+    "tags": [
+      "amino acids",
+      "PN calculation",
+      "concentration",
+      "parenteral nutrition",
+      "protein"
+    ]
+  },
+  {
+    "id": "m2-entp-022",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "PN-associated liver disease includes steatosis (fatty liver) and cholestasis. Which PN practice is MOST likely to contribute to these complications?",
+    "options": [
+      "Providing amino acids in standard concentrations",
+      "Continuous infusion and high IV fat emulsion dosages",
+      "Providing lipids every other day rather than daily",
+      "Using peripheral rather than central access"
+    ],
+    "correctIndex": 1,
+    "explanation": "PN-associated liver disease occurs via two mechanisms: (1) when excess glucose is converted to fat (lipogenesis), fat accumulates in the liver causing steatosis; (2) lack of bile duct stimulation in patients receiving PN (vs. enteral feeding) leads to cholestasis and/or gallstones. Continuous infusion and high IV fat emulsion dosages are more likely to contribute to liver disease than spaced-out infusions.",
+    "tags": [
+      "PN-associated liver disease",
+      "steatosis",
+      "cholestasis",
+      "parenteral nutrition",
+      "complications"
+    ]
+  },
+  {
+    "id": "m2-entp-023",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "A patient on parenteral nutrition develops elevated blood glucose levels despite no prior history of diabetes. Which PN-related complication is this, and what is the most common cause?",
+    "options": [
+      "Hypertriglyceridemia — from excessive lipid infusion",
+      "Hyperglycemia — from insulin resistance, steroid medications, physiologic stress, or excess dextrose infusion",
+      "Catheter-related bloodstream infection — causing systemic inflammation and glucose dysregulation",
+      "Refeeding syndrome — from rapid reintroduction of carbohydrates"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hyperglycemia is a common PN complication occurring when the body cannot transport glucose into cells fast enough. Causes include: insulin resistance, diabetes, steroid medications, physiologic stress (illness, surgery, infection), and excess dextrose infusion rate (exceeding 0.36 g/kg/hr). Maintaining GIR ≤4 mg/kg/min and monitoring blood glucose are key management strategies.",
+    "tags": [
+      "hyperglycemia",
+      "parenteral nutrition",
+      "complications",
+      "dextrose",
+      "GIR"
+    ]
+  },
+  {
+    "id": "m2-entp-024",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition",
+    "difficulty": "medium",
+    "text": "Lipid emulsions do NOT contribute to the osmolarity of parenteral nutrition solutions. Why are they still advantageous for hypermetabolic patients with volume or carbohydrate restrictions?",
+    "options": [
+      "Lipids require no metabolic processing before use",
+      "Lipids are isotonic and calorically dense — provide calories without increasing osmolarity or dextrose load",
+      "Lipids are hypertonic and increase oncotic pressure to mobilize edema",
+      "Lipids stimulate insulin secretion to manage hyperglycemia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lipid emulsions are isotonic and calorically dense (1.1 kcal/mL for 10%; 2 kcal/mL for 20%). They provide significant calories without contributing to the tonicity of the PN solution, making them ideal when: (1) dextrose must be limited (e.g., hyperglycemia, respiratory compromise); (2) fluid volume must be restricted; or (3) extra calories are needed in a concentrated form for hypermetabolic patients.",
+    "tags": [
+      "lipids",
+      "parenteral nutrition",
+      "isotonic",
+      "caloric density",
+      "advantages"
+    ]
+  },
+  {
+    "id": "m2-entp-025",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition",
+    "difficulty": "hard",
+    "text": "To prevent essential fatty acid deficiency with parenteral nutrition, what minimum percentage of total estimated calories should come from lipids containing linoleic acid?",
+    "options": [
+      "1% of total calories",
+      "2–4% of total calories",
+      "10% of total calories",
+      "20% of total calories"
+    ],
+    "correctIndex": 1,
+    "explanation": "To prevent essential fatty acid deficiency (EFAD), at least 2–4% of total estimated calorie needs should come from lipids that include linoleic acid (an essential omega-6 fatty acid). Signs of EFAD include dry scaly skin, alopecia, poor wound healing, and impaired immune function. Lipids should not exceed 60% of non-protein calories or 2.5 g/kg/day (1 g/kg/day for critically ill).",
+    "tags": [
+      "essential fatty acid",
+      "linoleic acid",
+      "EFAD",
+      "PN",
+      "lipids"
+    ]
+  },
+  {
+    "id": "m2-entp-026",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition",
+    "difficulty": "medium",
+    "text": "Which NPC:N ratio is appropriate for a critically ill patient on parenteral nutrition?",
+    "options": [
+      "150:1 — high non-protein calories relative to nitrogen",
+      "100:1 — balanced ratio for patients with difficulty maintaining muscle mass",
+      "80:1 — higher nitrogen relative to non-protein calories for critically ill",
+      "200:1 — minimal nitrogen with maximal non-protein calories"
+    ],
+    "correctIndex": 2,
+    "explanation": "NPC:N ratios by patient status: (1) Critically ill: 80:1 (highest nitrogen needs relative to non-protein calories, to support protein synthesis and prevent catabolism); (2) Patients with difficulty maintaining muscle mass: 100:1; (3) Unstressed, stable patients: 150:1. The goal is to provide enough non-protein calories so amino acids are used for protein synthesis, not energy. To calculate NPC:N, divide total NPC by grams of nitrogen (protein g ÷ 6.25).",
+    "tags": [
+      "NPC:N ratio",
+      "critically ill",
+      "parenteral nutrition",
+      "protein synthesis",
+      "nitrogen"
+    ]
+  },
+  {
+    "id": "m2-entp-027",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition",
+    "difficulty": "medium",
+    "text": "Which of the following is a contraindication to using a lipid emulsion in parenteral nutrition?",
+    "options": [
+      "Mild hypertriglyceridemia requiring dietary modification",
+      "Acute pancreatitis, severe egg allergy, or abnormal lipid metabolism",
+      "Peripheral venous access requiring isotonic solutions",
+      "Protein-calorie malnutrition with increased energy needs"
+    ],
+    "correctIndex": 1,
+    "explanation": "Contraindications to lipid emulsions in PN include: abnormal lipid metabolism, lipid nephrosis, acute pancreatitis (lipids may worsen inflammation), and severe egg allergy (lipid emulsions contain egg phospholipid as an emulsifier). Caution is advised with blood coagulation disorders, moderate-to-severe liver disease, and compromised pulmonary function. Peripheral access is not a contraindication since lipids are isotonic.",
+    "tags": [
+      "lipid emulsion",
+      "contraindications",
+      "pancreatitis",
+      "egg allergy",
+      "PN"
+    ]
+  },
+  {
+    "id": "m2-entp-028",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition",
+    "difficulty": "medium",
+    "text": "What is the purpose of calculating PN osmolarity, and which components contribute to it?",
+    "options": [
+      "To determine total calories; all components contribute equally",
+      "To guide central vs. peripheral access decisions; dextrose (×5 mOsm/g) and amino acids (×10 mOsm/g) contribute; lipids do NOT",
+      "To assess renal tolerance; amino acids contribute most to osmolarity",
+      "To set infusion rate; only dextrose contributes to osmolarity"
+    ],
+    "correctIndex": 1,
+    "explanation": "PN osmolarity is calculated to determine if central or peripheral access is appropriate. Formula: (dextrose g/L × 5) + (AA g/L × 10) + 300–400 mOsm/L (for vitamins/minerals). Lipids do NOT contribute to osmolarity. Solutions >900–1,100 mOsm/L require central access. Central PN can be highly hypertonic (>2,000 mOsm/L) because the large blood volume of the vena cava dilutes it rapidly.",
+    "tags": [
+      "PN osmolarity",
+      "central access",
+      "peripheral access",
+      "dextrose",
+      "amino acids"
+    ]
+  },
+  {
+    "id": "m2-entp-029",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition",
+    "difficulty": "medium",
+    "text": "A patient receiving continuous EN has a gastric residual volume (GRV) of 350 mL checked by the nurse. According to current ASPEN guidelines, what is the appropriate action?",
+    "options": [
+      "Hold EN immediately and contact the physician",
+      "Continue EN; current guidelines do not recommend withholding EN for residuals <500 mL without additional signs of intolerance",
+      "Switch to post-pyloric access immediately",
+      "Reduce infusion rate by 50% until residuals normalize"
+    ],
+    "correctIndex": 1,
+    "explanation": "Current ASPEN guidelines do NOT routinely recommend withholding EN based on gastric residual volumes (GRVs) alone for ICU patients. EN should not be withheld when residuals are <500 mL without additional signs of intolerance (e.g., abdominal distension, vomiting, aspiration). Previous guidelines suggested checking residuals every 3–5 hours with a cutoff of 100–150 mL, but current evidence does not support routine GRV monitoring as standard care.",
+    "tags": [
+      "gastric residual volume",
+      "GRV",
+      "ASPEN guidelines",
+      "enteral nutrition",
+      "ICU"
+    ]
+  },
+  {
+    "id": "m2-entp-030",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition",
+    "difficulty": "hard",
+    "text": "A patient on PN receives 1 L D50W and 500 mL of 10% amino acid solution combined in a single bag (total volume 1.5 L). What is the approximate osmolarity of this solution?",
+    "options": [
+      "900 mOsm/L",
+      "1,350 mOsm/L",
+      "2,233–2,333 mOsm/L",
+      "4,500 mOsm/L"
+    ],
+    "correctIndex": 2,
+    "explanation": "Calculate g per liter of the 1.5 L solution: Dextrose: 1 L D50W = 500 g dextrose / 1.5 L = 333 g/L × 5 mOsm/g = 1,667 mOsm/L. Amino acids: 500 mL × 10 g/100 mL = 50 g AA / 1.5 L = 33 g/L × 10 mOsm/g = 333 mOsm/L. Add 300–400 for vitamins/minerals. Total ≈ 1,667 + 333 + 300–400 = 2,300–2,400 mOsm/L → answer C (2,233–2,333). This highly hypertonic solution REQUIRES central access (limit for PPN is 900–1,100 mOsm/L).",
+    "tags": [
+      "osmolarity calculation",
+      "PN",
+      "central access",
+      "dextrose",
+      "amino acids"
+    ]
+  }
+]

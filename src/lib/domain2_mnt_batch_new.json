@@ -1,0 +1,647 @@
+[
+  {
+    "id": "m2-mnt-001",
+    "domain": "Domain II",
+    "topic": "Critical Care",
+    "difficulty": "medium",
+    "text": "A critically ill patient weighing 80 kg is admitted to the ICU without renal or hepatic dysfunction. According to ASPEN guidelines, what is the appropriate caloric goal?",
+    "options": [
+      "1,600–1,800 kcal/day",
+      "2,000–2,800 kcal/day",
+      "3,200–3,500 kcal/day",
+      "800–1,200 kcal/day"
+    ],
+    "correctIndex": 1,
+    "explanation": "ASPEN recommends 25–35 kcal/kg for critically ill patients without organ dysfunction. For an 80 kg patient: 25×80=2,000 to 35×80=2,800 kcal/day.",
+    "tags": [
+      "critical care",
+      "ASPEN",
+      "calories",
+      "ICU"
+    ]
+  },
+  {
+    "id": "m2-mnt-002",
+    "domain": "Domain II",
+    "topic": "Critical Care",
+    "difficulty": "medium",
+    "text": "A critically ill patient on continuous renal replacement therapy (CRRT) requires which of the following protein goals?",
+    "options": [
+      "0.8–1.0 g/kg/day",
+      "1.0–1.2 g/kg/day",
+      "1.2–1.5 g/kg/day",
+      "1.5–2.5 g/kg/day"
+    ],
+    "correctIndex": 3,
+    "explanation": "CRRT increases protein losses significantly. ASPEN guidelines recommend 1.5–2.5 g/kg/day for patients on CRRT, higher than the standard 1.2–2.0 g/kg/day for general critical care.",
+    "tags": [
+      "critical care",
+      "CRRT",
+      "protein",
+      "renal"
+    ]
+  },
+  {
+    "id": "m2-mnt-003",
+    "domain": "Domain II",
+    "topic": "Critical Care",
+    "difficulty": "hard",
+    "text": "A critically ill patient with a BMI of 42 kg/m² is admitted to the ICU. What is the recommended caloric goal according to ASPEN/SCCM guidelines?",
+    "options": [
+      "25–30 kcal/kg actual body weight",
+      "22–25 kcal/kg ideal body weight",
+      "11–14 kcal/kg actual body weight",
+      "15–20 kcal/kg ideal body weight"
+    ],
+    "correctIndex": 2,
+    "explanation": "For obese critically ill patients with BMI 30–50, ASPEN/SCCM recommends 11–14 kcal/kg actual body weight to avoid overfeeding while meeting metabolic needs.",
+    "tags": [
+      "critical care",
+      "obesity",
+      "BMI",
+      "calories"
+    ]
+  },
+  {
+    "id": "m2-mnt-004",
+    "domain": "Domain II",
+    "topic": "Critical Care",
+    "difficulty": "hard",
+    "text": "A critically ill patient with a BMI of 55 kg/m² requires nutrition support. Which caloric goal is most appropriate?",
+    "options": [
+      "11–14 kcal/kg actual body weight",
+      "25–30 kcal/kg actual body weight",
+      "22–25 kcal/kg ideal body weight",
+      "30–35 kcal/kg ideal body weight"
+    ],
+    "correctIndex": 2,
+    "explanation": "For critically ill patients with BMI >50, ASPEN/SCCM recommends 22–25 kcal/kg ideal body weight. This differs from BMI 30–50 (11–14 kcal/kg actual weight).",
+    "tags": [
+      "critical care",
+      "obesity",
+      "BMI >50",
+      "calories"
+    ]
+  },
+  {
+    "id": "m2-mnt-005",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "medium",
+    "text": "A patient with major burns is in the flow phase of recovery. Which macronutrient distribution is recommended?",
+    "options": [
+      "CHO 40%, protein 30%, fat 30%",
+      "CHO 60%, protein 20–25% of kcal, fat remainder",
+      "CHO 50%, protein 15%, fat 35%",
+      "CHO 30%, protein 40%, fat 30%"
+    ],
+    "correctIndex": 1,
+    "explanation": "During the hypermetabolic flow phase in burn patients, carbohydrates should comprise 60% of calories, protein 20–25% of kcal (or 1.5–2 g/kg), with fat making up the remainder.",
+    "tags": [
+      "burns",
+      "macronutrients",
+      "flow phase",
+      "hypermetabolism"
+    ]
+  },
+  {
+    "id": "m2-mnt-006",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "medium",
+    "text": "Which micronutrients should be supplemented in high doses for a patient with major burns?",
+    "options": [
+      "Vitamin A and iron",
+      "Vitamin B12 and folate",
+      "Vitamin C and zinc",
+      "Vitamin D and calcium"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vitamin C (antioxidant, collagen synthesis) and zinc (wound healing, immune function) are the priority micronutrient supplements in burn patients due to increased losses and metabolic demands.",
+    "tags": [
+      "burns",
+      "micronutrients",
+      "vitamin C",
+      "zinc",
+      "wound healing"
+    ]
+  },
+  {
+    "id": "m2-mnt-007",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "hard",
+    "text": "What is the maximum caloric increase recommended above resting energy expenditure (REE) for a major burn patient?",
+    "options": [
+      "1.2× REE",
+      "1.5× REE",
+      "2× REE",
+      "2.5× REE"
+    ],
+    "correctIndex": 2,
+    "explanation": "Burn patients may require 20–30% above predicted needs, with a maximum of 2× REE. Exceeding this increases risk of overfeeding complications including hyperglycemia and hepatic steatosis.",
+    "tags": [
+      "burns",
+      "energy",
+      "REE",
+      "overfeeding"
+    ]
+  },
+  {
+    "id": "m2-mnt-008",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "medium",
+    "text": "When should enteral nutrition ideally be initiated in a major burn patient?",
+    "options": [
+      "Within 4–6 hours of injury",
+      "After 24 hours when the patient is hemodynamically stable",
+      "After 48–72 hours during the flow phase",
+      "Only after bowel sounds return"
+    ],
+    "correctIndex": 0,
+    "explanation": "Early enteral nutrition within 4–6 hours of burn injury is recommended to preserve gut integrity, reduce hypermetabolic response, and decrease infection risk.",
+    "tags": [
+      "burns",
+      "enteral nutrition",
+      "early feeding",
+      "timing"
+    ]
+  },
+  {
+    "id": "m2-mnt-009",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "hard",
+    "text": "During the acute phase of traumatic brain injury (TBI), what percentage of resting energy expenditure (REE) is recommended?",
+    "options": [
+      "80–90% REE",
+      "50–65% REE",
+      "100–120% REE",
+      "130–150% REE"
+    ],
+    "correctIndex": 1,
+    "explanation": "During the acute phase of TBI, 50–65% of REE is recommended to avoid overfeeding, which can worsen outcomes. After stabilization, goals increase to 25–30 kcal/kg.",
+    "tags": [
+      "TBI",
+      "traumatic brain injury",
+      "acute phase",
+      "REE",
+      "energy"
+    ]
+  },
+  {
+    "id": "m2-mnt-010",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "medium",
+    "text": "Which feeding route is preferred for a patient with traumatic brain injury requiring nutrition support?",
+    "options": [
+      "Gastric enteral feeding",
+      "Jejunal enteral feeding",
+      "Parenteral nutrition",
+      "Oral supplements only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Jejunal enteral feeding is preferred in TBI patients due to high risk of aspiration, delayed gastric emptying, and impaired airway protective reflexes.",
+    "tags": [
+      "TBI",
+      "enteral nutrition",
+      "jejunal",
+      "feeding route"
+    ]
+  },
+  {
+    "id": "m2-mnt-011",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "hard",
+    "text": "A patient with tetraplegia is in the rehabilitation phase following spinal cord injury. What is the recommended caloric goal?",
+    "options": [
+      "28 kcal/kg",
+      "23 kcal/kg",
+      "35 kcal/kg",
+      "30 kcal/kg"
+    ],
+    "correctIndex": 1,
+    "explanation": "During rehabilitation, caloric goals differ by injury level: tetraplegia requires 23 kcal/kg (lower due to reduced muscle mass and metabolic rate), while paraplegia requires 28 kcal/kg.",
+    "tags": [
+      "spinal cord injury",
+      "tetraplegia",
+      "rehabilitation",
+      "calories"
+    ]
+  },
+  {
+    "id": "m2-mnt-012",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "medium",
+    "text": "During the acute phase of spinal cord injury, caloric needs should be set at which level compared to predicted requirements?",
+    "options": [
+      "10% below predicted",
+      "Equal to predicted",
+      "10–20% above predicted",
+      "30–40% above predicted"
+    ],
+    "correctIndex": 0,
+    "explanation": "During acute spinal cord injury, energy needs are approximately 10% below predicted due to reduced metabolic activity from muscle paralysis and altered sympathetic tone.",
+    "tags": [
+      "spinal cord injury",
+      "acute phase",
+      "energy",
+      "calories"
+    ]
+  },
+  {
+    "id": "m2-mnt-013",
+    "domain": "Domain II",
+    "topic": "Pressure Ulcers",
+    "difficulty": "medium",
+    "text": "A patient presents with a stage III pressure ulcer. Which of the following nutrition goals is most appropriate?",
+    "options": [
+      "25–30 kcal/kg and 0.8–1.0 g/kg protein",
+      "30–35 kcal/kg and 1.25–1.5 g/kg protein",
+      "35–40 kcal/kg and 1.5–2.0 g/kg protein",
+      "20–25 kcal/kg and 2.0–2.5 g/kg protein"
+    ],
+    "correctIndex": 2,
+    "explanation": "Stage III–IV (full thickness) pressure ulcers require 35–40 kcal/kg and 1.5–2.0 g/kg protein to support wound healing, tissue repair, and immune function.",
+    "tags": [
+      "pressure ulcers",
+      "stage III",
+      "stage IV",
+      "protein",
+      "calories"
+    ]
+  },
+  {
+    "id": "m2-mnt-014",
+    "domain": "Domain II",
+    "topic": "Pressure Ulcers",
+    "difficulty": "medium",
+    "text": "A patient with a stage II pressure ulcer requires nutrition support. What are the appropriate energy and protein goals?",
+    "options": [
+      "35–40 kcal/kg and 1.5–2.0 g/kg",
+      "30–35 kcal/kg and 1.25–1.5 g/kg",
+      "25–30 kcal/kg and 1.0–1.2 g/kg",
+      "20–25 kcal/kg and 0.8–1.0 g/kg"
+    ],
+    "correctIndex": 1,
+    "explanation": "Stage I–II (partial thickness) pressure ulcers require 30–35 kcal/kg and 1.25–1.5 g/kg protein. Higher goals (35–40 kcal/kg, 1.5–2.0 g/kg) are reserved for stage III–IV.",
+    "tags": [
+      "pressure ulcers",
+      "stage I",
+      "stage II",
+      "protein",
+      "calories"
+    ]
+  },
+  {
+    "id": "m2-mnt-015",
+    "domain": "Domain II",
+    "topic": "Chronic Wounds",
+    "difficulty": "medium",
+    "text": "What is the recommended fluid goal for a patient with a chronic wound?",
+    "options": [
+      "15–20 mL/kg or 0.5 mL/kcal",
+      "30 mL/kg or 1–1.5 mL/kcal",
+      "50 mL/kg or 2 mL/kcal",
+      "10 mL/kg regardless of intake"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chronic wound patients require 30 mL/kg or 1–1.5 mL/kcal for adequate hydration to support tissue perfusion, nutrient delivery, and wound healing.",
+    "tags": [
+      "chronic wounds",
+      "fluid",
+      "hydration",
+      "wound healing"
+    ]
+  },
+  {
+    "id": "m2-mnt-016",
+    "domain": "Domain II",
+    "topic": "Eating Disorders",
+    "difficulty": "medium",
+    "text": "A patient with anorexia nervosa begins refeeding. Which electrolyte imbalance is the primary concern during this process?",
+    "options": [
+      "Hyperkalemia",
+      "Hypophosphatemia",
+      "Hypernatremia",
+      "Hypercalcemia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Refeeding syndrome is characterized primarily by hypophosphatemia as glucose reintroduction shifts phosphate intracellularly. This can cause arrhythmias, seizures, and cardiorespiratory failure.",
+    "tags": [
+      "anorexia nervosa",
+      "refeeding syndrome",
+      "hypophosphatemia",
+      "electrolytes"
+    ]
+  },
+  {
+    "id": "m2-mnt-017",
+    "domain": "Domain II",
+    "topic": "Eating Disorders",
+    "difficulty": "medium",
+    "text": "Which of the following physical findings is most characteristic of anorexia nervosa?",
+    "options": [
+      "Peripheral edema and ascites",
+      "Lanugo, bradycardia, and osteoporosis",
+      "Parotid gland enlargement and Russell's sign",
+      "Hyperkalemia and metabolic alkalosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Anorexia nervosa is associated with lanugo (fine body hair from starvation), bradycardia (from cardiac muscle wasting), and osteoporosis (from estrogen deficiency and poor calcium intake).",
+    "tags": [
+      "anorexia nervosa",
+      "physical findings",
+      "lanugo",
+      "bradycardia",
+      "osteoporosis"
+    ]
+  },
+  {
+    "id": "m2-mnt-018",
+    "domain": "Domain II",
+    "topic": "Eating Disorders",
+    "difficulty": "medium",
+    "text": "Which electrolyte abnormalities are most commonly associated with bulimia nervosa due to purging behaviors?",
+    "options": [
+      "Hyperkalemia, hyperchloremia, hypermagnesemia",
+      "Hypokalemia, hypochloremia, hypomagnesemia",
+      "Hypernatremia, hypercalcemia, hyperphosphatemia",
+      "Hyponatremia, hypocalcemia, hypophosphatemia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Purging in bulimia nervosa causes loss of stomach acid (HCl), leading to hypokalemia, hypochloremia, and hypomagnesemia. These electrolyte imbalances increase risk of cardiac arrhythmias.",
+    "tags": [
+      "bulimia nervosa",
+      "purging",
+      "electrolytes",
+      "hypokalemia",
+      "hypochloremia"
+    ]
+  },
+  {
+    "id": "m2-mnt-019",
+    "domain": "Domain II",
+    "topic": "Eating Disorders",
+    "difficulty": "hard",
+    "text": "A patient is admitted with a BMI of 15 kg/m² and a reported weight loss of 18% of usual body weight over 4 months. Which condition is this patient at highest risk for upon refeeding?",
+    "options": [
+      "Dumping syndrome",
+      "Refeeding syndrome",
+      "Wernicke's encephalopathy",
+      "Short bowel syndrome"
+    ],
+    "correctIndex": 1,
+    "explanation": "Refeeding syndrome risk factors include BMI <16 and weight loss >15% UBW in 3–6 months. This patient meets both criteria. Rapid reintroduction of carbohydrates causes intracellular shifts of phosphorus, potassium, and magnesium.",
+    "tags": [
+      "refeeding syndrome",
+      "risk factors",
+      "BMI",
+      "weight loss",
+      "anorexia"
+    ]
+  },
+  {
+    "id": "m2-mnt-020",
+    "domain": "Domain II",
+    "topic": "Eating Disorders",
+    "difficulty": "hard",
+    "text": "Which of the following is NOT a characteristic feature of refeeding syndrome?",
+    "options": [
+      "Hypophosphatemia",
+      "Hypomagnesemia",
+      "Hyperkalemia",
+      "Cardiac arrhythmias"
+    ],
+    "correctIndex": 2,
+    "explanation": "Refeeding syndrome causes hypokalemia (not hyperkalemia), hypophosphatemia, and hypomagnesemia due to intracellular shifts when carbohydrates are reintroduced. These electrolyte abnormalities can cause arrhythmias, seizures, and respiratory failure.",
+    "tags": [
+      "refeeding syndrome",
+      "electrolytes",
+      "hypokalemia",
+      "hypophosphatemia"
+    ]
+  },
+  {
+    "id": "m2-mnt-021",
+    "domain": "Domain II",
+    "topic": "Eating Disorders",
+    "difficulty": "medium",
+    "text": "A child presents with extremely selective eating, food refusal based on sensory characteristics, and failure to thrive, but without fear of weight gain or body image disturbance. Which eating disorder best describes this presentation?",
+    "options": [
+      "Anorexia nervosa",
+      "Bulimia nervosa",
+      "Binge eating disorder",
+      "Avoidant/Restrictive Food Intake Disorder (ARFID)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Avoidant/Restrictive Food Intake Disorder (ARFID) involves food restriction based on sensory characteristics or fear of aversive consequences, without weight/shape concerns. It commonly presents in children with failure to thrive and micronutrient deficiencies.",
+    "tags": [
+      "ARFID",
+      "eating disorders",
+      "children",
+      "failure to thrive",
+      "sensory"
+    ]
+  },
+  {
+    "id": "m2-mnt-022",
+    "domain": "Domain II",
+    "topic": "Critical Care",
+    "difficulty": "hard",
+    "text": "Which method is considered the gold standard for determining energy requirements in critically ill patients according to ASPEN guidelines?",
+    "options": [
+      "Harris-Benedict equation with stress factors",
+      "Mifflin-St Jeor equation",
+      "Indirect calorimetry",
+      "25 kcal/kg actual body weight"
+    ],
+    "correctIndex": 2,
+    "explanation": "Indirect calorimetry is the gold standard for measuring energy expenditure in critically ill patients (ASPEN recommends 65–70% of measured REE via indirect calorimetry). Predictive equations are less accurate in critical illness.",
+    "tags": [
+      "critical care",
+      "indirect calorimetry",
+      "energy needs",
+      "ASPEN",
+      "gold standard"
+    ]
+  },
+  {
+    "id": "m2-mnt-023",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "medium",
+    "text": "After stabilization from traumatic brain injury, what is the recommended caloric goal?",
+    "options": [
+      "15–20 kcal/kg",
+      "25–30 kcal/kg",
+      "35–40 kcal/kg",
+      "45–50 kcal/kg"
+    ],
+    "correctIndex": 1,
+    "explanation": "After the acute phase stabilization in TBI, caloric goals increase to 25–30 kcal/kg to support recovery, neurological healing, and prevent malnutrition.",
+    "tags": [
+      "TBI",
+      "traumatic brain injury",
+      "post-acute",
+      "energy",
+      "calories"
+    ]
+  },
+  {
+    "id": "m2-mnt-024",
+    "domain": "Domain II",
+    "topic": "Critical Care",
+    "difficulty": "medium",
+    "text": "A critically ill patient not on CRRT requires protein support. What is the standard protein recommendation?",
+    "options": [
+      "0.5–0.8 g/kg/day",
+      "0.8–1.0 g/kg/day",
+      "1.2–2.0 g/kg/day",
+      "2.5–3.0 g/kg/day"
+    ],
+    "correctIndex": 2,
+    "explanation": "For critically ill patients without renal replacement therapy, ASPEN recommends 1.2–2.0 g/kg/day of protein to support immune function, wound healing, and prevent muscle catabolism.",
+    "tags": [
+      "critical care",
+      "protein",
+      "ASPEN",
+      "ICU"
+    ]
+  },
+  {
+    "id": "m2-mnt-025",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "hard",
+    "text": "Which metabolic phase occurs within the first 0–48 hours after a major burn injury and is characterized by hemodynamic instability and decreased metabolic rate?",
+    "options": [
+      "Flow phase",
+      "Ebb phase",
+      "Anabolic phase",
+      "Catabolic phase"
+    ],
+    "correctIndex": 1,
+    "explanation": "The ebb phase (0–48 hours post-burn) is characterized by hemodynamic instability, decreased cardiac output, and reduced metabolic rate (shock response). The flow phase follows and is characterized by hypermetabolism — this is when aggressive nutritional support is most critical.",
+    "tags": [
+      "burns",
+      "ebb phase",
+      "flow phase",
+      "metabolic response",
+      "hypermetabolism"
+    ]
+  },
+  {
+    "id": "m2-mnt-026",
+    "domain": "Domain II",
+    "topic": "Pressure Ulcers",
+    "difficulty": "easy",
+    "text": "Which vitamin plays a critical role in collagen synthesis and is particularly important for wound healing in pressure ulcer patients?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vitamin C is essential for collagen synthesis and cross-linking, immune function, and antioxidant protection. Deficiency impairs wound healing and increases pressure ulcer risk.",
+    "tags": [
+      "pressure ulcers",
+      "vitamin C",
+      "collagen",
+      "wound healing",
+      "micronutrients"
+    ]
+  },
+  {
+    "id": "m2-mnt-027",
+    "domain": "Domain II",
+    "topic": "Eating Disorders",
+    "difficulty": "medium",
+    "text": "Which BMI threshold indicates high risk for refeeding syndrome in a patient with anorexia nervosa?",
+    "options": [
+      "BMI < 20 kg/m²",
+      "BMI < 18.5 kg/m²",
+      "BMI < 16 kg/m²",
+      "BMI < 14 kg/m²"
+    ],
+    "correctIndex": 2,
+    "explanation": "A BMI < 16 kg/m² is a major risk factor for refeeding syndrome. Other criteria include weight loss > 15% UBW in 3–6 months, little or no intake for > 10 days, or low electrolyte levels before refeeding.",
+    "tags": [
+      "refeeding syndrome",
+      "BMI",
+      "anorexia",
+      "risk factors"
+    ]
+  },
+  {
+    "id": "m2-mnt-028",
+    "domain": "Domain II",
+    "topic": "Critical Care",
+    "difficulty": "medium",
+    "text": "In critically ill patients, when is permissive underfeeding most appropriate?",
+    "options": [
+      "During the first 24–48 hours of ICU admission in hemodynamically unstable patients",
+      "Only in patients with BMI > 30",
+      "When indirect calorimetry confirms hypermetabolism",
+      "In all ICU patients for the first 7 days"
+    ],
+    "correctIndex": 0,
+    "explanation": "Permissive underfeeding during the first 24–48 hours is appropriate for hemodynamically unstable patients while resuscitation is ongoing. Full nutrition support is initiated once the patient is stabilized.",
+    "tags": [
+      "critical care",
+      "permissive underfeeding",
+      "hemodynamic instability",
+      "ICU",
+      "timing"
+    ]
+  },
+  {
+    "id": "m2-mnt-029",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "medium",
+    "text": "A patient with paraplegia is in the rehabilitation phase. What caloric goal is recommended?",
+    "options": [
+      "23 kcal/kg",
+      "28 kcal/kg",
+      "35 kcal/kg",
+      "40 kcal/kg"
+    ],
+    "correctIndex": 1,
+    "explanation": "During rehabilitation, paraplegia requires 28 kcal/kg while tetraplegia requires 23 kcal/kg. The difference reflects the greater muscle mass preservation and higher metabolic rate in paraplegia versus tetraplegia.",
+    "tags": [
+      "spinal cord injury",
+      "paraplegia",
+      "rehabilitation",
+      "calories",
+      "energy"
+    ]
+  },
+  {
+    "id": "m2-mnt-030",
+    "domain": "Domain II",
+    "topic": "Eating Disorders",
+    "difficulty": "hard",
+    "text": "Which of the following findings is most consistent with a diagnosis of bulimia nervosa rather than anorexia nervosa binge-purge subtype?",
+    "options": [
+      "BMI below 17.5 kg/m²",
+      "Lanugo and amenorrhea",
+      "Normal or above-normal body weight with dental erosion",
+      "Severe bradycardia and hypotension"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bulimia nervosa patients typically maintain normal or above-normal weight (unlike anorexia nervosa which requires low BMI). Dental erosion from frequent vomiting is a hallmark finding, along with parotid hypertrophy and Russell's sign.",
+    "tags": [
+      "bulimia nervosa",
+      "anorexia nervosa",
+      "differential diagnosis",
+      "dental erosion",
+      "weight"
+    ]
+  }
+]

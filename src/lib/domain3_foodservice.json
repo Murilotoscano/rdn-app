@@ -1,0 +1,669 @@
+[
+  {
+    "id": "m3-fsl-001",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A menu planner is designing a cycle menu for a hospital cafeteria. Which of the following is a primary advantage of cycle menus over static menus?",
+    "options": [
+      "They allow customers to choose individual items at different prices",
+      "They enable standardized purchasing, bulk buying, and waste reduction",
+      "They change daily based on ingredient availability",
+      "They offer a single fixed price for an entire meal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cycle menus repeat on a set schedule, enabling standardized purchasing lists, bulk buying discounts, and reduced waste through predictable demand. Static menus never change; du jour menus change daily; prix fixe menus offer a fixed-price meal.",
+    "tags": [
+      "menu-planning",
+      "cycle-menu",
+      "procurement"
+    ]
+  },
+  {
+    "id": "m3-fsl-002",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "In menu engineering, a menu item that is POPULAR but NOT profitable is classified as a:",
+    "options": [
+      "Star",
+      "Puzzle",
+      "Plow Horse",
+      "Dog"
+    ],
+    "correctIndex": 2,
+    "explanation": "Menu engineering 2x2 matrix: Stars = popular + profitable (keep, feature prominently); Plow Horses = popular + not profitable (find ways to reduce cost or raise price); Puzzles = not popular + profitable (improve marketing); Dogs = not popular + not profitable (consider removing).",
+    "tags": [
+      "menu-engineering",
+      "profitability",
+      "popularity"
+    ]
+  },
+  {
+    "id": "m3-fsl-003",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "hard",
+    "text": "A foodservice director calculates the inventory turnover rate as 3.5 times per month. Food cost is $42,000. What is the average food inventory value?",
+    "options": [
+      "$6,000",
+      "$10,000",
+      "$12,000",
+      "$14,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "Inventory Turnover = Food Cost ÷ Average Food Inventory. Rearranging: Average Food Inventory = Food Cost ÷ Turnover Rate = $42,000 ÷ 3.5 = $12,000. Normal inventory turnover is 2-3 times per month; 3.5 indicates efficient inventory management.",
+    "tags": [
+      "inventory",
+      "turnover",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m3-fsl-004",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A foodservice manager uses the ABC inventory classification system. Items classified as 'A items' represent what percentage of total inventory items and what percentage of total inventory cost?",
+    "options": [
+      "50-60% of items, 5-10% of cost",
+      "10-20% of items, 60-80% of cost",
+      "20-30% of items, 30-40% of cost",
+      "10-20% of items, 5-10% of cost"
+    ],
+    "correctIndex": 1,
+    "explanation": "ABC classification: A items = 10-20% of inventory items but represent 60-80% of total cost (most valuable, tightest control); B items = middle range; C items = 50-60% of items but only 5-10% of cost (lowest value, least control needed). A items require the most rigorous inventory management.",
+    "tags": [
+      "inventory",
+      "ABC-classification",
+      "cost-control"
+    ]
+  },
+  {
+    "id": "m3-fsl-005",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A foodservice department uses the FIFO method for inventory rotation. Which statement best describes this practice?",
+    "options": [
+      "Newest items are placed in front so they are used first",
+      "Oldest items are placed in front so they are used first",
+      "Items are stored by cost, with most expensive items most accessible",
+      "Items are rotated weekly regardless of arrival date"
+    ],
+    "correctIndex": 1,
+    "explanation": "FIFO (First In, First Out) means the oldest items (first received) are placed in front and used first, reducing spoilage and ensuring freshness. LIFO (Last In, First Out) means newest items are used first — acceptable in some accounting contexts but poor food safety practice.",
+    "tags": [
+      "inventory",
+      "FIFO",
+      "food-safety",
+      "storage"
+    ]
+  },
+  {
+    "id": "m3-fsl-006",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A hospital foodservice department uses the conventional production system. Which of the following is a characteristic disadvantage of this system?",
+    "options": [
+      "Food must be reheated twice before service",
+      "Labor workload is uneven with peaks around meal times",
+      "Food is produced in a central kitchen and shipped to satellite locations",
+      "It requires pre-prepared food from external vendors"
+    ],
+    "correctIndex": 1,
+    "explanation": "Conventional (cook-to-serve) systems produce food immediately before service in the same facility, resulting in uneven labor workload with peaks during meal preparation times. Ready-prepared systems (cook-chill/cook-freeze) double-heat food. Commissary uses a central kitchen. Assembly/serve uses pre-prepared food from vendors.",
+    "tags": [
+      "production-systems",
+      "conventional",
+      "labor"
+    ]
+  },
+  {
+    "id": "m3-fsl-007",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A large foodservice operation produces food in a central kitchen and distributes it in bulk to satellite kitchens where it is portioned and assembled for service. This is an example of which distribution system?",
+    "options": [
+      "Centralized distribution",
+      "Decentralized distribution",
+      "Commissary production",
+      "Assembly/serve production"
+    ],
+    "correctIndex": 1,
+    "explanation": "Decentralized distribution sends bulk food from a central production area to satellite locations where portioning and assembly occur. Centralized distribution portions and assembles food centrally and delivers it ready to serve. The question asks about the distribution system (how food gets to the patient), not the production system.",
+    "tags": [
+      "distribution-systems",
+      "decentralized",
+      "satellite-kitchens"
+    ]
+  },
+  {
+    "id": "m3-fsl-008",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "When purchasing, a formal competitive bidding process that requires sealed bids for large contracts is called:",
+    "options": [
+      "Request for Proposal (RFP)",
+      "Informal bidding",
+      "Prime vendor agreement",
+      "Group purchasing organization (GPO)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Formal procurement methods include sealed bidding (Request for Proposal/RFP) for large contracts requiring competitive bids. Informal bidding (telephone or written) is used for smaller purchases. A prime vendor agreement is a long-term contract with a single supplier. A GPO aggregates purchasing power across multiple facilities.",
+    "tags": [
+      "procurement",
+      "bidding",
+      "RFP"
+    ]
+  },
+  {
+    "id": "m3-fsl-009",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A food distributor who does NOT take title or possess inventory, but acts as a middleman earning a commission is called a:",
+    "options": [
+      "Wholesaler",
+      "Broker",
+      "Manufacturer's representative",
+      "Group purchasing agent"
+    ],
+    "correctIndex": 1,
+    "explanation": "A broker does not take title to or physically possess inventory — they represent manufacturers and earn a commission on sales. A wholesaler takes title to inventory and resells it. A manufacturer's representative works directly for one manufacturer. A GPO aggregates purchasing across organizations.",
+    "tags": [
+      "procurement",
+      "broker",
+      "wholesaler",
+      "supply-chain"
+    ]
+  },
+  {
+    "id": "m3-fsl-010",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "Upon delivery of a shipment, the receiving clerk counts and inspects items WITHOUT referencing the supplier's invoice or packing slip. This receiving method is called:",
+    "options": [
+      "Invoice receiving",
+      "Blind check method",
+      "Standing order check",
+      "Point-of-sale verification"
+    ],
+    "correctIndex": 1,
+    "explanation": "The blind check method requires the receiver to count and inspect items without seeing the invoice or packing list, then compare the results to the purchase order. This prevents the receiver from simply verifying the supplier's list without actually counting — a safeguard against short deliveries and theft.",
+    "tags": [
+      "receiving",
+      "blind-check",
+      "foodservice-operations"
+    ]
+  },
+  {
+    "id": "m3-fsl-011",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "Title to goods transfers from supplier to buyer at the point of origin (shipping dock). This shipping term is:",
+    "options": [
+      "FOB Destination",
+      "CIF (Cost, Insurance, Freight)",
+      "FOB Origin",
+      "Prime vendor agreement"
+    ],
+    "correctIndex": 2,
+    "explanation": "FOB Origin (Free On Board Origin) means title transfers when goods leave the supplier's dock — the buyer is responsible for goods in transit. FOB Destination means title transfers when goods arrive at the buyer's location (supplier responsible in transit). CIF means the seller pays for cost, insurance, and freight to the destination.",
+    "tags": [
+      "receiving",
+      "FOB",
+      "shipping-terms"
+    ]
+  },
+  {
+    "id": "m3-fsl-012",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A foodservice manager calculates the reorder point for ground beef. Safety stock is 10 lbs, average daily sales are 5 lbs, and lead time is 3 days. What is the reorder point?",
+    "options": [
+      "15 lbs",
+      "20 lbs",
+      "25 lbs",
+      "30 lbs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Reorder Point = Safety Stock + (Average Sales × Lead Time) = 10 + (5 × 3) = 10 + 15 = 25 lbs. This means a new order should be placed when inventory reaches 25 lbs to avoid stockouts during the lead time while maintaining safety stock.",
+    "tags": [
+      "inventory",
+      "reorder-point",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m3-fsl-013",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "Which foodservice production system has the HIGHEST food cost but LOWEST labor cost?",
+    "options": [
+      "Conventional system",
+      "Ready-prepared system",
+      "Commissary system",
+      "Assembly/serve system"
+    ],
+    "correctIndex": 3,
+    "explanation": "The assembly/serve system uses pre-prepared, commercially processed food requiring minimal labor (lowest labor cost) but the food itself costs more because all preparation is done by outside vendors (highest food cost). Conventional systems have high labor costs. Ready-prepared and commissary systems balance food and labor costs differently.",
+    "tags": [
+      "production-systems",
+      "assembly-serve",
+      "food-cost",
+      "labor-cost"
+    ]
+  },
+  {
+    "id": "m3-fsl-014",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "What are the correct temperature requirements for dry storage of non-perishable food items?",
+    "options": [
+      "32-40°F, 60-70% humidity, shelves ≥6 inches off the floor",
+      "50-70°F, 50-60% humidity, shelves ≥6 inches off the floor",
+      "50-70°F, 60-70% humidity, shelves ≥9 inches off the floor",
+      "60-74°F, 50-60% humidity, shelves ≥6 inches off the floor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dry storage requirements: temperature 50-70°F, humidity 50-60%, shelves ≥6 inches off the floor (allows air circulation and cleaning underneath), and away from walls, heat sources, and direct light. 32-40°F is refrigerator temperature. Higher humidity promotes mold and bacteria growth.",
+    "tags": [
+      "storage",
+      "dry-storage",
+      "food-safety"
+    ]
+  },
+  {
+    "id": "m3-fsl-015",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "In a commercial warewashing operation, a high-temperature dishwasher differs from a low-temperature dishwasher in that the high-temperature model:",
+    "options": [
+      "Requires chemical sanitizing agents in the rinse cycle",
+      "Uses a final rinse temperature of 180°F and does not require chemical sanitizers",
+      "Is more economical because it uses less water and energy",
+      "Is the best choice for under-counter residential operations"
+    ],
+    "correctIndex": 1,
+    "explanation": "High-temperature warewashers use a final rinse temperature of 180°F which sanitizes through heat alone — no chemical sanitizing agents are needed. Low-temperature washers use cooler water and require chemical sanitizers (chlorine or quats) in the rinse cycle. High-temp machines use more energy but eliminate chemical costs.",
+    "tags": [
+      "equipment",
+      "warewasher",
+      "sanitation"
+    ]
+  },
+  {
+    "id": "m3-fsl-016",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "easy",
+    "text": "According to the FDA Model Food Code, a food prep area must have at minimum:",
+    "options": [
+      "A 3-compartment sink for washing, rinsing, and sanitizing",
+      "A 4-compartment sink for scraping, washing, rinsing, and sanitizing",
+      "At least 1 handwashing sink at or inside the food preparation area",
+      "A 2-compartment sink for thawing and preparation"
+    ],
+    "correctIndex": 2,
+    "explanation": "The FDA Model Food Code requires at least 1 handwashing sink at or inside the food preparation area to promote hand hygiene. The 3-compartment sink is used for manual dishwashing (wash/rinse/sanitize). The 4-compartment sink adds a scraping step. The 2-compartment sink is used for thawing/prepping meats.",
+    "tags": [
+      "equipment",
+      "sinks",
+      "food-code",
+      "handwashing"
+    ]
+  },
+  {
+    "id": "m3-fsl-017",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A commercial kitchen manager is choosing between a convection oven and a standard oven. Which statement correctly describes an advantage of a convection oven?",
+    "options": [
+      "Convection ovens can brown and crisp food better using steam",
+      "Convection ovens circulate warm air for faster, more even cooking at lower temperatures",
+      "Convection ovens are ideal for all types of cuisine including delicate foods",
+      "Convection ovens require higher temperatures than standard ovens to achieve the same results"
+    ],
+    "correctIndex": 1,
+    "explanation": "Convection ovens use fans to circulate warm air, providing faster, more even cooking than standard ovens, and can cook at lower temperatures. However, they cannot be used for all types of cuisine. Steam ovens (not convection) maintain moisture and nutrients. Standard ovens heat unevenly, with areas closest to heating elements cooking faster.",
+    "tags": [
+      "equipment",
+      "ovens",
+      "convection"
+    ]
+  },
+  {
+    "id": "m3-fsl-018",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A bakery needs to produce large quantities of bread, rolls, and cookies simultaneously. All items bake at the same temperature. Which oven type is most appropriate?",
+    "options": [
+      "Deck oven",
+      "Conveyor oven",
+      "Rotary oven",
+      "Combination oven"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rotary ovens are designed for bulk production of flour-based foods (bread, rolls, cookies, cakes) — anything that cooks at the same temperature. They provide uniform baking through air distribution and are more compact than multiple standard ovens. Deck ovens are good for baking but have long preheat times. Conveyor ovens are for high-speed single-item production. Combination ovens combine convection and steam.",
+    "tags": [
+      "equipment",
+      "ovens",
+      "rotary",
+      "baking"
+    ]
+  },
+  {
+    "id": "m3-fsl-019",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "hard",
+    "text": "A chef needs a fryer for items such as onion rings and chicken that will be placed in a frying basket. The kitchen uses gas and the chef prioritizes oil quality and longevity. Which fryer type is most appropriate?",
+    "options": [
+      "Electric, open-pot fryer",
+      "Gas, tube-style fryer",
+      "Gas, flat-bottom fryer",
+      "Electric, flat-bottom fryer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gas tube-style fryers are best for basket-fried items (onion rings, chicken, french fries). They have the best sediment zone of all fryer types, keeping sediment separate from oil to prolong oil life and maintain food quality. Flat-bottom fryers are for floating items like donuts and have no sediment zone. Open-pot fryers are easier to clean but have a shallow sediment zone prone to clogging. Electric fryers lose temperature between batches.",
+    "tags": [
+      "equipment",
+      "fryers",
+      "tube-style"
+    ]
+  },
+  {
+    "id": "m3-fsl-020",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A foodservice designer is selecting work table surfaces for a butcher area. Which combination of stainless steel type and gauge is most appropriate?",
+    "options": [
+      "Type 430, 18 gauge",
+      "Type 304, 18 gauge",
+      "Type 430, 14 gauge",
+      "Type 304, 14 gauge"
+    ],
+    "correctIndex": 3,
+    "explanation": "Butcher areas require: Type 304 stainless steel (high corrosion resistance, durable, easy to sanitize — essential for meat contact) and 14 gauge (heaviest/most durable, withstands pounding and chopping). Type 430 contains iron, is less corrosion-resistant, and is used for produce prep or mixing. 18 gauge is the lightest (salad/sandwich prep) and 16 gauge is for general use.",
+    "tags": [
+      "equipment",
+      "work-tables",
+      "stainless-steel"
+    ]
+  },
+  {
+    "id": "m3-fsl-021",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "What is the minimum lighting requirement (in foot-candles) for a food preparation area where workers use knives, slicers, and grinders?",
+    "options": [
+      "10 foot-candles",
+      "20 foot-candles",
+      "50 foot-candles",
+      "100 foot-candles"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lighting requirements (from FDA Food Code): 10 fc = walk-in refrigeration, dry food storage, and all areas during cleaning; 20 fc = self-service food areas, handwashing/dishwashing/utensil storage areas, and inside reach-in refrigerators; 50+ fc = food preparation areas with knives, slicers, grinders, or saws (highest requirement due to safety risk).",
+    "tags": [
+      "facility",
+      "lighting",
+      "safety",
+      "food-code"
+    ]
+  },
+  {
+    "id": "m3-fsl-022",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "easy",
+    "text": "Which class of fire involves cooking oils and fats in a commercial kitchen, and what is the correct extinguisher to use?",
+    "options": [
+      "Class B fire; dry chemical extinguisher",
+      "Class A fire; water extinguisher",
+      "Class K fire; wet chemical extinguisher",
+      "Class C fire; carbon dioxide extinguisher"
+    ],
+    "correctIndex": 2,
+    "explanation": "Class K fires involve cooking oils and fats (K = Kitchen). Class K fire extinguishers use wet chemical agents that turn oil into a foam, smothering the fire. Water should NEVER be used on Class K fires as it scatters burning oil and spreads flames. Class A = combustibles (wood, paper); Class B = flammable liquids/gases; Class C = electrical fires.",
+    "tags": [
+      "fire-safety",
+      "class-K",
+      "kitchen-safety"
+    ]
+  },
+  {
+    "id": "m3-fsl-023",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A foodservice manager is choosing between chemical sanitizers. Which sanitizer is non-irritating, non-corrosive, effective across a wide temperature range, but should NOT be used with hard water or heavy soil, and reacts dangerously with detergent residue?",
+    "options": [
+      "Chlorine",
+      "Quaternary ammonium (quats)",
+      "Iodine (iodophors)",
+      "Sodium hypochlorite"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quaternary ammonium compounds (quats) are non-irritating, non-corrosive, and stable across a wide temperature and pH range. However, quats should not be used with hard water or heavy soil loads, and if detergent residue remains on dishes, quats will react with it to form dangerous gases — making thorough rinsing critical. Chlorine is corrosive to metal and affected by pH, temp, and soil. Iodophors evaporate above 120°F and stain plastics.",
+    "tags": [
+      "sanitation",
+      "sanitizers",
+      "quats"
+    ]
+  },
+  {
+    "id": "m3-fsl-024",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "Which chemical sanitizer is effective against protozoans and bacteria but evaporates above 120°F, is affected by basic pH, and may stain plastic equipment yellow-brown?",
+    "options": [
+      "Chlorine",
+      "Quaternary ammonium (quats)",
+      "Iodine (iodophors)",
+      "Sodium carbonate"
+    ],
+    "correctIndex": 2,
+    "explanation": "Iodine compounds (iodophors) are broad-spectrum — active against bacteria, mold, fungi, viruses, yeasts, and protozoans. Key limitations: evaporate at 120°F (cannot use with high-temperature water), not for basic/high-pH water, and may stain plastics yellow-brown. Chlorine is corrosive but doesn't stain plastics. Quats are temperature-stable but not effective against protozoans.",
+    "tags": [
+      "sanitation",
+      "sanitizers",
+      "iodophors"
+    ]
+  },
+  {
+    "id": "m3-fsl-025",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A chlorine sanitizer is used in a foodservice operation. Compared to quaternary ammonium compounds, chlorine is unique in that it:",
+    "options": [
+      "Is non-irritating to skin and mucous membranes",
+      "Is not affected by water hardness",
+      "Is stable across a wide temperature range",
+      "Is not affected by heavy soil loads"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chlorine's effectiveness is affected by pH, temperature, and soil load — but NOT by water hardness (unlike quats and iodophors). This is a key differentiating characteristic. Chlorine is irritating to skin/mucous membranes and corrosive to metal surfaces. Quats are temperature-stable and non-irritating. Soil load affects chlorine's effectiveness (making option D incorrect).",
+    "tags": [
+      "sanitation",
+      "sanitizers",
+      "chlorine"
+    ]
+  },
+  {
+    "id": "m3-fsl-026",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "According to the regulatory framework for sanitizers in the US, which agency registers chemical sanitizers and antimicrobial agents used on food contact surfaces?",
+    "options": [
+      "FDA",
+      "USDA",
+      "EPA",
+      "CDC"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chemical sanitizers and antimicrobial agents for food, food contact surfaces, and nonfood contact surfaces are registered with the EPA (Environmental Protection Agency). The FDA evaluates sanitizer residues that may enter the food supply and maintains the Code of Federal Regulations for approved no-rinse sanitizers. The USDA FSIS oversees antimicrobial compounds used in meat and poultry.",
+    "tags": [
+      "sanitation",
+      "regulations",
+      "EPA",
+      "FDA"
+    ]
+  },
+  {
+    "id": "m3-fsl-027",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "In the HVAC system of a commercial kitchen, air from outside the building that is brought into the workspace is called:",
+    "options": [
+      "Return air",
+      "Exhaust air",
+      "Supply air",
+      "Recirculated air"
+    ],
+    "correctIndex": 2,
+    "explanation": "HVAC air flow: Supply air = outdoor air brought into the workspace from outside; Return air = air from the workspace filtered and recirculated (mixed with supply air); Exhaust air = stale/contaminated air removed from the building entirely. Ventilation systems work on a loop taking workspace air, removing exhaust, and mixing return air with fresh supply air.",
+    "tags": [
+      "facility",
+      "HVAC",
+      "ventilation"
+    ]
+  },
+  {
+    "id": "m3-fsl-028",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "easy",
+    "text": "Which organization investigates workplace accidents and injuries in foodservice and other industries?",
+    "options": [
+      "Joint Commission",
+      "OSHA",
+      "EPA",
+      "CDC"
+    ],
+    "correctIndex": 1,
+    "explanation": "OSHA (Occupational Safety and Health Administration) investigates workplace accidents, enforces safety standards, and regulates conditions in workplaces including foodservice operations. The Joint Commission accredits healthcare organizations. EPA regulates environmental and chemical issues. The CDC monitors public health including foodborne illness outbreaks.",
+    "tags": [
+      "safety",
+      "OSHA",
+      "workplace-safety"
+    ]
+  },
+  {
+    "id": "m3-fsl-029",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A sustainability initiative in a foodservice department focuses on reducing landfill waste through source reduction, recycling, and waste incineration. The most commonly recycled material in foodservice operations is:",
+    "options": [
+      "Plastic packaging",
+      "Glass bottles",
+      "Aluminum cans",
+      "Cardboard"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cardboard is the most commonly recycled material in foodservice operations because virtually every product arrives in some form of cardboard carton or box. Solid waste in foodservice is 60-70% packaging (napkins, straws, customer waste) and 30-40% from food production. Integrated waste management addresses source reduction, recycling, and incineration.",
+    "tags": [
+      "sustainability",
+      "waste-management",
+      "recycling"
+    ]
+  },
+  {
+    "id": "m3-fsl-030",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "In a foodservice operation, which activity is the HIGHEST energy consumer?",
+    "options": [
+      "HVAC",
+      "Sanitation",
+      "Food preparation (cooking)",
+      "Refrigeration"
+    ],
+    "correctIndex": 2,
+    "explanation": "Food preparation (cooking) is the highest energy consumer in foodservice operations. In order of energy consumption: Food preparation > HVAC > Sanitation > Lighting > Refrigeration. This highlights the importance of energy-efficient cooking equipment, proper equipment selection, and smart cooking practices for sustainability initiatives.",
+    "tags": [
+      "sustainability",
+      "energy",
+      "food-preparation"
+    ]
+  },
+  {
+    "id": "m3-fsl-031",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A foodservice manager is selecting flooring for a high-traffic kitchen area that needs to withstand heavy equipment, grease, cleaning chemicals, and provide slip resistance. Which flooring type is described as an 'industry standard' in foodservice?",
+    "options": [
+      "Vinyl/PVC flooring",
+      "Quarry tile",
+      "Epoxy flooring",
+      "Natural stone tile"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quarry tile (non-porcelain ceramic tile) is the industry standard in foodservice kitchens. It is natural material, slip-resistant, and durable. It is combined with epoxy grout and often paired with rubber mats for worker fatigue. Grout lines must be sealed annually to prevent bacterial growth. Vinyl/PVC is 'resilient' flooring better for customer areas. Epoxy is industrial-strength. Natural stone may be slippery when wet.",
+    "tags": [
+      "facility",
+      "flooring",
+      "quarry-tile"
+    ]
+  },
+  {
+    "id": "m3-fsl-032",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "Motion economy in foodservice focuses on improving manual work to reduce fatigue and unnecessary movements. Which of the following does NOT align with motion economy principles?",
+    "options": [
+      "Ergonomic comfort grips on kitchen tools",
+      "Pre-positioned materials to reduce searching",
+      "Asymmetric storage based on which hand is dominant",
+      "Proper illumination without glare at workstations"
+    ],
+    "correctIndex": 2,
+    "explanation": "Motion economy principles include: symmetric and simultaneous body motions (not asymmetric), ergonomic tool design, pre-positioned materials, proper illumination, and defined fixed workstations for habit formation. Human body motion should be symmetrical, natural, rhythmic, and habitual — asymmetric storage actually increases fatigue by forcing unnatural movements.",
+    "tags": [
+      "facility",
+      "motion-economy",
+      "ergonomics"
+    ]
+  },
+  {
+    "id": "m3-fsl-033",
+    "domain": "Domain III",
+    "topic": "Food Service Logistics",
+    "difficulty": "medium",
+    "text": "A hospital foodservice director is planning a disaster preparedness response. Regarding food safety during a power outage, which statement is TRUE?",
+    "options": [
+      "Frozen food should be discarded if it contains ice crystals after 6 hours without power",
+      "A refrigerator will keep food safe for up to 4 hours if the door remains closed",
+      "Perishable foods that have reached 40°F should be discarded after 4 hours",
+      "Frozen food stored at 40-50°F can safely be refrozen without quality loss"
+    ],
+    "correctIndex": 1,
+    "explanation": "During power outages: a refrigerator keeps food safe for 4 hours if the door stays closed; a full freezer maintains temperature for 48 hours (half-full = 24 hours). Perishable foods exceeding 40°F for MORE than 2 hours (not 4 hours) should be discarded. Frozen food containing ice crystals is still safe and can be refrozen. Food should never be placed outside in snow (temperatures are unpredictable).",
+    "tags": [
+      "food-safety",
+      "disaster-preparedness",
+      "temperature"
+    ]
+  }
+]

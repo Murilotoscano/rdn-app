@@ -1,6 +1,7 @@
 "use client";
 
-import { Question } from "@/types";
+import { Question, CdrQuestion } from "@/types";
+import { supabase } from './supabaseClient';
 
 // --- Types ---
 
@@ -31,6 +32,16 @@ export interface ErrorLogItem {
     // Metadata
     errorReason?: string;
     notes?: string;
+}
+
+export interface CdrProgress {
+    questionId: string;
+    status: 'not attempted' | 'correct' | 'incorrect' | 'needs review' | 'mastered';
+    notes: string;
+    errorType?: string;
+    markedForReview: boolean;
+    attempts: number;
+    lastAttemptedAt?: number;
 }
 
 export interface StorageSchema {
@@ -133,6 +144,182 @@ export const store = {
             data: data
         };
         localStorage.setItem(STORAGE_KEYS.ERROR_LOG, JSON.stringify(storageObj));
+        
+        // Background sync to Supabase
+        store.syncUpErrorLog(data);
+    },
+
+    saveExamResult: (result: ExamResult) => {
+        if (typeof window === 'undefined') return;
+        const history = store.getExamHistory();
+        history.push(result);
+        localStorage.setItem(STORAGE_KEYS.EXAM_HISTORY, JSON.stringify(history));
+
+        // Background sync to Supabase
+        store.syncUpExamHistory(history);
+    },
+
+    getExamHistory: (): ExamResult[] => {
+        if (typeof window === 'undefined') return [];
+        const data = localStorage.getItem(STORAGE_KEYS.EXAM_HISTORY);
+        return data ? JSON.parse(data) : [];
+    },
+
+    // --- Supabase Sync Methods ---
+
+    syncUpErrorLog: async (data: ErrorLogItem[]) => {
+        try {
+            // Upsert all items. questionId is the primary key.
+            const { error } = await supabase
+                .from('error_log')
+                .upsert(data.map(item => ({
+                    question_id: item.questionId,
+                    domain: item.domain,
+                    topic: item.topic,
+                    mastered: item.mastered,
+                    repetition_stage: item.repetitionStage,
+                    date_logged_at: item.dateLoggedAt,
+                    next_review_at: item.nextReviewAt,
+                    last_attempt_at: item.lastAttemptAt,
+                    answer_status: item.answerStatus,
+                    last_outcome: item.lastOutcome,
+                    attempts: item.attempts,
+                    wrong_count: item.wrongCount,
+                    unsure_count: item.unsureCount,
+                    confident_count: item.confidentCount,
+                    error_reason: item.errorReason,
+                    notes: item.notes
+                })));
+
+            if (error) throw error;
+            console.log("Error log synced to Supabase");
+        } catch (e) {
+            console.error("Failed to sync error log to Supabase", e);
+        }
+    },
+
+    syncUpExamHistory: async (history: ExamResult[]) => {
+        try {
+            const { error } = await supabase
+                .from('exam_history')
+                .upsert(history.map(item => ({
+                    id: item.id,
+                    date: item.date,
+                    score: item.score,
+                    total_questions: item.totalQuestions,
+                    domain_scores: item.domainScores,
+                    time_spent_seconds: item.timeSpentSeconds,
+                    mode: item.mode
+                })));
+
+            if (error) throw error;
+            console.log("Exam history synced to Supabase");
+        } catch (e) {
+            console.error("Failed to sync exam history to Supabase", e);
+        }
+    },
+
+    syncDown: async () => {
+        if (typeof window === 'undefined') return;
+
+        try {
+            console.log("Starting sync down from Supabase...");
+            
+            // 1. Fetch Error Log
+            const { data: remoteErrorLog, error: err1 } = await supabase
+                .from('error_log')
+                .select('*');
+            
+            if (err1) throw err1;
+
+            if (remoteErrorLog && remoteErrorLog.length > 0) {
+                const localData = store.getErrorLog();
+                const mergedErrorLog: ErrorLogItem[] = [...localData];
+                
+                remoteErrorLog.forEach(remote => {
+                    const idx = mergedErrorLog.findIndex(l => l.questionId === remote.question_id);
+                    const transformed: ErrorLogItem = {
+                        questionId: remote.question_id,
+                        domain: remote.domain,
+                        topic: remote.topic,
+                        mastered: remote.mastered,
+                        repetitionStage: remote.repetition_stage,
+                        dateLoggedAt: remote.date_logged_at,
+                        nextReviewAt: remote.next_review_at,
+                        lastAttemptAt: remote.last_attempt_at,
+                        answerStatus: remote.answer_status, // Fixed mapping
+                        lastOutcome: remote.last_outcome,
+                        attempts: remote.attempts,
+                        wrongCount: remote.wrong_count,
+                        unsureCount: remote.unsure_count,
+                        confidentCount: remote.confident_count,
+                        errorReason: remote.error_reason,
+                        notes: remote.notes
+                    };
+
+                    if (idx >= 0) {
+                        mergedErrorLog[idx] = transformed;
+                    } else {
+                        mergedErrorLog.push(transformed);
+                    }
+                });
+                
+                const storageObj: StorageSchema = {
+                    schemaVersion: CURRENT_SCHEMA_VERSION,
+                    data: mergedErrorLog
+                };
+                localStorage.setItem(STORAGE_KEYS.ERROR_LOG, JSON.stringify(storageObj));
+            }
+
+            // 2. Fetch Exam History
+            const { data: remoteHistory, error: err2 } = await supabase
+                .from('exam_history')
+                .select('*');
+
+            if (err2) throw err2;
+
+            if (remoteHistory && remoteHistory.length > 0) {
+                const localHistory = store.getExamHistory();
+                const mergedHistory = [...localHistory];
+
+                remoteHistory.forEach(remote => {
+                    const idx = mergedHistory.findIndex(h => h.id === remote.id);
+                    const transformed: ExamResult = {
+                        id: remote.id,
+                        date: remote.date,
+                        score: remote.score,
+                        totalQuestions: remote.total_questions,
+                        domainScores: remote.domain_scores,
+                        timeSpentSeconds: remote.time_spent_seconds,
+                        mode: remote.mode
+                    };
+
+                    if (idx >= 0) {
+                        mergedHistory[idx] = transformed;
+                    } else {
+                        mergedHistory.push(transformed);
+                    }
+                });
+
+                localStorage.setItem(STORAGE_KEYS.EXAM_HISTORY, JSON.stringify(mergedHistory));
+            }
+
+            console.log("Sync down complete.");
+            return true;
+        } catch (e) {
+            console.error("Failed to sync down from Supabase", e);
+            return false;
+        }
+    },
+
+    fullSync: async () => {
+        const localErrorLog = store.getErrorLog();
+        const localHistory = store.getExamHistory();
+        
+        await store.syncUpErrorLog(localErrorLog);
+        await store.syncUpExamHistory(localHistory);
+        
+        return await store.syncDown();
     },
 
     // 1. Log Error (from Practice Mode)
@@ -146,7 +333,7 @@ export const store = {
             // Existing item
             const item = log[idx];
 
-            item.dateLoggedAt = now; // Update timestamp on re-log
+            item.dateLoggedAt = now; 
             item.attempts += 1;
             item.lastAttemptAt = now;
             item.lastOutcome = status;
@@ -202,10 +389,8 @@ export const store = {
         const item = log[idx];
         const now = Date.now();
 
-        // Track consecutive unsure logic
         const wasUnsure = item.lastOutcome === 'unsure';
 
-        // Common updates
         item.attempts++;
         item.lastAttemptAt = now;
         item.lastOutcome = outcome;
@@ -218,10 +403,8 @@ export const store = {
 
             const nextStage = item.repetitionStage + 1;
             if (nextStage >= INTERVALS_HOURS.length) {
-                // Mastered
                 item.mastered = true;
                 item.repetitionStage = nextStage;
-                // Clean nextReviewAt for mastered items to avoid cluttering index, purely metadata now
                 item.nextReviewAt = now;
             } else {
                 item.repetitionStage = nextStage;
@@ -232,13 +415,9 @@ export const store = {
             item.unsureCount++;
             item.mastered = false;
 
-            // Strict Rule: If 2 consecutive unsures, reset stage.
             if (wasUnsure) {
                 item.repetitionStage = 0;
             }
-            // Else keep stage, but don't advance.
-
-            // Schedule for tomorrow
             item.nextReviewAt = now + hoursToMs(INTERVALS_HOURS[0]);
 
         } else { // incorrect
@@ -288,7 +467,6 @@ export const store = {
         const oneDayAgo = now - hoursToMs(24);
         const overdue = due.filter(item => item.nextReviewAt < oneDayAgo).length;
 
-        // Breakdown outcomes in due
         const dueUnsure = due.filter(i => i.answerStatus === 'unsure').length;
         const dueIncorrect = due.filter(i => i.answerStatus === 'incorrect').length;
 
@@ -308,23 +486,17 @@ export const store = {
         const history = store.getExamHistory();
         const log = store.getErrorLog();
 
-        // Filter history by last N days (placeholder logic until dates are epoch in history too)
-        // Assume history dates are ISO string
         const cutoff = Date.now() - (days * 24 * 60 * 60 * 1000);
-        const recentHistory = history.filter(h => new Date(h.date).getTime() > cutoff);
+        const recentHistory = history.filter((h: ExamResult) => new Date(h.date).getTime() > cutoff);
 
-        // 1. Accuracy (Overall from history)
         let totalCorrect = 0;
         let totalQuestions = 0;
-        recentHistory.forEach(h => {
-            totalCorrect += h.score; // Assuming score is number of correct
+        recentHistory.forEach((h: ExamResult) => {
+            totalCorrect += h.score; 
             totalQuestions += h.totalQuestions;
         });
         const accuracy = totalQuestions > 0 ? (totalCorrect / totalQuestions) * 100 : 0;
 
-        // 2. Unsure Rate (From Log metadata - difficult to calc historically without event log, 
-        //    so we use current snapshot of "unsureCount" vs "attempts" for active items?)
-        //    Better: sum(unsureCount) / sum(attempts) across all log items
         let totalAttempts = 0;
         let totalUnsure = 0;
         let itemsWithRepeatErrors = 0;
@@ -336,16 +508,12 @@ export const store = {
         });
 
         const unsureRate = totalAttempts > 0 ? (totalUnsure / totalAttempts) * 100 : 0;
-
-        // 3. Repeat Error Rate (% of log items that are repeat offenders)
         const repeatErrorRate = log.length > 0 ? (itemsWithRepeatErrors / log.length) * 100 : 0;
 
-        // 4. Domain Performance
-        // Aggregate from history
         const domainStats: Record<string, { correct: number, total: number }> = {};
 
-        recentHistory.forEach(h => {
-            Object.entries(h.domainScores).forEach(([domain, score]) => {
+        recentHistory.forEach((h: ExamResult) => {
+            Object.entries(h.domainScores).forEach(([domain, score]: [string, any]) => {
                 if (!domainStats[domain]) domainStats[domain] = { correct: 0, total: 0 };
                 domainStats[domain].correct += score.correct;
                 domainStats[domain].total += score.total;
@@ -356,7 +524,7 @@ export const store = {
             domain,
             accuracy: stats.total > 0 ? (stats.correct / stats.total) * 100 : 0,
             total: stats.total
-        })).sort((a, b) => a.accuracy - b.accuracy); // Ascending (weakest first)
+        })).sort((a, b) => a.accuracy - b.accuracy); 
 
         return {
             accuracy,
@@ -366,18 +534,79 @@ export const store = {
         };
     },
 
-    // --- Exam History ---
-
-    saveExamResult: (result: ExamResult) => {
-        if (typeof window === 'undefined') return;
-        const history = store.getExamHistory();
-        history.push(result);
-        localStorage.setItem(STORAGE_KEYS.EXAM_HISTORY, JSON.stringify(history));
+    // --- CDR Practice Module Progress ---
+    getCdrProgress: (): Record<string, CdrProgress> => {
+        if (typeof window === 'undefined') return {};
+        const data = localStorage.getItem('rdn_cdr_progress');
+        return data ? JSON.parse(data) : {};
     },
 
-    getExamHistory: (): ExamResult[] => {
+    saveCdrProgress: (progress: Record<string, CdrProgress>) => {
+        if (typeof window === 'undefined') return;
+        localStorage.setItem('rdn_cdr_progress', JSON.stringify(progress));
+    },
+
+    updateCdrQuestionProgress: (questionId: string, updates: Partial<CdrProgress>) => {
+        const progress = store.getCdrProgress();
+        const existing = progress[questionId] || {
+            questionId,
+            status: 'not attempted',
+            notes: '',
+            markedForReview: false,
+            attempts: 0
+        };
+        progress[questionId] = {
+            ...existing,
+            ...updates,
+            lastAttemptedAt: Date.now()
+        };
+        store.saveCdrProgress(progress);
+    },
+
+    // --- Custom Generated Questions ---
+    getCustomQuestions: (): CdrQuestion[] => {
         if (typeof window === 'undefined') return [];
-        const data = localStorage.getItem(STORAGE_KEYS.EXAM_HISTORY);
+        const data = localStorage.getItem('rdn_custom_questions');
         return data ? JSON.parse(data) : [];
+    },
+
+    saveCustomQuestions: (questions: CdrQuestion[]) => {
+        if (typeof window === 'undefined') return;
+        localStorage.setItem('rdn_custom_questions', JSON.stringify(questions));
+    },
+
+    addCustomQuestions: (newQuestions: CdrQuestion[]) => {
+        const current = store.getCustomQuestions();
+        const filteredNew = newQuestions.filter(nq => !current.some(cq => cq.id === nq.id));
+        store.saveCustomQuestions([...current, ...filteredNew]);
+    },
+
+    // --- Custom Generated Questions Progress ---
+    getCustomProgress: (): Record<string, CdrProgress> => {
+        if (typeof window === 'undefined') return {};
+        const data = localStorage.getItem('rdn_custom_progress');
+        return data ? JSON.parse(data) : {};
+    },
+
+    saveCustomProgress: (progress: Record<string, CdrProgress>) => {
+        if (typeof window === 'undefined') return;
+        localStorage.setItem('rdn_custom_progress', JSON.stringify(progress));
+    },
+
+    updateCustomQuestionProgress: (questionId: string, updates: Partial<CdrProgress>) => {
+        const progress = store.getCustomProgress();
+        const existing = progress[questionId] || {
+            questionId,
+            status: 'not attempted',
+            notes: '',
+            markedForReview: false,
+            attempts: 0
+        };
+        progress[questionId] = {
+            ...existing,
+            ...updates,
+            lastAttemptedAt: Date.now()
+        };
+        store.saveCustomProgress(progress);
     }
 };

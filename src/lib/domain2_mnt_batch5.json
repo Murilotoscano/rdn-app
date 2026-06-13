@@ -1,0 +1,664 @@
+[
+  {
+    "id": "m2-mnt-121",
+    "domain": "Domain II",
+    "topic": "Liver Disease",
+    "difficulty": "medium",
+    "text": "A patient with cirrhosis and significant ascites requires energy estimation. Which approach is MOST appropriate?",
+    "options": [
+      "Harris-Benedict using actual body weight",
+      "Mifflin-St Jeor using dry weight (estimated without fluid)",
+      "Mifflin-St Jeor using ideal body weight from height",
+      "Indirect calorimetry is contraindicated in liver disease"
+    ],
+    "correctIndex": 1,
+    "explanation": "In cirrhosis with ascites, actual body weight overestimates energy needs due to fluid accumulation. Dry weight (estimated by subtracting ascites/edema weight from actual weight) should be used. Indirect calorimetry is preferred when available, especially in complex patients — it is NOT contraindicated in liver disease. Harris-Benedict is less accurate than Mifflin-St Jeor. Using ideal body weight may underestimate needs in obese patients with cirrhosis.",
+    "tags": [
+      "liver-disease",
+      "cirrhosis",
+      "ascites",
+      "dry-weight",
+      "energy-estimation"
+    ]
+  },
+  {
+    "id": "m2-mnt-122",
+    "domain": "Domain II",
+    "topic": "Liver Disease",
+    "difficulty": "medium",
+    "text": "Which meal pattern is MOST appropriate for a patient with cirrhosis experiencing early satiety and fatigue?",
+    "options": [
+      "Three large meals per day to maximize caloric density",
+      "Two meals per day with high-protein supplement at breakfast",
+      "4–6 small frequent meals including a late evening snack",
+      "Intermittent fasting to reduce hepatic metabolic burden"
+    ],
+    "correctIndex": 2,
+    "explanation": "Patients with cirrhosis often experience early satiety (worsened by ascites), fatigue, and nausea. Current guidelines recommend 4–6 small frequent meals including a late evening (bedtime) snack. This pattern maximizes total energy and protein intake throughout the day, minimizes fasting periods (which worsen muscle catabolism in cirrhosis), and accommodates early satiety. Intermittent fasting would worsen muscle loss. Ascites can cause early satiety from pressure on the stomach.",
+    "tags": [
+      "liver-disease",
+      "cirrhosis",
+      "meal-frequency",
+      "bedtime-snack",
+      "early-satiety"
+    ]
+  },
+  {
+    "id": "m2-mnt-123",
+    "domain": "Domain II",
+    "topic": "Liver Disease",
+    "difficulty": "medium",
+    "text": "A patient with end-stage liver disease and ascites is prescribed a sodium-restricted diet. What is the standard sodium restriction?",
+    "options": [
+      "< 1,000 mg sodium/day",
+      "< 2,000 mg sodium/day",
+      "< 3,000 mg sodium/day",
+      "No sodium restriction needed if diuretics are prescribed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sodium restriction for end-stage liver disease with ascites is typically < 2,000 mg/day (some guidelines cite 2,000–3,000 mg but ≤ 2,000 mg is the standard exam answer). Sodium restriction reduces fluid retention and ascites formation. Additional modifications for end-stage liver disease may include: < 30% energy as fat if steatorrhea is present, fluid restriction if hyponatremia develops, and glucose modifications for hepatic diabetes. Diuretics alone without sodium restriction are insufficient.",
+    "tags": [
+      "liver-disease",
+      "cirrhosis",
+      "ascites",
+      "sodium-restriction",
+      "end-stage-liver"
+    ]
+  },
+  {
+    "id": "m2-mnt-124",
+    "domain": "Domain II",
+    "topic": "Liver Disease",
+    "difficulty": "medium",
+    "text": "Which vitamins and minerals are MOST at risk for deficiency in patients with hepatitis or chronic liver disease?",
+    "options": [
+      "Vitamins C, B12, and calcium",
+      "Vitamins A, D, E, K, thiamin, folate, zinc, and magnesium",
+      "Vitamins B6, B12, iron, and selenium",
+      "Vitamin K, iron, and phosphorus only"
+    ],
+    "correctIndex": 1,
+    "explanation": "The liver plays a central role in nutrient metabolism and storage. Liver disease impairs absorption, storage, and activation of multiple micronutrients — particularly fat-soluble vitamins (A, D, E, K) because bile production for fat absorption is impaired; and B vitamins (thiamin, folate, pyridoxine/B6) especially with alcoholic liver disease. Zinc and magnesium are also commonly deficient. Copper and iron metabolism may be abnormal but in different directions depending on disease etiology (e.g., copper accumulates in Wilson's disease).",
+    "tags": [
+      "liver-disease",
+      "fat-soluble-vitamins",
+      "thiamin",
+      "zinc",
+      "micronutrient-deficiency"
+    ]
+  },
+  {
+    "id": "m2-mnt-125",
+    "domain": "Domain II",
+    "topic": "Liver Disease",
+    "difficulty": "hard",
+    "text": "A patient has cirrhosis with portal hypertension and is developing hepatic encephalopathy. Regarding protein intake, which statement is CORRECT?",
+    "options": [
+      "Protein should be severely restricted to 0.3–0.5 g/kg to prevent ammonia buildup",
+      "Protein restriction is the primary treatment for hepatic encephalopathy",
+      "Adequate protein (1.2–1.5 g/kg) should be maintained; protein restriction worsens outcomes",
+      "Branched-chain amino acids are contraindicated due to hepatic catabolism"
+    ],
+    "correctIndex": 2,
+    "explanation": "Current evidence does NOT support protein restriction for hepatic encephalopathy. Severe protein restriction worsens malnutrition and muscle catabolism, which paradoxically increases ammonia production from muscle breakdown. Adequate protein intake (1.2–1.5 g/kg for cirrhosis; higher with complications) is recommended. Branched-chain amino acids (BCAAs) may be beneficial as they bypass hepatic metabolism. Lactulose and treating the precipitating cause are the primary treatments for hepatic encephalopathy — not protein restriction.",
+    "tags": [
+      "liver-disease",
+      "hepatic-encephalopathy",
+      "protein-restriction",
+      "BCAA",
+      "portal-hypertension"
+    ]
+  },
+  {
+    "id": "m2-mnt-126",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "medium",
+    "text": "A patient presents with mild acute pancreatitis. Which is the MOST appropriate initial nutrition management?",
+    "options": [
+      "Begin early enteral nutrition within 48 hours via nasojejunal tube",
+      "Start TPN immediately to rest the pancreas",
+      "NPO with progression to oral diet as tolerated",
+      "Clear liquid diet for 5–7 days then advance as tolerated"
+    ],
+    "correctIndex": 2,
+    "explanation": "For mild to moderate acute pancreatitis WITHOUT malnutrition, the standard approach is NPO initially, then progress to oral diet as tolerated once symptoms improve (pain, nausea resolve). Early oral feeding is safe and preferred over prolonged NPO. Early enteral nutrition within 48 hours is reserved for: (1) severe acute pancreatitis, (2) patients presenting with malnutrition, or (3) patients unable to progress to adequate oral intake within 5–7 days. TPN is used only when enteral access is not feasible.",
+    "tags": [
+      "pancreatitis",
+      "acute-pancreatitis",
+      "NPO",
+      "oral-diet",
+      "early-enteral-nutrition"
+    ]
+  },
+  {
+    "id": "m2-mnt-127",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "medium",
+    "text": "A patient with severe acute pancreatitis is hemodynamically stable. What is the CORRECT nutrition intervention?",
+    "options": [
+      "Continue NPO until amylase and lipase normalize",
+      "Begin early enteral nutrition within 48 hours of admission",
+      "Start TPN immediately since pancreatic rest is required",
+      "Advance to full liquid diet within 24 hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "Severe acute pancreatitis requires early enteral nutrition within 48 hours once the patient is hemodynamically stable. This reduces infectious complications, preserves gut barrier function, and improves outcomes compared to TPN. TPN is used only when enteral access is not feasible or tolerated. The old concept of 'pancreatic rest' through prolonged NPO is outdated — enteral feeding distal to the pancreatic stimulation site (nasojejunal) stimulates minimal pancreatic secretion. Energy: 25–35 kcal/kg; Protein: 1.2–1.5 g/kg.",
+    "tags": [
+      "pancreatitis",
+      "severe-pancreatitis",
+      "early-enteral-nutrition",
+      "TPN",
+      "hemodynamically-stable"
+    ]
+  },
+  {
+    "id": "m2-mnt-128",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "medium",
+    "text": "Which of the following is a risk factor for ACUTE pancreatitis?",
+    "options": [
+      "Hypertriglyceridemia and cystic fibrosis",
+      "Gallbladder disease and alcoholism",
+      "Hypercalcemia and renal failure",
+      "Obesity and infections only"
+    ],
+    "correctIndex": 1,
+    "explanation": "The two MAIN risk factors for acute pancreatitis are gallbladder disease (biliary tract obstruction from gallstones) and alcoholism — together accounting for ~80% of cases. Other risk factors include obesity and certain medications (furosemide, tetracycline). Hypertriglyceridemia, hypercalcemia, cystic fibrosis, and renal failure are risk factors for CHRONIC pancreatitis. Distinguishing acute vs. chronic pancreatitis risk factors is a common exam topic.",
+    "tags": [
+      "pancreatitis",
+      "acute-pancreatitis",
+      "risk-factors",
+      "gallstones",
+      "alcoholism"
+    ]
+  },
+  {
+    "id": "m2-mnt-129",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "medium",
+    "text": "Which complication of chronic pancreatitis explains why these patients develop diabetes mellitus over time?",
+    "options": [
+      "Chronic hyperglycemia from excessive carbohydrate intake",
+      "Repeated inflammation causing exocrine and endocrine tissue damage",
+      "Pancreatic duct obstruction reducing insulin secretion acutely",
+      "Malabsorption of chromium impairing glucose tolerance"
+    ],
+    "correctIndex": 1,
+    "explanation": "In chronic pancreatitis, repeated inflammation causes progressive fibrosis and destruction of both exocrine tissue (enzyme-producing acinar cells) and endocrine tissue (islets of Langerhans, including beta cells). Over time, insulin secretion is impaired, leading to pancreatogenic diabetes (also called type 3c diabetes). This differs from type 1 (autoimmune) or type 2 (insulin resistance) diabetes. Malnutrition and micronutrient deficiency are also major concerns in chronic pancreatitis.",
+    "tags": [
+      "pancreatitis",
+      "chronic-pancreatitis",
+      "diabetes",
+      "exocrine",
+      "endocrine"
+    ]
+  },
+  {
+    "id": "m2-mnt-130",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "Acute kidney injury (AKI) is defined by which of the following criteria?",
+    "options": [
+      "GFR < 60 mL/min for > 3 months with albuminuria",
+      "Serum creatinine increase ≥ 0.3 mg/dL OR ≥ 50% increase OR oliguria < 0.5 mL/kg/hr for > 6 hours — all within 48 hours",
+      "Serum BUN > 100 mg/dL with metabolic acidosis",
+      "Urine output < 400 mL/day for > 24 hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "AKI is defined as an ACUTE change in kidney function within 48 hours meeting ≥1 criterion: (1) absolute serum creatinine increase ≥ 0.3 mg/dL, (2) serum creatinine increase ≥ 50% from baseline, or (3) oliguria < 0.5 mL/kg/hr for > 6 hours. The 48-hour timeframe distinguishes AKI from CKD (> 3 months). GFR < 60 for > 3 months defines CKD. AKI patients may be hypercatabolic, especially when caused by sepsis, shock, rhabdomyolysis, surgery, or preexisting malnutrition.",
+    "tags": [
+      "AKI",
+      "acute-kidney-injury",
+      "creatinine",
+      "oliguria",
+      "diagnosis"
+    ]
+  },
+  {
+    "id": "m2-mnt-131",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "A patient has CKD Stage 4 (not yet on dialysis). What is the recommended protein intake?",
+    "options": [
+      "0.8 g/kg (standard DRI)",
+      "0.55–0.6 g/kg (0.6–0.8 g/kg with diabetes)",
+      "1.0–1.2 g/kg",
+      "1.2–1.5 g/kg"
+    ],
+    "correctIndex": 1,
+    "explanation": "For CKD Stage 3–5 (NOT on dialysis), protein is restricted to 0.55–0.6 g/kg/day to slow disease progression by reducing uremic toxin production and glomerular hyperfiltration. For patients with CKD + diabetes, a slightly higher protein intake (0.6–0.8 g/kg) is recommended. Energy: 25–35 kcal/kg for both. Once dialysis begins (CKD Stage 5D), protein requirement INCREASES to 1.0–1.2 g/kg because dialysis removes amino acids and increases catabolism. This flip is a classic exam question.",
+    "tags": [
+      "CKD",
+      "chronic-kidney-disease",
+      "protein-restriction",
+      "dialysis",
+      "protein-requirement"
+    ]
+  },
+  {
+    "id": "m2-mnt-132",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "hard",
+    "text": "Why does protein requirement INCREASE when a CKD patient begins dialysis?",
+    "options": [
+      "Dialysis corrects uremia, allowing higher protein intake without harm",
+      "Dialysis removes amino acids and increases protein catabolism, requiring higher intake to prevent malnutrition",
+      "Dialysis impairs phosphorus excretion, requiring more protein to bind phosphate",
+      "Higher protein intake stimulates erythropoietin production lost during dialysis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dialysis removes amino acids, peptides, and water-soluble nutrients during each session. Additionally, the dialysis procedure itself (membrane contact, bioincompatibility) stimulates an inflammatory/catabolic response. These losses must be replaced — hence protein INCREASES to 1.0–1.2 g/kg for hemodialysis patients. Pre-dialysis CKD requires protein restriction to reduce uremic toxin production; once on dialysis, the machine takes over this clearance function, removing the rationale for restriction. This is the most classic CKD/dialysis nutrition exam question.",
+    "tags": [
+      "CKD",
+      "dialysis",
+      "protein-requirement",
+      "hemodialysis",
+      "amino-acid-loss"
+    ]
+  },
+  {
+    "id": "m2-mnt-133",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "A CKD patient on hemodialysis is prescribed phosphate binders. When should these medications be taken?",
+    "options": [
+      "First thing in the morning on an empty stomach",
+      "At bedtime to maximize overnight absorption",
+      "With meals to bind dietary phosphorus in the GI tract",
+      "Between meals to maximize systemic phosphate clearance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Phosphate binders must be taken WITH meals because they work by binding dietary phosphorus in the GI tract, preventing its absorption. Taking them on an empty stomach or at bedtime provides no benefit — there is no food phosphorus to bind. Phosphate binders may be calcium-based (calcium carbonate, calcium acetate) or non-calcium-based (sevelamer, lanthanum, iron-based). Patients should be educated that missing a binder dose at a meal means that meal's phosphorus is largely absorbed. Niacinamide is also used to decrease intestinal phosphorus absorption.",
+    "tags": [
+      "CKD",
+      "phosphate-binders",
+      "phosphorus",
+      "medication-timing",
+      "dialysis"
+    ]
+  },
+  {
+    "id": "m2-mnt-134",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "A CKD patient develops anemia. Which TWO mechanisms explain CKD-related anemia?",
+    "options": [
+      "Vitamin B12 deficiency and folate deficiency from dialysate losses",
+      "Reduced erythropoietin production by damaged kidneys AND iron deficiency",
+      "Hemolysis from uremic toxins and copper deficiency",
+      "Reduced thrombopoietin and platelet dysfunction"
+    ],
+    "correctIndex": 1,
+    "explanation": "CKD-related anemia has two main mechanisms: (1) The damaged kidney produces less erythropoietin (EPO), a hormone that stimulates bone marrow erythropoiesis — patients may receive EPO-stimulating agents (e.g., epoetin alfa); and (2) Iron deficiency — either absolute (inadequate stores) or functional (iron unavailable for erythropoiesis due to inflammation). Patients may receive oral or IV iron supplementation. IV iron is often preferred in dialysis patients due to GI absorption limitations. Iron-based phosphate binders serve a dual purpose: binding dietary phosphorus AND providing iron.",
+    "tags": [
+      "CKD",
+      "anemia",
+      "erythropoietin",
+      "EPO",
+      "iron-deficiency",
+      "dialysis"
+    ]
+  },
+  {
+    "id": "m2-mnt-135",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "A CKD patient receiving peritoneal dialysis uses dialysate with 2.5% dextrose. What nutritional consideration is unique to peritoneal dialysis?",
+    "options": [
+      "Peritoneal dialysis requires higher protein than hemodialysis due to peritoneal losses",
+      "Glucose absorbed from the dialysate must be factored into total energy intake",
+      "Fluid restriction is not needed because peritoneal dialysis removes unlimited fluid",
+      "Phosphate binders are not needed since phosphorus is efficiently removed by peritoneal dialysis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Peritoneal dialysis uses dextrose (glucose) in the dialysate to create an osmotic gradient that draws fluid and toxins across the peritoneal membrane. A significant amount of this glucose is absorbed systemically. The amount varies by dextrose concentration (1.5%, 2.5%, or 4.25%), dwell time, and number/volume of exchanges. The absorbed glucose contributes to energy intake and can cause hyperglycemia and weight gain — this MUST be factored into energy prescription. Protein losses via peritoneal dialysate are also higher than hemodialysis, requiring protein 1.2–1.5 g/kg.",
+    "tags": [
+      "peritoneal-dialysis",
+      "dextrose-absorption",
+      "glucose",
+      "energy-intake",
+      "CKD"
+    ]
+  },
+  {
+    "id": "m2-mnt-136",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "Which dietary factor is MOST associated with increased risk of calcium oxalate kidney stones?",
+    "options": [
+      "High calcium intake from dairy",
+      "High fluid intake especially water",
+      "Low calcium intake combined with high oxalate intake",
+      "High potassium intake from fruits and vegetables"
+    ],
+    "correctIndex": 2,
+    "explanation": "Paradoxically, LOW dietary calcium INCREASES calcium oxalate stone risk. Dietary calcium binds oxalate in the gut, preventing its absorption and urinary excretion. With low calcium intake, more oxalate is absorbed and excreted in urine where it binds calcium to form stones. High oxalate foods (spinach, nuts, chocolate, tea, beets) also increase risk. Other risk factors: high sodium, high animal protein, low fluid intake, high vitamin C supplements, history of UTIs, gout, obesity, malabsorption, and chronic diarrhea. High fluid intake REDUCES stone risk.",
+    "tags": [
+      "kidney-stones",
+      "urolithiasis",
+      "calcium-oxalate",
+      "dietary-calcium",
+      "oxalate"
+    ]
+  },
+  {
+    "id": "m2-mnt-137",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "A patient with recurrent calcium oxalate kidney stones asks about diet. Which recommendation is CORRECT?",
+    "options": [
+      "Restrict dietary calcium to < 500 mg/day to reduce urinary calcium",
+      "Maintain adequate dietary calcium (1,000–1,200 mg/day) and increase fluid intake",
+      "Eliminate all high-oxalate foods such as spinach and nuts permanently",
+      "High animal protein intake flushes stones — increase to > 100 g/day"
+    ],
+    "correctIndex": 1,
+    "explanation": "For calcium oxalate stones, dietary calcium should NOT be restricted. Adequate calcium (1,000–1,200 mg/day from food, not supplements alone) binds oxalate in the gut, reducing urinary oxalate excretion and stone formation. Calcium supplements taken AWAY from meals may increase risk (not bound to food oxalate). High fluid intake (urine output > 2 L/day) is the most important modifiable factor. Reduce (not eliminate) high-oxalate foods. Limit sodium and animal protein — both increase urinary calcium excretion and stone risk.",
+    "tags": [
+      "kidney-stones",
+      "calcium-oxalate",
+      "dietary-calcium",
+      "fluid-intake",
+      "MNT"
+    ]
+  },
+  {
+    "id": "m2-mnt-138",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "How does chronic diarrhea from malabsorption (e.g., Crohn's disease, short bowel syndrome) increase kidney stone risk?",
+    "options": [
+      "Diarrhea causes hypokalemia which promotes calcium oxalate crystallization",
+      "Fat malabsorption causes fatty acids to bind calcium, leaving more free oxalate to be absorbed",
+      "Chronic diarrhea increases urine pH, promoting calcium phosphate stones",
+      "Malabsorption reduces dietary oxalate intake, paradoxically increasing stone risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "In fat malabsorption, unabsorbed fatty acids bind calcium in the gut (forming calcium-soap complexes), leaving less calcium available to bind oxalate. This 'free' oxalate is absorbed in excess and excreted in urine ('enteric hyperoxaluria'), greatly increasing calcium oxalate stone risk. Additionally, chronic diarrhea causes dehydration (low urine volume) and metabolic acidosis which increases urine uric acid (promoting uric acid stones). Short bowel syndrome and Crohn's disease are classic causes of enteric hyperoxaluria.",
+    "tags": [
+      "kidney-stones",
+      "malabsorption",
+      "enteric-hyperoxaluria",
+      "fat-malabsorption",
+      "short-bowel"
+    ]
+  },
+  {
+    "id": "m2-mnt-139",
+    "domain": "Domain II",
+    "topic": "Neurological Disease",
+    "difficulty": "medium",
+    "text": "The classic ketogenic diet for epilepsy is typically described in which ratio?",
+    "options": [
+      "1:1 fat:protein+carbohydrate",
+      "2:1 fat:protein+carbohydrate",
+      "3:1 or 4:1 fat:protein+carbohydrate",
+      "4:1 carbohydrate:fat+protein"
+    ],
+    "correctIndex": 2,
+    "explanation": "The classic ketogenic diet is described as a fat:non-fat (protein + carbohydrate) ratio, typically 3:1 or 4:1. This means for every 4 g fat, there is 1 g combined protein and carbohydrate. It includes ~1 g protein/kg, 10–15 g carbohydrate/day, with remaining calories from fat. This diet requires precise measurement of all foods and beverages. The Modified Atkins Diet (MAD) uses a 1:1 ratio and is easier to implement. The Low Glycemic Index Treatment (LGIT) focuses on glycemic index rather than strict ratios.",
+    "tags": [
+      "ketogenic-diet",
+      "epilepsy",
+      "fat-ratio",
+      "Modified-Atkins",
+      "LGIT"
+    ]
+  },
+  {
+    "id": "m2-mnt-140",
+    "domain": "Domain II",
+    "topic": "Neurological Disease",
+    "difficulty": "medium",
+    "text": "Which interdisciplinary team is ESSENTIAL for implementing a ketogenic diet in a child with drug-resistant epilepsy?",
+    "options": [
+      "Gastroenterologist, occupational therapist, and dietitian",
+      "Neurologist, nurse, and RDN specializing in ketogenic diets",
+      "Endocrinologist, pharmacist, and speech-language pathologist",
+      "Pediatrician, physical therapist, and social worker only"
+    ],
+    "correctIndex": 1,
+    "explanation": "The essential interdisciplinary team for ketogenic diet implementation in epilepsy includes: (1) Neurologist — to evaluate seizure type, medication interactions, and monitor efficacy; (2) Nurse — for monitoring and patient/family education; and (3) RDN specializing in ketogenic diets — to calculate and monitor the precise macronutrient ratios, ensure adequate micronutrient intake (supplementation required), and support adherence. Pharmacists, case workers, and social workers are also valuable. The RDN role is particularly critical because ketogenic diets require precise meal planning to maintain ketosis while meeting growth needs.",
+    "tags": [
+      "ketogenic-diet",
+      "epilepsy",
+      "interdisciplinary-team",
+      "neurologist",
+      "RDN"
+    ]
+  },
+  {
+    "id": "m2-mnt-141",
+    "domain": "Domain II",
+    "topic": "Neurological Disease",
+    "difficulty": "medium",
+    "text": "The ketogenic diet achieves its anti-epileptic effect by mimicking which metabolic state?",
+    "options": [
+      "Post-prandial glycolysis",
+      "Fed-state insulin secretion",
+      "Fasting/starvation ketosis",
+      "Gluconeogenesis from protein"
+    ],
+    "correctIndex": 2,
+    "explanation": "Physicians in the early 1900s observed that fasting reduced seizures. The ketogenic diet reproduces the metabolic state of fasting (ketosis) without starvation. In this state, the body metabolizes fat instead of glucose as its primary fuel, producing ketone bodies (beta-hydroxybutyrate, acetoacetate). Ketones appear to have anti-seizure effects through multiple mechanisms including stabilizing neuronal membranes and reducing neuronal excitability. The diet includes ~1 g protein/kg (to prevent catabolism), 10–15 g carbohydrate/day (minimal glucose), and remaining calories from fat to sustain ketosis.",
+    "tags": [
+      "ketogenic-diet",
+      "epilepsy",
+      "ketosis",
+      "fasting",
+      "anti-epileptic"
+    ]
+  },
+  {
+    "id": "m2-mnt-142",
+    "domain": "Domain II",
+    "topic": "Liver Disease",
+    "difficulty": "hard",
+    "text": "A patient has alcoholic cirrhosis with jaundice and acholic (pale/clay-colored) stools. What does acholic stool indicate in this context?",
+    "options": [
+      "Increased bile pigment excretion from hemolysis",
+      "Reduced or absent bile flow into the GI tract causing impaired fat absorption",
+      "Bacterial overgrowth causing malabsorption",
+      "Increased fecal fat from pancreatic exocrine insufficiency"
+    ],
+    "correctIndex": 1,
+    "explanation": "Acholic (pale/clay-colored) stools indicate absent or severely reduced bile flow (cholestasis). Bile contains bilirubin breakdown products (stercobilin) that give stool its brown color. Without bile: stool is pale/clay-colored (acholic); fat absorption is severely impaired (fat-soluble vitamins A, D, E, K malabsorbed); and fat appears in stool (steatorrhea). This is distinct from pancreatic insufficiency (which also causes pale greasy stools but from missing digestive enzymes, not bile). Jaundice + acholic stool + dark urine (bilirubin in urine) is the classic triad of obstructive/hepatic cholestasis.",
+    "tags": [
+      "liver-disease",
+      "acholic-stool",
+      "bile",
+      "cholestasis",
+      "fat-soluble-vitamins"
+    ]
+  },
+  {
+    "id": "m2-mnt-143",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "A CKD patient is prescribed a calcimimetic agent (cinacalcet). What is the mechanism of action relevant to CKD-bone mineral disease?",
+    "options": [
+      "Binds dietary phosphorus in the GI tract to reduce absorption",
+      "Binds calcium receptors on the parathyroid gland, reducing PTH secretion",
+      "Activates vitamin D receptors to increase calcium absorption",
+      "Inhibits osteoclast activity to reduce bone resorption"
+    ],
+    "correctIndex": 1,
+    "explanation": "Calcimimetic agents (e.g., cinacalcet) work by binding to and activating calcium-sensing receptors on the parathyroid gland, mimicking the effect of high serum calcium. This suppresses PTH secretion. In CKD-bone mineral disease, elevated PTH (secondary hyperparathyroidism) causes bone resorption, vascular calcification, and mineral dysregulation. By reducing PTH, calcimimetics help manage CKD-bone mineral disease. This differs from phosphate binders (reduce dietary phosphorus absorption) and vitamin D analogs (increase intestinal calcium absorption and suppress PTH via a different pathway).",
+    "tags": [
+      "CKD",
+      "calcimimetic",
+      "PTH",
+      "cinacalcet",
+      "CKD-bone-mineral-disease"
+    ]
+  },
+  {
+    "id": "m2-mnt-144",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "Which GI symptoms are commonly experienced by CKD patients due to uremia and fluid overload?",
+    "options": [
+      "Diarrhea only — uremia increases gut motility",
+      "Poor appetite, early satiety, nausea, vomiting, constipation, abdominal bloating",
+      "Dumping syndrome from altered gastric emptying",
+      "Dysphagia due to uremic neuropathy of the esophagus"
+    ],
+    "correctIndex": 1,
+    "explanation": "CKD patients commonly experience multiple GI symptoms from uremia, medications, and fluid overload including: poor appetite (anorexia), early satiety, nausea, vomiting, diarrhea, constipation, abdominal pain/bloating, heartburn, and dysgeusia (taste changes). Uremia can also cause 'clouded consciousness,' pruritis (itching from uremic toxins in skin), and fatigue. These symptoms compound malnutrition risk in CKD. The RDN must address nutrition-impact symptoms when developing the nutrition care plan — small frequent meals, appetite stimulants, and nutrient-dense foods are strategies.",
+    "tags": [
+      "CKD",
+      "uremia",
+      "GI-symptoms",
+      "nutrition-impact-symptoms",
+      "dysgeusia"
+    ]
+  },
+  {
+    "id": "m2-mnt-145",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "CKD-bone mineral disease results from altered metabolism of which three minerals/hormones?",
+    "options": [
+      "Sodium, potassium, and magnesium",
+      "Phosphate, calcium, and vitamin D",
+      "Iron, zinc, and PTH",
+      "Bicarbonate, phosphate, and erythropoietin"
+    ],
+    "correctIndex": 1,
+    "explanation": "CKD-bone mineral disease (formerly 'renal osteodystrophy') involves disturbed metabolism of phosphate, calcium, and vitamin D — and their regulatory hormone PTH. In CKD: (1) Phosphate retention → hyperphosphatemia; (2) Vitamin D activation impaired (kidney converts calcidiol → calcitriol) → reduced calcium absorption → hypocalcemia; (3) Low calcium + high phosphate stimulate PTH secretion (secondary hyperparathyroidism) → bone resorption. Treatment: phosphate binders, active vitamin D analogs (calcitriol), calcimimetics, and dietary phosphorus restriction.",
+    "tags": [
+      "CKD",
+      "CKD-bone-mineral-disease",
+      "phosphate",
+      "calcium",
+      "vitamin-D",
+      "PTH"
+    ]
+  },
+  {
+    "id": "m2-mnt-146",
+    "domain": "Domain II",
+    "topic": "Liver Disease",
+    "difficulty": "medium",
+    "text": "A patient with cirrhosis develops esophageal varices. What is the underlying pathophysiology connecting cirrhosis to varices?",
+    "options": [
+      "Increased cardiac output from cirrhosis-related cardiomyopathy",
+      "Portal hypertension causing blood to reroute through collateral vessels including esophageal veins",
+      "Vitamin K deficiency causing vascular fragility",
+      "Hypoalbuminemia causing fluid shifts into esophageal tissue"
+    ],
+    "correctIndex": 1,
+    "explanation": "Portal hypertension is a complication of cirrhosis. Extensive hepatic scarring obstructs blood flow through the portal circulation. As portal pressure rises, blood is rerouted through collateral vessels including esophageal veins, which become engorged and dilated (esophageal varices), umbilical veins (caput medusae), and rectal veins (hemorrhoids). Esophageal varices are at risk of rupture — a potentially fatal bleeding emergency. Signs of portal hypertension in cirrhosis include: varices, spider angiomas, splenomegaly, and ascites. Cirrhosis is the most common cause of portal hypertension.",
+    "tags": [
+      "liver-disease",
+      "cirrhosis",
+      "portal-hypertension",
+      "esophageal-varices",
+      "ascites"
+    ]
+  },
+  {
+    "id": "m2-mnt-147",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "medium",
+    "text": "During the RECOVERY phase of acute pancreatitis, which nutrition goals are appropriate?",
+    "options": [
+      "Continue NPO to ensure complete pancreatic rest",
+      "Replenish nutritional deficiencies and encourage avoidance of alcohol and excessive fat",
+      "Begin high-fat, high-protein diet to restore lean body mass quickly",
+      "Initiate TPN to maximize nutrient delivery during healing"
+    ],
+    "correctIndex": 1,
+    "explanation": "During the recovery phase of acute pancreatitis: (1) replenish nutritional deficiencies that occurred during the acute NPO phase; (2) encourage avoidance of alcohol (major risk factor) and excessive fat intake to prevent recurrence; (3) advance diet as tolerated — oral feeding is preferred. The acute phase focuses on maintaining nutritional status and preventing weight loss; the recovery phase rebuilds nutritional stores and addresses prevention. Chronic pancreatitis patients need ongoing MNT for malnutrition, enzyme replacement therapy (PERT), and eventual diabetes management.",
+    "tags": [
+      "pancreatitis",
+      "recovery-phase",
+      "nutrition-goals",
+      "alcohol-avoidance",
+      "fat-restriction"
+    ]
+  },
+  {
+    "id": "m2-mnt-148",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "hard",
+    "text": "A patient with CKD Stage 5D (hemodialysis) reports dysgeusia and poor appetite. Which intervention addresses BOTH symptoms?",
+    "options": [
+      "Prescribe zinc supplementation — zinc deficiency causes dysgeusia and is common in dialysis patients",
+      "Initiate TPN to bypass oral intake issues",
+      "Restrict all fluids to minimize uremic toxin buildup",
+      "Increase dialysis frequency to improve uremia-related symptoms"
+    ],
+    "correctIndex": 0,
+    "explanation": "Zinc deficiency is common in dialysis patients (losses during dialysis, reduced dietary intake from restrictions) and is a recognized cause of dysgeusia (taste disturbances) and poor appetite. Zinc supplementation may improve taste acuity and appetite. Other interventions for nutrition-impact symptoms in dialysis patients: small frequent meals, using allowed spices/seasonings to enhance palatability, oral nutrition supplements, and addressing reversible causes of nausea. TPN is reserved for when enteral route is not feasible. Increased dialysis frequency addresses uremia but doesn't specifically target dysgeusia.",
+    "tags": [
+      "CKD",
+      "dialysis",
+      "dysgeusia",
+      "zinc-deficiency",
+      "nutrition-impact-symptoms"
+    ]
+  },
+  {
+    "id": "m2-mnt-149",
+    "domain": "Domain II",
+    "topic": "Liver Disease",
+    "difficulty": "medium",
+    "text": "A patient is diagnosed with nonalcoholic fatty liver disease (NAFLD). Which is the FIRST-LINE nutrition intervention?",
+    "options": [
+      "Prescribe a low-fat diet < 10% of calories from fat",
+      "Begin a high-protein, very-low-carbohydrate ketogenic diet",
+      "Achieve 5–10% weight loss through caloric restriction and physical activity",
+      "Eliminate all fructose by avoiding all fruits and vegetables"
+    ],
+    "correctIndex": 2,
+    "explanation": "The primary treatment for NAFLD/NASH (nonalcoholic steatohepatitis) is weight loss — even 5–10% body weight reduction significantly improves hepatic steatosis and liver enzymes. A hypocaloric diet (500–1,000 kcal/day deficit) combined with physical activity is first-line. The Mediterranean diet pattern is specifically supported for NAFLD. Limit added sugars, refined carbohydrates, fructose-sweetened beverages (SSBs), and saturated fats. Moderate total fat intake is appropriate — severe fat restriction is not necessary. Complete fructose elimination (including whole fruit) is not supported — whole fruit fiber modifies fructose's metabolic effects.",
+    "tags": [
+      "NAFLD",
+      "fatty-liver",
+      "weight-loss",
+      "Mediterranean-diet",
+      "nonalcoholic-steatohepatitis"
+    ]
+  },
+  {
+    "id": "m2-mnt-150",
+    "domain": "Domain II",
+    "topic": "Renal Disease",
+    "difficulty": "medium",
+    "text": "A patient with CKD Stage 3 has hyperkalemia. The RDN counsels on low-potassium food choices. Which food group contains the HIGHEST potassium and should be most limited?",
+    "options": [
+      "Refined grains and white bread",
+      "Fruits, vegetables, legumes, and dairy",
+      "Oils and fats",
+      "White rice and pasta"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fruits, vegetables, legumes, and dairy are the highest potassium food groups. Potassium-rich foods to limit: bananas, oranges, potatoes, tomatoes, avocados, dried fruits, nuts, beans, and dairy. Strategies to reduce potassium from vegetables: leaching (peel, cut small, soak in water, discard water, boil in fresh water). Low-potassium alternatives: apples, berries, grapes, white rice, pasta, white bread. Note that some CKD patients may have HYPOKALEMIA (especially with high diuretic doses) and may need to INCREASE potassium — the RDN must individualize based on labs, not assume all CKD patients need restriction.",
+    "tags": [
+      "CKD",
+      "hyperkalemia",
+      "potassium",
+      "food-sources",
+      "leaching"
+    ]
+  }
+]

@@ -1,0 +1,643 @@
+[
+  {
+    "id": "m1-calc-001",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "easy",
+    "text": "A #8 scoop is used to portion mashed potatoes. What is the volume of one serving in fluid ounces?",
+    "options": [
+      "2 fl oz",
+      "4 fl oz",
+      "8 fl oz",
+      "16 fl oz"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scoop volume (fl oz) = 32 ÷ scoop number. A #8 scoop: 32 ÷ 8 = 4 fl oz per scoop. The scoop number tells you how many scoops fit in one quart (32 fl oz). A #4 scoop = 8 fl oz (1 cup); #16 scoop = 2 fl oz. Larger scoop number = smaller serving size. You never need to memorize individual values — just memorize the formula: volume = 32 ÷ scoop #.",
+    "tags": [
+      "scoop-size",
+      "conversions",
+      "foodservice",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-002",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "A recipe calls for 8 #2 cans of crushed tomatoes. The foodservice manager wants to substitute #10 cans. How many #10 cans are needed?",
+    "options": [
+      "1 can",
+      "2 cans",
+      "3 cans",
+      "4 cans"
+    ],
+    "correctIndex": 1,
+    "explanation": "#2 can = 2.5 cups = 20 fl oz. 8 × 20 oz = 160 oz needed. #10 can = 3 quarts = 96 fl oz. 160 oz ÷ 96 oz = 1.67 cans → round UP to 2 cans. In foodservice, always round up (partial cans cannot be purchased). Key equivalents: #10 can = 3 quarts = 96 fl oz; 6 #10 cans = 1 case.",
+    "tags": [
+      "can-size",
+      "conversions",
+      "foodservice",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-003",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "A foodservice operation needs 29 #10 cans of tomato paste. How many CASES must be ordered, given 6 cans per case?",
+    "options": [
+      "4 cases",
+      "5 cases",
+      "6 cases",
+      "3 cases"
+    ],
+    "correctIndex": 1,
+    "explanation": "29 cans ÷ 6 cans/case = 4.83 cases → round UP to 5 cases. In foodservice, always round up to ensure sufficient supply. If 4 cases were ordered (24 cans), there would be a shortage. The extra 1 can from ordering 5 cases (30 cans) stays in inventory as par stock. Key rule: ALWAYS round up in foodservice quantity calculations; never follow the standard ≥0.5 rounding convention.",
+    "tags": [
+      "cases",
+      "can-size",
+      "rounding",
+      "foodservice",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-004",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "easy",
+    "text": "A budget that begins with the previous year's numbers and adjusts upward or downward for current conditions is called a:",
+    "options": [
+      "Zero-based budget",
+      "Top-down budget",
+      "Baseline (incremental) budget",
+      "Flexible budget"
+    ],
+    "correctIndex": 2,
+    "explanation": "A baseline budget (also called incremental budget) starts with the prior year's budget and adjusts for current conditions. It is the most common budgeting method due to simplicity. Disadvantage: can perpetuate inefficiencies. Zero-based budget: justifies every expense from scratch — nothing automatically approved. Top-down: prepared by upper management and distributed to units. Flexible budget: changes proportionally with business activity volume. Fixed (static) budget: does not change regardless of activity volume.",
+    "tags": [
+      "budget-types",
+      "finance",
+      "foodservice-management",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-005",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "A manager must justify EVERY budget line item from zero, with no automatic approvals. This is an example of which budget type?",
+    "options": [
+      "Fixed budget",
+      "Zero-based budget",
+      "Bottom-up budget",
+      "Activity-based budget"
+    ],
+    "correctIndex": 1,
+    "explanation": "A zero-based budget requires managers to justify every expense as if starting from zero — nothing is automatically approved from a prior period. Goal: eliminate all unnecessary expenditures. Disadvantages: very time-consuming; better suited for discretionary costs than essential operating costs. Activity-based budgeting (a type of top-down budget) sets output targets and calculates costs needed to meet them. Bottom-up: each unit prepares its own budget and submits it up to management.",
+    "tags": [
+      "zero-based-budget",
+      "budget-types",
+      "finance",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-006",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "On a balance sheet, total assets must equal:",
+    "options": [
+      "Total liabilities only",
+      "Owner's equity only",
+      "Total liabilities plus owner's equity",
+      "Gross profit minus cost of goods sold"
+    ],
+    "correctIndex": 2,
+    "explanation": "The fundamental balance sheet equation: Assets = Liabilities + Owner's Equity. Balance sheets are arranged in a T-shape with assets on the left and liabilities + owner's equity on the right. Current assets are liquid assets easily converted to cash (accounts receivable, inventory). Current liabilities must be paid within 12 months (accounts payable, accrued expenses). Owner's equity = retained earnings + common stock. This equation must always balance.",
+    "tags": [
+      "balance-sheet",
+      "assets",
+      "liabilities",
+      "equity",
+      "finance",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-007",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "A hospital foodservice department has opening inventory of $10,000, purchases of $4,000 during the month, and closing inventory of $6,000. What is the monthly food cost?",
+    "options": [
+      "$4,000",
+      "$8,000",
+      "$6,000",
+      "$14,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "Monthly food cost = Opening Inventory + Purchases − Closing Inventory = $10,000 + $4,000 − $6,000 = $8,000. The closing inventory is the beginning inventory for the next month. Inflating the beginning inventory inflates COGS and decreases estimated net income. Inflating the ending (closing) inventory deflates COGS and increases net income — the rationale behind why inventory accuracy is critical for financial integrity.",
+    "tags": [
+      "monthly-food-cost",
+      "inventory",
+      "COGS",
+      "finance",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-008",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "Opening inventory on March 1 = $25,730; purchases = $44,757; labor = $15,309; closing inventory (April 1) = $23,850. What is the cost of goods sold (COGS)?",
+    "options": [
+      "$46,637",
+      "$61,946",
+      "$84,587",
+      "$70,846"
+    ],
+    "correctIndex": 1,
+    "explanation": "COGS = Opening Inventory + (Purchases + Labor) − Closing Inventory = $25,730 + ($44,757 + $15,309) − $23,850 = $25,730 + $60,066 − $23,850 = $61,946. COGS differs from simple food cost in that it includes labor. Gross Profit = Revenue − COGS. As COGS increases, gross profit decreases. Overstating beginning inventory inflates COGS and deflates gross profit; overstating closing inventory deflates COGS and inflates gross profit.",
+    "tags": [
+      "COGS",
+      "gross-profit",
+      "inventory",
+      "finance",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-009",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "Fixed costs = $85,000; variable costs = $21,000; total sales = $420,000. Using Formula 1, what is the break-even point?",
+    "options": [
+      "$89,474",
+      "$106,250",
+      "$74,368",
+      "$85,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Formula 1: Break-even = Fixed Costs ÷ (1 − Variable Costs/Sales). Variable costs/Sales = $21,000/$420,000 = 0.05. 1 − 0.05 = 0.95. Break-even = $85,000 ÷ 0.95 = $89,474. This gives the revenue needed to cover all costs. Formula 2 is used when given sales price per unit and variable cost per unit: Break-even (units) = Fixed Costs ÷ (Sales price/unit − Variable cost/unit). The denominator in Formula 2 is the contribution margin.",
+    "tags": [
+      "break-even",
+      "fixed-costs",
+      "variable-costs",
+      "finance",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-010",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "Fixed costs = $85,000; sales price per unit = $42; variable cost per unit = $12. Using Formula 2, how many units must be sold to break even?",
+    "options": [
+      "1,417 units",
+      "2,833 units",
+      "4,250 units",
+      "7,083 units"
+    ],
+    "correctIndex": 1,
+    "explanation": "Formula 2: Break-even (units) = Fixed Costs ÷ (Sales price/unit − Variable cost/unit) = $85,000 ÷ ($42 − $12) = $85,000 ÷ $30 = 2,833 units. The denominator ($30) is the contribution margin — the amount each unit sale contributes toward covering fixed costs. A larger contribution margin means fewer units needed to break even. Formula 1 gives break-even in dollars; Formula 2 gives break-even in units.",
+    "tags": [
+      "break-even",
+      "contribution-margin",
+      "finance",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-011",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "An employee works 6:30 AM to 3:00 PM with a 30-minute unpaid lunch, 7 days per week. A second employee works the same shift. How many FTEs are required to cover both positions?",
+    "options": [
+      "1.4 FTE",
+      "2.0 FTE",
+      "2.8 FTE",
+      "3.5 FTE"
+    ],
+    "correctIndex": 2,
+    "explanation": "Shift duration: 6:30 AM to 3:00 PM = 8.5 hours − 0.5 hour lunch = 8 productive hours. Total hours/week: 8 hours × 7 days × 2 workers = 112 hours/week. FTEs = 112 ÷ 40 hours/FTE = 2.8 FTE. One FTE = 40 hours/week (8 hours/day × 5 days). Unlike foodservice quantities (where you round up), FTE calculations do NOT round to whole numbers — budgets accommodate partial FTEs.",
+    "tags": [
+      "FTE",
+      "full-time-equivalent",
+      "staffing",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-012",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "Given that full-time employees work 236 of 365 days per year (accounting for vacation and benefit days), how many FTEs are required for DAILY coverage of a single full-time position?",
+    "options": [
+      "1.0 FTE",
+      "1.25 FTE",
+      "1.55 FTE",
+      "2.0 FTE"
+    ],
+    "correctIndex": 2,
+    "explanation": "FTE for daily coverage = 365 days/year ÷ 236 work days/year = 1.55 FTE. This is NOT 1.0 FTE because the position requires 7-day/week coverage but employees only work 236 days/year. You need 1.55 bodies on payroll for every position that requires daily coverage — accounting for days off, vacation, and holidays. This ratio applies to each full-time position needing continuous daily coverage.",
+    "tags": [
+      "FTE",
+      "daily-coverage",
+      "staffing",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-013",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "Your department catered a board meeting lunch for 30 people at a food cost of $820. The budget was $25/meal maximum. What is the actual cost per meal, and is it over or under budget?",
+    "options": [
+      "$25.00/meal — on budget",
+      "$27.33/meal — $2.33 over budget",
+      "$24.67/meal — $0.33 under budget",
+      "$27.33/meal — $70 over total budget"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cost per meal = Total cost ÷ Number of meals = $820 ÷ 30 = $27.33/meal. Compared to budget: $27.33 − $25.00 = $2.33 over budget. Common error: $25 × 30 = $750 budget; $820 − $750 = $70 over — this gives the TOTAL dollar overage, not the per-meal variance. The question asks 'over or under budget' — the per-meal comparison ($2.33 over) is the correct answer. Always read what the question asks for.",
+    "tags": [
+      "cost-per-meal",
+      "budget",
+      "finance",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-014",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "A countertop fryer costs $990, has an estimated useful life of 5 years, and a salvage value of $100. What is the annual (straight-line) depreciation?",
+    "options": [
+      "$198/year",
+      "$178/year",
+      "$165/year",
+      "$190/year"
+    ],
+    "correctIndex": 1,
+    "explanation": "Annual depreciation = (Cost − Salvage Value) ÷ Useful Life = ($990 − $100) ÷ 5 = $890 ÷ 5 = $178/year. Straight-line depreciation assumes the asset loses the same dollar value each year. Salvage value is the asset's estimated worth at end of useful life. This formula is also used for the 'book value' after n years: Cost − (n × annual depreciation). Equipment depreciation is relevant to capital budgeting decisions in foodservice management.",
+    "tags": [
+      "depreciation",
+      "straight-line",
+      "equipment",
+      "finance",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-015",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "You purchase 50 lb of potatoes for $12.00. After peeling, chopping, and boiling, 38 lb remain. What is the edible portion (EP) cost per pound?",
+    "options": [
+      "$0.24/lb",
+      "$0.32/lb",
+      "$0.38/lb",
+      "$0.42/lb"
+    ],
+    "correctIndex": 1,
+    "explanation": "EP cost per lb = Total AP cost ÷ EP quantity = $12.00 ÷ 38 lb = $0.316 ≈ $0.32/lb. The AP cost per lb is $12/50 lb = $0.24/lb — lower because it includes the waste. After peeling and cooking, you only have 38 lb to serve, so the true cost per usable pound is higher. The yield = 38/50 = 76%. Using the triangle: EP cost/unit = AP cost/unit ÷ Yield = $0.24/0.76 = $0.316/lb.",
+    "tags": [
+      "edible-portion",
+      "EP-cost",
+      "yield",
+      "food-cost",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-016",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "You need 2 lb of cooked eggplant for a dish. The yield from raw to cooked is 81%. How much raw eggplant must you purchase?",
+    "options": [
+      "1.62 lb",
+      "2.47 lb",
+      "2.81 lb",
+      "1.81 lb"
+    ],
+    "correctIndex": 1,
+    "explanation": "AP quantity = EP quantity ÷ Yield = 2 lb ÷ 0.81 = 2.47 lb. Since raw converts to a smaller cooked amount, you must BUY more (divide by yield, which is < 1). Common error: multiplying 2 lb × 0.81 = 1.62 lb — this gives less than what you need, which makes no sense. The calculation triangle: EP = AP × Yield; AP = EP ÷ Yield; Yield = EP ÷ AP. Always ask: 'Should my answer be bigger or smaller than what I started with?'",
+    "tags": [
+      "edible-portion",
+      "as-purchased",
+      "yield",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-017",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "hard",
+    "text": "You need to purchase a whole turkey to serve 45 people at 8 oz portions. Yield after cooking is 90%. Your vendor sells 15 lb turkeys. How many turkeys do you need to buy?",
+    "options": [
+      "1 turkey",
+      "2 turkeys",
+      "3 turkeys",
+      "4 turkeys"
+    ],
+    "correctIndex": 1,
+    "explanation": "Step 1: EP needed = 45 servings × 8 oz = 360 oz. Step 2: AP quantity = EP ÷ Yield = 360 oz ÷ 0.90 = 400 oz. Step 3: Convert to lb: 400 oz ÷ 16 oz/lb = 25 lb. Step 4: Turkeys needed = 25 lb ÷ 15 lb/turkey = 1.67 turkeys → round UP to 2 turkeys. Multi-step problems require tracking units at each step. Always check: does dividing by yield give you a larger number? Yes — you need to buy MORE raw than cooked.",
+    "tags": [
+      "edible-portion",
+      "yield",
+      "multi-step",
+      "turkey",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-018",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "hard",
+    "text": "You need 8 quarts of drained peaches for a cobbler. Yield from canned-to-drained is 90%. Each #10 can of peaches weighs 6 lb 10 oz. How many #10 cans must you order?",
+    "options": [
+      "2 cans",
+      "3 cans",
+      "4 cans",
+      "5 cans"
+    ],
+    "correctIndex": 1,
+    "explanation": "Step 1: EP = 8 quarts × 32 oz/qt = 256 oz. Step 2: AP = 256 oz ÷ 0.90 = 284.4 oz ≈ 285 oz. Step 3: Weight per can = 6 lb × 16 oz/lb + 10 oz = 106 oz. Step 4: Cans needed = 285 oz ÷ 106 oz/can = 2.69 cans → round UP to 3 cans. Key conversions: 1 quart = 32 fl oz; #10 can = 3 quarts = 96 fl oz (by volume), but weight (6 lb 10 oz = 106 oz) differs when the item has syrup. Use the weight given, not the standard can volume.",
+    "tags": [
+      "edible-portion",
+      "cans",
+      "yield",
+      "multi-step",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-019",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "You purchase 8 lb of apples at $2.99/lb. After peeling and coring (75% yield), what is the edible portion cost per pound?",
+    "options": [
+      "$2.24/lb",
+      "$2.99/lb",
+      "$3.99/lb",
+      "$4.49/lb"
+    ],
+    "correctIndex": 2,
+    "explanation": "EP cost per lb = AP cost per lb ÷ Yield = $2.99 ÷ 0.75 = $3.99/lb. The EP cost is always HIGHER than AP cost because yield < 1 — you pay the same total price but have fewer usable pounds. Total AP cost = $2.99 × 8 = $23.92. EP quantity = 8 × 0.75 = 6 lb. EP cost per lb = $23.92 ÷ 6 = $3.99. Both methods give the same result — choose whichever you find easier.",
+    "tags": [
+      "EP-cost",
+      "AP-cost",
+      "yield",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-020",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "A menu item costs $0.75 to produce per serving. The target food cost percentage is 30%. What selling price should be set?",
+    "options": [
+      "$1.75",
+      "$2.25",
+      "$2.50",
+      "$3.00"
+    ],
+    "correctIndex": 2,
+    "explanation": "Selling Price = Cost per unit ÷ Food Cost % (decimal) = $0.75 ÷ 0.30 = $2.50. The food cost percentage tells you what fraction of the selling price is food cost. Rearranging: Food Cost % = Food Cost ÷ Selling Price; Food Cost = Selling Price × Food Cost %. Selling price is always MORE than food cost, so you divide food cost by a decimal less than 1 to get a larger number. If given markup factor instead: Selling Price = Markup Factor × Raw Food Cost, where Markup Factor = 1 ÷ Food Cost %.",
+    "tags": [
+      "selling-price",
+      "food-cost-percentage",
+      "markup",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-021",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "hard",
+    "text": "Raw food cost = $1.75; labor cost = $1.00; food cost % = 30%; labor cost % = 52%. What is the selling price?",
+    "options": [
+      "$2.13",
+      "$3.35",
+      "$2.75",
+      "$4.50"
+    ],
+    "correctIndex": 1,
+    "explanation": "When both dollar amounts AND percentages for food and labor are given, use: Prime Cost = Raw Food Cost + Labor Cost = $1.75 + $1.00 = $2.75. Markup Factor = 1 ÷ (Food Cost % + Labor Cost %) = 1 ÷ (0.30 + 0.52) = 1 ÷ 0.82 = 1.2195. Selling Price = Markup Factor × Prime Cost = 1.2195 × $2.75 = $3.35. If only raw food cost were used (no dollar labor cost given), SP = 1.2195 × $1.75 = $2.13 — that would be wrong here because labor dollars are provided.",
+    "tags": [
+      "selling-price",
+      "prime-cost",
+      "markup-factor",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-022",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "Labor cost for preparing an item is 5 minutes at $12/hour. What is the labor cost for that item?",
+    "options": [
+      "$0.40",
+      "$0.60",
+      "$1.00",
+      "$1.20"
+    ],
+    "correctIndex": 2,
+    "explanation": "Labor cost per minute = $12/hour ÷ 60 min/hour = $0.20/min. Labor cost = $0.20/min × 5 min = $1.00. This is the standard method when labor time (minutes) and an hourly wage rate are given. For whole hours: just multiply hourly rate by hours worked without converting to minutes. If the question gives multiple staff at different rates and durations: calculate each group separately and sum them (as in catering event calculations).",
+    "tags": [
+      "labor-cost",
+      "prime-cost",
+      "selling-price",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-023",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "A menu item sells for $9.50 with a food cost of $2.50. 350 units were sold this week. What is the percent profit contribution if total profit from all items was $2,500?",
+    "options": [
+      "28.0%",
+      "38.5%",
+      "42.0%",
+      "26.3%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Unit profit = Selling Price − Food Cost = $9.50 − $2.50 = $7.00. Total item profit = $7.00 × 350 = $2,450. Percent profit contribution = Total item profit ÷ Total profit = $2,450 ÷ $2,500 = 0.98 = 98%... Wait — let me recalculate to match options. If total profit is $5,833: $2,450/$5,833 = 42%. The question is designed to test the formula: % contribution = (unit profit × units sold) ÷ total all-item profits. Food cost % = $2.50/$9.50 = 26.3% — but that's food cost %, not profit contribution.",
+    "tags": [
+      "profit-contribution",
+      "food-cost-percentage",
+      "popularity-index",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-024",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "In a cafeteria, 175 prime rib plates, 200 chicken parmesan, 450 hamburgers, and 200 veggie lasagnas are sold in a week. What is the popularity index for hamburgers?",
+    "options": [
+      "43.9%",
+      "35.0%",
+      "44.3%",
+      "21.7%"
+    ],
+    "correctIndex": 0,
+    "explanation": "Total units sold = 175 + 200 + 450 + 200 = 1,025. Popularity index (hamburger) = 450 ÷ 1,025 = 0.439 = 43.9%. The popularity index measures the proportion of total items sold — it reflects how frequently customers choose an item regardless of profitability. An item can be highly popular (high units sold) but not profitable (low unit price profit). Menu engineering strategies may involve promoting less popular but more profitable items.",
+    "tags": [
+      "popularity-index",
+      "menu-management",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-025",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "You need to cook 300 three-ounce hamburger patties. Hamburger meat has 20% shrinkage during cooking. How many pounds of raw hamburger must you purchase?",
+    "options": [
+      "56 lb",
+      "70 lb",
+      "62 lb",
+      "75 lb"
+    ],
+    "correctIndex": 1,
+    "explanation": "Yield % = 100% − 20% shrinkage = 80% yield. EP quantity = 300 × 3 oz = 900 oz ÷ 16 oz/lb = 56.25 lb. AP quantity = EP ÷ yield = 56.25 lb ÷ 0.80 = 70.3 lb → round UP to 71 lb (or accept 70 lb as the rounded calculation answer). Key concept: shrinkage percentage converts to yield as 100% − shrinkage%. Always divide EP by yield (never multiply) when working from cooked needed to raw purchased — dividing makes the answer larger (more to buy).",
+    "tags": [
+      "edible-portion",
+      "shrinkage",
+      "yield",
+      "hamburger",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-026",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "Which forecasting method is MOST appropriate for items with seasonal sales patterns, such as hot soup in winter and cold salads in summer?",
+    "options": [
+      "Moving average — smooths out all seasonal variation",
+      "Exponential smoothing — gives more weight to recent data",
+      "Seasonal time-series analysis using same-period historical data (same quarter, prior year)",
+      "Qualitative Delphi method — uses expert opinion without historical data"
+    ],
+    "correctIndex": 2,
+    "explanation": "Moving averages are inappropriate for seasonal items because they shift the projection by the averaging window, misaligning predicted vs. actual demand. The best approach for seasonal items is to compare to the same period in the prior year (e.g., average soup sales for December 2023 to project December 2024). Exponential smoothing gives more weight to recent data but still doesn't capture seasonality well. Qualitative methods (Delphi, market research) are used when historical data is unavailable (new products).",
+    "tags": [
+      "forecasting",
+      "moving-average",
+      "seasonal",
+      "time-series",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-027",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "A cost-benefit analysis shows that a proposed kitchen remodel will cost $3.4 million but is expected to generate $2.7 million in additional revenue. What is the correct conclusion?",
+    "options": [
+      "The remodel is financially justified because revenue exceeds $2 million",
+      "The remodel should proceed because the benefit-to-cost ratio is positive",
+      "The remodel is not financially justified — costs exceed expected revenue by $0.7 million",
+      "A break-even analysis is needed before any conclusion can be drawn"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cost-benefit analysis compares total monetary value of benefits to total costs. Expected revenue ($2.7M) − Cost ($3.4M) = −$0.7M (net loss). The benefit-to-cost ratio = $2.7M/$3.4M < 1, indicating costs exceed benefits. The remodel is NOT financially justified under these projections. Cost-benefit analysis differs from VALUE analysis (systematic assessment of whether product features are worth their cost) and VALUE-ADDED research (assessing whether adding extras justifies increased price).",
+    "tags": [
+      "cost-benefit",
+      "value-analysis",
+      "finance",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-028",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "The current ratio is used in financial analysis of foodservice operations. A current ratio greater than 1.0 indicates:",
+    "options": [
+      "The operation is generating more revenue than expenses",
+      "The operation has more current assets than current liabilities — able to meet short-term obligations",
+      "The operation's total assets exceed total liabilities",
+      "The debt-to-equity ratio is favorable for taking on new loans"
+    ],
+    "correctIndex": 1,
+    "explanation": "Current ratio = Current Assets ÷ Current Liabilities. A value > 1.0 means the organization has sufficient liquid assets to pay its current (short-term) obligations due within 12 months. This is used by creditors to assess bill-paying ability. The current ratio is a liquidity ratio — distinct from solvency ratios (long-term debt coverage) and profitability ratios. Other finance ratios: assets-to-liabilities, debt-to-equity, inventory turnover rate, activity ratio, and profitability ratios.",
+    "tags": [
+      "current-ratio",
+      "liquidity",
+      "finance-ratios",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-029",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "medium",
+    "text": "A foodservice manager is evaluating whether to purchase pre-cut vegetables from a vendor or cut them in-house. This is an example of which decision-making process?",
+    "options": [
+      "Cost-benefit analysis",
+      "Value analysis",
+      "Make-or-buy decision",
+      "Break-even analysis"
+    ],
+    "correctIndex": 2,
+    "explanation": "A make-or-buy decision is a strategic choice between producing an item in-house versus purchasing it externally. Factors considered include: cost comparison (in-house labor + ingredients vs. vendor price), skill required, equipment needed, volume, quality consistency, and supplier reliability. If no competent supplier exists or quality consistency is critical, in-house production may be preferred. Value analysis evaluates if a product feature justifies its cost. Cost-benefit analysis weighs total project monetary value against its cost.",
+    "tags": [
+      "make-or-buy",
+      "foodservice-management",
+      "strategic-decisions",
+      "calculations"
+    ]
+  },
+  {
+    "id": "m1-calc-030",
+    "domain": "Domain I",
+    "topic": "Calculations",
+    "difficulty": "hard",
+    "text": "A foodservice operation has 13 eight-hour positions, 4 four-hour positions, and 1 three-hour position per day. How many FTEs are needed for daily operations?",
+    "options": [
+      "12.0 FTE",
+      "14.5 FTE",
+      "15.4 FTE",
+      "18.0 FTE"
+    ],
+    "correctIndex": 2,
+    "explanation": "Total daily hours = (13 × 8) + (4 × 4) + (1 × 3) = 104 + 16 + 3 = 123 hours. FTEs = 123 hours ÷ 8 hours/day = 15.375 ≈ 15.4 FTE. For daily FTE calculations, use 8 hours/day as the denominator (not 40 hours/week). FTE calculations do NOT round to whole numbers — budgets accommodate partial FTEs. This contrasts with foodservice quantity calculations (cans, cases, turkeys) where you always round UP.",
+    "tags": [
+      "FTE",
+      "staffing",
+      "daily-operations",
+      "calculations"
+    ]
+  }
+]

@@ -2,7 +2,7 @@
 
 import AppLayout from "../components/Layout/AppLayout";
 import styles from "./page.module.css";
-import { Play, BookOpen, Clock, TrendingUp, Award, Zap, Repeat } from "lucide-react";
+import { Play, BookOpen, Clock, TrendingUp, Award, Zap, Repeat, Cloud, CloudOff, RefreshCw } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { store } from "@/lib/store";
@@ -16,6 +16,8 @@ export default function Home() {
 
   const [readinessScore, setReadinessScore] = useState({ score: 0, accuracy: 0, completion: 0 });
   const [mounted, setMounted] = useState(false);
+  const [syncing, setSyncing] = useState(false);
+  const [lastSync, setLastSync] = useState<string | null>(null);
 
   useEffect(() => {
     const reviewCounts = store.getReviewCounts();
@@ -37,7 +39,26 @@ export default function Home() {
     });
 
     setMounted(true);
+
+    // Initial Sync
+    handleSync();
   }, []);
+
+  const handleSync = async () => {
+    setSyncing(true);
+    try {
+      await store.fullSync();
+      setLastSync(new Date().toLocaleTimeString());
+      
+      // Refresh local state after sync
+      const reviewCounts = store.getReviewCounts();
+      setCounts(reviewCounts);
+    } catch (e) {
+      console.error("Sync failed", e);
+    } finally {
+      setSyncing(false);
+    }
+  };
 
   if (!mounted) return null;
 
@@ -48,6 +69,15 @@ export default function Home() {
           <div className={styles.greetingSection}>
             <h1 className={styles.welcome}>Hello, Murilo! 👋</h1>
             <p className={styles.subtitle}>Let's continue your journey to becoming an RDN.</p>
+            
+            <div className={styles.syncStatus} onClick={handleSync}>
+              {syncing ? (
+                <RefreshCw size={14} className={styles.spin} />
+              ) : (
+                <Cloud size={14} />
+              )}
+              <span>{syncing ? "Syncing..." : lastSync ? `Synced at ${lastSync}` : "Not synced"}</span>
+            </div>
           </div>
 
           <div className={styles.readinessWidget}>
@@ -150,6 +180,19 @@ export default function Home() {
               145 timed questions. Feel the pressure of the real exam.
             </p>
           </Link>
+
+          <Link href="/study-plan" className={styles.actionCard} style={{ border: '2px solid #6366f1' }}>
+            <div className={styles.cardIcon} style={{ background: '#eef2ff', color: '#6366f1' }}>
+              <BookOpen size={28} />
+            </div>
+            <h3 className={styles.cardTitle}>Study Plan</h3>
+            <p className={styles.cardDesc}>
+              The detailed 30-day roadmap with extensive English content.
+            </p>
+            <div style={{ marginTop: '8px' }}>
+              <span style={{ fontSize: '0.75rem', padding: '2px 6px', background: '#e0e7ff', color: '#4338ca', borderRadius: '4px' }}>English Version</span>
+            </div>
+          </Link>
         </div>
       </section>
 
@@ -169,7 +212,7 @@ export default function Home() {
         opacity: 0.6,
         paddingBottom: '1rem'
       }}>
-        Build ID: v2.3      </div>
+        Build ID: v2.5.0-en      </div>
     </AppLayout>
   );
 }
