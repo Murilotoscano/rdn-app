@@ -1,109 +1,124 @@
-# RDN Exam 10-Day Intensive Study Plan
-
-> [!WARNING]
-> **ATENÇÃO: Não leia os PDFs capa a capa!** São muito extensos.
-> Use o **Método de Estudo Inteligente**:
-> 1.  **Filtre**: Leia apenas os **parágrafos de resumo**, **tabelas** e **textos em negrito**.
-> 2.  **Estudo Reverso**: Se errar uma questão no App, vá ao PDF e leia *apenas* sobre aquele assunto específico.
-> 3.  **Meta de Leitura**: Não se preocupe em acabar o PDF, preocupe-se em entender os conceitos principais.
->
-> **💡 Dica Pro: Como achar o "Ouro" nos PDFs:**
-> *   **Procure por Caixas Coloridas**: Geralmente contêm fórmulas ou definições chave.
-> *   **Final dos Capítulos**: Veja se há uma seção "Summary" ou "Key Points".
-> *   **Use CTRL+F (ou CMD+F)**: Busque por palavras-chave das questões que você errou.
-> *   **Tabelas**: Se tem uma tabela comparando doenças ou nutrientes, ISSO CAI NA PROVA.
-
-This plan is designed for **2 hours of study per day**:
-1.  **Hour 1: Theory** (Skim Summaries/Tables) - **Target: 15-20 Pages of key info**
-2.  **Hour 2: Practice** (App Questions) - **Target: 30-50 Questions**
+# RDN Exam Study Plan — 3-Month Prep
+**Version:** Updated June 2026 | **Target:** Pass RDN exam in 3 months
+**Total questions available:** 870 | **Study guides:** 4 domain-specific deep guides
 
 ---
 
-## 📅 Cycle 1: Core Concepts (Days 1-10)
-
-### Day 1: Food Science Foundations
-- [ ] **Theory (1h)**: Read `01_Food_Science.pdf`.
-    -   *Goal*: Read ~20 pages. Focus on chemical properties and cooking methods.
-- [ ] **Practice (1h)**: App -> **Domain 1 & 2**.
-    -   *Goal*: Complete **40 Questions**.
-
-### Day 2: Digestion & Absorption
-- [ ] **Theory (1h)**: Read `02_Normal_Nutrition.pdf`.
-    -   *Goal*: Read ~15 pages (Deep dive into Macronutrients).
-- [ ] **Practice (1h)**: App -> **Domain 1 & 2**.
-    -   *Goal*: Complete **40 Questions**.
-
-### Day 3: Clinical I - MNT Basics
-- [ ] **Theory (1h)**: Read `03_04_MNT_Resource.pdf`.
-    -   *Goal*: Focus on **Diabetes & CVD sections** (~20 pages).
-- [ ] **Practice (1h)**: App -> **Domain 3**.
-    -   *Goal*: Complete **30 Questions** (These are harder/longer).
-
-### Day 4: Clinical II - Advanced MNT
-- [ ] **Theory (1h)**: Read `03_04_MNT_Resource.pdf` + `04_Renal_Supplement.pdf`.
-    -   *Goal*: Focus on **Renal (Kidney) & Critical Care** (~15 pages).
-- [ ] **Practice (1h)**: App -> **Domain 3**.
-    -   *Goal*: Complete **30 Questions**.
-
-### Day 5: Enteral & Parenteral Nutrition
-- [ ] **Theory (1h)**: Read `05_Enteral_Parenteral.pdf` + `05_Calculations.pdf`.
-    -   *Goal*: ~10 pages of reading + memorize **3 new formulas**.
-- [ ] **Practice (1h)**: App -> **Domain 3** (Calculations).
-    -   *Goal*: Complete **20 Calculation Questions** (Take your time).
-
-### Day 6: Management I - Food Service
-- [ ] **Theory (1h)**: Read `06_Food_Service_Logistics.pdf`.
-    -   *Goal*: Read ~20 pages (Systems & Procurement).
-- [ ] **Practice (1h)**: App -> **Domain 4**.
-    -   *Goal*: Complete **50 Questions** (Usually faster).
-
-### Day 7: Management II - Leadership & HR
-- [ ] **Theory (1h)**: Read `07_Management_Concepts.pdf`.
-    -   *Goal*: Read ~15 pages (HR Laws, Budgeting).
-- [ ] **Practice (1h)**: App -> **Domain 4**.
-    -   *Goal*: Complete **50 Questions**.
-
-### Day 8: Counseling & Education
-- [ ] **Theory (1h)**: Read `08_Counseling.pdf`.
-    -   *Goal*: Review the entire slide deck (it's shorter) or ~20 pages.
-- [ ] **Practice (1h)**: App -> **Domain 2**.
-    -   *Goal*: Complete **40 Questions**.
-
-### Day 9: Research & Ethics
-- [ ] **Theory (1h)**: Read `09_Research_Concepts.pdf`.
-    -   *Goal*: Read ~15 pages (Study designs, statistics basics).
-- [ ] **Practice (1h)**: App -> **Domain 1**.
-    -   *Goal*: Complete **30 Questions**.
-
-### Day 10: Review & Weak Points
-- [ ] **Theory (1h)**: Review your notes or re-read the **hardest topic** for you.
-- [ ] **Practice (1h)**: App -> **General Simulation**.
-    -   *Goal*: Complete **60 Questions** (Simulate a mini-exam).
+## Exam Weight Distribution
+| Domain | Weight | Questions in Bank | Study Priority |
+|--------|--------|-------------------|----------------|
+| Domain II — Nutrition Care / MNT | 45% | 265 | HIGHEST |
+| Domain I — Principles of Dietetics | 21% | 192 | HIGH |
+| Domain III — Management | 21% | 213 | HIGH |
+| Domain IV — Foodservice Systems | 13% | 100 | MEDIUM |
 
 ---
 
-## 🔁 Repeat or Focus?
-After Day 10, restart the cycle or use the app's "Statistics" page to see where your score is lowest and focus only on those days.
+## Study Materials
+### Theory (read before practicing questions)
+- `Domain1_Deep_Study_Guide.docx` — Food Science, DRIs, Vitamins, Minerals, GI Physiology, Research
+- `Domain2_Deep_Study_Guide.docx` — Labs, Critical Care, Renal, Diabetes, GI, Cardiovascular, EN/PN
+- `Domain3_Deep_Study_Guide.docx` — Management, Leadership, HR Law, Finance, Quality Improvement
+- `Domain4_Deep_Study_Guide.docx` — Menus, Procurement, HACCP, Sanitation, Equipment
+
+### Practice
+- App simulator: 870 questions with immediate feedback and rationale
+- CDR official practice questions: 30 questions with rationale (cdr_extracted.txt)
 
 ---
 
-## 🚀 Roteiro para a Aprovação (Roadmap 30 Dias)
+## Month 1 — Foundation (Weeks 1–4)
+**Focus: Domain II (45%) + Domain I (21%)**
+**Daily commitment: 1.5–2 hours**
 
-Para estar **100% pronto**, sugerimos completar **3 Ciclos** (aproximadamente 30 dias):
+### Week 1–2: Domain II — Nutrition Care & MNT
+- Day 1–2: Read Domain2_Deep_Study_Guide.docx (Labs, Critical Care, Burns, TBI, SCI)
+- Day 3–4: Read Domain2_Deep_Study_Guide.docx (Renal, Liver, Pancreatitis, GI Disorders)
+- Day 5–6: Read Domain2_Deep_Study_Guide.docx (Diabetes, Cardiovascular, Cancer, Anemias)
+- Day 7: Read Domain2_Deep_Study_Guide.docx (EN/PN, Eating Disorders, Inborn Errors)
+- Daily: 15–20 questions in app (Domain II filter)
+- Weekly: Review all questions answered incorrectly
 
-### Fase 1: Fundação (Dias 1-10)
--   **Objetivo**: Passar por todos os tópicos uma vez.
--   **Meta**: Completar o ciclo acima. Não se preocupe se errar muito.
--   **Resultado**: Você saberá exatamente quais são seus pontos fracos.
+### Week 3–4: Domain I — Principles of Dietetics
+- Day 1–2: Read Domain1_Deep_Study_Guide.docx (DRIs, Macronutrients, Protein, Fat)
+- Day 3–4: Read Domain1_Deep_Study_Guide.docx (Vitamins, Minerals)
+- Day 5–6: Read Domain1_Deep_Study_Guide.docx (GI Physiology, Food Science)
+- Day 7: Read Domain1_Deep_Study_Guide.docx (Research Methods, Calculations)
+- Daily: 15–20 questions in app (Domain I filter)
+- Weekly: Mixed simulation of 30 questions (Domain I + II)
 
-### Fase 2: Aprofundamento (Dias 11-20)
--   **Ação**: Olhe suas estatísticas no App.
--   **Foco**: Estude **apenas os dias/domínios onde sua nota foi < 70%**.
--   **Intensidade**: Aumente a teoria para 1.5h nesses tópicos difíceis.
+---
 
-### Fase 3: Simulação Real (Dias 21-30)
--   **Ação**: Faça simulados completos (100+ questões) cronometrados.
--   **Meta**: Tentar manter uma média constante acima de 80%.
--   **Dia 29/30**: Revisão leve apenas de fórmulas e valores de laboratório.
+## Month 2 — Expansion (Weeks 5–8)
+**Focus: Domain III (21%) + Domain IV (13%)**
+**Daily commitment: 1.5–2 hours**
 
-**Estimativa Total:** Se você seguir este plano de 2h/dia, em **30 dias** você terá uma base extremamente sólida para a prova.
+### Week 5–6: Domain III — Management
+- Day 1–2: Read Domain3_Deep_Study_Guide.docx (POSDC, Leadership, HBL, Theories X/Y/Z)
+- Day 3–4: Read Domain3_Deep_Study_Guide.docx (HR Law, Employment, Interviewing)
+- Day 5–6: Read Domain3_Deep_Study_Guide.docx (Finance, QI Tools, Regulatory Agencies)
+- Day 7: Read Domain3_Deep_Study_Guide.docx (Federal Programs, Cultural Competence)
+- Daily: 15–20 questions in app (Domain III filter)
+
+### Week 7–8: Domain IV — Foodservice Systems
+- Day 1–2: Read Domain4_Deep_Study_Guide.docx (Menus, Menu Engineering, Production Systems)
+- Day 3–4: Read Domain4_Deep_Study_Guide.docx (Procurement, Inventory, FOB Terms)
+- Day 5–6: Read Domain4_Deep_Study_Guide.docx (HACCP, Food Safety, Temperature Control)
+- Day 7: Read Domain4_Deep_Study_Guide.docx (Sanitation, Equipment, Sustainability)
+- Daily: 15–20 questions in app (Domain IV filter)
+- Weekly: Mixed simulation of 50 questions (all domains)
+
+---
+
+## Month 3 — Consolidation & Exam Simulation (Weeks 9–12)
+**Focus: Weak areas + Full simulations**
+**Daily commitment: 2 hours**
+
+### Week 9–10: Targeted Review
+- Identify your 3 weakest topics from app performance data
+- Re-read relevant sections of deep study guides
+- Do 20–30 targeted questions per day in weak areas
+- Weekly: 75-question mixed simulation
+
+### Week 11: Full Simulations
+- Monday/Wednesday/Friday: 125-question simulation (CAT format, all domains mixed)
+- Tuesday/Thursday: Review wrong answers + re-read study guide sections
+- Saturday: 125-question simulation
+- Sunday: Rest and light review of Quick Reference tables
+
+### Week 12: Final Review
+- Review all domain Quick Reference tables (last pages of each guide)
+- Focus only on topics where performance is below 70%
+- 2 full 125-question simulations
+- Day before exam: Light review only — no new material
+
+---
+
+## Weekly Performance Targets
+| Week | Target Score | Focus |
+|------|-------------|-------|
+| 1–2 | 60%+ | Domain II fundamentals |
+| 3–4 | 65%+ | Domain I fundamentals |
+| 5–6 | 65%+ | Domain III |
+| 7–8 | 65%+ | Domain IV |
+| 9–10 | 70%+ | All domains mixed |
+| 11–12 | 75%+ | Full simulations |
+
+---
+
+## Exam Day Checklist
+- Bring government-issued photo ID
+- Arrive 30 minutes early at Prometric center
+- Calculator provided on-screen (no personal calculator)
+- 3 hours for exam + 20 min tutorial + 10 min post-exam survey
+- Minimum 125 questions, maximum 145 (CAT adaptive)
+- Passing score: 25 on scale of 1–50
+- Results available immediately after exam
+
+---
+
+## Key Numbers to Memorize (Review Daily)
+- Domain II is 45% of exam — this is where the exam is won or lost
+- Passing score: 25/50
+- Exam time: 3 hours for questions
+- CAT format: 125–145 questions, cannot go back to change answers
