@@ -212,7 +212,7 @@ export default function Home() {
         opacity: 0.6,
         paddingBottom: '1rem'
       }}>
-        Build ID: v2.5.0-en      </div>
+        Build ID: v3.0.0-en      </div>
     </AppLayout>
   );
 }

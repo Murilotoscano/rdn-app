@@ -41,7 +41,7 @@ export default function RootLayout({
           zIndex: 9999,
           boxShadow: "0 2px 4px rgba(0,0,0,0.2)"
         }}>
-          v2.5.0-en
+          v3.0.0-en
         </div>
         {children}
       </body>
