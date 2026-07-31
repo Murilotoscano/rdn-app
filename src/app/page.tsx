@@ -193,6 +193,19 @@ export default function Home() {
               <span style={{ fontSize: '0.75rem', padding: '2px 6px', background: '#e0e7ff', color: '#4338ca', borderRadius: '4px' }}>English Version</span>
             </div>
           </Link>
+
+          <Link href="/study-guides" className={styles.actionCard} style={{ border: '2px solid #2E7D32' }}>
+            <div className={styles.cardIcon} style={{ background: '#e8f5e9', color: '#2E7D32' }}>
+              <BookOpen size={28} />
+            </div>
+            <h3 className={styles.cardTitle}>Study Guides</h3>
+            <p className={styles.cardDesc}>
+              Deep clinical reference for all 4 domains — tables, exam traps, and key points.
+            </p>
+            <div style={{ marginTop: '8px' }}>
+              <span style={{ fontSize: '0.75rem', padding: '2px 6px', background: '#e8f5e9', color: '#1b5e20', borderRadius: '4px' }}>4 Domains</span>
+            </div>
+          </Link>
         </div>
       </section>
 
