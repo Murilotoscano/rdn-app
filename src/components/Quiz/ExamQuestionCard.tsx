@@ -28,16 +28,16 @@ export default function ExamQuestionCard({
         <div className={styles.card}>
             <div className={styles.header}>
                 <div className={styles.meta}>
-                    <span className={styles.number}>Questão {questionIndex + 1} de {totalQuestions}</span>
+                    <span className={styles.number}>Question {questionIndex + 1} of {totalQuestions}</span>
                     <span className={styles.domain}>{question.domain}</span>
                 </div>
                 <button
                     className={clsx(styles.flagBtn, { [styles.activeFlag]: isFlagged })}
                     onClick={onToggleFlag}
-                    title="Marcar para revisão"
+                    title="Flag for review"
                 >
                     <Flag size={18} fill={isFlagged ? "currentColor" : "none"} />
-                    <span>{isFlagged ? 'Marcada' : 'Marcar'}</span>
+                    <span>{isFlagged ? 'Flagged' : 'Flag'}</span>
                 </button>
             </div>
 

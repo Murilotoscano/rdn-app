@@ -1,0 +1,178 @@
+[
+  {
+    "id": "m2-gf-cw-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Chronic Wounds",
+    "difficulty": "medium",
+    "text": "A 78-year-old nursing home resident weighing 62 kg has a stage 4 sacral pressure injury. Which protein recommendation is most appropriate?",
+    "options": [
+      "0.8 g/kg per day, about 50 g",
+      "1.25 to 1.5 g/kg per day, about 78 to 93 g",
+      "2.5 g/kg per day, about 155 g",
+      "0.6 g/kg per day, about 37 g"
+    ],
+    "correctIndex": 1,
+    "explanation": "Guidelines for adults with pressure injuries recommend 1.25 to 1.5 g/kg per day to supply substrate for collagen synthesis and granulation tissue, with the upper end favored for stage 3 and 4 wounds. At 62 kg this yields roughly 78 to 93 g daily. The 0.8 g/kg figure is the RDA for healthy adults and is inadequate for active wound healing. Pushing to 2.5 g/kg exceeds recommendations, offers no additional healing benefit, and increases renal solute and fluid demands in an older adult. A 0.6 g/kg intake is a restricted level used in specific renal contexts and would accelerate tissue breakdown here.",
+    "tags": [
+      "wound healing",
+      "pressure injury",
+      "protein",
+      "older adults"
+    ]
+  },
+  {
+    "id": "m2-gf-cw-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Chronic Wounds",
+    "difficulty": "hard",
+    "text": "A patient with a non-healing wound has been taking 220 mg of zinc sulfate daily for three months without medical supervision. What complication is of most concern?",
+    "options": [
+      "Zinc toxicity causing copper deficiency",
+      "Improved wound healing with no risk",
+      "Vitamin C depletion",
+      "Excess iron absorption"
+    ],
+    "correctIndex": 0,
+    "explanation": "Zinc and copper compete for the same intestinal transporter, so prolonged high-dose zinc induces metallothionein and blocks copper absorption, producing copper deficiency with microcytic anemia, neutropenia and neurologic changes. Supplemental zinc is generally limited to about 40 mg of elemental zinc daily and used short term when deficiency is documented, since 220 mg of zinc sulfate supplies roughly 50 mg elemental zinc. The idea that this carries no risk ignores a well-described interaction. Zinc does not deplete vitamin C. High zinc intake reduces rather than increases iron absorption, since these minerals also compete.",
+    "tags": [
+      "wound healing",
+      "zinc",
+      "copper deficiency",
+      "supplementation"
+    ]
+  },
+  {
+    "id": "m2-gf-cw-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Chronic Wounds",
+    "difficulty": "medium",
+    "text": "Which nutrient combination has the strongest rationale for supporting collagen synthesis in wound healing?",
+    "options": [
+      "Vitamin C and protein",
+      "Vitamin K and calcium",
+      "Thiamine and magnesium",
+      "Vitamin B12 and folate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vitamin C is an essential cofactor for prolyl and lysyl hydroxylase, the enzymes that hydroxylate proline and lysine to stabilize the collagen triple helix, and protein supplies the amino acid substrate for that collagen. Together they form the core of wound healing nutrition support. Vitamin K and calcium are central to coagulation and bone mineralization but are not collagen cofactors. Thiamine and magnesium serve energy metabolism and enzymatic reactions broadly, without a specific collagen role. Vitamin B12 and folate are required for DNA synthesis and erythropoiesis, and their deficiency causes anemia rather than a direct collagen synthesis defect.",
+    "tags": [
+      "wound healing",
+      "vitamin C",
+      "collagen",
+      "protein"
+    ]
+  },
+  {
+    "id": "m2-gf-cw-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Chronic Wounds",
+    "difficulty": "medium",
+    "text": "Which screening tool is most commonly used to assess pressure injury risk?",
+    "options": [
+      "Braden Scale",
+      "Glasgow Coma Scale",
+      "Mini Nutritional Assessment",
+      "Malnutrition Screening Tool"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Braden Scale assesses six domains, including sensory perception, moisture, activity, mobility, nutrition, and friction and shear, generating a score that stratifies pressure injury risk and triggers preventive measures. The Glasgow Coma Scale measures level of consciousness after neurologic injury. The Mini Nutritional Assessment and the Malnutrition Screening Tool are nutrition screening instruments; nutrition is one component within the Braden Scale, but these tools do not assess pressure injury risk overall, which also depends on mobility, moisture and shear forces.",
+    "tags": [
+      "wound healing",
+      "pressure injury",
+      "Braden Scale",
+      "screening"
+    ]
+  },
+  {
+    "id": "m2-gf-cw-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Chronic Wounds",
+    "difficulty": "hard",
+    "text": "A patient with a stage 3 pressure injury has adequate protein and calorie intake but healing has stalled. Serum albumin is 2.6 g/dL and C-reactive protein is elevated. How should the albumin be interpreted?",
+    "options": [
+      "It confirms protein malnutrition and requires doubling protein intake",
+      "It largely reflects inflammation and is not a reliable marker of protein status",
+      "It indicates dehydration",
+      "It indicates excessive protein intake"
+    ],
+    "correctIndex": 1,
+    "explanation": "Albumin is a negative acute phase reactant. During inflammation, hepatic synthesis shifts toward acute phase proteins and capillary permeability increases, so albumin falls independently of nutritional intake. The elevated C-reactive protein here confirms an inflammatory state, so the low albumin reflects inflammation rather than protein status, and current guidance discourages using albumin as a nutrition marker. Doubling protein on the basis of albumin alone is not indicated when intake is already adequate. Dehydration would tend to raise albumin through hemoconcentration. Albumin does not rise or fall as a marker of protein excess.",
+    "tags": [
+      "wound healing",
+      "albumin",
+      "inflammation",
+      "assessment"
+    ]
+  },
+  {
+    "id": "m2-gf-cw-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Chronic Wounds",
+    "difficulty": "hard",
+    "text": "Which statement about arginine supplementation in pressure injury management is most accurate?",
+    "options": [
+      "Arginine is contraindicated in all wound patients",
+      "Arginine-containing specialized formulas may improve healing in stage 3 and 4 pressure injuries",
+      "Arginine should be given to every patient with any wound",
+      "Arginine is an essential amino acid in all circumstances"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arginine becomes conditionally essential during metabolic stress and contributes to collagen deposition, nitric oxide production and immune function. Trials of specialized oral nutrition supplements containing arginine along with zinc and antioxidants show improved healing in stage 3 and 4 pressure injuries, so guidelines support considering them for non-healing deep wounds. Arginine is not contraindicated in all wound patients, though caution applies in hemodynamically unstable sepsis. Routine use in every minor wound is not supported and adds unnecessary cost. Arginine is conditionally, not unconditionally, essential.",
+    "tags": [
+      "wound healing",
+      "arginine",
+      "pressure injury",
+      "supplementation"
+    ]
+  },
+  {
+    "id": "m2-gf-cw-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Chronic Wounds",
+    "difficulty": "medium",
+    "text": "A 60 kg patient with multiple pressure injuries requires increased energy for healing. Which estimate is most consistent with guideline recommendations?",
+    "options": [
+      "20 kcal/kg, about 1,200 kcal",
+      "30 to 35 kcal/kg, about 1,800 to 2,100 kcal",
+      "45 kcal/kg, about 2,700 kcal",
+      "15 kcal/kg, about 900 kcal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Guidelines recommend 30 to 35 kcal/kg per day for adults with pressure injuries, which for a 60 kg patient gives 1,800 to 2,100 kcal. Adequate energy is essential so that dietary protein is used for tissue synthesis rather than oxidized for fuel. A 20 kcal/kg intake is a hypocaloric level that would force protein catabolism and impair healing. A 45 kcal/kg intake overshoots recommendations and risks overfeeding with hyperglycemia and hepatic steatosis. A 15 kcal/kg intake is severely inadequate and would accelerate tissue loss.",
+    "tags": [
+      "wound healing",
+      "energy needs",
+      "pressure injury",
+      "calculation"
+    ]
+  },
+  {
+    "id": "m2-gf-cw-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Chronic Wounds",
+    "difficulty": "hard",
+    "text": "A patient with a diabetic foot ulcer has a hemoglobin A1c of 10.2%. Which factor most directly impairs wound healing in this setting?",
+    "options": [
+      "Hyperglycemia impairing neutrophil function, collagen synthesis and perfusion",
+      "Excess dietary protein",
+      "Low sodium intake",
+      "High fiber intake"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sustained hyperglycemia impairs neutrophil chemotaxis and phagocytosis, glycates collagen and reduces its tensile strength, and contributes to microvascular disease that limits oxygen and nutrient delivery to the wound bed. Glycemic control is therefore a central wound healing intervention, not merely a diabetes management goal. Excess dietary protein is not a recognized barrier to healing, and protein needs are in fact increased with an open wound. Low sodium intake has no direct bearing on wound healing. High fiber intake affects glycemic response favorably and does not impair healing.",
+    "tags": [
+      "wound healing",
+      "diabetic foot ulcer",
+      "glycemic control",
+      "hyperglycemia"
+    ]
+  }
+]

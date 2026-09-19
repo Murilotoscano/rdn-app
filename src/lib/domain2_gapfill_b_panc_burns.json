@@ -1,0 +1,354 @@
+[
+  {
+    "id": "m2-gf-panc-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "hard",
+    "text": "A patient is admitted with predicted severe acute pancreatitis. What is the most appropriate nutrition approach in the first 48 hours?",
+    "options": [
+      "Keep the patient nil per os for at least 7 days for bowel rest",
+      "Initiate early enteral nutrition, which reduces infectious complications compared with parenteral nutrition",
+      "Start parenteral nutrition immediately to rest the pancreas",
+      "Give only clear liquids for two weeks"
+    ],
+    "correctIndex": 1,
+    "explanation": "Current guidelines favor early enteral nutrition in severe acute pancreatitis, because maintaining luminal nutrition preserves gut barrier integrity and reduces bacterial translocation, infected necrosis, organ failure and mortality relative to parenteral nutrition. Prolonged bowel rest reflects outdated practice that has been reversed by trial evidence. Parenteral nutrition is reserved for patients who cannot tolerate enteral feeding, since it carries higher infectious risk. Clear liquids for two weeks provide negligible protein and energy to a hypermetabolic patient and are not a substitute for a nutrition plan.",
+    "tags": [
+      "pancreatitis",
+      "early enteral nutrition",
+      "severe acute",
+      "guidelines"
+    ]
+  },
+  {
+    "id": "m2-gf-panc-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "hard",
+    "text": "In severe acute pancreatitis requiring tube feeding, what does current evidence suggest about nasogastric versus nasojejunal placement?",
+    "options": [
+      "Nasojejunal is mandatory, since gastric feeding always worsens pancreatitis",
+      "Nasogastric feeding appears non-inferior to nasojejunal in most patients and is simpler to place",
+      "Only surgical jejunostomy is acceptable",
+      "Neither route should be used; parenteral nutrition is required"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trials and meta-analyses indicate nasogastric feeding is generally non-inferior to nasojejunal feeding for safety and tolerance in severe acute pancreatitis, and it has the practical advantage of bedside placement without endoscopic or fluoroscopic assistance. Nasojejunal remains useful when gastric feeding is not tolerated. Declaring nasojejunal mandatory reflects older teaching that trials have not supported. Surgical jejunostomy is unnecessarily invasive as a first approach. Requiring parenteral nutrition contradicts the central finding that enteral feeding is preferred whenever the gut can be used.",
+    "tags": [
+      "pancreatitis",
+      "nasogastric",
+      "nasojejunal",
+      "enteral access"
+    ]
+  },
+  {
+    "id": "m2-gf-panc-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "medium",
+    "text": "A patient with mild acute pancreatitis has improving pain and no nausea at 24 hours. What is the most appropriate next step?",
+    "options": [
+      "Begin oral feeding with a low-fat diet as tolerated",
+      "Continue nil per os until amylase and lipase fully normalize",
+      "Start parenteral nutrition",
+      "Maintain bowel rest for 5 more days"
+    ],
+    "correctIndex": 0,
+    "explanation": "In mild acute pancreatitis, early oral refeeding with a low-fat diet once pain is improving and nausea has resolved is safe, shortens length of stay, and does not require waiting for enzyme normalization. Amylase and lipase levels correlate poorly with readiness to eat and should not gate refeeding, so waiting for them prolongs hospitalization without benefit. Parenteral nutrition is unnecessary and carries risk in a patient whose gut works and who will eat within days. Extending bowel rest another five days contradicts current evidence and causes avoidable deconditioning and nutrient deficit.",
+    "tags": [
+      "pancreatitis",
+      "oral refeeding",
+      "mild acute",
+      "low fat"
+    ]
+  },
+  {
+    "id": "m2-gf-panc-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "hard",
+    "text": "A patient with chronic pancreatitis has steatorrhea, weight loss and a low serum vitamin D despite eating adequately. What is the most appropriate intervention?",
+    "options": [
+      "Restrict dietary fat to under 20 g daily indefinitely",
+      "Optimize pancreatic enzyme replacement therapy taken with all meals and snacks, and supplement fat-soluble vitamins",
+      "Increase dietary fiber substantially",
+      "Begin a high-protein, fat-free diet"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chronic pancreatitis causes exocrine insufficiency, so fat and fat-soluble vitamins are malabsorbed regardless of intake. The cornerstone is adequate pancreatic enzyme replacement dosed by lipase units and taken with every fat-containing meal and snack, plus supplementation and monitoring of vitamins A, D, E and K. Severe indefinite fat restriction was historical practice and worsens energy deficit and fat-soluble vitamin status; with proper enzyme therapy, fat is generally tolerated. Substantially increasing fiber can adsorb enzymes and worsen symptoms. A fat-free diet guarantees essential fatty acid and fat-soluble vitamin deficiency.",
+    "tags": [
+      "pancreatitis",
+      "chronic",
+      "pancreatic enzyme replacement",
+      "fat-soluble vitamins"
+    ]
+  },
+  {
+    "id": "m2-gf-panc-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "medium",
+    "text": "Which two causes account for the majority of acute pancreatitis cases?",
+    "options": [
+      "Gallstones and alcohol",
+      "Viral infection and trauma",
+      "Hypocalcemia and hypothyroidism",
+      "Excess dietary fiber and caffeine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Gallstones and alcohol together account for the large majority of acute pancreatitis cases, with hypertriglyceridemia, medications, endoscopic retrograde cholangiopancreatography and trauma making up most of the remainder. This matters for counseling, since alcohol cessation is central to preventing recurrence. Viral infection and trauma are recognized but uncommon causes. Hypocalcemia is not a cause; HYPERcalcemia is the relevant electrolyte association, and hypothyroidism is unrelated. Dietary fiber and caffeine do not cause pancreatitis, though this misconception occasionally appears in patient education materials.",
+    "tags": [
+      "pancreatitis",
+      "etiology",
+      "gallstones",
+      "alcohol"
+    ]
+  },
+  {
+    "id": "m2-gf-panc-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "hard",
+    "text": "A patient presents with acute pancreatitis and serum triglycerides of 1,850 mg/dL. Which intervention is most relevant to preventing recurrence?",
+    "options": [
+      "Aggressive triglyceride lowering through diet, weight management, glycemic control, alcohol avoidance and medication",
+      "Increasing dietary saturated fat",
+      "Restricting protein to 0.6 g/kg",
+      "High-dose calcium supplementation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Triglycerides above roughly 1,000 mg/dL can precipitate acute pancreatitis, and preventing recurrence requires sustained lowering through a low-fat diet, marked reduction of added sugars and alcohol, weight management, tight glycemic control if diabetes is present, and fibrate or omega-3 therapy as indicated. Increasing saturated fat would raise lipids further. Protein restriction has no role and would impair recovery in a catabolic patient. High-dose calcium is not indicated and hypercalcemia is itself a cause of pancreatitis, so supplementing without indication could be harmful.",
+    "tags": [
+      "pancreatitis",
+      "hypertriglyceridemia",
+      "prevention",
+      "lipid management"
+    ]
+  },
+  {
+    "id": "m2-gf-panc-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "medium",
+    "text": "Which formula type may be used when a patient with severe acute pancreatitis does not tolerate a standard polymeric formula?",
+    "options": [
+      "A semi-elemental formula with hydrolyzed peptides and medium-chain triglycerides",
+      "A high-fiber polymeric formula",
+      "A high long-chain triglyceride formula",
+      "A renal formula restricted in protein"
+    ],
+    "correctIndex": 0,
+    "explanation": "When a standard polymeric formula is not tolerated, a semi-elemental formula providing hydrolyzed peptides and medium-chain triglycerides requires less digestive capacity, since MCT are absorbed without lipase or bile salt-dependent micelle formation. Polymeric formulas are tried first, since most patients tolerate them. A high-fiber formula adds fermentative and osmotic load without helping digestion. A high long-chain triglyceride formula increases the demand on the very lipase activity that is impaired. A protein-restricted renal formula addresses a problem this patient does not have and would underfeed protein in a catabolic state.",
+    "tags": [
+      "pancreatitis",
+      "semi-elemental",
+      "MCT",
+      "formula selection"
+    ]
+  },
+  {
+    "id": "m2-gf-panc-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Pancreatitis",
+    "difficulty": "medium",
+    "text": "A patient with chronic pancreatitis and newly diagnosed diabetes asks about management. Which consideration is most important?",
+    "options": [
+      "Pancreatogenic diabetes involves loss of both insulin and glucagon, raising the risk of hypoglycemia",
+      "It should be managed identically to type 2 diabetes with metformin alone",
+      "Insulin is contraindicated in pancreatic disease",
+      "Carbohydrate should be eliminated entirely"
+    ],
+    "correctIndex": 0,
+    "explanation": "Diabetes secondary to chronic pancreatitis, sometimes called type 3c, involves destruction of both beta and alpha cells, so glucagon-mediated counterregulation is impaired and hypoglycemia is both more likely and harder to self-correct. Management emphasizes cautious glycemic targets, careful insulin titration and continued enzyme replacement, since malabsorption complicates carbohydrate timing. Treating it identically to type 2 diabetes ignores this counterregulatory defect. Insulin is not contraindicated and is often required. Eliminating carbohydrate entirely is unnecessary and increases hypoglycemia risk in a patient already vulnerable to it.",
+    "tags": [
+      "pancreatitis",
+      "type 3c diabetes",
+      "hypoglycemia",
+      "chronic"
+    ]
+  },
+  {
+    "id": "m2-gf-burn-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "hard",
+    "text": "Using the Curreri formula, estimate daily energy needs for a 70 kg adult with 40% total body surface area burns.",
+    "options": [
+      "1,750 kcal",
+      "3,350 kcal",
+      "2,150 kcal",
+      "5,600 kcal"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Curreri formula for adults is 25 kcal per kilogram plus 40 kcal per percent total body surface area burned. Here 25 times 70 equals 1,750 kcal, and 40 times 40 equals 1,600 kcal, totaling 3,350 kcal. The 1,750 figure captures only the weight component and omits the burn component entirely, which would badly underfeed a hypermetabolic patient. The 2,150 figure does not correspond to the formula. The 5,600 figure reflects multiplying incorrectly and would cause substantial overfeeding, with hyperglycemia and hepatic steatosis.",
+    "tags": [
+      "burns",
+      "Curreri formula",
+      "energy needs",
+      "calculation"
+    ]
+  },
+  {
+    "id": "m2-gf-burn-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "medium",
+    "text": "Which protein recommendation is most appropriate for an adult with major burn injury?",
+    "options": [
+      "0.8 g/kg per day",
+      "1.5 to 2.0 g/kg per day",
+      "0.6 g/kg per day",
+      "4.0 g/kg per day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Major burns produce extreme catabolism plus direct protein loss through exudate from the open wound, so protein requirements of roughly 1.5 to 2.0 g/kg per day are recommended, with some protocols going higher in extensive burns. The 0.8 g/kg RDA applies to healthy adults and would permit rapid lean mass loss. A 0.6 g/kg intake is a restricted level used in specific renal contexts and would be harmful here. A 4.0 g/kg intake exceeds the range at which additional protein improves nitrogen balance, while adding urea load and fluid demands in a patient already managing large fluid shifts.",
+    "tags": [
+      "burns",
+      "protein",
+      "catabolism",
+      "requirements"
+    ]
+  },
+  {
+    "id": "m2-gf-burn-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "hard",
+    "text": "When does the hypermetabolic response to major burn injury typically peak?",
+    "options": [
+      "Immediately at the time of injury",
+      "Around days 5 to 10 after injury, and it can remain elevated for months",
+      "Only after wound closure is complete",
+      "Hypermetabolism does not occur with burns"
+    ],
+    "correctIndex": 1,
+    "explanation": "The initial ebb phase in the first 24 to 48 hours is marked by reduced perfusion and metabolic rate, followed by a flow phase in which metabolic rate climbs and typically peaks around days 5 to 10. Elevated expenditure can persist for months after wound closure, which is why nutrition support continues well into rehabilitation. Metabolic rate is not maximal at the moment of injury; it is initially depressed. Hypermetabolism precedes rather than follows wound closure. Denying hypermetabolism contradicts the defining metabolic feature of major burn injury.",
+    "tags": [
+      "burns",
+      "hypermetabolism",
+      "ebb and flow",
+      "timing"
+    ]
+  },
+  {
+    "id": "m2-gf-burn-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "medium",
+    "text": "Which micronutrients are of particular concern in patients with major burns due to wound losses?",
+    "options": [
+      "Zinc, copper, selenium and vitamin C",
+      "Vitamin K and calcium exclusively",
+      "Iodine and fluoride",
+      "Vitamin B12 and folate exclusively"
+    ],
+    "correctIndex": 0,
+    "explanation": "Exudate from extensive open wounds carries substantial losses of zinc, copper and selenium, while vitamin C demand rises sharply for collagen synthesis and antioxidant defense, so these are routinely supplemented in major burn protocols. Vitamin K and calcium are not the principal wound losses of concern, though calcium and vitamin D status matters over the longer term. Iodine and fluoride are not lost in clinically significant amounts through burn exudate. Vitamin B12 and folate deficiencies are not characteristic of burn injury and would not be the priority targets.",
+    "tags": [
+      "burns",
+      "micronutrients",
+      "zinc",
+      "wound losses"
+    ]
+  },
+  {
+    "id": "m2-gf-burn-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "hard",
+    "text": "What is the recommended timing for initiating enteral nutrition in a patient with major burns?",
+    "options": [
+      "Within 24 to 48 hours of injury",
+      "After 7 days of fluid resuscitation",
+      "Only once wound grafting is complete",
+      "After the patient can eat orally"
+    ],
+    "correctIndex": 0,
+    "explanation": "Early enteral nutrition within 24 to 48 hours is recommended in major burns, and is associated with blunting of the hypermetabolic response, better preservation of gut barrier function, fewer infections and reduced length of stay. Waiting seven days sacrifices the period of most intense catabolism to nutrient deficit. Deferring until grafting is complete delays feeding by weeks in extensive burns. Waiting for the patient to eat orally is impractical, since intake capacity falls far short of requirements that may exceed 3,000 kcal daily, and many patients are intubated.",
+    "tags": [
+      "burns",
+      "early enteral nutrition",
+      "timing",
+      "critical care"
+    ]
+  },
+  {
+    "id": "m2-gf-burn-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "medium",
+    "text": "Which formula is commonly used to guide fluid resuscitation in the first 24 hours after major burn injury?",
+    "options": [
+      "Parkland formula",
+      "Curreri formula",
+      "Harris-Benedict equation",
+      "Holliday-Segar method"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Parkland formula guides burn fluid resuscitation, calculating 4 mL of lactated Ringer solution per kilogram per percent total body surface area burned over 24 hours, with half given in the first 8 hours from the time of injury and the remainder over the following 16 hours, titrated to urine output. The Curreri formula estimates ENERGY needs in burns, not fluid, and confusing the two is a common error. The Harris-Benedict equation estimates resting energy expenditure. The Holliday-Segar method calculates pediatric maintenance fluid, not burn resuscitation.",
+    "tags": [
+      "burns",
+      "Parkland formula",
+      "fluid resuscitation",
+      "calculation"
+    ]
+  },
+  {
+    "id": "m2-gf-burn-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "hard",
+    "text": "Why is tight glycemic control important in patients with major burns?",
+    "options": [
+      "Hyperglycemia impairs wound healing, increases infection risk and worsens muscle catabolism",
+      "Hyperglycemia improves graft take",
+      "Glucose control has no bearing on burn outcomes",
+      "Hypoglycemia is protective and should be induced"
+    ],
+    "correctIndex": 0,
+    "explanation": "The catecholamine and cortisol surge after major burn injury produces marked insulin resistance and hyperglycemia, which impairs neutrophil function, glycates collagen, compromises graft survival and accelerates muscle protein breakdown. Moderate glycemic control improves infection rates and healing, while avoiding hypoglycemia. Hyperglycemia harms rather than helps graft take. Claiming no bearing on outcomes contradicts a substantial burn literature. Deliberately inducing hypoglycemia is dangerous, since it causes neuroglycopenia and increases mortality in critically ill patients.",
+    "tags": [
+      "burns",
+      "glycemic control",
+      "wound healing",
+      "insulin resistance"
+    ]
+  },
+  {
+    "id": "m2-gf-burn-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Burns",
+    "difficulty": "medium",
+    "text": "A patient with 45% total body surface area burns is 3 weeks post injury and meeting estimated needs, yet continues to lose weight. What is the most appropriate initial response?",
+    "options": [
+      "Reassess energy needs, ideally with indirect calorimetry, and verify actual versus prescribed delivery",
+      "Reduce protein to conserve calories",
+      "Accept the weight loss as unavoidable",
+      "Discontinue enteral nutrition and observe"
+    ],
+    "correctIndex": 0,
+    "explanation": "Continued weight loss despite apparently adequate provision should prompt two checks: whether the estimate still matches actual expenditure, which indirect calorimetry answers directly in a population where equations perform poorly, and whether prescribed volume is actually being delivered, since interruptions for procedures, dressing changes and grafting commonly create a large gap. Reducing protein worsens lean mass loss in a profoundly catabolic patient. Accepting the loss as unavoidable abandons a correctable problem that impairs healing. Discontinuing nutrition support would accelerate deterioration.",
+    "tags": [
+      "burns",
+      "indirect calorimetry",
+      "feeding interruptions",
+      "monitoring"
+    ]
+  }
+]

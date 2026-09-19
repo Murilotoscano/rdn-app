@@ -2,11 +2,12 @@
 
 import AppLayout from "../components/Layout/AppLayout";
 import styles from "./page.module.css";
-import { Play, BookOpen, Clock, TrendingUp, Award, Zap, Repeat, Cloud, CloudOff, RefreshCw } from "lucide-react";
+import { Play, BookOpen, Clock, Award, Zap, Repeat, Cloud, CloudOff, RefreshCw } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { store } from "@/lib/store";
+import { store, SyncResult } from "@/lib/store";
 import { SAMPLE_QUESTIONS } from "@/lib/questions";
+import ScoreTrendChart from "@/components/ScoreTrendChart";
 
 export default function Home() {
   const [counts, setCounts] = useState<{
@@ -18,6 +19,7 @@ export default function Home() {
   const [mounted, setMounted] = useState(false);
   const [syncing, setSyncing] = useState(false);
   const [lastSync, setLastSync] = useState<string | null>(null);
+  const [sync, setSync] = useState<SyncResult>({ state: 'disabled', message: 'Not synced yet' });
 
   useEffect(() => {
     const reviewCounts = store.getReviewCounts();
@@ -47,14 +49,16 @@ export default function Home() {
   const handleSync = async () => {
     setSyncing(true);
     try {
-      await store.fullSync();
-      setLastSync(new Date().toLocaleTimeString());
-      
-      // Refresh local state after sync
+      const result = await store.fullSync();
+      setSync(result);
+      // Only claim a sync time when one actually happened.
+      if (result.state === 'ok') setLastSync(new Date().toLocaleTimeString());
+
       const reviewCounts = store.getReviewCounts();
       setCounts(reviewCounts);
     } catch (e) {
       console.error("Sync failed", e);
+      setSync({ state: 'error', message: 'Sync failed' });
     } finally {
       setSyncing(false);
     }
@@ -73,11 +77,25 @@ export default function Home() {
             <div className={styles.syncStatus} onClick={handleSync}>
               {syncing ? (
                 <RefreshCw size={14} className={styles.spin} />
-              ) : (
+              ) : sync.state === 'ok' ? (
                 <Cloud size={14} />
+              ) : (
+                <CloudOff size={14} />
               )}
-              <span>{syncing ? "Syncing..." : lastSync ? `Synced at ${lastSync}` : "Not synced"}</span>
+              <span>
+                {syncing
+                  ? "Syncing..."
+                  : sync.state === 'ok'
+                    ? `Synced at ${lastSync}`
+                    : "Saved on this device only"}
+              </span>
             </div>
+
+            {!syncing && sync.state !== 'ok' && (
+              <Link href="/profile" style={{ fontSize: '0.8rem', color: 'var(--primary)', textDecoration: 'none' }}>
+                Back up your progress →
+              </Link>
+            )}
           </div>
 
           <div className={styles.readinessWidget}>
@@ -211,10 +229,7 @@ export default function Home() {
 
       <section className={styles.actionSection}>
         <h2 className={styles.sectionTitle}>Your Progress</h2>
-        <div style={{ padding: 40, background: 'var(--surface)', borderRadius: 12, border: '1px solid var(--border)', textAlign: 'center', color: 'var(--text-muted)' }}>
-          <TrendingUp size={48} style={{ marginBottom: 16, opacity: 0.5 }} />
-          <p>Performance charts will appear here as you study.</p>
-        </div>
+        <ScoreTrendChart />
       </section>
 
       <div style={{

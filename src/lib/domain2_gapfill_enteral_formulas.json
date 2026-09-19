@@ -1,0 +1,222 @@
+[
+  {
+    "id": "m2-gf-enf-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "medium",
+    "text": "A 72-year-old man with decompensated heart failure requires tube feeding. He is on a 1,500 mL total daily fluid restriction and needs 1,800 kcal. Which formula selection is most appropriate?",
+    "options": [
+      "A 1.0 kcal/mL standard polymeric formula",
+      "A 2.0 kcal/mL calorie-dense formula",
+      "A 1.0 kcal/mL formula with added modular protein",
+      "An elemental formula at 1.0 kcal/mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Calorie-dense formulas at 1.5 to 2.0 kcal/mL exist precisely for fluid-restricted patients. At 2.0 kcal/mL, 1,800 kcal requires only 900 mL, leaving room within the 1,500 mL restriction for medications and flushes. A 1.0 kcal/mL formula would require 1,800 mL of formula alone, exceeding the entire fluid allowance before any medications. Adding modular protein to a standard formula raises protein but does not solve the volume problem. An elemental formula is indicated for malabsorption, is typically not calorie-dense, and would carry the same volume problem plus higher cost and osmolality.",
+    "tags": [
+      "enteral",
+      "formula",
+      "fluid restriction",
+      "heart failure"
+    ]
+  },
+  {
+    "id": "m2-gf-enf-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "hard",
+    "text": "A patient with short bowel syndrome following extensive small bowel resection has persistent steatorrhea and poor absorption on a standard polymeric formula. Which formula change is most appropriate?",
+    "options": [
+      "A high-fiber polymeric formula",
+      "A semi-elemental formula with hydrolyzed protein and medium-chain triglycerides",
+      "A calorie-dense 2.0 kcal/mL polymeric formula",
+      "A renal formula low in electrolytes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Semi-elemental formulas provide peptides and free amino acids that need minimal digestion, plus medium-chain triglycerides that are absorbed directly into the portal circulation without bile salts or micelle formation. That combination is well suited to short bowel syndrome with limited absorptive surface. A high-fiber polymeric formula still requires intact digestive and absorptive capacity and adds osmotic and fermentative load. A calorie-dense polymeric formula concentrates the same poorly absorbed substrate and typically worsens steatorrhea. A renal formula addresses electrolyte and volume issues that are not the problem here.",
+    "tags": [
+      "enteral",
+      "formula",
+      "short bowel",
+      "malabsorption"
+    ]
+  },
+  {
+    "id": "m2-gf-enf-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "hard",
+    "text": "A ventilated patient with COPD is being weaned. A colleague suggests a high-fat, low-carbohydrate pulmonary formula to reduce carbon dioxide production. What is the most accurate response?",
+    "options": [
+      "Pulmonary formulas are essential for all ventilated COPD patients",
+      "Avoiding overfeeding of total calories matters far more than the fat-to-carbohydrate ratio",
+      "Carbohydrate should be restricted to under 20% of total calories",
+      "High-fat formulas shorten ventilator days in all patients"
+    ],
+    "correctIndex": 1,
+    "explanation": "Total energy delivery is the dominant driver of carbon dioxide production. Overfeeding, regardless of substrate mix, raises CO2 output far more than a modest shift in the fat-to-carbohydrate ratio, and current guidelines therefore emphasize avoiding overfeeding rather than routinely using specialty pulmonary formulas. Those formulas are not essential for all ventilated COPD patients and are more costly, with high fat content sometimes delaying gastric emptying. Restricting carbohydrate below 20% of calories is not an evidence-based target. The claim that high-fat formulas shorten ventilator days across patient populations is not supported by the trial evidence.",
+    "tags": [
+      "enteral",
+      "formula",
+      "COPD",
+      "respiratory quotient"
+    ]
+  },
+  {
+    "id": "m2-gf-enf-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "medium",
+    "text": "A hemodialysis patient requiring tube feeding has persistent hyperkalemia and hyperphosphatemia. Which formula characteristic is most important?",
+    "options": [
+      "High fiber content",
+      "Restricted potassium and phosphorus with calorie density",
+      "Hydrolyzed protein",
+      "Added arginine and glutamine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Renal formulas designed for dialysis patients are calorie-dense to manage fluid, and are restricted in potassium, phosphorus and magnesium while providing adequate protein, since dialysis increases protein needs to roughly 1.2 g/kg. That combination directly addresses this patient's electrolyte abnormalities. High fiber content does not affect serum potassium or phosphorus meaningfully. Hydrolyzed protein is for malabsorption and does not change electrolyte load. Arginine and glutamine belong to immune-modulating formulas used in specific surgical and trauma contexts, and arginine in particular is not indicated here.",
+    "tags": [
+      "enteral",
+      "formula",
+      "renal",
+      "dialysis"
+    ]
+  },
+  {
+    "id": "m2-gf-enf-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "hard",
+    "text": "Which patient is the most appropriate candidate for an immune-modulating formula containing arginine, omega-3 fatty acids and nucleotides?",
+    "options": [
+      "A patient with severe sepsis and hemodynamic instability",
+      "A patient undergoing elective major upper gastrointestinal cancer surgery",
+      "A patient with acute kidney injury on continuous renal replacement therapy",
+      "A patient with decompensated cirrhosis and encephalopathy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Immune-modulating formulas have their strongest evidence in elective major surgery, particularly upper gastrointestinal and head and neck cancer procedures, where perioperative use reduces infectious complications and length of stay. In severe sepsis, arginine-containing formulas have raised safety concerns because arginine is a nitric oxide precursor that may worsen hemodynamic instability, and guidelines advise against their use there. Acute kidney injury on renal replacement calls for attention to protein and electrolytes, not immunonutrition. Decompensated cirrhosis with encephalopathy is managed with adequate protein and standard formula, not immune-modulating substrate.",
+    "tags": [
+      "enteral",
+      "formula",
+      "immunonutrition",
+      "surgery"
+    ]
+  },
+  {
+    "id": "m2-gf-enf-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "medium",
+    "text": "A patient requires 90 g of protein daily but tolerates only 1,200 mL of a standard 1.0 kcal/mL formula providing 40 g of protein. What is the most appropriate intervention?",
+    "options": [
+      "Add a modular protein supplement to the existing regimen",
+      "Increase the formula volume to 2,700 mL",
+      "Change to an elemental formula",
+      "Accept the protein deficit and monitor"
+    ],
+    "correctIndex": 0,
+    "explanation": "Modular protein products allow protein to be increased independently of volume and calories, which is exactly the constraint here: the patient tolerates a fixed volume but needs substantially more protein. Alternatively a high-protein formula could be selected. Increasing the volume to 2,700 mL exceeds documented tolerance and would deliver excess calories. An elemental formula addresses digestion and absorption, not protein quantity, and is generally lower in protein density while costing more. Accepting a 50 g daily protein deficit in a patient with elevated needs permits ongoing lean mass loss and is not appropriate when a straightforward solution exists.",
+    "tags": [
+      "enteral",
+      "formula",
+      "modular",
+      "protein"
+    ]
+  },
+  {
+    "id": "m2-gf-enf-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "medium",
+    "text": "A caregiver of a home tube-fed child asks about using a blenderized whole-food formula instead of a commercial product. Which counseling point is most important?",
+    "options": [
+      "Blenderized feeds cannot be used with any gastrostomy tube",
+      "Blenderized feeds require attention to viscosity, tube size, food safety and nutrient adequacy",
+      "Blenderized feeds are nutritionally identical to commercial formula",
+      "Blenderized feeds eliminate the risk of tube clogging"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blenderized tube feeding is a legitimate option that many families prefer, but it requires careful planning. Higher viscosity demands an adequately sized tube, usually 14 French or larger, and gravity or syringe delivery. Home preparation raises food safety concerns around handling and hang time, and nutrient adequacy must be formally analyzed rather than assumed. It is not true that no gastrostomy tube can be used, since larger-bore gastrostomies handle blenderized feeds well, though narrow jejunostomy tubes generally cannot. Nutrient composition varies with the recipe and is not identical to commercial formula. Clogging risk is higher, not eliminated.",
+    "tags": [
+      "enteral",
+      "formula",
+      "blenderized",
+      "pediatric"
+    ]
+  },
+  {
+    "id": "m2-gf-enf-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "hard",
+    "text": "A patient with chylothorax following thoracic surgery requires enteral nutrition. Which formula characteristic is most appropriate?",
+    "options": [
+      "High long-chain triglyceride content",
+      "Very low fat with medium-chain triglycerides as the primary fat source",
+      "High fiber with intact protein",
+      "Standard polymeric formula at 1.0 kcal/mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chylothorax is managed nutritionally by minimizing lymphatic chyle flow. Long-chain triglycerides are absorbed into lymphatics as chylomicrons and increase chyle output, whereas medium-chain triglycerides pass directly into the portal circulation and bypass the lymphatic system. A very low fat formula using MCT as the primary fat source therefore reduces drainage and supports leak closure. A high long-chain triglyceride formula does the opposite and would worsen the leak. Fiber and protein form are not the determining variables. A standard polymeric formula contains predominantly long-chain fat and is not appropriate.",
+    "tags": [
+      "enteral",
+      "formula",
+      "chylothorax",
+      "MCT"
+    ]
+  },
+  {
+    "id": "m2-gf-enf-09",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "medium",
+    "text": "Which statement best describes free water content in enteral formulas?",
+    "options": [
+      "All enteral formulas are approximately 90% water regardless of caloric density",
+      "Water content decreases as caloric density increases, from about 85% in 1.0 kcal/mL to about 70% in 2.0 kcal/mL formulas",
+      "Water content increases with caloric density",
+      "Free water content is identical to total formula volume"
+    ],
+    "correctIndex": 1,
+    "explanation": "As formula becomes more calorie-dense, nutrients displace water, so free water content falls. A 1.0 kcal/mL formula is roughly 85% water, a 1.5 kcal/mL formula about 76 to 78%, and a 2.0 kcal/mL formula around 70%. This is why calorie-dense formulas require careful attention to supplemental water flushes and are a common cause of hypernatremia when flushes are neglected. Formulas are not uniformly 90% water. Water content decreases rather than increases with density. Treating the entire formula volume as free water overestimates water delivery and is a frequent clinical error.",
+    "tags": [
+      "enteral",
+      "formula",
+      "free water",
+      "hydration"
+    ]
+  },
+  {
+    "id": "m2-gf-enf-10",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Formulas",
+    "difficulty": "hard",
+    "text": "A patient with poorly controlled type 2 diabetes on continuous tube feeding has persistent blood glucose readings between 240 and 300 mg/dL despite basal insulin. Which formula-related change is most appropriate to consider alongside insulin adjustment?",
+    "options": [
+      "Switch to a formula with a higher simple sugar content",
+      "Consider a diabetes-specific formula with lower carbohydrate, higher monounsaturated fat and added fiber",
+      "Change to an elemental formula",
+      "Increase the infusion rate to shorten total feeding time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Diabetes-specific formulas reduce the carbohydrate proportion, replace part of it with monounsaturated fat, and add fiber, which blunts the glycemic response and can modestly improve control as an adjunct to appropriate insulin dosing. Increasing simple sugar content would worsen hyperglycemia. Elemental formulas contain rapidly absorbed carbohydrate, often as maltodextrin or glucose oligosaccharides, and typically raise glucose further while offering no benefit absent malabsorption. Increasing the infusion rate delivers the same carbohydrate load over less time, producing higher glucose peaks rather than better control.",
+    "tags": [
+      "enteral",
+      "formula",
+      "diabetes",
+      "glycemic control"
+    ]
+  }
+]

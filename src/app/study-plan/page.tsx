@@ -8,6 +8,12 @@ import clsx from "clsx";
 
 import { studyPlanData } from "@/data/studyPlanContent";
 
+const CYCLES = [
+    { title: "Cycle 1: Foundations (Days 1-10)", from: 1, to: 10 },
+    { title: "Cycle 2: Clinical Depth (Days 11-20)", from: 11, to: 20 },
+    { title: "Cycle 3: Systems & Integration (Days 21-30)", from: 21, to: 30 },
+];
+
 const StudyPlanPage = () => {
     const days = Object.values(studyPlanData).sort((a, b) => a.id - b.id);
     return (
@@ -18,7 +24,7 @@ const StudyPlanPage = () => {
                     Back
                 </Link>
                 <h1 className={styles.title}>RDN Study Plan 🚀</h1>
-                <p className={styles.subtitle}>Your 30-day roadmap to passing the exam.</p>
+                <p className={styles.subtitle}>Your 30-day roadmap to passing the exam, weighted to the CDR blueprint.</p>
             </header>
 
             {/* Pro Tips Section */}
@@ -34,10 +40,12 @@ const StudyPlanPage = () => {
                 </div>
             </section>
 
-            <h2 className={styles.cycleTitle}>Cycle 1: Foundations (Days 1-10)</h2>
+            {CYCLES.map((cycle) => (
+                <React.Fragment key={cycle.title}>
+            <h2 className={styles.cycleTitle}>{cycle.title}</h2>
 
             <div className={styles.grid}>
-                {days.map((day) => (
+                {days.filter(d => d.id >= cycle.from && d.id <= cycle.to).map((day) => (
                     <Link href={`/study-plan/${day.id}`} key={day.id} className={styles.card} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
                         <div className={styles.cardHeader}>
                             <span className={styles.dayBadge}>DAY {day.id}</span>
@@ -69,6 +77,8 @@ const StudyPlanPage = () => {
                     </Link>
                 ))}
             </div>
+                </React.Fragment>
+            ))}
 
             {/* Roadmap Section */}
             <div className={styles.roadmap}>

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { CheckCircle, XCircle, AlertTriangle } from 'lucide-react';
 import { Question } from '@/types';
 import styles from './Result.module.css';
+import { PRACTICE_TARGET_PCT } from '@/lib/targets';
 
 interface ResultData {
     score: number;
@@ -26,7 +27,7 @@ export default function ResultPage() {
     if (!data) return <div className={styles.loading}>Loading results...</div>;
 
     const percentage = Math.round((data.score / data.total) * 100);
-    const passed = percentage >= 70; // 70% passing score assumption
+    const onTarget = percentage >= PRACTICE_TARGET_PCT;
 
     return (
         <div className={styles.container}>
@@ -36,17 +37,21 @@ export default function ResultPage() {
             </header>
 
             <div className={styles.summaryCard}>
-                <div className={styles.scoreCircle} style={{ borderColor: passed ? 'var(--success)' : 'var(--error)' }}>
+                <div className={styles.scoreCircle} style={{ borderColor: onTarget ? 'var(--success)' : 'var(--error)' }}>
                     <span className={styles.scoreValue}>{percentage}%</span>
                     <span className={styles.scoreLabel}>{data.score} / {data.total}</span>
                 </div>
                 <div className={styles.verdict}>
-                    {passed ? (
-                        <h2 style={{ color: 'var(--success)' }}>Passed! 🎉</h2>
+                    {onTarget ? (
+                        <h2 style={{ color: 'var(--success)' }}>On Target 🎯</h2>
                     ) : (
-                        <h2 style={{ color: 'var(--error)' }}>Needs Improvement 📚</h2>
+                        <h2 style={{ color: 'var(--error)' }}>Below Target 📚</h2>
                     )}
-                    <p>To pass the real RDN exam, you need consistency above 80% (scaled score 25/50).</p>
+                    <p>
+                        Aim to score {PRACTICE_TARGET_PCT}% or higher consistently across mock exams.
+                        This is a practice benchmark, not a prediction: the real exam is adaptive
+                        and reports a scaled score, with 25 on a 1-50 scale required to pass.
+                    </p>
                 </div>
             </div>
 

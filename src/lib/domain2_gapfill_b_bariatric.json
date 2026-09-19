@@ -1,0 +1,222 @@
+[
+  {
+    "id": "m2-gf-bar-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "hard",
+    "text": "A patient is 14 months post Roux-en-Y gastric bypass and reports fatigue, paresthesias in the feet and a macrocytic anemia. Which deficiency is most likely?",
+    "options": [
+      "Vitamin B12",
+      "Vitamin C",
+      "Zinc",
+      "Vitamin K"
+    ],
+    "correctIndex": 0,
+    "explanation": "Roux-en-Y bypass removes most of the stomach from the nutrient stream, sharply reducing intrinsic factor and gastric acid, both required to liberate and bind vitamin B12. Stores last roughly one to two years, which fits this 14-month presentation of macrocytic anemia with neurologic symptoms. Lifelong supplementation and monitoring are required. Vitamin C deficiency causes gingival bleeding, poor wound healing and perifollicular hemorrhage, not macrocytic anemia with neuropathy. Zinc deficiency causes hair loss, altered taste and dermatitis. Vitamin K deficiency produces bleeding and prolonged prothrombin time rather than this hematologic and neurologic pattern.",
+    "tags": [
+      "bariatric surgery",
+      "vitamin B12",
+      "Roux-en-Y",
+      "deficiency"
+    ]
+  },
+  {
+    "id": "m2-gf-bar-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "hard",
+    "text": "A patient 6 weeks post sleeve gastrectomy reports cramping, nausea, palpitations and diarrhea about 20 minutes after eating. What is the most likely cause and the appropriate intervention?",
+    "options": [
+      "Late dumping syndrome; increase simple carbohydrate intake",
+      "Early dumping syndrome; eat small meals, avoid concentrated sweets, and separate fluids from solids",
+      "Anastomotic leak; return to surgery immediately",
+      "Vitamin D deficiency; begin high-dose supplementation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Early dumping occurs 10 to 30 minutes after eating, when a hyperosmolar bolus reaches the small bowel and draws fluid into the lumen, producing cramping, diarrhea and vasomotor symptoms such as palpitations and flushing. Management is dietary: small frequent meals, avoiding concentrated sweets, and drinking fluids 30 minutes before or after rather than with meals. Late dumping occurs one to three hours after eating as reactive hypoglycemia, and increasing simple carbohydrate would worsen either form. An anastomotic leak presents with fever, tachycardia and peritoneal signs, not reproducible post-meal symptoms. Vitamin D deficiency does not cause this syndrome.",
+    "tags": [
+      "bariatric surgery",
+      "dumping syndrome",
+      "sleeve gastrectomy",
+      "diet progression"
+    ]
+  },
+  {
+    "id": "m2-gf-bar-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "medium",
+    "text": "What is the generally recommended minimum daily protein intake after bariatric surgery?",
+    "options": [
+      "60 to 80 g per day, individualized to about 1.1 to 1.5 g/kg ideal body weight",
+      "20 to 30 g per day",
+      "150 to 200 g per day",
+      "Protein needs are unchanged from presurgical intake"
+    ],
+    "correctIndex": 0,
+    "explanation": "Guidelines recommend a minimum of about 60 to 80 g of protein daily, individualized to roughly 1.1 to 1.5 g per kilogram of ideal body weight, with higher amounts after more malabsorptive procedures. Adequate protein preserves lean mass during rapid weight loss and supports wound healing, and it is prioritized first at every meal because capacity is limited. A 20 to 30 g intake is far too low and accelerates lean tissue loss and hair shedding. A 150 to 200 g intake is not achievable with a restricted gastric pouch and is unnecessary. Needs are certainly not unchanged, since intake capacity falls dramatically while requirements rise.",
+    "tags": [
+      "bariatric surgery",
+      "protein",
+      "lean mass",
+      "requirements"
+    ]
+  },
+  {
+    "id": "m2-gf-bar-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "hard",
+    "text": "A patient 3 months post gastric bypass presents with persistent vomiting for two weeks, confusion, nystagmus and ataxia. What is the most urgent nutritional concern?",
+    "options": [
+      "Thiamine deficiency causing Wernicke encephalopathy",
+      "Iron deficiency anemia",
+      "Calcium deficiency causing tetany",
+      "Protein-energy malnutrition"
+    ],
+    "correctIndex": 0,
+    "explanation": "Thiamine stores last only two to three weeks, so persistent vomiting after bariatric surgery can precipitate Wernicke encephalopathy, classically with confusion, ophthalmoplegia or nystagmus, and ataxia. This is a medical emergency requiring immediate parenteral thiamine, given before any glucose-containing fluid, since a glucose load consumes remaining thiamine and can worsen the injury. Iron deficiency develops over months and causes fatigue and pallor, not acute neurologic findings. Calcium deficiency causes tetany and Chvostek sign rather than this triad. Protein-energy malnutrition develops over a longer course and does not present this acutely.",
+    "tags": [
+      "bariatric surgery",
+      "thiamine",
+      "Wernicke encephalopathy",
+      "emergency"
+    ]
+  },
+  {
+    "id": "m2-gf-bar-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "medium",
+    "text": "Which bariatric procedure is primarily restrictive, without a malabsorptive component?",
+    "options": [
+      "Sleeve gastrectomy",
+      "Roux-en-Y gastric bypass",
+      "Biliopancreatic diversion with duodenal switch",
+      "Jejunoileal bypass"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sleeve gastrectomy removes roughly 80% of the stomach along the greater curvature, leaving a tubular pouch. It works through restriction and hormonal changes, notably reduced ghrelin, without rerouting the intestine, so it is not malabsorptive, though micronutrient deficiencies still occur from reduced intake and acid. Roux-en-Y combines restriction with bypass of the duodenum and proximal jejunum, making it both restrictive and malabsorptive. Biliopancreatic diversion with duodenal switch is the most malabsorptive of current procedures. Jejunoileal bypass was severely malabsorptive and has been abandoned because of its complication rate.",
+    "tags": [
+      "bariatric surgery",
+      "sleeve gastrectomy",
+      "procedure types",
+      "restriction"
+    ]
+  },
+  {
+    "id": "m2-gf-bar-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "hard",
+    "text": "Which calcium form is preferred after Roux-en-Y gastric bypass, and why?",
+    "options": [
+      "Calcium citrate, because it does not require gastric acid for absorption",
+      "Calcium carbonate, because it is better absorbed in an alkaline environment",
+      "Calcium phosphate, because it prevents kidney stones",
+      "Calcium gluconate, because it is the most concentrated oral form"
+    ],
+    "correctIndex": 0,
+    "explanation": "Calcium citrate is preferred because its absorption does not depend on gastric acid, which is markedly reduced after bypass and further lowered by the proton pump inhibitors these patients often take. Calcium carbonate requires an acidic environment to dissociate, so it is poorly absorbed in this setting; the reasoning that an alkaline environment helps carbonate is backwards. Calcium phosphate is not the recommended form and does not confer stone protection in this context, and these patients are already at increased risk of oxalate stones. Calcium gluconate is a low-elemental-calcium form used intravenously, not the oral supplement of choice.",
+    "tags": [
+      "bariatric surgery",
+      "calcium citrate",
+      "absorption",
+      "supplementation"
+    ]
+  },
+  {
+    "id": "m2-gf-bar-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "medium",
+    "text": "Which fluid guidance is standard after bariatric surgery?",
+    "options": [
+      "Drink fluids with meals to help food pass through the pouch",
+      "Separate fluids from solid meals by about 30 minutes to preserve satiety and prevent dumping",
+      "Restrict total fluid to 500 mL daily",
+      "Drink only carbonated beverages to aid digestion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Patients are taught to stop drinking about 30 minutes before eating and wait about 30 minutes afterward, because fluid taken with food flushes the pouch, reduces satiety, permits larger intake and can precipitate dumping. Total fluid of at least 1.5 L daily is encouraged, sipped between meals. Drinking with meals is precisely the habit being prevented. Restricting to 500 mL daily would cause dehydration, which is the leading cause of readmission after these procedures. Carbonated beverages are typically discouraged because of gas distension and discomfort in a small pouch.",
+    "tags": [
+      "bariatric surgery",
+      "fluid guidelines",
+      "dumping",
+      "satiety"
+    ]
+  },
+  {
+    "id": "m2-gf-bar-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "hard",
+    "text": "A patient 2 years post gastric bypass reports episodes of shakiness, sweating and confusion about 2 hours after high-carbohydrate meals, relieved by eating. What is the most likely diagnosis?",
+    "options": [
+      "Early dumping syndrome",
+      "Late dumping syndrome with reactive hypoglycemia",
+      "Thiamine deficiency",
+      "Anastomotic stricture"
+    ],
+    "correctIndex": 1,
+    "explanation": "Late dumping occurs one to three hours after eating, when rapid carbohydrate delivery to the small bowel triggers an exaggerated incretin and insulin response that overshoots, producing reactive hypoglycemia with adrenergic and neuroglycopenic symptoms relieved by eating. Management centers on low glycemic index carbohydrate distributed in small portions paired with protein and fat. Early dumping occurs within 10 to 30 minutes and is driven by osmotic fluid shifts rather than hypoglycemia. Thiamine deficiency causes neurologic findings unrelated to meal timing in this pattern. An anastomotic stricture causes vomiting and food intolerance rather than delayed hypoglycemic episodes.",
+    "tags": [
+      "bariatric surgery",
+      "late dumping",
+      "reactive hypoglycemia",
+      "postoperative"
+    ]
+  },
+  {
+    "id": "m2-gf-bar-09",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "medium",
+    "text": "Which supplementation regimen is appropriate after malabsorptive bariatric surgery?",
+    "options": [
+      "Lifelong multivitamin with minerals, vitamin B12, iron, calcium citrate and vitamin D, with periodic laboratory monitoring",
+      "Supplements only during the first postoperative month",
+      "No supplementation is needed if the diet is varied",
+      "A single daily calcium tablet is sufficient"
+    ],
+    "correctIndex": 0,
+    "explanation": "Anatomic changes permanently impair absorption of several micronutrients, so lifelong supplementation with a complete multivitamin plus mineral, vitamin B12, iron especially in menstruating women, calcium citrate and vitamin D is standard, together with scheduled laboratory monitoring to catch deficiencies before they become symptomatic. Limiting supplements to the first month ignores that the malabsorption is permanent. Relying on a varied diet cannot overcome bypassed absorptive surface and reduced gastric acid. Calcium alone leaves every other at-risk nutrient unaddressed, including B12, iron and fat-soluble vitamins.",
+    "tags": [
+      "bariatric surgery",
+      "supplementation",
+      "micronutrients",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "m2-gf-bar-10",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Bariatric Surgery",
+    "difficulty": "medium",
+    "text": "What is the typical order of diet progression after bariatric surgery?",
+    "options": [
+      "Clear liquids, full liquids, pureed, soft, then regular textures",
+      "Regular textures immediately, then liquids if not tolerated",
+      "Pureed foods first, then clear liquids",
+      "High-fiber solids first to promote satiety"
+    ],
+    "correctIndex": 0,
+    "explanation": "Progression moves from clear liquids to full liquids, then pureed, soft and finally regular textures, typically over several weeks and guided by the surgical program, with protein prioritized at every stage. The graded advance protects the healing staple line and lets the patient learn new volume and chewing habits. Starting with regular textures risks obstruction, vomiting and staple line stress. Beginning with pureed foods before liquids inverts the sequence. High-fiber solids early are poorly tolerated in a small pouch and can cause obstruction, so fiber is added gradually later in recovery.",
+    "tags": [
+      "bariatric surgery",
+      "diet progression",
+      "postoperative",
+      "texture"
+    ]
+  }
+]

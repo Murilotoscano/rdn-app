@@ -1,0 +1,222 @@
+[
+  {
+    "id": "m2-gf-pnc-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A patient on parenteral nutrition for 10 days develops a fever of 38.9 C and rigors within 30 minutes of a PN bag change. Blood cultures drawn peripherally and from the catheter are pending. What is the most likely complication?",
+    "options": [
+      "Refeeding syndrome",
+      "Catheter-related bloodstream infection",
+      "Essential fatty acid deficiency",
+      "Parenteral nutrition-associated liver disease"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fever with rigors temporally linked to catheter manipulation in a patient with a central line is the classic presentation of catheter-related bloodstream infection, the most common serious complication of parenteral nutrition. Paired peripheral and catheter blood cultures, with differential time to positivity, help confirm the source. Refeeding syndrome presents with electrolyte shifts and is a day-one to day-three phenomenon, not fever with rigors. Essential fatty acid deficiency develops over weeks of fat-free PN and causes dermatitis and hair changes, not acute fever. PN-associated liver disease is an indolent process marked by rising cholestatic enzymes over weeks.",
+    "tags": [
+      "parenteral",
+      "complications",
+      "CLABSI",
+      "infection"
+    ]
+  },
+  {
+    "id": "m2-gf-pnc-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A 70 kg adult is receiving parenteral nutrition containing 450 g of dextrose over 24 hours. Blood glucose is persistently above 250 mg/dL. What is the calculated glucose infusion rate, and what does it indicate?",
+    "options": [
+      "2.2 mg/kg/min, which is below recommended minimums",
+      "4.5 mg/kg/min, which exceeds the recommended maximum of about 4 to 5 mg/kg/min",
+      "7.8 mg/kg/min, which is within the safe range",
+      "0.4 mg/kg/min, which is negligible"
+    ],
+    "correctIndex": 1,
+    "explanation": "Glucose infusion rate equals grams of dextrose times 1,000 mg/g, divided by kilograms and by 1,440 minutes. Here 450 g yields 450,000 mg, divided by 70 kg gives 6,429 mg/kg, divided by 1,440 minutes gives about 4.5 mg/kg/min. That sits at or above the recommended ceiling of roughly 4 to 5 mg/kg/min for adults, beyond which glucose oxidative capacity is exceeded and hyperglycemia, lipogenesis and hepatic steatosis follow. The value 2.2 would correspond to roughly half this dextrose load. The 7.8 figure reflects an arithmetic error and would be dangerously high. The 0.4 figure is off by an order of magnitude.",
+    "tags": [
+      "parenteral",
+      "complications",
+      "glucose infusion rate",
+      "calculation"
+    ]
+  },
+  {
+    "id": "m2-gf-pnc-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A patient has been on fat-free parenteral nutrition for four weeks. He develops dry scaly dermatitis, alopecia and poor wound healing. Which deficiency is most likely?",
+    "options": [
+      "Zinc deficiency",
+      "Essential fatty acid deficiency",
+      "Selenium deficiency",
+      "Biotin deficiency"
+    ],
+    "correctIndex": 1,
+    "explanation": "Essential fatty acid deficiency develops after roughly two to four weeks of fat-free parenteral nutrition and presents with dry scaly dermatitis, alopecia, impaired wound healing, and a rising triene-to-tetraene ratio. Prevention requires providing about 2 to 4% of total calories as linoleic acid, typically by including lipid emulsion at least twice weekly. Zinc deficiency also impairs healing and causes dermatitis, but it classically produces a perioral and perianal rash and altered taste rather than this pattern in a patient whose specific omission is fat. Selenium deficiency causes cardiomyopathy and myopathy. Biotin deficiency is rare and causes dermatitis with neurologic findings, but is not the expected consequence of withholding lipid.",
+    "tags": [
+      "parenteral",
+      "complications",
+      "essential fatty acid deficiency",
+      "lipids"
+    ]
+  },
+  {
+    "id": "m2-gf-pnc-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "A patient is being considered for peripheral parenteral nutrition. The proposed formulation has an osmolarity of 1,150 mOsm/L. What is the most appropriate recommendation?",
+    "options": [
+      "Administer as designed through a peripheral line",
+      "Central venous access is required, since peripheral administration is limited to about 900 mOsm/L",
+      "Dilute with sterile water to 600 mOsm/L and give peripherally",
+      "Peripheral parenteral nutrition has no osmolarity limit"
+    ],
+    "correctIndex": 1,
+    "explanation": "Peripheral veins tolerate solutions only up to roughly 900 mOsm/L; beyond that, thrombophlebitis and vein loss occur rapidly. A formulation at 1,150 mOsm/L therefore requires central venous access. Administering it peripherally as designed would damage the vein. Diluting to 600 mOsm/L would require a large additional volume that most patients needing PN cannot tolerate, and it would dilute nutrient delivery below useful levels. The claim that PPN has no osmolarity limit is incorrect and is precisely the misconception that leads to peripheral vein injury.",
+    "tags": [
+      "parenteral",
+      "complications",
+      "osmolarity",
+      "PPN"
+    ]
+  },
+  {
+    "id": "m2-gf-pnc-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A patient on long-term home parenteral nutrition develops progressively rising alkaline phosphatase, gamma-glutamyl transferase and conjugated bilirubin over three months. Which intervention is most appropriate?",
+    "options": [
+      "Increase dextrose to spare protein",
+      "Cycle the parenteral nutrition, avoid overfeeding and maximize any enteral intake",
+      "Eliminate all lipid emulsion permanently",
+      "Increase the infusion rate to shorten hang time"
+    ],
+    "correctIndex": 1,
+    "explanation": "This cholestatic pattern is characteristic of parenteral nutrition-associated liver disease. Management centers on cycling PN over 12 to 18 hours rather than infusing continuously, avoiding overfeeding of both total calories and dextrose, limiting soybean-based lipid, and providing even small amounts of enteral nutrition to stimulate gallbladder contraction and preserve gut integrity. Increasing dextrose worsens hepatic steatosis and cholestasis. Eliminating lipid permanently would cause essential fatty acid deficiency; the appropriate step is limiting or changing the lipid source, not removing it. Increasing the infusion rate raises the substrate delivery rate and adds metabolic stress.",
+    "tags": [
+      "parenteral",
+      "complications",
+      "PNALD",
+      "cholestasis"
+    ]
+  },
+  {
+    "id": "m2-gf-pnc-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "Parenteral nutrition is abruptly discontinued in a patient receiving a high dextrose load. Which complication is of most immediate concern?",
+    "options": [
+      "Rebound hypoglycemia",
+      "Hypernatremia",
+      "Metabolic alkalosis",
+      "Essential fatty acid deficiency"
+    ],
+    "correctIndex": 0,
+    "explanation": "Abrupt discontinuation of a high-dextrose infusion can produce rebound hypoglycemia, because circulating insulin remains elevated after the glucose source is withdrawn. Standard practice is to taper the rate over one to two hours or provide a dextrose-containing fluid, and to check glucose after stopping. Hypernatremia relates to free water balance and is not a consequence of stopping dextrose. Metabolic alkalosis is associated with acetate load and gastric losses rather than abrupt PN cessation. Essential fatty acid deficiency requires weeks of fat-free support and is not an immediate concern on discontinuation.",
+    "tags": [
+      "parenteral",
+      "complications",
+      "hypoglycemia",
+      "discontinuation"
+    ]
+  },
+  {
+    "id": "m2-gf-pnc-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A parenteral nutrition admixture is observed to contain fine white precipitate. Which incompatibility is the most likely and most dangerous cause?",
+    "options": [
+      "Calcium-phosphate precipitation",
+      "Excess sodium chloride",
+      "Overconcentration of amino acids",
+      "Insufficient lipid emulsion"
+    ],
+    "correctIndex": 0,
+    "explanation": "Calcium and phosphate can form insoluble calcium phosphate precipitate, which if infused can cause fatal pulmonary microembolism. Solubility depends on the concentrations of each salt, the amino acid concentration and pH, the calcium salt used, and temperature, which is why pharmacy follows validated solubility curves and adds phosphate before calcium. Sodium chloride is highly soluble at PN concentrations and does not precipitate. High amino acid concentration actually improves calcium phosphate solubility by lowering pH, so it protects rather than causes precipitation. Lipid quantity does not create crystalline precipitate, though it can obscure visual inspection in total nutrient admixtures.",
+    "tags": [
+      "parenteral",
+      "complications",
+      "compatibility",
+      "calcium phosphate"
+    ]
+  },
+  {
+    "id": "m2-gf-pnc-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "Which laboratory pattern most strongly suggests refeeding syndrome in a patient started on parenteral nutrition?",
+    "options": [
+      "Rising phosphorus, potassium and magnesium",
+      "Falling phosphorus, potassium and magnesium",
+      "Rising sodium with falling chloride",
+      "Isolated elevation of blood urea nitrogen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Refeeding syndrome is defined by falling serum phosphorus, potassium and magnesium as insulin drives these intracellular ions out of the serum once carbohydrate is reintroduced, with thiamine depletion compounding the picture. Levels rising rather than falling would suggest renal dysfunction or excessive supplementation, not refeeding. A rising sodium with falling chloride reflects free water and acid-base disturbances unrelated to this syndrome. An isolated blood urea nitrogen elevation suggests dehydration, high protein load or renal impairment, none of which define refeeding.",
+    "tags": [
+      "parenteral",
+      "complications",
+      "refeeding syndrome",
+      "electrolytes"
+    ]
+  },
+  {
+    "id": "m2-gf-pnc-09",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A patient on parenteral nutrition for six weeks develops a hypochromic microcytic anemia and neutropenia. Serum ceruloplasmin is low. Which trace element deficiency is most likely?",
+    "options": [
+      "Copper deficiency",
+      "Chromium deficiency",
+      "Manganese deficiency",
+      "Iodine deficiency"
+    ],
+    "correctIndex": 0,
+    "explanation": "Copper deficiency produces a hypochromic microcytic anemia unresponsive to iron, together with neutropenia, and low ceruloplasmin supports the diagnosis. It occurs when copper is omitted from PN, often out of concern for cholestasis, or when losses are high as in prolonged diarrhea or ostomy output. Chromium deficiency presents with glucose intolerance and peripheral neuropathy, not anemia with neutropenia. Manganese accumulates rather than becomes deficient in long-term PN, particularly with cholestasis, and causes neurologic toxicity. Iodine deficiency affects thyroid function and does not produce this hematologic picture.",
+    "tags": [
+      "parenteral",
+      "complications",
+      "copper",
+      "trace elements"
+    ]
+  },
+  {
+    "id": "m2-gf-pnc-10",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Parenteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "Which practice most reduces the risk of catheter-related bloodstream infection in a patient receiving parenteral nutrition?",
+    "options": [
+      "Using the parenteral nutrition lumen for blood draws and medications",
+      "Maintaining a dedicated lumen for parenteral nutrition with strict aseptic technique",
+      "Changing the central line every 72 hours routinely",
+      "Adding prophylactic antibiotics to the parenteral nutrition bag"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dedicating a single lumen exclusively to parenteral nutrition and using strict aseptic technique for hub access and dressing changes is a core, evidence-based prevention measure, because every access event is an opportunity for contamination. Using the PN lumen for blood draws and medications multiplies those events and raises infection risk. Routine scheduled replacement of central lines does not reduce infection and exposes the patient to repeated insertion complications, so lines are changed for indication rather than by calendar. Adding antibiotics to the PN bag is not standard practice, creates compatibility and stability problems, and promotes resistance.",
+    "tags": [
+      "parenteral",
+      "complications",
+      "infection prevention",
+      "central line"
+    ]
+  }
+]

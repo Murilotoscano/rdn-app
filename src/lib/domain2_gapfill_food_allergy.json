@@ -1,0 +1,222 @@
+[
+  {
+    "id": "m2-gf-fa-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "medium",
+    "text": "Under United States labeling law, which group represents the major food allergens that must be declared on packaged foods?",
+    "options": [
+      "Milk, egg, peanut, tree nuts, soy, wheat, fish, crustacean shellfish and sesame",
+      "Milk, egg, corn, rice, soy, wheat, beef and pork",
+      "Peanut, tree nuts, chocolate, citrus, tomato and strawberry",
+      "Gluten, lactose, fructose, sorbitol and caffeine"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Food Allergen Labeling and Consumer Protection Act established eight major allergens, and the FASTER Act added sesame as the ninth effective January 2023. These nine must be clearly declared on packaged food labels. Corn, rice, beef and pork are not among the required declarations despite being possible allergens for individuals. Chocolate, citrus, tomato and strawberry are common triggers of non-immune reactions and folklore about allergy, but are not regulated major allergens. Gluten, lactose, fructose and sorbitol represent intolerances and sensitivities rather than IgE-mediated allergens, and are governed by different labeling rules.",
+    "tags": [
+      "food allergy",
+      "labeling",
+      "FALCPA",
+      "allergens"
+    ]
+  },
+  {
+    "id": "m2-gf-fa-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "hard",
+    "text": "A 4-year-old has a positive skin prick test to peanut but has eaten peanut butter regularly without any symptoms. What does this most likely represent?",
+    "options": [
+      "Confirmed peanut allergy requiring strict avoidance",
+      "Sensitization without clinical allergy",
+      "A false negative test",
+      "Oral allergy syndrome"
+    ],
+    "correctIndex": 1,
+    "explanation": "A positive skin prick test or specific IgE indicates SENSITIZATION, meaning IgE antibodies are present, but it does not by itself establish clinical allergy. When a child tolerates the food on regular ingestion, the appropriate interpretation is sensitization without clinical reactivity, and the food should not be removed. Declaring confirmed allergy and imposing strict avoidance on the basis of a test alone is a common and harmful error that can lead to unnecessary elimination and even loss of tolerance. This is a positive test, so it cannot be a false negative. Oral allergy syndrome involves pollen cross-reactive raw fruits and vegetables with oropharyngeal itching, which is not described here.",
+    "tags": [
+      "food allergy",
+      "diagnosis",
+      "sensitization",
+      "skin prick test"
+    ]
+  },
+  {
+    "id": "m2-gf-fa-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "medium",
+    "text": "What is considered the gold standard for diagnosing food allergy?",
+    "options": [
+      "Serum specific IgE panel",
+      "Double-blind, placebo-controlled oral food challenge",
+      "IgG food sensitivity testing",
+      "Elimination diet alone"
+    ],
+    "correctIndex": 1,
+    "explanation": "The double-blind, placebo-controlled oral food challenge is the diagnostic gold standard, because it directly tests whether ingestion produces a reproducible clinical reaction while removing patient and observer bias. Serum specific IgE panels detect sensitization and carry a high false-positive rate when ordered as broad panels without clinical correlation. IgG food sensitivity testing is not validated for food allergy diagnosis and is specifically discouraged by allergy organizations, since IgG to foods reflects normal exposure. An elimination diet can generate a hypothesis and is a useful step, but without a controlled reintroduction it cannot confirm the diagnosis.",
+    "tags": [
+      "food allergy",
+      "diagnosis",
+      "oral food challenge",
+      "testing"
+    ]
+  },
+  {
+    "id": "m2-gf-fa-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "hard",
+    "text": "Current guidance on preventing peanut allergy in high-risk infants, based on the LEAP trial, recommends which approach?",
+    "options": [
+      "Avoid all peanut products until age 3",
+      "Introduce age-appropriate peanut-containing foods early, around 4 to 6 months, after appropriate evaluation",
+      "Introduce peanut only after allergy testing is negative at age 5",
+      "Maternal peanut avoidance during pregnancy and lactation"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Learning Early About Peanut Allergy trial demonstrated that early introduction of peanut in high-risk infants substantially reduces peanut allergy development, reversing decades of avoidance advice. Guidelines now recommend introducing age-appropriate peanut-containing foods around 4 to 6 months for high-risk infants, with evaluation such as specific IgE testing or supervised feeding for those with severe eczema or egg allergy. Avoiding peanut until age 3 reflects the outdated recommendation that the trial overturned. Delaying until age 5 compounds that error. Maternal avoidance during pregnancy and lactation has not been shown to prevent allergy and is not recommended.",
+    "tags": [
+      "food allergy",
+      "prevention",
+      "LEAP trial",
+      "infant feeding"
+    ]
+  },
+  {
+    "id": "m2-gf-fa-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "medium",
+    "text": "A patient with a milk allergy asks whether lactose-free milk is safe. What is the most accurate response?",
+    "options": [
+      "Lactose-free milk is safe because the allergen has been removed",
+      "Lactose-free milk still contains milk proteins and is not safe for milk allergy",
+      "Lactose-free milk is safe if consumed in small amounts",
+      "Lactose-free milk is safe only when heated"
+    ],
+    "correctIndex": 1,
+    "explanation": "Milk allergy is an immune reaction to milk PROTEINS, principally casein and whey. Lactose-free milk has simply had the lactose enzymatically hydrolyzed; all the proteins remain, so it is not safe for someone with milk allergy. This is one of the most consequential confusions in allergy counseling, since lactose intolerance is a digestive enzyme deficiency while milk allergy is immune-mediated. Small amounts are still dangerous, because IgE-mediated reactions can occur with trace exposure. Heating denatures some proteins and a subset of children tolerate baked milk, but this must be established through supervised challenge and does not make lactose-free milk safe.",
+    "tags": [
+      "food allergy",
+      "milk allergy",
+      "lactose intolerance",
+      "counseling"
+    ]
+  },
+  {
+    "id": "m2-gf-fa-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "hard",
+    "text": "A patient reports itching of the lips and throat when eating raw apples and carrots, but no symptoms when these foods are cooked. He has a history of birch pollen allergy. What is the most likely diagnosis?",
+    "options": [
+      "Systemic anaphylaxis to apple and carrot",
+      "Oral allergy syndrome from pollen-food cross-reactivity",
+      "Celiac disease",
+      "Scombroid poisoning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oral allergy syndrome, also called pollen-food allergy syndrome, results from cross-reactivity between pollen proteins and structurally similar proteins in raw fruits and vegetables. Birch pollen commonly cross-reacts with apple, carrot, celery, cherry and hazelnut. Because the responsible proteins are heat-labile, cooking eliminates symptoms, which is exactly the pattern described. Systemic anaphylaxis would not spare cooked forms and would involve more than oropharyngeal symptoms. Celiac disease is an immune reaction to gluten with intestinal manifestations, unrelated to raw produce. Scombroid poisoning is histamine toxicity from improperly stored fish and presents with flushing and headache after eating fish.",
+    "tags": [
+      "food allergy",
+      "oral allergy syndrome",
+      "cross-reactivity",
+      "pollen"
+    ]
+  },
+  {
+    "id": "m2-gf-fa-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "medium",
+    "text": "What is the first-line treatment for anaphylaxis from a food allergen?",
+    "options": [
+      "Oral antihistamine",
+      "Intramuscular epinephrine",
+      "Inhaled bronchodilator",
+      "Oral corticosteroid"
+    ],
+    "correctIndex": 1,
+    "explanation": "Intramuscular epinephrine into the anterolateral thigh is the first-line and only life-saving treatment for anaphylaxis, and delay in administration is the strongest predictor of fatal outcome. Patients must be counseled to use it immediately and then seek emergency care. Antihistamines relieve itching and hives but have no effect on airway edema, bronchospasm or hypotension, and relying on them delays definitive treatment. Inhaled bronchodilators may be an adjunct for bronchospasm but do not address the systemic reaction. Corticosteroids have a slow onset and do not treat the acute event, though they are sometimes given to reduce biphasic reactions.",
+    "tags": [
+      "food allergy",
+      "anaphylaxis",
+      "epinephrine",
+      "emergency"
+    ]
+  },
+  {
+    "id": "m2-gf-fa-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "hard",
+    "text": "A patient with celiac disease continues to have positive tissue transglutaminase antibodies and symptoms after 12 months on a gluten-free diet. What is the most likely explanation?",
+    "options": [
+      "Refractory celiac disease is the most common cause",
+      "Ongoing inadvertent gluten exposure from cross-contact or hidden sources",
+      "The diagnosis of celiac disease was incorrect",
+      "Lactose intolerance is causing the antibody elevation"
+    ],
+    "correctIndex": 1,
+    "explanation": "The overwhelmingly most common reason for persistent symptoms and antibodies in treated celiac disease is continued gluten exposure, whether from cross-contact in food preparation, hidden sources in medications, supplements or sauces, or incomplete understanding of the diet. A detailed dietary review with an experienced dietitian is the appropriate next step. Refractory celiac disease is genuinely rare and is a diagnosis of exclusion made only after inadvertent exposure is thoroughly ruled out. Reconsidering the diagnosis is reasonable eventually but comes after exposure is excluded. Lactose intolerance can cause residual symptoms but does not elevate tissue transglutaminase antibodies.",
+    "tags": [
+      "food allergy",
+      "celiac disease",
+      "gluten",
+      "cross-contact"
+    ]
+  },
+  {
+    "id": "m2-gf-fa-09",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "medium",
+    "text": "Which labeling term indicates a product meets the United States standard for gluten-free?",
+    "options": [
+      "Contains less than 20 parts per million of gluten",
+      "Contains less than 200 parts per million of gluten",
+      "Made without wheat",
+      "Processed in a gluten-free facility"
+    ],
+    "correctIndex": 0,
+    "explanation": "The FDA gluten-free labeling rule requires that a product contain less than 20 parts per million of gluten, a threshold set because it is the lowest reliably detectable level and is tolerated by most people with celiac disease. A 200 parts per million threshold is ten times too permissive and would cause harm. The phrase made without wheat is insufficient, since barley and rye also contain gluten and a wheat-free product can still contain gluten. A statement about the processing facility addresses cross-contact risk but is a voluntary advisory claim, not the regulated gluten-free standard.",
+    "tags": [
+      "food allergy",
+      "celiac disease",
+      "gluten-free labeling",
+      "regulation"
+    ]
+  },
+  {
+    "id": "m2-gf-fa-10",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Food Allergies and Intolerances",
+    "difficulty": "hard",
+    "text": "An infant with cow's milk protein allergy continues to have blood-streaked stools while exclusively breastfed. What is the most appropriate first recommendation?",
+    "options": [
+      "Wean immediately to a soy-based formula",
+      "Maternal elimination of cow's milk protein from her diet while continuing breastfeeding",
+      "Switch to an amino acid-based formula immediately",
+      "Introduce solid foods early to displace breast milk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cow's milk proteins pass into breast milk, so the first step in a breastfed infant with cow's milk protein allergy is maternal elimination of dairy while breastfeeding continues, with calcium and vitamin D support for the mother and reassessment after two to four weeks. Weaning to soy formula is inappropriate as a first step, since breastfeeding should be preserved and a substantial proportion of these infants also react to soy. Amino acid-based formula is reserved for severe cases or failure of extensively hydrolyzed formula, and it is not the first move in a breastfed infant. Early introduction of solids does not treat the allergy and is not developmentally appropriate as a substitute for breast milk.",
+    "tags": [
+      "food allergy",
+      "cow's milk protein allergy",
+      "breastfeeding",
+      "infant"
+    ]
+  }
+]

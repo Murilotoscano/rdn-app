@@ -1,0 +1,222 @@
+[
+  {
+    "id": "m2-gf-enc-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A patient on continuous standard polymeric tube feeding at goal rate develops six loose stools daily. Stool studies are negative for Clostridioides difficile. Medications include a potassium chloride elixir, an oral acetaminophen suspension, and a sorbitol-containing docusate liquid. What is the most likely cause?",
+    "options": [
+      "The osmolality of the enteral formula",
+      "Sorbitol and hyperosmolar liquid medications",
+      "Lactose intolerance triggered by the formula",
+      "Excessive fiber content of the formula"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sorbitol is a non-absorbable sugar alcohol used as a vehicle in many liquid medications, and it draws water into the bowel lumen, producing osmotic diarrhea. Liquid potassium chloride is also strongly hyperosmolar. Medications, not formula, are the most common cause of diarrhea in tube-fed patients, so the drug list is the first place to look. Standard polymeric formulas are near-isotonic and rarely cause diarrhea on their own. Commercial enteral formulas are lactose-free, so lactose intolerance is not a plausible mechanism. Excess fiber tends to produce constipation or bloating rather than osmotic diarrhea, and standard formula fiber loads are modest.",
+    "tags": [
+      "enteral",
+      "complications",
+      "diarrhea",
+      "medications"
+    ]
+  },
+  {
+    "id": "m2-gf-enc-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A severely malnourished 45-year-old man with alcohol use disorder and a BMI of 15 kg/m2 has eaten almost nothing for three weeks. Tube feeding is started at goal rate. On day two he develops confusion, muscle weakness and a serum phosphorus of 1.2 mg/dL. What error most directly caused this?",
+    "options": [
+      "Formula was too concentrated",
+      "Feeding was advanced to goal too rapidly in a high-risk patient",
+      "Protein content of the formula was excessive",
+      "The patient required a jejunal rather than gastric route"
+    ],
+    "correctIndex": 1,
+    "explanation": "This is refeeding syndrome. In a chronically starved patient, reintroducing carbohydrate triggers insulin release that drives phosphorus, potassium and magnesium intracellularly, producing the hypophosphatemia, weakness and confusion seen here. The error was starting at goal rather than at roughly 25% of estimated needs with slow advancement, thiamine supplementation and daily electrolyte monitoring. Formula concentration is not the mechanism; the total carbohydrate load and rate of delivery are. Protein does not drive the intracellular electrolyte shift. Route of access is irrelevant, since the same syndrome occurs with gastric, jejunal, oral or parenteral refeeding.",
+    "tags": [
+      "enteral",
+      "complications",
+      "refeeding syndrome",
+      "hypophosphatemia"
+    ]
+  },
+  {
+    "id": "m2-gf-enc-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "A nurse reports that a feeding tube has clogged. Which intervention is most appropriate as the first attempt to clear it?",
+    "options": [
+      "Flush with warm water using a gentle push-pull technique",
+      "Instill carbonated cola and allow it to dwell",
+      "Flush with cranberry juice",
+      "Advance a guidewire through the tube at the bedside"
+    ],
+    "correctIndex": 0,
+    "explanation": "Warm water with a gentle push-pull motion using a large-barrel syringe is the recommended first-line technique and resolves most occlusions. If water fails, a pancreatic enzyme and bicarbonate solution is the evidence-based next step. Carbonated cola is acidic and can precipitate formula protein, worsening the clog, and studies show it is no better than water. Cranberry juice is acidic for the same reason and is specifically discouraged. Passing a guidewire or any stylet through an indwelling tube at the bedside risks perforating the tube and injuring the GI tract, and is not an appropriate nursing or dietetic intervention.",
+    "tags": [
+      "enteral",
+      "complications",
+      "tube occlusion",
+      "technique"
+    ]
+  },
+  {
+    "id": "m2-gf-enc-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "Which intervention most effectively reduces aspiration risk in a mechanically ventilated patient receiving gastric tube feeding?",
+    "options": [
+      "Elevating the head of the bed to 30 to 45 degrees",
+      "Checking gastric residual volumes every 2 hours",
+      "Diluting the formula to half strength",
+      "Switching from continuous to bolus delivery"
+    ],
+    "correctIndex": 0,
+    "explanation": "Head-of-bed elevation to 30 to 45 degrees is the best-supported and most consistently recommended measure for reducing aspiration and ventilator-associated pneumonia in tube-fed ventilated patients. Routine gastric residual volume monitoring has fallen out of favor, because studies show it does not reduce aspiration and it frequently leads to unnecessary feeding interruptions and underfeeding. Diluting the formula reduces nutrient delivery without reducing aspiration risk, since the volume in the stomach is what matters. Bolus delivery increases peak gastric volume and would raise, not lower, aspiration risk in this population.",
+    "tags": [
+      "enteral",
+      "complications",
+      "aspiration",
+      "critical care"
+    ]
+  },
+  {
+    "id": "m2-gf-enc-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "A long-term tube-fed patient on a fiber-free formula develops hard, infrequent stools. Fluid intake is 25 mL/kg per day. What is the most appropriate first intervention?",
+    "options": [
+      "Change to a fiber-containing formula and increase free water",
+      "Add a stimulant laxative daily and continue current regimen",
+      "Reduce the feeding rate by 25%",
+      "Switch to a semi-elemental formula"
+    ],
+    "correctIndex": 0,
+    "explanation": "Constipation in long-term tube feeding usually reflects inadequate fiber and inadequate free water. Moving to a fiber-containing formula and increasing free water addresses both causes directly, and 25 mL/kg is at the low end of typical adult requirements. Reaching first for a daily stimulant laxative treats the symptom while leaving the underlying deficits uncorrected and can produce dependence. Reducing the feeding rate worsens nutritional status and does not address stool consistency. A semi-elemental formula is designed for malabsorption, contains little or no fiber, and would be more likely to worsen the problem.",
+    "tags": [
+      "enteral",
+      "complications",
+      "constipation",
+      "fiber"
+    ]
+  },
+  {
+    "id": "m2-gf-enc-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A patient receiving enteral nutrition through a nasogastric tube is receiving phenytoin through the same tube. The neurology team reports subtherapeutic phenytoin levels despite dose increases. What is the most appropriate recommendation?",
+    "options": [
+      "Hold the feeding for 1 to 2 hours before and after each phenytoin dose",
+      "Crush the phenytoin more finely before administration",
+      "Change to a fiber-free formula",
+      "Administer phenytoin with the formula to improve absorption"
+    ],
+    "correctIndex": 0,
+    "explanation": "Enteral formula binds phenytoin and markedly reduces its bioavailability, producing subtherapeutic levels even at escalating doses. The standard management is to hold the feeding for 1 to 2 hours before and after the dose, flush the tube, and account for the interrupted feeding time when calculating the daily volume. Grinding the tablet more finely does not change the binding interaction. Fiber is not the binding component, so a fiber-free formula does not resolve it. Giving the drug with formula maximizes the interaction and is the opposite of correct practice, and it risks breakthrough seizures.",
+    "tags": [
+      "enteral",
+      "complications",
+      "drug-nutrient interaction",
+      "phenytoin"
+    ]
+  },
+  {
+    "id": "m2-gf-enc-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A critically ill patient on vasopressors at escalating doses is receiving trophic enteral feeding. The nurse reports new abdominal distension, absent bowel sounds and worsening metabolic acidosis. What is the most appropriate action?",
+    "options": [
+      "Increase the feeding rate to meet full caloric needs",
+      "Hold enteral feeding and notify the team for evaluation of bowel ischemia",
+      "Add a promotility agent and continue feeding",
+      "Switch to a fiber-containing formula"
+    ],
+    "correctIndex": 1,
+    "explanation": "This constellation in a patient on escalating vasopressors raises concern for non-occlusive mesenteric ischemia, a rare but catastrophic complication of feeding the hypoperfused gut. Feeding should be held and the team notified for urgent evaluation. Increasing the rate would add substrate demand to bowel that may already be ischemic. A promotility agent does not address perfusion and delays recognition of a surgical emergency. Adding fiber increases luminal bulk and fermentation in a compromised bowel and is contraindicated in suspected ischemia.",
+    "tags": [
+      "enteral",
+      "complications",
+      "bowel ischemia",
+      "vasopressors"
+    ]
+  },
+  {
+    "id": "m2-gf-enc-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "A patient on tube feeding has a serum sodium of 152 mEq/L. He receives 1,500 mL of a 1.5 kcal/mL formula daily plus 30 mL water flushes four times a day. What is the most likely explanation?",
+    "options": [
+      "Excess sodium content of the formula",
+      "Inadequate free water provision",
+      "Excessive protein in the formula",
+      "Refeeding syndrome"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hypernatremia in a tube-fed patient most often reflects a free water deficit rather than sodium excess. A calorie-dense 1.5 kcal/mL formula contains only about 76 to 78% water, so 1,500 mL supplies roughly 1,150 mL of water, and 120 mL of flushes brings the total to well under typical requirements. Enteral formulas are relatively low in sodium and rarely cause hypernatremia on their own. High protein raises the renal solute load and can contribute, but the dominant and directly correctable problem here is insufficient free water. Refeeding syndrome causes low phosphorus, potassium and magnesium, not elevated sodium.",
+    "tags": [
+      "enteral",
+      "complications",
+      "hypernatremia",
+      "free water"
+    ]
+  },
+  {
+    "id": "m2-gf-enc-09",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "medium",
+    "text": "Which practice best reduces the risk of microbial contamination of enteral formula in the hospital?",
+    "options": [
+      "Limiting hang time of decanted formula to 4 to 8 hours",
+      "Adding formula to the partially full bag to avoid waste",
+      "Rinsing and reusing feeding bags for 72 hours",
+      "Storing opened formula at room temperature between feedings"
+    ],
+    "correctIndex": 0,
+    "explanation": "Decanted, open-system formula should hang no longer than 4 to 8 hours, since formula is an excellent bacterial growth medium at room temperature; closed-system ready-to-hang containers may hang 24 to 48 hours per manufacturer labeling. Topping off a partially used bag introduces fresh formula into an already contaminated reservoir and lets bacterial counts build over time. Reusing bags for 72 hours defeats the purpose of limiting hang time. Opened formula must be refrigerated and discarded within 24 hours, so leaving it at room temperature between feedings permits substantial bacterial proliferation.",
+    "tags": [
+      "enteral",
+      "complications",
+      "food safety",
+      "hang time"
+    ]
+  },
+  {
+    "id": "m2-gf-enc-10",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Complications",
+    "difficulty": "hard",
+    "text": "A patient with a new jejunostomy is advanced to goal rate over 12 hours and develops cramping, tachycardia, diaphoresis and watery diarrhea about 30 minutes after each rate increase. What is the most appropriate intervention?",
+    "options": [
+      "Reduce the infusion rate and advance more gradually",
+      "Change to a bolus schedule",
+      "Add a bulk-forming fiber supplement",
+      "Discontinue enteral nutrition and begin parenteral nutrition"
+    ],
+    "correctIndex": 0,
+    "explanation": "These are dumping-type symptoms caused by delivering a hyperosmolar load into the small bowel faster than it can be accommodated, which pulls fluid into the lumen and triggers an autonomic response. Reducing the rate and advancing more slowly, typically over 24 to 48 hours, resolves it in most patients. Bolus delivery into the jejunum would dramatically worsen the problem, since it is the same mechanism amplified. Bulk-forming fiber does not address osmotic load and may add distension. Abandoning a functioning gut for parenteral nutrition is unnecessary and exposes the patient to catheter and metabolic risks when a simple rate adjustment will work.",
+    "tags": [
+      "enteral",
+      "complications",
+      "dumping syndrome",
+      "jejunal"
+    ]
+  }
+]

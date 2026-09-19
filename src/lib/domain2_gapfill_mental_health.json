@@ -1,0 +1,178 @@
+[
+  {
+    "id": "m2-gf-mh-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Mental Health",
+    "difficulty": "hard",
+    "text": "A patient taking phenelzine, a monoamine oxidase inhibitor, requires dietary counseling. Which foods must be avoided?",
+    "options": [
+      "Aged cheeses, cured meats, fermented soy products and tap beer",
+      "All dairy products and fresh fruit",
+      "High-fiber grains and legumes",
+      "Citrus fruits and tomatoes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Monoamine oxidase inhibitors block the enzyme that degrades tyramine, so dietary tyramine reaches the circulation and displaces norepinephrine, producing a hypertensive crisis. High-tyramine foods result from aging, curing or fermentation, and include aged cheeses, cured and fermented meats, fermented soy products such as miso and soy sauce, sauerkraut, and tap or draft beer. Fresh dairy and fresh fruit are low in tyramine and need not be avoided. High-fiber grains and legumes contain no meaningful tyramine. Citrus and tomatoes are not tyramine sources, though this misconception is common.",
+    "tags": [
+      "mental health",
+      "MAOI",
+      "tyramine",
+      "drug-nutrient interaction"
+    ]
+  },
+  {
+    "id": "m2-gf-mh-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Mental Health",
+    "difficulty": "hard",
+    "text": "A patient stabilized on lithium reports starting a strict low-sodium diet for blood pressure. What is the most important counseling point?",
+    "options": [
+      "Low sodium intake has no effect on lithium",
+      "Sodium restriction can raise lithium levels and risk toxicity, so intake should be consistent and levels monitored",
+      "Sodium should be increased to very high levels to protect against toxicity",
+      "Lithium requires a high-protein diet"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lithium is handled by the kidney much like sodium. When sodium intake falls, the proximal tubule reabsorbs more sodium and correspondingly more lithium, raising serum levels toward the toxic range, which begins near 1.5 mEq/L. Dehydration and diuretics act the same way. The key counseling point is to keep sodium intake CONSISTENT rather than abruptly restricted, and to monitor levels with any change. Saying sodium has no effect misses a clinically dangerous interaction. Deliberately loading sodium to very high levels would lower lithium into the subtherapeutic range and conflicts with blood pressure goals. Protein intake does not govern lithium clearance.",
+    "tags": [
+      "mental health",
+      "lithium",
+      "sodium",
+      "drug-nutrient interaction"
+    ]
+  },
+  {
+    "id": "m2-gf-mh-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Mental Health",
+    "difficulty": "medium",
+    "text": "A patient started on olanzapine, a second-generation antipsychotic, is at highest risk for which nutrition-related outcome?",
+    "options": [
+      "Significant weight gain and metabolic syndrome",
+      "Severe weight loss",
+      "Hypokalemia",
+      "Vitamin K deficiency"
+    ],
+    "correctIndex": 0,
+    "explanation": "Olanzapine carries one of the highest risks of weight gain among second-generation antipsychotics, along with dyslipidemia and impaired glucose tolerance, and clozapine is comparable. Guidelines therefore call for baseline and ongoing monitoring of weight, waist circumference, lipids and glucose, with early lifestyle intervention. Severe weight loss is the opposite of the expected effect. Hypokalemia is not a characteristic feature of this drug class. Vitamin K deficiency relates to fat malabsorption, prolonged antibiotics or warfarin interactions, not to antipsychotic therapy.",
+    "tags": [
+      "mental health",
+      "antipsychotic",
+      "weight gain",
+      "metabolic syndrome"
+    ]
+  },
+  {
+    "id": "m2-gf-mh-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Mental Health",
+    "difficulty": "hard",
+    "text": "A patient with severe anorexia nervosa and a BMI of 12.8 kg/m2 is admitted for refeeding. Which approach is most appropriate?",
+    "options": [
+      "Begin at full estimated energy needs to restore weight rapidly",
+      "Start conservatively with close electrolyte monitoring, thiamine supplementation and gradual advancement",
+      "Withhold nutrition for 48 hours to stabilize electrolytes first",
+      "Provide only oral intake with no monitoring"
+    ],
+    "correctIndex": 1,
+    "explanation": "Patients at this degree of starvation are at very high risk of refeeding syndrome, so the standard approach is a cautious start, thiamine before or with the first carbohydrate load, daily monitoring and repletion of phosphorus, potassium and magnesium, and gradual advancement guided by laboratory trends and cardiac status. Starting at full estimated needs is the classic error that precipitates life-threatening hypophosphatemia and arrhythmia. Withholding nutrition for 48 hours prolongs starvation and does not prevent the syndrome, since the risk arises when feeding begins. Providing oral intake without monitoring ignores the very complication that makes this admission necessary.",
+    "tags": [
+      "mental health",
+      "anorexia nervosa",
+      "refeeding syndrome",
+      "eating disorder"
+    ]
+  },
+  {
+    "id": "m2-gf-mh-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Mental Health",
+    "difficulty": "medium",
+    "text": "Which counseling approach is most consistent with motivational interviewing when a patient expresses ambivalence about changing eating habits?",
+    "options": [
+      "Tell the patient directly what they must change and warn of consequences",
+      "Explore the patient's own reasons for and against change and support their autonomy",
+      "Provide a detailed meal plan and end the session",
+      "Refer the patient elsewhere until they are ready"
+    ],
+    "correctIndex": 1,
+    "explanation": "Motivational interviewing is a collaborative, patient-centered method that treats ambivalence as normal and works by evoking the patient's own motivations rather than supplying the clinician's. Exploring reasons for and against change while explicitly supporting autonomy is its core technique and tends to elicit change talk. Directive warnings often produce resistance, since confrontation strengthens the argument against change. Handing over a meal plan and ending the session skips the readiness question entirely and rarely produces adherence in an ambivalent patient. Deferring the patient until they are ready misunderstands the method, whose purpose is precisely to help build that readiness.",
+    "tags": [
+      "mental health",
+      "motivational interviewing",
+      "counseling",
+      "behavior change"
+    ]
+  },
+  {
+    "id": "m2-gf-mh-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Mental Health",
+    "difficulty": "hard",
+    "text": "A patient with chronic alcohol use disorder presents with confusion, ophthalmoplegia and ataxia. Which intervention takes priority?",
+    "options": [
+      "Administer intravenous glucose immediately",
+      "Administer thiamine before or with any glucose load",
+      "Provide a high-protein meal",
+      "Begin magnesium supplementation alone"
+    ],
+    "correctIndex": 1,
+    "explanation": "This triad indicates Wernicke encephalopathy from thiamine deficiency. Thiamine is a cofactor for pyruvate dehydrogenase and transketolase, so giving a glucose load first consumes remaining thiamine and can precipitate or worsen the encephalopathy, potentially progressing to irreversible Korsakoff syndrome. Thiamine must therefore be given before or together with glucose. Immediate glucose alone is the specific error to avoid. A high-protein meal does not treat an acute thiamine deficiency emergency. Magnesium is a relevant cofactor for thiamine-dependent enzymes and is often repleted alongside, but on its own it does not treat the deficiency.",
+    "tags": [
+      "mental health",
+      "alcohol use disorder",
+      "thiamine",
+      "Wernicke encephalopathy"
+    ]
+  },
+  {
+    "id": "m2-gf-mh-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Mental Health",
+    "difficulty": "medium",
+    "text": "Which laboratory or clinical finding is most characteristic of a patient with bulimia nervosa engaging in frequent self-induced vomiting?",
+    "options": [
+      "Hypokalemic metabolic alkalosis with dental enamel erosion",
+      "Hyperkalemic metabolic acidosis",
+      "Elevated serum phosphorus",
+      "Macrocytic anemia"
+    ],
+    "correctIndex": 0,
+    "explanation": "Repeated vomiting loses gastric hydrogen and chloride, producing metabolic alkalosis, while volume depletion drives aldosterone-mediated potassium wasting, producing hypokalemia. Gastric acid contact also erodes dental enamel on the lingual surfaces, and parotid enlargement and Russell sign on the knuckles may accompany it. Hyperkalemic metabolic acidosis is the opposite pattern and would suggest renal failure or tissue breakdown. Elevated phosphorus is not characteristic, and phosphorus more often falls during refeeding. Macrocytic anemia points toward B12 or folate deficiency or alcohol use rather than purging behavior.",
+    "tags": [
+      "mental health",
+      "bulimia nervosa",
+      "electrolytes",
+      "eating disorder"
+    ]
+  },
+  {
+    "id": "m2-gf-mh-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Mental Health",
+    "difficulty": "medium",
+    "text": "A patient with major depressive disorder asks whether nutrition affects mood. Which evidence-based statement is most appropriate?",
+    "options": [
+      "Specific supplements reliably cure depression without other treatment",
+      "Overall dietary patterns rich in vegetables, fruit, whole grains, fish and legumes are associated with lower depression risk, as an adjunct to standard care",
+      "Nutrition has no relationship to mental health",
+      "Eliminating all carbohydrates resolves depressive symptoms"
+    ],
+    "correctIndex": 1,
+    "explanation": "Observational and some interventional evidence links Mediterranean-style dietary patterns, rich in vegetables, fruit, whole grains, fish and legumes, with lower risk and severity of depressive symptoms, and diet is appropriately framed as an adjunct to psychotherapy and pharmacotherapy rather than a replacement. Claiming supplements cure depression on their own overstates the evidence and could lead a patient to abandon effective treatment. Asserting no relationship dismisses a consistent body of research. Eliminating all carbohydrates has no evidence base for depression and may worsen mood, since carbohydrate availability influences tryptophan transport and serotonin synthesis.",
+    "tags": [
+      "mental health",
+      "depression",
+      "dietary pattern",
+      "evidence-based"
+    ]
+  }
+]

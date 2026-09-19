@@ -1,0 +1,354 @@
+[
+  {
+    "id": "m4-gf-fp-01",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Facility Planning",
+    "difficulty": "hard",
+    "text": "Which sequence represents the correct workflow when designing a commercial kitchen layout?",
+    "options": [
+      "Receiving, storage, preparation, production, service, warewashing",
+      "Production, receiving, service, storage, warewashing, preparation",
+      "Warewashing, service, production, preparation, storage, receiving",
+      "Service, preparation, receiving, production, storage, warewashing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kitchen layout follows the natural path of food through the operation: receiving at the dock, then storage, preparation, production, service, and finally warewashing and waste removal. Designing to this flow minimizes backtracking, reduces unnecessary steps and, critically, keeps soiled warewashing traffic from crossing paths with clean food production, which is a cross-contamination hazard. The other sequences scatter the stations so that food and staff double back repeatedly, lengthening travel distance, increasing labor cost and creating points where raw, cooked and soiled items intersect.",
+    "tags": [
+      "facility planning",
+      "workflow",
+      "layout",
+      "cross-contamination"
+    ]
+  },
+  {
+    "id": "m4-gf-fp-02",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Facility Planning",
+    "difficulty": "medium",
+    "text": "What is the primary purpose of coving where the kitchen floor meets the wall?",
+    "options": [
+      "It eliminates the sharp right-angle joint so the junction can be cleaned effectively and harbors no debris or pests",
+      "It provides decorative finish required by building codes",
+      "It increases floor load capacity",
+      "It improves acoustic performance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Coving is the curved, sealed transition between floor and wall that removes the ninety-degree corner where soil, moisture and pests accumulate and where mops cannot reach. It is a sanitation design requirement in commercial kitchens precisely because it makes the junction cleanable. Its purpose is functional rather than decorative. It does not contribute to structural floor load capacity, which is determined by the slab and supporting structure. It has no meaningful acoustic function, and noise control in kitchens is addressed through ceiling treatments and equipment selection.",
+    "tags": [
+      "facility planning",
+      "coving",
+      "sanitation design",
+      "flooring"
+    ]
+  },
+  {
+    "id": "m4-gf-fp-03",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Facility Planning",
+    "difficulty": "hard",
+    "text": "Which flooring material is most commonly specified for commercial kitchen production areas, and what maintenance does it require?",
+    "options": [
+      "Quarry tile, which requires periodic grout sealing",
+      "Carpet tile, which requires weekly shampooing",
+      "Untreated hardwood, which requires annual refinishing",
+      "Polished marble, which requires daily buffing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Quarry tile is the industry standard for kitchen production floors because it is dense, slip resistant when properly specified, and highly durable under heat, grease and heavy traffic. Its weakness is the grout, which is porous and must be sealed periodically to stay sanitary; seamless poured epoxy avoids grout lines entirely and is the common alternative. Carpet is never appropriate in a production area, since it absorbs grease and moisture. Untreated hardwood cannot be sanitized and degrades with water exposure. Polished marble is slippery when wet and etches under acidic spills.",
+    "tags": [
+      "facility planning",
+      "quarry tile",
+      "flooring",
+      "maintenance"
+    ]
+  },
+  {
+    "id": "m4-gf-fp-04",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Facility Planning",
+    "difficulty": "medium",
+    "text": "A kitchen design review specifies a work aisle where one employee works at a single station. Which aisle width is most appropriate?",
+    "options": [
+      "About 3.5 to 4 feet",
+      "About 18 inches",
+      "About 8 to 10 feet",
+      "About 12 feet"
+    ],
+    "correctIndex": 0,
+    "explanation": "A single-worker work aisle is typically designed at roughly 3.5 to 4 feet, enough for the employee to turn, open equipment doors and bend safely without wasted travel, while aisles carrying through traffic or mobile equipment are widened to roughly 4 to 5 feet or more. An 18-inch aisle would not permit an oven or refrigerator door to open or allow safe movement with hot pans. Aisles of 8 to 10 feet or 12 feet waste expensive square footage, lengthen worker travel and reduce productivity, since every extra step is repeated hundreds of times per shift.",
+    "tags": [
+      "facility planning",
+      "aisle width",
+      "ergonomics",
+      "design"
+    ]
+  },
+  {
+    "id": "m4-gf-fp-05",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Facility Planning",
+    "difficulty": "hard",
+    "text": "Which lighting level is generally specified for areas where employees perform detailed knife work and food preparation?",
+    "options": [
+      "At least 50 footcandles",
+      "10 footcandles",
+      "20 footcandles",
+      "5 footcandles"
+    ],
+    "correctIndex": 0,
+    "explanation": "Detailed preparation work involving knives and inspection of food requires at least 50 footcandles, because accuracy and injury prevention depend on the worker clearly seeing the cutting surface and product. Roughly 20 footcandles is specified for general service, handwashing and warewashing areas, and about 10 footcandles suffices for walk-in storage and cleaning areas where no detailed visual task occurs. Specifying 10 or 20 footcandles at a prep station raises the risk of cuts and of missed foreign material. A 5-footcandle level is below even the storage standard and would be unsafe anywhere work occurs.",
+    "tags": [
+      "facility planning",
+      "lighting",
+      "footcandles",
+      "safety"
+    ]
+  },
+  {
+    "id": "m4-gf-fp-06",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Facility Planning",
+    "difficulty": "medium",
+    "text": "What is the primary function of a Type I commercial kitchen exhaust hood?",
+    "options": [
+      "To capture and remove grease-laden vapors, smoke and heat from cooking equipment",
+      "To supply conditioned fresh air to the dining room",
+      "To filter drinking water for the kitchen",
+      "To provide emergency lighting during a power failure"
+    ],
+    "correctIndex": 0,
+    "explanation": "A Type I hood is required over equipment producing grease-laden vapors, such as fryers, ranges, griddles and broilers. It captures grease, smoke and heat, routes them through baffle filters and a dedicated duct, and is paired with a fire suppression system, making it both a ventilation and a fire safety component. Type II hoods handle heat and moisture only, as over dishwashers and steamers. Supplying conditioned air to the dining room is the role of the building HVAC system. Water filtration and emergency lighting are entirely separate building systems.",
+    "tags": [
+      "facility planning",
+      "ventilation",
+      "Type I hood",
+      "fire safety"
+    ]
+  },
+  {
+    "id": "m4-gf-fp-07",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Facility Planning",
+    "difficulty": "hard",
+    "text": "During which phase of a foodservice facility project is the decision to proceed or not proceed primarily made?",
+    "options": [
+      "The feasibility study",
+      "Construction documents",
+      "Schematic design",
+      "Construction administration"
+    ],
+    "correctIndex": 0,
+    "explanation": "The feasibility study comes first and evaluates whether the project makes sense at all, examining need, market or census, site constraints, preliminary cost, financing and projected return, so it is where a go or no-go decision is made before significant design fees are committed. Schematic design follows, translating an approved concept into preliminary layouts. Construction documents produce the detailed drawings and specifications used for bidding and building, by which point the commitment has long been made. Construction administration occurs during building, when stopping would be enormously costly.",
+    "tags": [
+      "facility planning",
+      "feasibility study",
+      "project phases",
+      "planning"
+    ]
+  },
+  {
+    "id": "m4-gf-fp-08",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Facility Planning",
+    "difficulty": "medium",
+    "text": "Which consideration is most important when determining the size and placement of dry storage in a new facility?",
+    "options": [
+      "Delivery frequency, inventory turnover and proximity to receiving and production",
+      "Matching the square footage of the dining room",
+      "Placing it adjacent to the warewashing area for convenience",
+      "Locating it in the warmest part of the building"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dry storage is sized from how much inventory the operation must hold, which depends on delivery frequency and turnover rate, and is located to shorten the path from receiving dock to storage to production. Frequent deliveries permit smaller storerooms and free up expensive square footage. Dining room square footage bears no relationship to storage needs. Placing dry storage beside warewashing exposes goods to heat and humidity and routes soiled traffic past stored food. Warm locations accelerate spoilage and pest activity, since dry storage should be cool, dry and well ventilated.",
+    "tags": [
+      "facility planning",
+      "dry storage",
+      "inventory turnover",
+      "layout"
+    ]
+  },
+  {
+    "id": "m4-gf-saf-01",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Safety",
+    "difficulty": "medium",
+    "text": "Under the OSHA Hazard Communication Standard, what must be readily accessible to employees for every hazardous chemical used in the kitchen?",
+    "options": [
+      "A Safety Data Sheet",
+      "A purchase order",
+      "A HACCP flow diagram",
+      "A nutrition facts panel"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Hazard Communication Standard, often called the Right-to-Know law, requires that a Safety Data Sheet be readily accessible for every hazardous chemical in the workplace, covering hazards, handling, storage, personal protective equipment, first aid and spill response. Employees must also be trained on them. A purchase order documents procurement, not hazards. A HACCP flow diagram addresses food safety hazards in a production process, not chemical hazards. A nutrition facts panel conveys food composition to consumers and has no role in chemical hazard communication.",
+    "tags": [
+      "safety",
+      "OSHA",
+      "Safety Data Sheet",
+      "hazard communication"
+    ]
+  },
+  {
+    "id": "m4-gf-saf-02",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Safety",
+    "difficulty": "medium",
+    "text": "Which injuries are the most frequently reported in commercial foodservice operations?",
+    "options": [
+      "Cuts, burns, and slips, trips and falls",
+      "Chemical inhalation injuries",
+      "Hearing loss from equipment noise",
+      "Electrical shock injuries"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cuts from knives and slicers, burns from hot surfaces, oil and steam, and slips, trips and falls on wet or greasy floors consistently account for the large majority of foodservice injuries, which is why knife handling, slip-resistant footwear, prompt spill cleanup and safe hot-item handling dominate safety training. Chemical inhalation injuries occur, typically from improperly mixed cleaners, but are far less frequent. Hearing loss is uncommon at commercial kitchen noise levels. Electrical shock injuries are relatively rare where equipment is properly grounded and maintained.",
+    "tags": [
+      "safety",
+      "injuries",
+      "OSHA",
+      "prevention"
+    ]
+  },
+  {
+    "id": "m4-gf-saf-03",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Safety",
+    "difficulty": "hard",
+    "text": "Which chemical combination must never be mixed because it produces toxic chloramine gas?",
+    "options": [
+      "Chlorine bleach and ammonia-based cleaners",
+      "Vinegar and water",
+      "Quaternary ammonium sanitizer and water",
+      "Dish detergent and warm water"
+    ],
+    "correctIndex": 0,
+    "explanation": "Combining chlorine bleach with an ammonia-containing cleaner releases chloramine gas, which causes severe respiratory irritation and can be fatal in enclosed spaces. This is a core element of chemical safety training, since both products are common in commercial kitchens. Bleach combined with acidic cleaners is similarly dangerous, releasing chlorine gas. Vinegar diluted with water is harmless. Quaternary ammonium sanitizer is designed to be diluted in water, and while it must not be mixed with detergents because that inactivates it, the result is ineffective sanitizing rather than toxic gas. Detergent in warm water is ordinary dishwashing.",
+    "tags": [
+      "safety",
+      "chemical safety",
+      "chloramine",
+      "training"
+    ]
+  },
+  {
+    "id": "m4-gf-saf-04",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Safety",
+    "difficulty": "hard",
+    "text": "Before a maintenance technician services a jammed commercial mixer, which safety procedure must be followed?",
+    "options": [
+      "Lockout/tagout, de-energizing the equipment and locking the power source so it cannot be started",
+      "Posting a verbal warning to nearby staff",
+      "Unplugging the machine only during the technician's lunch break",
+      "Slowing the machine to its lowest speed setting"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lockout/tagout requires that the energy source be isolated and physically locked with a tag identifying who applied it, so the equipment cannot be energized while someone has hands inside it. It is an OSHA requirement and exists because verbal coordination fails. A verbal warning does not prevent another employee from starting the machine. Unplugging only during a lunch break leaves the machine live during the actual service work. Reducing speed leaves the equipment energized and capable of starting under power, which is exactly the hazard the procedure is designed to eliminate.",
+    "tags": [
+      "safety",
+      "lockout tagout",
+      "OSHA",
+      "equipment"
+    ]
+  },
+  {
+    "id": "m4-gf-saf-05",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Safety",
+    "difficulty": "medium",
+    "text": "Which practice best reduces slip and fall injuries in a commercial kitchen?",
+    "options": [
+      "Slip-resistant footwear, immediate spill cleanup, wet floor signage and non-slip flooring",
+      "Waxing and polishing floors weekly for appearance",
+      "Requiring employees to move quickly between stations",
+      "Removing floor mats to simplify cleaning"
+    ],
+    "correctIndex": 0,
+    "explanation": "Slips and falls are addressed through a combination of slip-resistant footwear, cleaning spills the moment they occur, visible wet floor signage, properly specified non-slip flooring and well-placed drainage. No single measure is sufficient alone. Waxing and polishing floors increases slipperiness, particularly where grease and moisture are present. Requiring faster movement increases both slip risk and the severity of falls. Removing floor mats eliminates traction exactly where it is most needed, at sinks, dish stations and cooking lines where floors are persistently wet.",
+    "tags": [
+      "safety",
+      "slips and falls",
+      "prevention",
+      "PPE"
+    ]
+  },
+  {
+    "id": "m4-gf-saf-06",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Safety",
+    "difficulty": "hard",
+    "text": "An employee sustains a needlestick-type injury from a broken glass contaminated with blood while clearing dishes. Which OSHA standard governs the required response?",
+    "options": [
+      "The Bloodborne Pathogens Standard",
+      "The Hazard Communication Standard",
+      "The Emergency Action Plan Standard",
+      "The Personal Protective Equipment Standard"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Bloodborne Pathogens Standard governs exposure to blood and other potentially infectious materials, requiring an exposure control plan, hepatitis B vaccination offered at no cost, immediate post-exposure evaluation and follow-up, and recordkeeping. The Hazard Communication Standard covers chemical hazards through Safety Data Sheets. The Emergency Action Plan Standard addresses evacuation and emergency response procedures such as fire. The Personal Protective Equipment Standard governs selection and use of protective equipment generally and contributes to prevention, but it is not the standard that dictates the post-exposure medical response.",
+    "tags": [
+      "safety",
+      "bloodborne pathogens",
+      "OSHA",
+      "exposure"
+    ]
+  },
+  {
+    "id": "m4-gf-saf-07",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Safety",
+    "difficulty": "medium",
+    "text": "Which practice is most important when using a commercial food slicer?",
+    "options": [
+      "Engage the blade guard, use the hand guard, and unplug the unit before cleaning or blade removal",
+      "Clean the blade while the machine is running to save time",
+      "Remove guards to increase throughput during busy periods",
+      "Allow untrained staff to operate it under general supervision"
+    ],
+    "correctIndex": 0,
+    "explanation": "Slicers cause some of the most severe lacerations in foodservice, so safe use requires the blade guard engaged during operation, the hand guard or pusher used rather than fingers, and the unit unplugged with the blade set to zero before any cleaning or disassembly. Cleaning a running blade is among the most dangerous acts possible in a kitchen. Removing guards for speed defeats the engineering controls that prevent amputations. Allowing untrained staff to operate it violates OSHA training requirements, and general supervision does not substitute for documented, task-specific training.",
+    "tags": [
+      "safety",
+      "slicer",
+      "equipment safety",
+      "training"
+    ]
+  },
+  {
+    "id": "m4-gf-saf-08",
+    "moduleId": "mod4",
+    "domain": "Domain IV",
+    "topic": "Safety",
+    "difficulty": "hard",
+    "text": "Within what timeframe must an employer report a work-related fatality to OSHA?",
+    "options": [
+      "Within 8 hours",
+      "Within 24 hours",
+      "Within 7 days",
+      "Within 30 days"
+    ],
+    "correctIndex": 0,
+    "explanation": "A work-related fatality must be reported to OSHA within 8 hours of the employer learning of it. Separately, an inpatient hospitalization, amputation or loss of an eye must be reported within 24 hours, and confusing these two windows is the most common error on this point. A 7-day window corresponds to no OSHA reporting requirement. The 30-day figure does not apply to reporting either; injury and illness logs are maintained on an ongoing basis and posted annually, which is a recordkeeping obligation distinct from the immediate reporting duty triggered by a severe event.",
+    "tags": [
+      "safety",
+      "OSHA reporting",
+      "fatality",
+      "compliance"
+    ]
+  }
+]

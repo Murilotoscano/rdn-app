@@ -7,6 +7,7 @@ import { LayoutDashboard, BookOpen, BarChart2, User, Settings, Calendar } from "
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
+import BackupReminder from "../BackupReminder";
 
 const NavItem = ({ href, icon: Icon, label, active }: any) => (
     <Link href={href} className={clsx(sidebarStyles.navItem, active && sidebarStyles.active)}>
@@ -50,6 +51,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             <Sidebar />
             <main className={styles.mainContent}>
                 <div className="container">
+                    <BackupReminder />
                     {children}
                 </div>
             </main>

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "m2-gf-ena-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "medium",
+    "text": "A 68-year-old man admitted with an acute ischemic stroke fails a bedside swallow screen. Neurology expects his dysphagia to resolve over the next two to three weeks with therapy. He is alert, hemodynamically stable, and has a normally functioning GI tract. Which enteral access route is most appropriate to initiate now?",
+    "options": [
+      "Percutaneous endoscopic gastrostomy (PEG)",
+      "Nasogastric tube",
+      "Surgical jejunostomy",
+      "Peripherally inserted central catheter for parenteral nutrition"
+    ],
+    "correctIndex": 1,
+    "explanation": "Access is chosen by expected DURATION of need. Anticipated support of under 4 to 6 weeks calls for a nasoenteric route, and a nasogastric tube is the simplest option in a patient with a working stomach and no aspiration contraindication. A PEG is reserved for support expected to exceed 4 to 6 weeks, so placing one now commits the patient to an invasive procedure for a problem projected to resolve. A surgical jejunostomy is even more invasive and is indicated for gastric outlet obstruction or when the stomach must be bypassed. Parenteral nutrition is inappropriate because the gut works, and using it here adds infection and metabolic risk with no benefit.",
+    "tags": [
+      "enteral",
+      "access",
+      "stroke",
+      "dysphagia"
+    ]
+  },
+  {
+    "id": "m2-gf-ena-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "medium",
+    "text": "A 54-year-old woman with amyotrophic lateral sclerosis has lost 9% of her body weight over four months and can no longer safely swallow thin liquids. Her neurologist expects progressive decline. Her forced vital capacity is 58% of predicted. What is the most appropriate recommendation?",
+    "options": [
+      "Delay any tube placement until forced vital capacity falls below 30%",
+      "Place a percutaneous endoscopic gastrostomy now",
+      "Begin nasogastric feeding indefinitely",
+      "Recommend thickened liquids only and reassess in six months"
+    ],
+    "correctIndex": 1,
+    "explanation": "In progressive neuromuscular disease, PEG placement is recommended EARLY, while respiratory reserve still permits safe sedation. Guidelines favor placement before forced vital capacity drops below roughly 50%, and this patient is at 58% with documented weight loss and unsafe swallowing. Waiting until FVC reaches 30% makes the procedure substantially more dangerous. Indefinite nasogastric feeding is not appropriate for a permanent need because of nasal erosion, sinusitis, dislodgement and patient discomfort. Thickened liquids alone will not reverse a 9% weight loss and defers a decision that becomes riskier with time.",
+    "tags": [
+      "enteral",
+      "access",
+      "ALS",
+      "neuromuscular"
+    ]
+  },
+  {
+    "id": "m2-gf-ena-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "hard",
+    "text": "A patient with severe gastroparesis has repeatedly aspirated despite gastric feeding at a low continuous rate with the head of bed elevated. The medical team wants to continue enteral nutrition. Which access and delivery combination is most appropriate?",
+    "options": [
+      "Gastric feeding by bolus to reduce total infusion time",
+      "Post-pyloric (nasojejunal) tube with continuous infusion",
+      "Gastrostomy with intermittent gravity feeding",
+      "Return to gastric feeding once prokinetics are started"
+    ],
+    "correctIndex": 1,
+    "explanation": "When gastric feeding fails because of documented aspiration and delayed gastric emptying, the feed should bypass the stomach. A post-pyloric tube delivers formula distal to the pylorus, and the small bowel requires CONTINUOUS infusion because it has no reservoir capacity. Bolus feeding into the stomach increases gastric volume and would worsen aspiration in this patient. Intermittent gravity feeding into a gastrostomy has the same problem, since the formula still pools in a stomach that does not empty. Prokinetics may help but do not by themselves make gastric feeding safe after repeated aspiration events.",
+    "tags": [
+      "enteral",
+      "access",
+      "gastroparesis",
+      "aspiration"
+    ]
+  },
+  {
+    "id": "m2-gf-ena-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "hard",
+    "text": "A dietitian is consulted about enteral access for a patient with decompensated cirrhosis, large-volume ascites, and a platelet count of 38,000/mm3 who needs nutrition support for an expected two months. Which consideration most affects the recommendation?",
+    "options": [
+      "Ascites and coagulopathy are relative contraindications to PEG placement",
+      "Cirrhosis mandates a jejunal rather than gastric route",
+      "Enteral nutrition is contraindicated in cirrhosis due to encephalopathy risk",
+      "Protein must be restricted, so parenteral nutrition is preferred"
+    ],
+    "correctIndex": 0,
+    "explanation": "Large-volume ascites and significant coagulopathy are recognized relative contraindications to percutaneous endoscopic gastrostomy, because ascitic fluid separates the stomach from the abdominal wall and impairs tract maturation, raising the risk of leakage, peritonitis and bleeding. A nasoenteric tube is generally preferred until ascites is controlled. Cirrhosis alone does not require jejunal access. Enteral nutrition is not contraindicated in cirrhosis; it is the preferred route and does not precipitate encephalopathy. Protein restriction is outdated practice, since these patients need 1.2 to 1.5 g/kg to limit catabolism.",
+    "tags": [
+      "enteral",
+      "access",
+      "cirrhosis",
+      "ascites"
+    ]
+  },
+  {
+    "id": "m2-gf-ena-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "medium",
+    "text": "A patient with a new percutaneous endoscopic gastrostomy tube placed four hours ago is on the unit. Nursing asks when feeding may begin. What is the most appropriate response based on current evidence?",
+    "options": [
+      "Wait 24 hours to allow the tract to mature",
+      "Feeding may begin within 4 hours of placement",
+      "Wait 72 hours and confirm placement radiographically first",
+      "Feeding may begin only after the first tube change"
+    ],
+    "correctIndex": 1,
+    "explanation": "Current evidence supports initiating feeding within about 4 hours of uncomplicated PEG placement. Multiple trials show no increase in complications compared with delayed starts, and earlier feeding shortens time to nutritional goal. The traditional 24-hour wait was based on the assumption that the tract needs time to mature before any use, which trials did not support. A 72-hour delay with routine radiographic confirmation is unnecessary after an uncomplicated endoscopic placement and causes avoidable nutrient deficit. The first tube change occurs weeks later and is unrelated to when feeding may start.",
+    "tags": [
+      "enteral",
+      "access",
+      "PEG",
+      "initiation"
+    ]
+  },
+  {
+    "id": "m2-gf-ena-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "medium",
+    "text": "A home enteral nutrition patient with a low-profile gastrostomy button reports that the device fell out about two hours ago and the site is closing. What is the most appropriate immediate guidance?",
+    "options": [
+      "Apply a dressing and wait for the scheduled clinic visit next week",
+      "Seek prompt replacement, since a mature stoma can begin closing within hours",
+      "Insert a straw to keep the tract open until the next appointment",
+      "Begin oral intake only; the tract will reopen on its own"
+    ],
+    "correctIndex": 1,
+    "explanation": "A mature gastrostomy tract can begin narrowing within a few hours and may close within 24 hours, so a dislodged tube is time-sensitive and needs prompt replacement, often with a temporary Foley catheter to preserve the tract until a proper device is placed. Waiting a week virtually guarantees the tract closes and a new procedure is required. Improvising with a straw or other non-medical object risks perforation, infection and migration. Relying on the tract to reopen spontaneously is not how stoma tracts behave, and the patient would lose enteral access entirely.",
+    "tags": [
+      "enteral",
+      "access",
+      "gastrostomy",
+      "home nutrition"
+    ]
+  },
+  {
+    "id": "m2-gf-ena-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "hard",
+    "text": "A patient in the surgical ICU has an open abdomen following damage-control laparotomy for trauma, with the small bowel in continuity and no anastomosis at risk. Which nutrition approach is most consistent with guideline recommendations?",
+    "options": [
+      "Withhold all nutrition until the abdomen is closed",
+      "Initiate early enteral nutrition despite the open abdomen",
+      "Start parenteral nutrition because the abdomen is open",
+      "Provide clear liquids orally only"
+    ],
+    "correctIndex": 1,
+    "explanation": "An open abdomen is not by itself a contraindication to enteral feeding. When bowel continuity is intact and there is no obstruction, ischemia or high-risk anastomosis, early enteral nutrition is recommended and is associated with earlier fascial closure, fewer infections and lower mortality. Withholding nutrition until closure can mean many days of deficit in a hypermetabolic trauma patient. Parenteral nutrition is reserved for when the gut cannot be used, and it carries infectious risk that matters greatly in this population. Clear liquids supply negligible protein and energy for a patient with markedly elevated needs.",
+    "tags": [
+      "enteral",
+      "access",
+      "critical care",
+      "open abdomen"
+    ]
+  },
+  {
+    "id": "m2-gf-ena-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "medium",
+    "text": "Which patient is the best candidate for a jejunostomy rather than a gastrostomy?",
+    "options": [
+      "A patient with dysphagia after stroke and normal gastric emptying",
+      "A patient with gastric outlet obstruction from a pancreatic head mass",
+      "A patient with dementia and poor oral intake",
+      "A patient with head and neck cancer receiving radiation, with an intact stomach"
+    ],
+    "correctIndex": 1,
+    "explanation": "A jejunostomy is indicated when the stomach must be bypassed, and gastric outlet obstruction from a pancreatic head mass is a classic example, since formula delivered into the stomach cannot pass the obstruction. Post-stroke dysphagia with normal gastric emptying is well served by gastric access, which is simpler and permits bolus feeding. Dementia with poor intake does not require jejunal access, and tube feeding in advanced dementia has its own separate goals-of-care considerations. A head and neck cancer patient with an intact, functioning stomach can be fed gastrically, which is the usual approach during radiation.",
+    "tags": [
+      "enteral",
+      "access",
+      "jejunostomy",
+      "obstruction"
+    ]
+  },
+  {
+    "id": "m2-gf-ena-09",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "medium",
+    "text": "A nasogastric tube was placed at the bedside for a confused patient. Which method should be used to confirm placement before the first feeding?",
+    "options": [
+      "Auscultation of insufflated air over the epigastrium",
+      "Radiographic confirmation",
+      "Aspiration of fluid and inspection of its color",
+      "Absence of coughing during insertion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Radiographic confirmation is the standard for verifying blindly placed nasoenteric tubes before first use, because a misplaced tube in the airway can be fatal when formula is instilled. Auscultation of insufflated air is unreliable, since transmitted sounds can be heard over the epigastrium even when the tube sits in the lung, and it has been formally abandoned as a verification method. Aspirate color and pH offer supporting information but are not sufficient alone, particularly in patients on acid suppression. Absence of coughing is especially misleading in obtunded or neurologically impaired patients whose protective reflexes are blunted.",
+    "tags": [
+      "enteral",
+      "access",
+      "tube placement",
+      "safety"
+    ]
+  },
+  {
+    "id": "m2-gf-ena-10",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Enteral Nutrition Access",
+    "difficulty": "hard",
+    "text": "A patient receiving cyclic nocturnal enteral feeding through a jejunostomy asks whether the feeding could be given as four large boluses during the day instead, to free up the night. What is the most appropriate response?",
+    "options": [
+      "Bolus feeding is acceptable if the volume is divided into six or more portions",
+      "Bolus feeding into the jejunum is not appropriate and would likely cause cramping, distension and diarrhea",
+      "Bolus feeding is preferred for all long-term tube-fed patients",
+      "Bolus feeding may be used only if the formula is diluted to half strength"
+    ],
+    "correctIndex": 1,
+    "explanation": "The jejunum lacks the reservoir function and regulated emptying of the stomach, so a rapidly delivered bolus arrives as an osmotic load and typically causes cramping, distension, dumping-type symptoms and diarrhea. Jejunal feeding requires continuous or slowly cycled pump-controlled infusion. Increasing the number of boluses does not solve the problem, because even smaller boluses exceed what the small bowel handles comfortably. Bolus feeding is a reasonable option for gastric access, not for all tube-fed patients. Diluting the formula reduces osmolality but also reduces nutrient delivery and does not make jejunal bolus feeding appropriate.",
+    "tags": [
+      "enteral",
+      "access",
+      "jejunal",
+      "delivery method"
+    ]
+  }
+]

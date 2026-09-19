@@ -1,0 +1,347 @@
+[
+  {
+    "id": "m2-gf-ms-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "hard",
+    "text": "A 48-year-old man has a waist circumference of 106 cm, triglycerides of 180 mg/dL, HDL cholesterol of 36 mg/dL, blood pressure of 128/82 mm Hg, and fasting glucose of 96 mg/dL. How many criteria for metabolic syndrome does he meet?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 1,
+    "explanation": "He meets three: waist circumference above 102 cm for men, triglycerides at or above 150 mg/dL, and HDL below 40 mg/dL for men. His blood pressure of 128/82 falls below the 130/85 threshold, and his fasting glucose of 96 is below the 100 mg/dL cutoff, so neither counts. Since diagnosis requires any three of the five criteria, he qualifies. Counting only two would miss one of the three abnormal values. Counting four or five would incorrectly include the blood pressure or glucose values that sit just under their thresholds, which is the most common error on this type of question.",
+    "tags": [
+      "metabolic syndrome",
+      "diagnostic criteria",
+      "ATP III"
+    ]
+  },
+  {
+    "id": "m2-gf-ms-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "medium",
+    "text": "Which waist circumference thresholds define abdominal obesity in the metabolic syndrome criteria commonly applied in the United States?",
+    "options": [
+      "Greater than 102 cm in men and greater than 88 cm in women",
+      "Greater than 88 cm in men and greater than 102 cm in women",
+      "Greater than 94 cm in men and greater than 80 cm in women",
+      "Greater than 120 cm in both men and women"
+    ],
+    "correctIndex": 0,
+    "explanation": "The thresholds are above 102 cm, roughly 40 inches, for men and above 88 cm, roughly 35 inches, for women, reflecting the greater cardiometabolic risk that visceral fat confers at lower absolute circumference in women. Reversing the two values is a frequent error. The 94 cm and 80 cm cutoffs come from International Diabetes Federation criteria used for European populations and other ethnic-specific thresholds, which are lower but are not the standard United States values. A single 120 cm threshold for both sexes appears in no diagnostic scheme and would miss most affected patients.",
+    "tags": [
+      "metabolic syndrome",
+      "waist circumference",
+      "abdominal obesity"
+    ]
+  },
+  {
+    "id": "m2-gf-ms-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "medium",
+    "text": "Which dietary pattern has the strongest evidence for improving multiple components of metabolic syndrome simultaneously?",
+    "options": [
+      "A very low-fat, high-refined-carbohydrate diet",
+      "A Mediterranean dietary pattern emphasizing olive oil, vegetables, legumes, fish and nuts",
+      "A diet eliminating all carbohydrate sources",
+      "A diet based primarily on fruit juice and low-fat snack foods"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mediterranean-style eating has the strongest and most consistent trial evidence for improving several metabolic syndrome components at once, lowering triglycerides, raising HDL, improving blood pressure and insulin sensitivity, and reducing waist circumference. A very low-fat, high-refined-carbohydrate diet tends to raise triglycerides and lower HDL, worsening two of the five criteria. Complete carbohydrate elimination is neither necessary nor sustainable and lacks long-term evidence for this cluster. Fruit juice and low-fat snack foods deliver concentrated refined carbohydrate, which drives triglycerides upward despite appearing low in fat.",
+    "tags": [
+      "metabolic syndrome",
+      "Mediterranean diet",
+      "dietary pattern"
+    ]
+  },
+  {
+    "id": "m2-gf-ms-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "hard",
+    "text": "Which mechanism best explains the dyslipidemia pattern characteristic of metabolic syndrome?",
+    "options": [
+      "Insulin resistance increases hepatic VLDL production, raising triglycerides and lowering HDL",
+      "Excess dietary cholesterol directly lowers HDL",
+      "Impaired bile acid synthesis raises LDL exclusively",
+      "Reduced intestinal fat absorption raises triglycerides"
+    ],
+    "correctIndex": 0,
+    "explanation": "Insulin resistance increases free fatty acid flux from adipose tissue to the liver and drives hepatic overproduction of very low density lipoprotein. The resulting triglyceride-rich particles exchange triglyceride for cholesteryl ester with HDL and LDL through cholesteryl ester transfer protein, which accelerates HDL catabolism and produces small dense LDL. That is the classic atherogenic triad. Dietary cholesterol has a modest effect on serum lipids and does not explain this pattern. Impaired bile acid synthesis is not a feature of the syndrome. Reduced fat absorption would lower, not raise, circulating triglycerides.",
+    "tags": [
+      "metabolic syndrome",
+      "dyslipidemia",
+      "insulin resistance",
+      "VLDL"
+    ]
+  },
+  {
+    "id": "m2-gf-ms-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "medium",
+    "text": "What magnitude of weight loss is generally sufficient to produce clinically meaningful improvement in metabolic syndrome components?",
+    "options": [
+      "5 to 10% of body weight",
+      "At least 30% of body weight",
+      "Exactly 2% of body weight",
+      "Weight loss does not affect metabolic syndrome"
+    ],
+    "correctIndex": 0,
+    "explanation": "A loss of 5 to 10% of initial body weight consistently improves insulin sensitivity, blood pressure, triglycerides and glycemia, and is the target used in major lifestyle intervention trials. Framing the goal this way also makes it attainable, which matters for adherence. Requiring 30% loss sets an unrealistic bar achievable mainly through surgery and would discourage patients who would benefit from far less. A 2% loss is generally below the threshold for meaningful metabolic change. The claim that weight loss has no effect contradicts the central evidence base for managing this condition.",
+    "tags": [
+      "metabolic syndrome",
+      "weight loss",
+      "lifestyle intervention"
+    ]
+  },
+  {
+    "id": "m2-gf-ms-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "hard",
+    "text": "Which fasting glucose value represents the threshold criterion for metabolic syndrome, and what does it signify?",
+    "options": [
+      "126 mg/dL, the diagnostic threshold for diabetes",
+      "100 mg/dL, indicating impaired fasting glucose",
+      "140 mg/dL, the postprandial threshold",
+      "70 mg/dL, the lower limit of normal"
+    ],
+    "correctIndex": 1,
+    "explanation": "The metabolic syndrome criterion is a fasting glucose at or above 100 mg/dL, which marks impaired fasting glucose and signals early insulin resistance well before overt diabetes. Using this lower threshold is what allows the syndrome to identify risk early. The 126 mg/dL value is the diagnostic cutoff for diabetes itself and would miss patients in the prediabetic range that the criterion is designed to capture. The 140 mg/dL value refers to the two-hour postprandial threshold for impaired glucose tolerance, not fasting glucose. A value of 70 mg/dL is the lower end of normal and has no role as an upper criterion.",
+    "tags": [
+      "metabolic syndrome",
+      "impaired fasting glucose",
+      "criteria"
+    ]
+  },
+  {
+    "id": "m2-gf-ms-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "medium",
+    "text": "A patient with metabolic syndrome asks about physical activity. Which recommendation is most appropriate?",
+    "options": [
+      "Avoid exercise until weight is normalized",
+      "At least 150 minutes per week of moderate-intensity aerobic activity plus resistance training",
+      "Resistance training only, since aerobic exercise raises blood pressure",
+      "Exercise has no effect independent of weight loss"
+    ],
+    "correctIndex": 1,
+    "explanation": "Guidelines recommend at least 150 minutes weekly of moderate-intensity aerobic activity with resistance training on two or more days. Importantly, exercise improves insulin sensitivity, blood pressure and lipids even when weight does not change, because skeletal muscle glucose uptake increases through insulin-independent pathways. Waiting until weight normalizes delays a therapy that works immediately and independently. Restricting to resistance training alone forgoes aerobic cardiovascular benefit, and the premise that aerobic exercise raises blood pressure is wrong, since regular aerobic activity lowers it. Denying an independent effect ignores substantial trial evidence.",
+    "tags": [
+      "metabolic syndrome",
+      "physical activity",
+      "insulin sensitivity"
+    ]
+  },
+  {
+    "id": "m2-gf-ms-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Metabolic Syndrome",
+    "difficulty": "hard",
+    "text": "Which intake change most directly targets the elevated triglycerides seen in metabolic syndrome?",
+    "options": [
+      "Reducing added sugars and refined carbohydrate, and limiting alcohol",
+      "Increasing dietary cholesterol from eggs",
+      "Increasing sodium to improve palatability of healthy foods",
+      "Eliminating all dietary fat"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hepatic de novo lipogenesis from excess fructose and refined carbohydrate is a principal driver of hypertriglyceridemia, and alcohol independently stimulates triglyceride synthesis while inhibiting fatty acid oxidation. Reducing both produces the most direct and rapid triglyceride response, often within weeks. Dietary cholesterol has little effect on triglycerides. Increasing sodium raises blood pressure, worsening another criterion, and does nothing for lipids. Eliminating all dietary fat paradoxically raises triglycerides, because calories shift toward carbohydrate and drive the same lipogenic pathway; replacing saturated fat with unsaturated fat is the better strategy.",
+    "tags": [
+      "metabolic syndrome",
+      "triglycerides",
+      "added sugar",
+      "alcohol"
+    ]
+  },
+  {
+    "id": "m2-gf-gout-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "hard",
+    "text": "A patient with recurrent gout asks which foods to limit. Which group carries the strongest association with elevated serum urate and gout attacks?",
+    "options": [
+      "Purine-rich vegetables such as spinach, asparagus and cauliflower",
+      "Organ meats, red meat, and certain seafood such as anchovies, sardines and shellfish",
+      "Whole grains and legumes",
+      "Low-fat dairy products"
+    ],
+    "correctIndex": 1,
+    "explanation": "Animal-source purines from organ meats, red meat and certain seafood raise serum urate and are consistently associated with gout attacks. This is a key distinction, because purine-rich VEGETABLES such as spinach, asparagus, mushrooms and cauliflower have NOT been shown to increase gout risk in prospective studies and need not be restricted, despite appearing on outdated food lists. Whole grains and legumes are likewise not associated with increased risk. Low-fat dairy is actually protective and is encouraged, since dairy proteins promote uric acid excretion.",
+    "tags": [
+      "gout",
+      "purines",
+      "uric acid",
+      "dietary management"
+    ]
+  },
+  {
+    "id": "m2-gf-gout-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "medium",
+    "text": "Which beverage most strongly increases the risk of gout attacks?",
+    "options": [
+      "Coffee",
+      "Beer",
+      "Green tea",
+      "Water"
+    ],
+    "correctIndex": 1,
+    "explanation": "Beer carries the highest gout risk among alcoholic beverages, because it combines ethanol, which increases urate production and reduces renal excretion through lactate competition, with a substantial purine load from brewer's yeast, principally guanosine. Spirits also raise risk, while wine is more weakly associated. Coffee intake is inversely associated with gout risk in cohort studies and is not restricted. Green tea has no established adverse association. Water is encouraged, since generous fluid intake promotes urate excretion and reduces the risk of urate nephrolithiasis.",
+    "tags": [
+      "gout",
+      "alcohol",
+      "beer",
+      "uric acid"
+    ]
+  },
+  {
+    "id": "m2-gf-gout-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "hard",
+    "text": "Which sweetener component most directly raises serum uric acid?",
+    "options": [
+      "Fructose",
+      "Lactose",
+      "Sucralose",
+      "Maltodextrin"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fructose metabolism in the liver consumes adenosine triphosphate rapidly as fructose-1-phosphate accumulates, and the resulting ATP depletion drives adenine nucleotide degradation to uric acid. This is why sugar-sweetened beverages and high-fructose corn syrup are independently associated with gout incidence, and reducing them is a core dietary recommendation. Lactose does not share this metabolic pathway, and dairy intake is protective. Sucralose is a non-nutritive sweetener that is not metabolized this way. Maltodextrin is a glucose polymer and does not produce the purine degradation cascade that fructose does.",
+    "tags": [
+      "gout",
+      "fructose",
+      "uric acid",
+      "sugar-sweetened beverages"
+    ]
+  },
+  {
+    "id": "m2-gf-gout-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "medium",
+    "text": "What is the generally accepted serum urate target for a patient with recurrent gout on urate-lowering therapy?",
+    "options": [
+      "Below 6 mg/dL",
+      "Below 10 mg/dL",
+      "Below 2 mg/dL",
+      "No specific target is used"
+    ],
+    "correctIndex": 0,
+    "explanation": "The accepted treat-to-target goal is a serum urate below 6 mg/dL, and below 5 mg/dL for patients with tophi or severe disease. This threshold sits beneath the saturation point of monosodium urate, which is roughly 6.8 mg/dL, so maintaining levels below it permits existing crystal deposits to dissolve. A target of 10 mg/dL is well above saturation and would allow continued crystal formation. Driving urate below 2 mg/dL is not a therapeutic goal and raises concerns given the antioxidant role of urate. Gout management is explicitly treat-to-target, so having no goal contradicts standard practice.",
+    "tags": [
+      "gout",
+      "serum urate",
+      "treatment target"
+    ]
+  },
+  {
+    "id": "m2-gf-gout-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "hard",
+    "text": "A patient with gout and obesity asks about rapid weight loss through a very low calorie ketogenic approach. What is the most appropriate counseling?",
+    "options": [
+      "Rapid weight loss and ketosis can precipitate an acute attack; gradual loss is preferred",
+      "Rapid weight loss reliably prevents attacks and should be encouraged",
+      "Weight has no relationship to gout",
+      "Fasting is the preferred treatment for acute gout"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ketone bodies compete with urate for renal tubular secretion, so ketosis from fasting or very low calorie dieting acutely raises serum urate and can trigger an attack, even though sustained weight loss lowers urate over time. Gradual, moderate weight reduction is therefore advised, and urate-lowering therapy should not be interrupted during weight loss. Claiming rapid loss reliably prevents attacks inverts the acute risk. Obesity is a well-established risk factor, so denying the relationship is wrong. Fasting is specifically contraindicated during an acute attack for the same ketosis-related mechanism.",
+    "tags": [
+      "gout",
+      "weight loss",
+      "ketosis",
+      "counseling"
+    ]
+  },
+  {
+    "id": "m2-gf-gout-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "medium",
+    "text": "Which dietary component is associated with a reduced risk of gout and may be encouraged?",
+    "options": [
+      "Low-fat dairy products",
+      "Organ meats",
+      "Shellfish",
+      "Sugar-sweetened soft drinks"
+    ],
+    "correctIndex": 0,
+    "explanation": "Low-fat dairy intake is inversely associated with gout risk in prospective cohorts. Milk proteins, particularly casein and lactalbumin, have a uricosuric effect that promotes renal uric acid excretion, and low-fat forms avoid adding saturated fat. Cherries and coffee are similarly associated with reduced risk. Organ meats carry the highest purine density of any food group and are specifically restricted. Shellfish such as mussels, scallops and shrimp raise urate and are limited. Sugar-sweetened soft drinks raise urate through fructose-driven purine degradation and are among the strongest dietary risk factors.",
+    "tags": [
+      "gout",
+      "dairy",
+      "protective factors",
+      "uric acid"
+    ]
+  },
+  {
+    "id": "m2-gf-gout-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "hard",
+    "text": "Which medication class commonly used for hypertension can raise serum uric acid and precipitate gout?",
+    "options": [
+      "Thiazide and loop diuretics",
+      "Calcium channel blockers",
+      "Angiotensin receptor blockers such as losartan",
+      "Statins"
+    ],
+    "correctIndex": 0,
+    "explanation": "Thiazide and loop diuretics reduce renal uric acid excretion, partly through volume contraction that enhances proximal tubular reabsorption, and they are a well-recognized precipitant of gout in hypertensive patients. Recognizing this often prompts a change in antihypertensive strategy. Calcium channel blockers are associated with slightly LOWER gout risk. Losartan is notable for a mild uricosuric effect and is often preferred in patients with both hypertension and gout, so it is the opposite of a precipitant. Statins do not raise urate and may have a modest lowering effect.",
+    "tags": [
+      "gout",
+      "diuretics",
+      "drug-induced",
+      "hypertension"
+    ]
+  },
+  {
+    "id": "m2-gf-gout-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Gout",
+    "difficulty": "medium",
+    "text": "A patient in the middle of an acute gout flare asks whether he should start a strict low-purine diet immediately. What is the most appropriate response?",
+    "options": [
+      "Begin severe purine restriction immediately to shorten the attack",
+      "Focus on treating the acute attack and maintaining hydration; dietary change is a long-term strategy, not acute therapy",
+      "Fast completely until the attack resolves",
+      "Stop all fluids to reduce joint swelling"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dietary modification lowers serum urate modestly over time and is a maintenance strategy; it does not abort an acute flare, which is treated pharmacologically with anti-inflammatory therapy. Generous hydration is appropriate throughout. Beginning severe restriction mid-attack offers no acute benefit and may distract from effective treatment. Complete fasting is actively harmful, since the resulting ketosis competes with urate for renal secretion and can worsen the attack. Restricting fluids is the opposite of correct advice, because adequate hydration supports urate excretion and reduces stone risk.",
+    "tags": [
+      "gout",
+      "acute flare",
+      "hydration",
+      "patient counseling"
+    ]
+  }
+]

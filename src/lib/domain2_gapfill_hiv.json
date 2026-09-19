@@ -1,0 +1,178 @@
+[
+  {
+    "id": "m2-gf-hiv-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "medium",
+    "text": "A patient with HIV on antiretroviral therapy develops central fat accumulation with peripheral fat loss, elevated triglycerides and insulin resistance. What is this syndrome called?",
+    "options": [
+      "HIV wasting syndrome",
+      "Lipodystrophy syndrome",
+      "Refeeding syndrome",
+      "Nephrotic syndrome"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lipodystrophy syndrome describes the redistribution of body fat seen with HIV and certain antiretroviral agents, combining central and visceral accumulation with peripheral subcutaneous loss in the face, limbs and buttocks, alongside dyslipidemia and insulin resistance. Management emphasizes cardiovascular risk reduction, exercise and sometimes regimen modification. HIV wasting syndrome is defined by involuntary loss of more than 10% of body weight with fever or diarrhea, a fundamentally different picture of generalized depletion. Refeeding syndrome involves acute electrolyte shifts after nutrition is reintroduced. Nephrotic syndrome causes edema and proteinuria, not this fat redistribution pattern.",
+    "tags": [
+      "HIV",
+      "lipodystrophy",
+      "antiretroviral",
+      "metabolic"
+    ]
+  },
+  {
+    "id": "m2-gf-hiv-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "hard",
+    "text": "According to World Health Organization guidance, how do energy requirements change for an adult with symptomatic HIV infection?",
+    "options": [
+      "No change from healthy adult requirements",
+      "Increased by approximately 20 to 30% above normal requirements",
+      "Decreased by 15% due to reduced activity",
+      "Increased by 100%"
+    ],
+    "correctIndex": 1,
+    "explanation": "The World Health Organization estimates that energy requirements rise roughly 10% above normal in asymptomatic HIV infection and about 20 to 30% during symptomatic disease, reflecting the metabolic cost of chronic immune activation, opportunistic infection and fever. Assuming no change would systematically underfeed symptomatic patients and contribute to wasting. Reducing intake by 15% for lower activity ignores the dominant hypermetabolic and inflammatory drivers. A 100% increase far exceeds any evidence-based estimate and would risk overfeeding with hyperglycemia and hepatic complications.",
+    "tags": [
+      "HIV",
+      "energy needs",
+      "WHO",
+      "wasting"
+    ]
+  },
+  {
+    "id": "m2-gf-hiv-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "medium",
+    "text": "Which food safety guidance is most important for a patient with advanced HIV and a CD4 count below 200 cells/mm3?",
+    "options": [
+      "Avoid unpasteurized dairy, raw or undercooked eggs, meat, and seafood, and untreated water",
+      "Avoid all raw fruits and vegetables permanently",
+      "Consume only canned foods",
+      "Avoid all dietary fiber"
+    ],
+    "correctIndex": 0,
+    "explanation": "Severe immunosuppression raises the risk and severity of foodborne infection, so guidance centers on avoiding high-risk items: unpasteurized dairy and juice, raw or undercooked eggs, meat, poultry and seafood, raw sprouts, and untreated water. Careful handwashing, safe temperatures and prompt refrigeration matter as well. Blanket avoidance of all raw produce is excessive; thorough washing makes most fruits and vegetables safe and they supply important nutrients. Limiting the diet to canned foods is unnecessarily restrictive and nutritionally poor. Fiber has no bearing on foodborne infection risk and supports gastrointestinal health.",
+    "tags": [
+      "HIV",
+      "food safety",
+      "immunocompromised",
+      "CD4"
+    ]
+  },
+  {
+    "id": "m2-gf-hiv-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "hard",
+    "text": "A patient with HIV presents with involuntary loss of 12% of body weight over two months, chronic diarrhea and fever. Which diagnosis best fits?",
+    "options": [
+      "Lipodystrophy syndrome",
+      "HIV wasting syndrome",
+      "Metabolic syndrome",
+      "Immune reconstitution inflammatory syndrome"
+    ],
+    "correctIndex": 1,
+    "explanation": "HIV wasting syndrome is defined as involuntary weight loss exceeding 10% of baseline accompanied by chronic diarrhea lasting more than 30 days, or by chronic weakness and documented fever, in the absence of another explanation. This patient's 12% loss with diarrhea and fever fits directly, and it remains an AIDS-defining condition. Lipodystrophy involves fat redistribution without this degree of net loss and without fever and diarrhea. Metabolic syndrome is a cluster of central adiposity, dyslipidemia, hypertension and hyperglycemia, essentially the opposite presentation. Immune reconstitution inflammatory syndrome is a paradoxical inflammatory worsening after starting therapy, not a wasting definition.",
+    "tags": [
+      "HIV",
+      "wasting syndrome",
+      "diagnosis",
+      "weight loss"
+    ]
+  },
+  {
+    "id": "m2-gf-hiv-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "medium",
+    "text": "Which protein recommendation is generally appropriate for an adult with HIV and stable weight without wasting?",
+    "options": [
+      "0.6 g/kg per day",
+      "1.0 to 1.4 g/kg per day",
+      "3.0 g/kg per day",
+      "No protein recommendation differs from the general population"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adults living with HIV generally benefit from protein in the range of about 1.0 to 1.4 g/kg per day to preserve lean body mass under chronic immune activation, with higher intakes considered during active wasting or opportunistic infection. A 0.6 g/kg intake is a restricted level that would promote lean tissue loss. A 3.0 g/kg intake far exceeds any recommendation, is unnecessary, and burdens the kidneys. Saying requirements are identical to the general population overlooks the chronic inflammatory state and the elevated risk of lean mass depletion that characterize the condition.",
+    "tags": [
+      "HIV",
+      "protein",
+      "lean body mass",
+      "requirements"
+    ]
+  },
+  {
+    "id": "m2-gf-hiv-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "hard",
+    "text": "A patient on antiretroviral therapy reports taking St. John's wort for mood. What is the most appropriate response?",
+    "options": [
+      "It is a safe complementary therapy with no interactions",
+      "It induces cytochrome P450 enzymes and can reduce antiretroviral drug levels, risking treatment failure",
+      "It should be taken with food to improve absorption",
+      "It enhances antiretroviral effectiveness"
+    ],
+    "correctIndex": 1,
+    "explanation": "St. John's wort is a potent inducer of cytochrome P450 3A4 and P-glycoprotein, and it markedly lowers plasma concentrations of protease inhibitors and non-nucleoside reverse transcriptase inhibitors. The result can be virologic failure and the emergence of resistance, so it is contraindicated with these regimens and the patient needs prompt counseling and a safer approach to mood management. Describing it as free of interactions is dangerously wrong. Advice about taking it with food is irrelevant to the interaction. It reduces rather than enhances antiretroviral effectiveness.",
+    "tags": [
+      "HIV",
+      "drug-nutrient interaction",
+      "St. John's wort",
+      "antiretroviral"
+    ]
+  },
+  {
+    "id": "m2-gf-hiv-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "medium",
+    "text": "A patient with HIV has chronic diarrhea and documented lactose intolerance. Which intervention is most appropriate?",
+    "options": [
+      "Eliminate all dairy products permanently",
+      "Use lactose-reduced dairy or lactase enzyme and maintain calcium and vitamin D intake",
+      "Increase intake of high-fat dairy",
+      "Restrict all fluids to reduce stool output"
+    ],
+    "correctIndex": 1,
+    "explanation": "Secondary lactase deficiency is common with HIV enteropathy and mucosal injury. Using lactose-reduced dairy products or a lactase enzyme supplement allows continued intake of calcium and vitamin D, which matters given the elevated risk of low bone density in this population. Permanently eliminating all dairy is unnecessarily restrictive and jeopardizes bone health unless calcium and vitamin D are deliberately replaced. Increasing high-fat dairy would worsen diarrhea if fat malabsorption coexists and does not address the lactose. Restricting fluids in a patient with chronic diarrhea invites dehydration and acute kidney injury.",
+    "tags": [
+      "HIV",
+      "lactose intolerance",
+      "diarrhea",
+      "calcium"
+    ]
+  },
+  {
+    "id": "m2-gf-hiv-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "HIV/AIDS",
+    "difficulty": "hard",
+    "text": "Which cardiovascular consideration is most relevant when counseling a patient on long-term antiretroviral therapy?",
+    "options": [
+      "Antiretroviral therapy eliminates cardiovascular risk",
+      "Certain regimens are associated with dyslipidemia and insulin resistance, warranting lipid monitoring and cardioprotective dietary counseling",
+      "Cholesterol screening is unnecessary before age 60",
+      "Dietary fat should be eliminated entirely"
+    ],
+    "correctIndex": 1,
+    "explanation": "Several antiretroviral agents, particularly some protease inhibitors, are associated with elevated triglycerides and LDL cholesterol along with insulin resistance, and chronic HIV-related inflammation independently raises cardiovascular risk. Routine lipid and glucose monitoring plus cardioprotective dietary counseling emphasizing unsaturated fats, fiber and limited refined carbohydrate is therefore standard. Antiretroviral therapy does not eliminate cardiovascular risk; it changes the risk profile. Deferring cholesterol screening to age 60 ignores accelerated risk in this population. Eliminating dietary fat entirely is neither feasible nor advisable, since essential fatty acids and fat-soluble vitamin absorption depend on it.",
+    "tags": [
+      "HIV",
+      "cardiovascular",
+      "dyslipidemia",
+      "antiretroviral"
+    ]
+  }
+]

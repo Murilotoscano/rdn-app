@@ -1,0 +1,222 @@
+[
+  {
+    "id": "m2-gf-cnis-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "medium",
+    "text": "A patient receiving head and neck radiation develops painful oral mucositis. Which dietary modification is most appropriate?",
+    "options": [
+      "Soft, moist, bland foods at room temperature, avoiding acidic, spicy and rough-textured items",
+      "Crisp raw vegetables and citrus juices to stimulate appetite",
+      "Very hot soups to soothe the tissue",
+      "Alcohol-based mouth rinses before meals"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mucositis produces painful ulceration, so the goal is minimizing mechanical, chemical and thermal irritation while maintaining intake. Soft, moist, bland foods at room or cool temperature meet that goal. Crisp raw vegetables abrade ulcerated mucosa and citrus is acidic, so both increase pain and reduce intake. Very hot foods aggravate inflamed tissue rather than soothing it, and cool or room temperature is better tolerated. Alcohol-based rinses are drying and irritating to ulcerated mucosa; bland rinses such as salt and baking soda solutions are recommended instead.",
+    "tags": [
+      "cancer",
+      "mucositis",
+      "radiation",
+      "symptom management"
+    ]
+  },
+  {
+    "id": "m2-gf-cnis-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "medium",
+    "text": "A patient on chemotherapy reports that meat tastes metallic and unpleasant. Which strategy is most appropriate?",
+    "options": [
+      "Use plastic utensils and offer alternative protein sources such as eggs, dairy, legumes and poultry",
+      "Increase red meat portions to overcome the taste change",
+      "Eliminate all protein foods until taste returns",
+      "Add large amounts of salt to every dish"
+    ],
+    "correctIndex": 0,
+    "explanation": "Metallic dysgeusia is common with chemotherapy, and practical strategies include plastic rather than metal utensils, marinating meats, serving foods cold or at room temperature, and substituting other protein sources that are better tolerated. Preserving protein intake is the priority. Increasing red meat portions works against the aversion and typically reduces total intake. Eliminating all protein foods risks lean mass loss precisely when protein needs are elevated. Heavy salting does not correct metallic taste, may be contraindicated with certain regimens, and can worsen mucosal irritation if mucositis is also present.",
+    "tags": [
+      "cancer",
+      "dysgeusia",
+      "taste changes",
+      "chemotherapy"
+    ]
+  },
+  {
+    "id": "m2-gf-cnis-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "hard",
+    "text": "Which statement best describes current evidence on the neutropenic diet for patients with cancer-related neutropenia?",
+    "options": [
+      "Strict neutropenic diets have not been shown to reduce infection and standard food safety practices are recommended instead",
+      "Strict neutropenic diets reduce infection rates substantially and are mandatory",
+      "All fruits and vegetables must be permanently avoided",
+      "Only canned and shelf-stable foods should be consumed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Randomized trials and systematic reviews have not demonstrated that restrictive neutropenic diets reduce infection compared with safe food handling practices, and the restrictions themselves can worsen intake and quality of life in patients already struggling to eat. Current guidance emphasizes standard food safety: thorough washing, safe temperatures, avoiding unpasteurized products and undercooked animal foods. Calling such diets mandatory overstates evidence that does not exist. Permanently avoiding all fruits and vegetables removes important nutrients without demonstrated benefit. Restricting intake to canned and shelf-stable foods is unnecessarily austere and nutritionally poor.",
+    "tags": [
+      "cancer",
+      "neutropenia",
+      "food safety",
+      "evidence-based"
+    ]
+  },
+  {
+    "id": "m2-gf-cnis-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "hard",
+    "text": "A patient with advanced pancreatic cancer has lost 15% of body weight despite adequate oral intake, with muscle wasting and elevated inflammatory markers. What does this most likely represent?",
+    "options": [
+      "Simple starvation, correctable with increased calories",
+      "Cancer cachexia, which is not fully reversible by nutrition support alone",
+      "Refeeding syndrome",
+      "Dehydration"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cancer cachexia is a multifactorial syndrome of ongoing muscle loss driven by tumor-related inflammatory cytokines and altered metabolism, and by definition it cannot be fully reversed by conventional nutrition support alone. Care combines nutrition, symptom management, physical activity and attention to the underlying disease, with realistic goal setting. Simple starvation responds predictably to added calories, which is precisely what is not happening here. Refeeding syndrome is an acute electrolyte complication of reintroducing nutrition, not a wasting syndrome. Dehydration causes acute weight change without the muscle wasting and inflammatory profile described.",
+    "tags": [
+      "cancer",
+      "cachexia",
+      "weight loss",
+      "inflammation"
+    ]
+  },
+  {
+    "id": "m2-gf-cnis-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "medium",
+    "text": "A patient with xerostomia after radiation struggles to swallow dry foods. Which recommendation is most appropriate?",
+    "options": [
+      "Moisten foods with sauces, gravies and broths, sip fluids with meals and consider saliva substitutes",
+      "Serve dry crackers and toast to absorb residual saliva",
+      "Avoid all fluids during meals",
+      "Recommend strongly flavored acidic candies throughout the day"
+    ],
+    "correctIndex": 0,
+    "explanation": "Xerostomia from salivary gland damage makes dry foods difficult to form into a bolus and swallow. Adding moisture with sauces, gravies and broths, sipping fluids with meals, and using saliva substitutes or sugar-free gum to stimulate residual flow are the standard measures. Dry crackers and toast are among the hardest textures to manage without saliva. Avoiding fluids at meals removes the most useful compensation available. Acidic candies can stimulate some flow but promote dental caries and irritate mucosa that is often concurrently damaged, so sugar-free options are preferred and acidic ones are not the first recommendation.",
+    "tags": [
+      "cancer",
+      "xerostomia",
+      "radiation",
+      "symptom management"
+    ]
+  },
+  {
+    "id": "m2-gf-cnis-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "medium",
+    "text": "Which approach best addresses early satiety and anorexia in a patient undergoing cancer treatment?",
+    "options": [
+      "Small, frequent, calorie- and protein-dense meals and snacks eaten on a schedule rather than by appetite",
+      "Three large meals to consolidate intake",
+      "Waiting until the patient reports hunger before offering food",
+      "Restricting fat to reduce the feeling of fullness"
+    ],
+    "correctIndex": 0,
+    "explanation": "When appetite signaling is blunted, eating by the clock rather than by hunger, with small frequent nutrient-dense portions, reliably increases total intake. Fortifying foods and using oral nutrition supplements between meals extends the strategy. Three large meals overwhelm a patient with early satiety and usually reduce total intake. Waiting for reported hunger means waiting for a cue that treatment has suppressed, so intake falls. Restricting fat removes the most calorie-dense macronutrient available, which works directly against energy density when volume tolerance is the limiting factor.",
+    "tags": [
+      "cancer",
+      "early satiety",
+      "anorexia",
+      "energy density"
+    ]
+  },
+  {
+    "id": "m2-gf-cnis-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "hard",
+    "text": "A patient develops chemotherapy-induced nausea. Which combination of strategies is most appropriate?",
+    "options": [
+      "Cool or room-temperature bland foods, eating slowly, avoiding strong odors, and timing meals around treatment",
+      "Strongly aromatic hot foods served immediately before chemotherapy",
+      "Large fatty meals to coat the stomach",
+      "Complete fasting on treatment days"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nausea management combines cool or room-temperature bland foods, which release fewer aromas, with slow eating, avoidance of strong cooking odors, and scheduling intake when nausea is lowest, typically before or well after the treatment window. Antiemetics should be used proactively. Strongly aromatic hot foods just before treatment maximize odor-triggered nausea and risk creating a lasting food aversion. Large fatty meals delay gastric emptying and worsen nausea. Complete fasting on treatment days deepens the nutritional deficit in a patient whose intake is already compromised.",
+    "tags": [
+      "cancer",
+      "nausea",
+      "chemotherapy",
+      "symptom management"
+    ]
+  },
+  {
+    "id": "m2-gf-cnis-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "medium",
+    "text": "Which protein recommendation is generally appropriate for an adult with cancer and ongoing weight loss?",
+    "options": [
+      "1.0 to 1.5 g/kg per day, with the higher end for those with significant muscle loss",
+      "0.6 g/kg per day to reduce tumor growth",
+      "0.8 g/kg per day, the RDA for healthy adults",
+      "3.0 g/kg per day"
+    ],
+    "correctIndex": 0,
+    "explanation": "Guidance for adults with cancer generally recommends at least 1.0 g/kg per day, moving toward 1.5 g/kg when muscle depletion, inflammation or treatment-related catabolism is present. Restricting protein to 0.6 g/kg in the belief that it slows tumor growth is not evidence-based and accelerates the lean mass loss that predicts poorer treatment tolerance and survival. The 0.8 g/kg RDA is calibrated to healthy adults and is inadequate in an inflammatory catabolic state. A 3.0 g/kg intake exceeds recommendations, is rarely achievable in this population, and adds fluid and urea burden without benefit.",
+    "tags": [
+      "cancer",
+      "protein",
+      "muscle loss",
+      "requirements"
+    ]
+  },
+  {
+    "id": "m2-gf-cnis-09",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "hard",
+    "text": "A patient receiving pelvic radiation develops radiation enteritis with frequent watery diarrhea. Which dietary approach is most appropriate initially?",
+    "options": [
+      "Low fat and low insoluble fiber, with attention to lactose tolerance and fluid and electrolyte replacement",
+      "High insoluble fiber to add bulk",
+      "High fat intake to slow transit",
+      "Unrestricted diet with no modification"
+    ],
+    "correctIndex": 0,
+    "explanation": "Radiation injures the intestinal mucosa, causing transient fat malabsorption, reduced brush border lactase and accelerated transit. An initial approach of reduced fat and insoluble fiber, with assessment of lactose tolerance and vigilant fluid and electrolyte replacement, addresses each mechanism. Soluble fiber may be helpful. High insoluble fiber increases bulk and stimulates motility in an already irritated bowel. High fat intake worsens steatorrhea when lipase and absorptive capacity are impaired. Leaving the diet unmodified ignores a manageable symptom that drives dehydration and treatment interruption.",
+    "tags": [
+      "cancer",
+      "radiation enteritis",
+      "diarrhea",
+      "symptom management"
+    ]
+  },
+  {
+    "id": "m2-gf-cnis-10",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Cancer Nutrition Impact Symptoms",
+    "difficulty": "medium",
+    "text": "Which validated tool is commonly used to screen and assess nutritional status in patients with cancer?",
+    "options": [
+      "Patient-Generated Subjective Global Assessment",
+      "Braden Scale",
+      "Glasgow Coma Scale",
+      "Framingham Risk Score"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Patient-Generated Subjective Global Assessment was developed specifically for oncology populations, incorporating weight history, intake, nutrition impact symptoms, functional status and physical examination, and generating both a category and a numeric score that triages intervention. The Braden Scale assesses pressure injury risk. The Glasgow Coma Scale measures level of consciousness after neurologic injury. The Framingham Risk Score estimates ten-year cardiovascular risk. None of the last three assesses nutritional status, and only the PG-SGA captures the symptom burden that drives nutritional decline in cancer.",
+    "tags": [
+      "cancer",
+      "PG-SGA",
+      "nutrition screening",
+      "assessment"
+    ]
+  }
+]

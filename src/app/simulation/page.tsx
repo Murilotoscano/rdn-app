@@ -1,31 +1,15 @@
 import React, { Suspense } from 'react';
-import { getQuestions } from '@/lib/questions';
+import { getBlueprintExam } from '@/lib/questions';
 import ExamInterface from '@/components/Quiz/ExamInterface';
-import { Question } from '@/types';
 
-// Mock function to duplicate questions to reach target count
-function multiplyQuestions(questions: Question[], target: number): Question[] {
-    if (questions.length === 0) return [];
-
-    let result = [...questions];
-    while (result.length < target) {
-        // Clone and randomize ID to avoid key conflicts
-        const clone = questions.map(q => ({
-            ...q,
-            id: `${q.id}-${result.length}-${Math.random().toString(36).substr(2, 9)}`
-        }));
-        result = [...result, ...clone];
-    }
-    return result.slice(0, target);
-}
+// Without this the page is prerendered at build time, which would freeze one
+// draw of 145 questions and one option-shuffle seed into every visit.
+export const dynamic = 'force-dynamic';
 
 async function SimulationContent() {
-    // Get all database questions
-    const baseQuestions = await getQuestions(undefined, 145);
-
-    // Simulate 145 questions for the exam (multiply if needed)
-    // NOTE: In production, we would pick random ones. Here we just ensure we have 145.
-    const examQuestions = multiplyQuestions(baseQuestions, 145);
+    // Drawn to the CDR domain weights (21/45/21/13) rather than uniformly across the bank,
+    // which otherwise under-tests Domain II by ~15 questions and over-tests Domains I and III.
+    const examQuestions = await getBlueprintExam(145);
 
     return <ExamInterface questions={examQuestions} />;
 }

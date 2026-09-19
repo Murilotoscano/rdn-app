@@ -7,6 +7,7 @@ import { Book, Database, Activity, Layers, Award, FileText } from "lucide-react"
 import Link from "next/link";
 import { store } from "@/lib/store";
 import { CDR_QUESTIONS } from "@/data/cdrQuestions";
+import { SAMPLE_QUESTIONS } from "@/lib/questions";
 
 export default function ModulesPage() {
     const [progressMap, setProgressMap] = useState<Record<string, number>>({
@@ -25,16 +26,26 @@ export default function ModulesPage() {
         const customQuestions = store.getCustomQuestions();
         const customProgress = store.getCustomProgress();
 
-        // Standard domains: calculate percent based on some dummy totals (e.g. 100 questions per domain)
-        const domainCounts = { "1": 0, "2": 0, "3": 0, "4": 0 };
+        // The bank stores "Domain I".."Domain IV" with no period, so the previous
+        // includes("I.") test never matched and every bar sat at 0%.
+        const MODULE_BY_DOMAIN: Record<string, string> = {
+            "Domain I": "1",
+            "Domain II": "2",
+            "Domain III": "3",
+            "Domain IV": "4"
+        };
+        const domainMastered = { "1": 0, "2": 0, "3": 0, "4": 0 };
+        const domainLogged = { "1": 0, "2": 0, "3": 0, "4": 0 };
         errorLog.forEach(item => {
-            if (item.mastered) {
-                if (item.domain.includes("I.")) domainCounts["1"]++;
-                else if (item.domain.includes("II.")) domainCounts["2"]++;
-                else if (item.domain.includes("III.")) domainCounts["3"]++;
-                else if (item.domain.includes("IV.")) domainCounts["4"]++;
-            }
+            const key = MODULE_BY_DOMAIN[item.domain] as keyof typeof domainLogged | undefined;
+            if (!key) return;
+            domainLogged[key]++;
+            if (item.mastered) domainMastered[key]++;
         });
+
+        // Percent of the questions missed in this domain that have since been mastered.
+        const recovered = (k: keyof typeof domainLogged) =>
+            domainLogged[k] > 0 ? Math.round((domainMastered[k] / domainLogged[k]) * 100) : 0;
 
         // CDR Progress
         const cdrCorrect = Object.values(cdrProgress).filter(p => p.status === 'correct' || p.status === 'mastered').length;
@@ -46,21 +57,23 @@ export default function ModulesPage() {
         const customPercent = customTotal > 0 ? Math.round((customCorrect / customTotal) * 100) : 0;
 
         setProgressMap({
-            "1": Math.min(Math.round((domainCounts["1"] / 20) * 100), 100), // Assuming 20 key questions logged for mastery
-            "2": Math.min(Math.round((domainCounts["2"] / 20) * 100), 100),
-            "3": Math.min(Math.round((domainCounts["3"] / 20) * 100), 100),
-            "4": Math.min(Math.round((domainCounts["4"] / 20) * 100), 100),
+            "1": recovered("1"),
+            "2": recovered("2"),
+            "3": recovered("3"),
+            "4": recovered("4"),
             "cdr": cdrPercent,
             "pdf-gen": customPercent
         });
     }, []);
+
+    const bankCount = (domain: string) => SAMPLE_QUESTIONS.filter(q => q.domain === domain).length;
 
     const DOMAIN_MODULES = [
         {
             id: "1",
             title: "Domain I: Food and Nutrition Sciences",
             desc: "Food Science, Nutrition, management concepts, and education.",
-            questions: 100,
+            questions: bankCount("Domain I"),
             href: "/practice?mode=domain&id=1",
             icon: Book
         },
@@ -68,7 +81,7 @@ export default function ModulesPage() {
             id: "2",
             title: "Domain II: Nutrition Care",
             desc: "Screening, Assessment, Diagnosis, Intervention, Monitoring & Evaluation.",
-            questions: 100,
+            questions: bankCount("Domain II"),
             href: "/practice?mode=domain&id=2",
             icon: Activity
         },
@@ -76,7 +89,7 @@ export default function ModulesPage() {
             id: "3",
             title: "Domain III: Management",
             desc: "Functions of management, human resources, financial management.",
-            questions: 100,
+            questions: bankCount("Domain III"),
             href: "/practice?mode=domain&id=3",
             icon: Database
         },
@@ -84,7 +97,7 @@ export default function ModulesPage() {
             id: "4",
             title: "Domain IV: Foodservice Systems",
             desc: "Menu planning, procurement, production, distribution, safety.",
-            questions: 100,
+            questions: bankCount("Domain IV"),
             href: "/practice?mode=domain&id=4",
             icon: Layers
         }
@@ -104,8 +117,8 @@ export default function ModulesPage() {
                             <div className={styles.icon}>
                                 <m.icon size={24} />
                             </div>
-                            <div className={styles.status}>
-                                {progressMap[m.id]}% Mastered
+                            <div className={styles.status} title="Share of the questions you missed in this domain that you have since mastered">
+                                {progressMap[m.id]}% Recovered
                             </div>
                         </div>
                         <div>

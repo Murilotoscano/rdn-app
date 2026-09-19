@@ -1,0 +1,354 @@
+[
+  {
+    "id": "m2-gf-tbi-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "hard",
+    "text": "A 34-year-old man is admitted with a severe closed traumatic brain injury and a Glasgow Coma Scale score of 6. He is intubated and hemodynamically stable. When should nutrition support be initiated?",
+    "options": [
+      "Within 24 to 48 hours of injury",
+      "After 7 days, once intracranial pressure normalizes",
+      "Only after the patient is extubated",
+      "After the first week, to avoid worsening cerebral edema"
+    ],
+    "correctIndex": 0,
+    "explanation": "Guidelines recommend initiating enteral nutrition within 24 to 48 hours of severe traumatic brain injury in hemodynamically stable patients, because early feeding is associated with reduced infection, better functional outcomes and lower mortality. These patients are markedly hypermetabolic and hypercatabolic, so delay produces rapid lean mass loss. Waiting seven days for intracranial pressure to normalize forfeits that benefit during the period of greatest catabolism. Extubation is not a prerequisite, since enteral access is independent of the airway. Early enteral nutrition does not worsen cerebral edema, and withholding it is associated with worse outcomes.",
+    "tags": [
+      "TBI",
+      "early enteral nutrition",
+      "critical care",
+      "timing"
+    ]
+  },
+  {
+    "id": "m2-gf-tbi-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "hard",
+    "text": "Which protein recommendation is most appropriate for a patient with severe traumatic brain injury in the acute phase?",
+    "options": [
+      "0.8 g/kg per day",
+      "1.5 to 2.5 g/kg per day",
+      "0.6 g/kg per day to reduce ammonia production",
+      "3.5 g/kg per day"
+    ],
+    "correctIndex": 1,
+    "explanation": "Severe traumatic brain injury produces intense catabolism driven by catecholamine and cortisol surges, with urinary nitrogen losses that can be several times normal. Protein needs are correspondingly high, generally 1.5 to 2.5 g/kg per day, to blunt lean mass loss. The 0.8 g/kg RDA is far below what this catabolic state demands. Restricting to 0.6 g/kg to limit ammonia confuses traumatic brain injury with hepatic encephalopathy, where protein restriction is itself outdated practice. A 3.5 g/kg intake exceeds recommendations, does not further reduce catabolism, and increases urea load and fluid requirements.",
+    "tags": [
+      "TBI",
+      "protein",
+      "catabolism",
+      "critical care"
+    ]
+  },
+  {
+    "id": "m2-gf-tbi-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "hard",
+    "text": "A patient with severe traumatic brain injury is receiving high-dose barbiturate therapy for refractory intracranial hypertension. How does this affect energy requirements?",
+    "options": [
+      "Requirements increase by an additional 50%",
+      "Requirements are substantially reduced because barbiturates suppress metabolic rate",
+      "Requirements are unchanged",
+      "Requirements can no longer be estimated at all"
+    ],
+    "correctIndex": 1,
+    "explanation": "Barbiturate coma markedly suppresses cerebral and systemic metabolic rate, and measured energy expenditure can fall substantially below the hypermetabolic levels otherwise typical of traumatic brain injury. Feeding to standard injury-based estimates in this setting causes overfeeding, with hyperglycemia, hypercapnia and hepatic steatosis. Indirect calorimetry is especially valuable here. Assuming a further 50% increase compounds the error. Assuming no change ignores a well-documented pharmacologic effect. Requirements remain estimable, and indirect calorimetry measures them directly, so abandoning estimation is unnecessary.",
+    "tags": [
+      "TBI",
+      "barbiturates",
+      "energy expenditure",
+      "indirect calorimetry"
+    ]
+  },
+  {
+    "id": "m2-gf-tbi-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "medium",
+    "text": "Which method most accurately determines energy requirements in a patient with severe traumatic brain injury?",
+    "options": [
+      "Indirect calorimetry",
+      "The Harris-Benedict equation without a stress factor",
+      "A fixed 20 kcal/kg for all patients",
+      "Body mass index alone"
+    ],
+    "correctIndex": 0,
+    "explanation": "Indirect calorimetry measures energy expenditure directly from oxygen consumption and carbon dioxide production, and it is the preferred method in traumatic brain injury because expenditure varies enormously with injury severity, sedation, paralysis, fever and the phase of recovery. Predictive equations are poorly calibrated to this variability. Harris-Benedict without a stress factor would substantially underestimate an unsedated hypermetabolic patient. A fixed 20 kcal/kg ignores the wide range of actual needs and typically underfeeds. Body mass index describes body size and says nothing about metabolic rate.",
+    "tags": [
+      "TBI",
+      "indirect calorimetry",
+      "energy needs",
+      "assessment"
+    ]
+  },
+  {
+    "id": "m2-gf-tbi-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "medium",
+    "text": "A patient recovering from traumatic brain injury has emerged from coma but is agitated, impulsive and constantly moving. What is the most important nutrition implication?",
+    "options": [
+      "Energy needs fall sharply during agitation",
+      "Energy expenditure may be substantially increased by agitation and restlessness, raising requirements",
+      "Oral intake should be withheld during agitation",
+      "Protein needs return to the RDA immediately"
+    ],
+    "correctIndex": 1,
+    "explanation": "Post-traumatic agitation with continuous motor activity can raise energy expenditure well above resting values, and this phase often coincides with the transition to oral intake, when delivery is least reliable. Recognizing the increase prevents unintentional weight loss during rehabilitation. Energy needs rise rather than fall during agitation. Withholding oral intake is not appropriate simply because a patient is agitated; swallowing safety should be assessed and intake supported, with tube feeding maintained if oral intake is inadequate. Protein needs remain elevated through recovery and do not drop to the RDA on emergence from coma.",
+    "tags": [
+      "TBI",
+      "agitation",
+      "energy expenditure",
+      "rehabilitation"
+    ]
+  },
+  {
+    "id": "m2-gf-tbi-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "hard",
+    "text": "A patient with traumatic brain injury develops a serum sodium of 121 mEq/L with high urine output and clinical signs of volume depletion. Which condition is most likely?",
+    "options": [
+      "Cerebral salt wasting",
+      "Syndrome of inappropriate antidiuretic hormone secretion",
+      "Diabetes insipidus",
+      "Primary polydipsia"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cerebral salt wasting produces hyponatremia with a HIGH urine output and true volume depletion, and it is treated with salt and volume REPLACEMENT. The distinguishing feature from SIADH is volume status: SIADH causes hyponatremia in a euvolemic or mildly hypervolemic patient and is treated with fluid RESTRICTION, so confusing the two leads to exactly the wrong treatment. Diabetes insipidus causes HYPERnatremia with dilute polyuria from inadequate antidiuretic hormone. Primary polydipsia causes hyponatremia from excessive water intake in a patient who is not volume depleted.",
+    "tags": [
+      "TBI",
+      "cerebral salt wasting",
+      "hyponatremia",
+      "electrolytes"
+    ]
+  },
+  {
+    "id": "m2-gf-tbi-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "medium",
+    "text": "Why is hyperglycemia particularly concerning in a patient with acute traumatic brain injury?",
+    "options": [
+      "It is associated with worse neurologic outcomes and increased secondary brain injury",
+      "It has no effect on neurologic outcome",
+      "It improves cerebral perfusion",
+      "It reduces the risk of infection"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hyperglycemia after traumatic brain injury is associated with worse neurologic outcomes, thought to reflect increased anaerobic glycolysis and lactate accumulation in injured tissue, along with oxidative stress and exacerbation of secondary injury. Moderate glycemic control is therefore recommended, while avoiding hypoglycemia, which is itself damaging to the injured brain. Claiming no effect contradicts consistent observational data. Hyperglycemia does not improve cerebral perfusion. It increases rather than reduces infection risk, by impairing neutrophil function, which matters greatly in ventilated trauma patients.",
+    "tags": [
+      "TBI",
+      "hyperglycemia",
+      "glycemic control",
+      "secondary injury"
+    ]
+  },
+  {
+    "id": "m2-gf-tbi-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Traumatic Brain Injury",
+    "difficulty": "medium",
+    "text": "A patient with traumatic brain injury is transitioning from tube feeding to oral intake. Which assessment is most important before advancing the diet?",
+    "options": [
+      "Formal swallow evaluation for dysphagia and aspiration risk",
+      "Serum albumin measurement",
+      "Body mass index calculation",
+      "Twenty-four-hour urine creatinine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dysphagia is common after traumatic brain injury because of impaired cognition, reduced alertness, poor oral motor control and blunted protective reflexes, and silent aspiration is frequent. A formal swallow evaluation determines whether oral intake is safe and what texture and consistency are appropriate, making it the essential step before advancing the diet. Serum albumin reflects inflammation and fluid status rather than swallowing safety or nutritional status. Body mass index describes body size and does not address aspiration risk. Urine creatinine estimates muscle mass and has no bearing on the decision to advance a diet.",
+    "tags": [
+      "TBI",
+      "dysphagia",
+      "swallow evaluation",
+      "diet advancement"
+    ]
+  },
+  {
+    "id": "m2-gf-sci-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "hard",
+    "text": "A patient is six months post complete C6 tetraplegia. Standard predictive equations estimate his energy needs at 2,100 kcal per day. What is the most likely problem with this estimate?",
+    "options": [
+      "It is accurate and should be used as calculated",
+      "It substantially overestimates needs, since denervated muscle and reduced lean mass lower energy expenditure",
+      "It substantially underestimates needs due to chronic hypermetabolism",
+      "Predictive equations are unaffected by spinal cord injury"
+    ],
+    "correctIndex": 1,
+    "explanation": "After the acute phase, chronic spinal cord injury is characterized by loss of innervated muscle mass, reduced physical activity and lower resting energy expenditure, so standard predictive equations consistently OVERESTIMATE needs. Reported values are roughly 22.7 kcal/kg for tetraplegia and 27.9 kcal/kg for paraplegia, well below general population estimates, and feeding to uncorrected equations produces excessive weight and fat gain. Chronic hypermetabolism characterizes the acute injury phase, not the chronic phase. Claiming equations are unaffected ignores the fundamental change in body composition.",
+    "tags": [
+      "spinal cord injury",
+      "energy needs",
+      "predictive equations",
+      "tetraplegia"
+    ]
+  },
+  {
+    "id": "m2-gf-sci-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "medium",
+    "text": "Which approximate energy provision is commonly cited for a patient with chronic tetraplegia?",
+    "options": [
+      "22 to 23 kcal/kg per day",
+      "35 to 40 kcal/kg per day",
+      "45 kcal/kg per day",
+      "15 kcal/kg per day"
+    ],
+    "correctIndex": 0,
+    "explanation": "Roughly 22.7 kcal/kg per day is the commonly cited figure for chronic tetraplegia, with about 27.9 kcal/kg for paraplegia, reflecting the substantial loss of metabolically active innervated muscle below the level of injury. A 35 to 40 kcal/kg provision reflects hypermetabolic states such as burns or acute trauma and would cause marked fat gain in this population. A 45 kcal/kg provision is higher still and clearly inappropriate. A 15 kcal/kg provision is a hypocaloric level that would drive further lean tissue loss and impair wound healing in a patient already at high pressure injury risk.",
+    "tags": [
+      "spinal cord injury",
+      "energy needs",
+      "tetraplegia",
+      "paraplegia"
+    ]
+  },
+  {
+    "id": "m2-gf-sci-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "medium",
+    "text": "A patient with spinal cord injury has neurogenic bowel with chronic constipation. Which nutrition intervention is most appropriate?",
+    "options": [
+      "Adequate fiber with sufficient fluid, coordinated with a scheduled bowel program",
+      "A very low fiber diet to reduce stool bulk",
+      "Fluid restriction to firm the stool",
+      "Elimination of all whole grains"
+    ],
+    "correctIndex": 0,
+    "explanation": "Neurogenic bowel management combines adequate fiber, sufficient fluid and a consistently timed bowel program, since predictable stool consistency and scheduled evacuation are what make the program work. Fiber should be increased gradually, because abrupt large increases can cause distension in a bowel with impaired motility. A very low fiber diet worsens constipation by reducing stool bulk and slowing transit further. Fluid restriction hardens stool and increases impaction risk. Eliminating whole grains removes a principal fiber source and is counterproductive.",
+    "tags": [
+      "spinal cord injury",
+      "neurogenic bowel",
+      "fiber",
+      "constipation"
+    ]
+  },
+  {
+    "id": "m2-gf-sci-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "hard",
+    "text": "Which complication makes adequate protein intake especially critical in patients with spinal cord injury?",
+    "options": [
+      "High risk of pressure injuries over insensate bony prominences",
+      "Increased risk of hyperthyroidism",
+      "Elevated risk of hemochromatosis",
+      "Increased risk of celiac disease"
+    ],
+    "correctIndex": 0,
+    "explanation": "Loss of sensation and mobility below the level of injury creates sustained pressure over bony prominences without the protective stimulus to shift position, so pressure injuries are among the most common and costly complications. Open wounds raise protein requirements substantially for collagen synthesis and granulation, on the order of 1.25 to 1.5 g/kg or more with stage 3 and 4 wounds. Hyperthyroidism is not associated with spinal cord injury. Hemochromatosis is a genetic iron disorder unrelated to the condition. Celiac disease risk is not increased by spinal cord injury.",
+    "tags": [
+      "spinal cord injury",
+      "pressure injury",
+      "protein",
+      "wound healing"
+    ]
+  },
+  {
+    "id": "m2-gf-sci-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "hard",
+    "text": "A patient with a T4 spinal cord injury develops sudden severe hypertension, pounding headache, flushing above the injury level and sweating. What should be suspected?",
+    "options": [
+      "Autonomic dysreflexia, often triggered by bladder distension or fecal impaction",
+      "Acute hypoglycemia",
+      "Refeeding syndrome",
+      "Dumping syndrome"
+    ],
+    "correctIndex": 0,
+    "explanation": "Autonomic dysreflexia is a medical emergency occurring in injuries at or above roughly T6, in which a noxious stimulus below the injury level triggers unopposed sympathetic outflow, producing severe hypertension with headache and flushing above the lesion. The most common triggers are bladder distension and fecal impaction, which links directly to bowel management and therefore to nutrition care. Hypoglycemia causes tremor, sweating and confusion but not this hypertensive pattern. Refeeding syndrome produces electrolyte derangements. Dumping syndrome follows gastric surgery and causes postprandial cramping and tachycardia.",
+    "tags": [
+      "spinal cord injury",
+      "autonomic dysreflexia",
+      "emergency",
+      "bowel management"
+    ]
+  },
+  {
+    "id": "m2-gf-sci-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "medium",
+    "text": "Which body composition change makes body mass index a poor indicator of nutritional status after spinal cord injury?",
+    "options": [
+      "Loss of lean muscle mass with relative increase in fat mass at any given weight",
+      "Increased bone density with reduced fat mass",
+      "Increased total body water with reduced fat",
+      "Increased muscle mass below the injury level"
+    ],
+    "correctIndex": 0,
+    "explanation": "After spinal cord injury, denervated muscle atrophies and fat mass increases proportionally, so a patient can have a body mass index in the normal range while carrying substantially elevated adiposity and depleted lean mass. Because of this, lower body mass index cutoffs are often suggested for identifying obesity in this population, and direct body composition assessment is preferred. Bone density decreases rather than increases, raising fracture risk. Total body water does not rise in a way that explains the limitation. Muscle mass below the injury level decreases, which is the core of the problem.",
+    "tags": [
+      "spinal cord injury",
+      "body composition",
+      "BMI",
+      "assessment"
+    ]
+  },
+  {
+    "id": "m2-gf-sci-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "medium",
+    "text": "Which nutrition-related concern is elevated in patients with spinal cord injury due to immobilization?",
+    "options": [
+      "Hypercalcemia from immobilization-induced bone resorption",
+      "Hypocalcemia from reduced calcium intake",
+      "Hypernatremia from reduced sweating",
+      "Hyperkalemia from muscle building"
+    ],
+    "correctIndex": 0,
+    "explanation": "Immobilization accelerates bone resorption, releasing calcium into the circulation, and immobilization hypercalcemia is a recognized complication particularly in the early months after injury and in younger patients with high bone mass. It can present with nausea, lethargy, constipation and confusion. Hypocalcemia is not the typical direction of change. Reduced sweating below the injury level affects thermoregulation but does not characteristically produce hypernatremia. Hyperkalemia from muscle building is not a feature, and muscle mass is decreasing rather than increasing.",
+    "tags": [
+      "spinal cord injury",
+      "hypercalcemia",
+      "immobilization",
+      "bone"
+    ]
+  },
+  {
+    "id": "m2-gf-sci-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Spinal Cord Injury",
+    "difficulty": "hard",
+    "text": "How do energy requirements differ between the acute and chronic phases of spinal cord injury?",
+    "options": [
+      "Both phases are equally hypermetabolic",
+      "The acute phase is catabolic with elevated needs, while the chronic phase has reduced needs from lost lean mass",
+      "Both phases have reduced needs",
+      "The chronic phase is more hypermetabolic than the acute phase"
+    ],
+    "correctIndex": 1,
+    "explanation": "The acute injury phase involves a catabolic stress response with elevated protein losses and increased requirements, often compounded by surgery and concurrent trauma. Once the patient stabilizes and denervated muscle atrophies, resting energy expenditure falls below general population norms, which is why chronic-phase estimates are considerably lower. Failing to make this transition is a common source of overfeeding. Treating both phases as equally hypermetabolic misses the chronic decline. Treating both as reduced underfeeds the acute patient. The chronic phase is less, not more, hypermetabolic than the acute phase.",
+    "tags": [
+      "spinal cord injury",
+      "energy needs",
+      "acute vs chronic",
+      "metabolism"
+    ]
+  }
+]

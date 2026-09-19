@@ -1,0 +1,222 @@
+[
+  {
+    "id": "m2-gf-resp-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "medium",
+    "text": "A 62-year-old man with severe COPD has a BMI of 17.5 kg/m2 and reports early satiety and breathlessness while eating. Which meal pattern recommendation is most appropriate?",
+    "options": [
+      "Three large meals to minimize eating time",
+      "Small, frequent, calorie-dense meals with rest before eating",
+      "A high-volume, low-calorie diet to reduce diaphragmatic pressure",
+      "Liquid-only meals to reduce chewing effort"
+    ],
+    "correctIndex": 1,
+    "explanation": "Underweight COPD patients experience early satiety because hyperinflation flattens the diaphragm and a full stomach further restricts breathing, and eating itself increases oxygen demand. Small, frequent, calorie-dense meals with rest beforehand reduce the work of eating while raising total intake. Three large meals worsen gastric distension and dyspnea, so intake typically falls. A high-volume, low-calorie diet is exactly wrong for a patient at BMI 17.5 who needs energy density. Liquid-only meals are unnecessary in a patient without dysphagia, remove food variety, and can be less calorie-dense unless specifically fortified.",
+    "tags": [
+      "respiratory",
+      "COPD",
+      "malnutrition",
+      "meal pattern"
+    ]
+  },
+  {
+    "id": "m2-gf-resp-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "hard",
+    "text": "A patient with cystic fibrosis has steatorrhea, poor weight gain, and a serum vitamin A below reference range despite a high-calorie diet. What is the most likely underlying problem to address?",
+    "options": [
+      "Inadequate total calorie intake",
+      "Pancreatic exocrine insufficiency requiring enzyme replacement optimization",
+      "Excessive fiber intake",
+      "Lactose intolerance"
+    ],
+    "correctIndex": 1,
+    "explanation": "In cystic fibrosis, thick secretions obstruct pancreatic ducts and cause exocrine insufficiency, so fat and fat-soluble vitamins are malabsorbed regardless of how many calories are consumed. Steatorrhea plus low vitamin A points directly to inadequate or improperly timed pancreatic enzyme replacement, which must be taken with all fat-containing meals and snacks and dosed by lipase units per kilogram or per gram of fat. The scenario states intake is already high, so total calories are not the limiting factor. Excess fiber does not produce steatorrhea with fat-soluble vitamin deficiency. Lactose intolerance causes gas and diarrhea but not fat malabsorption or vitamin A depletion.",
+    "tags": [
+      "respiratory",
+      "cystic fibrosis",
+      "malabsorption",
+      "pancreatic enzymes"
+    ]
+  },
+  {
+    "id": "m2-gf-resp-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "medium",
+    "text": "Which supplementation pattern is standard for a patient with cystic fibrosis and pancreatic insufficiency?",
+    "options": [
+      "Water-soluble forms of vitamins A, D, E and K",
+      "Vitamin B12 injections monthly",
+      "Calcium restriction to prevent stones",
+      "Iron chelation therapy"
+    ],
+    "correctIndex": 0,
+    "explanation": "Because fat malabsorption impairs uptake of fat-soluble vitamins, patients with cystic fibrosis and pancreatic insufficiency require routine supplementation with vitamins A, D, E and K in water-miscible formulations designed for better absorption, with periodic level monitoring. They also need generous salt intake because of high sweat sodium losses. Routine monthly vitamin B12 injections are not standard, since B12 absorption depends on intrinsic factor and terminal ileum function rather than pancreatic lipase. Calcium is encouraged rather than restricted, given the high prevalence of low bone density. Iron chelation is for iron overload states and has no role here.",
+    "tags": [
+      "respiratory",
+      "cystic fibrosis",
+      "fat-soluble vitamins",
+      "supplementation"
+    ]
+  },
+  {
+    "id": "m2-gf-resp-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "hard",
+    "text": "A mechanically ventilated patient with acute respiratory distress syndrome has been receiving 35 kcal/kg per day. He develops rising carbon dioxide levels and difficulty weaning. Indirect calorimetry shows a respiratory quotient of 1.05. What does this most likely indicate?",
+    "options": [
+      "Predominant fat oxidation",
+      "Overfeeding with net lipogenesis",
+      "Underfeeding with protein catabolism",
+      "Measurement error requiring no action"
+    ],
+    "correctIndex": 1,
+    "explanation": "A respiratory quotient above 1.0 indicates net lipogenesis, the conversion of excess carbohydrate to fat, which generates carbon dioxide and increases ventilatory demand. Combined with 35 kcal/kg in a critically ill patient, this points to overfeeding, and the appropriate response is to reduce total energy delivery. Pure fat oxidation yields a respiratory quotient near 0.7, not 1.05. Underfeeding with catabolism produces a low RQ, since endogenous fat becomes the dominant fuel. Dismissing the value as measurement error ignores a coherent clinical picture, though RQ should always be interpreted alongside the measured energy expenditure rather than in isolation.",
+    "tags": [
+      "respiratory",
+      "ARDS",
+      "respiratory quotient",
+      "overfeeding"
+    ]
+  },
+  {
+    "id": "m2-gf-resp-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "medium",
+    "text": "Which nutrition-related factor most directly contributes to respiratory muscle weakness and prolonged ventilator dependence?",
+    "options": [
+      "Excess dietary fiber",
+      "Protein-energy malnutrition with loss of diaphragmatic muscle mass",
+      "High intake of monounsaturated fat",
+      "Adequate vitamin C intake"
+    ],
+    "correctIndex": 1,
+    "explanation": "The diaphragm is skeletal muscle and is catabolized during protein-energy malnutrition, directly reducing inspiratory force, vital capacity and the ability to wean from mechanical ventilation. This is why nutritional repletion is part of weaning strategy in prolonged critical illness. Dietary fiber has no meaningful effect on respiratory muscle strength. Monounsaturated fat intake is not linked to diaphragmatic weakness and is generally favorable metabolically. Adequate vitamin C supports collagen synthesis and antioxidant defense and would not contribute to weakness, since it is deficiency rather than adequacy that causes harm.",
+    "tags": [
+      "respiratory",
+      "malnutrition",
+      "ventilator weaning",
+      "muscle"
+    ]
+  },
+  {
+    "id": "m2-gf-resp-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "medium",
+    "text": "A patient with COPD on chronic corticosteroid therapy is at increased risk for which nutrition-related complication?",
+    "options": [
+      "Osteoporosis and hyperglycemia",
+      "Hypokalemic alkalosis from potassium retention",
+      "Vitamin B12 malabsorption",
+      "Iron overload"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chronic corticosteroids increase bone resorption while reducing intestinal calcium absorption, producing osteoporosis, and they induce insulin resistance with hepatic gluconeogenesis, producing hyperglycemia. Both warrant monitoring, with attention to calcium, vitamin D and glucose. Corticosteroids cause potassium LOSS rather than retention, so hypokalemia may occur but the stated mechanism is wrong. Vitamin B12 malabsorption is associated with metformin, proton pump inhibitors and ileal disease, not corticosteroids. Iron overload results from repeated transfusion or hemochromatosis and has no relationship to steroid therapy.",
+    "tags": [
+      "respiratory",
+      "COPD",
+      "corticosteroids",
+      "drug-nutrient interaction"
+    ]
+  },
+  {
+    "id": "m2-gf-resp-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "hard",
+    "text": "An adult with cystic fibrosis is newly diagnosed with cystic fibrosis-related diabetes. Which nutrition recommendation is most appropriate?",
+    "options": [
+      "Restrict calories and fat to improve glycemic control",
+      "Maintain the high-calorie, high-fat diet and manage glucose with insulin",
+      "Adopt a low-carbohydrate ketogenic diet",
+      "Restrict protein to reduce renal load"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cystic fibrosis-related diabetes is managed differently from type 2 diabetes. Nutritional status remains the strongest predictor of pulmonary function and survival, so the high-calorie, high-fat, high-salt diet is maintained and glucose is controlled with insulin rather than by restricting intake. Restricting calories and fat would worsen the malnutrition that drives lung decline and mortality. A ketogenic diet conflicts with the energy density and carbohydrate flexibility these patients need. Protein restriction is not indicated, since these patients typically require increased protein and there is no renal rationale.",
+    "tags": [
+      "respiratory",
+      "cystic fibrosis",
+      "CFRD",
+      "diabetes"
+    ]
+  },
+  {
+    "id": "m2-gf-resp-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "medium",
+    "text": "Which assessment finding best supports a diagnosis of malnutrition in a patient with severe COPD?",
+    "options": [
+      "Elevated serum albumin",
+      "Unintentional weight loss with reduced mid-arm muscle circumference and fat-free mass",
+      "Increased serum C-reactive protein alone",
+      "Elevated hemoglobin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Malnutrition diagnosis relies on physical and intake-based criteria: unintentional weight loss, loss of muscle and subcutaneous fat, reduced intake, and functional decline. Reduced mid-arm muscle circumference and fat-free mass, together with weight loss, directly document that process and are especially relevant in COPD where weight may mask muscle depletion. Elevated albumin would not indicate malnutrition, and albumin generally reflects inflammation and fluid status rather than nutritional status. C-reactive protein alone indicates inflammation without saying anything about body composition. Elevated hemoglobin in COPD reflects chronic hypoxemia and secondary polycythemia, not nutritional adequacy.",
+    "tags": [
+      "respiratory",
+      "COPD",
+      "malnutrition assessment",
+      "body composition"
+    ]
+  },
+  {
+    "id": "m2-gf-resp-09",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "hard",
+    "text": "A patient with obstructive sleep apnea and a BMI of 41 kg/m2 asks how nutrition intervention could help. Which statement is most accurate?",
+    "options": [
+      "Weight loss has no effect on apnea severity",
+      "A 10% reduction in body weight can meaningfully reduce apnea-hypopnea index",
+      "Only bariatric surgery improves sleep apnea",
+      "Sodium restriction is the primary nutrition intervention"
+    ],
+    "correctIndex": 1,
+    "explanation": "Excess adipose tissue in the neck and upper airway, along with reduced lung volumes from central adiposity, worsens upper airway collapsibility. Clinically meaningful weight loss, on the order of 10% of body weight, reduces the apnea-hypopnea index substantially, which is why weight management is a core component of obstructive sleep apnea care. The claim that weight loss has no effect contradicts a well-established dose-response relationship. Bariatric surgery is effective but is not the only route, since lifestyle-based weight loss also improves severity. Sodium restriction may help fluid shifts in specific cases but is not the primary nutrition intervention for this condition.",
+    "tags": [
+      "respiratory",
+      "sleep apnea",
+      "weight management",
+      "obesity"
+    ]
+  },
+  {
+    "id": "m2-gf-resp-10",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Respiratory Disease",
+    "difficulty": "medium",
+    "text": "A hospitalized patient with pneumonia and a fever of 39 C has increased energy expenditure. Which physiologic principle best explains the increase?",
+    "options": [
+      "Fever decreases basal metabolic rate",
+      "Basal metabolic rate rises roughly 7 to 13% for each degree Celsius above normal body temperature",
+      "Fever has no measurable effect on energy expenditure",
+      "Energy expenditure falls because of bed rest, offsetting fever entirely"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fever raises metabolic rate in a graded fashion, commonly cited as roughly 7 to 13% per degree Celsius above normal, reflecting accelerated enzymatic and cellular activity. Recognizing this prevents underfeeding febrile patients. Fever increases rather than decreases basal metabolic rate. The claim that fever has no measurable effect contradicts direct calorimetry evidence. Bed rest does reduce activity energy expenditure, but in an acutely febrile, infected patient it does not offset the hypermetabolic response, and assuming it does leads to systematic underestimation of needs.",
+    "tags": [
+      "respiratory",
+      "pneumonia",
+      "energy expenditure",
+      "fever"
+    ]
+  }
+]

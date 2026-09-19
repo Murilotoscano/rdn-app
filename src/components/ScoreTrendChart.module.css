@@ -1,0 +1,161 @@
+/* Series colors, validated with the dataviz palette checker against this app's own
+   surfaces. Light: #4c51bf / #718096 on #ffffff. Dark: #7589f2 / #66738a on #2d3748.
+   Scoped to data-theme only: this app never follows the OS dark setting, so a
+   prefers-color-scheme block would paint dark-mode series onto a light page. */
+.root {
+    --series-mock: #4c51bf;
+    --series-practice: #718096;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.25rem 1rem;
+}
+
+:global([data-theme='dark']) .root {
+    --series-mock: #7589f2;
+    --series-practice: #66738a;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.75rem;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-main);
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin: 2px 0 0;
+}
+
+.legend {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.legend li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.plot {
+    position: relative;
+    outline: none;
+}
+
+.plot:focus-visible {
+    box-shadow: 0 0 0 2px var(--series-mock);
+    border-radius: 6px;
+}
+
+.svg {
+    display: block;
+    overflow: visible;
+}
+
+.tick {
+    font-size: 11px;
+    fill: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+}
+
+.targetLabel {
+    font-size: 11px;
+    fill: var(--text-muted);
+}
+
+.endLabel {
+    font-size: 12px;
+    font-weight: 600;
+    fill: var(--text-main);
+}
+
+.tooltip {
+    position: absolute;
+    top: 0;
+    pointer-events: none;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    padding: 8px 10px;
+    min-width: 150px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.tooltipValue {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.tooltipRow {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.table {
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.table summary {
+    cursor: pointer;
+    user-select: none;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 4px 8px;
+    border-bottom: 1px solid var(--border);
+}
+
+.table th {
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.table td {
+    color: var(--text-main);
+}
+
+.tableScroll {
+    max-height: 240px;
+    overflow-y: auto;
+}
+
+.empty {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}

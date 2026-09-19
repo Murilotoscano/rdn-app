@@ -1,7 +1,7 @@
 "use client";
 
 import { Question, CdrQuestion } from "@/types";
-import { supabase } from './supabaseClient';
+import { supabase, isSupabaseConfigured } from './supabaseClient';
 
 // --- Types ---
 
@@ -44,6 +44,37 @@ export interface CdrProgress {
     lastAttemptedAt?: number;
 }
 
+export type SyncState = 'disabled' | 'ok' | 'error';
+
+export interface SyncResult {
+    state: SyncState;
+    message: string;
+}
+
+/** Everything the app persists, in one portable envelope. */
+export interface BackupFile {
+    format: 'rdn-app-backup';
+    version: number;
+    exportedAt: string;
+    data: {
+        errorLog: ErrorLogItem[];
+        examHistory: ExamResult[];
+        cdrProgress: Record<string, CdrProgress>;
+        customQuestions: CdrQuestion[];
+        customProgress: Record<string, CdrProgress>;
+    };
+}
+
+export interface BackupStatus {
+    /** Review items plus exam results that exist only in this browser. */
+    itemsAtRisk: number;
+    neverBackedUp: boolean;
+    daysSinceBackup: number | null;
+    /** True when there is unsaved study progress and the reminder is not snoozed. */
+    due: boolean;
+    urgent: boolean;
+}
+
 export interface StorageSchema {
     schemaVersion: number;
     data: ErrorLogItem[];
@@ -71,7 +102,24 @@ interface FilterOptions {
 const STORAGE_KEYS = {
     ERROR_LOG: 'rdn_error_log',
     EXAM_HISTORY: 'rdn_exam_history',
+    CDR_PROGRESS: 'rdn_cdr_progress',
+    CUSTOM_QUESTIONS: 'rdn_custom_questions',
+    CUSTOM_PROGRESS: 'rdn_custom_progress',
 };
+
+const BACKUP_FORMAT = 'rdn-app-backup';
+const BACKUP_VERSION = 1;
+
+const BACKUP_META_KEYS = {
+    LAST_BACKUP_AT: 'rdn_last_backup_at',
+    SNOOZED_UNTIL: 'rdn_backup_reminder_snoozed_until',
+};
+
+/** Nag only after a week, only once there is something worth losing, and snooze for 3 days. */
+const REMIND_AFTER_DAYS = 7;
+const SNOOZE_DAYS = 3;
+const MIN_ITEMS_WORTH_BACKING_UP = 5;
+const URGENT_AFTER_DAYS = 21;
 
 const CURRENT_SCHEMA_VERSION = 2;
 const INTERVALS_HOURS = [24, 72, 168, 336]; // 1d, 3d, 7d, 14d
@@ -115,6 +163,62 @@ function migrateErrorLogIfNeeded(raw: any): ErrorLogItem[] {
     }
 
     return [];
+}
+
+/** Records one miss against the log in place, restarting its spaced-repetition cycle. */
+function applyErrorToLog(
+    log: ErrorLogItem[],
+    question: Question,
+    status: 'incorrect' | 'unsure',
+    reason?: string,
+    notes?: string
+) {
+    const now = Date.now();
+    const nextReview = now + hoursToMs(INTERVALS_HOURS[0]); // +24h
+    const idx = log.findIndex(item => item.questionId === question.id);
+
+    if (idx >= 0) {
+        const item = log[idx];
+
+        item.dateLoggedAt = now;
+        item.attempts += 1;
+        item.lastAttemptAt = now;
+        item.lastOutcome = status;
+        item.answerStatus = status;
+
+        // Restart cycle
+        item.repetitionStage = 0;
+        item.mastered = false;
+        item.nextReviewAt = nextReview;
+
+        if (status === 'incorrect') item.wrongCount++;
+        else item.unsureCount++;
+
+        if (reason) item.errorReason = reason;
+        if (notes) item.notes = notes;
+    } else {
+        log.push({
+            questionId: question.id,
+            domain: question.domain,
+            topic: question.topic || "General",
+            dateLoggedAt: now,
+            repetitionStage: 0,
+            nextReviewAt: nextReview,
+            mastered: false,
+
+            answerStatus: status,
+            lastOutcome: status,
+            lastAttemptAt: now,
+
+            attempts: 1,
+            wrongCount: status === 'incorrect' ? 1 : 0,
+            unsureCount: status === 'unsure' ? 1 : 0,
+            confidentCount: 0,
+
+            errorReason: reason,
+            notes: notes
+        });
+    }
 }
 
 // --- Store Implementation ---
@@ -167,7 +271,8 @@ export const store = {
 
     // --- Supabase Sync Methods ---
 
-    syncUpErrorLog: async (data: ErrorLogItem[]) => {
+    syncUpErrorLog: async (data: ErrorLogItem[]): Promise<SyncResult> => {
+        if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
         try {
             // Upsert all items. questionId is the primary key.
             const { error } = await supabase
@@ -192,13 +297,15 @@ export const store = {
                 })));
 
             if (error) throw error;
-            console.log("Error log synced to Supabase");
+            return { state: 'ok', message: 'Error log synced' };
         } catch (e) {
             console.error("Failed to sync error log to Supabase", e);
+            return { state: 'error', message: e instanceof Error ? e.message : 'Sync failed' };
         }
     },
 
-    syncUpExamHistory: async (history: ExamResult[]) => {
+    syncUpExamHistory: async (history: ExamResult[]): Promise<SyncResult> => {
+        if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
         try {
             const { error } = await supabase
                 .from('exam_history')
@@ -213,14 +320,16 @@ export const store = {
                 })));
 
             if (error) throw error;
-            console.log("Exam history synced to Supabase");
+            return { state: 'ok', message: 'Exam history synced' };
         } catch (e) {
             console.error("Failed to sync exam history to Supabase", e);
+            return { state: 'error', message: e instanceof Error ? e.message : 'Sync failed' };
         }
     },
 
-    syncDown: async () => {
-        if (typeof window === 'undefined') return;
+    syncDown: async (): Promise<SyncResult> => {
+        if (typeof window === 'undefined') return { state: 'disabled', message: 'Not in a browser' };
+        if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
 
         try {
             console.log("Starting sync down from Supabase...");
@@ -304,79 +413,189 @@ export const store = {
                 localStorage.setItem(STORAGE_KEYS.EXAM_HISTORY, JSON.stringify(mergedHistory));
             }
 
-            console.log("Sync down complete.");
-            return true;
+            return { state: 'ok', message: 'Sync complete' };
         } catch (e) {
             console.error("Failed to sync down from Supabase", e);
-            return false;
+            return { state: 'error', message: e instanceof Error ? e.message : 'Sync failed' };
         }
     },
 
-    fullSync: async () => {
-        const localErrorLog = store.getErrorLog();
-        const localHistory = store.getExamHistory();
-        
-        await store.syncUpErrorLog(localErrorLog);
-        await store.syncUpExamHistory(localHistory);
-        
-        return await store.syncDown();
+    /**
+     * Pushes local data up, then pulls remote down. Reports the real outcome so the UI can
+     * say "not backed up" instead of showing a timestamp after every request failed.
+     */
+    fullSync: async (): Promise<SyncResult> => {
+        if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
+
+        const results = [
+            await store.syncUpErrorLog(store.getErrorLog()),
+            await store.syncUpExamHistory(store.getExamHistory()),
+            await store.syncDown(),
+        ];
+
+        const failed = results.find(r => r.state === 'error');
+        if (failed) return failed;
+        return { state: 'ok', message: 'Synced' };
+    },
+
+    /**
+     * Probes the remote before claiming it works. Credentials being present in .env is not
+     * the same as the project still existing, which is exactly how a dead backend can look
+     * healthy in the UI while every write silently fails.
+     */
+    checkRemote: async (): Promise<SyncResult> => {
+        if (!isSupabaseConfigured) {
+            return { state: 'disabled', message: 'Cloud sync is not configured' };
+        }
+        try {
+            const { error } = await supabase.from('exam_history').select('id').limit(1);
+            if (error) throw error;
+            return { state: 'ok', message: 'Cloud sync is working' };
+        } catch (e) {
+            return {
+                state: 'error',
+                message: e instanceof Error ? e.message : 'Cloud backend is unreachable'
+            };
+        }
+    },
+
+    // --- Backup / Restore (works with no server) ---
+
+    recordBackup: () => {
+        if (typeof window === 'undefined') return;
+        localStorage.setItem(BACKUP_META_KEYS.LAST_BACKUP_AT, new Date().toISOString());
+        localStorage.removeItem(BACKUP_META_KEYS.SNOOZED_UNTIL);
+    },
+
+    snoozeBackupReminder: () => {
+        if (typeof window === 'undefined') return;
+        const until = Date.now() + SNOOZE_DAYS * 24 * 60 * 60 * 1000;
+        localStorage.setItem(BACKUP_META_KEYS.SNOOZED_UNTIL, String(until));
+    },
+
+    /**
+     * Decides whether to prompt for a backup. Keyed on study activity rather than the clock
+     * alone: a week away from the app is not a reason to nag, an unsaved week of work is.
+     */
+    getBackupStatus: (): BackupStatus => {
+        const idle: BackupStatus = {
+            itemsAtRisk: 0, neverBackedUp: true, daysSinceBackup: null, due: false, urgent: false
+        };
+        if (typeof window === 'undefined') return idle;
+
+        const log = store.getErrorLog();
+        const history = store.getExamHistory();
+        const itemsAtRisk = log.length + history.length;
+
+        const lastBackupRaw = localStorage.getItem(BACKUP_META_KEYS.LAST_BACKUP_AT);
+        const lastBackupAt = lastBackupRaw ? Date.parse(lastBackupRaw) : null;
+        const neverBackedUp = lastBackupAt === null || Number.isNaN(lastBackupAt);
+
+        const now = Date.now();
+        const daysSinceBackup = neverBackedUp
+            ? null
+            : Math.floor((now - lastBackupAt!) / (24 * 60 * 60 * 1000));
+
+        if (itemsAtRisk < MIN_ITEMS_WORTH_BACKING_UP) {
+            return { ...idle, itemsAtRisk, neverBackedUp, daysSinceBackup };
+        }
+
+        const snoozedUntil = Number(localStorage.getItem(BACKUP_META_KEYS.SNOOZED_UNTIL) ?? 0);
+        if (snoozedUntil > now) {
+            return { itemsAtRisk, neverBackedUp, daysSinceBackup, due: false, urgent: false };
+        }
+
+        // Has anything actually happened since the last export?
+        const lastActivityAt = Math.max(
+            0,
+            ...log.map(i => i.lastAttemptAt ?? i.dateLoggedAt ?? 0),
+            ...history.map(h => Date.parse(h.date) || 0)
+        );
+        const hasUnsavedWork = neverBackedUp || lastActivityAt > lastBackupAt!;
+
+        const due = hasUnsavedWork && (neverBackedUp || daysSinceBackup! >= REMIND_AFTER_DAYS);
+        const urgent = due && (daysSinceBackup === null
+            ? itemsAtRisk >= 50
+            : daysSinceBackup >= URGENT_AFTER_DAYS);
+
+        return { itemsAtRisk, neverBackedUp, daysSinceBackup, due, urgent };
+    },
+
+    /** Snapshots every persisted key into one portable object. */
+    exportAll: (): BackupFile => ({
+        format: BACKUP_FORMAT,
+        version: BACKUP_VERSION,
+        exportedAt: new Date().toISOString(),
+        data: {
+            errorLog: store.getErrorLog(),
+            examHistory: store.getExamHistory(),
+            cdrProgress: store.getCdrProgress(),
+            customQuestions: store.getCustomQuestions(),
+            customProgress: store.getCustomProgress(),
+        }
+    }),
+
+    /**
+     * Merges a backup into local storage, keeping whichever copy of each record was touched
+     * most recently. Merging rather than replacing means restoring onto a device that already
+     * has newer progress cannot silently throw that progress away.
+     */
+    importAll: (raw: unknown): { added: number; updated: number; examsAdded: number } => {
+        const file = raw as Partial<BackupFile>;
+        if (!file || file.format !== BACKUP_FORMAT || !file.data) {
+            throw new Error('Not an RDN backup file.');
+        }
+
+        const incoming = file.data;
+        let added = 0;
+        let updated = 0;
+
+        const log = store.getErrorLog();
+        for (const item of incoming.errorLog ?? []) {
+            const idx = log.findIndex(l => l.questionId === item.questionId);
+            if (idx === -1) {
+                log.push(item);
+                added++;
+            } else if ((item.lastAttemptAt ?? 0) > (log[idx].lastAttemptAt ?? 0)) {
+                log[idx] = item;
+                updated++;
+            }
+        }
+        store.saveErrorLog(log);
+
+        const history = store.getExamHistory();
+        const seen = new Set(history.map(h => h.id));
+        const newExams = (incoming.examHistory ?? []).filter(h => !seen.has(h.id));
+        if (newExams.length > 0) {
+            localStorage.setItem(STORAGE_KEYS.EXAM_HISTORY, JSON.stringify([...history, ...newExams]));
+        }
+
+        // Progress maps are keyed by question id, so a plain merge is enough.
+        store.saveCdrProgress({ ...(incoming.cdrProgress ?? {}), ...store.getCdrProgress() });
+        store.saveCustomProgress({ ...(incoming.customProgress ?? {}), ...store.getCustomProgress() });
+        store.addCustomQuestions(incoming.customQuestions ?? []);
+
+        return { added, updated, examsAdded: newExams.length };
     },
 
     // 1. Log Error (from Practice Mode)
     logError: (question: Question, status: 'incorrect' | 'unsure', reason?: string, notes?: string) => {
         const log = store.getErrorLog();
-        const idx = log.findIndex(item => item.questionId === question.id);
-        const now = Date.now();
-        const nextReview = now + hoursToMs(INTERVALS_HOURS[0]); // +24h
+        applyErrorToLog(log, question, status, reason, notes);
+        store.saveErrorLog(log);
+    },
 
-        if (idx >= 0) {
-            // Existing item
-            const item = log[idx];
+    /**
+     * Logs many misses in one write. A finished mock exam can produce 40+ entries, and
+     * calling logError per question would trigger one Supabase round trip each.
+     */
+    logErrorsBatch: (entries: { question: Question; status: 'incorrect' | 'unsure'; reason?: string }[]) => {
+        if (entries.length === 0) return;
 
-            item.dateLoggedAt = now; 
-            item.attempts += 1;
-            item.lastAttemptAt = now;
-            item.lastOutcome = status;
-            item.answerStatus = status;
-
-            // Restart cycle
-            item.repetitionStage = 0;
-            item.mastered = false;
-            item.nextReviewAt = nextReview;
-
-            if (status === 'incorrect') item.wrongCount++;
-            else item.unsureCount++;
-
-            if (reason) item.errorReason = reason;
-            if (notes) item.notes = notes;
-
-            log[idx] = item;
-        } else {
-            // New item
-            const newItem: ErrorLogItem = {
-                questionId: question.id,
-                domain: question.domain,
-                topic: question.topic || "General",
-                dateLoggedAt: now,
-                repetitionStage: 0,
-                nextReviewAt: nextReview,
-                mastered: false,
-
-                answerStatus: status,
-                lastOutcome: status,
-                lastAttemptAt: now,
-
-                attempts: 1,
-                wrongCount: status === 'incorrect' ? 1 : 0,
-                unsureCount: status === 'unsure' ? 1 : 0,
-                confidentCount: 0,
-
-                errorReason: reason,
-                notes: notes
-            };
-            log.push(newItem);
+        const log = store.getErrorLog();
+        for (const { question, status, reason } of entries) {
+            applyErrorToLog(log, question, status, reason);
         }
-
         store.saveErrorLog(log);
     },
 
@@ -537,13 +756,13 @@ export const store = {
     // --- CDR Practice Module Progress ---
     getCdrProgress: (): Record<string, CdrProgress> => {
         if (typeof window === 'undefined') return {};
-        const data = localStorage.getItem('rdn_cdr_progress');
+        const data = localStorage.getItem(STORAGE_KEYS.CDR_PROGRESS);
         return data ? JSON.parse(data) : {};
     },
 
     saveCdrProgress: (progress: Record<string, CdrProgress>) => {
         if (typeof window === 'undefined') return;
-        localStorage.setItem('rdn_cdr_progress', JSON.stringify(progress));
+        localStorage.setItem(STORAGE_KEYS.CDR_PROGRESS, JSON.stringify(progress));
     },
 
     updateCdrQuestionProgress: (questionId: string, updates: Partial<CdrProgress>) => {
@@ -566,13 +785,13 @@ export const store = {
     // --- Custom Generated Questions ---
     getCustomQuestions: (): CdrQuestion[] => {
         if (typeof window === 'undefined') return [];
-        const data = localStorage.getItem('rdn_custom_questions');
+        const data = localStorage.getItem(STORAGE_KEYS.CUSTOM_QUESTIONS);
         return data ? JSON.parse(data) : [];
     },
 
     saveCustomQuestions: (questions: CdrQuestion[]) => {
         if (typeof window === 'undefined') return;
-        localStorage.setItem('rdn_custom_questions', JSON.stringify(questions));
+        localStorage.setItem(STORAGE_KEYS.CUSTOM_QUESTIONS, JSON.stringify(questions));
     },
 
     addCustomQuestions: (newQuestions: CdrQuestion[]) => {
@@ -584,13 +803,13 @@ export const store = {
     // --- Custom Generated Questions Progress ---
     getCustomProgress: (): Record<string, CdrProgress> => {
         if (typeof window === 'undefined') return {};
-        const data = localStorage.getItem('rdn_custom_progress');
+        const data = localStorage.getItem(STORAGE_KEYS.CUSTOM_PROGRESS);
         return data ? JSON.parse(data) : {};
     },
 
     saveCustomProgress: (progress: Record<string, CdrProgress>) => {
         if (typeof window === 'undefined') return;
-        localStorage.setItem('rdn_custom_progress', JSON.stringify(progress));
+        localStorage.setItem(STORAGE_KEYS.CUSTOM_PROGRESS, JSON.stringify(progress));
     },
 
     updateCustomQuestionProgress: (questionId: string, updates: Partial<CdrProgress>) => {

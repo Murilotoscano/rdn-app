@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, Suspense } from "react";
+import React, { useState, useEffect, useRef, Suspense } from "react";
 import AppLayout from "@/components/Layout/AppLayout";
 import { getQuestions } from "@/lib/questions";
 import { store } from "@/lib/store";
@@ -21,12 +21,17 @@ interface PendingAction {
 function PracticeContent() {
     const params = useSearchParams();
     const mode = params.get("mode") || "quick";
+    const domainId = params.get("id") || undefined;
 
     const [questions, setQuestions] = useState<Question[]>([]);
     const [currIndex, setCurrIndex] = useState(0);
     const [loading, setLoading] = useState(true);
     const [completed, setCompleted] = useState(false);
     const [score, setScore] = useState(0);
+    const [startedAt] = useState(() => Date.now());
+    // Per-question outcome, keyed by question id. A ref rather than state because the last
+    // question's result must be readable by saveSession in the same interaction that records it.
+    const outcomesRef = useRef<Record<string, boolean>>({});
 
     // Feedback logic
     const [showModal, setShowModal] = useState(false);
@@ -34,18 +39,23 @@ function PracticeContent() {
 
     useEffect(() => {
         async function load() {
-            // Set limit to 30 for quick practice
-            const limit = mode === 'quick' ? 30 : 10;
-            const qs = await getQuestions(undefined, limit);
+            const limit = mode === 'quick' ? 30 : 25;
+            // domainId comes from /modules (?mode=domain&id=2); it was previously dropped,
+            // so every "study one domain" link served questions from all four.
+            const qs = await getQuestions(domainId, limit);
             setQuestions(qs);
             setLoading(false);
         }
         load();
-    }, []);
+    }, [mode, domainId]);
 
     const handleAnswer = (idx: number, status: AnswerStatus) => {
         const q = questions[currIndex];
         const isCorrect = idx === q.correctIndex;
+
+        // Answering correctly but unsure still counts as correct for scoring; the uncertainty
+        // is captured separately in the error log.
+        outcomesRef.current[q.id] = isCorrect;
 
         if (isCorrect && status === 'confident') {
             setScore(s => s + 1);
@@ -73,12 +83,43 @@ function PracticeContent() {
         setPendingAction(null);
     };
 
+    const saveSession = () => {
+        const outcomes = outcomesRef.current;
+        const answered = questions.filter(q => q.id in outcomes);
+        if (answered.length === 0) return;
+
+        // Real per-domain tallies. Averaging the session score across domains would wash out
+        // the weak-domain signal that Stats ranks on.
+        const domainScores: Record<string, { correct: number; total: number }> = {};
+        let finalScore = 0;
+
+        answered.forEach(q => {
+            if (!domainScores[q.domain]) domainScores[q.domain] = { correct: 0, total: 0 };
+            domainScores[q.domain].total++;
+            if (outcomes[q.id]) {
+                domainScores[q.domain].correct++;
+                finalScore++;
+            }
+        });
+
+        store.saveExamResult({
+            id: `practice-${Date.now()}`,
+            date: new Date().toISOString(),
+            score: finalScore,
+            totalQuestions: answered.length,
+            domainScores,
+            timeSpentSeconds: Math.round((Date.now() - startedAt) / 1000),
+            mode: 'practice'
+        });
+    };
+
     const handleNext = () => {
         if (showModal) return; // Block next if modal open
 
         if (currIndex < questions.length - 1) {
             setCurrIndex(c => c + 1);
         } else {
+            saveSession();
             setCompleted(true);
         }
     };

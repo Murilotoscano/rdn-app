@@ -1,9 +1,10 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { ChevronLeft, ChevronRight, Grid } from 'lucide-react';
 import { Question } from '@/types';
+import { store } from '@/lib/store';
 import Timer from './Timer';
 import ExamQuestionCard from './ExamQuestionCard';
 import ReviewModal from './ReviewModal';
@@ -17,6 +18,9 @@ export default function ExamInterface({ questions }: Props) {
     const router = useRouter();
     const [currIndex, setCurrIndex] = useState(0);
     const [answers, setAnswers] = useState<Record<number, number>>({});
+    const [startedAt] = useState(() => Date.now());
+    // The timer's onTimeUp and the Finish button can both fire; only score once.
+    const finishedRef = useRef(false);
     const [flags, setFlags] = useState<Record<number, boolean>>({});
     const [isReviewOpen, setIsReviewOpen] = useState(false);
 
@@ -41,29 +45,59 @@ export default function ExamInterface({ questions }: Props) {
     };
 
     const handleFinish = useCallback(() => {
-        // Save results (logic to be moved to context or local storage later)
-        // For now, simple console log and redirect
-        console.log("Finished!", { answers, flags });
+        if (finishedRef.current) return;
+        finishedRef.current = true;
 
-        // In a real app, we'd POST to API or save to LocalStorage
-        // Calculate Score
         let score = 0;
+        const domainScores: Record<string, { correct: number; total: number }> = {};
+        const misses: { question: Question; status: 'incorrect' | 'unsure'; reason?: string }[] = [];
+
         questions.forEach((q, idx) => {
-            if (answers[idx] === q.correctIndex) score++;
+            if (!domainScores[q.domain]) domainScores[q.domain] = { correct: 0, total: 0 };
+            domainScores[q.domain].total++;
+
+            const answer = answers[idx];
+            if (answer === q.correctIndex) {
+                score++;
+                domainScores[q.domain].correct++;
+            } else {
+                // A skipped question is "unsure" rather than "incorrect": no wrong belief to correct.
+                misses.push({
+                    question: q,
+                    status: answer === undefined ? 'unsure' : 'incorrect',
+                    reason: answer === undefined ? 'Skipped on mock exam' : 'Missed on mock exam'
+                });
+            }
         });
 
-        // Store in localStorage for the result page to read
+        const date = new Date().toISOString();
+
+        // Without this the mock never reaches getStats(), so accuracy and the dashboard's
+        // readiness score stay pinned at 0 no matter how many exams are taken.
+        store.saveExamResult({
+            id: `mock-${Date.now()}`,
+            date,
+            score,
+            totalQuestions: questions.length,
+            domainScores,
+            timeSpentSeconds: Math.round((Date.now() - startedAt) / 1000),
+            mode: 'mock'
+        });
+
+        // And this is what puts the mock's misses into the review queue.
+        store.logErrorsBatch(misses);
+
         const resultData = {
             score,
             total: questions.length,
             answers,
             questions, // Ideally don't store full questions in LS, but OK for MVP
-            date: new Date().toISOString()
+            date
         };
         localStorage.setItem('lastExamResult', JSON.stringify(resultData));
 
         router.push('/simulation/result');
-    }, [answers, flags, questions, router]);
+    }, [answers, questions, router, startedAt]);
 
     const currQuestion = questions[currIndex];
 
@@ -72,8 +106,8 @@ export default function ExamInterface({ questions }: Props) {
             {/* Header */}
             <header className={styles.header}>
                 <div className={styles.headerLeft}>
-                    <h1 className={styles.title}>Simulado RDN</h1>
-                    <span className={styles.subtitle}>{currIndex + 1} de {questions.length}</span>
+                    <h1 className={styles.title}>RDN Mock Exam</h1>
+                    <span className={styles.subtitle}>{currIndex + 1} of {questions.length}</span>
                 </div>
 
                 <div className={styles.headerRight}>
@@ -86,7 +120,7 @@ export default function ExamInterface({ questions }: Props) {
                         onClick={() => setIsReviewOpen(true)}
                     >
                         <Grid size={20} />
-                        <span>Revisar</span>
+                        <span>Review</span>
                     </button>
                 </div>
             </header>
@@ -112,23 +146,23 @@ export default function ExamInterface({ questions }: Props) {
                     disabled={currIndex === 0}
                 >
                     <ChevronLeft size={20} />
-                    Anterior
+                    Previous
                 </button>
 
                 <button
                     className={styles.navBtn}
                     onClick={() => setIsReviewOpen(true)} // Or maybe just "Mark"? Review seems better for mobile flow
                 >
-                    Ver Todas
+                    Review All
                 </button>
 
                 {currIndex === questions.length - 1 ? (
                     <button className={styles.finishBtn} onClick={handleFinish}>
-                        Finalizar Exame
+                        End Exam
                     </button>
                 ) : (
                     <button className={styles.navBtn} onClick={handleNext}>
-                        Próxima
+                        Next
                         <ChevronRight size={20} />
                     </button>
                 )}

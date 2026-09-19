@@ -1,0 +1,177 @@
+[
+  {
+    "id": "m2-gf-pcos-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "medium",
+    "text": "A 26-year-old woman with polycystic ovary syndrome, a BMI of 32 kg/m2 and irregular menses asks what nutrition change would most improve her chance of ovulating. What is the most appropriate response?",
+    "options": [
+      "Eliminating all dairy products",
+      "A 5 to 10% reduction in body weight",
+      "Adopting a very low protein diet",
+      "Taking high-dose vitamin E"
+    ],
+    "correctIndex": 1,
+    "explanation": "Even modest weight loss of 5 to 10% improves insulin sensitivity, lowers circulating androgens by raising sex hormone binding globulin, and frequently restores ovulatory cycles in women with PCOS and overweight. It is the best-supported first-line intervention. Eliminating dairy has no established benefit for PCOS and removes a useful source of calcium and protein. A very low protein diet would worsen satiety and lean mass preservation without addressing insulin resistance. High-dose vitamin E has no evidence for restoring ovulation and carries risk at supraphysiologic doses.",
+    "tags": [
+      "PCOS",
+      "weight loss",
+      "ovulation",
+      "insulin resistance"
+    ]
+  },
+  {
+    "id": "m2-gf-pcos-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "hard",
+    "text": "Which pathophysiologic mechanism most directly links insulin resistance to hyperandrogenism in polycystic ovary syndrome?",
+    "options": [
+      "Hyperinsulinemia stimulates ovarian androgen production and lowers sex hormone binding globulin",
+      "Insulin resistance increases estrogen clearance exclusively",
+      "Hyperinsulinemia directly destroys ovarian follicles",
+      "Insulin resistance raises thyroid hormone, which drives androgen synthesis"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compensatory hyperinsulinemia acts on ovarian theca cells to amplify luteinizing hormone-driven androgen synthesis, while simultaneously suppressing hepatic production of sex hormone binding globulin. Less binding globulin means more free, biologically active testosterone, which produces hirsutism, acne and anovulation. This dual mechanism explains why insulin-sensitizing interventions improve the hormonal picture. Increased estrogen clearance is not the driving mechanism. Hyperinsulinemia does not destroy follicles; it contributes to arrested follicular development. Thyroid hormone is not the mediator, though thyroid disease should be excluded when evaluating menstrual irregularity.",
+    "tags": [
+      "PCOS",
+      "insulin resistance",
+      "hyperandrogenism",
+      "SHBG"
+    ]
+  },
+  {
+    "id": "m2-gf-pcos-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "medium",
+    "text": "Which dietary approach has the most support for improving insulin sensitivity in polycystic ovary syndrome?",
+    "options": [
+      "A low glycemic index dietary pattern with adequate fiber and protein",
+      "A diet composed mainly of fruit juices and refined grains",
+      "Complete elimination of dietary fat",
+      "Intermittent very low calorie fasting with no other changes"
+    ],
+    "correctIndex": 0,
+    "explanation": "A low glycemic index pattern with adequate fiber and protein blunts postprandial glucose and insulin excursions, which directly addresses the central insulin resistance of PCOS, and trials show improvements in insulin sensitivity and menstrual regularity. Fruit juices and refined grains produce large glycemic swings and worsen the underlying problem. Eliminating dietary fat removes satiety and essential fatty acids while shifting intake toward carbohydrate, which is counterproductive. Very low calorie fasting without broader dietary and behavioral change is difficult to sustain and has not been established as superior for this population.",
+    "tags": [
+      "PCOS",
+      "glycemic index",
+      "insulin sensitivity",
+      "dietary pattern"
+    ]
+  },
+  {
+    "id": "m2-gf-pcos-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "hard",
+    "text": "A woman with PCOS is started on metformin. Which nutrient deficiency should be monitored with long-term use?",
+    "options": [
+      "Vitamin B12",
+      "Vitamin K",
+      "Zinc",
+      "Vitamin A"
+    ],
+    "correctIndex": 0,
+    "explanation": "Metformin interferes with calcium-dependent absorption of the vitamin B12-intrinsic factor complex in the terminal ileum, and long-term use is associated with measurable B12 depletion, so periodic monitoring is recommended, particularly with symptoms of neuropathy or macrocytic anemia. Vitamin K status is affected by fat malabsorption, prolonged antibiotics and warfarin, not metformin. Zinc absorption is not meaningfully affected by metformin. Vitamin A is a fat-soluble vitamin whose status is compromised by fat malabsorption and certain bariatric procedures, again not by this medication.",
+    "tags": [
+      "PCOS",
+      "metformin",
+      "vitamin B12",
+      "drug-nutrient interaction"
+    ]
+  },
+  {
+    "id": "m2-gf-pcos-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "medium",
+    "text": "Under the Rotterdam criteria, how many of the three features are required to diagnose polycystic ovary syndrome?",
+    "options": [
+      "Two of three, after excluding other causes",
+      "All three features are required",
+      "One feature is sufficient",
+      "The criteria require only ultrasound findings"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Rotterdam criteria require two of three features: oligo-ovulation or anovulation, clinical or biochemical hyperandrogenism, and polycystic ovarian morphology on ultrasound, with exclusion of other conditions such as thyroid disease, hyperprolactinemia and congenital adrenal hyperplasia. Requiring all three would exclude many genuinely affected women, since polycystic morphology is absent in a substantial proportion. A single feature is not sufficient, because each occurs in other conditions. Relying on ultrasound alone is a common misconception; polycystic ovarian morphology is found in many women without the syndrome.",
+    "tags": [
+      "PCOS",
+      "Rotterdam criteria",
+      "diagnosis"
+    ]
+  },
+  {
+    "id": "m2-gf-pcos-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "hard",
+    "text": "A woman with PCOS is planning pregnancy. Which screening is most important given her condition?",
+    "options": [
+      "Screening for impaired glucose tolerance and gestational diabetes risk",
+      "Screening for iron overload",
+      "Screening for hypercalcemia",
+      "Screening for vitamin C deficiency"
+    ],
+    "correctIndex": 0,
+    "explanation": "PCOS substantially increases the risk of impaired glucose tolerance, type 2 diabetes and gestational diabetes, so glucose screening before and during pregnancy is a priority, commonly with an oral glucose tolerance test rather than fasting glucose alone, since postprandial abnormalities appear first. These women also face higher risks of preeclampsia and preterm birth. Iron overload is unrelated to PCOS and is screened in suspected hemochromatosis. Hypercalcemia is not a feature of the syndrome. Vitamin C deficiency is not associated with PCOS and would be unusual in this population.",
+    "tags": [
+      "PCOS",
+      "pregnancy",
+      "gestational diabetes",
+      "screening"
+    ]
+  },
+  {
+    "id": "m2-gf-pcos-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "medium",
+    "text": "Which statement about physical activity in polycystic ovary syndrome is most accurate?",
+    "options": [
+      "Exercise improves insulin sensitivity and hormonal profile even without significant weight loss",
+      "Exercise is only helpful if it produces at least 15% weight loss",
+      "Exercise worsens androgen excess and should be limited",
+      "Only high-intensity interval training provides any benefit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Regular physical activity improves insulin sensitivity, lowers circulating androgens and can improve menstrual regularity independent of weight change, because skeletal muscle glucose uptake increases through insulin-independent pathways. This matters clinically, since it gives patients a benefit they can achieve before the scale moves. Requiring 15% weight loss before any benefit is inaccurate and discouraging. Exercise reduces rather than worsens androgen excess. Both moderate continuous activity and interval training are beneficial, so restricting the recommendation to high-intensity work is unnecessarily narrow and less sustainable for many patients.",
+    "tags": [
+      "PCOS",
+      "physical activity",
+      "insulin sensitivity",
+      "androgens"
+    ]
+  },
+  {
+    "id": "m2-gf-pcos-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "PCOS",
+    "difficulty": "hard",
+    "text": "A patient with PCOS has acanthosis nigricans on the posterior neck. What does this finding most likely indicate?",
+    "options": [
+      "Significant insulin resistance",
+      "Vitamin A toxicity",
+      "Adrenal insufficiency",
+      "Iron deficiency anemia"
+    ],
+    "correctIndex": 0,
+    "explanation": "Acanthosis nigricans, the velvety hyperpigmented thickening typically seen on the posterior neck, axillae and skin folds, is a cutaneous marker of significant insulin resistance. High circulating insulin cross-activates insulin-like growth factor receptors on keratinocytes and fibroblasts, driving proliferation. Its presence should prompt formal glucose and insulin assessment. Vitamin A toxicity causes dry skin, desquamation, hepatotoxicity and raised intracranial pressure, not this pattern. Adrenal insufficiency produces generalized hyperpigmentation, including palmar creases and mucous membranes, rather than localized velvety plaques. Iron deficiency causes pallor, koilonychia and glossitis.",
+    "tags": [
+      "PCOS",
+      "acanthosis nigricans",
+      "insulin resistance",
+      "physical assessment"
+    ]
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "m2-gf-fld-01",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Fluid Needs",
+    "difficulty": "medium",
+    "text": "A 68-year-old woman weighing 60 kg is admitted with dehydration. Using the standard adult estimate of 30 to 35 mL/kg per day, what is her approximate daily fluid requirement?",
+    "options": [
+      "900 to 1,050 mL",
+      "1,800 to 2,100 mL",
+      "2,700 to 3,150 mL",
+      "600 to 700 mL"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiplying 60 kg by 30 to 35 mL/kg gives 1,800 to 2,100 mL per day. This weight-based method is the most commonly applied adult estimate, alongside the equivalent 1 mL per kilocalorie approach. The 900 to 1,050 mL range corresponds to roughly 15 to 17 mL/kg, which would leave an older adult substantially under-hydrated. The 2,700 to 3,150 mL range reflects 45 to 52 mL/kg and would risk fluid overload, particularly with any cardiac or renal impairment. The 600 to 700 mL range is far below any maintenance requirement and would perpetuate the dehydration.",
+    "tags": [
+      "fluid",
+      "calculation",
+      "hydration",
+      "older adults"
+    ]
+  },
+  {
+    "id": "m2-gf-fld-02",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Fluid Needs",
+    "difficulty": "hard",
+    "text": "A 22 kg child requires maintenance fluid. Using the Holliday-Segar method, what is the approximate daily requirement?",
+    "options": [
+      "1,540 mL",
+      "1,000 mL",
+      "2,200 mL",
+      "660 mL"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Holliday-Segar method allots 100 mL/kg for the first 10 kg, 50 mL/kg for the second 10 kg, and 20 mL/kg for each kilogram beyond 20. For 22 kg: 10 kg times 100 equals 1,000 mL, plus 10 kg times 50 equals 500 mL, plus 2 kg times 20 equals 40 mL, totaling 1,540 mL per day. The 1,000 mL figure captures only the first tier and omits the rest. The 2,200 mL figure applies 100 mL/kg to the entire weight, which overestimates substantially in a child above 10 kg. The 660 mL figure applies 30 mL/kg, an adult-style estimate that badly underestimates pediatric needs.",
+    "tags": [
+      "fluid",
+      "calculation",
+      "pediatric",
+      "Holliday-Segar"
+    ]
+  },
+  {
+    "id": "m2-gf-fld-03",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Fluid Needs",
+    "difficulty": "medium",
+    "text": "Which patient is at highest risk for inadequate fluid intake and dehydration?",
+    "options": [
+      "A 30-year-old athlete with free access to water",
+      "An 85-year-old nursing home resident with dementia and dependence on staff for drinks",
+      "A 45-year-old office worker who drinks coffee",
+      "A 25-year-old on a high-protein diet with normal renal function"
+    ],
+    "correctIndex": 1,
+    "explanation": "Older adults have a blunted thirst sensation, reduced renal concentrating ability and lower total body water, and when dementia and dependence on caregivers are added, intake becomes entirely reliant on someone else offering and assisting with drinks. That combination makes this resident the highest-risk patient. A healthy athlete with free water access can self-regulate effectively. Coffee contributes to daily fluid intake and its mild diuretic effect does not produce net dehydration at habitual intakes. A high-protein diet raises renal solute load and modestly increases water needs, but an alert young adult with normal kidneys and intact thirst readily compensates.",
+    "tags": [
+      "fluid",
+      "dehydration",
+      "older adults",
+      "risk assessment"
+    ]
+  },
+  {
+    "id": "m2-gf-fld-04",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Fluid Needs",
+    "difficulty": "hard",
+    "text": "A patient with a high-output ileostomy is producing 1,800 mL of effluent daily. Which recommendation is most appropriate for maintaining hydration?",
+    "options": [
+      "Drink large volumes of plain water throughout the day",
+      "Use an oral rehydration solution containing glucose and sodium",
+      "Restrict all oral fluids to reduce output",
+      "Drink hypotonic beverages such as diluted juice exclusively"
+    ],
+    "correctIndex": 1,
+    "explanation": "High ileostomy output causes substantial sodium and water losses, and plain water is poorly retained because sodium-dependent water absorption requires luminal sodium. Oral rehydration solutions exploit the sodium-glucose cotransporter to drive absorption, and are the recommended approach. Drinking large volumes of plain water can paradoxically worsen losses and cause hyponatremia. Restricting all oral fluids risks acute kidney injury in a patient already losing 1,800 mL daily. Hypotonic beverages such as diluted juice have low sodium and high osmotic sugar load, which increases output rather than improving retention.",
+    "tags": [
+      "fluid",
+      "ileostomy",
+      "oral rehydration",
+      "sodium"
+    ]
+  },
+  {
+    "id": "m2-gf-fld-05",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Fluid Needs",
+    "difficulty": "medium",
+    "text": "Which combination of findings best supports a clinical assessment of dehydration?",
+    "options": [
+      "Elevated BUN-to-creatinine ratio, concentrated urine, decreased skin turgor and orthostatic hypotension",
+      "Low serum sodium with peripheral edema",
+      "Elevated serum albumin with weight gain",
+      "Bradycardia with dilute urine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dehydration is a hemoconcentration state. A BUN-to-creatinine ratio above roughly 20 to 1, concentrated urine with high specific gravity, decreased skin turgor and orthostatic blood pressure changes form a coherent picture of volume depletion. Low sodium with peripheral edema suggests fluid overload with dilutional hyponatremia, the opposite problem. Elevated albumin can accompany hemoconcentration, but pairing it with weight gain is contradictory, since dehydration produces acute weight LOSS. Bradycardia with dilute urine is inconsistent, because volume depletion typically produces compensatory tachycardia and maximally concentrated urine.",
+    "tags": [
+      "fluid",
+      "assessment",
+      "dehydration",
+      "laboratory"
+    ]
+  },
+  {
+    "id": "m2-gf-fld-06",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Fluid Needs",
+    "difficulty": "hard",
+    "text": "A patient with syndrome of inappropriate antidiuretic hormone secretion has a serum sodium of 124 mEq/L. What is the primary nutrition-related intervention?",
+    "options": [
+      "Increase free water intake",
+      "Fluid restriction",
+      "High-sodium intravenous fluids as first-line therapy in all cases",
+      "Protein restriction"
+    ],
+    "correctIndex": 1,
+    "explanation": "In SIADH, excess antidiuretic hormone causes water retention and dilutional hyponatremia, so the cornerstone of management is fluid restriction, commonly 800 to 1,000 mL per day, sometimes with increased dietary solute. Increasing free water would deepen the hyponatremia and risk cerebral edema and seizures. Hypertonic saline is reserved for severe symptomatic hyponatremia with neurologic manifestations and must be corrected slowly to avoid osmotic demyelination, so it is not a first-line measure in all cases. Protein restriction is not indicated; if anything, solute intake may be increased to promote water excretion.",
+    "tags": [
+      "fluid",
+      "SIADH",
+      "hyponatremia",
+      "fluid restriction"
+    ]
+  },
+  {
+    "id": "m2-gf-fld-07",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Fluid Needs",
+    "difficulty": "medium",
+    "text": "A patient receives 2,000 kcal daily from tube feeding. Using the 1 mL per kilocalorie method, what is the estimated fluid requirement, and how does formula water factor in?",
+    "options": [
+      "2,000 mL total, all of which is supplied by a 1.5 kcal/mL formula",
+      "2,000 mL total, with additional water flushes needed because formula is only 70 to 85% water",
+      "1,000 mL total, since formula counts double",
+      "4,000 mL total to account for insensible losses"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 1 mL per kilocalorie method estimates about 2,000 mL for a 2,000 kcal intake. The critical clinical point is that formula volume is not equivalent to free water: a 1.5 kcal/mL formula is roughly 76 to 78% water, so 1,333 mL of formula supplies only about 1,020 mL of water, leaving a deficit that flushes must cover. Claiming the formula supplies it all is the exact error that produces hypernatremia. Formula water does not count double. Multiplying to 4,000 mL doubles the requirement without physiologic basis and risks overload.",
+    "tags": [
+      "fluid",
+      "tube feeding",
+      "free water",
+      "calculation"
+    ]
+  },
+  {
+    "id": "m2-gf-fld-08",
+    "moduleId": "mod2",
+    "domain": "Domain II",
+    "topic": "Fluid Needs",
+    "difficulty": "hard",
+    "text": "A 70 kg burn patient with 40% total body surface area burns is in the first 24 hours post-injury. Which statement about fluid management is most accurate?",
+    "options": [
+      "Fluid needs are unchanged from baseline maintenance",
+      "Fluid needs are markedly increased due to evaporative and capillary leak losses, guided by formal resuscitation formulas",
+      "Fluids should be restricted to prevent edema",
+      "Only oral fluids should be used in the first 24 hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "Major burns cause massive fluid shifts from capillary leak plus large evaporative losses through the damaged skin barrier, so requirements far exceed maintenance and are calculated with formal resuscitation formulas such as the Parkland formula, titrated to urine output. Assuming baseline maintenance would lead to under-resuscitation and hypovolemic shock. Restricting fluids to prevent edema is dangerous in the resuscitation phase, when intravascular volume must be preserved. Relying on oral fluids alone is inadequate for a 40% burn, where intravenous resuscitation is required in the first 24 hours.",
+    "tags": [
+      "fluid",
+      "burns",
+      "resuscitation",
+      "critical care"
+    ]
+  }
+]

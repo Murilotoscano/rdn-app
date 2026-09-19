@@ -32,7 +32,7 @@ export default function ReviewModal({
         <div className={styles.overlay}>
             <div className={styles.modal}>
                 <div className={styles.header}>
-                    <h2>Revisão do Exame</h2>
+                    <h2>Exam Review</h2>
                     <button onClick={onClose} className={styles.closeBtn}>
                         <X size={24} />
                     </button>
@@ -40,11 +40,11 @@ export default function ReviewModal({
 
                 <div className={styles.stats}>
                     <div className={styles.statItem}>
-                        <span className={styles.label}>Respondidas</span>
+                        <span className={styles.label}>Answered</span>
                         <span className={styles.value}>{answeredCount}/{totalQuestions}</span>
                     </div>
                     <div className={styles.statItem}>
-                        <span className={styles.label}>Marcadas</span>
+                        <span className={styles.label}>Flagged</span>
                         <span className={styles.value}>{flaggedCount}</span>
                     </div>
                 </div>
@@ -75,10 +75,10 @@ export default function ReviewModal({
 
                 <div className={styles.footer}>
                     <button className={styles.cancelBtn} onClick={onClose}>
-                        Voltar ao Exame
+                        Return to Exam
                     </button>
                     <button className={styles.finishBtn} onClick={onFinish}>
-                        Finalizar Exame
+                        End Exam
                     </button>
                 </div>
             </div>
