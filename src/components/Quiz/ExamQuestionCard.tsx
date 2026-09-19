@@ -13,6 +13,10 @@ interface Props {
     onToggleFlag: () => void;
     questionIndex: number;
     totalQuestions: number;
+    /** Off under real exam rules: flagging only matters if you can come back, and the
+     *  real exam labels no question with its domain. */
+    showFlag?: boolean;
+    showDomain?: boolean;
 }
 
 export default function ExamQuestionCard({
@@ -22,23 +26,25 @@ export default function ExamQuestionCard({
     onSelect,
     onToggleFlag,
     questionIndex,
-    totalQuestions
+    totalQuestions,
+    showFlag = true,
+    showDomain = true
 }: Props) {
     return (
         <div className={styles.card}>
             <div className={styles.header}>
                 <div className={styles.meta}>
                     <span className={styles.number}>Question {questionIndex + 1} of {totalQuestions}</span>
-                    <span className={styles.domain}>{question.domain}</span>
+                    {showDomain && <span className={styles.domain}>{question.domain}</span>}
                 </div>
-                <button
+                {showFlag && <button
                     className={clsx(styles.flagBtn, { [styles.activeFlag]: isFlagged })}
                     onClick={onToggleFlag}
                     title="Flag for review"
                 >
                     <Flag size={18} fill={isFlagged ? "currentColor" : "none"} />
                     <span>{isFlagged ? 'Flagged' : 'Flag'}</span>
-                </button>
+                </button>}
             </div>
 
             <div className={styles.body}>

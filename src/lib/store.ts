@@ -90,6 +90,13 @@ export interface ExamResult {
     domainScores: Record<string, { correct: number; total: number }>;
     timeSpentSeconds: number;
     mode: 'mock' | 'practice'; // Added mode to distinguish
+    /** Taken under real exam rules (examRules.ts): only answered questions are scored. */
+    realConditions?: boolean;
+    /** Fewer than the minimum answered before time ran out: a fail on the real exam. */
+    inconclusive?: boolean;
+    /** Questions never attempted before this session, and how many of those were right. */
+    freshTotal?: number;
+    freshCorrect?: number;
 }
 
 interface FilterOptions {

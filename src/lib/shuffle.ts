@@ -91,7 +91,12 @@ export function shuffleQuestionOptions<T extends Question>(question: T, seed: nu
  * If a domain pool cannot fill its quota, the shortfall is backfilled from the remaining
  * questions so the caller still gets `count` items.
  */
-export function sampleByBlueprint(pool: Question[], count: number, seed: number): Question[] {
+export function sampleByBlueprint(
+    pool: Question[],
+    count: number,
+    seed: number,
+    seen?: Record<string, number>
+): Question[] {
     const rand = mulberry32(seed);
 
     const byDomain = new Map<string, Question[]>();
@@ -100,7 +105,13 @@ export function sampleByBlueprint(pool: Question[], count: number, seed: number)
         if (list) list.push(q);
         else byDomain.set(q.domain, [q]);
     }
-    for (const list of byDomain.values()) seededShuffle(list, rand);
+    for (const list of byDomain.values()) {
+        seededShuffle(list, rand);
+        // A score on remembered questions measures memory, not readiness. Put never-attempted
+        // questions first, then the ones attempted longest ago. The sort is stable, so the
+        // shuffle still randomizes order within each group.
+        if (seen) list.sort((a, b) => (seen[a.id] ?? -Infinity) - (seen[b.id] ?? -Infinity));
+    }
 
     const domains = Object.keys(CDR_BLUEPRINT);
 

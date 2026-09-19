@@ -193,15 +193,28 @@ export default function Home() {
             </p>
           </Link>
 
-          <Link href="/simulation" className={styles.actionCard}>
+          <div className={styles.actionCard}>
+            {/* The whole card starts a real-conditions exam; the smaller link sits above it
+                so the review-friendly mode stays reachable by pointer and keyboard. */}
+            <Link
+              href="/simulation"
+              aria-label="Mock Exam: real exam rules"
+              style={{ position: 'absolute', inset: 0, zIndex: 0, borderRadius: 'inherit' }}
+            />
             <div className={styles.cardIcon} style={{ background: '#fff5f5', color: '#c53030' }}>
               <Clock size={28} />
             </div>
             <h3 className={styles.cardTitle}>Mock Exam</h3>
             <p className={styles.cardDesc}>
-              145 timed questions. Feel the pressure of the real exam.
+              Real exam rules: 3 hours, up to 145 questions, no going back. New questions first.
             </p>
-          </Link>
+            <Link
+              href="/simulation?mode=review"
+              style={{ position: 'relative', zIndex: 1, fontSize: '0.8rem', color: 'var(--primary)', textDecoration: 'none' }}
+            >
+              Or practice with flag &amp; review →
+            </Link>
+          </div>
 
           <Link href="/study-plan" className={styles.actionCard} style={{ border: '2px solid #6366f1' }}>
             <div className={styles.cardIcon} style={{ background: '#eef2ff', color: '#6366f1' }}>

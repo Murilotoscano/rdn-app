@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { ChevronLeft, ChevronRight, Grid } from 'lucide-react';
 import { Question } from '@/types';
 import { store } from '@/lib/store';
+import { EXAM_MINUTES, EXAM_MIN_ANSWERED } from '@/lib/examRules';
 import Timer from './Timer';
 import ExamQuestionCard from './ExamQuestionCard';
 import ReviewModal from './ReviewModal';
@@ -12,9 +13,16 @@ import styles from './ExamInterface.module.css';
 
 interface Props {
     questions: Question[];
+    /** Ids of questions this student had never attempted before this exam. */
+    freshIds: Set<string>;
+    /**
+     * Real exam rules: no going back, no skipping, no flag-and-review, answer to advance,
+     * and only answered questions are scored. Off keeps the older review-friendly mock.
+     */
+    realConditions: boolean;
 }
 
-export default function ExamInterface({ questions }: Props) {
+export default function ExamInterface({ questions, freshIds, realConditions }: Props) {
     const router = useRouter();
     const [currIndex, setCurrIndex] = useState(0);
     const [answers, setAnswers] = useState<Record<number, number>>({});
@@ -23,6 +31,9 @@ export default function ExamInterface({ questions }: Props) {
     const finishedRef = useRef(false);
     const [flags, setFlags] = useState<Record<number, boolean>>({});
     const [isReviewOpen, setIsReviewOpen] = useState(false);
+
+    const answeredCurrent = answers[currIndex] !== undefined;
+    const isLast = currIndex === questions.length - 1;
 
     const handleAnswer = (optionIndex: number) => {
         setAnswers(prev => ({ ...prev, [currIndex]: optionIndex }));
@@ -33,6 +44,8 @@ export default function ExamInterface({ questions }: Props) {
     };
 
     const handleNext = () => {
+        // The real exam will not advance without a response.
+        if (realConditions && !answeredCurrent) return;
         if (currIndex < questions.length - 1) {
             setCurrIndex(prev => prev + 1);
         }
@@ -48,18 +61,31 @@ export default function ExamInterface({ questions }: Props) {
         if (finishedRef.current) return;
         finishedRef.current = true;
 
+        // Under real rules an unanswered question was never reached (time ran out), so it is
+        // not scored, exactly as on the adaptive exam. In review mode every question counts
+        // and a skip is logged as "unsure".
+        const scored = questions
+            .map((q, idx) => ({ q, answer: answers[idx] }))
+            .filter(({ answer }) => !realConditions || answer !== undefined);
+
         let score = 0;
+        let freshTotal = 0;
+        let freshCorrect = 0;
         const domainScores: Record<string, { correct: number; total: number }> = {};
         const misses: { question: Question; status: 'incorrect' | 'unsure'; reason?: string }[] = [];
 
-        questions.forEach((q, idx) => {
+        for (const { q, answer } of scored) {
             if (!domainScores[q.domain]) domainScores[q.domain] = { correct: 0, total: 0 };
             domainScores[q.domain].total++;
 
-            const answer = answers[idx];
-            if (answer === q.correctIndex) {
+            const correct = answer === q.correctIndex;
+            const fresh = freshIds.has(q.id);
+            if (fresh) freshTotal++;
+
+            if (correct) {
                 score++;
                 domainScores[q.domain].correct++;
+                if (fresh) freshCorrect++;
             } else {
                 // A skipped question is "unsure" rather than "incorrect": no wrong belief to correct.
                 misses.push({
@@ -68,8 +94,10 @@ export default function ExamInterface({ questions }: Props) {
                     reason: answer === undefined ? 'Skipped on mock exam' : 'Missed on mock exam'
                 });
             }
-        });
+        }
 
+        const answeredCount = Object.keys(answers).length;
+        const inconclusive = realConditions && answeredCount < EXAM_MIN_ANSWERED;
         const date = new Date().toISOString();
 
         // Without this the mock never reaches getStats(), so accuracy and the dashboard's
@@ -78,10 +106,14 @@ export default function ExamInterface({ questions }: Props) {
             id: `mock-${Date.now()}`,
             date,
             score,
-            totalQuestions: questions.length,
+            totalQuestions: scored.length,
             domainScores,
             timeSpentSeconds: Math.round((Date.now() - startedAt) / 1000),
-            mode: 'mock'
+            mode: 'mock',
+            realConditions,
+            inconclusive,
+            freshTotal,
+            freshCorrect
         });
 
         // And this is what puts the mock's misses into the review queue.
@@ -90,15 +122,20 @@ export default function ExamInterface({ questions }: Props) {
 
         const resultData = {
             score,
-            total: questions.length,
+            total: scored.length,
             answers,
             questions, // Ideally don't store full questions in LS, but OK for MVP
-            date
+            date,
+            realConditions,
+            inconclusive,
+            answeredCount,
+            freshTotal,
+            freshCorrect
         };
         localStorage.setItem('lastExamResult', JSON.stringify(resultData));
 
         router.push('/simulation/result');
-    }, [answers, questions, router, startedAt]);
+    }, [answers, questions, router, startedAt, freshIds, realConditions]);
 
     const currQuestion = questions[currIndex];
 
@@ -108,21 +145,25 @@ export default function ExamInterface({ questions }: Props) {
             <header className={styles.header}>
                 <div className={styles.headerLeft}>
                     <h1 className={styles.title}>RDN Mock Exam</h1>
-                    <span className={styles.subtitle}>{currIndex + 1} of {questions.length}</span>
+                    <span className={styles.subtitle}>
+                        {currIndex + 1} of {questions.length}{realConditions ? ' · Exam conditions' : ' · Review mode'}
+                    </span>
                 </div>
 
                 <div className={styles.headerRight}>
                     <Timer
-                        durationInSeconds={150 * 60} // 2.5 hours
+                        durationInSeconds={EXAM_MINUTES * 60}
                         onTimeUp={handleFinish}
                     />
-                    <button
-                        className={styles.reviewBtn}
-                        onClick={() => setIsReviewOpen(true)}
-                    >
-                        <Grid size={20} />
-                        <span>Review</span>
-                    </button>
+                    {!realConditions && (
+                        <button
+                            className={styles.reviewBtn}
+                            onClick={() => setIsReviewOpen(true)}
+                        >
+                            <Grid size={20} />
+                            <span>Review</span>
+                        </button>
+                    )}
                 </div>
             </header>
 
@@ -136,48 +177,68 @@ export default function ExamInterface({ questions }: Props) {
                     onToggleFlag={toggleFlag}
                     questionIndex={currIndex}
                     totalQuestions={questions.length}
+                    showFlag={!realConditions}
+                    showDomain={!realConditions}
                 />
             </main>
 
             {/* Footer Controls */}
             <footer className={styles.footer}>
-                <button
-                    className={styles.navBtn}
-                    onClick={handlePrev}
-                    disabled={currIndex === 0}
-                >
-                    <ChevronLeft size={20} />
-                    Previous
-                </button>
+                {realConditions ? (
+                    <span className={styles.subtitle}>
+                        {answeredCurrent ? 'Answer locked in when you continue.' : 'Select an answer to continue.'}
+                    </span>
+                ) : (
+                    <>
+                        <button
+                            className={styles.navBtn}
+                            onClick={handlePrev}
+                            disabled={currIndex === 0}
+                        >
+                            <ChevronLeft size={20} />
+                            Previous
+                        </button>
 
-                <button
-                    className={styles.navBtn}
-                    onClick={() => setIsReviewOpen(true)} // Or maybe just "Mark"? Review seems better for mobile flow
-                >
-                    Review All
-                </button>
+                        <button
+                            className={styles.navBtn}
+                            onClick={() => setIsReviewOpen(true)}
+                        >
+                            Review All
+                        </button>
+                    </>
+                )}
 
-                {currIndex === questions.length - 1 ? (
-                    <button className={styles.finishBtn} onClick={handleFinish}>
+                {isLast ? (
+                    <button
+                        className={styles.finishBtn}
+                        onClick={handleFinish}
+                        disabled={realConditions && !answeredCurrent}
+                    >
                         End Exam
                     </button>
                 ) : (
-                    <button className={styles.navBtn} onClick={handleNext}>
+                    <button
+                        className={styles.navBtn}
+                        onClick={handleNext}
+                        disabled={realConditions && !answeredCurrent}
+                    >
                         Next
                         <ChevronRight size={20} />
                     </button>
                 )}
             </footer>
 
-            <ReviewModal
-                isOpen={isReviewOpen}
-                onClose={() => setIsReviewOpen(false)}
-                totalQuestions={questions.length}
-                answers={answers}
-                flags={flags}
-                onJumpTo={setCurrIndex}
-                onFinish={handleFinish}
-            />
+            {!realConditions && (
+                <ReviewModal
+                    isOpen={isReviewOpen}
+                    onClose={() => setIsReviewOpen(false)}
+                    totalQuestions={questions.length}
+                    answers={answers}
+                    flags={flags}
+                    onJumpTo={setCurrIndex}
+                    onFinish={handleFinish}
+                />
+            )}
         </div>
     );
 }

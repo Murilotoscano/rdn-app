@@ -22477,12 +22477,16 @@ export async function getQuestions(
     return start.slice(0, limit).map(q => shuffleQuestionOptions(q, seed));
 }
 
-/** A mock exam drawn to the CDR domain weights rather than uniformly across the bank. */
-export async function getBlueprintExam(
-    count = 145,
-    seed: number = newSessionSeed()
-): Promise<Question[]> {
-    return sampleByBlueprint(SAMPLE_QUESTIONS, count, seed)
+/**
+ * A mock exam drawn to the CDR domain weights rather than uniformly across the bank.
+ * Pass the attempted-question map to draw unseen questions first.
+ */
+export function drawBlueprintExam(
+    count: number,
+    seed: number = newSessionSeed(),
+    seen?: Record<string, number>
+): Question[] {
+    return sampleByBlueprint(SAMPLE_QUESTIONS, count, seed, seen)
         .map(q => shuffleQuestionOptions(q, seed));
 }
 

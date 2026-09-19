@@ -891,7 +891,7 @@ export const studyPlanData: Record<number, DayContent> = {
         theoryContent: `
             <section>
                 <h2>1. How the Exam Is Built</h2>
-                <p>The CDR RD exam is computer adaptive. It delivers between 125 and 145 questions in 2.5 hours, and it stops once it can determine pass or fail with confidence. A scaled score of <strong>25</strong> is passing on a 1-50 scale.</p>
+                <p>The CDR RD exam is computer adaptive. It delivers between 125 and 145 questions in 3 hours, and it stops once it can determine pass or fail with confidence. If fewer than 125 are answered when time runs out, the exam is scored as a fail. A scaled score of <strong>25</strong> is passing on a 1-50 scale.</p>
                 <p><strong>Domain weighting:</strong></p>
                 <ul>
                     <li>Domain I - Food and Nutrition Sciences: <strong>21%</strong></li>
@@ -2739,7 +2739,7 @@ export const studyPlanData: Record<number, DayContent> = {
                 <h3>During the Exam</h3>
                 <ul>
                     <li>You CANNOT go back. Commit to each answer and move on.</li>
-                    <li>About 1 minute per question. If you are stuck past 90 seconds, choose your best option and move.</li>
+                    <li>You have 3 hours for up to 145 questions, about 74 seconds each, and you must answer at least 125 before time runs out, which means averaging under 86 seconds. If a question passes about 90 seconds, choose your best option and move on.</li>
                     <li>Answer every question. There is no penalty for a wrong answer.</li>
                     <li>Adaptive tests are designed to feel hard. Difficulty rising is a sign you are performing WELL, not failing.</li>
                     <li>Do not try to track your score as you go. It is not possible and it costs you attention.</li>
