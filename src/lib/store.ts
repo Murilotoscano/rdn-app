@@ -62,6 +62,8 @@ export interface BackupFile {
         cdrProgress: Record<string, CdrProgress>;
         customQuestions: CdrQuestion[];
         customProgress: Record<string, CdrProgress>;
+        /** Question id -> last attempted (epoch ms). Absent in v1 backups. */
+        seenQuestions?: Record<string, number>;
     };
 }
 
@@ -105,10 +107,11 @@ const STORAGE_KEYS = {
     CDR_PROGRESS: 'rdn_cdr_progress',
     CUSTOM_QUESTIONS: 'rdn_custom_questions',
     CUSTOM_PROGRESS: 'rdn_custom_progress',
+    SEEN: 'rdn_seen_questions',
 };
 
 const BACKUP_FORMAT = 'rdn-app-backup';
-const BACKUP_VERSION = 1;
+const BACKUP_VERSION = 2; // v2 adds seenQuestions; v1 files still import
 
 const BACKUP_META_KEYS = {
     LAST_BACKUP_AT: 'rdn_last_backup_at',
@@ -461,6 +464,58 @@ export const store = {
 
     // --- Backup / Restore (works with no server) ---
 
+    /**
+     * Every question attempted at least once. The error log only holds misses, so it
+     * cannot measure coverage: a perfect run would read as 0% complete.
+     *
+     * On first read the set is seeded from what already exists, so progress made before
+     * this was tracked is not lost: every logged question except mock-exam skips (shown
+     * but never answered), plus the answered items of the last mock. Earlier correct
+     * answers were never recorded anywhere, so coverage starts as a lower bound.
+     */
+    getSeen: (): Record<string, number> => {
+        if (typeof window === 'undefined') return {};
+        const raw = localStorage.getItem(STORAGE_KEYS.SEEN);
+        if (raw) {
+            try { return JSON.parse(raw); } catch { /* fall through and reseed */ }
+        }
+
+        const seen: Record<string, number> = {};
+        for (const item of store.getErrorLog()) {
+            if (item.errorReason === 'Skipped on mock exam') continue;
+            seen[item.questionId] = item.lastAttemptAt ?? item.dateLoggedAt ?? Date.now();
+        }
+        try {
+            const last = JSON.parse(localStorage.getItem('lastExamResult') || 'null');
+            if (last?.questions && last?.answers) {
+                const at = Date.parse(last.date) || Date.now();
+                for (const idx of Object.keys(last.answers)) {
+                    const q = last.questions[Number(idx)];
+                    if (q?.id) seen[q.id] = Math.max(seen[q.id] ?? 0, at);
+                }
+            }
+        } catch { /* a malformed last result only means a smaller seed */ }
+
+        localStorage.setItem(STORAGE_KEYS.SEEN, JSON.stringify(seen));
+        return seen;
+    },
+
+    markSeen: (questionIds: string[]) => {
+        if (typeof window === 'undefined' || questionIds.length === 0) return;
+        const seen = store.getSeen();
+        const now = Date.now();
+        for (const id of questionIds) seen[id] = now;
+        localStorage.setItem(STORAGE_KEYS.SEEN, JSON.stringify(seen));
+    },
+
+    /** Attempted questions that still exist in the bank, out of the bank's size. */
+    getCoverage: (validIds: Set<string>) => {
+        const seen = store.getSeen();
+        let attempted = 0;
+        for (const id of Object.keys(seen)) if (validIds.has(id)) attempted++;
+        return { attempted, total: validIds.size };
+    },
+
     recordBackup: () => {
         if (typeof window === 'undefined') return;
         localStorage.setItem(BACKUP_META_KEYS.LAST_BACKUP_AT, new Date().toISOString());
@@ -532,6 +587,7 @@ export const store = {
             cdrProgress: store.getCdrProgress(),
             customQuestions: store.getCustomQuestions(),
             customProgress: store.getCustomProgress(),
+            seenQuestions: store.getSeen(),
         }
     }),
 
@@ -574,6 +630,12 @@ export const store = {
         store.saveCdrProgress({ ...(incoming.cdrProgress ?? {}), ...store.getCdrProgress() });
         store.saveCustomProgress({ ...(incoming.customProgress ?? {}), ...store.getCustomProgress() });
         store.addCustomQuestions(incoming.customQuestions ?? []);
+
+        const seenMap = store.getSeen();
+        for (const [id, at] of Object.entries(incoming.seenQuestions ?? {})) {
+            if (at > (seenMap[id] ?? 0)) seenMap[id] = at;
+        }
+        localStorage.setItem(STORAGE_KEYS.SEEN, JSON.stringify(seenMap));
 
         return { added, updated, examsAdded: newExams.length };
     },
@@ -650,11 +712,19 @@ export const store = {
     },
 
     // 3. Retrieval with Filters
-    getDueReviews: (filters?: FilterOptions): ErrorLogItem[] => {
+    /**
+     * Pass validIds (the ids currently in the bank) to drop orphans: log entries for
+     * questions that were later removed. They can never be shown, so counting them
+     * leaves a review permanently "due" and stalls the review screen on its loader.
+     * The store cannot import the bank itself; it is loaded on every page via the
+     * backup reminder, and the bank is 1.3 MB.
+     */
+    getDueReviews: (filters?: FilterOptions, validIds?: Set<string>): ErrorLogItem[] => {
         const log = store.getErrorLog();
         const now = Date.now();
 
-        let due = log.filter(item => !item.mastered && item.nextReviewAt <= now);
+        let due = log.filter(item =>
+            !item.mastered && item.nextReviewAt <= now && (!validIds || validIds.has(item.questionId)));
 
         if (filters) {
             if (filters.overdueOnly) {
@@ -675,8 +745,8 @@ export const store = {
         return due.sort((a, b) => a.nextReviewAt - b.nextReviewAt);
     },
 
-    getReviewCounts: () => {
-        const log = store.getErrorLog();
+    getReviewCounts: (validIds?: Set<string>) => {
+        const log = store.getErrorLog().filter(item => !validIds || validIds.has(item.questionId));
         const now = Date.now();
 
         const due = log.filter(item => !item.mastered && item.nextReviewAt <= now);

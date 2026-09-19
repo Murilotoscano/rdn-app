@@ -86,6 +86,7 @@ export default function ExamInterface({ questions }: Props) {
 
         // And this is what puts the mock's misses into the review queue.
         store.logErrorsBatch(misses);
+        store.markSeen(questions.filter((_, idx) => answers[idx] !== undefined).map(q => q.id));
 
         const resultData = {
             score,

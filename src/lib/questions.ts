@@ -22450,6 +22450,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
         }
 ];
 
+/** Ids currently in the bank; used to ignore stored progress for removed questions. */
+export const QUESTION_IDS: Set<string> = new Set(SAMPLE_QUESTIONS.map(q => q.id));
+
 export async function getQuestions(
     moduleId?: string,
     limit = 10,

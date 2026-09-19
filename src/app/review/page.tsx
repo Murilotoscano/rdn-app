@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState, Suspense } from "react";
 import AppLayout from "@/components/Layout/AppLayout";
-import { getQuestionsByIds } from "@/lib/questions";
+import { getQuestionsByIds, QUESTION_IDS } from "@/lib/questions";
 import { store, ErrorLogItem } from "@/lib/store";
 import { Question } from "@/types";
 import QuestionCard, { AnswerStatus } from "@/components/Quiz/QuestionCard";
@@ -36,7 +36,7 @@ function ReviewContent() {
             if (filterMode === 'unsure') filters.onlyUnsure = true;
             if (filterMode === 'incorrect') filters.onlyIncorrect = true;
 
-            const due = store.getDueReviews(filters);
+            const due = store.getDueReviews(filters, QUESTION_IDS);
             setDueItems(due);
             setLoading(false);
         }

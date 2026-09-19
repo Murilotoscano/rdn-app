@@ -56,6 +56,7 @@ function PracticeContent() {
         // Answering correctly but unsure still counts as correct for scoring; the uncertainty
         // is captured separately in the error log.
         outcomesRef.current[q.id] = isCorrect;
+        store.markSeen([q.id]);
 
         if (isCorrect && status === 'confident') {
             setScore(s => s + 1);

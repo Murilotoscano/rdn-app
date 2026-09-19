@@ -6,7 +6,7 @@ import { Play, BookOpen, Clock, Award, Zap, Repeat, Cloud, CloudOff, RefreshCw }
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { store, SyncResult } from "@/lib/store";
-import { SAMPLE_QUESTIONS } from "@/lib/questions";
+import { SAMPLE_QUESTIONS, QUESTION_IDS } from "@/lib/questions";
 import ScoreTrendChart from "@/components/ScoreTrendChart";
 
 export default function Home() {
@@ -16,20 +16,24 @@ export default function Home() {
   }>({ due: 0, overdue: 0, mastered: 0, total: 0, dueUnsure: 0, dueIncorrect: 0 });
 
   const [readinessScore, setReadinessScore] = useState({ score: 0, accuracy: 0, completion: 0 });
+  const [attempted, setAttempted] = useState(0);
   const [mounted, setMounted] = useState(false);
   const [syncing, setSyncing] = useState(false);
   const [lastSync, setLastSync] = useState<string | null>(null);
   const [sync, setSync] = useState<SyncResult>({ state: 'disabled', message: 'Not synced yet' });
 
   useEffect(() => {
-    const reviewCounts = store.getReviewCounts();
+    const reviewCounts = store.getReviewCounts(QUESTION_IDS);
     setCounts(reviewCounts);
 
     // Calculate Readiness Score
-    const totalQuestions = SAMPLE_QUESTIONS.length;
     const stats30Days = store.getStats(30);
     const overallAccuracy = stats30Days ? stats30Days.accuracy : 0;
-    const completionPercentage = (reviewCounts.total / totalQuestions) * 100;
+    // Coverage counts every question attempted. It previously used the error log's size,
+    // which only holds misses, so answering wrong raised "completion" and readiness.
+    const coverage = store.getCoverage(QUESTION_IDS);
+    setAttempted(coverage.attempted);
+    const completionPercentage = coverage.total > 0 ? (coverage.attempted / coverage.total) * 100 : 0;
 
     // Algorithm: 60% weight on accuracy, 40% weight on completion (capped at 100%)
     const score = Math.min(100, Math.round((overallAccuracy * 0.6) + (completionPercentage * 0.4)));
@@ -54,7 +58,7 @@ export default function Home() {
       // Only claim a sync time when one actually happened.
       if (result.state === 'ok') setLastSync(new Date().toLocaleTimeString());
 
-      const reviewCounts = store.getReviewCounts();
+      const reviewCounts = store.getReviewCounts(QUESTION_IDS);
       setCounts(reviewCounts);
     } catch (e) {
       console.error("Sync failed", e);
@@ -132,7 +136,7 @@ export default function Home() {
 
         <div className={styles.statCard}>
           <span className={styles.statLabel}>Bank Completion</span>
-          <span className={styles.statValue}>{counts.total} <span style={{ fontSize: '1rem', color: 'var(--text-muted)' }}>/ {SAMPLE_QUESTIONS.length}</span></span>
+          <span className={styles.statValue}>{attempted} <span style={{ fontSize: '1rem', color: 'var(--text-muted)' }}>/ {SAMPLE_QUESTIONS.length}</span></span>
           <div className={styles.progressBarContainer}>
             <div className={styles.progressBarFill} style={{ width: `${readinessScore.completion}%` }}></div>
           </div>
