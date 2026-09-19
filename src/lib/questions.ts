@@ -78,10 +78,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which listening response typically involves the counselor paraphrasing what the client said to focus on the client's feelings?",
             "options": [
-                "Probing",
+                "Probing questions",
                 "Reflective Listening",
-                "Legitimation",
-                "Evaluation"
+                "Legitimation statement",
+                "Evaluation response"
             ],
             "correctIndex": 1,
             "explanation": "Reflective Listening involved rephrasing or summarizing what the client has said to show understanding and help the client hear their own thoughts/feelings (e.g., 'So you feel frustrated when...').",
@@ -120,7 +120,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "According to the Health Belief Model, 'Self-efficacy' is defined as:",
             "options": [
                 "The personal belief that one is susceptible to a serious health condition",
-                "The belief that adopting a new behavior will yield beneficial results",
+                "The belief that adopting a new behavior will yield beneficial health results",
                 "The individual's belief in their own ability to successfully perform a behavior",
                 "The internal or external cues that trigger the decision to take action"
             ],
@@ -142,7 +142,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Summative Evaluation",
                 "Formative Evaluation",
-                "Outcome Evaluation",
+                "Outcome (impact) Evaluation",
                 "Criterion-referenced Evaluation"
             ],
             "correctIndex": 1,
@@ -161,9 +161,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "In the context of cultural competence, the 'ETHNIC' model stands for:",
             "options": [
                 "Explanation, Treatment, Healers, Negotiation, Intervention, Collaboration",
-                "Ethics, Time, Health, Nutrition, Intelligence, Care",
-                "Empathy, Trust, Help, Nutrition, Interaction, Communication",
-                "Education, Therapy, Health, Nutrition, Interview, Care"
+                "Evaluation, Tradition, Heritage, Nutrition, Interpretation, Consent",
+                "Empathy, Trust, Hospitality, Nurturing, Interaction, Communication",
+                "Education, Transparency, Honesty, Negotiation, Inclusion, Compassion"
             ],
             "correctIndex": 0,
             "explanation": "The ETHNIC model includes: Explanation (how client explains illness), Treatment (what they expect), Healers (traditional), Negotiation (options), Intervention, Collaboration.",
@@ -242,10 +242,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which zone of personal space (proxemics) is generally appropriate for a business or consulting interaction (like nutrition counseling) in the US?",
             "options": [
-                "Intimate Zone (< 18 inches)",
+                "Intimate Zone (contact - 18 inches)",
                 "Personal Zone (18 inches - 4 feet)",
-                "Social Zone (4 - 12 feet)",
-                "Public Zone (> 12 feet)"
+                "Social Zone (4 feet - 12 feet)",
+                "Public Zone (12 - 25 feet or more)"
             ],
             "correctIndex": 1,
             "explanation": "The Personal Zone (18 inches to 4 feet) is typical for one-on-one interactions like counseling or instruction. The Social zone is for group interactions.",
@@ -263,10 +263,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Social Cognitive Theory (Bandura) emphasizes the role of:",
             "options": [
-                "Biological factors and genetic predispositions as the primary drivers of behavior",
+                "Biological factors and genetic predispositions as the primary drivers of eating behavior",
                 "Observational learning (modeling) and the interaction between person, behavior, and environment",
-                "Unconscious drives and internal psychological conflicts within the individual",
-                "Dietary intake and nutritional status regardless of environmental factors"
+                "Unconscious drives and internal psychological conflicts within the individual since childhood",
+                "Dietary intake and nutritional status alone, regardless of environmental factors"
             ],
             "correctIndex": 1,
             "explanation": "Social Cognitive Theory highlights that people learn not just from their own experience but by observing others (modeling) and through the reciprocal interaction of personal factors, behavior, and the environment.",
@@ -285,9 +285,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A client says, 'I really want to lose weight, but I tried before and failed.' The counselor responds, 'You have a strong desire to be healthier, but you're worried about failing again.' This is an example of:",
             "options": [
                 "A double-sided reflection",
-                "Confrontation",
-                "Advice giving",
-                "Closed question"
+                "Confrontation of discrepancy",
+                "Advice giving with empathy",
+                "Closed question for clarity"
             ],
             "correctIndex": 0,
             "explanation": "A double-sided reflection acknowledges both sides of the client's ambivalence (the 'sustain talk' and the 'change talk'), helping them feel understood without taking sides.",
@@ -306,9 +306,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "What is the acronym 'OARS' used for in Motivational Interviewing?",
             "options": [
                 "Open-ended questions, Affirmations, Reflections, Summaries",
-                "Observe, Assess, Respond, Strategize and Support",
-                "Openness, Attitude, Respect, Support and Sensitivity",
-                "Order, Ask, Reply, Send and Summarize"
+                "Observations, Assessments, Recommendations, Strategies",
+                "Open-mindedness, Acceptance, Reassurance, Suggestions",
+                "Objectives, Action plans, Referrals, Self-monitoring"
             ],
             "correctIndex": 0,
             "explanation": "OARS stands for the core skills of MI: Open-ended questions, Affirmations, Reflective listening, and Summaries.",
@@ -325,10 +325,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Cognitive Behavioral Therapy (CBT) is based on the idea that:",
             "options": [
-                "We are controlled by our environment and external stimuli",
+                "We are controlled by our environment and external stimuli (Change stimuli -> Change behavior)",
                 "Thoughts create feelings, which influence behaviors (Change thoughts -> Change behavior)",
-                "Childhood trauma and early experiences dictate adult behavior",
-                "Medication and biological interventions are the only solution"
+                "Childhood trauma and early experiences dictate adult behavior (Resolve past -> Change behavior)",
+                "Medication and biological interventions are the only solution (Treat biology -> Change behavior)"
             ],
             "correctIndex": 1,
             "explanation": "CBT posits that negative thoughts (cognitions) lead to negative feelings and maladaptive behaviors. By challenging and modifying these thoughts, one can change feelings and behaviors.",
@@ -346,10 +346,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Summative Evaluation' example in a nutrition class would be:",
             "options": [
-                "A pre-test given on the first day",
+                "A pre-test given on the first day of the course",
                 "Asking students if they understand as you go",
                 "A final exam or post-test at the end of the course",
-                "A pilot study"
+                "A pilot study of the materials before launch"
             ],
             "correctIndex": 2,
             "explanation": "Summative evaluation assesses the final outcome or impact of an intervention (e.g., did they learn the material? did behaviors change?) after it is completed.",
@@ -366,10 +366,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "'Legitimation' as a counseling response involves:",
             "options": [
-                "Telling the client they are legally correct in their actions",
+                "Telling the client they are legally correct in all their actions",
                 "Acknowledging that the client's feelings are valid and understandable",
-                "Giving legal advice regarding their specific situation",
-                "Proving your credentials and authority to the client"
+                "Giving legal advice regarding their specific situation and rights",
+                "Proving your credentials and authority to the client at the start"
             ],
             "correctIndex": 1,
             "explanation": "Legitimation puts the counselor in an empathetic position, validating the client's feelings ('It is normal to feel angry in this situation').",
@@ -387,10 +387,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The 'Action' stage of the Transtheoretical Model is defined as taking steps to change behavior for:",
             "options": [
-                "At least 1 day",
+                "At least 1 full day",
                 "Less than 6 months",
                 "More than 6 months",
-                "Years"
+                "Years (lifelong change)"
             ],
             "correctIndex": 1,
             "explanation": "Action is the stage where clear modifications in lifestyle have occurred for less than 6 months. Maintenance is sustainment for more than 6 months.",
@@ -408,10 +408,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "When counseling a client with low health literacy, it is best to:",
             "options": [
-                "Use complex medical terminology to show expertise",
+                "Use complex medical terminology to show expertise and credibility",
                 "Use pictures, simple language, and the 'teach-back' method",
                 "Provide long pamphlets with detailed scientific data",
-                "Speak loudly and use technical jargon repeatedly"
+                "Speak loudly and use technical jargon repeatedly for emphasis"
             ],
             "correctIndex": 1,
             "explanation": "Visuals, plain language, and asking the client to repeat back what they understood ('teach-back') are best practices for low health literacy.",
@@ -492,10 +492,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The SMOG readability formula works by counting:",
             "options": [
-                "The number of words per sentence on average",
+                "The number of words per sentence on average across the text",
                 "Polysyllabic words (3 or more syllables) in a sample of text",
-                "The total length of the document in pages",
-                "The font size and style used in the text"
+                "The total length of the document in pages and paragraphs",
+                "The font size and style used in the text and its headings"
             ],
             "correctIndex": 1,
             "explanation": "The SMOG grade is calculated by counting the number of polysyllabic words in a set of sentences to estimate the reading grade level required.",
@@ -597,10 +597,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "easy",
             "text": "A budget that begins with the previous year's numbers and adjusts upward or downward for current conditions is called a:",
             "options": [
-                "Zero-based budget",
-                "Top-down budget",
+                "Zero-based (justified) budget",
+                "Top-down (imposed) budget",
                 "Baseline (incremental) budget",
-                "Flexible budget"
+                "Flexible (variable) budget"
             ],
             "correctIndex": 2,
             "explanation": "A baseline budget (also called incremental budget) starts with the prior year's budget and adjusts for current conditions. It is the most common budgeting method due to simplicity. Disadvantage: can perpetuate inefficiencies. Zero-based budget: justifies every expense from scratch — nothing automatically approved. Top-down: prepared by upper management and distributed to units. Flexible budget: changes proportionally with business activity volume. Fixed (static) budget: does not change regardless of activity volume.",
@@ -639,8 +639,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "On a balance sheet, total assets must equal:",
             "options": [
-                "Total liabilities only",
-                "Owner's equity only",
+                "Total long-term liabilities only",
+                "Owner's (stockholders') equity only",
                 "Total liabilities plus owner's equity",
                 "Gross profit minus cost of goods sold"
             ],
@@ -1068,10 +1068,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which forecasting method is MOST appropriate for items with seasonal sales patterns, such as hot soup in winter and cold salads in summer?",
             "options": [
-                "Moving average — smooths out all seasonal variation",
-                "Exponential smoothing — gives more weight to recent data",
+                "Moving average — smooths out all seasonal variation by averaging the most recent periods",
+                "Exponential smoothing — gives more weight to recent data, adjusting quickly to any trend",
                 "Seasonal time-series analysis using same-period historical data (same quarter, prior year)",
-                "Qualitative Delphi method — uses expert opinion without historical data"
+                "Qualitative Delphi method — uses expert opinion without historical data from past seasons"
             ],
             "correctIndex": 2,
             "explanation": "Moving averages are inappropriate for seasonal items because they shift the projection by the averaging window, misaligning predicted vs. actual demand. The best approach for seasonal items is to compare to the same period in the prior year (e.g., average soup sales for December 2023 to project December 2024). Exponential smoothing gives more weight to recent data but still doesn't capture seasonality well. Qualitative methods (Delphi, market research) are used when historical data is unavailable (new products).",
@@ -1090,10 +1090,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A cost-benefit analysis shows that a proposed kitchen remodel will cost $3.4 million but is expected to generate $2.7 million in additional revenue. What is the correct conclusion?",
             "options": [
-                "The remodel is financially justified because revenue exceeds $2 million",
-                "The remodel should proceed because the benefit-to-cost ratio is positive",
+                "The remodel is financially justified because revenue exceeds $2 million in the first year",
+                "The remodel should proceed because the benefit-to-cost ratio is positive (above zero)",
                 "The remodel is not financially justified — costs exceed expected revenue by $0.7 million",
-                "A break-even analysis is needed before any conclusion can be drawn"
+                "A break-even analysis is needed before any conclusion about the remodel can be drawn"
             ],
             "correctIndex": 2,
             "explanation": "Cost-benefit analysis compares total monetary value of benefits to total costs. Expected revenue ($2.7M) − Cost ($3.4M) = −$0.7M (net loss). The benefit-to-cost ratio = $2.7M/$3.4M < 1, indicating costs exceed benefits. The remodel is NOT financially justified under these projections. Cost-benefit analysis differs from VALUE analysis (systematic assessment of whether product features are worth their cost) and VALUE-ADDED research (assessing whether adding extras justifies increased price).",
@@ -1111,10 +1111,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The current ratio is used in financial analysis of foodservice operations. A current ratio greater than 1.0 indicates:",
             "options": [
-                "The operation is generating more revenue than expenses",
+                "The operation is generating more revenue than expenses — operating at a profit for the period",
                 "The operation has more current assets than current liabilities — able to meet short-term obligations",
-                "The operation's total assets exceed total liabilities",
-                "The debt-to-equity ratio is favorable for taking on new loans"
+                "The operation's total assets exceed total liabilities — owner's equity is positive on the balance sheet",
+                "The debt-to-equity ratio is favorable for taking on new loans — lenders see low long-term leverage"
             ],
             "correctIndex": 1,
             "explanation": "Current ratio = Current Assets ÷ Current Liabilities. A value > 1.0 means the organization has sufficient liquid assets to pay its current (short-term) obligations due within 12 months. This is used by creditors to assess bill-paying ability. The current ratio is a liquidity ratio — distinct from solvency ratios (long-term debt coverage) and profitability ratios. Other finance ratios: assets-to-liabilities, debt-to-equity, inventory turnover rate, activity ratio, and profitability ratios.",
@@ -1175,10 +1175,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with chronic alcoholism presents with Wernicke-Korsakoff syndrome, characterized by confusion, ataxia, and ophthalmoplegia. Before administering intravenous glucose, which vitamin must be given immediately and why?",
             "options": [
-                "Vitamin B12, because alcohol inhibits intrinsic factor secretion.",
-                "Folate, to prevent macrocytic anemia and irreversible neurological damage.",
+                "Vitamin B12, because alcohol inhibits intrinsic factor secretion, and a deficiency causes irreversible demyelination.",
+                "Folate, to prevent macrocytic anemia and irreversible neurological damage when glucose raises cellular folate demand.",
                 "Thiamin, because glucose metabolism requires it as a coenzyme, and a deficiency can precipitate irreversible brain damage.",
-                "Niacin, to prevent pellagra-like dermatological symptoms."
+                "Niacin, to prevent pellagra-like dermatological symptoms, because glucose metabolism rapidly consumes NAD stores."
             ],
             "correctIndex": 2,
             "explanation": "Thiamin (Vitamin B1) is an essential coenzyme in carbohydrate metabolism (specifically in the conversion of pyruvate to acetyl-CoA). In patients with severe alcohol abuse disorder, thiamin stores are often depleted. Administering a glucose load without providing thiamin first forces the remaining thiamin to be rapidly consumed to metabolize the glucose, which can acutely precipitate or worsen the irreversible neurological damage of Wernicke-Korsakoff syndrome."
@@ -1191,10 +1191,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A researcher conducts a randomized controlled trial analyzing the effect of a high-protein diet on lean muscle mass retention in older adults. The statistical analysis reveals a p-value of 0.04. Which of the following is the most accurate interpretation of this finding?",
             "options": [
-                "There is a 4% probability that the study's results are completely inaccurate.",
-                "There is a 96% probability that the high-protein diet successfully retained lean muscle mass.",
+                "There is a 4% probability that the study's results are completely inaccurate and should not be applied to clinical practice.",
+                "There is a 96% probability that the high-protein diet successfully retained lean muscle mass in every participant in the treatment group.",
                 "The result is statistically significant, meaning there is only a 4% probability that the observed difference occurred by chance.",
-                "The intervention caused a 4% increase in lean muscle mass among the treatment group."
+                "The intervention caused a 4% increase in lean muscle mass among the treatment group compared with the control group over the study period."
             ],
             "correctIndex": 2,
             "explanation": "The p-value represents the probability of obtaining the observed results (or more extreme results) if the null hypothesis is true (i.e., if there was actually no difference between the groups). A p-value of 0.04 (which is less than the standard significance level of 0.05) indicates the result is statistically significant. It means there is only a 4% chance that the difference observed between the control and treatment groups occurred purely by random chance."
@@ -1239,10 +1239,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which property of fats allows them to exhibit polymorphism (existing in different crystalline forms), and why is this critical in the manufacturing of chocolate?",
             "options": [
-                "Saponification; it prevents the cocoa butter from becoming overly basic and developing a soapy flavor.",
-                "Hydrogenation; it stabilizes liquid cocoa butter into a solid state at room temperature.",
+                "Saponification; it prevents the cocoa butter from becoming overly basic and developing a soapy flavor, which is why manufacturers add emulsifiers such as lecithin before molding.",
+                "Hydrogenation; it stabilizes liquid cocoa butter into a solid state at room temperature, converting unsaturated fatty acids so the chocolate resists melting in warm storage.",
                 "The varying chain lengths and saturation of fatty acids; proper tempering ensures cocoa butter crystallizes into the stable Beta (Form V) crystals, providing the desired snap and preventing bloom.",
-                "Winterization; it removes large triglycerides so the chocolate remains glossy and does not cloud when refrigerated."
+                "Winterization; it removes large triglycerides so the chocolate remains glossy and does not cloud when refrigerated, which allows finished bars to be stored cold without developing bloom."
             ],
             "correctIndex": 2,
             "explanation": "Polymorphism refers to the ability of solid fats (specifically the triglycerides in cocoa butter) to crystallize into several different structural forms (alpha, beta prime, intermediate, beta, etc.). The varying chain lengths and degree of saturation of the fatty acids on the glycerol backbone cause this. In chocolate manufacturing, proper 'tempering' is the process of heating and cooling the chocolate to precisely control which crystal forms. The goal is to force the cocoa butter to solidify into the highly stable 'Beta' (Form V) crystals. This form gives premium chocolate its characteristic glossy appearance, firm 'snap' when broken, smooth mouthfeel, and resistance to fat 'bloom' (where unstable crystals migrate to the surface creating white streaks)."
@@ -1271,10 +1271,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A registered dietitian reads a meta-analysis concluding that a specific omega-3 supplement reduces fasting triglycerides. The study reports a relative risk (RR) of 0.65 with a 95% Confidence Interval (CI) of [0.45, 0.88]. How should the dietitian interpret this CI?",
             "options": [
-                "The supplement is ineffective because the CI spans a wide range.",
+                "The supplement is ineffective because the CI spans a wide range, indicating the results are too imprecise to interpret.",
                 "The supplement is effective because the entire CI is less than 1.0, indicating the results are statistically significant.",
-                "The supplement is ineffective because the CI does not cross 1.0.",
-                "The supplement's true effect is precisely 0.65 in 95% of the population."
+                "The supplement is ineffective because the CI does not cross 1.0. This means the result falls outside the null range.",
+                "The supplement's true effect is precisely 0.65 in 95% of the population, as shown by the narrow confidence interval."
             ],
             "correctIndex": 1,
             "explanation": "When interpreting Confidence Intervals for Relative Risk (RR) or Odds Ratios (OR), a value of 1.0 represents 'no difference' between the groups. If the entire 95% CI interval is strictly less than 1.0 (or strictly greater than 1.0), it means the result is statistically significant and the effect is real. In this case, [0.45, 0.88] does not include 1.0, meaning we can be 95% confident that the true relative risk lies between a 55% reduction (1 - 0.45) and a 12% reduction (1 - 0.88). If the CI had been [0.85, 1.20] (crossing 1.0), the results would NOT be statistically significant."
@@ -1290,7 +1290,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Leptin",
                 "Gastrin",
                 "Ghrelin",
-                "Cholecystokinin (CCK)"
+                "Cholecystokinin"
             ],
             "correctIndex": 2,
             "explanation": "Ghrelin is the quintessential 'hunger hormone.' It is secreted primarily by the endocrine cells of the stomach, especially when empty, and acts on the hypothalamus to stimulate appetite, increase food intake, and promote fat storage. Its levels peak just before meals. Leptin, produced by adipose tissue, does the opposite (signals satiety). Gastrin stimulates stomach acid secretion. CCK, secreted by the small intestine, stimulates gallbladder contraction and pancreatic enzyme release, while also signaling satiety."
@@ -1319,10 +1319,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the following describes the function of sodium hexametaphosphate in processed food applications?",
             "options": [
-                "It acts as an antimicrobial agent against yeasts and molds in acidic beverages.",
-                "It acts as an emulsifier to blend oil and water in salad dressings.",
+                "It acts as an antimicrobial agent against yeasts and molds in acidic beverages and fruit juices.",
+                "It acts as an emulsifier to blend oil and water in salad dressings and creamy sauces without separation.",
                 "It acts as a sequestrant that binds metallic ions, preventing oxidative rancidity and color changes.",
-                "It acts as a humectant to retain moisture in soft baked goods."
+                "It acts as a humectant to retain moisture in soft baked goods and extend their shelf life."
             ],
             "correctIndex": 2,
             "explanation": "Sodium hexametaphosphate (SHMP) is primarily utilized as a sequestrant (chelating agent). Sequestrants bind to free trace metallic ions (like copper or iron) present in food. If left free, these metal ions can act as catalysts for lipid oxidation (rancidity) and undesirable color or flavor changes. By trapping the metals, SHMP stabilizes the food product. Antioxidants like BHA or BHT stop oxidation chemically, but sequestrants work by removing the catalyst. Emulsifiers (like lecithin) blend fats and water. Humectants (like sorbitol) hold moisture."
@@ -1351,10 +1351,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "What is the primary role of the hormone parathyroid hormone (PTH) in calcium homeostasis?",
             "options": [
-                "It lowers serum calcium by stimulating osteoblast activity and bone formation.",
+                "It lowers serum calcium by stimulating osteoblast activity, bone formation, and urinary calcium excretion.",
                 "It increases serum calcium by stimulating osteoclast activity and enhancing renal reabsorption of calcium.",
                 "It decreases intestinal absorption of calcium by inhibiting the synthesis of active Vitamin D.",
-                "It acts directly on the thyroid gland to trigger the release of calcitonin."
+                "It acts directly on the thyroid gland to trigger the release of calcitonin, which lowers serum calcium."
             ],
             "correctIndex": 1,
             "explanation": "The parathyroid gland secretes parathyroid hormone (PTH) when blood calcium levels drop too low. PTH works to *raise* serum calcium levels through three main mechanisms: 1) It stimulates osteoclasts to break down bone matrix, releasing calcium into the blood. 2) It increases the reabsorption of calcium in the kidneys. 3) It stimulates the kidneys to convert Vitamin D to its active form (calcitriol), which in turn greatly increases calcium absorption in the intestines. Calcitonin (produced by the thyroid) does the opposite; it lowers high serum calcium levels by inhibiting osteoclasts."
@@ -1367,10 +1367,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which learning theory emphasizes that learning is mediated by social interactions and cultural context, and that a learner's potential is maximized when guided by someone with more knowledge within their 'Zone of Proximal Development'?",
             "options": [
-                "Cognitive Behavioral Theory",
+                "Cognitive Behavioral Theory (Beck/Ellis)",
                 "Social Learning Theory (Bandura)",
                 "Constructivism/Sociocultural Theory (Vygotsky)",
-                "Behaviorism (Skinner)"
+                "Behaviorism/Operant Conditioning (Skinner)"
             ],
             "correctIndex": 2,
             "explanation": "Lev Vygotsky's Sociocultural Theory of constructivism posits that learning is fundamentally a social process. The 'Zone of Proximal Development' (ZPD) is a core concept of this theory: it represents the difference between what a learner can do without help and what they can achieve with guidance from a skilled partner (scaffolding). Bandura's Social Learning theory focuses on modeling and observational learning. Cognitive Behavioral Theory focuses on altering underlying thoughts to change behaviors. Behaviorism relies on operant conditioning (rewards/punishments)."
@@ -1383,9 +1383,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "When making a gelatin dessert, a chef notes that the gelatin fails to set correctly when she adds fresh pineapple chunks to the mixture. What is the biochemical reason for this failure?",
             "options": [
-                "The high acidity of the pineapple denatures the gelatin proteins, preventing cross-linking.",
+                "The high acidity of the pineapple denatures the gelatin proteins, preventing cross-linking as it cools.",
                 "Fresh pineapple contains bromelain, a proteolytic enzyme that breaks down the gelatin protein matrix.",
-                "The high sugar content of the pineapple competes with gelatin for available water molecules.",
+                "The high sugar content of the pineapple competes with gelatin for available water molecules in the gel.",
                 "Pineapple contains tannins that precipitate the gelatin out of solution before it can set."
             ],
             "correctIndex": 1,
@@ -1415,10 +1415,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "During fasting, the brain typically relies exclusively on glucose for fuel. However, after several days of prolonged starvation, the brain adapts to utilize which alternative fuel source to spare muscle protein degradation?",
             "options": [
-                "Free fatty acids released directly from adipose tissue.",
-                "Lactic acid produced by anaerobic glycolysis in muscles.",
+                "Free fatty acids released directly from adipose tissue by hormone-sensitive lipase.",
+                "Lactic acid produced by anaerobic glycolysis in skeletal muscles and red blood cells.",
                 "Ketone bodies (acetoacetate and beta-hydroxybutyrate) synthesized in the liver.",
-                "Glycerol backbones derived from the breakdown of triglycerides."
+                "Glycerol backbones derived from the breakdown of triglycerides in adipose tissue."
             ],
             "correctIndex": 2,
             "explanation": "Free fatty acids cannot easily cross the blood-brain barrier, so the brain cannot use them directly for energy. During early starvation, the brain relies entirely on glucose (created by the liver through gluconeogenesis, which breaks down muscle protein). However, after about 3-4 days of fasting, the liver begins converting fatty acids into ketone bodies. These ketones *can* cross the blood-brain barrier and serve as the primary fuel source for the brain, drastically slowing down the rate of muscle catabolism."
@@ -1481,7 +1481,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "8th grade level",
                 "10th grade level",
-                "12th grade level (High School Graduate)",
+                "12th grade level",
                 "4th grade level"
             ],
             "correctIndex": 0,
@@ -1495,10 +1495,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "During intense, anaerobic exercise, working muscles accumulate large amounts of lactate. This lactate is released into the bloodstream and transported to the liver, where it is converted back into glucose, which is then released back to the muscles for energy. What is the name of this critical metabolic cycle?",
             "options": [
-                "The Citric Acid Cycle (TCA/Krebs Cycle)",
-                "The Urea Cycle",
+                "The Krebs (TCA) Cycle",
+                "The Urea (Ornithine) Cycle",
                 "The Cori Cycle",
-                "The Pentose Phosphate Pathway"
+                "The Pentose Phosphate Shunt"
             ],
             "correctIndex": 2,
             "explanation": "The Cori Cycle (or Lactic Acid Cycle) specifically describes the process where muscles operating anaerobically produce lactate as a byproduct of glycolysis. The muscles cannot process this lactate, so they ship it through the blood to the liver. The liver (which can perform gluconeogenesis) converts the lactate back into usable glucose, and sends it back to the muscles to sustain the exercise. The TCA cycle operates aerobically in the mitochondria to generate ATP. The Urea cycle disposes of ammonia from protein breakdown."
@@ -1512,7 +1512,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "In a research study measuring the efficacy of a new weight-loss drug, what is the 'dependent variable'?",
             "options": [
                 "The dosage of the weight-loss drug given to participants.",
-                "The weight lost by the participants.",
+                "The weight lost by the participants during the trial.",
                 "The age and gender of the participants.",
                 "The placebo pill given to the control group."
             ],
@@ -1544,9 +1544,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "The absorption of dietary non-heme iron (found in plant foods) is significantly enhanced by the simultaneous consumption of Vitamin C. Which of the following explains the biochemical mechanism of this enhancement?",
             "options": [
                 "Vitamin C is a powerful reducing agent, converting insoluble ferric iron (Fe3+) into the much more soluble and easily absorbed ferrous iron (Fe2+).",
-                "Vitamin C physically binds to phytic acid in the gut, preventing the phytates from trapping the iron.",
-                "Vitamin C stimulates the rapid production of the hormone hepcidin, forcing the enterocytes to absorb iron.",
-                "Vitamin C acts as an oxidizing agent, converting ferrous iron into ferric iron for superior transport."
+                "Vitamin C physically binds to phytic acid in the gut lumen, preventing the phytates from trapping and precipitating the dietary iron.",
+                "Vitamin C stimulates the rapid hepatic production of the hormone hepcidin, forcing the duodenal enterocytes to absorb more iron from each meal.",
+                "Vitamin C acts as a powerful oxidizing agent, converting ferrous iron (Fe2+) into ferric iron (Fe3+) for superior transport across the gut."
             ],
             "correctIndex": 0,
             "explanation": "Non-heme iron primarily exists in foods in the oxidized 'ferric' state (Fe3+), which is highly insoluble and poorly absorbed in the alkaline environment of the small intestine. Vitamin C (ascorbic acid) acts as a reducing agent, donating an electron to reduce the Ferric Iron (Fe3+) down to Ferrous Iron (Fe2+). The ferrous state is highly soluble and easily passes through the intestinal mucosa transporters. Conversely, tea (tannins) and whole grains (phytates) physically bind non-heme iron, blocking its absorption. Hepcidin *decreases* iron absorption when iron stores are high."
@@ -1559,10 +1559,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "During an initial interview, a client states, 'I tried the Keto diet for a week, but I felt so weak that I couldn't get out of bed, so I quit.' The dietitian responds, 'It sounds like the drastic reduction in carbohydrates left you feeling depleted of energy, making it hard to stick to the plan.' Which counseling skill is the dietitian utilizing?",
             "options": [
-                "Summarization",
+                "Summarization/Closing Recap",
                 "Paraphrasing/Reflective Listening",
-                "Confrontation",
-                "Open-ended questioning"
+                "Confrontation/Direct Challenge",
+                "Open-ended questioning/Probing"
             ],
             "correctIndex": 1,
             "explanation": "The dietitian is using Paraphrasing/Reflective Listening. This crucial counseling technique involves restating the client's message in the practitioner's own words. It demonstrates empathy, confirms that the dietitian accurately heard the core meaning (weakness = lack of energy/carbs), and encourages the client to elaborate further. Summarization usually occurs at the end of a session to recap multiple points. Confrontation involves pointing out discrepancies (e.g., between goals and actions). Open-ended questions usually begin with 'How' or 'What'."
@@ -1671,10 +1671,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A dietitian is developing a sports drink and wants to use a sweetener that provides the highest relative sweetness per gram compared to sucrose. Which of the following non-nutritive sweeteners should be selected?",
             "options": [
-                "Aspartame",
-                "Saccharin",
-                "Sucralose",
-                "Acesulfame potassium"
+                "Aspartame (Equal)",
+                "Saccharin (Sweet'N Low)",
+                "Sucralose (Splenda)",
+                "Acesulfame potassium (Sunett)"
             ],
             "correctIndex": 2,
             "explanation": "Sucralose is highly potent, being approximately 600 times sweeter than sucrose. Aspartame and Acesulfame potassium (Ace-K) are roughly 200 times sweeter than sucrose. Saccharin is about 300 to 400 times sweeter. Therefore, sucralose provides the highest relative sweetness per gram among the options listed."
@@ -1720,9 +1720,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "When assessing the quality of meat, the designation 'USDA Prime' indicates the highest grade. Which factor is the primary determinant in assigning quality grades to beef?",
             "options": [
                 "The amount of connective tissue and collagen",
-                "The color of the lean meat",
+                "The color and firmness of the lean muscle meat",
                 "The degree of marbling and maturity of the animal",
-                "The yield of usable meat from the carcass"
+                "The yield of usable meat from the whole carcass"
             ],
             "correctIndex": 2,
             "explanation": "USDA quality grades for beef (Prime, Choice, Select, etc.) are based primarily on two factors: the degree of marbling (intramuscular fat within the lean part of the meat) and the maturity (age) of the animal at the time of slaughter. Higher marbling and younger maturity generally indicate more tender, juicy, and flavorful meat. Yield grading is a separate grading system that rates the proportion of usable meat (cutability) relative to fat and bone (yield grades 1-5), but does not determine quality grades like Prime."
@@ -1734,10 +1734,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "easy",
             "text": "Mayonnaise is an example of which type of colloid system?",
             "options": [
-                "Foam (air dispersed in liquid)",
+                "Foam (gas bubbles dispersed in liquid)",
                 "Sol (solid dispersed in liquid)",
                 "Emulsion (liquid dispersed in liquid)",
-                "Gel (liquid dispersed in solid)"
+                "Gel (liquid dispersed in a solid network)"
             ],
             "correctIndex": 2,
             "explanation": "An emulsion is a liquid-in-liquid colloid. Mayonnaise is an oil-in-water emulsion stabilized by lecithin from egg yolk, which acts as an emulsifier by having hydrophilic and hydrophobic ends. Foam has air dispersed in liquid (whipped cream), sol has solid dispersed in liquid (gelatin before setting), and gel has liquid dispersed in solid (jelly after setting).",
@@ -1839,10 +1839,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient asks why bread made from high-protein flour is chewier than cake. The correct explanation relates to:",
             "options": [
-                "Higher starch content in bread flour creating a denser product",
+                "Higher starch content in bread flour creating a denser, firmer product",
                 "Gluten network formation from gliadin and glutenin requiring high-protein flour",
                 "Lower water activity in bread flour preventing starch gelatinization",
-                "Bran content in bread flour interfering with fat distribution"
+                "Bran content in bread flour interfering with fat distribution in the dough"
             ],
             "correctIndex": 1,
             "explanation": "Gluten is formed when water is mixed with wheat flour proteins — specifically gliadin (a prolamin) and glutenin. High-protein bread flour (12–14%) forms a strong, elastic gluten network that traps CO2, resulting in a chewy crumb. Cake flour has only 5–8% protein and forms a weak gluten network, producing a soft, tender crumb. The difference is protein content and gluten network strength, not starch or bran.",
@@ -1861,10 +1861,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with celiac disease asks which of the following grains are safe to eat. Which response is correct?",
             "options": [
-                "Barley, rye, and oats are safe; only wheat must be avoided",
+                "Barley, rye, and oats are safe; only wheat and spelt must be avoided",
                 "Amaranth, millet, teff, buckwheat, and quinoa are all gluten-free whole grains",
-                "Durum, bulgur, and kamut are safe because they are whole grains",
-                "Oats are always safe because they do not contain prolamin proteins"
+                "Durum, bulgur, and kamut are safe because they are ancient whole grains",
+                "Oats are always safe because they do not contain prolamin proteins like gliadin"
             ],
             "correctIndex": 1,
             "explanation": "The gluten-free whole grains are amaranth, millet, teff, buckwheat, and quinoa. Gluten-containing grains include wheat (and its forms: bulgur, kamut, durum, farina, orzo), rye, barley, and triticale. Oats do contain avenin (a prolamin) and glutenin — technically capable of forming gluten — and are frequently contaminated with wheat during growing or processing. Celiac patients should avoid oats unless certified gluten-free.",
@@ -1882,8 +1882,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Leftover pasta that has been refrigerated overnight feels harder and less digestible than freshly cooked pasta. This is BEST explained by:",
             "options": [
-                "Syneresis — the gel releases water making the pasta sticky and hard",
-                "Dextrinization — partial hydrolysis of starch increases sweetness",
+                "Syneresis — the gel releases water making the pasta sticky and hard overnight",
+                "Dextrinization — partial hydrolysis of starch increases sweetness and firmness",
                 "Retrogradation — amylose and amylopectin re-form hydrogen bonds as starch cools",
                 "Gelatinization — starch granules absorb water and swell during cooling"
             ],
@@ -2056,9 +2056,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Partially hydrogenated oils (PHOs) were removed from the food supply because the FDA determined they were not GRAS. The primary reason was their content of:",
             "options": [
-                "Saturated fatty acids",
+                "Saturated (palmitic) fatty acids",
                 "Omega-6 polyunsaturated fatty acids",
-                "Trans fatty acids",
+                "Industrial trans fatty acids",
                 "Long-chain monounsaturated fatty acids"
             ],
             "correctIndex": 2,
@@ -2078,10 +2078,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Baking powder differs from baking soda in that baking powder:",
             "options": [
-                "Requires both liquid AND an acidic ingredient for activation",
+                "Requires both liquid AND an acidic ingredient in the batter for activation",
                 "Contains baking soda plus an acid and requires only liquid for activation",
-                "Produces steam rather than carbon dioxide as its leavening gas",
-                "Must be activated by yeast fermenting available sugars"
+                "Produces steam rather than carbon dioxide as its main leavening gas",
+                "Must be activated by yeast fermenting available sugars in the dough"
             ],
             "correctIndex": 1,
             "explanation": "Baking soda (sodium bicarbonate) requires BOTH a liquid AND an acidic ingredient (buttermilk, yogurt, vinegar, lemon juice, cream of tartar) to produce CO2. Baking powder contains baking soda PLUS a dry acid (like cream of tartar), so it only needs liquid (water) to activate. This makes baking powder more convenient for recipes that don't have an acidic ingredient. Yeast produces CO2 through fermentation of sugars — a biological leavening process.",
@@ -2164,10 +2164,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which food preservation technology uses 50,000 pounds per square inch of pressure to destroy microbial cell membranes without heat?",
             "options": [
-                "Pulsed light processing",
-                "Ohmic heating",
+                "Pulsed light processing (UV flash treatment)",
+                "Ohmic heating (electrical resistance)",
                 "High pressure processing (Pascalization)",
-                "Ultrasonication"
+                "Ultrasonication (high-frequency sound)"
             ],
             "correctIndex": 2,
             "explanation": "High Pressure Processing (HPP), also called Pascalization, uses approximately 50,000 psi for 15+ minutes to destroy microbial cell membranes through extreme pressure. It is a non-thermal method that preserves flavor and nutrients better than heat treatments. It is used for guacamole, jams, yogurt, rice cakes, and mayonnaise. Pulsed light uses intense light flashes. Ohmic heating uses electricity. Ultrasonication uses sound waves.",
@@ -2186,10 +2186,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which antioxidant food additive is approved by the FDA and commonly added to frozen foods containing fat to prevent rancidity?",
             "options": [
-                "Sodium benzoate",
-                "Calcium propionate",
+                "Sodium benzoate (preservative)",
+                "Calcium propionate (mold inhibitor)",
                 "Butylated hydroxytoluene (BHT)",
-                "Potassium sorbate"
+                "Potassium sorbate (yeast inhibitor)"
             ],
             "correctIndex": 2,
             "explanation": "BHT (butylated hydroxytoluene) and BHA (butylated hydroxyanisole) are FDA-approved antioxidant food additives commonly added to frozen foods containing fat to prevent oxidative rancidity. Rancidity occurs when fats are broken down by water, heat, or oxygen, producing off-flavors and aromas. Sodium benzoate and calcium propionate are antimicrobials (prevent microbial growth), not antioxidants. Potassium sorbate is also an antimicrobial.",
@@ -2294,9 +2294,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "An irradiated food product is required to display what symbol on its packaging?",
             "options": [
                 "The 'USDA Organic' shield",
-                "The radura symbol",
+                "The international radura symbol",
                 "The FDA 'GRAS' designation",
-                "The CE marking for non-thermal processing"
+                "The 'non-thermal' CE mark"
             ],
             "correctIndex": 1,
             "explanation": "Irradiated foods must be labeled with the 'radura' symbol — a distinctive logo showing a plant inside a broken circle of stylized petals. Irradiation reduces microbial growth and extends shelf life in meat and some produce but causes depolymerization of polysaccharides (cellulose, pectin), making produce less firm. It is therefore only used for select produce types and meat. The radura symbol is required regardless of whether the word 'irradiated' appears on the label.",
@@ -2315,10 +2315,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Polymerization during frying affects oil quality by:",
             "options": [
-                "Increasing smoke point and reducing oil viscosity",
+                "Increasing smoke point and reducing oil viscosity, making it thinner and clearer",
                 "Linking free fatty acids together, increasing viscosity and lowering smoke point",
                 "Converting unsaturated to saturated fatty acids, raising the melting point",
-                "Causing oxidative rancidity, which improves frying oil color"
+                "Causing oxidative rancidity, which improves frying oil color and flavor"
             ],
             "correctIndex": 1,
             "explanation": "During frying at high temperatures, free fatty acids (FFAs) link together through polymerization, making the oil more viscous and prone to foaming. The linked FFAs lower the oil's smoke point. Food particles and salt also lower smoke point. Poor-quality frying oil leaves a sticky film on equipment. Maintaining oil quality requires: not over-salting food before frying, not overcrowding batches, filtering regularly, and covering oil to limit light exposure.",
@@ -2401,10 +2401,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "An Adequate Intake (AI) is established for a nutrient when:",
             "options": [
-                "The UL has been exceeded in the population",
+                "The UL has been exceeded in a large share of the population",
                 "Insufficient evidence exists to establish an EAR and RDA",
                 "The nutrient has been proven essential but no deficiency disease exists",
-                "The nutrient is conditionally essential only"
+                "The nutrient is conditionally essential only in illness"
             ],
             "correctIndex": 1,
             "explanation": "The AI is used when there is insufficient scientific evidence to establish an EAR (and therefore an RDA). The AI is set at a level assumed to ensure nutritional adequacy. Examples of nutrients with AIs rather than RDAs include vitamin D (historically), potassium, and dietary fiber. The AI represents a wider range between a possible EAR and UL.",
@@ -2444,10 +2444,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Why can humans NOT digest cellulose, even though it is composed entirely of glucose?",
             "options": [
-                "Cellulose is too large to enter the small intestine",
+                "Cellulose is too large to enter the small intestine and is broken down only by gastric pepsin in the stomach",
                 "Cellulose contains β-glycosidic bonds that human amylase cannot break (amylase acts on α bonds only)",
-                "Cellulose lacks sufficient glucose units to be nutritionally valuable",
-                "Cellulose is dissolved by gastric acid before reaching the small intestine"
+                "Cellulose lacks sufficient glucose units to be nutritionally valuable as a dietary energy source for humans",
+                "Cellulose is dissolved by gastric acid before reaching the small intestine for absorption"
             ],
             "correctIndex": 1,
             "explanation": "Cellulose uses β-1,4 glycosidic bonds between glucose units, causing every other glucose to flip, creating a rigid structure with hydrogen cross-links. Human amylase only acts on α-glycosidic bonds (as found in starch and glycogen). Gut microbiota produce cellulase to break down cellulose, but the resulting glucose is used by bacteria, not absorbed by humans. This is why cellulose is classified as insoluble fiber.",
@@ -2510,10 +2510,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A dietitian is counseling a vegan patient on protein complementation. Legumes (beans) are low in which limiting amino acid, and should be paired with which food group?",
             "options": [
-                "Lysine; pair with grains",
+                "Lysine; pair with grains or corn/rice",
                 "Methionine; pair with grains or nuts/seeds",
-                "Tryptophan; pair with soy products",
-                "Leucine; pair with animal proteins"
+                "Tryptophan; pair with soy products or tofu",
+                "Leucine; pair with animal proteins or eggs"
             ],
             "correctIndex": 1,
             "explanation": "Legumes are low in methionine (a sulfur-containing essential amino acid). They should be complemented with grains (rice, corn, bread) or nuts/seeds, which are rich in methionine but low in lysine. Legumes ARE rich in lysine, so pairing legumes with grains (which are low in lysine) creates a complete protein combination. Classic examples: rice and beans (Latin American), hummus and pita (Middle Eastern).",
@@ -2598,10 +2598,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Why are artificial trans fats solid at room temperature despite being unsaturated fats?",
             "options": [
-                "They contain more carbon atoms than cis-unsaturated fats",
+                "They contain more carbon atoms than cis-unsaturated fats, which raises their melting point",
                 "Trans double bonds create a straight chain structure (like saturated fat), allowing tight packing",
-                "Hydrogenation adds extra hydrogen atoms that fill the double bonds completely",
-                "Trans fats have more branching than cis-unsaturated fats"
+                "Hydrogenation adds extra hydrogen atoms that fill the double bonds completely during processing",
+                "Trans fats have more branching than cis-unsaturated fats, which locks the chains into place"
             ],
             "correctIndex": 1,
             "explanation": "In trans fats, the hydrogens are on OPPOSITE sides of the double bond, resulting in a straight chain structure — like saturated fat. This allows the fatty acids to pack tightly together, making them solid at room temperature. In contrast, cis-unsaturated fats have hydrogens on the SAME side of the double bond, creating a bent shape that prevents tight packing, making them liquid at room temperature. Artificial trans fats are created by partial hydrogenation of liquid vegetable oils.",
@@ -2620,10 +2620,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "How many calories per gram does alcohol (ethanol) provide, and why is overconsumption associated with malnutrition?",
             "options": [
-                "4 kcal/g; alcohol is metabolized like carbohydrate",
+                "4 kcal/g; alcohol is metabolized like carbohydrate and spares protein from oxidation",
                 "7 kcal/g; alcohol provides empty calories and impairs nutrient absorption/metabolism",
-                "9 kcal/g; alcohol is stored as fat when consumed in excess",
-                "5 kcal/g; alcohol is partially excreted before caloric contribution"
+                "9 kcal/g; alcohol is stored as fat when consumed in excess and displaces nutrients",
+                "5 kcal/g; alcohol is partially excreted before caloric contribution through breath and urine"
             ],
             "correctIndex": 1,
             "explanation": "Alcohol provides 7 kcal/g — more than carbohydrate or protein (4 kcal/g) but less than fat (9 kcal/g). These are 'empty calories' with no nutritional value. Primary malnutrition occurs when alcohol replaces nutritive foods. Secondary malnutrition occurs when GI and liver damage impairs digestion, absorption, and nutrient processing. Excessive alcohol metabolism also impairs the liver's ability to process vitamins and minerals (e.g., thiamin → Wernicke-Korsakoff syndrome).",
@@ -2642,10 +2642,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Wernicke-Korsakoff syndrome, seen in alcoholics, is caused by deficiency of which vitamin, and why is alcohol specifically linked to this deficiency?",
             "options": [
-                "Vitamin B12; alcohol destroys intrinsic factor production",
-                "Folate; alcohol blocks folate absorption in the duodenum",
+                "Vitamin B12; alcohol destroys intrinsic factor production, blocks ileal uptake, and increases hepatic B12 turnover",
+                "Folate; alcohol blocks folate absorption in the duodenum, impairs its hepatic storage, and increases urinary loss",
                 "Thiamin (B1); alcohol replaces dietary thiamin, impairs liver conversion to TPP, and increases urinary thiamin excretion",
-                "Vitamin C; alcohol increases oxidative stress and depletes ascorbate"
+                "Vitamin C; alcohol increases oxidative stress and depletes ascorbate, and it also limits renal ascorbate reabsorption"
             ],
             "correctIndex": 2,
             "explanation": "Wernicke-Korsakoff syndrome results from thiamin (B1) deficiency. Alcoholism depletes thiamin through three mechanisms: (1) alcohol replaces thiamin-containing foods (primary malnutrition); (2) alcohol damages the liver's ability to convert thiamin to its active coenzyme form TPP (thiamin pyrophosphate); (3) alcohol increases urinary thiamin excretion. Symptoms include abnormal eye movements, poor muscle coordination, memory loss, and confusion.",
@@ -2664,9 +2664,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Lycopene is a phytochemical found primarily in which food source, and what class of phytochemicals does it belong to?",
             "options": [
-                "Green tea; flavonoids",
-                "Tomatoes; carotenoids",
-                "Citrus fruits; flavanones",
+                "Green tea; flavonoids (catechins)",
+                "Tomatoes and watermelon; carotenoids",
+                "Citrus fruits; flavanones (hesperidin)",
                 "Cruciferous vegetables; glucosinolates"
             ],
             "correctIndex": 1,
@@ -2686,10 +2686,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient taking warfarin (a blood thinner) reports also taking St. John's Wort for depression. What is the most clinically relevant concern?",
             "options": [
-                "St. John's Wort increases warfarin levels, increasing bleeding risk",
+                "St. John's Wort increases warfarin levels, increasing bleeding risk by inhibiting its hepatic metabolism",
                 "St. John's Wort makes warfarin LESS effective by inducing its metabolism, reducing anticoagulation",
-                "St. John's Wort has no interaction with warfarin",
-                "St. John's Wort only interacts with antidepressants, not anticoagulants"
+                "St. John's Wort has no interaction with warfarin because it is metabolized by a separate pathway",
+                "St. John's Wort only interacts with antidepressants, not anticoagulants, through serotonin effects"
             ],
             "correctIndex": 1,
             "explanation": "St. John's Wort induces cytochrome P450 enzymes (CYP450), which are responsible for metabolizing many drugs including warfarin. This INCREASES warfarin metabolism, REDUCING blood levels and anticoagulant effectiveness — potentially increasing thrombosis risk. St. John's Wort interacts with many medications (antidepressants, birth control, heart medications, HIV drugs, cancer medications, statins, anti-rejection drugs) and is generally recommended to be avoided if taking any other medications.",
@@ -2730,10 +2730,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Where does the majority of chemical digestion and nutrient absorption occur in the gastrointestinal tract?",
             "options": [
-                "Stomach",
-                "Duodenum only",
+                "Stomach (fundus, body and antrum regions)",
+                "Duodenum only (proximal to the jejunum)",
                 "Small intestine (duodenum, jejunum, ileum)",
-                "Large intestine"
+                "Large intestine (cecum, colon and rectum)"
             ],
             "correctIndex": 2,
             "explanation": "The small intestine (primarily the jejunum) is the main site of chemical digestion and absorption. The duodenum serves as a 'prepping station' where bile and pancreatic juice are released. The jejunum is the primary absorption site for macronutrients, most vitamins and minerals. The ileum absorbs vitamin B12 and recycles bile salts. The stomach mainly denatures proteins and produces chyme. The colon absorbs water, electrolytes, and short-chain fatty acids from bacterial fermentation.",
@@ -2752,10 +2752,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which GI hormone is produced by duodenal enterocytes in response to gastric acid in the chyme, and what is its PRIMARY function?",
             "options": [
-                "Gastrin; stimulates gastric acid secretion",
-                "CCK; stimulates bile release and pancreatic enzyme secretion",
+                "Gastrin; stimulates gastric acid secretion and gastric motility to speed delivery of chyme from the stomach into the duodenum",
+                "CCK; stimulates bile release and pancreatic enzyme secretion to digest fat and protein arriving in the duodenum",
                 "Secretin; inhibits further gastric acid secretion and stimulates pancreatic bicarbonate release to neutralize duodenal pH",
-                "Ghrelin; stimulates appetite"
+                "Ghrelin; stimulates appetite and growth hormone release, signaling hunger to the hypothalamus between meals"
             ],
             "correctIndex": 2,
             "explanation": "Secretin is produced by duodenal enterocytes (stored as prosecretin) and activated by the presence of gastric acid in the duodenum as chyme enters through the pyloric sphincter. Its primary function is to regulate duodenal pH by: (1) inhibiting further gastric acid secretion (inhibits gastrin), and (2) stimulating pancreatic bicarbonate release to neutralize the acidic chyme. Secretin also stimulates bile acid production.",
@@ -2774,10 +2774,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Ghrelin is known as the 'hunger hormone.' Which clinical scenario is MOST consistent with elevated ghrelin levels?",
             "options": [
-                "Obesity with chronic high caloric intake",
-                "Following Roux-en-Y gastric bypass surgery",
+                "Obesity with chronic high caloric intake (sustained positive energy balance)",
+                "Following Roux-en-Y gastric bypass surgery (exclusion of the gastric fundus)",
                 "After completing a restrictive diet (caloric restriction leading to weight loss)",
-                "After a large meal with high fat content"
+                "After a large meal with high fat content (postprandial satiety signaling)"
             ],
             "correctIndex": 2,
             "explanation": "Ghrelin levels INCREASE after dieting efforts (caloric restriction and weight loss), making weight maintenance difficult — the body fights against weight loss by increasing hunger signals. Counterintuitively, ghrelin is also HIGH in cachectic states and anorexia nervosa. Ghrelin is LOWER in obese individuals and in those who lose weight via gastric bypass (compared to diet-induced weight loss) — a potential mechanism for the superior weight-loss outcomes after RYGB.",
@@ -2796,10 +2796,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Cholecystokinin (CCK) is released in response to fat and protein in the stomach and small intestine. What are its two primary digestive effects?",
             "options": [
-                "Increases gastric acid secretion and stimulates insulin release",
+                "Increases gastric acid secretion and stimulates insulin release from pancreatic beta cells",
                 "Slows gastric emptying and stimulates bile production plus pancreatic enzyme release",
-                "Stimulates intestinal motility and increases water secretion",
-                "Inhibits gastrin and reduces duodenal pH"
+                "Stimulates intestinal motility and increases water secretion into the lumen of the colon",
+                "Inhibits gastrin and reduces duodenal pH to activate pancreatic enzymes in the lumen"
             ],
             "correctIndex": 1,
             "explanation": "CCK is produced by small intestinal mucosal cells and acts to: (1) slow gastric emptying (to allow more time for digestion), and (2) stimulate bile production (from the gallbladder) and pancreatic juice release (containing bicarbonate and enzymes). CCK also contributes to satiety via CNS receptors. Bile acid accumulation in the intestine provides negative feedback to reduce CCK secretion once digestion is sufficient.",
@@ -2818,10 +2818,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "How are dietary lipids transported from the enterocyte to the liver?",
             "options": [
-                "As free fatty acids in the portal vein, directly to the liver",
-                "As VLDL particles entering the blood capillaries in the villi",
+                "As free fatty acids in the portal vein, directly to the liver, where they are repackaged into VLDL particles for export to tissues",
+                "As VLDL particles entering the blood capillaries in the villi, then traveling via the portal vein to the liver for processing",
                 "As chylomicrons entering the lacteals (lymphatic capillaries), then traveling via lymph to enter the blood at the subclavian vein",
-                "As micelles absorbed directly into blood capillaries in the jejunum"
+                "As micelles absorbed directly into blood capillaries in the jejunum, then carried by bile salts through the hepatic portal system"
             ],
             "correctIndex": 2,
             "explanation": "After fat absorption, free fatty acids and monoglycerides are re-esterified to triglycerides in the Golgi apparatus and packaged into chylomicrons. Chylomicrons are too large for blood capillaries, so they enter lacteals (lymphatic capillaries). The lymphatic system transports chylomicrons via the thoracic duct, entering the bloodstream at the subclavian vein. Lipoprotein lipase degrades chylomicrons to chylomicron remnants, taken up by the liver for repackaging into VLDL, LDL, and HDL.",
@@ -2840,10 +2840,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Glucose and galactose are absorbed at the brush border primarily via which transport mechanism?",
             "options": [
-                "GLUT5 facilitated diffusion",
+                "GLUT5 facilitated diffusion (sodium-independent)",
                 "Passive diffusion down a concentration gradient",
                 "SGLT-1 active transport co-transport with sodium",
-                "Pinocytosis via micelles"
+                "Pinocytosis via micelles formed with bile salts"
             ],
             "correctIndex": 2,
             "explanation": "Glucose and galactose are primarily absorbed via SGLT-1 (sodium-glucose co-transporter 1), which requires sodium co-transport (active transport). The sodium gradient is maintained by the Na-K-ATPase pump on the basolateral membrane. SGLT-1 is densest in the duodenum and jejunum. Fructose, by contrast, is absorbed via GLUT5 facilitated diffusion. From the enterocyte into the blood, glucose exits via GLUT-2 facilitated diffusion into the portal vein.",
@@ -2862,10 +2862,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Vitamin B12 absorption requires which factor, where is it produced, and where in the GI tract does absorption occur?",
             "options": [
-                "Bile acids (produced by the liver); absorbed in the jejunum",
-                "R protein (produced in saliva); absorbed in the duodenum",
+                "Bile acids (produced by hepatocytes in the liver); absorbed in the proximal jejunum",
+                "R protein (haptocorrin, produced in saliva); absorbed in the proximal duodenum",
                 "Intrinsic factor (produced by gastric parietal cells); absorbed in the terminal ileum",
-                "Transcobalamin (produced in the pancreas); absorbed in the colon"
+                "Transcobalamin (produced in the exocrine pancreas); absorbed in the ascending colon"
             ],
             "correctIndex": 2,
             "explanation": "Vitamin B12 absorption requires intrinsic factor (IF), a glycoprotein produced by gastric parietal cells (stimulated by gastrin). B12 initially binds to R protein in the stomach for protection during GI transit. In the ileum, B12 detaches from R protein and binds to IF, and the IF-B12 complex is absorbed in the terminal ileum. Conditions that impair intrinsic factor (gastrectomy, atrophic gastritis, pernicious anemia) require IM B12 injections rather than oral supplementation.",
@@ -2884,10 +2884,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient who had a total gastrectomy develops macrocytic anemia with fatigue and neurological symptoms. The patient has been taking oral B12 supplements. Why is the oral supplementation insufficient?",
             "options": [
-                "The stomach is needed to absorb B12 directly from food",
+                "The stomach is needed to absorb B12 directly from food, and supplements bypass this site entirely",
                 "Without gastric parietal cells, no intrinsic factor is produced — oral B12 cannot be absorbed in the ileum",
-                "Gastrectomy removes the duodenum where B12 is absorbed",
-                "The patient needs higher doses of oral B12 to compensate for reduced intrinsic factor"
+                "Gastrectomy removes the duodenum where B12 is absorbed, so no oral form can reach its receptors",
+                "The patient needs higher doses of oral B12 to compensate for reduced intrinsic factor after gastrectomy"
             ],
             "correctIndex": 1,
             "explanation": "Intrinsic factor is produced exclusively by gastric parietal cells. After gastrectomy, there are no parietal cells left to produce intrinsic factor. Without IF, the IF-B12 complex cannot form and B12 cannot be absorbed in the terminal ileum — regardless of oral dose. Treatment must be intramuscular (IM) B12 injections, which bypass the need for GI absorption. This is the defining characteristic of pernicious anemia (IF-related B12 deficiency).",
@@ -2950,10 +2950,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Riboflavin (B2) deficiency produces which characteristic clinical signs?",
             "options": [
-                "Scurvy (bleeding gums, poor wound healing)",
+                "Scurvy (bleeding gums, poor wound healing, perifollicular hemorrhages)",
                 "Angular stomatitis (cheilosis), glossitis, red/sore eyes, and dermatitis",
-                "Pellagra (dermatitis, diarrhea, dementia)",
-                "Megaloblastic anemia with neurological symptoms"
+                "Pellagra (dermatitis, diarrhea, dementia, and, untreated, eventually death)",
+                "Megaloblastic anemia with neurological symptoms and peripheral neuropathy"
             ],
             "correctIndex": 1,
             "explanation": "Riboflavin (B2) deficiency signs include: angular stomatitis (also called cheilosis or angular cheilitis — cracking at mouth corners), glossitis (red/inflamed tongue), sore red eyes, and dermatitis. B2 is crucial for FAD and FMN enzyme cofactors in energy metabolism. Riboflavin deficiency is relatively rare and typically co-occurs with other B vitamin deficiencies. The name 'flavin' means yellow (Latin) — excess riboflavin causes bright yellow urine.",
@@ -3016,10 +3016,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Short-chain fatty acids (SCFAs) such as butyrate, acetate, and propionate are produced in the colon by what process, and what is the primary function of butyrate?",
             "options": [
-                "Hydrolysis of dietary fat by pancreatic lipase; provides energy to liver cells",
+                "Hydrolysis of dietary fat by pancreatic lipase; provides energy to liver cells and is the main fuel for hepatocytes",
                 "Bacterial fermentation of soluble fiber; butyrate is the main energy source for colonocytes and has anti-cancer activity",
-                "Deamination of amino acids by gut bacteria; propionate is converted to ketone bodies",
-                "Saponification of bile acids; acetate is the primary energy source for the brain"
+                "Deamination of amino acids by gut bacteria; propionate is converted to ketone bodies that fuel the colonic epithelium",
+                "Saponification of bile acids; acetate is the primary energy source for the brain during fasting and exercise"
             ],
             "correctIndex": 1,
             "explanation": "SCFAs are produced by commensal gut bacteria fermenting soluble fiber in the colon. Butyrate is the primary energy source for colonocytes (colon epithelial cells) and has anti-cancer activity. Acetate supports growth of other gut microbiota and participates in cholesterol metabolism and lipogenesis. Propionate is used for colonocyte energy and transported to the liver for gluconeogenesis. SCFAs also aid sodium absorption, maintaining the electrolyte gradient for water absorption.",
@@ -3082,8 +3082,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Pantothenic acid (vitamin B5) is critically important in metabolism because it is a component of which two molecules central to all three macronutrient pathways?",
             "options": [
-                "NAD+ and NADP+",
-                "FAD and FMN",
+                "Nicotinamide adenine dinucleotides NAD+ and NADP+",
+                "Flavin coenzymes FAD and FMN (flavoproteins)",
                 "Coenzyme A (CoA) and acyl carrier protein (ACP)",
                 "Thiamine pyrophosphate (TPP) and pyridoxal phosphate (PLP)"
             ],
@@ -3171,9 +3171,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with vitamin A deficiency would most likely present with which manifestations?",
             "options": [
                 "Night blindness and xerophthalmia (dry eyes/corneal damage)",
-                "Bleeding gums and perifollicular hemorrhages",
-                "Bone pain and hypercalcemia",
-                "Megaloblastic anemia and glossitis"
+                "Bleeding gums and perifollicular hemorrhages (scurvy signs)",
+                "Bone pain and hypercalcemia (with soft tissue calcification)",
+                "Megaloblastic anemia and glossitis (smooth, red tongue)"
             ],
             "correctIndex": 0,
             "explanation": "Vitamin A deficiency causes xerophthalmia (dry eyes → corneal ulceration → blindness) and night blindness because retinal (the aldehyde form of vitamin A) is the visual chromophore. Hyperkeratosis (skin thickening) also occurs. Vitamin A is stored primarily in the liver — deficiency doesn't manifest in blood biomarkers until stores are exhausted. Vitamin A toxicity (excess retinoids) causes birth defects in pregnancy. Excess beta-carotene causes carotenemia (orange skin) but NOT vitamin A toxicity.",
@@ -3216,8 +3216,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "K1 from gut microbiota; K2 from green leafy vegetables",
                 "K1 from green leafy vegetables; K2 produced by gut microbiota",
-                "K1 from animal products; K2 from plant foods",
-                "K1 from fermented dairy; K2 from fortified cereals"
+                "K1 from animal products; K2 from plant foods and grains",
+                "K1 from fermented dairy; K2 from fortified breakfast cereals"
             ],
             "correctIndex": 1,
             "explanation": "Phylloquinone (vitamin K1) is the predominant dietary form of vitamin K, found in green leafy vegetables (kale, spinach, broccoli). Menaquinones (vitamin K2) are produced by gut microbiota in the large intestine. Vitamin K has a short half-life, is rapidly metabolized, and is excreted mainly in feces. Blood and tissue levels are typically low. Vitamin K is absorbed in the ileum and transported via chylomicrons to the liver, then to peripheral tissues including heart, brain, pancreas, and bone.",
@@ -3350,10 +3350,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Goitrogens are compounds that interfere with iodine utilization and can exacerbate iodine deficiency. Which food group is a source of goitrogens?",
             "options": [
-                "Red meat and poultry",
-                "Citrus fruits and berries",
+                "Red meat, poultry, liver, and kidney",
+                "Citrus fruits, berries, and melons",
                 "Cruciferous vegetables, soybeans, and cassava",
-                "Whole grains and enriched cereals"
+                "Whole grains, enriched cereals, and brown rice"
             ],
             "correctIndex": 2,
             "explanation": "Goitrogens are compounds that interfere with iodide digestion, absorption, or thyroid hormone synthesis. Key goitrogenic foods include cruciferous vegetables (broccoli, cabbage, kale), soybeans, peanuts, onions, garlic, and cassava. Cassava is particularly relevant in tropical and subtropical regions where iodine deficiency is already common. Goitrogens are typically only clinically significant in individuals with underlying iodine deficiency — cooking reduces goitrogenic activity in most vegetables.",
@@ -3396,9 +3396,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Phosphorus has numerous essential functions in the body. Which of the following is NOT a function of phosphorus?",
             "options": [
-                "Component of hydroxyapatite in bone and teeth",
+                "Component of hydroxyapatite crystals in bone and teeth",
                 "Part of the phospholipid bilayer in cell membranes",
-                "Component of the ATP molecule (energy currency)",
+                "Component of the ATP molecule (the cell's energy currency)",
                 "Required cofactor for vitamin C absorption in the duodenum"
             ],
             "correctIndex": 3,
@@ -3508,10 +3508,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Excessive beta-carotene consumption causes carotenemia but NOT vitamin A toxicity. The best explanation is:",
             "options": [
-                "Beta-carotene is water-soluble and rapidly excreted by the kidneys",
+                "Beta-carotene is water-soluble and rapidly excreted by the kidneys, so it never accumulates in the liver or adipose tissue",
                 "The body converts only a small fraction of beta-carotene to active vitamin A, and excess is stored harmlessly in subcutaneous fat",
-                "Beta-carotene is absorbed by passive diffusion and cannot trigger active transport of retinol",
-                "Beta-carotene competes with retinol for the retinol-binding protein, reducing uptake"
+                "Beta-carotene is absorbed by passive diffusion and cannot trigger active transport of retinol into hepatic stellate cells",
+                "Beta-carotene competes with retinol for the retinol-binding protein, reducing uptake of vitamin A into target tissues"
             ],
             "correctIndex": 1,
             "explanation": "The body converts beta-carotene to active vitamin A (retinol) inefficiently — only a small fraction is converted, and conversion decreases further when vitamin A stores are adequate. Excess unconverted beta-carotene accumulates in subcutaneous fat, giving the skin an orange color (carotenemia/carotenodermia) — a harmless and reversible condition. This is in contrast to excessive preformed vitamin A (retinol/retinyl esters from supplements or liver), which can accumulate to toxic levels causing teratogenicity, bone abnormalities, and liver damage.",
@@ -3530,10 +3530,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient asks which foods most increase their risk of kidney stones and high uric acid due to vitamin C excess. You counsel that high-dose vitamin C supplementation increases urinary excretion of:",
             "options": [
-                "Calcium and phosphate, increasing hydroxyapatite crystal formation",
+                "Calcium and phosphate, increasing hydroxyapatite crystal formation in the kidney",
                 "Oxalic acid and uric acid, increasing the risk of calcium oxalate and urate stones",
-                "Iron and copper, reducing body stores of both minerals",
-                "Vitamin B6 and folate, causing secondary B-vitamin deficiencies"
+                "Iron and copper, reducing body stores of both minerals and causing anemia",
+                "Vitamin B6 and folate, causing secondary B-vitamin deficiencies and neuropathy"
             ],
             "correctIndex": 1,
             "explanation": "High-dose vitamin C can cause diarrhea and GI cramping. More importantly, excessive vitamin C increases the urinary excretion of BOTH oxalic acid (a metabolite of ascorbate) and uric acid. Both increase kidney stone risk — oxalic acid contributes to calcium oxalate stones (the most common kidney stone type) and high uric acid contributes to urate stones. This is why the RDA for vitamin C is sufficient, and megadosing via supplements is not recommended without medical supervision.",
@@ -3575,10 +3575,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient's 3-day food recall reveals they regularly consume spinach and rhubarb with their calcium-fortified orange juice. As a dietitian, you are concerned because spinach and rhubarb are high in:",
             "options": [
-                "Phytates, which bind calcium and prevent absorption",
-                "Tannins, which chelate calcium in the GI tract",
+                "Phytates, which bind calcium and prevent absorption in leafy greens and whole grains",
+                "Tannins, which chelate calcium in the GI tract and reduce its bioavailability",
                 "Oxalates, which form insoluble calcium oxalate complexes reducing calcium absorption",
-                "Goitrogens, which interfere with calcium utilization in bone"
+                "Goitrogens, which interfere with calcium utilization in bone and reduce mineralization"
             ],
             "correctIndex": 2,
             "explanation": "Spinach and rhubarb are among the foods HIGHEST in oxalates. Oxalic acid binds calcium in the GI tract to form insoluble calcium oxalate, reducing calcium bioavailability. This is why spinach, despite its calcium content, is a poor calcium source — most of its calcium is bound by oxalate. Other high-oxalate foods include dried beans and sweet potatoes. Phytates (from whole grains and legumes) also inhibit calcium absorption. The calcium in dairy is much better absorbed than from high-oxalate plant sources.",
@@ -3598,10 +3598,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Zinc absorption is transported into enterocytes via ZIP4. Which compound inhibits zinc absorption?",
             "options": [
-                "Vitamin C and citric acid",
+                "Vitamin C, citric acid, and animal protein",
                 "Phytates, oxalates, polyphenols, and non-heme iron",
                 "Calcium supplements taken without food",
-                "Intrinsic factor and vitamin B12"
+                "Intrinsic factor and vitamin B12 in the ileum"
             ],
             "correctIndex": 1,
             "explanation": "Zinc absorption (via ZIP4 transporter) is inhibited by phytates, oxalates, polyphenols, and non-heme iron. High zinc intake upregulates thionein, shifting zinc toward storage (metallothionein) rather than circulation. Zinc stores are found in liver, bone, pancreas, and kidney. Zinc is excreted in feces via sloughed enterocytes. We absorb up to 40% of dietary zinc. Vitamin C enhances IRON absorption, not zinc. Intrinsic factor is relevant to B12 absorption only.",
@@ -3621,10 +3621,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Vitamin E is transported to tissues via which lipoprotein, and where is excess vitamin E stored?",
             "options": [
-                "HDL; stored in the liver only",
+                "HDL → liver → bile; stored in the liver only, with no adipose or membrane reserve",
                 "Chylomicrons → liver → VLDL; stored in liver, adipose tissue, and cellular membranes",
-                "LDL; stored primarily in bone marrow",
-                "Albumin; stored in skeletal muscle"
+                "Chylomicrons → LDL; stored primarily in bone marrow and red blood cell membranes",
+                "Albumin → portal vein → liver; stored in skeletal muscle and cardiac tissue"
             ],
             "correctIndex": 1,
             "explanation": "Vitamin E is a fat-soluble vitamin absorbed via micelles in the jejunum, transported to the liver via chylomicrons, and then distributed to peripheral tissues via VLDL. Excess vitamin E is stored in the liver, adipose tissue, and cellular membranes (it is a membrane antioxidant). Vitamin E can also be excreted in feces. Being fat-soluble, vitamins A, D, E, and K are all initially absorbed in micelles and transported via chylomicrons, though their subsequent transport and storage differ.",
@@ -3644,10 +3644,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "The Dietary Supplement Health and Education Act (DSHEA) of 1994 defines dietary supplements as products that must be:",
             "options": [
-                "FDA-approved before marketing and tested for efficacy",
+                "FDA-approved before marketing and tested for safety and efficacy in clinical trials",
                 "Labeled as dietary supplements, taken by mouth, and containing ≥1 dietary ingredient",
-                "Prescribed by a licensed healthcare provider and dispensed by a pharmacist",
-                "Free of all allergens and GRAS-certified by the FDA"
+                "Prescribed by a licensed healthcare provider and dispensed by a licensed pharmacist",
+                "Free of all major allergens and GRAS-certified by the FDA before retail sale"
             ],
             "correctIndex": 1,
             "explanation": "DSHEA 1994 defines dietary supplements as products that: (1) are intended to supplement the diet, (2) contain at least 1 dietary ingredient (vitamins, minerals, herbs, amino acids, etc.) or their constituents, (3) are intended to be taken by MOUTH only (pill, capsule, tablet, liquid — NOT topical), and (4) are labeled on the front panel as a dietary supplement. DSHEA notably does NOT require FDA pre-market approval for safety or efficacy — manufacturers are responsible for ensuring safety before marketing.",
@@ -3667,7 +3667,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A vegetarian patient asks about protein complementation. Which combination is NOT an effective complementary protein pairing?",
             "options": [
                 "Corn tortillas with black beans",
-                "Rice with lentils",
+                "Brown rice with lentils",
                 "Squash with kidney beans",
                 "Whole wheat bread with peanut butter"
             ],
@@ -3687,10 +3687,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the following omega-3 fatty acids and their PRIMARY dietary sources are correctly matched?",
             "options": [
-                "ALA → fish oil and shellfish; EPA → flaxseed and walnuts; DHA → animal fat",
+                "ALA → fish oil and shellfish; EPA → flaxseed and walnuts; DHA → animal fat and vegetable oils",
                 "ALA → flaxseed, canola oil, walnuts; EPA → marine algae and fish oil; DHA → animal fat and fish oil",
-                "ALA → corn oil and safflower oil; EPA → soybean oil; DHA → egg yolk",
-                "ALA → marine algae; EPA → linseed oil; DHA → coconut oil"
+                "ALA → corn oil and safflower oil; EPA → soybean oil and walnuts; DHA → egg yolk and flaxseed",
+                "ALA → marine algae and fish oil; EPA → linseed oil and chia; DHA → coconut oil and palm oil"
             ],
             "correctIndex": 1,
             "explanation": "The three key omega-3 fatty acids: ALA (alpha-linolenic acid, C18:3 n-3) is found in plant sources — flaxseed, flaxseed oil, canola oil, soybean oil, walnuts. EPA (eicosapentaenoic acid) is found in marine algae (primary synthesizer), fish oil, and shellfish. DHA (docosahexaenoic acid) is found in animal fat, fish oil, and shellfish. ALA is the only essential omega-3 (cannot be synthesized); EPA and DHA can be synthesized from ALA, though conversion is limited. Omega-6 fatty acids (linoleic acid) are found in corn, safflower, and sunflower oils.",
@@ -3753,10 +3753,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A hospital dietitian uses electronic health records to identify patients who had cardiac surgery in 2020 and classifies them by feeding method (EN vs PN vs oral). She then compares length of stay. What type of study is this?",
             "options": [
-                "Prospective cohort — exposure measured before outcome",
-                "Randomized controlled trial — dietitian assigned feeding method",
+                "Prospective cohort — exposure measured before outcome, following patients forward from 2020",
+                "Randomized controlled trial — dietitian assigned feeding method to each patient at random",
                 "Retrospective cohort — data already collected, exposure measured before outcome in time",
-                "Cross-sectional — exposure and outcome measured simultaneously"
+                "Cross-sectional — exposure and outcome measured simultaneously at a single point in time"
             ],
             "correctIndex": 2,
             "explanation": "This is a retrospective cohort study. Even though the data already exists in EHRs, the exposure (feeding method) occurred BEFORE the outcome (length of stay) in calendar time — so it is still a cohort design. It is retrospective because all data was collected in the past and the investigator is looking backwards. Limitations include that EHR data was not originally collected for research purposes, limiting data quality and variable control.",
@@ -3775,8 +3775,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "NHANES measures dietary intake and BMI in a national sample at a single point in time. What study design is this?",
             "options": [
                 "Prospective cohort",
-                "Cross-sectional",
-                "Case-control",
+                "Cross-sectional survey",
+                "Retrospective case-control",
                 "Randomized controlled trial"
             ],
             "correctIndex": 1,
@@ -3796,10 +3796,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Clinicians randomize 200 ICU patients to early enteral nutrition vs NPO for 48 hours and compare 30-day mortality. Why does randomization allow causal inference in this study?",
             "options": [
-                "Randomization ensures blinding so patients don't know which group they are in",
+                "Randomization ensures blinding so patients don't know which group they are assigned to during the trial",
                 "Randomization distributes known and unknown confounders equally between groups, isolating the treatment effect",
-                "Randomization prevents recall bias by removing the need for participant self-report",
-                "Randomization ensures the study meets statistical power requirements"
+                "Randomization prevents recall bias by removing the need for participant self-report of diet and outcomes",
+                "Randomization ensures the study meets statistical power requirements for detecting mortality differences"
             ],
             "correctIndex": 1,
             "explanation": "Randomization distributes both known and unknown confounders (patient age, severity of illness, comorbidities, etc.) roughly equally between groups. This means any differences in outcomes are attributable to the intervention itself, allowing causal inference. Observational studies can only demonstrate association/correlation because without randomization, confounders may systematically differ between groups. On the RD exam: if randomized → can infer causation; if not randomized → association only.",
@@ -3818,10 +3818,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A correlation coefficient (r) of -0.85 between dietary sodium intake and arterial compliance means:",
             "options": [
-                "There is a strong positive correlation — both increase together",
-                "There is no meaningful linear relationship between the two variables",
+                "There is a strong positive correlation — both increase together as dietary sodium intake rises over time",
+                "There is no meaningful linear relationship between the two variables in this population sample",
                 "There is a strong negative correlation — as sodium intake increases, arterial compliance decreases",
-                "Sodium intake causes reduced arterial compliance in 85% of cases"
+                "Sodium intake causes reduced arterial compliance in 85% of cases studied in the population"
             ],
             "correctIndex": 2,
             "explanation": "The correlation coefficient r ranges from -1 to +1. A value of -0.85 indicates a strong negative (inverse) linear correlation: as sodium intake increases, arterial compliance decreases. Values closer to ±1 indicate stronger linear relationships. Correlation does NOT imply causation — it only describes the direction and strength of a linear relationship. Note that r = 0 does not always mean no relationship; it means no LINEAR relationship (a curved pattern would also give r = 0).",
@@ -3861,8 +3861,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A researcher sends a survey to 2,000 community members but only 200 respond. The researcher should be concerned about which type of bias?",
             "options": [
-                "Observer effect — the researcher influenced respondent answers",
-                "Social desirability bias — respondents answered to appear favorable",
+                "Observer effect — the researcher influenced respondent answers through the survey wording",
+                "Social desirability bias — respondents answered to appear favorable to the researcher",
                 "Non-response bias — those who didn't respond may differ systematically from those who did",
                 "Healthy volunteer bias — only the most engaged community members responded"
             ],
@@ -3904,10 +3904,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A bathroom scale consistently reads 3 lbs HIGHER than the true weight for every person measured. This describes:",
             "options": [
-                "High accuracy, high precision",
+                "High accuracy, high precision (valid tool)",
                 "High precision, low accuracy (systematic bias)",
                 "Low precision, low accuracy (random error)",
-                "High accuracy, low precision"
+                "High accuracy, low precision (random scatter)"
             ],
             "correctIndex": 1,
             "explanation": "This scale is PRECISE (consistent) — it gives the same +3 lb error every time — but NOT ACCURATE (not close to truth). This is systematic bias (also called systematic error). A scale that gives random readings (+1, -2, +3 lbs) has random error — not precise, not accurate. The bullseye analogy: accurate = close to center (truth); precise = close together. Bias = systematic error = validity problem; random error = precision problem = reliability issue.",
@@ -3974,10 +3974,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "The same screening test for HIV is used in a general clinic (prevalence 0.5%) and an IV drug treatment clinic (prevalence 20%). Which statement about PPV is correct?",
             "options": [
-                "PPV is the same in both settings because sensitivity and specificity don't change",
+                "PPV is the same in both settings because sensitivity and specificity don't change between clinics",
                 "PPV is higher in the IV drug clinic because higher prevalence increases PPV with the same test",
                 "PPV is higher in the general clinic because larger volume produces more true positives",
-                "PPV is determined solely by specificity and is unaffected by prevalence"
+                "PPV is determined solely by specificity and is unaffected by disease prevalence in a population"
             ],
             "correctIndex": 1,
             "explanation": "PPV varies with BOTH test characteristics (sensitivity, specificity) AND disease prevalence. With the same test, a higher-prevalence population produces more true positives relative to false positives, increasing PPV. This is why targeted screening in high-risk populations (like an STI clinic for STI screening, or an IV drug clinic for HIV screening) is more cost-effective and yields higher PPV than universal screening in low-prevalence general populations. Sensitivity and specificity are intrinsic test properties and don't change with prevalence.",
@@ -4017,10 +4017,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "HIV treatment has dramatically improved, allowing patients to live for decades with the infection. Even if the rate of NEW HIV infections (incidence) remains constant, what happens to HIV PREVALENCE?",
             "options": [
-                "Prevalence decreases because patients are dying less from HIV",
-                "Prevalence remains constant since incidence is unchanged",
+                "Prevalence decreases because patients are dying less from HIV, leaving fewer active cases in the population",
+                "Prevalence remains constant since incidence is unchanged, and prevalence depends only on the rate of new cases",
                 "Prevalence increases because patients live longer with the disease, staying in the 'prevalence pool' longer",
-                "Prevalence is unaffected by treatment duration"
+                "Prevalence is unaffected by treatment duration, because it counts only cases diagnosed within the past year"
             ],
             "correctIndex": 2,
             "explanation": "Using the bathtub analogy: Prevalence = Incidence × Duration. When effective treatment extends life with disease (increases duration), prevalence rises even if incidence stays the same — because patients remain in the 'prevalence pool' longer before dying or recovering. This is why HIV prevalence has increased in the US despite stable or declining incidence. The 'drain' (death) from the prevalence bathtub is reduced with effective treatment.",
@@ -4041,7 +4041,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A news report states that a new county has a 15% infant MORTALITY rate. This means:",
             "options": [
                 "15% of infants in that county have some form of illness",
-                "15% of infants born in that county died",
+                "15% of infants born in that county died before their first birthday",
                 "15% more infants are ill in that county compared to neighboring counties",
                 "Infant morbidity rate is 15% higher than the national average"
             ],
@@ -4064,8 +4064,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Diabetic patients have 1.8 times HIGHER odds of heart attack than non-diabetic patients",
                 "The odds of heart attack in patients with diabetes was 1.8 times the odds in those without diabetes",
-                "Diabetes increases the risk of heart attack by 180%",
-                "Patients with diabetes are 80% more likely to have a heart attack"
+                "Diabetes increases the risk of heart attack by 180% compared with patients without diabetes",
+                "Patients with diabetes are 80% more likely to have a heart attack than non-diabetic patients"
             ],
             "correctIndex": 1,
             "explanation": "The correct phrasing for an odds ratio is: 'The odds of [outcome] in [exposed group] was [OR] times the odds of [outcome] in [comparison group].' The phrases 'times higher' or 'fold higher' are technically incorrect — they imply addition rather than multiplication. 'Increases by 80%' conflates percent change with the OR itself. The cleanest correct interpretations are: OR = 1.8 times the odds, OR 'the OR of heart attack for those with vs. without diabetes was 1.8.'",
@@ -4105,10 +4105,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A white woman age 65 has a bone mineral density (BMD) of 529. The population mean BMD for her demographic group is 809 with SD of 140. What is her Z-score and what does it mean?",
             "options": [
-                "Z = +2.0; her BMD is 2 standard deviations above average",
+                "Z = +2.0; her BMD is 2 standard deviations above average, indicating unusually high bone density",
                 "Z = -2.0; her BMD is 2 standard deviations below average, indicating low bone density",
-                "Z = -0.5; her BMD is slightly below average but within normal range",
-                "Z = +1.4; her BMD is above average"
+                "Z = -0.5; her BMD is slightly below average but within normal range for her age group",
+                "Z = +1.4; her BMD is above average, indicating no increased risk of fracture"
             ],
             "correctIndex": 1,
             "explanation": "Z-score = (Individual value − Mean) / SD = (529 − 809) / 140 = −280 / 140 = −2.0. A Z-score of −2.0 means her BMD is 2 standard deviations BELOW the mean for white women age 65 — indicating significantly low bone density and elevated fracture risk. Z-scores standardize values around the mean (Z=0), with negative values below average. Z-scores are used in bone density (DEXA), growth charts, and other clinical measures requiring comparison to a reference population.",
@@ -4148,10 +4148,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "easy",
             "text": "Which sampling strategy would be BEST for studying dietary behaviors among undocumented immigrants who are difficult to reach through standard survey methods?",
             "options": [
-                "Random sampling from the national census",
-                "Cluster sampling using schools as randomization units",
+                "Random sampling from the national census to ensure every household has an equal chance",
+                "Cluster sampling using schools as randomization units within immigrant neighborhoods",
                 "Snowball sampling — asking enrolled participants to recruit similar acquaintances",
-                "Systematic convenience sampling at a community health fair"
+                "Systematic convenience sampling at a community health fair, selecting every fifth visitor"
             ],
             "correctIndex": 2,
             "explanation": "Snowball sampling is most appropriate when the target population is hard to reach, sensitive, or connected by shared cultural/environmental/network characteristics. Participants recruit acquaintances who may be open to participating, making it useful for studying immigrant communities, people with stigmatized conditions (e.g., IV drug users), or other populations where standard sampling frames don't exist. Disadvantage: the resulting sample tends to be more homogenous than the broader population.",
@@ -4191,10 +4191,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A study on substance use during pregnancy uses a computer-administered survey in a private booth rather than a face-to-face interview. This is done primarily to reduce which type of bias?",
             "options": [
-                "Recall bias — self-administered surveys improve memory accuracy",
+                "Recall bias — self-administered surveys improve memory accuracy of past use",
                 "Social desirability bias — participants are more honest about taboo behaviors without an interviewer present",
-                "Observer effect — removes the interviewer's body language from the equation",
-                "Both B and C"
+                "Observer effect — removes the interviewer's body language and reactions from the equation",
+                "Both social desirability bias and the observer effect (interviewer influence)"
             ],
             "correctIndex": 3,
             "explanation": "Both social desirability bias AND observer effect are reduced by computer-administered surveys in private settings. Social desirability bias occurs when participants answer in socially acceptable ways rather than truthfully — especially important for stigmatized behaviors like drug use, alcohol, smoking, or sexual behaviors during pregnancy. Observer effect occurs when an interviewer's tone, body language, or reactions influence participant responses. NHANES uses computerized private-booth surveys for sensitive questions for exactly this reason.",
@@ -4213,10 +4213,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Publication bias in nutrition research means that:",
             "options": [
-                "Studies funded by industry are more likely to be published than independently funded studies",
+                "Studies funded by industry are more likely to be published than independently or government funded studies",
                 "Journals tend to publish studies with positive or significant findings, leaving null results unpublished",
                 "Researchers selectively report only statistically significant outcomes within their studies",
-                "High-impact journals only accept studies with large sample sizes"
+                "High-impact journals only accept studies with large sample sizes and long follow-up periods"
             ],
             "correctIndex": 1,
             "explanation": "Publication bias occurs when studies with statistically significant (positive or negative) findings are preferentially submitted to and accepted by journals, while null results (no association found) are not published. This creates a biased literature that overestimates the strength of associations. Researchers may be repeating studies that others have already conducted with null results without knowing it. Note: selectively reporting significant outcomes from within a single study is reporting bias — a related but distinct concept.",
@@ -4234,10 +4234,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In a food science sensory triangle test, participants are presented with three samples. What is the purpose and structure of this test?",
             "options": [
-                "Participants rate three products on a scale for multiple sensory attributes",
+                "Participants rate three products on a hedonic scale for multiple sensory attributes at once",
                 "Three samples (two identical, one different) are presented and participants identify the odd one out",
                 "Judges compare two samples (A and B) and choose which ranks higher on a specific attribute",
-                "A trained panel of 8–12 panelists rates samples using agreed-upon sensory terminology"
+                "A trained panel of 8–12 panelists rates samples using agreed-upon sensory terminology and scales"
             ],
             "correctIndex": 1,
             "explanation": "In a triangle test, two identical samples and one different sample are presented, and judges identify which is the odd sample. It tests whether a detectable difference exists between two products (e.g., store-brand vs. name-brand cola), without asking about specific sensory characteristics. Six possible sequences (ABB, BAA, AAB, BBA, ABA, BAB) are randomly distributed across at least 30 judges. In contrast, the paired comparison test asks judges to choose between 2 samples on a specific attribute, and QDA uses a trained panel to rate multiple sensory characteristics.",
@@ -4255,10 +4255,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Qualitative research differs from quantitative research primarily in that qualitative research:",
             "options": [
-                "Uses larger sample sizes to achieve statistical power",
-                "Reports results as means, standard deviations, and odds ratios",
+                "Uses larger sample sizes to achieve statistical power and generalize findings to populations",
+                "Reports results as means, standard deviations, and odds ratios from structured instruments",
                 "Collects data on qualities, themes, and perspectives through interviews and open-ended questions",
-                "Tests pre-specified hypotheses using controlled experimental designs"
+                "Tests pre-specified hypotheses using controlled experimental designs and random assignment"
             ],
             "correctIndex": 2,
             "explanation": "Qualitative research collects non-numerical data — themes, quotes, perspectives, and descriptions — typically through interviews, focus groups, or observation. It uses smaller sample sizes (due to interview burden) and reports themes via content analysis or thematic analysis. Quantitative research collects numerical data (means, SDs, percentages, ORs) using surveys with rating scales, experiments, or standardized measurements, and uses inferential statistical analysis. Focus groups are a qualitative technique for exploring thoughts and feelings not captured by standard surveys.",
@@ -4277,10 +4277,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "easy",
             "text": "A focus group is used instead of a standard survey when a researcher wants to:",
             "options": [
-                "Ensure random sampling from a large representative population",
+                "Ensure random sampling from a large representative population of community adults",
                 "Collect open-ended feedback and understand the reasoning behind behaviors or attitudes",
-                "Compare numerical outcomes between intervention and control groups",
-                "Establish a nationally representative prevalence estimate"
+                "Compare numerical outcomes between intervention and control groups statistically",
+                "Establish a nationally representative prevalence estimate for a nutrition behavior"
             ],
             "correctIndex": 1,
             "explanation": "Focus groups use a small group of participants with a trained moderator to discuss topics in depth via open-ended questions. They are valuable when researchers want to understand the WHY behind behaviors (e.g., why community members don't purchase produce even with incentives). They capture nuance not available in surveys. Disadvantages include groupthink, dominant voices suppressing others, resource intensity, and participant burden. The moderator may step out to allow more candid discussion.",
@@ -4298,10 +4298,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A prospective cohort study examining the relationship between childhood SSB consumption and adult cancer risk would be preferred over a case-control study PRIMARILY because:",
             "options": [
-                "Case-control studies cannot be used for outcomes that occur in adulthood",
+                "Case-control studies cannot be used for outcomes that occur in adulthood decades after the dietary exposure",
                 "A prospective cohort avoids recall bias by measuring SSB exposure in childhood before cancer develops",
-                "Prospective cohort studies are cheaper and faster to conduct than case-control studies",
-                "Case-control studies cannot study dietary exposures"
+                "Prospective cohort studies are cheaper and faster to conduct than case-control studies of cancer",
+                "Case-control studies cannot study dietary exposures because food intake is never recorded"
             ],
             "correctIndex": 1,
             "explanation": "The key advantage of a prospective cohort for this question is that dietary exposure (SSB intake) is measured IN CHILDHOOD — before the outcome (cancer) develops — avoiding recall bias. In a case-control study, adult cancer patients would need to recall their childhood beverage habits, which are subject to significant recall bias and misclassification. A prospective cohort requires long follow-up time (decades) and is expensive, but provides a more accurate exposure measure. An RCT would be unethical if SSBs are believed to be harmful.",
@@ -4320,10 +4320,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A cluster randomized trial evaluates a school lunch nutrition program. Schools (not individual students) are randomized to intervention or control. 'School' is defined as the:",
             "options": [
-                "Confounder — school type explains the intervention-outcome relationship",
-                "Dependent variable — school-level outcomes are measured",
+                "Confounder — school type explains the intervention-outcome relationship observed",
+                "Dependent variable — school-level outcomes are measured at the end of the year",
                 "Unit of randomization (cluster) — individual student randomization was impractical",
-                "Matching variable — controls are matched to cases by school"
+                "Matching variable — controls are matched to cases by school size and district"
             ],
             "correctIndex": 2,
             "explanation": "In cluster sampling/cluster randomized trials, when individual randomization is impractical (e.g., randomizing individual students while they share the same lunch), the 'cluster' (school) becomes the unit of randomization. All students within a school receive the same intervention. This preserves program integrity but reduces statistical power compared to individual randomization. NHANES uses multi-stage cluster sampling: county → segment → household → individual. Cluster RCTs are also called group-randomized trials.",
@@ -4341,10 +4341,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The EAL defines a systematic review as a high-level process that collects and critically analyzes multiple research studies. How does an evidence-based nutrition practice guideline differ from a systematic review?",
             "options": [
-                "A systematic review applies only to clinical settings, while practice guidelines cover all nutrition research",
+                "A systematic review applies only to clinical settings, while practice guidelines cover all nutrition research, including community and foodservice studies",
                 "A systematic review synthesizes evidence; a practice guideline translates that synthesis into actionable recommendations for specific disease states",
-                "Practice guidelines are based on expert opinion only, while systematic reviews use research data",
-                "There is no meaningful difference — both result in position statements"
+                "Practice guidelines are based on expert opinion only, while systematic reviews use research data from randomized trials and cohort studies",
+                "There is no meaningful difference — both result in position statements that the Academy publishes after review by its evidence analysis committee"
             ],
             "correctIndex": 1,
             "explanation": "A systematic review is the research synthesis process — it collects, critically appraises, and analyzes primary research studies on a focused question. An evidence-based nutrition practice guideline is the clinical translation step — guiding statements developed FROM a systematic review, designed to help practitioners and patients make decisions about appropriate nutrition care for specific diseases. Position papers present the Academy's official stance on controversial issues and (since 2017) are generated from EAL systematic reviews. All three are available through the Academy's Evidence Analysis Library at andeal.org.",
@@ -4364,10 +4364,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A Registered Dietitian is evaluating a 55-year-old male with Type 2 Diabetes who consistently consumes a diet high in refined carbohydrates and sugary beverages. His current HbA1c is 8.5%. Which of the following is the most appropriately written PES statement?",
             "options": [
-                "Altered nutrition-related laboratory values related to Type 2 Diabetes as evidenced by HbA1c of 8.5%.",
+                "Altered nutrition-related laboratory values related to Type 2 Diabetes as evidenced by HbA1c of 8.5% and a fasting blood glucose above the target range.",
                 "Excessive carbohydrate intake related to frequent consumption of sugary beverages and refined grains as evidenced by dietary recall AND HbA1c of 8.5%.",
-                "High blood sugar related to poor diet choices as evidenced by patient consuming daily sugary beverages.",
-                "Type 2 Diabetes related to excess weight and high carbohydrate intake as evidenced by HbA1c of 8.5%."
+                "High blood sugar related to poor diet choices as evidenced by patient consuming daily sugary beverages and refined grain products.",
+                "Type 2 Diabetes related to excess weight and high carbohydrate intake as evidenced by HbA1c of 8.5% and a 24-hour dietary recall."
             ],
             "correctIndex": 1,
             "explanation": "A PES statement must include the Problem (diagnostic label), Etiology (root cause the RD can address), and Signs/Symptoms (data proving the problem). 'Excessive carbohydrate intake' is an appropriate intake-domain problem. The etiology (frequent consumption of sugary beverages) is behavioral and can be targeted through nutrition intervention. The signs/symptoms include both dietary history and clinical lab data (HbA1c). Medical diagnoses (like Type 2 Diabetes) should not be used as the Problem or the Etiology if possible, because RDs do not cure diabetes; they treat the nutritional problem causing or exacerbating the diabetes."
@@ -4380,10 +4380,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with newly diagnosed celiac disease was counseled on a strict gluten-free diet 3 months ago. During the follow-up visit, the patient reports adherence, but their symptoms (diarrhea and bloating) persist. Which laboratory value should the dietitian monitor to best evaluate compliance to the gluten-free diet?",
             "options": [
-                "C-reactive protein (CRP)",
+                "C-reactive protein (CRP) and sedimentation rate",
                 "Tissue transglutaminase (tTG-IgA) antibodies",
-                "Serum ferritin",
-                "Fecal fat analysis"
+                "Serum ferritin and hemoglobin concentration",
+                "Fecal fat analysis over a 72-hour collection"
             ],
             "correctIndex": 1,
             "explanation": "Tissue transglutaminase (tTG-IgA) antibodies are the most sensitive and specific serologic markers for celiac disease. When a patient adheres to a strict gluten-free diet, tTG-IgA levels should decrease significantly over time (often normalizing within 6-12 months). Persistent or rising levels indicate continued gluten exposure, whether intentional or accidental (cross-contamination). CRP is a generalized marker of inflammation. Ferritin assesses iron stores. Fecal fat tests for malabsorption but does not specifically pinpoint gluten ingestion."
@@ -4412,8 +4412,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "An RD is monitoring a patient on long-term total parenteral nutrition (TPN). The RD notes a sudden spike in the patient's blood glucose levels (250 mg/dL) after previously being stable at 110 mg/dL on the same TPN formula. Which of the following complications should the RD suspect first?",
             "options": [
-                "Essential fatty acid deficiency",
-                "Refeeding syndrome",
+                "Essential fatty acid deficiency from PN",
+                "Refeeding syndrome from dextrose load",
                 "Catheter-related systemic infection/sepsis",
                 "Excessive dextrose infusion rate"
             ],
@@ -4428,10 +4428,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient arrives at an outpatient clinic for weight management counseling. The dietitian notes: BMI 34, patient expresses a desire to lose weight but states, 'I just don't know how to cook healthy meals and eat fast food for lunch every day.' What is the most appropriate 'Etiology' (root cause) for the PES statement: 'Excessive energy intake...'?",
             "options": [
-                "Related to BMI of 34",
-                "Related to undesirable food choices",
+                "Related to BMI of 34 recorded at today's visit",
+                "Related to undesirable food choices at meals and snacks",
                 "Related to food- and nutrition-related knowledge deficit",
-                "Related to limited access to healthy foods"
+                "Related to limited access to healthy foods near home"
             ],
             "correctIndex": 2,
             "explanation": "The etiology reveals the root cause of the problem and tells the dietitian what the intervention should target. The patient explicitly states, 'I just don't know how to cook healthy meals.' This points directly to a 'food- and nutrition-related knowledge deficit' and a potential deficit in food preparation skills. The RD's intervention will include education and skill-building on cooking and meal prep. BMI is a sign/symptom, not an etiology. Undesirable food choices is a problem or sign, not the root cause. Lack of access is not indicated here (just a lack of knowledge/skills)."
@@ -4444,10 +4444,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the following scenarios best demonstrates appropriate Nutrition Monitoring and Evaluation following a diagnosis of 'Inadequate Iron Intake'?",
             "options": [
-                "Educating the patient on dietary sources of heme and non-heme iron.",
+                "Educating the patient on dietary sources of heme and non-heme iron at the initial visit.",
                 "Reviewing the patient's hemoglobin and hematocrit lab values at a 3-month follow-up visit.",
-                "Recommending an over-the-counter ferrous sulfate supplement 325mg daily.",
-                "Diagnosing the patient with iron-deficiency anemia."
+                "Recommending an over-the-counter ferrous sulfate supplement 325mg daily with orange juice.",
+                "Diagnosing the patient with iron-deficiency anemia based on the initial lab panel."
             ],
             "correctIndex": 1,
             "explanation": "Monitoring and Evaluation involves selecting appropriate indicators to measure the amount of progress made for the nutrition diagnosis. Reviewing specific lab values (hemoglobin/hematocrit) at a follow-up visit is an evaluation of the outcome to see if the problem (inadequate iron status) is resolving. Educating the patient and recommending supplements are Nutrition Interventions. Diagnosing anemia is an assessment/medical diagnosis step."
@@ -4460,10 +4460,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Evaluate the following PES statement for a resident in long-term care: 'Swallowing difficulty related to stroke as evidenced by coughing and choking during meals, and SLP recommendation for pureed diet.' What is the primary flaw in this PES statement?",
             "options": [
-                "The problem 'Swallowing difficulty' is not an approved standardized diagnostic term.",
+                "The problem 'Swallowing difficulty' is not an approved standardized diagnostic term in the NCPT.",
                 "The etiology 'stroke' is a medical diagnosis, which the dietitian cannot alter via a nutrition intervention.",
-                "The signs and symptoms are subjective and cannot be objectively measured.",
-                "It lacks a secondary intake domain problem."
+                "The signs and symptoms are subjective and cannot be objectively measured by the dietitian at the bedside.",
+                "It lacks a secondary intake domain problem to link the swallowing difficulty to inadequate oral intake."
             ],
             "correctIndex": 1,
             "explanation": "The etiology in a PES statement should ideally be something that the dietetic professional can resolve or mitigate through a nutrition intervention. A dietitian cannot cure or reverse a 'stroke' (a medical diagnosis). A better etiology would be 'related to neurological impairment causing oropharyngeal dysphagia.' While 'swallowing difficulty' is listed in the clinical domain (NC-1.1), the fundamental error according to PES writing guidelines is utilizing an immutable medical diagnosis as the root etiology."
@@ -4492,8 +4492,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "When writing goal statements during the Monitoring and Evaluation step, an RD should ensure goals are SMART. A patient with a diagnosis of 'Inadequate fluid intake' sets a goal to 'Drink more water.' How should the RD revise this goal to meet SMART criteria?",
             "options": [
-                "Consume enough fluid to eliminate signs of physical dehydration.",
-                "Drink eight 8-ounce glasses of water every day.",
+                "Consume enough fluid to eliminate signs of physical dehydration, such as dark urine and dry mouth, as soon as possible.",
+                "Drink eight 8-ounce glasses of water every day. Start today and continue indefinitely at home and at work.",
                 "Consume 64 ounces of water daily by replacing soda at lunch and dinner with 16 ounces of water over the next 2 weeks.",
                 "Hydrate frequently throughout the day to meet estimated daily fluid requirements of 2000 mL."
             ],
@@ -4508,10 +4508,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with suspected lactose intolerance presents with symptoms of cramping, flatulence, and diarrhea post-dairy ingestion. The nutrition diagnosis is 'Altered GI function.' Which piece of data serves as the best 'Sign/Symptom' (evidenced by) component of the PES statement?",
             "options": [
-                "Lack of lactase enzyme production in the brush border.",
-                "Recent antibiotic usage disrupting the gut microbiome.",
+                "Lack of lactase enzyme production in the brush border of the small intestine after childhood.",
+                "Recent antibiotic usage disrupting the gut microbiome and reducing bacterial lactose fermentation.",
                 "Patient report of cramping, flatulence, and watery diarrhea within 1 hour of consuming dairy.",
-                "Recommendation for a lactose-free diet."
+                "Recommendation for a lactose-free diet with calcium-fortified alternatives and lactase tablets."
             ],
             "correctIndex": 2,
             "explanation": "The 'Signs and Symptoms' (S) in a PES statement are the defining characteristics or the data utilized to confirm that the specific problem exists. The patient's subjective report of physical gastrointestinal symptoms (cramping, flatulence, diarrhea) following dairy intake serves as the clinical evidence for the 'Altered GI function' problem. Lack of lactase is an etiology. Recommendation for a diet is an intervention."
@@ -4524,9 +4524,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which of the following is a CONTRAINDICATION to enteral nutrition?",
             "options": [
                 "Protein-energy malnutrition with inadequate intake for 5 days",
-                "Low-output enterocutaneous fistula",
-                "High-output enterocutaneous fistula",
-                "Coma with intact GI function"
+                "Low-output enterocutaneous fistula (<200 mL/day)",
+                "High-output enterocutaneous fistula (>500 mL/day)",
+                "Coma with intact GI function and no reflux"
             ],
             "correctIndex": 2,
             "explanation": "High-output enterocutaneous fistulas are a CONTRAINDICATION to enteral nutrition because feeding via the gut would increase fistula output and worsen the condition. Low-output enterocutaneous fistulas ARE an indication for EN. The other options (PEM with 5 days inadequate intake, coma) are indications for EN.",
@@ -4544,10 +4544,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the 5 main indications for enteral nutrition is present when a patient is consuming less than 50% of their estimated needs for 5–7 days?",
             "options": [
-                "Severe dysphagia",
+                "Severe dysphagia after stroke or head injury",
                 "Meeting < 50% of nutrient needs for 5–7 days",
-                "Low-output enterocutaneous fistula",
-                "Coma"
+                "Low-output enterocutaneous fistula (<500 mL/day)",
+                "Coma with an intact gag and cough reflex"
             ],
             "correctIndex": 1,
             "explanation": "One of the 5 main indications for EN is meeting <50% of nutrient needs for 5–7 days. The 5 indications are: (1) protein-energy malnutrition with inadequate intake ≥5 days, (2) meeting <50% of needs for 5–7 days, (3) severe dysphagia, (4) coma, and (5) low-output enterocutaneous fistula. Each alone warrants EN.",
@@ -4565,10 +4565,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient needs long-term enteral nutrition support (>4 weeks) and frequently vomits, making a nasal tube impractical. Which access route is most appropriate?",
             "options": [
-                "Nasogastric (NG) tube",
-                "Nasoduodenal (ND) tube",
+                "Nasogastric (NG) tube secured with a nasal bridle",
+                "Nasoduodenal (ND) tube placed under fluoroscopy",
                 "Percutaneous endoscopic gastrostomy (PEG) tube",
-                "Nasojejunal (NJ) tube"
+                "Nasojejunal (NJ) tube placed endoscopically"
             ],
             "correctIndex": 2,
             "explanation": "Nasal/oral tube access is for short-term use only (a few weeks). When long-term EN is needed, or when the patient vomits frequently (which would displace nasal tubes), a surgically placed tube such as PEG, G-tube, or J-tube is appropriate. PEG uses an endoscope to guide placement and can last months to years.",
@@ -4586,10 +4586,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient has a nasojejunal (NJ) tube with post-pyloric access. Which statement best describes the nutritional implication of bypassing the duodenum?",
             "options": [
-                "No nutritional implication — all digestion occurs in the stomach",
+                "No nutritional implication — all digestion occurs in the stomach, so duodenal bypass does not affect absorption of any nutrient",
                 "Key nutrients absorbed in the duodenum (iron, calcium, fat-soluble vitamins) may be inadequately absorbed, requiring supplementation",
-                "Post-pyloric access eliminates the need for a hydrolyzed formula",
-                "Jejunal access improves tolerance of hypertonic formulas"
+                "Post-pyloric access eliminates the need for a hydrolyzed formula, since the jejunum absorbs intact protein and fat more efficiently",
+                "Jejunal access improves tolerance of hypertonic formulas, because the jejunum dilutes them faster than the stomach can during feeds"
             ],
             "correctIndex": 1,
             "explanation": "Bypassing the duodenum with post-pyloric (jejunal) access means skipping a key site for digestion and absorption. Iron, calcium, fat-soluble vitamins, and other nutrients are primarily absorbed in the duodenum. NJ/PEJ access also requires hydrolyzed (pre-digested) formula or intact formula plus enzymes, because key digestive processes in the duodenum are bypassed.",
@@ -4630,10 +4630,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient receiving jejunal tube feeds develops dizziness, sweating, tachycardia, and cramping 20 minutes after bolus feeds are administered. What is the most likely cause?",
             "options": [
-                "Aspiration pneumonia from regurgitation",
+                "Aspiration pneumonia from regurgitation of formula into the airway during feeds",
                 "Dumping syndrome from hypertonic formula infused directly into the jejunum",
-                "Diarrhea from antibiotic use",
-                "Hypoglycemia from insulin administration"
+                "Diarrhea from antibiotic use disrupting the normal intestinal flora",
+                "Hypoglycemia from insulin administration given before the bolus feed"
             ],
             "correctIndex": 1,
             "explanation": "Dumping syndrome occurs when hypertonic contents enter the small intestine, causing an osmotic influx of fluid into the lumen. Symptoms (dizziness, sweating, tachycardia, cramping) occur within 15–60 minutes of feeds. With jejunal access, hypertonic formula directly infused into the jejunum bypasses the pyloric sphincter's normal rate control, worsening risk. Management: switch to continuous feeds, taper infusion rates, use isotonic formula.",
@@ -4652,10 +4652,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient on continuous tube feeds develops loose stools 6 hours after feeds begin. Which of the following is the MOST likely cause of this diarrhea (vs. dumping syndrome)?",
             "options": [
-                "Hypertonic formula causing osmotic fluid shift within 30 minutes of feeds",
+                "Hypertonic formula causing osmotic fluid shift within 30 minutes of feeds, regardless of the medications",
                 "Antibiotics, medications containing sorbitol, or formula intolerance — manifesting hours after feeds",
-                "Regurgitation of formula into the lungs",
-                "Inadequate fiber content causing constipation followed by overflow diarrhea"
+                "Regurgitation of formula into the lungs, with aspiration triggering a systemic inflammatory response",
+                "Inadequate fiber content causing constipation followed by overflow diarrhea several days later"
             ],
             "correctIndex": 1,
             "explanation": "The key distinction between dumping syndrome and diarrhea: dumping syndrome occurs 15–60 minutes after feeds (from rapid gastric emptying of hypertonic contents); diarrhea from other causes manifests LATER. Common causes of diarrhea after tube feeding include: antibiotics, medications with sorbitol, gastroenteritis/infection, malabsorption, and formula intolerance. Timing is the critical clue on exam questions.",
@@ -4696,10 +4696,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Gut atrophy occurs when the GI tract is not utilized for 2 or more weeks. Which of the following best describes a consequence of gut atrophy?",
             "options": [
-                "Increased intestinal villi height and improved absorption",
+                "Increased intestinal villi height and improved absorption once feeding is resumed later",
                 "Blunted villi, leaky tight junctions, and translocation of gut bacteria into the bloodstream",
-                "Increased mucus production and reduced intestinal permeability",
-                "Improved intestinal immune function due to reduced workload"
+                "Increased mucus production and reduced intestinal permeability that protect the gut wall",
+                "Improved intestinal immune function due to reduced workload on gut-associated lymphoid tissue"
             ],
             "correctIndex": 1,
             "explanation": "Gut atrophy (from non-use for ≥2 weeks) is characterized by: inflamed intestinal cells, blunted/malformed villi (reduced absorptive surface), leaky tight junctions between cells, and bacterial translocation from the intestinal lumen into the bloodstream — leading to systemic infection. This is a key reason to prefer enteral over parenteral nutrition when the gut works, even with trophic feeds.",
@@ -4719,9 +4719,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with short bowel syndrome following extensive bowel resection requires EN. Which formula type is most appropriate and why?",
             "options": [
                 "Standard polymeric formula (1 kcal/mL) — provides intact proteins and carbohydrates",
-                "High-calorie polymeric formula (2 kcal/mL) — more calories in less volume",
+                "High-calorie polymeric formula (2 kcal/mL) — more calories in less volume for fluid restriction",
                 "Hydrolyzed (monomeric) formula — pre-digested nutrients absorbed without full digestive capacity",
-                "Controlled carbohydrate formula — reduces CO2 production"
+                "Controlled carbohydrate formula — reduces CO2 production and improves glycemic control"
             ],
             "correctIndex": 2,
             "explanation": "Hydrolyzed (monomeric) formulas contain pre-digested protein (amino acids/peptides) and carbohydrates, and use MCTs for fat (which don't require emulsification and can be absorbed without full lymphatic transport). They are indicated for jejunal access, short bowel syndrome, and impaired digestion. Standard polymeric formulas require full digestive capacity, which is compromised in short bowel syndrome.",
@@ -4740,10 +4740,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Why are low carbohydrate/high fat enteral formulas beneficial for patients receiving mechanical ventilation?",
             "options": [
-                "Fat provides more calories per gram, reducing total formula volume needed",
+                "Fat provides more calories per gram, reducing total formula volume needed and the risk of pulmonary fluid overload in ventilated patients",
                 "Excess carbohydrate is converted to fat, releasing CO2 — difficult to clear with impaired respiratory function; fat produces less CO2",
-                "Low carbohydrate formulas prevent hyperglycemia in all ventilated patients",
-                "High fat formulas reduce enteral feeding intolerance and dumping syndrome"
+                "Low carbohydrate formulas prevent hyperglycemia in all ventilated patients — stress hyperglycemia is otherwise unavoidable with standard feeds",
+                "High fat formulas reduce enteral feeding intolerance and dumping syndrome — fat slows gastric emptying and lowers aspiration risk"
             ],
             "correctIndex": 1,
             "explanation": "When excess carbohydrate (beyond the body's oxidation capacity) is converted to fat (lipogenesis), it releases CO2. Patients on mechanical ventilation with impaired respiratory function have difficulty clearing excess CO2, increasing PCO2 and potentially worsening respiratory acidosis, making ventilator weaning harder. Low CHO/high fat formulas reduce CO2 production, facilitating ventilator weaning.",
@@ -4762,10 +4762,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Glutamine-supplemented enteral formulas are particularly beneficial in which clinical population?",
             "options": [
-                "Patients with chronic kidney disease",
-                "Patients with hyperlipidemia",
+                "Patients with chronic kidney disease on hemodialysis with elevated protein needs",
+                "Patients with hyperlipidemia and insulin resistance who are starting lipid-lowering therapy",
                 "Critically ill, trauma, burn, or surgical patients with increased stress and catabolism",
-                "Patients with constipation or irregular bowel function"
+                "Patients with constipation or irregular bowel function who need more stool bulk"
             ],
             "correctIndex": 2,
             "explanation": "Glutamine requirements are significantly increased during physiologic stress: trauma, burns, sepsis, major surgery, and catabolic states. Glutamine is a key transporter of nitrogen and carbon and serves as fuel for intestinal cells and immune cells. Glutamine-supplemented formulas can improve glucose and protein metabolism and help prevent GI atrophy in stressed patients.",
@@ -4784,10 +4784,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the following patients warrants IMMEDIATE initiation of parenteral nutrition?",
             "options": [
-                "A well-nourished, stable patient who will be NPO for 5 days post-surgery",
-                "A nutritionally-at-risk patient who cannot meet EN intake goals",
+                "A well-nourished, stable patient who will be NPO for only 5 days post-surgery",
+                "A nutritionally-at-risk patient who cannot meet EN intake goals during the first week",
                 "A moderately malnourished patient in whom oral and enteral nutrition are not possible",
-                "A metabolically unstable patient in the ICU"
+                "A metabolically unstable patient in the ICU who is still on escalating vasopressors"
             ],
             "correctIndex": 2,
             "explanation": "Timing for PN: (1) Well-nourished, stable: initiate PN after 7 days if still unable to meet ≥50% needs; (2) Nutritionally at-risk: initiate within 3–5 days; (3) Moderately/severely malnourished AND oral/EN not possible: initiate AS SOON AS POSSIBLE; (4) Metabolically unstable: DELAY PN until condition improves. A malnourished patient who cannot use the gut needs PN immediately.",
@@ -4828,9 +4828,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Dextrose in parenteral nutrition provides how many kcal per gram, and why is this different from dietary carbohydrate?",
             "options": [
-                "4 kcal/g — same as dietary carbohydrate",
+                "4 kcal/g — same as dietary carbohydrate, since dextrose is simply glucose dissolved in sterile water",
                 "3.4 kcal/g — dextrose is a monosaccharide with an attached water molecule that doesn't contribute calories",
-                "2.5 kcal/g — dextrose is partially metabolized before reaching cells",
+                "2.5 kcal/g — dextrose is partially metabolized before reaching cells, so a portion of its energy is lost",
                 "5.0 kcal/g — dextrose in solution has higher caloric density than dietary carbohydrate"
             ],
             "correctIndex": 1,
@@ -4939,9 +4939,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "What is the maximum daily lipid dose for a 75 kg critically ill patient on parenteral nutrition?",
             "options": [
                 "75 g/day (1 g/kg/day maximum for critically ill)",
-                "112 g/day (1.5 g/kg/day)",
-                "187.5 g/day (2.5 g/kg/day maximum)",
-                "300 g/day (4 g/kg/day)"
+                "112 g/day (1.5 g/kg/day maximum for most adults)",
+                "187.5 g/day (2.5 g/kg/day maximum for all patients)",
+                "300 g/day (4 g/kg/day for hypermetabolic states)"
             ],
             "correctIndex": 0,
             "explanation": "For critically ill patients, the maximum lipid dose is 1 g/kg/day (compared to 2.5 g/kg/day for non-critically ill patients). For a 75 kg critically ill patient: 1 g/kg × 75 kg = 75 g/day. This lower limit for critically ill patients is due to impaired lipid clearance, immune suppression from excessive lipids, and risk of fat overload syndrome. Lipids must constitute at least 2–4% of calories to prevent essential fatty acid deficiency.",
@@ -5004,10 +5004,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient on parenteral nutrition develops elevated blood glucose levels despite no prior history of diabetes. Which PN-related complication is this, and what is the most common cause?",
             "options": [
-                "Hypertriglyceridemia — from excessive lipid infusion",
+                "Hypertriglyceridemia — from excessive lipid infusion that impairs insulin signaling and glucose uptake",
                 "Hyperglycemia — from insulin resistance, steroid medications, physiologic stress, or excess dextrose infusion",
                 "Catheter-related bloodstream infection — causing systemic inflammation and glucose dysregulation",
-                "Refeeding syndrome — from rapid reintroduction of carbohydrates"
+                "Refeeding syndrome — from rapid reintroduction of carbohydrates after a period of prolonged starvation"
             ],
             "correctIndex": 1,
             "explanation": "Hyperglycemia is a common PN complication occurring when the body cannot transport glucose into cells fast enough. Causes include: insulin resistance, diabetes, steroid medications, physiologic stress (illness, surgery, infection), and excess dextrose infusion rate (exceeding 0.36 g/kg/hr). Maintaining GIR ≤4 mg/kg/min and monitoring blood glucose are key management strategies.",
@@ -5026,10 +5026,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Lipid emulsions do NOT contribute to the osmolarity of parenteral nutrition solutions. Why are they still advantageous for hypermetabolic patients with volume or carbohydrate restrictions?",
             "options": [
-                "Lipids require no metabolic processing before use",
+                "Lipids require no metabolic processing before use — they are oxidized directly without hepatic involvement",
                 "Lipids are isotonic and calorically dense — provide calories without increasing osmolarity or dextrose load",
-                "Lipids are hypertonic and increase oncotic pressure to mobilize edema",
-                "Lipids stimulate insulin secretion to manage hyperglycemia"
+                "Lipids are hypertonic and increase oncotic pressure to mobilize edema — drawing fluid back into the vessels",
+                "Lipids stimulate insulin secretion to manage hyperglycemia — lowering blood glucose in stressed patients"
             ],
             "correctIndex": 1,
             "explanation": "Lipid emulsions are isotonic and calorically dense (1.1 kcal/mL for 10%; 2 kcal/mL for 20%). They provide significant calories without contributing to the tonicity of the PN solution, making them ideal when: (1) dextrose must be limited (e.g., hyperglycemia, respiratory compromise); (2) fluid volume must be restricted; or (3) extra calories are needed in a concentrated form for hypermetabolic patients.",
@@ -5092,10 +5092,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the following is a contraindication to using a lipid emulsion in parenteral nutrition?",
             "options": [
-                "Mild hypertriglyceridemia requiring dietary modification",
+                "Mild hypertriglyceridemia requiring dietary modification only",
                 "Acute pancreatitis, severe egg allergy, or abnormal lipid metabolism",
-                "Peripheral venous access requiring isotonic solutions",
-                "Protein-calorie malnutrition with increased energy needs"
+                "Peripheral venous access requiring isotonic or near-isotonic solutions",
+                "Protein-calorie malnutrition with increased energy needs after surgery"
             ],
             "correctIndex": 1,
             "explanation": "Contraindications to lipid emulsions in PN include: abnormal lipid metabolism, lipid nephrosis, acute pancreatitis (lipids may worsen inflammation), and severe egg allergy (lipid emulsions contain egg phospholipid as an emulsifier). Caution is advised with blood coagulation disorders, moderate-to-severe liver disease, and compromised pulmonary function. Peripheral access is not a contraindication since lipids are isotonic.",
@@ -5114,10 +5114,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "What is the purpose of calculating PN osmolarity, and which components contribute to it?",
             "options": [
-                "To determine total calories; all components contribute equally",
+                "To determine total calories; all components contribute equally, including lipids at about 9 kcal/g and electrolytes",
                 "To guide central vs. peripheral access decisions; dextrose (×5 mOsm/g) and amino acids (×10 mOsm/g) contribute; lipids do NOT",
-                "To assess renal tolerance; amino acids contribute most to osmolarity",
-                "To set infusion rate; only dextrose contributes to osmolarity"
+                "To assess renal tolerance; amino acids contribute most to osmolarity (×20 mOsm/g), while dextrose contributes little",
+                "To set infusion rate; only dextrose contributes to osmolarity (×5 mOsm/g); amino acids, electrolytes and lipids do NOT contribute"
             ],
             "correctIndex": 1,
             "explanation": "PN osmolarity is calculated to determine if central or peripheral access is appropriate. Formula: (dextrose g/L × 5) + (AA g/L × 10) + 300–400 mOsm/L (for vitamins/minerals). Lipids do NOT contribute to osmolarity. Solutions >900–1,100 mOsm/L require central access. Central PN can be highly hypertonic (>2,000 mOsm/L) because the large blood volume of the vena cava dilutes it rapidly.",
@@ -5136,10 +5136,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient receiving continuous EN has a gastric residual volume (GRV) of 350 mL checked by the nurse. According to current ASPEN guidelines, what is the appropriate action?",
             "options": [
-                "Hold EN immediately and contact the physician",
+                "Hold EN immediately and contact the physician, since a residual above 250 mL signals intolerance and aspiration risk",
                 "Continue EN; current guidelines do not recommend withholding EN for residuals <500 mL without additional signs of intolerance",
-                "Switch to post-pyloric access immediately",
-                "Reduce infusion rate by 50% until residuals normalize"
+                "Switch to post-pyloric access immediately, because gastric residuals above 250 mL indicate delayed gastric emptying",
+                "Reduce infusion rate by 50% until residuals normalize, then advance by 10 mL/h every four hours as tolerated"
             ],
             "correctIndex": 1,
             "explanation": "Current ASPEN guidelines do NOT routinely recommend withholding EN based on gastric residual volumes (GRVs) alone for ICU patients. EN should not be withheld when residuals are <500 mL without additional signs of intolerance (e.g., abdominal distension, vomiting, aspiration). Previous guidelines suggested checking residuals every 3–5 hours with a cutoff of 100–150 mL, but current evidence does not support routine GRV monitoring as standard care.",
@@ -5158,10 +5158,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient on PN receives 1 L D50W and 500 mL of 10% amino acid solution combined in a single bag (total volume 1.5 L). What is the approximate osmolarity of this solution?",
             "options": [
-                "900 mOsm/L",
-                "1,350 mOsm/L",
+                "about 900 mOsm/L",
+                "about 1,350 mOsm/L",
                 "2,233–2,333 mOsm/L",
-                "4,500 mOsm/L"
+                "about 4,500 mOsm/L"
             ],
             "correctIndex": 2,
             "explanation": "Calculate g per liter of the 1.5 L solution: Dextrose: 1 L D50W = 500 g dextrose / 1.5 L = 333 g/L × 5 mOsm/g = 1,667 mOsm/L. Amino acids: 500 mL × 10 g/100 mL = 50 g AA / 1.5 L = 33 g/L × 10 mOsm/g = 333 mOsm/L. Add 300–400 for vitamins/minerals. Total ≈ 1,667 + 333 + 300–400 = 2,300–2,400 mOsm/L → roughly 2,233–2,333 mOsm/L. This highly hypertonic solution REQUIRES central access (limit for PPN is 900–1,100 mOsm/L).",
@@ -5181,10 +5181,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 68-year-old male with chronic kidney disease (Stage 4) and heart failure is admitted to the hospital with severe edema. To obtain the most accurate estimate of his resting energy requirements, which anthropometric measurement strategy should the dietitian use?",
             "options": [
-                "Use his current actual body weight to account for the total cellular mass.",
-                "Use his ideal body weight (IBW), as actual weight is obscured by fluid.",
+                "Use his current actual body weight to account for the total cellular mass, including fluid.",
+                "Use his ideal body weight (IBW), as actual weight is obscured by fluid and edema.",
                 "Calculate an estimated dry weight using his usual body weight prior to fluid accumulation.",
-                "Multiply his current actual weight by a stress factor of 1.2 to 1.3."
+                "Multiply his current actual weight by a heart failure stress factor of 1.2 to 1.3."
             ],
             "correctIndex": 2,
             "explanation": "In patients with severe edema or ascites (common in CHF, CKD, and cirrhosis), actual body weight is artificially inflated by excess fluid, severely overestimating energy needs. Using pure Ideal Body Weight (IBW) can drastically underestimate needs if the patient is chronically overweight or malnourished. The gold standard in this scenario is to determine the patient's estimated 'dry weight.' This is usually derived from their usual body weight prior to the fluid retention, or by estimating the volume of fluid (e.g., subtracting weight for 3+ pitting edema). Calorie equations should then apply to this dry weight."
@@ -5198,7 +5198,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient taking a monoamine oxidase inhibitor (MAOI) for depression must be prescribed a specific diet to avoid a potential hypertensive crisis. Which of the following foods must the dietitian instruct the patient to avoid?",
             "options": [
                 "Aged cheeses, cured meats, and draft beer",
-                "Grapefruit and grapefruit juice",
+                "Grapefruit, pomelo, and grapefruit juice",
                 "Dark green leafy vegetables and cruciferous vegetables",
                 "Dairy products and calcium-fortified orange juice"
             ],
@@ -5213,8 +5213,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Review the following PES statement documentation: 'Altered GI function related to irritable bowel syndrome as evidenced by reports of chronic diarrhea, cramping, and unintentional weight loss of 5 lbs in one month.' What is the critical error in this PES statement?",
             "options": [
-                "The problem 'Altered GI function' is not an approved terminology.",
-                "The signs/symptoms ('cramping', 'diarrhea') are completely subjective.",
+                "The problem 'Altered GI function' is not an approved standardized terminology.",
+                "The signs/symptoms ('cramping', 'diarrhea') are completely subjective and unmeasurable.",
                 "The etiology is a medical diagnosis that the dietitian cannot independently resolve.",
                 "Weight loss cannot be used as a sign/symptom for a gastrointestinal problem."
             ],
@@ -5229,10 +5229,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with cystic fibrosis presents with steatorrhea, poor weight gain, and fat-soluble vitamin deficiencies despite consuming adequate calories. The physician prescribes Pancreatic Enzyme Replacement Therapy (PERT). How should the dietitian instruct the patient to take the PERT capsules for maximum efficacy?",
             "options": [
-                "Take the entire dose first thing in the morning on an empty stomach.",
-                "Crush the enzymes and mix them into a hot beverage like tea or hot chocolate.",
+                "Take the entire daily dose first thing in the morning on an empty stomach with water.",
+                "Crush the enzymes and mix them into a hot beverage like tea or hot chocolate at meals.",
                 "Take the enzymes right before or throughout the duration of every meal and fat-containing snack.",
-                "Take the enzymes exactly two hours after a meal to aid in distal bowel absorption."
+                "Take the enzymes exactly two hours after a meal to aid in distal small bowel absorption of fat."
             ],
             "correctIndex": 2,
             "explanation": "Cystic fibrosis causes thick mucus to block the pancreatic ducts, preventing natural digestive enzymes from reaching the small intestine and resulting in severe malabsorption (exocrine pancreatic insufficiency). PERT enzymes must be physically present in the duodenum *at the exact same time* the chyme arrives from the stomach. Therefore, they must be taken right before the first bite, or spread evenly throughout a meal and all fat-containing snacks. Heat destroys the enzymes (so no hot beverages), and taking them on an empty stomach makes them useless, as there is no food to digest."
@@ -5245,10 +5245,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient on continuous enteral nutrition via a nasogastric tube develops severe diarrhea. The tube feeding parameters: Isotonic formula at 60 mL/hr. Medications: liquid acetaminophen, IV antibiotics, and daily liquid potassium chloride. Which of the following is the most likely cause of the diarrhea that the dietitian should investigate first?",
             "options": [
-                "The formula is hypertonic and is causing osmotic diarrhea.",
-                "The infusion rate of 60 mL/hr is too high for starting tolerance.",
+                "The formula is hypertonic and is causing osmotic diarrhea despite the slow continuous rate.",
+                "The infusion rate of 60 mL/hr is too high for starting tolerance in a patient fed through the stomach.",
                 "The liquid medications often contain high amounts of sorbitol or have very high osmolalities.",
-                "The nasogastric tube tip has migrated into the jejunum."
+                "The nasogastric tube tip has migrated into the jejunum, delivering formula past the stomach."
             ],
             "correctIndex": 2,
             "explanation": "While tube feeding formulas are frequently blamed for diarrhea, isotonic formulas infused continuously at a moderate rate (60 mL/hr) are generally well-tolerated. Liquid medications, particularly elixirs and syrups (like liquid acetaminophen or liquid KCl), are notorious for causing horrific osmotic diarrhea. They frequently contain high amounts of the sugar alcohol sorbitol (which cannot be absorbed) and can have extremely high osmolalities (sometimes >3000 mOsm/kg, whereas serum is ~300). The RD should investigate the medication regimen and osmolality first. IV antibiotics can also cause C. diff associated diarrhea, another major factor."
@@ -5263,7 +5263,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Severe fat loss and peripheral neuropathy.",
                 "Severe muscle wasting and pitting edema.",
-                "Sarcopenia and severe dehydration.",
+                "Sarcopenia and severe dehydration in the elderly.",
                 "Essential fatty acid deficiency and poor wound healing."
             ],
             "correctIndex": 1,
@@ -5277,10 +5277,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient on hemodialysis requires a careful dietary prescription. Which of the following profiles most accurately represents the standard Medical Nutrition Therapy parameters for an adult on maintenance hemodialysis?",
             "options": [
-                "Low protein (0.6 g/kg), high potassium, and unrestricted fluids.",
+                "Low protein (0.6 g/kg), high potassium, unrestricted phosphorus, and unrestricted fluids.",
                 "High protein (1.2 g/kg), restricted potassium, restricted phosphorus, and restricted fluids.",
-                "High protein (1.5 g/kg), high phosphorus, high sodium.",
-                "Low protein (0.8 g/kg), low sodium, low potassium, unrestricted fluids."
+                "High protein (1.5 g/kg), high phosphorus, high sodium, and liberal fluids between sessions.",
+                "Low protein (0.8 g/kg), low sodium, low potassium, unrestricted phosphorus, and unrestricted fluids."
             ],
             "correctIndex": 1,
             "explanation": "Patients on maintenance hemodialysis (HD) have significantly different needs compared to those with earlier stage CKD not on dialysis. Hemodialysis physically removes amino acids and peptides from the blood during the filtering process, causing an increased need for dietary protein (typically ~1.2 g/kg of primarily High Biological Value protein) to prevent wasting. However, because the kidneys cannot filter electrolytes or excrete urine between sessions, patients must strictly restrict potassium, phosphorus, sodium, and total fluid intake to prevent hyperkalemia, osteodystrophy, and fluid overload."
@@ -5293,10 +5293,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "An infant formula recipe is mixed incorrectly. The parents are diluting a standard 20 kcal/oz powder formula with exactly double the recommended amount of water to 'make it last longer'. What is the most immediate clinical risk to the infant, and what blood chemistry finding would you expect?",
             "options": [
-                "Hypernatremic dehydration; elevated serum sodium (>145 mEq/L)",
+                "Hypernatremic dehydration leading to lethargy; elevated serum sodium (>145 mEq/L)",
                 "Hyponatremia leading to water intoxication; decreased serum sodium (<135 mEq/L)",
-                "Protein-energy malnutrition; severely depressed serum albumin",
-                "Essential fatty acid deficiency; elevated triene:tetraene ratio"
+                "Protein-energy malnutrition leading to edema; severely depressed serum albumin",
+                "Essential fatty acid deficiency leading to dermatitis; elevated triene:tetraene ratio"
             ],
             "correctIndex": 1,
             "explanation": "When infant formula is severely 'over-diluted' (adding too much water), the baby is receiving relatively massive amounts of free water compared to electrolytes and nutrients. The infant's immature kidneys cannot excreting this rapid free water overload, leading to acute water intoxication. The excess water critically dilutes the sodium in the blood, resulting in hyponatremia (<135 mEq/L), which can swiftly cause cerebral edema, seizures, and death. While prolonged underfeeding will cause protein-energy malnutrition over weeks, the immediate, lethal threat is acute hyponatremia. Under-diluting (too little water) causes hypernatremic dehydration."
@@ -5325,10 +5325,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "When structuring a PES statement, the relationship between the Problem (P) and the Etiology (E) is connected by the phrase 'related to'. The relationship between the Etiology (E) and the Signs/Symptoms (S) is connected by 'as evidenced by'. Which of the following statements best describes the logical flow of a high-quality PES statement?",
             "options": [
-                "The signs and symptoms must directly prove the etiology is occurring.",
-                "The nutrition diagnosis (Problem) should be a condition that the physician can cure with medication, linked to signs generated by the dietitian.",
+                "The signs and symptoms must directly prove the etiology is occurring, so the intervention should target the signs rather than the underlying cause of the problem.",
+                "The nutrition diagnosis (Problem) should be a condition that the physician can cure with medication, linked to signs generated by the dietitian during the initial nutrition assessment.",
                 "The etiology is the root cause, so the nutrition intervention must be aimed directly at the etiology; the signs and symptoms are what you monitor to see if the intervention worked.",
-                "The signs and symptoms should be standard medical values (like blood pressure) regardless of whether they relate to the problem."
+                "The signs and symptoms should be standard medical values (like blood pressure) regardless of whether they relate to the problem the dietitian has identified."
             ],
             "correctIndex": 2,
             "explanation": "This describes the core logic of the Nutrition Care Process. The Etiology is the root cause of the problem. Therefore, a successful Nutrition Intervention must target the Etiology to fix the root cause. (If the etiology is 'knowledge deficit', the intervention is 'education'.) The Signs and Symptoms (which proved the problem existed in the first place) become the baseline data. The dietitian measures these exact same signs/symptoms during the Monitoring and Evaluation phase to prove that the intervention actually resolved the problem."
@@ -5373,10 +5373,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A laboratory report indicates a patient has an elevated serum Blood Urea Nitrogen (BUN) of 45 mg/dL (Normal: 10-20), but a completely normal serum creatinine (Cr) of 0.8 mg/dL (Normal: 0.6-1.2). Therefore, the BUN:Cr ratio is greater than >20:1. What does this specific ratio typically indicate to the dietitian?",
             "options": [
-                "Intrinsic renal failure requiring dialysis.",
-                "Severe acute liver failure.",
+                "Intrinsic renal failure requiring dialysis, with tubular damage and oliguria.",
+                "Severe acute liver failure, with impaired urea synthesis and jaundice.",
                 "Dehydration (pre-renal state), GI bleeding, or very high protein intake.",
-                "Severe protein-energy malnutrition."
+                "Severe protein-energy malnutrition, with muscle wasting and low intake."
             ],
             "correctIndex": 2,
             "explanation": "BUN represents the nitrogenous waste from protein metabolism. Creatinine is a steady waste product of muscle metabolism. If both BUN and Cr are elevated (meaning a ratio closer to 10:1 or 15:1), it suggests intrinsic kidney damage (the kidneys aren't filtering). However, if BUN is highly elevated while Creatinine remains normal (>20:1 ratio), the kidneys are structurally fine (Cr is clearing). The elevated BUN is instead caused by 'pre-renal' factors: severe dehydration (concentrating the blood), massive protein intake, or an upper GI bleed (blood protein being digested and causing a spike in urea)."
@@ -5390,9 +5390,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "For a critically ill, mechanically ventilated patient with Acute Respiratory Distress Syndrome (ARDS), a standard high-carbohydrate polymeric EN formula may cause difficulties in weaning the patient from the ventilator. What metabolic parameter explains this, and what substitute macronutrient profile is occasionally advocated?",
             "options": [
                 "Carbohydrates have a high Respiratory Quotient (RQ=1.0), producing excessive CO2; formulas higher in fat (RQ=0.7) reduce CO2 production.",
-                "Carbohydrates increase oxygen demand; replacing all carbohydrates with protein eliminates ventilatory stress.",
-                "Fat has a high Respiratory Quotient (RQ=1.0), so high-fat formulas cause respiratory acidosis.",
-                "Proteins have an RQ of 1.2, so a completely protein-free formula is necessary for ARDS."
+                "Carbohydrates increase oxygen demand; replacing all carbohydrates with protein (RQ=0.8) eliminates ventilatory stress entirely.",
+                "Fat has a high Respiratory Quotient (RQ=1.0), so high-fat formulas raise CO2 and cause respiratory acidosis in ventilated patients.",
+                "Proteins have the highest RQ of 1.2, so a completely protein-free formula is necessary for ARDS to limit CO2 retention."
             ],
             "correctIndex": 0,
             "explanation": "The Respiratory Quotient (RQ) is the ratio of CO2 produced to O2 consumed during metabolism. Carbohydrates have an RQ of 1.0 (they produce high amounts of CO2 when burned). Fats have an RQ of ~0.7 (they produce less CO2 relative to O2 consumed). Proteins are ~0.8. If a patient is receiving excess total calories, or an extremely high proportion of carbohydrate calories, their body produces excessive CO2. In a patient with compromised lungs (ARDS) attempting to wean off a ventilator, clearing this extra CO2 requires increased minute ventilation, leading to respiratory failure and delayed weaning. Therefore, preventing overfeeding and sometimes using lower-CHO/higher-fat formulas helps minimize CO2 retention."
@@ -5405,10 +5405,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the following populations is the target for calculating calculating 'catch-up growth' energy requirements (using the formula: (Recommended kcal/kg for age × Ideal Weight for height) / Actual weight)?",
             "options": [
-                "Critically ill adults with severe burns.",
-                "Older adults experiencing sarcopenia.",
+                "Critically ill adults with severe burns and high metabolic demand.",
+                "Older adults experiencing sarcopenia and unintended weight loss.",
                 "Pediatric patients identified with 'failure to thrive' (malnutrition).",
-                "Pregnant women entering their third trimester."
+                "Pregnant women entering their third trimester with poor weight gain."
             ],
             "correctIndex": 2,
             "explanation": "The 'catch-up growth' formula is a specialized calculation used exclusively in pediatric nutrition for infants and children identified with 'Failure to Thrive' (malnutrition/growth faltering). Because children must not only heal but also catch up to their expected percentile on the growth chart, supplying their standard estimated needs for their current low weight is insufficient. The formula utilizes their recommended calories mapped against their Ideal Body Weight to provide a hypercaloric diet, forcing catch-up growth."
@@ -5421,10 +5421,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 50-year-old male with cirrhosis of the liver presents to the clinic with massive ascites and esophageal varices. His blood ammonia levels are extremely elevated, resulting in frequent bouts of hepatic encephalopathy (confusion, asterixis). Historically, severe protein restriction was the standard of care for encephalopathy. According to current evidence-based guidelines, what is the appropriate protein recommendation for this patient?",
             "options": [
-                "Strict protein restriction (0.5 - 0.6 g/kg) to definitively prevent further ammonia build-up during episodes of confusion.",
-                "High carbohydrate, low fat, and exclusively plant-based protein only, avoiding all animal proteins.",
+                "Strict protein restriction (0.5 - 0.6 g/kg) to definitively prevent further ammonia build-up during episodes of confusion and reduce the need for lactulose.",
+                "High carbohydrate, low fat, and exclusively plant-based protein only, avoiding all animal proteins to lower ammonia production in the colon.",
                 "Unrestricted protein (up to 1.5 g/kg of dry weight) to prevent severe malnutrition and wasting, as restriction does not improve outcomes and worsens muscle breakdown.",
-                "Total Parenteral Nutrition (TPN) exclusively, to bypass the damaged hepatic portal vein system."
+                "Total Parenteral Nutrition (TPN) exclusively, to bypass the damaged hepatic portal vein system and rest the liver until the ascites resolves."
             ],
             "correctIndex": 2,
             "explanation": "Historically, practitioners restricted dietary protein in cirrhosis patients with hepatic encephalopathy (HE) because ammonia is a byproduct of protein breakdown. However, modern evidence proves this is harmful. Severe protein restriction rapidly causes protein-calorie malnutrition and sarcopenia. Muscle tissue actually helps clear ammonia from the blood. Therefore, breaking down muscle (due to a low-protein diet) worsens the hyperammonemia and increases mortality. Current guidelines mandate providing adequate to high protein (1.2 to 1.5 g/kg based on dry weight) to patients with cirrhosis, including those with HE, to maintain muscle mass. Medical treatment (lactulose/rifaximin) is used to control the ammonia, not dietary protein restriction."
@@ -5437,10 +5437,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "When assessing the iron status of a pregnant woman during her second trimester, the dietitian notes her hemoglobin has dropped from 13.5 g/dL (pre-pregnancy) to 11.0 g/dL. What physiological phenomenon primarily explains this decrease, assuming her iron intake is adequate?",
             "options": [
-                "Gestational diabetes causing impaired erythropoiesis.",
-                "Fetal demands rapidly depleting maternal ferritin stores.",
+                "Gestational diabetes causing impaired erythropoiesis and reduced red cell production.",
+                "Fetal demands rapidly depleting maternal ferritin stores during the second trimester.",
                 "Hemodilution due to a massive, normal increase in maternal blood plasma volume.",
-                "Preeclampsia resulting in microangiopathic hemolysis."
+                "Preeclampsia resulting in microangiopathic hemolysis and destruction of red blood cells."
             ],
             "correctIndex": 2,
             "explanation": "During a healthy pregnancy, maternal blood volume increases by 40-50% to supply the placenta. However, the plasma volume (the liquid part of the blood) expands much faster and to a greater extent than the production of red blood cells. This creates a dilution effect ('hemodilution' or physiological anemia of pregnancy), causing the concentration of hemoglobin and hematocrit to naturally drop, even if absolute iron stores are perfectly fine. A hemoglobin of 11.0 g/dL in the second trimester is generally considered normal and physiological, not necessarily a true iron deficiency anemia requiring massive supplementation if iron stores (ferritin) are normal."
@@ -5453,13 +5453,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A dietitian is formulating a PES statement for an obese patient with a high risk of cardiovascular disease. The patient reports eating fast food 5 times a week and states, 'I prefer it because it's cheap and my neighborhood doesn't have a grocery store.' Which of the following represents the most appropriately structured PES statement?",
             "options": [
-                "Obesity related to excessive energy intake as evidenced by BMI of 35 and frequent fast food consumption.",
+                "Obesity related to excessive energy intake as evidenced by BMI of 35 and frequent fast food consumption reported during the diet history interview.",
                 "Undesirable food choices related to limited access to food as evidenced by consuming fast food 5 times weekly and verbalizing lack of a neighborhood grocery store.",
-                "Excessive energy intake related to an obesogenic environment as evidenced by BMI of 35.",
-                "Altered nutrition-related laboratory values related to excessive trans fat intake as evidenced by the patient living in a food desert."
+                "Excessive energy intake related to an obesogenic environment as evidenced by BMI of 35 and a sedentary lifestyle with limited physical activity.",
+                "Altered nutrition-related laboratory values related to excessive trans fat intake as evidenced by the patient living in a food desert without a grocery store."
             ],
             "correctIndex": 1,
-            "explanation": "This statement perfectly links the problem, etiology, and signs. The problem ('Undesirable food choices' - Intake domain) is correct. The etiology ('limited access to food' - Behavioral/Environmental domain) directly addresses the root cause: the patient physically cannot buy healthier food locally (a 'food desert'). The signs and symptoms (eating fast food 5x weekly and their verbalized report) prove both the problem and the environmental etiology. Option A misuses a medical diagnosis (Obesity) as the problem, and its etiology doesn't address the true access issue."
+            "explanation": "This statement perfectly links the problem, etiology, and signs. The problem ('Undesirable food choices' - Intake domain) is correct. The etiology ('limited access to food' - Behavioral/Environmental domain) directly addresses the root cause: the patient physically cannot buy healthier food locally (a 'food desert'). The signs and symptoms (eating fast food 5x weekly and their verbalized report) prove both the problem and the environmental etiology. The 'Obesity related to excessive energy intake' statement misuses a medical diagnosis (Obesity) as the problem, and its etiology doesn't address the true access issue."
         },
         {
             "id": "dom2-ext2-004",
@@ -5485,10 +5485,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A dietitian conducts a dietary assessment on a 14-year-old female gymnast who presents with a BMI in the 15th percentile, amenorrhea for 6 months, and a recent stress fracture in her tibia. What specific syndrome should the dietitian immediately suspect?",
             "options": [
-                "Polycystic Ovary Syndrome (PCOS)",
-                "Cushing's Syndrome",
+                "Polycystic Ovary Syndrome (PCOS) with hypothalamic suppression",
+                "Cushing's Syndrome from exogenous corticosteroid exposure",
                 "Relative Energy Deficiency in Sport (RED-S) / Female Athlete Triad",
-                "Type 1 Diabetes Mellitus"
+                "Type 1 Diabetes Mellitus with delayed puberty and osteopenia"
             ],
             "correctIndex": 2,
             "explanation": "The classic 'Female Athlete Triad' consists of three interrelated conditions: low energy availability (with or without an eating disorder, often causing low BMI), amenorrhea/menstrual dysfunction, and decreased bone mineral density (osteopenia/osteoporosis, presenting as stress fractures). This occurs when dietary energy intake is insufficient to support the high energy expenditure of the sport, forcing the body to shut down 'non-essential' functions like reproduction and bone building. The IOC recently expanded this concept to 'RED-S', acknowledging that low energy availability affects multiple physiological systems in both male and female athletes."
@@ -5501,10 +5501,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient suffering from fat malabsorption due to short bowel syndrome is suffering from severe caloric deficit and chronic diarrhea. The dietitian recommends incorporating MCT (Medium Chain Triglyceride) oil into their enteral tube feeding. Why is MCT oil uniquely beneficial in this specific clinical scenario?",
             "options": [
-                "MCTs are completely calorie-free, so they prevent weight gain while soothing the gut.",
+                "MCTs are completely calorie-free, so they prevent unwanted weight gain while soothing the inflamed lining of the gut.",
                 "MCTs do not require bile salts or pancreatic lipase for digestion and are absorbed directly into the portal vein.",
                 "MCTs contain essential fatty acids (linoleic and alpha-linolenic acid) required to prevent EFA deficiency.",
-                "MCTs act as powerful prebiotic fibers in the distal colon."
+                "MCTs act as powerful prebiotic fibers in the distal colon, feeding bacteria that produce short-chain fatty acids."
             ],
             "correctIndex": 1,
             "explanation": "Long-chain triglycerides (LCTs) require a complex digestive process: emulsification by bile salts, digestion by pancreatic lipase, packaging into chylomicrons, and transport via the lymphatic system. In short bowel syndrome or severe liver/pancreatic disease, this process fails. Medium-chain triglycerides (MCTs) are unique because they are water-soluble enough to bypass this entire process. They are absorbed intact directly into the portal vein and routed to the liver for immediate energy. They provide dense calories (8.3 kcal/g) without causing fat malabsorption/steatorrhea. Note: MCT oil does NOT contain essential fatty acids."
@@ -5517,9 +5517,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "While interpreting a comprehensive metabolic panel (CMP) for a patient newly diagnosed with acute pancreatitis, the dietitian expects to see severely elevated levels of which two specific serum enzymes utilized as the primary diagnostic markers?",
             "options": [
-                "ALT (Alanine transaminase) and AST (Aspartate transaminase)",
+                "ALT and AST (liver transaminases)",
                 "BUN (Blood Urea Nitrogen) and Creatinine",
-                "Amylase and Lipase",
+                "Amylase and Lipase (serum enzymes)",
                 "Alkaline Phosphatase (ALP) and Bilirubin"
             ],
             "correctIndex": 2,
@@ -5533,10 +5533,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with Gastroesophageal Reflux Disease (GERD) complains of severe heartburn at night. Which of the following dietary and lifestyle modifications is the most appropriate first-line Medical Nutrition Therapy intervention?",
             "options": [
-                "Eat a large, high-fat meal directly before bed to coat the stomach.",
+                "Eat a large, high-fat meal directly before bed to coat the stomach and buffer acid overnight.",
                 "Consume small, frequent meals throughout the day and avoid eating 3-4 hours prior to lying down.",
                 "Drink 16 ounces of whole milk to neutralize the stomach acid whenever heartburn hits.",
-                "Switch entirely to a pureed diet."
+                "Switch entirely to a pureed diet to reduce the mechanical work of digestion at night."
             ],
             "correctIndex": 1,
             "explanation": "GERD involves the backward flow of stomach acid into the esophagus, usually due to a weakened lower esophageal sphincter (LES). High-fat meals drastically delay stomach emptying and relax the LES, which *worsens* reflux. Lying flat with a full stomach allows gravity to push the acid upward. Therefore, the core MNT for GERD is consuming small, low-fat meals (to clear the stomach quickly), avoiding known LES-relaxers (peppermint, chocolate, alcohol), and remaining upright for several hours after eating to allow gravity to assist digestion. Milk temporarily soothes but stimulates acid rebound."
@@ -5549,9 +5549,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 25-year-old male with inflammatory bowel disease (Crohn's) experiences an acute flare-up requiring bowel rest and Total Parenteral Nutrition (TPN) for two weeks. As his inflammation subsides, the physician orders a transition to an oral diet. Which of the following best describes the initial goal of the MNT Dietitian?",
             "options": [
-                "Immediately prescribe a high-fiber, whole-grain diet to 'bulk up' his stool and strengthen the colon.",
-                "Start him on a clear liquid diet for 5 days, then full liquids for 5 days to prevent dumping syndrome.",
-                "Initiate an elemental enteral tube feeding alongside the TPN to test absorption.",
+                "Immediately prescribe a high-fiber, whole-grain diet with raw vegetables to 'bulk up' his stool and strengthen the colon.",
+                "Start him on a clear liquid diet for 5 days, then full liquids for 5 days to prevent dumping syndrome after TPN.",
+                "Initiate an elemental enteral tube feeding alongside the full TPN volume to test absorption for a week.",
                 "Begin slowly introducing easily digestible, low-residue/low-fiber solid foods while gradually tapering down the TPN volume."
             ],
             "correctIndex": 3,
@@ -5565,10 +5565,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A dietitian is continually evaluating the efficacy of a specialized, high-calorie oral supplement prescribed to an oncology patient experiencing cachexia (severe disease-related wasting). Which of the following represents the most objective and reliable indicator that the nutrition intervention is successful over a 4-week period?",
             "options": [
-                "The patient reports feeling significantly less nauseous after chemotherapy.",
-                "The patient completely finishes all three bottles of the supplement every single day.",
+                "The patient reports feeling significantly less nauseous after chemotherapy and eating more at lunch.",
+                "The patient completely finishes all three bottles of the supplement, per the intake log, every single day.",
                 "The patient's weight has stabilized and they have gained 2 pounds of lean mass, as measured by a weekly scale.",
-                "The patient's serum albumin level rises rapidly from 2.8 to 3.5 g/dL over 48 hours."
+                "The patient's serum albumin level rises rapidly from 2.8 to 3.5 g/dL over 48 hours, as measured by the lab."
             ],
             "correctIndex": 2,
             "explanation": "The ultimate goal of treating cachexia/malnutrition is halting the involuntary weight loss and rebuilding tissue. Therefore, objective stabilization of body weight or measured weight gain on the scale is the strongest, most irrefutable evidence of a successful long-term caloric intervention. While finishing the supplements (Intake) is a great sign of compliance, it doesn't guarantee the disease isn't still out-burning the calories. Subjective feelings of nausea do not prove caloric adequacy. Furthermore, serum albumin is an indicator of *inflammation* and stress, not short-term nutritional status or caloric intake; it does not rise based solely on eating more calories over 48 hours."
@@ -5601,10 +5601,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "An infant is diagnosed with cow's milk protein allergy. Which formula is most appropriate?",
             "options": [
-                "Soy-based formula",
+                "Soy-based formula fortified with methionine and iron",
                 "Extensively hydrolyzed or amino acid-based formula",
-                "Goat milk formula",
-                "Whole cow's milk"
+                "Goat milk formula with reduced lactose content",
+                "Whole cow's milk diluted and heated before feeding"
             ],
             "correctIndex": 1,
             "explanation": "Soy formula is NOT recommended for infants with cow's milk allergy due to cross-reactivity. Extensively hydrolyzed or amino acid-based formulas are the appropriate choice.",
@@ -5645,8 +5645,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Immediate oral food challenge",
                 "Elimination diet for 4–12 weeks",
-                "Skin prick testing only",
-                "Double-blind placebo-controlled food challenge without elimination"
+                "Skin prick testing only for IgE",
+                "Blinded food challenge, no elimination"
             ],
             "correctIndex": 1,
             "explanation": "After a food diary identifies suspected triggers, an elimination diet (4–12 weeks) removes suspected allergens to confirm symptom improvement. An oral food challenge follows to reintroduce foods systematically under supervision.",
@@ -5687,9 +5687,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which laboratory values should be routinely monitored in a patient with HIV/AIDS receiving antiretroviral therapy?",
             "options": [
                 "CD4 count, viral load, lipids, blood glucose, and anemia markers",
-                "Only CD4 count and viral load",
-                "Albumin, prealbumin, and transferrin",
-                "Thyroid function and cortisol levels only"
+                "Only CD4 count and viral load, measured every three months",
+                "Albumin, prealbumin, and transferrin as markers of protein status",
+                "Thyroid function and cortisol levels only, checked every six months"
             ],
             "correctIndex": 0,
             "explanation": "HIV/AIDS management requires monitoring CD4 count (immune status), viral load (disease activity), CRP (inflammation), lipid panels and blood glucose (metabolic effects of antiretrovirals), and anemia markers (common complication).",
@@ -5708,9 +5708,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "According to current AND/ASPEN malnutrition consensus criteria, which laboratory marker is recommended for diagnosing malnutrition?",
             "options": [
-                "Serum albumin",
-                "Serum prealbumin",
-                "C-reactive protein (CRP)",
+                "Serum albumin below 3.5 g/dL measured on admission and repeated each week",
+                "Serum prealbumin below 15 mg/dL, reflecting recent protein intake",
+                "C-reactive protein (CRP) above 10 mg/L combined with low albumin",
                 "None — malnutrition is diagnosed based on clinical criteria, not lab values"
             ],
             "correctIndex": 3,
@@ -5797,10 +5797,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "An infant is diagnosed with phenylketonuria (PKU). Which dietary modification is the cornerstone of nutritional management?",
             "options": [
-                "Low tyrosine, high phenylalanine diet",
+                "Low tyrosine, high phenylalanine diet with standard formula",
                 "Low phenylalanine diet with phenylalanine-free formula",
-                "High branched-chain amino acid supplementation",
-                "Galactose-free diet with soy formula"
+                "High branched-chain amino acid supplementation in formula",
+                "Galactose-free diet with soy-based infant formula"
             ],
             "correctIndex": 1,
             "explanation": "PKU results from phenylalanine hydroxylase deficiency, causing phenylalanine accumulation. Treatment requires a low-phenylalanine diet (restricting high-protein foods) plus a phenylalanine-free medical formula to provide adequate amino acids including tyrosine.",
@@ -5842,7 +5842,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "An infant with galactosemia requires which of the following dietary interventions?",
             "options": [
-                "Phenylalanine-free formula",
+                "Phenylalanine-free amino acid formula",
                 "Soy-based formula (lactose and galactose-free)",
                 "Extensively hydrolyzed casein formula",
                 "Low-fat formula with medium-chain triglycerides"
@@ -5864,10 +5864,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A child with glycogen storage disease type I (von Gierke disease) requires which primary dietary modification?",
             "options": [
-                "High fructose, low glucose diet",
+                "High fructose, low glucose diet with frequent fruit juice feedings",
                 "Low lactose, low fructose, low sucrose diet with uncooked cornstarch",
-                "High protein, low carbohydrate ketogenic diet",
-                "Galactose-free, lactose-free diet with soy formula"
+                "High protein, low carbohydrate ketogenic diet with overnight fasting",
+                "Galactose-free, lactose-free diet with soy formula and no cornstarch"
             ],
             "correctIndex": 1,
             "explanation": "GSD type I (glucose-6-phosphatase deficiency) causes fasting hypoglycemia. Treatment requires avoiding fructose, lactose, and sucrose (which are converted to glucose-6-phosphate), and using uncooked cornstarch to provide slow-release glucose and prevent hypoglycemia.",
@@ -5975,10 +5975,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A child diagnosed with medium-chain acyl-CoA dehydrogenase (MCAD) deficiency requires which primary dietary intervention?",
             "options": [
-                "High fat ketogenic diet",
+                "High fat ketogenic diet with MCT oil",
                 "Avoidance of fasting and low-fat diet",
                 "Low phenylalanine diet with medical formula",
-                "Galactose and lactose elimination"
+                "Galactose and lactose elimination for life"
             ],
             "correctIndex": 1,
             "explanation": "MCAD deficiency impairs oxidation of medium-chain fatty acids. The primary risk is hypoglycemia during fasting when fatty acid oxidation is needed for energy. Treatment requires avoiding prolonged fasting and a low-fat diet to reduce dependence on fatty acid oxidation.",
@@ -5997,10 +5997,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient on long-term antipsychotic therapy reports significant weight gain. Which mechanism is most responsible for this side effect?",
             "options": [
-                "Increased metabolic rate from dopamine blockade",
-                "Anticholinergic effects causing fluid retention",
+                "Increased metabolic rate from dopamine blockade driving compensatory overeating",
+                "Anticholinergic effects causing fluid retention and water weight gain over months",
                 "Histamine and serotonin receptor blockade increasing appetite and reducing satiety",
-                "Direct anabolic effect on muscle tissue"
+                "Direct anabolic effect on muscle tissue increasing lean body mass and total weight"
             ],
             "correctIndex": 2,
             "explanation": "Antipsychotic-induced weight gain is primarily due to histamine (H1) and serotonin (5-HT2C) receptor blockade, which increases appetite and reduces satiety. Clozapine and olanzapine have the highest risk; aripiprazole and ziprasidone have lower risk.",
@@ -6041,8 +6041,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A nutrition-focused physical exam (NFPE) reveals bilateral temporal wasting and loss of interosseous muscle mass. What does this finding indicate?",
             "options": [
-                "Fluid overload",
-                "Vitamin C deficiency",
+                "Fluid overload masking tissue loss",
+                "Vitamin C deficiency with poor healing",
                 "Muscle wasting consistent with malnutrition",
                 "Hypermetabolic state from infection only"
             ],
@@ -6063,10 +6063,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "What is the primary difference between IgE-mediated food allergy and non-IgE-mediated food sensitivity?",
             "options": [
-                "IgE-mediated reactions are always delayed; non-IgE reactions are immediate",
+                "IgE-mediated reactions are always delayed (1-3 days); non-IgE reactions are immediate (minutes)",
                 "IgE-mediated reactions are immediate (within 2 hours); non-IgE reactions are delayed (hours to days)",
-                "Non-IgE reactions require epinephrine treatment; IgE reactions do not",
-                "IgE reactions only affect the GI tract; non-IgE reactions are systemic"
+                "Non-IgE reactions require epinephrine treatment; IgE reactions do not need any rescue medication",
+                "IgE reactions only affect the GI tract; non-IgE reactions are systemic (skin, lungs, and heart)"
             ],
             "correctIndex": 1,
             "explanation": "IgE-mediated food allergies cause immediate reactions (within minutes to 2 hours) including anaphylaxis. Non-IgE-mediated reactions (e.g., food protein-induced enterocolitis) are delayed, occurring hours to days after exposure.",
@@ -6087,9 +6087,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with tyrosinemia type I requires which dietary restriction?",
             "options": [
                 "Leucine, isoleucine, and valine",
-                "Phenylalanine only",
+                "Phenylalanine only, with added tyrosine",
                 "Tyrosine, phenylalanine, and methionine",
-                "Galactose and lactose"
+                "Galactose, lactose, and fructose"
             ],
             "correctIndex": 2,
             "explanation": "Tyrosinemia type I results from fumarylacetoacetate hydrolase deficiency causing accumulation of toxic tyrosine metabolites. Dietary management restricts tyrosine, phenylalanine (precursor to tyrosine), and methionine.",
@@ -6152,10 +6152,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which of the following best represents chronic disease-related malnutrition according to the AND/ASPEN etiology framework?",
             "options": [
-                "A patient with sepsis and multi-organ failure",
+                "A patient with sepsis and multi-organ failure after surgery",
                 "A patient with end-stage COPD and mild-to-moderate inflammation",
-                "A patient with anorexia nervosa and no inflammation",
-                "A patient with a traumatic brain injury in the ICU"
+                "A patient with anorexia nervosa and no inflammation present",
+                "A patient with a severe traumatic brain injury in the ICU"
             ],
             "correctIndex": 1,
             "explanation": "Chronic disease-related malnutrition is associated with mild-to-moderate inflammation (e.g., COPD, heart failure, chronic kidney disease). Acute disease/injury-related malnutrition involves high inflammation (sepsis, trauma). Starvation-related involves no inflammation.",
@@ -6175,9 +6175,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with methylmalonic acidemia (MMA) requires which nutritional intervention?",
             "options": [
-                "High leucine, low valine diet",
+                "High leucine, low valine diet with pharmacological biotin",
                 "Low threonine and isoleucine with pharmacological vitamin B12",
-                "Galactose-free diet with soy formula",
+                "Galactose-free diet with soy formula and pharmacological thiamin",
                 "Low phenylalanine diet with tyrosine supplementation"
             ],
             "correctIndex": 1,
@@ -6242,10 +6242,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A cancer patient on chemotherapy reports a persistent metallic taste that reduces food intake. Which dietary modification is most appropriate?",
             "options": [
-                "Encourage red meat and coffee to mask the taste",
+                "Encourage red meat and coffee to mask the metallic taste",
                 "Use plastic utensils and serve foods cold or at room temperature",
-                "Increase citrus fruits to stimulate taste buds",
-                "Recommend spicy foods to override the metallic sensation"
+                "Increase citrus fruits and juices to stimulate taste buds",
+                "Recommend very spicy foods to override the metallic sensation"
             ],
             "correctIndex": 1,
             "explanation": "Dysgeusia (altered taste) is common in chemotherapy patients. Plastic utensils reduce metallic taste from metal cutlery. Cold or room-temperature foods have less odor and taste intensity. Red meat, coffee, chocolate, and citrus typically worsen dysgeusia.",
@@ -6264,10 +6264,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient undergoing radiation to the head and neck develops severe xerostomia. Which dietary recommendation is most appropriate?",
             "options": [
-                "Restrict fluid intake to reduce salivary gland stimulation",
-                "Encourage dry, crunchy foods to stimulate saliva production",
+                "Restrict fluid intake to reduce salivary gland stimulation at meals",
+                "Encourage dry, crunchy foods to stimulate saliva production and chewing",
                 "Increase fluid intake, offer moist foods, and suggest sugar-free gum",
-                "Recommend acidic beverages to stimulate salivary flow"
+                "Recommend acidic beverages like lemonade to stimulate salivary flow"
             ],
             "correctIndex": 2,
             "explanation": "Xerostomia (dry mouth) from radiation requires increasing fluid intake, offering moist and soft foods, sugar-free gum to stimulate residual salivary flow, and using a humidifier. Dry, crunchy, or acidic foods worsen discomfort.",
@@ -6353,9 +6353,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with pernicious anemia requires B12 supplementation. Which route and dose is most appropriate?",
             "options": [
-                "Oral B12 10 mcg daily",
+                "Oral B12 10 mcg daily taken with food",
                 "Intramuscular B12 or high-dose oral 1000 mcg daily",
-                "Sublingual B12 50 mcg weekly",
+                "Sublingual B12 50 mcg weekly or monthly",
                 "Dietary counseling to increase B12-rich foods only"
             ],
             "correctIndex": 1,
@@ -6582,10 +6582,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with hyperlipidemia asks about dietary changes. Which recommendation is most consistent with a cardioprotective diet?",
             "options": [
-                "Increase saturated fat to 15% of calories and eliminate all dietary fat",
+                "Increase saturated fat to 15% of calories and eliminate all dietary fat from fried foods",
                 "Limit saturated and trans fat to <7% of calories; increase soluble fiber and plant sterols",
-                "Eliminate all dietary cholesterol and increase refined carbohydrates",
-                "Restrict all fats to <5% of total calories"
+                "Eliminate all dietary cholesterol and increase refined carbohydrates to replace the lost calories",
+                "Restrict all fats to <5% of total calories, including oils, nuts, seeds and fatty fish"
             ],
             "correctIndex": 1,
             "explanation": "A cardioprotective diet limits saturated and trans fat to <7% of calories, dietary cholesterol to <200 mg/day, and includes 2–3 g/day of plant sterols/stanols and soluble fiber to reduce LDL cholesterol.",
@@ -6605,10 +6605,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with hypertension is counseled on the DASH diet. Which nutrient profile best describes the DASH dietary pattern?",
             "options": [
-                "High sodium, low potassium, low calcium",
+                "High sodium, low potassium, low calcium, and moderate magnesium and fiber",
                 "Low sodium (1500–2300 mg/day), high potassium, calcium, magnesium, and fiber",
-                "High protein, very low carbohydrate, low sodium",
-                "Low fat, low sodium, low potassium"
+                "High protein, very low carbohydrate, low sodium (under 1000 mg/day), and low fiber",
+                "Low fat, low sodium, low potassium, low calcium, and restricted magnesium"
             ],
             "correctIndex": 1,
             "explanation": "The DASH diet reduces blood pressure by limiting sodium to 1500–2300 mg/day while emphasizing foods rich in potassium, calcium, magnesium, and fiber — nutrients that counteract sodium's pressor effects.",
@@ -6720,10 +6720,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with cystic fibrosis has a BMI of 18 and is below the 10th percentile for weight. Which intervention is indicated?",
             "options": [
-                "Standard oral diet with no supplementation",
-                "Low-fat diet to reduce steatorrhea",
+                "Standard oral diet with no supplementation needed",
+                "Low-fat diet to reduce steatorrhea and bloating",
                 "Enteral nutrition support in addition to oral intake",
-                "Parenteral nutrition as first-line therapy"
+                "Parenteral nutrition as the first-line therapy"
             ],
             "correctIndex": 2,
             "explanation": "In cystic fibrosis, enteral nutrition is indicated when BMI <19 (adults) or weight falls below the 10th percentile (children) despite oral supplementation. CF patients require 1.2–2× REE due to malabsorption, chronic infection, and increased work of breathing.",
@@ -6743,10 +6743,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with GERD asks about dietary modifications. Which recommendation is most appropriate?",
             "options": [
-                "Eat large meals to dilute stomach acid",
-                "Lie down after meals to promote digestion",
+                "Eat large meals to dilute stomach acid and drink milk at bedtime to coat the esophagus",
+                "Lie down after meals to promote digestion and keep the stomach contents settled",
                 "Avoid caffeine, alcohol, chocolate, and high-fat foods; eat small frequent meals",
-                "Increase citrus fruit intake to neutralize stomach acid"
+                "Increase citrus fruit intake to neutralize stomach acid and soothe the esophageal lining"
             ],
             "correctIndex": 2,
             "explanation": "GERD management includes avoiding lower esophageal sphincter relaxants: caffeine, alcohol, chocolate, peppermint, citrus, high-fat foods, and spicy foods. Small, frequent meals reduce gastric pressure. Patients should not lie down for 3 hours after eating and should elevate the head of bed 6–9 inches.",
@@ -6770,7 +6770,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "<1000 mg/day",
                 "≤2000 mg/day",
                 "<3500 mg/day",
-                "No sodium restriction required"
+                "No sodium limit"
             ],
             "correctIndex": 1,
             "explanation": "The TLC diet for coronary artery disease recommends sodium ≤2000 mg/day, saturated fat <7% of calories, dietary cholesterol <200 mg/day, and total fiber 25–30 g/day to reduce cardiovascular risk.",
@@ -6813,10 +6813,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which supplement has evidence for promoting mucosal healing in Crohn's disease during remission?",
             "options": [
-                "High-dose vitamin C",
+                "High-dose vitamin C and vitamin E",
                 "Glutamine and omega-3 fatty acids",
-                "Iron and vitamin B6",
-                "Zinc and vitamin A only"
+                "Iron and vitamin B6 with folate",
+                "Zinc and vitamin A only, taken daily"
             ],
             "correctIndex": 1,
             "explanation": "During Crohn's remission, glutamine (fuel for enterocytes) and omega-3 fatty acids (anti-inflammatory) have evidence for maintaining remission and supporting mucosal integrity. Probiotics may also be beneficial.",
@@ -6882,7 +6882,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with cancer-associated cachexia syndrome (CACS) is prescribed megestrol acetate. Which side effect requires monitoring?",
             "options": [
-                "Hypoglycemia and weight loss",
+                "Hypoglycemia, weight loss, and hair thinning",
                 "Thromboembolism, hyperglycemia, and osteoporosis",
                 "Renal failure and electrolyte imbalances",
                 "Megaloblastic anemia and peripheral neuropathy"
@@ -6905,10 +6905,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "After ileostomy surgery, what is the recommended dietary progression?",
             "options": [
-                "Start immediately with a high-fiber diet",
+                "Start immediately with a high-fiber, raw vegetable-rich diet",
                 "Begin with clear liquids, advance to low-residue, then regular diet",
                 "Start with full liquids and advance to high-fiber immediately",
-                "Parenteral nutrition for 2 weeks before oral feeding"
+                "Parenteral nutrition for 2 weeks before any oral feeding begins"
             ],
             "correctIndex": 1,
             "explanation": "Post-ostomy dietary progression follows: clear liquids → low-residue diet → regular diet. This gradual approach allows the stoma to heal and adapt. Long-term, ileostomy patients need monitoring of B12, vitamin D, electrolytes, and fluid balance.",
@@ -6928,10 +6928,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient is 6 months post-Roux-en-Y gastric bypass and reports episodes of sweating, palpitations, and lightheadedness occurring 1–3 hours after meals. Which complication is most likely responsible?",
             "options": [
-                "Early dumping syndrome",
+                "Early dumping syndrome (osmotic fluid shift)",
                 "Late dumping syndrome (reactive hypoglycemia)",
-                "Anastomotic leak",
-                "Iron deficiency anemia"
+                "Anastomotic leak (early postoperative sepsis)",
+                "Iron deficiency anemia (from malabsorption)"
             ],
             "correctIndex": 1,
             "explanation": "Late dumping syndrome (reactive hypoglycemia) occurs 1–3 hours postprandially due to rapid carbohydrate absorption causing an exaggerated insulin response and subsequent hypoglycemia. Early dumping occurs within 30 minutes of eating due to rapid gastric emptying into the small intestine.",
@@ -6970,9 +6970,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which bariatric surgery procedure is associated with the HIGHEST risk of micronutrient deficiencies, particularly iron, B12, and fat-soluble vitamins?",
             "options": [
-                "Laparoscopic adjustable gastric banding (LAGB)",
-                "Sleeve gastrectomy",
-                "Roux-en-Y gastric bypass (RYGB)",
+                "Laparoscopic adjustable gastric banding (LAGB) with a saline port",
+                "Laparoscopic vertical sleeve gastrectomy (VSG)",
+                "Laparoscopic Roux-en-Y gastric bypass (RYGB)",
                 "Biliopancreatic diversion with duodenal switch (BPD/DS)"
             ],
             "correctIndex": 3,
@@ -6991,10 +6991,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "When should micronutrient status be assessed in a bariatric surgery candidate?",
             "options": [
-                "Only after surgery if symptoms develop",
+                "Only after surgery if symptoms of deficiency develop",
                 "Preoperatively, to minimize postoperative deficiencies",
-                "At 6 months post-surgery for the first time",
-                "Only if BMI exceeds 50 kg/m²"
+                "At 6 months post-surgery for the first time only",
+                "Only if BMI exceeds 50 kg/m² before the operation"
             ],
             "correctIndex": 1,
             "explanation": "ASMBS guidelines recommend preoperative assessment of micronutrient status in all bariatric candidates. Deficiencies are common in obese patients due to inflammation, hyperinsulinemia, medications, and adipose tissue sequestration of fat-soluble vitamins. Identifying and correcting deficiencies before surgery minimizes postoperative complications.",
@@ -7012,10 +7012,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 17-year-old with newly diagnosed type 1 diabetes is hospitalized for DKA. What is the PRIMARY MNT goal for this patient during hospitalization?",
             "options": [
-                "Implement a strict carbohydrate-counting meal plan",
+                "Implement a strict carbohydrate-counting meal plan before discharge from the hospital",
                 "Conduct nutrition assessment and provide basic nutrition education with a follow-up plan",
-                "Educate about all aspects of long-term diabetes management",
-                "Calculate exact insulin-to-carbohydrate ratios"
+                "Educate about all aspects of long-term diabetes management during the hospital stay",
+                "Calculate exact insulin-to-carbohydrate ratios for every meal and snack before discharge"
             ],
             "correctIndex": 1,
             "explanation": "For a newly diagnosed type 1 diabetes patient hospitalized for DKA, the RDN typically only has time for a nutrition assessment and basic nutrition education. The in-hospital MNT goals are to optimize glycemic control, meet metabolic demands, and include a plan for follow-up MNT in the discharge plan. Comprehensive diabetes education occurs in the outpatient setting.",
@@ -7138,10 +7138,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with type 2 diabetes is prescribed metformin. Which mechanism of action best describes this biguanide medication?",
             "options": [
-                "Stimulates insulin secretion from pancreatic beta cells",
-                "Delays carbohydrate absorption in the intestine",
+                "Stimulates insulin secretion from pancreatic beta cells and lowers glucagon",
+                "Delays carbohydrate absorption in the intestine by inhibiting alpha-glucosidase",
                 "Reduces hepatic glucose production and increases peripheral glucose uptake",
-                "Increases glucose excretion in the urine"
+                "Increases glucose excretion in the urine by blocking renal glucose reabsorption"
             ],
             "correctIndex": 2,
             "explanation": "Metformin (a biguanide) is euglycemic — it reduces hepatic glucose production, decreases intestinal glucose absorption, and may improve insulin sensitivity by increasing glucose uptake. It should not cause hypoglycemia on its own. Common GI side effects include nausea, vomiting, diarrhea, and gas.",
@@ -7159,10 +7159,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with type 2 diabetes is prescribed a GLP-1 receptor agonist (e.g., liraglutide). Which nutrition-related side effect is most common and may require dietary counseling?",
             "options": [
-                "Hypoglycemia and dizziness",
+                "Hypoglycemia and dizziness when used as monotherapy",
                 "Nausea, vomiting, diarrhea, and abdominal pain",
-                "Fluid retention and bone fractures",
-                "Upper respiratory tract infections"
+                "Fluid retention and bone fractures with long-term use",
+                "Upper respiratory tract infections and sinusitis"
             ],
             "correctIndex": 1,
             "explanation": "GLP-1 receptor agonists (e.g., liraglutide, exenatide, dulaglutide) commonly cause nausea, vomiting, diarrhea, abdominal pain, and headache due to delayed gastric emptying. These GI effects are typically dose-dependent and improve over time. Hypoglycemia can occur if taken with sulfonylureas or insulin, but not as a standalone effect.",
@@ -7285,10 +7285,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "An untreated gestational diabetes patient delivers a macrosomic infant who develops hypoglycemia shortly after birth. What is the physiological explanation for neonatal hypoglycemia?",
             "options": [
-                "The neonate's pancreas is underdeveloped and cannot produce insulin",
-                "Maternal insulin crosses the placenta and suppresses neonatal blood glucose",
+                "The neonate's pancreas is underdeveloped and cannot produce insulin, so glucose falls as glycogen stores are used up after birth",
+                "Maternal insulin crosses the placenta and suppresses neonatal blood glucose, an effect that persists for several hours after delivery",
                 "The fetus's pancreas released excess insulin in utero; after birth, high insulin levels persist without maternal glucose supply",
-                "The neonate's liver glycogen stores are depleted due to fetal hyperglycemia"
+                "The neonate's liver glycogen stores are depleted due to fetal hyperglycemia, leaving no glucose reserve once the cord is clamped"
             ],
             "correctIndex": 2,
             "explanation": "Maternal hyperglycemia causes the fetal pancreas to release excess insulin in utero (due to high glucose crossing the placenta). After birth, when placental glucose transfer ceases, the neonate's pancreas continues releasing high levels of insulin, resulting in hypoglycemia. This also explains macrosomia — excess fetal insulin promotes fat and glycogen storage in utero.",
@@ -7306,10 +7306,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "MNT goals for a patient with gestational diabetes include which of the following carbohydrate intake recommendations?",
             "options": [
-                "Eliminate all carbohydrates to normalize blood glucose",
+                "Eliminate all carbohydrates to normalize blood glucose until delivery, relying on protein and fat",
                 "Consume no more than 45 g carbohydrates in one sitting, choosing whole foods over processed",
-                "Limit total daily carbohydrates to under 50 g/day",
-                "Distribute 60% of calories as carbohydrates throughout 3 meals"
+                "Limit total daily carbohydrates to under 50 g/day to keep the mother in mild ketosis",
+                "Distribute 60% of calories as carbohydrates throughout 3 meals with no snacks between them"
             ],
             "correctIndex": 1,
             "explanation": "MNT for gestational diabetes includes eating regularly throughout the day (3 meals, 2–3 snacks), consuming no more than 45 g carbohydrates per sitting, choosing whole foods rather than processed foods, and avoiding juice/soda while limiting sweets. Total carbohydrate elimination is not recommended as adequate carbohydrates are needed for fetal development and to prevent ketosis.",
@@ -7369,10 +7369,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "MNT counseling for metabolic syndrome should incorporate which behavioral approach to facilitate lifestyle change?",
             "options": [
-                "Prescriptive dietary rules without patient input",
+                "Prescriptive dietary rules without patient input, reinforced by written contracts and weekly checks",
                 "Motivational interviewing, behavior theory, cognitive behavioral therapy, and Stages of Change",
-                "Strict calorie counting with weekly weigh-ins",
-                "Low-fat diet only, regardless of patient preferences"
+                "Strict calorie counting with weekly weigh-ins, food logs and a fixed daily calorie ceiling",
+                "Low-fat diet only, regardless of patient preferences, readiness to change or cultural food practices"
             ],
             "correctIndex": 1,
             "explanation": "MNT for metabolic syndrome combines behavior theory and cognitive behavioral therapy, uses motivational interviewing techniques, and assesses client readiness for change based on the Stages of Change (Transtheoretical) model. Patient-centered goals and addressing knowledge deficits are key components of the counseling approach.",
@@ -7390,10 +7390,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which combination of conditions characterizes metabolic syndrome?",
             "options": [
-                "Anemia, osteoporosis, and renal failure",
+                "Anemia, osteoporosis, and renal failure with low serum albumin",
                 "Abdominal obesity, hyperglycemia, dyslipidemia, and hypertension",
-                "Hypothyroidism, hyperlipidemia, and fatigue",
-                "Malnutrition, sarcopenia, and low albumin"
+                "Hypothyroidism, hyperlipidemia, and fatigue with slowed metabolism",
+                "Malnutrition, sarcopenia, and low albumin with reduced grip strength"
             ],
             "correctIndex": 1,
             "explanation": "Metabolic syndrome is characterized by the co-occurrence of abdominal obesity, hyperglycemia (elevated fasting glucose or diabetes), dyslipidemia (low HDL and/or elevated triglycerides), and hypertension. This cluster of conditions is associated with increased cardiovascular disease risk and insulin resistance.",
@@ -7411,10 +7411,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with recurrent gout is asking about dietary modifications. Which food group should he most significantly limit to reduce purine load?",
             "options": [
-                "Dairy products and eggs",
-                "Whole grains and legumes",
+                "Dairy products and eggs (milk, cheese, omelets)",
+                "Whole grains and legumes (oats, lentils, beans)",
                 "Organ meats (liver, kidney), red meat, and seafood",
-                "Fruits and vegetables"
+                "Fruits and vegetables (spinach, asparagus, peas)"
             ],
             "correctIndex": 2,
             "explanation": "High-purine animal foods including organ/glandular meats (liver, kidney, sweetbreads, foie gras), red meat, and seafood are most associated with acute gout episodes. ASMBS guidelines recommend limiting meat, fish, and poultry to 4–6 oz/day. Beer also significantly increases gout risk. Low-fat dairy may actually be protective.",
@@ -7432,10 +7432,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "What is the recommended fluid intake for a patient with gout to help prevent uric acid crystal formation?",
             "options": [
-                "4–6 cups/day total fluids",
-                "6–8 cups/day primarily water",
+                "4–6 cups/day total fluids of any kind",
+                "6–8 cups/day primarily water and milk",
                 "8–16 cups/day with at least half as water",
-                "12–20 cups/day of any beverage"
+                "12–20 cups/day of any beverage type"
             ],
             "correctIndex": 2,
             "explanation": "MNT for gout recommends 8–16 cups of fluid per day, with at least half as water. Adequate hydration helps dilute uric acid in urine and prevent crystal formation. Dehydration can contribute to crystal formation and trigger acute gout episodes. Beer should be avoided as it significantly increases gout risk.",
@@ -7453,9 +7453,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Why do patients with renal insufficiency have an elevated risk of developing gout?",
             "options": [
-                "The kidneys produce excess uric acid in renal disease",
+                "The kidneys produce excess uric acid in renal disease as damaged tubules break down purine nucleotides into uric acid",
                 "The major route of uric acid excretion is through the kidneys; impaired renal function leads to hyperuricemia",
-                "Renal disease causes increased dietary purine absorption",
+                "Renal disease causes increased dietary purine absorption through the small intestine and colon",
                 "Chronic kidney disease promotes uric acid crystal deposition in joints via inflammation"
             ],
             "correctIndex": 1,
@@ -7495,10 +7495,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "What is the primary MNT weight loss goal for an overweight patient with PCOS in the first 6 months?",
             "options": [
-                "Achieve BMI <25 kg/m² within 6 months",
-                "Lose at least 20% of body weight",
+                "Achieve BMI <25 kg/m² within 6 months regardless of starting weight",
+                "Lose at least 20% of body weight in the first 6 months of treatment",
                 "Prioritize weight loss of up to 10% of body weight in the first 6 months",
-                "Maintain current weight without further gain"
+                "Maintain current weight without further gain for the first 6 months"
             ],
             "correctIndex": 2,
             "explanation": "MNT for PCOS includes prioritizing a weight loss of up to 10% in the first 6 months for overweight/obese patients. This modest weight loss can significantly improve menstrual function, reduce androgen levels, improve insulin sensitivity, and reduce long-term complication risk. The nutrition counseling approach is the same as for overweight patients without PCOS.",
@@ -7516,10 +7516,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which biochemical markers are most relevant to review during the nutrition assessment of a patient with PCOS?",
             "options": [
-                "Serum ferritin, TIBC, and transferrin saturation",
+                "Serum ferritin, TIBC, and transferrin saturation, plus serum B12, folate, zinc, copper and ceruloplasmin",
                 "Fasting glucose, glucose tolerance test, HbA1c, lipid profile, serum 25(OH)D, hemoglobin, and hematocrit",
-                "Prealbumin, albumin, and C-reactive protein",
-                "TSH, free T4, and anti-TPO antibodies"
+                "Prealbumin, albumin, and C-reactive protein, plus retinol-binding protein, transferrin and cortisol",
+                "TSH, free T4, and anti-TPO antibodies, plus free T3, reverse T3, thyroglobulin and prolactin"
             ],
             "correctIndex": 1,
             "explanation": "Key biochemical markers for PCOS nutrition assessment include: fasting glucose, results of glucose tolerance test, hemoglobin A1C (insulin resistance risk), lipid profile (CVD risk), serum 25(OH)D levels (vitamin D deficiency is common in PCOS), and hemoglobin/hematocrit. These markers guide nutrition diagnosis and intervention.",
@@ -7537,10 +7537,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "The term 'Latent Autoimmune Diabetes of Adults' (LADA) describes which clinical scenario?",
             "options": [
-                "Type 2 diabetes that has progressed to requiring insulin after 10+ years",
+                "Type 2 diabetes that has progressed to requiring insulin after 10+ years, typically in patients with long-standing obesity",
                 "Adult-onset type 1 diabetes: patients typically over 35, not obese, positive for autoantibodies, initially managed without insulin",
-                "A severe form of type 2 diabetes associated with extreme obesity and insulin resistance",
-                "Gestational diabetes that persists beyond delivery and is reclassified as type 1"
+                "A severe form of type 2 diabetes associated with extreme obesity and insulin resistance that requires high insulin doses",
+                "Gestational diabetes that persists beyond delivery and is reclassified as type 1 once autoantibodies are detected at the postpartum screen"
             ],
             "correctIndex": 1,
             "explanation": "LADA is the term for adult-onset type 1 diabetes. These patients are typically over age 35, not obese, and positive for one of the five autoantibodies that contribute to beta-cell destruction. Unlike classic type 1 diabetes, they don't typically present with weight loss or ketoacidosis and can initially be managed with oral medications. However, they progress to requiring insulin faster than typical type 2 patients.",
@@ -7605,7 +7605,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "< 1,000 mg sodium/day",
                 "< 2,000 mg sodium/day",
                 "< 3,000 mg sodium/day",
-                "No sodium restriction needed if diuretics are prescribed"
+                "No limit if on diuretics"
             ],
             "correctIndex": 1,
             "explanation": "Sodium restriction for end-stage liver disease with ascites is typically < 2,000 mg/day (some guidelines cite 2,000–3,000 mg but ≤ 2,000 mg is the standard exam answer). Sodium restriction reduces fluid retention and ascites formation. Additional modifications for end-stage liver disease may include: < 30% energy as fat if steatorrhea is present, fluid restriction if hyponatremia develops, and glucose modifications for hepatic diabetes. Diuretics alone without sodium restriction are insufficient.",
@@ -7624,10 +7624,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which vitamins and minerals are MOST at risk for deficiency in patients with hepatitis or chronic liver disease?",
             "options": [
-                "Vitamins C, B12, and calcium",
+                "Vitamins C, B12, B6, biotin, calcium, iodine, and copper",
                 "Vitamins A, D, E, K, thiamin, folate, zinc, and magnesium",
-                "Vitamins B6, B12, iron, and selenium",
-                "Vitamin K, iron, and phosphorus only"
+                "Vitamins B6, B12, iron, selenium, chromium, and fluoride",
+                "Vitamin K, iron, phosphorus, potassium, and sodium only"
             ],
             "correctIndex": 1,
             "explanation": "The liver plays a central role in nutrient metabolism and storage. Liver disease impairs absorption, storage, and activation of multiple micronutrients — particularly fat-soluble vitamins (A, D, E, K) because bile production for fat absorption is impaired; and B vitamins (thiamin, folate, pyridoxine/B6) especially with alcoholic liver disease. Zinc and magnesium are also commonly deficient. Copper and iron metabolism may be abnormal but in different directions depending on disease etiology (e.g., copper accumulates in Wilson's disease).",
@@ -7646,10 +7646,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient has cirrhosis with portal hypertension and is developing hepatic encephalopathy. Regarding protein intake, which statement is CORRECT?",
             "options": [
-                "Protein should be severely restricted to 0.3–0.5 g/kg to prevent ammonia buildup",
-                "Protein restriction is the primary treatment for hepatic encephalopathy",
+                "Protein should be severely restricted to 0.3–0.5 g/kg/day to prevent ammonia buildup",
+                "Protein restriction is the primary treatment for hepatic encephalopathy in cirrhosis",
                 "Adequate protein (1.2–1.5 g/kg) should be maintained; protein restriction worsens outcomes",
-                "Branched-chain amino acids are contraindicated due to hepatic catabolism"
+                "Branched-chain amino acids are contraindicated due to hepatic catabolism and ammonia"
             ],
             "correctIndex": 2,
             "explanation": "Current evidence does NOT support protein restriction for hepatic encephalopathy. Severe protein restriction worsens malnutrition and muscle catabolism, which paradoxically increases ammonia production from muscle breakdown. Adequate protein intake (1.2–1.5 g/kg for cirrhosis; higher with complications) is recommended. Branched-chain amino acids (BCAAs) may be beneficial as they bypass hepatic metabolism. Lactulose and treating the precipitating cause are the primary treatments for hepatic encephalopathy — not protein restriction.",
@@ -7669,7 +7669,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient presents with mild acute pancreatitis. Which is the MOST appropriate initial nutrition management?",
             "options": [
                 "Begin early enteral nutrition within 48 hours via nasojejunal tube",
-                "Start TPN immediately to rest the pancreas",
+                "Start TPN immediately to rest the inflamed pancreas",
                 "NPO with progression to oral diet as tolerated",
                 "Clear liquid diet for 5–7 days then advance as tolerated"
             ],
@@ -7756,10 +7756,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Acute kidney injury (AKI) is defined by which of the following criteria?",
             "options": [
-                "GFR < 60 mL/min for > 3 months with albuminuria",
+                "GFR < 60 mL/min for > 3 months with albuminuria OR structural damage on imaging — all persisting beyond 90 days",
                 "Serum creatinine increase ≥ 0.3 mg/dL OR ≥ 50% increase OR oliguria < 0.5 mL/kg/hr for > 6 hours — all within 48 hours",
-                "Serum BUN > 100 mg/dL with metabolic acidosis",
-                "Urine output < 400 mL/day for > 24 hours"
+                "Serum BUN > 100 mg/dL with metabolic acidosis OR potassium > 6.5 mEq/L OR fluid overload — all within 24 hours",
+                "Urine output < 400 mL/day for > 24 hours OR a doubling of serum creatinine from baseline — all within 7 days"
             ],
             "correctIndex": 1,
             "explanation": "AKI is defined as an ACUTE change in kidney function within 48 hours meeting ≥1 criterion: (1) absolute serum creatinine increase ≥ 0.3 mg/dL, (2) serum creatinine increase ≥ 50% from baseline, or (3) oliguria < 0.5 mL/kg/hr for > 6 hours. The 48-hour timeframe distinguishes AKI from CKD (> 3 months). GFR < 60 for > 3 months defines CKD. AKI patients may be hypercatabolic, especially when caused by sepsis, shock, rhabdomyolysis, surgery, or preexisting malnutrition.",
@@ -7778,10 +7778,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient has CKD Stage 4 (not yet on dialysis). What is the recommended protein intake?",
             "options": [
-                "0.8 g/kg (standard DRI)",
+                "0.8 g/kg (standard DRI for healthy adults)",
                 "0.55–0.6 g/kg (0.6–0.8 g/kg with diabetes)",
-                "1.0–1.2 g/kg",
-                "1.2–1.5 g/kg"
+                "1.0–1.2 g/kg (1.2–1.3 g/kg with diabetes)",
+                "1.2–1.5 g/kg (as for maintenance dialysis)"
             ],
             "correctIndex": 1,
             "explanation": "For CKD Stage 3–5 (NOT on dialysis), protein is restricted to 0.55–0.6 g/kg/day to slow disease progression by reducing uremic toxin production and glomerular hyperfiltration. For patients with CKD + diabetes, a slightly higher protein intake (0.6–0.8 g/kg) is recommended. Energy: 25–35 kcal/kg for both. Once dialysis begins (CKD Stage 5D), protein requirement INCREASES to 1.0–1.2 g/kg because dialysis removes amino acids and increases catabolism. This flip is a classic exam question.",
@@ -7800,10 +7800,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Why does protein requirement INCREASE when a CKD patient begins dialysis?",
             "options": [
-                "Dialysis corrects uremia, allowing higher protein intake without harm",
+                "Dialysis corrects uremia, allowing higher protein intake without harm to any remaining kidney function",
                 "Dialysis removes amino acids and increases protein catabolism, requiring higher intake to prevent malnutrition",
-                "Dialysis impairs phosphorus excretion, requiring more protein to bind phosphate",
-                "Higher protein intake stimulates erythropoietin production lost during dialysis"
+                "Dialysis impairs phosphorus excretion, requiring more protein to bind dietary phosphate within the intestinal lumen",
+                "Higher protein intake stimulates erythropoietin production lost during each of the weekly dialysis sessions"
             ],
             "correctIndex": 1,
             "explanation": "Dialysis removes amino acids, peptides, and water-soluble nutrients during each session. Additionally, the dialysis procedure itself (membrane contact, bioincompatibility) stimulates an inflammatory/catabolic response. These losses must be replaced — hence protein INCREASES to 1.0–1.2 g/kg for hemodialysis patients. Pre-dialysis CKD requires protein restriction to reduce uremic toxin production; once on dialysis, the machine takes over this clearance function, removing the rationale for restriction. This is the most classic CKD/dialysis nutrition exam question.",
@@ -7846,8 +7846,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Vitamin B12 deficiency and folate deficiency from dialysate losses",
                 "Reduced erythropoietin production by damaged kidneys AND iron deficiency",
-                "Hemolysis from uremic toxins and copper deficiency",
-                "Reduced thrombopoietin and platelet dysfunction"
+                "Hemolysis from uremic toxins and copper deficiency from dialysis",
+                "Reduced thrombopoietin production and platelet dysfunction in uremia"
             ],
             "correctIndex": 1,
             "explanation": "CKD-related anemia has two main mechanisms: (1) The damaged kidney produces less erythropoietin (EPO), a hormone that stimulates bone marrow erythropoiesis — patients may receive EPO-stimulating agents (e.g., epoetin alfa); and (2) Iron deficiency — either absolute (inadequate stores) or functional (iron unavailable for erythropoiesis due to inflammation). Patients may receive oral or IV iron supplementation. IV iron is often preferred in dialysis patients due to GI absorption limitations. Iron-based phosphate binders serve a dual purpose: binding dietary phosphorus AND providing iron.",
@@ -7889,8 +7889,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which dietary factor is MOST associated with increased risk of calcium oxalate kidney stones?",
             "options": [
-                "High calcium intake from dairy",
-                "High fluid intake especially water",
+                "High calcium intake from dairy foods at meals",
+                "High fluid intake especially plain water daily",
                 "Low calcium intake combined with high oxalate intake",
                 "High potassium intake from fruits and vegetables"
             ],
@@ -7911,10 +7911,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with recurrent calcium oxalate kidney stones asks about diet. Which recommendation is CORRECT?",
             "options": [
-                "Restrict dietary calcium to < 500 mg/day to reduce urinary calcium",
+                "Restrict dietary calcium to < 500 mg/day to reduce urinary calcium excretion",
                 "Maintain adequate dietary calcium (1,000–1,200 mg/day) and increase fluid intake",
-                "Eliminate all high-oxalate foods such as spinach and nuts permanently",
-                "High animal protein intake flushes stones — increase to > 100 g/day"
+                "Eliminate all high-oxalate foods such as spinach, nuts, and tea permanently",
+                "High animal protein intake flushes stones — increase meat and eggs to > 100 g/day"
             ],
             "correctIndex": 1,
             "explanation": "For calcium oxalate stones, dietary calcium should NOT be restricted. Adequate calcium (1,000–1,200 mg/day from food, not supplements alone) binds oxalate in the gut, reducing urinary oxalate excretion and stone formation. Calcium supplements taken AWAY from meals may increase risk (not bound to food oxalate). High fluid intake (urine output > 2 L/day) is the most important modifiable factor. Reduce (not eliminate) high-oxalate foods. Limit sodium and animal protein — both increase urinary calcium excretion and stone risk.",
@@ -7933,10 +7933,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "How does chronic diarrhea from malabsorption (e.g., Crohn's disease, short bowel syndrome) increase kidney stone risk?",
             "options": [
-                "Diarrhea causes hypokalemia which promotes calcium oxalate crystallization",
+                "Diarrhea causes hypokalemia which promotes calcium oxalate crystallization in the kidney",
                 "Fat malabsorption causes fatty acids to bind calcium, leaving more free oxalate to be absorbed",
-                "Chronic diarrhea increases urine pH, promoting calcium phosphate stones",
-                "Malabsorption reduces dietary oxalate intake, paradoxically increasing stone risk"
+                "Chronic diarrhea increases urine pH and volume, promoting calcium phosphate stones",
+                "Malabsorption reduces dietary oxalate intake, paradoxically increasing stone risk overall"
             ],
             "correctIndex": 1,
             "explanation": "In fat malabsorption, unabsorbed fatty acids bind calcium in the gut (forming calcium-soap complexes), leaving less calcium available to bind oxalate. This 'free' oxalate is absorbed in excess and excreted in urine ('enteric hyperoxaluria'), greatly increasing calcium oxalate stone risk. Additionally, chronic diarrhea causes dehydration (low urine volume) and metabolic acidosis which increases urine uric acid (promoting uric acid stones). Short bowel syndrome and Crohn's disease are classic causes of enteric hyperoxaluria.",
@@ -7955,10 +7955,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The classic ketogenic diet for epilepsy is typically described in which ratio?",
             "options": [
-                "1:1 fat:protein+carbohydrate",
+                "1:2 or 1:1 fat:protein+carbohydrate",
                 "2:1 fat:protein+carbohydrate",
                 "3:1 or 4:1 fat:protein+carbohydrate",
-                "4:1 carbohydrate:fat+protein"
+                "3:1 or 4:1 carbohydrate:fat+protein"
             ],
             "correctIndex": 2,
             "explanation": "The classic ketogenic diet is described as a fat:non-fat (protein + carbohydrate) ratio, typically 3:1 or 4:1. This means for every 4 g fat, there is 1 g combined protein and carbohydrate. It includes ~1 g protein/kg, 10–15 g carbohydrate/day, with remaining calories from fat. This diet requires precise measurement of all foods and beverages. The Modified Atkins Diet (MAD) uses a 1:1 ratio and is easier to implement. The Low Glycemic Index Treatment (LGIT) focuses on glycemic index rather than strict ratios.",
@@ -8021,10 +8021,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient has alcoholic cirrhosis with jaundice and acholic (pale/clay-colored) stools. What does acholic stool indicate in this context?",
             "options": [
-                "Increased bile pigment excretion from hemolysis",
+                "Increased bile pigment excretion from hemolysis darkening the stool and urine",
                 "Reduced or absent bile flow into the GI tract causing impaired fat absorption",
-                "Bacterial overgrowth causing malabsorption",
-                "Increased fecal fat from pancreatic exocrine insufficiency"
+                "Bacterial overgrowth causing malabsorption and fermentation of undigested fat",
+                "Increased fecal fat from pancreatic exocrine insufficiency caused by alcohol"
             ],
             "correctIndex": 1,
             "explanation": "Acholic (pale/clay-colored) stools indicate absent or severely reduced bile flow (cholestasis). Bile contains bilirubin breakdown products (stercobilin) that give stool its brown color. Without bile: stool is pale/clay-colored (acholic); fat absorption is severely impaired (fat-soluble vitamins A, D, E, K malabsorbed); and fat appears in stool (steatorrhea). This is distinct from pancreatic insufficiency (which also causes pale greasy stools but from missing digestive enzymes, not bile). Jaundice + acholic stool + dark urine (bilirubin in urine) is the classic triad of obstructive/hepatic cholestasis.",
@@ -8043,10 +8043,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A CKD patient is prescribed a calcimimetic agent (cinacalcet). What is the mechanism of action relevant to CKD-bone mineral disease?",
             "options": [
-                "Binds dietary phosphorus in the GI tract to reduce absorption",
+                "Binds dietary phosphorus in the GI tract to reduce absorption from meals",
                 "Binds calcium receptors on the parathyroid gland, reducing PTH secretion",
-                "Activates vitamin D receptors to increase calcium absorption",
-                "Inhibits osteoclast activity to reduce bone resorption"
+                "Activates vitamin D receptors to increase intestinal calcium absorption",
+                "Inhibits osteoclast activity to reduce bone resorption and calcium release"
             ],
             "correctIndex": 1,
             "explanation": "Calcimimetic agents (e.g., cinacalcet) work by binding to and activating calcium-sensing receptors on the parathyroid gland, mimicking the effect of high serum calcium. This suppresses PTH secretion. In CKD-bone mineral disease, elevated PTH (secondary hyperparathyroidism) causes bone resorption, vascular calcification, and mineral dysregulation. By reducing PTH, calcimimetics help manage CKD-bone mineral disease. This differs from phosphate binders (reduce dietary phosphorus absorption) and vitamin D analogs (increase intestinal calcium absorption and suppress PTH via a different pathway).",
@@ -8065,10 +8065,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which GI symptoms are commonly experienced by CKD patients due to uremia and fluid overload?",
             "options": [
-                "Diarrhea only — uremia increases gut motility",
+                "Diarrhea only — uremia increases gut motility and shortens intestinal transit time",
                 "Poor appetite, early satiety, nausea, vomiting, constipation, abdominal bloating",
-                "Dumping syndrome from altered gastric emptying",
-                "Dysphagia due to uremic neuropathy of the esophagus"
+                "Dumping syndrome from altered gastric emptying after meals high in simple sugars",
+                "Dysphagia due to uremic neuropathy of the esophagus and impaired swallowing reflex"
             ],
             "correctIndex": 1,
             "explanation": "CKD patients commonly experience multiple GI symptoms from uremia, medications, and fluid overload including: poor appetite (anorexia), early satiety, nausea, vomiting, diarrhea, constipation, abdominal pain/bloating, heartburn, and dysgeusia (taste changes). Uremia can also cause 'clouded consciousness,' pruritis (itching from uremic toxins in skin), and fatigue. These symptoms compound malnutrition risk in CKD. The RDN must address nutrition-impact symptoms when developing the nutrition care plan — small frequent meals, appetite stimulants, and nutrient-dense foods are strategies.",
@@ -8089,7 +8089,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Sodium, potassium, and magnesium",
                 "Phosphate, calcium, and vitamin D",
-                "Iron, zinc, and PTH",
+                "Iron, zinc, and serum albumin",
                 "Bicarbonate, phosphate, and erythropoietin"
             ],
             "correctIndex": 1,
@@ -8110,10 +8110,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with cirrhosis develops esophageal varices. What is the underlying pathophysiology connecting cirrhosis to varices?",
             "options": [
-                "Increased cardiac output from cirrhosis-related cardiomyopathy",
+                "Increased cardiac output from cirrhosis-related cardiomyopathy dilating the esophageal veins",
                 "Portal hypertension causing blood to reroute through collateral vessels including esophageal veins",
-                "Vitamin K deficiency causing vascular fragility",
-                "Hypoalbuminemia causing fluid shifts into esophageal tissue"
+                "Vitamin K deficiency causing vascular fragility in the submucosal veins of the esophagus",
+                "Hypoalbuminemia causing fluid shifts into esophageal tissue that distend the local venous plexus"
             ],
             "correctIndex": 1,
             "explanation": "Portal hypertension is a complication of cirrhosis. Extensive hepatic scarring obstructs blood flow through the portal circulation. As portal pressure rises, blood is rerouted through collateral vessels including esophageal veins, which become engorged and dilated (esophageal varices), umbilical veins (caput medusae), and rectal veins (hemorrhoids). Esophageal varices are at risk of rupture — a potentially fatal bleeding emergency. Signs of portal hypertension in cirrhosis include: varices, spider angiomas, splenomegaly, and ascites. Cirrhosis is the most common cause of portal hypertension.",
@@ -8132,10 +8132,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "During the RECOVERY phase of acute pancreatitis, which nutrition goals are appropriate?",
             "options": [
-                "Continue NPO to ensure complete pancreatic rest",
+                "Continue NPO to ensure complete pancreatic rest until lipase normalizes fully",
                 "Replenish nutritional deficiencies and encourage avoidance of alcohol and excessive fat",
-                "Begin high-fat, high-protein diet to restore lean body mass quickly",
-                "Initiate TPN to maximize nutrient delivery during healing"
+                "Begin high-fat, high-protein diet to restore lean body mass quickly after discharge",
+                "Initiate TPN to maximize nutrient delivery during healing and prevent any relapse"
             ],
             "correctIndex": 1,
             "explanation": "During the recovery phase of acute pancreatitis: (1) replenish nutritional deficiencies that occurred during the acute NPO phase; (2) encourage avoidance of alcohol (major risk factor) and excessive fat intake to prevent recurrence; (3) advance diet as tolerated — oral feeding is preferred. The acute phase focuses on maintaining nutritional status and preventing weight loss; the recovery phase rebuilds nutritional stores and addresses prevention. Chronic pancreatitis patients need ongoing MNT for malnutrition, enzyme replacement therapy (PERT), and eventual diabetes management.",
@@ -8155,9 +8155,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with CKD Stage 5D (hemodialysis) reports dysgeusia and poor appetite. Which intervention addresses BOTH symptoms?",
             "options": [
                 "Prescribe zinc supplementation — zinc deficiency causes dysgeusia and is common in dialysis patients",
-                "Initiate TPN to bypass oral intake issues",
-                "Restrict all fluids to minimize uremic toxin buildup",
-                "Increase dialysis frequency to improve uremia-related symptoms"
+                "Initiate TPN to bypass oral intake issues — parenteral nutrition removes the need to taste food",
+                "Restrict all fluids to minimize uremic toxin buildup — fluid excess dilutes taste and appetite signals",
+                "Increase dialysis frequency to improve uremia-related symptoms — more sessions clear taste-altering toxins"
             ],
             "correctIndex": 0,
             "explanation": "Zinc deficiency is common in dialysis patients (losses during dialysis, reduced dietary intake from restrictions) and is a recognized cause of dysgeusia (taste disturbances) and poor appetite. Zinc supplementation may improve taste acuity and appetite. Other interventions for nutrition-impact symptoms in dialysis patients: small frequent meals, using allowed spices/seasonings to enhance palatability, oral nutrition supplements, and addressing reversible causes of nausea. TPN is reserved for when enteral route is not feasible. Increased dialysis frequency addresses uremia but doesn't specifically target dysgeusia.",
@@ -8176,10 +8176,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient is diagnosed with nonalcoholic fatty liver disease (NAFLD). Which is the FIRST-LINE nutrition intervention?",
             "options": [
-                "Prescribe a low-fat diet < 10% of calories from fat",
-                "Begin a high-protein, very-low-carbohydrate ketogenic diet",
+                "Prescribe a very low-fat diet < 10% of calories from fat for 6 months",
+                "Begin a high-protein, very-low-carbohydrate ketogenic diet to deplete liver fat",
                 "Achieve 5–10% weight loss through caloric restriction and physical activity",
-                "Eliminate all fructose by avoiding all fruits and vegetables"
+                "Eliminate all fructose by avoiding all fruits and vegetables permanently"
             ],
             "correctIndex": 2,
             "explanation": "The primary treatment for NAFLD/NASH (nonalcoholic steatohepatitis) is weight loss — even 5–10% body weight reduction significantly improves hepatic steatosis and liver enzymes. A hypocaloric diet (500–1,000 kcal/day deficit) combined with physical activity is first-line. The Mediterranean diet pattern is specifically supported for NAFLD. Limit added sugars, refined carbohydrates, fructose-sweetened beverages (SSBs), and saturated fats. Moderate total fat intake is appropriate — severe fat restriction is not necessary. Complete fructose elimination (including whole fruit) is not supported — whole fruit fiber modifies fructose's metabolic effects.",
@@ -8198,10 +8198,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with CKD Stage 3 has hyperkalemia. The RDN counsels on low-potassium food choices. Which food group contains the HIGHEST potassium and should be most limited?",
             "options": [
-                "Refined grains and white bread",
+                "Refined grains, white bread and crackers",
                 "Fruits, vegetables, legumes, and dairy",
-                "Oils and fats",
-                "White rice and pasta"
+                "Oils, fats, butter and margarine",
+                "White rice, pasta and noodles"
             ],
             "correctIndex": 1,
             "explanation": "Fruits, vegetables, legumes, and dairy are the highest potassium food groups. Potassium-rich foods to limit: bananas, oranges, potatoes, tomatoes, avocados, dried fruits, nuts, beans, and dairy. Strategies to reduce potassium from vegetables: leaching (peel, cut small, soak in water, discard water, boil in fresh water). Low-potassium alternatives: apples, berries, grapes, white rice, pasta, white bread. Note that some CKD patients may have HYPOKALEMIA (especially with high diuretic doses) and may need to INCREASE potassium — the RDN must individualize based on labs, not assume all CKD patients need restriction.",
@@ -8260,10 +8260,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The DASH Eating Plan is recommended for a patient with hypertension. Which statement BEST describes the sodium recommendation in the DASH plan?",
             "options": [
-                "Limit sodium to 500-1,000 mg/day",
+                "Limit sodium to 500-1,000 mg/day with emphasis on protein restriction and strict fluid limits",
                 "Limit sodium to 1,500-2,300 mg/day with emphasis on potassium, calcium, magnesium, and fiber",
-                "No specific sodium restriction; focus on fruits and vegetables only",
-                "Limit sodium to 3,000-4,000 mg/day for mild hypertension"
+                "No specific sodium restriction; focus on fruits and vegetables only, with unlimited dairy",
+                "Limit sodium to 3,000-4,000 mg/day for mild hypertension with emphasis on lean protein"
             ],
             "correctIndex": 1,
             "explanation": "The DASH (Dietary Approaches to Stop Hypertension) Eating Plan limits sodium to 1,500–2,300 mg/day, with emphasis on foods high in potassium, calcium, magnesium, and fiber. It emphasizes fruits, vegetables, whole grains, and low-fat dairy while limiting fats and replacing saturated fats with unsaturated fats.",
@@ -8303,7 +8303,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Class I — no limitation of physical activity",
                 "Class II — slight limitation of physical activity",
                 "Class III — marked limitation of physical activity",
-                "Class IV — symptoms at rest"
+                "Class IV — symptoms at rest and with any activity"
             ],
             "correctIndex": 3,
             "explanation": "NYHA Heart Failure Classification: Class I = ordinary activity causes no symptoms; Class II = ordinary activity causes slight symptoms; Class III = less than ordinary activity causes symptoms; Class IV = symptoms at rest, unable to carry on any physical activity without discomfort. Class IV represents the most severe heart failure.",
@@ -8368,7 +8368,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "2-hour OGTT of 195 mg/dL AND A1c of 6.2%"
             ],
             "correctIndex": 2,
-            "explanation": "Diabetes diagnosis requires two abnormal results. Criteria: Fasting plasma glucose ≥126 mg/dL OR 2-hr OGTT ≥200 mg/dL OR A1c ≥6.5%. Option C has both: FPG 128 mg/dL (≥126) AND A1c 6.6% (≥6.5%). Prediabetes: FPG 100-125 mg/dL, 2-hr OGTT 140-199 mg/dL, A1c 5.7-6.4%. Option A (FPG 118, A1c 6.3%) = prediabetes.",
+            "explanation": "Diabetes diagnosis requires two abnormal results. Criteria: Fasting plasma glucose ≥126 mg/dL OR 2-hr OGTT ≥200 mg/dL OR A1c ≥6.5%. The FPG 128 / A1c 6.6% combination has both: FPG 128 mg/dL (≥126) AND A1c 6.6% (≥6.5%). Prediabetes: FPG 100-125 mg/dL, 2-hr OGTT 140-199 mg/dL, A1c 5.7-6.4%. FPG 118 with A1c 6.3% = prediabetes.",
             "tags": [
                 "diabetes",
                 "diagnosis",
@@ -8445,10 +8445,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A physician recommends metformin as first-line therapy for a newly diagnosed patient with type 2 diabetes. What is the primary mechanism of action of metformin (biguanide)?",
             "options": [
-                "Stimulates insulin secretion from the pancreas",
-                "Delays carbohydrate absorption in the intestine",
+                "Stimulates insulin secretion from the pancreas and slows gastric emptying",
+                "Delays carbohydrate absorption in the intestine by inhibiting brush border enzymes",
                 "Reduces hepatic glucose production and may reduce insulin resistance",
-                "Increases glucose excretion in the urine"
+                "Increases glucose excretion in the urine by blocking sodium-glucose transporters"
             ],
             "correctIndex": 2,
             "explanation": "Metformin (biguanide) reduces hepatic glucose production, decreases intestinal glucose absorption, and may reduce insulin resistance — it is a euglycemic agent that normalizes blood glucose without causing hypoglycemia on its own. Sulfonylureas/meglitinides stimulate insulin secretion. Alpha-glucosidase inhibitors delay CHO absorption. SGLT2 inhibitors increase urinary glucose excretion.",
@@ -8466,9 +8466,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with type 2 diabetes develops darkened, thickened skin in skin folds (axilla and neck). This finding is most consistent with:",
             "options": [
-                "Diabetic nephropathy",
+                "Diabetic nephropathy with uremic skin changes",
                 "Acanthosis nigricans — a sign of insulin resistance",
-                "Diabetic neuropathy causing skin changes",
+                "Diabetic neuropathy causing skin changes in the folds",
                 "Allergic reaction to insulin therapy"
             ],
             "correctIndex": 1,
@@ -8549,10 +8549,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which biochemical marker is considered the MOST SENSITIVE early indicator of iron deficiency?",
             "options": [
-                "Hemoglobin",
-                "Serum iron",
+                "Hemoglobin and hematocrit (packed cell volume)",
+                "Serum iron and red cell distribution width",
                 "Ferritin and transferrin saturation (TIBC)",
-                "Mean corpuscular volume (MCV)"
+                "Mean corpuscular volume (MCV) and MCH"
             ],
             "correctIndex": 2,
             "explanation": "Ferritin and transferrin saturation (TIBC) are the most sensitive early markers of iron deficiency — they change early in depletion and specifically reflect iron status. Hemoglobin is NOT used to diagnose iron deficiency anemia because it only decreases late in the disease and does not distinguish between types. MCV also changes late. TIBC is a reverse acute-phase reactant (decreases with inflammation).",
@@ -8592,10 +8592,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with a history of gastric surgery presents with macrocytic anemia, fatigue, and paresthesia (tingling in the hands and feet). The most likely cause is:",
             "options": [
-                "Iron deficiency anemia",
-                "Folate deficiency anemia",
+                "Iron deficiency anemia (from blood loss)",
+                "Folate deficiency anemia (megaloblastic)",
                 "Vitamin B12 deficiency (pernicious anemia)",
-                "Anemia of chronic disease"
+                "Anemia of chronic disease (inflammatory)"
             ],
             "correctIndex": 2,
             "explanation": "Vitamin B12 deficiency causes macrocytic (megaloblastic) anemia AND neurologic symptoms (paresthesia, poor coordination, disturbed vision) due to inadequate nerve myelination — neurologic symptoms are unique to B12 deficiency. Gastric surgery reduces intrinsic factor (IF) production, which is required for B12 absorption in the ileum. Folate deficiency causes macrocytic anemia but NOT neurological symptoms (ageusia and diarrhea instead).",
@@ -8635,10 +8635,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Ferritin is an acute-phase reactant. In a patient with active rheumatoid arthritis and suspected iron deficiency anemia, what effect does inflammation have on ferritin levels?",
             "options": [
-                "Ferritin decreases, making it an unreliable marker of iron stores",
+                "Ferritin decreases, making it an unreliable marker of total body iron stores",
                 "Ferritin increases, making it falsely appear that iron stores are adequate",
-                "Ferritin is unaffected by inflammation in autoimmune conditions",
-                "Ferritin decreases only with infectious causes of inflammation"
+                "Ferritin is unaffected by inflammation in autoimmune conditions like RA",
+                "Ferritin decreases only with infectious causes of inflammation, not autoimmune"
             ],
             "correctIndex": 1,
             "explanation": "Ferritin is an acute-phase reactant that INCREASES with inflammation, masking true iron depletion — stores may appear adequate when they are actually low. This makes distinguishing true iron deficiency from anemia of chronic/inflammatory disease (ACD) challenging. In ACD, ferritin may be normal or elevated, serum iron is low, and TIBC is low (unlike iron deficiency anemia where TIBC is elevated).",
@@ -8697,10 +8697,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient is diagnosed with Crohn's disease. Which statement correctly distinguishes Crohn's disease from ulcerative colitis (UC)?",
             "options": [
-                "Crohn's disease affects only the colon and rectum; UC can affect any portion of the GI tract",
-                "Crohn's disease has continuous mucosal damage; UC has skip lesions",
+                "Crohn's disease affects only the colon and rectum; UC can affect any portion of the GI tract from mouth to anus with skip areas",
+                "Crohn's disease has continuous mucosal damage limited to the colon; UC has transmural inflammation with skip lesions throughout the bowel",
                 "Crohn's disease is transmural and can affect any portion of the GI tract with skip areas; UC affects only the mucosa continuously from the rectum",
-                "Crohn's disease causes bloody diarrhea; UC causes steatorrhea"
+                "Crohn's disease causes bloody diarrhea from continuous colonic ulceration; UC causes steatorrhea from terminal ileum involvement"
             ],
             "correctIndex": 2,
             "explanation": "Key distinctions: Crohn's = any portion of GI tract (mouth to anus), transmural (all layers), skip lesions, complications include fistulas, strictures, oxalate kidney stones, short bowel syndrome. UC = lower bowel only (colon and rectum always affected), mucosa only, continuous damage, bloody diarrhea is a hallmark. Both are inflammatory bowel diseases with autoimmune etiology.",
@@ -8718,10 +8718,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "During an exacerbation of Crohn's disease, which dietary modification is most appropriate?",
             "options": [
-                "High-fiber, high-fat diet to increase caloric intake",
+                "High-fiber, high-fat diet to increase caloric intake and bulk the stool during the flare",
                 "Low-residue (low-fiber), low-fat, high-protein, high-calorie diet with small frequent meals",
-                "Clear liquid diet only for the duration of the exacerbation",
-                "Normal diet with probiotic supplementation only"
+                "Clear liquid diet only for the duration of the exacerbation, regardless of its length",
+                "Normal diet with probiotic supplementation only, since diet does not affect symptoms"
             ],
             "correctIndex": 1,
             "explanation": "During IBD exacerbation: low-fat, low-residue (low-fiber), high-protein, high-calorie diet with small frequent meals. Fiber is only restricted during exacerbations or bowel strictures. Protein needs are 1-1.5 g/kg/day. Micronutrient replenishment includes vitamin D, zinc, calcium, magnesium, folate, B12, and iron. The goal is to reduce mucosal stimulation while meeting increased metabolic needs.",
@@ -8739,7 +8739,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with Crohn's disease is at increased risk of which type of kidney stone?",
             "options": [
-                "Uric acid stones",
+                "Uric acid stones from dehydration and acidic urine",
                 "Struvite (magnesium ammonium phosphate) stones",
                 "Calcium oxalate stones due to enteric hyperoxaluria",
                 "Calcium phosphate stones from hypercalciuria"
@@ -8760,10 +8760,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with irritable bowel syndrome (IBS) is counseled on the low FODMAP diet. What does FODMAP stand for and what is the purpose of the diet?",
             "options": [
-                "Fat, Oils, Dairy, Meat, Alcohol, Proteins — eliminates high-fat foods to reduce motility",
+                "Fat, Oils, Dairy, Meat, Alcohol, Proteins — eliminates high-fat foods to reduce motility, slow transit and ease cramping",
                 "Fermentable Oligosaccharides, Disaccharides, Monosaccharides, and Polyols — reduces fermentable carbohydrates that cause GI symptoms",
-                "Fiber, Osmotic agents, Dairy, Medications, Antacids, Probiotics — a multicomponent treatment",
-                "Food Oxidants, Dietary Modulators, Allergens, Proteins — eliminates food allergens"
+                "Fiber, Osmotic agents, Dairy, Medications, Antacids, Probiotics — a multicomponent treatment for managing bowel habit changes",
+                "Food Oxidants, Dietary Modulators, Allergens, Proteins — eliminates food allergens that trigger mast cell activation in the gut"
             ],
             "correctIndex": 1,
             "explanation": "FODMAP = Fermentable Oligosaccharides, Disaccharides, Monosaccharides, And Polyols — short-chain fermentable carbohydrates poorly absorbed in the small intestine that cause osmotic effects and fermentation, leading to IBS symptoms (bloating, gas, diarrhea, abdominal pain). The low FODMAP diet reduces these carbohydrates. IBS diagnosis requires ruling out other conditions (celiac disease, IBD) and is based on Rome IV criteria.",
@@ -8780,10 +8780,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with celiac disease is found to have low iron levels. The RDN suspects this is related to malabsorption. Which section of the intestine is the primary site for both iron and B12 absorption?",
             "options": [
-                "Iron is absorbed in the stomach; B12 in the colon",
-                "Both iron and B12 are absorbed primarily in the duodenum/jejunum",
+                "Iron is absorbed in the stomach; B12 is absorbed in the proximal colon",
+                "Both iron and B12 are absorbed primarily in the duodenum/proximal jejunum",
                 "Iron is absorbed in the duodenum/proximal jejunum; B12 is absorbed in the ileum",
-                "Both are absorbed throughout the small intestine equally"
+                "Both are absorbed throughout the small intestine equally, from duodenum to ileum"
             ],
             "correctIndex": 2,
             "explanation": "Iron is absorbed primarily in the duodenum and proximal jejunum (the most common site of celiac disease damage). Vitamin B12 is absorbed specifically in the ileum, requiring intrinsic factor (IF) from gastric parietal cells and calcium. Celiac disease damages the duodenal and jejunal villi, impairing iron, folate, calcium, and fat-soluble vitamin absorption. B12 malabsorption occurs with ileal disease (e.g., Crohn's ileitis) or IF deficiency.",
@@ -8823,10 +8823,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with type 2 diabetes is prescribed an SGLT2 inhibitor. Which nutrition-related side effect should the RDN monitor for?",
             "options": [
-                "Hypoglycemia and weight gain",
+                "Hypoglycemia and weight gain, especially when combined with insulin therapy",
                 "Increased urinary frequency, urinary/genital infections, and risk of dehydration",
-                "Nausea, vomiting, and pancreatitis",
-                "Bone loss, fluid retention, and anemia"
+                "Nausea, vomiting, and pancreatitis during the first weeks of dose escalation",
+                "Bone loss, fluid retention, and anemia, with an increased risk of heart failure"
             ],
             "correctIndex": 1,
             "explanation": "SGLT2 inhibitors (canagliflozin/Invokana, dapagliflozin/Farxiga, empagliflozin/Jardiance) lower blood glucose by blocking renal glucose reabsorption, causing increased urinary glucose excretion. Side effects include: increased urinary frequency, urinary and genitourinary infections, potential dehydration, and increased blood potassium. They are contraindicated with kidney problems. Weight loss (not gain) is typical with SGLT2 inhibitors.",
@@ -8844,13 +8844,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "According to the NCEP ATP III criteria, a patient is diagnosed with metabolic syndrome if they meet at least 3 of 5 criteria. Which combination meets the diagnostic threshold?",
             "options": [
-                "Fasting glucose 95 mg/dL, TG 130 mg/dL, waist circumference 38 in (men)",
+                "Fasting glucose 95 mg/dL, TG 130 mg/dL, waist circumference 38 in (men), BP 124/80 mmHg",
                 "Blood pressure 128/82 mmHg, TG 160 mg/dL, HDL 38 mg/dL (men), fasting glucose 102 mg/dL",
-                "Blood pressure 120/78 mmHg, TG 140 mg/dL, HDL 42 mg/dL (men)",
+                "Blood pressure 120/78 mmHg, TG 140 mg/dL, HDL 42 mg/dL (men), waist 39 in (men)",
                 "Fasting glucose 98 mg/dL, waist circumference 36 in (men), HDL 45 mg/dL (men)"
             ],
             "correctIndex": 1,
-            "explanation": "NCEP ATP III requires any 3 of 5: (1) fasting glucose ≥100 mg/dL, (2) TG ≥150 mg/dL, (3) HDL ≤40 mg/dL (men)/≤50 mg/dL (women), (4) waist ≥40 in/102 cm (men) or ≥35 in/88 cm (women), (5) BP ≥130/85 mmHg. Option B meets 3: TG 160 (≥150) ✓, HDL 38 (≤40 men) ✓, glucose 102 (≥100) ✓. BP 128/82 is below the ≥130/85 threshold.",
+            "explanation": "NCEP ATP III requires any 3 of 5: (1) fasting glucose ≥100 mg/dL, (2) TG ≥150 mg/dL, (3) HDL ≤40 mg/dL (men)/≤50 mg/dL (women), (4) waist ≥40 in/102 cm (men) or ≥35 in/88 cm (women), (5) BP ≥130/85 mmHg. The correct combination meets 3: TG 160 (≥150) ✓, HDL 38 (≤40 men) ✓, glucose 102 (≥100) ✓. BP 128/82 is below the ≥130/85 threshold.",
             "tags": [
                 "metabolic-syndrome",
                 "NCEP-ATP-III",
@@ -8867,7 +8867,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "2–5% of body weight",
                 "7–10% of body weight",
                 "15–20% of body weight",
-                "Any amount; there is no specific target"
+                "Any amount; no set target"
             ],
             "correctIndex": 1,
             "explanation": "For metabolic syndrome, MNT goals include promoting a healthful, cardioprotective eating pattern with reduced energy intake to achieve 7–10% weight loss in the first year. Physical activity should be at least 30 minutes, 5 days per week. MNT addresses all components: reducing triglycerides, normalizing blood pressure, and achieving normal fasting glucose through individualized counseling including behavior theory and motivational interviewing.",
@@ -8904,10 +8904,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with gout asks about dietary modifications. Which food is associated with the HIGHEST risk of triggering acute gout episodes?",
             "options": [
-                "Chicken breast",
-                "Low-fat dairy products",
+                "Chicken breast and egg whites (lean protein)",
+                "Low-fat dairy products (skim milk, yogurt, cheese)",
                 "Beer and organ meats (liver, kidney, sweetbreads)",
-                "Whole grain bread and legumes"
+                "Whole grain bread and legumes (lentils, beans)"
             ],
             "correctIndex": 2,
             "explanation": "Research shows the highest risk of acute gout episodes with: beer (higher risk than other alcohols), organ/glandular meats (liver, kidney, sweetbreads), red meat, and seafood. Beer is particularly problematic — it contains both purines (guanosine) and alcohol. Dehydration also increases crystal formation. MNT includes 8-16 cups fluid/day (≥50% water), limiting meat/fish/poultry to 4-6 oz/day, and discussing alcohol abstention with the physician.",
@@ -8928,7 +8928,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "ACE inhibitors and ARBs",
                 "Thiazide and loop diuretics",
                 "Statins and fibrates",
-                "Beta-blockers and calcium channel blockers"
+                "Beta-blockers and calcium blockers"
             ],
             "correctIndex": 1,
             "explanation": "Medications that impair uric acid secretion and increase gout risk include thiazide diuretics, loop diuretics, low-dose aspirin, cyclosporine, niacin, tuberculosis drugs, some chemotherapy drugs, and didanosine (HAART). Thiazides and loop diuretics are the most commonly implicated. Since the kidneys are the primary route of uric acid excretion, any drug reducing renal urate clearance can precipitate gout.",
@@ -8989,7 +8989,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Overweight",
                 "Obesity Class I",
                 "Obesity Class II",
-                "Obesity Class III (severe)"
+                "Obesity Class III"
             ],
             "correctIndex": 1,
             "explanation": "BMI classification: Overweight = 25.0–29.9; Obesity Class I = 30.0–34.9; Obesity Class II = 35.0–39.9; Obesity Class III (severe/morbid) = ≥40.0. BMI 32 falls in Class I obesity. High-risk waist circumference: >40 in (102 cm) for men and >35 in (88 cm) for women. For Asian populations, lower cut-offs apply (≥35 in/90 cm for men, ≥31.5 in/80 cm for women).",
@@ -9008,8 +9008,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Excessive weight gain and hyperphagia due to metabolic changes",
                 "Anorexia and significant weight loss despite adequate nutritional intake",
-                "Normal appetite with isolated muscle wasting",
-                "Weight loss only in patients receiving chemotherapy"
+                "Normal appetite with isolated muscle wasting in the extremities",
+                "Weight loss only in patients receiving active chemotherapy or radiation"
             ],
             "correctIndex": 1,
             "explanation": "CACS (Cancer-related anorexia/cachexia syndrome) is defined as anorexia combined with significant weight loss that does not fully respond to conventional nutritional support. It is driven by tumor-induced metabolic changes, cytokine production, and altered metabolism — not simply inadequate intake. It is a major cause of morbidity and mortality in cancer patients. MNT focuses on maximizing caloric intake, managing symptoms, and preserving lean body mass.",
@@ -9027,8 +9027,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient receiving chemotherapy develops mucositis. Which dietary modification is most appropriate?",
             "options": [
-                "High-fiber, high-residue diet to stimulate healing",
-                "Dry, crunchy foods to clean oral surfaces",
+                "High-fiber, high-residue diet to stimulate healing of the oral mucosa",
+                "Dry, crunchy foods such as toast and crackers to clean oral surfaces",
                 "Soft, moist foods; avoid hot, spicy, acidic, and rough-textured foods",
                 "Increase alcohol-based mouth rinses with meals to reduce pain"
             ],
@@ -9069,10 +9069,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Early enteral nutrition (within 24-48 hours) is recommended for critically ill patients because it:",
             "options": [
-                "Eliminates the need for intravenous fluid resuscitation",
+                "Eliminates the need for intravenous fluid resuscitation and electrolytes",
                 "Maintains gut integrity, reduces bacterial translocation, and improves outcomes",
-                "Provides higher caloric density than parenteral nutrition",
-                "Avoids the risk of refeeding syndrome associated with TPN"
+                "Provides higher caloric density and protein than parenteral nutrition",
+                "Avoids the risk of refeeding syndrome and hyperglycemia associated with TPN"
             ],
             "correctIndex": 1,
             "explanation": "Early enteral nutrition (within 24-48 hours of ICU admission) in critically ill patients: maintains intestinal mucosal integrity, reduces bacterial translocation across the gut wall, modulates the immune response, and improves clinical outcomes including reduced infectious complications. The GI tract is considered the 'motor of the systemic inflammatory response' — keeping it active via enteral feeding is a key principle of critical care nutrition.",
@@ -9089,10 +9089,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with severe burns covering 40% of total body surface area (TBSA) is in the hypermetabolic phase. What is a key principle of nutrition support for major burns?",
             "options": [
-                "Restrict protein to prevent increased urea production",
+                "Restrict protein to prevent increased urea production and protect kidney function during healing",
                 "Provide high-energy, high-protein nutrition early to support wound healing and prevent catabolism",
-                "Avoid enteral feeding until the acute phase resolves",
-                "Restrict fat to less than 10% of energy to prevent wound infection"
+                "Avoid enteral feeding until the acute phase resolves and the gut has fully recovered from shock",
+                "Restrict fat to less than 10% of energy to prevent wound infection and preserve immune function"
             ],
             "correctIndex": 1,
             "explanation": "Major burns cause extreme hypermetabolism — energy and protein needs are dramatically increased to support wound healing, immune function, and prevent catabolism. High-energy, high-protein nutrition (including arginine and glutamine supplementation) is initiated early (enteral route preferred). Burns >20% TBSA require aggressive nutrition support. Key micronutrients for wound healing include vitamin C, zinc, and vitamin A.",
@@ -9110,10 +9110,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with severe anorexia nervosa is medically stabilized and begins nutritional rehabilitation. Aggressive refeeding with high carbohydrate intake can precipitate which life-threatening complication?",
             "options": [
-                "Hyperkalemia and metabolic alkalosis",
+                "Hyperkalemia and metabolic alkalosis — high potassium, high bicarbonate",
                 "Refeeding syndrome — hypophosphatemia, hypokalemia, hypomagnesemia",
-                "Hypernatremia and fluid overload",
-                "Hypercalcemia from bone resorption"
+                "Hypernatremia and fluid overload — high sodium, edema, weight gain",
+                "Hypercalcemia from bone resorption — high calcium, low parathyroid hormone"
             ],
             "correctIndex": 1,
             "explanation": "Refeeding syndrome occurs when malnourished patients receive rapid nutritional rehabilitation, particularly high carbohydrate loads. Insulin release drives intracellular shifts of phosphorus, potassium, and magnesium → severe hypophosphatemia, hypokalemia, hypomagnesemia. This can cause cardiac arrhythmias, respiratory failure, seizures, and death. Prevention: start nutrition slowly, correct electrolytes first, closely monitor electrolytes and cardiac function. Thiamin (B1) supplementation before refeeding is critical.",
@@ -9131,10 +9131,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with bulimia nervosa who self-induces vomiting is most likely to develop which electrolyte imbalance?",
             "options": [
-                "Hypernatremia from dehydration",
+                "Hypernatremia from dehydration and loss of free water",
                 "Hypokalemia and metabolic alkalosis from repeated vomiting",
-                "Hyperphosphatemia from increased bone resorption",
-                "Hypermagnesemia from laxative abuse"
+                "Hyperphosphatemia from increased bone resorption and starvation",
+                "Hypermagnesemia from laxative abuse and impaired excretion"
             ],
             "correctIndex": 1,
             "explanation": "Repeated self-induced vomiting causes: hypokalemia (loss of potassium in vomitus and through renal compensation), metabolic alkalosis (loss of HCl raises blood pH), and hyponatremia. Other signs include parotid gland enlargement (from repeated purging), dental erosion (from gastric acid), and Russell's sign (calluses on knuckles). Laxative abuse can cause hypokalemia via GI losses and metabolic acidosis.",
@@ -9152,10 +9152,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "According to the Academy of Nutrition and Dietetics/ASPEN consensus statement, which finding is used to identify and document adult malnutrition (undernutrition)?",
             "options": [
-                "A single low albumin level in the absence of other findings",
+                "A single low albumin level in the absence of other findings, confirmed by a repeat measurement within 48 hours and supported by a low total lymphocyte count and transferrin",
                 "At least 2 of 6 characteristic findings including inadequate intake, weight loss, loss of muscle mass, loss of subcutaneous fat, fluid accumulation, or reduced grip strength",
-                "BMI below 18.5 kg/m² alone",
-                "Serum transferrin below normal with concurrent low hemoglobin"
+                "BMI below 18.5 kg/m² alone, calculated from measured height and admission weight, since a low BMI captures both muscle and fat depletion in a single objective number",
+                "Serum transferrin below normal with concurrent low hemoglobin, low prealbumin and a reduced total lymphocyte count, together reflecting depleted visceral protein stores"
             ],
             "correctIndex": 1,
             "explanation": "The AND/ASPEN consensus (2012) requires at least 2 of 6 characteristics to identify malnutrition: (1) insufficient energy intake, (2) weight loss, (3) loss of muscle mass, (4) loss of subcutaneous fat, (5) fluid accumulation (which may mask weight loss), and (6) diminished functional status (reduced grip strength). Albumin and prealbumin are NOT recommended for malnutrition diagnosis — they are negative acute-phase reactants that reflect inflammation, not nutrition status.",
@@ -9173,10 +9173,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Kwashiorkor is characterized by protein deficiency with relatively adequate energy intake. Which clinical finding distinguishes kwashiorkor from marasmus?",
             "options": [
-                "Severe muscle wasting and sunken cheeks",
+                "Severe muscle wasting and sunken cheeks with loss of subcutaneous fat and markedly reduced weight",
                 "Edema (fluid accumulation), fatty liver, and skin/hair changes despite relatively preserved body weight",
-                "Extreme overall wasting with no edema",
-                "Hyperkalemia and metabolic acidosis"
+                "Extreme overall wasting with no edema, giving a skeletal appearance and very low weight for height",
+                "Hyperkalemia and metabolic acidosis from the breakdown of lean tissue during prolonged starvation"
             ],
             "correctIndex": 1,
             "explanation": "Kwashiorkor = protein deficiency with some caloric intake: characterized by edema (from low oncotic pressure due to hypoalbuminemia), fatty liver (reduced lipoprotein synthesis), skin/hair changes (flag sign, dermatitis), while body weight may appear near-normal due to fluid. Marasmus = overall energy-protein deficiency: severe wasting of muscle and fat, no edema, sunken appearance. Marasmic-kwashiorkor combines features of both.",
@@ -9194,10 +9194,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A newborn is diagnosed with phenylketonuria (PKU) via newborn screening. What is the primary nutrition intervention?",
             "options": [
-                "High-protein diet with phenylalanine supplements",
+                "High-protein diet with phenylalanine supplements to support rapid growth in early infancy",
                 "Phenylalanine-restricted diet using specialized formula with adequate tyrosine supplementation",
-                "Gluten-free diet with rice-based formula",
-                "Elimination of all branched-chain amino acids from the diet"
+                "Gluten-free diet with rice-based formula to prevent intestinal injury from cereal proteins",
+                "Elimination of all branched-chain amino acids from the diet using a specialized medical formula"
             ],
             "correctIndex": 1,
             "explanation": "PKU is caused by a deficiency in phenylalanine hydroxylase (PAH), which converts phenylalanine (Phe) to tyrosine (Tyr). Without the enzyme, phenylalanine accumulates and is neurotoxic. Treatment: phenylalanine-restricted diet using specialized Phe-free medical formula to meet protein needs, with carefully controlled natural protein to provide just enough Phe for growth. Tyrosine becomes an essential amino acid in PKU. Early and lifelong dietary management prevents intellectual disability.",
@@ -9215,10 +9215,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "easy",
             "text": "The FDA requires labeling of the 'Big 9' major food allergens. Which of the following is on the FDA's major allergen list?",
             "options": [
-                "Corn, garlic, tomatoes, and chocolate",
+                "Corn, garlic, tomatoes, chocolate, strawberries, citrus, mustard, and celery",
                 "Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soybeans, and sesame",
-                "Gluten, lactose, fructose, and sorbitol",
-                "Red dyes, sulfites, MSG, and artificial sweeteners"
+                "Gluten, lactose, fructose, sorbitol, caffeine, histamine, and tyramine",
+                "Red dyes, sulfites, MSG, artificial sweeteners, nitrates, and benzoates"
             ],
             "correctIndex": 1,
             "explanation": "The FDA's 'Big 9' major food allergens (FALCPA + sesame added in 2023): milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soybeans, and sesame. These must be declared on food labels. Food intolerance (e.g., lactose intolerance) involves non-immune GI symptoms. Food allergy = immune-mediated reaction. Anaphylaxis is the most severe allergic reaction requiring epinephrine.",
@@ -9236,7 +9236,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "An RDN providing MNT for a patient with HIV/AIDS should prioritize which nutrition concern?",
             "options": [
-                "Restricting all dietary fat to prevent lipodystrophy",
+                "Restricting all dietary fat to prevent lipodystrophy and fat redistribution",
                 "Assessing for malnutrition, wasting, drug-nutrient interactions, and food safety",
                 "Eliminating all fruits and vegetables to prevent opportunistic infections",
                 "Restricting protein to prevent kidney damage from antiretroviral therapy"
@@ -9257,10 +9257,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with COPD is experiencing significant unintentional weight loss. What is the appropriate nutrition approach?",
             "options": [
-                "Restrict calories to reduce CO2 production from metabolism",
+                "Restrict calories to reduce CO2 production from metabolism and ease the work of breathing",
                 "Prevent weight loss and maintain or restore lean body mass even if the patient is overweight",
-                "Recommend high-carbohydrate diet to provide quick energy for breathing muscles",
-                "Restrict protein to reduce ammonia production and respiratory burden"
+                "Recommend a high-carbohydrate diet to provide quick energy for the breathing muscles",
+                "Restrict protein to reduce ammonia production and respiratory burden during exacerbations"
             ],
             "correctIndex": 1,
             "explanation": "For COPD, MNT goals include: preventing weight loss even in overweight patients, maintaining or restoring lean body mass, and liberalizing diet to meet energy needs with small frequent meals of easy-to-chew, swallow, and digest foods. Energy ~30 kcal/kg, protein 0.8 g/kg/day (DRI). Note: high-fat, low-carbohydrate enteral formulas for respiratory disorders are NOT recommended. Undernutrition in COPD is associated with reduced lung function and poor outcomes.",
@@ -9278,10 +9278,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient recovering from a stroke presents with dysphagia (difficulty swallowing). Which is the most appropriate initial nutrition intervention?",
             "options": [
-                "Immediately advance to a regular diet to encourage swallowing practice",
+                "Immediately advance to a regular diet to encourage swallowing practice and rebuild oral muscle strength",
                 "Perform a swallowing assessment and implement texture-modified diet and/or thickened liquids as indicated",
-                "Initiate parenteral nutrition to bypass the swallowing mechanism",
-                "Restrict oral intake until spontaneous swallowing reflex returns"
+                "Initiate parenteral nutrition to bypass the swallowing mechanism until full recovery is confirmed",
+                "Restrict oral intake until spontaneous swallowing reflex returns, providing intravenous fluids meanwhile"
             ],
             "correctIndex": 1,
             "explanation": "Post-stroke dysphagia requires a formal swallowing evaluation (by the speech-language pathologist) and a texture-modified diet per IDDSI (International Dysphagia Diet Standardisation Initiative) framework — pureed, minced, soft, or regular textures with appropriate liquid consistency (thin, nectar, honey, or pudding thick). Early enteral feeding via NG tube may be needed if oral intake is unsafe. Aspiration pneumonia is the major complication of untreated dysphagia.",
@@ -9299,10 +9299,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with Alzheimer's disease is losing weight unintentionally. Which factor most commonly contributes to inadequate intake in dementia patients?",
             "options": [
-                "Increased metabolic rate from neurological activity",
+                "Increased metabolic rate from neurological activity and constant agitation in later stages",
                 "Cognitive decline impairing the ability to recognize hunger and complete the task of eating",
-                "Malabsorption due to GI atrophy",
-                "Intentional dietary restriction due to depression"
+                "Malabsorption due to GI atrophy and reduced digestive enzyme output in older adults",
+                "Intentional dietary restriction due to depression and a conscious wish to lose weight"
             ],
             "correctIndex": 1,
             "explanation": "In Alzheimer's disease and dementia, inadequate intake is primarily driven by: cognitive decline (inability to recognize hunger, forgetting to eat, apraxia of eating — inability to use utensils), behavioral changes (agitation, wandering), dysphagia in advanced stages, and reduced sensory perception. Strategies include: finger foods, nutrient-dense snacks, cueing and assistance with meals, eating in a calm environment, and small frequent offerings. Weight loss in dementia is associated with accelerated disease progression.",
@@ -9320,10 +9320,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient undergoes a total gastrectomy. Which nutrient requires supplementation for life following this procedure?",
             "options": [
-                "Vitamin C, given the increased metabolic demands post-surgery",
+                "Vitamin C, given the increased metabolic demands post-surgery and the loss of acidic gastric secretions",
                 "Vitamin B12 via injection or high-dose oral supplementation, due to loss of intrinsic factor production",
-                "Calcium supplements only, as gastric acid loss impairs absorption",
-                "Iron supplements only, as heme iron absorption requires gastric acid"
+                "Calcium supplements only, as gastric acid loss impairs absorption of calcium carbonate from food and supplements",
+                "Iron supplements only, as heme iron absorption requires gastric acid and an intact stomach lining"
             ],
             "correctIndex": 1,
             "explanation": "After total gastrectomy, the stomach (including parietal cells that produce intrinsic factor/IF) is removed. Without IF, dietary vitamin B12 cannot be absorbed in the ileum. Lifelong B12 supplementation via intramuscular injection or very high oral doses (1000 mcg — ~1% absorbs passively) is required. Other post-gastrectomy concerns include: iron deficiency (reduced gastric acid), calcium malabsorption, dumping syndrome, and fat-soluble vitamin deficiencies.",
@@ -9445,10 +9445,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with major burns is in the flow phase of recovery. Which macronutrient distribution is recommended?",
             "options": [
-                "CHO 40%, protein 30%, fat 30%",
+                "CHO 40%, protein 30% of kcal, fat 30% of kcal",
                 "CHO 60%, protein 20–25% of kcal, fat remainder",
-                "CHO 50%, protein 15%, fat 35%",
-                "CHO 30%, protein 40%, fat 30%"
+                "CHO 50%, protein 15% of kcal, fat 35% of kcal",
+                "CHO 30%, protein 40% of kcal, fat 30% of kcal"
             ],
             "correctIndex": 1,
             "explanation": "During the hypermetabolic flow phase in burn patients, carbohydrates should comprise 60% of calories, protein 20–25% of kcal (or 1.5–2 g/kg), with fat making up the remainder.",
@@ -9509,10 +9509,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "When should enteral nutrition ideally be initiated in a major burn patient?",
             "options": [
-                "Within 4–6 hours of injury",
-                "After 24 hours when the patient is hemodynamically stable",
+                "Within 4–6 hours of injury (early EN)",
+                "After 24 hours once hemodynamically stable",
                 "After 48–72 hours during the flow phase",
-                "Only after bowel sounds return"
+                "Only after bowel sounds and flatus return"
             ],
             "correctIndex": 0,
             "explanation": "Early enteral nutrition within 4–6 hours of burn injury is recommended to preserve gut integrity, reduce hypermetabolic response, and decrease infection risk.",
@@ -9788,9 +9788,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A child presents with extremely selective eating, food refusal based on sensory characteristics, and failure to thrive, but without fear of weight gain or body image disturbance. Which eating disorder best describes this presentation?",
             "options": [
-                "Anorexia nervosa",
-                "Bulimia nervosa",
-                "Binge eating disorder",
+                "Anorexia nervosa, restricting type (AN-R)",
+                "Bulimia nervosa with compensatory restriction",
+                "Binge eating disorder with food avoidance",
                 "Avoidant/Restrictive Food Intake Disorder (ARFID)"
             ],
             "correctIndex": 3,
@@ -9811,9 +9811,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which method is considered the gold standard for determining energy requirements in critically ill patients according to ASPEN guidelines?",
             "options": [
                 "Harris-Benedict equation with stress factors",
-                "Mifflin-St Jeor equation",
-                "Indirect calorimetry",
-                "25 kcal/kg actual body weight"
+                "Mifflin-St Jeor equation alone",
+                "Indirect calorimetry (metabolic cart)",
+                "25 kcal/kg of actual body weight"
             ],
             "correctIndex": 2,
             "explanation": "Indirect calorimetry is the gold standard for measuring energy expenditure in critically ill patients (ASPEN recommends 65–70% of measured REE via indirect calorimetry). Predictive equations are less accurate in critical illness.",
@@ -9941,9 +9941,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "In critically ill patients, when is permissive underfeeding most appropriate?",
             "options": [
                 "During the first 24–48 hours of ICU admission in hemodynamically unstable patients",
-                "Only in patients with BMI > 30",
-                "When indirect calorimetry confirms hypermetabolism",
-                "In all ICU patients for the first 7 days"
+                "Only in patients with BMI > 30, regardless of how long they have been in the ICU",
+                "When indirect calorimetry confirms hypermetabolism above 150% of predicted needs",
+                "In all ICU patients for the first 7 days, whether or not they are hemodynamically stable"
             ],
             "correctIndex": 0,
             "explanation": "Permissive underfeeding during the first 24–48 hours is appropriate for hemodynamically unstable patients while resuscitation is ongoing. Full nutrition support is initiated once the patient is stabilized.",
@@ -9984,10 +9984,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which of the following findings is most consistent with a diagnosis of bulimia nervosa rather than anorexia nervosa binge-purge subtype?",
             "options": [
-                "BMI below 17.5 kg/m²",
-                "Lanugo and amenorrhea",
+                "BMI below 17.5 kg/m² with intense fear of gaining weight",
+                "Lanugo and amenorrhea with marked weight suppression",
                 "Normal or above-normal body weight with dental erosion",
-                "Severe bradycardia and hypotension"
+                "Severe bradycardia and hypotension from starvation"
             ],
             "correctIndex": 2,
             "explanation": "Bulimia nervosa patients typically maintain normal or above-normal weight (unlike anorexia nervosa which requires low BMI). Dental erosion from frequent vomiting is a hallmark finding, along with parotid hypertrophy and Russell's sign.",
@@ -10050,9 +10050,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A hypertonic enteral formula is administered and a patient develops watery diarrhea and cramping. What is the physiological explanation?",
             "options": [
-                "The hypertonic formula has inadequate protein to maintain oncotic pressure",
+                "The hypertonic formula has inadequate protein to maintain oncotic pressure in the gut wall",
                 "The high solute concentration pulls water into the intestinal lumen via osmosis, causing GI distress",
-                "The formula is too cold and stimulates intestinal motility",
+                "The formula is too cold from the refrigerator and stimulates intestinal motility and cramping",
                 "Hypertonic formulas are absorbed too quickly and overwhelm intestinal transporters"
             ],
             "correctIndex": 1,
@@ -10075,7 +10075,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Isotonic (isonatremic) dehydration",
                 "Hypotonic (hyponatremic) dehydration",
                 "Hypertonic (hypernatremic) dehydration",
-                "Euvolemic hyponatremia"
+                "Euvolemic (dilutional) hyponatremia"
             ],
             "correctIndex": 2,
             "explanation": "Hypertonic (hypernatremic) dehydration is characterized by sodium >150 mmol/L and elevated BUN. It results primarily from water loss (rather than proportional water and electrolyte loss), leading to increased solute concentration in the ECF. Causes include water deprivation, excessive sweating, hyperventilation, uncontrolled diabetes with polyuria, and heat stroke.",
@@ -10161,7 +10161,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "1,500–1,800 mL/day",
                 "1,800–2,100 mL/day",
-                "1,800–2,100 mL/day is too low; they need ≥3,000 mL/day",
+                "2,400–2,800 mL/day",
                 "2,000–2,200 mL/day"
             ],
             "correctIndex": 1,
@@ -10224,8 +10224,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with prolonged vomiting and nasogastric suctioning is found to have pH 7.52, PCO2 46 mmHg, HCO3- 34 mEq/L. What acid-base disorder is present?",
             "options": [
-                "Respiratory alkalosis",
-                "Metabolic acidosis",
+                "Respiratory alkalosis, partially compensated",
+                "Metabolic acidosis, normal anion gap",
                 "Metabolic alkalosis, chloride-responsive",
                 "Metabolic alkalosis, chloride-resistant"
             ],
@@ -10252,7 +10252,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Hyperaldosteronism, Cushing's syndrome, Bartter syndrome"
             ],
             "correctIndex": 1,
-            "explanation": "High anion gap metabolic acidosis is caused by accumulation of unmeasured anions: lactic acidosis (metformin, liver failure, infection, ischemia), ketoacidosis, uremia (rhabdomyolysis, renal insufficiency), salicylate toxicity, methanol/paraldehyde poisoning, and excess iron. Normal anion gap metabolic acidosis, by contrast, is caused by loss of bicarbonate (diarrhea, RTA, hyperchloremia). Choices C and D cause metabolic alkalosis.",
+            "explanation": "High anion gap metabolic acidosis is caused by accumulation of unmeasured anions: lactic acidosis (metformin, liver failure, infection, ischemia), ketoacidosis, uremia (rhabdomyolysis, renal insufficiency), salicylate toxicity, methanol/paraldehyde poisoning, and excess iron. Normal anion gap metabolic acidosis, by contrast, is caused by loss of bicarbonate (diarrhea, RTA, hyperchloremia). Vomiting/NG suctioning/loop diuretics and hyperaldosteronism/Cushing's/Bartter syndrome cause metabolic alkalosis instead.",
             "tags": [
                 "metabolic acidosis",
                 "anion gap",
@@ -10268,10 +10268,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "How do the kidneys respond when blood pH drops to 7.2 (acidosis)?",
             "options": [
-                "Decrease bicarbonate reabsorption and decrease hydrogen ion secretion",
+                "Decrease bicarbonate reabsorption and decrease hydrogen ion secretion in the tubules",
                 "Increase bicarbonate reabsorption, increase H+ secretion, increase ammonia secretion",
-                "Increase bicarbonate excretion and decrease ammonia production",
-                "Increase PCO2 retention to buffer the acidic environment"
+                "Increase bicarbonate excretion and decrease ammonia production in the proximal tubule",
+                "Increase PCO2 retention to buffer the acidic environment of the renal interstitium"
             ],
             "correctIndex": 1,
             "explanation": "In response to acidosis (pH <7.35), the kidneys: (1) increase bicarbonate reabsorption to restore alkaline buffer, (2) increase hydrogen ion secretion from renal epithelial cells to excrete excess acid, and (3) increase ammonia (NH3) secretion to create the NH4+ buffer that absorbs excess H+ in the urine. These renal responses are slower than the respiratory response but have a larger, more sustained effect.",
@@ -10290,10 +10290,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In patients with chronic kidney disease (CKD), anemia commonly develops due to reduced production of which kidney hormone?",
             "options": [
-                "Renin",
-                "Calcitriol",
+                "Renin (RAAS enzyme)",
+                "Calcitriol (vitamin D)",
                 "Erythropoietin (EPO)",
-                "Angiotensin II"
+                "Angiotensin II (ANG II)"
             ],
             "correctIndex": 2,
             "explanation": "The kidneys produce erythropoietin (EPO), which stimulates red blood cell synthesis in the bone marrow. In CKD, declining kidney function leads to insufficient EPO production, resulting in normocytic normochromic anemia. Treatment includes recombinant EPO (darbepoetin alfa, epoetin alfa) injections. This is a major nutritional concern in CKD/ESRD patients.",
@@ -10334,10 +10334,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Vitamin D activation requires which sequence of metabolic steps?",
             "options": [
-                "Sun/diet → cholecalciferol → kidney → calcidiol → liver → calcitriol",
+                "Sun/diet → cholecalciferol → kidney → calcidiol (25-OH D3) → liver → calcitriol (1,25-OH D3)",
                 "Sun/diet → cholecalciferol → liver → calcidiol (25-OH D3) → kidney → calcitriol (1,25-OH D3)",
-                "Sun/diet → ergocalciferol → kidney → calcidiol → liver → calcitriol",
-                "Liver → cholecalciferol → kidney → calcitriol → bone"
+                "Sun/diet → ergocalciferol → kidney → calcidiol (25-OH D2) → liver → calcitriol (1,25-OH D2)",
+                "Liver → cholecalciferol (7-dehydrocholesterol) → kidney → calcitriol (1,25-OH D3) → bone"
             ],
             "correctIndex": 1,
             "explanation": "Vitamin D activation: (1) Cholecalciferol (D3) is produced from 7-dehydrocholesterol in the skin via sun exposure, or obtained from food (D3) or supplements (D2 ergocalciferol or D3); (2) transported to the liver where it is hydroxylated to calcidiol (25-hydroxyvitamin D3) — this is what is measured in blood tests; (3) transported to the kidneys where it is hydroxylated to calcitriol (1,25-dihydroxyvitamin D3) — the active form. In CKD, impaired kidneys cannot activate vitamin D, leading to hypocalcemia.",
@@ -10356,10 +10356,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In CKD, which two hormones produced or activated by the kidney are commonly deficient, contributing to anemia and metabolic bone disease?",
             "options": [
-                "Insulin and glucagon",
+                "Insulin and glucagon (pancreatic islet hormones)",
                 "Erythropoietin (EPO) and calcitriol (active vitamin D)",
-                "Renin and angiotensin II",
-                "Parathyroid hormone and aldosterone"
+                "Renin and angiotensin II (blood pressure hormones)",
+                "Parathyroid hormone and aldosterone (PTH and ALDO)"
             ],
             "correctIndex": 1,
             "explanation": "In CKD, failing kidneys cannot produce sufficient erythropoietin (EPO), leading to anemia. Additionally, the kidneys cannot convert calcidiol to calcitriol (active vitamin D), leading to reduced calcium absorption and secondary hyperparathyroidism → metabolic bone disease (renal osteodystrophy). Both deficiencies worsen with declining GFR and are key targets of MNT and medical management in CKD.",
@@ -10380,7 +10380,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Urea (from protein catabolism)",
                 "Thiamin (vitamin B1)",
-                "Vitamin K",
+                "Vitamin K (phylloquinone)",
                 "Vitamin C (ascorbic acid)"
             ],
             "correctIndex": 2,
@@ -10400,10 +10400,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In patients with CKD, why must medication dosages be carefully adjusted?",
             "options": [
-                "CKD increases hepatic drug metabolism, altering drug efficacy",
+                "CKD increases hepatic drug metabolism, altering drug efficacy and shortening the drug's half-life",
                 "Impaired kidney function means drugs are not excreted as efficiently and accumulate in blood",
-                "CKD increases GI absorption of medications",
-                "Patients with CKD have reduced body fat, altering drug distribution"
+                "CKD increases GI absorption of medications, raising blood levels after each oral dose",
+                "Patients with CKD have reduced body fat, altering drug distribution for fat-soluble medications"
             ],
             "correctIndex": 1,
             "explanation": "The kidneys excrete many water-soluble drugs and their metabolites. In CKD, impaired renal clearance means drugs remain in circulation longer, increasing the risk of drug toxicity. Clinicians must reduce doses or extend dosing intervals for renally-cleared medications. Contrast agents used in imaging procedures also increase the risk of acute kidney injury (AKI) in CKD patients.",
@@ -10422,10 +10422,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Signs of low extracellular fluid (ECF) volume include which of the following?",
             "options": [
-                "Peripheral edema, anasarca, and pulmonary edema",
+                "Peripheral edema, anasarca, and pulmonary edema, with jugular venous distension and crackles",
                 "Elevated BUN, poor skin elasticity, dry mucous membranes, and orthostatic hypotension",
-                "Weight gain, sacral edema, and hypertension",
-                "Hyponatremia, confusion, and seizures"
+                "Weight gain, sacral edema, and hypertension, with a low BUN-to-creatinine ratio and dilute urine",
+                "Hyponatremia, confusion, and seizures from excessive free water intake and retention"
             ],
             "correctIndex": 1,
             "explanation": "Signs of low ECF volume (dehydration/hypovolemia) include elevated BUN (due to reduced renal perfusion and urea concentration), poor skin elasticity (tenting), dry mucous membranes, and orthostatic hypotension (blood pressure drops when standing due to inadequate plasma volume). Edema and anasarca indicate EXCESS ECF volume, as seen in heart failure, renal failure, or cirrhosis.",
@@ -10488,10 +10488,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Isotonic (isonatremic) dehydration is characterized by which laboratory findings?",
             "options": [
-                "Serum sodium >150 mmol/L and elevated BUN",
-                "Serum sodium <130 mmol/L and normal BUN",
+                "Serum sodium >150 mmol/L and elevated BUN from free water loss",
+                "Serum sodium <130 mmol/L and normal BUN with dilutional excess",
                 "Serum sodium within normal limits (130–150 mmol/L) and normal BUN",
-                "Serum sodium <130 mmol/L and elevated BUN"
+                "Serum sodium <130 mmol/L and elevated BUN from sodium depletion"
             ],
             "correctIndex": 2,
             "explanation": "Isotonic (isonatremic/hypovolemic) dehydration involves equal loss of water and electrolytes in proportion to plasma levels, so serum sodium remains within normal limits (130–150 mmol/L) and BUN is also within normal range. It is the most common type of dehydration, caused by excessive sweating, vomiting, diarrhea, or bleeding. Unlike hypertonic dehydration, it does not cause cerebral edema risk with rehydration.",
@@ -10510,10 +10510,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Normal saline (0.9% NaCl) and Lactated Ringer's solution differ in which way?",
             "options": [
-                "Normal saline contains potassium; Lactated Ringer's does not",
+                "Normal saline contains potassium; Lactated Ringer's does not, and it also lacks calcium and lactate",
                 "Normal saline contains only sodium and chloride; Lactated Ringer's also contains bicarbonate and calcium",
-                "Lactated Ringer's is hypotonic; Normal saline is isotonic",
-                "Normal saline contains glucose; Lactated Ringer's does not"
+                "Lactated Ringer's is hypotonic; Normal saline is isotonic, so only saline can be used for resuscitation",
+                "Normal saline contains glucose; Lactated Ringer's does not, and it is used mainly to correct hypoglycemia"
             ],
             "correctIndex": 1,
             "explanation": "Normal saline (0.9% NaCl) contains only sodium and chloride (~308 mOsm/L). Lactated Ringer's solution contains sodium, chloride, bicarbonate (as lactate), and calcium — making it more physiologically similar to plasma. Lactated Ringer's is often preferred for large volume resuscitation because excess normal saline can cause hyperchloremic metabolic acidosis.",
@@ -10532,10 +10532,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient receiving excessive normal saline for fluid resuscitation develops metabolic acidosis. What is the most likely mechanism?",
             "options": [
-                "Normal saline increases PCO2 by suppressing respiratory drive",
-                "Normal saline contains acetate which is converted to acid in the liver",
+                "Normal saline increases PCO2 by suppressing respiratory drive, producing a respiratory acidosis with compensatory bicarbonate retention",
+                "Normal saline contains acetate which is converted to acid in the liver, producing a high anion gap metabolic acidosis over several hours",
                 "Excess chloride from large volumes of normal saline displaces bicarbonate, causing hyperchloremic normal anion gap metabolic acidosis",
-                "Normal saline causes hyponatremia, which triggers metabolic acidosis"
+                "Normal saline causes hyponatremia, which triggers metabolic acidosis as the kidneys excrete bicarbonate to conserve sodium"
             ],
             "correctIndex": 2,
             "explanation": "Large volumes of normal saline (0.9% NaCl) deliver excess chloride. Because electroneutrality must be maintained, excess chloride displaces bicarbonate (HCO3-), resulting in hyperchloremic normal anion gap metabolic acidosis. This is an iatrogenic cause of metabolic acidosis listed among causes of normal anion gap metabolic acidosis, along with diarrhea, RTA, and Addison's disease.",
@@ -10554,9 +10554,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Glomerular filtration rate (GFR) is a key marker of kidney function estimated from which laboratory measurement?",
             "options": [
-                "Serum albumin",
-                "Urinary urea nitrogen",
-                "Serum BUN-to-creatinine ratio",
+                "Serum albumin corrected for total protein level",
+                "Urinary urea nitrogen from a 24-hour collection",
+                "Serum BUN-to-creatinine ratio on a single sample",
                 "Excreted creatinine in urine (creatinine clearance)"
             ],
             "correctIndex": 3,
@@ -10576,10 +10576,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient is given a hypotonic IV solution. What happens to intracellular fluid volume?",
             "options": [
-                "ICF decreases as water moves from cells into ECF",
+                "ICF decreases as water moves from cells into the hypotonic ECF by osmosis",
                 "ICF remains unchanged because the kidneys compensate immediately",
                 "ICF increases as water moves from the hypotonic ECF into cells via osmosis",
-                "ICF increases due to sodium influx into cells"
+                "ICF increases due to sodium influx into cells through open ion channels"
             ],
             "correctIndex": 2,
             "explanation": "A hypotonic solution has lower solute concentration than plasma (<300 mOsm/L). When administered, it makes the ECF hypotonic relative to the ICF. Via osmosis, water moves from areas of lower tonicity (ECF) to higher tonicity (ICF), causing cells to swell. Rapid administration of hypotonic fluids can cause cerebral edema, particularly dangerous in hypernatremic dehydration where overly rapid rehydration must be avoided.",
@@ -10598,10 +10598,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which condition would cause normal anion gap (rather than high anion gap) metabolic acidosis?",
             "options": [
-                "Lactic acidosis from sepsis",
-                "Diabetic ketoacidosis (DKA)",
+                "Lactic acidosis from sepsis or tissue hypoxia",
+                "Diabetic ketoacidosis (DKA) or starvation ketosis",
                 "Renal tubular acidosis (RTA) or severe diarrhea",
-                "Salicylate (aspirin) toxicity"
+                "Salicylate (aspirin) or methanol toxicity"
             ],
             "correctIndex": 2,
             "explanation": "Normal anion gap metabolic acidosis occurs due to bicarbonate loss or bicarbonate replacement by chloride (without accumulation of unmeasured anions). Causes include: renal tubular acidosis, GI bicarbonate loss from diarrhea/fistulas/ostomies, hyperchloremia from excess saline or PN, and Addison's disease. High anion gap metabolic acidosis is caused by accumulation of organic acids: lactic acid (sepsis), ketoacids (DKA), uremia, salicylates.",
@@ -10620,10 +10620,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Rapid rehydration of a patient with hypertonic (hypernatremic) dehydration carries which serious risk?",
             "options": [
-                "Metabolic alkalosis from rapid sodium replacement",
+                "Metabolic alkalosis from rapid sodium and bicarbonate replacement",
                 "Osmotic cerebral edema due to rapid water entry into brain cells",
-                "Hyperkalemia from rapid volume expansion",
-                "Pulmonary fibrosis from excess fluid administration"
+                "Hyperkalemia from rapid volume expansion and potassium shifts",
+                "Pulmonary fibrosis from excess intravenous fluid administration"
             ],
             "correctIndex": 1,
             "explanation": "In hypertonic dehydration, brain cells adapt to high serum osmolarity by producing idiogenic osmoles to maintain equilibrium. Rapid rehydration rapidly lowers serum osmolarity, causing water to flow into brain cells faster than they can adapt, resulting in osmotic cerebral edema (cerebral swelling). This is why hypernatremic dehydration must be corrected SLOWLY (≤0.5 mEq/L/hr sodium reduction) to prevent neurological injury.",
@@ -10810,7 +10810,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Lean",
                 "Six Sigma",
-                "Total Quality Management (TQM)",
+                "TQM",
                 "Kaizen"
             ],
             "correctIndex": 1,
@@ -10994,7 +10994,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Technical skills",
                 "Human/Interpersonal skills",
                 "Conceptual skills",
-                "Soft skills"
+                "Soft/emotional skills"
             ],
             "correctIndex": 2,
             "explanation": "Conceptual skills—the ability to visualize the organization as a whole and integrate its interests—are the most important skill at higher levels of management.",
@@ -11033,10 +11033,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which federal act, passed in 1935 and also known as the Wagner Act, is considered pro-labor and guarantees the right of employees to organize and engage in collective bargaining?",
             "options": [
-                "Taft-Hartley Act",
-                "Fair Labor Standards Act",
+                "Taft-Hartley Act (LMRA of 1947)",
+                "Fair Labor Standards Act (FLSA)",
                 "National Labor Relations Act (NLRA)",
-                "Landrum-Griffin Act"
+                "Landrum-Griffin Act (LMRDA of 1959)"
             ],
             "correctIndex": 2,
             "explanation": "The National Labor Relations Act (NLRA or Wagner Act) of 1935 protects employee rights to organize, join unions, and bargain collectively. It is considered pro-labor.",
@@ -11079,8 +11079,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Measure performance -> Establish standards -> Take remedial action -> Compare performance",
                 "Establish standards -> Measure performance -> Compare actual vs standard -> Take remedial action",
-                "Plan -> Organize -> Direct -> Control",
-                "Set goals -> Hire staff -> Evaluate -> Correct"
+                "Plan -> Organize -> Direct -> Control, applied in sequence to each department every year",
+                "Set goals -> Hire staff -> Evaluate -> Correct, repeated at each annual performance review"
             ],
             "correctIndex": 1,
             "explanation": "The 4 steps of controlling are: 1) Establish standards, 2) Measure performance, 3) Compare actual to standard, and 4) Take remedial/corrective actions.",
@@ -11119,9 +11119,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "In the context of labor unions, a 'Union Shop' refers to a situation where:",
             "options": [
-                "Only union members can be hired",
+                "Only current union members can be hired for any open position",
                 "Employees must join the union within a certain timeframe after hiring",
-                "Employees are not required to join but must pay dues",
+                "Employees are not required to join but must pay dues or fees to the union",
                 "Union membership is completely optional and no dues are required"
             ],
             "correctIndex": 1,
@@ -11142,7 +11142,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Food and Drug Administration (FDA)",
                 "Centers for Disease Control and Prevention (CDC)",
-                "The Joint Commission (TJC)",
+                "The Joint Commission (TJC), formerly JCAHO",
                 "Occupational Safety and Health Administration (OSHA)"
             ],
             "correctIndex": 2,
@@ -11161,10 +11161,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Value-based care models, like Accountable Care Organizations (ACOs), differ from traditional Fee-for-Service (FFS) models by tying provider reimbursements to:",
             "options": [
-                "The total number of patients seen",
+                "The total number of patients seen per month",
                 "The quantity of services and procedures performed",
                 "Quality metrics and reduced costs of care",
-                "The length of hospital stay only"
+                "The average length of hospital stay only"
             ],
             "correctIndex": 2,
             "explanation": "Value-based care incentivizes quality and efficiency, tying payments to quality metrics and cost reductions, whereas Fee-for-Service pays based on the volume (quantity) of services.",
@@ -11225,9 +11225,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The Fair Labor Standards Act (FLSA) of 1938 established all of the following EXCEPT:",
             "options": [
-                "Federal minimum wage",
-                "Overtime pay eligibility",
-                "Child labor standards",
+                "Federal minimum wage for workers",
+                "Overtime pay eligibility (40 hours)",
+                "Child labor standards for minors",
                 "The right to collective bargaining"
             ],
             "correctIndex": 3,
@@ -11246,10 +11246,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In a 'Right to Work' state (Open Shop), an employee:",
             "options": [
-                "Must join the union within 30 days of hiring to keep their job",
+                "Must join the union within 30 days of hiring to keep their job under the labor contract",
                 "Cannot be compelled to join a union or pay dues, but is still represented by the bargaining unit",
-                "Is not allowed to join a union at all under state law regulations",
-                "Must pay an agency fee if they choose not to become a full member"
+                "Is not allowed to join a union at all under state law regulations governing public employers",
+                "Must pay an agency fee if they choose not to become a full member of the bargaining unit"
             ],
             "correctIndex": 1,
             "explanation": "In an Open Shop ('Right to Work'), employees cannot be forced to join or pay dues, yet they are still part of the bargaining unit and covered by the contract.",
@@ -11288,7 +11288,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which organization accredits not just hospitals but also health plans and Patient-Centered Medical Homes (PCMH), using HEDIS data for benchmarking?",
             "options": [
-                "The Joint Commission",
+                "The Joint Commission (formerly JCAHO)",
                 "DNV GL Healthcare Accreditation Services",
                 "National Committee for Quality Assurance (NCQA)",
                 "Centers for Medicare and Medicaid Services (CMS)"
@@ -11309,10 +11309,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Recruitment focuses on locating potential applicants, whereas Selection focuses on:",
             "options": [
-                "Training and developing them for the specific job role",
+                "Training and developing them for the specific job role after they have accepted an offer",
                 "Comparing applicant qualifications to the job requirements and choosing the best fit",
-                "Orienting them to company policies and culture during onboarding",
-                "Setting their salary and negotiating benefits packages"
+                "Orienting them to company policies and culture during onboarding on their first day of work",
+                "Setting their salary and negotiating benefits packages before the formal offer is made"
             ],
             "correctIndex": 1,
             "explanation": "Selection is the specific process of comparing applicants (knowledge, skills, abilities) against the job requirements and choosing the most qualified one.",
@@ -11332,8 +11332,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Suspension -> Verbal Warning -> Written Warning -> Termination",
                 "Verbal Warning -> Written Warning -> Suspension -> Termination",
-                "Written Warning -> Verbal Warning -> Termination",
-                "Coaching -> Firing"
+                "Written Warning -> Verbal Warning -> Suspension -> Termination",
+                "Coaching -> Firing, skipping all written documentation"
             ],
             "correctIndex": 1,
             "explanation": "The standard progressive discipline steps are: 1) Verbal Warning (documented), 2) Written Warning, 3) Suspension, 4) Termination.",
@@ -11351,10 +11351,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "An 'Agency Shop' requires non-union employees to:",
             "options": [
-                "Join the union within 30 days",
-                "Pay full union dues including political contributions",
+                "Join the union within 30 days as a condition of continued employment",
+                "Pay full union dues including political contributions made by the union",
                 "Pay a service fee (fair share) to cover collective bargaining costs",
-                "Participate in strikes"
+                "Participate in strikes and other collective actions called by the union"
             ],
             "correctIndex": 2,
             "explanation": "In an Agency Shop, non-members must pay a fee to cover the costs of representation (bargaining, grievance handling) but don't have to join or pay for political activities.",
@@ -11478,9 +11478,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "The LEARN model for culturally competent communication stands for:",
             "options": [
                 "Listen, Explain, Acknowledge, Recommend, Negotiate",
-                "Learn, Engage, Ask, Review, Note",
-                "Listen, Evaluate, Assess, Review, Negotiate",
-                "Look, Explain, Ask, Respect, Nurture"
+                "Learn, Empathize, Advocate, Respect, Nurture",
+                "Listen, Evaluate, Assess, Recommend, Negotiate",
+                "Look, Explain, Advise, Reassure, Normalize"
             ],
             "correctIndex": 0,
             "explanation": "LEARN stands for: Listen to the patient's perception, Explain your perception, Acknowledge/discuss differences, Recommend treatment, Negotiate agreement.",
@@ -11540,10 +11540,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Market segmentation based on 'Psychographics' groups consumers according to:",
             "options": [
-                "Age, sex, annual income, and education level",
+                "Age, sex, annual income, education level, and occupation",
                 "Physical location and geographic region of residence",
                 "Personality, interests, values, and beliefs of the consumer",
-                "Purchase history and frequency of product usage"
+                "Purchase history and frequency of product usage or loyalty"
             ],
             "correctIndex": 2,
             "explanation": "Psychographic segmentation groups people based on psychological traits like lifestyle, personality, values, interests, and beliefs.",
@@ -11561,10 +11561,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which cultural competence model involves a 5-step process: Awareness, Knowledge, Skill, Encounter, and Desire?",
             "options": [
-                "Campinha-Bacote Model",
-                "Purnell Model",
-                "GREET Model",
-                "BATHE Model"
+                "Campinha-Bacote Model (process)",
+                "Purnell Model (12 domains)",
+                "GREET Model (counseling)",
+                "BATHE Model (interviewing)"
             ],
             "correctIndex": 0,
             "explanation": "The Campinha-Bacote Model describes the process of cultural competence as involving Cultural Awareness, Knowledge, Skill, Encounter, and Desire.",
@@ -11582,10 +11582,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In a systems approach, 'Feedback' encompasses:",
             "options": [
-                "Only complaints and negative comments received directly from dissatisfied customers",
+                "Only complaints and negative comments received directly from dissatisfied customers and staff",
                 "Information from internal and external sources used to adjust operations and restore equilibrium",
-                "The finished products and services delivered at the end of the production cycle",
-                "The initial resources invested including capital, labor, and materials"
+                "The finished products and services delivered at the end of the production cycle to customers",
+                "The initial resources invested including capital, labor, materials, and time"
             ],
             "correctIndex": 1,
             "explanation": "Feedback is information on how operations worked or failed, from internal (staff) or external (customers, inspectors) sources, used to modify the system.",
@@ -11626,8 +11626,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Pediatric patients",
                 "Immigrant populations",
-                "Elderly patients in long-term care",
-                "Athletes"
+                "Elderly nursing home residents",
+                "Collegiate athletes"
             ],
             "correctIndex": 1,
             "explanation": "The GREET model (Generation, Reason, Extended family, Ethnic behavior, Time in US) is designed to help understand immigrant populations.",
@@ -11646,9 +11646,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Permeability of boundaries in a system refers to:",
             "options": [
                 "The system being completely closed off from the external environment",
-                "The strict separation of departments with no communication flow",
+                "The strict separation of departments with no communication flow between them",
                 "The ability of the system to interact with its environment and other subsystems",
-                "A major security breach occurring in the organization's network"
+                "A major security breach occurring in the organization's computer network"
             ],
             "correctIndex": 2,
             "explanation": "Permeability allows the system to interact with its environment. However, undefined or too permeable boundaries can lead to tension/overlap between subsystems.",
@@ -11771,10 +11771,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "The Purnell Model of Cultural Competency is often visualized as:",
             "options": [
-                "A rigid ladder of steps that must be climbed sequentially",
+                "A rigid ladder of steps that must be climbed sequentially over time",
                 "A hierarchical pyramid of needs similar to Maslow's hierarchy",
                 "Concentric circles of global society, community, family, and person",
-                "A complex flow chart of decision making pathways"
+                "A complex flow chart of decision making pathways for providers"
             ],
             "correctIndex": 2,
             "explanation": "The Purnell Model represents cultural competence through concentric circles representing global society, community, family, and the person.",
@@ -11792,10 +11792,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Strategic planning typically involves analyzing the organization in the context of:",
             "options": [
-                "Internal staff conflicts only",
+                "Internal staff conflicts only (personnel issues)",
                 "Its environment (opportunities and threats)",
-                "Last month's sales data only",
-                "The daily menu cycle"
+                "Last month's sales data only (short-term results)",
+                "The daily menu cycle (production schedule)"
             ],
             "correctIndex": 1,
             "explanation": "Strategic planning involves environmental analysis (like SWOT) to understand opportunities and threats outside the organization as well as internal strengths/weaknesses.",
@@ -11836,8 +11836,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Focusing strictly on maximizing bottom-line profits at the expense of other metrics",
                 "Treating employees as 'internal customers' and involving all employees in continuous improvement",
-                "Relying solely on top-level management to dictate operational changes",
-                "Prioritizing high quantity production output over product quality standards"
+                "Relying solely on top-level management to dictate operational changes and quality standards",
+                "Prioritizing high quantity production output over product quality standards and customer feedback"
             ],
             "correctIndex": 1,
             "explanation": "TQM is a culture driven by customer satisfaction that involves all employees (and treats them as internal customers) in continuous improvement.",
@@ -11855,10 +11855,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "In the context of Lean Six Sigma, what does 'Muda' refer to?",
             "options": [
-                "Inconsistency in business operations",
-                "Overburdening of people or equipment",
+                "Inconsistency (unevenness) in business operations",
+                "Overburdening of people or equipment in a process",
                 "Waste, or any activity that does not add value",
-                "The workplace where value is created"
+                "The actual workplace where value is created"
             ],
             "correctIndex": 2,
             "explanation": "Muda is the Japanese word for waste (non-value added activity). The 3M model includes Muda (waste), Mura (inconsistency), and Muri (overburden).",
@@ -11876,10 +11876,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A Pareto Chart is used to:",
             "options": [
-                "Schedule tasks and determine the critical path",
+                "Schedule tasks and determine the critical path for completing a project on time",
                 "Identify the 'vital few' problems that cause the majority of effects (80/20 rule)",
-                "Brainstorm root causes of a problem",
-                "Analyze the flow of materials in a kitchen"
+                "Brainstorm root causes of a problem using categories such as methods, materials and manpower",
+                "Analyze the flow of materials in a kitchen from receiving through production and service"
             ],
             "correctIndex": 1,
             "explanation": "A Pareto Chart (bar graph + line graph) helps identify the most frequent or costly problems, often illustrating that 80% of effects come from 20% of causes.",
@@ -11897,10 +11897,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In a PERT chart, the 'Critical Path' represents:",
             "options": [
-                "The shortest overall time required by the team to complete the project",
+                "The shortest overall time required by the team to complete the project, assuming no delays",
                 "The longest path by duration, determining the minimum time needed to complete the project",
-                "The least expensive path that minimizes the total budget of the project",
-                "The path with the fewest number of individual tasks regardless of time"
+                "The least expensive path that minimizes the total budget of the project across all tasks",
+                "The path with the fewest number of individual tasks and dependencies regardless of time"
             ],
             "correctIndex": 1,
             "explanation": "The Critical Path is the longest overlapping sequence of tasks, which determines the minimum total time required to complete the project. Any delay on this path delays the whole project.",
@@ -11960,10 +11960,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Fishbone Diagram' (Ishikawa diagram) is primarily used for:",
             "options": [
-                "Calculating the cost of a project",
-                "Scheduling employee shifts",
+                "Calculating the cost of a project across each of its phases",
+                "Scheduling employee shifts to match forecast meal volumes",
                 "Cause and effect analysis to identify root causes of a problem",
-                "Nutritional analysis of a menu"
+                "Nutritional analysis of a menu to compare items against standards"
             ],
             "correctIndex": 2,
             "explanation": "Fishbone/Ishikawa diagrams are used for cause-and-effect analysis, categorizing factors that contribute to a specific problem.",
@@ -11981,10 +11981,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "The Delphi Method of planning involves:",
             "options": [
-                "Face-to-face brainstorming sessions with all participants in one room",
-                "Voting on ideas in a group meeting after open discussion",
+                "Face-to-face brainstorming sessions with all participants together in one room",
+                "Voting on ideas in a group meeting after open discussion among members",
                 "Reaching consensus through rounds of anonymous questionnaires sent to experts",
-                "A manager affecting change unilaterally without consulting the team"
+                "A manager affecting change unilaterally without consulting the team or experts"
             ],
             "correctIndex": 2,
             "explanation": "The Delphi Method uses anonymous questionnaires sent to experts in multiple rounds to reach a consensus without the bias of group dynamics.",
@@ -12002,10 +12002,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Quality Assurance (QA) differs from Continuous Quality Improvement (CQI) in that QA typically:",
             "options": [
-                "Is proactive and focuses on processes to improve future outcomes",
+                "Is proactive and focuses on processes to improve future patient outcomes",
                 "Measures compliance against established standards (defensive/reactive)",
                 "Involves the whole team in finding solutions to complex problems",
-                "Is patient-centered and focuses on individual care plans"
+                "Is patient-centered and focuses on individual care plans and goals"
             ],
             "correctIndex": 1,
             "explanation": "QA is often reactive ('did we meet the standard?'), focusing on outliers and individual compliance. CQI is proactive, continuous, and systems-focused.",
@@ -12023,10 +12023,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "In Lean Six Sigma, 'Muri' refers to:",
             "options": [
-                "Waste in any form that consumes resources but adds no value",
+                "Waste in any form that consumes resources but adds no value for the customer",
                 "Overburden or unreasonableness (e.g., stressed staff, machinery pushed too hard)",
-                "Unevenness or inconsistency in production scheduling or workload",
-                "Continuous improvement of processes to eliminate all defects"
+                "Unevenness or inconsistency in production scheduling or workload (e.g., peaks, lulls)",
+                "Continuous improvement of processes to eliminate all defects (e.g., Kaizen events)"
             ],
             "correctIndex": 1,
             "explanation": "Muri refers to overburdening people or equipment (e.g., staff burnout, machine breakdown). Mura is unevenness. Muda is waste.",
@@ -12065,10 +12065,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Delbecq’s Nominal Group Technique produces a consensus by:",
             "options": [
-                "Open free-for-all brainstorming where everyone shouts out ideas",
+                "Open free-for-all brainstorming where everyone shouts out ideas and the group debates them",
                 "Structuring small-group discussion where members write ideas silently first, then share/vote",
-                "Using anonymous surveys mailed to experts in different locations",
-                "Following the loudest person in the room regardless of idea quality"
+                "Using anonymous surveys mailed to experts in different locations over several rounds",
+                "Following the loudest or most senior person in the room regardless of idea quality"
             ],
             "correctIndex": 1,
             "explanation": "The Nominal Group Technique structures the process: silent generation of ideas, round-robin recording, discussion, and then voting (ranking) to reach consensus.",
@@ -12087,9 +12087,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "The RUMBA model for goal setting/management stands for:",
             "options": [
                 "Realistic, Understandable, Measurable, Believable, Achievable",
-                "Relevant, Useful, Meaningful, Basic, Actual",
-                "Rapid, Urgent, Managed, Balanced, Actionable",
-                "Ready, Understand, Map, Build, Act"
+                "Rational, Unambiguous, Monitored, Budget-neutral, Affordable",
+                "Reasonable, Unhurried, Manageable, Benchmarked, Actionable",
+                "Recordable, Updatable, Mappable, Benchmarked, Accountable"
             ],
             "correctIndex": 0,
             "explanation": "RUMBA stands for Reasonable (or Realistic), Understandable, Measurable, Believable, Achievable.",
@@ -12107,10 +12107,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Kaizen is a Japanese philosophy that essentially means:",
             "options": [
-                "Reduce cost at all costs",
+                "Reduce cost at all costs (Cost Leadership)",
                 "Change for the better (Continuous Improvement)",
-                "Respect for authority",
-                "Manufacturing excellence"
+                "Respect for authority (Hierarchical Order)",
+                "Manufacturing excellence (Zero Defects)"
             ],
             "correctIndex": 1,
             "explanation": "Kaizen translates to 'Change (Kai) for the better (Zen)', or Continuous Improvement involving everyone.",
@@ -12149,10 +12149,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In the 'FOCUS' part of FOCUS-PDSA, the 'F' stands for:",
             "options": [
-                "Fix the problem",
+                "Fix the problem quickly",
                 "Find a process to improve",
-                "Figure out the cost",
-                "Finalize the plan"
+                "Figure out the total cost",
+                "Finalize the action plan"
             ],
             "correctIndex": 1,
             "explanation": "FOCUS: Find a process to improve, Organize a team, Clarify current knowledge, Understand methodology, Select a solution.",
@@ -12170,10 +12170,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 'Charrette' in planning refers to:",
             "options": [
-                "A rigorous financial audit process conducted by external accountants",
+                "A rigorous financial audit process conducted by external accountants before approving a master plan",
                 "A collaborative planning session harnessing talents of all interested parties for a master plan",
-                "A standard type of financial statement reporting company assets",
-                "A formal conflict resolution technique for settling disputes"
+                "A standard type of financial statement reporting company assets and liabilities to the board",
+                "A formal conflict resolution technique for settling disputes between planners and contractors"
             ],
             "correctIndex": 1,
             "explanation": "A Charrette is an intensive, collaborative planning session (often for design or community planning) that harnesses the talents of all stakeholders.",
@@ -12233,8 +12233,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A manager who believes that employees inherently dislike work and must be coerced or controlled to perform is operating under which motivational theory?",
             "options": [
-                "Theory Y",
-                "Theory X",
+                "McGregor's Theory Y",
+                "McGregor's Theory X",
                 "Ouchi's Theory Z",
                 "Herzberg's Two-Factor Theory"
             ],
@@ -12254,9 +12254,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which leadership style is most appropriate for a team with low readiness (unable and unwilling/insecure) according to Hersey-Blanchard's Situational Leadership Model?",
             "options": [
-                "Delegating",
-                "Participating",
-                "Selling",
+                "Delegating (Entrusting)",
+                "Participating (Supporting)",
+                "Selling (Coaching)",
                 "Telling (Directing)"
             ],
             "correctIndex": 3,
@@ -12296,10 +12296,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'bona fide occupational qualification' (BFOQ) allows employers to:",
             "options": [
-                "Hire employees based partially or fully on their race or color characteristics",
+                "Hire employees based partially or fully on their race or color characteristics when customers of the business prefer a certain background",
                 "Discriminate based on age or religion if reasonably necessary to the normal operation of that particular business",
-                "Pay women less than men for performing the exact same work responsibilities",
-                "Avoid paying overtime to employees who work more than 40 hours per week"
+                "Pay women less than men for performing the exact same work responsibilities in certain industries",
+                "Avoid paying overtime to employees who work more than 40 hours per week in seasonal operations"
             ],
             "correctIndex": 1,
             "explanation": "A BFOQ is a quality or attribute that employers are allowed to consider when making decisions on the hiring and retention of employees—a quality that when considered in other contexts would constitute discrimination (e.g., hiring only female actors for a female role). Race is never a BFOQ.",
@@ -12381,9 +12381,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "The 'Scalar Principle' in organization theory refers to:",
             "options": [
                 "A clear and unbroken line of authority from the top to the bottom of the organization",
-                "Dividing work into highly specialized and repetitive tasks",
-                "Limiting the number of subordinates a manager can effectively supervise",
-                "Grouping employees by specific function or department"
+                "Dividing work into highly specialized and repetitive tasks for each employee",
+                "Limiting the number of subordinates a manager can effectively supervise at once",
+                "Grouping employees by specific function or department within the organization"
             ],
             "correctIndex": 0,
             "explanation": "The Scalar Principle states that authority and responsibility flow in a clear, unbroken line from the highest to the lowest executive.",
@@ -12422,10 +12422,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In decision making, 'Satisficing' refers to:",
             "options": [
-                "Selecting the absolute best optimal solution",
+                "Selecting the absolute best optimal solution after comparing every available alternative",
                 "Selecting the first alternative that meets the minimum criteria or is 'good enough'",
-                "Using a group consensus to decide",
-                "Delaying the decision until more data is available"
+                "Using a group consensus to decide, with every member agreeing to the final choice",
+                "Delaying the decision until more data is available to eliminate all uncertainty"
             ],
             "correctIndex": 1,
             "explanation": "Satisficing means choosing an adequate solution that meets minimum requirements rather than spending time searching for the optimal solution.",
@@ -12464,10 +12464,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which leadership style involves the leader asking for input from the team but making the final decision themselves?",
             "options": [
-                "Autocratic",
-                "Laissez-faire",
+                "Autocratic (Authoritarian)",
+                "Laissez-faire (Delegative)",
                 "Participative (Consultative)",
-                "Bureaucratic"
+                "Bureaucratic (Rule-based)"
             ],
             "correctIndex": 2,
             "explanation": "Participative or Consultative leadership involves seeking input from employees before making a decision, though the leader retains final authority.",
@@ -12485,10 +12485,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "The 'Family and Medical Leave Act' (FMLA) guarantees eligible employees:",
             "options": [
-                "12 weeks of fully paid leave per year for any personal reason",
+                "12 weeks of fully paid leave per year for any personal reason, including vacation",
                 "12 weeks of unpaid, job-protected leave per year for specific family/medical reasons",
-                "Unlimited paid sick days for all employees regardless of tenure",
-                "6 months of paid maternity leave following the birth of a child"
+                "Unlimited paid sick days for all employees regardless of tenure or company size",
+                "6 months of paid maternity leave following the birth or adoption of a child"
             ],
             "correctIndex": 1,
             "explanation": "FMLA provides up to 12 workweeks of unpaid, job-protected leave a year and requires group health benefits to be maintained during the leave.",
@@ -12506,10 +12506,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "LEED certification (Leadership in Energy and Environmental Design) relates to:",
             "options": [
-                "Food safety standards",
+                "Food safety standards and inspections",
                 "Green building design and operation",
-                "Employee wellness programs",
-                "Organic food certification"
+                "Employee wellness programs and benefits",
+                "Organic food certification for suppliers"
             ],
             "correctIndex": 1,
             "explanation": "LEED is the most widely used green building rating system in the world, certifying buildings that are resource-efficient and healthy.",
@@ -12527,10 +12527,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which management skill is defined as the ability to work effectively as a group member and build cooperative effort within the team?",
             "options": [
-                "Technical skill",
+                "Technical/Procedural skill",
                 "Human/Interpersonal skill",
-                "Conceptual skill",
-                "Hard skill"
+                "Conceptual/Analytical skill",
+                "Hard/Task-specific skill"
             ],
             "correctIndex": 1,
             "explanation": "Human (or interpersonal) skill is the ability to work well with others, understand them, and motivate them, both individually and in groups.",
@@ -12550,8 +12550,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Use the previous year's budget as a baseline and adjust for inflation",
                 "Justify every expense from scratch for each new period, starting at zero",
-                "Have zero variation from the budget",
-                "Spend the entire budget by the end of the year"
+                "Have zero variation from the approved budget at the end of each fiscal quarter",
+                "Spend the entire budget by the end of the year to protect next year's allocation"
             ],
             "correctIndex": 1,
             "explanation": "Zero-Based Budgeting starts from a base of zero, and every function within an organization is analyzed for its needs and costs; no previous budget is used as a baseline.",
@@ -12591,9 +12591,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A 'Loss Leader' pricing strategy involves:",
             "options": [
                 "Selling a product at a loss to attract customers who will buy other profitable items",
-                "Setting prices higher than competitors to create a perception of luxury",
-                "Giving away free samples to introduce customers to new products",
-                "Reducing staff to cut costs and increase overall profit margins"
+                "Setting prices higher than competitors to create a perception of luxury and quality",
+                "Giving away free samples to introduce customers to new products on the menu",
+                "Reducing staff to cut labor costs and increase overall profit margins on each item"
             ],
             "correctIndex": 0,
             "explanation": "A Loss Leader is a product sold at a price below its market cost to stimulate other sales of more profitable goods or services.",
@@ -12613,8 +12613,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "The total length of the supply chain from manufacturer to consumer",
                 "The number of subordinates a manager can efficiently and effectively direct",
-                "The size of the budget allocated to a specific department",
-                "The physical size of the kitchen layout and equipment"
+                "The size of the budget allocated to a specific department each fiscal year",
+                "The physical size of the kitchen layout and equipment a manager oversees"
             ],
             "correctIndex": 1,
             "explanation": "Span of Control is the number of subordinates that a manager or supervisor can directly control. A narrow span means few subordinates; a wide span means many.",
@@ -12674,10 +12674,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "'Source Reduction' in waste management involves:",
             "options": [
-                "Sorting recyclables into separate bins for collection",
+                "Sorting recyclables into separate bins for collection (e.g., glass, cans)",
                 "Reducing the amount of waste generated at its source (e.g., minimal packaging)",
-                "Burning waste material in large incinerators for energy recovery",
-                "Sending mixed waste directly to a sanitary landfill for disposal"
+                "Burning waste material in large incinerators for energy recovery (e.g., steam)",
+                "Sending mixed waste directly to a sanitary landfill for disposal and burial"
             ],
             "correctIndex": 1,
             "explanation": "Source Reduction (waste prevention) is the most preferred method of waste management, involving designing products and processes to reduce the volume or toxicity of waste generated.",
@@ -12695,10 +12695,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Net Profit is calculated by:",
             "options": [
-                "Sales - Cost of Goods Sold",
-                "Gross Profit - Labor Costs",
+                "Sales - Cost of Goods Sold (before expenses)",
+                "Gross Profit - Labor Costs (before overhead)",
                 "Sales - (Cost of Goods Sold + All Expenses)",
-                "Assets - Liabilities"
+                "Assets - Liabilities (total owner's equity)"
             ],
             "correctIndex": 2,
             "explanation": "Net Profit is the actual profit after working expenses not included in the calculation of gross profit have been paid (Total Sales - Total Expenses).",
@@ -12737,10 +12737,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A clinical nutrition manager identifies that the dietetic technicians (NDTRs) are frequently making errors when conducting malnutrition screenings. The manager decides to implement a training program based on the ADDIE model. What is the very first step the manager must take according to this model?",
             "options": [
-                "Select the specific screening tool the NDTRs will be tested on (Design).",
+                "Select the specific screening tool and competency checklist the NDTRs will be tested on (Design).",
                 "Observe the NDTRs on the floor to gather data on exactly where and why the errors are occurring (Analyze).",
-                "Draft a pilot training module and run it with a small focus group (Develop).",
-                "Implement a mandatory 1-hour in-service presentation for all staff (Implement)."
+                "Draft a pilot training module with case studies and run it with a small focus group (Develop).",
+                "Implement a mandatory 1-hour in-service presentation on screening for all clinical staff (Implement)."
             ],
             "correctIndex": 1,
             "explanation": "ADDIE stands for: Analyze, Design, Develop, Implement, Evaluate. Before designing any training program, the absolute first step is 'Analysis'. The manager must perform a needs assessment to observe the employees, gather data on their current performance versus desired performance, and pinpoint exactly where the knowledge/skill gaps lie. Only after understanding the *why* (Analysis) can the manager begin outlining learning objectives (Design) and building materials (Develop)."
@@ -12753,9 +12753,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A foodservice director at a large hospital empowers the tray-line supervisors to directly handle minor scheduling conflicts and immediately issue meal replacements to upset patients without seeking upper-level approval. Which management theory does this action primarily reflect?",
             "options": [
-                "Scientific Management Theory (Taylor)",
-                "Bureaucratic Management Theory (Weber)",
-                "Human Relations Theory (Mayo/Hawthorne)",
+                "Scientific Management Theory (Frederick Taylor)",
+                "Bureaucratic Management Theory (Max Weber)",
+                "Human Relations Theory (Elton Mayo/Hawthorne)",
                 "Participative/Decentralized Management Theory"
             ],
             "correctIndex": 3,
@@ -12785,7 +12785,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "During an interview for a clinical dietitian position, which of the following questions is strictly illegal for the hiring manager to ask the applicant under the Civil Rights Act and EEOC guidelines?",
             "options": [
-                "Are you legally authorized to work in the United States?",
+                "Are you legally authorized to work in the United States for any employer without sponsorship?",
                 "Can you fulfill the job requirement, with or without reasonable accommodation, of lifting 20-pound boxes of enteral formula?",
                 "We often require weekend coverage. Do your religious practices prevent you from working on Saturdays?",
                 "Have you ever been convicted of a felony that directly relates to the responsibilities of this position?"
@@ -12801,10 +12801,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "In Herzberg's Two-Factor Theory of motivation, factors are divided into 'Motivators' and 'Hygiene factors'. A hospital administration decides to give all dietitians an across-the-board 5% salary increase to boost morale. According to Herzberg, what will be the likely effect on staff motivation?",
             "options": [
-                "Job satisfaction will massively increase because financial reward is the ultimate Motivator.",
+                "Job satisfaction will massively and permanently increase because financial reward is the ultimate Motivator in the model.",
                 "It will prevent job dissatisfaction, but it will not actively motivate the dietitians to work harder or feel more fulfilled.",
-                "It will create lasting intrinsic motivation by fulfilling the 'Self-Actualization' requirement.",
-                "It will decrease motivation because the raise was uniform rather than merit-based."
+                "It will create lasting intrinsic motivation by fulfilling the 'Self-Actualization' requirement at the top of the hierarchy.",
+                "It will decrease motivation and satisfaction because the raise was uniform across all staff rather than merit-based."
             ],
             "correctIndex": 1,
             "explanation": "Herzberg's Two-Factor Theory posits that 'Hygiene Factors' (salary, working conditions, job security, company policies) and 'Motivators' (achievement, recognition, responsibility, advancement) operate independently. Improving a Hygiene Factor (like giving a baseline salary raise) only eliminates *dissatisfaction*. It stops people from quitting/complaining. However, simply paying someone fairly does not intrinsically motivate them to excel. True 'Motivation' producing deeply satisfied, highly engaged workers comes only from the Motivator factors (giving them more clinical responsibility, recognizing their achievements)."
@@ -12817,10 +12817,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A specialized eating disorder clinic aims a new advertising campaign exclusively at college-aged females participating in Division 1 athletics. This marketing strategy is an example of identifying a specific:",
             "options": [
-                "Market niche",
+                "Market niche defined by product features and price",
                 "Target market using demographic and psychographic segmentation",
-                "Marketing mix (The 4 Ps)",
-                "Strategic business unit"
+                "Marketing mix (The 4 Ps) adjusted for a single audience",
+                "Strategic business unit serving one athletic customer group"
             ],
             "correctIndex": 1,
             "explanation": "This strategy relies heavily on Market Segmentation (dividing a broad market into subsets). Specifically, aiming at 'college-aged females' utilizes Demographic segmentation, and targeting 'Division 1 athletes' touches on Psychographic/behavioral segmentation. The resulting group is the clinic's defining 'Target Market'. A niche is typically an even narrower, obscure segment. The Marketing Mix refers to the broad execution elements (Product, Price, Place, Promotion)."
@@ -12833,10 +12833,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A new piece of automated dishwashing equipment costs $45,000 to purchase and install. The manufacturer estimates it has a usable lifespan of 10 years, and its final salvage value will be $5,000. Using the straight-line depreciation method, what will the depreciated value of the equipment be recorded as on the balance sheet at the end of Year 3?",
             "options": [
-                "It will be recorded as a $4,000 yearly expense.",
+                "It will be recorded as a $4,000 yearly expense, leaving a book value of $41,000.",
                 "It will have an accumulated depreciation of $12,000, leaving a book value of $33,000.",
-                "It will drop to $15,000 total value.",
-                "It will be fully amortized by Year 3."
+                "It will drop to $15,000 total value after three years of straight-line depreciation.",
+                "It will be fully amortized by Year 3, leaving only its $5,000 salvage value on the books."
             ],
             "correctIndex": 1,
             "explanation": "Straight-line depreciation formula: (Cost of Asset - Salvage Value) / Useful Life = Annual Depreciation Expense. \n($45,000 - $5,000) = $40,000 depreciable base.\n$40,000 / 10 years = $4,000 depreciation expense *per year*.\nAt the end of Year 3, the accumulated depreciation is 3 years × $4,000 = $12,000. \nThe 'book value' shown on the balance sheet is the original cost minus accumulated depreciation: ($45,000 - $12,000) = $33,000."
@@ -12849,9 +12849,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the following describes a sentinel event according to the Joint Commission (TJC), requiring a mandatory root cause analysis and immediate reporting?",
             "options": [
-                "A patient's tray is delivered 45 minutes late, missing their scheduled insulin window.",
-                "A patient complains that their pureed carrots are cold and refuses to eat them.",
-                "An NDTR accidentally spills hot coffee on a patient, resulting in severe second-degree burns.",
+                "A patient's tray is delivered 45 minutes late, missing their scheduled insulin window, and a nurse must give a correction dose of insulin to treat hyperglycemia.",
+                "A patient complains that their pureed carrots are cold and refuses to eat them, and later files a formal written grievance with the hospital patient advocate.",
+                "An NDTR accidentally spills hot coffee on a patient, resulting in severe second-degree burns, and completes an incident report before the end of the shift.",
                 "A patient with a known, documented, and highlighted peanut allergy goes into anaphylactic shock and dies after mistakenly receiving a cookie containing peanut butter."
             ],
             "correctIndex": 3,
@@ -12913,7 +12913,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which financial document provides a static snapshot of an organization's financial condition at a specific point in time, detailing its assets, liabilities, and equity?",
             "options": [
-                "Income statement (Profit and Loss)",
+                "Income statement (P&L)",
                 "Cash flow statement",
                 "Balance sheet",
                 "Operating budget"
@@ -12929,10 +12929,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A clinical nutrition manager conducts a retrospective chart review to assess if 90% of newly admitted patients with high nutrition risk were assessed by an RD within 24 hours. The results show only 75% adherence. Using the continuous quality improvement (CQI) model PDCA (Plan-Do-Check-Act), what is the next logical step?",
             "options": [
-                "Act: Punish staff who failed to meet the 24-hour deadline.",
+                "Act: Punish staff who failed to meet the 24-hour deadline and document it in their performance reviews.",
                 "Plan: Investigate the root causes of the delay and develop a new strategy to improve assessment times.",
                 "Do: Immediately change the deadline from 24 hours to 48 hours to ensure 100% compliance.",
-                "Check: Audit the charts again next month before taking any actions."
+                "Check: Audit the charts again next month before taking any actions, keeping the current process unchanged."
             ],
             "correctIndex": 1,
             "explanation": "In the PDCA cycle, the manager has completed the 'Check' phase by auditing the data and comparing it against the benchmark (90% desired vs 75% actual). The next logical loop begins with 'Plan': investigating why the goal was not met (e.g., staffing issues, faulty notification systems) and developing a plan to address those root causes. Action must be based on data and process improvement, not punitive measures (a core tenet of TQM/CQI). Lowering standards to meet compliance defeats the purpose of quality improvement."
@@ -12977,10 +12977,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The Joint Commission (TJC) requires hospitals to adhere to National Patient Safety Goals. When a dietitian enters patient room to provide dietary education, what is the required protocol for identifying the patient?",
             "options": [
-                "Check the patient's room number and bed letter.",
-                "Ask the patient if they are \"Mr. Smith.\"",
+                "Check the patient's room number and bed letter posted at the door.",
+                "Ask the patient, \"Are you Mr. Smith?\" and proceed once they say yes.",
                 "Use at least two patient identifiers, such as name and date of birth.",
-                "Verify the dietary tray ticket matches the medical record."
+                "Verify the dietary tray ticket matches the medical record on the unit."
             ],
             "correctIndex": 2,
             "explanation": "The Joint Commission strictly requires the use of at least two independent patient identifiers whenever administering medications, blood products, or providing treatments/procedures (including diet instruction). Acceptable identifiers usually include the patient's full name and date of birth or medical record number. Room number or bed assignment is explicitly prohibited as an identifier because patients can be moved. Prompting a patient with a name ('Are you Mr. Smith?') is dangerous if patients are confused or hard of hearing."
@@ -12993,10 +12993,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A clinical nutrition team implements a new malnutrition screening tool to improve diagnostic rates. To evaluate whether the new tool leads to sustained improvements, the manager uses a run chart graphing malnutrition diagnosis rates over 12 months. This approach to quality management aligns most closely with which philosophy?",
             "options": [
-                "Six Sigma",
+                "Six Sigma (DMAIC methodology)",
                 "Total Quality Management (TQM)",
                 "Management by Objectives (MBO)",
-                "Lean Production"
+                "Lean Production (waste removal)"
             ],
             "correctIndex": 1,
             "explanation": "Total Quality Management (TQM) and Continuous Quality Improvement (CQI) focus on continuous evaluation of processes and data-driven analysis using statistical tools like run charts, control charts, and Pareto charts over time to monitor and improve systems. Six Sigma focuses specifically on extreme reduction of defects (using the DMAIC framework). Lean focuses heavily on eliminating structural waste. MBO is a performance appraisal system setting supervisor/employee goals, not statistically tracking system processes."
@@ -13157,10 +13157,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A hospital foodservice department uses the conventional production system. Which of the following is a characteristic disadvantage of this system?",
             "options": [
-                "Food must be reheated twice before service",
+                "Food must be chilled and reheated twice before service",
                 "Labor workload is uneven with peaks around meal times",
                 "Food is produced in a central kitchen and shipped to satellite locations",
-                "It requires pre-prepared food from external vendors"
+                "It requires pre-prepared food from external vendors and suppliers"
             ],
             "correctIndex": 1,
             "explanation": "Conventional (cook-to-serve) systems produce food immediately before service in the same facility, resulting in uneven labor workload with peaks during meal preparation times. Ready-prepared systems (cook-chill/cook-freeze) double-heat food. Commissary uses a central kitchen. Assembly/serve uses pre-prepared food from vendors.",
@@ -13198,7 +13198,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "When purchasing, a formal competitive bidding process that requires sealed bids for large contracts is called:",
             "options": [
                 "Request for Proposal (RFP)",
-                "Informal bidding",
+                "Informal (telephone) bidding",
                 "Prime vendor agreement",
                 "Group purchasing organization (GPO)"
             ],
@@ -13217,8 +13217,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A food distributor who does NOT take title or possess inventory, but acts as a middleman earning a commission is called a:",
             "options": [
-                "Wholesaler",
-                "Broker",
+                "Wholesaler/distributor",
+                "Independent food broker",
                 "Manufacturer's representative",
                 "Group purchasing agent"
             ],
@@ -13259,7 +13259,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Title to goods transfers from supplier to buyer at the point of origin (shipping dock). This shipping term is:",
             "options": [
                 "FOB Destination",
-                "CIF (Cost, Insurance, Freight)",
+                "Cost, insurance, freight",
                 "FOB Origin",
                 "Prime vendor agreement"
             ],
@@ -13339,10 +13339,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In a commercial warewashing operation, a high-temperature dishwasher differs from a low-temperature dishwasher in that the high-temperature model:",
             "options": [
-                "Requires chemical sanitizing agents in the rinse cycle",
+                "Requires chemical sanitizing agents such as chlorine in the final rinse cycle",
                 "Uses a final rinse temperature of 180°F and does not require chemical sanitizers",
-                "Is more economical because it uses less water and energy",
-                "Is the best choice for under-counter residential operations"
+                "Is more economical because it uses less water and energy per rack of dishes",
+                "Is the best choice for small under-counter residential operations and bars"
             ],
             "correctIndex": 1,
             "explanation": "High-temperature warewashers use a final rinse temperature of 180°F which sanitizes through heat alone — no chemical sanitizing agents are needed. Low-temperature washers use cooler water and require chemical sanitizers (chlorine or quats) in the rinse cycle. High-temp machines use more energy but eliminate chemical costs.",
@@ -13502,10 +13502,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A foodservice manager is choosing between chemical sanitizers. Which sanitizer is non-irritating, non-corrosive, effective across a wide temperature range, but should NOT be used with hard water or heavy soil, and reacts dangerously with detergent residue?",
             "options": [
-                "Chlorine",
+                "Chlorine (hypochlorite solution)",
                 "Quaternary ammonium (quats)",
-                "Iodine (iodophors)",
-                "Sodium hypochlorite"
+                "Iodine (iodophors in solution)",
+                "Sodium hypochlorite (bleach)"
             ],
             "correctIndex": 1,
             "explanation": "Quaternary ammonium compounds (quats) are non-irritating, non-corrosive, and stable across a wide temperature and pH range. However, quats should not be used with hard water or heavy soil loads, and if detergent residue remains on dishes, quats will react with it to form dangerous gases — making thorough rinsing critical. Chlorine is corrosive to metal and affected by pH, temp, and soil. Iodophors evaporate above 120°F and stain plastics.",
@@ -13522,7 +13522,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which chemical sanitizer is effective against protozoans and bacteria but evaporates above 120°F, is affected by basic pH, and may stain plastic equipment yellow-brown?",
             "options": [
-                "Chlorine",
+                "Chlorine (bleach)",
                 "Quaternary ammonium (quats)",
                 "Iodine (iodophors)",
                 "Sodium carbonate"
@@ -13603,7 +13603,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "easy",
             "text": "Which organization investigates workplace accidents and injuries in foodservice and other industries?",
             "options": [
-                "Joint Commission",
+                "TJC",
                 "OSHA",
                 "EPA",
                 "CDC"
@@ -13643,10 +13643,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In a foodservice operation, which activity is the HIGHEST energy consumer?",
             "options": [
-                "HVAC",
-                "Sanitation",
+                "HVAC (heating and cooling)",
+                "Sanitation (dish machines)",
                 "Food preparation (cooking)",
-                "Refrigeration"
+                "Refrigeration (walk-ins)"
             ],
             "correctIndex": 2,
             "explanation": "Food preparation (cooking) is the highest energy consumer in foodservice operations. In order of energy consumption: Food preparation > HVAC > Sanitation > Lighting > Refrigeration. This highlights the importance of energy-efficient cooking equipment, proper equipment selection, and smart cooking practices for sustainability initiatives.",
@@ -13788,8 +13788,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which management skill is MOST important at higher levels of management?",
             "options": [
-                "Technical skill — knowledge to perform specific tasks",
-                "Human/interpersonal skill — communication and relationship management",
+                "Technical skill — knowledge and proficiency to perform specific job tasks",
+                "Human/interpersonal skill — communication and relationship management with staff",
                 "Conceptual skill — ability to integrate activities and interests of the organization",
                 "Administrative skill — ability to document and report performance metrics"
             ],
@@ -13811,8 +13811,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "On a new employee's first day of work, when should performance objectives be given?",
             "options": [
                 "At the end of the 90-day probationary period",
-                "During the first formal performance review (typically at 6 months)",
-                "On the day they are hired",
+                "At the first formal review (about 6 months)",
+                "On the day they are hired, as part of orientation",
                 "After completing all initial training modules"
             ],
             "correctIndex": 2,
@@ -13898,10 +13898,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which labor law (1) created the National Labor Relations Board, (2) guarantees private-sector workers the right to unionize and engage in collective bargaining, and (3) permits states to pass right-to-work laws?",
             "options": [
-                "Taft-Hartley Act (1947)",
-                "Landrum-Griffin Act (1959)",
+                "Labor Management Relations Act / Taft-Hartley Act (1947)",
+                "Labor-Management Reporting Act / Landrum-Griffin Act (1959)",
                 "National Labor Relations Act / Wagner Act (1935)",
-                "Fair Labor Standards Act (1938)"
+                "Fair Labor Standards Act / Wage and Hour Law (1938)"
             ],
             "correctIndex": 2,
             "explanation": "The National Labor Relations Act (NLRA / Wagner Act, 1935): Created the NLRB; guarantees private-sector employees the right to organize, join unions, engage in collective bargaining, and strike; protects the right TO join AND NOT to join a union; requires unions to provide 'duty of fair representation'; permits states to pass right-to-work laws governing public sector unions. Pro-LABOR. Taft-Hartley (1947): outlawed closed shops, added unfair labor practices for unions — Pro-MANAGEMENT. Landrum-Griffin (1959): imposed code of conduct on unions to address corruption.",
@@ -13964,10 +13964,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The Taft-Hartley Act (Labor Management Relations Act, 1947) is considered 'pro-management' because it:",
             "options": [
-                "Created the National Labor Relations Board to protect workers",
-                "Established the federal minimum wage and overtime standards",
+                "Created the National Labor Relations Board to protect workers and unions",
+                "Established the federal minimum wage and overtime standards for employees",
                 "Outlawed closed shops and added a list of unfair labor practices by UNIONS",
-                "Protected union members from unions misusing pension funds"
+                "Protected union members from unions misusing pension and welfare funds"
             ],
             "correctIndex": 2,
             "explanation": "Taft-Hartley Act (1947) is pro-MANAGEMENT: outlawed closed shops; permitted union shops in certain scenarios; added 'unfair labor practices' on the part of UNIONS (not employers) to the NLRA; allowed the US president to stop national strikes for up to 80 days; addressed union issues like restraining employee rights, charging excessive fees, and refusing to bargain in good faith. Landrum-Griffin (1959) — protected union members from unions misusing dues/pension funds (anti-corruption). Wagner Act (1935) — created NLRB (pro-labor).",
@@ -13989,7 +13989,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Transformational leadership",
                 "Transactional leadership",
                 "Contingency/situational leadership",
-                "Servant leadership"
+                "Servant style leadership"
             ],
             "correctIndex": 1,
             "explanation": "Transactional leadership: focus on supervision, organization, and performance; goal is to MAINTAIN THE STATUS QUO; motivates through rewards and punishments (short-term); effective in a crisis and when projects have very specific parameters. Transformational leadership: connects to employees' sense of identity and mission; goal is to CHANGE THE FUTURE; acts as positive role model; effective in smaller organizations. Contingency/situational: changes leadership approach with the situation; used when tasks and environment vary. Transformational = change; Transactional = status quo maintenance.",
@@ -14073,8 +14073,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The Joint Commission (TJC) is a hospital accrediting organization. How often does TJC conduct on-site surveys of hospitals?",
             "options": [
-                "Annually",
-                "Every 2 years",
+                "Annually with quarterly self-assessments",
+                "Every 2 years with annual self-assessments",
                 "Every 3 years with annual self-assessments",
                 "Every 5 years with biannual self-assessments"
             ],
@@ -14095,10 +14095,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Accountable Care Organizations (ACOs) are an example of which payment model?",
             "options": [
-                "Fee-for-service (volume-based) care",
+                "Traditional fee-for-service (volume-based) care",
                 "Alternative Payment Model (APM) / value-based care",
                 "Bundled payment for individual episodes only",
-                "Medicare Advantage supplemental coverage"
+                "Medicare Advantage (Part C) supplemental coverage"
             ],
             "correctIndex": 1,
             "explanation": "ACOs are groups of healthcare professionals/hospitals who voluntarily coordinate care for Medicare patients — an Alternative Payment Model (APM). APMs are 'alternative' to traditional fee-for-service (FFS) care. FFS incentivizes MORE procedures/services regardless of quality. Value-based care ties reimbursements to quality metrics and reduced costs. The ACA created the Center for Medicare and Medicaid Innovation (CMMI) to develop APMs. During COVID-19, providers using APMs were better able to manage financial volatility than FFS providers. ACOs aim to prevent errors and avoid unnecessary duplication.",
@@ -14118,10 +14118,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "easy",
             "text": "Which of the following correctly defines the difference between 'effective' and 'efficient' management?",
             "options": [
-                "Effective = getting the most output from least input; Efficient = producing intended results",
+                "Effective = getting the most output from least input; Efficient = producing intended results (doing the right things)",
                 "Effective = producing intended results (doing things well); Efficient = getting the most output from least input",
-                "Effective = suitable for the purpose; Efficient = good value for money/time spent",
-                "Effective = completing tasks quickly; Efficient = completing tasks accurately"
+                "Effective = suitable for the purpose intended; Efficient = good value for the money/time spent on it",
+                "Effective = completing tasks quickly and on schedule; Efficient = completing tasks accurately without errors"
             ],
             "correctIndex": 1,
             "explanation": "The 4 E's of management: (1) Efficient: getting the MOST OUTPUT from the LEAST INPUT; (2) Effective: doing things well, PRODUCING INTENDED RESULTS; (3) Economical: good VALUE for money/time/effort spent ('thrifty'); (4) Expedient: suitable for a purpose given the circumstance. Efficient ≠ effective: you can efficiently do the wrong thing (fast + wrong = ineffective). The goal is to be BOTH efficient AND effective. Controlling ensures effective AND efficient utilization of organizational resources.",
@@ -14185,10 +14185,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A job posting lists required qualifications, education, and skills for a clinical nutrition manager position. This document is a:",
             "options": [
-                "Job description — outlines tasks, duties, and responsibilities",
+                "Job description — outlines tasks, duties, and responsibilities performed daily in the role",
                 "Job specification — outlines desired qualifications, skills, and abilities of the ideal candidate",
-                "Performance standard — outlines minimum acceptable performance benchmarks",
-                "Position analysis — outlines compensation and benefits for the position"
+                "Performance standard — outlines minimum acceptable performance benchmarks for each job duty",
+                "Position analysis — outlines compensation, benefits, and pay grade offered for the position"
             ],
             "correctIndex": 1,
             "explanation": "Job description: lists job title, TASKS, DUTIES, ROLES, and RESPONSIBILITIES — what the candidate will DO if hired. Job specification: lists desired QUALIFICATIONS, SKILLS, and ABILITIES needed to perform the job — characterizes the IDEAL CANDIDATE. Both are required for every job, regardless of level. Distinction: description = what the job IS; specification = who the ideal person IS. On the exam: if asked about a document listing 'required education, certifications, and experience,' that's a job specification.",
@@ -14207,10 +14207,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Collective bargaining results in a document that outlines terms of employment for all union members. What is this document called?",
             "options": [
-                "Grievance procedure",
+                "Grievance procedure (formal complaint)",
                 "Collective bargaining agreement (CBA)",
-                "Union charter",
-                "Arbitration ruling"
+                "Union charter (organizing document)",
+                "Arbitration ruling (binding decision)"
             ],
             "correctIndex": 1,
             "explanation": "Collective bargaining: negotiation between employer representatives (HR) and union representatives on behalf of all union members — 'collective' because the union bargains FOR all members. The result is a Collective Bargaining Agreement (CBA): outlines terms of employment for bargaining unit members; enforced by the union via grievance procedures and arbitration. Management CANNOT change working conditions without negotiating with union representatives. At-will employment (no CBA): employer can fire/adjust conditions at nearly any time for nearly any reason. CBA positions require 'just cause' for termination.",
@@ -14229,10 +14229,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "An employee with exceptional skills finds their job tasks too demanding and stressful. As their manager, which approach BEST addresses this situation?",
             "options": [
-                "Rewrite the job description to match their current capabilities",
-                "Reiterate performance standards to remind them of expectations",
+                "Rewrite the job description to match their current capabilities and lower all expectations",
+                "Reiterate performance standards to remind them of expectations during a formal HR meeting",
                 "Simplify tasks, lessen workload, and reduce time pressure while maintaining positive dialogue",
-                "Provide additional staff and equipment resources without empowering the employee"
+                "Provide additional staff and equipment resources without empowering or consulting the employee"
             ],
             "correctIndex": 2,
             "explanation": "When an employee finds tasks too demanding, the manager should EMPOWER and MOTIVATE by: simplifying tasks, lessening workload, reducing time pressure, maintaining a positive attitude, and having constructive conversation. Rewriting the job description to match their current limitations would lower standards and not help the employee grow. Reiterating performance standards without addressing the workload issue does not reduce job demands. Additional resources (equipment, staff) do not empower the employee themselves — empowerment means helping them develop their own capacity. The goal is to help the employee improve performance.",
@@ -14252,7 +14252,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which decision-making technique involves balancing the cost of waiting in line against the cost of expanding facilities to prevent long queues?",
             "options": [
                 "Game theory",
-                "Simulation",
+                "Simulation modeling",
                 "Queuing theory",
                 "Artificial intelligence"
             ],
@@ -14273,9 +14273,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The Civil Rights Act of 1964 Title VII prohibits employment discrimination based on which protected characteristics?",
             "options": [
-                "Race, color, and national origin only",
+                "Race, color, creed, and national origin only",
                 "Race, color, religion, sex, and national origin",
-                "Race, age, disability, sex, and pregnancy",
+                "Race, age, disability, sex, pregnancy, and veteran status",
                 "Race, color, religion, sex, national origin, age, and disability"
             ],
             "correctIndex": 1,
@@ -14295,10 +14295,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A manager's leadership style changes depending on the needs of each situation — hands-on with new employees and hands-off with experienced ones. Which leadership theory does this exemplify?",
             "options": [
-                "Transactional leadership",
-                "Transformational leadership",
+                "Transactional (exchange) leadership",
+                "Transformational/Visionary leadership",
                 "Contingency/Situational leadership",
-                "Scientific management"
+                "Scientific management (Taylor)"
             ],
             "correctIndex": 2,
             "explanation": "Contingency/Situational leadership: changes the leadership approach depending on the situation; used when tasks and environment vary; recognizes that organizations are open systems requiring flexible management. The HBL (Hersey-Blanchard-Johnson) model is the primary situational leadership model tested on the RDN exam — it matches leadership style (Telling/Selling/Participating/Delegating) to follower maturity (M1-M4). A single leader's style may change based on the situation, the task, and the specific employee. Transactional = status quo; Transformational = change future.",
@@ -14339,10 +14339,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A hospital's accreditation by The Joint Commission means it has also achieved which status with CMS?",
             "options": [
-                "NCQA certification for health plan quality",
+                "NCQA certification for health plan quality (accredited to meet managed care performance measures)",
                 "CMS certification (deemed to meet federal regulatory standards for Medicare/Medicaid reimbursement)",
-                "ISO 9001 certification for continuous quality improvement",
-                "State health department licensure for facility operation"
+                "ISO 9001 certification for continuous quality improvement (international quality management standard)",
+                "State health department licensure for facility operation (automatically granted with accreditation)"
             ],
             "correctIndex": 1,
             "explanation": "If a hospital is accredited by an organization with DEEMING AUTHORITY (like TJC or DNVGL), it is automatically DEEMED to meet CMS Conditions of Participation (CoPs) and is thus CMS-certified — eligible for Medicare/Medicaid reimbursement. However, a hospital does NOT need accreditation to be CMS-certified — it can be certified directly through CMS state agency surveys. Why pay for accreditation? Time is money: without accreditation, hospitals must wait for an unannounced CMS survey and are ineligible for reimbursement during that wait. TJC has had deeming authority since 1966.",
@@ -14362,7 +14362,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A mediator is brought in to help resolve a labor dispute between hospital management and the nurses' union. How does mediation differ from arbitration?",
             "options": [
-                "Mediators have binding authority; arbitrators do not",
+                "Mediators have binding authority to dictate terms; arbitrators do not",
                 "Arbitrators have the power to dictate settlement terms; mediators do not",
                 "Mediation is only for union disputes; arbitration applies to all employment contracts",
                 "Arbitration requires both parties' agreement; mediation can be imposed unilaterally"
@@ -14384,8 +14384,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "easy",
             "text": "According to Maslow's Hierarchy of Needs, which level must be satisfied BEFORE an employee can be motivated by esteem needs?",
             "options": [
-                "Self-actualization",
-                "Esteem and belonging/love needs",
+                "Self-actualization (growth needs), THEN physiological and safety needs",
+                "Esteem and belonging/love needs (social needs), THEN safety and physiological needs",
                 "Physiological and safety needs (basic/deficiency needs), THEN belonging/love needs",
                 "Esteem needs can be pursued simultaneously with physiological needs"
             ],
@@ -14428,9 +14428,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which management theory uses key tools including decentralization, delegation, participative management, and employee self-evaluations?",
             "options": [
-                "Theory X — tight controls ensure compliance",
+                "Theory X — tight controls and close supervision ensure compliance",
                 "Theory Y — employees seek responsibility and exercise self-control",
-                "Theory Z — extensive training builds loyalty",
+                "Theory Z — extensive training and job rotation builds loyalty and commitment",
                 "Scientific management — 'one right way' optimizes efficiency"
             ],
             "correctIndex": 1,
@@ -14450,8 +14450,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which management theory is characterized by stable employment, high employee loyalty, slow promotions, group decision-making, and a focus on employee well-being inside AND outside of work?",
             "options": [
-                "McGregor's Theory X",
-                "McGregor's Theory Y",
+                "McGregor's Theory X (authoritarian control)",
+                "McGregor's Theory Y (participative management)",
                 "Theory Z of Ouchi (Japanese management)",
                 "Scientific management (Taylorism)"
             ],
@@ -14472,10 +14472,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the following correctly identifies the 5 functional subsystems of the foodservice system?",
             "options": [
-                "Planning, Organizing, Staffing, Directing, Controlling",
+                "Planning, Organizing, Staffing and Coordinating, Directing, Controlling",
                 "Procurement, Production, Distribution and Service, Sanitation, Maintenance",
-                "Inputs, Transformation, Outputs, Feedback, Environment",
-                "Finance, Human Resources, Marketing, Operations, Quality"
+                "Inputs, Transformation, Outputs, Feedback and Control, External Environment",
+                "Finance and Accounting, Human Resources, Marketing, Operations, Quality"
             ],
             "correctIndex": 1,
             "explanation": "The 5 FUNCTIONAL SUBSYSTEMS of the foodservice system are: (1) Procurement, (2) Production, (3) Distribution and Service, (4) Sanitation, (5) Maintenance. These are classified by FUNCTION, not by management role. Storage is NOT a functional subsystem (common distractor). The 5 management functions (POSDC) are a separate concept — planning, organizing, staffing, directing, controlling. Systems theory uses inputs → transformation → outputs (with feedback and environment). These are related but distinct concepts.",
@@ -14538,10 +14538,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In which type of organizational structure does each employee report to only ONE superior, authority flows strictly top-to-bottom, and this is considered the simplest, most traditional form?",
             "options": [
-                "Functional organization",
-                "Line and staff organization",
+                "Functional organization (grouped by specialty)",
+                "Line and staff organization (advisory roles)",
                 "Line organization (scalar/unity of command)",
-                "Matrix organization"
+                "Matrix organization (dual reporting lines)"
             ],
             "correctIndex": 2,
             "explanation": "Line organization encompasses 3 related principles: (1) Unity of Command — each employee is accountable to ONLY ONE superior; (2) Scalar Principle — each employee reports directly to their immediate supervisor only (chain of command); (3) Line Authority — multiple employees report to a single administrator. In line organization: authority flows DOWN (top to bottom); responsibility flows UP (bottom to top). Advantages: fixed responsibility, quick decision-making, clearly defined levels of authority. It is the simplest and most traditional form, but present even in complex organizations. Functional organization: units divided by function (HR, finance, foodservice).",
@@ -14626,9 +14626,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Delegation gives an employee responsibility for a task AND the authority to alter procedures to achieve the desired outcome. Which HBL maturity level is NOT appropriate for delegation?",
             "options": [
-                "M4 — able and willing",
-                "M3 — able but unwilling",
-                "M2 — unable but willing",
+                "M4 — able and willing, with a proven record",
+                "M3 — able but unwilling or lacking confidence",
+                "M2 — unable but willing to take on the task",
                 "Both M1 and M2 are not appropriate for delegation"
             ],
             "correctIndex": 3,
@@ -14693,10 +14693,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the following most accurately distinguishes 'authority,' 'responsibility,' and 'accountability' in the context of delegation?",
             "options": [
-                "Authority = obligation to perform; Responsibility = power to decide; Accountability = ability to perform",
+                "Authority = obligation to perform; Responsibility = power to decide; Accountability = ability to perform the task",
                 "Authority = power to make decisions; Responsibility = obligation to perform; Accountability = being answerable for results",
-                "Authority = chain of command; Responsibility = span of control; Accountability = scope of authority",
-                "All three are synonymous and used interchangeably in management literature"
+                "Authority = position in the chain of command; Responsibility = span of control; Accountability = scope of authority",
+                "All three terms are synonymous and used interchangeably in management literature when discussing delegation"
             ],
             "correctIndex": 1,
             "explanation": "Delegation requires understanding 4 key terms: (1) Authority: POWER to make decisions (e.g., power to delegate); flows from upper to lower levels; (2) Capability: mental/physical ABILITY to perform a task; (3) Responsibility: OBLIGATION to perform an assigned activity — both manager AND employee share responsibility after delegation; (4) Accountability: being responsible/answerable to an organization or manager — both manager and employee are accountable, but the employee reports back to the manager against performance standards. Delegation transfers responsibility and authority to the employee while the manager retains ultimate accountability.",
@@ -14781,10 +14781,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Strategic planning asks 4 key questions. Which of the following is NOT one of them?",
             "options": [
-                "Where are we now?",
-                "Where are we going?",
+                "Where are we now? (situation analysis)",
+                "Where are we going? (vision and goals)",
                 "Who is responsible for each objective?",
-                "Are we on track?"
+                "Are we on track? (monitoring and evaluation)"
             ],
             "correctIndex": 2,
             "explanation": "Strategic planning is a continuous and systematic management process to determine long-term goals, the best approach to accomplish them, and how success will be measured. The 4 key questions are: (1) Where are we now? (2) Where are we going? (3) How do we get there? (4) Are we on track? Key features: continuous, systematic, future-thinking, creates a plan to accomplish outcomes, analyzes the organization in context of its environment, determines success criteria, and evaluates progress. Strategic planning is NOT used in evaluation — it is used to INFORM policies and operational decisions. 'Who is responsible' relates to organizing, not strategic planning.",
@@ -14825,9 +14825,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A hospital cafeteria markets its new 'Heart Healthy' menu to employees aged 40–65 in white-collar professional roles. This marketing strategy uses which type of market segmentation?",
             "options": [
-                "Geographic segmentation — based on physical location",
-                "Psychographic segmentation — based on personality and interests",
-                "Behavioristic segmentation — based on consumer behaviors",
+                "Geographic segmentation — based on physical location, such as region or neighborhood",
+                "Psychographic segmentation — based on personality, lifestyle, and interests",
+                "Behavioristic segmentation — based on consumer behaviors such as purchase frequency",
                 "Demographic segmentation — based on age, occupation, and related characteristics"
             ],
             "correctIndex": 3,
@@ -14914,10 +14914,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which best describes the difference between cultural COMPETENCE and cultural HUMILITY?",
             "options": [
-                "Cultural competence is an ongoing process; cultural humility implies an endpoint of being 'competent'",
+                "Cultural competence is an ongoing process; cultural humility implies an endpoint of being 'competent' once training has been completed, documented and verified",
                 "Cultural humility requires awareness of historic legacies and ongoing self-reflection; cultural competence is an organizational policy set with potential for stereotyping",
-                "Cultural sensitivity and cultural humility are synonymous terms",
-                "Cultural competence is for individual providers; cultural humility is an organizational framework"
+                "Cultural sensitivity and cultural humility are synonymous terms that both describe awareness of differences, so either can be used in organizational policy",
+                "Cultural competence is for individual providers; cultural humility is an organizational framework adopted through policy and required staff training programs"
             ],
             "correctIndex": 1,
             "explanation": "Cultural humility: ability to maintain an 'other-oriented' interpersonal stance; requires awareness of historic realities (violence, oppression) AND self-awareness of one's own beliefs; no implied endpoint. Cultural competence: congruent attitudes, behaviors, and policies implemented by organizations; shortcomings include: centering 'whiteness' as the norm, implying an endpoint of being 'competent,' and potential for stereotyping by applying group knowledge to an individual. Cultural sensitivity: awareness of similarities and differences between cultures (more basic than humility or competence). Dominant force in how a patient views healthcare = individual experience. Social hierarchy, race, ethnicity = secondary drivers.",
@@ -14958,9 +14958,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A quality improvement team uses the FOCUS model to identify a patient meal delivery problem. In the 'F' step (Find the problem), which tools are specifically mentioned to help select the most important problem?",
             "options": [
-                "PERT chart and Gantt chart",
+                "PERT chart and Gantt chart for project scheduling",
                 "Pareto chart and Cause-and-Effect (Fishbone) diagram",
-                "PDSA cycle and DMAIC framework",
+                "PDSA cycle and DMAIC framework for testing changes",
                 "Delphi method and nominal group technique"
             ],
             "correctIndex": 1,
@@ -15002,10 +15002,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which statement BEST distinguishes Quality Assurance (QA) from Quality Improvement (QI)?",
             "options": [
-                "QA focuses on continuous system improvement; QI focuses on individual compliance with standards",
+                "QA focuses on continuous system improvement; QI focuses on individual compliance with standards and disciplinary follow-up of individual staff members",
                 "QA measures compliance against standards (individual-focused, defensive); QI is a continuous proactive process focused on systems and processes",
-                "QA and QI are synonymous — both focus on preventing problems through system analysis",
-                "QI is reactive and corrective; QA is proactive and preventative"
+                "QA and QI are synonymous — both focus on preventing problems through system analysis, and the terms are used interchangeably in accreditation",
+                "QI is reactive and corrective; QA is proactive and preventative, focusing on redesigning systems before errors ever reach patients"
             ],
             "correctIndex": 1,
             "explanation": "Quality Assurance (QA): measures COMPLIANCE against established standards; typically focuses on INDIVIDUALS; DEFENSIVE and reactive; outcomes-focused; checks if standards are being met. Quality Improvement (QI): CONTINUOUS improvement process focused on SYSTEMS and PROCESSES; PROACTIVE and PREVENTATIVE; patient-care focused; seeks to improve the overall process, not just identify non-compliance. IOM Framework for Health Care Quality (6 domains): Safe, Effective, Patient-Centered, Timely, Efficient, Equitable. TQM is customer-focused, continuous, and involves ALL employees — more aligned with QI than QA. QI occurs during planning AND controlling functions.",
@@ -15027,8 +15027,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Total Quality Management (TQM) — customer-focused, 8 key aspects",
                 "KAIZEN — Japanese word for 'continuous improvement,' involves all employees",
-                "FADE model — Focus, Analyze, Develop, Execute",
-                "Six Sigma — DMAIC framework using statistical analyses"
+                "FADE model — Focus, Analyze, Develop, Execute; led by a quality team",
+                "Six Sigma — DMAIC framework using statistical analyses by trained belts"
             ],
             "correctIndex": 1,
             "explanation": "KAIZEN (introduced by Masaaki Imai, 1986): Japanese word for 'continuous improvement' ('Kai' = change; 'Zen' = for the better). KEY DIFFERENTIATOR: involves ALL employees — not just management dictating changes to workers. 5 Principles: (1) Know your customer; (2) Let it flow (eliminate waste); (3) Go to Gemba (workplace — observe where work actually happens); (4) Empower people; (5) Be transparent (real data). 4 Pillars of Kaizen Change Model: Daily, Breakthrough, Leaders, Support. 'Gemba' = workplace — managers should observe where laborers actually work. TQM also emphasizes all employees but does NOT have the 'go to gemba' principle or the same Japanese philosophy origin.",
@@ -15090,10 +15090,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A project manager draws a diagram with boxes (nodes) connected by arrows showing task sequences and writes time estimates along each line to identify the longest path through the project. This is a:",
             "options": [
-                "Pareto chart — shows frequency of complaints in descending order",
-                "Fishbone diagram — identifies root causes of a problem",
+                "Pareto chart — shows frequency of complaints or defects in descending order",
+                "Fishbone diagram — identifies root causes of a problem by category",
                 "PERT chart — Program Evaluation and Review Technique for project planning",
-                "Gantt chart — horizontal bar chart showing task schedule over time"
+                "Gantt chart — horizontal bar chart showing each task schedule over time"
             ],
             "correctIndex": 2,
             "explanation": "PERT chart (Program Evaluation Review Technique): used to schedule, organize, and coordinate tasks. Construction: (1) tasks written in nodes (boxes); (2) directional arrows show sequential dependencies; (3) time estimates written on each line; (4) CRITICAL PATH ANALYSIS = bolded line showing the LONGEST path by duration (determines project timeline). Uses: forward planning (estimate project duration) OR backward planning (work back from hard deadline). Helps evaluate labor/time/material resources needed. Limitation: time estimates are just estimates — works best when tasks are well-understood. If research needed to fill in chart isn't offset by benefit, another tool may be better.",
@@ -15114,8 +15114,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Muda = inconsistencies causing production fluctuations; Mura = waste/non-value activities; Muri = dissatisfaction/unused resources",
                 "Muda = waste (non-value-adding activities); Mura = inconsistencies causing production fluctuations; Muri = dissatisfaction/unused resources",
-                "Muda = continuous improvement; Mura = gemba (workplace); Muri = customer value",
-                "Muda = defects only; Mura = waiting time only; Muri = overproduction only"
+                "Muda = continuous improvement; Mura = gemba (workplace); Muri = customer value delivered through each step of the value stream",
+                "Muda = defects only; Mura = waiting time only; Muri = overproduction only, as the three wastes defined in the Toyota Production System"
             ],
             "correctIndex": 1,
             "explanation": "Lean 3M model: Muda = Japanese for WASTE — any activity that does NOT add value; 8 types = DOWNTIME (Defects, Overproduction, Waiting, Non-utilized talents, Transportation, Inventory, Motion, Extra processing). Mura = INCONSISTENCIES in business operations causing production fluctuations and suboptimal resource utilization (uneven workloads, inventory accumulation). Muri = DISSATISFACTION/UNUSED RESOURCES — customers waiting, ovens not utilized, stressed staff; Muri leads to Muda. Lean + Six Sigma = Lean Six Sigma: Lean first makes workplace efficient (using Kaizen, 5S), then Six Sigma's DMAIC (Define, Measure, Analyze, Improve, Control) addresses remaining root causes statistically.",
@@ -15180,10 +15180,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The Delphi method and Delbecq's nominal group technique are both planning processes. Which statement CORRECTLY distinguishes them?",
             "options": [
-                "Delphi uses face-to-face group discussion; nominal group technique uses anonymous questionnaires",
+                "Delphi uses face-to-face group discussion; nominal group technique uses anonymous questionnaires mailed to a panel of experts over several iterative rounds",
                 "Delphi uses anonymous individual questionnaires with iterative statistical tallying; nominal group technique uses structured small-group discussion with voting",
-                "Both require all participants to be in the same room simultaneously",
-                "Nominal group technique is for expert consensus; Delphi is for community planning"
+                "Both require all participants to be in the same room simultaneously, with a facilitator recording and ranking ideas aloud before a final group vote is taken",
+                "Nominal group technique is for expert consensus among geographically dispersed specialists; Delphi is for community planning in public meetings"
             ],
             "correctIndex": 1,
             "explanation": "Delphi method: group of EXPERTS contacted INDIVIDUALLY and ANONYMOUSLY via questionnaires; responses statistically tallied → summary sent back with another questionnaire; goal = reduce range of responses and reach consensus. Works well when experts are geographically dispersed. Nominal group technique (Delbecq): structured SMALL-GROUP DISCUSSION; moderator presents question; each person writes ideas SEPARATELY; each shares their idea; moderator records all on board; group discusses, revises, then VOTES on the best idea. Charrette: collaborative planning process involving all interested parties, resulting in a master plan for community change. None of the three require anonymous questionnaires in a face-to-face setting simultaneously.",
@@ -15226,8 +15226,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Fine dining restaurant with a daily changing menu (du jour)",
                 "Long-term care facility or hospital with a stable captive audience",
-                "Wedding catering event with a single-use menu plan",
-                "Airport kiosk with a limited static menu selection"
+                "Wedding catering event with a single-use menu plan for one day",
+                "Airport kiosk with a limited static menu selection of snacks"
             ],
             "correctIndex": 1,
             "explanation": "Cycle menus (repeating menus over a period like 3-4 weeks) are best for onsite foodservice where the same customers are fed daily (hospitals, schools, LTC) to ensure variety while controlling costs.",
@@ -15287,10 +15287,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The first step in the formal procurement process is:",
             "options": [
-                "Evaluate bids",
-                "Award the contract",
+                "Evaluate bids from approved vendors",
+                "Award the contract to a supplier",
                 "Develop written specifications",
-                "Contact vendors"
+                "Contact vendors for price quotes"
             ],
             "correctIndex": 2,
             "explanation": "The procurement process begins with developing written specifications to clearly define the product quality and requirements before contacting sources.",
@@ -15329,10 +15329,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 'Just-in-Time' (JIT) purchasing system is characterized by:",
             "options": [
-                "Ordering large quantities to get bulk discounts and store for months",
+                "Ordering large quantities to get bulk discounts and store for months in central warehouses",
                 "Purchasing products for immediate production and consumption without storing them in inventory",
-                "Always keeping a 3-month supply of safety stock on hand",
-                "Using a centralized warehouse to distribute goods to multiple units"
+                "Always keeping a 3-month supply of safety stock on hand to avoid any possible stockouts",
+                "Using a centralized warehouse to distribute goods to multiple units on a fixed weekly schedule"
             ],
             "correctIndex": 1,
             "explanation": "JIT purchasing involves buying items only as they are needed for production, reducing inventory holding costs and storage space requirements.",
@@ -15413,10 +15413,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The 'ABC' inventory classification system groups items based on:",
             "options": [
-                "Alphabetical order of the product names",
-                "Nutritional value and caloric density",
+                "Alphabetical order of the product names on the shelf",
+                "Nutritional value and caloric density of each item",
                 "Relative importance (value of total inventory activity)",
-                "Storage temperature requirements (frozen vs dry)"
+                "Storage temperature requirements (frozen, refrigerated, dry)"
             ],
             "correctIndex": 2,
             "explanation": "The ABC system classifies inventory by value: 'A' items are high-value (15-20% of items, 75-80% of value), 'B' are medium, and 'C' are low-value (like napkins/sugar packets).",
@@ -15455,10 +15455,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "In a 'Prime Vendor' agreement:",
             "options": [
-                "The buyer purchases 100% of their needs from the most expensive vendor available in the market",
+                "The buyer purchases 100% of their needs from the most expensive vendor available in the market to guarantee top quality",
                 "The buyer agrees to purchase the majority (e.g., 90-95%) of their products from a single vendor in exchange for lower prices",
-                "The vendor is the only supplier in the region capable of delivering products",
-                "Purchases are made exclusively through a government agency regardless of price"
+                "The vendor is the only supplier in the region capable of delivering products, so the buyer has no competing bids",
+                "Purchases are made exclusively through a government agency regardless of price, using a negotiated state contract"
             ],
             "correctIndex": 1,
             "explanation": "A Prime Vendor agreement involves a formal commitment to buy the vast majority of goods from a single distributor to secure volume discounts and streamline ordering.",
@@ -15539,10 +15539,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Can Cutting' is used to:",
             "options": [
-                "Open cans quickly during high-volume meal service periods",
+                "Open cans quickly with an electric opener during high-volume meal service periods",
                 "Evaluate quality, drained weight, and appearance of products from different vendors",
-                "Recycle metal cans to comply with environmental regulations",
-                "Reduce can storage space requirements in the dry storage area"
+                "Recycle metal cans by cutting them flat to comply with environmental regulations",
+                "Reduce can storage space requirements in the dry storage area and walk-in"
             ],
             "correctIndex": 1,
             "explanation": "Can cutting is a physical evaluation process where products from different vendors are opened and compared for quality, taste, texture, and yield before purchasing decisions are made.",
@@ -15581,10 +15581,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "The Economic Order Quantity (EOQ) model attempts to minimize which two costs?",
             "options": [
-                "Food costs and labor costs",
+                "Food costs and labor costs per meal served",
                 "Ordering costs and inventory holding costs",
-                "Shipping costs and taxes",
-                "production costs and waste"
+                "Shipping costs and taxes on each delivery",
+                "production costs and waste from spoilage"
             ],
             "correctIndex": 1,
             "explanation": "EOQ balances ordering costs (processed per order) and holding costs (cost of storing inventory) to determine the optimal order size.",
@@ -15602,10 +15602,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Truth-in-Menu laws require accurate description of:",
             "options": [
-                "Only the price of the item to ensure transparency for the customer",
-                "The exact caloric content and detailed nutritional information only",
+                "Only the price of the item to ensure transparency for the customer at the point of sale",
+                "The exact caloric content and detailed nutritional information only, per standard portion",
                 "Quantity, Quality (grade), Price, Brand names, Product identification, and Points of origin",
-                "The name of the supplier and the date the food item was delivered"
+                "The name of the supplier and the date the food item was delivered to the kitchen"
             ],
             "correctIndex": 2,
             "explanation": "Truth-in-Menu legislation requires that menus accurately describe foods regarding quantity (size), quality (grade), price, brand names, product ID (e.g., 'Maine' lobster), and preservation method.",
@@ -15686,10 +15686,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The 'Assembly-Serve' (Total Convenience) system differs from others in that:",
             "options": [
-                "All cooking is done from scratch using raw ingredients in the kitchen on the same day as service",
+                "All cooking is done from scratch using raw ingredients in the kitchen on the same day as service to customers",
                 "No on-site food production (cooking) takes place; fully prepared foods are purchased, stored, assembled, heated, and served",
-                "Food is prepared days in advance and held in inventory before service using a blast chiller",
-                "It requires the most skilled labor and highly trained chefs on site to manage complex recipes"
+                "Food is prepared on site days in advance and held in inventory before service using a blast chiller or tumble chiller",
+                "It requires the most skilled labor and highly trained chefs on site to manage complex recipes from scratch"
             ],
             "correctIndex": 1,
             "explanation": "Assembly-Serve systems purchase fully prepared foods (frozen, sous-vide, etc.) requiring only storage, assembly, heating, and service. 'Kitchenless kitchen'.",
@@ -15707,10 +15707,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Decentralized' delivery system is most appropriate when:",
             "options": [
-                "All patients are located in one central dining room close to the kitchen for immediate service",
+                "All patients are located in one central dining room close to the kitchen for immediate plated service by the cooks",
                 "The distance from the kitchen to the patient is great, requiring food to be transported in bulk and assembled near the patient",
-                "Food safety is not a primary concern during the distribution process, focusing purely on speed of delivery",
-                "The menu is simple and does not require temperature control, allowing for ambient transport"
+                "Food safety is not a primary concern during the distribution process, focusing purely on speed of delivery to the units",
+                "The menu is simple and does not require temperature control, allowing for ambient transport in open carts to all units"
             ],
             "correctIndex": 1,
             "explanation": "Decentralized delivery involves transporting food in bulk to ward pantries or galleys where trays are assembled, ensuring better temperature control over long distances.",
@@ -15728,10 +15728,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "The primary advantage of a 'Commissary' foodservice system is:",
             "options": [
-                "High food safety risks and critical control points during transport",
+                "High food safety risks and critical control points during transport between the central kitchen and units",
                 "Centralized large-volume purchasing and production, leading to economies of scale and uniform quality",
-                "Reduced need for specialized transportation equipment and delivery trucks",
-                "Lower initial capital investment compared to conventional systems"
+                "Reduced need for specialized transportation equipment and delivery trucks between the facilities",
+                "Lower initial capital investment compared to conventional systems at each satellite location"
             ],
             "correctIndex": 1,
             "explanation": "Commissary systems benefit from economies of scale in bulk purchasing and efficient large-scale production, ensuring consistency across all satellite units.",
@@ -15749,10 +15749,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which type of service allows customers to move from station to station (e.g., salad, hot food, dessert) with no specific traffic pattern?",
             "options": [
-                "Straight line cafeteria with a single serving line",
+                "Straight line cafeteria with a single serving line in sequence",
                 "Hollow square / Free-flow / Scramble system allowing random access",
-                "Vending machine area with automated service",
-                "Counter service where staff serve customers directly"
+                "Vending machine area with automated service at each station",
+                "Counter service where staff serve seated customers directly"
             ],
             "correctIndex": 1,
             "explanation": "The Hollow Square, Free-flow, or Scramble system separates counters (salad, hot food, etc.) allowing customers to go directly to what they want, reducing wait times.",
@@ -15770,10 +15770,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In forecasting production, a 'Moving Average' model:",
             "options": [
-                "Uses a panel of experts to predict sales trends for the upcoming year",
+                "Uses a panel of experts to predict sales trends for the upcoming year through several survey rounds",
                 "Taking the average of the number of portions sold for the last 'n' periods to predict the next period",
-                "Assumes a causal relationship between variables such as weather and sales",
-                "Relies on intuition and gut feeling rather than historical data"
+                "Assumes a causal relationship between variables such as weather or census and sales to estimate demand",
+                "Relies on intuition and gut feeling rather than historical data from the previous menu cycles"
             ],
             "correctIndex": 1,
             "explanation": "Moving Average is a time-series forecasting method that uses a set number of past data points (e.g., last 5 weeks) to predict the next value by averaging them.",
@@ -15896,10 +15896,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "What type of distribution cart is a 'Pellet System'?",
             "options": [
-                "Insulated tray system handling hot and cold food",
-                "Portable heating unit plugged in at ward galleys",
+                "Insulated tray system handling hot and cold food on the same tray",
+                "Portable heating unit plugged in at ward galleys before tray service",
                 "Heated metal disk (pellet) placed under the plate to keep it warm",
-                "Refrigerated cart ensuring cold foods stay cold"
+                "Refrigerated cart ensuring cold foods stay cold until delivery"
             ],
             "correctIndex": 2,
             "explanation": "A Pellet System uses a preheated metal disk (pellet) placed in a base under the dinner plate to maintain food temperature for ~40-45 minutes.",
@@ -15938,10 +15938,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "When scaling a recipe using the percentage method, the first step is to:",
             "options": [
-                "Convert all ingredients to pounds, ounces, and cups for easier measurement",
+                "Convert all ingredients to pounds, ounces, and cups for easier measurement by the cooks",
                 "Convert all ingredients to weights (e.g., decimals of a pound) and calculate the total weight",
-                "Multiply everything by 2 regardless of the desired yield change",
-                "Estimate the new amounts based on experience and intuition"
+                "Multiply everything by 2 regardless of the desired yield change, then adjust the seasonings",
+                "Estimate the new amounts based on experience and intuition, then test a single batch"
             ],
             "correctIndex": 1,
             "explanation": "The percentage method requires converting all ingredients to weights (including liquids) and summing them to calculate the percentage of each ingredient in relation to the total weight.",
@@ -16022,10 +16022,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Synergistic' effect in a food production team means:",
             "options": [
-                "Everyone works independently without any collaboration or communication",
+                "Everyone works independently without any collaboration or communication between stations",
                 "The total output of the team is greater than the sum of individual efforts (1+1=3)",
                 "Conflict is maximized due to competing individual goals and poor leadership",
-                "Productivity decreases significantly due to the complexity of teamwork"
+                "Productivity decreases significantly due to the complexity of teamwork and coordination"
             ],
             "correctIndex": 1,
             "explanation": "Synergy occurs when the cooperative action of separate people or agencies produces a total effect greater than the sum of their individual effects.",
@@ -16064,10 +16064,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "For a 3-compartment sink used for manual warewashing, what are the correct steps in order?",
             "options": [
-                "Rinse, Wash, Sanitize, Air Dry",
-                "Wash, Rinse, Sanitize, Air Dry",
+                "Soak, Rinse, Wash, Sanitize, Air Dry",
+                "Scrape, Rinse, Wash, Sanitize, Air Dry",
                 "Scrape, Wash, Rinse, Sanitize, Air Dry",
-                "Wash, Sanitize, Rinse, Towel Dry"
+                "Scrape, Wash, Sanitize, Rinse, Towel Dry"
             ],
             "correctIndex": 2,
             "explanation": "The correct manual warewashing procedure is: Scrape food soil, Wash (1st sink), Rinse (2nd sink), Sanitize (3rd sink), and Air Dry.",
@@ -16106,9 +16106,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The most appropriate flooring material for a commercial kitchen food preparation area is:",
             "options": [
-                "Carpet",
-                "Quarry tile",
-                "Hardwood",
+                "Commercial carpet",
+                "Quarry tile (unglazed)",
+                "Sealed hardwood",
                 "Vinyl composition tile"
             ],
             "correctIndex": 1,
@@ -16190,10 +16190,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Steam-Jacketed Kettle' cooks food by:",
             "options": [
-                "Weighing it down with a heavy lid to increase pressure",
+                "Weighing it down with a heavy lid to increase pressure and raise the boiling point",
                 "Direct contact with a flame or electric heating element at the bottom",
                 "Circulating steam in a jacket (space) between the inner and outer walls of the kettle",
-                "Microwave radiation that penetrates the food molecules"
+                "Microwave radiation that penetrates the food molecules and heats them evenly"
             ],
             "correctIndex": 2,
             "explanation": "Steam-jacketed kettles have two walls (bowl within a bowl) with steam circulating between them, providing even, gentle heating without scorching contact.",
@@ -16211,10 +16211,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In facility planning, 'Ergonomics' refers to:",
             "options": [
-                "The analysis of the cost of equipment versus its useful life",
+                "The analysis of the cost of equipment versus its useful life to guide capital purchasing decisions",
                 "Designing work areas and equipment to fit the human body and movements to minimize fatigue and injury",
-                "The continuous flow of food from receiving dock to service point",
-                "The overall energy efficiency rating of the kitchen appliances"
+                "The continuous flow of food from receiving dock to service point without backtracking or cross-traffic",
+                "The overall energy efficiency rating of the kitchen appliances and their annual operating costs"
             ],
             "correctIndex": 1,
             "explanation": "Ergonomics is the applied science of equipment design intended to reduce operator fatigue and discomfort (e.g., table height, comfortable mats).",
@@ -16256,7 +16256,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "UL (Underwriters Laboratories)",
                 "NSF (National Sanitation Foundation)",
                 "AGA (American Gas Association)",
-                "OSHA"
+                "OSHA (Occupational Safety and Health)"
             ],
             "correctIndex": 1,
             "explanation": "The NSF (National Sanitation Foundation) mark ensures equipment is designed for sanitation (e.g., rounded corners, non-porous materials, easy to clean).",
@@ -16296,9 +16296,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A 'Deck Oven' is typically used for:",
             "options": [
                 "Steaming vegetables in a moist environment",
-                "Deep frying foods in hot oil",
+                "Deep frying foods in hot oil at high production volume",
                 "Baking pizzas or breads directly on the hearth/deck",
-                "Making soup in large batches"
+                "Making soup in large batches with steam heat"
             ],
             "correctIndex": 2,
             "explanation": "Deck ovens have heated surfaces (decks) where food like pizza or hearth breads are placed directly to develop a crust.",
@@ -16318,7 +16318,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Hazard Analysis Critical Control Point",
                 "Health And Care Control Protocol",
-                "Hazard Assessment for Cooking and Cleaning Procedures",
+                "Hazard Assessment Cooking Control Procedure",
                 "High Acidity Control Critical Point"
             ],
             "correctIndex": 0,
@@ -16442,10 +16442,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Flow Chart' in kitchen design helps to identify:",
             "options": [
-                "The proper drainage of water and waste liquids from the kitchen",
+                "The proper drainage of water and waste liquids from the kitchen floor drains",
                 "Movement of food, people, and dishes to prevent cross-traffic and backtracking",
-                "The cash flow and financial transactions within the facility",
-                "The air ventilation flow patterns in the hood system only"
+                "The cash flow and financial transactions within the facility during each shift",
+                "The air ventilation flow patterns in the exhaust hood system only"
             ],
             "correctIndex": 1,
             "explanation": "Flow charts analyze the traffic patterns of food, employees, and waste to design an efficient layout that minimizes backtracking and cross-traffic.",
@@ -16484,10 +16484,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "OSHA's 'Bloodborne Pathogens Standard' requires employers to:",
             "options": [
-                "Provide all employees with free daily lunch meals in the cafeteria",
+                "Provide all employees with free daily lunch meals in the cafeteria during every scheduled shift",
                 "Develop an exposure control plan and provide Hepatitis B vaccinations to at-risk employees",
-                "Test all food for potential blood contamination before service",
-                "Hire a full-time registered nurse to be on-site at all times"
+                "Test all food for potential blood contamination before service to patients and visitors",
+                "Hire a full-time registered nurse to be on-site at all times in the foodservice department"
             ],
             "correctIndex": 1,
             "explanation": "OSHA requires specific protections for employees who may be exposed to blood or bodily fluids (e.g., first aid responders), including offering Hep B vaccines.",
@@ -16507,7 +16507,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Leadership in Energy and Environmental Design",
                 "Legal Environmental and Energy Development",
-                "Low Energy Equipment Design",
+                "Low-Emission Energy and Equipment Design",
                 "Licensed Engineering and Environmental Department"
             ],
             "correctIndex": 0,
@@ -16610,10 +16610,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The 'Right-to-Know' law refers to:",
             "options": [
-                "Employees' right to know the exact salary of their direct managers",
+                "Employees' right to know the exact salary and bonuses of their direct managers",
                 "Employees' right to know about hazardous chemicals they may be exposed to (SDS)",
-                "Customers' right to know the precise calorie count of every item",
-                "Suppliers' right to know who else is bidding on the contract"
+                "Customers' right to know the precise calorie count of every menu item",
+                "Suppliers' right to know who else is bidding on the contract and at what price"
             ],
             "correctIndex": 1,
             "explanation": "The Hazard Communication Standard (Right-to-Know) requires employers to inform employees about chemical hazards and provide Safety Data Sheets (SDS).",
@@ -16631,10 +16631,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In menu planning, 'sustainability' might influence choices by prioritizing:",
             "options": [
-                "Imported exotic fruits",
+                "Imported exotic fruits year-round",
                 "Locally grown, seasonal produce",
                 "Individually packaged processed foods",
-                "Disposable serving ware"
+                "Disposable plastic serving ware"
             ],
             "correctIndex": 1,
             "explanation": "Sustainable menu planning emphasizes local sourcing to reduce carbon footprint and using seasonal ingredients.",
@@ -16694,10 +16694,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Blast Chiller' is essential equipment for which foodservice system?",
             "options": [
-                "Assembly-Serve",
+                "Assembly-Serve (Convenience)",
                 "Conventional (Cook-Serve)",
                 "Ready-Prepared (Cook-Chill)",
-                "Vending"
+                "Vending (Automated Retail)"
             ],
             "correctIndex": 2,
             "explanation": "Blast chillers are designed to rapidly cool food through the danger zone, a critical step in Cook-Chill systems.",
@@ -16778,10 +16778,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Using 'Grey Water' refers to:",
             "options": [
-                "Collecting dirty dishwater for reuse in cleaning floors",
+                "Collecting dirty dishwater for reuse in cleaning floors and rinsing trash containers",
                 "Recycled water from sinks/showers (not toilets) used for landscape irrigation",
-                "Treating sewage water for human consumption",
-                "Harvesting rainwater for potable drinking usage"
+                "Treating sewage water for human consumption through advanced municipal filtration",
+                "Harvesting rainwater for potable drinking usage after basic sediment filtering"
             ],
             "correctIndex": 1,
             "explanation": "Grey water is wastewater from non-toilet plumbing systems (sinks, washing machines) that can be treated and reused for purposes like irrigation to conserve potable water.",
@@ -16820,10 +16820,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'GPO' (Group Purchasing Organization) helps foodservice operations by:",
             "options": [
-                "Providing free heavy-duty equipment to all new members",
+                "Providing free heavy-duty equipment to all new members upon joining",
                 "Combining purchasing volume of many members to negotiate lower prices",
-                "Doing all the cooking and preparation for the facility",
-                "Managing the employees and human resources department"
+                "Doing all the cooking and preparation for the facility at a central commissary",
+                "Managing the employees and human resources department for each member"
             ],
             "correctIndex": 1,
             "explanation": "GPOs leverage the collective buying power of many smaller organizations to secure discounts typically only available to very large buyers.",
@@ -16841,10 +16841,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which is an example of a 'Mise en place' task?",
             "options": [
-                "Evaluating the menu after the dinner service is complete",
-                "Cleaning the kitchen floors at night after closing",
+                "Evaluating the menu after the dinner service is complete each night",
+                "Cleaning the kitchen floors and hoods at night after closing",
                 "Pre-measuring ingredients and chopping vegetables before cooking begins",
-                "Ordering all food inventory for the upcoming week"
+                "Ordering all food inventory from vendors for the upcoming week"
             ],
             "correctIndex": 2,
             "explanation": "Mise en place ('put in place') refers to organizing and arranging the ingredients and tools needed for cooking before the actual cooking starts.",
@@ -16926,9 +16926,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which 'loss leader' pricing strategy involves:",
             "options": [
                 "Selling an item at or below cost to attract customers who will then buy other profitable items",
-                "Raising prices on popular items to maximize profit per unit sold during peak hours",
-                "Ignoring food cost completely to focus solely on customer satisfaction goals",
-                "Charging for water and other basic amenities to cover overheard costs"
+                "Raising prices on popular items to maximize profit per unit sold during peak dinner hours",
+                "Ignoring food cost completely to focus solely on customer satisfaction and loyalty goals",
+                "Charging for water and other basic amenities to cover overhead costs of service"
             ],
             "correctIndex": 0,
             "explanation": "A loss leader is sold at a loss to stimulate other profitable sales (e.g., cheap turkeys at Thanksgiving to sell the rest of the groceries).",
@@ -16967,10 +16967,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Perpetual Inventory' system:",
             "options": [
-                "Requires counting every item physically once a month to verify stock",
+                "Requires counting every item physically once a month to verify stock, with no running records",
                 "Tracks the running balance of inventory on hand (additions and subtractions are recorded immediately)",
-                "Is strictly visual, relying on the manager's estimate of stock levels",
-                "Is illegal in hospitals due to government accounting regulations"
+                "Is strictly visual, relying on the manager's estimate of stock levels during each walk-through",
+                "Is illegal in hospitals due to government accounting regulations that require monthly counts"
             ],
             "correctIndex": 1,
             "explanation": "Perpetual inventory keeps a continuous record of stock levels (items in/out). Physical inventory is the actual periodic count used to verify it.",
@@ -17156,10 +17156,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Cross-connection in plumbing is dangerous because it can lead to:",
             "options": [
-                "Low water pressure throughout the facility affecting dishwashers",
+                "Low water pressure throughout the facility affecting dishwashers and sinks",
                 "Backflow (backsiphonage) of contaminated water into the potable water supply",
-                "Leaking pipes that cause structural damage to the building",
-                "High water bills due to unmonitored usage and leaks"
+                "Leaking pipes that cause structural damage to the building walls and floors",
+                "High water bills due to unmonitored usage and hidden leaks in lines"
             ],
             "correctIndex": 1,
             "explanation": "A cross-connection is a physical link between safe water and dirty water (e.g., a hose in a mop bucket). Backflow can suck contaminants into the drinking water.",
@@ -17177,10 +17177,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Carbon Footprint' measures:",
             "options": [
-                "The amount of physical soot accumulation on the kitchen floor",
+                "The amount of physical soot accumulation on the kitchen floor and exhaust hood filters",
                 "The total greenhouse gas emissions caused by an organization, event, product, or person",
-                "The physical size of the kitchen footprint in square feet",
-                "The amount of coal usage required to power the facility"
+                "The physical size of the kitchen footprint in square feet, including storage areas",
+                "The amount of coal usage required to power the facility and its refrigeration systems"
             ],
             "correctIndex": 1,
             "explanation": "Carbon footprint is the total amount of greenhouse gases (mainly CO2) produced to directly and indirectly support human activities.",
@@ -17199,9 +17199,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "The term 'Yield' refers to:",
             "options": [
                 "The amount of product remaining after processing or cooking (Edible Portion)",
-                "The price of the food item charged by the vendor on the invoice",
-                "The number of employees working in the production area",
-                "The delivery time for the order to arrive at the receiving dock"
+                "The price of the food item charged by the vendor on the invoice at delivery",
+                "The number of employees working in the production area during a shift",
+                "The delivery lead time for the order to arrive at the receiving dock"
             ],
             "correctIndex": 0,
             "explanation": "Yield is the usable amount of food remaining after processing (peeling, trimming, cooking). Typically expressed as a percentage.",
@@ -17219,10 +17219,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Preventive Maintenance is:",
             "options": [
-                "Fixing equipment only when it breaks down completely and stops working",
+                "Fixing equipment only when it breaks down completely and stops working during service",
                 "Regular, scheduled service to keep equipment running efficiently and prevent breakdowns",
-                "Buying new equipment every year to ensure the latest technology",
-                "Ignoring manufacturer instructions to save time on maintenance"
+                "Buying new equipment every year to ensure the latest technology and warranty coverage",
+                "Ignoring manufacturer instructions to save time on maintenance and repair tasks"
             ],
             "correctIndex": 1,
             "explanation": "Preventive maintenance involves scheduled inspections and servicing (cleaning filters, lubricating parts) to extend equipment life and avoid costly downtime.",
@@ -17240,10 +17240,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which is a 'Demographic' factor affecting menu planning?",
             "options": [
-                "Kitchen layout and design flow efficiency",
+                "Kitchen layout and design flow efficiency for production staff",
                 "Age, gender, and income level of the target market population",
-                "Food availability from local suppliers",
-                "Equipment capacity and production capabilities"
+                "Food availability from local suppliers throughout each season",
+                "Equipment capacity and production capabilities of the kitchen"
             ],
             "correctIndex": 1,
             "explanation": "Demographics describe the population characteristics (age, gender, income, education) which heavily influence food preferences and spending power.",
@@ -17304,9 +17304,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "During a local health department inspection of a long-term care facility kitchen, the inspector notes the temperature of the primary chemical sanitizing dishwasher. The wash cycle is 140°F (60°C) and the final sanitizing rinse cycle using a chlorine-based sanitizer is 85°F (29°C). What should the inspector's conclusion be?",
             "options": [
                 "The dishwasher is fully compliant; the chemical sanitizer requires warm water between 75°F and 120°F to remain effective without evaporating too quickly.",
-                "The dishwasher is non-compliant; a chemical sanitizing rinse must reach at least 165°F (74°C) to kill bacteria.",
-                "The dishwasher is non-compliant; the wash cycle must be at least 150°F (65°C) regardless of the sanitizer used.",
-                "The dishwasher is non-compliant; chlorine sanitizers are illegal in long-term care facilities and must be replaced with iodine."
+                "The dishwasher is non-compliant; a chemical sanitizing rinse must reach at least 165°F (74°C) to kill bacteria and viruses on all surfaces of the ware.",
+                "The dishwasher is non-compliant; the wash cycle must be at least 150°F (65°C) regardless of the type of chemical sanitizer used in the final rinse.",
+                "The dishwasher is non-compliant; chlorine sanitizers are illegal in long-term care facilities and must be replaced with iodine or quats."
             ],
             "correctIndex": 0,
             "explanation": "Because this is a *chemical* sanitizing dishwasher (low-temperature), it relies on the chemical (chlorine, iodine, quats) rather than intense heat to kill pathogens. The wash cycle for chemical machines must be at least 120°F (the machine here is 140°F, which is fine). The critical point is the final rinse: chlorine sanitizer requires water between 75°F and 120°F to function optimally (the machine here is 85°F, which is perfect). If the water is too cold, the chemical won't activate. If it is too hot (>120°F), the chlorine will evaporate/dissipate before it can sanitize the dishes. (Only HIGH-temperature, heat-sanitizing dishwashers require wash = 150°F and final rinse = 180°F)."
@@ -17319,10 +17319,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A large university utilizes a 'commissary' foodservice system. Which characteristic correctly describes this specific system model?",
             "options": [
-                "Meals are produced onsite at each individual dining hall and served immediately to the students.",
-                "Food is purchased completely pre-prepared, packaged, and frozen, requiring only minimal reheating by unskilled labor onsite.",
+                "Meals are produced onsite from raw ingredients in each individual dining hall, using its own kitchen, and served immediately to the students after cooking.",
+                "Food is purchased completely pre-prepared, packaged, and frozen, requiring only minimal reheating by unskilled labor onsite at each dining hall.",
                 "Meals are prepared centrally in one massive, industrial-scale kitchen and then transported (hot/cold held) in bulk or pre-plated to various satellite dining halls.",
-                "Menu items are cooked in advance, blast-chilled, held in an inventory bank for several weeks, and reheated upon student request."
+                "Menu items are cooked in advance onsite, blast-chilled, held in an inventory bank for several weeks, and reheated in the same kitchen upon student request."
             ],
             "correctIndex": 2,
             "explanation": "A 'Commissary' system features centralized procurement and massive, large-scale production in one central facility. The prepared food is then distributed to multiple remote/satellite delivery locations. It requires sophisticated transportation logistics. 'Conventional' describes preparing and serving at the exact same site. 'Assembly-serve' (convenience) describes buying pre-cooked/pre-packaged items with almost no on-site cooking. 'Ready-prepared' (cook-chill/cook-freeze) involves cooking food and immediately chilling it on-site for later inventory use."
@@ -17336,7 +17336,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A foodservice facility is purchasing a new massive, multi-compartment tilting skillet (braising pan). The specification sheets list the metal used for the interior cooking surface as having an extremely high gauge number (e.g., 22-gauge vs 10-gauge stainless steel). What does a higher gauge number indicate about the metal equipment?",
             "options": [
                 "A higher gauge means the metal is significantly thicker and more durable.",
-                "A higher gauge means the metal is significantly thinner.",
+                "A higher gauge means the metal is significantly thinner and less durable.",
                 "A higher gauge means the metal has a higher concentration of non-corrosive chromium.",
                 "A higher gauge means the metal has a higher polish/finish (e.g., #4 finish vs #8 finish)."
             ],
@@ -17351,10 +17351,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Under the FDA Food Code guidelines, what is the maximum recommended cooling timeframe to safely drop the internal temperature of a large batch of hot chili from 135°F to 41°F to prevent the proliferation of pathogenic bacteria?",
             "options": [
-                "Total of 2 hours",
-                "Total of 4 hours",
+                "Total of 2 hours; achieving 41°F within the first hour, and 32°F in the remaining hour.",
+                "Total of 4 hours; achieving 70°F within the first 2 hours, and 41°F in the remaining 2 hours.",
                 "Total of 6 hours; achieving 70°F within the first 2 hours, and 41°F in the remaining 4 hours.",
-                "Total of 12 hours, using blast chillers exclusively."
+                "Total of 12 hours, using blast chillers exclusively once the product drops below 135°F."
             ],
             "correctIndex": 2,
             "explanation": "The FDA Food Code mandates a strict two-stage cooling process for highly hazardous hot foods to safely navigate the Temperature Danger Zone (135°F to 41°F). The food must be rapidly cooled from 135°F down to 70°F within the first 2 hours. If it achieves this, you have an additional 4 hours to cool it from 70°F down to 41°F or lower, for a maximum total cooling time of 6 hours. This rapid initial drop is critical because bacteria multiply most exponentially between 125°F and 70°F."
@@ -17367,10 +17367,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A menu engineering report for a hospital cafeteria analyzes the profitability and popularity of four entrée items. Item A: High Prominence/Popularity, High Profitability. Item B: High Popularity, Low Profitability. Category C: Low Popularity, High Profitability. Category D: Low Popularity, Low Profitability. According to Kasavana-Smith engineering models, which action should the manager take regarding the 'Plowhorse' (Item B)?",
             "options": [
-                "Promote the item aggressively as a signature dish.",
-                "Remove the item from the menu entirely.",
+                "Promote the item aggressively as a signature dish to raise its popularity even further across all meal periods.",
+                "Remove the item from the menu entirely and replace it with a new, untested entrée with a higher contribution margin.",
                 "Slightly decrease portion sizes or increase the price to improve the margin without deterring loyal customers.",
-                "Redesign the dish completely with new, lower-cost ingredients."
+                "Redesign the dish completely with new, lower-cost ingredients and relaunch it under a different name."
             ],
             "correctIndex": 2,
             "explanation": "In Menu Engineering: Stars (High Pop/High Profit) -> Promote aggressively. Dogs (Low Pop/Low Profit) -> Remove. Plowhorses (High Pop/Low Profit) -> These are very popular items that don't make much money (cost is too high). The strategy for a Plowhorse is to carefully widen the profit margin without ruining its popularity. You do this by slightly raising the price or subtly decreasing the portion size/ingredient cost. Suggesting an aggressive redesign might alienate the massive customer base that loves the item. Puzzles (Low Pop/High Profit) -> Move to a better spot on the menu to boost sales."
@@ -17399,10 +17399,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "In a formal HACCP (Hazard Analysis Critical Control Point) plan for a cook-chill operation making chicken soup, which of the following perfectly represents the definition of a 'Critical Control Point' (CCP) combined with its 'Critical Limit'?",
             "options": [
-                "CCP: Measuring the temperature. Critical Limit: Using a calibrated thermometer.",
+                "CCP: Measuring the temperature. Critical Limit: Using a calibrated thermometer checked daily in ice water and recorded on the monitoring log.",
                 "CCP: Cooking the raw chicken. Critical Limit: Heating the soup until the chicken reaches a minimum internal temperature of 165°F (74°C) for 15 seconds.",
-                "CCP: Receiving the raw chicken. Critical Limit: Ensuring the delivery truck is clean.",
-                "CCP: The existence of Salmonella on the chicken. Critical Limit: Killing all bacteria."
+                "CCP: Receiving the raw chicken. Critical Limit: Ensuring the delivery truck is clean and the invoice matches the purchase order before signing for it.",
+                "CCP: The existence of Salmonella on the chicken. Critical Limit: Killing all bacteria present on the raw poultry before it is added to the soup pot."
             ],
             "correctIndex": 1,
             "explanation": "A CCP is a specific step or procedure in the food process where a control measure can be applied, and is absolutely essential to prevent, eliminate, or reduce a food safety hazard to an acceptable level. Cooking is the ultimate biological CCP. The 'Critical Limit' is the precise, absolutely measurable, quantitative threshold that MUST be met at the CCP to ensure safety. Therefore, 'Cooking' (the step) combined with 'reaching 165°F for 15 seconds' (the specific, measurable limit) perfectly define the CCP and its critical limit."
@@ -17415,10 +17415,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The extinguishing agent used in a Class K fire extinguisher is composed primarily of an alkaline liquid (like potassium acetate). Based on this composition, a Class K extinguisher is specifically mandated to suppress fires occurring in which area of a foodservice operation?",
             "options": [
-                "Electrical panels and faulty wiring.",
-                "Dry storage areas containing paper, cardboard, and wood.",
+                "Electrical panels and faulty wiring near the kitchen's utility area.",
+                "Dry storage areas containing paper, cardboard, and wood pallets and crates.",
                 "Commercial deep fat fryers utilizing combustible cooking oils and greases.",
-                "Gasoline or diesel generators located on the loading dock."
+                "Gasoline or diesel generators located on the loading dock behind the kitchen."
             ],
             "correctIndex": 2,
             "explanation": "Class K fire extinguishers are definitively required in commercial kitchens for use on fires involving combustible cooking media such as vegetable or animal oils and fats (classic deep fryer fires). The alkaline extinguishing liquid reacts with the extremely hot cooking oil through a process called saponification, turning the oil into a non-combustible soap-like foam that smothers the fire and traps the vapors. Class A is for ordinary combustibles (wood/paper). Class B is for flammable liquids (gasoline). Class C is for electrical circuitry."
@@ -17433,8 +17433,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "15 cases, because par stock dictates always ordering the full par amount.",
                 "11 cases, to exactly replenish the inventory to the established par level.",
-                "19 cases, to account for safety stock.",
-                "8 cases, relying on the Economic Order Quantity (EOQ) system."
+                "19 cases, to account for extra safety stock above the established par level.",
+                "8 cases, relying on the Economic Order Quantity (EOQ) system instead of par."
             ],
             "correctIndex": 1,
             "explanation": "The 'Par Stock' system of inventory management dictates that a predetermined baseline inventory level ('par') is established for each item, representing the quantity needed to sustain the operation until the next delivery. When an order is placed, the purchaser merely subtracts the amount currently on hand from the par level and orders the difference. If par is 15, and you currently have 4, you order the exact difference: 11 cases. This simple system ensures inventory levels remain constant without over-ordering."
@@ -17447,9 +17447,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A hospital utilizes a room service (spoken menu) model where patients call down their orders. The clinical team wants to ensure that patients on a 'Consistent Carbohydrate' diet for diabetes do not accidentally order a dangerous amount of sugar. In software-managed room service setups, what is the best technological safeguard to implement?",
             "options": [
-                "Rely on the NDTR to verbally argue with the patient on the phone until they change their order.",
-                "Provide the patient with an unedited regular menu and trust their diabetes education.",
-                "Implement an age-restricted ordering matrix.",
+                "Rely on the NDTR to verbally argue with the patient on the phone until they change their order to a lower-carbohydrate item.",
+                "Provide the patient with an unedited regular menu and trust their diabetes education to guide choices.",
+                "Implement an age-restricted ordering matrix that limits which menu items older patients can order.",
                 "Program the foodservice software to implement 'Hard Stops' based on the total grams of carbohydrate requested per meal."
             ],
             "correctIndex": 3,
@@ -17505,7 +17505,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Reliability in research refers to:",
             "options": [
-                "The accuracy of the measurement",
+                "The accuracy of the measurement against a gold standard",
                 "The ability of the tool to measure what it intends to measure",
                 "The reproducibility or consistency of the results",
                 "The statistical significance of the findings"
@@ -17526,10 +17526,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A P-value of < 0.05 indicates that:",
             "options": [
-                "The results are definitely due to chance",
+                "The results are definitely due to chance and not a true effect",
                 "There is a significant difference, and the results are reliable",
-                "The null hypothesis is true",
-                "The confidence interval is 90%"
+                "The null hypothesis is true and should be accepted as proven",
+                "The confidence interval is 90% rather than the usual 95%"
             ],
             "correctIndex": 1,
             "explanation": "A P-value < 0.05 means there is less than a 5% probability that the results happened by chance alone, typically indicating statistical significance.",
@@ -17587,10 +17587,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "What does a correlation coefficient (r) of -1.0 indicate?",
             "options": [
-                "No correlation",
-                "A perfect positive correlation",
+                "No correlation between the variables",
+                "A perfect positive (direct) correlation",
                 "A perfect negative (inverse) correlation",
-                "A weak negative relationship"
+                "A weak negative (inverse) relationship"
             ],
             "correctIndex": 2,
             "explanation": "r = -1.0 indicates a perfect negative correlation (as one variable goes up, the other goes down perfectly).",
@@ -17608,10 +17608,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Double-blind studies are designed to reduce:",
             "options": [
-                "Selection bias",
+                "Selection bias in recruitment",
                 "Researcher and participant bias",
-                "Confounding variables",
-                "Statistical error"
+                "Confounding variables in analysis",
+                "Statistical error from small samples"
             ],
             "correctIndex": 1,
             "explanation": "In a double-blind study, neither the researcher nor the participant knows who is in the control vs. experimental group, removing bias from both.",
@@ -17629,10 +17629,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Nominal data refers to data that can be:",
             "options": [
-                "Ranked in order (e.g., 1st, 2nd, 3rd)",
-                "Measured on a continuous scale",
+                "Ranked in order with unequal intervals (e.g., 1st, 2nd, 3rd)",
+                "Measured on a continuous scale (e.g., weight, height)",
                 "Categorized into discrete names/labels (e.g., Gender, Race)",
-                "Measured with a true zero point"
+                "Measured with a true zero point (e.g., kcal, grams)"
             ],
             "correctIndex": 2,
             "explanation": "Nominal data is categorical with no implied order (Name changes only). Ordinal data implies rank.",
@@ -17650,10 +17650,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which of the following describes the difference between Effectiveness and Efficiency in research or management?",
             "options": [
-                "Effectiveness is doing things right; Efficiency is doing the right things",
+                "Effectiveness is doing things right (resource use); Efficiency is doing the right things (outcome)",
                 "Effectiveness is doing the right things (outcome); Efficiency is doing things right (resource use)",
-                "They are synonyms",
-                "Efficiency is only about money"
+                "They are synonyms that both describe achieving outcomes with minimal resource use",
+                "Efficiency is only about money, while effectiveness is only about staff satisfaction"
             ],
             "correctIndex": 1,
             "explanation": "Effectiveness relates to the degree to which an objective is achieved (the outcome). Efficiency relates to the minimization of resources used to achieve that outcome.",
@@ -17671,10 +17671,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The 'Gold Standard' for clinical research, which best establishes cause and effect, is:",
             "options": [
-                "Case Series",
+                "Case Series (descriptive reports)",
                 "Randomized Controlled Trial (RCT)",
-                "Cohort Study",
-                "Cross-sectional survey"
+                "Cohort Study (prospective design)",
+                "Cross-sectional survey (prevalence)"
             ],
             "correctIndex": 1,
             "explanation": "RCTs are the gold standard for clinical intervention because randomization and control groups minimize bias and confounding, allowing for causal inference.",
@@ -17692,10 +17692,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Validity implies that a test:",
             "options": [
-                "Produces the same result every time",
-                "Is easy to administer",
+                "Produces the same result every time it is repeated",
+                "Is easy to administer and score in a short time",
                 "Meaures exactly what it is intended to measure",
-                "Is cost-effective"
+                "Is cost-effective for use in large populations"
             ],
             "correctIndex": 2,
             "explanation": "Validity is accuracy. A scale might be reliable (give the same weight every time) but not valid (if it's off by 5 lbs).",
@@ -17754,7 +17754,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which financial statement shows the financial condition of a company at a specific point in time (snapshot of assets, liabilities, equity)?",
             "options": [
-                "Profit and Loss Statement (Income Statement)",
+                "Income Statement (P&L)",
                 "Balance Sheet",
                 "Cash Flow Statement",
                 "Budget Report"
@@ -17778,7 +17778,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Plan, Do, Check, Act",
                 "Prepare, Do, Correct, Act",
                 "Plan, Design, Create, Assess",
-                "Prioritize, Delegate, Control, Achieve"
+                "Plan, Delegate, Control, Achieve"
             ],
             "correctIndex": 0,
             "explanation": "PDCA (Plan-Do-Check-Act) or PDSA (Plan-Do-Study-Act) is the cyclical process for continuous improvement.",
@@ -17796,10 +17796,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 'Sentinel Event' in a healthcare setting refers to:",
             "options": [
-                "A minor error in charting",
+                "A minor error in charting that is corrected before it reaches the patient",
                 "An unexpected occurrence involving death or serious physical/psychological injury",
-                "A routine audit finding",
-                "A patient complaint about food temperature"
+                "A routine audit finding reported in the quarterly quality improvement review",
+                "A patient complaint about food temperature logged through the service recovery process"
             ],
             "correctIndex": 1,
             "explanation": "Sentinel events are serious, unexpected events that result in death or serious injury (e.g., surgery on the wrong body part, inpatient suicide) and require immediate investigation.",
@@ -17841,7 +17841,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Increasing production speed regardless of errors",
                 "Removing defects and minimizing variability",
                 "Focusing solely on employee satisfaction",
-                "Reducing food costs"
+                "Reducing food costs through bulk buying"
             ],
             "correctIndex": 1,
             "explanation": "Six Sigma focuses on removing causes of defects and minimizing variability in manufacturing and business processes.",
@@ -17859,10 +17859,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which act guarantees right to organize and join labor unions?",
             "options": [
-                "Taft-Hartley Act",
+                "Taft-Hartley Act (Labor Management Relations Act)",
                 "Wagner Act (National Labor Relations Act)",
-                "Landrum-Griffin Act",
-                "Fair Labor Standards Act"
+                "Landrum-Griffin Act (LMRDA of 1959)",
+                "Fair Labor Standards Act (Wage and Hour Law)"
             ],
             "correctIndex": 1,
             "explanation": "The Wagner Act (1935), also known as the National Labor Relations Act (NLRA), guarantees the right to organize and join labor unions.",
@@ -17880,10 +17880,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which of the following implies a 'Fixed Cost'?",
             "options": [
-                "Food",
-                "Paper supplies",
+                "Food and beverage purchases",
+                "Paper and disposable supplies",
                 "Rent or Mortgage payment",
-                "Utilities (usually)"
+                "Utilities (usually semi-variable)"
             ],
             "correctIndex": 2,
             "explanation": "Fixed costs do not vary with the volume of business (e.g., Rent, Insurance, Taxes). Food is a variable cost.",
@@ -17942,10 +17942,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Benchmarking is the process of:",
             "options": [
-                "Setting the lowest possible standards",
+                "Setting the lowest possible standards so every unit can meet them consistently",
                 "Comparing one's performance metrics against best practices/industry leaders",
-                "Sitting on a bench",
-                "Internal auditing only"
+                "Measuring employee satisfaction through anonymous annual surveys of staff",
+                "Internal auditing only, reviewing the department's own records against its policies"
             ],
             "correctIndex": 1,
             "explanation": "Benchmarking involves comparing performance against best-in-class standards to identify areas for improvement.",
@@ -17965,8 +17965,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "The total number of existing cases of a disease at a point in time",
                 "The number of NEW cases of a disease over a period of time",
-                "The death rate",
-                "The cure rate"
+                "The death rate from a disease over a period of time",
+                "The cure rate among people treated for a disease"
             ],
             "correctIndex": 1,
             "explanation": "Incidence = NEW cases. Prevalence = EXISTING cases (total).",
@@ -18004,10 +18004,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Cross-sectional studies are useful for:",
             "options": [
-                "Determining cause and effect",
-                "Monitoring changes over long periods",
+                "Determining cause and effect between an exposure and a later outcome",
+                "Monitoring changes over long periods in the same group of participants",
                 "Determining prevalence of a condition at a specific point in time",
-                "Rare diseases"
+                "Rare diseases, by starting with cases and looking back at exposures"
             ],
             "correctIndex": 2,
             "explanation": "Cross-sectional studies take a snapshot of a population at one point in time, useful for measuring prevalence.",
@@ -18024,10 +18024,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The management function 'Controlling' primarily involves:",
             "options": [
-                "Hiring staff",
+                "Hiring staff and assigning them to positions in the organization",
                 "Measuring performance against standards and taking corrective action",
-                "Setting long-term goals",
-                "Developing marketing strategies"
+                "Setting long-term goals and deciding how the department will reach them",
+                "Developing marketing strategies to increase participation in services"
             ],
             "correctIndex": 1,
             "explanation": "Controlling is the process of monitoring performance, comparing it with goals/standards, and correcting any significant deviations.",
@@ -18045,9 +18045,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which of the following research types is qualitative?",
             "options": [
                 "Survey with Likert scale",
-                "RCT",
-                "Focus Group",
-                "Cohort Study"
+                "RCT (randomized trial)",
+                "Focus Group interviews",
+                "Prospective Cohort Study"
             ],
             "correctIndex": 2,
             "explanation": "Focus groups collect narrative, non-numerical data (opinions, feelings), which is the hallmark of qualitative research.",
@@ -18064,9 +18064,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 68-year-old man admitted with an acute ischemic stroke fails a bedside swallow screen. Neurology expects his dysphagia to resolve over the next two to three weeks with therapy. He is alert, hemodynamically stable, and has a normally functioning GI tract. Which enteral access route is most appropriate to initiate now?",
             "options": [
-                "Percutaneous endoscopic gastrostomy (PEG)",
-                "Nasogastric tube",
-                "Surgical jejunostomy",
+                "Percutaneous endoscopic gastrostomy (PEG) placed this week",
+                "Nasogastric tube for short-term enteral feeding",
+                "Surgical jejunostomy placed during the admission",
                 "Peripherally inserted central catheter for parenteral nutrition"
             ],
             "correctIndex": 1,
@@ -18087,9 +18087,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A 54-year-old woman with amyotrophic lateral sclerosis has lost 9% of her body weight over four months and can no longer safely swallow thin liquids. Her neurologist expects progressive decline. Her forced vital capacity is 58% of predicted. What is the most appropriate recommendation?",
             "options": [
                 "Delay any tube placement until forced vital capacity falls below 30%",
-                "Place a percutaneous endoscopic gastrostomy now",
-                "Begin nasogastric feeding indefinitely",
-                "Recommend thickened liquids only and reassess in six months"
+                "Place a percutaneous endoscopic gastrostomy now, before breathing declines",
+                "Begin nasogastric feeding indefinitely and reassess tolerance yearly",
+                "Recommend thickened liquids only and reassess swallowing in six months"
             ],
             "correctIndex": 1,
             "explanation": "In progressive neuromuscular disease, PEG placement is recommended EARLY, while respiratory reserve still permits safe sedation. Guidelines favor placement before forced vital capacity drops below roughly 50%, and this patient is at 58% with documented weight loss and unsafe swallowing. Waiting until FVC reaches 30% makes the procedure substantially more dangerous. Indefinite nasogastric feeding is not appropriate for a permanent need because of nasal erosion, sinusitis, dislodgement and patient discomfort. Thickened liquids alone will not reverse a 9% weight loss and defers a decision that becomes riskier with time.",
@@ -18174,10 +18174,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A home enteral nutrition patient with a low-profile gastrostomy button reports that the device fell out about two hours ago and the site is closing. What is the most appropriate immediate guidance?",
             "options": [
-                "Apply a dressing and wait for the scheduled clinic visit next week",
+                "Apply a dressing and wait for the scheduled clinic visit next week to replace it",
                 "Seek prompt replacement, since a mature stoma can begin closing within hours",
                 "Insert a straw to keep the tract open until the next appointment",
-                "Begin oral intake only; the tract will reopen on its own"
+                "Begin oral intake only; the tract will reopen on its own when needed"
             ],
             "correctIndex": 1,
             "explanation": "A mature gastrostomy tract can begin narrowing within a few hours and may close within 24 hours, so a dislodged tube is time-sensitive and needs prompt replacement, often with a temporary Foley catheter to preserve the tract until a proper device is placed. Waiting a week virtually guarantees the tract closes and a new procedure is required. Improvising with a straw or other non-medical object risks perforation, infection and migration. Relying on the tract to reopen spontaneously is not how stoma tracts behave, and the patient would lose enteral access entirely.",
@@ -18199,7 +18199,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Withhold all nutrition until the abdomen is closed",
                 "Initiate early enteral nutrition despite the open abdomen",
                 "Start parenteral nutrition because the abdomen is open",
-                "Provide clear liquids orally only"
+                "Provide clear liquids orally only until the abdomen closes"
             ],
             "correctIndex": 1,
             "explanation": "An open abdomen is not by itself a contraindication to enteral feeding. When bowel continuity is intact and there is no obstruction, ischemia or high-risk anastomosis, early enteral nutrition is recommended and is associated with earlier fascial closure, fewer infections and lower mortality. Withholding nutrition until closure can mean many days of deficit in a hypermetabolic trauma patient. Parenteral nutrition is reserved for when the gut cannot be used, and it carries infectious risk that matters greatly in this population. Clear liquids supply negligible protein and energy for a patient with markedly elevated needs.",
@@ -18220,7 +18220,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "A patient with dysphagia after stroke and normal gastric emptying",
                 "A patient with gastric outlet obstruction from a pancreatic head mass",
-                "A patient with dementia and poor oral intake",
+                "A patient with dementia and poor oral intake over several months",
                 "A patient with head and neck cancer receiving radiation, with an intact stomach"
             ],
             "correctIndex": 1,
@@ -18241,9 +18241,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A nasogastric tube was placed at the bedside for a confused patient. Which method should be used to confirm placement before the first feeding?",
             "options": [
                 "Auscultation of insufflated air over the epigastrium",
-                "Radiographic confirmation",
+                "Radiographic confirmation of tube tip position",
                 "Aspiration of fluid and inspection of its color",
-                "Absence of coughing during insertion"
+                "Absence of coughing or distress during insertion"
             ],
             "correctIndex": 1,
             "explanation": "Radiographic confirmation is the standard for verifying blindly placed nasoenteric tubes before first use, because a misplaced tube in the airway can be fatal when formula is instilled. Auscultation of insufflated air is unreliable, since transmitted sounds can be heard over the epigastrium even when the tube sits in the lung, and it has been formally abandoned as a verification method. Aspirate color and pH offer supporting information but are not sufficient alone, particularly in patients on acid suppression. Absence of coughing is especially misleading in obtunded or neurologically impaired patients whose protective reflexes are blunted.",
@@ -18262,10 +18262,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient receiving cyclic nocturnal enteral feeding through a jejunostomy asks whether the feeding could be given as four large boluses during the day instead, to free up the night. What is the most appropriate response?",
             "options": [
-                "Bolus feeding is acceptable if the volume is divided into six or more portions",
+                "Bolus feeding is acceptable if the volume is divided into six or more portions given evenly through the day",
                 "Bolus feeding into the jejunum is not appropriate and would likely cause cramping, distension and diarrhea",
-                "Bolus feeding is preferred for all long-term tube-fed patients",
-                "Bolus feeding may be used only if the formula is diluted to half strength"
+                "Bolus feeding is preferred for all long-term tube-fed patients because it mimics normal meal patterns",
+                "Bolus feeding may be used only if the formula is diluted to half strength to lower its osmolality"
             ],
             "correctIndex": 1,
             "explanation": "The jejunum lacks the reservoir function and regulated emptying of the stomach, so a rapidly delivered bolus arrives as an osmotic load and typically causes cramping, distension, dumping-type symptoms and diarrhea. Jejunal feeding requires continuous or slowly cycled pump-controlled infusion. Increasing the number of boluses does not solve the problem, because even smaller boluses exceed what the small bowel handles comfortably. Bolus feeding is a reasonable option for gastric access, not for all tube-fed patients. Diluting the formula reduces osmolality but also reduces nutrient delivery and does not make jejunal bolus feeding appropriate.",
@@ -18306,10 +18306,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A severely malnourished 45-year-old man with alcohol use disorder and a BMI of 15 kg/m2 has eaten almost nothing for three weeks. Tube feeding is started at goal rate. On day two he develops confusion, muscle weakness and a serum phosphorus of 1.2 mg/dL. What error most directly caused this?",
             "options": [
-                "Formula was too concentrated",
+                "Formula was too concentrated for a patient with low reserves",
                 "Feeding was advanced to goal too rapidly in a high-risk patient",
-                "Protein content of the formula was excessive",
-                "The patient required a jejunal rather than gastric route"
+                "Protein content of the formula was excessive for his body weight",
+                "The patient required a jejunal rather than gastric feeding route"
             ],
             "correctIndex": 1,
             "explanation": "This is refeeding syndrome. In a chronically starved patient, reintroducing carbohydrate triggers insulin release that drives phosphorus, potassium and magnesium intracellularly, producing the hypophosphatemia, weakness and confusion seen here. The error was starting at goal rather than at roughly 25% of estimated needs with slow advancement, thiamine supplementation and daily electrolyte monitoring. Formula concentration is not the mechanism; the total carbohydrate load and rate of delivery are. Protein does not drive the intracellular electrolyte shift. Route of access is irrelevant, since the same syndrome occurs with gastric, jejunal, oral or parenteral refeeding.",
@@ -18329,8 +18329,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A nurse reports that a feeding tube has clogged. Which intervention is most appropriate as the first attempt to clear it?",
             "options": [
                 "Flush with warm water using a gentle push-pull technique",
-                "Instill carbonated cola and allow it to dwell",
-                "Flush with cranberry juice",
+                "Instill carbonated cola and allow it to dwell for 30 minutes",
+                "Flush with cranberry juice using a large-bore syringe",
                 "Advance a guidewire through the tube at the bedside"
             ],
             "correctIndex": 0,
@@ -18374,8 +18374,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Change to a fiber-containing formula and increase free water",
                 "Add a stimulant laxative daily and continue current regimen",
-                "Reduce the feeding rate by 25%",
-                "Switch to a semi-elemental formula"
+                "Reduce the feeding rate by 25% to reduce stool volume",
+                "Switch to a semi-elemental formula for easier digestion"
             ],
             "correctIndex": 0,
             "explanation": "Constipation in long-term tube feeding usually reflects inadequate fiber and inadequate free water. Moving to a fiber-containing formula and increasing free water addresses both causes directly, and 25 mL/kg is at the low end of typical adult requirements. Reaching first for a daily stimulant laxative treats the symptom while leaving the underlying deficits uncorrected and can produce dependence. Reducing the feeding rate worsens nutritional status and does not address stool consistency. A semi-elemental formula is designed for malabsorption, contains little or no fiber, and would be more likely to worsen the problem.",
@@ -18395,9 +18395,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient receiving enteral nutrition through a nasogastric tube is receiving phenytoin through the same tube. The neurology team reports subtherapeutic phenytoin levels despite dose increases. What is the most appropriate recommendation?",
             "options": [
                 "Hold the feeding for 1 to 2 hours before and after each phenytoin dose",
-                "Crush the phenytoin more finely before administration",
-                "Change to a fiber-free formula",
-                "Administer phenytoin with the formula to improve absorption"
+                "Crush the phenytoin more finely before administration and flush with water",
+                "Change to a fiber-free formula so the drug is not bound in the gut",
+                "Administer phenytoin with the formula to improve absorption and tolerance"
             ],
             "correctIndex": 0,
             "explanation": "Enteral formula binds phenytoin and markedly reduces its bioavailability, producing subtherapeutic levels even at escalating doses. The standard management is to hold the feeding for 1 to 2 hours before and after the dose, flush the tube, and account for the interrupted feeding time when calculating the daily volume. Grinding the tablet more finely does not change the binding interaction. Fiber is not the binding component, so a fiber-free formula does not resolve it. Giving the drug with formula maximizes the interaction and is the opposite of correct practice, and it risks breakthrough seizures.",
@@ -18416,10 +18416,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A critically ill patient on vasopressors at escalating doses is receiving trophic enteral feeding. The nurse reports new abdominal distension, absent bowel sounds and worsening metabolic acidosis. What is the most appropriate action?",
             "options": [
-                "Increase the feeding rate to meet full caloric needs",
+                "Increase the feeding rate to meet full caloric needs and support gut perfusion",
                 "Hold enteral feeding and notify the team for evaluation of bowel ischemia",
-                "Add a promotility agent and continue feeding",
-                "Switch to a fiber-containing formula"
+                "Add a promotility agent and continue feeding at the current trophic rate",
+                "Switch to a fiber-containing formula to restore bowel sounds and motility"
             ],
             "correctIndex": 1,
             "explanation": "This constellation in a patient on escalating vasopressors raises concern for non-occlusive mesenteric ischemia, a rare but catastrophic complication of feeding the hypoperfused gut. Feeding should be held and the team notified for urgent evaluation. Increasing the rate would add substrate demand to bowel that may already be ischemic. A promotility agent does not address perfusion and delays recognition of a surgical emergency. Adding fiber increases luminal bulk and fermentation in a compromised bowel and is contraindicated in suspected ischemia.",
@@ -18441,7 +18441,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Excess sodium content of the formula",
                 "Inadequate free water provision",
                 "Excessive protein in the formula",
-                "Refeeding syndrome"
+                "Refeeding syndrome from the formula"
             ],
             "correctIndex": 1,
             "explanation": "Hypernatremia in a tube-fed patient most often reflects a free water deficit rather than sodium excess. A calorie-dense 1.5 kcal/mL formula contains only about 76 to 78% water, so 1,500 mL supplies roughly 1,150 mL of water, and 120 mL of flushes brings the total to well under typical requirements. Enteral formulas are relatively low in sodium and rarely cause hypernatremia on their own. High protein raises the renal solute load and can contribute, but the dominant and directly correctable problem here is insufficient free water. Refeeding syndrome causes low phosphorus, potassium and magnesium, not elevated sodium.",
@@ -18483,8 +18483,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with a new jejunostomy is advanced to goal rate over 12 hours and develops cramping, tachycardia, diaphoresis and watery diarrhea about 30 minutes after each rate increase. What is the most appropriate intervention?",
             "options": [
                 "Reduce the infusion rate and advance more gradually",
-                "Change to a bolus schedule",
-                "Add a bulk-forming fiber supplement",
+                "Change to a bolus schedule given four times daily",
+                "Add a bulk-forming fiber supplement to each feeding",
                 "Discontinue enteral nutrition and begin parenteral nutrition"
             ],
             "correctIndex": 0,
@@ -18526,10 +18526,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with short bowel syndrome following extensive small bowel resection has persistent steatorrhea and poor absorption on a standard polymeric formula. Which formula change is most appropriate?",
             "options": [
-                "A high-fiber polymeric formula",
+                "A high-fiber polymeric formula with soluble fiber to slow transit and thicken stool",
                 "A semi-elemental formula with hydrolyzed protein and medium-chain triglycerides",
-                "A calorie-dense 2.0 kcal/mL polymeric formula",
-                "A renal formula low in electrolytes"
+                "A calorie-dense 2.0 kcal/mL polymeric formula to deliver more energy in less volume",
+                "A renal formula low in electrolytes to limit the osmotic load reaching the colon"
             ],
             "correctIndex": 1,
             "explanation": "Semi-elemental formulas provide peptides and free amino acids that need minimal digestion, plus medium-chain triglycerides that are absorbed directly into the portal circulation without bile salts or micelle formation. That combination is well suited to short bowel syndrome with limited absorptive surface. A high-fiber polymeric formula still requires intact digestive and absorptive capacity and adds osmotic and fermentative load. A calorie-dense polymeric formula concentrates the same poorly absorbed substrate and typically worsens steatorrhea. A renal formula addresses electrolyte and volume issues that are not the problem here.",
@@ -18548,10 +18548,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A ventilated patient with COPD is being weaned. A colleague suggests a high-fat, low-carbohydrate pulmonary formula to reduce carbon dioxide production. What is the most accurate response?",
             "options": [
-                "Pulmonary formulas are essential for all ventilated COPD patients",
+                "Pulmonary formulas are essential for all ventilated COPD patients during weaning",
                 "Avoiding overfeeding of total calories matters far more than the fat-to-carbohydrate ratio",
-                "Carbohydrate should be restricted to under 20% of total calories",
-                "High-fat formulas shorten ventilator days in all patients"
+                "Carbohydrate should be restricted to under 20% of total calories to limit carbon dioxide output",
+                "High-fat formulas shorten ventilator days in all patients regardless of total calories"
             ],
             "correctIndex": 1,
             "explanation": "Total energy delivery is the dominant driver of carbon dioxide production. Overfeeding, regardless of substrate mix, raises CO2 output far more than a modest shift in the fat-to-carbohydrate ratio, and current guidelines therefore emphasize avoiding overfeeding rather than routinely using specialty pulmonary formulas. Those formulas are not essential for all ventilated COPD patients and are more costly, with high fat content sometimes delaying gastric emptying. Restricting carbohydrate below 20% of calories is not an evidence-based target. The claim that high-fat formulas shorten ventilator days across patient populations is not supported by the trial evidence.",
@@ -18570,10 +18570,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A hemodialysis patient requiring tube feeding has persistent hyperkalemia and hyperphosphatemia. Which formula characteristic is most important?",
             "options": [
-                "High fiber content",
+                "High fiber content with added prebiotics to bind potassium",
                 "Restricted potassium and phosphorus with calorie density",
-                "Hydrolyzed protein",
-                "Added arginine and glutamine"
+                "Hydrolyzed protein with medium-chain triglycerides as fat",
+                "Added arginine and glutamine for immune support"
             ],
             "correctIndex": 1,
             "explanation": "Renal formulas designed for dialysis patients are calorie-dense to manage fluid, and are restricted in potassium, phosphorus and magnesium while providing adequate protein, since dialysis increases protein needs to roughly 1.2 g/kg. That combination directly addresses this patient's electrolyte abnormalities. High fiber content does not affect serum potassium or phosphorus meaningfully. Hydrolyzed protein is for malabsorption and does not change electrolyte load. Arginine and glutamine belong to immune-modulating formulas used in specific surgical and trauma contexts, and arginine in particular is not indicated here.",
@@ -18615,9 +18615,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient requires 90 g of protein daily but tolerates only 1,200 mL of a standard 1.0 kcal/mL formula providing 40 g of protein. What is the most appropriate intervention?",
             "options": [
                 "Add a modular protein supplement to the existing regimen",
-                "Increase the formula volume to 2,700 mL",
-                "Change to an elemental formula",
-                "Accept the protein deficit and monitor"
+                "Increase the formula volume to 2,700 mL over the next few days",
+                "Change to an elemental formula at the same tolerated volume",
+                "Accept the protein deficit and monitor weight and prealbumin"
             ],
             "correctIndex": 0,
             "explanation": "Modular protein products allow protein to be increased independently of volume and calories, which is exactly the constraint here: the patient tolerates a fixed volume but needs substantially more protein. Alternatively a high-protein formula could be selected. Increasing the volume to 2,700 mL exceeds documented tolerance and would deliver excess calories. An elemental formula addresses digestion and absorption, not protein quantity, and is generally lower in protein density while costing more. Accepting a 50 g daily protein deficit in a patient with elevated needs permits ongoing lean mass loss and is not appropriate when a straightforward solution exists.",
@@ -18636,10 +18636,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A caregiver of a home tube-fed child asks about using a blenderized whole-food formula instead of a commercial product. Which counseling point is most important?",
             "options": [
-                "Blenderized feeds cannot be used with any gastrostomy tube",
+                "Blenderized feeds cannot be used with any gastrostomy tube because whole foods clog every tube size",
                 "Blenderized feeds require attention to viscosity, tube size, food safety and nutrient adequacy",
-                "Blenderized feeds are nutritionally identical to commercial formula",
-                "Blenderized feeds eliminate the risk of tube clogging"
+                "Blenderized feeds are nutritionally identical to commercial formula when the same foods are used daily",
+                "Blenderized feeds eliminate the risk of tube clogging because whole foods contain natural fiber"
             ],
             "correctIndex": 1,
             "explanation": "Blenderized tube feeding is a legitimate option that many families prefer, but it requires careful planning. Higher viscosity demands an adequately sized tube, usually 14 French or larger, and gravity or syringe delivery. Home preparation raises food safety concerns around handling and hang time, and nutrient adequacy must be formally analyzed rather than assumed. It is not true that no gastrostomy tube can be used, since larger-bore gastrostomies handle blenderized feeds well, though narrow jejunostomy tubes generally cannot. Nutrient composition varies with the recipe and is not identical to commercial formula. Clogging risk is higher, not eliminated.",
@@ -18658,10 +18658,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with chylothorax following thoracic surgery requires enteral nutrition. Which formula characteristic is most appropriate?",
             "options": [
-                "High long-chain triglyceride content",
+                "High long-chain triglyceride content to replace fat lost in the chyle leak",
                 "Very low fat with medium-chain triglycerides as the primary fat source",
-                "High fiber with intact protein",
-                "Standard polymeric formula at 1.0 kcal/mL"
+                "High fiber with intact protein to support healing of the thoracic duct",
+                "Standard polymeric formula at 1.0 kcal/mL with extra water flushes"
             ],
             "correctIndex": 1,
             "explanation": "Chylothorax is managed nutritionally by minimizing lymphatic chyle flow. Long-chain triglycerides are absorbed into lymphatics as chylomicrons and increase chyle output, whereas medium-chain triglycerides pass directly into the portal circulation and bypass the lymphatic system. A very low fat formula using MCT as the primary fat source therefore reduces drainage and supports leak closure. A high long-chain triglyceride formula does the opposite and would worsen the leak. Fiber and protein form are not the determining variables. A standard polymeric formula contains predominantly long-chain fat and is not appropriate.",
@@ -18680,10 +18680,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which statement best describes free water content in enteral formulas?",
             "options": [
-                "All enteral formulas are approximately 90% water regardless of caloric density",
+                "All enteral formulas are approximately 90% water regardless of caloric density, from 1.0 through 2.0 kcal/mL products",
                 "Water content decreases as caloric density increases, from about 85% in 1.0 kcal/mL to about 70% in 2.0 kcal/mL formulas",
-                "Water content increases with caloric density",
-                "Free water content is identical to total formula volume"
+                "Water content increases with caloric density, from about 70% in 1.0 kcal/mL to about 85% in 2.0 kcal/mL formulas",
+                "Free water content is identical to total formula volume, so no additional flushes are needed to meet fluid needs"
             ],
             "correctIndex": 1,
             "explanation": "As formula becomes more calorie-dense, nutrients displace water, so free water content falls. A 1.0 kcal/mL formula is roughly 85% water, a 1.5 kcal/mL formula about 76 to 78%, and a 2.0 kcal/mL formula around 70%. This is why calorie-dense formulas require careful attention to supplemental water flushes and are a common cause of hypernatremia when flushes are neglected. Formulas are not uniformly 90% water. Water content decreases rather than increases with density. Treating the entire formula volume as free water overestimates water delivery and is a frequent clinical error.",
@@ -18702,10 +18702,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with poorly controlled type 2 diabetes on continuous tube feeding has persistent blood glucose readings between 240 and 300 mg/dL despite basal insulin. Which formula-related change is most appropriate to consider alongside insulin adjustment?",
             "options": [
-                "Switch to a formula with a higher simple sugar content",
+                "Switch to a formula with a higher simple sugar content so insulin can be matched to predictable glucose peaks",
                 "Consider a diabetes-specific formula with lower carbohydrate, higher monounsaturated fat and added fiber",
-                "Change to an elemental formula",
-                "Increase the infusion rate to shorten total feeding time"
+                "Change to an elemental formula, whose predigested nutrients are absorbed more slowly and evenly",
+                "Increase the infusion rate to shorten total feeding time and leave longer glucose-free intervals each day"
             ],
             "correctIndex": 1,
             "explanation": "Diabetes-specific formulas reduce the carbohydrate proportion, replace part of it with monounsaturated fat, and add fiber, which blunts the glycemic response and can modestly improve control as an adjunct to appropriate insulin dosing. Increasing simple sugar content would worsen hyperglycemia. Elemental formulas contain rapidly absorbed carbohydrate, often as maltodextrin or glucose oligosaccharides, and typically raise glucose further while offering no benefit absent malabsorption. Increasing the infusion rate delivers the same carbohydrate load over less time, producing higher glucose peaks rather than better control.",
@@ -18768,10 +18768,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which patient is at highest risk for inadequate fluid intake and dehydration?",
             "options": [
-                "A 30-year-old athlete with free access to water",
+                "A 30-year-old athlete with free access to water who trains outdoors in summer heat",
                 "An 85-year-old nursing home resident with dementia and dependence on staff for drinks",
-                "A 45-year-old office worker who drinks coffee",
-                "A 25-year-old on a high-protein diet with normal renal function"
+                "A 45-year-old office worker who drinks coffee throughout the day instead of water",
+                "A 25-year-old on a high-protein diet with normal renal function and intact thirst"
             ],
             "correctIndex": 1,
             "explanation": "Older adults have a blunted thirst sensation, reduced renal concentrating ability and lower total body water, and when dementia and dependence on caregivers are added, intake becomes entirely reliant on someone else offering and assisting with drinks. That combination makes this resident the highest-risk patient. A healthy athlete with free water access can self-regulate effectively. Coffee contributes to daily fluid intake and its mild diuretic effect does not produce net dehydration at habitual intakes. A high-protein diet raises renal solute load and modestly increases water needs, but an alert young adult with normal kidneys and intact thirst readily compensates.",
@@ -18813,9 +18813,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which combination of findings best supports a clinical assessment of dehydration?",
             "options": [
                 "Elevated BUN-to-creatinine ratio, concentrated urine, decreased skin turgor and orthostatic hypotension",
-                "Low serum sodium with peripheral edema",
-                "Elevated serum albumin with weight gain",
-                "Bradycardia with dilute urine"
+                "Low serum sodium with peripheral edema, jugular venous distension, crackles on auscultation and a recent weight gain",
+                "Elevated serum albumin with weight gain, pitting edema and a low urine specific gravity",
+                "Bradycardia with dilute urine, moist mucous membranes and a normal BUN-to-creatinine ratio"
             ],
             "correctIndex": 0,
             "explanation": "Dehydration is a hemoconcentration state. A BUN-to-creatinine ratio above roughly 20 to 1, concentrated urine with high specific gravity, decreased skin turgor and orthostatic blood pressure changes form a coherent picture of volume depletion. Low sodium with peripheral edema suggests fluid overload with dilutional hyponatremia, the opposite problem. Elevated albumin can accompany hemoconcentration, but pairing it with weight gain is contradictory, since dehydration produces acute weight LOSS. Bradycardia with dilute urine is inconsistent, because volume depletion typically produces compensatory tachycardia and maximally concentrated urine.",
@@ -18834,10 +18834,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with syndrome of inappropriate antidiuretic hormone secretion has a serum sodium of 124 mEq/L. What is the primary nutrition-related intervention?",
             "options": [
-                "Increase free water intake",
-                "Fluid restriction",
+                "Increase free water intake to dilute urine",
+                "Fluid restriction, typically to about 800 to 1,000 mL per day",
                 "High-sodium intravenous fluids as first-line therapy in all cases",
-                "Protein restriction"
+                "Protein restriction to lower urea solute load"
             ],
             "correctIndex": 1,
             "explanation": "In SIADH, excess antidiuretic hormone causes water retention and dilutional hyponatremia, so the cornerstone of management is fluid restriction, commonly 800 to 1,000 mL per day, sometimes with increased dietary solute. Increasing free water would deepen the hyponatremia and risk cerebral edema and seizures. Hypertonic saline is reserved for severe symptomatic hyponatremia with neurologic manifestations and must be corrected slowly to avoid osmotic demyelination, so it is not a first-line measure in all cases. Protein restriction is not indicated; if anything, solute intake may be increased to promote water excretion.",
@@ -18856,10 +18856,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient receives 2,000 kcal daily from tube feeding. Using the 1 mL per kilocalorie method, what is the estimated fluid requirement, and how does formula water factor in?",
             "options": [
-                "2,000 mL total, all of which is supplied by a 1.5 kcal/mL formula",
+                "2,000 mL total, all of which is supplied by a 1.5 kcal/mL formula without extra flushes",
                 "2,000 mL total, with additional water flushes needed because formula is only 70 to 85% water",
-                "1,000 mL total, since formula counts double",
-                "4,000 mL total to account for insensible losses"
+                "1,000 mL total, since formula counts double because of its higher nutrient concentration",
+                "4,000 mL total to account for insensible losses through the skin, lungs and stool each day"
             ],
             "correctIndex": 1,
             "explanation": "The 1 mL per kilocalorie method estimates about 2,000 mL for a 2,000 kcal intake. The critical clinical point is that formula volume is not equivalent to free water: a 1.5 kcal/mL formula is roughly 76 to 78% water, so 1,333 mL of formula supplies only about 1,020 mL of water, leaving a deficit that flushes must cover. Claiming the formula supplies it all is the exact error that produces hypernatremia. Formula water does not count double. Multiplying to 4,000 mL doubles the requirement without physiologic basis and risks overload.",
@@ -18878,10 +18878,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 70 kg burn patient with 40% total body surface area burns is in the first 24 hours post-injury. Which statement about fluid management is most accurate?",
             "options": [
-                "Fluid needs are unchanged from baseline maintenance",
+                "Fluid needs are unchanged from baseline maintenance, since the intact skin surrounding the burn limits evaporative loss",
                 "Fluid needs are markedly increased due to evaporative and capillary leak losses, guided by formal resuscitation formulas",
-                "Fluids should be restricted to prevent edema",
-                "Only oral fluids should be used in the first 24 hours"
+                "Fluids should be restricted to prevent edema, which worsens as capillary leak peaks during the first day after injury",
+                "Only oral fluids should be used in the first 24 hours, to protect the gut and avoid the complications of intravenous lines"
             ],
             "correctIndex": 1,
             "explanation": "Major burns cause massive fluid shifts from capillary leak plus large evaporative losses through the damaged skin barrier, so requirements far exceed maintenance and are calculated with formal resuscitation formulas such as the Parkland formula, titrated to urine output. Assuming baseline maintenance would lead to under-resuscitation and hypovolemic shock. Restricting fluids to prevent edema is dangerous in the resuscitation phase, when intravascular volume must be preserved. Relying on oral fluids alone is inadequate for a 40% burn, where intravenous resuscitation is required in the first 24 hours.",
@@ -18901,9 +18901,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Under United States labeling law, which group represents the major food allergens that must be declared on packaged foods?",
             "options": [
                 "Milk, egg, peanut, tree nuts, soy, wheat, fish, crustacean shellfish and sesame",
-                "Milk, egg, corn, rice, soy, wheat, beef and pork",
-                "Peanut, tree nuts, chocolate, citrus, tomato and strawberry",
-                "Gluten, lactose, fructose, sorbitol and caffeine"
+                "Milk, egg, corn, rice, soy, wheat, beef, pork, chicken and mollusk shellfish",
+                "Peanut, tree nuts, chocolate, citrus, tomato, strawberry, mustard and celery",
+                "Gluten, lactose, fructose, sorbitol, caffeine, sulfites and monosodium glutamate"
             ],
             "correctIndex": 0,
             "explanation": "The Food Allergen Labeling and Consumer Protection Act established eight major allergens, and the FASTER Act added sesame as the ninth effective January 2023. These nine must be clearly declared on packaged food labels. Corn, rice, beef and pork are not among the required declarations despite being possible allergens for individuals. Chocolate, citrus, tomato and strawberry are common triggers of non-immune reactions and folklore about allergy, but are not regulated major allergens. Gluten, lactose, fructose and sorbitol represent intolerances and sensitivities rather than IgE-mediated allergens, and are governed by different labeling rules.",
@@ -18924,8 +18924,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Confirmed peanut allergy requiring strict avoidance",
                 "Sensitization without clinical allergy",
-                "A false negative test",
-                "Oral allergy syndrome"
+                "A false negative result on the skin prick test",
+                "Oral allergy syndrome from peanut cross-reactivity"
             ],
             "correctIndex": 1,
             "explanation": "A positive skin prick test or specific IgE indicates SENSITIZATION, meaning IgE antibodies are present, but it does not by itself establish clinical allergy. When a child tolerates the food on regular ingestion, the appropriate interpretation is sensitization without clinical reactivity, and the food should not be removed. Declaring confirmed allergy and imposing strict avoidance on the basis of a test alone is a common and harmful error that can lead to unnecessary elimination and even loss of tolerance. This is a positive test, so it cannot be a false negative. Oral allergy syndrome involves pollen cross-reactive raw fruits and vegetables with oropharyngeal itching, which is not described here.",
@@ -18944,10 +18944,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "What is considered the gold standard for diagnosing food allergy?",
             "options": [
-                "Serum specific IgE panel",
+                "Serum specific IgE panel against common food allergens",
                 "Double-blind, placebo-controlled oral food challenge",
-                "IgG food sensitivity testing",
-                "Elimination diet alone"
+                "IgG food sensitivity testing with a broad antigen panel",
+                "Elimination diet alone, followed by symptom tracking"
             ],
             "correctIndex": 1,
             "explanation": "The double-blind, placebo-controlled oral food challenge is the diagnostic gold standard, because it directly tests whether ingestion produces a reproducible clinical reaction while removing patient and observer bias. Serum specific IgE panels detect sensitization and carry a high false-positive rate when ordered as broad panels without clinical correlation. IgG food sensitivity testing is not validated for food allergy diagnosis and is specifically discouraged by allergy organizations, since IgG to foods reflects normal exposure. An elimination diet can generate a hypothesis and is a useful step, but without a controlled reintroduction it cannot confirm the diagnosis.",
@@ -18966,10 +18966,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Current guidance on preventing peanut allergy in high-risk infants, based on the LEAP trial, recommends which approach?",
             "options": [
-                "Avoid all peanut products until age 3",
+                "Avoid all peanut products until age 3, when the gut barrier is mature enough to tolerate peanut protein",
                 "Introduce age-appropriate peanut-containing foods early, around 4 to 6 months, after appropriate evaluation",
-                "Introduce peanut only after allergy testing is negative at age 5",
-                "Maternal peanut avoidance during pregnancy and lactation"
+                "Introduce peanut only after allergy testing is negative at age 5, to confirm tolerance before any exposure",
+                "Maternal peanut avoidance during pregnancy and lactation, so the infant is never sensitized through the mother"
             ],
             "correctIndex": 1,
             "explanation": "The Learning Early About Peanut Allergy trial demonstrated that early introduction of peanut in high-risk infants substantially reduces peanut allergy development, reversing decades of avoidance advice. Guidelines now recommend introducing age-appropriate peanut-containing foods around 4 to 6 months for high-risk infants, with evaluation such as specific IgE testing or supervised feeding for those with severe eczema or egg allergy. Avoiding peanut until age 3 reflects the outdated recommendation that the trial overturned. Delaying until age 5 compounds that error. Maternal avoidance during pregnancy and lactation has not been shown to prevent allergy and is not recommended.",
@@ -18988,10 +18988,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with a milk allergy asks whether lactose-free milk is safe. What is the most accurate response?",
             "options": [
-                "Lactose-free milk is safe because the allergen has been removed",
+                "Lactose-free milk is safe because the allergen has been removed during processing",
                 "Lactose-free milk still contains milk proteins and is not safe for milk allergy",
-                "Lactose-free milk is safe if consumed in small amounts",
-                "Lactose-free milk is safe only when heated"
+                "Lactose-free milk is safe if consumed in small amounts spread through the day",
+                "Lactose-free milk is safe only when heated enough to denature the milk proteins"
             ],
             "correctIndex": 1,
             "explanation": "Milk allergy is an immune reaction to milk PROTEINS, principally casein and whey. Lactose-free milk has simply had the lactose enzymatically hydrolyzed; all the proteins remain, so it is not safe for someone with milk allergy. This is one of the most consequential confusions in allergy counseling, since lactose intolerance is a digestive enzyme deficiency while milk allergy is immune-mediated. Small amounts are still dangerous, because IgE-mediated reactions can occur with trace exposure. Heating denatures some proteins and a subset of children tolerate baked milk, but this must be established through supervised challenge and does not make lactose-free milk safe.",
@@ -19010,10 +19010,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient reports itching of the lips and throat when eating raw apples and carrots, but no symptoms when these foods are cooked. He has a history of birch pollen allergy. What is the most likely diagnosis?",
             "options": [
-                "Systemic anaphylaxis to apple and carrot",
+                "Systemic anaphylaxis to apple and carrot storage proteins",
                 "Oral allergy syndrome from pollen-food cross-reactivity",
-                "Celiac disease",
-                "Scombroid poisoning"
+                "Celiac disease from gluten cross-contact in raw produce",
+                "Scombroid poisoning from histamine in stored foods"
             ],
             "correctIndex": 1,
             "explanation": "Oral allergy syndrome, also called pollen-food allergy syndrome, results from cross-reactivity between pollen proteins and structurally similar proteins in raw fruits and vegetables. Birch pollen commonly cross-reacts with apple, carrot, celery, cherry and hazelnut. Because the responsible proteins are heat-labile, cooking eliminates symptoms, which is exactly the pattern described. Systemic anaphylaxis would not spare cooked forms and would involve more than oropharyngeal symptoms. Celiac disease is an immune reaction to gluten with intestinal manifestations, unrelated to raw produce. Scombroid poisoning is histamine toxicity from improperly stored fish and presents with flushing and headache after eating fish.",
@@ -19054,10 +19054,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with celiac disease continues to have positive tissue transglutaminase antibodies and symptoms after 12 months on a gluten-free diet. What is the most likely explanation?",
             "options": [
-                "Refractory celiac disease is the most common cause",
+                "Refractory celiac disease is the most common cause of persistent antibodies after one year",
                 "Ongoing inadvertent gluten exposure from cross-contact or hidden sources",
-                "The diagnosis of celiac disease was incorrect",
-                "Lactose intolerance is causing the antibody elevation"
+                "The diagnosis of celiac disease was incorrect from the original biopsy",
+                "Lactose intolerance is causing the antibody elevation and symptoms"
             ],
             "correctIndex": 1,
             "explanation": "The overwhelmingly most common reason for persistent symptoms and antibodies in treated celiac disease is continued gluten exposure, whether from cross-contact in food preparation, hidden sources in medications, supplements or sauces, or incomplete understanding of the diet. A detailed dietary review with an experienced dietitian is the appropriate next step. Refractory celiac disease is genuinely rare and is a diagnosis of exclusion made only after inadvertent exposure is thoroughly ruled out. Reconsidering the diagnosis is reasonable eventually but comes after exposure is excluded. Lactose intolerance can cause residual symptoms but does not elevate tissue transglutaminase antibodies.",
@@ -19078,8 +19078,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Contains less than 20 parts per million of gluten",
                 "Contains less than 200 parts per million of gluten",
-                "Made without wheat",
-                "Processed in a gluten-free facility"
+                "Made without wheat, barley or rye ingredients",
+                "Processed in a dedicated gluten-free facility"
             ],
             "correctIndex": 0,
             "explanation": "The FDA gluten-free labeling rule requires that a product contain less than 20 parts per million of gluten, a threshold set because it is the lowest reliably detectable level and is tolerated by most people with celiac disease. A 200 parts per million threshold is ten times too permissive and would cause harm. The phrase made without wheat is insufficient, since barley and rye also contain gluten and a wheat-free product can still contain gluten. A statement about the processing facility addresses cross-contact risk but is a voluntary advisory claim, not the regulated gluten-free standard.",
@@ -19098,10 +19098,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "An infant with cow's milk protein allergy continues to have blood-streaked stools while exclusively breastfed. What is the most appropriate first recommendation?",
             "options": [
-                "Wean immediately to a soy-based formula",
+                "Wean immediately to a soy-based formula so the infant no longer receives cow's milk protein",
                 "Maternal elimination of cow's milk protein from her diet while continuing breastfeeding",
-                "Switch to an amino acid-based formula immediately",
-                "Introduce solid foods early to displace breast milk"
+                "Switch to an amino acid-based formula immediately and stop breastfeeding until symptoms resolve",
+                "Introduce solid foods early to displace breast milk and reduce exposure to maternal dairy proteins"
             ],
             "correctIndex": 1,
             "explanation": "Cow's milk proteins pass into breast milk, so the first step in a breastfed infant with cow's milk protein allergy is maternal elimination of dairy while breastfeeding continues, with calcium and vitamin D support for the mother and reassessment after two to four weeks. Weaning to soy formula is inappropriate as a first step, since breastfeeding should be preserved and a substantial proportion of these infants also react to soy. Amino acid-based formula is reserved for severe cases or failure of extensively hydrolyzed formula, and it is not the first move in a breastfed infant. Early introduction of solids does not treat the allergy and is not developmentally appropriate as a substitute for breast milk.",
@@ -19142,10 +19142,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "According to World Health Organization guidance, how do energy requirements change for an adult with symptomatic HIV infection?",
             "options": [
-                "No change from healthy adult requirements",
+                "No change from healthy adult requirements while viral load is detectable",
                 "Increased by approximately 20 to 30% above normal requirements",
-                "Decreased by 15% due to reduced activity",
-                "Increased by 100%"
+                "Decreased by 15% due to reduced activity during symptomatic illness",
+                "Increased by 100% above normal requirements during symptomatic infection"
             ],
             "correctIndex": 1,
             "explanation": "The World Health Organization estimates that energy requirements rise roughly 10% above normal in asymptomatic HIV infection and about 20 to 30% during symptomatic disease, reflecting the metabolic cost of chronic immune activation, opportunistic infection and fever. Assuming no change would systematically underfeed symptomatic patients and contribute to wasting. Reducing intake by 15% for lower activity ignores the dominant hypermetabolic and inflammatory drivers. A 100% increase far exceeds any evidence-based estimate and would risk overfeeding with hyperglycemia and hepatic complications.",
@@ -19165,9 +19165,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which food safety guidance is most important for a patient with advanced HIV and a CD4 count below 200 cells/mm3?",
             "options": [
                 "Avoid unpasteurized dairy, raw or undercooked eggs, meat, and seafood, and untreated water",
-                "Avoid all raw fruits and vegetables permanently",
-                "Consume only canned foods",
-                "Avoid all dietary fiber"
+                "Avoid all raw fruits and vegetables permanently, even when washed, peeled or commercially packaged",
+                "Consume only canned foods and shelf-stable products to eliminate any bacterial exposure",
+                "Avoid all dietary fiber to reduce gut bacterial load and the risk of bacterial translocation"
             ],
             "correctIndex": 0,
             "explanation": "Severe immunosuppression raises the risk and severity of foodborne infection, so guidance centers on avoiding high-risk items: unpasteurized dairy and juice, raw or undercooked eggs, meat, poultry and seafood, raw sprouts, and untreated water. Careful handwashing, safe temperatures and prompt refrigeration matter as well. Blanket avoidance of all raw produce is excessive; thorough washing makes most fruits and vegetables safe and they supply important nutrients. Limiting the diet to canned foods is unnecessarily restrictive and nutritionally poor. Fiber has no bearing on foodborne infection risk and supports gastrointestinal health.",
@@ -19186,9 +19186,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with HIV presents with involuntary loss of 12% of body weight over two months, chronic diarrhea and fever. Which diagnosis best fits?",
             "options": [
-                "Lipodystrophy syndrome",
-                "HIV wasting syndrome",
-                "Metabolic syndrome",
+                "Lipodystrophy syndrome with fat loss",
+                "HIV wasting syndrome, an AIDS-defining condition",
+                "Metabolic syndrome with central obesity",
                 "Immune reconstitution inflammatory syndrome"
             ],
             "correctIndex": 1,
@@ -19208,9 +19208,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which protein recommendation is generally appropriate for an adult with HIV and stable weight without wasting?",
             "options": [
-                "0.6 g/kg per day",
-                "1.0 to 1.4 g/kg per day",
-                "3.0 g/kg per day",
+                "0.6 to 0.8 g/kg per day to protect the kidneys",
+                "1.0 to 1.4 g/kg per day to preserve lean body mass",
+                "3.0 to 3.5 g/kg per day to rebuild lean mass",
                 "No protein recommendation differs from the general population"
             ],
             "correctIndex": 1,
@@ -19230,10 +19230,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient on antiretroviral therapy reports taking St. John's wort for mood. What is the most appropriate response?",
             "options": [
-                "It is a safe complementary therapy with no interactions",
+                "It is a safe complementary therapy with no interactions, since herbal products are not metabolized by the liver",
                 "It induces cytochrome P450 enzymes and can reduce antiretroviral drug levels, risking treatment failure",
-                "It should be taken with food to improve absorption",
-                "It enhances antiretroviral effectiveness"
+                "It should be taken with food to improve absorption and reduce the gastrointestinal side effects of therapy",
+                "It enhances antiretroviral effectiveness by inhibiting the enzymes that break down protease inhibitors"
             ],
             "correctIndex": 1,
             "explanation": "St. John's wort is a potent inducer of cytochrome P450 3A4 and P-glycoprotein, and it markedly lowers plasma concentrations of protease inhibitors and non-nucleoside reverse transcriptase inhibitors. The result can be virologic failure and the emergence of resistance, so it is contraindicated with these regimens and the patient needs prompt counseling and a safer approach to mood management. Describing it as free of interactions is dangerously wrong. Advice about taking it with food is irrelevant to the interaction. It reduces rather than enhances antiretroviral effectiveness.",
@@ -19252,10 +19252,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with HIV has chronic diarrhea and documented lactose intolerance. Which intervention is most appropriate?",
             "options": [
-                "Eliminate all dairy products permanently",
+                "Eliminate all dairy products permanently and rely on the diet alone for calcium and vitamin D",
                 "Use lactose-reduced dairy or lactase enzyme and maintain calcium and vitamin D intake",
-                "Increase intake of high-fat dairy",
-                "Restrict all fluids to reduce stool output"
+                "Increase intake of high-fat dairy, since fat slows transit and reduces lactose-related symptoms",
+                "Restrict all fluids to reduce stool output until the diarrhea and cramping have fully resolved"
             ],
             "correctIndex": 1,
             "explanation": "Secondary lactase deficiency is common with HIV enteropathy and mucosal injury. Using lactose-reduced dairy products or a lactase enzyme supplement allows continued intake of calcium and vitamin D, which matters given the elevated risk of low bone density in this population. Permanently eliminating all dairy is unnecessarily restrictive and jeopardizes bone health unless calcium and vitamin D are deliberately replaced. Increasing high-fat dairy would worsen diarrhea if fat malabsorption coexists and does not address the lactose. Restricting fluids in a patient with chronic diarrhea invites dehydration and acute kidney injury.",
@@ -19274,10 +19274,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which cardiovascular consideration is most relevant when counseling a patient on long-term antiretroviral therapy?",
             "options": [
-                "Antiretroviral therapy eliminates cardiovascular risk",
+                "Antiretroviral therapy eliminates cardiovascular risk by suppressing the chronic inflammation that drives atherosclerosis",
                 "Certain regimens are associated with dyslipidemia and insulin resistance, warranting lipid monitoring and cardioprotective dietary counseling",
-                "Cholesterol screening is unnecessary before age 60",
-                "Dietary fat should be eliminated entirely"
+                "Cholesterol screening is unnecessary before age 60, since antiretroviral-related lipid changes appear only in older adults after years on therapy",
+                "Dietary fat should be eliminated entirely to offset the lipid elevations that some antiretroviral regimens produce"
             ],
             "correctIndex": 1,
             "explanation": "Several antiretroviral agents, particularly some protease inhibitors, are associated with elevated triglycerides and LDL cholesterol along with insulin resistance, and chronic HIV-related inflammation independently raises cardiovascular risk. Routine lipid and glucose monitoring plus cardioprotective dietary counseling emphasizing unsaturated fats, fiber and limited refined carbohydrate is therefore standard. Antiretroviral therapy does not eliminate cardiovascular risk; it changes the risk profile. Deferring cholesterol screening to age 60 ignores accelerated risk in this population. Eliminating dietary fat entirely is neither feasible nor advisable, since essential fatty acids and fat-soluble vitamin absorption depend on it.",
@@ -19297,9 +19297,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient taking phenelzine, a monoamine oxidase inhibitor, requires dietary counseling. Which foods must be avoided?",
             "options": [
                 "Aged cheeses, cured meats, fermented soy products and tap beer",
-                "All dairy products and fresh fruit",
-                "High-fiber grains and legumes",
-                "Citrus fruits and tomatoes"
+                "All dairy products and fresh fruit, including milk, yogurt and bananas",
+                "High-fiber grains and legumes such as oats, bran, lentils and beans",
+                "Citrus fruits and tomatoes, along with fresh juices made from them"
             ],
             "correctIndex": 0,
             "explanation": "Monoamine oxidase inhibitors block the enzyme that degrades tyramine, so dietary tyramine reaches the circulation and displaces norepinephrine, producing a hypertensive crisis. High-tyramine foods result from aging, curing or fermentation, and include aged cheeses, cured and fermented meats, fermented soy products such as miso and soy sauce, sauerkraut, and tap or draft beer. Fresh dairy and fresh fruit are low in tyramine and need not be avoided. High-fiber grains and legumes contain no meaningful tyramine. Citrus and tomatoes are not tyramine sources, though this misconception is common.",
@@ -19318,10 +19318,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient stabilized on lithium reports starting a strict low-sodium diet for blood pressure. What is the most important counseling point?",
             "options": [
-                "Low sodium intake has no effect on lithium",
+                "Low sodium intake has no effect on lithium, because lithium is cleared by the liver rather than the kidneys",
                 "Sodium restriction can raise lithium levels and risk toxicity, so intake should be consistent and levels monitored",
-                "Sodium should be increased to very high levels to protect against toxicity",
-                "Lithium requires a high-protein diet"
+                "Sodium should be increased to very high levels to protect against toxicity and keep lithium in the therapeutic range",
+                "Lithium requires a high-protein diet to maintain renal clearance and prevent the drug from accumulating"
             ],
             "correctIndex": 1,
             "explanation": "Lithium is handled by the kidney much like sodium. When sodium intake falls, the proximal tubule reabsorbs more sodium and correspondingly more lithium, raising serum levels toward the toxic range, which begins near 1.5 mEq/L. Dehydration and diuretics act the same way. The key counseling point is to keep sodium intake CONSISTENT rather than abruptly restricted, and to monitor levels with any change. Saying sodium has no effect misses a clinically dangerous interaction. Deliberately loading sodium to very high levels would lower lithium into the subtherapeutic range and conflicts with blood pressure goals. Protein intake does not govern lithium clearance.",
@@ -19341,9 +19341,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient started on olanzapine, a second-generation antipsychotic, is at highest risk for which nutrition-related outcome?",
             "options": [
                 "Significant weight gain and metabolic syndrome",
-                "Severe weight loss",
-                "Hypokalemia",
-                "Vitamin K deficiency"
+                "Severe weight loss and appetite suppression",
+                "Hypokalemia with muscle weakness and arrhythmia",
+                "Vitamin K deficiency and easy bruising"
             ],
             "correctIndex": 0,
             "explanation": "Olanzapine carries one of the highest risks of weight gain among second-generation antipsychotics, along with dyslipidemia and impaired glucose tolerance, and clozapine is comparable. Guidelines therefore call for baseline and ongoing monitoring of weight, waist circumference, lipids and glucose, with early lifestyle intervention. Severe weight loss is the opposite of the expected effect. Hypokalemia is not a characteristic feature of this drug class. Vitamin K deficiency relates to fat malabsorption, prolonged antibiotics or warfarin interactions, not to antipsychotic therapy.",
@@ -19362,10 +19362,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with severe anorexia nervosa and a BMI of 12.8 kg/m2 is admitted for refeeding. Which approach is most appropriate?",
             "options": [
-                "Begin at full estimated energy needs to restore weight rapidly",
+                "Begin at full estimated energy needs to restore weight rapidly and shorten the length of hospital stay",
                 "Start conservatively with close electrolyte monitoring, thiamine supplementation and gradual advancement",
-                "Withhold nutrition for 48 hours to stabilize electrolytes first",
-                "Provide only oral intake with no monitoring"
+                "Withhold nutrition for 48 hours to stabilize electrolytes first, then start at full estimated energy needs",
+                "Provide only oral intake with no monitoring, since refeeding complications occur only with tube feeding"
             ],
             "correctIndex": 1,
             "explanation": "Patients at this degree of starvation are at very high risk of refeeding syndrome, so the standard approach is a cautious start, thiamine before or with the first carbohydrate load, daily monitoring and repletion of phosphorus, potassium and magnesium, and gradual advancement guided by laboratory trends and cardiac status. Starting at full estimated needs is the classic error that precipitates life-threatening hypophosphatemia and arrhythmia. Withholding nutrition for 48 hours prolongs starvation and does not prevent the syndrome, since the risk arises when feeding begins. Providing oral intake without monitoring ignores the very complication that makes this admission necessary.",
@@ -19384,10 +19384,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which counseling approach is most consistent with motivational interviewing when a patient expresses ambivalence about changing eating habits?",
             "options": [
-                "Tell the patient directly what they must change and warn of consequences",
+                "Tell the patient directly what they must change and warn of the health consequences",
                 "Explore the patient's own reasons for and against change and support their autonomy",
-                "Provide a detailed meal plan and end the session",
-                "Refer the patient elsewhere until they are ready"
+                "Provide a detailed meal plan and end the session with a follow-up appointment",
+                "Refer the patient elsewhere until they are ready to commit to specific goals"
             ],
             "correctIndex": 1,
             "explanation": "Motivational interviewing is a collaborative, patient-centered method that treats ambivalence as normal and works by evoking the patient's own motivations rather than supplying the clinician's. Exploring reasons for and against change while explicitly supporting autonomy is its core technique and tends to elicit change talk. Directive warnings often produce resistance, since confrontation strengthens the argument against change. Handing over a meal plan and ending the session skips the readiness question entirely and rarely produces adherence in an ambivalent patient. Deferring the patient until they are ready misunderstands the method, whose purpose is precisely to help build that readiness.",
@@ -19406,10 +19406,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with chronic alcohol use disorder presents with confusion, ophthalmoplegia and ataxia. Which intervention takes priority?",
             "options": [
-                "Administer intravenous glucose immediately",
+                "Administer intravenous glucose immediately, then thiamine",
                 "Administer thiamine before or with any glucose load",
-                "Provide a high-protein meal",
-                "Begin magnesium supplementation alone"
+                "Provide a high-protein meal to correct malnutrition",
+                "Begin magnesium supplementation alone as first step"
             ],
             "correctIndex": 1,
             "explanation": "This triad indicates Wernicke encephalopathy from thiamine deficiency. Thiamine is a cofactor for pyruvate dehydrogenase and transketolase, so giving a glucose load first consumes remaining thiamine and can precipitate or worsen the encephalopathy, potentially progressing to irreversible Korsakoff syndrome. Thiamine must therefore be given before or together with glucose. Immediate glucose alone is the specific error to avoid. A high-protein meal does not treat an acute thiamine deficiency emergency. Magnesium is a relevant cofactor for thiamine-dependent enzymes and is often repleted alongside, but on its own it does not treat the deficiency.",
@@ -19429,9 +19429,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which laboratory or clinical finding is most characteristic of a patient with bulimia nervosa engaging in frequent self-induced vomiting?",
             "options": [
                 "Hypokalemic metabolic alkalosis with dental enamel erosion",
-                "Hyperkalemic metabolic acidosis",
-                "Elevated serum phosphorus",
-                "Macrocytic anemia"
+                "Hyperkalemic metabolic acidosis with parotid gland atrophy",
+                "Elevated serum phosphorus with generalized muscle hypertonia",
+                "Macrocytic anemia with glossitis and peripheral neuropathy"
             ],
             "correctIndex": 0,
             "explanation": "Repeated vomiting loses gastric hydrogen and chloride, producing metabolic alkalosis, while volume depletion drives aldosterone-mediated potassium wasting, producing hypokalemia. Gastric acid contact also erodes dental enamel on the lingual surfaces, and parotid enlargement and Russell sign on the knuckles may accompany it. Hyperkalemic metabolic acidosis is the opposite pattern and would suggest renal failure or tissue breakdown. Elevated phosphorus is not characteristic, and phosphorus more often falls during refeeding. Macrocytic anemia points toward B12 or folate deficiency or alcohol use rather than purging behavior.",
@@ -19450,10 +19450,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with major depressive disorder asks whether nutrition affects mood. Which evidence-based statement is most appropriate?",
             "options": [
-                "Specific supplements reliably cure depression without other treatment",
+                "Specific supplements reliably cure depression without other treatment, particularly high-dose omega-3 fatty acids, vitamin D, folate and St. John's wort",
                 "Overall dietary patterns rich in vegetables, fruit, whole grains, fish and legumes are associated with lower depression risk, as an adjunct to standard care",
-                "Nutrition has no relationship to mental health",
-                "Eliminating all carbohydrates resolves depressive symptoms"
+                "Nutrition has no relationship to mental health once psychotherapy and antidepressant medication have been started for depression",
+                "Eliminating all carbohydrates resolves depressive symptoms by stabilizing blood glucose, reducing systemic inflammation and improving sleep"
             ],
             "correctIndex": 1,
             "explanation": "Observational and some interventional evidence links Mediterranean-style dietary patterns, rich in vegetables, fruit, whole grains, fish and legumes, with lower risk and severity of depressive symptoms, and diet is appropriately framed as an adjunct to psychotherapy and pharmacotherapy rather than a replacement. Claiming supplements cure depression on their own overstates the evidence and could lead a patient to abandon effective treatment. Asserting no relationship dismisses a consistent body of research. Eliminating all carbohydrates has no evidence base for depression and may worsen mood, since carbohydrate availability influences tryptophan transport and serotonin synthesis.",
@@ -19472,7 +19472,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient on parenteral nutrition for 10 days develops a fever of 38.9 C and rigors within 30 minutes of a PN bag change. Blood cultures drawn peripherally and from the catheter are pending. What is the most likely complication?",
             "options": [
-                "Refeeding syndrome",
+                "Refeeding syndrome from the dextrose load",
                 "Catheter-related bloodstream infection",
                 "Essential fatty acid deficiency",
                 "Parenteral nutrition-associated liver disease"
@@ -19494,10 +19494,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 70 kg adult is receiving parenteral nutrition containing 450 g of dextrose over 24 hours. Blood glucose is persistently above 250 mg/dL. What is the calculated glucose infusion rate, and what does it indicate?",
             "options": [
-                "2.2 mg/kg/min, which is below recommended minimums",
+                "2.2 mg/kg/min, which is below recommended minimums of about 3 to 4 mg/kg/min for adults",
                 "4.5 mg/kg/min, which exceeds the recommended maximum of about 4 to 5 mg/kg/min",
-                "7.8 mg/kg/min, which is within the safe range",
-                "0.4 mg/kg/min, which is negligible"
+                "7.8 mg/kg/min, which is within the safe range of about 7 to 10 mg/kg/min",
+                "0.4 mg/kg/min, which is negligible and far below any clinically relevant rate"
             ],
             "correctIndex": 1,
             "explanation": "Glucose infusion rate equals grams of dextrose times 1,000 mg/g, divided by kilograms and by 1,440 minutes. Here 450 g yields 450,000 mg, divided by 70 kg gives 6,429 mg/kg, divided by 1,440 minutes gives about 4.5 mg/kg/min. That sits at or above the recommended ceiling of roughly 4 to 5 mg/kg/min for adults, beyond which glucose oxidative capacity is exceeded and hyperglycemia, lipogenesis and hepatic steatosis follow. The value 2.2 would correspond to roughly half this dextrose load. The 7.8 figure reflects an arithmetic error and would be dangerously high. The 0.4 figure is off by an order of magnitude.",
@@ -19516,10 +19516,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient has been on fat-free parenteral nutrition for four weeks. He develops dry scaly dermatitis, alopecia and poor wound healing. Which deficiency is most likely?",
             "options": [
-                "Zinc deficiency",
+                "Zinc deficiency from GI losses",
                 "Essential fatty acid deficiency",
-                "Selenium deficiency",
-                "Biotin deficiency"
+                "Selenium deficiency with myopathy",
+                "Biotin deficiency with neuropathy"
             ],
             "correctIndex": 1,
             "explanation": "Essential fatty acid deficiency develops after roughly two to four weeks of fat-free parenteral nutrition and presents with dry scaly dermatitis, alopecia, impaired wound healing, and a rising triene-to-tetraene ratio. Prevention requires providing about 2 to 4% of total calories as linoleic acid, typically by including lipid emulsion at least twice weekly. Zinc deficiency also impairs healing and causes dermatitis, but it classically produces a perioral and perianal rash and altered taste rather than this pattern in a patient whose specific omission is fat. Selenium deficiency causes cardiomyopathy and myopathy. Biotin deficiency is rare and causes dermatitis with neurologic findings, but is not the expected consequence of withholding lipid.",
@@ -19538,10 +19538,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient is being considered for peripheral parenteral nutrition. The proposed formulation has an osmolarity of 1,150 mOsm/L. What is the most appropriate recommendation?",
             "options": [
-                "Administer as designed through a peripheral line",
+                "Administer as designed through a peripheral line, rotating the site every 48 to 72 hours",
                 "Central venous access is required, since peripheral administration is limited to about 900 mOsm/L",
-                "Dilute with sterile water to 600 mOsm/L and give peripherally",
-                "Peripheral parenteral nutrition has no osmolarity limit"
+                "Dilute with sterile water to 600 mOsm/L and give peripherally at the original infusion rate",
+                "Peripheral parenteral nutrition has no osmolarity limit when a large-bore catheter is used"
             ],
             "correctIndex": 1,
             "explanation": "Peripheral veins tolerate solutions only up to roughly 900 mOsm/L; beyond that, thrombophlebitis and vein loss occur rapidly. A formulation at 1,150 mOsm/L therefore requires central venous access. Administering it peripherally as designed would damage the vein. Diluting to 600 mOsm/L would require a large additional volume that most patients needing PN cannot tolerate, and it would dilute nutrient delivery below useful levels. The claim that PPN has no osmolarity limit is incorrect and is precisely the misconception that leads to peripheral vein injury.",
@@ -19560,10 +19560,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient on long-term home parenteral nutrition develops progressively rising alkaline phosphatase, gamma-glutamyl transferase and conjugated bilirubin over three months. Which intervention is most appropriate?",
             "options": [
-                "Increase dextrose to spare protein",
+                "Increase dextrose to spare protein and reduce dependence on lipid emulsion",
                 "Cycle the parenteral nutrition, avoid overfeeding and maximize any enteral intake",
-                "Eliminate all lipid emulsion permanently",
-                "Increase the infusion rate to shorten hang time"
+                "Eliminate all lipid emulsion permanently and provide energy from dextrose alone",
+                "Increase the infusion rate to shorten hang time and give the liver a longer daily rest"
             ],
             "correctIndex": 1,
             "explanation": "This cholestatic pattern is characteristic of parenteral nutrition-associated liver disease. Management centers on cycling PN over 12 to 18 hours rather than infusing continuously, avoiding overfeeding of both total calories and dextrose, limiting soybean-based lipid, and providing even small amounts of enteral nutrition to stimulate gallbladder contraction and preserve gut integrity. Increasing dextrose worsens hepatic steatosis and cholestasis. Eliminating lipid permanently would cause essential fatty acid deficiency; the appropriate step is limiting or changing the lipid source, not removing it. Increasing the infusion rate raises the substrate delivery rate and adds metabolic stress.",
@@ -19582,9 +19582,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Parenteral nutrition is abruptly discontinued in a patient receiving a high dextrose load. Which complication is of most immediate concern?",
             "options": [
-                "Rebound hypoglycemia",
-                "Hypernatremia",
-                "Metabolic alkalosis",
+                "Rebound hypoglycemia from insulin",
+                "Hypernatremia from fluid shifts",
+                "Metabolic alkalosis from acetate",
                 "Essential fatty acid deficiency"
             ],
             "correctIndex": 0,
@@ -19670,10 +19670,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which practice most reduces the risk of catheter-related bloodstream infection in a patient receiving parenteral nutrition?",
             "options": [
-                "Using the parenteral nutrition lumen for blood draws and medications",
+                "Using the parenteral nutrition lumen for blood draws and medications to limit line access",
                 "Maintaining a dedicated lumen for parenteral nutrition with strict aseptic technique",
-                "Changing the central line every 72 hours routinely",
-                "Adding prophylactic antibiotics to the parenteral nutrition bag"
+                "Changing the central line every 72 hours routinely, even without signs of infection",
+                "Adding prophylactic antibiotics to the parenteral nutrition bag at each bag change"
             ],
             "correctIndex": 1,
             "explanation": "Dedicating a single lumen exclusively to parenteral nutrition and using strict aseptic technique for hub access and dressing changes is a core, evidence-based prevention measure, because every access event is an opportunity for contamination. Using the PN lumen for blood draws and medications multiplies those events and raises infection risk. Routine scheduled replacement of central lines does not reduce infection and exposes the patient to repeated insertion complications, so lines are changed for indication rather than by calendar. Adding antibiotics to the PN bag is not standard practice, creates compatibility and stability problems, and promotes resistance.",
@@ -19714,10 +19714,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with cystic fibrosis has steatorrhea, poor weight gain, and a serum vitamin A below reference range despite a high-calorie diet. What is the most likely underlying problem to address?",
             "options": [
-                "Inadequate total calorie intake",
+                "Inadequate total calorie intake requiring a further increase in energy provision",
                 "Pancreatic exocrine insufficiency requiring enzyme replacement optimization",
-                "Excessive fiber intake",
-                "Lactose intolerance"
+                "Excessive fiber intake binding fat-soluble vitamins in the intestinal lumen",
+                "Lactose intolerance causing osmotic diarrhea and secondary fat malabsorption"
             ],
             "correctIndex": 1,
             "explanation": "In cystic fibrosis, thick secretions obstruct pancreatic ducts and cause exocrine insufficiency, so fat and fat-soluble vitamins are malabsorbed regardless of how many calories are consumed. Steatorrhea plus low vitamin A points directly to inadequate or improperly timed pancreatic enzyme replacement, which must be taken with all fat-containing meals and snacks and dosed by lipase units per kilogram or per gram of fat. The scenario states intake is already high, so total calories are not the limiting factor. Excess fiber does not produce steatorrhea with fat-soluble vitamin deficiency. Lactose intolerance causes gas and diarrhea but not fat malabsorption or vitamin A depletion.",
@@ -19737,9 +19737,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which supplementation pattern is standard for a patient with cystic fibrosis and pancreatic insufficiency?",
             "options": [
                 "Water-soluble forms of vitamins A, D, E and K",
-                "Vitamin B12 injections monthly",
-                "Calcium restriction to prevent stones",
-                "Iron chelation therapy"
+                "Vitamin B12 injections monthly with oral folate",
+                "Calcium restriction to prevent oxalate stones",
+                "Iron chelation therapy with vitamin C avoidance"
             ],
             "correctIndex": 0,
             "explanation": "Because fat malabsorption impairs uptake of fat-soluble vitamins, patients with cystic fibrosis and pancreatic insufficiency require routine supplementation with vitamins A, D, E and K in water-miscible formulations designed for better absorption, with periodic level monitoring. They also need generous salt intake because of high sweat sodium losses. Routine monthly vitamin B12 injections are not standard, since B12 absorption depends on intrinsic factor and terminal ileum function rather than pancreatic lipase. Calcium is encouraged rather than restricted, given the high prevalence of low bone density. Iron chelation is for iron overload states and has no role here.",
@@ -19780,10 +19780,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which nutrition-related factor most directly contributes to respiratory muscle weakness and prolonged ventilator dependence?",
             "options": [
-                "Excess dietary fiber",
+                "Excess dietary fiber causing abdominal distension against the diaphragm",
                 "Protein-energy malnutrition with loss of diaphragmatic muscle mass",
-                "High intake of monounsaturated fat",
-                "Adequate vitamin C intake"
+                "High intake of monounsaturated fat raising carbon dioxide production",
+                "Adequate vitamin C intake suppressing collagen turnover in muscle"
             ],
             "correctIndex": 1,
             "explanation": "The diaphragm is skeletal muscle and is catabolized during protein-energy malnutrition, directly reducing inspiratory force, vital capacity and the ability to wean from mechanical ventilation. This is why nutritional repletion is part of weaning strategy in prolonged critical illness. Dietary fiber has no meaningful effect on respiratory muscle strength. Monounsaturated fat intake is not linked to diaphragmatic weakness and is generally favorable metabolically. Adequate vitamin C supports collagen synthesis and antioxidant defense and would not contribute to weakness, since it is deficiency rather than adequacy that causes harm.",
@@ -19802,10 +19802,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with COPD on chronic corticosteroid therapy is at increased risk for which nutrition-related complication?",
             "options": [
-                "Osteoporosis and hyperglycemia",
+                "Osteoporosis and hyperglycemia from steroid use",
                 "Hypokalemic alkalosis from potassium retention",
-                "Vitamin B12 malabsorption",
-                "Iron overload"
+                "Vitamin B12 malabsorption and anemia",
+                "Iron overload and hemosiderosis"
             ],
             "correctIndex": 0,
             "explanation": "Chronic corticosteroids increase bone resorption while reducing intestinal calcium absorption, producing osteoporosis, and they induce insulin resistance with hepatic gluconeogenesis, producing hyperglycemia. Both warrant monitoring, with attention to calcium, vitamin D and glucose. Corticosteroids cause potassium LOSS rather than retention, so hypokalemia may occur but the stated mechanism is wrong. Vitamin B12 malabsorption is associated with metformin, proton pump inhibitors and ileal disease, not corticosteroids. Iron overload results from repeated transfusion or hemochromatosis and has no relationship to steroid therapy.",
@@ -19824,10 +19824,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "An adult with cystic fibrosis is newly diagnosed with cystic fibrosis-related diabetes. Which nutrition recommendation is most appropriate?",
             "options": [
-                "Restrict calories and fat to improve glycemic control",
+                "Restrict calories and fat to improve glycemic control and delay insulin",
                 "Maintain the high-calorie, high-fat diet and manage glucose with insulin",
-                "Adopt a low-carbohydrate ketogenic diet",
-                "Restrict protein to reduce renal load"
+                "Adopt a low-carbohydrate ketogenic diet and manage glucose without insulin",
+                "Restrict protein to reduce renal load and control glucose with metformin"
             ],
             "correctIndex": 1,
             "explanation": "Cystic fibrosis-related diabetes is managed differently from type 2 diabetes. Nutritional status remains the strongest predictor of pulmonary function and survival, so the high-calorie, high-fat, high-salt diet is maintained and glucose is controlled with insulin rather than by restricting intake. Restricting calories and fat would worsen the malnutrition that drives lung decline and mortality. A ketogenic diet conflicts with the energy density and carbohydrate flexibility these patients need. Protein restriction is not indicated, since these patients typically require increased protein and there is no renal rationale.",
@@ -19846,10 +19846,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which assessment finding best supports a diagnosis of malnutrition in a patient with severe COPD?",
             "options": [
-                "Elevated serum albumin",
+                "Elevated serum albumin with a normal BMI and stable body weight over six months",
                 "Unintentional weight loss with reduced mid-arm muscle circumference and fat-free mass",
-                "Increased serum C-reactive protein alone",
-                "Elevated hemoglobin"
+                "Increased serum C-reactive protein alone, without any change in weight or intake",
+                "Elevated hemoglobin with increased hematocrit from chronic hypoxemia"
             ],
             "correctIndex": 1,
             "explanation": "Malnutrition diagnosis relies on physical and intake-based criteria: unintentional weight loss, loss of muscle and subcutaneous fat, reduced intake, and functional decline. Reduced mid-arm muscle circumference and fat-free mass, together with weight loss, directly document that process and are especially relevant in COPD where weight may mask muscle depletion. Elevated albumin would not indicate malnutrition, and albumin generally reflects inflammation and fluid status rather than nutritional status. C-reactive protein alone indicates inflammation without saying anything about body composition. Elevated hemoglobin in COPD reflects chronic hypoxemia and secondary polycythemia, not nutritional adequacy.",
@@ -19868,10 +19868,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with obstructive sleep apnea and a BMI of 41 kg/m2 asks how nutrition intervention could help. Which statement is most accurate?",
             "options": [
-                "Weight loss has no effect on apnea severity",
+                "Weight loss has no effect on apnea severity once the diagnosis is confirmed",
                 "A 10% reduction in body weight can meaningfully reduce apnea-hypopnea index",
-                "Only bariatric surgery improves sleep apnea",
-                "Sodium restriction is the primary nutrition intervention"
+                "Only bariatric surgery improves sleep apnea in patients with a BMI above 40",
+                "Sodium restriction is the primary nutrition intervention for airway swelling"
             ],
             "correctIndex": 1,
             "explanation": "Excess adipose tissue in the neck and upper airway, along with reduced lung volumes from central adiposity, worsens upper airway collapsibility. Clinically meaningful weight loss, on the order of 10% of body weight, reduces the apnea-hypopnea index substantially, which is why weight management is a core component of obstructive sleep apnea care. The claim that weight loss has no effect contradicts a well-established dose-response relationship. Bariatric surgery is effective but is not the only route, since lifestyle-based weight loss also improves severity. Sodium restriction may help fluid shifts in specific cases but is not the primary nutrition intervention for this condition.",
@@ -19890,10 +19890,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A hospitalized patient with pneumonia and a fever of 39 C has increased energy expenditure. Which physiologic principle best explains the increase?",
             "options": [
-                "Fever decreases basal metabolic rate",
+                "Fever decreases basal metabolic rate by roughly 7 to 13% for each degree Celsius above normal",
                 "Basal metabolic rate rises roughly 7 to 13% for each degree Celsius above normal body temperature",
-                "Fever has no measurable effect on energy expenditure",
-                "Energy expenditure falls because of bed rest, offsetting fever entirely"
+                "Fever has no measurable effect on energy expenditure once antipyretics have been given on schedule",
+                "Energy expenditure falls because of bed rest, offsetting fever entirely in most hospitalized patients"
             ],
             "correctIndex": 1,
             "explanation": "Fever raises metabolic rate in a graded fashion, commonly cited as roughly 7 to 13% per degree Celsius above normal, reflecting accelerated enzymatic and cellular activity. Recognizing this prevents underfeeding febrile patients. Fever increases rather than decreases basal metabolic rate. The claim that fever has no measurable effect contradicts direct calorimetry evidence. Bed rest does reduce activity energy expenditure, but in an acutely febrile, infected patient it does not offset the hypermetabolic response, and assuming it does leads to systematic underestimation of needs.",
@@ -19912,10 +19912,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 78-year-old nursing home resident weighing 62 kg has a stage 4 sacral pressure injury. Which protein recommendation is most appropriate?",
             "options": [
-                "0.8 g/kg per day, about 50 g",
+                "0.8 to 1.0 g/kg per day, about 50 to 62 g",
                 "1.25 to 1.5 g/kg per day, about 78 to 93 g",
-                "2.5 g/kg per day, about 155 g",
-                "0.6 g/kg per day, about 37 g"
+                "2.5 to 3.0 g/kg per day, about 155 to 186 g",
+                "0.6 to 0.7 g/kg per day, about 37 to 43 g"
             ],
             "correctIndex": 1,
             "explanation": "Guidelines for adults with pressure injuries recommend 1.25 to 1.5 g/kg per day to supply substrate for collagen synthesis and granulation tissue, with the upper end favored for stage 3 and 4 wounds. At 62 kg this yields roughly 78 to 93 g daily. The 0.8 g/kg figure is the RDA for healthy adults and is inadequate for active wound healing. Pushing to 2.5 g/kg exceeds recommendations, offers no additional healing benefit, and increases renal solute and fluid demands in an older adult. A 0.6 g/kg intake is a restricted level used in specific renal contexts and would accelerate tissue breakdown here.",
@@ -19935,9 +19935,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with a non-healing wound has been taking 220 mg of zinc sulfate daily for three months without medical supervision. What complication is of most concern?",
             "options": [
                 "Zinc toxicity causing copper deficiency",
-                "Improved wound healing with no risk",
-                "Vitamin C depletion",
-                "Excess iron absorption"
+                "Improved wound healing with no added risk",
+                "Vitamin C depletion causing poor healing",
+                "Excess iron absorption causing overload"
             ],
             "correctIndex": 0,
             "explanation": "Zinc and copper compete for the same intestinal transporter, so prolonged high-dose zinc induces metallothionein and blocks copper absorption, producing copper deficiency with microcytic anemia, neutropenia and neurologic changes. Supplemental zinc is generally limited to about 40 mg of elemental zinc daily and used short term when deficiency is documented, since 220 mg of zinc sulfate supplies roughly 50 mg elemental zinc. The idea that this carries no risk ignores a well-described interaction. Zinc does not deplete vitamin C. High zinc intake reduces rather than increases iron absorption, since these minerals also compete.",
@@ -19978,10 +19978,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which screening tool is most commonly used to assess pressure injury risk?",
             "options": [
-                "Braden Scale",
-                "Glasgow Coma Scale",
-                "Mini Nutritional Assessment",
-                "Malnutrition Screening Tool"
+                "Braden Scale scored across six subscales",
+                "Glasgow Coma Scale scored across three domains",
+                "Mini Nutritional Assessment for older adults",
+                "Malnutrition Screening Tool with two questions"
             ],
             "correctIndex": 0,
             "explanation": "The Braden Scale assesses six domains, including sensory perception, moisture, activity, mobility, nutrition, and friction and shear, generating a score that stratifies pressure injury risk and triggers preventive measures. The Glasgow Coma Scale measures level of consciousness after neurologic injury. The Mini Nutritional Assessment and the Malnutrition Screening Tool are nutrition screening instruments; nutrition is one component within the Braden Scale, but these tools do not assess pressure injury risk overall, which also depends on mobility, moisture and shear forces.",
@@ -20000,10 +20000,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with a stage 3 pressure injury has adequate protein and calorie intake but healing has stalled. Serum albumin is 2.6 g/dL and C-reactive protein is elevated. How should the albumin be interpreted?",
             "options": [
-                "It confirms protein malnutrition and requires doubling protein intake",
+                "It confirms protein malnutrition and requires doubling protein intake immediately",
                 "It largely reflects inflammation and is not a reliable marker of protein status",
-                "It indicates dehydration",
-                "It indicates excessive protein intake"
+                "It indicates dehydration and should be corrected before any diet change",
+                "It indicates excessive protein intake overwhelming hepatic synthetic capacity"
             ],
             "correctIndex": 1,
             "explanation": "Albumin is a negative acute phase reactant. During inflammation, hepatic synthesis shifts toward acute phase proteins and capillary permeability increases, so albumin falls independently of nutritional intake. The elevated C-reactive protein here confirms an inflammatory state, so the low albumin reflects inflammation rather than protein status, and current guidance discourages using albumin as a nutrition marker. Doubling protein on the basis of albumin alone is not indicated when intake is already adequate. Dehydration would tend to raise albumin through hemoconcentration. Albumin does not rise or fall as a marker of protein excess.",
@@ -20022,10 +20022,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which statement about arginine supplementation in pressure injury management is most accurate?",
             "options": [
-                "Arginine is contraindicated in all wound patients",
+                "Arginine is contraindicated in all wound patients because it increases nitric oxide production",
                 "Arginine-containing specialized formulas may improve healing in stage 3 and 4 pressure injuries",
-                "Arginine should be given to every patient with any wound",
-                "Arginine is an essential amino acid in all circumstances"
+                "Arginine should be given to every patient with any wound, including minor skin tears and abrasions",
+                "Arginine is an essential amino acid in all circumstances and must be supplied in every diet"
             ],
             "correctIndex": 1,
             "explanation": "Arginine becomes conditionally essential during metabolic stress and contributes to collagen deposition, nitric oxide production and immune function. Trials of specialized oral nutrition supplements containing arginine along with zinc and antioxidants show improved healing in stage 3 and 4 pressure injuries, so guidelines support considering them for non-healing deep wounds. Arginine is not contraindicated in all wound patients, though caution applies in hemodynamically unstable sepsis. Routine use in every minor wound is not supported and adds unnecessary cost. Arginine is conditionally, not unconditionally, essential.",
@@ -20044,10 +20044,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 60 kg patient with multiple pressure injuries requires increased energy for healing. Which estimate is most consistent with guideline recommendations?",
             "options": [
-                "20 kcal/kg, about 1,200 kcal",
+                "20 to 25 kcal/kg, about 1,200 to 1,500 kcal",
                 "30 to 35 kcal/kg, about 1,800 to 2,100 kcal",
-                "45 kcal/kg, about 2,700 kcal",
-                "15 kcal/kg, about 900 kcal"
+                "45 to 50 kcal/kg, about 2,700 to 3,000 kcal",
+                "15 to 18 kcal/kg, about 900 to 1,080 kcal"
             ],
             "correctIndex": 1,
             "explanation": "Guidelines recommend 30 to 35 kcal/kg per day for adults with pressure injuries, which for a 60 kg patient gives 1,800 to 2,100 kcal. Adequate energy is essential so that dietary protein is used for tissue synthesis rather than oxidized for fuel. A 20 kcal/kg intake is a hypocaloric level that would force protein catabolism and impair healing. A 45 kcal/kg intake overshoots recommendations and risks overfeeding with hyperglycemia and hepatic steatosis. A 15 kcal/kg intake is severely inadequate and would accelerate tissue loss.",
@@ -20067,9 +20067,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with a diabetic foot ulcer has a hemoglobin A1c of 10.2%. Which factor most directly impairs wound healing in this setting?",
             "options": [
                 "Hyperglycemia impairing neutrophil function, collagen synthesis and perfusion",
-                "Excess dietary protein",
-                "Low sodium intake",
-                "High fiber intake"
+                "Excess dietary protein increasing urea load and slowing tissue repair",
+                "Low sodium intake reducing plasma volume and wound bed perfusion",
+                "High fiber intake impairing zinc absorption, collagen cross-linking and granulation"
             ],
             "correctIndex": 0,
             "explanation": "Sustained hyperglycemia impairs neutrophil chemotaxis and phagocytosis, glycates collagen and reduces its tensile strength, and contributes to microvascular disease that limits oxygen and nutrient delivery to the wound bed. Glycemic control is therefore a central wound healing intervention, not merely a diabetes management goal. Excess dietary protein is not a recognized barrier to healing, and protein needs are in fact increased with an open wound. Low sodium intake has no direct bearing on wound healing. High fiber intake affects glycemic response favorably and does not impair healing.",
@@ -20110,10 +20110,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient 6 weeks post sleeve gastrectomy reports cramping, nausea, palpitations and diarrhea about 20 minutes after eating. What is the most likely cause and the appropriate intervention?",
             "options": [
-                "Late dumping syndrome; increase simple carbohydrate intake",
+                "Late dumping syndrome; increase simple carbohydrate intake and eat larger meals less often through the day",
                 "Early dumping syndrome; eat small meals, avoid concentrated sweets, and separate fluids from solids",
-                "Anastomotic leak; return to surgery immediately",
-                "Vitamin D deficiency; begin high-dose supplementation"
+                "Anastomotic leak; return to surgery immediately and keep the patient nil per os until repaired",
+                "Vitamin D deficiency; begin high-dose supplementation and add calcium citrate with each meal"
             ],
             "correctIndex": 1,
             "explanation": "Early dumping occurs 10 to 30 minutes after eating, when a hyperosmolar bolus reaches the small bowel and draws fluid into the lumen, producing cramping, diarrhea and vasomotor symptoms such as palpitations and flushing. Management is dietary: small frequent meals, avoiding concentrated sweets, and drinking fluids 30 minutes before or after rather than with meals. Late dumping occurs one to three hours after eating as reactive hypoglycemia, and increasing simple carbohydrate would worsen either form. An anastomotic leak presents with fever, tachycardia and peritoneal signs, not reproducible post-meal symptoms. Vitamin D deficiency does not cause this syndrome.",
@@ -20133,9 +20133,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "What is the generally recommended minimum daily protein intake after bariatric surgery?",
             "options": [
                 "60 to 80 g per day, individualized to about 1.1 to 1.5 g/kg ideal body weight",
-                "20 to 30 g per day",
-                "150 to 200 g per day",
-                "Protein needs are unchanged from presurgical intake"
+                "20 to 30 g per day, individualized to about 0.3 to 0.5 g/kg ideal body weight",
+                "150 to 200 g per day, individualized to about 2.5 to 3.0 g/kg ideal body weight",
+                "Protein needs are unchanged from presurgical intake at about 0.8 g/kg body weight"
             ],
             "correctIndex": 0,
             "explanation": "Guidelines recommend a minimum of about 60 to 80 g of protein daily, individualized to roughly 1.1 to 1.5 g per kilogram of ideal body weight, with higher amounts after more malabsorptive procedures. Adequate protein preserves lean mass during rapid weight loss and supports wound healing, and it is prioritized first at every meal because capacity is limited. A 20 to 30 g intake is far too low and accelerates lean tissue loss and hair shedding. A 150 to 200 g intake is not achievable with a restricted gastric pouch and is unnecessary. Needs are certainly not unchanged, since intake capacity falls dramatically while requirements rise.",
@@ -20155,9 +20155,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient 3 months post gastric bypass presents with persistent vomiting for two weeks, confusion, nystagmus and ataxia. What is the most urgent nutritional concern?",
             "options": [
                 "Thiamine deficiency causing Wernicke encephalopathy",
-                "Iron deficiency anemia",
-                "Calcium deficiency causing tetany",
-                "Protein-energy malnutrition"
+                "Iron deficiency anemia causing cerebral hypoxia",
+                "Calcium deficiency causing tetany and confusion",
+                "Protein-energy malnutrition causing hepatic encephalopathy"
             ],
             "correctIndex": 0,
             "explanation": "Thiamine stores last only two to three weeks, so persistent vomiting after bariatric surgery can precipitate Wernicke encephalopathy, classically with confusion, ophthalmoplegia or nystagmus, and ataxia. This is a medical emergency requiring immediate parenteral thiamine, given before any glucose-containing fluid, since a glucose load consumes remaining thiamine and can worsen the injury. Iron deficiency develops over months and causes fatigue and pallor, not acute neurologic findings. Calcium deficiency causes tetany and Chvostek sign rather than this triad. Protein-energy malnutrition develops over a longer course and does not present this acutely.",
@@ -20176,10 +20176,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which bariatric procedure is primarily restrictive, without a malabsorptive component?",
             "options": [
-                "Sleeve gastrectomy",
-                "Roux-en-Y gastric bypass",
+                "Laparoscopic vertical sleeve gastrectomy",
+                "Laparoscopic Roux-en-Y gastric bypass",
                 "Biliopancreatic diversion with duodenal switch",
-                "Jejunoileal bypass"
+                "Historical jejunoileal intestinal bypass"
             ],
             "correctIndex": 0,
             "explanation": "Sleeve gastrectomy removes roughly 80% of the stomach along the greater curvature, leaving a tubular pouch. It works through restriction and hormonal changes, notably reduced ghrelin, without rerouting the intestine, so it is not malabsorptive, though micronutrient deficiencies still occur from reduced intake and acid. Roux-en-Y combines restriction with bypass of the duodenum and proximal jejunum, making it both restrictive and malabsorptive. Biliopancreatic diversion with duodenal switch is the most malabsorptive of current procedures. Jejunoileal bypass was severely malabsorptive and has been abandoned because of its complication rate.",
@@ -20220,10 +20220,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which fluid guidance is standard after bariatric surgery?",
             "options": [
-                "Drink fluids with meals to help food pass through the pouch",
+                "Drink fluids with meals to help food pass through the pouch and reduce the risk of obstruction",
                 "Separate fluids from solid meals by about 30 minutes to preserve satiety and prevent dumping",
-                "Restrict total fluid to 500 mL daily",
-                "Drink only carbonated beverages to aid digestion"
+                "Restrict total fluid to 500 mL daily to protect the staple line while the pouch is healing",
+                "Drink only carbonated beverages to aid digestion and help expand the pouch gradually after surgery"
             ],
             "correctIndex": 1,
             "explanation": "Patients are taught to stop drinking about 30 minutes before eating and wait about 30 minutes afterward, because fluid taken with food flushes the pouch, reduces satiety, permits larger intake and can precipitate dumping. Total fluid of at least 1.5 L daily is encouraged, sipped between meals. Drinking with meals is precisely the habit being prevented. Restricting to 500 mL daily would cause dehydration, which is the leading cause of readmission after these procedures. Carbonated beverages are typically discouraged because of gas distension and discomfort in a small pouch.",
@@ -20242,10 +20242,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient 2 years post gastric bypass reports episodes of shakiness, sweating and confusion about 2 hours after high-carbohydrate meals, relieved by eating. What is the most likely diagnosis?",
             "options": [
-                "Early dumping syndrome",
+                "Early dumping syndrome with osmotic fluid shifts",
                 "Late dumping syndrome with reactive hypoglycemia",
-                "Thiamine deficiency",
-                "Anastomotic stricture"
+                "Thiamine deficiency with peripheral neuropathy",
+                "Anastomotic stricture with delayed pouch emptying"
             ],
             "correctIndex": 1,
             "explanation": "Late dumping occurs one to three hours after eating, when rapid carbohydrate delivery to the small bowel triggers an exaggerated incretin and insulin response that overshoots, producing reactive hypoglycemia with adrenergic and neuroglycopenic symptoms relieved by eating. Management centers on low glycemic index carbohydrate distributed in small portions paired with protein and fat. Early dumping occurs within 10 to 30 minutes and is driven by osmotic fluid shifts rather than hypoglycemia. Thiamine deficiency causes neurologic findings unrelated to meal timing in this pattern. An anastomotic stricture causes vomiting and food intolerance rather than delayed hypoglycemic episodes.",
@@ -20265,9 +20265,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which supplementation regimen is appropriate after malabsorptive bariatric surgery?",
             "options": [
                 "Lifelong multivitamin with minerals, vitamin B12, iron, calcium citrate and vitamin D, with periodic laboratory monitoring",
-                "Supplements only during the first postoperative month",
-                "No supplementation is needed if the diet is varied",
-                "A single daily calcium tablet is sufficient"
+                "Supplements only during the first postoperative month, until the patient can tolerate a varied regular-texture diet",
+                "No supplementation is needed if the diet is varied and protein goals are met, with laboratory monitoring only if symptoms appear",
+                "A single daily calcium tablet is sufficient, since calcium is the only nutrient whose absorption the bypass meaningfully reduces"
             ],
             "correctIndex": 0,
             "explanation": "Anatomic changes permanently impair absorption of several micronutrients, so lifelong supplementation with a complete multivitamin plus mineral, vitamin B12, iron especially in menstruating women, calcium citrate and vitamin D is standard, together with scheduled laboratory monitoring to catch deficiencies before they become symptomatic. Limiting supplements to the first month ignores that the malabsorption is permanent. Relying on a varied diet cannot overcome bypassed absorptive surface and reduced gastric acid. Calcium alone leaves every other at-risk nutrient unaddressed, including B12, iron and fat-soluble vitamins.",
@@ -20288,8 +20288,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Clear liquids, full liquids, pureed, soft, then regular textures",
                 "Regular textures immediately, then liquids if not tolerated",
-                "Pureed foods first, then clear liquids",
-                "High-fiber solids first to promote satiety"
+                "Pureed foods first, then clear liquids, then soft textures",
+                "High-fiber solids first to promote satiety, then liquids"
             ],
             "correctIndex": 0,
             "explanation": "Progression moves from clear liquids to full liquids, then pureed, soft and finally regular textures, typically over several weeks and guided by the surgical program, with protein prioritized at every stage. The graded advance protects the healing staple line and lets the patient learn new volume and chewing habits. Starting with regular textures risks obstruction, vomiting and staple line stress. Beginning with pureed foods before liquids inverts the sequence. High-fiber solids early are poorly tolerated in a small pouch and can cause obstruction, so fiber is added gradually later in recovery.",
@@ -20309,9 +20309,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient receiving head and neck radiation develops painful oral mucositis. Which dietary modification is most appropriate?",
             "options": [
                 "Soft, moist, bland foods at room temperature, avoiding acidic, spicy and rough-textured items",
-                "Crisp raw vegetables and citrus juices to stimulate appetite",
-                "Very hot soups to soothe the tissue",
-                "Alcohol-based mouth rinses before meals"
+                "Crisp raw vegetables and citrus juices to stimulate appetite and supply vitamin C for mucosal healing",
+                "Very hot soups to soothe the tissue, served several times a day as the main source of calories",
+                "Alcohol-based mouth rinses before meals to disinfect the ulcers and reduce pain while eating"
             ],
             "correctIndex": 0,
             "explanation": "Mucositis produces painful ulceration, so the goal is minimizing mechanical, chemical and thermal irritation while maintaining intake. Soft, moist, bland foods at room or cool temperature meet that goal. Crisp raw vegetables abrade ulcerated mucosa and citrus is acidic, so both increase pain and reduce intake. Very hot foods aggravate inflamed tissue rather than soothing it, and cool or room temperature is better tolerated. Alcohol-based rinses are drying and irritating to ulcerated mucosa; bland rinses such as salt and baking soda solutions are recommended instead.",
@@ -20331,9 +20331,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient on chemotherapy reports that meat tastes metallic and unpleasant. Which strategy is most appropriate?",
             "options": [
                 "Use plastic utensils and offer alternative protein sources such as eggs, dairy, legumes and poultry",
-                "Increase red meat portions to overcome the taste change",
-                "Eliminate all protein foods until taste returns",
-                "Add large amounts of salt to every dish"
+                "Increase red meat portions to overcome the taste change and keep iron and protein intake adequate",
+                "Eliminate all protein foods until taste returns, relying on starches and fruit for energy meanwhile",
+                "Add large amounts of salt to every dish to mask the metallic taste and make meat more palatable"
             ],
             "correctIndex": 0,
             "explanation": "Metallic dysgeusia is common with chemotherapy, and practical strategies include plastic rather than metal utensils, marinating meats, serving foods cold or at room temperature, and substituting other protein sources that are better tolerated. Preserving protein intake is the priority. Increasing red meat portions works against the aversion and typically reduces total intake. Eliminating all protein foods risks lean mass loss precisely when protein needs are elevated. Heavy salting does not correct metallic taste, may be contraindicated with certain regimens, and can worsen mucosal irritation if mucositis is also present.",
@@ -20353,9 +20353,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which statement best describes current evidence on the neutropenic diet for patients with cancer-related neutropenia?",
             "options": [
                 "Strict neutropenic diets have not been shown to reduce infection and standard food safety practices are recommended instead",
-                "Strict neutropenic diets reduce infection rates substantially and are mandatory",
-                "All fruits and vegetables must be permanently avoided",
-                "Only canned and shelf-stable foods should be consumed"
+                "Strict neutropenic diets reduce infection rates substantially and are mandatory until the neutrophil count recovers",
+                "All fruits and vegetables must be permanently avoided, even when thoroughly washed, peeled or cooked before serving",
+                "Only canned and shelf-stable foods should be consumed, since commercial processing is the only reliable way to remove pathogens"
             ],
             "correctIndex": 0,
             "explanation": "Randomized trials and systematic reviews have not demonstrated that restrictive neutropenic diets reduce infection compared with safe food handling practices, and the restrictions themselves can worsen intake and quality of life in patients already struggling to eat. Current guidance emphasizes standard food safety: thorough washing, safe temperatures, avoiding unpasteurized products and undercooked animal foods. Calling such diets mandatory overstates evidence that does not exist. Permanently avoiding all fruits and vegetables removes important nutrients without demonstrated benefit. Restricting intake to canned and shelf-stable foods is unnecessarily austere and nutritionally poor.",
@@ -20374,10 +20374,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with advanced pancreatic cancer has lost 15% of body weight despite adequate oral intake, with muscle wasting and elevated inflammatory markers. What does this most likely represent?",
             "options": [
-                "Simple starvation, correctable with increased calories",
+                "Simple starvation, correctable with increased calories and oral supplements",
                 "Cancer cachexia, which is not fully reversible by nutrition support alone",
-                "Refeeding syndrome",
-                "Dehydration"
+                "Refeeding syndrome, which develops when nutrition is advanced too quickly",
+                "Dehydration, which is corrected by restoring fluid and electrolyte balance"
             ],
             "correctIndex": 1,
             "explanation": "Cancer cachexia is a multifactorial syndrome of ongoing muscle loss driven by tumor-related inflammatory cytokines and altered metabolism, and by definition it cannot be fully reversed by conventional nutrition support alone. Care combines nutrition, symptom management, physical activity and attention to the underlying disease, with realistic goal setting. Simple starvation responds predictably to added calories, which is precisely what is not happening here. Refeeding syndrome is an acute electrolyte complication of reintroducing nutrition, not a wasting syndrome. Dehydration causes acute weight change without the muscle wasting and inflammatory profile described.",
@@ -20397,9 +20397,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with xerostomia after radiation struggles to swallow dry foods. Which recommendation is most appropriate?",
             "options": [
                 "Moisten foods with sauces, gravies and broths, sip fluids with meals and consider saliva substitutes",
-                "Serve dry crackers and toast to absorb residual saliva",
-                "Avoid all fluids during meals",
-                "Recommend strongly flavored acidic candies throughout the day"
+                "Serve dry crackers and toast to absorb residual saliva and stimulate chewing before each meal",
+                "Avoid all fluids during meals so the limited saliva is not diluted before the food is swallowed",
+                "Recommend strongly flavored acidic candies throughout the day to keep saliva flowing between meals"
             ],
             "correctIndex": 0,
             "explanation": "Xerostomia from salivary gland damage makes dry foods difficult to form into a bolus and swallow. Adding moisture with sauces, gravies and broths, sipping fluids with meals, and using saliva substitutes or sugar-free gum to stimulate residual flow are the standard measures. Dry crackers and toast are among the hardest textures to manage without saliva. Avoiding fluids at meals removes the most useful compensation available. Acidic candies can stimulate some flow but promote dental caries and irritate mucosa that is often concurrently damaged, so sugar-free options are preferred and acidic ones are not the first recommendation.",
@@ -20419,9 +20419,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which approach best addresses early satiety and anorexia in a patient undergoing cancer treatment?",
             "options": [
                 "Small, frequent, calorie- and protein-dense meals and snacks eaten on a schedule rather than by appetite",
-                "Three large meals to consolidate intake",
-                "Waiting until the patient reports hunger before offering food",
-                "Restricting fat to reduce the feeling of fullness"
+                "Three large meals to consolidate intake, with fluids served alongside to help food go down easily",
+                "Waiting until the patient reports hunger before offering food, so meals are eaten with real appetite",
+                "Restricting fat to reduce the feeling of fullness and replacing it with high-fiber, low-calorie foods"
             ],
             "correctIndex": 0,
             "explanation": "When appetite signaling is blunted, eating by the clock rather than by hunger, with small frequent nutrient-dense portions, reliably increases total intake. Fortifying foods and using oral nutrition supplements between meals extends the strategy. Three large meals overwhelm a patient with early satiety and usually reduce total intake. Waiting for reported hunger means waiting for a cue that treatment has suppressed, so intake falls. Restricting fat removes the most calorie-dense macronutrient available, which works directly against energy density when volume tolerance is the limiting factor.",
@@ -20441,9 +20441,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient develops chemotherapy-induced nausea. Which combination of strategies is most appropriate?",
             "options": [
                 "Cool or room-temperature bland foods, eating slowly, avoiding strong odors, and timing meals around treatment",
-                "Strongly aromatic hot foods served immediately before chemotherapy",
-                "Large fatty meals to coat the stomach",
-                "Complete fasting on treatment days"
+                "Strongly aromatic hot foods served immediately before chemotherapy to stimulate appetite ahead of treatment",
+                "Large fatty meals to coat the stomach, eaten quickly so they are digested before nausea begins",
+                "Complete fasting on treatment days, with large meals on the days between cycles to make up the deficit"
             ],
             "correctIndex": 0,
             "explanation": "Nausea management combines cool or room-temperature bland foods, which release fewer aromas, with slow eating, avoidance of strong cooking odors, and scheduling intake when nausea is lowest, typically before or well after the treatment window. Antiemetics should be used proactively. Strongly aromatic hot foods just before treatment maximize odor-triggered nausea and risk creating a lasting food aversion. Large fatty meals delay gastric emptying and worsen nausea. Complete fasting on treatment days deepens the nutritional deficit in a patient whose intake is already compromised.",
@@ -20463,9 +20463,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which protein recommendation is generally appropriate for an adult with cancer and ongoing weight loss?",
             "options": [
                 "1.0 to 1.5 g/kg per day, with the higher end for those with significant muscle loss",
-                "0.6 g/kg per day to reduce tumor growth",
-                "0.8 g/kg per day, the RDA for healthy adults",
-                "3.0 g/kg per day"
+                "0.6 g/kg per day to reduce tumor growth, with the lower end for rapidly growing tumors",
+                "0.8 g/kg per day, the RDA for healthy adults, regardless of the degree of muscle loss",
+                "3.0 g/kg per day, with the higher end reserved for patients receiving chemotherapy"
             ],
             "correctIndex": 0,
             "explanation": "Guidance for adults with cancer generally recommends at least 1.0 g/kg per day, moving toward 1.5 g/kg when muscle depletion, inflammation or treatment-related catabolism is present. Restricting protein to 0.6 g/kg in the belief that it slows tumor growth is not evidence-based and accelerates the lean mass loss that predicts poorer treatment tolerance and survival. The 0.8 g/kg RDA is calibrated to healthy adults and is inadequate in an inflammatory catabolic state. A 3.0 g/kg intake exceeds recommendations, is rarely achievable in this population, and adds fluid and urea burden without benefit.",
@@ -20485,9 +20485,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient receiving pelvic radiation develops radiation enteritis with frequent watery diarrhea. Which dietary approach is most appropriate initially?",
             "options": [
                 "Low fat and low insoluble fiber, with attention to lactose tolerance and fluid and electrolyte replacement",
-                "High insoluble fiber to add bulk",
-                "High fat intake to slow transit",
-                "Unrestricted diet with no modification"
+                "High insoluble fiber to add bulk and slow transit, with generous fluid intake to prevent dehydration and cramping",
+                "High fat intake to slow transit and supply calories while the damaged mucosa recovers",
+                "Unrestricted diet with no modification, since radiation enteritis resolves once treatment ends"
             ],
             "correctIndex": 0,
             "explanation": "Radiation injures the intestinal mucosa, causing transient fat malabsorption, reduced brush border lactase and accelerated transit. An initial approach of reduced fat and insoluble fiber, with assessment of lactose tolerance and vigilant fluid and electrolyte replacement, addresses each mechanism. Soluble fiber may be helpful. High insoluble fiber increases bulk and stimulates motility in an already irritated bowel. High fat intake worsens steatorrhea when lipase and absorptive capacity are impaired. Leaving the diet unmodified ignores a manageable symptom that drives dehydration and treatment interruption.",
@@ -20507,9 +20507,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which validated tool is commonly used to screen and assess nutritional status in patients with cancer?",
             "options": [
                 "Patient-Generated Subjective Global Assessment",
-                "Braden Scale",
-                "Glasgow Coma Scale",
-                "Framingham Risk Score"
+                "Braden Scale for Predicting Pressure Sore Risk",
+                "Glasgow Coma Scale and neurologic assessment",
+                "Framingham Risk Score for cardiovascular disease"
             ],
             "correctIndex": 0,
             "explanation": "The Patient-Generated Subjective Global Assessment was developed specifically for oncology populations, incorporating weight history, intake, nutrition impact symptoms, functional status and physical examination, and generating both a category and a numeric score that triages intervention. The Braden Scale assesses pressure injury risk. The Glasgow Coma Scale measures level of consciousness after neurologic injury. The Framingham Risk Score estimates ten-year cardiovascular risk. None of the last three assesses nutritional status, and only the PG-SGA captures the symptom burden that drives nutritional decline in cancer.",
@@ -20570,10 +20570,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which dietary pattern has the strongest evidence for improving multiple components of metabolic syndrome simultaneously?",
             "options": [
-                "A very low-fat, high-refined-carbohydrate diet",
+                "A very low-fat, high-refined-carbohydrate diet emphasizing white bread, rice and pasta",
                 "A Mediterranean dietary pattern emphasizing olive oil, vegetables, legumes, fish and nuts",
-                "A diet eliminating all carbohydrate sources",
-                "A diet based primarily on fruit juice and low-fat snack foods"
+                "A diet eliminating all carbohydrate sources, including fruit, legumes and whole grains",
+                "A diet based primarily on fruit juice and low-fat snack foods such as rice cakes and pretzels"
             ],
             "correctIndex": 1,
             "explanation": "Mediterranean-style eating has the strongest and most consistent trial evidence for improving several metabolic syndrome components at once, lowering triglycerides, raising HDL, improving blood pressure and insulin sensitivity, and reducing waist circumference. A very low-fat, high-refined-carbohydrate diet tends to raise triglycerides and lower HDL, worsening two of the five criteria. Complete carbohydrate elimination is neither necessary nor sustainable and lacks long-term evidence for this cluster. Fruit juice and low-fat snack foods deliver concentrated refined carbohydrate, which drives triglycerides upward despite appearing low in fat.",
@@ -20592,9 +20592,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which mechanism best explains the dyslipidemia pattern characteristic of metabolic syndrome?",
             "options": [
                 "Insulin resistance increases hepatic VLDL production, raising triglycerides and lowering HDL",
-                "Excess dietary cholesterol directly lowers HDL",
-                "Impaired bile acid synthesis raises LDL exclusively",
-                "Reduced intestinal fat absorption raises triglycerides"
+                "Excess dietary cholesterol directly lowers HDL and raises triglycerides in the fasting state",
+                "Impaired bile acid synthesis raises LDL exclusively, without affecting triglycerides or HDL",
+                "Reduced intestinal fat absorption raises triglycerides by stimulating hepatic fat synthesis"
             ],
             "correctIndex": 0,
             "explanation": "Insulin resistance increases free fatty acid flux from adipose tissue to the liver and drives hepatic overproduction of very low density lipoprotein. The resulting triglyceride-rich particles exchange triglyceride for cholesteryl ester with HDL and LDL through cholesteryl ester transfer protein, which accelerates HDL catabolism and produces small dense LDL. That is the classic atherogenic triad. Dietary cholesterol has a modest effect on serum lipids and does not explain this pattern. Impaired bile acid synthesis is not a feature of the syndrome. Reduced fat absorption would lower, not raise, circulating triglycerides.",
@@ -20613,9 +20613,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "What magnitude of weight loss is generally sufficient to produce clinically meaningful improvement in metabolic syndrome components?",
             "options": [
-                "5 to 10% of body weight",
-                "At least 30% of body weight",
-                "Exactly 2% of body weight",
+                "5 to 10% of initial body weight over time",
+                "At least 30% of body weight within a year",
+                "Exactly 2% of body weight each month",
                 "Weight loss does not affect metabolic syndrome"
             ],
             "correctIndex": 0,
@@ -20655,10 +20655,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with metabolic syndrome asks about physical activity. Which recommendation is most appropriate?",
             "options": [
-                "Avoid exercise until weight is normalized",
+                "Avoid exercise until weight is normalized to reduce joint strain and cardiovascular risk",
                 "At least 150 minutes per week of moderate-intensity aerobic activity plus resistance training",
-                "Resistance training only, since aerobic exercise raises blood pressure",
-                "Exercise has no effect independent of weight loss"
+                "Resistance training only, since aerobic exercise raises blood pressure in metabolic syndrome",
+                "Exercise has no effect independent of weight loss, so calorie restriction should come first"
             ],
             "correctIndex": 1,
             "explanation": "Guidelines recommend at least 150 minutes weekly of moderate-intensity aerobic activity with resistance training on two or more days. Importantly, exercise improves insulin sensitivity, blood pressure and lipids even when weight does not change, because skeletal muscle glucose uptake increases through insulin-independent pathways. Waiting until weight normalizes delays a therapy that works immediately and independently. Restricting to resistance training alone forgoes aerobic cardiovascular benefit, and the premise that aerobic exercise raises blood pressure is wrong, since regular aerobic activity lowers it. Denying an independent effect ignores substantial trial evidence.",
@@ -20677,9 +20677,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which intake change most directly targets the elevated triglycerides seen in metabolic syndrome?",
             "options": [
                 "Reducing added sugars and refined carbohydrate, and limiting alcohol",
-                "Increasing dietary cholesterol from eggs",
-                "Increasing sodium to improve palatability of healthy foods",
-                "Eliminating all dietary fat"
+                "Increasing dietary cholesterol from eggs to raise protective HDL",
+                "Increasing sodium to improve palatability of healthy foods overall",
+                "Eliminating all dietary fat, including oils, nuts and fatty fish"
             ],
             "correctIndex": 0,
             "explanation": "Hepatic de novo lipogenesis from excess fructose and refined carbohydrate is a principal driver of hypertriglyceridemia, and alcohol independently stimulates triglyceride synthesis while inhibiting fatty acid oxidation. Reducing both produces the most direct and rapid triglyceride response, often within weeks. Dietary cholesterol has little effect on triglycerides. Increasing sodium raises blood pressure, worsening another criterion, and does nothing for lipids. Eliminating all dietary fat paradoxically raises triglycerides, because calories shift toward carbohydrate and drive the same lipogenic pathway; replacing saturated fat with unsaturated fat is the better strategy.",
@@ -20698,10 +20698,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with recurrent gout asks which foods to limit. Which group carries the strongest association with elevated serum urate and gout attacks?",
             "options": [
-                "Purine-rich vegetables such as spinach, asparagus and cauliflower",
+                "Purine-rich vegetables such as spinach, asparagus, mushrooms, peas and cauliflower",
                 "Organ meats, red meat, and certain seafood such as anchovies, sardines and shellfish",
-                "Whole grains and legumes",
-                "Low-fat dairy products"
+                "Whole grains and legumes such as oats, lentils, chickpeas and kidney beans",
+                "Low-fat dairy products such as skim milk, yogurt and reduced-fat cheese"
             ],
             "correctIndex": 1,
             "explanation": "Animal-source purines from organ meats, red meat and certain seafood raise serum urate and are consistently associated with gout attacks. This is a key distinction, because purine-rich VEGETABLES such as spinach, asparagus, mushrooms and cauliflower have NOT been shown to increase gout risk in prospective studies and need not be restricted, despite appearing on outdated food lists. Whole grains and legumes are likewise not associated with increased risk. Low-fat dairy is actually protective and is encouraged, since dairy proteins promote uric acid excretion.",
@@ -20764,10 +20764,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "What is the generally accepted serum urate target for a patient with recurrent gout on urate-lowering therapy?",
             "options": [
-                "Below 6 mg/dL",
-                "Below 10 mg/dL",
-                "Below 2 mg/dL",
-                "No specific target is used"
+                "Below 6 mg/dL for most patients",
+                "Below 10 mg/dL for most patients",
+                "Below 2 mg/dL for most patients",
+                "No specific target is used in practice"
             ],
             "correctIndex": 0,
             "explanation": "The accepted treat-to-target goal is a serum urate below 6 mg/dL, and below 5 mg/dL for patients with tophi or severe disease. This threshold sits beneath the saturation point of monosodium urate, which is roughly 6.8 mg/dL, so maintaining levels below it permits existing crystal deposits to dissolve. A target of 10 mg/dL is well above saturation and would allow continued crystal formation. Driving urate below 2 mg/dL is not a therapeutic goal and raises concerns given the antioxidant role of urate. Gout management is explicitly treat-to-target, so having no goal contradicts standard practice.",
@@ -20786,9 +20786,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with gout and obesity asks about rapid weight loss through a very low calorie ketogenic approach. What is the most appropriate counseling?",
             "options": [
                 "Rapid weight loss and ketosis can precipitate an acute attack; gradual loss is preferred",
-                "Rapid weight loss reliably prevents attacks and should be encouraged",
-                "Weight has no relationship to gout",
-                "Fasting is the preferred treatment for acute gout"
+                "Rapid weight loss reliably prevents attacks and should be encouraged; faster loss is preferred",
+                "Weight has no relationship to gout, so diet should target purines rather than calories",
+                "Fasting is the preferred treatment for acute gout because it lowers dietary purine intake"
             ],
             "correctIndex": 0,
             "explanation": "Ketone bodies compete with urate for renal tubular secretion, so ketosis from fasting or very low calorie dieting acutely raises serum urate and can trigger an attack, even though sustained weight loss lowers urate over time. Gradual, moderate weight reduction is therefore advised, and urate-lowering therapy should not be interrupted during weight loss. Claiming rapid loss reliably prevents attacks inverts the acute risk. Obesity is a well-established risk factor, so denying the relationship is wrong. Fasting is specifically contraindicated during an acute attack for the same ketosis-related mechanism.",
@@ -20808,8 +20808,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which dietary component is associated with a reduced risk of gout and may be encouraged?",
             "options": [
                 "Low-fat dairy products",
-                "Organ meats",
-                "Shellfish",
+                "Organ meats such as liver",
+                "Shellfish such as mussels",
                 "Sugar-sweetened soft drinks"
             ],
             "correctIndex": 0,
@@ -20829,10 +20829,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which medication class commonly used for hypertension can raise serum uric acid and precipitate gout?",
             "options": [
-                "Thiazide and loop diuretics",
-                "Calcium channel blockers",
+                "Thiazide and loop diuretics such as furosemide",
+                "Calcium channel blockers such as amlodipine",
                 "Angiotensin receptor blockers such as losartan",
-                "Statins"
+                "Statins such as atorvastatin for lipids"
             ],
             "correctIndex": 0,
             "explanation": "Thiazide and loop diuretics reduce renal uric acid excretion, partly through volume contraction that enhances proximal tubular reabsorption, and they are a well-recognized precipitant of gout in hypertensive patients. Recognizing this often prompts a change in antihypertensive strategy. Calcium channel blockers are associated with slightly LOWER gout risk. Losartan is notable for a mild uricosuric effect and is often preferred in patients with both hypertension and gout, so it is the opposite of a precipitant. Statins do not raise urate and may have a modest lowering effect.",
@@ -20851,10 +20851,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient in the middle of an acute gout flare asks whether he should start a strict low-purine diet immediately. What is the most appropriate response?",
             "options": [
-                "Begin severe purine restriction immediately to shorten the attack",
+                "Begin severe purine restriction immediately to shorten the attack, since dietary purines drive most of the urate rise",
                 "Focus on treating the acute attack and maintaining hydration; dietary change is a long-term strategy, not acute therapy",
-                "Fast completely until the attack resolves",
-                "Stop all fluids to reduce joint swelling"
+                "Fast completely until the attack resolves, then reintroduce foods gradually while monitoring joint pain",
+                "Stop all fluids to reduce joint swelling, then resume normal intake once the inflamed joint settles down"
             ],
             "correctIndex": 1,
             "explanation": "Dietary modification lowers serum urate modestly over time and is a maintenance strategy; it does not abort an acute flare, which is treated pharmacologically with anti-inflammatory therapy. Generous hydration is appropriate throughout. Beginning severe restriction mid-attack offers no acute benefit and may distract from effective treatment. Complete fasting is actively harmful, since the resulting ketosis competes with urate for renal secretion and can worsen the attack. Restricting fluids is the opposite of correct advice, because adequate hydration supports urate excretion and reduces stone risk.",
@@ -20873,9 +20873,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 34-year-old man is admitted with a severe closed traumatic brain injury and a Glasgow Coma Scale score of 6. He is intubated and hemodynamically stable. When should nutrition support be initiated?",
             "options": [
-                "Within 24 to 48 hours of injury",
+                "Within 24 to 48 hours of injury, once hemodynamically stable",
                 "After 7 days, once intracranial pressure normalizes",
-                "Only after the patient is extubated",
+                "Only after the patient is extubated and awake",
                 "After the first week, to avoid worsening cerebral edema"
             ],
             "correctIndex": 0,
@@ -20895,10 +20895,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which protein recommendation is most appropriate for a patient with severe traumatic brain injury in the acute phase?",
             "options": [
-                "0.8 g/kg per day",
-                "1.5 to 2.5 g/kg per day",
+                "0.8 to 1.0 g/kg per day to limit urea load",
+                "1.5 to 2.5 g/kg per day to offset catabolism",
                 "0.6 g/kg per day to reduce ammonia production",
-                "3.5 g/kg per day"
+                "3.5 to 4.0 g/kg per day to maximize synthesis"
             ],
             "correctIndex": 1,
             "explanation": "Severe traumatic brain injury produces intense catabolism driven by catecholamine and cortisol surges, with urinary nitrogen losses that can be several times normal. Protein needs are correspondingly high, generally 1.5 to 2.5 g/kg per day, to blunt lean mass loss. The 0.8 g/kg RDA is far below what this catabolic state demands. Restricting to 0.6 g/kg to limit ammonia confuses traumatic brain injury with hepatic encephalopathy, where protein restriction is itself outdated practice. A 3.5 g/kg intake exceeds recommendations, does not further reduce catabolism, and increases urea load and fluid requirements.",
@@ -20917,10 +20917,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with severe traumatic brain injury is receiving high-dose barbiturate therapy for refractory intracranial hypertension. How does this affect energy requirements?",
             "options": [
-                "Requirements increase by an additional 50%",
+                "Requirements increase by an additional 50% because barbiturates raise hepatic metabolism",
                 "Requirements are substantially reduced because barbiturates suppress metabolic rate",
-                "Requirements are unchanged",
-                "Requirements can no longer be estimated at all"
+                "Requirements are unchanged because barbiturates act only on cerebral metabolic rate",
+                "Requirements can no longer be estimated at all while barbiturate levels remain therapeutic"
             ],
             "correctIndex": 1,
             "explanation": "Barbiturate coma markedly suppresses cerebral and systemic metabolic rate, and measured energy expenditure can fall substantially below the hypermetabolic levels otherwise typical of traumatic brain injury. Feeding to standard injury-based estimates in this setting causes overfeeding, with hyperglycemia, hypercapnia and hepatic steatosis. Indirect calorimetry is especially valuable here. Assuming a further 50% increase compounds the error. Assuming no change ignores a well-documented pharmacologic effect. Requirements remain estimable, and indirect calorimetry measures them directly, so abandoning estimation is unnecessary.",
@@ -20939,10 +20939,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which method most accurately determines energy requirements in a patient with severe traumatic brain injury?",
             "options": [
-                "Indirect calorimetry",
+                "Indirect calorimetry measuring oxygen consumption",
                 "The Harris-Benedict equation without a stress factor",
-                "A fixed 20 kcal/kg for all patients",
-                "Body mass index alone"
+                "A fixed 20 kcal/kg for all patients in intensive care",
+                "Body mass index alone with an activity factor"
             ],
             "correctIndex": 0,
             "explanation": "Indirect calorimetry measures energy expenditure directly from oxygen consumption and carbon dioxide production, and it is the preferred method in traumatic brain injury because expenditure varies enormously with injury severity, sedation, paralysis, fever and the phase of recovery. Predictive equations are poorly calibrated to this variability. Harris-Benedict without a stress factor would substantially underestimate an unsedated hypermetabolic patient. A fixed 20 kcal/kg ignores the wide range of actual needs and typically underfeeds. Body mass index describes body size and says nothing about metabolic rate.",
@@ -20961,10 +20961,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient recovering from traumatic brain injury has emerged from coma but is agitated, impulsive and constantly moving. What is the most important nutrition implication?",
             "options": [
-                "Energy needs fall sharply during agitation",
+                "Energy needs fall sharply during agitation, because sedating medications lower the resting metabolic rate",
                 "Energy expenditure may be substantially increased by agitation and restlessness, raising requirements",
-                "Oral intake should be withheld during agitation",
-                "Protein needs return to the RDA immediately"
+                "Oral intake should be withheld during agitation until the patient is calm enough to be fed safely at the bedside",
+                "Protein needs return to the RDA immediately once the patient emerges from coma and begins moving independently"
             ],
             "correctIndex": 1,
             "explanation": "Post-traumatic agitation with continuous motor activity can raise energy expenditure well above resting values, and this phase often coincides with the transition to oral intake, when delivery is least reliable. Recognizing the increase prevents unintentional weight loss during rehabilitation. Energy needs rise rather than fall during agitation. Withholding oral intake is not appropriate simply because a patient is agitated; swallowing safety should be assessed and intake supported, with tube feeding maintained if oral intake is inadequate. Protein needs remain elevated through recovery and do not drop to the RDA on emergence from coma.",
@@ -20983,10 +20983,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with traumatic brain injury develops a serum sodium of 121 mEq/L with high urine output and clinical signs of volume depletion. Which condition is most likely?",
             "options": [
-                "Cerebral salt wasting",
+                "Cerebral salt wasting with renal sodium loss",
                 "Syndrome of inappropriate antidiuretic hormone secretion",
-                "Diabetes insipidus",
-                "Primary polydipsia"
+                "Central diabetes insipidus after head injury",
+                "Primary polydipsia from excessive water intake"
             ],
             "correctIndex": 0,
             "explanation": "Cerebral salt wasting produces hyponatremia with a HIGH urine output and true volume depletion, and it is treated with salt and volume REPLACEMENT. The distinguishing feature from SIADH is volume status: SIADH causes hyponatremia in a euvolemic or mildly hypervolemic patient and is treated with fluid RESTRICTION, so confusing the two leads to exactly the wrong treatment. Diabetes insipidus causes HYPERnatremia with dilute polyuria from inadequate antidiuretic hormone. Primary polydipsia causes hyponatremia from excessive water intake in a patient who is not volume depleted.",
@@ -21006,9 +21006,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Why is hyperglycemia particularly concerning in a patient with acute traumatic brain injury?",
             "options": [
                 "It is associated with worse neurologic outcomes and increased secondary brain injury",
-                "It has no effect on neurologic outcome",
-                "It improves cerebral perfusion",
-                "It reduces the risk of infection"
+                "It has no effect on neurologic outcome once intracranial pressure has been stabilized",
+                "It improves cerebral perfusion by supplying the injured brain with additional glucose",
+                "It reduces the risk of infection by strengthening the acute-phase immune response"
             ],
             "correctIndex": 0,
             "explanation": "Hyperglycemia after traumatic brain injury is associated with worse neurologic outcomes, thought to reflect increased anaerobic glycolysis and lactate accumulation in injured tissue, along with oxidative stress and exacerbation of secondary injury. Moderate glycemic control is therefore recommended, while avoiding hypoglycemia, which is itself damaging to the injured brain. Claiming no effect contradicts consistent observational data. Hyperglycemia does not improve cerebral perfusion. It increases rather than reduces infection risk, by impairing neutrophil function, which matters greatly in ventilated trauma patients.",
@@ -21028,9 +21028,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with traumatic brain injury is transitioning from tube feeding to oral intake. Which assessment is most important before advancing the diet?",
             "options": [
                 "Formal swallow evaluation for dysphagia and aspiration risk",
-                "Serum albumin measurement",
-                "Body mass index calculation",
-                "Twenty-four-hour urine creatinine"
+                "Serum albumin measurement to confirm adequate protein status",
+                "Body mass index calculation to set the initial energy target",
+                "Twenty-four-hour urine creatinine to estimate muscle mass"
             ],
             "correctIndex": 0,
             "explanation": "Dysphagia is common after traumatic brain injury because of impaired cognition, reduced alertness, poor oral motor control and blunted protective reflexes, and silent aspiration is frequent. A formal swallow evaluation determines whether oral intake is safe and what texture and consistency are appropriate, making it the essential step before advancing the diet. Serum albumin reflects inflammation and fluid status rather than swallowing safety or nutritional status. Body mass index describes body size and does not address aspiration risk. Urine creatinine estimates muscle mass and has no bearing on the decision to advance a diet.",
@@ -21049,10 +21049,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient is six months post complete C6 tetraplegia. Standard predictive equations estimate his energy needs at 2,100 kcal per day. What is the most likely problem with this estimate?",
             "options": [
-                "It is accurate and should be used as calculated",
+                "It is accurate and should be used as calculated, since predictive equations already adjust for body weight",
                 "It substantially overestimates needs, since denervated muscle and reduced lean mass lower energy expenditure",
-                "It substantially underestimates needs due to chronic hypermetabolism",
-                "Predictive equations are unaffected by spinal cord injury"
+                "It substantially underestimates needs due to chronic hypermetabolism from spasticity and neurogenic inflammation",
+                "Predictive equations are unaffected by spinal cord injury once the acute catabolic phase has fully resolved"
             ],
             "correctIndex": 1,
             "explanation": "After the acute phase, chronic spinal cord injury is characterized by loss of innervated muscle mass, reduced physical activity and lower resting energy expenditure, so standard predictive equations consistently OVERESTIMATE needs. Reported values are roughly 22.7 kcal/kg for tetraplegia and 27.9 kcal/kg for paraplegia, well below general population estimates, and feeding to uncorrected equations produces excessive weight and fat gain. Chronic hypermetabolism characterizes the acute injury phase, not the chronic phase. Claiming equations are unaffected ignores the fundamental change in body composition.",
@@ -21094,9 +21094,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with spinal cord injury has neurogenic bowel with chronic constipation. Which nutrition intervention is most appropriate?",
             "options": [
                 "Adequate fiber with sufficient fluid, coordinated with a scheduled bowel program",
-                "A very low fiber diet to reduce stool bulk",
-                "Fluid restriction to firm the stool",
-                "Elimination of all whole grains"
+                "A very low fiber diet to reduce stool bulk and the risk of impaction in the colon",
+                "Fluid restriction to firm the stool and make a scheduled evacuation more predictable",
+                "Elimination of all whole grains, replacing them with refined starches to limit gas"
             ],
             "correctIndex": 0,
             "explanation": "Neurogenic bowel management combines adequate fiber, sufficient fluid and a consistently timed bowel program, since predictable stool consistency and scheduled evacuation are what make the program work. Fiber should be increased gradually, because abrupt large increases can cause distension in a bowel with impaired motility. A very low fiber diet worsens constipation by reducing stool bulk and slowing transit further. Fluid restriction hardens stool and increases impaction risk. Eliminating whole grains removes a principal fiber source and is counterproductive.",
@@ -21116,9 +21116,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which complication makes adequate protein intake especially critical in patients with spinal cord injury?",
             "options": [
                 "High risk of pressure injuries over insensate bony prominences",
-                "Increased risk of hyperthyroidism",
-                "Elevated risk of hemochromatosis",
-                "Increased risk of celiac disease"
+                "Increased risk of hyperthyroidism from autonomic nervous system changes",
+                "Elevated risk of hemochromatosis from reduced physical activity",
+                "Increased risk of celiac disease from altered intestinal motility"
             ],
             "correctIndex": 0,
             "explanation": "Loss of sensation and mobility below the level of injury creates sustained pressure over bony prominences without the protective stimulus to shift position, so pressure injuries are among the most common and costly complications. Open wounds raise protein requirements substantially for collagen synthesis and granulation, on the order of 1.25 to 1.5 g/kg or more with stage 3 and 4 wounds. Hyperthyroidism is not associated with spinal cord injury. Hemochromatosis is a genetic iron disorder unrelated to the condition. Celiac disease risk is not increased by spinal cord injury.",
@@ -21138,9 +21138,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with a T4 spinal cord injury develops sudden severe hypertension, pounding headache, flushing above the injury level and sweating. What should be suspected?",
             "options": [
                 "Autonomic dysreflexia, often triggered by bladder distension or fecal impaction",
-                "Acute hypoglycemia",
-                "Refeeding syndrome",
-                "Dumping syndrome"
+                "Acute hypoglycemia, often triggered by a skipped meal after insulin administration",
+                "Refeeding syndrome, often triggered by rapid advancement of enteral feeding",
+                "Dumping syndrome, often triggered by rapid gastric emptying of simple sugars"
             ],
             "correctIndex": 0,
             "explanation": "Autonomic dysreflexia is a medical emergency occurring in injuries at or above roughly T6, in which a noxious stimulus below the injury level triggers unopposed sympathetic outflow, producing severe hypertension with headache and flushing above the lesion. The most common triggers are bladder distension and fecal impaction, which links directly to bowel management and therefore to nutrition care. Hypoglycemia causes tremor, sweating and confusion but not this hypertensive pattern. Refeeding syndrome produces electrolyte derangements. Dumping syndrome follows gastric surgery and causes postprandial cramping and tachycardia.",
@@ -21160,9 +21160,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which body composition change makes body mass index a poor indicator of nutritional status after spinal cord injury?",
             "options": [
                 "Loss of lean muscle mass with relative increase in fat mass at any given weight",
-                "Increased bone density with reduced fat mass",
-                "Increased total body water with reduced fat",
-                "Increased muscle mass below the injury level"
+                "Increased bone density with reduced fat mass from immobilization and spasticity",
+                "Increased total body water with reduced fat, inflating weight without adiposity",
+                "Increased muscle mass below the injury level from persistent involuntary spasms"
             ],
             "correctIndex": 0,
             "explanation": "After spinal cord injury, denervated muscle atrophies and fat mass increases proportionally, so a patient can have a body mass index in the normal range while carrying substantially elevated adiposity and depleted lean mass. Because of this, lower body mass index cutoffs are often suggested for identifying obesity in this population, and direct body composition assessment is preferred. Bone density decreases rather than increases, raising fracture risk. Total body water does not rise in a way that explains the limitation. Muscle mass below the injury level decreases, which is the core of the problem.",
@@ -21182,9 +21182,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which nutrition-related concern is elevated in patients with spinal cord injury due to immobilization?",
             "options": [
                 "Hypercalcemia from immobilization-induced bone resorption",
-                "Hypocalcemia from reduced calcium intake",
-                "Hypernatremia from reduced sweating",
-                "Hyperkalemia from muscle building"
+                "Hypocalcemia from reduced calcium intake and absorption",
+                "Hypernatremia from reduced sweating below the injury level",
+                "Hyperkalemia from muscle building during rehabilitation"
             ],
             "correctIndex": 0,
             "explanation": "Immobilization accelerates bone resorption, releasing calcium into the circulation, and immobilization hypercalcemia is a recognized complication particularly in the early months after injury and in younger patients with high bone mass. It can present with nausea, lethargy, constipation and confusion. Hypocalcemia is not the typical direction of change. Reduced sweating below the injury level affects thermoregulation but does not characteristically produce hypernatremia. Hyperkalemia from muscle building is not a feature, and muscle mass is decreasing rather than increasing.",
@@ -21203,10 +21203,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "How do energy requirements differ between the acute and chronic phases of spinal cord injury?",
             "options": [
-                "Both phases are equally hypermetabolic",
+                "Both phases are equally hypermetabolic, because denervated muscle continues to break down for years",
                 "The acute phase is catabolic with elevated needs, while the chronic phase has reduced needs from lost lean mass",
-                "Both phases have reduced needs",
-                "The chronic phase is more hypermetabolic than the acute phase"
+                "Both phases have reduced needs, because paralysis lowers activity energy expenditure from the first day",
+                "The chronic phase is more hypermetabolic than the acute phase, as spasticity and pressure injuries accumulate"
             ],
             "correctIndex": 1,
             "explanation": "The acute injury phase involves a catabolic stress response with elevated protein losses and increased requirements, often compounded by surgery and concurrent trauma. Once the patient stabilizes and denervated muscle atrophies, resting energy expenditure falls below general population norms, which is why chronic-phase estimates are considerably lower. Failing to make this transition is a common source of overfeeding. Treating both phases as equally hypermetabolic misses the chronic decline. Treating both as reduced underfeeds the acute patient. The chronic phase is less, not more, hypermetabolic than the acute phase.",
@@ -21225,10 +21225,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient is admitted with predicted severe acute pancreatitis. What is the most appropriate nutrition approach in the first 48 hours?",
             "options": [
-                "Keep the patient nil per os for at least 7 days for bowel rest",
+                "Keep the patient nil per os for at least 7 days for bowel rest, which reduces pancreatic enzyme secretion",
                 "Initiate early enteral nutrition, which reduces infectious complications compared with parenteral nutrition",
-                "Start parenteral nutrition immediately to rest the pancreas",
-                "Give only clear liquids for two weeks"
+                "Start parenteral nutrition immediately to rest the pancreas while still meeting full energy and protein needs",
+                "Give only clear liquids for two weeks, advancing to a low-fat diet once serum lipase has normalized"
             ],
             "correctIndex": 1,
             "explanation": "Current guidelines favor early enteral nutrition in severe acute pancreatitis, because maintaining luminal nutrition preserves gut barrier integrity and reduces bacterial translocation, infected necrosis, organ failure and mortality relative to parenteral nutrition. Prolonged bowel rest reflects outdated practice that has been reversed by trial evidence. Parenteral nutrition is reserved for patients who cannot tolerate enteral feeding, since it carries higher infectious risk. Clear liquids for two weeks provide negligible protein and energy to a hypermetabolic patient and are not a substitute for a nutrition plan.",
@@ -21247,10 +21247,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "In severe acute pancreatitis requiring tube feeding, what does current evidence suggest about nasogastric versus nasojejunal placement?",
             "options": [
-                "Nasojejunal is mandatory, since gastric feeding always worsens pancreatitis",
+                "Nasojejunal is mandatory, since gastric feeding always worsens pancreatitis by stimulating secretion",
                 "Nasogastric feeding appears non-inferior to nasojejunal in most patients and is simpler to place",
-                "Only surgical jejunostomy is acceptable",
-                "Neither route should be used; parenteral nutrition is required"
+                "Only surgical jejunostomy is acceptable, since nasal tubes migrate back into the stomach",
+                "Neither route should be used; parenteral nutrition is required until the pain fully resolves"
             ],
             "correctIndex": 1,
             "explanation": "Trials and meta-analyses indicate nasogastric feeding is generally non-inferior to nasojejunal feeding for safety and tolerance in severe acute pancreatitis, and it has the practical advantage of bedside placement without endoscopic or fluoroscopic assistance. Nasojejunal remains useful when gastric feeding is not tolerated. Declaring nasojejunal mandatory reflects older teaching that trials have not supported. Surgical jejunostomy is unnecessarily invasive as a first approach. Requiring parenteral nutrition contradicts the central finding that enteral feeding is preferred whenever the gut can be used.",
@@ -21271,8 +21271,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Begin oral feeding with a low-fat diet as tolerated",
                 "Continue nil per os until amylase and lipase fully normalize",
-                "Start parenteral nutrition",
-                "Maintain bowel rest for 5 more days"
+                "Start parenteral nutrition to rest the pancreas",
+                "Maintain bowel rest for 5 more days, then reassess"
             ],
             "correctIndex": 0,
             "explanation": "In mild acute pancreatitis, early oral refeeding with a low-fat diet once pain is improving and nausea has resolved is safe, shortens length of stay, and does not require waiting for enzyme normalization. Amylase and lipase levels correlate poorly with readiness to eat and should not gate refeeding, so waiting for them prolongs hospitalization without benefit. Parenteral nutrition is unnecessary and carries risk in a patient whose gut works and who will eat within days. Extending bowel rest another five days contradicts current evidence and causes avoidable deconditioning and nutrient deficit.",
@@ -21291,10 +21291,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with chronic pancreatitis has steatorrhea, weight loss and a low serum vitamin D despite eating adequately. What is the most appropriate intervention?",
             "options": [
-                "Restrict dietary fat to under 20 g daily indefinitely",
+                "Restrict dietary fat to under 20 g daily indefinitely and supplement vitamin D until serum levels and bone markers normalize",
                 "Optimize pancreatic enzyme replacement therapy taken with all meals and snacks, and supplement fat-soluble vitamins",
-                "Increase dietary fiber substantially",
-                "Begin a high-protein, fat-free diet"
+                "Increase dietary fiber substantially to bind excess fat in the stool and reduce steatorrhea",
+                "Begin a high-protein, fat-free diet to rest the pancreas while intake and weight recover"
             ],
             "correctIndex": 1,
             "explanation": "Chronic pancreatitis causes exocrine insufficiency, so fat and fat-soluble vitamins are malabsorbed regardless of intake. The cornerstone is adequate pancreatic enzyme replacement dosed by lipase units and taken with every fat-containing meal and snack, plus supplementation and monitoring of vitamins A, D, E and K. Severe indefinite fat restriction was historical practice and worsens energy deficit and fat-soluble vitamin status; with proper enzyme therapy, fat is generally tolerated. Substantially increasing fiber can adsorb enzymes and worsen symptoms. A fat-free diet guarantees essential fatty acid and fat-soluble vitamin deficiency.",
@@ -21336,9 +21336,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient presents with acute pancreatitis and serum triglycerides of 1,850 mg/dL. Which intervention is most relevant to preventing recurrence?",
             "options": [
                 "Aggressive triglyceride lowering through diet, weight management, glycemic control, alcohol avoidance and medication",
-                "Increasing dietary saturated fat",
-                "Restricting protein to 0.6 g/kg",
-                "High-dose calcium supplementation"
+                "Increasing dietary saturated fat while restricting carbohydrate to lower postprandial triglyceride peaks",
+                "Restricting protein to 0.6 g/kg to reduce pancreatic enzyme stimulation and allow the gland to rest",
+                "High-dose calcium supplementation to bind dietary fatty acids in the gut and lower fasting serum triglycerides"
             ],
             "correctIndex": 0,
             "explanation": "Triglycerides above roughly 1,000 mg/dL can precipitate acute pancreatitis, and preventing recurrence requires sustained lowering through a low-fat diet, marked reduction of added sugars and alcohol, weight management, tight glycemic control if diabetes is present, and fibrate or omega-3 therapy as indicated. Increasing saturated fat would raise lipids further. Protein restriction has no role and would impair recovery in a catabolic patient. High-dose calcium is not indicated and hypercalcemia is itself a cause of pancreatitis, so supplementing without indication could be harmful.",
@@ -21358,9 +21358,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which formula type may be used when a patient with severe acute pancreatitis does not tolerate a standard polymeric formula?",
             "options": [
                 "A semi-elemental formula with hydrolyzed peptides and medium-chain triglycerides",
-                "A high-fiber polymeric formula",
-                "A high long-chain triglyceride formula",
-                "A renal formula restricted in protein"
+                "A high-fiber polymeric formula with intact protein to promote gut adaptation",
+                "A high long-chain triglyceride formula enriched with omega-3 fatty acids from fish oil",
+                "A renal formula restricted in protein to reduce pancreatic enzyme stimulation"
             ],
             "correctIndex": 0,
             "explanation": "When a standard polymeric formula is not tolerated, a semi-elemental formula providing hydrolyzed peptides and medium-chain triglycerides requires less digestive capacity, since MCT are absorbed without lipase or bile salt-dependent micelle formation. Polymeric formulas are tried first, since most patients tolerate them. A high-fiber formula adds fermentative and osmotic load without helping digestion. A high long-chain triglyceride formula increases the demand on the very lipase activity that is impaired. A protein-restricted renal formula addresses a problem this patient does not have and would underfeed protein in a catabolic state.",
@@ -21380,9 +21380,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with chronic pancreatitis and newly diagnosed diabetes asks about management. Which consideration is most important?",
             "options": [
                 "Pancreatogenic diabetes involves loss of both insulin and glucagon, raising the risk of hypoglycemia",
-                "It should be managed identically to type 2 diabetes with metformin alone",
-                "Insulin is contraindicated in pancreatic disease",
-                "Carbohydrate should be eliminated entirely"
+                "It should be managed identically to type 2 diabetes with metformin alone and a standard carbohydrate plan",
+                "Insulin is contraindicated in pancreatic disease because it stimulates further pancreatic enzyme secretion",
+                "Carbohydrate should be eliminated entirely so that no insulin is needed and blood glucose remains stable"
             ],
             "correctIndex": 0,
             "explanation": "Diabetes secondary to chronic pancreatitis, sometimes called type 3c, involves destruction of both beta and alpha cells, so glucagon-mediated counterregulation is impaired and hypoglycemia is both more likely and harder to self-correct. Management emphasizes cautious glycemic targets, careful insulin titration and continued enzyme replacement, since malabsorption complicates carbohydrate timing. Treating it identically to type 2 diabetes ignores this counterregulatory defect. Insulin is not contraindicated and is often required. Eliminating carbohydrate entirely is unnecessary and increases hypoglycemia risk in a patient already vulnerable to it.",
@@ -21423,10 +21423,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Which protein recommendation is most appropriate for an adult with major burn injury?",
             "options": [
-                "0.8 g/kg per day",
+                "0.8 to 1.0 g/kg per day",
                 "1.5 to 2.0 g/kg per day",
-                "0.6 g/kg per day",
-                "4.0 g/kg per day"
+                "0.6 to 0.8 g/kg per day",
+                "3.5 to 4.0 g/kg per day"
             ],
             "correctIndex": 1,
             "explanation": "Major burns produce extreme catabolism plus direct protein loss through exudate from the open wound, so protein requirements of roughly 1.5 to 2.0 g/kg per day are recommended, with some protocols going higher in extensive burns. The 0.8 g/kg RDA applies to healthy adults and would permit rapid lean mass loss. A 0.6 g/kg intake is a restricted level used in specific renal contexts and would be harmful here. A 4.0 g/kg intake exceeds the range at which additional protein improves nitrogen balance, while adding urea load and fluid demands in a patient already managing large fluid shifts.",
@@ -21445,10 +21445,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "When does the hypermetabolic response to major burn injury typically peak?",
             "options": [
-                "Immediately at the time of injury",
+                "Immediately at the time of injury, then declines steadily over the first week",
                 "Around days 5 to 10 after injury, and it can remain elevated for months",
-                "Only after wound closure is complete",
-                "Hypermetabolism does not occur with burns"
+                "Only after wound closure is complete, when tissue rebuilding is most active",
+                "Hypermetabolism does not occur with burns unless an infection develops"
             ],
             "correctIndex": 1,
             "explanation": "The initial ebb phase in the first 24 to 48 hours is marked by reduced perfusion and metabolic rate, followed by a flow phase in which metabolic rate climbs and typically peaks around days 5 to 10. Elevated expenditure can persist for months after wound closure, which is why nutrition support continues well into rehabilitation. Metabolic rate is not maximal at the moment of injury; it is initially depressed. Hypermetabolism precedes rather than follows wound closure. Denying hypermetabolism contradicts the defining metabolic feature of major burn injury.",
@@ -21469,7 +21469,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Zinc, copper, selenium and vitamin C",
                 "Vitamin K and calcium exclusively",
-                "Iodine and fluoride",
+                "Iodine, fluoride, chromium and manganese",
                 "Vitamin B12 and folate exclusively"
             ],
             "correctIndex": 0,
@@ -21534,9 +21534,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Why is tight glycemic control important in patients with major burns?",
             "options": [
                 "Hyperglycemia impairs wound healing, increases infection risk and worsens muscle catabolism",
-                "Hyperglycemia improves graft take",
-                "Glucose control has no bearing on burn outcomes",
-                "Hypoglycemia is protective and should be induced"
+                "Hyperglycemia improves graft take by supplying glucose to the healing donor and recipient sites",
+                "Glucose control has no bearing on burn outcomes once enteral feeding has reached its goal rate",
+                "Hypoglycemia is protective and should be induced to lower the hypermetabolic response to injury"
             ],
             "correctIndex": 0,
             "explanation": "The catecholamine and cortisol surge after major burn injury produces marked insulin resistance and hyperglycemia, which impairs neutrophil function, glycates collagen, compromises graft survival and accelerates muscle protein breakdown. Moderate glycemic control improves infection rates and healing, while avoiding hypoglycemia. Hyperglycemia harms rather than helps graft take. Claiming no bearing on outcomes contradicts a substantial burn literature. Deliberately inducing hypoglycemia is dangerous, since it causes neuroglycopenia and increases mortality in critically ill patients.",
@@ -21556,9 +21556,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with 45% total body surface area burns is 3 weeks post injury and meeting estimated needs, yet continues to lose weight. What is the most appropriate initial response?",
             "options": [
                 "Reassess energy needs, ideally with indirect calorimetry, and verify actual versus prescribed delivery",
-                "Reduce protein to conserve calories",
-                "Accept the weight loss as unavoidable",
-                "Discontinue enteral nutrition and observe"
+                "Reduce protein to conserve calories for energy, since the weight loss reflects an energy deficit",
+                "Accept the weight loss as unavoidable during hypermetabolism and reassess after wound closure",
+                "Discontinue enteral nutrition and observe oral intake for several days to establish a baseline"
             ],
             "correctIndex": 0,
             "explanation": "Continued weight loss despite apparently adequate provision should prompt two checks: whether the estimate still matches actual expenditure, which indirect calorimetry answers directly in a population where equations perform poorly, and whether prescribed volume is actually being delivered, since interruptions for procedures, dressing changes and grafting commonly create a large gap. Reducing protein worsens lean mass loss in a profoundly catabolic patient. Accepting the loss as unavoidable abandons a correctable problem that impairs healing. Discontinuing nutrition support would accelerate deterioration.",
@@ -21600,9 +21600,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which pathophysiologic mechanism most directly links insulin resistance to hyperandrogenism in polycystic ovary syndrome?",
             "options": [
                 "Hyperinsulinemia stimulates ovarian androgen production and lowers sex hormone binding globulin",
-                "Insulin resistance increases estrogen clearance exclusively",
-                "Hyperinsulinemia directly destroys ovarian follicles",
-                "Insulin resistance raises thyroid hormone, which drives androgen synthesis"
+                "Insulin resistance increases estrogen clearance exclusively, leaving androgens relatively unopposed",
+                "Hyperinsulinemia directly destroys ovarian follicles, leaving only androgen-producing stromal cells",
+                "Insulin resistance raises thyroid hormone, which drives androgen synthesis in the adrenal glands"
             ],
             "correctIndex": 0,
             "explanation": "Compensatory hyperinsulinemia acts on ovarian theca cells to amplify luteinizing hormone-driven androgen synthesis, while simultaneously suppressing hepatic production of sex hormone binding globulin. Less binding globulin means more free, biologically active testosterone, which produces hirsutism, acne and anovulation. This dual mechanism explains why insulin-sensitizing interventions improve the hormonal picture. Increased estrogen clearance is not the driving mechanism. Hyperinsulinemia does not destroy follicles; it contributes to arrested follicular development. Thyroid hormone is not the mediator, though thyroid disease should be excluded when evaluating menstrual irregularity.",
@@ -21623,8 +21623,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "A low glycemic index dietary pattern with adequate fiber and protein",
                 "A diet composed mainly of fruit juices and refined grains",
-                "Complete elimination of dietary fat",
-                "Intermittent very low calorie fasting with no other changes"
+                "Complete elimination of dietary fat, including oils and nuts",
+                "Intermittent very low calorie fasting with no other changes to the usual diet"
             ],
             "correctIndex": 0,
             "explanation": "A low glycemic index pattern with adequate fiber and protein blunts postprandial glucose and insulin excursions, which directly addresses the central insulin resistance of PCOS, and trials show improvements in insulin sensitivity and menstrual regularity. Fruit juices and refined grains produce large glycemic swings and worsen the underlying problem. Eliminating dietary fat removes satiety and essential fatty acids while shifting intake toward carbohydrate, which is counterproductive. Very low calorie fasting without broader dietary and behavioral change is difficult to sustain and has not been established as superior for this population.",
@@ -21666,8 +21666,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Under the Rotterdam criteria, how many of the three features are required to diagnose polycystic ovary syndrome?",
             "options": [
                 "Two of three, after excluding other causes",
-                "All three features are required",
-                "One feature is sufficient",
+                "All three features are required for diagnosis",
+                "One feature is sufficient if it is anovulation",
                 "The criteria require only ultrasound findings"
             ],
             "correctIndex": 0,
@@ -21687,9 +21687,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A woman with PCOS is planning pregnancy. Which screening is most important given her condition?",
             "options": [
                 "Screening for impaired glucose tolerance and gestational diabetes risk",
-                "Screening for iron overload",
-                "Screening for hypercalcemia",
-                "Screening for vitamin C deficiency"
+                "Screening for iron overload and hereditary hemochromatosis risk",
+                "Screening for hypercalcemia and parathyroid hormone excess risk",
+                "Screening for vitamin C deficiency and impaired collagen synthesis risk"
             ],
             "correctIndex": 0,
             "explanation": "PCOS substantially increases the risk of impaired glucose tolerance, type 2 diabetes and gestational diabetes, so glucose screening before and during pregnancy is a priority, commonly with an oral glucose tolerance test rather than fasting glucose alone, since postprandial abnormalities appear first. These women also face higher risks of preeclampsia and preterm birth. Iron overload is unrelated to PCOS and is screened in suspected hemochromatosis. Hypercalcemia is not a feature of the syndrome. Vitamin C deficiency is not associated with PCOS and would be unusual in this population.",
@@ -21709,9 +21709,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which statement about physical activity in polycystic ovary syndrome is most accurate?",
             "options": [
                 "Exercise improves insulin sensitivity and hormonal profile even without significant weight loss",
-                "Exercise is only helpful if it produces at least 15% weight loss",
-                "Exercise worsens androgen excess and should be limited",
-                "Only high-intensity interval training provides any benefit"
+                "Exercise is only helpful if it produces at least 15% weight loss within the first six months",
+                "Exercise worsens androgen excess and should be limited to light walking a few times per week",
+                "Only high-intensity interval training provides any benefit for insulin sensitivity and ovulation"
             ],
             "correctIndex": 0,
             "explanation": "Regular physical activity improves insulin sensitivity, lowers circulating androgens and can improve menstrual regularity independent of weight change, because skeletal muscle glucose uptake increases through insulin-independent pathways. This matters clinically, since it gives patients a benefit they can achieve before the scale moves. Requiring 15% weight loss before any benefit is inaccurate and discouraging. Exercise reduces rather than worsens androgen excess. Both moderate continuous activity and interval training are beneficial, so restricting the recommendation to high-intensity work is unnecessarily narrow and less sustainable for many patients.",
@@ -21731,8 +21731,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient with PCOS has acanthosis nigricans on the posterior neck. What does this finding most likely indicate?",
             "options": [
                 "Significant insulin resistance",
-                "Vitamin A toxicity",
-                "Adrenal insufficiency",
+                "Chronic vitamin A toxicity",
+                "Primary adrenal insufficiency",
                 "Iron deficiency anemia"
             ],
             "correctIndex": 0,
@@ -21775,9 +21775,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "What is the primary purpose of coving where the kitchen floor meets the wall?",
             "options": [
                 "It eliminates the sharp right-angle joint so the junction can be cleaned effectively and harbors no debris or pests",
-                "It provides decorative finish required by building codes",
-                "It increases floor load capacity",
-                "It improves acoustic performance"
+                "It provides decorative finish required by building codes for any kitchen wall surface visible from the dining room",
+                "It increases floor load capacity where heavy equipment such as ranges and walk-ins sits against the wall",
+                "It improves acoustic performance by absorbing equipment noise where the floor and wall surfaces meet"
             ],
             "correctIndex": 0,
             "explanation": "Coving is the curved, sealed transition between floor and wall that removes the ninety-degree corner where soil, moisture and pests accumulate and where mops cannot reach. It is a sanitation design requirement in commercial kitchens precisely because it makes the junction cleanable. Its purpose is functional rather than decorative. It does not contribute to structural floor load capacity, which is determined by the slab and supporting structure. It has no meaningful acoustic function, and noise control in kitchens is addressed through ceiling treatments and equipment selection.",
@@ -21841,9 +21841,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which lighting level is generally specified for areas where employees perform detailed knife work and food preparation?",
             "options": [
                 "At least 50 footcandles",
-                "10 footcandles",
-                "20 footcandles",
-                "5 footcandles"
+                "At least 10 footcandles",
+                "At least 20 footcandles",
+                "At least 5 footcandles"
             ],
             "correctIndex": 0,
             "explanation": "Detailed preparation work involving knives and inspection of food requires at least 50 footcandles, because accuracy and injury prevention depend on the worker clearly seeing the cutting surface and product. Roughly 20 footcandles is specified for general service, handwashing and warewashing areas, and about 10 footcandles suffices for walk-in storage and cleaning areas where no detailed visual task occurs. Specifying 10 or 20 footcandles at a prep station raises the risk of cuts and of missed foreign material. A 5-footcandle level is below even the storage standard and would be unsafe anywhere work occurs.",
@@ -21863,9 +21863,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "What is the primary function of a Type I commercial kitchen exhaust hood?",
             "options": [
                 "To capture and remove grease-laden vapors, smoke and heat from cooking equipment",
-                "To supply conditioned fresh air to the dining room",
-                "To filter drinking water for the kitchen",
-                "To provide emergency lighting during a power failure"
+                "To supply conditioned fresh air to the dining room and balance building pressure",
+                "To filter drinking water for the kitchen and remove sediment from the ice machine",
+                "To provide emergency lighting during a power failure over the cooking line"
             ],
             "correctIndex": 0,
             "explanation": "A Type I hood is required over equipment producing grease-laden vapors, such as fryers, ranges, griddles and broilers. It captures grease, smoke and heat, routes them through baffle filters and a dedicated duct, and is paired with a fire suppression system, making it both a ventilation and a fire safety component. Type II hoods handle heat and moisture only, as over dishwashers and steamers. Supplying conditioned air to the dining room is the role of the building HVAC system. Water filtration and emergency lighting are entirely separate building systems.",
@@ -21907,9 +21907,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which consideration is most important when determining the size and placement of dry storage in a new facility?",
             "options": [
                 "Delivery frequency, inventory turnover and proximity to receiving and production",
-                "Matching the square footage of the dining room",
-                "Placing it adjacent to the warewashing area for convenience",
-                "Locating it in the warmest part of the building"
+                "Matching the square footage of the dining room and its projected seating capacity",
+                "Placing it adjacent to the warewashing area for convenience and shared plumbing",
+                "Locating it in the warmest part of the building to keep dry goods from absorbing moisture"
             ],
             "correctIndex": 0,
             "explanation": "Dry storage is sized from how much inventory the operation must hold, which depends on delivery frequency and turnover rate, and is located to shorten the path from receiving dock to storage to production. Frequent deliveries permit smaller storerooms and free up expensive square footage. Dining room square footage bears no relationship to storage needs. Placing dry storage beside warewashing exposes goods to heat and humidity and routes soiled traffic past stored food. Warm locations accelerate spoilage and pest activity, since dry storage should be cool, dry and well ventilated.",
@@ -21951,9 +21951,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which injuries are the most frequently reported in commercial foodservice operations?",
             "options": [
                 "Cuts, burns, and slips, trips and falls",
-                "Chemical inhalation injuries",
+                "Chemical inhalation and eye injuries",
                 "Hearing loss from equipment noise",
-                "Electrical shock injuries"
+                "Electrical shock and burn injuries"
             ],
             "correctIndex": 0,
             "explanation": "Cuts from knives and slicers, burns from hot surfaces, oil and steam, and slips, trips and falls on wet or greasy floors consistently account for the large majority of foodservice injuries, which is why knife handling, slip-resistant footwear, prompt spill cleanup and safe hot-item handling dominate safety training. Chemical inhalation injuries occur, typically from improperly mixed cleaners, but are far less frequent. Hearing loss is uncommon at commercial kitchen noise levels. Electrical shock injuries are relatively rare where equipment is properly grounded and maintained.",
@@ -21973,9 +21973,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which chemical combination must never be mixed because it produces toxic chloramine gas?",
             "options": [
                 "Chlorine bleach and ammonia-based cleaners",
-                "Vinegar and water",
-                "Quaternary ammonium sanitizer and water",
-                "Dish detergent and warm water"
+                "Diluted vinegar and water in a spray bottle",
+                "Quaternary ammonium sanitizer and cool water",
+                "Dish detergent and warm water in the sink"
             ],
             "correctIndex": 0,
             "explanation": "Combining chlorine bleach with an ammonia-containing cleaner releases chloramine gas, which causes severe respiratory irritation and can be fatal in enclosed spaces. This is a core element of chemical safety training, since both products are common in commercial kitchens. Bleach combined with acidic cleaners is similarly dangerous, releasing chlorine gas. Vinegar diluted with water is harmless. Quaternary ammonium sanitizer is designed to be diluted in water, and while it must not be mixed with detergents because that inactivates it, the result is ineffective sanitizing rather than toxic gas. Detergent in warm water is ordinary dishwashing.",
@@ -21995,9 +21995,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Before a maintenance technician services a jammed commercial mixer, which safety procedure must be followed?",
             "options": [
                 "Lockout/tagout, de-energizing the equipment and locking the power source so it cannot be started",
-                "Posting a verbal warning to nearby staff",
-                "Unplugging the machine only during the technician's lunch break",
-                "Slowing the machine to its lowest speed setting"
+                "Posting a verbal warning to nearby staff so no one switches the machine on during the repair",
+                "Unplugging the machine only during the technician's lunch break, when no one is watching the equipment",
+                "Slowing the machine to its lowest speed setting so the technician can safely clear the jam by hand"
             ],
             "correctIndex": 0,
             "explanation": "Lockout/tagout requires that the energy source be isolated and physically locked with a tag identifying who applied it, so the equipment cannot be energized while someone has hands inside it. It is an OSHA requirement and exists because verbal coordination fails. A verbal warning does not prevent another employee from starting the machine. Unplugging only during a lunch break leaves the machine live during the actual service work. Reducing speed leaves the equipment energized and capable of starting under power, which is exactly the hazard the procedure is designed to eliminate.",
@@ -22017,9 +22017,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which practice best reduces slip and fall injuries in a commercial kitchen?",
             "options": [
                 "Slip-resistant footwear, immediate spill cleanup, wet floor signage and non-slip flooring",
-                "Waxing and polishing floors weekly for appearance",
-                "Requiring employees to move quickly between stations",
-                "Removing floor mats to simplify cleaning"
+                "Waxing and polishing floors weekly for appearance and to seal the surface against grease",
+                "Requiring employees to move quickly between stations so wet areas are crossed for less time",
+                "Removing floor mats to simplify cleaning and eliminate edges that employees could trip over"
             ],
             "correctIndex": 0,
             "explanation": "Slips and falls are addressed through a combination of slip-resistant footwear, cleaning spills the moment they occur, visible wet floor signage, properly specified non-slip flooring and well-placed drainage. No single measure is sufficient alone. Waxing and polishing floors increases slipperiness, particularly where grease and moisture are present. Requiring faster movement increases both slip risk and the severity of falls. Removing floor mats eliminates traction exactly where it is most needed, at sinks, dish stations and cooking lines where floors are persistently wet.",
@@ -22061,9 +22061,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which practice is most important when using a commercial food slicer?",
             "options": [
                 "Engage the blade guard, use the hand guard, and unplug the unit before cleaning or blade removal",
-                "Clean the blade while the machine is running to save time",
-                "Remove guards to increase throughput during busy periods",
-                "Allow untrained staff to operate it under general supervision"
+                "Clean the blade while the machine is running to save time and remove residue from the edge more evenly",
+                "Remove guards to increase throughput during busy periods, replacing them before the machine is cleaned",
+                "Allow untrained staff to operate it under general supervision once they have watched it used several times"
             ],
             "correctIndex": 0,
             "explanation": "Slicers cause some of the most severe lacerations in foodservice, so safe use requires the blade guard engaged during operation, the hand guard or pusher used rather than fingers, and the unit unplugged with the blade set to zero before any cleaning or disassembly. Cleaning a running blade is among the most dangerous acts possible in a kitchen. Removing guards for speed defeats the engineering controls that prevent amputations. Allowing untrained staff to operate it violates OSHA training requirements, and general supervision does not substitute for documented, task-specific training.",
@@ -22104,10 +22104,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "According to the EPA Food Recovery Hierarchy, which action is the MOST preferred way to address food waste in a foodservice operation?",
             "options": [
-                "Composting food scraps",
+                "Composting food scraps, by returning nutrients from surplus to the soil",
                 "Source reduction, by preventing surplus food from being generated",
-                "Donating surplus to a food bank",
-                "Sending scraps to an anaerobic digester"
+                "Donating surplus to a food bank, by feeding people in need",
+                "Sending scraps to an anaerobic digester, by recovering energy from waste"
             ],
             "correctIndex": 1,
             "explanation": "The hierarchy ranks source reduction first, because preventing surplus avoids the energy, water, labor and land already embedded in producing food that is never eaten. Only after prevention does the hierarchy descend to feeding people through donation, then feeding animals, then industrial uses such as anaerobic digestion, then composting, with landfill last. Composting is near the bottom of the preferred tiers, recovering nutrients but not the food itself. Donation ranks second, valuable but still downstream of prevention. Anaerobic digestion recovers energy and ranks below donation and animal feed.",
@@ -22171,8 +22171,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A foodservice director wants to reduce water use with the single most cost-effective equipment change. Which option typically delivers the greatest savings?",
             "options": [
                 "Installing a low-flow pre-rinse spray valve at the dish station",
-                "Replacing all faucets with motion sensors",
-                "Switching to disposable serviceware",
+                "Replacing all faucets with motion sensors in the kitchen",
+                "Switching to disposable serviceware to eliminate dishwashing",
                 "Installing a decorative water feature with recirculation"
             ],
             "correctIndex": 0,
@@ -22193,9 +22193,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which menu strategy most directly reduces the greenhouse gas footprint of a foodservice operation?",
             "options": [
                 "Shifting toward plant-forward entrees and reducing ruminant meat portions",
-                "Increasing the number of menu items offered",
-                "Serving all foods on disposable plates",
-                "Extending steam table holding times"
+                "Increasing the number of menu items offered to spread demand across more entrees",
+                "Serving all foods on disposable plates to eliminate dishwashing energy and water",
+                "Extending steam table holding times so fewer batches need to be cooked each day"
             ],
             "correctIndex": 0,
             "explanation": "Ruminant meats, particularly beef and lamb, carry by far the highest greenhouse gas intensity per kilogram because of enteric methane and land use, so shifting menu emphasis toward plant-forward entrees and reducing ruminant portion sizes produces the largest reduction available through menu design. Expanding the number of items typically increases production complexity, overproduction and waste. Disposable plates add manufacturing and solid waste burden. Extending holding times degrades quality and increases both waste and energy use.",
@@ -22215,9 +22215,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which approach best addresses overproduction waste in a cafeteria setting?",
             "options": [
                 "Using production records and forecasting to align batch sizes with actual demand, cooking in smaller batches closer to service",
-                "Preparing all food at the start of service to ensure availability",
-                "Increasing portion sizes to use up prepared food",
-                "Discarding leftovers without tracking quantities"
+                "Preparing all food at the start of service to ensure availability, then holding it hot until the final customer is served",
+                "Increasing portion sizes to use up prepared food, so less of each batch remains in the pans at the end of the meal period",
+                "Discarding leftovers without tracking quantities, since recording waste adds labor without changing how much is produced"
             ],
             "correctIndex": 0,
             "explanation": "Overproduction is best controlled by forecasting from historical production records and cooking in smaller batches timed closer to service, so unsold quantity is minimized and quality stays high. Tracking waste by item closes the loop and refines future forecasts. Preparing everything at the start maximizes holding time, degrades quality and guarantees larger end-of-service surplus. Increasing portions to consume surplus raises food cost per cover and shifts waste to the plate. Discarding without tracking eliminates the data needed to correct the forecast, so the same overproduction repeats.",
@@ -22237,9 +22237,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "What does the term 'plate waste' refer to, and why is it measured?",
             "options": [
                 "Food served to the customer but left uneaten, measured to evaluate acceptability, portion size and menu planning",
-                "Food discarded during preparation before service",
-                "Packaging discarded at receiving",
-                "Energy lost through inefficient equipment"
+                "Food discarded during preparation before service, measured to evaluate trim yields and cook skill",
+                "Packaging discarded at receiving, measured to evaluate supplier sustainability, recycling rates and hauling costs",
+                "Energy lost through inefficient equipment, measured to evaluate utility costs per meal served"
             ],
             "correctIndex": 0,
             "explanation": "Plate waste is the edible food served to a customer or patient and returned uneaten. Measuring it evaluates menu acceptability, portion appropriateness and, in clinical settings, actual nutrient intake, which makes it a quality indicator rather than only a cost measure. Food discarded during preparation is pre-consumer or production waste, tracked separately because its causes and remedies differ. Packaging discarded at receiving is part of the solid waste and recycling stream. Energy lost through inefficient equipment is a utility concern unrelated to the term.",
@@ -22280,10 +22280,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 400-bed hospital assembles patient trays on a conveyor line in the main kitchen and transports completed trays to nursing units. Which service system is this, and what is its principal advantage?",
             "options": [
-                "Decentralized service; superior food temperature at the point of service",
+                "Decentralized service; superior food temperature and quality at the point of service",
                 "Centralized service; better portion control, consistency and lower equipment duplication",
-                "Commissary service; elimination of all on-site production",
-                "Assembly-serve; no cooking required on site"
+                "Commissary service; elimination of all on-site production at each of the nursing units",
+                "Assembly-serve; no cooking required on site because all items arrive fully prepared"
             ],
             "correctIndex": 1,
             "explanation": "Assembling complete trays in the main kitchen and transporting them to units is centralized service. Its advantages are tight portion and diet accuracy through supervised tray line assembly, consistent presentation, and no need to duplicate equipment and staff on every unit; its main drawback is temperature and quality loss during transport. Decentralized service sends food in bulk to unit galleys for portioning there, which protects temperature but duplicates equipment. Commissary refers to a central kitchen serving separate satellite facilities. Assembly-serve describes purchasing fully prepared foods, a production rather than distribution decision.",
@@ -22303,9 +22303,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which distribution approach best preserves food temperature and quality at the point of service, and what is its trade-off?",
             "options": [
                 "Decentralized service, at the cost of duplicated equipment and higher labor",
-                "Centralized service, at the cost of reduced portion control",
-                "Assembly-serve, at the cost of increased cooking skill required",
-                "Commissary service, at the cost of requiring more on-site chefs"
+                "Centralized service, at the cost of reduced portion control and consistency",
+                "Assembly-serve, at the cost of increased cooking skill required on each unit",
+                "Commissary service, at the cost of requiring more on-site chefs at every unit"
             ],
             "correctIndex": 0,
             "explanation": "Decentralized service transports food in bulk to galley kitchens near the point of service, where it is portioned and plated immediately, which minimizes hold time and preserves temperature and quality. The trade-off is that each unit needs its own rethermalization and holding equipment and staff, raising capital and labor costs and making portion consistency harder to supervise. Centralized service is the one that risks temperature loss, and it improves rather than reduces portion control. Assembly-serve reduces rather than increases required cooking skill. Commissary systems reduce rather than increase on-site culinary staffing.",
@@ -22325,9 +22325,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which equipment approach is commonly used to maintain hot food temperature on patient trays during transport in a centralized system?",
             "options": [
                 "Insulated pellet-and-dome systems or induction-heated bases",
-                "Open plates covered with paper napkins",
-                "Room-temperature carts with ventilation slots",
-                "Ice-lined transport carts"
+                "Open plates covered with paper napkins to hold in steam",
+                "Room-temperature carts with ventilation slots for airflow",
+                "Ice-lined transport carts with insulated tray covers"
             ],
             "correctIndex": 0,
             "explanation": "Pellet-and-dome systems use a preheated disc beneath the plate with an insulating cover, and induction bases heat a ferromagnetic plate base immediately before the cart leaves, both designed to hold hot foods above 135 degrees Fahrenheit through transport and distribution. Open plates with paper covers provide essentially no thermal protection and allow rapid heat loss into the danger zone. Ventilated room-temperature carts actively accelerate cooling. Ice-lined carts are for cold food transport and would drive hot items down through the danger zone.",
@@ -22347,9 +22347,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A hospital implements a room service model where patients order by phone and meals are delivered within 45 minutes. What is the principal expected benefit?",
             "options": [
                 "Improved patient satisfaction and intake, since patients eat what they want when they are ready",
-                "Reduced need for any diet order verification",
-                "Elimination of the need for trained foodservice staff",
-                "Guaranteed lower total food cost with no other changes"
+                "Reduced need for any diet order verification, since patients choose from a preapproved menu",
+                "Elimination of the need for trained foodservice staff, since orders are placed directly by patients",
+                "Guaranteed lower total food cost with no other changes, because trays are no longer assembled in advance"
             ],
             "correctIndex": 0,
             "explanation": "Room service models improve patient satisfaction and often nutrient intake, because patients order when they feel able to eat and choose items they actually want, which reduces plate waste. Diet order verification becomes MORE important, not less, since orders are taken continuously and must be checked against each patient's prescribed diet in real time. Trained staff remain essential for order taking, diet verification and cook-to-order production. Food cost effects vary; waste often falls but labor and extended hours of operation can offset that, so lower total cost is not guaranteed.",
@@ -22369,9 +22369,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "In a cook-chill system, what is the critical control point during the distribution phase to satellite units?",
             "options": [
                 "Maintaining product at or below 41 degrees Fahrenheit throughout transport until rethermalization",
-                "Holding product at room temperature to ease rethermalization",
-                "Rethermalizing before transport to save time on the unit",
-                "Transporting at 100 degrees Fahrenheit to shorten reheating"
+                "Holding product at room temperature to ease rethermalization and shorten reheating times on the unit",
+                "Rethermalizing before transport to save time on the unit and hold it hot until service begins",
+                "Transporting at 100 degrees Fahrenheit to shorten reheating while keeping texture and moisture intact"
             ],
             "correctIndex": 0,
             "explanation": "Cook-chill depends on holding chilled product at or below 41 degrees Fahrenheit through storage and transport, so refrigerated transport and temperature monitoring at receipt are the control point; the product is rethermalized to 165 degrees Fahrenheit only at the point of service. Holding at room temperature places food squarely in the danger zone. Rethermalizing before transport defeats the purpose of the system and subjects reheated food to a long hot hold. Transporting at 100 degrees Fahrenheit is within the danger zone and is among the most hazardous options possible.",
@@ -22391,9 +22391,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "What is the purpose of a tray line test tray in patient foodservice?",
             "options": [
                 "A tray is pulled at the end of the line and checked for temperature, accuracy and appearance before service continues",
-                "It is a sample tray given to administrators for approval of the menu",
-                "It is the first tray of each meal, always discarded",
-                "It is used only during health department inspections"
+                "It is a sample tray given to administrators for approval of the menu before each new menu cycle is introduced on the units",
+                "It is the first tray of each meal, always discarded because its food has not yet reached serving temperature",
+                "It is used only during health department inspections to demonstrate temperature control to the inspector"
             ],
             "correctIndex": 0,
             "explanation": "A test tray is pulled from the line, typically the last tray or one timed to the longest delivery route, and evaluated for food temperature, diet and portion accuracy, appearance and completeness. It is a routine quality control practice that catches problems while the meal can still be corrected. It is not a menu approval sample for administrators. It is not a discarded first tray. Limiting the practice to inspection days would defeat its purpose, since its value comes from ongoing monitoring of the system as it actually runs every day.",
@@ -22434,10 +22434,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A satellite school kitchen receives bulk hot food from a central kitchen. On arrival, the receiving temperature reads 118 degrees Fahrenheit. What is the most appropriate action?",
             "options": [
-                "Serve immediately since it is still warm",
+                "Serve immediately since it is still warm, and note the reading on the receiving log for follow-up",
                 "Reject or reheat the product to 165 degrees Fahrenheit and investigate the transport failure",
-                "Hold it on the steam table until it climbs above 135 degrees Fahrenheit",
-                "Refrigerate and serve it cold"
+                "Hold it on the steam table until it climbs above 135 degrees Fahrenheit, then serve as scheduled",
+                "Refrigerate and serve it cold, since chilling below 41 degrees Fahrenheit stops further bacterial growth"
             ],
             "correctIndex": 1,
             "explanation": "A receiving temperature of 118 degrees Fahrenheit means the product has been in the danger zone, so it must be reheated rapidly to 165 degrees Fahrenheit if time and temperature history permit, or discarded, and the transport failure must be investigated to prevent recurrence. Serving at 118 degrees distributes food that has been held in the danger zone for an unknown period. Steam tables are holding equipment, not reheating equipment, and cannot reliably bring food up through the danger zone quickly enough. Refrigerating and serving cold does not eliminate pathogens or toxins that may already have developed.",
