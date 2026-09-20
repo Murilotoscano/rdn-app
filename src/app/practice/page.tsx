@@ -57,6 +57,7 @@ function PracticeContent() {
         // is captured separately in the error log.
         outcomesRef.current[q.id] = isCorrect;
         store.markSeen([q.id]);
+        store.markExposed([q.id]);
 
         if (isCorrect && status === 'confident') {
             setScore(s => s + 1);

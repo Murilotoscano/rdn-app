@@ -7,3 +7,9 @@
  * verdict on the result page and the line on the dashboard chart cannot drift apart.
  */
 export const PRACTICE_TARGET_PCT = 75;
+
+/**
+ * Below this many never-before-seen questions in a session, the unseen-only percentage
+ * swings too much to judge on, so it is reported but not used as the headline number.
+ */
+export const MIN_FRESH_FOR_VERDICT = 30;

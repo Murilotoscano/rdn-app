@@ -64,6 +64,7 @@ export interface BackupFile {
         customProgress: Record<string, CdrProgress>;
         /** Question id -> last attempted (epoch ms). Absent in v1 backups. */
         seenQuestions?: Record<string, number>;
+        exposedQuestions?: Record<string, number>;
     };
 }
 
@@ -115,10 +116,11 @@ const STORAGE_KEYS = {
     CUSTOM_QUESTIONS: 'rdn_custom_questions',
     CUSTOM_PROGRESS: 'rdn_custom_progress',
     SEEN: 'rdn_seen_questions',
+    EXPOSED: 'rdn_exposed_questions',
 };
 
 const BACKUP_FORMAT = 'rdn-app-backup';
-const BACKUP_VERSION = 2; // v2 adds seenQuestions; v1 files still import
+const BACKUP_VERSION = 3; // v3 adds exposedQuestions; v1 and v2 files still import
 
 const BACKUP_META_KEYS = {
     LAST_BACKUP_AT: 'rdn_last_backup_at',
@@ -326,7 +328,13 @@ export const store = {
                     total_questions: item.totalQuestions,
                     domain_scores: item.domainScores,
                     time_spent_seconds: item.timeSpentSeconds,
-                    mode: item.mode
+                    mode: item.mode,
+                    // Without these a synced-down history cannot tell a real-conditions mock
+                    // from a review run, nor report performance on unseen questions.
+                    real_conditions: item.realConditions ?? null,
+                    inconclusive: item.inconclusive ?? null,
+                    fresh_total: item.freshTotal ?? null,
+                    fresh_correct: item.freshCorrect ?? null
                 })));
 
             if (error) throw error;
@@ -403,6 +411,9 @@ export const store = {
 
                 remoteHistory.forEach(remote => {
                     const idx = mergedHistory.findIndex(h => h.id === remote.id);
+                    const local = idx >= 0 ? mergedHistory[idx] : undefined;
+                    // A remote row that predates these columns must not erase what the local
+                    // record knows about the session.
                     const transformed: ExamResult = {
                         id: remote.id,
                         date: remote.date,
@@ -410,7 +421,11 @@ export const store = {
                         totalQuestions: remote.total_questions,
                         domainScores: remote.domain_scores,
                         timeSpentSeconds: remote.time_spent_seconds,
-                        mode: remote.mode
+                        mode: remote.mode,
+                        realConditions: remote.real_conditions ?? local?.realConditions,
+                        inconclusive: remote.inconclusive ?? local?.inconclusive,
+                        freshTotal: remote.fresh_total ?? local?.freshTotal,
+                        freshCorrect: remote.fresh_correct ?? local?.freshCorrect
                     };
 
                     if (idx >= 0) {
@@ -515,12 +530,49 @@ export const store = {
         localStorage.setItem(STORAGE_KEYS.SEEN, JSON.stringify(seen));
     },
 
-    /** Attempted questions that still exist in the bank, out of the bank's size. */
+    /**
+     * Questions the student has actually been SHOWN, whether or not they answered.
+     * A mock exam reveals every item (answered or not) on its result page, and practice
+     * reveals the key when the answer is checked, so those questions are no longer new.
+     * Kept apart from getSeen(), which holds attempts, because "I have seen this" and
+     * "I have answered this" mean different things for both drawing and reporting.
+     */
+    getExposed: (): Record<string, number> => {
+        if (typeof window === 'undefined') return {};
+        try { return JSON.parse(localStorage.getItem(STORAGE_KEYS.EXPOSED) || '{}'); }
+        catch { return {}; }
+    },
+
+    markExposed: (questionIds: string[]) => {
+        if (typeof window === 'undefined' || questionIds.length === 0) return;
+        const exposed = store.getExposed();
+        const now = Date.now();
+        for (const id of questionIds) exposed[id] = now;
+        localStorage.setItem(STORAGE_KEYS.EXPOSED, JSON.stringify(exposed));
+    },
+
+    /** Anything already attempted OR merely shown: what "unseen first" must avoid. */
+    getSeenOrExposed: (): Record<string, number> => {
+        const merged = { ...store.getSeen() };
+        for (const [id, at] of Object.entries(store.getExposed())) {
+            if (at > (merged[id] ?? 0)) merged[id] = at;
+        }
+        return merged;
+    },
+
+    /**
+     * Two different numbers, reported separately: questions ATTEMPTED (answered at least
+     * once) and questions EXPOSED (shown with their answer, including mock items that ran
+     * out of time and were revealed on the result page).
+     */
     getCoverage: (validIds: Set<string>) => {
         const seen = store.getSeen();
-        let attempted = 0;
+        const exposedOnly = store.getExposed();
+        let attempted = 0, exposed = 0;
         for (const id of Object.keys(seen)) if (validIds.has(id)) attempted++;
-        return { attempted, total: validIds.size };
+        const union = new Set<string>([...Object.keys(seen), ...Object.keys(exposedOnly)]);
+        for (const id of union) if (validIds.has(id)) exposed++;
+        return { attempted, exposed, total: validIds.size };
     },
 
     recordBackup: () => {
@@ -595,6 +647,7 @@ export const store = {
             customQuestions: store.getCustomQuestions(),
             customProgress: store.getCustomProgress(),
             seenQuestions: store.getSeen(),
+            exposedQuestions: store.getExposed(),
         }
     }),
 
@@ -643,6 +696,14 @@ export const store = {
             if (at > (seenMap[id] ?? 0)) seenMap[id] = at;
         }
         localStorage.setItem(STORAGE_KEYS.SEEN, JSON.stringify(seenMap));
+
+        // v1 and v2 backups carry no exposure map. Their attempts stay attempts; nothing is
+        // invented about which questions were merely shown.
+        const exposedMap = store.getExposed();
+        for (const [id, at] of Object.entries(incoming.exposedQuestions ?? {})) {
+            if (at > (exposedMap[id] ?? 0)) exposedMap[id] = at;
+        }
+        localStorage.setItem(STORAGE_KEYS.EXPOSED, JSON.stringify(exposedMap));
 
         return { added, updated, examsAdded: newExams.length };
     },

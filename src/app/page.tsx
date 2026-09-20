@@ -8,6 +8,8 @@ import { useEffect, useState } from "react";
 import { store, SyncResult } from "@/lib/store";
 import { SAMPLE_QUESTIONS, QUESTION_IDS } from "@/lib/questions";
 import ScoreTrendChart from "@/components/ScoreTrendChart";
+import { EXAM_MAX_QUESTIONS } from "@/lib/examRules";
+import { MIN_FRESH_FOR_VERDICT } from "@/lib/targets";
 
 export default function Home() {
   const [counts, setCounts] = useState<{
@@ -15,8 +17,16 @@ export default function Home() {
     dueUnsure: number; dueIncorrect: number;
   }>({ due: 0, overdue: 0, mastered: 0, total: 0, dueUnsure: 0, dueIncorrect: 0 });
 
-  const [readinessScore, setReadinessScore] = useState({ score: 0, accuracy: 0, completion: 0 });
-  const [attempted, setAttempted] = useState(0);
+  type LastMock = {
+    date: string; pct: number; answered: number; total: number;
+    inconclusive: boolean; freshPct: number | null; freshTotal: number;
+  };
+  const [progress, setProgress] = useState({ attempted: 0, exposed: 0, total: 0 });
+  const [accuracy, setAccuracy] = useState<{ practicePct: number | null; practiceN: number; mockPct: number | null; mockN: number }>(
+    { practicePct: null, practiceN: 0, mockPct: null, mockN: 0 }
+  );
+  const [domains, setDomains] = useState<{ domain: string; pct: number; total: number }[]>([]);
+  const [lastMock, setLastMock] = useState<LastMock | null>(null);
   const [mounted, setMounted] = useState(false);
   const [syncing, setSyncing] = useState(false);
   const [lastSync, setLastSync] = useState<string | null>(null);
@@ -26,23 +36,55 @@ export default function Home() {
     const reviewCounts = store.getReviewCounts(QUESTION_IDS);
     setCounts(reviewCounts);
 
-    // Calculate Readiness Score
-    const stats30Days = store.getStats(30);
-    const overallAccuracy = stats30Days ? stats30Days.accuracy : 0;
-    // Coverage counts every question attempted. It previously used the error log's size,
-    // which only holds misses, so answering wrong raised "completion" and readiness.
-    const coverage = store.getCoverage(QUESTION_IDS);
-    setAttempted(coverage.attempted);
-    const completionPercentage = coverage.total > 0 ? (coverage.attempted / coverage.total) * 100 : 0;
+    // Reported as separate facts. There is no single "readiness" number here: the CDR scaled
+    // score (1-50, pass = 25) comes from an adaptive exam and cannot be derived from a
+    // percentage of this bank, so nothing on this page is converted into one.
+    setProgress(store.getCoverage(QUESTION_IDS));
 
-    // Algorithm: 60% weight on accuracy, 40% weight on completion (capped at 100%)
-    const score = Math.min(100, Math.round((overallAccuracy * 0.6) + (completionPercentage * 0.4)));
-
-    setReadinessScore({
-      score: score,
-      accuracy: Math.round(overallAccuracy),
-      completion: Math.round(completionPercentage)
+    const history = store.getExamHistory();
+    const sum = (rows: typeof history) => rows.reduce(
+      (acc, h) => ({ correct: acc.correct + h.score, total: acc.total + h.totalQuestions }),
+      { correct: 0, total: 0 }
+    );
+    const mocks = history.filter(h => h.mode === 'mock');
+    const drills = history.filter(h => h.mode !== 'mock');
+    const mockTotals = sum(mocks);
+    const drillTotals = sum(drills);
+    setAccuracy({
+      practicePct: drillTotals.total > 0 ? Math.round((drillTotals.correct / drillTotals.total) * 100) : null,
+      practiceN: drillTotals.total,
+      mockPct: mockTotals.total > 0 ? Math.round((mockTotals.correct / mockTotals.total) * 100) : null,
+      mockN: mockTotals.total
     });
+
+    const byDomain: Record<string, { correct: number; total: number }> = {};
+    history.forEach(h => Object.entries(h.domainScores ?? {}).forEach(([domain, score]) => {
+      if (!byDomain[domain]) byDomain[domain] = { correct: 0, total: 0 };
+      byDomain[domain].correct += score.correct;
+      byDomain[domain].total += score.total;
+    }));
+    setDomains(
+      Object.entries(byDomain)
+        .filter(([, v]) => v.total > 0)
+        .map(([domain, v]) => ({ domain, pct: Math.round((v.correct / v.total) * 100), total: v.total }))
+        .sort((a, b) => a.domain.localeCompare(b.domain))
+    );
+
+    // Only a mock taken under real conditions is reported as one.
+    const realMocks = mocks.filter(h => h.realConditions);
+    const latest = realMocks.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))[0];
+    if (latest) {
+      const freshEnough = (latest.freshTotal ?? 0) >= MIN_FRESH_FOR_VERDICT;
+      setLastMock({
+        date: new Date(latest.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+        pct: latest.totalQuestions > 0 ? Math.round((latest.score / latest.totalQuestions) * 100) : 0,
+        answered: latest.totalQuestions,
+        total: EXAM_MAX_QUESTIONS,
+        inconclusive: !!latest.inconclusive,
+        freshPct: freshEnough ? Math.round(((latest.freshCorrect ?? 0) / (latest.freshTotal ?? 1)) * 100) : null,
+        freshTotal: latest.freshTotal ?? 0
+      });
+    }
 
     setMounted(true);
 
@@ -103,15 +145,19 @@ export default function Home() {
           </div>
 
           <div className={styles.readinessWidget}>
-            <div className={styles.circularProgress} style={{ "--progress": `${readinessScore.score}%` } as React.CSSProperties}>
-              <div className={styles.innerCircle}>
-                <span className={styles.scoreValue}>{readinessScore.score}%</span>
-              </div>
-            </div>
             <div className={styles.readinessText}>
-              <h2 className={styles.readinessTitle}>Exam Readiness</h2>
+              <h2 className={styles.readinessTitle}>Where you stand</h2>
               <p className={styles.readinessDetails}>
-                Based on {readinessScore.accuracy}% accuracy & {readinessScore.completion}% completion
+                Practice and review: {accuracy.practicePct === null ? 'no sessions yet' : `${accuracy.practicePct}% of ${accuracy.practiceN} answers`}
+                <br />
+                Mock exams: {accuracy.mockPct === null ? 'none taken yet' : `${accuracy.mockPct}% of ${accuracy.mockN} scored answers`}
+                <br />
+                {lastMock
+                  ? `Last mock under exam conditions (${lastMock.date}): ${lastMock.pct}%, ${lastMock.answered} of ${lastMock.total} answered${lastMock.inconclusive ? ' - inconclusive, under 125 answered' : ''}${lastMock.freshPct !== null ? `; ${lastMock.freshPct}% on ${lastMock.freshTotal} unseen questions` : ''}`
+                  : 'No mock taken under exam conditions yet.'}
+              </p>
+              <p className={styles.readinessDetails} style={{ marginTop: 6, opacity: 0.75 }}>
+                These are practice results, not a CDR scaled score and not a probability of passing.
               </p>
             </div>
           </div>
@@ -135,11 +181,30 @@ export default function Home() {
         </div>
 
         <div className={styles.statCard}>
-          <span className={styles.statLabel}>Bank Completion</span>
-          <span className={styles.statValue}>{attempted} <span style={{ fontSize: '1rem', color: 'var(--text-muted)' }}>/ {SAMPLE_QUESTIONS.length}</span></span>
+          <span className={styles.statLabel}>Questions answered</span>
+          <span className={styles.statValue}>{progress.attempted} <span style={{ fontSize: '1rem', color: 'var(--text-muted)' }}>/ {SAMPLE_QUESTIONS.length}</span></span>
           <div className={styles.progressBarContainer}>
-            <div className={styles.progressBarFill} style={{ width: `${readinessScore.completion}%` }}></div>
+            <div className={styles.progressBarFill} style={{ width: `${progress.total > 0 ? (progress.attempted / progress.total) * 100 : 0}%` }}></div>
           </div>
+          <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+            {progress.exposed} seen, including mock items revealed on the result page
+          </span>
+        </div>
+
+        <div className={styles.statCard}>
+          <span className={styles.statLabel}>By domain</span>
+          {domains.length === 0 ? (
+            <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>No scored sessions yet.</span>
+          ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+              {domains.map(d => (
+                <span key={d.domain} style={{ fontSize: '0.8rem' }}>
+                  {d.domain}: <strong>{d.pct}%</strong>{' '}
+                  <span style={{ color: 'var(--text-muted)' }}>({d.total} answers)</span>
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       </div>
 

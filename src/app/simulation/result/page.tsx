@@ -1,5 +1,6 @@
 'use client';
 
+import { MIN_FRESH_FOR_VERDICT } from "@/lib/targets";
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { CheckCircle, XCircle, AlertTriangle } from 'lucide-react';
@@ -8,8 +9,7 @@ import styles from './Result.module.css';
 import { PRACTICE_TARGET_PCT } from '@/lib/targets';
 import { EXAM_MIN_ANSWERED, EXAM_MINUTES } from '@/lib/examRules';
 
-// Below this many new questions the fresh-only percentage is too noisy to judge on.
-const MIN_FRESH_FOR_VERDICT = 30;
+
 
 interface ResultData {
     score: number;
@@ -87,8 +87,9 @@ export default function ResultPage() {
                     )}
                     <p>
                         Aim to score {PRACTICE_TARGET_PCT}% or higher consistently across mock exams.
-                        This is a practice benchmark, not a prediction: the real exam is adaptive
-                        and reports a scaled score, with 25 on a 1-50 scale required to pass.
+                        This is a practice benchmark, not a prediction: this mock is a fixed
+                        145-question form, while the real exam is computer adaptive and reports
+                        a scaled score, with 25 on a 1-50 scale required to pass.
                     </p>
                 </div>
             </div>

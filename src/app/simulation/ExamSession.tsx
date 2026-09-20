@@ -10,7 +10,7 @@ export default function ExamSession({ realConditions }: { realConditions: boolea
     // Drawn once per visit, unseen questions first. Recording which ones were new lets the
     // result report a score on questions the student could not have memorized.
     const [exam] = useState(() => {
-        const seen = store.getSeen();
+        const seen = store.getSeenOrExposed();
         const questions = drawBlueprintExam(EXAM_MAX_QUESTIONS, undefined, seen);
         const freshIds = new Set(questions.filter(q => !(q.id in seen)).map(q => q.id));
         return { questions, freshIds };

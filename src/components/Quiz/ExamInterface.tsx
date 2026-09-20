@@ -118,7 +118,11 @@ export default function ExamInterface({ questions, freshIds, realConditions }: P
 
         // And this is what puts the mock's misses into the review queue.
         store.logErrorsBatch(misses);
+        // Attempts and exposure are different facts. Answered items are attempts; every item
+        // in the exam is exposed, because the result page prints the correct answer for all
+        // of them, including the ones time ran out on.
         store.markSeen(questions.filter((_, idx) => answers[idx] !== undefined).map(q => q.id));
+        store.markExposed(questions.map(q => q.id));
 
         const resultData = {
             score,
@@ -146,13 +150,15 @@ export default function ExamInterface({ questions, freshIds, realConditions }: P
                 <div className={styles.headerLeft}>
                     <h1 className={styles.title}>RDN Mock Exam</h1>
                     <span className={styles.subtitle}>
-                        {currIndex + 1} of {questions.length}{realConditions ? ' · Exam conditions' : ' · Review mode'}
+                        {currIndex + 1} of {questions.length}
+                        {realConditions ? ' · Exam conditions · fixed form, not adaptive' : ' · Review mode'}
                     </span>
                 </div>
 
                 <div className={styles.headerRight}>
                     <Timer
                         durationInSeconds={EXAM_MINUTES * 60}
+                        startedAt={startedAt}
                         onTimeUp={handleFinish}
                     />
                     {!realConditions && (
