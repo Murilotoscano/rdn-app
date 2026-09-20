@@ -13,18 +13,21 @@ Method: option length measured in characters and, separately, in words. 'Strictl
 
 **By characters** (n = 1178)
 
-- Key is strictly the longest option: 27.6%
+- Key is strictly the longest option: 27.5%
 - Key is strictly the shortest option: 10.3%
-- Always pick the Nth longest: 1st=32.9%, 2th=28.1%, 3th=23.5%, 4th=15.5%
-- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 245 questions and is right 16.7% of the time there; guessing elsewhere the whole strategy scores 23.3%
+- Always pick the Nth longest: 1st=32.8%, 2th=28.1%, 3th=23.6%, 4th=15.5%
+- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 245 questions and is right 16.3% of the time there; guessing elsewhere the whole strategy scores 23.2%
 
 
 **By words** (n = 1178)
 
 - Key is strictly the longest option: 13.3%
-- Key is strictly the shortest option: 12.2%
-- Always pick the Nth longest: 1st=25.8%, 2th=23.5%, 3th=24.4%, 4th=26.2%
-- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 415 questions and is right 27.7% of the time there; guessing elsewhere the whole strategy scores 26.0%
+- Key is strictly the shortest option: 12.3%
+- Always pick the Nth longest: 1st=25.9%, 2th=23.5%, 3th=24.3%, 4th=26.2%
+- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 416 questions and is right 27.6% of the time there; guessing elsewhere the whole strategy scores 25.9%
+
+
+**Absolute-qualifier cue** ('always', 'never', 'all', 'only', 'every', 'none'): dropping every option that contains one and guessing among the rest scores 27.1% (chance 25%); it isolates the key on its own in 0 question(s).
 
 
 Length is only one cue. Grammar agreement, absurd distractors and excess detail are reviewed by reading items, not by this script.

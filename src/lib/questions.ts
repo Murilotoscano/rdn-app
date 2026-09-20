@@ -6582,7 +6582,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A patient with hyperlipidemia asks about dietary changes. Which recommendation is most consistent with a cardioprotective diet?",
             "options": [
-                "Increase saturated fat to 15% of calories and eliminate all dietary fat from fried foods",
+                "Increase saturated fat to 15% of calories and swap fried foods for baked versions",
                 "Limit saturated and trans fat to <7% of calories; increase soluble fiber and plant sterols",
                 "Eliminate all dietary cholesterol and increase refined carbohydrates to replace the lost calories",
                 "Restrict all fats to <5% of total calories, including oils, nuts, seeds and fatty fish"
@@ -6991,7 +6991,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "When should micronutrient status be assessed in a bariatric surgery candidate?",
             "options": [
-                "Only after surgery if symptoms of deficiency develop",
+                "After surgery, once symptoms of deficiency have developed",
                 "Preoperatively, to minimize postoperative deficiencies",
                 "At 6 months post-surgery for the first time only",
                 "Only if BMI exceeds 50 kg/m² before the operation"
@@ -12422,7 +12422,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "In decision making, 'Satisficing' refers to:",
             "options": [
-                "Selecting the absolute best optimal solution after comparing every available alternative",
+                "Selecting the optimal solution after comparing the available alternatives in detail",
                 "Selecting the first alternative that meets the minimum criteria or is 'good enough'",
                 "Using a group consensus to decide, with every member agreeing to the final choice",
                 "Delaying the decision until more data is available to eliminate all uncertainty"
@@ -15917,7 +15917,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A 'Rethermalization' unit is used in which foodservice systems?",
             "options": [
-                "Conventional foodservice systems only",
+                "Conventional cook-serve foodservice systems",
                 "Ready-Prepared (Cook-Chill/Cook-Freeze)",
                 "Assembly-Serve foodservice systems only",
                 "Commissary foodservice systems only"
@@ -16484,7 +16484,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "OSHA's 'Bloodborne Pathogens Standard' requires employers to:",
             "options": [
-                "Provide all employees with free daily lunch meals in the cafeteria during every scheduled shift",
+                "Provide employees with free daily lunch meals in the cafeteria during each scheduled shift",
                 "Develop an exposure control plan and provide Hepatitis B vaccinations to at-risk employees",
                 "Test all food for potential blood contamination before service to patients and visitors",
                 "Hire a full-time registered nurse to be on-site at all times in the foodservice department"
@@ -18966,7 +18966,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Current guidance on preventing peanut allergy in high-risk infants, based on the LEAP trial, recommends which approach?",
             "options": [
-                "Avoid all peanut products until age 3, when the gut barrier is mature enough to tolerate peanut protein",
+                "Avoid peanut products until age 3, when the gut barrier is mature enough to tolerate peanut protein",
                 "Introduce age-appropriate peanut-containing foods early, around 4 to 6 months, after appropriate evaluation",
                 "Introduce peanut only after allergy testing is negative at age 5, to confirm tolerance before any exposure",
                 "Maternal peanut avoidance during pregnancy and lactation, so the infant is never sensitized through the mother"
@@ -19165,7 +19165,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which food safety guidance is most important for a patient with advanced HIV and a CD4 count below 200 cells/mm3?",
             "options": [
                 "Avoid unpasteurized dairy, raw or undercooked eggs, meat, and seafood, and untreated water",
-                "Avoid all raw fruits and vegetables permanently, even when washed, peeled or commercially packaged",
+                "Avoid raw fruits and vegetables permanently, even when washed, peeled or commercially packaged",
                 "Consume only canned foods and shelf-stable products to eliminate any bacterial exposure",
                 "Avoid all dietary fiber to reduce gut bacterial load and the risk of bacterial translocation"
             ],
@@ -20022,7 +20022,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Which statement about arginine supplementation in pressure injury management is most accurate?",
             "options": [
-                "Arginine is contraindicated in all wound patients because it increases nitric oxide production",
+                "Arginine is contraindicated in wound patients because it increases nitric oxide production",
                 "Arginine-containing specialized formulas may improve healing in stage 3 and 4 pressure injuries",
                 "Arginine should be given to every patient with any wound, including minor skin tears and abrasions",
                 "Arginine is an essential amino acid in all circumstances and must be supplied in every diet"
@@ -20265,7 +20265,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which supplementation regimen is appropriate after malabsorptive bariatric surgery?",
             "options": [
                 "Lifelong multivitamin with minerals, vitamin B12, iron, calcium citrate and vitamin D, with periodic laboratory monitoring",
-                "Supplements only during the first postoperative month, until the patient can tolerate a varied regular-texture diet",
+                "Supplements during the first postoperative month, until the patient can tolerate a varied regular-texture diet again",
                 "No supplementation is needed if the diet is varied and protein goals are met, with laboratory monitoring only if symptoms appear",
                 "A single daily calcium tablet is sufficient, since calcium is the only nutrient whose absorption the bypass meaningfully reduces"
             ],
@@ -22777,7 +22777,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A parent whose household income is 150% of the federal poverty level asks what her child will pay for school lunch this year. The correct answer is:",
             "options": [
                 "Reduced price, which federal rules cap at 40 cents for each school lunch",
-                "Free meals, because every family below 185% of poverty is served at no charge",
+                "Free meals, because families below 185% of poverty are served at no charge",
                 "Full price, because reduced-price status only begins below 130% of poverty",
                 "Free meals, but only if the school also runs the School Breakfast Program"
             ],
@@ -22868,8 +22868,8 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "At least three of the four items offered, including a half cup of fruit or vegetable",
                 "All four of the items offered, because Offer versus Serve applies only at lunch",
-                "Any two items the student chooses, with no fruit or vegetable required at all",
-                "Only milk and one grain item, because breakfast carries no fruit requirement"
+                "Two items of the student's choice, with no requirement for fruit or vegetable",
+                "Milk and one grain item, because breakfast carries no fruit requirement"
             ],
             "correctIndex": 0,
             "explanation": "The School Breakfast Program pattern offers three components (fruit or vegetable, grains, milk) as at least four food items, and under Offer versus Serve the student must take at least three items, one of which must be a half cup or more of fruit or vegetable. Meat/meat alternates may substitute for grains once the daily grain minimum is met. Breakfast reimbursement rates are lower than lunch rates, and severe-need schools receive a higher rate.",
@@ -24092,7 +24092,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Which kitchen layout change best reflects the principles of motion economy?",
             "options": [
                 "Placing the most used utensils and pans within arm's reach of the work surface",
-                "Storing all small equipment in a central room to keep work surfaces clear",
+                "Storing small equipment in a central room so the work surfaces stay clear",
                 "Assigning each cook a different station every shift so everyone learns them all",
                 "Raising all work counters to a single height that matches the tallest employee"
             ],

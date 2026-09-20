@@ -155,6 +155,24 @@ TOPICS = [
 ]
 
 
+ABSOLUTES = re.compile(r"\b(always|never|all|only|every|none)\b", re.I)
+
+
+def absolute_cue(qs):
+    """Test-wise students are taught that options with absolutes are wrong. Measures how
+    far that heuristic gets on this bank, and how often it isolates the key on its own."""
+    hit = 0.0
+    isolates = []
+    for q in qs:
+        keep = [i for i, o in enumerate(q["options"]) if not ABSOLUTES.search(o)]
+        if not keep:
+            keep = list(range(4))
+        hit += (1 / len(keep)) if q["correctIndex"] in keep else 0
+        if len(keep) == 1 and keep[0] == q["correctIndex"]:
+            isolates.append(q["id"])
+    return hit / len(qs) * 100, isolates
+
+
 def coverage(qs):
     rows = []
     for name, pat in TOPICS:
@@ -192,6 +210,11 @@ def main():
         out.append(f"- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on "
                    f"{m['visible_fires']} questions and is right {m['visible_hit_pct']:.1f}% of the time there; "
                    f"guessing elsewhere the whole strategy scores {m['visible_strategy_pct']:.1f}%\n")
+    cue_pct, isolates = absolute_cue(qs)
+    out.append(f"\n**Absolute-qualifier cue** ('always', 'never', 'all', 'only', 'every', 'none'): "
+               f"dropping every option that contains one and guessing among the rest scores "
+               f"{cue_pct:.1f}% (chance 25%); it isolates the key on its own in {len(isolates)} "
+               f"question(s){': ' + ', '.join(isolates) if isolates else ''}.\n")
     out.append("\nLength is only one cue. Grammar agreement, absurd distractors and excess detail are "
                "reviewed by reading items, not by this script.\n")
     out.append("\n## 3. Topic coverage\n")
