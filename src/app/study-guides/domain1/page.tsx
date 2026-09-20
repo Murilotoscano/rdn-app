@@ -171,7 +171,7 @@ const sections: Section[] = [
           ["Specificity", "True negative rate: TN/(TN+FP); probability of negative test in someone WITHOUT disease", "High specificity = good for RULING IN disease (positive test reliable); SpPin"],
           ["Odds Ratio (OR)", "Ratio of odds of exposure in cases vs controls; used in case-control studies", "Say 'X times the ODDS' NOT 'X times more likely' — this is the most common OR interpretation error"],
           ["Relative Risk (RR)", "Ratio of risk in exposed vs unexposed; used in cohort and RCT", "RR=2.0 means exposed group has 2x the RISK of developing disease"],
-          ["P-value", "Probability results occurred by chance assuming null hypothesis is true", "p<0.05 = statistically significant; does NOT measure clinical importance"],
+          ["P-value", "Probability of data at least this extreme IF the null hypothesis is true", "p<0.05 = statistically significant; NOT the chance the result is a fluke, and does NOT measure clinical importance"],
           ["Positive skew", "Tail extends RIGHT; mean > median > mode", "Income data; disease severity (most mild, few severe outliers pull mean up)"],
           ["Normal MMA", "MMA normal = folate deficiency; MMA elevated = B12 deficiency", "KEY differentiator when both B12 and folate deficiency cause elevated homocysteine"],
         ]},

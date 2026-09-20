@@ -1191,13 +1191,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A researcher conducts a randomized controlled trial analyzing the effect of a high-protein diet on lean muscle mass retention in older adults. The statistical analysis reveals a p-value of 0.04. Which of the following is the most accurate interpretation of this finding?",
             "options": [
-                "There is a 4% probability that the study's results are completely inaccurate and should not be applied to clinical practice.",
+                "There is only a 4% probability that the observed difference between the two groups occurred purely by random chance.",
                 "There is a 96% probability that the high-protein diet successfully retained lean muscle mass in every participant in the treatment group.",
-                "The result is statistically significant, meaning there is only a 4% probability that the observed difference occurred by chance.",
+                "The result is statistically significant: if the diet had no true effect, a difference this large would appear in only 4% of trials.",
                 "The intervention caused a 4% increase in lean muscle mass among the treatment group compared with the control group over the study period."
             ],
             "correctIndex": 2,
-            "explanation": "The p-value represents the probability of obtaining the observed results (or more extreme results) if the null hypothesis is true (i.e., if there was actually no difference between the groups). A p-value of 0.04 (which is less than the standard significance level of 0.05) indicates the result is statistically significant. It means there is only a 4% chance that the difference observed between the control and treatment groups occurred purely by random chance."
+            "explanation": "The p-value is the probability of observing a difference at least this large IF the null hypothesis were true (no real difference between the groups). p = 0.04 falls below the conventional 0.05 threshold, so the result is called statistically significant. What the p-value does NOT give you: the probability that the result is due to chance, the probability that the null hypothesis is true, the size of the effect, or a guarantee that it applies to every participant. Report it with the effect size and the 95% confidence interval."
         },
         {
             "id": "dom1-ext-003",
@@ -4062,13 +4062,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A study finds an odds ratio (OR) of 1.8 for heart attack among patients with diabetes versus those without. The CORRECT interpretation is:",
             "options": [
-                "Diabetic patients have 1.8 times HIGHER odds of heart attack than non-diabetic patients",
+                "Patients with diabetes have 1.8 times the RISK of heart attack, since an odds ratio equals relative risk",
                 "The odds of heart attack in patients with diabetes was 1.8 times the odds in those without diabetes",
                 "Diabetes increases the risk of heart attack by 180% compared with patients without diabetes",
                 "Patients with diabetes are 80% more likely to have a heart attack than non-diabetic patients"
             ],
             "correctIndex": 1,
-            "explanation": "The correct phrasing for an odds ratio is: 'The odds of [outcome] in [exposed group] was [OR] times the odds of [outcome] in [comparison group].' The phrases 'times higher' or 'fold higher' are technically incorrect — they imply addition rather than multiplication. 'Increases by 80%' conflates percent change with the OR itself. The cleanest correct interpretations are: OR = 1.8 times the odds, OR 'the OR of heart attack for those with vs. without diabetes was 1.8.'",
+            "explanation": "The correct phrasing for an odds ratio is: 'The odds of [outcome] in [exposed group] was [OR] times the odds of [outcome] in [comparison group].' An odds ratio is NOT a relative risk: when the outcome is common, the OR exaggerates the RR, so 'times the risk' and '% more likely' convert the number into a risk claim the design cannot support. 'Increases risk by 180%' also confuses percent change with the ratio itself (an OR of 1.8 is an 80% increase in ODDS, not 180%).",
             "tags": [
                 "odds-ratio",
                 "interpretation",
@@ -4738,15 +4738,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Enteral Nutrition Formulas",
             "difficulty": "medium",
-            "text": "Why are low carbohydrate/high fat enteral formulas beneficial for patients receiving mechanical ventilation?",
+            "text": "A mechanically ventilated patient with COPD is receiving enteral nutrition. What does current guidance say about using a low-carbohydrate/high-fat 'pulmonary' formula?",
             "options": [
-                "Fat provides more calories per gram, reducing total formula volume needed and the risk of pulmonary fluid overload in ventilated patients",
-                "Excess carbohydrate is converted to fat, releasing CO2 — difficult to clear with impaired respiratory function; fat produces less CO2",
-                "Low carbohydrate formulas prevent hyperglycemia in all ventilated patients — stress hyperglycemia is otherwise unavoidable with standard feeds",
-                "High fat formulas reduce enteral feeding intolerance and dumping syndrome — fat slows gastric emptying and lowers aspiration risk"
+                "Use a high-fat formula in every ventilated patient, because fat yields less CO2 per calorie than carbohydrate",
+                "Avoid overfeeding calories, which drives CO2 far more than the carbohydrate-to-fat ratio; specialty formulas are not routine",
+                "Use a very high-carbohydrate formula, since glucose is the preferred fuel of the respiratory muscles during weaning trials",
+                "Withhold enteral feeding until the patient is extubated, because any feeding raises CO2 production too much"
             ],
             "correctIndex": 1,
-            "explanation": "When excess carbohydrate (beyond the body's oxidation capacity) is converted to fat (lipogenesis), it releases CO2. Patients on mechanical ventilation with impaired respiratory function have difficulty clearing excess CO2, increasing PCO2 and potentially worsening respiratory acidosis, making ventilator weaning harder. Low CHO/high fat formulas reduce CO2 production, facilitating ventilator weaning.",
+            "explanation": "Substrate ratios do change the respiratory quotient (carbohydrate 1.0, protein 0.8, fat 0.7), but the effect on CO2 production is small next to total calorie load: OVERFEEDING is what raises CO2 and stalls weaning. ASPEN/SCCM therefore do not recommend routine high-fat/low-carbohydrate formulas to manipulate the RQ in acute respiratory failure. What is recommended: meet measured or estimated needs without overfeeding, and for patients in fluid overload use an energy-dense (1.5-2.0 kcal/mL) formula. Watch phosphorus, which the diaphragm needs to contract, especially during refeeding.",
             "tags": [
                 "enteral formula",
                 "ventilator",
@@ -4760,15 +4760,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Enteral Nutrition Formulas",
             "difficulty": "medium",
-            "text": "Glutamine-supplemented enteral formulas are particularly beneficial in which clinical population?",
+            "text": "According to current ASPEN/SCCM guidance, how should glutamine-supplemented enteral formulas be used in critically ill patients?",
             "options": [
-                "Patients with chronic kidney disease on hemodialysis with elevated protein needs",
-                "Patients with hyperlipidemia and insulin resistance who are starting lipid-lowering therapy",
-                "Critically ill, trauma, burn, or surgical patients with increased stress and catabolism",
-                "Patients with constipation or irregular bowel function who need more stool bulk"
+                "Routinely in all critically ill patients, since physiologic stress raises glutamine needs and lowers mortality",
+                "Routinely in patients with shock and multi-organ failure, where randomized trials showed the largest benefit",
+                "Not routinely: it is not recommended in critical illness, though burn and trauma patients may be exceptions",
+                "Routinely in hemodialysis patients, to replace the glutamine lost into the dialysate during each session"
             ],
             "correctIndex": 2,
-            "explanation": "Glutamine requirements are significantly increased during physiologic stress: trauma, burns, sepsis, major surgery, and catabolic states. Glutamine is a key transporter of nitrogen and carbon and serves as fuel for intestinal cells and immune cells. Glutamine-supplemented formulas can improve glucose and protein metabolism and help prevent GI atrophy in stressed patients.",
+            "explanation": "Glutamine is a conditionally essential amino acid: a fuel for enterocytes and immune cells, and a nitrogen carrier whose needs do rise with trauma, burns, sepsis and major surgery. But the trials did not deliver. In REDOXS (2013) high-dose glutamine INCREASED mortality in critically ill patients with multi-organ failure, and the 2016 ASPEN/SCCM critical care guidelines recommend against routinely adding glutamine to enteral nutrition in the general ICU population — burn and trauma patients are cited as possible exceptions. Parenteral glutamine is not recommended in critical illness, and glutamine should be avoided in shock, renal failure and hepatic failure.",
             "tags": [
                 "glutamine",
                 "EN formula",
@@ -5395,7 +5395,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Proteins have the highest RQ of 1.2, so a completely protein-free formula is necessary for ARDS to limit CO2 retention."
             ],
             "correctIndex": 0,
-            "explanation": "The Respiratory Quotient (RQ) is the ratio of CO2 produced to O2 consumed during metabolism. Carbohydrates have an RQ of 1.0 (they produce high amounts of CO2 when burned). Fats have an RQ of ~0.7 (they produce less CO2 relative to O2 consumed). Proteins are ~0.8. If a patient is receiving excess total calories, or an extremely high proportion of carbohydrate calories, their body produces excessive CO2. In a patient with compromised lungs (ARDS) attempting to wean off a ventilator, clearing this extra CO2 requires increased minute ventilation, leading to respiratory failure and delayed weaning. Therefore, preventing overfeeding and sometimes using lower-CHO/higher-fat formulas helps minimize CO2 retention."
+            "explanation": "The Respiratory Quotient (RQ) is the ratio of CO2 produced to O2 consumed during metabolism. Carbohydrates have an RQ of 1.0 (they produce high amounts of CO2 when burned). Fats have an RQ of ~0.7 (they produce less CO2 relative to O2 consumed). Proteins are ~0.8. If a patient is receiving excess total calories, or an extremely high proportion of carbohydrate calories, their body produces excessive CO2. In a patient with compromised lungs (ARDS) attempting to wean off a ventilator, clearing this extra CO2 requires increased minute ventilation, leading to respiratory failure and delayed weaning. Therefore, preventing overfeeding and sometimes using lower-CHO/higher-fat formulas helps minimize CO2 retention. Clinically, though, total calorie load matters far more than the fat-to-carbohydrate ratio: current ASPEN/SCCM guidance is to avoid overfeeding rather than to use a specialty pulmonary formula routinely, and for fluid overload to choose an energy-dense formula."
         },
         {
             "id": "dom2-ext-015",
@@ -6244,11 +6244,11 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Encourage red meat and coffee to mask the metallic taste",
                 "Use plastic utensils and serve foods cold or at room temperature",
-                "Increase citrus fruits and juices to stimulate taste buds",
+                "Serve hot, aromatic foods such as broth and soup to mask the taste",
                 "Recommend very spicy foods to override the metallic sensation"
             ],
             "correctIndex": 1,
-            "explanation": "Dysgeusia (altered taste) is common in chemotherapy patients. Plastic utensils reduce metallic taste from metal cutlery. Cold or room-temperature foods have less odor and taste intensity. Red meat, coffee, chocolate, and citrus typically worsen dysgeusia.",
+            "explanation": "Dysgeusia (altered taste) is common during chemotherapy. Plastic utensils remove the metallic taste that metal cutlery adds, and cold or room-temperature foods release less aroma and taste less intense. Red meat, coffee and chocolate commonly taste worse, and hot aromatic foods intensify the problem. Tart or citrus foods, lemonade and marinades help some patients, but only when there are no mouth sores. Rinsing the mouth before meals and good oral hygiene also help.",
             "tags": [
                 "cancer",
                 "dysgeusia",
@@ -6811,15 +6811,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "GI Disorders",
             "difficulty": "hard",
-            "text": "Which supplement has evidence for promoting mucosal healing in Crohn's disease during remission?",
+            "text": "A patient with Crohn's disease in remission asks which supplement will heal their intestinal lining. What is the best response?",
             "options": [
-                "High-dose vitamin C and vitamin E",
-                "Glutamine and omega-3 fatty acids",
-                "Iron and vitamin B6 with folate",
-                "Zinc and vitamin A only, taken daily"
+                "High-dose glutamine, which trials show heals the intestinal mucosa and keeps most patients in remission",
+                "No supplement is proven to heal the mucosa; correct documented deficiencies such as iron, B12, folate, and vitamin D",
+                "Fish oil (omega-3 fatty acids), which Cochrane reviews show maintains remission in most patients with Crohn's",
+                "High-dose vitamins C and E, which reverse mucosal inflammation and prevent future flares from returning"
             ],
             "correctIndex": 1,
-            "explanation": "During Crohn's remission, glutamine (fuel for enterocytes) and omega-3 fatty acids (anti-inflammatory) have evidence for maintaining remission and supporting mucosal integrity. Probiotics may also be beneficial.",
+            "explanation": "No supplement has proven mucosal-healing benefit in Crohn's disease: Cochrane reviews found omega-3 fatty acids ineffective for maintaining remission, and glutamine trials showed no benefit. What nutrition does contribute is finding and correcting the deficiencies the disease and its treatment cause: iron (blood loss, inflammation), vitamin B12 (ileal disease or resection), folate (sulfasalazine, methotrexate), vitamin D and calcium (steroids, malabsorption), and zinc with high ostomy or fistula output. Exclusive enteral nutrition does have good evidence for INDUCING remission, especially in children. In remission the diet is individualized, with fiber liberalized as tolerated rather than restricted by default.",
             "tags": [
                 "Crohn's disease",
                 "remission",
@@ -8154,13 +8154,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with CKD Stage 5D (hemodialysis) reports dysgeusia and poor appetite. Which intervention addresses BOTH symptoms?",
             "options": [
-                "Prescribe zinc supplementation — zinc deficiency causes dysgeusia and is common in dialysis patients",
+                "Recommend zinc supplementation — zinc deficiency causes dysgeusia and is common in dialysis patients",
                 "Initiate TPN to bypass oral intake issues — parenteral nutrition removes the need to taste food",
                 "Restrict all fluids to minimize uremic toxin buildup — fluid excess dilutes taste and appetite signals",
                 "Increase dialysis frequency to improve uremia-related symptoms — more sessions clear taste-altering toxins"
             ],
             "correctIndex": 0,
-            "explanation": "Zinc deficiency is common in dialysis patients (losses during dialysis, reduced dietary intake from restrictions) and is a recognized cause of dysgeusia (taste disturbances) and poor appetite. Zinc supplementation may improve taste acuity and appetite. Other interventions for nutrition-impact symptoms in dialysis patients: small frequent meals, using allowed spices/seasonings to enhance palatability, oral nutrition supplements, and addressing reversible causes of nausea. TPN is reserved for when enteral route is not feasible. Increased dialysis frequency addresses uremia but doesn't specifically target dysgeusia.",
+            "explanation": "Zinc deficiency is common in dialysis patients (losses into the dialysate, restricted diet, poor intake) and is a recognized cause of dysgeusia and poor appetite, so it addresses both complaints at once. Supplementation may improve taste acuity, though the trial evidence is limited; keep the course time-limited, since prolonged high-dose zinc causes copper deficiency. The RDN recommends it to the medical team unless they hold order-writing privileges. Pair it with small frequent meals, permitted herbs and spices for palatability, oral nutrition supplements, and treatment of reversible nausea. TPN is reserved for when the gut cannot be used; more frequent dialysis treats uremia but not dysgeusia specifically.",
             "tags": [
                 "CKD",
                 "dialysis",
@@ -10510,13 +10510,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Normal saline (0.9% NaCl) and Lactated Ringer's solution differ in which way?",
             "options": [
-                "Normal saline contains potassium; Lactated Ringer's does not, and it also lacks calcium and lactate",
-                "Normal saline contains only sodium and chloride; Lactated Ringer's also contains bicarbonate and calcium",
-                "Lactated Ringer's is hypotonic; Normal saline is isotonic, so only saline can be used for resuscitation",
-                "Normal saline contains glucose; Lactated Ringer's does not, and it is used mainly to correct hypoglycemia"
+                "Normal saline contains potassium and calcium; Lactated Ringer's contains only sodium and chloride ions",
+                "Normal saline contains only sodium and chloride; Lactated Ringer's also contains potassium, calcium, and lactate",
+                "Lactated Ringer's is markedly hypertonic, so it must be diluted before it can be used for volume resuscitation",
+                "Normal saline contains dextrose; Lactated Ringer's does not, so saline is used mainly to correct hypoglycemia"
             ],
             "correctIndex": 1,
-            "explanation": "Normal saline (0.9% NaCl) contains only sodium and chloride (~308 mOsm/L). Lactated Ringer's solution contains sodium, chloride, bicarbonate (as lactate), and calcium — making it more physiologically similar to plasma. Lactated Ringer's is often preferred for large volume resuscitation because excess normal saline can cause hyperchloremic metabolic acidosis.",
+            "explanation": "Normal saline (0.9% NaCl, ~308 mOsm/L) contains only sodium and chloride. Lactated Ringer's contains sodium, chloride, potassium, calcium and lactate (~273 mOsm/L: slightly hypotonic, but handled clinically as isotonic). LR does NOT contain bicarbonate — the liver converts its lactate to bicarbonate, which is what gives LR its mild buffering effect. LR is often preferred for large-volume resuscitation because excess normal saline causes hyperchloremic metabolic acidosis. Use LR cautiously in liver failure (impaired lactate clearance) and in hyperkalemia (it contains 4 mEq/L of potassium).",
             "tags": [
                 "IV fluids",
                 "normal saline",
@@ -10554,13 +10554,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Glomerular filtration rate (GFR) is a key marker of kidney function estimated from which laboratory measurement?",
             "options": [
-                "Serum albumin corrected for total protein level",
-                "Urinary urea nitrogen from a 24-hour collection",
-                "Serum BUN-to-creatinine ratio on a single sample",
-                "Excreted creatinine in urine (creatinine clearance)"
+                "Serum albumin corrected for the total protein level",
+                "Urinary urea nitrogen from a 24-hour urine collection alone",
+                "Serum BUN-to-creatinine ratio from a single sample",
+                "Serum creatinine, entered into an equation with age and sex"
             ],
             "correctIndex": 3,
-            "explanation": "GFR is estimated (eGFR) from excreted creatinine in urine (creatinine clearance), adjusted for age, sex, and other parameters. Creatinine is a byproduct of muscle creatine metabolism and is filtered by the glomerulus. As GFR declines, creatinine accumulates in the blood. eGFR is used to stage CKD: Stage 1 (≥90 mL/min/1.73m²) through Stage 5 ESRD (<15 mL/min/1.73m²).",
+            "explanation": "eGFR is calculated from SERUM creatinine using an estimating equation (CKD-EPI 2021, which no longer includes a race coefficient; cystatin C may be added when more accuracy is needed). A measured creatinine clearance requires BOTH a timed urine collection AND a serum creatinine, and is reserved for cases where the estimate is unreliable, such as extremes of muscle mass or amputation. Serum creatinine reflects muscle mass as well as filtration, so a frail patient can show a 'normal' creatinine with a genuinely low GFR. CKD stages: G1 >=90, G2 60-89, G3a 45-59, G3b 30-44, G4 15-29, G5 <15 mL/min/1.73 m2.",
             "tags": [
                 "GFR",
                 "eGFR",
@@ -12092,7 +12092,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Recordable, Updatable, Mappable, Benchmarked, Accountable"
             ],
             "correctIndex": 0,
-            "explanation": "RUMBA stands for Reasonable (or Realistic), Understandable, Measurable, Believable, Achievable.",
+            "explanation": "RUMBA: Realistic, Understandable, Measurable, Believable, Achievable. Sources word the letters differently (Relevant or Reasonable for R; Behavioral for B; Attainable for A), so learn the idea rather than one exact list: a usable goal must be realistic for this setting, clearly written, measurable, believable to the people doing it, and achievable with the resources available. Compare with SMART (Specific, Measurable, Achievable, Relevant, Time-bound), which adds an explicit deadline.",
             "tags": [
                 "management",
                 "quality",
@@ -12851,11 +12851,11 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "A patient's tray is delivered 45 minutes late, missing their scheduled insulin window, and a nurse must give a correction dose of insulin to treat hyperglycemia.",
                 "A patient complains that their pureed carrots are cold and refuses to eat them, and later files a formal written grievance with the hospital patient advocate.",
-                "An NDTR accidentally spills hot coffee on a patient, resulting in severe second-degree burns, and completes an incident report before the end of the shift.",
+                "An NDTR spills hot coffee on a patient's tray table and the patient has mild redness on the forearm that clears the same day, recorded on an incident report.",
                 "A patient with a known, documented, and highlighted peanut allergy goes into anaphylactic shock and dies after mistakenly receiving a cookie containing peanut butter."
             ],
             "correctIndex": 3,
-            "explanation": "A 'Sentinel Event' is an unexpected occurrence involving death or serious physical or psychological injury (e.g., loss of limb or function) that requires immediate investigation and response. An error physically resulting in death (like the severe allergic reaction due to a system failure) is the defining example of a sentinel event. While a severe medication/insulin timing error or a severe burn are very serious incidents, the fatal systemic failure regarding an allergy definitively triggers the highest level sentinel event protocols and mandatory RCA reporting to the Joint Commission."
+            "explanation": "The Joint Commission defines a sentinel event as a patient safety event that results in DEATH, PERMANENT HARM, or SEVERE TEMPORARY HARM. It requires a comprehensive systematic analysis (root cause analysis) and an action plan, generally within 45 days. A fatal anaphylactic reaction to a documented allergy is the textbook example: a system failure that killed the patient. The late tray corrected with insulin and the minor burn that clears the same day are incidents to report and trend internally, and the cold-food complaint is a grievance, not a safety event."
         },
         {
             "id": "dom3-ext-009",
@@ -13195,15 +13195,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Food Service Logistics",
             "difficulty": "medium",
-            "text": "When purchasing, a formal competitive bidding process that requires sealed bids for large contracts is called:",
+            "text": "A hospital awards a large formal contract by asking vendors to submit sealed bids that are opened at a set time and awarded on price against a fixed specification. This method is:",
             "options": [
-                "Request for Proposal (RFP)",
-                "Informal (telephone) bidding",
-                "Prime vendor agreement",
-                "Group purchasing organization (GPO)"
+                "Invitation for Bid (IFB) — sealed bids awarded on price against a fixed spec",
+                "Request for Proposal (RFP) — proposals judged on price and other criteria",
+                "Informal (telephone) bidding — quotes collected for smaller purchases",
+                "Prime vendor agreement — one supplier provides most products under contract"
             ],
             "correctIndex": 0,
-            "explanation": "Formal procurement methods include sealed bidding (Request for Proposal/RFP) for large contracts requiring competitive bids. Informal bidding (telephone or written) is used for smaller purchases. A prime vendor agreement is a long-term contract with a single supplier. A GPO aggregates purchasing power across multiple facilities.",
+            "explanation": "Formal purchasing uses written competitive methods for large-dollar contracts. An Invitation for Bid (IFB), also called sealed bidding, states an exact specification: bids arrive sealed, are opened at a set time, and the contract goes to the lowest responsible bidder. A Request for Proposal (RFP) is used when the specification is NOT fixed — vendors propose how they would meet the need and price is only one of several criteria, which is why an RFP is not decided on price alone. Informal (telephone or written quote) buying suits small or urgent purchases. A prime vendor agreement commits most volume to one distributor in exchange for lower prices.",
             "tags": [
                 "procurement",
                 "bidding",
@@ -13215,15 +13215,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Food Service Logistics",
             "difficulty": "medium",
-            "text": "A food distributor who does NOT take title or possess inventory, but acts as a middleman earning a commission is called a:",
+            "text": "A middleman represents several manufacturers' product lines, never takes title to the goods, and earns a commission on each sale. This person is a:",
             "options": [
-                "Wholesaler/distributor",
-                "Independent food broker",
-                "Manufacturer's representative",
-                "Group purchasing agent"
+                "Wholesaler/distributor — takes title to inventory and resells it to operators",
+                "Broker — an independent agent who represents several manufacturers for a commission",
+                "Manufacturer's representative — a salaried employee selling one company's line",
+                "Group purchasing agent — pools volume from many operators to cut prices"
             ],
             "correctIndex": 1,
-            "explanation": "A broker does not take title to or physically possess inventory — they represent manufacturers and earn a commission on sales. A wholesaler takes title to inventory and resells it. A manufacturer's representative works directly for one manufacturer. A GPO aggregates purchasing across organizations.",
+            "explanation": "A broker is an INDEPENDENT agent: no title to the goods, no inventory, paid a commission, and typically carrying complementary lines from several manufacturers. A manufacturer's representative is employed by one manufacturer and sells only that company's products — the distinction the exam tests. A wholesaler or distributor buys and takes title to inventory and resells it, usually with storage and delivery. A group purchasing organization aggregates volume across many operators to negotiate lower prices.",
             "tags": [
                 "procurement",
                 "broker",
@@ -14626,13 +14626,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Delegation gives an employee responsibility for a task AND the authority to alter procedures to achieve the desired outcome. Which HBL maturity level is NOT appropriate for delegation?",
             "options": [
-                "M4 — able and willing, with a proven record",
-                "M3 — able but unwilling or lacking confidence",
-                "M2 — unable but willing to take on the task",
-                "Both M1 and M2 are not appropriate for delegation"
+                "M4 — high ability and high willingness, with a proven track record",
+                "M3 — high ability but variable willingness or low confidence",
+                "M2 — low-moderate ability with low willingness after setbacks",
+                "Both M1 and M2, because the employee still lacks the ability"
             ],
             "correctIndex": 3,
-            "explanation": "Effective delegation requires the employee to have the CAPABILITY (mental/physical ability) to perform the task. A manager should assess an employee's skills against the difficulty of the task before delegating. M1 (unable and unwilling) and M2 (unable but willing): both lack the skills/ability for the task — delegation is inappropriate. M3 (able but unwilling) corresponds to S3 Participating — some delegation possible but requires support. M4 (able and willing) corresponds to S4 Delegating — full delegation appropriate. Delegation ≠ telling someone what to do or micromanaging daily progress reports — it gives genuine responsibility and authority.",
+            "explanation": "Delegation hands over responsibility AND the authority to change how the task is done, so the employee must already have the ABILITY. Using the Hersey-Blanchard table in this app's Domain III guide: M1 = low ability with high willingness (S1 Telling) and M2 = low-moderate ability with low willingness (S2 Selling/Coaching). Neither can be delegated to, however eager they are. M3 (high ability, shaky confidence) fits S3 Participating, where limited delegation with support works. M4 (high ability and high willingness) fits S4 Delegating, full delegation. Note that some textbooks word the classic readiness levels differently (R1 unable and unwilling, R2 unable but willing); either way, low ability rules delegation out.",
             "tags": [
                 "delegation",
                 "HBL",
@@ -15112,13 +15112,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Lean methodology uses the '3M model.' Which of the following correctly defines Muda, Mura, and Muri?",
             "options": [
-                "Muda = inconsistencies causing production fluctuations; Mura = waste/non-value activities; Muri = dissatisfaction/unused resources",
-                "Muda = waste (non-value-adding activities); Mura = inconsistencies causing production fluctuations; Muri = dissatisfaction/unused resources",
-                "Muda = continuous improvement; Mura = gemba (workplace); Muri = customer value delivered through each step of the value stream",
+                "Muda = unevenness that causes production fluctuations; Mura = overburden of staff and equipment; Muri = waste that adds no value",
+                "Muda = waste (non-value-adding activities); Mura = unevenness or inconsistency in workload; Muri = overburden of people or equipment",
+                "Muda = continuous improvement; Mura = gemba (the workplace); Muri = customer value delivered through each step of the value stream",
                 "Muda = defects only; Mura = waiting time only; Muri = overproduction only, as the three wastes defined in the Toyota Production System"
             ],
             "correctIndex": 1,
-            "explanation": "Lean 3M model: Muda = Japanese for WASTE — any activity that does NOT add value; 8 types = DOWNTIME (Defects, Overproduction, Waiting, Non-utilized talents, Transportation, Inventory, Motion, Extra processing). Mura = INCONSISTENCIES in business operations causing production fluctuations and suboptimal resource utilization (uneven workloads, inventory accumulation). Muri = DISSATISFACTION/UNUSED RESOURCES — customers waiting, ovens not utilized, stressed staff; Muri leads to Muda. Lean + Six Sigma = Lean Six Sigma: Lean first makes workplace efficient (using Kaizen, 5S), then Six Sigma's DMAIC (Define, Measure, Analyze, Improve, Control) addresses remaining root causes statistically.",
+            "explanation": "Lean 3M model: Muda = WASTE, any activity that does not add value; 8 types = DOWNTIME (Defects, Overproduction, Waiting, Non-utilized talent, Transportation, Inventory, Motion, Extra processing). Mura = UNEVENNESS/inconsistency in operations: production fluctuations, uneven workloads, staff idle one hour and slammed the next. Muri = OVERBURDEN, unreasonable strain on people or equipment: staff pushed past capacity, ovens run beyond their rated load. The chain runs Mura -> Muri -> Muda. Lean + Six Sigma = Lean Six Sigma: Lean first removes waste (Kaizen, 5S), then Six Sigma's DMAIC (Define, Measure, Analyze, Improve, Control) attacks the remaining root causes statistically.",
             "tags": [
                 "Lean",
                 "3M-model",
@@ -17524,15 +17524,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Research Applications",
             "difficulty": "hard",
-            "text": "A P-value of < 0.05 indicates that:",
+            "text": "A study of a diet intervention reports a p-value of 0.03. This means that:",
             "options": [
-                "The results are definitely due to chance and not a true effect",
-                "There is a significant difference, and the results are reliable",
-                "The null hypothesis is true and should be accepted as proven",
-                "The confidence interval is 90% rather than the usual 95%"
+                "There is only a 3% probability that the observed difference occurred by chance alone",
+                "If the diet truly had no effect, a difference this large would occur 3% of the time",
+                "There is a 97% probability that the diet caused the difference seen in this study",
+                "The difference is large enough to matter clinically for the patients studied"
             ],
             "correctIndex": 1,
-            "explanation": "A P-value < 0.05 means there is less than a 5% probability that the results happened by chance alone, typically indicating statistical significance.",
+            "explanation": "A p-value is the probability of obtaining data at least this extreme IF the null hypothesis (no true difference) were true. It is NOT the probability that the result happened by chance, NOT the probability that the null hypothesis is true, and NOT a measure of how reliable or how clinically important the finding is. With a large enough sample, a difference too small to matter still reaches p < 0.05. Always read the effect size and the 95% confidence interval alongside the p-value.",
             "tags": [
                 "research",
                 "statistics",
@@ -17694,7 +17694,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Produces the same result every time it is repeated",
                 "Is easy to administer and score in a short time",
-                "Meaures exactly what it is intended to measure",
+                "Measures exactly what it is intended to measure",
                 "Is cost-effective for use in large populations"
             ],
             "correctIndex": 2,

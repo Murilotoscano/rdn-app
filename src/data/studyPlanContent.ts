@@ -830,7 +830,7 @@ export const studyPlanData: Record<number, DayContent> = {
             <section>
                 <h2>4. Inferential Statistics</h2>
                 <ul>
-                    <li><strong>p value:</strong> probability the result occurred by chance. p less than 0.05 is conventionally significant.</li>
+                    <li><strong>p value:</strong> probability of data at least this extreme IF the null hypothesis were true. p less than 0.05 is conventionally significant. It is NOT the probability that the result occurred by chance, and it says nothing about effect size or clinical importance.</li>
                     <li><strong>Type I error (alpha):</strong> rejecting a TRUE null hypothesis - a false positive</li>
                     <li><strong>Type II error (beta):</strong> failing to reject a FALSE null hypothesis - a false negative</li>
                     <li><strong>Power:</strong> 1 minus beta; the ability to detect a real effect. Increased by larger sample size.</li>
