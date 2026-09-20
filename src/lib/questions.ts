@@ -1349,7 +1349,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Nutrition Science",
             "difficulty": "medium",
-            "text": "A patient's serum calcium falls after thyroid surgery, and the parathyroid glands respond by releasing more hormone. What is the primary role of parathyroid hormone (PTH) in calcium homeostasis?",
+            "text": "What is the primary role of parathyroid hormone (PTH) in calcium homeostasis?",
             "options": [
                 "It lowers serum calcium by stimulating osteoblast activity, bone formation, and urinary calcium excretion.",
                 "It increases serum calcium by stimulating osteoclast activity and enhancing renal reabsorption of calcium.",
@@ -3484,7 +3484,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Normal Nutrition",
             "difficulty": "easy",
-            "text": "A patient with alcoholic cirrhosis is being assessed for vitamin A status. In which organ is vitamin A stored, and in what form?",
+            "text": "Vitamin A is stored primarily in which organ, and in what form is it stored?",
             "options": [
                 "Adipose tissue; retinal",
                 "Liver; retinyl esters",
@@ -4746,7 +4746,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Withhold enteral feeding until the patient is extubated, because any feeding raises CO2 production too much"
             ],
             "correctIndex": 1,
-            "explanation": "Substrate ratios do change the respiratory quotient (carbohydrate 1.0, protein 0.8, fat 0.7), but the effect on CO2 production is small next to total calorie load: OVERFEEDING is what raises CO2 and stalls weaning. ASPEN/SCCM therefore do not recommend routine high-fat/low-carbohydrate formulas to manipulate the RQ in acute respiratory failure. What is recommended: meet measured or estimated needs without overfeeding, and for patients in fluid overload use an energy-dense (1.5-2.0 kcal/mL) formula. Watch phosphorus, which the diaphragm needs to contract, especially during refeeding.",
+            "explanation": "Substrate ratios do change the respiratory quotient (carbohydrate 1.0, protein 0.8, fat 0.7), but the effect on CO2 production is small next to total calorie load: OVERFEEDING is what raises CO2 and stalls weaning. The ASPEN/SCCM critical care guidelines (2016) therefore do not recommend routine high-fat, low-carbohydrate formulas to manipulate the RQ in acute respiratory failure. What is recommended: meet measured or estimated requirements without overfeeding, and for patients in fluid overload use an energy-dense (1.5 to 2.0 kcal/mL) formula. Watch phosphorus, which the diaphragm needs in order to contract, especially during refeeding. The physiology in the RQ question remains true; what changed is the clinical conclusion drawn from it.",
             "tags": [
                 "enteral formula",
                 "ventilator",
@@ -5387,7 +5387,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Intervention",
             "difficulty": "hard",
-            "text": "For a critically ill, mechanically ventilated patient with Acute Respiratory Distress Syndrome (ARDS), a standard high-carbohydrate polymeric EN formula may cause difficulties in weaning the patient from the ventilator. What metabolic parameter explains this, and what substitute macronutrient profile is occasionally advocated?",
+            "text": "For a critically ill, mechanically ventilated patient with ARDS, a clinician worries that a standard high-carbohydrate polymeric formula will make weaning harder. Which metabolic parameter explains that concern, and which macronutrient change has historically been advocated on that basis?",
             "options": [
                 "Carbohydrates have a high Respiratory Quotient (RQ=1.0), producing excessive CO2; formulas higher in fat (RQ=0.7) reduce CO2 production.",
                 "Carbohydrates increase oxygen demand; replacing all carbohydrates with protein (RQ=0.8) eliminates ventilatory stress entirely.",
@@ -10907,7 +10907,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "A director produces the same number of meals after cutting overtime hours and trimming waste. In management terms, efficiency means:",
+            "text": "In management, efficiency means:",
             "options": [
                 "Doing the right things to achieve goals",
                 "Doing things right (minimizing waste)",
@@ -11391,7 +11391,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "Two hospital kitchens reach the same patient satisfaction score using completely different staffing and production models. In Systems Theory, the concept of 'Equifinality' means that:",
+            "text": "In Systems Theory, 'Equifinality' means that:",
             "options": [
                 "All systems must follow a single rigid path with identical inputs to achieve equal outputs",
                 "Outputs may be achieved in a variety of ways, using different inputs or transformations",
@@ -11643,7 +11643,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "hard",
-            "text": "A foodservice department shares tray data with nursing and adjusts its menus after patient councils meet. In systems theory, permeability of boundaries refers to:",
+            "text": "In systems theory, permeability of boundaries refers to:",
             "options": [
                 "The system being completely closed off from the external environment",
                 "The strict separation of departments with no communication flow between them",
@@ -12021,7 +12021,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality Management",
             "difficulty": "hard",
-            "text": "A cook covers two stations alone through every lunch rush while the oven is loaded past its rated capacity. In Lean Six Sigma, the term 'Muri' refers to:",
+            "text": "In Lean Six Sigma, the term 'Muri' refers to:",
             "options": [
                 "Waste in any form that consumes resources but adds no value for the customer",
                 "Overburden or unreasonableness (e.g., stressed staff, machinery pushed too hard)",
@@ -12168,7 +12168,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality Management",
             "difficulty": "hard",
-            "text": "A director sets up an intensive two-day working session with staff, patients, architects, and vendors to design a new servery. In planning, a 'Charrette' refers to:",
+            "text": "In facility and program planning, a 'Charrette' refers to:",
             "options": [
                 "A rigorous financial audit process conducted by external accountants before approving a master plan",
                 "A collaborative planning session harnessing talents of all interested parties for a master plan",
@@ -12378,7 +12378,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "An organization chart shows every employee reporting to exactly one supervisor, in an unbroken line up to the chief executive. The 'Scalar Principle' refers to:",
+            "text": "In organization theory, the 'Scalar Principle' refers to:",
             "options": [
                 "A clear and unbroken line of authority from the top to the bottom of the organization",
                 "Dividing work into highly specialized and repetitive tasks for each employee",
@@ -12420,7 +12420,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "A manager whose mixer broke this morning orders the first model that meets the minimum specifications instead of comparing every option. In decision making, 'Satisficing' refers to:",
+            "text": "In decision making, 'Satisficing' refers to:",
             "options": [
                 "Selecting the absolute best optimal solution after comparing every available alternative",
                 "Selecting the first alternative that meets the minimum criteria or is 'good enough'",
@@ -12609,7 +12609,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "A director supervises 22 employees directly and can no longer complete their evaluations on time. Span of Control refers to:",
+            "text": "In organizational design, 'Span of Control' refers to:",
             "options": [
                 "The total length of the supply chain from manufacturer to consumer",
                 "The number of subordinates a manager can efficiently and effectively direct",
@@ -13215,20 +13215,20 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Food Service Logistics",
             "difficulty": "medium",
-            "text": "A middleman represents several manufacturers' product lines, never takes title to the goods, and earns a commission on each sale. This person is a:",
+            "text": "A foodservice director is mapping the supply channel for a new contract. Which statement correctly describes who takes title to the product?",
             "options": [
-                "Wholesaler/distributor — takes title to inventory and resells it to operators",
-                "Broker — an independent agent who represents several manufacturers for a commission",
-                "Manufacturer's representative — a salaried employee selling one company's line",
-                "Group purchasing agent — pools volume from many operators to cut prices"
+                "A broker or manufacturers' representative never takes title; a distributor buys and takes title",
+                "A broker takes title and warehouses the stock, while a distributor only earns a commission",
+                "A group purchasing organization takes title to all goods it contracts on behalf of members",
+                "A purchasing agent employed by the operation takes title before the distributor handles it"
             ],
-            "correctIndex": 1,
-            "explanation": "A broker is an INDEPENDENT agent: no title to the goods, no inventory, paid a commission, and typically carrying complementary lines from several manufacturers. A manufacturer's representative is employed by one manufacturer and sells only that company's products — the distinction the exam tests. A wholesaler or distributor buys and takes title to inventory and resells it, usually with storage and delivery. A group purchasing organization aggregates volume across many operators to negotiate lower prices.",
+            "correctIndex": 0,
+            "explanation": "MAFSI defines a manufacturers' representative as an independent business representing two or more related but non-competing lines in a defined, exclusive territory, compensated mainly by commission on goods shipped or billed by the manufacturer represented. Food brokers work the same way. Both are AGENT roles: they sell on the manufacturer's behalf and never take title to the product or carry inventory, and they add services such as product training, demonstrations, quoting and market information. A distributor or wholesaler buys the product, takes title, warehouses it and delivers it, earning the margin between cost and selling price. A group purchasing organization negotiates contracts and aggregates volume for its member operations but does not buy or resell the goods itself. A purchasing agent is an employee of the buying organization. Source: MAFSI, 'What is a Rep? Common Questions about Manufacturers' Reps' (page read for this revision).",
             "tags": [
-                "procurement",
+                "purchasing",
+                "distribution",
                 "broker",
-                "wholesaler",
-                "supply-chain"
+                "supply chain"
             ]
         },
         {
@@ -13581,7 +13581,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Food Service Logistics",
             "difficulty": "medium",
-            "text": "An engineer reviewing the kitchen HVAC system points to the outside air that is brought into the work space. That air is called:",
+            "text": "In the HVAC system of a commercial kitchen, outside air brought into the work space is called:",
             "options": [
                 "Return air",
                 "Exhaust air",
@@ -16209,7 +16209,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Facility Planning",
             "difficulty": "medium",
-            "text": "A cook develops wrist and shoulder pain from reaching over a work counter that is too high for her. In facility planning, 'Ergonomics' refers to:",
+            "text": "In facility planning, 'Ergonomics' refers to:",
             "options": [
                 "The analysis of the cost of equipment versus its useful life to guide capital purchasing decisions",
                 "Designing work areas and equipment to fit the human body and movements to minimize fatigue and injury",
@@ -16734,7 +16734,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Financial Management",
             "difficulty": "medium",
-            "text": "A retail manager reviews a sandwich that sells steadily year after year in a mature category. In the BCG Matrix (often adapted to menu engineering), a 'Cash Cow' refers to:",
+            "text": "In the BCG Matrix, often adapted to menu engineering, a 'Cash Cow' refers to:",
             "options": [
                 "An item with high market share but low growth (reliable income)",
                 "A new experimental item with uncertain market potential",
@@ -16776,7 +16776,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Sustainability",
             "difficulty": "medium",
-            "text": "A facility wants to cut water costs by reusing water for landscape irrigation. Using 'Grey Water' refers to:",
+            "text": "In sustainable facility operations, using 'Grey Water' refers to:",
             "options": [
                 "Collecting dirty dishwater for reuse in cleaning floors and rinsing trash containers",
                 "Recycled water from sinks/showers (not toilets) used for landscape irrigation",
@@ -17196,7 +17196,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Procurement",
             "difficulty": "medium",
-            "text": "A chef buys 20 pounds of carrots and has 15 pounds left after peeling and trimming. The term 'Yield' refers to:",
+            "text": "In quantity food production, the term 'Yield' refers to:",
             "options": [
                 "The amount of product remaining after processing or cooking (Edible Portion)",
                 "The price of the food item charged by the vendor on the invoice at delivery",
@@ -17461,7 +17461,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Research Applications",
             "difficulty": "hard",
-            "text": "In a trial comparing a new calcium supplement with a placebo, the variable the researcher assigns and manipulates is known as the:",
+            "text": "In a research study, the variable the investigator assigns and manipulates is known as the:",
             "options": [
                 "Dependent variable",
                 "Independent variable",
@@ -17794,7 +17794,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality Management",
             "difficulty": "hard",
-            "text": "A hospital risk manager must decide whether an event triggers a mandatory root cause analysis. A 'Sentinel Event' in a healthcare setting refers to:",
+            "text": "A 'Sentinel Event' in a healthcare setting refers to:",
             "options": [
                 "A minor error in charting that is corrected before it reaches the patient",
                 "An unexpected occurrence involving death or serious physical/psychological injury",
@@ -17961,7 +17961,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Research Applications",
             "difficulty": "medium",
-            "text": "A health department reports 45 new cases of iron-deficiency anemia in a county during one year. Incidence refers to:",
+            "text": "In epidemiology, incidence refers to:",
             "options": [
                 "The total number of existing cases of a disease at a point in time",
                 "The number of NEW cases of a disease over a period of time",
@@ -22840,20 +22840,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Menu Planning",
             "difficulty": "medium",
-            "text": "A school menu planner reviews next week's lunch menu for compliance with the meal pattern. Which statement matches current National School Lunch Program standards?",
+            "text": "A school menu planner is checking the milk offered at lunch against the requirement in effect after the Whole Milk for Healthy Kids Act of 2025 (Public Law 119-69, enacted January 14, 2026). Which statement is correct?",
             "options": [
-                "Milk must be fat-free or low-fat, and at least 80% of weekly grains whole grain-rich",
-                "Whole milk may be offered daily as long as every grain served is whole grain-rich",
-                "Any milk fat level is acceptable when flavored milk is limited to twice per week",
-                "Grains carry no whole-grain requirement provided the weekly calorie ranges are met"
+                "Schools must offer a variety of fluid milk and MAY include whole and reduced-fat options",
+                "Schools must serve only fat-free or low-fat milk, exactly as the pattern required before 2026",
+                "Schools must now serve whole milk at every lunch, because the statute made it mandatory",
+                "Schools may serve any beverage in place of milk, since the statute removed the milk standards"
             ],
             "correctIndex": 0,
-            "explanation": "School lunch milk must be fat-free or low-fat (1%), flavored or unflavored, and at least 80% of the grains offered over the week must be whole grain-rich (at least half whole grain by weight, with the remaining grains enriched). The pattern also sets weekly calorie ranges, saturated fat under 10% of calories, and sodium limits by grade group (K-5, 6-8, 9-12). Fruits and vegetables are separate components, and the vegetable requirement is spread across subgroups over the week: dark green, red/orange, beans and peas, starchy, and other.",
+            "explanation": "Public Law 119-69 amended section 9(a)(2) of the Richard B. Russell National School Lunch Act. The school 'shall offer students a variety of fluid milk' and 'may offer students options which may include flavored and unflavored organic or nonorganic whole, reduced-fat, low-fat, and fat-free fluid milk and lactose-free fluid milk,' plus nondairy beverages that are nutritionally equivalent and fortified to the levels the Secretary sets. Two details matter for exam questions: milk fat from fluid milk is NOT counted toward the meal's saturated fat limit (new subparagraph D), and a parent or legal guardian, not only a physician, may now request a substitution. PERMITTED is not REQUIRED: what a district actually serves depends on USDA implementation guidance and local decisions. The statute did not change the grain, added sugar or sodium standards, and it does not apply to WIC, CACFP or other programs, which set milk rules separately.",
             "tags": [
                 "foodservice",
                 "nslp",
                 "meal pattern",
-                "school meals"
+                "school meals",
+                "milk",
+                "public law 119-69"
             ]
         },
         {
@@ -22889,10 +22891,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Added sugars limits, first on products such as cereal, yogurt, and flavored milk",
                 "Elimination of every added sugar from all items offered in the cafeteria at once",
                 "Removal of sodium limits entirely, because USDA rescinded the sodium targets",
-                "Whole milk returned to daily service, with no limit on flavored milk varieties"
+                "Whole milk required daily at every lunch, with flavored milk no longer permitted at all"
             ],
             "correctIndex": 0,
-            "explanation": "USDA's 2024 final rule set the first added sugars limits in school meals: product-based limits come first (breakfast cereals, yogurt, and flavored milk), followed by a weekly limit of less than 10% of calories from added sugars. The rule also keeps the 80% whole grain-rich standard, maintains fat-free and low-fat milk, and phases in a modest sodium reduction later in the decade rather than removing sodium limits.",
+            "explanation": "USDA's 2024 final rule set the first added sugars limits in school meals: product-based limits come first (breakfast cereals, yogurt, and flavored milk), followed by a weekly limit of less than 10% of calories from added sugars. The rule also keeps the 80% whole grain-rich standard and phases in a modest sodium reduction later in the decade rather than removing sodium limits. Milk is the piece that changed afterwards and separately: the Whole Milk for Healthy Kids Act of 2025 (Public Law 119-69, enacted January 14, 2026) lets schools OFFER whole and reduced-fat milk alongside low-fat and fat-free, and excludes milk fat from the meal's saturated fat calculation. Permitted is not required, and this statute did not touch the sugar, grain or sodium standards.",
             "tags": [
                 "community",
                 "nslp",
@@ -23841,6 +23843,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "explanation": "Break the word apart: dys- (difficult or painful) + -phagia (eating or swallowing) = difficulty swallowing. Do not confuse it with dysphasia (-phasia = speech), which is impaired speech, or with dyspepsia (-pepsia = digestion). Reading stems this way is worth real points on the exam, because the condition is often hidden inside the terminology rather than named outright.",
             "tags": [
                 "medical terminology",
+                "comprehension",
                 "assessment",
                 "dysphagia"
             ]
@@ -23862,6 +23865,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "explanation": "hepat- (liver) + -megaly (enlargement) = enlarged liver; hyper- (excessive) + kal- (potassium) + -emia (blood condition) = high blood potassium; olig- (few, scant) + -uria (urine) = low urine output. Compare the pieces that change meaning: -itis is inflammation, -ectomy is surgical removal, -ostomy is a surgical opening, hypo- is low, poly- is much or many. Those three findings together should also make the RDN think of kidney and liver involvement before reading further.",
             "tags": [
                 "medical terminology",
+                "comprehension",
                 "labs",
                 "assessment"
             ]
@@ -23883,6 +23887,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "explanation": "esophago- + gastro- + duodeno- + -scopy (to look) = viewing the esophagus, stomach and duodenum with a scope. jejun- + -ostomy = a surgical opening into the jejunum, which is where a J-tube feeds. Keep the suffixes straight: -scopy is looking, -ostomy is an opening, -otomy is a cut into, -ectomy is removal, and -plasty is repair. Those distinctions change the nutrition plan completely.",
             "tags": [
                 "medical terminology",
+                "comprehension",
                 "enteral nutrition",
                 "surgery"
             ]
@@ -23904,6 +23909,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "explanation": "pan- (all) + cyto- (cell) + -penia (deficiency) = a shortage of all cell lines. hypo- (low) + chromic (color) = pale cells with less hemoglobin; micro- (small) + cytic (cell) = small cells. Hypochromic microcytic points toward iron deficiency, while macrocytic (large) cells point toward B12 or folate deficiency. Learning -penia, -osis, -emia and -cytosis lets you read a hematology note without memorizing every diagnosis.",
             "tags": [
                 "medical terminology",
+                "comprehension",
                 "anemia",
                 "labs"
             ]
@@ -23925,15 +23931,16 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "explanation": "poly- means many or excessive: -dipsia is thirst, -uria is urine, and -phagia is eating. The classic triad of polydipsia, polyuria and polyphagia with weight loss is uncontrolled diabetes, most often type 1 at presentation. Contrast the prefixes: a- or an- means absent (anorexia, anuria), olig- means scant, and dys- means difficult or painful.",
             "tags": [
                 "medical terminology",
+                "comprehension",
                 "diabetes",
                 "assessment"
             ]
         },
         {
             "id": "m3-gf-pp-01",
-            "moduleId": "mod3",
-            "domain": "Domain III",
-            "topic": "Program Planning",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
             "difficulty": "medium",
             "text": "A health department asks an RDN to design a nutrition program for a neighborhood with high rates of diabetes. What is the first step?",
             "options": [
@@ -23994,9 +24001,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
         },
         {
             "id": "m3-gf-pp-04",
-            "moduleId": "mod3",
-            "domain": "Domain III",
-            "topic": "Program Planning",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
             "difficulty": "medium",
             "text": "An RDN needs county-level data on obesity and physical activity prevalence to justify a grant proposal. Which source fits best?",
             "options": [
@@ -24015,9 +24022,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
         },
         {
             "id": "m3-gf-pp-05",
-            "moduleId": "mod3",
-            "domain": "Domain III",
-            "topic": "Program Planning",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
             "difficulty": "hard",
             "text": "A community coalition lists eight nutrition problems but can fund only one program this year. Which criteria should drive the choice?",
             "options": [
@@ -24429,7 +24436,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Quantity Food Production",
             "difficulty": "medium",
-            "text": "A cook needs 200 half-cup servings of canned green beans. If one #10 can yields about 12.5 cups of drained product, how many cans are needed?",
+            "text": "A cook needs 200 half-cup servings of canned green beans. The specification sheet lists a drained yield of about 12.5 cups per #10 can. How many cans should be ordered?",
             "options": [
                 "8 cans",
                 "4 cans",
@@ -24437,7 +24444,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "25 cans"
             ],
             "correctIndex": 0,
-            "explanation": "200 servings x 0.5 cup = 100 cups needed. 100 cups divided by 12.5 cups per #10 can = 8 cans. The #10 can is the workhorse of quantity production: roughly 103 to 109 fluid ounces, about 12 to 13 cups, near 6 pounds 9 ounces, and packed 6 cans to a case. Working the math from servings to cups to cans is the pattern to practice, since the exam usually gives the yield per can and asks for the purchase quantity.",
+            "explanation": "200 servings x 0.5 cup = 100 cups of drained product. 100 cups divided by the 12.5 cups of DRAINED yield per can = 8 cans. Work from servings to cups to cans, and use drained yield rather than the can's capacity or its net weight, since draining is what the recipe leaves you. For reference, a #10 can holds roughly 103 to 109 fluid ounces of capacity (about 12 to 13 cups) and is conventionally packed 6 per case, but the drained yield depends on the product and the packer, which is why the specification sheet supplies it.",
             "tags": [
                 "can sizes",
                 "quantity production",
@@ -24451,7 +24458,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Quantity Food Production",
             "difficulty": "easy",
-            "text": "A receiving clerk unloads institutional canned tomatoes. How many #10 cans come in a standard case?",
+            "text": "A receiving clerk unloads institutional canned tomatoes packed in #10 cans. What is the conventional case pack for that container size?",
             "options": [
                 "6 cans per case",
                 "12 cans per case",
@@ -24459,7 +24466,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "4 cans per case"
             ],
             "correctIndex": 0,
-            "explanation": "Institutional #10 cans are packed 6 to a case, which is the figure used to convert a recipe requirement into a purchase order and to calculate case cost per serving. Smaller retail sizes come in larger counts: #303 cans (about 2 cups, 16 to 17 ounces) are packed 24 to a case, and #2 cans (about 2.5 cups) 24 per case. Knowing the case pack lets you price a menu item per portion without opening a single can.",
+            "explanation": "The #10 can is conventionally packed 6 to a case, which is the figure used to convert a recipe requirement into a purchase order and to calculate case cost per serving. Smaller retail sizes come in larger counts: #303 cans are commonly packed 24 per case, as are #2 cans. Treat these as conventional pack sizes rather than legal standards: the pack, the fill weight and the drained yield vary by product and by packer, so an exam item (and a real purchase order) should state the yield you are to use, and the specification sheet is the authority in practice.",
             "tags": [
                 "can sizes",
                 "purchasing",
@@ -24472,15 +24479,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Quantity Food Production",
             "difficulty": "medium",
-            "text": "A standardized recipe for a 25-portion batch calls for 2 cups of tomato sauce. Which can size matches that amount most closely with the least waste?",
+            "text": "A standardized recipe for a 25-portion batch calls for 2 cups of tomato sauce. Using the approximate capacities below, which can size matches that amount most closely with the least leftover product?",
             "options": [
-                "A #303 can, which holds about 2 cups",
-                "A #10 can, which holds about 12 cups",
-                "A #5 can, which holds about 7 cups",
-                "A #2.5 can, which holds about 3.5 cups"
+                "A #303 can, about 2 cups of capacity",
+                "A #10 can, about 12 to 13 cups of capacity",
+                "A #5 can, about 7 cups of capacity",
+                "A #2.5 can, about 3.5 cups of capacity"
             ],
             "correctIndex": 0,
-            "explanation": "Matching can size to batch size controls both cost and waste, because an opened can that is only partly used has to be transferred to a labeled, dated container and used quickly. A #303 can holds roughly 2 cups (16 to 17 ounces); a #2 can about 2.5 cups; a #2.5 can about 3.5 cups; a #5 can about 7 cups; and a #10 can about 12 to 13 cups. For a small batch the #303 is the right purchase; for volume production the #10 is more economical.",
+            "explanation": "Matching can size to batch size controls cost and waste, because a partly used can has to be transferred to a labeled, dated container and used quickly. Approximate CAPACITIES: #303 about 2 cups, #2 about 2.5 cups, #2.5 about 3.5 cups, #5 about 7 cups, #10 about 12 to 13 cups. Three numbers get confused on exams and in purchasing: capacity (the volume the container holds), net weight (total contents, printed on the label), and drained weight or yield (what is left after draining, which is what a recipe actually uses). Drained yield varies by product and packer, so purchase decisions use the yield on the specification sheet.",
             "tags": [
                 "can sizes",
                 "quantity production",
@@ -24493,15 +24500,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Enteral Nutrition",
             "difficulty": "hard",
-            "text": "A patient started on tube feeding two days ago develops watery diarrhea six times today. What should the RDN do FIRST?",
+            "text": "A patient started on tube feeding two days ago has had six watery stools today. He is afebrile and hemodynamically stable, his abdomen is soft and non-distended, and he is receiving a standard polymeric formula at goal rate. What should the RDN do FIRST?",
             "options": [
-                "Review the medication list for sorbitol-containing elixirs and recent antibiotics",
-                "Switch immediately to a peptide-based formula with added soluble fiber today",
+                "Review the medication list for sorbitol-containing elixirs, magnesium and antibiotics",
+                "Switch immediately to a peptide-based formula with added soluble fiber at goal rate",
                 "Stop the tube feeding and request parenteral nutrition for complete bowel rest",
-                "Reduce the infusion rate by half and hold the next two scheduled bolus feedings"
+                "Reduce the infusion rate by half and hold the next two scheduled bolus feedings today"
             ],
             "correctIndex": 0,
-            "explanation": "Medications cause more tube-feeding diarrhea than the formula does. Sorbitol in liquid drug preparations, magnesium-containing antacids, broad-spectrum antibiotics and, in the hospital, Clostridioides difficile are the usual culprits, alongside hypoalbuminemia and a rapid rate increase. Investigate before you change the feeding: review medications, check for infection, and only then consider formula or rate changes. Stopping enteral nutrition to give parenteral nutrition to a patient with a working gut is the wrong direction.",
+            "explanation": "In a patient who is stable, afebrile and has a benign abdomen, look for the cause before changing the feeding. The usual culprits are not the formula: sorbitol in liquid drug preparations, magnesium-containing antacids and laxatives, broad-spectrum antibiotics, and in the hospital Clostridioides difficile. Hypoalbuminemia is frequently listed as a cause, but that link is associative and reflects illness severity rather than a proven mechanism, so it should not drive the plan. Sequence matters: review medications, check for infection, assess hydration and electrolytes, and only then consider fiber, rate or formula changes. If instead the patient were febrile, hypotensive, dehydrated, or had a distended or tender abdomen, stabilization and medical evaluation (including stool testing) would come before any nutrition decision.",
             "tags": [
                 "first action",
                 "enteral nutrition",
@@ -24515,15 +24522,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Nutrition Support",
             "difficulty": "hard",
-            "text": "A severely malnourished patient with a BMI of 14 and almost no intake for three weeks is admitted for nutrition support. What should the RDN do FIRST?",
+            "text": "A patient with a BMI of 14 who has eaten almost nothing for three weeks is admitted for nutrition support. Baseline potassium, magnesium and phosphorus are drawn and come back mildly below the reference range. Which plan should the RDN recommend?",
             "options": [
-                "Check and correct phosphorus, potassium and magnesium, and give thiamine",
-                "Start feeding at full estimated energy needs to reverse the weight loss quickly",
-                "Order a high-protein oral supplement three times daily and monitor weekly weights",
-                "Request an indirect calorimetry study before any nutrition is provided at all"
+                "Give thiamine, start at 10 to 20 kcal/kg, and replete the electrolytes as feeding begins",
+                "Start at the full estimated energy requirement now and correct electrolytes if symptoms appear",
+                "Withhold all nutrition for 48 hours until every electrolyte is normal on two separate draws",
+                "Begin a high-protein oral supplement three times daily and recheck laboratory values weekly"
             ],
             "correctIndex": 0,
-            "explanation": "This patient meets the criteria for high refeeding syndrome risk. When feeding restarts, insulin drives phosphorus, potassium and magnesium into the cells, and the fall in serum phosphorus can cause respiratory failure, arrhythmia and death. The sequence is: check electrolytes and replace them, give thiamine before and during the first days of feeding, start at roughly a quarter to a half of estimated energy needs, advance slowly over three to seven days, and monitor electrolytes and fluid balance daily. Feeding does not wait for a calorimetry study, but it does wait for the electrolytes.",
+            "explanation": "This patient is at high risk for refeeding syndrome (very low BMI plus negligible intake for more than 5 days). The ASPEN consensus recommendations for refeeding syndrome (Nutr Clin Pract. 2020;35(2):178-195) separate three actions that are often blurred together. (1) ASSESS: obtain baseline potassium, magnesium and phosphorus before feeding, and give thiamine (commonly 100 mg) before nutrition starts and for the first 5 to 7 days. (2) REPLETE: correct abnormalities as feeding begins; mild to moderate abnormalities do not require postponing nutrition, because prolonged starvation is itself harmful. (3) ADVANCE CAUTIOUSLY: start at roughly 10 to 20 kcal/kg on day 1 and increase by about a third of the goal every 1 to 2 days, monitoring electrolytes about every 12 hours for the first 3 days. Feeding is held or not advanced when abnormalities are severe or symptomatic (for example severe hypophosphatemia or cardiac instability), which is a clinical judgement, not a blanket rule. Full-rate feeding on day 1 is the classic error. Note on sourcing: the consensus statement itself could not be opened from this tool (publisher returns HTTP 403), so the figures above reflect the widely published consensus recommendations and should be checked against the article when you have journal access.",
             "tags": [
                 "first action",
                 "refeeding syndrome",
@@ -24539,13 +24546,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "During a bolus tube feeding, a patient begins coughing forcefully and says she cannot catch her breath. What should be done FIRST?",
             "options": [
-                "Stop the feeding immediately and keep the head of the bed elevated",
-                "Slow the bolus to a drip and finish the remaining volume more gradually",
-                "Check the residual volume and then restart the feeding at the same rate",
-                "Give 60 mL of a water flush to clear whatever may be blocking the tube"
+                "Stop the feeding, keep the head of the bed elevated, and alert the nurse at once",
+                "Slow the bolus to a drip and finish the remaining volume more gradually over time",
+                "Check the residual volume and then restart the feeding at the same rate as before",
+                "Give a 60 mL water flush to clear whatever may be obstructing the feeding tube"
             ],
             "correctIndex": 0,
-            "explanation": "Coughing, choking and respiratory distress during a feeding suggest aspiration, so the feeding stops first and the airway takes priority: keep the head of the bed at 30 to 45 degrees, suction if trained and indicated, and notify the nurse and provider. Investigation of tube position and the cause comes after the patient is stable. Prevention measures are the head-of-bed elevation during and after feeding, slower delivery, checking tube placement, and considering post-pyloric access in patients who aspirate repeatedly.",
+            "explanation": "Coughing, choking and respiratory distress during a feeding suggest aspiration, which is an emergency rather than an assessment problem: the feeding stops, the head of the bed stays elevated at 30 to 45 degrees, and the nurse and provider are alerted immediately, because suctioning, oxygen and imaging are nursing and medical actions rather than RDN actions. Investigating tube position and the cause comes after the patient is stable. Prevention is the RDN's lane: head-of-bed elevation during and after feeding, slower delivery or continuous infusion, verifying tube placement, and recommending post-pyloric access for patients who aspirate repeatedly.",
             "tags": [
                 "first action",
                 "aspiration",
@@ -24589,7 +24596,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Call refrigeration service and continue meal production with the doors closed"
             ],
             "correctIndex": 0,
-            "explanation": "Air temperature is not food temperature, so the decision rests on the internal temperature of each time/temperature control for safety (TCS) food, measured with a calibrated thermometer, and on how long it was above 41 degrees Fahrenheit. Move product to a working unit or to ice immediately, then apply the rule: TCS food held between 41 and 70 degrees for four hours or less may be used or rapidly cooled, and anything above 70 degrees, or above 41 degrees for more than four hours, is discarded. Document the event, then call for repair.",
+            "explanation": "Air temperature is not food temperature, so the first move is to measure internal temperatures of the time/temperature control for safety (TCS) foods with a calibrated thermometer and get the product into working refrigeration or onto ice. Disposition then follows the FDA Food Code 2022. Cold holding requires 41 degrees Fahrenheit (5 C) or less (3-501.16). 'Time as a public health control' (3-501.19) cannot rescue this food: it requires written procedures prepared IN ADVANCE, and food that begins at 41 degrees or less and is marked with its discard time, so it is a planned system rather than a retroactive justification. The cooling parameters in 3-501.14 apply to food being cooled after cooking or after preparation from ambient ingredients, not to food that sat at an unknown temperature for an unknown length of time. Because the duration here is unknown, TCS food found above 41 degrees must be discarded; moving it to a cold unit or re-chilling it does not make it safe. Document the finding, arrange repair, and note that an extended refrigeration failure may be an imminent health hazard under 8-404.11, which calls for stopping operations in the affected area and notifying the regulatory authority.",
             "tags": [
                 "first action",
                 "food safety",
@@ -24661,6 +24668,158 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "human resources",
                 "safety",
                 "supervision"
+            ]
+        },
+        {
+            "id": "m1-gf-stat-01",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Research Applications",
+            "difficulty": "medium",
+            "text": "A researcher compares mean LDL cholesterol after a plant sterol spread versus a placebo spread. How should the null hypothesis be stated?",
+            "options": [
+                "There is no difference in mean LDL cholesterol between the two spread groups",
+                "The plant sterol spread lowers mean LDL cholesterol more than the placebo spread",
+                "The study has enough participants to detect a clinically meaningful difference",
+                "The observed difference in mean LDL cholesterol is unlikely to be due to chance"
+            ],
+            "correctIndex": 0,
+            "explanation": "The null hypothesis always states NO difference or NO association between the groups being compared, and the statistical test asks how compatible the observed data are with it. The alternative hypothesis is the one claiming a difference. Two habits of wording matter on the exam: you REJECT or FAIL TO REJECT the null, never 'accept' or 'prove' it, and failing to reject is not evidence that the two treatments are identical, only that this study did not show a difference. Sample size belongs to power, and the statement about chance describes a p-value rather than a hypothesis.",
+            "tags": [
+                "research",
+                "null hypothesis",
+                "statistics"
+            ]
+        },
+        {
+            "id": "m1-gf-stat-02",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Research Applications",
+            "difficulty": "hard",
+            "text": "A trial concludes that a supplement lowers blood pressure, but in truth it has no effect at all. Which error did the investigators make?",
+            "options": [
+                "Type I error: they rejected a null hypothesis that was actually true",
+                "Type II error: they failed to reject a null hypothesis that was false",
+                "A sampling error, which is corrected by weighting the study sample",
+                "A measurement error, which is corrected by calibrating the instruments"
+            ],
+            "correctIndex": 0,
+            "explanation": "A Type I error is a false positive: the null hypothesis is true (no real effect) but the study rejects it. Its probability is alpha, the significance level, conventionally set at 0.05. A Type II error is a false negative: a real effect exists but the study fails to detect it, with probability beta, most often because the sample was too small. Power equals 1 minus beta, and 80% power is the usual target. Raising alpha makes Type I errors more likely while reducing Type II errors, which is the trade-off behind choosing a significance level.",
+            "tags": [
+                "research",
+                "type I error",
+                "statistics"
+            ]
+        },
+        {
+            "id": "m1-gf-stat-03",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Research Applications",
+            "difficulty": "medium",
+            "text": "A study of a fiber supplement reports p = 0.21 for the difference in fasting glucose. What is the correct conclusion?",
+            "options": [
+                "Fail to reject the null hypothesis: this study did not show a difference",
+                "Accept the null hypothesis as proven: the supplement has no effect on glucose",
+                "Reject the null hypothesis, because a p-value above 0.05 confirms an effect",
+                "Repeat the analysis with a one-tailed test until the p-value falls below 0.05"
+            ],
+            "correctIndex": 0,
+            "explanation": "With p = 0.21 the data are compatible with the null hypothesis at the conventional threshold, so the result is 'fail to reject'. That is not the same as proving no effect: the study may have been underpowered, the effect may be small, or the measurement noisy, so a confidence interval that includes both a meaningful benefit and no benefit tells you more than the p-value alone. Switching to a one-tailed test, or running analyses until something turns significant, is p-hacking and inflates the Type I error rate.",
+            "tags": [
+                "research",
+                "p-value",
+                "null hypothesis",
+                "statistics"
+            ]
+        },
+        {
+            "id": "m3-gf-mplh-01",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Financial Management",
+            "difficulty": "medium",
+            "text": "A hospital kitchen served 1,200 meals yesterday and the staff worked a total of 150 labor hours. What was the productivity in meals per labor hour?",
+            "options": [
+                "8.0 meals per labor hour",
+                "12.5 meals per labor hour",
+                "0.125 meals per labor hour",
+                "1,050 meals per labor hour"
+            ],
+            "correctIndex": 0,
+            "explanation": "Meals per labor hour (MPLH) = total meals served divided by total labor hours worked: 1,200 / 150 = 8.0. Its inverse is often more useful for staffing: 60 minutes / 8 = 7.5 labor minutes per meal. MPLH is compared against benchmarks for the type of service (conventional cook-serve runs lower than a convenience or assembly-serve system, and tray line service lower than cafeteria service), and it is tracked over time rather than judged from one day. Count ALL paid hours in the denominator, including supervisors and the dish room, or the number flatters the operation.",
+            "tags": [
+                "productivity",
+                "meals per labor hour",
+                "calculation",
+                "labor"
+            ]
+        },
+        {
+            "id": "m3-gf-mplh-02",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Financial Management",
+            "difficulty": "hard",
+            "text": "A director wants to raise meals per labor hour from 7 to 9 without lowering quality. Which change addresses the ratio directly?",
+            "options": [
+                "Replace hand-portioned items with pre-portioned components on the highest volume days",
+                "Ask each employee to shorten their scheduled breaks during the lunch rush every day",
+                "Reduce the number of meals produced so that the same staff serve fewer patients",
+                "Hire an additional supervisor to monitor how quickly each employee works each shift"
+            ],
+            "correctIndex": 0,
+            "explanation": "MPLH rises when meals go up, labor hours go down, or the work per meal falls. Using more convenience or pre-portioned components, standardizing recipes, simplifying the menu on peak days, grouping tasks and shortening travel distances all reduce labor minutes per meal without pushing people to hurry. Cutting breaks harms morale and is often a contract violation while barely changing the paid hours; producing fewer meals lowers the numerator and the ratio; and adding a supervisor adds paid hours to the denominator, so MPLH falls.",
+            "tags": [
+                "productivity",
+                "meals per labor hour",
+                "labor",
+                "management"
+            ]
+        },
+        {
+            "id": "m1-gf-path-01",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Nutrition Science",
+            "difficulty": "hard",
+            "text": "A healthy adult has fasted for 16 hours. Which pathway is supplying most of the circulating glucose at this point, and from what substrate?",
+            "options": [
+                "Glycogenolysis, breaking down stored liver glycogen into glucose",
+                "Glycogenesis, storing glucose as glycogen in the liver and muscle",
+                "Gluconeogenesis, making glucose from amino acids, glycerol and lactate",
+                "Lipolysis, converting stored triglyceride fatty acids directly into glucose"
+            ],
+            "correctIndex": 0,
+            "explanation": "Keep the four pathways separate by what they build or break down. GLYCOGENOLYSIS breaks liver glycogen back into glucose and covers the first 12 to 24 hours of fasting, which is where this patient sits. GLUCONEOGENESIS makes new glucose from amino acids, glycerol and lactate, and takes over as liver glycogen runs out. GLYCOGENESIS is the fed-state pathway that stores glucose as glycogen. LIPOLYSIS releases fatty acids and glycerol from adipose tissue; fatty acids cannot be converted to glucose in humans, although the glycerol backbone can enter gluconeogenesis. Muscle glycogen cannot raise blood glucose because muscle lacks glucose-6-phosphatase.",
+            "tags": [
+                "metabolism",
+                "glycogenolysis",
+                "fasting",
+                "pathways"
+            ]
+        },
+        {
+            "id": "m1-gf-path-02",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Nutrition Science",
+            "difficulty": "hard",
+            "text": "Which statement correctly distinguishes the fed-state and fasting-state carbohydrate pathways?",
+            "options": [
+                "Glycogenesis stores glucose after a meal; gluconeogenesis makes glucose from non-carbohydrate substrate",
+                "Glycogenesis breaks down glycogen after a meal; gluconeogenesis stores the glucose that results",
+                "Glycogenolysis builds glycogen from glucose; glycolysis converts amino acids into glycogen stores",
+                "Gluconeogenesis operates only in muscle tissue; glycogenolysis operates only in adipose tissue"
+            ],
+            "correctIndex": 0,
+            "explanation": "The suffixes do the work. '-genesis' means making: GLYCOGENESIS makes glycogen from glucose (insulin-driven, after a meal), and GLUCONEOGENESIS makes new glucose from non-carbohydrate substrates (amino acids, glycerol, lactate, propionate), mainly in the liver and secondarily in the kidney cortex. '-lysis' means breaking: GLYCOGENOLYSIS breaks glycogen into glucose, and GLYCOLYSIS breaks glucose down to pyruvate for energy. Insulin drives the storage pathways; glucagon, cortisol and epinephrine drive the release pathways.",
+            "tags": [
+                "metabolism",
+                "gluconeogenesis",
+                "glycogenesis",
+                "pathways"
             ]
         }
 ];

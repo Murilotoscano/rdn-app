@@ -2318,7 +2318,8 @@ export const studyPlanData: Record<number, DayContent> = {
                 <ul>
                     <li><strong>SNAP:</strong> low-income households; EBT card. Eligibility at or below <strong>130% FPL</strong>. CANNOT buy hot prepared foods, alcohol, tobacco, vitamins or non-food items.</li>
                     <li><strong>WIC:</strong> pregnant, postpartum and breastfeeding women, infants and children under 5. At or below <strong>185% FPL</strong> AND at nutritional risk. Nutrition education is REQUIRED. NOT an entitlement - funding is capped.</li>
-                    <li><strong>NSLP / SBP:</strong> school children. Free at or below 130% FPL; reduced price 130-185% FPL.</li>
+                    <li><strong>NSLP / SBP:</strong> school children. Free at or below 130% FPL; reduced price 130-185% FPL (student charge capped at $0.40 lunch / $0.30 breakfast). Community Eligibility Provision: high-poverty schools serve everyone free with no applications.</li>
+                    <li><strong>NSLP milk, updated:</strong> the Whole Milk for Healthy Kids Act of 2025 (Public Law 119-69, enacted 14 January 2026) requires schools to offer a VARIETY of fluid milk and PERMITS whole and reduced-fat options alongside low-fat and fat-free; milk fat no longer counts toward the meal's saturated fat limit, and a parent or guardian may request a substitution. Permitted is not required, and this statute does not change WIC or CACFP milk rules.</li>
                     <li><strong>CACFP:</strong> child and adult day care. At least ONE whole grain-rich product per day required. Whole milk for ages 1-2, low-fat or fat-free for 2 and older.</li>
                     <li><strong>Older Americans Act / Meals on Wheels:</strong> age 60 and over; congregate and home-delivered meals. NO income test.</li>
                     <li><strong>TEFAP:</strong> USDA commodity foods through food banks.</li>
