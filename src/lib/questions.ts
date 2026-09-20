@@ -23823,6 +23823,845 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "meal planning",
                 "counseling"
             ]
+        },
+        {
+            "id": "m1-gf-term-01",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Medical Terminology",
+            "difficulty": "medium",
+            "text": "A chart note reads: 'Patient with dysphagia s/p CVA; PEG placed.' What does the term dysphagia tell the RDN?",
+            "options": [
+                "Difficulty swallowing, which calls for a texture and liquid consistency evaluation",
+                "Difficulty speaking, which limits the diet history but not the oral intake itself",
+                "Painful digestion after meals, usually treated with smaller, low-fat meals",
+                "Loss of appetite, which is documented as inadequate oral intake in the note"
+            ],
+            "correctIndex": 0,
+            "explanation": "Break the word apart: dys- (difficult or painful) + -phagia (eating or swallowing) = difficulty swallowing. Do not confuse it with dysphasia (-phasia = speech), which is impaired speech, or with dyspepsia (-pepsia = digestion). Reading stems this way is worth real points on the exam, because the condition is often hidden inside the terminology rather than named outright.",
+            "tags": [
+                "medical terminology",
+                "assessment",
+                "dysphagia"
+            ]
+        },
+        {
+            "id": "m1-gf-term-02",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Medical Terminology",
+            "difficulty": "medium",
+            "text": "A patient's record lists 'hepatomegaly, hyperkalemia, and oliguria.' Which combination correctly translates these three terms?",
+            "options": [
+                "Enlarged liver; high blood potassium; scant urine output",
+                "Inflamed liver; low blood potassium; excessive urine output",
+                "Removal of the liver; high blood calcium; painful urination",
+                "Liver failure; high blood glucose; blood present in the urine"
+            ],
+            "correctIndex": 0,
+            "explanation": "hepat- (liver) + -megaly (enlargement) = enlarged liver; hyper- (excessive) + kal- (potassium) + -emia (blood condition) = high blood potassium; olig- (few, scant) + -uria (urine) = low urine output. Compare the pieces that change meaning: -itis is inflammation, -ectomy is surgical removal, -ostomy is a surgical opening, hypo- is low, poly- is much or many. Those three findings together should also make the RDN think of kidney and liver involvement before reading further.",
+            "tags": [
+                "medical terminology",
+                "labs",
+                "assessment"
+            ]
+        },
+        {
+            "id": "m1-gf-term-03",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Medical Terminology",
+            "difficulty": "hard",
+            "text": "A surgeon documents an 'esophagogastroduodenoscopy' followed by a 'jejunostomy.' What did the patient undergo?",
+            "options": [
+                "A scope exam of esophagus, stomach and duodenum, then a surgical opening into the jejunum",
+                "Removal of part of the esophagus and stomach, then a surgical opening into the ileum",
+                "A scope exam of the whole colon, then the creation of a permanent colostomy",
+                "Repair of the esophagus and the duodenum, then removal of part of the jejunum"
+            ],
+            "correctIndex": 0,
+            "explanation": "esophago- + gastro- + duodeno- + -scopy (to look) = viewing the esophagus, stomach and duodenum with a scope. jejun- + -ostomy = a surgical opening into the jejunum, which is where a J-tube feeds. Keep the suffixes straight: -scopy is looking, -ostomy is an opening, -otomy is a cut into, -ectomy is removal, and -plasty is repair. Those distinctions change the nutrition plan completely.",
+            "tags": [
+                "medical terminology",
+                "enteral nutrition",
+                "surgery"
+            ]
+        },
+        {
+            "id": "m1-gf-term-04",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Medical Terminology",
+            "difficulty": "medium",
+            "text": "A hematology note reports 'pancytopenia with hypochromic, microcytic cells.' What does this describe?",
+            "options": [
+                "A deficiency of all blood cell lines, with pale, small red blood cells",
+                "An excess of all blood cell lines, with large, darkly stained red cells",
+                "A deficiency of white cells only, with normal red cell size and color",
+                "An excess of platelets only, with small, densely pigmented red cells"
+            ],
+            "correctIndex": 0,
+            "explanation": "pan- (all) + cyto- (cell) + -penia (deficiency) = a shortage of all cell lines. hypo- (low) + chromic (color) = pale cells with less hemoglobin; micro- (small) + cytic (cell) = small cells. Hypochromic microcytic points toward iron deficiency, while macrocytic (large) cells point toward B12 or folate deficiency. Learning -penia, -osis, -emia and -cytosis lets you read a hematology note without memorizing every diagnosis.",
+            "tags": [
+                "medical terminology",
+                "anemia",
+                "labs"
+            ]
+        },
+        {
+            "id": "m1-gf-term-05",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Medical Terminology",
+            "difficulty": "easy",
+            "text": "A clinic note describes a patient with 'polydipsia, polyuria, and polyphagia.' What is the RDN reading?",
+            "options": [
+                "Excessive thirst, excessive urination, and excessive hunger",
+                "Painful thirst, scant urination, and difficulty eating solid food",
+                "Absent thirst, frequent urination, and an aversion to all food",
+                "Excessive sweating, painful urination, and vomiting after meals"
+            ],
+            "correctIndex": 0,
+            "explanation": "poly- means many or excessive: -dipsia is thirst, -uria is urine, and -phagia is eating. The classic triad of polydipsia, polyuria and polyphagia with weight loss is uncontrolled diabetes, most often type 1 at presentation. Contrast the prefixes: a- or an- means absent (anorexia, anuria), olig- means scant, and dys- means difficult or painful.",
+            "tags": [
+                "medical terminology",
+                "diabetes",
+                "assessment"
+            ]
+        },
+        {
+            "id": "m3-gf-pp-01",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Program Planning",
+            "difficulty": "medium",
+            "text": "A health department asks an RDN to design a nutrition program for a neighborhood with high rates of diabetes. What is the first step?",
+            "options": [
+                "Conduct a community needs assessment of the target population and its resources",
+                "Write the lesson plans and print the handouts so classes can start quickly",
+                "Select an evaluation instrument and set the target outcome before anything else",
+                "Apply for grant funding, since the budget determines the whole program design"
+            ],
+            "correctIndex": 0,
+            "explanation": "Program planning starts with a needs assessment: define the target population, then collect primary data (surveys, focus groups, key informant interviews, direct observation) and secondary data (census figures, BRFSS, NHANES, county health rankings, hospital discharge data). The assessment identifies the gap between what exists and what is needed, along with community assets, and only then do goals, objectives, interventions and the evaluation plan follow. Writing materials or chasing funding first usually produces a program nobody attends.",
+            "tags": [
+                "program planning",
+                "community",
+                "needs assessment"
+            ]
+        },
+        {
+            "id": "m3-gf-pp-02",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Program Planning",
+            "difficulty": "hard",
+            "text": "An RDN writes this objective: 'By June 30, at least 70% of enrolled participants will report eating two or more servings of vegetables daily.' Which type of objective is this?",
+            "options": [
+                "An outcome objective, because it states the change expected in the participants",
+                "A process objective, because it states the activities the program will deliver",
+                "A structural objective, because it describes the resources needed to operate",
+                "A financial objective, because it commits the program to a spending target"
+            ],
+            "correctIndex": 0,
+            "explanation": "Objectives come in layers. Process (or activity) objectives describe what the program will DO: deliver eight classes, reach 120 participants. Impact or outcome objectives describe the CHANGE in participants: knowledge, behavior, or health status, as in this example. Outcome objectives should be SMART: specific, measurable, achievable, relevant, and time-bound, which this one is. In a logic model, resources are inputs, classes are activities and outputs, and behavior change belongs in short- and medium-term outcomes.",
+            "tags": [
+                "program planning",
+                "objectives",
+                "evaluation"
+            ]
+        },
+        {
+            "id": "m3-gf-pp-03",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Program Planning",
+            "difficulty": "medium",
+            "text": "Halfway through a six-week nutrition education series, the RDN surveys participants to find out what is working and adjusts the remaining sessions. This is an example of:",
+            "options": [
+                "Formative evaluation, used to improve the program while it is still running",
+                "Summative evaluation, used to judge the program's overall worth at the end",
+                "Outcome evaluation, which measures long-term changes in health status",
+                "Fiscal evaluation, which compares the program's costs against its revenue"
+            ],
+            "correctIndex": 0,
+            "explanation": "Formative evaluation happens DURING the program and feeds changes back into it: pilot testing materials, checking attendance and comprehension, adjusting pace or content. Summative evaluation happens at the END and judges results and worth, and it usually combines impact measures (knowledge and behavior change) with outcome measures (health indicators). Process evaluation, which asks whether the program was delivered as designed, runs alongside both.",
+            "tags": [
+                "program planning",
+                "evaluation",
+                "education"
+            ]
+        },
+        {
+            "id": "m3-gf-pp-04",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Program Planning",
+            "difficulty": "medium",
+            "text": "An RDN needs county-level data on obesity and physical activity prevalence to justify a grant proposal. Which source fits best?",
+            "options": [
+                "BRFSS data, which provides state and county estimates of health behaviors",
+                "A convenience survey of 20 people attending one class at the senior center",
+                "The clinic's own medical records for the patients the RDN counseled last year",
+                "A national food industry marketing report on snack sales in the region"
+            ],
+            "correctIndex": 0,
+            "explanation": "The Behavioral Risk Factor Surveillance System (BRFSS) is a telephone survey run by CDC with the states, and it yields population estimates of health behaviors and conditions, including obesity and physical activity, down to state and often county level. Other standard secondary sources: NHANES (measured national data on intake and health), the census and American Community Survey (demographics and poverty), and county health rankings. A convenience sample or one clinic's charts cannot describe a county.",
+            "tags": [
+                "program planning",
+                "data sources",
+                "community"
+            ]
+        },
+        {
+            "id": "m3-gf-pp-05",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Program Planning",
+            "difficulty": "hard",
+            "text": "A community coalition lists eight nutrition problems but can fund only one program this year. Which criteria should drive the choice?",
+            "options": [
+                "Size of the problem, seriousness, and whether an effective intervention exists",
+                "Whichever problem the loudest coalition member argues for most persistently",
+                "Whichever problem has the cheapest intervention, regardless of its reach",
+                "Whichever problem the RDN feels most comfortable teaching about this year"
+            ],
+            "correctIndex": 0,
+            "explanation": "Priority setting in public health nutrition weighs how many people are affected (magnitude), how serious the consequences are, whether a proven and feasible intervention exists, and whether the community sees it as important. Cost matters, but only as feasibility inside those criteria. Documenting the reasoning matters too: funders expect a written rationale linking assessment data to the priority chosen and to the objectives that follow.",
+            "tags": [
+                "program planning",
+                "priority setting",
+                "community"
+            ]
+        },
+        {
+            "id": "m4-gf-me-01",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Foodservice Operations",
+            "difficulty": "medium",
+            "text": "A production manager rearranges a salad station so that the cook can reach every ingredient without stepping away or twisting. Which principle is being applied?",
+            "options": [
+                "Motion economy: keep work within the normal work area to cut wasted movement",
+                "Batch cooking: prepare small quantities close to the time they will be served",
+                "Just-in-time purchasing: buy only what production needs for immediate use",
+                "Cross-training: teach every employee to cover more than one work station"
+            ],
+            "correctIndex": 0,
+            "explanation": "Motion economy studies how the body moves at a workstation and removes wasted motion. Core principles: keep tools and materials within the normal work area (the arc the forearms sweep without leaning), pre-position tools in the order used, let both hands work at once and in symmetric paths, use gravity to deliver and remove items, keep motions smooth and curved rather than sharp and jerky, and cut down on eye movements. Less walking, reaching and twisting means less fatigue, fewer injuries, and more output per labor hour.",
+            "tags": [
+                "motion economy",
+                "work simplification",
+                "productivity"
+            ]
+        },
+        {
+            "id": "m4-gf-me-02",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Foodservice Operations",
+            "difficulty": "hard",
+            "text": "To study why tray assembly runs late, a manager charts every step, delay, transport and inspection in the process from start to finish. Which work simplification tool is this?",
+            "options": [
+                "A process flow chart, which maps each step to expose delays and duplicated work",
+                "A Gantt chart, which schedules project tasks against calendar dates",
+                "An organization chart, which shows reporting relationships between positions",
+                "A Pareto chart, which ranks causes of complaints from most to least frequent"
+            ],
+            "correctIndex": 0,
+            "explanation": "Work simplification asks how a task can be done with less effort in less time. The tools: a process (flow) chart records each operation, transport, delay, inspection and storage in sequence; a pathway or string diagram traces the distance a worker or product travels; an operation chart follows the motions of both hands at one workstation. Once mapped, steps are eliminated, combined, rearranged, or simplified. A Gantt chart schedules a project, and a Pareto chart ranks causes.",
+            "tags": [
+                "work simplification",
+                "process improvement",
+                "productivity"
+            ]
+        },
+        {
+            "id": "m4-gf-me-03",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Foodservice Operations",
+            "difficulty": "medium",
+            "text": "Which kitchen layout change best reflects the principles of motion economy?",
+            "options": [
+                "Placing the most used utensils and pans within arm's reach of the work surface",
+                "Storing all small equipment in a central room to keep work surfaces clear",
+                "Assigning each cook a different station every shift so everyone learns them all",
+                "Raising all work counters to a single height that matches the tallest employee"
+            ],
+            "correctIndex": 0,
+            "explanation": "Motion economy places materials and tools in a fixed, pre-positioned spot within the normal working area, so the hands find them without searching, reaching or walking. Centralizing every tool far from the work surface adds transport steps, rotating stations daily removes the rhythm that makes work efficient, and a single counter height ignores ergonomics: work surfaces should suit the worker and the task, usually at or slightly below elbow height for light work.",
+            "tags": [
+                "motion economy",
+                "layout",
+                "ergonomics"
+            ]
+        },
+        {
+            "id": "m4-gf-me-04",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Foodservice Operations",
+            "difficulty": "hard",
+            "text": "A foodservice director wants to raise meals per labor hour without adding staff. Which change is most consistent with work simplification?",
+            "options": [
+                "Group similar tasks and shorten the distance between the steps in each process",
+                "Ask each employee to work faster during the rush and take shorter breaks",
+                "Add a second supervisor to watch the line and record individual output",
+                "Buy a larger tilting skillet, whatever the current bottleneck turns out to be"
+            ],
+            "correctIndex": 0,
+            "explanation": "Productivity (meals per labor hour = meals served divided by labor hours worked) improves when the WORK is redesigned, not when people are pushed to hurry. Work simplification groups similar tasks, shortens travel between steps, removes duplicated handling, pre-positions supplies, and standardizes recipes and portioning. Speeding people up raises error and injury rates, extra supervision adds labor hours to the denominator, and buying equipment before finding the bottleneck often moves the queue somewhere else.",
+            "tags": [
+                "work simplification",
+                "productivity",
+                "labor"
+            ]
+        },
+        {
+            "id": "m2-gf-msud-01",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Inborn Errors of Metabolism",
+            "difficulty": "hard",
+            "text": "A newborn screen returns positive for maple syrup urine disease (MSUD). Which dietary restriction is the cornerstone of management?",
+            "options": [
+                "Restrict leucine, isoleucine and valine, using a formula free of those amino acids",
+                "Restrict phenylalanine only, using a formula that supplies tyrosine generously",
+                "Restrict galactose and lactose, using a soy-based formula from the first week",
+                "Restrict long-chain fat, replacing it with medium-chain triglyceride oil"
+            ],
+            "correctIndex": 0,
+            "explanation": "MSUD is a defect in the branched-chain alpha-ketoacid dehydrogenase complex, so the three branched-chain amino acids (leucine, isoleucine and valine) and their ketoacids accumulate, producing the maple syrup odor in urine and, untreated, encephalopathy and death. Treatment restricts all three BCAAs, using a BCAA-free medical formula plus carefully measured natural protein to supply the minimum each one requires for growth. Leucine is monitored most closely. Phenylalanine restriction belongs to PKU, galactose to galactosemia, and long-chain fat to LCHAD-type disorders.",
+            "tags": [
+                "msud",
+                "inborn errors",
+                "pediatrics",
+                "formula"
+            ]
+        },
+        {
+            "id": "m2-gf-msud-02",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Inborn Errors of Metabolism",
+            "difficulty": "hard",
+            "text": "A 2-year-old with MSUD develops a fever and vomiting from a viral illness. Why is this an emergency?",
+            "options": [
+                "Catabolism releases branched-chain amino acids, which can trigger metabolic crisis",
+                "Fever increases the child's need for protein, so the diet must be liberalized",
+                "Vomiting depletes sodium, which is the main risk in this metabolic disorder",
+                "Infection destroys the enzyme permanently, so the diet is no longer effective"
+            ],
+            "correctIndex": 0,
+            "explanation": "Illness, fasting, injury and surgery all push the body into catabolism, breaking down its own protein and flooding the circulation with leucine, isoleucine and valine that the child cannot metabolize. Leucine rises fastest and causes cerebral edema, so families follow an emergency (sick-day) protocol: stop natural protein temporarily, give generous energy as glucose polymer and fat to blunt catabolism, continue or increase the BCAA-free formula, and contact the metabolic team for urgent leucine levels. The same logic applies to other intoxication-type inborn errors.",
+            "tags": [
+                "msud",
+                "inborn errors",
+                "pediatrics",
+                "emergency"
+            ]
+        },
+        {
+            "id": "m2-gf-msud-03",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Inborn Errors of Metabolism",
+            "difficulty": "medium",
+            "text": "A parent of a child with MSUD asks why the medical formula cannot simply be stopped once blood levels look good. The best response is:",
+            "options": [
+                "The formula supplies the other amino acids and nutrients the restricted diet cannot",
+                "The formula only tastes better than food, so stopping it is a matter of preference",
+                "Blood levels stay normal for life once they normalize, so the diet can be relaxed",
+                "The formula supplies extra branched-chain amino acids the child still needs daily"
+            ],
+            "correctIndex": 0,
+            "explanation": "Natural protein has to be limited so tightly that it cannot meet needs for the other essential amino acids, nor for energy, vitamins and minerals. The BCAA-free medical formula fills that gap, and it is the main protein source for life. Stopping it produces deficiency of the other amino acids while the restricted diet keeps growth from being met. Management is lifelong, with frequent plasma BCAA monitoring, adjustment for growth, and extra care during illness and pregnancy.",
+            "tags": [
+                "msud",
+                "inborn errors",
+                "formula",
+                "counseling"
+            ]
+        },
+        {
+            "id": "m1-gf-add-01",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Food Science",
+            "difficulty": "medium",
+            "text": "A snack manufacturer adds BHA and BHT to a fried corn chip. What do these additives do?",
+            "options": [
+                "Act as antioxidants that delay oxidative rancidity in the fat",
+                "Act as emulsifiers that keep the oil evenly dispersed in the dough",
+                "Act as humectants that hold moisture so the chip stays soft",
+                "Act as antimicrobials that stop mold growth in the sealed bag"
+            ],
+            "correctIndex": 0,
+            "explanation": "BHA (butylated hydroxyanisole) and BHT (butylated hydroxytoluene) are synthetic antioxidants that interrupt the free-radical chain reaction of lipid oxidation, which is what makes fats go rancid and produce stale, painty flavors. Tocopherols (vitamin E) and ascorbic acid do the same job from natural sources, and rosemary extract is used as a clean-label option. Know the function groups: emulsifiers (lecithin, mono- and diglycerides), stabilizers and gelling agents (pectin, carrageenan, guar), humectants (glycerol, sorbitol), and preservatives (sodium benzoate, calcium propionate).",
+            "tags": [
+                "food additives",
+                "food science",
+                "antioxidants"
+            ]
+        },
+        {
+            "id": "m1-gf-add-02",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Food Science",
+            "difficulty": "medium",
+            "text": "A product developer needs an ingredient that keeps oil and water from separating in a bottled salad dressing. Which additive performs that function?",
+            "options": [
+                "Lecithin, an emulsifier with both a water-loving and a fat-loving end",
+                "Pectin, a gelling agent extracted from citrus peel and apple pomace",
+                "Calcium propionate, a preservative that inhibits mold growth in bread",
+                "Sodium nitrite, a curing agent that fixes color in processed meats"
+            ],
+            "correctIndex": 0,
+            "explanation": "An emulsifier has a hydrophilic (water-loving) head and a hydrophobic (fat-loving) tail, so it sits at the interface and keeps droplets of one liquid suspended in the other. Lecithin, from egg yolk or soybeans, is the classic example, and mono- and diglycerides are the most common commercial ones. Pectin gels jams, calcium propionate inhibits mold in bread, and sodium nitrite fixes the pink color of cured meat, contributes flavor, and inhibits Clostridium botulinum.",
+            "tags": [
+                "food additives",
+                "food science",
+                "emulsifiers"
+            ]
+        },
+        {
+            "id": "m1-gf-add-03",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Food Science",
+            "difficulty": "hard",
+            "text": "A commercial bakery wants to keep sliced bread free of mold for a longer shelf life. Which additive is designed for that purpose?",
+            "options": [
+                "Calcium propionate, a mold inhibitor widely used in yeast breads",
+                "Ascorbic acid, an antioxidant that also strengthens the gluten network",
+                "Sodium benzoate, which works only in acidic foods such as soft drinks",
+                "Carrageenan, a seaweed extract used to stabilize and thicken dairy drinks"
+            ],
+            "correctIndex": 0,
+            "explanation": "Calcium propionate inhibits mold and rope bacteria in yeast breads without interfering with the yeast itself, which is why it is the standard bakery preservative. Sodium benzoate is effective only in acid foods (pH below about 4.5), so it suits soft drinks, dressings and pickles, not bread. Ascorbic acid acts as an antioxidant and dough conditioner, and carrageenan stabilizes and thickens dairy and plant milks. Matching the additive to its function, and to the pH where it works, is what the exam asks.",
+            "tags": [
+                "food additives",
+                "food science",
+                "preservatives"
+            ]
+        },
+        {
+            "id": "m1-gf-add-04",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Food Science",
+            "difficulty": "medium",
+            "text": "A patient with asthma asks why a label warns about sulfites on dried apricots. What do sulfites do in that product?",
+            "options": [
+                "Prevent enzymatic browning and preserve color, but can trigger asthma reactions",
+                "Add sweetness and bulk, replacing the sugar in reduced-calorie dried fruit",
+                "Provide sulfur-containing amino acids that the drying process destroys",
+                "Kill Clostridium botulinum spores, which grow readily in dried fruits"
+            ],
+            "correctIndex": 0,
+            "explanation": "Sulfiting agents (sulfur dioxide, sodium bisulfite, sodium metabisulfite) block enzymatic browning by inhibiting polyphenol oxidase, preserve the bright color of dried fruit, and act as antimicrobials in wine. They also provoke reactions ranging from wheezing to anaphylaxis in sensitive people, especially those with asthma, which is why the FDA banned them on fresh produce meant to be eaten raw and requires label declaration at 10 ppm or more. They also destroy thiamin in the food.",
+            "tags": [
+                "food additives",
+                "food science",
+                "sulfites",
+                "allergy"
+            ]
+        },
+        {
+            "id": "m2-gf-addi-01",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Endocrine Disorders",
+            "difficulty": "hard",
+            "text": "A patient reports fatigue, weight loss, salt craving and darkening of the skin. Labs show sodium 128 mEq/L, potassium 5.8 mEq/L, and a low morning cortisol. Which condition fits?",
+            "options": [
+                "Addison disease, in which the adrenal cortex fails to produce enough hormone",
+                "Cushing syndrome, in which the adrenal cortex produces excess cortisol daily",
+                "SIADH, in which excess antidiuretic hormone dilutes the serum sodium level",
+                "Primary hyperaldosteronism, in which aldosterone secretion is chronically high"
+            ],
+            "correctIndex": 0,
+            "explanation": "Addison disease is primary adrenal insufficiency: cortisol AND aldosterone fall, so the patient loses sodium and retains potassium, giving the classic hyponatremia with hyperkalemia, plus hypotension, hypoglycemia, fatigue, weight loss, salt craving and hyperpigmentation (high ACTH stimulates melanocytes). Cushing syndrome is the mirror image: high cortisol with weight gain, central obesity, hyperglycemia, hypertension and often low potassium. SIADH gives hyponatremia but with normal potassium and fluid retention, and hyperaldosteronism raises sodium while dropping potassium.",
+            "tags": [
+                "addison",
+                "endocrine",
+                "labs",
+                "assessment"
+            ]
+        },
+        {
+            "id": "m2-gf-addi-02",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Endocrine Disorders",
+            "difficulty": "medium",
+            "text": "Which nutrition recommendations fit a patient with Addison disease on steroid replacement therapy?",
+            "options": [
+                "Liberal sodium and fluids, with small frequent meals that include complex carbohydrate",
+                "Strict sodium restriction below 1,500 mg daily, with fluids limited to one liter",
+                "A high potassium intake from salt substitutes, bananas and orange juice at meals",
+                "A very low carbohydrate ketogenic pattern, with one large meal in the evening"
+            ],
+            "correctIndex": 0,
+            "explanation": "Because aldosterone is deficient, the patient wastes sodium and retains potassium, so sodium and fluids are liberalized rather than restricted, and needs rise further with heat, exercise and vomiting. Potassium-rich foods and salt substitutes (potassium chloride) are limited. Small frequent meals with complex carbohydrate and adequate protein guard against the hypoglycemia that low cortisol causes. Steroid replacement brings its own concerns over time: blood glucose, bone density, and adequate calcium and vitamin D.",
+            "tags": [
+                "addison",
+                "endocrine",
+                "sodium",
+                "mnt"
+            ]
+        },
+        {
+            "id": "m2-gf-addi-03",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Endocrine Disorders",
+            "difficulty": "hard",
+            "text": "A patient with known Addison disease is vomiting, confused, and hypotensive after two days of gastroenteritis. What does this presentation represent?",
+            "options": [
+                "Adrenal crisis, a medical emergency needing IV hydrocortisone and saline now",
+                "Simple dehydration, which oral rehydration solution at home will correct",
+                "A hypoglycemic episode that resolves with 15 grams of oral carbohydrate",
+                "Steroid excess, which is managed by stopping the replacement dose today"
+            ],
+            "correctIndex": 0,
+            "explanation": "Illness, vomiting, injury or surgery raise cortisol requirements sharply; when replacement is not increased, the patient can fall into adrenal (addisonian) crisis: severe hypotension, vomiting, confusion, hyponatremia, hyperkalemia and hypoglycemia. Treatment is immediate intravenous hydrocortisone with saline and dextrose, not oral fluids at home. Patients are taught sick-day rules, to double the oral dose during fever or illness, and to carry an emergency injection and medical identification. Stopping steroid replacement would make the crisis worse.",
+            "tags": [
+                "addison",
+                "endocrine",
+                "emergency",
+                "mnt"
+            ]
+        },
+        {
+            "id": "m2-gf-pku-01",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Inborn Errors of Metabolism",
+            "difficulty": "medium",
+            "text": "A 6-year-old with PKU asks for an afternoon snack. Which choice fits the phenylalanine-restricted diet best?",
+            "options": [
+                "Fresh peach slices with a portion of low-protein bread and jam",
+                "A cup of baked beans with two slices of whole wheat toast",
+                "A bowl of ice cream with milk and a handful of mixed nuts",
+                "Peanut butter on regular crackers, served with a glass of milk"
+            ],
+            "correctIndex": 0,
+            "explanation": "Phenylalanine travels with protein, so the diet limits all high-protein foods: meat, fish, poultry, eggs, dairy, legumes, nuts, soy, and regular breads and pasta. Fruits and most vegetables are low in phenylalanine, and specially manufactured low-protein breads, pastas and baked goods fill out the energy needs. Beans, nuts, dairy and regular grain products are exactly the foods to avoid. The phenylalanine-free medical formula remains the main source of protein, tyrosine, vitamins and minerals.",
+            "tags": [
+                "pku",
+                "inborn errors",
+                "pediatrics",
+                "food choices"
+            ]
+        },
+        {
+            "id": "m2-gf-pku-02",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Inborn Errors of Metabolism",
+            "difficulty": "hard",
+            "text": "Why does the medical formula used in PKU supply generous tyrosine?",
+            "options": [
+                "Tyrosine becomes conditionally essential, because blocked phenylalanine cannot form it",
+                "Tyrosine blocks the absorption of the phenylalanine that comes from natural foods",
+                "Tyrosine converts back into phenylalanine, replacing what the diet has to restrict",
+                "Tyrosine is restricted in PKU, so only a trace amount is added to the formula"
+            ],
+            "correctIndex": 0,
+            "explanation": "In PKU the enzyme phenylalanine hydroxylase is deficient, so phenylalanine cannot be converted to tyrosine. That makes tyrosine conditionally essential: it must come from the diet, chiefly from the phenylalanine-free formula, because tyrosine is the precursor for dopamine, norepinephrine, epinephrine, thyroid hormone and melanin. Treatment monitors blood phenylalanine (commonly a target of 2 to 6 mg/dL) for life, and sapropterin helps a subset of patients tolerate more phenylalanine.",
+            "tags": [
+                "pku",
+                "inborn errors",
+                "tyrosine",
+                "formula"
+            ]
+        },
+        {
+            "id": "m2-gf-pku-03",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Inborn Errors of Metabolism",
+            "difficulty": "medium",
+            "text": "A teenager with PKU asks whether diet soft drinks sweetened with aspartame are a good way to cut sugar. The RDN should explain that aspartame:",
+            "options": [
+                "Is a source of phenylalanine and must be avoided, which the label warns about",
+                "Is safe in PKU because the body breaks it down into glucose and galactose",
+                "Is encouraged in PKU, since it replaces the sugar the formula already supplies",
+                "Is restricted only in pregnancy, so a teenager may drink it without any limit"
+            ],
+            "correctIndex": 0,
+            "explanation": "Aspartame is a dipeptide of aspartic acid and phenylalanine, so every serving delivers phenylalanine. US labels must carry the statement 'Phenylketonurics: contains phenylalanine,' and people with PKU must avoid it in diet drinks, sugar-free gum, some medications and tabletop sweeteners. Other non-nutritive sweeteners, such as sucralose, stevia and acesulfame potassium, do not contain phenylalanine and can be used instead.",
+            "tags": [
+                "pku",
+                "inborn errors",
+                "aspartame",
+                "counseling"
+            ]
+        },
+        {
+            "id": "m2-gf-pku-04",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Inborn Errors of Metabolism",
+            "difficulty": "hard",
+            "text": "A 26-year-old woman with PKU who relaxed her diet years ago says she hopes to become pregnant next year. What is the priority counseling message?",
+            "options": [
+                "Return to strict phenylalanine control BEFORE conception to protect the fetus",
+                "Begin the restricted diet in the second trimester, once organs have formed",
+                "No diet change is needed, since the fetus makes its own missing enzyme",
+                "Take high-dose folic acid instead, which prevents the damage from phenylalanine"
+            ],
+            "correctIndex": 0,
+            "explanation": "Maternal PKU syndrome results from high maternal phenylalanine crossing the placenta: microcephaly, intellectual disability, congenital heart defects, and growth restriction in a fetus who does not have PKU. The damage happens in the first weeks, often before pregnancy is recognized, so blood phenylalanine must be in target range (commonly 2 to 6 mg/dL) BEFORE conception and throughout pregnancy, with frequent monitoring and increased protein and energy as pregnancy advances. Folic acid supplementation is standard for all pregnancies but does not prevent phenylalanine damage.",
+            "tags": [
+                "pku",
+                "pregnancy",
+                "inborn errors",
+                "counseling"
+            ]
+        },
+        {
+            "id": "m4-gf-can-01",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Quantity Food Production",
+            "difficulty": "medium",
+            "text": "A cook needs 200 half-cup servings of canned green beans. If one #10 can yields about 12.5 cups of drained product, how many cans are needed?",
+            "options": [
+                "8 cans",
+                "4 cans",
+                "16 cans",
+                "25 cans"
+            ],
+            "correctIndex": 0,
+            "explanation": "200 servings x 0.5 cup = 100 cups needed. 100 cups divided by 12.5 cups per #10 can = 8 cans. The #10 can is the workhorse of quantity production: roughly 103 to 109 fluid ounces, about 12 to 13 cups, near 6 pounds 9 ounces, and packed 6 cans to a case. Working the math from servings to cups to cans is the pattern to practice, since the exam usually gives the yield per can and asks for the purchase quantity.",
+            "tags": [
+                "can sizes",
+                "quantity production",
+                "calculation",
+                "purchasing"
+            ]
+        },
+        {
+            "id": "m4-gf-can-02",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Quantity Food Production",
+            "difficulty": "easy",
+            "text": "A receiving clerk unloads institutional canned tomatoes. How many #10 cans come in a standard case?",
+            "options": [
+                "6 cans per case",
+                "12 cans per case",
+                "24 cans per case",
+                "4 cans per case"
+            ],
+            "correctIndex": 0,
+            "explanation": "Institutional #10 cans are packed 6 to a case, which is the figure used to convert a recipe requirement into a purchase order and to calculate case cost per serving. Smaller retail sizes come in larger counts: #303 cans (about 2 cups, 16 to 17 ounces) are packed 24 to a case, and #2 cans (about 2.5 cups) 24 per case. Knowing the case pack lets you price a menu item per portion without opening a single can.",
+            "tags": [
+                "can sizes",
+                "purchasing",
+                "receiving"
+            ]
+        },
+        {
+            "id": "m4-gf-can-03",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Quantity Food Production",
+            "difficulty": "medium",
+            "text": "A standardized recipe for a 25-portion batch calls for 2 cups of tomato sauce. Which can size matches that amount most closely with the least waste?",
+            "options": [
+                "A #303 can, which holds about 2 cups",
+                "A #10 can, which holds about 12 cups",
+                "A #5 can, which holds about 7 cups",
+                "A #2.5 can, which holds about 3.5 cups"
+            ],
+            "correctIndex": 0,
+            "explanation": "Matching can size to batch size controls both cost and waste, because an opened can that is only partly used has to be transferred to a labeled, dated container and used quickly. A #303 can holds roughly 2 cups (16 to 17 ounces); a #2 can about 2.5 cups; a #2.5 can about 3.5 cups; a #5 can about 7 cups; and a #10 can about 12 to 13 cups. For a small batch the #303 is the right purchase; for volume production the #10 is more economical.",
+            "tags": [
+                "can sizes",
+                "quantity production",
+                "purchasing"
+            ]
+        },
+        {
+            "id": "m2-gf-first-01",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Enteral Nutrition",
+            "difficulty": "hard",
+            "text": "A patient started on tube feeding two days ago develops watery diarrhea six times today. What should the RDN do FIRST?",
+            "options": [
+                "Review the medication list for sorbitol-containing elixirs and recent antibiotics",
+                "Switch immediately to a peptide-based formula with added soluble fiber today",
+                "Stop the tube feeding and request parenteral nutrition for complete bowel rest",
+                "Reduce the infusion rate by half and hold the next two scheduled bolus feedings"
+            ],
+            "correctIndex": 0,
+            "explanation": "Medications cause more tube-feeding diarrhea than the formula does. Sorbitol in liquid drug preparations, magnesium-containing antacids, broad-spectrum antibiotics and, in the hospital, Clostridioides difficile are the usual culprits, alongside hypoalbuminemia and a rapid rate increase. Investigate before you change the feeding: review medications, check for infection, and only then consider formula or rate changes. Stopping enteral nutrition to give parenteral nutrition to a patient with a working gut is the wrong direction.",
+            "tags": [
+                "first action",
+                "enteral nutrition",
+                "diarrhea",
+                "critical thinking"
+            ]
+        },
+        {
+            "id": "m2-gf-first-02",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Support",
+            "difficulty": "hard",
+            "text": "A severely malnourished patient with a BMI of 14 and almost no intake for three weeks is admitted for nutrition support. What should the RDN do FIRST?",
+            "options": [
+                "Check and correct phosphorus, potassium and magnesium, and give thiamine",
+                "Start feeding at full estimated energy needs to reverse the weight loss quickly",
+                "Order a high-protein oral supplement three times daily and monitor weekly weights",
+                "Request an indirect calorimetry study before any nutrition is provided at all"
+            ],
+            "correctIndex": 0,
+            "explanation": "This patient meets the criteria for high refeeding syndrome risk. When feeding restarts, insulin drives phosphorus, potassium and magnesium into the cells, and the fall in serum phosphorus can cause respiratory failure, arrhythmia and death. The sequence is: check electrolytes and replace them, give thiamine before and during the first days of feeding, start at roughly a quarter to a half of estimated energy needs, advance slowly over three to seven days, and monitor electrolytes and fluid balance daily. Feeding does not wait for a calorimetry study, but it does wait for the electrolytes.",
+            "tags": [
+                "first action",
+                "refeeding syndrome",
+                "nutrition support",
+                "critical thinking"
+            ]
+        },
+        {
+            "id": "m2-gf-first-03",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Enteral Nutrition",
+            "difficulty": "medium",
+            "text": "During a bolus tube feeding, a patient begins coughing forcefully and says she cannot catch her breath. What should be done FIRST?",
+            "options": [
+                "Stop the feeding immediately and keep the head of the bed elevated",
+                "Slow the bolus to a drip and finish the remaining volume more gradually",
+                "Check the residual volume and then restart the feeding at the same rate",
+                "Give 60 mL of a water flush to clear whatever may be blocking the tube"
+            ],
+            "correctIndex": 0,
+            "explanation": "Coughing, choking and respiratory distress during a feeding suggest aspiration, so the feeding stops first and the airway takes priority: keep the head of the bed at 30 to 45 degrees, suction if trained and indicated, and notify the nurse and provider. Investigation of tube position and the cause comes after the patient is stable. Prevention measures are the head-of-bed elevation during and after feeding, slower delivery, checking tube placement, and considering post-pyloric access in patients who aspirate repeatedly.",
+            "tags": [
+                "first action",
+                "aspiration",
+                "enteral nutrition",
+                "safety"
+            ]
+        },
+        {
+            "id": "m4-gf-first-04",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Food Safety",
+            "difficulty": "medium",
+            "text": "A manager sees a cook remove raw chicken from the grill and, without changing gloves, plate a salad. What should the manager do FIRST?",
+            "options": [
+                "Stop the task at once, discard the salad, and have the cook wash hands and reglove",
+                "Finish the meal service and address the problem in the next staff training session",
+                "Write the employee up for a policy violation and place the note in the file",
+                "Check whether any customer reports illness before deciding what action to take"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cross-contamination in progress is an immediate food safety hazard, so the correction comes first: stop the action, discard the contaminated food, and have the employee wash hands and put on clean gloves. Coaching, documentation and retraining follow, and this is also an active managerial control issue, meaning the system (glove stations, separate cutting boards and utensils, workflow) should be reviewed. Waiting for someone to get sick reverses the whole logic of prevention.",
+            "tags": [
+                "first action",
+                "food safety",
+                "cross-contamination",
+                "supervision"
+            ]
+        },
+        {
+            "id": "m4-gf-first-05",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Food Safety",
+            "difficulty": "hard",
+            "text": "During morning rounds the walk-in refrigerator reads 50 degrees Fahrenheit, and staff do not know how long it has been warm. What should the manager do FIRST?",
+            "options": [
+                "Check internal temperatures of the TCS foods and move them to a working unit",
+                "Discard everything in the walk-in immediately, since the air temperature is high",
+                "Turn the thermostat down and recheck the air temperature in about four hours",
+                "Call refrigeration service and continue meal production with the doors closed"
+            ],
+            "correctIndex": 0,
+            "explanation": "Air temperature is not food temperature, so the decision rests on the internal temperature of each time/temperature control for safety (TCS) food, measured with a calibrated thermometer, and on how long it was above 41 degrees Fahrenheit. Move product to a working unit or to ice immediately, then apply the rule: TCS food held between 41 and 70 degrees for four hours or less may be used or rapidly cooled, and anything above 70 degrees, or above 41 degrees for more than four hours, is discarded. Document the event, then call for repair.",
+            "tags": [
+                "first action",
+                "food safety",
+                "temperature control",
+                "haccp"
+            ]
+        },
+        {
+            "id": "m4-gf-first-06",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Food Safety",
+            "difficulty": "hard",
+            "text": "Three patients on the same unit report vomiting and diarrhea, and all three ate the chicken salad at lunch. What should the foodservice director do FIRST?",
+            "options": [
+                "Stop service of that item and hold the remaining product refrigerated and labeled",
+                "Discard all the remaining chicken salad so that no one else can be exposed to it",
+                "Interview the cook who prepared the item to find out what may have gone wrong",
+                "Wait for laboratory confirmation before taking any action that affects service"
+            ],
+            "correctIndex": 0,
+            "explanation": "When a foodborne illness is suspected, the first moves are to stop serving the suspect food and to PRESERVE it: hold the remaining product refrigerated, labeled 'Do Not Use,' along with production records, temperature logs and the ingredient labels, because that sample may be the only way to identify the pathogen. Then notify administration and the local health department, exclude ill food handlers, and cooperate with the investigation. Discarding the evidence destroys the investigation, and waiting for laboratory confirmation exposes more people.",
+            "tags": [
+                "first action",
+                "foodborne illness",
+                "food safety",
+                "investigation"
+            ]
+        },
+        {
+            "id": "m2-gf-first-07",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Care Process",
+            "difficulty": "medium",
+            "text": "A patient's diet order includes pork, which she says her religion forbids, and her tray keeps arriving with it. What should the RDN do FIRST?",
+            "options": [
+                "Talk with the patient to confirm her preferences and any other restrictions",
+                "Ask the physician to rewrite the diet order before speaking with the patient",
+                "Flag the tray line to remove pork and consider the problem fully resolved",
+                "Document a nutrition diagnosis of inadequate oral intake and monitor weekly"
+            ],
+            "correctIndex": 0,
+            "explanation": "Start with the patient: confirm what she does and does not eat, whether other restrictions or preparation requirements apply, and what acceptable alternatives she would like. Then act on the system: record the preferences in the diet profile so every tray reflects them, notify foodservice, and document in the record. Respect for cultural and religious food practices is part of patient-centered care and of the Code of Ethics, and the physician's order rarely needs to change to accommodate a preference within the same diet.",
+            "tags": [
+                "first action",
+                "cultural competence",
+                "nutrition care process",
+                "patient-centered"
+            ]
+        },
+        {
+            "id": "m3-gf-first-08",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Human Resources",
+            "difficulty": "hard",
+            "text": "A supervisor notices that a cook on the hot line smells strongly of alcohol and is unsteady on his feet. What should the supervisor do FIRST?",
+            "options": [
+                "Remove him from the work area immediately and follow the facility's policy",
+                "Send him home without documentation to avoid embarrassing him in front of peers",
+                "Wait until the end of the shift so that meal service is not interrupted today",
+                "Terminate his employment on the spot for violating the substance-free policy"
+            ],
+            "correctIndex": 0,
+            "explanation": "An impaired employee working with knives, slicers and hot equipment is an immediate safety hazard to himself and others, so the first action is to remove him from the safety-sensitive work area. From there, follow the written policy: witness documentation, the facility's fitness-for-duty or testing process, safe transport home (never let him drive), and referral to the employee assistance program. Firing on the spot bypasses due process and union or employment protections, and doing nothing until the shift ends leaves the hazard in place.",
+            "tags": [
+                "first action",
+                "human resources",
+                "safety",
+                "supervision"
+            ]
         }
 ];
 
