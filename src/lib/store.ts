@@ -345,6 +345,99 @@ export const store = {
         }
     },
 
+    /**
+     * The rows that carry per-question history to another device. One row per question,
+     * with the two facts kept apart: seenAt is an ATTEMPT (the student answered it) and
+     * exposedAt is EXPOSURE (it was shown with its answer). A question can be exposed
+     * without ever being attempted, which is what happens to mock items that time ran out on.
+     */
+    buildExposurePayload: (): { question_id: string; seen_at: number | null; exposed_at: number | null }[] => {
+        const seen = store.getSeen();
+        const exposed = store.getExposed();
+        const ids = new Set<string>([...Object.keys(seen), ...Object.keys(exposed)]);
+        return [...ids].map(id => ({
+            question_id: id,
+            seen_at: seen[id] ?? null,
+            exposed_at: exposed[id] ?? null
+        }));
+    },
+
+    /**
+     * Merges remote rows into the local maps, newest timestamp wins and nothing is deleted.
+     * Re-running it is harmless, which is what makes reconnecting, reloading and restoring a
+     * backup safe: the maps are keyed by question id, so a repeat cannot duplicate an attempt.
+     */
+    applyExposurePayload: (rows: { question_id: string; seen_at?: number | null; exposed_at?: number | null }[]) => {
+        if (typeof window === 'undefined' || !rows?.length) return;
+        const seen = store.getSeen();
+        const exposed = store.getExposed();
+        for (const row of rows) {
+            if (!row?.question_id) continue;
+            const s = typeof row.seen_at === 'number' ? row.seen_at : 0;
+            const e = typeof row.exposed_at === 'number' ? row.exposed_at : 0;
+            if (s > (seen[row.question_id] ?? 0)) seen[row.question_id] = s;
+            if (e > (exposed[row.question_id] ?? 0)) exposed[row.question_id] = e;
+        }
+        localStorage.setItem(STORAGE_KEYS.SEEN, JSON.stringify(seen));
+        localStorage.setItem(STORAGE_KEYS.EXPOSED, JSON.stringify(exposed));
+    },
+
+    /**
+     * Merges exam rows coming from another device. A remote row that predates the four mock
+     * columns must not erase what this device already knows, so a missing field falls back to
+     * the local value. Keyed by exam id, so re-running it cannot duplicate a session.
+     */
+    applyRemoteExamHistory: (rows: Record<string, any>[]) => {
+        if (typeof window === 'undefined' || !rows?.length) return;
+        const merged = [...store.getExamHistory()];
+        for (const remote of rows) {
+            const idx = merged.findIndex(h => h.id === remote.id);
+            const local = idx >= 0 ? merged[idx] : undefined;
+            const transformed: ExamResult = {
+                id: remote.id,
+                date: remote.date,
+                score: remote.score,
+                totalQuestions: remote.total_questions,
+                domainScores: remote.domain_scores,
+                timeSpentSeconds: remote.time_spent_seconds,
+                mode: remote.mode,
+                realConditions: remote.real_conditions ?? local?.realConditions,
+                inconclusive: remote.inconclusive ?? local?.inconclusive,
+                freshTotal: remote.fresh_total ?? local?.freshTotal,
+                freshCorrect: remote.fresh_correct ?? local?.freshCorrect
+            };
+            if (idx >= 0) merged[idx] = transformed; else merged.push(transformed);
+        }
+        localStorage.setItem(STORAGE_KEYS.EXAM_HISTORY, JSON.stringify(merged));
+    },
+
+    syncUpExposure: async (): Promise<SyncResult> => {
+        if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
+        const payload = store.buildExposurePayload();
+        if (payload.length === 0) return { state: 'ok', message: 'No question history to sync' };
+        try {
+            const { error } = await supabase.from('question_exposure').upsert(payload);
+            if (error) throw error;
+            return { state: 'ok', message: 'Question history synced' };
+        } catch (e) {
+            console.error('Failed to sync question exposure to Supabase', e);
+            return { state: 'error', message: e instanceof Error ? e.message : 'Sync failed' };
+        }
+    },
+
+    syncDownExposure: async (): Promise<SyncResult> => {
+        if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
+        try {
+            const { data, error } = await supabase.from('question_exposure').select('*');
+            if (error) throw error;
+            store.applyExposurePayload(data ?? []);
+            return { state: 'ok', message: 'Question history restored' };
+        } catch (e) {
+            console.error('Failed to sync question exposure from Supabase', e);
+            return { state: 'error', message: e instanceof Error ? e.message : 'Sync failed' };
+        }
+    },
+
     syncDown: async (): Promise<SyncResult> => {
         if (typeof window === 'undefined') return { state: 'disabled', message: 'Not in a browser' };
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
@@ -406,36 +499,7 @@ export const store = {
             if (err2) throw err2;
 
             if (remoteHistory && remoteHistory.length > 0) {
-                const localHistory = store.getExamHistory();
-                const mergedHistory = [...localHistory];
-
-                remoteHistory.forEach(remote => {
-                    const idx = mergedHistory.findIndex(h => h.id === remote.id);
-                    const local = idx >= 0 ? mergedHistory[idx] : undefined;
-                    // A remote row that predates these columns must not erase what the local
-                    // record knows about the session.
-                    const transformed: ExamResult = {
-                        id: remote.id,
-                        date: remote.date,
-                        score: remote.score,
-                        totalQuestions: remote.total_questions,
-                        domainScores: remote.domain_scores,
-                        timeSpentSeconds: remote.time_spent_seconds,
-                        mode: remote.mode,
-                        realConditions: remote.real_conditions ?? local?.realConditions,
-                        inconclusive: remote.inconclusive ?? local?.inconclusive,
-                        freshTotal: remote.fresh_total ?? local?.freshTotal,
-                        freshCorrect: remote.fresh_correct ?? local?.freshCorrect
-                    };
-
-                    if (idx >= 0) {
-                        mergedHistory[idx] = transformed;
-                    } else {
-                        mergedHistory.push(transformed);
-                    }
-                });
-
-                localStorage.setItem(STORAGE_KEYS.EXAM_HISTORY, JSON.stringify(mergedHistory));
+                store.applyRemoteExamHistory(remoteHistory);
             }
 
             return { state: 'ok', message: 'Sync complete' };
@@ -455,7 +519,9 @@ export const store = {
         const results = [
             await store.syncUpErrorLog(store.getErrorLog()),
             await store.syncUpExamHistory(store.getExamHistory()),
+            await store.syncUpExposure(),
             await store.syncDown(),
+            await store.syncDownExposure(),
         ];
 
         const failed = results.find(r => r.state === 'error');

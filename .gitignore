@@ -47,3 +47,12 @@ biased_questions_report.json
 scripts/analyze_length_bias.mjs
 scripts/analyze_lengths.mjs
 scripts/reingest_all_updates.mjs
+
+# python tooling
+__pycache__/
+*.pyc
+
+# course material, never committed (119 MB)
+docs.zip
+.lenfix/
+.claude/

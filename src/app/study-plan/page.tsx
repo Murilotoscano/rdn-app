@@ -72,6 +72,9 @@ const StudyPlanPage = () => {
                                     <li key={a.label}><Link href={a.href}>{a.label}</Link></li>
                                 ))}
                             </ul>
+                            <p style={{ margin: '4px 0', fontSize: '0.85rem' }}>
+                                <strong>Foodservice maths:</strong> {w.mathDrill}
+                            </p>
                             <p style={{ margin: '4px 0', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
                                 <strong>Reported priorities:</strong> {w.forumFocus.join('; ')}.
                             </p>

@@ -20,6 +20,12 @@ export interface ScheduleWeek {
     activities: { label: string; href: string }[];
     /** Topics candidates report as recurring. Reported priorities, not measured ones. */
     forumFocus: string[];
+    /**
+     * Foodservice and management maths. Candidates report it as the block that decides the
+     * management domains, and it rewards spacing rather than one late cram, so it starts in
+     * week 1 and then runs on what you actually got wrong, through the existing review queue.
+     */
+    mathDrill: string;
     goal: string;
 }
 
@@ -44,6 +50,7 @@ export const SCHEDULE_WEEKS: ScheduleWeek[] = [
             "Food additives: antioxidants, preservatives, emulsifiers",
             "Glycolysis, gluconeogenesis, glycogenesis, glycogenolysis",
         ],
+        mathDrill: "Start here: 10 cost and yield items on three separate days (break-even, food cost %, selling price, EP/AP yield, meals per labor hour). Use Practice > Domain III and Domain IV and note which formula failed.",
         goal: "Get a clean baseline, then read every stem correctly and separate the four glucose pathways.",
     },
     {
@@ -62,6 +69,7 @@ export const SCHEDULE_WEEKS: ScheduleWeek[] = [
             "Celiac disease: which foods are appropriate",
             "Nutrition diagnosis for a pressure injury",
         ],
+        mathDrill: "15 minutes, twice this week: redo only the maths items you missed in week 1, from the review queue.",
         goal: "Read a lab panel and pick the food or intervention that fits the condition.",
     },
     {
@@ -80,6 +88,7 @@ export const SCHEDULE_WEEKS: ScheduleWeek[] = [
             "Intermittent versus continuous delivery rates",
             "Refeeding syndrome: risk, thiamine, starting energy",
         ],
+        mathDrill: "Nutrition support maths is this week's main block, so keep foodservice maths to one 15-minute session of missed items.",
         goal: "Run every nutrition support calculation without notes, twice, at exam pace.",
     },
     {
@@ -99,6 +108,7 @@ export const SCHEDULE_WEEKS: ScheduleWeek[] = [
             "Pregnancy and lactation micronutrients",
             "PCOS and Addison disease",
         ],
+        mathDrill: "Two sessions of 10 items, weighted to whatever the diagnostic and the week 1 drill exposed.",
         goal: "Second mock result, compared with the diagnostic on unseen questions rather than overall.",
     },
     {
@@ -117,6 +127,7 @@ export const SCHEDULE_WEEKS: ScheduleWeek[] = [
             "Leadership style in a crisis; delegation and span of control",
             "WIC, SNAP, school meals, CACFP and the Older Americans Act",
         ],
+        mathDrill: "Daily this week: management maths is the domain focus, so work fresh items rather than repeats.",
         goal: "Every management formula on paper in under a minute, and each federal programme matched to its population.",
     },
     {
@@ -136,6 +147,7 @@ export const SCHEDULE_WEEKS: ScheduleWeek[] = [
             "Service and safety temperatures; HACCP and commissary transport",
             "Motion economy and work simplification",
         ],
+        mathDrill: "Daily: yields, forecasting, can sizes and case packs, plus every maths item missed on mock 2.",
         goal: "Third mock, with the foodservice maths done cleanly under time pressure.",
     },
     {
@@ -153,6 +165,7 @@ export const SCHEDULE_WEEKS: ScheduleWeek[] = [
             "Whatever the mocks exposed, in order of how often you missed it",
             "First-action and best-answer items: read the question, decide the priority",
         ],
+        mathDrill: "One short session before mock 4, then only the items you missed on it. No new formulas after Nov 4.",
         goal: "Nov 6 is exam day. Nothing new after Nov 4, and no full-length mock the day before.",
     },
 ];

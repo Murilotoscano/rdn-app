@@ -108,13 +108,23 @@ TOPICS = [
     ("4. Employee turnover rate", r"turnover"),
     ("5. Food cost, selling price, profit margin", r"food cost|cost per meal|selling price|profit margin|contribution margin|markup"),
     ("6. Meals per labor hour", r"meals per labor|labor hour|productivity"),
-    ("7. Foodservice temperatures", r"danger zone|internal temperature|hot holding|cold holding|165|155|145|135|41 degrees|reheat"),
+    # A bare number is not a temperature: "sodium 155 mmol/L" must not count here, so the
+    # number has to carry a degree unit, or the stem has to talk about holding/cooking food.
+    ("7. Foodservice temperatures",
+     r"\b(?:1[0-9]{2}|[4-9][0-9])\s?(?:°|degrees?\s?)(?:F|C|Fahrenheit|Celsius)\b|danger zone|internal temperature|"
+     r"hot holding|cold holding|holding temperature|serving temperature|reheat\w* to|cook\w* to\b|"
+     r"time/temperature control|\bTCS\b"),
     ("8. Motion economy and work simplification", r"motion economy|work simplification|process flow chart|pathway chart"),
     ("9. Indirect and fixed costs", r"fixed cost|indirect cost|overhead|variable cost"),
     ("10. Leadership styles in a crisis", r"autocratic|situational leadership|hersey|leadership style"),
     ("11. Commissary, transport and HACCP", r"commissary|cook-?chill|satellite|critical control point|HACCP"),
     ("12. Labor relations and union arrangements", r"union shop|agency shop|closed shop|collective bargaining|right-to-work|picket|arbitration|arbitrator|\\bmediation\\b|\\bmediator\\b|\\bunion\\b"),
-    ("13. FLSA and Civil Rights Act", r"fair labor standards|civil rights act|title vii|minimum wage|overtime|ADA\b|FMLA"),
+    # "ADA" also stands for American Diabetes Association, and it hides inside "LADA", so the
+    # acronym only counts with employment-law context in the same question.
+    ("13. FLSA and Civil Rights Act",
+     r"fair labor standards|\bFLSA\b|civil rights act|title vii|minimum wage|overtime pay|\bovertime\b|"
+     r"\bFMLA\b|family and medical leave|americans with disabilities act|(?<![A-Z])ADA\b",
+     r"employ|labor|labour|hiring|discriminat|accommodat|wage|leave|workplace|supervisor|termination"),
     ("14. Can sizes, yields and case packs", r"#10 can|#303|can size|case pack"),
     ("15. Additives, antioxidants, preservatives, emulsifiers", r"\bBHA\b|\bBHT\b|tocopherol|lecithin|pectin|sulfite|benzoate|propionate|nitrite|sequestrant|emulsifier|humectant|antioxidant"),
     ("16. Processing, preservation, packaging", r"pasteuri|irradiat|retort|aseptic|water activity|modified atmosphere|blanch|canning|high pressure processing"),
@@ -130,7 +140,7 @@ TOPICS = [
     ("26. Intermittent vs continuous enteral delivery", r"bolus|continuous (feed|infusion)|infusion rate|mL/hour"),
     ("27. Glycolysis, gluconeogenesis, glycogenolysis", r"glycolysis|gluconeogenesis|glycogenolysis|glycogenesis|Cori Cycle"),
     ("28. Pregnancy and lactation requirements", r"pregnan|lactation|breastfeed|gestational"),
-    ("29. Sodium and potassium reference intakes", r"sodium intake|potassium intake|2,?300 mg|mEq|sodium restriction"),
+    ("29. Sodium and potassium reference intakes", r"sodium intake|potassium intake|2,?300 mg|sodium restriction|adequate intake for (?:sodium|potassium)"),
     ("30. Warfarin and vitamin K", r"warfarin|vitamin K"),
     ("31. Eating disorder terminology and assessment", r"anorexia nervosa|bulimia|binge|ARFID|refeeding"),
     ("32. PCOS", r"polycystic|\bPCOS\b"),
@@ -173,13 +183,67 @@ def absolute_cue(qs):
     return hit / len(qs) * 100, isolates
 
 
+# Items whose classification was read and judged by hand, not just matched. The note is the
+# justification that belongs with the id in the report.
+REVIEWED = {
+    "7.": {"m2-renal-004": "EXCLUDED: '155 mmol/L' is serum sodium, not a food temperature",
+           "m4-pdf-90": "INCLUDED: minimum internal cooking temperature for poultry",
+           "m4-pdf-47": "INCLUDED: defines the temperature danger zone"},
+    "13.": {"m2-mnt-120": "EXCLUDED: 'LADA' contains ADA but is a diabetes subtype, not the Americans with Disabilities Act",
+            "m3-pdf-74": "INCLUDED: FMLA leave entitlement",
+            "m3-mgmt-026": "INCLUDED: Civil Rights Act Title VII protected classes"},
+    "42.": {"m1-gf-stat-01": "INCLUDED: asks the student to state the null hypothesis",
+            "m1-gf-stat-03": "INCLUDED: interpretation of failing to reject"},
+    "50.": {"m2-gf-first-02": "INCLUDED: asks which plan comes first in a refeeding-risk admission"},
+}
+
+# Regression cases: (topic prefix, question id, should it be counted, why)
+SELFTEST_CASES = [
+    ("7.", "m2-renal-004", False, "serum sodium 155 mmol/L is not a food temperature"),
+    ("13.", "m2-mnt-120", False, "LADA is a diabetes subtype, not the ADA employment law"),
+    ("7.", "m4-pdf-90", True, "165 F minimum internal cooking temperature for poultry"),
+    ("7.", "m4-pdf-47", True, "temperature danger zone"),
+    ("13.", "m3-pdf-74", True, "Family and Medical Leave Act"),
+    ("13.", "m3-mgmt-026", True, "Civil Rights Act Title VII"),
+    ("17.", "m2-gf-pku-01", True, "phenylalanine-restricted food choices"),
+    ("29.", "m2-mnt-084", True, "sodium intake target on the TLC diet"),
+    ("42.", "m1-gf-stat-01", True, "stating the null hypothesis"),
+]
+
+
+def selftest(qs):
+    rows = {name: ids for name, ids, _ in coverage(qs)}
+    failures = []
+    for prefix, qid, expected, why in SELFTEST_CASES:
+        topic = next((n for n in rows if n.startswith(prefix)), None)
+        if topic is None:
+            failures.append(f"no topic starting with {prefix}")
+            continue
+        got = qid in rows[topic]
+        if got != expected:
+            failures.append(f"{topic}: {qid} {'counted but should not be' if got else 'missing but should count'} ({why})")
+    return failures
+
+
 def coverage(qs):
     rows = []
-    for name, pat in TOPICS:
+    for entry in TOPICS:
+        name, pat = entry[0], entry[1]
+        ctx = entry[2] if len(entry) > 2 else None
         # Acronyms are matched case-sensitively so that the ordinary word "focus" does not
         # count as a FOCUS-PDSA question.
         rx = re.compile(pat) if "FOCUS" in pat else re.compile(pat, re.I)
-        ids = [q["id"] for q in qs if rx.search(q["text"]) or rx.search(q["options"][q["correctIndex"]])]
+        cx = re.compile(ctx, re.I) if ctx else None
+
+        def hits(q):
+            fields = (q["text"], q["options"][q["correctIndex"]])
+            if not any(rx.search(f) for f in fields):
+                return False
+            # The context test may be satisfied anywhere in the item, so a question can name
+            # the law in the stem and the employment situation in an option.
+            return cx is None or any(cx.search(f) for f in (q["text"], *q["options"]))
+
+        ids = [q["id"] for q in qs if hits(q)]
         doms = sorted({q["domain"] for q in qs if q["id"] in set(ids)})
         rows.append((name, ids, doms))
     return rows
@@ -217,7 +281,12 @@ def main():
                f"question(s){': ' + ', '.join(isolates) if isolates else ''}.\n")
     out.append("\nLength is only one cue. Grammar agreement, absurd distractors and excess detail are "
                "reviewed by reading items, not by this script.\n")
+    fails = selftest(qs)
     out.append("\n## 3. Topic coverage\n")
+    out.append(("Regression cases: all " + str(len(SELFTEST_CASES)) + " pass "
+                "(two of them are the false positives fixed in this round: serum sodium 155 mmol/L "
+                "no longer counts as a foodservice temperature, and LADA no longer counts as employment law).\n")
+               if not fails else ("**Regression cases FAILED:**\n" + "\n".join(f"- {f}" for f in fails) + "\n"))
     out.append("A question counts for a topic only when the pattern matches the STEM or the CORRECT "
                "ANSWER. Matches confined to a distractor or an explanation are excluded.\n")
     out.append("\n| Topic | n | Domains | Sample ids |")
@@ -225,6 +294,19 @@ def main():
     for name, ids, doms in rows:
         sample = ", ".join(ids[:4]) + (" ..." if len(ids) > 4 else "")
         out.append(f"| {name} | {len(ids)} | {', '.join(d.replace('Domain ', '') for d in doms) or '-'} | {sample} |")
+    out.append("\n### Matched ids per topic\n")
+    out.append("Ids below are AUTOMATIC matches of the documented pattern unless a note says the "
+               "item was read and judged. A count is not evidence that the topic is adequately "
+               "covered: it says how many items mention it in the stem or in the key.\n")
+    for (name, ids, _), entry in zip(rows, TOPICS):
+        prefix = name.split(".")[0] + "."
+        notes = REVIEWED.get(prefix, {})
+        out.append(f"\n**{name}** ({len(ids)}) - pattern: `{entry[1][:110]}`"
+                   + (f" + required context: `{entry[2][:70]}`" if len(entry) > 2 else ""))
+        out.append(f"\n- automatic: {', '.join(ids) if ids else 'none'}")
+        for qid, note in notes.items():
+            out.append(f"\n- reviewed by hand: `{qid}` - {note}")
+    out.append("")
     thin = [(n, len(i)) for n, i, _ in rows if len(i) < 4]
     out.append("\n**Under 4 questions (operational alert, not proof of mastery):** "
                + (", ".join(f"{n} ({c})" for n, c in thin) if thin else "none") + "\n")

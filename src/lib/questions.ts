@@ -22840,22 +22840,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Menu Planning",
             "difficulty": "medium",
-            "text": "A school menu planner is checking the milk offered at lunch against the requirement in effect after the Whole Milk for Healthy Kids Act of 2025 (Public Law 119-69, enacted January 14, 2026). Which statement is correct?",
+            "text": "Under USDA memo SP 01-2026 (14 January 2026), which implements the Whole Milk for Healthy Kids Act of 2025 for the National School Lunch Program, what must a school offer at lunch?",
             "options": [
-                "Schools must offer a variety of fluid milk and MAY include whole and reduced-fat options",
-                "Schools must serve only fat-free or low-fat milk, exactly as the pattern required before 2026",
-                "Schools must now serve whole milk at every lunch, because the statute made it mandatory",
-                "Schools may serve any beverage in place of milk, since the statute removed the milk standards"
+                "At least two fluid milk options daily, with unflavored milk at each meal service; whole and 2% are now permitted",
+                "Only fat-free or low-fat (1%) milk, flavored or unflavored, exactly as the rule required before January 2026",
+                "Whole milk at every lunch for all students, since the statute made whole milk mandatory during 2026",
+                "A single milk option of the school's choice, because the memo removed the daily variety requirement"
             ],
             "correctIndex": 0,
-            "explanation": "Public Law 119-69 amended section 9(a)(2) of the Richard B. Russell National School Lunch Act. The school 'shall offer students a variety of fluid milk' and 'may offer students options which may include flavored and unflavored organic or nonorganic whole, reduced-fat, low-fat, and fat-free fluid milk and lactose-free fluid milk,' plus nondairy beverages that are nutritionally equivalent and fortified to the levels the Secretary sets. Two details matter for exam questions: milk fat from fluid milk is NOT counted toward the meal's saturated fat limit (new subparagraph D), and a parent or legal guardian, not only a physician, may now request a substitution. PERMITTED is not REQUIRED: what a district actually serves depends on USDA implementation guidance and local decisions. The statute did not change the grain, added sugar or sodium standards, and it does not apply to WIC, CACFP or other programs, which set milk rules separately.",
+            "explanation": "USDA memo SP 01-2026 implements the Whole Milk for Healthy Kids Act of 2025 for the NATIONAL SCHOOL LUNCH PROGRAM only, and it applies effective immediately. Schools MAY now offer whole, reduced-fat (2%), low-fat (1%), fat-free and lactose-free fluid milk, plus nutritionally equivalent nondairy beverages, flavored or unflavored and organic or not. The existing variety requirement stands: at least two different fluid milk options at lunch daily, unflavored milk offered at each meal service, and flavored milk no more than 10 grams of added sugars per 8 fluid ounces. Permitted is not required, so a district decides what it actually serves. Dietary specifications: fluid milk is now EXCLUDED from the weekly saturated fat limit, while calories and sodium still count milk, and the weekly added-sugars limit takes effect 1 July 2027. The memo does not cover the School Breakfast Program, CACFP or the other child nutrition programmes, which keep their own milk rules.",
             "tags": [
                 "foodservice",
                 "nslp",
                 "meal pattern",
                 "school meals",
                 "milk",
-                "public law 119-69"
+                "sp 01-2026"
             ]
         },
         {
@@ -22894,7 +22894,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Whole milk required daily at every lunch, with flavored milk no longer permitted at all"
             ],
             "correctIndex": 0,
-            "explanation": "USDA's 2024 final rule set the first added sugars limits in school meals: product-based limits come first (breakfast cereals, yogurt, and flavored milk), followed by a weekly limit of less than 10% of calories from added sugars. The rule also keeps the 80% whole grain-rich standard and phases in a modest sodium reduction later in the decade rather than removing sodium limits. Milk is the piece that changed afterwards and separately: the Whole Milk for Healthy Kids Act of 2025 (Public Law 119-69, enacted January 14, 2026) lets schools OFFER whole and reduced-fat milk alongside low-fat and fat-free, and excludes milk fat from the meal's saturated fat calculation. Permitted is not required, and this statute did not touch the sugar, grain or sodium standards.",
+            "explanation": "USDA's 2024 final rule set the first added sugars limits in school meals: product-based limits come first (breakfast cereals, yogurt, and flavored milk, the last capped at 10 grams of added sugars per 8 fluid ounces), followed by a weekly limit of less than 10% of calories from added sugars taking effect 1 July 2027. The rule also keeps the 80% whole grain-rich standard and phases in a modest sodium reduction rather than removing sodium limits. Milk changed later and separately, and only for lunch: USDA memo SP 01-2026 (14 January 2026), implementing the Whole Milk for Healthy Kids Act of 2025, lets NSLP schools offer whole and 2% milk alongside 1% and fat-free, keeps the requirement of at least two milk options daily with unflavored milk at each service, and excludes fluid milk from the weekly saturated fat calculation. It does not change the School Breakfast Program or the sugar, grain and sodium standards.",
             "tags": [
                 "community",
                 "nslp",
@@ -24522,15 +24522,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Nutrition Support",
             "difficulty": "hard",
-            "text": "A patient with a BMI of 14 who has eaten almost nothing for three weeks is admitted for nutrition support. Baseline potassium, magnesium and phosphorus are drawn and come back mildly below the reference range. Which plan should the RDN recommend?",
+            "text": "A patient with a BMI of 14 who has eaten almost nothing for three weeks is admitted for nutrition support, so refeeding risk is high. Baseline labs drawn before feeding show potassium, magnesium and phosphorus each mildly below the reference range, and the patient is not yet receiving dextrose-containing fluids. Which plan should the RDN recommend?",
             "options": [
-                "Give thiamine, start at 10 to 20 kcal/kg, and replete the electrolytes as feeding begins",
-                "Start at the full estimated energy requirement now and correct electrolytes if symptoms appear",
-                "Withhold all nutrition for 48 hours until every electrolyte is normal on two separate draws",
-                "Begin a high-protein oral supplement three times daily and recheck laboratory values weekly"
+                "Give thiamine, supplement the low electrolytes, and hold the start of calories until they are corrected, then begin at 10 to 20 kcal/kg",
+                "Give thiamine and start at 10 to 20 kcal/kg immediately, correcting the electrolytes only if they fall further after feeding begins",
+                "Start at the full estimated energy requirement now and correct any electrolyte abnormality if the patient develops symptoms",
+                "Withhold all nutrition for seven days, giving only intravenous fluids, until the patient's weight has begun to recover"
             ],
             "correctIndex": 0,
-            "explanation": "This patient is at high risk for refeeding syndrome (very low BMI plus negligible intake for more than 5 days). The ASPEN consensus recommendations for refeeding syndrome (Nutr Clin Pract. 2020;35(2):178-195) separate three actions that are often blurred together. (1) ASSESS: obtain baseline potassium, magnesium and phosphorus before feeding, and give thiamine (commonly 100 mg) before nutrition starts and for the first 5 to 7 days. (2) REPLETE: correct abnormalities as feeding begins; mild to moderate abnormalities do not require postponing nutrition, because prolonged starvation is itself harmful. (3) ADVANCE CAUTIOUSLY: start at roughly 10 to 20 kcal/kg on day 1 and increase by about a third of the goal every 1 to 2 days, monitoring electrolytes about every 12 hours for the first 3 days. Feeding is held or not advanced when abnormalities are severe or symptomatic (for example severe hypophosphatemia or cardiac instability), which is a clinical judgement, not a blanket rule. Full-rate feeding on day 1 is the classic error. Note on sourcing: the consensus statement itself could not be opened from this tool (publisher returns HTTP 403), so the figures above reflect the widely published consensus recommendations and should be checked against the article when you have journal access.",
+            "explanation": "The ASPEN Consensus Recommendations for Refeeding Syndrome (Nutr Clin Pract. 2020;35(2):178-195), Table 6, separates three things. THIAMINE: 100 mg before feeding, or before any dextrose-containing IV fluid, in an at-risk patient, and 100 mg/day for 5 to 7 days or longer in severe starvation or chronic alcohol use. ELECTROLYTES: check potassium, magnesium and phosphorus BEFORE nutrition starts, replete them by usual standards, and monitor every 12 hours for the first 3 days in high-risk patients. CALORIES: start with 100 to 150 g of dextrose or 10 to 20 kcal/kg in the first 24 hours and advance by about 33% of goal every 1 to 2 days, counting dextrose from IV fluids and medications toward that limit. The timing rule is the part most often got wrong: in a patient at moderate to high risk WITH low electrolytes, holding the initiation or the increase of calories until they are supplemented or normalized should be CONSIDERED, and when phosphorus, potassium or magnesium is SEVERELY low, initiation or advancement should be DELAYED until corrected. So a delay is not reserved for severe or symptomatic cases. If electrolytes become hard to correct or fall sharply once feeding starts, cut calories or dextrose by 50% and advance about 33% every 1 to 2 days; stopping nutrition support may be considered when levels are severely or life-threateningly low.",
             "tags": [
                 "first action",
                 "refeeding syndrome",
@@ -24820,6 +24820,30 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "gluconeogenesis",
                 "glycogenesis",
                 "pathways"
+            ]
+        },
+        {
+            "id": "m4-gf-nslp-08",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Menu Planning",
+            "difficulty": "hard",
+            "text": "A parent asks the school to serve a milk substitute at lunch because her son's disability restricts his diet. Under USDA memo SP 01-2026 (14 January 2026), whose written statement can the school accept?",
+            "options": [
+                "The parent or legal guardian may now provide the written statement, as may a licensed health professional",
+                "Only a state-licensed health care professional or registered dietitian may provide the written statement",
+                "No statement is needed, because any student may request any beverage at lunch after the memo",
+                "Only the school nurse may authorize it, after reviewing the student's individual education plan"
+            ],
+            "correctIndex": 0,
+            "explanation": "Before SP 01-2026, a substitute for fluid milk for a student whose DISABILITY restricts the diet required a written statement from a state-licensed health care professional or a registered dietitian. Effective immediately under this memo, a parent or legal guardian may also provide that written statement, and this change applies to the National School Lunch Program. Keep the two routes apart: a substitution for a NON-disability reason (preference, a non-disabling intolerance) follows 7 CFR 210.10(d)(2), and if the school food authority offers nutritionally equivalent nondairy beverages to all students at lunch, no written request and no notification to the state agency are needed at all.",
+            "tags": [
+                "foodservice",
+                "nslp",
+                "school meals",
+                "milk",
+                "disability",
+                "sp 01-2026"
             ]
         }
 ];
