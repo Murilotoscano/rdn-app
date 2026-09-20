@@ -97,7 +97,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Education and Counseling",
             "difficulty": "hard",
-            "text": "In Motivational Interviewing, 'Sustain Talk' refers to:",
+            "text": "A client tells the RDN, 'I have cut back before and nothing changed, and honestly I like my food the way it is.' The RDN records this as sustain talk. In motivational interviewing, sustain talk means:",
             "options": [
                 "Statements by the client that support making a change",
                 "Statements by the client that argue for the status quo (not changing)",
@@ -117,7 +117,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Education and Counseling",
             "difficulty": "medium",
-            "text": "According to the Health Belief Model, 'Self-efficacy' is defined as:",
+            "text": "A client says he knows he should cook at home but doubts he could manage it after his long shifts. Which Health Belief Model construct is he expressing?",
             "options": [
                 "The personal belief that one is susceptible to a serious health condition",
                 "The belief that adopting a new behavior will yield beneficial health results",
@@ -385,7 +385,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Education and Counseling",
             "difficulty": "medium",
-            "text": "The 'Action' stage of the Transtheoretical Model is defined as taking steps to change behavior for:",
+            "text": "A client has walked 30 minutes a day since April, and it is now July. In the Transtheoretical Model, the Action stage covers behavior change sustained for:",
             "options": [
                 "At least 1 full day",
                 "Less than 6 months",
@@ -448,7 +448,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Education and Counseling",
             "difficulty": "medium",
-            "text": "'Paralinguistics' refers to which aspect of communication?",
+            "text": "A supervisor reviewing a recorded counseling session notes that the RDN sounded rushed and flat, even though her words were supportive. Which aspect of communication is the supervisor describing?",
             "options": [
                 "Body language and physical gestures used in communication",
                 "The specific words and vocabulary chosen by the speaker",
@@ -511,7 +511,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Education and Counseling",
             "difficulty": "medium",
-            "text": "Which of the following is an example of an 'Open-Ended Question'?",
+            "text": "An RDN wants to open a counseling session with a question the client cannot answer with yes, no, or a single number. Which question should she use?",
             "options": [
                 "Do you usually eat a healthy breakfast every morning?",
                 "How many times per week do you currently engage in exercise?",
@@ -1317,7 +1317,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Food Science",
             "difficulty": "medium",
-            "text": "Which of the following describes the function of sodium hexametaphosphate in processed food applications?",
+            "text": "A beverage manufacturer adds sodium hexametaphosphate to a canned drink produced with hard water. Which function does the additive serve?",
             "options": [
                 "It acts as an antimicrobial agent against yeasts and molds in acidic beverages and fruit juices.",
                 "It acts as an emulsifier to blend oil and water in salad dressings and creamy sauces without separation.",
@@ -1349,7 +1349,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Nutrition Science",
             "difficulty": "medium",
-            "text": "What is the primary role of the hormone parathyroid hormone (PTH) in calcium homeostasis?",
+            "text": "A patient's serum calcium falls after thyroid surgery, and the parathyroid glands respond by releasing more hormone. What is the primary role of parathyroid hormone (PTH) in calcium homeostasis?",
             "options": [
                 "It lowers serum calcium by stimulating osteoblast activity, bone formation, and urinary calcium excretion.",
                 "It increases serum calcium by stimulating osteoclast activity and enhancing renal reabsorption of calcium.",
@@ -1509,7 +1509,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Research",
             "difficulty": "medium",
-            "text": "In a research study measuring the efficacy of a new weight-loss drug, what is the 'dependent variable'?",
+            "text": "A trial randomizes adults to a new weight-loss drug or to a placebo and follows them for 12 weeks. Which of the following is the dependent variable?",
             "options": [
                 "The dosage of the weight-loss drug given to participants.",
                 "The weight lost by the participants during the trial.",
@@ -1732,7 +1732,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Food Science",
             "difficulty": "easy",
-            "text": "Mayonnaise is an example of which type of colloid system?",
+            "text": "A culinary student asks the RDN why mayonnaise stays blended instead of separating into layers. Which type of colloid system is mayonnaise?",
             "options": [
                 "Foam (gas bubbles dispersed in liquid)",
                 "Sol (solid dispersed in liquid)",
@@ -2970,7 +2970,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Vitamins",
             "difficulty": "hard",
-            "text": "Niacin can be synthesized endogenously from which amino acid, and what is the conversion ratio used to calculate niacin equivalents (NE)?",
+            "text": "An RDN is calculating niacin equivalents for a patient whose diet supplies little preformed niacin but plenty of protein. Which precursor and conversion ratio applies?",
             "options": [
                 "Phenylalanine; 45 mg phenylalanine = 1 NE",
                 "Tryptophan; 60 mg tryptophan = 1 NE",
@@ -3014,7 +3014,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Absorption",
             "difficulty": "medium",
-            "text": "Short-chain fatty acids (SCFAs) such as butyrate, acetate, and propionate are produced in the colon by what process, and what is the primary function of butyrate?",
+            "text": "A patient asks why the RDN keeps recommending oats, beans, and other soluble fibers 'for the colon.' Which process and primary function explain the benefit?",
             "options": [
                 "Hydrolysis of dietary fat by pancreatic lipase; provides energy to liver cells and is the main fuel for hepatocytes",
                 "Bacterial fermentation of soluble fiber; butyrate is the main energy source for colonocytes and has anti-cancer activity",
@@ -3102,7 +3102,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Normal Nutrition",
             "difficulty": "medium",
-            "text": "Unlike most B vitamins, vitamin B6 (pyridoxine) excess can cause toxicity. What is the primary sign of vitamin B6 toxicity?",
+            "text": "A client has taken 500 mg of supplemental vitamin B6 daily for the past year. Which sign of toxicity should the RDN monitor for?",
             "options": [
                 "Megaloblastic anemia due to impaired DNA synthesis",
                 "Niacin flush and painful skin tingling",
@@ -3190,7 +3190,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Normal Nutrition",
             "difficulty": "medium",
-            "text": "Which correctly describes the two-step activation pathway for vitamin D?",
+            "text": "A patient with cirrhosis and stage 4 chronic kidney disease has a low calcitriol level. Which activation pathway explains why disease in either organ lowers it?",
             "options": [
                 "Skin → liver (calcidiol) → kidney (calcitriol); calcitriol enhances Ca and P absorption",
                 "Skin → kidney (calcidiol) → liver (calcitriol); calcitriol enhances Ca absorption only",
@@ -3212,7 +3212,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Normal Nutrition",
             "difficulty": "medium",
-            "text": "Phylloquinone (vitamin K1) and menaquinone (vitamin K2) differ primarily in their dietary sources. Which statement correctly describes each?",
+            "text": "A patient starting warfarin asks which foods supply vitamin K1 and where vitamin K2 comes from. Which statement is correct?",
             "options": [
                 "K1 from gut microbiota; K2 from green leafy vegetables",
                 "K1 from green leafy vegetables; K2 produced by gut microbiota",
@@ -3303,7 +3303,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Normal Nutrition",
             "difficulty": "medium",
-            "text": "Transferrin and ferritin are both important iron-related proteins. Which statement correctly describes their roles?",
+            "text": "A resident asks the RDN to explain the two iron-related proteins reported on a patient's lab panel. Which statement describes transferrin and ferritin correctly?",
             "options": [
                 "Ferritin transports iron in blood; transferrin stores iron in cells",
                 "Transferrin transports iron in blood; ferritin is the intracellular storage form",
@@ -3484,7 +3484,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Normal Nutrition",
             "difficulty": "easy",
-            "text": "Vitamin A is stored primarily in which organ, and what is the storage form of vitamin A?",
+            "text": "A patient with alcoholic cirrhosis is being assessed for vitamin A status. In which organ is vitamin A stored, and in what form?",
             "options": [
                 "Adipose tissue; retinal",
                 "Liver; retinyl esters",
@@ -4521,7 +4521,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Enteral Nutrition",
             "difficulty": "medium",
-            "text": "Which of the following is a CONTRAINDICATION to enteral nutrition?",
+            "text": "The ICU team asks the RDN which of four patients should NOT be started on enteral nutrition today. Which one has a contraindication?",
             "options": [
                 "Protein-energy malnutrition with inadequate intake for 5 days",
                 "Low-output enterocutaneous fistula (<200 mL/day)",
@@ -5090,7 +5090,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Parenteral Nutrition",
             "difficulty": "medium",
-            "text": "Which of the following is a contraindication to using a lipid emulsion in parenteral nutrition?",
+            "text": "A patient is being started on parenteral nutrition, and the team asks whether a lipid emulsion is safe to include. Which finding is a contraindication?",
             "options": [
                 "Mild hypertriglyceridemia requiring dietary modification only",
                 "Acute pancreatitis, severe egg allergy, or abnormal lipid metabolism",
@@ -5112,7 +5112,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Parenteral Nutrition",
             "difficulty": "medium",
-            "text": "What is the purpose of calculating PN osmolarity, and which components contribute to it?",
+            "text": "Before the team chooses between a peripheral line and a central line for parenteral nutrition, the pharmacist asks the RDN about the solution's osmolarity. Which statement is correct?",
             "options": [
                 "To determine total calories; all components contribute equally, including lipids at about 9 kcal/g and electrolytes",
                 "To guide central vs. peripheral access decisions; dextrose (×5 mOsm/g) and amino acids (×10 mOsm/g) contribute; lipids do NOT",
@@ -5620,7 +5620,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Food Allergies and Intolerances",
             "difficulty": "medium",
-            "text": "What is the key distinction between a food allergy and a food intolerance?",
+            "text": "A mother reports that her son develops hives and wheezing within minutes of drinking milk, while her husband gets bloating and gas a few hours later. Which statement captures the key distinction between the two reactions?",
             "options": [
                 "Food allergy involves the immune system (IgE-mediated); food intolerance does not",
                 "Food intolerance is always more severe than a food allergy",
@@ -6061,7 +6061,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Food Allergies and Intolerances",
             "difficulty": "medium",
-            "text": "What is the primary difference between IgE-mediated food allergy and non-IgE-mediated food sensitivity?",
+            "text": "A parent asks the RDN how an IgE-mediated milk allergy differs from a non-IgE-mediated milk sensitivity. Which statement is correct?",
             "options": [
                 "IgE-mediated reactions are always delayed (1-3 days); non-IgE reactions are immediate (minutes)",
                 "IgE-mediated reactions are immediate (within 2 hours); non-IgE reactions are delayed (hours to days)",
@@ -6834,7 +6834,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Cardiovascular Disease",
             "difficulty": "medium",
-            "text": "What is the recommended daily intake of plant sterols/stanols to reduce LDL cholesterol in patients with hyperlipidemia?",
+            "text": "A patient with an LDL cholesterol of 150 mg/dL asks how much plant sterol and stanol spread to use each day for a cholesterol-lowering effect. The recommended intake is:",
             "options": [
                 "0.5–1.0 g/day",
                 "2–3 g/day",
@@ -6903,7 +6903,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "GI Disorders",
             "difficulty": "medium",
-            "text": "After ileostomy surgery, what is the recommended dietary progression?",
+            "text": "A patient is 2 days out from ileostomy surgery and asks when she can go back to eating normally. What is the recommended dietary progression?",
             "options": [
                 "Start immediately with a high-fiber, raw vegetable-rich diet",
                 "Begin with clear liquids, advance to low-residue, then regular diet",
@@ -6947,7 +6947,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Bariatric Surgery",
             "difficulty": "medium",
-            "text": "According to ASMBS guidelines, what is the recommended protein intake for post-bariatric surgery patients?",
+            "text": "Six weeks after sleeve gastrectomy, a patient weighing 118 kg with an ideal body weight of 60 kg asks how much protein she needs. Which intake do ASMBS guidelines recommend?",
             "options": [
                 "0.8 g/kg actual body weight",
                 "1.1–1.5 g/kg ideal body weight",
@@ -7535,7 +7535,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Type 1 Diabetes",
             "difficulty": "hard",
-            "text": "The term 'Latent Autoimmune Diabetes of Adults' (LADA) describes which clinical scenario?",
+            "text": "A lean 42-year-old treated as having type 2 diabetes needs insulin within a year of diagnosis, and the physician documents 'LADA' in the chart. Which description fits this condition?",
             "options": [
                 "Type 2 diabetes that has progressed to requiring insulin after 10+ years, typically in patients with long-standing obesity",
                 "Adult-onset type 1 diabetes: patients typically over 35, not obese, positive for autoantibodies, initially managed without insulin",
@@ -7710,7 +7710,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Pancreatitis",
             "difficulty": "medium",
-            "text": "Which of the following is a risk factor for ACUTE pancreatitis?",
+            "text": "A patient is admitted with severe epigastric pain radiating to the back and a serum lipase of 900 U/L. Which history findings are the most common risk factors for this condition?",
             "options": [
                 "Hypertriglyceridemia and cystic fibrosis",
                 "Gallbladder disease and alcoholism",
@@ -8654,7 +8654,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Anemias",
             "difficulty": "medium",
-            "text": "Anemia of chronic and inflammatory disease (ACD) is the second most common type of anemia. What is the appropriate medical treatment for ACD?",
+            "text": "A patient with rheumatoid arthritis has a hemoglobin of 9.8 g/dL, low serum iron, and a HIGH ferritin. Which medical treatment is appropriate for this type of anemia?",
             "options": [
                 "Oral ferrous sulfate supplementation",
                 "Intramuscular vitamin B12 injections",
@@ -9830,7 +9830,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Traumatic Brain Injury",
             "difficulty": "medium",
-            "text": "After stabilization from traumatic brain injury, what is the recommended caloric goal?",
+            "text": "A patient stabilized after a traumatic brain injury is started on tube feeding. What caloric goal is recommended at this point?",
             "options": [
                 "15–20 kcal/kg",
                 "25–30 kcal/kg",
@@ -10310,7 +10310,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Kidney Hormones",
             "difficulty": "hard",
-            "text": "In the renin-angiotensin system, what is the role of angiotensin-converting enzyme (ACE)?",
+            "text": "A patient with hypertension is started on lisinopril, an ACE inhibitor. Which reaction does angiotensin-converting enzyme normally catalyze?",
             "options": [
                 "Converts angiotensin II to angiotensin I in the kidneys",
                 "Converts angiotensinogen (from the liver) to angiotensin I",
@@ -10907,7 +10907,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "Efficiency in management refers to:",
+            "text": "A director produces the same number of meals after cutting overtime hours and trimming waste. In management terms, efficiency means:",
             "options": [
                 "Doing the right things to achieve goals",
                 "Doing things right (minimizing waste)",
@@ -11096,7 +11096,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "When disciplining employees, what is the most important overarching concept to ensure fair treatment and avoid grievances?",
+            "text": "Two cooks arrive late the same week; one is suspended and the other is only warned. Which overarching concept must guide disciplinary action so that it is defensible?",
             "options": [
                 "Severity",
                 "Consistency",
@@ -11117,7 +11117,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Human Resources",
             "difficulty": "hard",
-            "text": "In the context of labor unions, a 'Union Shop' refers to a situation where:",
+            "text": "A newly hired cook at a unionized hospital asks what working in a 'Union Shop' will mean for her. In a union shop:",
             "options": [
                 "Only current union members can be hired for any open position",
                 "Employees must join the union within a certain timeframe after hiring",
@@ -11328,7 +11328,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Human Resources",
             "difficulty": "hard",
-            "text": "Under the concept of 'Progressive Discipline', what is the typical order of formal documentation?",
+            "text": "An employee has been late three times this month and the manager decides to act. Under progressive discipline, what is the typical order of formal documentation?",
             "options": [
                 "Suspension -> Verbal Warning -> Written Warning -> Termination",
                 "Verbal Warning -> Written Warning -> Suspension -> Termination",
@@ -11391,7 +11391,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "In Systems Theory, 'Equifinality' refers to the concept that:",
+            "text": "Two hospital kitchens reach the same patient satisfaction score using completely different staffing and production models. In Systems Theory, the concept of 'Equifinality' means that:",
             "options": [
                 "All systems must follow a single rigid path with identical inputs to achieve equal outputs",
                 "Outputs may be achieved in a variety of ways, using different inputs or transformations",
@@ -11643,7 +11643,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "hard",
-            "text": "Permeability of boundaries in a system refers to:",
+            "text": "A foodservice department shares tray data with nursing and adjusts its menus after patient councils meet. In systems theory, permeability of boundaries refers to:",
             "options": [
                 "The system being completely closed off from the external environment",
                 "The strict separation of departments with no communication flow between them",
@@ -11916,7 +11916,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality Management",
             "difficulty": "medium",
-            "text": "Which Japanese term in the Kaizen philosophy refers to the 'workplace' or 'where the action is'?",
+            "text": "A manager investigating repeated tray errors goes to the tray line to watch the process herself rather than reading reports. Which Japanese term in the Kaizen philosophy names that place where the work happens?",
             "options": [
                 "Muda",
                 "Gemba",
@@ -12021,7 +12021,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality Management",
             "difficulty": "hard",
-            "text": "In Lean Six Sigma, 'Muri' refers to:",
+            "text": "A cook covers two stations alone through every lunch rush while the oven is loaded past its rated capacity. In Lean Six Sigma, the term 'Muri' refers to:",
             "options": [
                 "Waste in any form that consumes resources but adds no value for the customer",
                 "Overburden or unreasonableness (e.g., stressed staff, machinery pushed too hard)",
@@ -12147,7 +12147,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality Management",
             "difficulty": "medium",
-            "text": "In the 'FOCUS' part of FOCUS-PDSA, the 'F' stands for:",
+            "text": "A quality team is beginning a FOCUS-PDSA project on late meal trays. In the 'FOCUS' part of the model, the 'F' step directs them to:",
             "options": [
                 "Fix the problem quickly",
                 "Find a process to improve",
@@ -12168,7 +12168,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality Management",
             "difficulty": "hard",
-            "text": "A 'Charrette' in planning refers to:",
+            "text": "A director sets up an intensive two-day working session with staff, patients, architects, and vendors to design a new servery. In planning, a 'Charrette' refers to:",
             "options": [
                 "A rigorous financial audit process conducted by external accountants before approving a master plan",
                 "A collaborative planning session harnessing talents of all interested parties for a master plan",
@@ -12378,7 +12378,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "The 'Scalar Principle' in organization theory refers to:",
+            "text": "An organization chart shows every employee reporting to exactly one supervisor, in an unbroken line up to the chief executive. The 'Scalar Principle' refers to:",
             "options": [
                 "A clear and unbroken line of authority from the top to the bottom of the organization",
                 "Dividing work into highly specialized and repetitive tasks for each employee",
@@ -12420,7 +12420,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "In decision making, 'Satisficing' refers to:",
+            "text": "A manager whose mixer broke this morning orders the first model that meets the minimum specifications instead of comparing every option. In decision making, 'Satisficing' refers to:",
             "options": [
                 "Selecting the absolute best optimal solution after comparing every available alternative",
                 "Selecting the first alternative that meets the minimum criteria or is 'good enough'",
@@ -12525,7 +12525,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "Which management skill is defined as the ability to work effectively as a group member and build cooperative effort within the team?",
+            "text": "A clinical nutrition manager is praised for building cooperation between the nursing and foodservice teams. Which management skill does this describe?",
             "options": [
                 "Technical/Procedural skill",
                 "Human/Interpersonal skill",
@@ -12609,7 +12609,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "Span of Control refers to:",
+            "text": "A director supervises 22 employees directly and can no longer complete their evaluations on time. Span of Control refers to:",
             "options": [
                 "The total length of the supply chain from manufacturer to consumer",
                 "The number of subordinates a manager can efficiently and effectively direct",
@@ -13581,7 +13581,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Food Service Logistics",
             "difficulty": "medium",
-            "text": "In the HVAC system of a commercial kitchen, air from outside the building that is brought into the workspace is called:",
+            "text": "An engineer reviewing the kitchen HVAC system points to the outside air that is brought into the work space. That air is called:",
             "options": [
                 "Return air",
                 "Exhaust air",
@@ -14580,7 +14580,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Management Concepts",
             "difficulty": "medium",
-            "text": "When multiple people or functional units work together and produce an outcome GREATER than the sum of their individual contributions, this is called:",
+            "text": "A tray line team redesigns its own workflow and together produces more output than the members did working separately. This outcome is called:",
             "options": [
                 "Synergy",
                 "Delegation",
@@ -14757,7 +14757,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Management Concepts",
             "difficulty": "medium",
-            "text": "Which of the following is an INPUT in the Foodservice Systems Model?",
+            "text": "A new manager is mapping her department using the Foodservice Systems Model. Which of the following belongs in the INPUT category?",
             "options": [
                 "Customer satisfaction",
                 "Financial accountability",
@@ -15348,7 +15348,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Procurement",
             "difficulty": "medium",
-            "text": "In inventory management, 'FIFO' stands for:",
+            "text": "A storeroom clerk rotates deliveries so that the oldest cases are always pulled first. This practice is abbreviated:",
             "options": [
                 "Fresh In, Fresh Out",
                 "First In, First Out",
@@ -15369,7 +15369,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Menu Development",
             "difficulty": "medium",
-            "text": "A menu that offers a complete meal at a set price is known as a:",
+            "text": "A hospital retail restaurant offers soup, an entree, and dessert together for one set price. This type of menu is known as a:",
             "options": [
                 "A la carte menu with separate prices",
                 "Table d'hote (or Prix Fixe) menu",
@@ -15432,7 +15432,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Menu Development",
             "difficulty": "medium",
-            "text": "Which aesthetic factor in menu planning refers to the variety of soft, crisp, firm, and chewy sensations in a meal?",
+            "text": "A menu planner reviews a tray and finds that every item on it is soft and smooth. Which aesthetic factor in menu planning is missing?",
             "options": [
                 "Consistency",
                 "Texture",
@@ -16209,7 +16209,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Facility Planning",
             "difficulty": "medium",
-            "text": "In facility planning, 'Ergonomics' refers to:",
+            "text": "A cook develops wrist and shoulder pain from reaching over a work counter that is too high for her. In facility planning, 'Ergonomics' refers to:",
             "options": [
                 "The analysis of the cost of equipment versus its useful life to guide capital purchasing decisions",
                 "Designing work areas and equipment to fit the human body and movements to minimize fatigue and injury",
@@ -16734,7 +16734,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Financial Management",
             "difficulty": "medium",
-            "text": "A 'Cash Cow' in the BCG Matrix (often adapted to menu engineering) refers to:",
+            "text": "A retail manager reviews a sandwich that sells steadily year after year in a mature category. In the BCG Matrix (often adapted to menu engineering), a 'Cash Cow' refers to:",
             "options": [
                 "An item with high market share but low growth (reliable income)",
                 "A new experimental item with uncertain market potential",
@@ -16776,7 +16776,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Sustainability",
             "difficulty": "medium",
-            "text": "Using 'Grey Water' refers to:",
+            "text": "A facility wants to cut water costs by reusing water for landscape irrigation. Using 'Grey Water' refers to:",
             "options": [
                 "Collecting dirty dishwater for reuse in cleaning floors and rinsing trash containers",
                 "Recycled water from sinks/showers (not toilets) used for landscape irrigation",
@@ -17196,7 +17196,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Procurement",
             "difficulty": "medium",
-            "text": "The term 'Yield' refers to:",
+            "text": "A chef buys 20 pounds of carrots and has 15 pounds left after peeling and trimming. The term 'Yield' refers to:",
             "options": [
                 "The amount of product remaining after processing or cooking (Edible Portion)",
                 "The price of the food item charged by the vendor on the invoice at delivery",
@@ -17461,7 +17461,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Research Applications",
             "difficulty": "hard",
-            "text": "In a research study, the variable that is manipulated by the researcher to observe its effect is known as the:",
+            "text": "In a trial comparing a new calcium supplement with a placebo, the variable the researcher assigns and manipulates is known as the:",
             "options": [
                 "Dependent variable",
                 "Independent variable",
@@ -17794,7 +17794,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality Management",
             "difficulty": "hard",
-            "text": "A 'Sentinel Event' in a healthcare setting refers to:",
+            "text": "A hospital risk manager must decide whether an event triggers a mandatory root cause analysis. A 'Sentinel Event' in a healthcare setting refers to:",
             "options": [
                 "A minor error in charting that is corrected before it reaches the patient",
                 "An unexpected occurrence involving death or serious physical/psychological injury",
@@ -17961,7 +17961,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Research Applications",
             "difficulty": "medium",
-            "text": "Incidence refers to:",
+            "text": "A health department reports 45 new cases of iron-deficiency anemia in a county during one year. Incidence refers to:",
             "options": [
                 "The total number of existing cases of a disease at a point in time",
                 "The number of NEW cases of a disease over a period of time",
@@ -19030,7 +19030,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Food Allergies and Intolerances",
             "difficulty": "medium",
-            "text": "What is the first-line treatment for anaphylaxis from a food allergen?",
+            "text": "A client develops hives, wheezing, and light-headedness within minutes of eating shrimp during a group class. What is the first-line treatment?",
             "options": [
                 "Oral antihistamine",
                 "Intramuscular epinephrine",
@@ -22446,6 +22446,1382 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "receiving temperature",
                 "corrective action",
                 "satellite kitchen"
+            ]
+        },
+        {
+            "id": "m2-gf-wic-01",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "medium",
+            "text": "A mother brings her 4-year-old son and her 13-month-old daughter to a community clinic. She stopped breastfeeding 8 months ago and is not pregnant. The household income is 160% of the federal poverty level. Who in this family may be certified for WIC?",
+            "options": [
+                "Both children, but not the mother, whose postpartum eligibility has expired",
+                "The 13-month-old only, because WIC serves children under 2 years of age",
+                "All three, because the mother stays eligible until her youngest child turns 2",
+                "No one, because household income is above the 130% cutoff WIC applies"
+            ],
+            "correctIndex": 0,
+            "explanation": "WIC serves specific categories: pregnant women, postpartum women up to 6 months, breastfeeding women up to the infant's first birthday, infants up to age 1, and children up to their fifth birthday. This mother stopped breastfeeding 8 months ago and is not pregnant, so she no longer fits a category, but both children do. Income must be at or below 185% of the federal poverty level (not 130%, which is SNAP), and every applicant must also have a nutrition risk documented by a health professional.",
+            "tags": [
+                "community",
+                "wic",
+                "eligibility"
+            ]
+        },
+        {
+            "id": "m2-gf-wic-02",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "medium",
+            "text": "A pregnant woman at 150% of the federal poverty level applies for WIC. The clinic must document a nutrition risk before certifying her. Which finding meets that requirement?",
+            "options": [
+                "Household income of 150% of poverty, which counts as an economic risk",
+                "A hemoglobin value below the state cutoff, which is a biochemical risk",
+                "Living more than 10 miles from the clinic, which is an access risk",
+                "Having no health insurance on the day she applies, a clinical risk"
+            ],
+            "correctIndex": 1,
+            "explanation": "WIC certification has three parts: categorical (pregnant, postpartum, breastfeeding, infant, or child), income at or below 185% of the federal poverty level, and a nutrition risk documented by a health professional. Nutrition risks fall into four groups, remembered as ABCD: Anthropometric (underweight, poor gain, short stature), Biochemical (low hemoglobin or hematocrit, elevated lead), Clinical (medical conditions such as diabetes or a recent surgery), and Dietary (inappropriate feeding practices, inadequate diet). Income and distance from the clinic are not nutrition risks.",
+            "tags": [
+                "community",
+                "wic",
+                "nutrition risk"
+            ]
+        },
+        {
+            "id": "m2-gf-wic-03",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "hard",
+            "text": "A mother of a 3-month-old tells the WIC nutritionist she is exclusively breastfeeding but is thinking of adding formula so she can 'get the free formula too.' Which response is accurate?",
+            "options": [
+                "Fully breastfeeding mothers get the largest food package, and adding formula shrinks it",
+                "Formula is issued in the same quantity whether she breastfeeds fully or partially",
+                "WIC issues formula only once the infant reaches 6 months, so she should wait",
+                "Adding formula enlarges her own food package, because her calorie needs rise"
+            ],
+            "correctIndex": 0,
+            "explanation": "The fully breastfeeding package is the most generous WIC offers: larger amounts of most foods plus canned fish, and the mother stays eligible until the infant's first birthday rather than 6 months. As soon as formula is added, the mother moves to a partially breastfeeding package, which provides less food for her and only a limited amount of formula. The counseling point is that breastfeeding support (peer counselors, pumps, extended eligibility) is a core WIC service, not an afterthought.",
+            "tags": [
+                "community",
+                "wic",
+                "breastfeeding"
+            ]
+        },
+        {
+            "id": "m2-gf-wic-04",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "medium",
+            "text": "A family already enrolled in SNAP applies for WIC. How does the existing SNAP enrollment affect the WIC determination?",
+            "options": [
+                "They are adjunctively income-eligible, but still need a category and a nutrition risk",
+                "They are automatically certified for WIC, with no further assessment needed at all",
+                "They cannot hold both benefits at once, so the family must choose between programs",
+                "They must still document income, because WIC does not accept SNAP enrollment"
+            ],
+            "correctIndex": 0,
+            "explanation": "Adjunctive eligibility means that enrollment in SNAP, Medicaid, or TANF automatically satisfies the WIC income test, which saves the applicant from producing pay records. It does not replace the other two requirements: the applicant must still fit a WIC category and have a nutrition risk documented by a health professional. Families may receive SNAP and WIC at the same time; the programs are designed to work together.",
+            "tags": [
+                "community",
+                "wic",
+                "snap",
+                "eligibility"
+            ]
+        },
+        {
+            "id": "m2-gf-wic-05",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "hard",
+            "text": "An 8-month-old with short bowel syndrome needs an amino acid-based formula prescribed by a gastroenterologist. How does WIC handle this request?",
+            "options": [
+                "Food Package III is issued, with the qualifying condition documented by a provider",
+                "Food Package II is issued, since all infants 6 to 11 months receive the same foods",
+                "Food Package I is issued, because medical formulas stop at 6 months of age",
+                "No package is issued, because WIC supplies only standard milk-based formulas"
+            ],
+            "correctIndex": 0,
+            "explanation": "WIC Food Package III covers participants of any category with a qualifying medical condition that requires an exempt infant formula or a WIC-eligible medical food. It must be requested and documented by a licensed health care provider who is authorized to write medical orders in that state. The standard infant packages are Food Package I (0 through 5 months) and Food Package II (6 through 11 months, which adds infant cereal and baby foods); neither covers specialty formulas.",
+            "tags": [
+                "community",
+                "wic",
+                "food package",
+                "formula"
+            ]
+        },
+        {
+            "id": "m2-gf-wic-06",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "medium",
+            "text": "A parent asks the WIC nutritionist what the cash-value benefit (CVB) on her child's card can be used to buy. The correct answer is:",
+            "options": [
+                "Fresh, frozen, canned, or dried fruits and vegetables, including white potatoes",
+                "Fresh fruits and vegetables only, because processed forms are excluded by rule",
+                "Any grocery item in the store, because the card works exactly like a SNAP card",
+                "Fruit juice and fruit snacks, as long as the label carries a 100% fruit claim"
+            ],
+            "correctIndex": 0,
+            "explanation": "The cash-value benefit is a dollar amount reserved for fruits and vegetables, and it covers fresh, frozen, canned, and dried forms, including white potatoes. The 2024 WIC food package final rule raised CVB amounts, reduced juice, expanded whole grain choices, and added more plant-based milk and yogurt options. The CVB cannot be spent on other grocery items, and juice is issued separately (and in smaller amounts) rather than through the CVB.",
+            "tags": [
+                "community",
+                "wic",
+                "food package"
+            ]
+        },
+        {
+            "id": "m3-gf-wic-07",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Community Nutrition Programs",
+            "difficulty": "hard",
+            "text": "A state WIC agency projects that its federal grant will run short before the fiscal year ends. How does WIC funding differ from SNAP funding?",
+            "options": [
+                "WIC runs on annual appropriations, so agencies apply a priority system for openings",
+                "Both are entitlements, so every eligible applicant must be served in either program",
+                "WIC is the entitlement, while SNAP caseloads are capped by each state's grant",
+                "Neither is an entitlement, so both use waiting lists whenever the funds run short"
+            ],
+            "correctIndex": 0,
+            "explanation": "SNAP is an entitlement: anyone who meets the eligibility rules receives benefits, and federal funding adjusts to caseload. WIC is a discretionary grant program funded by annual appropriations, so when money is tight a state agency fills openings using the federal priority system, which places pregnant and breastfeeding women and infants with a medically based nutrition risk ahead of children and postpartum women at dietary risk. Knowing which programs are entitlements explains why waiting lists can exist in one program and not the other.",
+            "tags": [
+                "community",
+                "wic",
+                "funding",
+                "program management"
+            ]
+        },
+        {
+            "id": "m2-gf-wic-08",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "easy",
+            "text": "A clinic director is planning WIC services for the coming year. Besides supplemental foods, which services must the program provide?",
+            "options": [
+                "Nutrition education, breastfeeding promotion and support, and health care referrals",
+                "Medical care, prescription drug coverage, and transportation to every appointment",
+                "Job training, housing assistance, and child care placement for enrolled families",
+                "Congregate meals and home-delivered meals for the women who are enrolled"
+            ],
+            "correctIndex": 0,
+            "explanation": "WIC has four required service components: supplemental foods, nutrition education, breastfeeding promotion and support, and referrals to health care and social services. Nutrition education must be offered at least twice per certification period, and participation cannot be made a condition of receiving food benefits. WIC does not deliver medical care, housing, or congregate meals, though referral to those services is part of the job.",
+            "tags": [
+                "community",
+                "wic",
+                "services"
+            ]
+        },
+        {
+            "id": "m2-gf-snap-01",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "medium",
+            "text": "A SNAP participant asks the RDN which items his EBT card will cover at the supermarket. Which item is eligible?",
+            "options": [
+                "A rotisserie chicken held hot in the deli case for immediate consumption",
+                "A bottled meal-replacement shake that carries a Nutrition Facts label",
+                "A multivitamin with iron that carries a Supplement Facts panel on the label",
+                "An energy drink marketed as a dietary supplement with a Supplement Facts panel"
+            ],
+            "correctIndex": 1,
+            "explanation": "The label decides it: a product with a Nutrition Facts panel counts as food and is SNAP-eligible, while a product with a Supplement Facts panel counts as a supplement and is not. Hot foods prepared for immediate consumption are excluded, except in states that operate the Restaurant Meals Program for elderly, disabled, or homeless participants. Also eligible: seeds and plants that produce food. Never eligible: alcohol, tobacco, pet food, and nonfood household items.",
+            "tags": [
+                "community",
+                "snap",
+                "eligible foods"
+            ]
+        },
+        {
+            "id": "m2-gf-snap-02",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "medium",
+            "text": "A household of three with one wage earner and no elderly or disabled member applies for SNAP. Which income test generally applies?",
+            "options": [
+                "Gross income at or below 130% of poverty and net income at or below 100%",
+                "Gross income at or below 185% of poverty, the same threshold that WIC uses",
+                "Net income at or below 130% of poverty, with no gross income screen applied",
+                "Gross income at or below 100% of poverty, with assets counted in every case"
+            ],
+            "correctIndex": 0,
+            "explanation": "Most SNAP households must pass both tests: gross monthly income at or below 130% of the federal poverty level and net income at or below 100%. Net income is what remains after deductions (standard, 20% earned income, excess shelter, dependent care, and uncapped medical expenses for elderly or disabled members). Households containing someone age 60 or older or with a disability skip the gross test but face an asset limit. Many states use broad-based categorical eligibility, which raises the gross limit. The 185% figure belongs to WIC.",
+            "tags": [
+                "community",
+                "snap",
+                "eligibility"
+            ]
+        },
+        {
+            "id": "m2-gf-snap-03",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "hard",
+            "text": "A SNAP household has a net monthly income of $600, and the maximum allotment for its size is $766. Approximately what monthly benefit will it receive?",
+            "options": [
+                "$586, which is the maximum allotment minus 30% of net income",
+                "$766, the full maximum allotment for a household of that size",
+                "$180, which is the 30% of net income the household contributes",
+                "$466, the maximum allotment minus half of the net income figure"
+            ],
+            "correctIndex": 0,
+            "explanation": "SNAP expects a household to spend about 30% of its own net income on food, so the benefit equals the maximum allotment minus 0.30 times net income: 766 - (0.30 x 600) = 766 - 180 = $586. Maximum allotments come from the Thrifty Food Plan, the lowest-cost of USDA's four food plans, and are updated each October. A household with no net income receives the full maximum allotment.",
+            "tags": [
+                "community",
+                "snap",
+                "calculation",
+                "thrifty food plan"
+            ]
+        },
+        {
+            "id": "m2-gf-snap-04",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "hard",
+            "text": "An older adult experiencing homelessness asks whether SNAP can pay for hot meals at a participating restaurant. The accurate answer is:",
+            "options": [
+                "Yes, where the state runs the Restaurant Meals Program for eligible participants",
+                "Yes, because every state allows hot prepared foods to be bought at any restaurant",
+                "No, because federal law bars hot prepared foods from SNAP under all circumstances",
+                "No, unless he first transfers his benefits into an Older Americans Act meal program"
+            ],
+            "correctIndex": 0,
+            "explanation": "Hot foods prepared for immediate consumption are normally excluded from SNAP, but the Restaurant Meals Program is a state option that lets participants who are elderly (60+), disabled, or homeless buy prepared meals at approved restaurants. Not every state operates it, so the answer depends on where the client lives. This is a useful referral for clients with no kitchen, alongside congregate meal sites funded by the Older Americans Act.",
+            "tags": [
+                "community",
+                "snap",
+                "access"
+            ]
+        },
+        {
+            "id": "m3-gf-snap-05",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Community Nutrition Programs",
+            "difficulty": "medium",
+            "text": "An RDN is hired to run SNAP-Ed programming for a county health department. Which activity fits the purpose of SNAP-Ed?",
+            "options": [
+                "Teaching budget cooking classes and supporting policy, systems, and environment change",
+                "Determining each applicant's eligibility and issuing the monthly benefits to households",
+                "Providing individual medical nutrition therapy billed to Medicare Part B for diabetes",
+                "Distributing emergency food boxes and tracking each household's monthly food inventory"
+            ],
+            "correctIndex": 0,
+            "explanation": "SNAP-Ed is the education and obesity-prevention arm of SNAP. It funds evidence-based nutrition and physical activity education for SNAP-eligible audiences, plus policy, systems, and environmental (PSE) work such as improving school wellness policies or stocking healthier items in corner stores. Eligibility determination and benefit issuance belong to the state SNAP agency, medical nutrition therapy is a clinical service billed separately, and emergency food boxes come from food banks and TEFAP.",
+            "tags": [
+                "community",
+                "snap-ed",
+                "program management"
+            ]
+        },
+        {
+            "id": "m3-gf-snap-06",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Community Nutrition Programs",
+            "difficulty": "hard",
+            "text": "A food bank wants SNAP participants to be able to buy more produce at the local farmers market. Which federal program is designed to support that?",
+            "options": [
+                "GusNIP nutrition incentives, which match SNAP dollars spent on fruits and vegetables",
+                "The WIC Farmers' Market Nutrition Program, which issues its coupons to SNAP households",
+                "The Emergency Food Assistance Program, which reimburses markets for the produce sold",
+                "The Older Americans Act, which funds produce vouchers for every SNAP participant"
+            ],
+            "correctIndex": 0,
+            "explanation": "The Gus Schumacher Nutrition Incentive Program (GusNIP) funds produce-incentive projects, the Double Up Food Bucks model, in which every SNAP dollar spent on fruits and vegetables is matched at the point of sale. The WIC Farmers' Market Nutrition Program serves WIC participants, and the Senior Farmers' Market Nutrition Program serves low-income adults 60 and older. TEFAP supplies commodity foods to food banks, and the Older Americans Act funds congregate and home-delivered meals for adults 60 and older.",
+            "tags": [
+                "community",
+                "snap",
+                "incentives",
+                "farmers market"
+            ]
+        },
+        {
+            "id": "m3-gf-snap-07",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Community Nutrition Programs",
+            "difficulty": "medium",
+            "text": "A hospital RDN is building a referral list for food-insecure patients. Which pairing of patient and program is correct?",
+            "options": [
+                "A low-income family with children under 5 to WIC; a homebound 70-year-old to Older Americans Act home-delivered meals",
+                "A low-income family with children under 5 to TEFAP commodity boxes; a homebound 70-year-old to the WIC program",
+                "A low-income family with children under 5 to the Senior Farmers' Market Nutrition Program; a homebound 70-year-old to CACFP",
+                "A low-income family with children under 5 to SNAP-Ed classes only; a homebound 70-year-old to the National School Lunch Program"
+            ],
+            "correctIndex": 0,
+            "explanation": "Match the program to the population: WIC covers pregnant, postpartum, and breastfeeding women, infants, and children up to age 5 at or below 185% of poverty. The Older Americans Act Title III-C funds congregate meals and home-delivered meals for adults 60 and older, with no income test (voluntary contributions only). TEFAP supplies food banks, the Senior Farmers' Market Nutrition Program serves adults 60 and older, CACFP reimburses child and adult care sites, and the National School Lunch Program serves enrolled students.",
+            "tags": [
+                "community",
+                "referrals",
+                "programs"
+            ]
+        },
+        {
+            "id": "m3-gf-nslp-01",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Community Nutrition Programs",
+            "difficulty": "medium",
+            "text": "A parent whose household income is 150% of the federal poverty level asks what her child will pay for school lunch this year. The correct answer is:",
+            "options": [
+                "Reduced price, which federal rules cap at 40 cents for each school lunch",
+                "Free meals, because every family below 185% of poverty is served at no charge",
+                "Full price, because reduced-price status only begins below 130% of poverty",
+                "Free meals, but only if the school also runs the School Breakfast Program"
+            ],
+            "correctIndex": 0,
+            "explanation": "Income eligibility in the National School Lunch Program has three tiers: at or below 130% of the federal poverty level, meals are free; between 130% and 185%, meals are reduced price, and the student charge is capped at $0.40 for lunch and $0.30 for breakfast; above 185%, the student pays the district's full price. Children in households receiving SNAP, TANF, or FDPIR, and children who are homeless, migrant, runaway, or in foster care, are directly certified for free meals without an application.",
+            "tags": [
+                "community",
+                "nslp",
+                "school meals",
+                "eligibility"
+            ]
+        },
+        {
+            "id": "m3-gf-nslp-02",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Community Nutrition Programs",
+            "difficulty": "hard",
+            "text": "A principal in a high-poverty district asks whether her school can serve free meals to every student without collecting household applications. Which answer is correct?",
+            "options": [
+                "Yes, through the Community Eligibility Provision when the identified student percentage qualifies",
+                "Yes, any school may stop collecting applications and bill USDA at the free meal rate for all",
+                "No, unless every enrolled family submits an application documenting its income each year",
+                "No, because federal rules require a signed household application for each student annually"
+            ],
+            "correctIndex": 0,
+            "explanation": "The Community Eligibility Provision (CEP) lets high-poverty schools, groups of schools, or whole districts serve breakfast and lunch at no charge to all students with no household applications. Eligibility rests on the identified student percentage (ISP): the share of students directly certified through SNAP, TANF, FDPIR, or because they are homeless, migrant, or in foster care. The threshold was lowered to 25%, and reimbursement is calculated by multiplying the ISP by 1.6 to set the share of meals paid at the free rate.",
+            "tags": [
+                "community",
+                "nslp",
+                "cep",
+                "school meals"
+            ]
+        },
+        {
+            "id": "m4-gf-nslp-03",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Menu Planning",
+            "difficulty": "medium",
+            "text": "A high school cafeteria uses Offer versus Serve at lunch. A student takes a chicken sandwich, a carton of milk, and a half cup of peaches. Is the tray reimbursable?",
+            "options": [
+                "Yes, she took at least three components, one of them a half cup of fruit",
+                "No, a reimbursable lunch requires the student to take all five components offered",
+                "No, students must select at least four of the five components under Offer versus Serve",
+                "Yes, but only if the peaches are served fresh rather than canned in their own juice"
+            ],
+            "correctIndex": 0,
+            "explanation": "Offer versus Serve lets students decline some of what is offered, which cuts plate waste and cost. At lunch the school must offer all five components (meat/meat alternate, grains, fruit, vegetable, milk) in the required amounts; the student must take at least three full components, and at least one must be a half cup or more of fruit or vegetable. Offer versus Serve is mandatory at senior high lunch and optional for other grades. At breakfast, four items are offered and the student takes at least three, including a half cup of fruit or vegetable.",
+            "tags": [
+                "foodservice",
+                "nslp",
+                "offer versus serve",
+                "school meals"
+            ]
+        },
+        {
+            "id": "m4-gf-nslp-04",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Menu Planning",
+            "difficulty": "medium",
+            "text": "A school menu planner reviews next week's lunch menu for compliance with the meal pattern. Which statement matches current National School Lunch Program standards?",
+            "options": [
+                "Milk must be fat-free or low-fat, and at least 80% of weekly grains whole grain-rich",
+                "Whole milk may be offered daily as long as every grain served is whole grain-rich",
+                "Any milk fat level is acceptable when flavored milk is limited to twice per week",
+                "Grains carry no whole-grain requirement provided the weekly calorie ranges are met"
+            ],
+            "correctIndex": 0,
+            "explanation": "School lunch milk must be fat-free or low-fat (1%), flavored or unflavored, and at least 80% of the grains offered over the week must be whole grain-rich (at least half whole grain by weight, with the remaining grains enriched). The pattern also sets weekly calorie ranges, saturated fat under 10% of calories, and sodium limits by grade group (K-5, 6-8, 9-12). Fruits and vegetables are separate components, and the vegetable requirement is spread across subgroups over the week: dark green, red/orange, beans and peas, starchy, and other.",
+            "tags": [
+                "foodservice",
+                "nslp",
+                "meal pattern",
+                "school meals"
+            ]
+        },
+        {
+            "id": "m4-gf-sbp-05",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Menu Planning",
+            "difficulty": "medium",
+            "text": "A middle school runs the School Breakfast Program with Offer versus Serve. What must a student take for the breakfast to be reimbursable?",
+            "options": [
+                "At least three of the four items offered, including a half cup of fruit or vegetable",
+                "All four of the items offered, because Offer versus Serve applies only at lunch",
+                "Any two items the student chooses, with no fruit or vegetable required at all",
+                "Only milk and one grain item, because breakfast carries no fruit requirement"
+            ],
+            "correctIndex": 0,
+            "explanation": "The School Breakfast Program pattern offers three components (fruit or vegetable, grains, milk) as at least four food items, and under Offer versus Serve the student must take at least three items, one of which must be a half cup or more of fruit or vegetable. Meat/meat alternates may substitute for grains once the daily grain minimum is met. Breakfast reimbursement rates are lower than lunch rates, and severe-need schools receive a higher rate.",
+            "tags": [
+                "foodservice",
+                "sbp",
+                "offer versus serve",
+                "school meals"
+            ]
+        },
+        {
+            "id": "m3-gf-nslp-06",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Community Nutrition Programs",
+            "difficulty": "hard",
+            "text": "A district is updating its menus to match USDA's updated school meal standards. Which change is required?",
+            "options": [
+                "Added sugars limits, first on products such as cereal, yogurt, and flavored milk",
+                "Elimination of every added sugar from all items offered in the cafeteria at once",
+                "Removal of sodium limits entirely, because USDA rescinded the sodium targets",
+                "Whole milk returned to daily service, with no limit on flavored milk varieties"
+            ],
+            "correctIndex": 0,
+            "explanation": "USDA's 2024 final rule set the first added sugars limits in school meals: product-based limits come first (breakfast cereals, yogurt, and flavored milk), followed by a weekly limit of less than 10% of calories from added sugars. The rule also keeps the 80% whole grain-rich standard, maintains fat-free and low-fat milk, and phases in a modest sodium reduction later in the decade rather than removing sodium limits.",
+            "tags": [
+                "community",
+                "nslp",
+                "standards",
+                "school meals"
+            ]
+        },
+        {
+            "id": "m4-gf-nslp-07",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Menu Planning",
+            "difficulty": "medium",
+            "text": "A student club wants to sell cookies as a fundraiser in the hallway during the school day. Which federal standard applies to that sale?",
+            "options": [
+                "Smart Snacks in School, which sets nutrition standards for foods sold during the day",
+                "Only the school lunch meal pattern, which does not reach items sold outside meals",
+                "No federal standard applies, because fundraisers are governed entirely by state law",
+                "The Buy American provision, which requires domestic ingredients in items sold"
+            ],
+            "correctIndex": 0,
+            "explanation": "Smart Snacks in School standards apply to all foods and beverages sold to students on campus during the school day outside the reimbursable meal: a la carte lines, vending machines, school stores, and fundraisers. Items must meet calorie, sodium, fat, and sugar limits and qualify as a whole grain-rich product, a fruit, a vegetable, a dairy product, a protein food, or a combination food. States may allow a limited number of exempt fundraisers each year, which is why districts must check state policy as well.",
+            "tags": [
+                "foodservice",
+                "smart snacks",
+                "school meals"
+            ]
+        },
+        {
+            "id": "m4-gf-cacfp-01",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Menu Planning",
+            "difficulty": "medium",
+            "text": "A child care center participating in CACFP asks how many meals it may claim for each enrolled child in one day. The correct answer is:",
+            "options": [
+                "Up to two meals plus one snack, or one meal plus two snacks, for each child",
+                "Up to three meals plus two snacks per child, since there is no federal daily limit",
+                "Only one meal per child each day, plus a snack for children under two years old",
+                "Any number of meals served, as long as attendance is documented for each child"
+            ],
+            "correctIndex": 0,
+            "explanation": "The Child and Adult Care Food Program reimburses up to two meals and one snack, or one meal and two snacks, per participant per day; at-risk afterschool programs and emergency shelters follow their own combinations. Reimbursement requires menus that meet the CACFP meal pattern, daily meal counts taken at the point of service, and enrollment and attendance records. Sites are reviewed by the state agency, and family day care homes are reimbursed at tier I or tier II rates.",
+            "tags": [
+                "foodservice",
+                "cacfp",
+                "reimbursement"
+            ]
+        },
+        {
+            "id": "m4-gf-cacfp-02",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Menu Planning",
+            "difficulty": "hard",
+            "text": "Which practice meets the CACFP meal pattern in a center serving children aged 1 through 5?",
+            "options": [
+                "Unflavored whole milk at age 1, then unflavored low-fat or fat-free milk from age 2",
+                "Flavored low-fat milk served at every meal to all children aged 1 through 5 years",
+                "Juice at breakfast and again at the afternoon snack on that same program day",
+                "Cookies and other grain-based desserts credited toward the daily grain component"
+            ],
+            "correctIndex": 0,
+            "explanation": "CACFP milk rules follow development: unflavored whole milk for 1-year-olds, then unflavored low-fat or fat-free milk for ages 2 through 5, with flavored milk reserved for children 6 and older. Juice, which must be 100% juice, counts only once per day. Grain-based desserts such as cookies, brownies, and toaster pastries cannot be credited at all. Ounce-equivalents are used for grains, at least one grain each day must be whole grain-rich, and drinking water must be available to children throughout the day.",
+            "tags": [
+                "foodservice",
+                "cacfp",
+                "meal pattern"
+            ]
+        },
+        {
+            "id": "m4-gf-cacfp-03",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Menu Planning",
+            "difficulty": "medium",
+            "text": "A CACFP center cares for a 4-month-old whose mother comes in to breastfeed during her lunch break. Which statement is correct?",
+            "options": [
+                "The meal may be claimed when the mother breastfeeds her own infant at the center",
+                "Only formula fed from a bottle by center staff may be claimed for reimbursement",
+                "Infant meals cannot be claimed until solid foods begin at about 6 months of age",
+                "Juice may be served once daily to infants to help meet the fruit requirement"
+            ],
+            "correctIndex": 0,
+            "explanation": "CACFP encourages breastfeeding: a meal is reimbursable when a mother breastfeeds her infant on site, and centers must offer iron-fortified infant formula to infants who are not breastfed while allowing parents to supply expressed milk. Solid foods are introduced at about 6 months when the infant is developmentally ready, and only then do they become creditable. Juice is never creditable for infants, and neither are cereals with added sugars.",
+            "tags": [
+                "foodservice",
+                "cacfp",
+                "infant feeding",
+                "breastfeeding"
+            ]
+        },
+        {
+            "id": "m3-gf-cacfp-04",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Community Nutrition Programs",
+            "difficulty": "medium",
+            "text": "Which site is eligible to participate in the Child and Adult Care Food Program?",
+            "options": [
+                "An adult day care center serving functionally impaired adults and adults 60 and older",
+                "A hospital cafeteria that sells discounted meals to visitors and hospital employees",
+                "A high school selling a la carte snacks to students during the regular school day",
+                "A summer-only day camp that operates in July and closes for the rest of the year"
+            ],
+            "correctIndex": 0,
+            "explanation": "CACFP reimburses meals in child care centers, family day care homes, Head Start programs, at-risk afterschool programs, emergency shelters, and adult day care centers serving functionally impaired adults or adults 60 and older. Meals sold to the general public, such as in a hospital cafeteria, are not covered; a la carte sales during the school day fall under Smart Snacks; and summer-only sites are served by the Summer Food Service Program instead.",
+            "tags": [
+                "community",
+                "cacfp",
+                "eligibility"
+            ]
+        },
+        {
+            "id": "m3-gf-cacfp-05",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Community Nutrition Programs",
+            "difficulty": "medium",
+            "text": "An RDN consults for a Head Start center that participates in CACFP. During a state agency review, which documentation carries the most weight?",
+            "options": [
+                "Menus with production records, plus meal counts and attendance for every claim",
+                "Individual diet orders signed by a physician for each child enrolled at the center",
+                "Purchase receipts proving that all foods were bought from one approved vendor",
+                "Annual financial statements showing that the center finished the year in surplus"
+            ],
+            "correctIndex": 0,
+            "explanation": "CACFP reviews test whether the meals claimed were actually served and met the meal pattern, so the core records are menus and production records (showing components and portion sizes by age group), point-of-service meal counts, and enrollment and attendance records. Missing or reconstructed meal counts are the most common finding and can trigger repayment. Physician diet orders are needed only for individual modifications, and vendor or financial records serve other purposes.",
+            "tags": [
+                "community",
+                "cacfp",
+                "compliance",
+                "documentation"
+            ]
+        },
+        {
+            "id": "m2-gf-oaa-01",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "medium",
+            "text": "A 58-year-old man asks whether he can eat with his 67-year-old wife at the congregate meal site funded by the Older Americans Act. Which answer is correct?",
+            "options": [
+                "He may receive a meal as the spouse of an eligible participant, whatever his age",
+                "He must wait until he turns 60, because spouses are not covered by the program",
+                "He may attend only if his income falls below 130% of the federal poverty level",
+                "He may attend only when a physician documents that he is homebound and frail"
+            ],
+            "correctIndex": 0,
+            "explanation": "Title III-C of the Older Americans Act serves adults age 60 and older and the spouse of an eligible participant regardless of that spouse's age; people with disabilities who live with an eligible participant and some volunteers may also be served. There is no income test, so a means test cannot be applied, although services are targeted to older adults in greatest social and economic need. Home-delivered meals (C2) additionally require that the participant be homebound.",
+            "tags": [
+                "community",
+                "older americans act",
+                "eligibility",
+                "aging"
+            ]
+        },
+        {
+            "id": "m2-gf-oaa-02",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "medium",
+            "text": "An Area Agency on Aging is reviewing a caterer's proposed menus for its congregate meal program. Each meal must:",
+            "options": [
+                "Provide at least one third of the DRI and comply with the Dietary Guidelines",
+                "Provide at least two thirds of the DRI, since most participants eat just one meal",
+                "Match a 2,000-calorie pattern exactly, with no variation allowed between days",
+                "Be certified by a physician as therapeutic for each participant's own diagnosis"
+            ],
+            "correctIndex": 0,
+            "explanation": "Older Americans Act nutrition services require each meal to supply at least one third of the Dietary Reference Intakes and to comply with the current Dietary Guidelines for Americans; programs serving two or three meals a day must provide proportionally more. A registered dietitian nutritionist must be involved in menu approval, and menus must also work for the population served, which usually means attention to sodium, texture modification, and acceptability. Meals are not individually prescribed by a physician.",
+            "tags": [
+                "community",
+                "older americans act",
+                "menu",
+                "aging"
+            ]
+        },
+        {
+            "id": "m2-gf-oaa-03",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "easy",
+            "text": "A newly enrolled participant asks how much she will be charged for her home-delivered meals. The correct answer is:",
+            "options": [
+                "There is no charge; participants may make a voluntary, confidential contribution",
+                "Meals are billed on a sliding scale according to each participant's monthly income",
+                "Medicare Part B pays for the meals once the annual deductible has been satisfied",
+                "The program charges a flat copayment for each meal, set by federal regulation"
+            ],
+            "correctIndex": 0,
+            "explanation": "Older Americans Act nutrition programs cannot means-test or charge a required fee. Participants are given the opportunity to make a voluntary contribution, which must be confidential, and no one may be denied a meal for not contributing. Contributions are reinvested to expand meal service. Medicare does not cover home-delivered meals, though some Medicare Advantage plans and Medicaid waivers now offer short-term post-discharge meals as a supplemental benefit.",
+            "tags": [
+                "community",
+                "older americans act",
+                "aging"
+            ]
+        },
+        {
+            "id": "m3-gf-oaa-04",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Community Nutrition Programs",
+            "difficulty": "hard",
+            "text": "Which agency structure delivers Older Americans Act nutrition services to older adults?",
+            "options": [
+                "The Administration for Community Living funds State Units on Aging and Area Agencies",
+                "USDA Food and Nutrition Service contracts directly with each local senior center",
+                "The Centers for Medicare and Medicaid Services reimburses each meal per participant",
+                "State health departments run the meal sites using WIC administrative grant funds"
+            ],
+            "correctIndex": 0,
+            "explanation": "Older Americans Act nutrition services flow from the Administration for Community Living (within HHS) to State Units on Aging, then to Area Agencies on Aging, which contract with local providers for congregate (Title III-C1) and home-delivered (Title III-C2) meals. The Nutrition Services Incentive Program adds cash or USDA commodity foods. USDA Food and Nutrition Service runs the child nutrition programs, SNAP, and WIC, which is why the distinction is worth knowing.",
+            "tags": [
+                "community",
+                "older americans act",
+                "administration",
+                "aging"
+            ]
+        },
+        {
+            "id": "m2-gf-oaa-05",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Community Nutrition",
+            "difficulty": "hard",
+            "text": "An Area Agency on Aging has more applicants than home-delivered meal slots. Which approach matches the intent of the Older Americans Act?",
+            "options": [
+                "Prioritize older adults in greatest social and economic need, including rural and minority elders",
+                "Prioritize the applicants who are able to make the largest voluntary contribution each month",
+                "Serve applicants strictly in the order that applications arrive, with no screening at all",
+                "Limit meals to older adults who are enrolled in both Medicare and Medicaid"
+            ],
+            "correctIndex": 0,
+            "explanation": "The Older Americans Act forbids a means test but directs programs to target services to older adults in greatest social and economic need, with particular attention to low-income minority elders, those in rural areas, those with limited English proficiency, and those at risk of institutional care. Agencies therefore use a nutrition risk screen (such as the DETERMINE checklist) and functional status rather than income to rank applicants, and contribution amounts may never affect access.",
+            "tags": [
+                "community",
+                "older americans act",
+                "targeting",
+                "aging"
+            ]
+        },
+        {
+            "id": "m3-gf-eth-01",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Scope of Practice",
+            "difficulty": "medium",
+            "text": "An infant formula manufacturer offers an RDN a speaking fee and paid travel to present on infant feeding at a state conference. Under the Code of Ethics, the RDN should:",
+            "options": [
+                "Disclose the relationship to the audience and present balanced, evidence-based content",
+                "Decline every interaction with industry, since the Code forbids industry relationships",
+                "Accept without disclosing it, because a speaking fee is personal income, not a conflict",
+                "Accept and present only the sponsor's products, since the sponsor is paying the fee"
+            ],
+            "correctIndex": 0,
+            "explanation": "The Code of Ethics for the Nutrition and Dietetics Profession does not ban industry relationships; it requires that conflicts of interest be disclosed and managed so they do not bias practice. The practitioner must present accurate, evidence-based information, keep editorial control of the content, and make the funding relationship visible to the audience. Hiding the relationship, or letting a sponsor dictate the content, breaches integrity and professionalism.",
+            "tags": [
+                "ethics",
+                "conflict of interest",
+                "professionalism"
+            ]
+        },
+        {
+            "id": "m3-gf-eth-02",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Scope of Practice",
+            "difficulty": "hard",
+            "text": "An RDN learns that a colleague is selling supplements from her office and advising clients to stop prescribed medications. What is the most appropriate action?",
+            "options": [
+                "Use the employer's reporting process and file a complaint with the Ethics Committee",
+                "Post the concern in a professional social media group so other practitioners are warned",
+                "Do nothing, because selling supplements falls outside the reach of the Code of Ethics",
+                "Contact the clients directly and tell them that the colleague is committing fraud"
+            ],
+            "correctIndex": 0,
+            "explanation": "Advising clients to stop prescribed medication is outside dietetics scope and can cause direct harm, so it is a reportable ethics violation, not a difference of opinion. The Code obliges practitioners to report suspected violations through proper channels: the employer's process first when there is one, and a complaint to the Academy/CDR Ethics Committee, which handles alleged violations by members and credentialed practitioners. Airing it on social media or contacting the clients directly risks defamation and breaches confidentiality.",
+            "tags": [
+                "ethics",
+                "reporting",
+                "scope of practice"
+            ]
+        },
+        {
+            "id": "m3-gf-eth-03",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Scope of Practice",
+            "difficulty": "medium",
+            "text": "An RDN keeps her practice current through continuing education and takes on only work she is competent to perform. Which principle of the Code of Ethics does this reflect?",
+            "options": [
+                "Competence and professional development in practice, which reflects nonmaleficence",
+                "Social responsibility for nutrition and well-being, which reflects the principle of justice",
+                "Integrity in personal and organizational behaviors, which reflects client autonomy",
+                "Professionalism in all interactions, which reflects the principle of beneficence"
+            ],
+            "correctIndex": 0,
+            "explanation": "The 2018 Code of Ethics is built on four principles, each tied to a bioethics principle: (1) Competence and professional development in practice - NONMALEFICENCE, do no harm, which is why practicing within one's competence belongs here; (2) Integrity in personal and organizational behaviors and practices - AUTONOMY; (3) Professionalism - BENEFICENCE; (4) Social responsibility for local, regional, national, and global nutrition and well-being - JUSTICE.",
+            "tags": [
+                "ethics",
+                "principles",
+                "competence"
+            ]
+        },
+        {
+            "id": "m3-gf-eth-04",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Scope of Practice",
+            "difficulty": "medium",
+            "text": "An RDN in private practice wants to post a client's before-and-after weight loss photos on the clinic's social media account. The Code of Ethics requires that she:",
+            "options": [
+                "Obtain the client's written authorization before posting any identifiable image",
+                "Post freely, as long as the client's name and face are left out of the caption",
+                "Post only with the clinic owner's approval, because consent rests with the employer",
+                "Avoid all client content, because confidentiality allows no exception whatsoever"
+            ],
+            "correctIndex": 0,
+            "explanation": "Client information, including images, is confidential, and marketing is not a treatment purpose, so the RDN needs specific written authorization from the client before publishing anything identifiable. Cropping the face does not necessarily de-identify a photo. Consent belongs to the client, not the employer, it must be voluntary (care cannot be made conditional on it), and it may be withdrawn. The Code also forbids claims that misrepresent likely outcomes, which is why testimonial-style posts carry extra risk.",
+            "tags": [
+                "ethics",
+                "confidentiality",
+                "social media",
+                "hipaa"
+            ]
+        },
+        {
+            "id": "m3-gf-eth-05",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Scope of Practice",
+            "difficulty": "hard",
+            "text": "At a clinic, Spanish-speaking patients wait about twice as long for nutrition counseling as English-speaking patients. Which principle of the Code of Ethics directs the RDN to act on this?",
+            "options": [
+                "Social responsibility, which calls for equitable access and reflects justice",
+                "Competence, which requires that the RDN first complete formal language training",
+                "Autonomy, which requires that each patient choose a preferred language of care",
+                "Beneficence, which obliges the RDN to see the sickest patients ahead of others"
+            ],
+            "correctIndex": 0,
+            "explanation": "Social responsibility, the principle tied to justice, obliges practitioners to promote fairness and equitable access to nutrition services and to address inequities they can influence. A systematic delay by language is an access inequity, so the RDN should raise it and push for practical remedies: trained interpreters, translated materials at an appropriate reading level, and scheduling that does not penalize patients who need an interpreter. Waiting to become bilingual is not the standard; providing qualified interpretation is.",
+            "tags": [
+                "ethics",
+                "justice",
+                "health equity",
+                "cultural competence"
+            ]
+        },
+        {
+            "id": "m3-gf-sop-01",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Scope of Practice",
+            "difficulty": "medium",
+            "text": "An RDN uses the Academy's Standards of Practice and Standards of Professional Performance to evaluate her own practice. Which statement describes them correctly?",
+            "options": [
+                "Four Standards of Practice follow the Nutrition Care Process; six Standards of Professional Performance cover behaviors",
+                "Six Standards of Practice cover the care process, while four Standards of Professional Performance cover ethics",
+                "Both are state laws, so failing to meet any one of them automatically ends a practitioner's license",
+                "Both apply only to practitioners who hold an advanced practice credential in a specialty focus area"
+            ],
+            "correctIndex": 0,
+            "explanation": "The Standards of Practice (SOP) mirror the four steps of the Nutrition Care Process: nutrition assessment, nutrition diagnosis, nutrition intervention, and nutrition monitoring and evaluation. The Standards of Professional Performance (SOPP) cover six areas of professional behavior: quality in practice, competence and accountability, provision of services, application of research, communication and application of knowledge, and utilization and management of resources. They are voluntary self-evaluation tools written at three levels (competent, proficient, expert), not statutes.",
+            "tags": [
+                "scope of practice",
+                "standards",
+                "nutrition care process"
+            ]
+        },
+        {
+            "id": "m3-gf-sop-02",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Scope of Practice",
+            "difficulty": "easy",
+            "text": "A dietitian credentialed three months ago wonders which level of the Standards of Practice describes her current practice. The answer is:",
+            "options": [
+                "Competent, the entry level for a practitioner new to a role or practice area",
+                "Proficient, because passing the registration examination demonstrates proficiency",
+                "Expert, because the standards assume full autonomy from the first day of practice",
+                "None of the levels, because the standards begin only after five years of practice"
+            ],
+            "correctIndex": 0,
+            "explanation": "The Standards describe three levels of practice. Competent is the entry level: a practitioner who is new to the profession, or an experienced practitioner who has moved into an unfamiliar area of practice. Proficient describes someone who has gained depth and routinely handles complex situations in that area, generally after about three years. Expert describes highly specialized practice with recognized authority, often with an advanced credential. Level reflects the setting and the practitioner's experience in it, not seniority alone.",
+            "tags": [
+                "scope of practice",
+                "standards",
+                "professional development"
+            ]
+        },
+        {
+            "id": "m3-gf-sop-03",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Scope of Practice",
+            "difficulty": "hard",
+            "text": "A hospital asks an RDN to begin placing nasoenteric feeding tubes, a task that was not part of her training. What should she do first?",
+            "options": [
+                "Work through the scope of practice decision tool: state law, then policy, then competence",
+                "Refuse outright, because tube placement can never fall within dietetics practice",
+                "Accept, because any task a physician delegates automatically falls within her scope",
+                "Ask an experienced colleague to sign the documentation while she does the procedure"
+            ],
+            "correctIndex": 0,
+            "explanation": "Scope of practice has three layers, and the Academy's Scope of Practice Decision Algorithm walks through them in order: first, does state law (licensure or certification statute) permit it; second, does the organization's policy, job description, and credentialing allow it; third, does this individual have documented education, training, supervised practice, and demonstrated competence. Tube placement is an advanced practice activity that some RDNs do perform with training and privileges, so the answer is neither an automatic yes nor an automatic no. Having someone else sign for work they did not supervise is falsification.",
+            "tags": [
+                "scope of practice",
+                "advanced practice",
+                "competence"
+            ]
+        },
+        {
+            "id": "m3-gf-sop-04",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Scope of Practice",
+            "difficulty": "hard",
+            "text": "A hospital wants its RDNs to write enteral and parenteral nutrition orders directly. Which condition makes that possible?",
+            "options": [
+                "State law permits it and the medical staff grants privileges through hospital policy",
+                "The national RDN credential by itself authorizes order writing in every state",
+                "A physician countersigns each order within 30 days, as federal rules require",
+                "Order writing is prohibited in all hospitals by the Medicare Conditions of Participation"
+            ],
+            "correctIndex": 0,
+            "explanation": "Since 2014 the Medicare Conditions of Participation have allowed hospitals to grant RDNs privileges to write therapeutic diet and nutrition-related orders, provided state law does not prohibit it and the medical staff formally grants the privilege through its bylaws and credentialing process. So the answer depends on two layers: the state practice act and the individual hospital's policy. The national credential alone confers no ordering authority, and no federal rule requires a 30-day countersignature.",
+            "tags": [
+                "scope of practice",
+                "order writing",
+                "regulations"
+            ]
+        },
+        {
+            "id": "m3-gf-sop-05",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Scope of Practice",
+            "difficulty": "medium",
+            "text": "A chart audit finds nutrition notes that record only intake and body weight, with no diagnosis, plan, or follow-up. Which standard is not being met?",
+            "options": [
+                "The Standards of Practice, which require assessment, diagnosis, intervention, and monitoring",
+                "The Standards of Professional Performance, which address the application of research only",
+                "The Code of Ethics, which requires an entry in the electronic record on every single day",
+                "The Conditions of Participation, which require a physician note for each dietitian entry"
+            ],
+            "correctIndex": 0,
+            "explanation": "The Standards of Practice follow the four steps of the Nutrition Care Process, so a note that stops at data collection meets only the first step. A complete record shows the assessment, a nutrition diagnosis written as a PES statement, the intervention with a measurable goal, and the plan for monitoring and evaluation of specific indicators. ADIME is the documentation format that mirrors those steps. The Standards of Professional Performance cover professional behaviors, which is a different set.",
+            "tags": [
+                "scope of practice",
+                "documentation",
+                "nutrition care process",
+                "quality"
+            ]
+        },
+        {
+            "id": "m3-gf-tele-01",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Healthcare Systems",
+            "difficulty": "medium",
+            "text": "An RDN licensed in Florida is asked to continue counseling a client who has just moved to Georgia. What determines whether she may provide the telehealth visits?",
+            "options": [
+                "The licensure rules of the state where the client is located during the session",
+                "Her own state license, which travels with the practitioner wherever the client lives",
+                "The client's insurance plan, which sets the licensure requirements for telehealth",
+                "Nothing: telehealth is federally regulated, which preempts state licensure law"
+            ],
+            "correctIndex": 0,
+            "explanation": "Care is considered to be delivered where the PATIENT is located, so the practitioner generally needs to meet the licensure requirements of the client's state, not her own. Practically, that means holding a license there, qualifying for an exemption, or practicing through a licensure compact where one has been adopted. Practicing without the required license is a legal risk and usually voids professional liability coverage. Documentation should record the client's location for each session.",
+            "tags": [
+                "telehealth",
+                "licensure",
+                "regulations"
+            ]
+        },
+        {
+            "id": "m3-gf-tele-02",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Healthcare Systems",
+            "difficulty": "medium",
+            "text": "Which practice meets HIPAA expectations for a telehealth nutrition visit in private practice?",
+            "options": [
+                "Use a platform under a business associate agreement and verify identity and location",
+                "Use any free consumer video app, because HIPAA does not cover nutrition counseling",
+                "Record each session and keep the video file on a personal phone for later review",
+                "Email the assessment and care plan as a plain attachment, without encryption"
+            ],
+            "correctIndex": 0,
+            "explanation": "A covered entity must use a technology vendor that will sign a business associate agreement, which commits the vendor to HIPAA safeguards for protected health information. Good practice also includes verifying the client's identity and physical location at the start of each session, obtaining and documenting consent for telehealth, conducting sessions in a private space, and using encrypted channels for any documents. Storing recordings on a personal device, or emailing unencrypted health information, creates a reportable breach risk.",
+            "tags": [
+                "telehealth",
+                "hipaa",
+                "privacy"
+            ]
+        },
+        {
+            "id": "m3-gf-tele-03",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Healthcare Systems",
+            "difficulty": "medium",
+            "text": "Before the first telehealth session, an RDN documents the client's physical address for that visit. The main reason is:",
+            "options": [
+                "To direct emergency services to the client if a crisis occurs during the session",
+                "To bill the insurer at the higher in-person rate for this telehealth encounter",
+                "To confirm household income for the practice's sliding-scale fee eligibility",
+                "To prove residency, which the credentialing agency requires before any care"
+            ],
+            "correctIndex": 0,
+            "explanation": "Knowing exactly where the client is sitting serves two purposes: it establishes which state's licensure law governs the encounter, and it allows the practitioner to direct emergency medical services to the right address if the client becomes unsafe, which matters most in eating disorder and severe medical cases. A telehealth emergency protocol should also include a local emergency contact and the nearest emergency facility. Telehealth is not billed at a higher rate for this reason, and the credentialing agency does not require proof of residency.",
+            "tags": [
+                "telehealth",
+                "safety",
+                "documentation"
+            ]
+        },
+        {
+            "id": "m3-gf-tele-04",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Healthcare Systems",
+            "difficulty": "easy",
+            "text": "Documentation of a telehealth medical nutrition therapy visit should include:",
+            "options": [
+                "Modality used, client location, consent for telehealth, and the full ADIME note",
+                "Only the ADIME note, since the modality has no bearing on the clinical record",
+                "A screenshot of the video call, stored in the client's electronic health record",
+                "The client's device model and measured internet speed at the start of the visit"
+            ],
+            "correctIndex": 0,
+            "explanation": "A telehealth note carries everything an in-person note carries (assessment, nutrition diagnosis as a PES statement, intervention, and monitoring and evaluation plan) plus the details specific to the modality: that the visit was conducted by video or telephone, where the client was located, that consent for telehealth was obtained, who else was present, and the start and stop times, which are what MNT billing is based on. Screenshots and device specifications are not part of the record.",
+            "tags": [
+                "telehealth",
+                "documentation",
+                "mnt"
+            ]
+        },
+        {
+            "id": "m3-gf-tele-05",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Healthcare Systems",
+            "difficulty": "hard",
+            "text": "A 68-year-old with stage 3 chronic kidney disease, not on dialysis, asks whether Medicare will pay for nutrition visits. The accurate answer is:",
+            "options": [
+                "Yes: Part B covers MNT for CKD, with 3 hours in year one and 2 hours in later years",
+                "No: Part B covers medical nutrition therapy only for obesity and for hypertension",
+                "Yes, but coverage begins only once the patient starts dialysis or has a transplant",
+                "Yes, with unlimited hours as long as the physician renews the referral each month"
+            ],
+            "correctIndex": 0,
+            "explanation": "The Medicare Part B medical nutrition therapy benefit covers three diagnoses: diabetes, chronic kidney disease (stages 3 through 4, not on dialysis), and the 36 months following a kidney transplant. It requires a referral from the treating physician, and it provides 3 hours of MNT in the first calendar year and 2 hours in each year after, with additional hours available when the physician documents a change in medical condition or treatment. Patients on dialysis receive nutrition care through the dialysis facility's bundled payment instead. Diabetes self-management training is a separate benefit and may be billed in the same year, but not on the same day.",
+            "tags": [
+                "mnt",
+                "medicare",
+                "reimbursement",
+                "ckd"
+            ]
+        },
+        {
+            "id": "m2-gf-nfpe-01",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Assessment",
+            "difficulty": "medium",
+            "text": "During a nutrition focused physical exam, the RDN sees hollowing at the temples and a clavicle that stands out sharply. What do these two findings together indicate?",
+            "options": [
+                "Muscle wasting at the temporalis and the clavicle region, a sign of severe depletion",
+                "Subcutaneous fat loss only, since both sites store fat rather than skeletal muscle",
+                "Fluid accumulation, because wasting never shows in the face or the upper chest",
+                "Dehydration alone, which is corrected before any nutrition diagnosis is written"
+            ],
+            "correctIndex": 0,
+            "explanation": "The temporalis muscle and the clavicle/acromion region are muscle sites, not fat sites. Hollowing at the temple and a prominent, squared clavicle both point to loss of skeletal muscle. Other muscle sites to inspect: the scapula and the shoulders (squaring off of the deltoid), the interosseous muscle between thumb and index finger, the quadriceps, and the calf. Fat sites are different: the orbital region under the eye, the triceps, and the ribs. Findings should be compared bilaterally and interpreted with the history, never alone.",
+            "tags": [
+                "nfpe",
+                "assessment",
+                "malnutrition"
+            ]
+        },
+        {
+            "id": "m2-gf-nfpe-02",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Assessment",
+            "difficulty": "medium",
+            "text": "An RDN wants to assess subcutaneous fat stores during the physical exam. Which sites should she examine?",
+            "options": [
+                "Orbital region under the eye, the triceps, and the ribs over the lateral chest",
+                "Temporalis, the interosseous muscle of the hand, and the quadriceps of the thigh",
+                "Clavicle, the scapula, and the calf muscle at its widest point on each leg",
+                "Ankles and the sacrum, because pitting there measures the body's fat reserves"
+            ],
+            "correctIndex": 0,
+            "explanation": "Fat sites: the orbital region (hollowing and dark circles under the eye), the upper arm over the triceps and biceps (pinch a fold and roll it between the fingers, avoiding muscle), and the thoracic/lateral ribs, where fat loss makes the ribs and the space between them stand out. The temporalis, interosseous, clavicle, scapula, deltoid, quadriceps, and gastrocnemius are MUSCLE sites. The ankles and sacrum are where dependent edema is checked, and edema can mask both fat and muscle loss.",
+            "tags": [
+                "nfpe",
+                "assessment",
+                "fat stores"
+            ]
+        },
+        {
+            "id": "m2-gf-nfpe-03",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Assessment",
+            "difficulty": "hard",
+            "text": "A patient with cirrhosis has 3+ pitting edema and ascites. His recorded weight has risen 4 kg in a week, yet the physical exam shows temporal hollowing and visible ribs. How should the RDN interpret the weight?",
+            "options": [
+                "Weight gain reflects fluid, so the exam findings and intake drive the assessment",
+                "Weight gain shows nutrition repletion, so the current plan should continue unchanged",
+                "Weight is the only objective measure, so the exam findings should be set aside",
+                "Weight should be corrected by subtracting exactly 10% for the ascites present"
+            ],
+            "correctIndex": 0,
+            "explanation": "Fluid accumulation invalidates body weight as a marker of nutrition status: a patient can gain kilograms of fluid while losing muscle and fat, which is exactly what the physical exam is showing here. The AND/ASPEN indicators include fluid accumulation as one of the six malnutrition criteria precisely because it masks the others. Use an estimated dry weight (the usual weight before fluid gain), trend the physical exam findings, and document intake. Fixed percentage subtractions for ascites are rough estimates, not a substitute for a dry weight.",
+            "tags": [
+                "nfpe",
+                "assessment",
+                "edema",
+                "malnutrition"
+            ]
+        },
+        {
+            "id": "m2-gf-nfpe-04",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Assessment",
+            "difficulty": "hard",
+            "text": "An RDN is documenting malnutrition using the AND/ASPEN indicators. What is required to make the diagnosis?",
+            "options": [
+                "Two or more of six characteristics, with the context of the illness identified",
+                "A serum albumin below 3.0 g/dL plus any one physical exam finding on the list",
+                "A BMI under 18.5 kg/m2, which is required before any of the other criteria count",
+                "All six characteristics present at once, otherwise the diagnosis cannot be made"
+            ],
+            "correctIndex": 0,
+            "explanation": "The AND/ASPEN consensus requires at least TWO of six characteristics: insufficient energy intake, weight loss, loss of muscle mass, loss of subcutaneous fat, localized or generalized fluid accumulation, and reduced grip strength. Severity (moderate or severe) and the context must also be documented: acute illness or injury, chronic illness, or social/environmental circumstances. Albumin and prealbumin are negative acute-phase reactants that track inflammation, not nutrition status, and are no longer used to diagnose malnutrition. The GLIM criteria take a similar approach, pairing a phenotypic with an etiologic criterion.",
+            "tags": [
+                "nfpe",
+                "malnutrition",
+                "diagnosis",
+                "assessment"
+            ]
+        },
+        {
+            "id": "m2-gf-nfpe-05",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Assessment",
+            "difficulty": "medium",
+            "text": "On physical exam, a patient has spoon-shaped, concave nails along with pale conjunctivae. Which deficiency do these findings most suggest?",
+            "options": [
+                "Iron deficiency, which produces koilonychia and pallor of the mucous membranes",
+                "Vitamin C deficiency, which produces perifollicular petechiae and corkscrew hairs",
+                "Niacin deficiency, which produces dermatitis, diarrhea, and dementia together",
+                "Zinc deficiency, which produces poor wound healing and a blunted sense of taste"
+            ],
+            "correctIndex": 0,
+            "explanation": "Koilonychia (thin, concave, spoon-shaped nails) with pallor points to iron deficiency; other supportive signs are angular cheilosis, a smooth pale tongue, and fatigue. Learn the classic pairings: vitamin C gives perifollicular petechiae, corkscrew hairs, and bleeding gums; niacin gives the three Ds of pellagra; zinc gives poor wound healing, dysgeusia, and a perioral or acral rash; vitamin A gives night blindness, Bitot spots, and follicular hyperkeratosis; B12 gives glossitis with neurologic changes.",
+            "tags": [
+                "nfpe",
+                "micronutrients",
+                "assessment",
+                "iron"
+            ]
+        },
+        {
+            "id": "m2-gf-nfpe-06",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Assessment",
+            "difficulty": "medium",
+            "text": "A hospital adds handgrip dynamometry to its nutrition assessment protocol. How should the result be used?",
+            "options": [
+                "As one supporting indicator of muscle function, compared with reference values",
+                "As the single diagnostic test for malnutrition, replacing the physical exam",
+                "As a measure of body fat, since grip strength tracks fat stores most closely",
+                "As a substitute for weight history whenever the patient has fluid overload"
+            ],
+            "correctIndex": 0,
+            "explanation": "Reduced grip strength is one of the six AND/ASPEN malnutrition characteristics, and it is a functional measure: it reflects muscle strength, responds to depletion earlier than many other markers, and improves with repletion. It must be compared with age- and sex-specific reference values, measured with a calibrated dynamometer using a standard protocol, and interpreted alongside intake, weight history, and the physical exam. It cannot be used in patients unable to follow the instructions or with hand pathology, and it measures neither body fat nor hydration.",
+            "tags": [
+                "nfpe",
+                "grip strength",
+                "assessment",
+                "malnutrition"
+            ]
+        },
+        {
+            "id": "m4-gf-inf-01",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Food Safety",
+            "difficulty": "hard",
+            "text": "A NICU is deciding which formula to stock for preterm infants. Why is powdered infant formula avoided when a sterile liquid is available?",
+            "options": [
+                "Powdered formula is not commercially sterile and may carry Cronobacter sakazakii",
+                "Powdered formula contains too much protein for a preterm infant to tolerate well",
+                "Powdered formula cannot be fortified to the caloric density preterm infants need",
+                "Powdered formula loses all of its vitamin content as soon as water is added to it"
+            ],
+            "correctIndex": 0,
+            "explanation": "Powdered infant formula is heat-treated but not commercially sterile, and it has been linked to Cronobacter sakazakii, which causes sepsis and meningitis with high mortality in preterm, low birth weight, or immunocompromised infants. Ready-to-feed and sterile liquid concentrate products are commercially sterile and are therefore preferred for these infants in health care facilities. When powder must be used, it is prepared in a dedicated formula room by trained staff using aseptic technique and water that is sterile or has been boiled and cooled.",
+            "tags": [
+                "infant feeding",
+                "food safety",
+                "formula",
+                "cronobacter"
+            ]
+        },
+        {
+            "id": "m4-gf-inf-02",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Food Safety",
+            "difficulty": "medium",
+            "text": "A hospital is writing hang-time limits for infant feedings. Which limit reflects accepted practice?",
+            "options": [
+                "Four hours for human milk and for formula reconstituted from powder at room temperature",
+                "Twelve hours for any infant feeding, as long as the syringe pump stays refrigerated",
+                "Twenty-four hours for human milk, because its antimicrobial factors prevent growth",
+                "No limit, provided the feeding bag and tubing are changed once every three days"
+            ],
+            "correctIndex": 0,
+            "explanation": "Hang time is the period a feeding may stay at room temperature during administration. Facility guidance sets about 4 hours for human milk and for formula reconstituted from powder, with a longer limit (commonly up to 8 hours) for commercially sterile liquid formula decanted into a container. Feeding sets are changed with each new feeding container, and any milk left after the hang time is discarded rather than refrigerated and reused. Label every container with the infant's identifiers plus the date and time of preparation and expiration.",
+            "tags": [
+                "infant feeding",
+                "food safety",
+                "hang time"
+            ]
+        },
+        {
+            "id": "m4-gf-inf-03",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Food Safety",
+            "difficulty": "medium",
+            "text": "A parent brings frozen expressed breast milk to the hospital. Which handling instruction is correct?",
+            "options": [
+                "Thaw it in the refrigerator, use within 24 hours, and never refreeze the milk",
+                "Thaw it in a microwave on low power, then shake it well to even out the heat",
+                "Thaw it at room temperature overnight and keep it out for the next 12 hours",
+                "Refreeze any milk left over, since freezing kills the bacteria that have grown"
+            ],
+            "correctIndex": 0,
+            "explanation": "Frozen human milk is thawed in the refrigerator or under cool-then-warm running water, used within 24 hours once thawed, and never refrozen. Microwaving is prohibited: it heats unevenly, creates hot spots that scald the infant's mouth, and destroys anti-infective proteins. Warm the container in warm water or a waterless warmer instead, and never boil it. In the facility, fresh expressed milk is generally refrigerated no longer than about 48 hours, and every container carries two patient identifiers that are verified before feeding.",
+            "tags": [
+                "infant feeding",
+                "human milk",
+                "food safety"
+            ]
+        },
+        {
+            "id": "m4-gf-inf-04",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Food Safety",
+            "difficulty": "hard",
+            "text": "A nurse reports that an infant received another mother's expressed breast milk. How should the facility treat this event?",
+            "options": [
+                "As a body fluid exposure: notify the families and the provider, and follow policy",
+                "As a minor error that needs only a note in the chart and no further follow-up",
+                "As a food allergy incident, with the infant observed for a reaction for 24 hours",
+                "As a billing error, corrected by charging the milk to the other family's account"
+            ],
+            "correctIndex": 0,
+            "explanation": "Misadministration of expressed human milk is handled as an exposure to another person's body fluid: notify the receiving infant's family and the provider, notify the mother whose milk was given, review her serologic history (HIV and hepatitis), follow the facility's infection control protocol, and file an incident report. The prevention step is the routine one: two patient identifiers checked against the milk label by two people (or by scanning) before every feeding, and a dedicated, controlled milk storage and preparation area.",
+            "tags": [
+                "infant feeding",
+                "human milk",
+                "safety",
+                "quality"
+            ]
+        },
+        {
+            "id": "m4-gf-inf-05",
+            "moduleId": "mod4",
+            "domain": "Domain IV",
+            "topic": "Food Safety",
+            "difficulty": "medium",
+            "text": "A hospital is setting up a formula preparation room. Which practice belongs in the policy?",
+            "options": [
+                "A dedicated room used only for preparation, staffed by trained personnel using aseptic technique",
+                "Preparation at the bedside by whichever staff member is available, to save transport time",
+                "Batch preparation of a 48-hour supply, held at room temperature in covered pitchers",
+                "Reuse of clean bottles from previous feedings after rinsing them in the unit's utility sink"
+            ],
+            "correctIndex": 0,
+            "explanation": "A formula preparation room is a controlled space used for nothing else: no patient care, no breaks, no storage of unrelated supplies. Trained staff follow aseptic technique with hand hygiene, hair covering, clean gowns, sanitized surfaces, and single-use or sanitized equipment. Prepared feedings are labeled with two identifiers plus preparation and expiration times, cooled and refrigerated promptly (generally used within 24 hours), and transported cold. Bedside preparation, room-temperature batching, and reused containers all create infection risk.",
+            "tags": [
+                "infant feeding",
+                "formula room",
+                "food safety",
+                "hacc"
+            ]
+        },
+        {
+            "id": "m1-gf-dga-01",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Nutrition Science",
+            "difficulty": "medium",
+            "text": "A client asks what changed for dairy in the Dietary Guidelines for Americans, 2025-2030. The accurate answer is:",
+            "options": [
+                "Full-fat dairy without added sugars is included, with a goal of about 3 servings daily",
+                "Dairy was removed from the guidelines entirely and replaced by fortified plant drinks",
+                "Only fat-free dairy is recommended now, and the daily goal was cut to one serving",
+                "Dairy is limited to children, because adults are advised to get calcium from greens"
+            ],
+            "correctIndex": 0,
+            "explanation": "The 2025-2030 edition shifted from the long-standing 'fat-free or low-fat dairy' advice: it now says that when consuming dairy, include FULL-FAT dairy with no added sugars, and sets a goal of 3 servings per day within a 2,000-calorie pattern. It frames dairy as a source of protein, fats, vitamins and minerals. This is one of the clearest departures from the 2020-2025 edition, so read the question stem carefully to see which edition is being tested.",
+            "tags": [
+                "dietary guidelines",
+                "dga 2025",
+                "dairy"
+            ]
+        },
+        {
+            "id": "m1-gf-dga-02",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Nutrition Science",
+            "difficulty": "medium",
+            "text": "According to the Dietary Guidelines for Americans, 2025-2030, what daily protein goal is given for the general population?",
+            "options": [
+                "1.2 to 1.6 grams per kilogram of body weight, adjusted for individual calorie needs",
+                "0.8 grams per kilogram of body weight, matching the RDA for healthy adults",
+                "10% to 35% of total calories, with no gram-per-kilogram target given at all",
+                "2.0 grams per kilogram of body weight for every adult, regardless of activity"
+            ],
+            "correctIndex": 0,
+            "explanation": "The 2025-2030 edition tells Americans to prioritize protein foods at every meal and gives a serving goal of 1.2 to 1.6 g of protein per kilogram of body weight per day, adjusted to individual calorie needs, from a variety of animal sources (eggs, poultry, seafood, red meat) and plant sources (beans, peas, lentils, nuts, seeds, soy). That sits above the RDA of 0.8 g/kg, which remains the DRI value used to define adequacy. Know both numbers and the source of each.",
+            "tags": [
+                "dietary guidelines",
+                "dga 2025",
+                "protein"
+            ]
+        },
+        {
+            "id": "m2-gf-dga-03",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Education",
+            "difficulty": "hard",
+            "text": "Using the Dietary Guidelines for Americans, 2025-2030, how should an RDN counsel a client about added sugars?",
+            "options": [
+                "No amount is recommended; keep any single meal under 10 grams of added sugars",
+                "Keep added sugars under 10% of total calories, the limit carried over unchanged",
+                "Added sugars are unrestricted as long as total calorie needs are not exceeded",
+                "Replace added sugars with non-nutritive sweeteners, which the guidelines encourage"
+            ],
+            "correctIndex": 0,
+            "explanation": "The 2025-2030 edition states that no amount of added sugars (or of non-nutritive sweeteners) is recommended as part of a healthy diet, and gives a practical ceiling of no more than 10 grams of added sugars in any one meal. It also says to avoid sugar-sweetened beverages, and for snack foods to follow the FDA 'Healthy' claim limits. The previous edition's guidance was less than 10% of total calories from added sugars, so name the edition when you quote a number.",
+            "tags": [
+                "dietary guidelines",
+                "dga 2025",
+                "added sugars",
+                "counseling"
+            ]
+        },
+        {
+            "id": "m1-gf-dga-04",
+            "moduleId": "mod1",
+            "domain": "Domain I",
+            "topic": "Nutrition Science",
+            "difficulty": "medium",
+            "text": "A school nurse asks about the sodium limits in the Dietary Guidelines for Americans, 2025-2030 for a 6-year-old and for a 15-year-old. The correct answer is:",
+            "options": [
+                "Less than 1,500 mg per day at age 6; less than 2,300 mg per day at age 15",
+                "Less than 2,300 mg per day for both, because one limit covers all age groups",
+                "Less than 1,200 mg per day at age 6; less than 1,500 mg per day at age 15",
+                "No limit for children; the 2,300 mg limit applies only to adults over age 50"
+            ],
+            "correctIndex": 0,
+            "explanation": "The 2025-2030 edition keeps less than 2,300 mg of sodium per day for the general population aged 14 and older, and adds age-specific limits for children: less than 1,200 mg for ages 1 to 3, less than 1,500 mg for ages 4 to 8, and less than 1,800 mg for ages 9 to 13. It also notes that highly active people may need more sodium to replace sweat losses, and directs people away from highly processed foods, which supply most dietary sodium.",
+            "tags": [
+                "dietary guidelines",
+                "dga 2025",
+                "sodium",
+                "pediatrics"
+            ]
+        },
+        {
+            "id": "m2-gf-dga-05",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Education",
+            "difficulty": "hard",
+            "text": "A mother of a healthy 11-month-old formula-fed infant asks what to do at the first birthday, citing the Dietary Guidelines for Americans, 2025-2030. The RDN should advise:",
+            "options": [
+                "Stop infant formula at 12 months and offer whole milk with family foods",
+                "Continue infant formula until 24 months, then move directly to fat-free milk",
+                "Switch to a toddler drink at 12 months, which the guidelines specifically endorse",
+                "Give fat-free milk at 12 months, because full-fat milk is not advised for toddlers"
+            ],
+            "correctIndex": 0,
+            "explanation": "The 2025-2030 edition says that if an infant is fed or supplemented with infant formula, formula should stop at 12 months of age and whole milk should be offered. Related points from the same section: feed only breast milk for about the first 6 months and continue breastfeeding for 2 years or beyond if mutually desired; give breastfed infants, and infants taking less than 32 ounces of formula per day, a daily 400 IU vitamin D supplement; introduce complementary foods at about 6 months; and avoid added sugars during infancy and early childhood.",
+            "tags": [
+                "dietary guidelines",
+                "dga 2025",
+                "infant feeding",
+                "pediatrics"
+            ]
+        },
+        {
+            "id": "m2-gf-dga-06",
+            "moduleId": "mod2",
+            "domain": "Domain II",
+            "topic": "Nutrition Education",
+            "difficulty": "medium",
+            "text": "An RDN builds a handout from the Dietary Guidelines for Americans, 2025-2030 for a 2,000-calorie pattern. Which set of daily serving goals is correct?",
+            "options": [
+                "3 servings of vegetables, 2 of fruit, 2 to 4 of whole grains, and 3 of dairy",
+                "5 servings of vegetables, 4 of fruit, 6 of whole grains, and 2 of dairy",
+                "2 servings of vegetables, 2 of fruit, 8 of refined grains, and 1 of dairy",
+                "No serving goals are given, since the guidelines use only calorie percentages"
+            ],
+            "correctIndex": 0,
+            "explanation": "For a 2,000-calorie pattern the 2025-2030 edition gives plain serving goals, adjusted to individual calorie needs: vegetables 3 servings per day, fruits 2, whole grains 2 to 4, and dairy 3. It also advises prioritizing protein at every meal (1.2 to 1.6 g/kg/day), choosing whole foods over highly processed ones, limiting refined carbohydrates, keeping saturated fat under 10% of calories, and drinking water or unsweetened beverages rather than sugar-sweetened drinks.",
+            "tags": [
+                "dietary guidelines",
+                "dga 2025",
+                "meal planning",
+                "counseling"
             ]
         }
 ];
