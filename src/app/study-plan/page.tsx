@@ -7,6 +7,7 @@ import Link from "next/link";
 import clsx from "clsx";
 
 import { studyPlanData } from "@/data/studyPlanContent";
+import { SCHEDULE_WEEKS, EXAM_DATE_LABEL, SCHEDULE_START_LABEL } from "@/data/examSchedule";
 
 const CYCLES = [
     { title: "Cycle 1: Foundations (Days 1-10)", from: 1, to: 10 },
@@ -37,6 +38,46 @@ const StudyPlanPage = () => {
                         <li><strong>Highlighted Boxes:</strong> Critical formulas and definitions are usually boxed.</li>
                         <li><strong>Tables:</strong> Comparative data on diseases/nutrients is highly testable.</li>
                     </ul>
+                </div>
+            </section>
+
+            {/* Countdown to the exam. Each week points back at the 30-day plan below. */}
+            <section className={styles.proTip} style={{ display: 'block' }}>
+                <h3 className={styles.proTipTitle}>Countdown: {SCHEDULE_START_LABEL} to {EXAM_DATE_LABEL}</h3>
+                <p style={{ fontSize: '0.85rem', margin: '4px 0 12px' }}>
+                    Seven weekly blocks over the same 30 days below, plus four mock exams under exam
+                    conditions. The topics marked "reported" come from candidate recollections on public
+                    forums: useful for ordering revision, but not published frequencies and no guarantee
+                    of what will be asked. Mock exams stay weighted to the CDR matrix (21/45/21/13).
+                </p>
+                <div style={{ display: 'grid', gap: 12 }}>
+                    {SCHEDULE_WEEKS.map(w => (
+                        <div key={w.week} style={{ border: '1px solid var(--border)', borderRadius: 8, padding: 12 }}>
+                            <div style={{ display: 'flex', gap: 8, alignItems: 'baseline', flexWrap: 'wrap' }}>
+                                <strong>Week {w.week}</strong>
+                                <span style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>{w.dates} · {w.domains}</span>
+                            </div>
+                            <p style={{ margin: '4px 0', fontSize: '0.9rem' }}>{w.focus}</p>
+                            <p style={{ margin: '4px 0', fontSize: '0.85rem' }}>
+                                <strong>Plan days:</strong>{' '}
+                                {w.days.map((d, i) => (
+                                    <React.Fragment key={d}>
+                                        {i > 0 && ', '}
+                                        <Link href={`/study-plan/${d}`}>Day {d}</Link>
+                                    </React.Fragment>
+                                ))}
+                            </p>
+                            <ul style={{ margin: '4px 0 4px 18px', fontSize: '0.85rem' }}>
+                                {w.activities.map(a => (
+                                    <li key={a.label}><Link href={a.href}>{a.label}</Link></li>
+                                ))}
+                            </ul>
+                            <p style={{ margin: '4px 0', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+                                <strong>Reported priorities:</strong> {w.forumFocus.join('; ')}.
+                            </p>
+                            <p style={{ margin: '4px 0 0', fontSize: '0.85rem' }}><strong>Goal:</strong> {w.goal}</p>
+                        </div>
+                    ))}
                 </div>
             </section>
 
