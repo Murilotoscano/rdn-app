@@ -5,16 +5,18 @@ question exposure, or review state. It covers the review queue, completed exams 
 per-question attempted/exposed history. CDR progress, generated questions and their
 progress remain in the downloadable backup.
 
-The migrations were tested against PostgreSQL through PGlite, including a run from an
-empty database (`npm run test:db`) that also checks the access rules. They have **not been
-applied to a live Supabase project as part of this change**. The automated tests
+The migrations were tested against PostgreSQL through PGlite (`npm run test:db`): from an
+empty database, and from a database that already holds saved progress, both with no user
+session, which is what the SQL editor provides. That run also checks the access rules and
+the attribution of pre-existing rows. The migrations have **not been applied to a live
+Supabase project as part of this change**. The automated tests
 use a transport adapter and do not validate the live project's network, PostgREST
 configuration, grants or RLS policies.
 
 ## Apply before releasing the app
 
 0. **Export a backup from every device that has progress** (Profile > Export backup), before
-   any configuration changes. Keep the files; step 7 restores from them if anything is lost.
+   any configuration changes. Keep the files; step 8 restores from them if anything is lost.
 1. Check the existing project first. A DNS failure alone does not prove deletion: a paused
    project usually still resolves and answers with an error. Open the Supabase dashboard and
    look for the project whose reference is the first label of the URL. If it is paused,
@@ -25,23 +27,38 @@ configuration, grants or RLS policies.
 3. In the hosting project's environment, set `NEXT_PUBLIC_SUPABASE_URL` and
    `NEXT_PUBLIC_SUPABASE_ANON_KEY` for that project. Never commit key values, never paste
    them into a chat, and never use a service-role key in the browser.
-4. Apply these files **in this order** through the SQL editor or the migration workflow:
+4. **Create the single study account first**: Authentication > Users > Add user, with an
+   email and a password you choose. Do this **before** step 5, because migration 4 attributes
+   any rows the project already holds to the account when it is the only one in the project.
+   The password is typed into the app on each device and is not stored in this repository.
+5. Apply these files **in this order** through the SQL editor or the migration workflow:
    - `supabase/migrations/20260919_initial_schema.sql` (creates `error_log` and
      `exam_history`; a no-op on a project that already has them)
    - `supabase/migrations/20260920_exam_fields_and_question_exposure.sql`
    - `supabase/migrations/20260921_safe_cross_device_sync.sql`
    - `supabase/migrations/20260922_personal_access.sql` (ownership, row level security,
      removes the anonymous role's access)
-5. Create the single study account: Authentication > Users > Add user, with an email and a
-   password you choose. The password is typed into the app on each device and is not stored
-   in this repository. If the project already held rows, migration 4 assigns them to that
-   user automatically when it is the only user in the project.
-6. Run `select public.rdn_sync_protocol();` in the SQL editor. It must return `1`. That
-   proves the three merge guards exist; it does not prove the browser can reach the project.
-7. Rebuild and redeploy, because `NEXT_PUBLIC_*` values are baked in at build time. Then open
+6. If the account was created **after** migration 4 ran, the existing rows have no owner yet
+   and are invisible to the app. They were not deleted. Claim them once, in the SQL editor:
+
+   ```sql
+   select public.rdn_assign_orphan_rows();
+   ```
+
+   It returns how many rows it attributed, and refuses rather than guessing when the project
+   has no account or more than one; in that case pass the id explicitly,
+   `select public.rdn_assign_orphan_rows('<user id>');`. It is safe to run twice: the second
+   run claims nothing. Ordinary updates cannot do this job, because the merge guards from
+   migration 3 answer an update by returning the stored row, so the function turns each guard
+   off for its own statement and straight back on within the same transaction.
+7. Run `select public.rdn_sync_protocol();` in the SQL editor. It must return `1`. That
+   proves the three merge guards exist and are enabled; it does not prove the browser can
+   reach the project. If it returns `0` right after step 6, a guard was left disabled by an
+   interrupted run: re-apply `20260921_safe_cross_device_sync.sql`.
+8. Rebuild and redeploy, because `NEXT_PUBLIC_*` values are baked in at build time. Then open
    Profile on the iMac, sign in, and press **Sync now**. If a device shows less than it
    should, import its backup from step 0 and sync again: imports merge, they do not replace.
-8. Repeat the sign-in on the iPad using the same account.
+9. Repeat the sign-in on the iPad using the same account.
 
 ## Who can read the data
 
@@ -49,7 +66,13 @@ The anon key is part of the published page, so it cannot protect anything by its
 migration 4 the three tables grant nothing to the anonymous role: every row belongs to a
 `user_id`, row level security only lets that user read or write it, and the app signs in
 from Profile. `npm run test:db` checks exactly this, including that a second signed-in user
-sees none of the owner's rows and that the anonymous role is refused outright.
+sees none of the owner's rows and that the anonymous role is refused outright, cannot read a
+recovered project, and cannot run the attribution function.
+
+`user_id` is deliberately nullable. A row that reaches the table without an owner is kept and
+can be claimed (step 6 above) instead of being rejected and lost, and nothing can create one
+through the API anyway: the insert policy requires `auth.uid() = user_id`, which is never
+true when either side is null.
 
 ## Device acceptance check
 
@@ -99,13 +122,17 @@ focus, becomes visible or reconnects; browser suspension can delay those request
 npm ci
 npm run test:persistence
 npm run test:sync
+npm run test:db
 npm run audit:bank
 npm run build
 ```
 
-The 14 persistence checks cover payloads and local/backup round trips. The 13
+The 14 persistence checks cover payloads and local/backup round trips. The 14
 integration checks run the actual store and SQL migrations with two independent
-device stores and real PostgreSQL. They cover stale and overlapping uploads,
+device stores and real PostgreSQL, including that sync writes nothing without a
+signed-in session. The 34 database checks (`npm run test:db`) cover the three setup
+orders: an empty project, a populated project migrated before the account exists,
+and a populated project with the account created first. They cover stale and overlapping uploads,
 missing metadata, review conflicts, in-flight study actions, read/write failures,
 pagination beyond 1,000 rows, backup restoration, repeatable migrations, and the
 missing-migration guard. These checks do not replace the live device acceptance
