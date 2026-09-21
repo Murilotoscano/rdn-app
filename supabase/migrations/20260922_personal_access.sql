@@ -82,8 +82,40 @@ begin
 end;
 $$;
 
--- Functions are executable by PUBLIC unless told otherwise, and PUBLIC includes anon.
-revoke all on function public.rdn_assign_orphan_rows(uuid) from public;
+-- This function is administrative: it must be reachable from the SQL editor (which connects
+-- as the table owner) and from nowhere else. Two separate grants have to be removed.
+--
+--   * PostgreSQL grants EXECUTE on every new function to PUBLIC.
+--   * Supabase additionally ships `alter default privileges in schema public grant all on
+--     functions to anon, authenticated, service_role`, which writes an explicit grant per
+--     role when the function is created. Revoking from PUBLIC does not remove those, so
+--     without the loop below the function stays callable over PostgREST as /rpc/.
+--
+-- Roles are revoked only if they exist, so this also applies to a plain PostgreSQL database.
+do $$
+declare r text;
+begin
+    execute 'revoke all on function public.rdn_assign_orphan_rows(uuid) from public';
+    foreach r in array array['anon', 'authenticated', 'service_role'] loop
+        if exists (select 1 from pg_catalog.pg_roles where rolname = r) then
+            execute format('revoke all on function public.rdn_assign_orphan_rows(uuid) from %I', r);
+        end if;
+    end loop;
+end $$;
+
+-- rdn_sync_protocol stays callable by the app: the client asks it whether the merge guards
+-- exist before uploading anything. It reads no data, returning only 0 or 1, and the grant is
+-- written out here so it is deliberate rather than inherited from default privileges.
+do $$
+declare r text;
+begin
+    execute 'revoke all on function public.rdn_sync_protocol() from public';
+    foreach r in array array['anon', 'authenticated', 'service_role'] loop
+        if exists (select 1 from pg_catalog.pg_roles where rolname = r) then
+            execute format('grant execute on function public.rdn_sync_protocol() to %I', r);
+        end if;
+    end loop;
+end $$;
 
 -- Recovering a project that already holds rows written before sign-in existed: when the
 -- account already exists and is the only one, those rows are assigned here. Otherwise they
@@ -112,8 +144,12 @@ begin
         execute format('create policy rdn_owner_write on public.%I for insert to authenticated with check (auth.uid() = user_id)', t);
         execute format('create policy rdn_owner_update on public.%I for update to authenticated using (auth.uid() = user_id) with check (auth.uid() = user_id)', t);
         execute format('create policy rdn_owner_delete on public.%I for delete to authenticated using (auth.uid() = user_id)', t);
-        -- The anonymous role keeps no access at all: no policy, and no grant.
-        execute format('revoke all on public.%I from anon', t);
+        -- The anonymous role keeps no access at all: no policy, and no grant. PUBLIC is
+        -- revoked too, so no future role inherits access by simply existing.
+        execute format('revoke all on public.%I from public', t);
+        if exists (select 1 from pg_catalog.pg_roles where rolname = 'anon') then
+            execute format('revoke all on public.%I from anon', t);
+        end if;
         execute format('grant select, insert, update, delete on public.%I to authenticated', t);
     end loop;
 end $$;

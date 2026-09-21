@@ -15,22 +15,35 @@ configuration, grants or RLS policies.
 
 ## Apply before releasing the app
 
-0. **Export a backup from every device that has progress** (Profile > Export backup), before
-   any configuration changes. Keep the files; step 8 restores from them if anything is lost.
-1. Check the existing project first. A DNS failure alone does not prove deletion: a paused
-   project usually still resolves and answers with an error. Open the Supabase dashboard and
-   look for the project whose reference is the first label of the URL. If it is paused,
-   restore it and keep its data; only create a new project if it is really gone.
-2. Confirm which project the app points at. The anon key is a JWT whose `ref` claim must
+Follow these in order. Steps 0 to 2 only read; nothing is changed before step 3.
+
+0. **Export a backup from every device that has progress** (Profile > Export backup). Do this
+   before anything else, and keep the files: step 9 restores from them if a device ends up
+   showing less than it should. If the project itself already holds history, also take a
+   database backup from the dashboard before step 5.
+1. **Find out what the old project actually is.** A DNS failure alone does not prove deletion:
+   a paused project usually still resolves and answers with an error. Open the Supabase
+   dashboard and look for the project whose reference is the first label of the URL. If it is
+   paused, restore it and keep its data; only create a new project if it is really gone.
+2. **Inspect before changing anything.** Paste `supabase/diagnostics/preflight_readonly.sql`
+   into the SQL editor of that project and run it. It is read-only: every statement is a
+   SELECT, and `npm run test:db` checks both that the file contains no write statement and
+   that running it leaves the catalog and the row counts identical. Read the result before
+   continuing:
+   - **Section 1** says whether the three tables exist and how much history is in them.
+   - **Section 2** is the real column list. Compare it with migrations 1 and 2. Do not apply
+     the migrations to an old project whose schema you have not looked at: they are written
+     for the schema in this repository, and an old project may differ.
+   - **Section 6** shows who can read those tables today. An `anon` row there means the data
+     is reachable by anyone with the published key, which migration 4 is what fixes.
+   - **Section 7** is the account count, which decides whether attribution can be automatic.
+3. Confirm which project the app points at. The anon key is a JWT whose `ref` claim must
    equal that first label of `NEXT_PUBLIC_SUPABASE_URL`; if they differ, the URL or the key
    belongs to another project.
-3. In the hosting project's environment, set `NEXT_PUBLIC_SUPABASE_URL` and
-   `NEXT_PUBLIC_SUPABASE_ANON_KEY` for that project. Never commit key values, never paste
-   them into a chat, and never use a service-role key in the browser.
-4. **Create the single study account first**: Authentication > Users > Add user, with an
-   email and a password you choose. Do this **before** step 5, because migration 4 attributes
-   any rows the project already holds to the account when it is the only one in the project.
-   The password is typed into the app on each device and is not stored in this repository.
+4. **Create the single study account**: Authentication > Users > Add user, with an email and
+   a password you choose. Do this **before** step 5: migration 4 attributes existing rows
+   automatically only when the project has exactly one account at that moment. The password
+   is typed into the app on each device and is not stored in this repository.
 5. Apply these files **in this order** through the SQL editor or the migration workflow:
    - `supabase/migrations/20260919_initial_schema.sql` (creates `error_log` and
      `exam_history`; a no-op on a project that already has them)
@@ -38,27 +51,32 @@ configuration, grants or RLS policies.
    - `supabase/migrations/20260921_safe_cross_device_sync.sql`
    - `supabase/migrations/20260922_personal_access.sql` (ownership, row level security,
      removes the anonymous role's access)
-6. If the account was created **after** migration 4 ran, the existing rows have no owner yet
-   and are invisible to the app. They were not deleted. Claim them once, in the SQL editor:
+6. **Validate the attribution.** Run `select public.rdn_sync_protocol();`. It must return `1`,
+   which proves the three merge guards exist and are enabled. If it returns `0` a guard was
+   left disabled by an interrupted run: re-apply `20260921_safe_cross_device_sync.sql`.
+7. **Run the post-migration diagnostic**: `supabase/diagnostics/orphan_rows.sql`, also
+   read-only. The expected result is `0` orphan rows in all three tables.
+
+   If it reports orphans, the account was created after migration 4 ran. The rows were not
+   deleted; they have no owner, and row level security hides them because the policies
+   compare `auth.uid()` with `user_id` and null never matches. With **exactly one account**
+   in the project, claim them once:
 
    ```sql
    select public.rdn_assign_orphan_rows();
    ```
 
-   It returns how many rows it attributed, and refuses rather than guessing when the project
-   has no account or more than one; in that case pass the id explicitly,
-   `select public.rdn_assign_orphan_rows('<user id>');`. It is safe to run twice: the second
-   run claims nothing. Ordinary updates cannot do this job, because the merge guards from
-   migration 3 answer an update by returning the stored row, so the function turns each guard
-   off for its own statement and straight back on within the same transaction.
-7. Run `select public.rdn_sync_protocol();` in the SQL editor. It must return `1`. That
-   proves the three merge guards exist and are enabled; it does not prove the browser can
-   reach the project. If it returns `0` right after step 6, a guard was left disabled by an
-   interrupted run: re-apply `20260921_safe_cross_device_sync.sql`.
-8. Rebuild and redeploy, because `NEXT_PUBLIC_*` values are baked in at build time. Then open
-   Profile on the iMac, sign in, and press **Sync now**. If a device shows less than it
-   should, import its backup from step 0 and sync again: imports merge, they do not replace.
-9. Repeat the sign-in on the iPad using the same account.
+   It returns how many rows it attributed, and is safe to run twice. With no account or more
+   than one it refuses instead of guessing, because nothing in the row says whose history it
+   is; decide who the owner is and pass the id explicitly,
+   `select public.rdn_assign_orphan_rows('<user id>')`. Re-run the diagnostic afterwards and
+   expect `0 / 0 / 0`. Ordinary updates cannot do this job: the merge guards from migration 3
+   answer an update by returning the stored row, so the function turns each guard off for its
+   own statement and back on within the same transaction.
+8. Only now connect the app. Rebuild and redeploy, because `NEXT_PUBLIC_*` values are baked in
+   at build time. Then open Profile on the iMac, sign in, and press **Sync now**.
+9. If a device shows less than it should, import its backup from step 0 and sync again:
+   imports merge, they do not replace. Repeat the sign-in on the iPad using the same account.
 
 ## Who can read the data
 
@@ -70,9 +88,24 @@ sees none of the owner's rows and that the anonymous role is refused outright, c
 recovered project, and cannot run the attribution function.
 
 `user_id` is deliberately nullable. A row that reaches the table without an owner is kept and
-can be claimed (step 6 above) instead of being rejected and lost, and nothing can create one
-through the API anyway: the insert policy requires `auth.uid() = user_id`, which is never
-true when either side is null.
+can be claimed (step 7 above) instead of being rejected and lost, and nothing can create one
+through the API anyway: the insert policy requires `auth.uid() = user_id`, which is never true
+when either side is null. The tests cover each half of that separately: a signed-in user
+cannot insert a row with a null owner or with somebody else's id, cannot un-own or hand over
+a row they own, and cannot take over a row they cannot see.
+
+`rdn_assign_orphan_rows` is administrative and is **not** reachable through the API. Two
+grants have to be removed for that to be true, and only one of them is obvious: PostgreSQL
+grants EXECUTE on every new function to PUBLIC, and Supabase additionally ships
+`alter default privileges in schema public grant all on functions to anon, authenticated,
+service_role`, which writes a separate grant per role at creation time. Revoking PUBLIC alone
+leaves the function callable at `/rest/v1/rpc/rdn_assign_orphan_rows` with the published key.
+Migration 4 revokes both, and the test harness reproduces Supabase's default privileges so the
+check cannot pass against an environment that is stricter than the real project. The function
+stays SECURITY INVOKER with `search_path` pinned to empty and fully qualified references: run
+by anyone other than the table owner it would fail on the very first statement, so the grant
+and the ownership requirement both have to be defeated, not just one. `rdn_sync_protocol` is
+the one function the app does call; it reads no data and returns only 0 or 1.
 
 ## Device acceptance check
 
@@ -130,9 +163,13 @@ npm run build
 The 14 persistence checks cover payloads and local/backup round trips. The 14
 integration checks run the actual store and SQL migrations with two independent
 device stores and real PostgreSQL, including that sync writes nothing without a
-signed-in session. The 34 database checks (`npm run test:db`) cover the three setup
-orders: an empty project, a populated project migrated before the account exists,
-and a populated project with the account created first. They cover stale and overlapping uploads,
+signed-in session. The 75 database checks (`npm run test:db`) cover six project
+states: an empty project; a populated project migrated before the account exists;
+a populated project with the account created first; a populated project with two
+accounts, where nothing may be attributed; a partially attributed project; and a
+signed-in user trying to create or capture unowned rows. They also check the
+function grants against Supabase's own default privileges, and run both
+read-only diagnostics to confirm they report the truth and change nothing. They cover stale and overlapping uploads,
 missing metadata, review conflicts, in-flight study actions, read/write failures,
 pagination beyond 1,000 rows, backup restoration, repeatable migrations, and the
 missing-migration guard. These checks do not replace the live device acceptance
