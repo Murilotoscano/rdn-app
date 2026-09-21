@@ -105,7 +105,8 @@ TOPICS = [
     ("1. Break-even point", r"break-?even"),
     ("2. EP/AP yield and purchasing quantities", r"edible portion|as purchased|yield (factor|test|percent)|\bEP\b|\bAP\b"),
     ("3. Forecasting and moving averages", r"forecast|moving average"),
-    ("4. Employee turnover rate", r"turnover"),
+    ("4. Employee turnover rate", r"\bturnover\b",
+     r"\b(?:employees?|staff|personnel|workforce|workers?|resign\w*|separations?)\b"),
     ("5. Food cost, selling price, profit margin", r"food cost|cost per meal|selling price|profit margin|contribution margin|markup"),
     ("6. Meals per labor hour", r"meals per labor|labor hour|productivity"),
     # A bare number is not a temperature: "sodium 155 mmol/L" must not count here, so the
@@ -118,7 +119,7 @@ TOPICS = [
     ("9. Indirect and fixed costs", r"fixed cost|indirect cost|overhead|variable cost"),
     ("10. Leadership styles in a crisis", r"autocratic|situational leadership|hersey|leadership style"),
     ("11. Commissary, transport and HACCP", r"commissary|cook-?chill|satellite|critical control point|HACCP"),
-    ("12. Labor relations and union arrangements", r"union shop|agency shop|closed shop|collective bargaining|right-to-work|picket|arbitration|arbitrator|\\bmediation\\b|\\bmediator\\b|\\bunion\\b"),
+    ("12. Labor relations and union arrangements", r"union shop|agency shop|closed shop|collective bargaining|right-to-work|picket|arbitration|arbitrator|\bmediation\b|\bmediator\b|\bunion\b"),
     # "ADA" also stands for American Diabetes Association, and it hides inside "LADA", so the
     # acronym only counts with employment-law context in the same question.
     ("13. FLSA and Civil Rights Act",
@@ -147,7 +148,7 @@ TOPICS = [
     ("33. Addison disease", r"addison|adrenal"),
     ("34. Vegan and lacto-vegetarian nutrition", r"vegan|vegetarian|complementary protein"),
     ("35. Physical signs of deficiency", r"koilonychia|corkscrew|glossitis|cheilosis|Bitot|physical exam|temporalis|muscle wasting|fat loss"),
-    ("36. FOCUS process improvement", r"FOCUS-PDSA|FOCUS model|\\bPDSA\\b|\\bPDCA\\b|FADE model|continuous quality improvement"),
+    ("36. FOCUS process improvement", r"FOCUS-PDSA|FOCUS model|\bPDSA\b|\bPDCA\b|FADE model|continuous quality improvement"),
     ("37. B-vitamin deficiencies", r"thiamin|riboflavin|niacin|pyridoxine|B12|folate|beriberi|pellagra"),
     ("38. Education, needs assessment, program planning", r"needs assessment|program planning|logic model|learning objective|formative evaluation|summative"),
     ("39. Counseling and motivational interviewing", r"motivational interviewing|stages of change|transtheoretical|OARS|sustain talk|counseling"),
@@ -159,7 +160,7 @@ TOPICS = [
     ("45. Medical terminology", r"medical terminology|prefix|suffix|dysphagia|-emia|hepatomegaly|oliguria|pancytopenia"),
     ("46. Communication and technology in education", r"teach-back|health literacy|telehealth|readability|handout|learning style"),
     ("47. Choosing a communication channel", r"interpreter|literacy|cultural|channel|written material"),
-    ("48. Management and leadership", r"\\bleadership\\b|\\bdelegat|span of control|Theory [XYZ]\\b|management skill|scalar principle|chain of command"),
+    ("48. Management and leadership", r"\bleadership\b|\bdelegat|span of control|Theory [XYZ]\b|management skill|scalar principle|chain of command"),
     ("49. Best-answer applied cases (skill)", r"\bBEST\b|most appropriate|most likely"),
     ("50. First-action prioritisation (skill)", r"\bFIRST\b|initial step|first step"),
 ]
@@ -186,6 +187,9 @@ def absolute_cue(qs):
 # Items whose classification was read and judged by hand, not just matched. The note is the
 # justification that belongs with the id in the report.
 REVIEWED = {
+    "4.": {**{qid: "EXCLUDED: inventory or storage turnover does not assess employee turnover"
+              for qid in ("m3-pdf-64", "dom3-ext-003", "m3-fsl-003", "m4-pdf-67", "m4-gf-fp-08")},
+           "m3-gf-turn-02": "INCLUDED: names inventory turnover only to contrast it with employee turnover"},
     "7.": {"m2-renal-004": "EXCLUDED: '155 mmol/L' is serum sodium, not a food temperature",
            "m4-pdf-90": "INCLUDED: minimum internal cooking temperature for poultry",
            "m4-pdf-47": "INCLUDED: defines the temperature danger zone"},
@@ -199,6 +203,8 @@ REVIEWED = {
 
 # Regression cases: (topic prefix, question id, should it be counted, why)
 SELFTEST_CASES = [
+    *(('4.', qid, False, 'inventory turnover is not employee turnover')
+      for qid in ("m3-pdf-64", "dom3-ext-003", "m3-fsl-003", "m4-pdf-67", "m4-gf-fp-08")),
     ("7.", "m2-renal-004", False, "serum sodium 155 mmol/L is not a food temperature"),
     ("13.", "m2-mnt-120", False, "LADA is a diabetes subtype, not the ADA employment law"),
     ("7.", "m4-pdf-90", True, "165 F minimum internal cooking temperature for poultry"),
@@ -208,6 +214,19 @@ SELFTEST_CASES = [
     ("17.", "m2-gf-pku-01", True, "phenylalanine-restricted food choices"),
     ("29.", "m2-mnt-084", True, "sodium intake target on the TLC diet"),
     ("42.", "m1-gf-stat-01", True, "stating the null hypothesis"),
+    ("4.", "m3-gf-turn-01", True, "employee turnover rate from separations and average headcount"),
+    ("4.", "m3-gf-turn-02", True, "teaches the difference between employee and inventory turnover"),
+]
+
+# Synthetic inputs only test the classifier. They are never included in bank coverage.
+SYNTHETIC_CASES = [
+    ("4.", "A department averaged 40 employees and had 8 separations. What is its annual turnover rate?", "20%", True),
+    ("4.", "What is the inventory turnover rate for a cafeteria with 40 employees?", "Food used divided by average inventory", False),
+    ("12.", "A union represents the staff in a dispute.", "Mediation", True),
+    ("36.", "Which step follows Plan in PDSA?", "Do", True),
+    ("36.", "What should the clinician focus on?", "The intake history", False),
+    ("48.", "Which leadership approach shares decision making?", "Democratic", True),
+    ("48.", "Under Theory Y, how are employees viewed?", "Capable of self-direction", True),
 ]
 
 
@@ -222,6 +241,12 @@ def selftest(qs):
         got = qid in rows[topic]
         if got != expected:
             failures.append(f"{topic}: {qid} {'counted but should not be' if got else 'missing but should count'} ({why})")
+    for prefix, stem, answer, expected in SYNTHETIC_CASES:
+        fixture = {'id': 'classifier-fixture', 'text': stem, 'options': [answer],
+                   'correctIndex': 0, 'domain': 'test'}
+        got = next(bool(ids) for name, ids, _ in coverage([fixture]) if name.startswith(prefix))
+        if got != expected:
+            failures.append(f"{prefix} synthetic case: {stem!r}, expected {expected}, got {got}")
     return failures
 
 
@@ -237,11 +262,17 @@ def coverage(qs):
 
         def hits(q):
             fields = (q["text"], q["options"][q["correctIndex"]])
+            if name.startswith('4.'):
+                joined = ' '.join(fields)
+                # Inventory turnover is a different ratio, so it is excluded - unless the item
+                # is teaching the difference and names employee turnover too.
+                if (re.search(r'\b(?:inventory|stock|storage)\s+turnover\b', joined, re.I)
+                        and not re.search(r'\b(?:employee|staff|personnel|labor|labour)\s+turnover\b', joined, re.I)):
+                    return False
             if not any(rx.search(f) for f in fields):
                 return False
-            # The context test may be satisfied anywhere in the item, so a question can name
-            # the law in the stem and the employment situation in an option.
-            return cx is None or any(cx.search(f) for f in (q["text"], *q["options"]))
+            # A distractor's context cannot turn an unrelated item into topic coverage.
+            return cx is None or any(cx.search(f) for f in fields)
 
         ids = [q["id"] for q in qs if hits(q)]
         doms = sorted({q["domain"] for q in qs if q["id"] in set(ids)})
@@ -283,9 +314,9 @@ def main():
                "reviewed by reading items, not by this script.\n")
     fails = selftest(qs)
     out.append("\n## 3. Topic coverage\n")
-    out.append(("Regression cases: all " + str(len(SELFTEST_CASES)) + " pass "
-                "(two of them are the false positives fixed in this round: serum sodium 155 mmol/L "
-                "no longer counts as a foodservice temperature, and LADA no longer counts as employment law).\n")
+    out.append(("Regression cases: all " + str(len(SELFTEST_CASES) + len(SYNTHETIC_CASES)) + " pass "
+                "(including serum sodium versus food temperatures, LADA versus employment law, "
+                "inventory versus employee turnover, and word-boundary checks for labor relations, PDSA and leadership).\n")
                if not fails else ("**Regression cases FAILED:**\n" + "\n".join(f"- {f}" for f in fails) + "\n"))
     out.append("A question counts for a topic only when the pattern matches the STEM or the CORRECT "
                "ANSWER. Matches confined to a distractor or an explanation are excluded.\n")
@@ -319,6 +350,8 @@ def main():
     print(text if "--markdown" not in sys.argv else
           f"{len(qs)} questions, {len(problems)} integrity problems, "
           f"key strictly longest {chars['strict_longest_pct']:.1f}% (chars) / {words['strict_longest_pct']:.1f}% (words)")
+    if problems or fails:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

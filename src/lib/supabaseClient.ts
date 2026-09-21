@@ -16,5 +16,18 @@ if (!isSupabaseConfigured) {
 // Fallback to placeholder values if missing to prevent build crash
 export const supabase = createClient(
   supabaseUrl || 'https://placeholder-url.supabase.co',
-  supabaseAnonKey || 'placeholder-key'
+  supabaseAnonKey || 'placeholder-key',
+  { global: { fetch: async (input, init) => {
+    const controller = new AbortController();
+    const abort = () => controller.abort();
+    const sourceSignal = init?.signal;
+    if (sourceSignal?.aborted) abort();
+    sourceSignal?.addEventListener('abort', abort, { once: true });
+    const timeout = setTimeout(abort, 12_000);
+    try { return await fetch(input, { ...init, signal: controller.signal }); }
+    finally {
+      clearTimeout(timeout);
+      sourceSignal?.removeEventListener('abort', abort);
+    }
+  } } }
 );

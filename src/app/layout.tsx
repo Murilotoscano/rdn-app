@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import StudySync from '@/components/StudySync';
 
 export const metadata: Metadata = {
   title: "RDN Exam Practice",
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body suppressHydrationWarning>
+        <StudySync />
         <div style={{ 
           position: "fixed", 
           top: "10px", 

@@ -85,6 +85,9 @@ export default function ResultPage() {
                     {data.freshTotal === 0 && (
                         <p>Every question in this exam was one you had attempted before, so this score partly reflects memory.</p>
                     )}
+                    {data.freshTotal == null && (
+                        <p>Unseen-question accuracy is unavailable because question history was not verified for this session.</p>
+                    )}
                     <p>
                         Aim to score {PRACTICE_TARGET_PCT}% or higher consistently across mock exams.
                         This is a practice benchmark, not a prediction: this mock is a fixed

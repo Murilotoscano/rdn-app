@@ -140,6 +140,71 @@ const INTERVALS_HOURS = [24, 72, 168, 336]; // 1d, 3d, 7d, 14d
 
 const hoursToMs = (h: number) => h * 60 * 60 * 1000;
 
+let protocolCheck: Promise<void> | null = null;
+let syncInFlight: Promise<SyncResult> | null = null;
+let syncTimer: ReturnType<typeof setTimeout> | undefined;
+let localRevision = 0;
+let cloudStatus: { result: SyncResult; lastSuccessAt: number | null } = {
+    result: { state: 'disabled', message: 'Not synced yet' }, lastSuccessAt: null
+};
+
+function announceDataChange() {
+    if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function') {
+        window.dispatchEvent(new Event('rdn-data-changed'));
+    }
+}
+
+function scheduleSync() {
+    localRevision++;
+    announceDataChange();
+    if (!isSupabaseConfigured) return;
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(() => { void store.fullSync(); }, 500);
+}
+
+async function requireSafeSync() {
+    if (!protocolCheck) {
+        protocolCheck = (async () => {
+            const { data, error } = await supabase.rpc('rdn_sync_protocol');
+            if (error || data !== 1) {
+                throw new Error('Cloud sync is unavailable or needs its database update. Your progress remains on this device.');
+            }
+        })();
+    }
+    try { await protocolCheck; }
+    catch (error) { protocolCheck = null; throw error; }
+}
+
+function syncFailure(error: unknown): SyncResult {
+    const detail = error && typeof error === 'object' && 'message' in error
+        ? String(error.message) : 'Cloud sync failed. Your progress remains on this device.';
+    return { state: 'error', message: detail };
+}
+
+async function readRemoteRows(table: 'error_log' | 'exam_history' | 'question_exposure', key: string) {
+    // PostgREST normally caps one response at 1,000 rows. The question bank is larger.
+    const rows: Record<string, any>[] = [];
+    const pageSize = 500;
+    for (let offset = 0; ; offset += pageSize) {
+        const { data, error } = await supabase.from(table).select('*')
+            .order(key).range(offset, offset + pageSize - 1);
+        if (error) throw error;
+        rows.push(...(data ?? []));
+        if (!data || data.length < pageSize) return rows;
+    }
+}
+
+function mergeReviewItem(local: ErrorLogItem, incoming: ErrorLogItem): ErrorLogItem {
+    const localTime = local.lastAttemptAt ?? local.dateLoggedAt ?? 0;
+    const incomingTime = incoming.lastAttemptAt ?? incoming.dateLoggedAt ?? 0;
+    const latest = incomingTime > localTime ? incoming : local;
+    const wrongCount = Math.max(local.wrongCount ?? 0, incoming.wrongCount ?? 0);
+    const unsureCount = Math.max(local.unsureCount ?? 0, incoming.unsureCount ?? 0);
+    const confidentCount = Math.max(local.confidentCount ?? 0, incoming.confidentCount ?? 0);
+    return { ...latest, wrongCount, unsureCount, confidentCount,
+        attempts: Math.max(local.attempts ?? 0, incoming.attempts ?? 0, wrongCount + unsureCount + confidentCount) };
+}
+
 function migrateErrorLogIfNeeded(raw: any): ErrorLogItem[] {
     if (!raw) return [];
 
@@ -236,6 +301,7 @@ function applyErrorToLog(
 // --- Store Implementation ---
 
 export const store = {
+    getCloudStatus: () => cloudStatus,
     // Reads raw storage and migrates if needed
     getErrorLog: (): ErrorLogItem[] => {
         if (typeof window === 'undefined') return [];
@@ -261,18 +327,22 @@ export const store = {
         };
         localStorage.setItem(STORAGE_KEYS.ERROR_LOG, JSON.stringify(storageObj));
         
-        // Background sync to Supabase
-        store.syncUpErrorLog(data);
+        scheduleSync();
     },
 
     saveExamResult: (result: ExamResult) => {
         if (typeof window === 'undefined') return;
         const history = store.getExamHistory();
-        history.push(result);
+        const idx = history.findIndex(item => item.id === result.id);
+        if (idx < 0) history.push(result);
+        else history[idx] = { ...result, ...history[idx],
+            realConditions: history[idx].realConditions ?? result.realConditions,
+            inconclusive: history[idx].inconclusive ?? result.inconclusive,
+            freshTotal: history[idx].freshTotal ?? result.freshTotal,
+            freshCorrect: history[idx].freshCorrect ?? result.freshCorrect };
         localStorage.setItem(STORAGE_KEYS.EXAM_HISTORY, JSON.stringify(history));
 
-        // Background sync to Supabase
-        store.syncUpExamHistory(history);
+        scheduleSync();
     },
 
     getExamHistory: (): ExamResult[] => {
@@ -286,6 +356,8 @@ export const store = {
     syncUpErrorLog: async (data: ErrorLogItem[]): Promise<SyncResult> => {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
         try {
+            await requireSafeSync();
+            if (!data.length) return { state: 'ok', message: 'No review items to sync' };
             // Upsert all items. questionId is the primary key.
             const { error } = await supabase
                 .from('error_log')
@@ -312,13 +384,15 @@ export const store = {
             return { state: 'ok', message: 'Error log synced' };
         } catch (e) {
             console.error("Failed to sync error log to Supabase", e);
-            return { state: 'error', message: e instanceof Error ? e.message : 'Sync failed' };
+            return syncFailure(e);
         }
     },
 
     syncUpExamHistory: async (history: ExamResult[]): Promise<SyncResult> => {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
         try {
+            await requireSafeSync();
+            if (!history.length) return { state: 'ok', message: 'No exam history to sync' };
             const { error } = await supabase
                 .from('exam_history')
                 .upsert(history.map(item => ({
@@ -341,7 +415,7 @@ export const store = {
             return { state: 'ok', message: 'Exam history synced' };
         } catch (e) {
             console.error("Failed to sync exam history to Supabase", e);
-            return { state: 'error', message: e instanceof Error ? e.message : 'Sync failed' };
+            return syncFailure(e);
         }
     },
 
@@ -413,28 +487,28 @@ export const store = {
 
     syncUpExposure: async (): Promise<SyncResult> => {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
-        const payload = store.buildExposurePayload();
-        if (payload.length === 0) return { state: 'ok', message: 'No question history to sync' };
         try {
+            await requireSafeSync();
+            const payload = store.buildExposurePayload();
+            if (payload.length === 0) return { state: 'ok', message: 'No question history to sync' };
             const { error } = await supabase.from('question_exposure').upsert(payload);
             if (error) throw error;
             return { state: 'ok', message: 'Question history synced' };
         } catch (e) {
             console.error('Failed to sync question exposure to Supabase', e);
-            return { state: 'error', message: e instanceof Error ? e.message : 'Sync failed' };
+            return syncFailure(e);
         }
     },
 
     syncDownExposure: async (): Promise<SyncResult> => {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
         try {
-            const { data, error } = await supabase.from('question_exposure').select('*');
-            if (error) throw error;
-            store.applyExposurePayload(data ?? []);
+            const data = await readRemoteRows('question_exposure', 'question_id');
+            store.applyExposurePayload(data as { question_id: string; seen_at?: number; exposed_at?: number }[]);
             return { state: 'ok', message: 'Question history restored' };
         } catch (e) {
             console.error('Failed to sync question exposure from Supabase', e);
-            return { state: 'error', message: e instanceof Error ? e.message : 'Sync failed' };
+            return syncFailure(e);
         }
     },
 
@@ -443,14 +517,8 @@ export const store = {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
 
         try {
-            console.log("Starting sync down from Supabase...");
-            
             // 1. Fetch Error Log
-            const { data: remoteErrorLog, error: err1 } = await supabase
-                .from('error_log')
-                .select('*');
-            
-            if (err1) throw err1;
+            const remoteErrorLog = await readRemoteRows('error_log', 'question_id');
 
             if (remoteErrorLog && remoteErrorLog.length > 0) {
                 const localData = store.getErrorLog();
@@ -478,7 +546,7 @@ export const store = {
                     };
 
                     if (idx >= 0) {
-                        mergedErrorLog[idx] = transformed;
+                        mergedErrorLog[idx] = mergeReviewItem(mergedErrorLog[idx], transformed);
                     } else {
                         mergedErrorLog.push(transformed);
                     }
@@ -492,11 +560,7 @@ export const store = {
             }
 
             // 2. Fetch Exam History
-            const { data: remoteHistory, error: err2 } = await supabase
-                .from('exam_history')
-                .select('*');
-
-            if (err2) throw err2;
+            const remoteHistory = await readRemoteRows('exam_history', 'id');
 
             if (remoteHistory && remoteHistory.length > 0) {
                 store.applyRemoteExamHistory(remoteHistory);
@@ -505,49 +569,59 @@ export const store = {
             return { state: 'ok', message: 'Sync complete' };
         } catch (e) {
             console.error("Failed to sync down from Supabase", e);
-            return { state: 'error', message: e instanceof Error ? e.message : 'Sync failed' };
+            return syncFailure(e);
         }
     },
 
     /**
-     * Pushes local data up, then pulls remote down. Reports the real outcome so the UI can
-     * say "not backed up" instead of showing a timestamp after every request failed.
+     * Read and merge before sending, then read back the server's accepted result.
+     * Server triggers make overlapping uploads safe, including cached old app versions.
+     * A change made while requests are in flight gets another pass before success.
      */
     fullSync: async (): Promise<SyncResult> => {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
 
-        const results = [
-            await store.syncUpErrorLog(store.getErrorLog()),
-            await store.syncUpExamHistory(store.getExamHistory()),
-            await store.syncUpExposure(),
-            await store.syncDown(),
-            await store.syncDownExposure(),
-        ];
-
-        const failed = results.find(r => r.state === 'error');
-        if (failed) return failed;
-        return { state: 'ok', message: 'Synced' };
+        if (syncInFlight) return syncInFlight;
+        clearTimeout(syncTimer);
+        syncInFlight = (async () => {
+            try {
+                await requireSafeSync();
+                let revision: number;
+                do {
+                    revision = localRevision;
+                    for (const operation of [
+                        () => store.syncDown(),
+                        () => store.syncDownExposure(),
+                        () => store.syncUpErrorLog(store.getErrorLog()),
+                        () => store.syncUpExamHistory(store.getExamHistory()),
+                        () => store.syncUpExposure(),
+                        () => store.syncDown(),
+                        () => store.syncDownExposure(),
+                    ]) {
+                        const result = await operation();
+                        if (result.state !== 'ok') return result;
+                    }
+                } while (revision !== localRevision);
+                return { state: 'ok', message: 'Review queue, completed exams and question history synced.' } as SyncResult;
+            } catch (error) {
+                return syncFailure(error);
+            }
+        })().then(result => {
+            cloudStatus = { result, lastSuccessAt: result.state === 'ok' ? Date.now() : cloudStatus.lastSuccessAt };
+            return result;
+        }).finally(() => {
+            syncInFlight = null;
+            announceDataChange();
+        });
+        return syncInFlight;
     },
 
     /**
-     * Probes the remote before claiming it works. Credentials being present in .env is not
-     * the same as the project still existing, which is exactly how a dead backend can look
-     * healthy in the UI while every write silently fails.
+     * Exercise the same guarded round trip as actual sync. A successful SELECT alone
+     * cannot establish that writes, the exposure table, or the migrations work.
      */
     checkRemote: async (): Promise<SyncResult> => {
-        if (!isSupabaseConfigured) {
-            return { state: 'disabled', message: 'Cloud sync is not configured' };
-        }
-        try {
-            const { error } = await supabase.from('exam_history').select('id').limit(1);
-            if (error) throw error;
-            return { state: 'ok', message: 'Cloud sync is working' };
-        } catch (e) {
-            return {
-                state: 'error',
-                message: e instanceof Error ? e.message : 'Cloud backend is unreachable'
-            };
-        }
+        return store.fullSync();
     },
 
     // --- Backup / Restore (works with no server) ---
@@ -594,6 +668,7 @@ export const store = {
         const now = Date.now();
         for (const id of questionIds) seen[id] = now;
         localStorage.setItem(STORAGE_KEYS.SEEN, JSON.stringify(seen));
+        scheduleSync();
     },
 
     /**
@@ -615,6 +690,7 @@ export const store = {
         const now = Date.now();
         for (const id of questionIds) exposed[id] = now;
         localStorage.setItem(STORAGE_KEYS.EXPOSED, JSON.stringify(exposed));
+        scheduleSync();
     },
 
     /** Anything already attempted OR merely shown: what "unseen first" must avoid. */
@@ -738,19 +814,28 @@ export const store = {
             if (idx === -1) {
                 log.push(item);
                 added++;
-            } else if ((item.lastAttemptAt ?? 0) > (log[idx].lastAttemptAt ?? 0)) {
-                log[idx] = item;
-                updated++;
+            } else {
+                const merged = mergeReviewItem(log[idx], item);
+                if (JSON.stringify(merged) !== JSON.stringify(log[idx])) updated++;
+                log[idx] = merged;
             }
         }
         store.saveErrorLog(log);
 
         const history = store.getExamHistory();
-        const seen = new Set(history.map(h => h.id));
-        const newExams = (incoming.examHistory ?? []).filter(h => !seen.has(h.id));
-        if (newExams.length > 0) {
-            localStorage.setItem(STORAGE_KEYS.EXAM_HISTORY, JSON.stringify([...history, ...newExams]));
+        let examsAdded = 0;
+        for (const item of incoming.examHistory ?? []) {
+            const idx = history.findIndex(h => h.id === item.id);
+            if (idx < 0) { history.push(item); examsAdded++; }
+            else {
+                history[idx] = { ...history[idx],
+                    realConditions: history[idx].realConditions ?? item.realConditions,
+                    inconclusive: history[idx].inconclusive ?? item.inconclusive,
+                    freshTotal: history[idx].freshTotal ?? item.freshTotal,
+                    freshCorrect: history[idx].freshCorrect ?? item.freshCorrect };
+            }
         }
+        localStorage.setItem(STORAGE_KEYS.EXAM_HISTORY, JSON.stringify(history));
 
         // Progress maps are keyed by question id, so a plain merge is enough.
         store.saveCdrProgress({ ...(incoming.cdrProgress ?? {}), ...store.getCdrProgress() });
@@ -771,7 +856,8 @@ export const store = {
         }
         localStorage.setItem(STORAGE_KEYS.EXPOSED, JSON.stringify(exposedMap));
 
-        return { added, updated, examsAdded: newExams.length };
+        scheduleSync();
+        return { added, updated, examsAdded };
     },
 
     // 1. Log Error (from Practice Mode)

@@ -10,6 +10,7 @@ import { SAMPLE_QUESTIONS, QUESTION_IDS } from "@/lib/questions";
 import ScoreTrendChart from "@/components/ScoreTrendChart";
 import { EXAM_MAX_QUESTIONS } from "@/lib/examRules";
 import { MIN_FRESH_FOR_VERDICT } from "@/lib/targets";
+import { subscribeToData } from '@/lib/backup';
 
 export default function Home() {
   const [counts, setCounts] = useState<{
@@ -33,63 +34,67 @@ export default function Home() {
   const [sync, setSync] = useState<SyncResult>({ state: 'disabled', message: 'Not synced yet' });
 
   useEffect(() => {
-    const reviewCounts = store.getReviewCounts(QUESTION_IDS);
-    setCounts(reviewCounts);
+    const refresh = () => {
+      const reviewCounts = store.getReviewCounts(QUESTION_IDS);
+      setCounts(reviewCounts);
 
-    // Reported as separate facts. There is no single "readiness" number here: the CDR scaled
-    // score (1-50, pass = 25) comes from an adaptive exam and cannot be derived from a
-    // percentage of this bank, so nothing on this page is converted into one.
-    setProgress(store.getCoverage(QUESTION_IDS));
+      // Reported as separate facts. There is no single "readiness" number here: the CDR scaled
+      // score (1-50, pass = 25) comes from an adaptive exam and cannot be derived from a
+      // percentage of this bank, so nothing on this page is converted into one.
+      setProgress(store.getCoverage(QUESTION_IDS));
 
-    const history = store.getExamHistory();
-    const sum = (rows: typeof history) => rows.reduce(
-      (acc, h) => ({ correct: acc.correct + h.score, total: acc.total + h.totalQuestions }),
-      { correct: 0, total: 0 }
-    );
-    const mocks = history.filter(h => h.mode === 'mock');
-    const drills = history.filter(h => h.mode !== 'mock');
-    const mockTotals = sum(mocks);
-    const drillTotals = sum(drills);
-    setAccuracy({
-      practicePct: drillTotals.total > 0 ? Math.round((drillTotals.correct / drillTotals.total) * 100) : null,
-      practiceN: drillTotals.total,
-      mockPct: mockTotals.total > 0 ? Math.round((mockTotals.correct / mockTotals.total) * 100) : null,
-      mockN: mockTotals.total
-    });
-
-    const byDomain: Record<string, { correct: number; total: number }> = {};
-    history.forEach(h => Object.entries(h.domainScores ?? {}).forEach(([domain, score]) => {
-      if (!byDomain[domain]) byDomain[domain] = { correct: 0, total: 0 };
-      byDomain[domain].correct += score.correct;
-      byDomain[domain].total += score.total;
-    }));
-    setDomains(
-      Object.entries(byDomain)
-        .filter(([, v]) => v.total > 0)
-        .map(([domain, v]) => ({ domain, pct: Math.round((v.correct / v.total) * 100), total: v.total }))
-        .sort((a, b) => a.domain.localeCompare(b.domain))
-    );
-
-    // Only a mock taken under real conditions is reported as one.
-    const realMocks = mocks.filter(h => h.realConditions);
-    const latest = realMocks.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))[0];
-    if (latest) {
-      const freshEnough = (latest.freshTotal ?? 0) >= MIN_FRESH_FOR_VERDICT;
-      setLastMock({
-        date: new Date(latest.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
-        pct: latest.totalQuestions > 0 ? Math.round((latest.score / latest.totalQuestions) * 100) : 0,
-        answered: latest.totalQuestions,
-        total: EXAM_MAX_QUESTIONS,
-        inconclusive: !!latest.inconclusive,
-        freshPct: freshEnough ? Math.round(((latest.freshCorrect ?? 0) / (latest.freshTotal ?? 1)) * 100) : null,
-        freshTotal: latest.freshTotal ?? 0
+      const history = store.getExamHistory();
+      const sum = (rows: typeof history) => rows.reduce(
+        (acc, h) => ({ correct: acc.correct + h.score, total: acc.total + h.totalQuestions }),
+        { correct: 0, total: 0 }
+      );
+      const mocks = history.filter(h => h.mode === 'mock');
+      const drills = history.filter(h => h.mode !== 'mock');
+      const mockTotals = sum(mocks);
+      const drillTotals = sum(drills);
+      setAccuracy({
+        practicePct: drillTotals.total > 0 ? Math.round((drillTotals.correct / drillTotals.total) * 100) : null,
+        practiceN: drillTotals.total,
+        mockPct: mockTotals.total > 0 ? Math.round((mockTotals.correct / mockTotals.total) * 100) : null,
+        mockN: mockTotals.total
       });
-    }
 
-    setMounted(true);
+      const byDomain: Record<string, { correct: number; total: number }> = {};
+      history.forEach(h => Object.entries(h.domainScores ?? {}).forEach(([domain, score]) => {
+        if (!byDomain[domain]) byDomain[domain] = { correct: 0, total: 0 };
+        byDomain[domain].correct += score.correct;
+        byDomain[domain].total += score.total;
+      }));
+      setDomains(
+        Object.entries(byDomain)
+          .filter(([, v]) => v.total > 0)
+          .map(([domain, v]) => ({ domain, pct: Math.round((v.correct / v.total) * 100), total: v.total }))
+          .sort((a, b) => a.domain.localeCompare(b.domain))
+      );
 
-    // Initial Sync
-    handleSync();
+      // Only a mock taken under real conditions is reported as one.
+      const realMocks = mocks.filter(h => h.realConditions);
+      const latest = realMocks.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))[0];
+      if (latest) {
+        const freshEnough = (latest.freshTotal ?? 0) >= MIN_FRESH_FOR_VERDICT;
+        setLastMock({
+          date: new Date(latest.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }),
+          pct: latest.totalQuestions > 0 ? Math.round((latest.score / latest.totalQuestions) * 100) : 0,
+          answered: latest.totalQuestions,
+          total: EXAM_MAX_QUESTIONS,
+          inconclusive: !!latest.inconclusive,
+          freshPct: freshEnough ? Math.round(((latest.freshCorrect ?? 0) / (latest.freshTotal ?? 1)) * 100) : null,
+          freshTotal: latest.freshTotal ?? 0
+        });
+      } else setLastMock(null);
+
+      setMounted(true);
+      const status = store.getCloudStatus();
+      setSync(status.result);
+      if (status.lastSuccessAt) setLastSync(new Date(status.lastSuccessAt).toLocaleTimeString());
+    };
+    refresh();
+    return subscribeToData(refresh);
   }, []);
 
   const handleSync = async () => {

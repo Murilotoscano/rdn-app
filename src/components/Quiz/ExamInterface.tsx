@@ -20,9 +20,10 @@ interface Props {
      * and only answered questions are scored. Off keeps the older review-friendly mock.
      */
     realConditions: boolean;
+    freshHistoryAvailable?: boolean;
 }
 
-export default function ExamInterface({ questions, freshIds, realConditions }: Props) {
+export default function ExamInterface({ questions, freshIds, realConditions, freshHistoryAvailable = true }: Props) {
     const router = useRouter();
     const [currIndex, setCurrIndex] = useState(0);
     const [answers, setAnswers] = useState<Record<number, number>>({});
@@ -112,8 +113,8 @@ export default function ExamInterface({ questions, freshIds, realConditions }: P
             mode: 'mock',
             realConditions,
             inconclusive,
-            freshTotal,
-            freshCorrect
+            freshTotal: freshHistoryAvailable ? freshTotal : undefined,
+            freshCorrect: freshHistoryAvailable ? freshCorrect : undefined
         });
 
         // And this is what puts the mock's misses into the review queue.
@@ -133,13 +134,13 @@ export default function ExamInterface({ questions, freshIds, realConditions }: P
             realConditions,
             inconclusive,
             answeredCount,
-            freshTotal,
-            freshCorrect
+            freshTotal: freshHistoryAvailable ? freshTotal : undefined,
+            freshCorrect: freshHistoryAvailable ? freshCorrect : undefined
         };
         localStorage.setItem('lastExamResult', JSON.stringify(resultData));
 
         router.push('/simulation/result');
-    }, [answers, questions, router, startedAt, freshIds, realConditions]);
+    }, [answers, questions, router, startedAt, freshIds, realConditions, freshHistoryAvailable]);
 
     const currQuestion = questions[currIndex];
 

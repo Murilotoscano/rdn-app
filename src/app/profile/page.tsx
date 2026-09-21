@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import AppLayout from "@/components/Layout/AppLayout";
 import { store, SyncResult } from "@/lib/store";
 import { downloadBackup, notifyDataChanged, subscribeToData } from "@/lib/backup";
-import { Download, Upload, ShieldCheck, ShieldAlert, User } from "lucide-react";
+import { Download, Upload, ShieldCheck, ShieldAlert, User, RefreshCw } from "lucide-react";
 
 interface Summary {
     logged: number;
@@ -54,12 +54,14 @@ export default function ProfilePage() {
     const summary = useSyncExternalStore(subscribeToData, getSummary, getServerSummary);
     const [message, setMessage] = useState<{ kind: 'ok' | 'error'; text: string } | null>(null);
     const [remote, setRemote] = useState<SyncResult | null>(null);
+    const [syncing, setSyncing] = useState(false);
     const fileInput = useRef<HTMLInputElement>(null);
 
     useEffect(() => {
         let live = true;
         store.checkRemote().then(r => { if (live) setRemote(r); });
-        return () => { live = false; };
+        const unsubscribe = subscribeToData(() => setRemote(store.getCloudStatus().result));
+        return () => { live = false; unsubscribe(); };
     }, []);
 
     const handleExport = () => {
@@ -116,15 +118,22 @@ export default function ProfilePage() {
                     : <ShieldAlert size={22} style={{ color: '#f59e0b', flexShrink: 0 }} />}
                 <div>
                     <h2 style={{ fontSize: '1rem', fontWeight: 700, margin: '0 0 4px' }}>
-                        {remote === null ? 'Checking cloud backup...' : remoteOk ? 'Cloud sync is working' : 'This device only'}
+                        {remote === null ? 'Checking cloud backup...' : remoteOk ? 'Last cloud sync completed' : 'Cloud sync incomplete'}
                     </h2>
                     <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', margin: 0, lineHeight: 1.5 }}>
                         {remote === null
                             ? 'Testing whether your progress can reach the server.'
                             : remoteOk
-                                ? 'Progress syncs to the server in the background. Export a backup anyway before clearing browser data.'
-                                : `Your progress lives only in this browser, so clearing site data would erase your review queue and exam history. Export a backup regularly. (${remote.message})`}
+                                ? 'Your review queue, completed exams and question history sync when you study, return to the app or reconnect. CDR and generated-question progress are included in file backups.'
+                                : `Your latest changes may exist only on this device. Keep studying here and export a backup before changing devices or clearing browser data. (${remote.message})`}
                     </p>
+                    <button className="btn" disabled={syncing} style={{ marginTop: 10 }} onClick={async () => {
+                        setSyncing(true);
+                        try { setRemote(await store.fullSync()); }
+                        finally { setSyncing(false); }
+                    }}>
+                        <RefreshCw size={14} /> {syncing ? 'Syncing...' : 'Sync now'}
+                    </button>
                     {summary.lastBackup && (
                         <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', margin: '8px 0 0' }}>
                             Last export: {new Date(summary.lastBackup).toLocaleString()}

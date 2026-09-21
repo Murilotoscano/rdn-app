@@ -1,5 +1,5 @@
 /**
- * Cross-device persistence check, run with:  npx tsx scripts/persistence_test.ts
+ * Local payload/backup checks: npm run test:persistence
  *
  * It exercises the real store functions against a localStorage stub, moving data from
  * "device A" to "device B" through exactly the payloads the Supabase sync sends and reads.

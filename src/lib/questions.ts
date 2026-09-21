@@ -24524,7 +24524,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with a BMI of 14 who has eaten almost nothing for three weeks is admitted for nutrition support, so refeeding risk is high. Baseline labs drawn before feeding show potassium, magnesium and phosphorus each mildly below the reference range, and the patient is not yet receiving dextrose-containing fluids. Which plan should the RDN recommend?",
             "options": [
-                "Give thiamine, supplement the low electrolytes, and hold the start of calories until they are corrected, then begin at 10 to 20 kcal/kg",
+                "Give thiamine, replete the low electrolytes, and consider delaying calories until they normalize, then start cautiously",
                 "Give thiamine and start at 10 to 20 kcal/kg immediately, correcting the electrolytes only if they fall further after feeding begins",
                 "Start at the full estimated energy requirement now and correct any electrolyte abnormality if the patient develops symptoms",
                 "Withhold all nutrition for seven days, giving only intravenous fluids, until the patient's weight has begun to recover"
@@ -24844,6 +24844,50 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "milk",
                 "disability",
                 "sp 01-2026"
+            ]
+        },
+        {
+            "id": "m3-gf-turn-01",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Human Resources",
+            "difficulty": "medium",
+            "text": "A foodservice department employed an average of 40 people during the year, and 12 of them left and were replaced. What was the annual employee turnover rate?",
+            "options": [
+                "30%, because 12 separations divided by 40 employees is 0.30",
+                "12%, because 12 employees left the department during the year",
+                "3.3 times per year, because 40 employees divided by 12 separations",
+                "70%, because 28 of the 40 employees stayed in their posts"
+            ],
+            "correctIndex": 0,
+            "explanation": "Employee turnover rate = (separations during the period / average number of employees during the period) x 100, so 12 / 40 = 30% for the year. Count every separation, voluntary or not, and use the average headcount rather than the year-end figure. Foodservice runs high, often well above other departments, and the cost is not only recruiting: it is training time, overtime to cover gaps, lower productivity while new staff learn, and more errors in portioning and food safety. Do not confuse this with INVENTORY turnover, which is cost of food used divided by average inventory value and is expressed as times per period.",
+            "tags": [
+                "human resources",
+                "turnover",
+                "calculation",
+                "management"
+            ]
+        },
+        {
+            "id": "m3-gf-turn-02",
+            "moduleId": "mod3",
+            "domain": "Domain III",
+            "topic": "Human Resources",
+            "difficulty": "hard",
+            "text": "A director's monthly report lists two figures labelled 'turnover': 3.5 times per month and 28% per year. Which reading is correct?",
+            "options": [
+                "3.5 times per month is inventory turnover; 28% per year is employee turnover",
+                "3.5 times per month is employee turnover; 28% per year is inventory turnover",
+                "Both figures describe staffing, so the monthly and annual rates should agree",
+                "Both figures describe stock, so the kitchen holds about four months of food"
+            ],
+            "correctIndex": 0,
+            "explanation": "The two ratios share a name and measure nothing alike. INVENTORY turnover = cost of food used / average inventory value, reported as times per period; foodservice generally aims for roughly 2 to 4 times per month, since a low figure means cash and storage space tied up in stock, and a very high one risks stockouts and emergency buying. EMPLOYEE turnover = (separations / average number of employees) x 100 for the period, reported as a percentage. Reading a stock ratio as a staffing problem, or the reverse, sends the manager after the wrong fix.",
+            "tags": [
+                "human resources",
+                "turnover",
+                "inventory",
+                "management"
             ]
         }
 ];

@@ -16,15 +16,15 @@ Method: option length measured in characters and, separately, in words. 'Strictl
 - Key is strictly the longest option: 27.7%
 - Key is strictly the shortest option: 10.2%
 - Always pick the Nth longest: 1st=33.0%, 2th=28.1%, 3th=23.5%, 4th=15.5%
-- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 245 questions and is right 16.3% of the time there; guessing elsewhere the whole strategy scores 23.2%
+- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 246 questions and is right 16.7% of the time there; guessing elsewhere the whole strategy scores 23.3%
 
 
 **By words** (n = 1179)
 
-- Key is strictly the longest option: 13.6%
+- Key is strictly the longest option: 13.5%
 - Key is strictly the shortest option: 12.3%
-- Always pick the Nth longest: 1st=26.1%, 2th=23.4%, 3th=24.3%, 4th=26.2%
-- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 417 questions and is right 27.8% of the time there; guessing elsewhere the whole strategy scores 26.0%
+- Always pick the Nth longest: 1st=26.0%, 2th=23.5%, 3th=24.3%, 4th=26.2%
+- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 418 questions and is right 27.8% of the time there; guessing elsewhere the whole strategy scores 26.0%
 
 
 **Absolute-qualifier cue** ('always', 'never', 'all', 'only', 'every', 'none'): dropping every option that contains one and guessing among the rest scores 27.2% (chance 25%); it isolates the key on its own in 0 question(s).
@@ -35,7 +35,7 @@ Length is only one cue. Grammar agreement, absurd distractors and excess detail 
 
 ## 3. Topic coverage
 
-Regression cases: all 9 pass (two of them are the false positives fixed in this round: serum sodium 155 mmol/L no longer counts as a foodservice temperature, and LADA no longer counts as employment law).
+Regression cases: all 21 pass (including serum sodium versus food temperatures, LADA versus employment law, inventory versus employee turnover, and word-boundary checks for labor relations, PDSA and leadership).
 
 A question counts for a topic only when the pattern matches the STEM or the CORRECT ANSWER. Matches confined to a distractor or an explanation are excluded.
 
@@ -45,7 +45,7 @@ A question counts for a topic only when the pattern matches the STEM or the CORR
 | 1. Break-even point | 4 | I, III, IV | m1-calc-009, m3-gen-12, m4-pdf-70, m3-polish-13 |
 | 2. EP/AP yield and purchasing quantities | 5 | I, IV | m1-calc-015, m1-calc-019, m4-pdf-30, m4-pdf-96 ... |
 | 3. Forecasting and moving averages | 4 | I, IV | m1-calc-026, m4-pdf-28, m4-pdf-31, m4-gf-sus-06 |
-| 4. Employee turnover rate | 5 | III, IV | m3-pdf-64, dom3-ext-003, m3-fsl-003, m4-pdf-67 ... |
+| 4. Employee turnover rate | 0 | - |  |
 | 5. Food cost, selling price, profit margin | 25 | I, III, IV | m1-calc-007, m1-calc-013, m1-calc-020, m1-calc-021 ... |
 | 6. Meals per labor hour | 4 | III, IV | m3-mgmt-002, m4-gf-me-04, m3-gf-mplh-01, m3-gf-mplh-02 |
 | 7. Foodservice temperatures | 18 | I, III, IV | m1-fs-013, m1-fs-019, dom3-fq-009, m3-fsl-014 ... |
@@ -53,7 +53,7 @@ A question counts for a topic only when the pattern matches the STEM or the CORR
 | 9. Indirect and fixed costs | 8 | I, III, IV | m1-calc-009, m1-calc-010, m3-gen-12, dom3-fq-001 ... |
 | 10. Leadership styles in a crisis | 7 | III | m3-pdf-63, m3-pdf-73, dom3-ext-010, m3-mgmt-013 ... |
 | 11. Commissary, transport and HACCP | 12 | III, IV | m3-fsl-007, m4-pdf-22, m4-pdf-23, m4-pdf-26 ... |
-| 12. Labor relations and union arrangements | 13 | III | m3-pdf-04, m3-pdf-05, m3-pdf-08, m3-pdf-13 ... |
+| 12. Labor relations and union arrangements | 16 | I, III | dom1-ext2-008, m3-pdf-04, m3-pdf-05, m3-pdf-08 ... |
 | 13. FLSA and Civil Rights Act | 6 | III | m3-gen-03, m3-pdf-13, m3-pdf-74, dom3-ext-004 ... |
 | 14. Can sizes, yields and case packs | 6 | I, IV | m1-calc-002, m1-calc-003, m1-calc-018, m4-gf-can-01 ... |
 | 15. Additives, antioxidants, preservatives, emulsifiers | 9 | I, IV | dom1-ext-010, dom1-fs-003, m1-fs-008, m1-fs-022 ... |
@@ -77,7 +77,7 @@ A question counts for a topic only when the pattern matches the STEM or the CORR
 | 33. Addison disease | 3 | II | m2-gf-addi-01, m2-gf-addi-02, m2-gf-addi-03 |
 | 34. Vegan and lacto-vegetarian nutrition | 4 | I | dom1-ext-006, m1-nn-006, m1-nn-007, m1-nn2-029 |
 | 35. Physical signs of deficiency | 9 | I, II | m1-nn-027, dom2-ext-006, m2-mnt-052, m2-gf-hiv-01 ... |
-| 36. FOCUS process improvement | 5 | III | m3-pdf-41, m3-pdf-58, dom3-fq-003, m3-mgmt-057 ... |
+| 36. FOCUS process improvement | 6 | III | m3-pdf-41, m3-pdf-58, dom3-fq-003, m3-mgmt-057 ... |
 | 37. B-vitamin deficiencies | 34 | I, II | dom1-ext-001, dom1-ext-006, dom1-ext-015, m1-fs-011 ... |
 | 38. Education, needs assessment, program planning | 5 | I, II, III | m1-gap-07, m1-gap-17, m3-pdf-59, m3-gf-pp-01 ... |
 | 39. Counseling and motivational interviewing | 26 | I, II, III | m1-gap-03, m1-gap-05, m1-gap-11, m1-gap-12 ... |
@@ -89,7 +89,7 @@ A question counts for a topic only when the pattern matches the STEM or the CORR
 | 45. Medical terminology | 8 | I, II | m2-mnt-051, m2-mnt-130, m2-mnt-202, m2-gf-ena-01 ... |
 | 46. Communication and technology in education | 8 | I, II, III | m1-gap-02, m1-gap-20, m1-gap-24, m3-gf-tele-01 ... |
 | 47. Choosing a communication channel | 15 | I, III | m1-gap-02, m1-gap-08, m1-gap-20, dom1-ext-013 ... |
-| 48. Management and leadership | 6 | III | m3-pdf-02, m3-pdf-69, m3-pdf-76, m3-pdf-80 ... |
+| 48. Management and leadership | 22 | III, IV | m3-pdf-02, m3-pdf-12, m3-pdf-62, m3-pdf-63 ... |
 | 49. Best-answer applied cases (skill) | 170 | I, II, III, IV | m1-gap-20, m1-gap-21, m1-calc-026, dom1-ext-004 ... |
 | 50. First-action prioritisation (skill) | 44 | I, II, III, IV | dom1-ext2-002, m1-rc-016, dom2-dm-004, dom2-ext-005 ... |
 
@@ -110,9 +110,19 @@ Ids below are AUTOMATIC matches of the documented pattern unless a note says the
 
 - automatic: m1-calc-026, m4-pdf-28, m4-pdf-31, m4-gf-sus-06
 
-**4. Employee turnover rate** (5) - pattern: `turnover`
+**4. Employee turnover rate** (0) - pattern: `\bturnover\b` + required context: `\b(?:employees?|staff|personnel|workforce|workers?|resign\w*|separatio`
 
-- automatic: m3-pdf-64, dom3-ext-003, m3-fsl-003, m4-pdf-67, m4-gf-fp-08
+- automatic: none
+
+- reviewed by hand: `m3-pdf-64` - EXCLUDED: inventory or storage turnover does not assess employee turnover
+
+- reviewed by hand: `dom3-ext-003` - EXCLUDED: inventory or storage turnover does not assess employee turnover
+
+- reviewed by hand: `m3-fsl-003` - EXCLUDED: inventory or storage turnover does not assess employee turnover
+
+- reviewed by hand: `m4-pdf-67` - EXCLUDED: inventory or storage turnover does not assess employee turnover
+
+- reviewed by hand: `m4-gf-fp-08` - EXCLUDED: inventory or storage turnover does not assess employee turnover
 
 **5. Food cost, selling price, profit margin** (25) - pattern: `food cost|cost per meal|selling price|profit margin|contribution margin|markup`
 
@@ -148,9 +158,9 @@ Ids below are AUTOMATIC matches of the documented pattern unless a note says the
 
 - automatic: m3-fsl-007, m4-pdf-22, m4-pdf-23, m4-pdf-26, m4-pdf-32, m4-pdf-35, m4-pdf-54, m4-pdf-72, dom4-ext-002, dom4-ext-007, m4-gf-dist-05, m4-gf-dist-08
 
-**12. Labor relations and union arrangements** (13) - pattern: `union shop|agency shop|closed shop|collective bargaining|right-to-work|picket|arbitration|arbitrator|\\bmediat`
+**12. Labor relations and union arrangements** (16) - pattern: `union shop|agency shop|closed shop|collective bargaining|right-to-work|picket|arbitration|arbitrator|\bmediati`
 
-- automatic: m3-pdf-04, m3-pdf-05, m3-pdf-08, m3-pdf-13, m3-pdf-19, m3-pdf-85, dom3-ext-009, m3-mgmt-009, m3-mgmt-010, m3-mgmt-012, m3-mgmt-023, m3-mgmt-030, m3-mgmt-043
+- automatic: dom1-ext2-008, m3-pdf-04, m3-pdf-05, m3-pdf-08, m3-pdf-11, m3-pdf-13, m3-pdf-14, m3-pdf-19, m3-pdf-85, dom3-ext-009, m3-mgmt-009, m3-mgmt-010, m3-mgmt-012, m3-mgmt-023, m3-mgmt-030, m3-mgmt-043
 
 **13. FLSA and Civil Rights Act** (6) - pattern: `fair labor standards|\bFLSA\b|civil rights act|title vii|minimum wage|overtime pay|\bovertime\b|\bFMLA\b|famil` + required context: `employ|labor|labour|hiring|discriminat|accommodat|wage|leave|workplace`
 
@@ -250,9 +260,9 @@ Ids below are AUTOMATIC matches of the documented pattern unless a note says the
 
 - automatic: m1-nn-027, dom2-ext-006, m2-mnt-052, m2-gf-hiv-01, m2-gf-cnis-04, m2-gf-nfpe-01, m2-gf-nfpe-02, m2-gf-nfpe-03, m2-gf-nfpe-05
 
-**36. FOCUS process improvement** (5) - pattern: `FOCUS-PDSA|FOCUS model|\\bPDSA\\b|\\bPDCA\\b|FADE model|continuous quality improvement`
+**36. FOCUS process improvement** (6) - pattern: `FOCUS-PDSA|FOCUS model|\bPDSA\b|\bPDCA\b|FADE model|continuous quality improvement`
 
-- automatic: m3-pdf-41, m3-pdf-58, dom3-fq-003, m3-mgmt-057, m3-polish-16
+- automatic: m3-pdf-41, m3-pdf-58, dom3-fq-003, m3-mgmt-057, m3-mgmt-058, m3-polish-16
 
 **37. B-vitamin deficiencies** (34) - pattern: `thiamin|riboflavin|niacin|pyridoxine|B12|folate|beriberi|pellagra`
 
@@ -302,9 +312,9 @@ Ids below are AUTOMATIC matches of the documented pattern unless a note says the
 
 - automatic: m1-gap-02, m1-gap-08, m1-gap-20, dom1-ext-013, m3-gen-07, m3-pdf-25, m3-pdf-26, m3-pdf-29, m3-pdf-34, m3-pdf-39, m3-fsl-009, m3-mgmt-053, m3-mgmt-054, m3-mgmt-055, m3-mgmt-056
 
-**48. Management and leadership** (6) - pattern: `\\bleadership\\b|\\bdelegat|span of control|Theory [XYZ]\\b|management skill|scalar principle|chain of command`
+**48. Management and leadership** (22) - pattern: `\bleadership\b|\bdelegat|span of control|Theory [XYZ]\b|management skill|scalar principle|chain of command`
 
-- automatic: m3-pdf-02, m3-pdf-69, m3-pdf-76, m3-pdf-80, m3-mgmt-004, m3-mgmt-037
+- automatic: m3-pdf-02, m3-pdf-12, m3-pdf-62, m3-pdf-63, m3-pdf-69, m3-pdf-73, m3-pdf-75, m3-pdf-76, m3-pdf-80, dom3-ext-010, m3-mgmt-004, m3-mgmt-013, m3-mgmt-014, m3-mgmt-015, m3-mgmt-027, m3-mgmt-032, m3-mgmt-033, m3-mgmt-034, m3-mgmt-037, m3-mgmt-042, m3-mgmt-045, m4-pdf-63
 
 **49. Best-answer applied cases (skill)** (170) - pattern: `\bBEST\b|most appropriate|most likely`
 
@@ -317,4 +327,4 @@ Ids below are AUTOMATIC matches of the documented pattern unless a note says the
 - reviewed by hand: `m2-gf-first-02` - INCLUDED: asks which plan comes first in a refeeding-risk admission
 
 
-**Under 4 questions (operational alert, not proof of mastery):** 33. Addison disease (3), 42. Null hypothesis (3)
+**Under 4 questions (operational alert, not proof of mastery):** 4. Employee turnover rate (0), 33. Addison disease (3), 42. Null hypothesis (3)
