@@ -1,6 +1,6 @@
 # Question bank audit
 
-Bank: `src/lib/questions.ts` - 1179 questions.
+Bank: `src/lib/questions.ts` - 1181 questions.
 
 ## 1. Integrity
 
@@ -11,19 +11,19 @@ No problems found.
 Method: option length measured in characters and, separately, in words. 'Strictly longest' means no other option ties it. The guessing strategies split ties at random, so a four-way tie contributes 0.25. Chance = 25%.
 
 
-**By characters** (n = 1179)
+**By characters** (n = 1181)
 
 - Key is strictly the longest option: 27.7%
 - Key is strictly the shortest option: 10.2%
-- Always pick the Nth longest: 1st=33.0%, 2th=28.1%, 3th=23.5%, 4th=15.5%
-- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 246 questions and is right 16.7% of the time there; guessing elsewhere the whole strategy scores 23.3%
+- Always pick the Nth longest: 1st=33.0%, 2th=28.1%, 3th=23.5%, 4th=15.4%
+- 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 245 questions and is right 16.3% of the time there; guessing elsewhere the whole strategy scores 23.2%
 
 
-**By words** (n = 1179)
+**By words** (n = 1181)
 
 - Key is strictly the longest option: 13.5%
-- Key is strictly the shortest option: 12.3%
-- Always pick the Nth longest: 1st=26.0%, 2th=23.5%, 3th=24.3%, 4th=26.2%
+- Key is strictly the shortest option: 12.4%
+- Always pick the Nth longest: 1st=26.0%, 2th=23.4%, 3th=24.3%, 4th=26.3%
 - 'Pick the visibly longest' (>10% longer than the runner-up): rule fires on 418 questions and is right 27.8% of the time there; guessing elsewhere the whole strategy scores 26.0%
 
 
@@ -35,7 +35,7 @@ Length is only one cue. Grammar agreement, absurd distractors and excess detail 
 
 ## 3. Topic coverage
 
-Regression cases: all 21 pass (including serum sodium versus food temperatures, LADA versus employment law, inventory versus employee turnover, and word-boundary checks for labor relations, PDSA and leadership).
+Regression cases: all 23 pass (including serum sodium versus food temperatures, LADA versus employment law, inventory versus employee turnover, and word-boundary checks for labor relations, PDSA and leadership).
 
 A question counts for a topic only when the pattern matches the STEM or the CORRECT ANSWER. Matches confined to a distractor or an explanation are excluded.
 
@@ -45,7 +45,7 @@ A question counts for a topic only when the pattern matches the STEM or the CORR
 | 1. Break-even point | 4 | I, III, IV | m1-calc-009, m3-gen-12, m4-pdf-70, m3-polish-13 |
 | 2. EP/AP yield and purchasing quantities | 5 | I, IV | m1-calc-015, m1-calc-019, m4-pdf-30, m4-pdf-96 ... |
 | 3. Forecasting and moving averages | 4 | I, IV | m1-calc-026, m4-pdf-28, m4-pdf-31, m4-gf-sus-06 |
-| 4. Employee turnover rate | 0 | - |  |
+| 4. Employee turnover rate | 2 | III | m3-gf-turn-01, m3-gf-turn-02 |
 | 5. Food cost, selling price, profit margin | 25 | I, III, IV | m1-calc-007, m1-calc-013, m1-calc-020, m1-calc-021 ... |
 | 6. Meals per labor hour | 4 | III, IV | m3-mgmt-002, m4-gf-me-04, m3-gf-mplh-01, m3-gf-mplh-02 |
 | 7. Foodservice temperatures | 18 | I, III, IV | m1-fs-013, m1-fs-019, dom3-fq-009, m3-fsl-014 ... |
@@ -110,9 +110,9 @@ Ids below are AUTOMATIC matches of the documented pattern unless a note says the
 
 - automatic: m1-calc-026, m4-pdf-28, m4-pdf-31, m4-gf-sus-06
 
-**4. Employee turnover rate** (0) - pattern: `\bturnover\b` + required context: `\b(?:employees?|staff|personnel|workforce|workers?|resign\w*|separatio`
+**4. Employee turnover rate** (2) - pattern: `\bturnover\b` + required context: `\b(?:employees?|staff|personnel|workforce|workers?|resign\w*|separatio`
 
-- automatic: none
+- automatic: m3-gf-turn-01, m3-gf-turn-02
 
 - reviewed by hand: `m3-pdf-64` - EXCLUDED: inventory or storage turnover does not assess employee turnover
 
@@ -123,6 +123,8 @@ Ids below are AUTOMATIC matches of the documented pattern unless a note says the
 - reviewed by hand: `m4-pdf-67` - EXCLUDED: inventory or storage turnover does not assess employee turnover
 
 - reviewed by hand: `m4-gf-fp-08` - EXCLUDED: inventory or storage turnover does not assess employee turnover
+
+- reviewed by hand: `m3-gf-turn-02` - INCLUDED: names inventory turnover only to contrast it with employee turnover
 
 **5. Food cost, selling price, profit margin** (25) - pattern: `food cost|cost per meal|selling price|profit margin|contribution margin|markup`
 
@@ -327,4 +329,4 @@ Ids below are AUTOMATIC matches of the documented pattern unless a note says the
 - reviewed by hand: `m2-gf-first-02` - INCLUDED: asks which plan comes first in a refeeding-risk admission
 
 
-**Under 4 questions (operational alert, not proof of mastery):** 4. Employee turnover rate (0), 33. Addison disease (3), 42. Null hypothesis (3)
+**Under 4 questions (operational alert, not proof of mastery):** 4. Employee turnover rate (2), 33. Addison disease (3), 42. Null hypothesis (3)

@@ -38,9 +38,18 @@ async function database(safe = true) {
 }
 
 function transport(db: PGlite) {
-    const controls = { readFailure: false, writeFailure: false, writes: 0,
+    const controls = { readFailure: false, writeFailure: false, writes: 0, signedOut: false,
         beforeRead: null as null | (() => void) };
     const client = {
+        // Sync now requires a signed-in user, because the tables grant nothing to the
+        // anonymous role. The harness stands in for a session that Supabase Auth would hold.
+        auth: {
+            async getSession() {
+                return controls.signedOut
+                    ? { data: { session: null }, error: null }
+                    : { data: { session: { user: { id: '11111111-1111-4111-8111-111111111111' } } }, error: null };
+            }
+        },
         async rpc(name: string) {
             assert.equal(name, 'rdn_sync_protocol');
             try {
@@ -242,5 +251,22 @@ try {
             assert.equal(c.controls.writes, 0); assert.ok(c.store.getSeen()['local-only']);
         });
     } finally { await unprotected.close(); }
+
+    // Signed out, every path must stop before touching the server and say why, because the
+    // tables give the anonymous role nothing and a refusal would otherwise look like a bug.
+    const guarded = await database();
+    try {
+        const c = device(guarded);
+        c.controls.signedOut = true;
+        await check('Without a session, sync reports disabled and writes nothing', async () => {
+            c.store.markSeen(['local-only']);
+            const result = await c.store.fullSync();
+            assert.equal(result.state, 'disabled');
+            assert.match(result.message, /Sign in/i);
+            assert.equal(c.controls.writes, 0);
+            assert.ok(c.store.getSeen()['local-only']);
+        });
+    } finally { await guarded.close(); }
+
     console.log(`\n${passed} store/PostgreSQL integration checks passed. Live Supabase and physical-device checks remain separate.`);
 } finally { await db.close(); }

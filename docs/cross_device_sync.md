@@ -5,35 +5,51 @@ question exposure, or review state. It covers the review queue, completed exams 
 per-question attempted/exposed history. CDR progress, generated questions and their
 progress remain in the downloadable backup.
 
-The migrations were tested against PostgreSQL through PGlite. They have **not been
-applied to the live Supabase project as part of this change**. The automated tests
+The migrations were tested against PostgreSQL through PGlite, including a run from an
+empty database (`npm run test:db`) that also checks the access rules. They have **not been
+applied to a live Supabase project as part of this change**. The automated tests
 use a transport adapter and do not validate the live project's network, PostgREST
 configuration, grants or RLS policies.
 
 ## Apply before releasing the app
 
-1. Export the existing study record from Profile on each device with local progress.
-2. Confirm the intended Supabase project is active and its URL is reachable. In the
-   hosting project's environment, verify `NEXT_PUBLIC_SUPABASE_URL` and
-   `NEXT_PUBLIC_SUPABASE_ANON_KEY` against that project. Do not commit key values or
-   use a service-role key in the browser.
-3. Apply these files in order through the normal database migration workflow or
-   the project's SQL editor:
+0. **Export a backup from every device that has progress** (Profile > Export backup), before
+   any configuration changes. Keep the files; step 7 restores from them if anything is lost.
+1. Check the existing project first. A DNS failure alone does not prove deletion: a paused
+   project usually still resolves and answers with an error. Open the Supabase dashboard and
+   look for the project whose reference is the first label of the URL. If it is paused,
+   restore it and keep its data; only create a new project if it is really gone.
+2. Confirm which project the app points at. The anon key is a JWT whose `ref` claim must
+   equal that first label of `NEXT_PUBLIC_SUPABASE_URL`; if they differ, the URL or the key
+   belongs to another project.
+3. In the hosting project's environment, set `NEXT_PUBLIC_SUPABASE_URL` and
+   `NEXT_PUBLIC_SUPABASE_ANON_KEY` for that project. Never commit key values, never paste
+   them into a chat, and never use a service-role key in the browser.
+4. Apply these files **in this order** through the SQL editor or the migration workflow:
+   - `supabase/migrations/20260919_initial_schema.sql` (creates `error_log` and
+     `exam_history`; a no-op on a project that already has them)
    - `supabase/migrations/20260920_exam_fields_and_question_exposure.sql`
    - `supabase/migrations/20260921_safe_cross_device_sync.sql`
-4. Run `select public.rdn_sync_protocol();` in the SQL editor. The result must be `1`.
-   This checks that all three merge guards are installed and enabled; it does not
-   by itself prove that the browser can access the project.
-5. Release the app with the verified environment values. Public Next.js environment
-   values are included at build time, so changing them requires a new build.
-6. Open Profile and select **Sync now**. Success must follow the complete download,
-   merge, upload and readback flow. A missing migration or failed request produces
-   **Cloud sync incomplete**, while retaining local progress.
+   - `supabase/migrations/20260922_personal_access.sql` (ownership, row level security,
+     removes the anonymous role's access)
+5. Create the single study account: Authentication > Users > Add user, with an email and a
+   password you choose. The password is typed into the app on each device and is not stored
+   in this repository. If the project already held rows, migration 4 assigns them to that
+   user automatically when it is the only user in the project.
+6. Run `select public.rdn_sync_protocol();` in the SQL editor. It must return `1`. That
+   proves the three merge guards exist; it does not prove the browser can reach the project.
+7. Rebuild and redeploy, because `NEXT_PUBLIC_*` values are baked in at build time. Then open
+   Profile on the iMac, sign in, and press **Sync now**. If a device shows less than it
+   should, import its backup from step 0 and sync again: imports merge, they do not replace.
+8. Repeat the sign-in on the iPad using the same account.
 
-Both migrations can be repeated. The new migration uses a transaction and changes
-no existing access policies. Its triggers also protect uploads from a cached older
-app version. If the UI needs to be rolled back, leave the additive columns, table
-and merge guards in place so old clients remain protected.
+## Who can read the data
+
+The anon key is part of the published page, so it cannot protect anything by itself. After
+migration 4 the three tables grant nothing to the anonymous role: every row belongs to a
+`user_id`, row level security only lets that user read or write it, and the app signs in
+from Profile. `npm run test:db` checks exactly this, including that a second signed-in user
+sees none of the owner's rows and that the anonymous role is refused outright.
 
 ## Device acceptance check
 

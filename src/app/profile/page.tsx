@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import AppLayout from "@/components/Layout/AppLayout";
 import { store, SyncResult } from "@/lib/store";
 import { downloadBackup, notifyDataChanged, subscribeToData } from "@/lib/backup";
+import SyncAccount from "@/components/SyncAccount";
 import { Download, Upload, ShieldCheck, ShieldAlert, User, RefreshCw } from "lucide-react";
 
 interface Summary {
@@ -134,6 +135,9 @@ export default function ProfilePage() {
                     }}>
                         <RefreshCw size={14} /> {syncing ? 'Syncing...' : 'Sync now'}
                     </button>
+                    <div style={{ marginTop: 12, paddingTop: 12, borderTop: '1px solid var(--border)' }}>
+                        <SyncAccount />
+                    </div>
                     {summary.lastBackup && (
                         <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', margin: '8px 0 0' }}>
                             Last export: {new Date(summary.lastBackup).toLocaleString()}

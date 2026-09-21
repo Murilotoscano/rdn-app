@@ -162,6 +162,20 @@ function scheduleSync() {
     syncTimer = setTimeout(() => { void store.fullSync(); }, 500);
 }
 
+/**
+ * Sync needs a signed-in user, not just a configured project. The anon key travels in the
+ * page source, so the tables grant nothing to the anonymous role: without a session every
+ * request would be refused by row level security, and reporting that as a sync failure would
+ * be misleading. Profile offers the sign-in.
+ */
+export async function hasSyncSession(): Promise<boolean> {
+    if (!isSupabaseConfigured) return false;
+    try {
+        const { data } = await supabase.auth.getSession();
+        return Boolean(data.session);
+    } catch { return false; }
+}
+
 async function requireSafeSync() {
     if (!protocolCheck) {
         protocolCheck = (async () => {
@@ -355,6 +369,7 @@ export const store = {
 
     syncUpErrorLog: async (data: ErrorLogItem[]): Promise<SyncResult> => {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
+        if (!await hasSyncSession()) return { state: 'disabled', message: 'Sign in on Profile to sync across devices' };
         try {
             await requireSafeSync();
             if (!data.length) return { state: 'ok', message: 'No review items to sync' };
@@ -390,6 +405,7 @@ export const store = {
 
     syncUpExamHistory: async (history: ExamResult[]): Promise<SyncResult> => {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
+        if (!await hasSyncSession()) return { state: 'disabled', message: 'Sign in on Profile to sync across devices' };
         try {
             await requireSafeSync();
             if (!history.length) return { state: 'ok', message: 'No exam history to sync' };
@@ -487,6 +503,7 @@ export const store = {
 
     syncUpExposure: async (): Promise<SyncResult> => {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
+        if (!await hasSyncSession()) return { state: 'disabled', message: 'Sign in on Profile to sync across devices' };
         try {
             await requireSafeSync();
             const payload = store.buildExposurePayload();
@@ -502,6 +519,7 @@ export const store = {
 
     syncDownExposure: async (): Promise<SyncResult> => {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
+        if (!await hasSyncSession()) return { state: 'disabled', message: 'Sign in on Profile to sync across devices' };
         try {
             const data = await readRemoteRows('question_exposure', 'question_id');
             store.applyExposurePayload(data as { question_id: string; seen_at?: number; exposed_at?: number }[]);
@@ -515,6 +533,7 @@ export const store = {
     syncDown: async (): Promise<SyncResult> => {
         if (typeof window === 'undefined') return { state: 'disabled', message: 'Not in a browser' };
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
+        if (!await hasSyncSession()) return { state: 'disabled', message: 'Sign in on Profile to sync across devices' };
 
         try {
             // 1. Fetch Error Log
@@ -580,6 +599,7 @@ export const store = {
      */
     fullSync: async (): Promise<SyncResult> => {
         if (!isSupabaseConfigured) return { state: 'disabled', message: 'Remote sync not configured' };
+        if (!await hasSyncSession()) return { state: 'disabled', message: 'Sign in on Profile to sync across devices' };
 
         if (syncInFlight) return syncInFlight;
         clearTimeout(syncTimer);

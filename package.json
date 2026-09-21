@@ -12,7 +12,8 @@
     "lint": "eslint",
     "test:persistence": "node --import tsx scripts/persistence_test.mts",
     "test:sync": "node --import tsx scripts/sync_integration_test.mts",
-    "audit:bank": "python3 scripts/bank_audit.py"
+    "audit:bank": "python3 scripts/bank_audit.py",
+    "test:db": "node --import tsx scripts/db_setup_test.mts"
   },
   "dependencies": {
     "@ducanh2912/next-pwa": "^10.2.9",

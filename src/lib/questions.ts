@@ -24524,10 +24524,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with a BMI of 14 who has eaten almost nothing for three weeks is admitted for nutrition support, so refeeding risk is high. Baseline labs drawn before feeding show potassium, magnesium and phosphorus each mildly below the reference range, and the patient is not yet receiving dextrose-containing fluids. Which plan should the RDN recommend?",
             "options": [
-                "Give thiamine, replete the low electrolytes, and consider delaying calories until they normalize, then start cautiously",
-                "Give thiamine and start at 10 to 20 kcal/kg immediately, correcting the electrolytes only if they fall further after feeding begins",
-                "Start at the full estimated energy requirement now and correct any electrolyte abnormality if the patient develops symptoms",
-                "Withhold all nutrition for seven days, giving only intravenous fluids, until the patient's weight has begun to recover"
+                "Give thiamine and replete electrolytes; consider delaying calories until supplementation or normalization, then start cautiously",
+                "Give thiamine and start calories at 10 to 20 kcal/kg now, correcting electrolytes only if they fall further after feeding",
+                "Start at the full estimated energy requirement now and correct any electrolyte abnormality if symptoms appear later",
+                "Withhold all nutrition for seven days, giving only intravenous fluids, until the patient's weight starts to recover"
             ],
             "correctIndex": 0,
             "explanation": "The ASPEN Consensus Recommendations for Refeeding Syndrome (Nutr Clin Pract. 2020;35(2):178-195), Table 6, separates three things. THIAMINE: 100 mg before feeding, or before any dextrose-containing IV fluid, in an at-risk patient, and 100 mg/day for 5 to 7 days or longer in severe starvation or chronic alcohol use. ELECTROLYTES: check potassium, magnesium and phosphorus BEFORE nutrition starts, replete them by usual standards, and monitor every 12 hours for the first 3 days in high-risk patients. CALORIES: start with 100 to 150 g of dextrose or 10 to 20 kcal/kg in the first 24 hours and advance by about 33% of goal every 1 to 2 days, counting dextrose from IV fluids and medications toward that limit. The timing rule is the part most often got wrong: in a patient at moderate to high risk WITH low electrolytes, holding the initiation or the increase of calories until they are supplemented or normalized should be CONSIDERED, and when phosphorus, potassium or magnesium is SEVERELY low, initiation or advancement should be DELAYED until corrected. So a delay is not reserved for severe or symptomatic cases. If electrolytes become hard to correct or fall sharply once feeding starts, cut calories or dextrose by 50% and advance about 33% every 1 to 2 days; stopping nutrition support may be considered when levels are severely or life-threateningly low.",
@@ -24852,7 +24852,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Human Resources",
             "difficulty": "medium",
-            "text": "A foodservice department employed an average of 40 people during the year, and 12 of them left and were replaced. What was the annual employee turnover rate?",
+            "text": "A foodservice department averaged 40 employees over the past year, and during that same year 12 employees left and were replaced. What was the annual employee turnover rate?",
             "options": [
                 "30%, because 12 separations divided by 40 employees is 0.30",
                 "12%, because 12 employees left the department during the year",
