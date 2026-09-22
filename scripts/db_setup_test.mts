@@ -11,9 +11,13 @@
  *      setup ("Acesso Público", "Allow all for anon", both USING(true)) - proves they are
  *      all removed, not merely the ones this project's own migrations created, and that two
  *      real signed-in users are fully isolated from each other across all three tables;
- *   H. the rollout halted right after 20260920, before question_exposure has an owner or a
- *      policy - proves row level security with zero policies denies anon and authenticated
- *      by default, so there is no anonymous-access window in that gap.
+ *   H1. the rollout halted right after migration 1, before error_log/exam_history have an
+ *      owner or a policy - proves anon and authenticated hold none of SELECT/INSERT/UPDATE/
+ *      DELETE/TRUNCATE, closing the window Supabase's own default privileges would otherwise
+ *      leave open the moment the tables exist;
+ *   H2. the same, right after migration 2, for question_exposure - and specifically that
+ *      TRUNCATE is refused, since row level security (which migration 2 does enable
+ *      immediately) never governs it on its own.
  * It also runs the read-only diagnostics and proves they change nothing.
  * Run: npm run test:db
  *
@@ -135,6 +139,22 @@ async function refused(db: PGlite, role: string, sql: string) {
     try { await db.query(sql); } catch (error) { message = String(error).split('\n')[0]; }
     await db.exec('reset role');
     return { refused: message !== '', message };
+}
+
+/**
+ * Confirms a role holds none of the five table-level privileges, via has_table_privilege
+ * rather than by attempting each operation - precise, and correct for either failure mode
+ * a rollout can be in: no grant at all (a bare attempt raises "permission denied for table"
+ * before RLS is even consulted) or a grant with row level security blocking it (SELECT then
+ * succeeds but returns zero rows, while writes still raise a row-level-security error).
+ * TRUNCATE is included because row level security never governs it, grant or no grant.
+ */
+async function checkNoTablePrivilege(db: PGlite, table: string, role: string, context: string) {
+    for (const priv of ['select', 'insert', 'update', 'delete', 'truncate']) {
+        const has = await one<{ ok: boolean }>(db,
+            `select has_table_privilege('${role}', 'public.${table}', '${priv}') as ok`);
+        check(`${context}: ${role} has no ${priv} privilege on ${table}`, has.ok === false);
+    }
 }
 
 const legacyRows = (suffix: string) => `
@@ -685,47 +705,110 @@ check('After every attempt from B, A\'s rows in all three tables are intact',
     stillA.every(r => r.rows.length === 1));
 
 // ---------------------------------------------------------------------------
-// H. Rollout halted right after 20260920, before ownership exists
+// H1. Rollout halted right after migration 1, before error_log/exam_history are owned
 // ---------------------------------------------------------------------------
-console.log('\nH. Rollout halted before migration 4 (question_exposure has no owner yet)');
-const halted = await freshProject();
-await halted.exec(sqlOf(files[0]));
-await halted.exec(sqlOf(files[1])); // question_exposure is created here, with no user_id and no policy
-const haltedRls = await one<{ rls: boolean; policies: number }>(halted, `
+console.log('\nH1. Rollout halted right after migration 1 (error_log/exam_history not yet owned)');
+const halted1 = await freshProject();
+await halted1.exec(sqlOf(files[0]));
+
+for (const table of ['error_log', 'exam_history'] as const) {
+    const state = await one<{ rls: boolean; policies: number }>(halted1, `
+        select relrowsecurity as rls,
+               (select count(*)::int from pg_policies where schemaname = 'public' and tablename = '${table}') as policies
+        from pg_class where oid = 'public.${table}'::regclass`);
+    check(`${table} is born with row level security on and zero policies`,
+        state.rls === true && state.policies === 0, JSON.stringify(state));
+    for (const role of ['anon', 'authenticated']) {
+        await checkNoTablePrivilege(halted1, table, role, 'Halted after migration 1');
+    }
+}
+
+// Grant-level proof above, operational proof here: a row exists (written as the table
+// owner, who bypasses row level security), then every operation is actually attempted as
+// each API role, TRUNCATE included - not only the ones row level security would cover.
+await halted1.exec(`insert into public.error_log (question_id, wrong_count) values ('h1-seed', 1)`);
+await halted1.exec(`insert into public.exam_history (id, date, score, total_questions, domain_scores,
+    time_spent_seconds, mode) values ('h1-seed', '2026-01-01', 1, 1, '{}'::jsonb, 1, 'mock')`);
+for (const table of ['error_log', 'exam_history'] as const) {
+    for (const role of ['anon', 'authenticated']) {
+        const selectAttempt = await refused(halted1, role, `select * from public.${table}`);
+        check(`${table}: ${role} cannot select while halted after migration 1`, selectAttempt.refused,
+            selectAttempt.message.slice(0, 70));
+        const insertAttempt = await refused(halted1, role,
+            table === 'error_log'
+                ? `insert into public.error_log (question_id, wrong_count) values ('h1-x', 1)`
+                : `insert into public.exam_history (id, date, score, total_questions, domain_scores,
+                    time_spent_seconds, mode) values ('h1-x', '2026-01-01', 1, 1, '{}'::jsonb, 1, 'mock')`);
+        check(`${table}: ${role} cannot insert while halted after migration 1`, insertAttempt.refused,
+            insertAttempt.message.slice(0, 70));
+        const truncateAttempt = await refused(halted1, role, `truncate public.${table}`);
+        check(`${table}: ${role} cannot truncate while halted after migration 1 (RLS does not cover this)`,
+            truncateAttempt.refused, truncateAttempt.message.slice(0, 70));
+    }
+}
+const seedIntact1 = await one<{ e: number; h: number }>(halted1, `
+    select (select count(*)::int from public.error_log where question_id = 'h1-seed') as e,
+           (select count(*)::int from public.exam_history where id = 'h1-seed') as h`);
+check('The seeded rows survived every attempt above, untouched', seedIntact1.e === 1 && seedIntact1.h === 1);
+
+// ---------------------------------------------------------------------------
+// H2. Rollout halted right after migration 2, before question_exposure is owned
+// ---------------------------------------------------------------------------
+console.log('\nH2. Rollout halted right after migration 2 (question_exposure not yet owned)');
+const halted2 = await freshProject();
+await halted2.exec(sqlOf(files[0]));
+await halted2.exec(sqlOf(files[1])); // question_exposure is created here, with no user_id and no policy
+const halted2Rls = await one<{ rls: boolean; policies: number }>(halted2, `
     select relrowsecurity as rls,
            (select count(*)::int from pg_policies where schemaname = 'public' and tablename = 'question_exposure') as policies
     from pg_class where oid = 'public.question_exposure'::regclass`);
 check('question_exposure is born with row level security on and zero policies',
-    haltedRls.rls === true && haltedRls.policies === 0, JSON.stringify(haltedRls));
+    halted2Rls.rls === true && halted2Rls.policies === 0, JSON.stringify(halted2Rls));
 
 for (const role of ['anon', 'authenticated']) {
-    // A SELECT that row level security filters down to nothing does not raise an error -
-    // it succeeds and returns zero rows. That is the correct, secure behaviour (the same
-    // the app relies on everywhere else in this suite), so the read case is checked by row
-    // count rather than by expecting an exception; only the write case is expected to throw.
-    await halted.exec('reset role');
-    await halted.exec(`set role ${role}`);
-    const readResult = await halted.query('select * from public.question_exposure');
-    await halted.exec('reset role');
-    check(`${role} reads zero rows from question_exposure while the rollout is stopped mid-way`,
-        readResult.rows.length === 0);
+    await checkNoTablePrivilege(halted2, 'question_exposure', role, 'Halted after migration 2');
 
-    const insertAttempt = await refused(halted, role,
-        `insert into public.question_exposure (question_id, seen_at, exposed_at) values ('h', 1, 1)`);
-    check(`${role} cannot write question_exposure while the rollout is stopped mid-way`, insertAttempt.refused,
+    // With the grant itself revoked (not merely blocked by RLS), a bare SELECT is refused
+    // outright - "permission denied for table" - rather than silently returning zero rows.
+    const selectAttempt = await refused(halted2, role, 'select * from public.question_exposure');
+    check(`question_exposure: ${role} cannot select while halted after migration 2`, selectAttempt.refused,
+        selectAttempt.message.slice(0, 70));
+
+    const insertAttempt = await refused(halted2, role,
+        `insert into public.question_exposure (question_id, seen_at, exposed_at) values ('h2-x', 1, 1)`);
+    check(`question_exposure: ${role} cannot insert while halted after migration 2`, insertAttempt.refused,
         insertAttempt.message.slice(0, 70));
+
+    // TRUNCATE explicitly, not only the operations row level security already covers: this
+    // is the exact gap reported (default privileges hand TRUNCATE at creation time, and
+    // enabling row level security on question_exposure does not touch it).
+    const truncateAttempt = await refused(halted2, role, 'truncate public.question_exposure');
+    check(`question_exposure: ${role} cannot truncate while halted after migration 2 (RLS does not cover this)`,
+        truncateAttempt.refused, truncateAttempt.message.slice(0, 70));
 }
+// A row survives the halted state untouched, as operational proof alongside the grant checks.
+await halted2.exec(`insert into public.question_exposure (question_id, seen_at, exposed_at) values ('h2-seed', 1, 1)`);
+const seedIntact2 = await one<{ n: number }>(halted2,
+    `select count(*)::int as n from public.question_exposure where question_id = 'h2-seed'`);
+check('The seeded row is present and was not reachable by anon or authenticated above', seedIntact2.n === 1);
+
 // Resuming the rollout must still work normally from this halted state.
-await halted.exec(sqlOf(files[2]));
+await halted2.exec(sqlOf(files[2]));
 try {
-    await halted.exec(sqlOf(files[3]));
+    await halted2.exec(sqlOf(files[3]));
     check('Resuming the rollout from the halted state applies migration 4 cleanly', true);
 } catch (error) {
     check('Resuming the rollout from the halted state applies migration 4 cleanly', false, String(error));
 }
 check('question_exposure has its 4 owner policies once the rollout resumes and finishes',
-    (await one<{ n: number }>(halted, `select count(*)::int as n from pg_policies
+    (await one<{ n: number }>(halted2, `select count(*)::int as n from pg_policies
         where schemaname = 'public' and tablename = 'question_exposure'`)).n === 4);
+await checkNoTablePrivilege(halted2, 'question_exposure', 'anon', 'After the rollout finishes');
+const authFinal2 = await one<{ n: number }>(halted2, `select count(*)::int as n
+    from information_schema.role_table_grants
+    where table_name = 'question_exposure' and grantee = 'authenticated'`);
+check('question_exposure: authenticated ends with exactly the four grants it needs',
+    authFinal2.n === 4, `authenticatedGrants=${authFinal2.n}`);
 
 // ---------------------------------------------------------------------------
 // The diagnostics must report the truth and change nothing.
@@ -781,6 +864,6 @@ check('The pre-flight file contains no write statement outside its comments', wr
     writes ? writes.join(',') : '');
 
 console.log(failures === 0
-    ? `\nSetup verified across eight project states: ${files.length} migrations, grants, access rules, attribution, legacy-policy removal, two-user isolation and read-only diagnostics.`
+    ? `\nSetup verified across nine project states: ${files.length} migrations, grants, access rules, attribution, legacy-policy removal, two-user isolation, fail-closed intermediate states and read-only diagnostics.`
     : `\n${failures} check(s) failed.`);
 process.exit(failures === 0 ? 0 : 1);

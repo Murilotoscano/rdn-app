@@ -130,10 +130,23 @@ in one statement regardless of whose rows they are, with every owner-only policy
 place and irrelevant. Granting `select, insert, update, delete` on top of that inherited
 grant, without revoking it first, would have left `TRUNCATE` in place. Migration 4 now
 revokes everything from `authenticated` before granting back exactly those four.
-`question_exposure` also enables row level security the moment it is created in migration 2,
-before it has an owner or a policy, so a rollout that stops between migrations 2 and 4 has no
-anonymous-access window in the meantime: row level security with zero policies denies every
-row to every non-owner role, independently of whatever table grants exist at that point.
+The fix above closed the gap at the end of the rollout (migration 4). It did not close it at
+the start: migration 1 created `error_log` and `exam_history` with no row level security and
+no revoke, so Supabase's default privileges left both wide open - including `TRUNCATE` - to
+`anon` and `authenticated` from the moment the tables existed until migration 4 finally ran.
+Migration 2's `question_exposure` had the same gap for everything except `TRUNCATE`: enabling
+row level security closes `SELECT`/`INSERT`/`UPDATE`/`DELETE` by default-denying every row to
+every non-owner role, but row level security never governs `TRUNCATE`, grant or no grant, so
+the inherited grant alone would have let any signed-in or anonymous request empty the table
+in one statement. Both migrations now enable row level security and revoke every privilege
+from `PUBLIC`, `anon` and `authenticated` immediately after creating their tables - the app
+has no cloud access at all on either table between migrations, which is the intended,
+fail-closed state, not a bug. Migration 4 re-grants `authenticated` exactly
+`select, insert, update, delete` once `user_id` and the ownership policies exist.
+`npm run test:db` applies migrations 1 and 2 in isolation and confirms `anon` and
+`authenticated` hold none of the five table privileges - `TRUNCATE` included, and checked by
+an actual `TRUNCATE` attempt, not only by inspecting the grant - on every table each migration
+creates.
 
 ## Device acceptance check
 
@@ -195,14 +208,16 @@ in-flight study actions, read/write failures, pagination beyond 1,000 rows, back
 restoration, repeatable migrations, the missing-migration guard, and that sync writes
 nothing without a signed-in session.
 
-The 124 database checks (`npm run test:db`) cover eight project states: an empty project;
+The 178 database checks (`npm run test:db`) cover nine project states: an empty project;
 a populated project migrated before the account exists; a populated project with the
 account created first; a populated project with two accounts, where nothing may be
 attributed; a partially attributed project, where only the unowned rows may change; a
 signed-in user trying to create or capture unowned rows; a project restored with permissive
 policies left over from an earlier, unrelated setup, followed by a full CRUD matrix between
-two real signed-in users across all three tables; and a rollout halted between migrations 2
-and 4. They check the function grants and the table grants against Supabase's own default
+two real signed-in users across all three tables; and a rollout halted right after migration 1
+and, separately, right after migration 2 - each proving anon and authenticated hold none of
+SELECT/INSERT/UPDATE/DELETE/**TRUNCATE** at that point, TRUNCATE included because row level
+security never governs it. They check the function grants and the table grants against Supabase's own default
 privileges (not a bare PostgreSQL database, which would pass this check for the wrong
 reason), and run both read-only diagnostics to confirm they report the truth and change
 nothing. These checks do not replace the live device acceptance check above.
