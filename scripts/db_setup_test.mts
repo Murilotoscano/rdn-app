@@ -6,7 +6,14 @@
  *   C. populated project with the account already created, attributed automatically;
  *   D. populated project with two accounts: nothing may be attributed;
  *   E. partially attributed project: only the unowned rows may change;
- *   F. a signed-in user trying to create or capture unowned rows.
+ *   F. a signed-in user trying to create or capture unowned rows;
+ *   G. a project restored with leftover permissive policies from an earlier, unrelated
+ *      setup ("Acesso Público", "Allow all for anon", both USING(true)) - proves they are
+ *      all removed, not merely the ones this project's own migrations created, and that two
+ *      real signed-in users are fully isolated from each other across all three tables;
+ *   H. the rollout halted right after 20260920, before question_exposure has an owner or a
+ *      policy - proves row level security with zero policies denies anon and authenticated
+ *      by default, so there is no anonymous-access window in that gap.
  * It also runs the read-only diagnostics and proves they change nothing.
  * Run: npm run test:db
  *
@@ -61,6 +68,57 @@ async function freshProject() {
         alter default privileges in schema public grant all on tables to anon, authenticated, service_role;
     `);
     return db;
+}
+
+/**
+ * Mirrors what the pre-flight actually found on the restored project (jowjukppxkhjuijjjiwq):
+ * error_log and exam_history exist, hold no rows, have row level security enabled, and carry
+ * two permissive policies from an earlier, unrelated setup - not created by anything in
+ * supabase/migrations - both named for a "for all" audience: "Acesso Público" and "Allow all
+ * for anon", both `for all to public using (true) with check (true)`. question_exposure does
+ * not exist yet. No account exists, no migration has been recorded, no rdn_* function exists.
+ * Since PostgreSQL OR's every permissive policy on a table together, either name alone grants
+ * every role full access to every row regardless of anything migration 4 adds afterwards -
+ * this is the exact condition that made the fix in this commit necessary.
+ */
+async function legacyRestoredProject() {
+    const legacyDb = await freshProject();
+    await legacyDb.exec(`
+        create table public.error_log (
+            question_id      text primary key,
+            domain           text,
+            topic            text,
+            mastered         boolean,
+            repetition_stage integer,
+            date_logged_at   bigint,
+            next_review_at   bigint,
+            last_attempt_at  bigint,
+            answer_status    text,
+            last_outcome     text,
+            attempts         integer,
+            wrong_count      integer,
+            unsure_count     integer,
+            confident_count  integer,
+            error_reason     text,
+            notes            text
+        );
+        create table public.exam_history (
+            id                 text primary key,
+            date               text,
+            score              integer,
+            total_questions    integer,
+            domain_scores      jsonb,
+            time_spent_seconds integer,
+            mode               text
+        );
+        alter table public.error_log    enable row level security;
+        alter table public.exam_history enable row level security;
+        create policy "Acesso Público"     on public.error_log    for all to public using (true) with check (true);
+        create policy "Allow all for anon" on public.error_log    for all to public using (true) with check (true);
+        create policy "Acesso Público"     on public.exam_history for all to public using (true) with check (true);
+        create policy "Allow all for anon" on public.exam_history for all to public using (true) with check (true);
+    `);
+    return legacyDb;
 }
 
 const signInAs = (db: PGlite, id: string | null) => db.exec(
@@ -142,9 +200,17 @@ for (const table of TABLES) {
     const anonGrants = await one<{ count: number }>(db,
         `select count(*)::int as count from information_schema.role_table_grants
          where table_name = '${table}' and grantee in ('anon', 'PUBLIC')`);
+    const authGrants = await one<{ count: number }>(db,
+        `select count(*)::int as count from information_schema.role_table_grants
+         where table_name = '${table}' and grantee = 'authenticated'`);
     check(`${table}: row level security on, owner policies present, no anon or PUBLIC grant`,
         rls.relrowsecurity && policies.count === 4 && anonGrants.count === 0,
         `rls=${rls.relrowsecurity} policies=${policies.count} anonGrants=${anonGrants.count}`);
+    // Exactly the four CRUD grants - not the wider set (including TRUNCATE, which row level
+    // security does not restrict) that Supabase's default privileges attach to every table
+    // authenticated gets access to at creation time.
+    check(`${table}: authenticated has exactly select/insert/update/delete, nothing wider`,
+        authGrants.count === 4, `authenticatedGrants=${authGrants.count}`);
 }
 
 // --- Function grants. The administrative function must not be reachable over the API. ---
@@ -465,6 +531,203 @@ check('The three rows are still unowned and unchanged after every attempt',
     (await one<{ s: number }>(hostile, `select score as s from public.exam_history where id = 'old-mock-5'`)).s === 101);
 
 // ---------------------------------------------------------------------------
+// G. The actual restored project: legacy permissive policies, then two real users
+// ---------------------------------------------------------------------------
+console.log('\nG. Restored project with legacy public-access policies, then two users');
+const legacy = await legacyRestoredProject();
+
+// Before any migration: this is the vulnerable state. Confirm it exists, so the scenario
+// is proven to start from the reported condition rather than an assumption of it.
+const legacyBefore = await one<{ policies: number; anonSelect: boolean }>(legacy, `
+    select (select count(*)::int from pg_policies
+            where schemaname = 'public' and tablename in ('error_log', 'exam_history')) as policies,
+           has_table_privilege('anon', 'public.error_log', 'select') as "anonSelect"`);
+check('Starting point: two legacy USING(true) policies exist, and anon can select',
+    legacyBefore.policies === 4 && legacyBefore.anonSelect === true,
+    `policies=${legacyBefore.policies} anonSelect=${legacyBefore.anonSelect}`);
+const anonReadsLegacy = await refused(legacy, 'anon', 'select question_id from public.error_log');
+check('Before migration 4, anon can actually read through the legacy policy',
+    !anonReadsLegacy.refused, anonReadsLegacy.message.slice(0, 70) || '(read succeeded)');
+
+for (const file of files) await legacy.exec(sqlOf(file));
+
+const legacyAfter = await one<{ names: string[] }>(legacy, `
+    select array_agg(policyname order by tablename, policyname) as names
+    from pg_policies where schemaname = 'public'
+    and tablename in ('error_log', 'exam_history', 'question_exposure')`);
+const perTableCounts: (readonly [string, number])[] = [];
+for (const table of TABLES) {
+    const n = (await one<{ n: number }>(legacy, `select count(*)::int as n from pg_policies
+        where schemaname = 'public' and tablename = '${table}'`)).n;
+    perTableCounts.push([table, n] as const);
+}
+check('Exactly 4 policies per table, and no legacy policy survives',
+    perTableCounts.every(([, n]) => n === 4) &&
+    (legacyAfter.names ?? []).every(name => name.startsWith('rdn_owner_')),
+    `counts=${JSON.stringify(perTableCounts)} names=${JSON.stringify(legacyAfter.names)}`);
+
+for (const table of TABLES) {
+    const grants = await one<{ anon: number; auth: number }>(legacy, `
+        select
+            (select count(*)::int from information_schema.role_table_grants
+             where table_schema = 'public' and table_name = '${table}' and grantee = 'anon') as anon,
+            (select count(*)::int from information_schema.role_table_grants
+             where table_schema = 'public' and table_name = '${table}' and grantee = 'authenticated') as auth`);
+    check(`${table}: anon has zero grants and authenticated has exactly the four it needs after migration 4`,
+        grants.anon === 0 && grants.auth === 4, `anon=${grants.anon} authenticated=${grants.auth}`);
+
+    // authenticated must not still hold what Supabase's default privileges hand every new
+    // table at creation time (TRUNCATE, REFERENCES, TRIGGER, on top of the four CRUD ones).
+    // TRUNCATE in particular is not governed by row level security at all: a role that keeps
+    // it can empty the whole table regardless of ownership. Confirmed by direct measurement
+    // before this fix - see the migration file's comment - that an additive grant on top of
+    // the inherited ALL grant leaves TRUNCATE in place.
+    for (const extra of ['truncate', 'references', 'trigger']) {
+        const has = await one<{ ok: boolean }>(legacy,
+            `select has_table_privilege('authenticated', 'public.${table}', '${extra}') as ok`);
+        check(`${table}: authenticated has no ${extra} privilege (not governed by row level security)`,
+            has.ok === false);
+    }
+}
+const anonAfter = await refused(legacy, 'anon', 'select question_id from public.error_log');
+check('After migration 4, anon can no longer read error_log at all', anonAfter.refused);
+for (const priv of ['select', 'insert', 'update', 'delete']) {
+    const has = await one<{ ok: boolean }>(legacy,
+        `select has_table_privilege('anon', 'public.error_log', '${priv}') as ok`);
+    check(`anon has no ${priv} privilege on error_log after migration 4`, has.ok === false);
+}
+
+// Two real users, three tables: everything item 3 asked for, in one matrix.
+const USER_A = '44444444-4444-4444-8444-444444444444';
+const USER_B = '55555555-5555-4555-8555-555555555555';
+await legacy.exec(`insert into auth.users (id, email) values
+    ('${USER_A}', 'a@example.com'), ('${USER_B}', 'b@example.com')`);
+
+const rowsByTable: Record<typeof TABLES[number], { insertA: string; select: string; idCol: string; updateCol: string }> = {
+    error_log: {
+        idCol: 'question_id',
+        updateCol: 'wrong_count',
+        insertA: `insert into public.error_log (question_id, wrong_count, attempts, user_id)
+            values ('two-user-1', 1, 1, '${USER_A}')`,
+        select: `select question_id from public.error_log where question_id = 'two-user-1'`,
+    },
+    exam_history: {
+        idCol: 'id',
+        updateCol: 'score',
+        insertA: `insert into public.exam_history (id, date, score, total_questions, domain_scores,
+            time_spent_seconds, mode, user_id)
+            values ('two-user-1', '2026-09-01', 90, 145, '{}'::jsonb, 9000, 'mock', '${USER_A}')`,
+        select: `select id from public.exam_history where id = 'two-user-1'`,
+    },
+    question_exposure: {
+        idCol: 'question_id',
+        updateCol: 'seen_at',
+        insertA: `insert into public.question_exposure (question_id, seen_at, exposed_at, user_id)
+            values ('two-user-1', 1000, 1000, '${USER_A}')`,
+        select: `select question_id from public.question_exposure where question_id = 'two-user-1'`,
+    },
+};
+
+await signInAs(legacy, USER_A);
+await legacy.exec('set role authenticated');
+for (const table of TABLES) await legacy.exec(rowsByTable[table].insertA);
+await legacy.exec('reset role');
+
+for (const table of TABLES) {
+    const { idCol, select, updateCol } = rowsByTable[table];
+
+    await signInAs(legacy, USER_A);
+    await legacy.exec('set role authenticated');
+    const ownRead = await legacy.query(select);
+    await legacy.exec('reset role');
+    check(`${table}: user A can read their own row`, ownRead.rows.length === 1);
+
+    await signInAs(legacy, USER_B);
+    await legacy.exec('set role authenticated');
+    const bSelect = await legacy.query(select);
+    await legacy.exec('reset role');
+    check(`${table}: user B cannot read A's row (ler)`, bSelect.rows.length === 0);
+
+    await legacy.exec('set role authenticated');
+    const bUpdate = await legacy.query(
+        `update public.${table} set ${updateCol} = 0
+         where ${idCol} = 'two-user-1' returning ${idCol}`);
+    await legacy.exec('reset role');
+    check(`${table}: user B cannot alter A's row (alterar)`, bUpdate.rows.length === 0);
+
+    await legacy.exec('set role authenticated');
+    const bDelete = await legacy.query(`delete from public.${table} where ${idCol} = 'two-user-1' returning ${idCol}`);
+    await legacy.exec('reset role');
+    check(`${table}: user B cannot delete A's row (apagar)`, bDelete.rows.length === 0);
+
+    await legacy.exec('set role authenticated');
+    const bTransfer = await legacy.query(
+        `update public.${table} set user_id = '${USER_B}' where ${idCol} = 'two-user-1' returning ${idCol}`);
+    await legacy.exec('reset role');
+    check(`${table}: user B cannot transfer A's row to themselves (transferir)`, bTransfer.rows.length === 0);
+
+    // Same statement as A's own insert (user_id = A), only a different row id - but this
+    // time it runs signed in as B. auth.uid() = B while the row claims user_id = A, so the
+    // WITH CHECK clause (auth.uid() = user_id) must reject it.
+    await signInAs(legacy, USER_B);
+    const insertAsB = rowsByTable[table].insertA.replace('two-user-1', 'two-user-2');
+    const bInsert = await refused(legacy, 'authenticated', insertAsB);
+    check(`${table}: user B cannot insert a row claiming to be A (inserir)`, bInsert.refused,
+        bInsert.message.slice(0, 70));
+}
+
+await signInAs(legacy, USER_A);
+await legacy.exec('set role authenticated');
+const stillA: { rows: unknown[] }[] = [];
+for (const t of TABLES) stillA.push(await legacy.query(rowsByTable[t].select));
+await legacy.exec('reset role');
+check('After every attempt from B, A\'s rows in all three tables are intact',
+    stillA.every(r => r.rows.length === 1));
+
+// ---------------------------------------------------------------------------
+// H. Rollout halted right after 20260920, before ownership exists
+// ---------------------------------------------------------------------------
+console.log('\nH. Rollout halted before migration 4 (question_exposure has no owner yet)');
+const halted = await freshProject();
+await halted.exec(sqlOf(files[0]));
+await halted.exec(sqlOf(files[1])); // question_exposure is created here, with no user_id and no policy
+const haltedRls = await one<{ rls: boolean; policies: number }>(halted, `
+    select relrowsecurity as rls,
+           (select count(*)::int from pg_policies where schemaname = 'public' and tablename = 'question_exposure') as policies
+    from pg_class where oid = 'public.question_exposure'::regclass`);
+check('question_exposure is born with row level security on and zero policies',
+    haltedRls.rls === true && haltedRls.policies === 0, JSON.stringify(haltedRls));
+
+for (const role of ['anon', 'authenticated']) {
+    // A SELECT that row level security filters down to nothing does not raise an error -
+    // it succeeds and returns zero rows. That is the correct, secure behaviour (the same
+    // the app relies on everywhere else in this suite), so the read case is checked by row
+    // count rather than by expecting an exception; only the write case is expected to throw.
+    await halted.exec('reset role');
+    await halted.exec(`set role ${role}`);
+    const readResult = await halted.query('select * from public.question_exposure');
+    await halted.exec('reset role');
+    check(`${role} reads zero rows from question_exposure while the rollout is stopped mid-way`,
+        readResult.rows.length === 0);
+
+    const insertAttempt = await refused(halted, role,
+        `insert into public.question_exposure (question_id, seen_at, exposed_at) values ('h', 1, 1)`);
+    check(`${role} cannot write question_exposure while the rollout is stopped mid-way`, insertAttempt.refused,
+        insertAttempt.message.slice(0, 70));
+}
+// Resuming the rollout must still work normally from this halted state.
+await halted.exec(sqlOf(files[2]));
+try {
+    await halted.exec(sqlOf(files[3]));
+    check('Resuming the rollout from the halted state applies migration 4 cleanly', true);
+} catch (error) {
+    check('Resuming the rollout from the halted state applies migration 4 cleanly', false, String(error));
+}
+check('question_exposure has its 4 owner policies once the rollout resumes and finishes',
+    (await one<{ n: number }>(halted, `select count(*)::int as n from pg_policies
+        where schemaname = 'public' and tablename = 'question_exposure'`)).n === 4);
+
+// ---------------------------------------------------------------------------
 // The diagnostics must report the truth and change nothing.
 // ---------------------------------------------------------------------------
 console.log('\nDiagnostics');
@@ -518,6 +781,6 @@ check('The pre-flight file contains no write statement outside its comments', wr
     writes ? writes.join(',') : '');
 
 console.log(failures === 0
-    ? `\nSetup verified across six project states: ${files.length} migrations, grants, access rules, attribution and read-only diagnostics.`
+    ? `\nSetup verified across eight project states: ${files.length} migrations, grants, access rules, attribution, legacy-policy removal, two-user isolation and read-only diagnostics.`
     : `\n${failures} check(s) failed.`);
 process.exit(failures === 0 ? 0 : 1);

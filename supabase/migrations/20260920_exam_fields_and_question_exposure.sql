@@ -19,5 +19,15 @@ create table if not exists public.question_exposure (
     updated_at  timestamptz not null default now()
 );
 
+-- Enabled here, not deferred to 20260922_personal_access.sql. This table has no user_id
+-- yet and no ownership policy can exist before that migration adds one, but a rollout
+-- that stops between the two migrations must not leave the table open in the meantime.
+-- Row level security with zero policies denies every row to every role except the table
+-- owner (the SQL editor's connection), regardless of the SELECT/INSERT/UPDATE/DELETE
+-- grants Supabase's default privileges hand to anon and authenticated on every new table.
+-- That closes the anonymous-access window immediately, before ownership can exist.
+-- Safe to run twice: enabling row level security on a table that already has it is a no-op.
+alter table public.question_exposure enable row level security;
+
 create index if not exists question_exposure_updated_at_idx
     on public.question_exposure (updated_at);

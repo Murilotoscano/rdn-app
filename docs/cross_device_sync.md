@@ -5,13 +5,16 @@ question exposure, or review state. It covers the review queue, completed exams 
 per-question attempted/exposed history. CDR progress, generated questions and their
 progress remain in the downloadable backup.
 
-The migrations were tested against PostgreSQL through PGlite (`npm run test:db`): from an
-empty database, and from a database that already holds saved progress, both with no user
-session, which is what the SQL editor provides. That run also checks the access rules and
-the attribution of pre-existing rows. The migrations have **not been applied to a live
-Supabase project as part of this change**. The automated tests
-use a transport adapter and do not validate the live project's network, PostgREST
-configuration, grants or RLS policies.
+The migrations were tested against PostgreSQL through PGlite (`npm run test:db`), including
+against a database seeded with the exact legacy state a pre-flight found on the project this
+was written for: two tables already present, with permissive policies from an earlier,
+unrelated setup that an earlier version of this migration would have missed. That run checks
+the access rules, the attribution of pre-existing rows, and the function and table grants
+against Supabase's own default privileges. The migrations have **not been applied to a live
+Supabase project as part of this change**. The automated tests use a transport adapter and a
+simulated PostgreSQL wrapper; they do not validate the live project's actual network,
+PostgREST configuration, or the exact grants and policies present on it today - only the
+pre-flight in step 2 below reads that.
 
 ## Apply before releasing the app
 
@@ -107,6 +110,31 @@ by anyone other than the table owner it would fail on the very first statement, 
 and the ownership requirement both have to be defeated, not just one. `rdn_sync_protocol` is
 the one function the app does call; it reads no data and returns only 0 or 1.
 
+Migration 4 removes **every** policy already on `error_log`, `exam_history` and
+`question_exposure`, not only ones it recognises by name. The pre-flight on the restored
+project found two left over from an earlier, unrelated setup - `Acesso Público` and `Allow
+all for anon`, both `for all to public using (true) with check (true)` - that an
+earlier version of this migration would have missed, because it only dropped policies named
+`rdn_owner_*`. PostgreSQL combines every permissive policy on a table with OR, so one
+leftover `using (true)` policy grants full access to everyone regardless of how many
+owner-only policies exist alongside it. The migration now enumerates whatever is actually in
+`pg_policies` for each table and drops it by its real name before creating the four it needs;
+`npm run test:db` reproduces that exact starting state and confirms all four are exactly
+`rdn_owner_read/write/update/delete` afterwards, with nothing else surviving.
+
+The same fix applies to grants, for the same reason. Supabase's default privileges hand
+`authenticated` every privilege on a new table, not only the four the app uses -
+`TRUNCATE`, `REFERENCES` and `TRIGGER` come with it. Row level security does not govern
+`TRUNCATE` at all: measured directly, a role that keeps that grant can empty the whole table
+in one statement regardless of whose rows they are, with every owner-only policy still in
+place and irrelevant. Granting `select, insert, update, delete` on top of that inherited
+grant, without revoking it first, would have left `TRUNCATE` in place. Migration 4 now
+revokes everything from `authenticated` before granting back exactly those four.
+`question_exposure` also enables row level security the moment it is created in migration 2,
+before it has an owner or a policy, so a rollout that stops between migrations 2 and 4 has no
+anonymous-access window in the meantime: row level security with zero policies denies every
+row to every non-owner role, independently of whatever table grants exist at that point.
+
 ## Device acceptance check
 
 Use the same deployed app URL on iMac and iPad; browser storage is specific to the
@@ -160,17 +188,21 @@ npm run audit:bank
 npm run build
 ```
 
-The 14 persistence checks cover payloads and local/backup round trips. The 14
-integration checks run the actual store and SQL migrations with two independent
-device stores and real PostgreSQL, including that sync writes nothing without a
-signed-in session. The 75 database checks (`npm run test:db`) cover six project
-states: an empty project; a populated project migrated before the account exists;
-a populated project with the account created first; a populated project with two
-accounts, where nothing may be attributed; a partially attributed project; and a
-signed-in user trying to create or capture unowned rows. They also check the
-function grants against Supabase's own default privileges, and run both
-read-only diagnostics to confirm they report the truth and change nothing. They cover stale and overlapping uploads,
-missing metadata, review conflicts, in-flight study actions, read/write failures,
-pagination beyond 1,000 rows, backup restoration, repeatable migrations, and the
-missing-migration guard. These checks do not replace the live device acceptance
-check above.
+The 14 persistence checks cover payloads and local/backup round trips. The 14 integration
+checks run the actual store and SQL migrations with two independent device stores and real
+PostgreSQL. They cover stale and overlapping uploads, missing metadata, review conflicts,
+in-flight study actions, read/write failures, pagination beyond 1,000 rows, backup
+restoration, repeatable migrations, the missing-migration guard, and that sync writes
+nothing without a signed-in session.
+
+The 124 database checks (`npm run test:db`) cover eight project states: an empty project;
+a populated project migrated before the account exists; a populated project with the
+account created first; a populated project with two accounts, where nothing may be
+attributed; a partially attributed project, where only the unowned rows may change; a
+signed-in user trying to create or capture unowned rows; a project restored with permissive
+policies left over from an earlier, unrelated setup, followed by a full CRUD matrix between
+two real signed-in users across all three tables; and a rollout halted between migrations 2
+and 4. They check the function grants and the table grants against Supabase's own default
+privileges (not a bare PostgreSQL database, which would pass this check for the wrong
+reason), and run both read-only diagnostics to confirm they report the truth and change
+nothing. These checks do not replace the live device acceptance check above.

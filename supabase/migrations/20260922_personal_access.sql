@@ -133,13 +133,28 @@ alter table public.exam_history      enable row level security;
 alter table public.question_exposure enable row level security;
 
 do $$
-declare t text;
+declare
+    t text;
+    pol record;
 begin
     foreach t in array array['error_log', 'exam_history', 'question_exposure'] loop
-        execute format('drop policy if exists rdn_owner_read on public.%I', t);
-        execute format('drop policy if exists rdn_owner_write on public.%I', t);
-        execute format('drop policy if exists rdn_owner_update on public.%I', t);
-        execute format('drop policy if exists rdn_owner_delete on public.%I', t);
+        -- Remove every policy already on this table, not only ones named rdn_owner_*.
+        -- A restored or hand-configured project can carry permissive policies under any
+        -- name: this one arrived with "Acesso Público" and "Allow all for anon", both
+        -- FOR ALL TO PUBLIC USING (true) WITH CHECK (true). PostgreSQL OR's permissive
+        -- policies together, so as long as one USING(true) policy exists, it alone grants
+        -- full access to every row and every role no matter how many owner-only policies
+        -- are added afterwards - the rdn_owner_* policies below would have been additive,
+        -- not restrictive. Dropping by a fixed list of names misses anything not on that
+        -- list, so every existing policy is read from pg_policies and dropped by its real
+        -- name before the owner-only policies are created.
+        for pol in
+            select policyname from pg_policies
+            where schemaname = 'public' and tablename = t
+        loop
+            execute format('drop policy if exists %I on public.%I', pol.policyname, t);
+        end loop;
+
         execute format('create policy rdn_owner_read on public.%I for select to authenticated using (auth.uid() = user_id)', t);
         execute format('create policy rdn_owner_write on public.%I for insert to authenticated with check (auth.uid() = user_id)', t);
         execute format('create policy rdn_owner_update on public.%I for update to authenticated using (auth.uid() = user_id) with check (auth.uid() = user_id)', t);
@@ -149,6 +164,18 @@ begin
         execute format('revoke all on public.%I from public', t);
         if exists (select 1 from pg_catalog.pg_roles where rolname = 'anon') then
             execute format('revoke all on public.%I from anon', t);
+        end if;
+        -- authenticated is revoked before being re-granted, not merely granted on top of
+        -- whatever it already had. Supabase's own default privileges
+        -- ("alter default privileges in schema public grant all on tables to ... authenticated")
+        -- hand every new table ALL PRIVILEGES at creation time - not just SELECT/INSERT/
+        -- UPDATE/DELETE, but TRUNCATE, REFERENCES and TRIGGER too. Row level security does
+        -- not govern TRUNCATE at all: measured directly, a role holding only the inherited
+        -- TRUNCATE grant can empty the whole table regardless of whose rows they are or
+        -- what any owner-only policy says. Granting the four needed privileges without
+        -- revoking first would have left that grant in place, unrestricted by RLS.
+        if exists (select 1 from pg_catalog.pg_roles where rolname = 'authenticated') then
+            execute format('revoke all on public.%I from authenticated', t);
         end if;
         execute format('grant select, insert, update, delete on public.%I to authenticated', t);
     end loop;
