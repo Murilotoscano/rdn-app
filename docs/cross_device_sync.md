@@ -54,9 +54,14 @@ Follow these in order. Steps 0 to 2 only read; nothing is changed before step 3.
    - `supabase/migrations/20260921_safe_cross_device_sync.sql`
    - `supabase/migrations/20260922_personal_access.sql` (ownership, row level security,
      removes the anonymous role's access)
+   - `supabase/migrations/20260923_ownership_guard.sql` (sets `user_id` on insert from
+     `auth.uid()`, locks it against every later update - see below; **apply this one even if
+     migrations 1-4 were already applied and validated earlier**, it does not touch them)
 6. **Validate the attribution.** Run `select public.rdn_sync_protocol();`. It must return `1`,
-   which proves the three merge guards exist and are enabled. If it returns `0` a guard was
-   left disabled by an interrupted run: re-apply `20260921_safe_cross_device_sync.sql`.
+   which proves the three merge guards *and* the three ownership guards below exist and are
+   enabled - six triggers in total. If it returns `0` a guard was left disabled by an
+   interrupted run: re-apply `20260921_safe_cross_device_sync.sql` and/or
+   `20260923_ownership_guard.sql`.
 7. **Run the post-migration diagnostic**: `supabase/diagnostics/orphan_rows.sql`, also
    read-only. The expected result is `0` orphan rows in all three tables.
 
@@ -148,6 +153,47 @@ fail-closed state, not a bug. Migration 4 re-grants `authenticated` exactly
 an actual `TRUNCATE` attempt, not only by inspecting the grant - on every table each migration
 creates.
 
+## The ownership guard (migration 5)
+
+`user_id`'s `default auth.uid()` from migration 4 is not a reliable way to set ownership on
+its own. `src/lib/store.ts`'s bulk `.upsert()` never sends `user_id` at all, and a bulk
+request through PostgREST does not apply a column default the same way a single hand-written
+`INSERT` does for every shape of request an old or cached build of the app might send. On the
+real project this landed 191 `error_log` rows with `user_id IS NULL` on the very first sync:
+invisible under row level security from that point on (`auth.uid() = user_id` can never be
+true against `NULL`), and every later sync attempt hit `INSERT ... ON CONFLICT DO UPDATE`
+against that same, now-unreachable row, producing exactly the reported error - `new row
+violates row-level security policy (USING expression) for table "error_log"`.
+
+`20260923_ownership_guard.sql` installs a `before insert or update` trigger,
+`rdn_enforce_ownership`, on all three tables, and does not depend on the client at all:
+
+- **On insert**, a row with no `user_id` is stamped with `auth.uid()` - but only when
+  `auth.uid()` is set. An administrative insert with no session (the recovery path) is left
+  alone, exactly like the column default it replaces.
+- **On update**, whenever `auth.uid()` is set, `user_id` is reset to `OLD.user_id`
+  unconditionally, regardless of what the client sent. A signed-in user can now neither give
+  their own row away nor (as already true before this) take over someone else's. When
+  `auth.uid()` is not set - a raw SQL editor connection, or `rdn_assign_orphan_rows()` running
+  from one - this does nothing, so that function's own administrative updates are untouched.
+
+`rdn_sync_protocol()` is redefined in this same migration (not by editing
+`20260921_safe_cross_device_sync.sql`, which already ran) to require all six triggers - the
+three merge guards and the three new ownership guards - enabled, still returning only `0` or
+`1`.
+
+**If the project already has rows with `user_id IS NULL` from before this migration** (run
+`supabase/diagnostics/orphan_rows.sql` to check), they are not fixed by applying this
+migration alone - it only changes what happens to *new* writes. Recover the existing ones the
+same way any orphaned row is recovered:
+
+```sql
+select public.rdn_assign_orphan_rows();
+```
+
+with exactly one account in the project, or `rdn_assign_orphan_rows('<user id>')` otherwise.
+Re-run `orphan_rows.sql` afterwards and expect `0` in every table.
+
 ## Device acceptance check
 
 Use the same deployed app URL on iMac and iPad; browser storage is specific to the
@@ -208,16 +254,20 @@ in-flight study actions, read/write failures, pagination beyond 1,000 rows, back
 restoration, repeatable migrations, the missing-migration guard, and that sync writes
 nothing without a signed-in session.
 
-The 178 database checks (`npm run test:db`) cover nine project states: an empty project;
+The 207 database checks (`npm run test:db`) cover ten project states: an empty project;
 a populated project migrated before the account exists; a populated project with the
 account created first; a populated project with two accounts, where nothing may be
 attributed; a partially attributed project, where only the unowned rows may change; a
 signed-in user trying to create or capture unowned rows; a project restored with permissive
 policies left over from an earlier, unrelated setup, followed by a full CRUD matrix between
-two real signed-in users across all three tables; and a rollout halted right after migration 1
+two real signed-in users across all three tables; a rollout halted right after migration 1
 and, separately, right after migration 2 - each proving anon and authenticated hold none of
 SELECT/INSERT/UPDATE/DELETE/**TRUNCATE** at that point, TRUNCATE included because row level
-security never governs it. They check the function grants and the table grants against Supabase's own default
-privileges (not a bare PostgreSQL database, which would pass this check for the wrong
-reason), and run both read-only diagnostics to confirm they report the truth and change
-nothing. These checks do not replace the live device acceptance check above.
+security never governs it; and the ownership guard from migration 5, reproducing the real
+191-row bug at scale, a repeat sync, an owner giving their own row away, a second user taking
+over or claiming someone else's row, the administrative recovery path, and
+`rdn_sync_protocol()`'s six-trigger check. They check the function grants and the table
+grants against Supabase's own default privileges (not a bare PostgreSQL database, which would
+pass this check for the wrong reason), and run both read-only diagnostics to confirm they
+report the truth and change nothing. These checks do not replace the live device acceptance
+check above.

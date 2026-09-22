@@ -1,5 +1,5 @@
 /**
- * Applies the four migration FILES in order and checks the access rules they install,
+ * Applies the five migration FILES in order and checks the access rules they install,
  * across every setup order the rollout can actually meet:
  *   A. empty project, account created first;
  *   B. populated project migrated with no account and no session, claimed afterwards;
@@ -17,7 +17,12 @@
  *      leave open the moment the tables exist;
  *   H2. the same, right after migration 2, for question_exposure - and specifically that
  *      TRUNCATE is refused, since row level security (which migration 2 does enable
- *      immediately) never governs it on its own.
+ *      immediately) never governs it on its own;
+ *   I. the ownership guard from 20260923_ownership_guard.sql: a 191-row bulk upsert with no
+ *      user_id (the real bug, reproduced at the real scale) lands owned by the signed-in
+ *      user and stays that way on a repeat sync; a second user can neither take over nor
+ *      claim someone else's row, and an owner cannot give their own row away; the admin
+ *      recovery path and rdn_sync_protocol()'s six-trigger check both still work.
  * It also runs the read-only diagnostics and proves they change nothing.
  * Run: npm run test:db
  *
@@ -182,7 +187,7 @@ const orphanCount = async (db: PGlite) => (await one<{ n: number }>(db, `
         union all select user_id from public.question_exposure) o
     where o.user_id is null`)).n;
 
-check('Four migration files found, applied in filename order', files.length === 4, files.join(' -> '));
+check('Five migration files found, applied in filename order', files.length === 5, files.join(' -> '));
 
 // ---------------------------------------------------------------------------
 // A. Empty project, account created first
@@ -204,9 +209,9 @@ for (const file of files) {
 // Re-running everything must be safe: a half-finished run has to be repeatable.
 try {
     for (const file of files) await db.exec(sqlOf(file));
-    check('All four migrations are repeatable', true);
+    check('All five migrations are repeatable', true);
 } catch (error) {
-    check('All four migrations are repeatable', false, String(error));
+    check('All five migrations are repeatable', false, String(error));
 }
 
 const protocol = await one<{ version: number }>(db, 'select public.rdn_sync_protocol() as version');
@@ -269,7 +274,10 @@ check('Signed-in owner can write and read their own exam', ownerRows.rows.length
     ownerRows.rows[0].user_id === OWNER);
 await db.exec(`reset role`);
 
-// --- The nullable column must not let the client create new unowned rows. ---
+// A signed-in insert that omits user_id (or sends it explicitly null, exactly what
+// src/lib/store.ts's bulk upsert does) is no longer left unowned: rdn_enforce_ownership
+// fills it from auth.uid() before row level security ever sees the row. This is the fix
+// for the real bug - the column's DEFAULT alone was not reliable for a bulk upsert.
 const apiInserts: [string, string][] = [
     ['exam_history', `insert into public.exam_history (id, date, score, total_questions, domain_scores,
         time_spent_seconds, mode, user_id) values ('x1', 'd', 1, 1, '{}'::jsonb, 1, 'mock', null)`],
@@ -278,21 +286,33 @@ const apiInserts: [string, string][] = [
     ['question_exposure', `insert into public.question_exposure (question_id, seen_at, exposed_at, user_id)
         values ('x1', 1, 1, null)`],
 ];
+const idColumn: Record<string, string> = { exam_history: 'id', error_log: 'question_id', question_exposure: 'question_id' };
+await signInAs(db, OWNER);
 for (const [table, sql] of apiInserts) {
-    const attempt = await refused(db, 'authenticated', sql);
-    check(`${table}: an insert with user_id null is refused through the API`, attempt.refused,
-        attempt.message.slice(0, 70));
+    await db.exec('set role authenticated');
+    await db.exec(sql);
+    await db.exec('reset role');
+    const owned = await one<{ n: number }>(db,
+        `select count(*)::int as n from public.${table} where ${idColumn[table]} = 'x1' and user_id = '${OWNER}'`);
+    check(`${table}: an insert with user_id null is auto-owned by the signed-in user, not refused`,
+        owned.n === 1, `owned=${owned.n}`);
 }
 for (const [table, sql] of apiInserts) {
-    const attempt = await refused(db, 'authenticated', sql.replace('null)', `'${OTHER}')`));
-    check(`${table}: an insert under another user's id is refused`, attempt.refused,
-        attempt.message.slice(0, 70));
+    // 'x1' already exists from the block above; a different id keeps this a row-level-
+    // security refusal rather than a coincidental primary-key conflict.
+    const attempt = await refused(db, 'authenticated', sql.replace('x1', 'x2').replace('null)', `'${OTHER}')`));
+    check(`${table}: an insert under another user's id is refused`,
+        attempt.refused && /row-level security/i.test(attempt.message), attempt.message.slice(0, 70));
 }
 
-// Updating an owned row to no owner, or to someone else. The exam_history and error_log
-// merge guards answer an update by returning the stored row, so those attempts are
-// neutralised before the policy is reached; question_exposure reaches the policy and is
-// rejected. Either way the check that matters is that ownership did not move.
+// Updating an owned row to no owner, or to someone else. Three mechanisms cover this now,
+// and this test does not depend on which one fires: the exam_history and error_log merge
+// guards answer an update by returning the stored row; rdn_enforce_ownership (this
+// migration) resets user_id back to OLD.user_id on every table whenever auth.uid() is set,
+// before either the merge guards or row level security's WITH CHECK even see the row - so
+// for question_exposure specifically, what used to be an explicit RLS rejection is now a
+// silent no-op on the ownership column instead (the update still succeeds; user_id just
+// never moves). Either way the check that matters is that ownership did not move.
 await signInAs(db, OWNER);
 const transfers: [string, string][] = [
     ['exam_history', `update public.exam_history set user_id = %V where id = 'mock-db-1'`],
@@ -811,6 +831,190 @@ check('question_exposure: authenticated ends with exactly the four grants it nee
     authFinal2.n === 4, `authenticatedGrants=${authFinal2.n}`);
 
 // ---------------------------------------------------------------------------
+// I. Ownership guard: the actual real-world bug, reproduced and fixed
+// ---------------------------------------------------------------------------
+// The real project's first sync created 191 error_log rows with user_id NULL, because
+// src/lib/store.ts's bulk .upsert() never sends user_id and the column's `default
+// auth.uid()` from 20260922_personal_access.sql is not a reliable substitute for a bulk
+// PostgREST request. Once landed, every one of those rows became permanently invisible
+// under row level security, and re-syncing them hit INSERT ... ON CONFLICT DO UPDATE
+// against a row whose UPDATE policy USING clause could never match a NULL owner - exactly
+// the reported error: "new row violates row-level security policy (USING expression) for
+// table error_log". This scenario reproduces that shape of request directly (a single
+// multi-row statement listing user_id = NULL for every row, the way PostgREST's bulk upsert
+// actually does it) at the same scale (191 rows), proves the fix, then proves the guard
+// holds against the same attacks the rest of this suite already covers for the other tables.
+console.log('\nI. Ownership guard: auto-fill on insert, locked on update');
+const guard = await freshProject();
+for (const file of files) await guard.exec(sqlOf(file));
+const USER_I = '66666666-6666-4666-8666-666666666666';
+const USER_J = '77777777-7777-4777-8777-777777777777';
+await guard.exec(`insert into auth.users (id, email) values
+    ('${USER_I}', 'i@example.com'), ('${USER_J}', 'j@example.com')`);
+
+// --- Requirement 1: bulk upsert with no user_id, 191 rows, exactly as store.ts sends it. ---
+const bulkValues = Array.from({ length: 191 }, (_, i) => `('bulk-${i}', ${i % 5}, null)`).join(',\n');
+await signInAs(guard, USER_I);
+await guard.exec('set role authenticated');
+try {
+    await guard.exec(`insert into public.error_log (question_id, wrong_count, user_id) values ${bulkValues}
+        on conflict (question_id) do update set wrong_count = excluded.wrong_count`);
+} finally { await guard.exec('reset role'); }
+const afterBulk = await one<{ total: number; owned: number; orphaned: number }>(guard, `
+    select count(*)::int as total,
+           count(*) filter (where user_id = '${USER_I}')::int as owned,
+           count(*) filter (where user_id is null)::int as orphaned
+    from public.error_log where question_id like 'bulk-%'`);
+check('191-row bulk upsert with no user_id: every row is owned by the signed-in user, none orphaned',
+    afterBulk.total === 191 && afterBulk.owned === 191 && afterBulk.orphaned === 0,
+    JSON.stringify(afterBulk));
+
+// --- Requirement 2: repeating the exact same upsert must not throw, and must not clear
+// the ownership it just established. This is the real system's second sync attempt. ---
+await guard.exec('set role authenticated');
+let secondSyncThrew: string | null = null;
+try {
+    await guard.exec(`insert into public.error_log (question_id, wrong_count, user_id) values ${bulkValues}
+        on conflict (question_id) do update set wrong_count = excluded.wrong_count`);
+} catch (error) { secondSyncThrew = String(error).split('\n')[0]; }
+await guard.exec('reset role');
+check('Repeating the same 191-row upsert succeeds - no "(USING expression)" error on retry',
+    secondSyncThrew === null, secondSyncThrew ?? '');
+const afterSecond = await one<{ owned: number }>(guard,
+    `select count(*) filter (where user_id = '${USER_I}')::int as owned
+     from public.error_log where question_id like 'bulk-%'`);
+check('The repeat upsert updates values without zeroing user_id', afterSecond.owned === 191);
+
+// --- Requirements 3 and 4, across all three tables: a second real user cannot take over
+// the first user's row via UPDATE, and cannot insert claiming to be the first user. Also
+// covers the row's own owner trying to give it away, which INSERT-time checks alone (RLS's
+// WITH CHECK on a foreign id) would not catch - only the UPDATE-locking half of the guard
+// does, since the owner IS allowed to reach their own row in the first place. ---
+const ownRow: Record<typeof TABLES[number], { idCol: string; insertOwn: string; select: string }> = {
+    error_log: {
+        idCol: 'question_id',
+        insertOwn: `insert into public.error_log (question_id, wrong_count) values ('own-1', 1)`,
+        select: `select user_id::text as owner from public.error_log where question_id = 'own-1'`,
+    },
+    exam_history: {
+        idCol: 'id',
+        insertOwn: `insert into public.exam_history (id, date, score, total_questions, domain_scores,
+            time_spent_seconds, mode) values ('own-1', '2026-09-01', 90, 145, '{}'::jsonb, 9000, 'mock')`,
+        select: `select user_id::text as owner from public.exam_history where id = 'own-1'`,
+    },
+    question_exposure: {
+        idCol: 'question_id',
+        insertOwn: `insert into public.question_exposure (question_id, seen_at, exposed_at) values ('own-1', 1000, 1000)`,
+        select: `select user_id::text as owner from public.question_exposure where question_id = 'own-1'`,
+    },
+};
+for (const table of TABLES) {
+    const { idCol, insertOwn, select } = ownRow[table];
+
+    // User I creates their own row with no user_id in the payload (requirement 1, per table).
+    await signInAs(guard, USER_I);
+    await guard.exec('set role authenticated');
+    await guard.exec(insertOwn);
+    await guard.exec('reset role');
+    const created = await one<{ owner: string }>(guard, select);
+    check(`${table}: the owner's own row (no user_id sent) is auto-owned by them`, created.owner === USER_I);
+
+    // Requirement 3: user J cannot take over I's row via UPDATE.
+    await signInAs(guard, USER_J);
+    await guard.exec('set role authenticated');
+    const jTakeover = await guard.query(
+        `update public.${table} set user_id = '${USER_J}' where ${idCol} = 'own-1' returning ${idCol}`);
+    await guard.exec('reset role');
+    check(`${table}: user J cannot take over user I's row (0 rows affected - RLS never lets J reach it)`,
+        jTakeover.rows.length === 0);
+
+    // Requirement 4: user J cannot insert a new row explicitly claiming to be I.
+    const claimInsert = table === 'error_log'
+        ? `insert into public.error_log (question_id, wrong_count, user_id) values ('claim-1', 1, '${USER_I}')`
+        : table === 'exam_history'
+            ? `insert into public.exam_history (id, date, score, total_questions, domain_scores,
+                time_spent_seconds, mode, user_id) values ('claim-1', '2026-09-01', 1, 1, '{}'::jsonb, 1, 'mock', '${USER_I}')`
+            : `insert into public.question_exposure (question_id, seen_at, exposed_at, user_id)
+                values ('claim-1', 1, 1, '${USER_I}')`;
+    const jClaim = await refused(guard, 'authenticated', claimInsert);
+    check(`${table}: user J cannot insert a row explicitly claiming to be user I`, jClaim.refused,
+        jClaim.message.slice(0, 70));
+
+    // I themself cannot give their own row away via UPDATE either - the guard's UPDATE
+    // branch resets user_id back to OLD.user_id unconditionally whenever auth.uid() is set,
+    // regardless of what the client asked for or whether a merge guard would also block it.
+    await signInAs(guard, USER_I);
+    await guard.exec('set role authenticated');
+    await guard.exec(`update public.${table} set user_id = '${USER_J}' where ${idCol} = 'own-1'`);
+    await guard.exec('reset role');
+    const afterSelfGiveaway = await one<{ owner: string }>(guard, select);
+    check(`${table}: the owner cannot give their own row away to another user via UPDATE`,
+        afterSelfGiveaway.owner === USER_I, `owner=${afterSelfGiveaway.owner}`);
+}
+
+// --- Requirement 5: rdn_assign_orphan_rows() still claims NULL rows administratively,
+// with the new trigger installed - the exact recovery path the real 191 rows need. ---
+await guard.exec(`insert into auth.users (id, email) values ('88888888-8888-4888-8888-888888888888', 'k@example.com')`);
+const KEEPER = '88888888-8888-4888-8888-888888888888';
+// The JWT claim set by signInAs is session-level, not role-level: `reset role` above put the
+// connection back to the table owner, but auth.uid() would still read USER_I's claim if it
+// were left in place, and the ownership guard would then auto-fill these seed rows - a real
+// admin connection (SQL editor, a service key) never has this claim set at all, so the test
+// has to clear it explicitly to represent that, not rely on it happening to still be unset.
+await signInAs(guard, null);
+await guard.exec(`
+    insert into public.error_log (question_id, wrong_count, user_id) values ('orphan-1', 1, null);
+    insert into public.exam_history (id, date, score, total_questions, domain_scores,
+        time_spent_seconds, mode, user_id) values ('orphan-1', '2026-01-01', 1, 1, '{}'::jsonb, 1, 'mock', null);
+    insert into public.question_exposure (question_id, seen_at, exposed_at, user_id)
+        values ('orphan-1', 1, 1, null);
+`);
+const claimed = await one<{ n: number }>(guard, `select public.rdn_assign_orphan_rows('${KEEPER}') as n`);
+check('rdn_assign_orphan_rows() still claims NULL-owned rows administratively with the guard installed',
+    claimed.n === 3, `claimed=${claimed.n}`); // the three freshly seeded 'orphan-1' rows, one per table
+const orphansLeft = await one<{ n: number }>(guard, `
+    select (select count(*)::int from public.error_log where question_id = 'orphan-1' and user_id is null)
+         + (select count(*)::int from public.exam_history where id = 'orphan-1' and user_id is null)
+         + (select count(*)::int from public.question_exposure where question_id = 'orphan-1' and user_id is null) as n`);
+check('None of the three orphan-1 rows are left unowned after administrative recovery', orphansLeft.n === 0);
+
+// --- Requirement 6: rdn_sync_protocol() reports 0 when the new guards are missing, 1 when
+// all six triggers (three preserve, three ownership) are installed and enabled. ---
+const protocolBefore = await one<{ v: number }>(guard, 'select public.rdn_sync_protocol() as v');
+check('rdn_sync_protocol() returns 1 with all six triggers installed', protocolBefore.v === 1);
+for (const table of TABLES) await guard.exec(`alter table public.${table} disable trigger rdn_enforce_ownership`);
+const protocolMissing = await one<{ v: number }>(guard, 'select public.rdn_sync_protocol() as v');
+check('rdn_sync_protocol() returns 0 when the three ownership guards are disabled',
+    protocolMissing.v === 0, `v=${protocolMissing.v}`);
+for (const table of TABLES) await guard.exec(`alter table public.${table} enable trigger rdn_enforce_ownership`);
+const protocolRestored = await one<{ v: number }>(guard, 'select public.rdn_sync_protocol() as v');
+check('rdn_sync_protocol() returns 1 again once the ownership guards are re-enabled',
+    protocolRestored.v === 1);
+// The reverse: disabling a preserve guard instead must also drop it to 0, not just the new ones.
+await guard.exec(`alter table public.error_log disable trigger rdn_preserve_review_progress`);
+check('rdn_sync_protocol() also returns 0 when a pre-existing preserve guard is disabled',
+    (await one<{ v: number }>(guard, 'select public.rdn_sync_protocol() as v')).v === 0);
+await guard.exec(`alter table public.error_log enable trigger rdn_preserve_review_progress`);
+check('rdn_sync_protocol() returns 1 once everything is enabled again',
+    (await one<{ v: number }>(guard, 'select public.rdn_sync_protocol() as v')).v === 1);
+check('rdn_sync_protocol() never returns anything other than 0 or 1',
+    [protocolBefore.v, protocolMissing.v, protocolRestored.v].every(v => v === 0 || v === 1));
+
+// --- The administrative function itself: still SECURITY INVOKER, still not executable by
+// the API roles, unaffected by this migration (defends against a regression here too). ---
+const guardAdmin = await one<{ mode: string }>(guard, `
+    select case when prosecdef then 'DEFINER' else 'INVOKER' end as mode
+    from pg_proc p join pg_namespace n on n.oid = p.pronamespace
+    where n.nspname = 'public' and p.proname = 'rdn_enforce_ownership'`);
+check('rdn_enforce_ownership runs as the caller (SECURITY INVOKER), not the definer',
+    guardAdmin.mode === 'INVOKER');
+for (const role of ['anon', 'authenticated', 'service_role', 'public']) {
+    const granted = await one<{ ok: boolean }>(guard,
+        `select has_function_privilege('${role}', 'public.rdn_enforce_ownership()', 'execute') as ok`);
+    check(`rdn_enforce_ownership is not directly executable by ${role}`, granted.ok === false);
+}
+
+// ---------------------------------------------------------------------------
 // The diagnostics must report the truth and change nothing.
 // ---------------------------------------------------------------------------
 console.log('\nDiagnostics');
@@ -864,6 +1068,6 @@ check('The pre-flight file contains no write statement outside its comments', wr
     writes ? writes.join(',') : '');
 
 console.log(failures === 0
-    ? `\nSetup verified across nine project states: ${files.length} migrations, grants, access rules, attribution, legacy-policy removal, two-user isolation, fail-closed intermediate states and read-only diagnostics.`
+    ? `\nSetup verified across ten project states: ${files.length} migrations, grants, access rules, attribution, legacy-policy removal, two-user isolation, fail-closed intermediate states, the ownership guard and read-only diagnostics.`
     : `\n${failures} check(s) failed.`);
 process.exit(failures === 0 ? 0 : 1);
