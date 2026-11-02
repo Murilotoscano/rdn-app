@@ -209,11 +209,14 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Genetic predisposition and biological factors influencing behavior"
             ],
             "correctIndex": 1,
-            "explanation": "Operant conditioning relies on the principle that behavior is increasing if followed by positive reinforcement (reward) and decreased by punishment or negative reinforcement.",
+            "explanation": "In operant conditioning, reinforcement increases the future likelihood of a behavior. Positive reinforcement adds a stimulus; negative reinforcement removes or avoids an aversive stimulus. Punishment is intended to decrease behavior.",
             "tags": [
                 "education",
                 "behavioral_theories",
                 "conditioning"
+            ],
+            "references": [
+                "https://dictionary.apa.org/negative-reinforcement"
             ]
         },
         {
@@ -1869,12 +1872,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Oats are always safe because they do not contain prolamin proteins like gliadin"
             ],
             "correctIndex": 1,
-            "explanation": "The gluten-free whole grains are amaranth, millet, teff, buckwheat, and quinoa. Gluten-containing grains include wheat (and its forms: bulgur, kamut, durum, farina, orzo), rye, barley, and triticale. Oats do contain avenin (a prolamin) and glutenin — technically capable of forming gluten — and are frequently contaminated with wheat during growing or processing. Celiac patients should avoid oats unless certified gluten-free.",
+            "explanation": "Amaranth, millet, teff, buckwheat and quinoa do not naturally contain wheat, barley or rye gluten. Oats contain avenin, not wheat glutenin, and may be contaminated with gluten-containing grains. People with celiac disease should discuss tolerance and choose oats labeled gluten-free when appropriate.",
             "tags": [
                 "celiac-disease",
                 "gluten-free",
                 "whole-grains",
                 "food-science"
+            ],
+            "references": [
+                "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
             ]
         },
         {
@@ -1903,21 +1909,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Food Science",
             "difficulty": "medium",
-            "text": "Which type of milk pasteurization produces a shelf-stable product that does NOT require refrigeration?",
+            "text": "Milk has undergone ultra-high-temperature treatment. Which additional condition permits shelf-stable storage before opening?",
             "options": [
-                "High Temperature Short Time (HTST) — 161°F for 15 seconds",
-                "Ultra-Pasteurization (UP) — 280°F for 2 seconds",
-                "Ultra-High Temperature (UHT) — sterile aseptic conditions",
-                "Low Temperature Vat — 145°F for 30 minutes"
+                "Aseptic packaging that prevents recontamination before opening",
+                "An open container held at room temperature",
+                "Mixing the treated milk with untreated milk",
+                "Repeatedly opening the package before storage"
             ],
-            "correctIndex": 2,
-            "explanation": "UHT (Ultra-High Temperature) pasteurization is performed under sterile, aseptic conditions and results in a product that does NOT require refrigeration. The aseptic packaging prevents recontamination. HTST (most common US method), HHST, and UP all still require refrigeration. UP extends shelf life longer than HTST but the product remains perishable once opened. Only UHT eliminates the refrigeration requirement.",
+            "correctIndex": 0,
+            "explanation": "UHT treatment with aseptic packaging can produce shelf-stable milk while the package remains unopened and intact. After opening, follow the product’s refrigeration and storage instructions. Shelf stability depends on both treatment and packaging.",
             "tags": [
                 "pasteurization",
                 "UHT",
                 "milk",
                 "food-preservation",
                 "food-science"
+            ],
+            "references": [
+                "https://www.fda.gov/media/193438/download?attachment="
             ]
         },
         {
@@ -2251,7 +2260,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Food Science",
             "difficulty": "easy",
-            "text": "One standard alcoholic drink is defined as the amount containing 1 oz of alcohol. Which option correctly matches beverage type to its standard serving size?",
+            "text": "In the United States, one standard alcoholic drink contains about 0.6 fluid oz (14 g) of pure alcohol. Which option matches the approximate standard serving sizes?",
             "options": [
                 "Beer 5 oz (12% ABV), Wine 12 oz (5% ABV), Spirits 1.5 oz (80 proof)",
                 "Beer 12 oz (5% ABV), Wine 5 oz (12% ABV), Spirits 1.5 oz (80 proof)",
@@ -2259,12 +2268,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Beer 12 oz (5% ABV), Wine 4 oz (15% ABV), Spirits 1 oz (80 proof)"
             ],
             "correctIndex": 1,
-            "explanation": "One standard drink = 1 oz of alcohol, which is contained in: 12 oz beer (5% ABV), 5 oz wine (12% ABV), or 1.5 oz spirits (80 proof = 40% ABV). Beer is brewed from fermented grains; wine from fermented fruit juice; spirits are distilled from fermented grains, potatoes, corn, agave, or other botanicals. This is relevant for dietary counseling regarding alcohol intake recommendations.",
+            "explanation": "A U.S. standard drink contains about 14 g (0.6 fluid oz) of pure alcohol. Approximate equivalents are 12 fl oz beer at 5% ABV, 5 fl oz wine at 12% ABV, or 1.5 fl oz spirits at 40% ABV. Actual alcohol content varies by product.",
             "tags": [
                 "alcohol",
                 "standard-drink",
                 "beverages",
                 "food-science"
+            ],
+            "references": [
+                "https://www.niaaa.nih.gov/alcohols-effects-health/what-standard-drink"
             ]
         },
         {
@@ -2796,21 +2808,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Digestion",
             "difficulty": "medium",
-            "text": "Cholecystokinin (CCK) is released in response to fat and protein in the stomach and small intestine. What are its two primary digestive effects?",
+            "text": "Cholecystokinin (CCK) is released in response to nutrients in the small intestine. Which response describes its digestive effects?",
             "options": [
                 "Increases gastric acid secretion and stimulates insulin release from pancreatic beta cells",
-                "Slows gastric emptying and stimulates bile production plus pancreatic enzyme release",
+                "Slows gastric emptying and stimulates gallbladder bile release and pancreatic enzyme secretion",
                 "Stimulates intestinal motility and increases water secretion into the lumen of the colon",
                 "Inhibits gastrin and reduces duodenal pH to activate pancreatic enzymes in the lumen"
             ],
             "correctIndex": 1,
-            "explanation": "CCK is produced by small intestinal mucosal cells and acts to: (1) slow gastric emptying (to allow more time for digestion), and (2) stimulate bile production (from the gallbladder) and pancreatic juice release (containing bicarbonate and enzymes). CCK also contributes to satiety via CNS receptors. Bile acid accumulation in the intestine provides negative feedback to reduce CCK secretion once digestion is sufficient.",
+            "explanation": "CCK promotes gallbladder contraction and release of stored bile, pancreatic enzyme secretion, and slower gastric emptying. The liver produces bile; the gallbladder stores and releases it.",
             "tags": [
                 "CCK",
                 "cholecystokinin",
                 "bile",
                 "pancreatic enzymes",
                 "GI hormones"
+            ],
+            "references": [
+                "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
             ]
         },
         {
@@ -3112,13 +3127,16 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Wernicke-Korsakoff syndrome (confusion, ataxia)"
             ],
             "correctIndex": 2,
-            "explanation": "Vitamin B6 (pyridoxine) is unique among water-soluble vitamins (along with niacin) in that excess intake causes toxicity. High-dose B6 supplementation leads to neurological damage, specifically sensory peripheral neuropathy. B6 deficiency, in contrast, can cause microcytic hypochromic anemia (due to reduced heme synthesis) and neurological symptoms from decreased neurotransmitter production. Wernicke-Korsakoff = thiamin (B1) deficiency; megaloblastic anemia = B12 or folate deficiency.",
+            "explanation": "High-dose supplemental vitamin B6 can cause sensory peripheral neuropathy. B6 deficiency can cause microcytic anemia and neurologic symptoms. Other water-soluble vitamins can also cause harm at excessive doses; B6 is not unique in that respect.",
             "tags": [
                 "B6",
                 "pyridoxine",
                 "toxicity",
                 "peripheral-neuropathy",
                 "normal-nutrition"
+            ],
+            "references": [
+                "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
             ]
         },
         {
@@ -5517,7 +5535,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Assessment",
             "difficulty": "hard",
-            "text": "While interpreting a comprehensive metabolic panel (CMP) for a patient newly diagnosed with acute pancreatitis, the dietitian expects to see severely elevated levels of which two specific serum enzymes utilized as the primary diagnostic markers?",
+            "text": "In the clinical evaluation of suspected acute pancreatitis, which serum enzymes may be ordered as diagnostic markers beyond a routine comprehensive metabolic panel?",
             "options": [
                 "ALT and AST (liver transaminases)",
                 "BUN (Blood Urea Nitrogen) and Creatinine",
@@ -5525,7 +5543,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Alkaline Phosphatase (ALP) and Bilirubin"
             ],
             "correctIndex": 2,
-            "explanation": "The pancreas produces the digestive enzymes amylase (for starches) and lipase (for fats). During an attack of acute pancreatitis, the pancreatic tissue becomes violently inflamed, causing these enzymes to leak out of the pancreas and into the bloodstream in massive quantities. Elevated serum amylase and, more specifically, serum lipase (which is very specific to the pancreas) are the hallmark laboratory indicators used by physicians to diagnose acute pancreatitis. ALT/AST indicate liver damage. BUN/Cr indicate kidney damage. ALP/Bilirubin indicate biliary or bone issues."
+            "explanation": "Serum lipase and amylase are separately ordered pancreatic enzyme tests, not components of a routine comprehensive metabolic panel. Lipase and amylase results are interpreted alongside symptoms and, when appropriate, imaging; they need not both be severely elevated.",
+            "references": [
+                "https://www.niddk.nih.gov/health-information/digestive-diseases/pancreatitis/diagnosis"
+            ]
         },
         {
             "id": "dom2-ext2-008",
@@ -6498,7 +6519,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Quinoa"
             ],
             "correctIndex": 3,
-            "explanation": "Quinoa is a gluten-free grain safe for celiac disease. Forbidden grains include wheat, barley, rye, triticale, and oats (due to cross-contamination risk). Safe grains include rice, corn, quinoa, amaranth, buckwheat, sorghum, teff, and millet.",
+            "explanation": "Quinoa is naturally gluten-free. Wheat, barley, rye and triticale contain gluten. Oats can be contaminated during production; gluten-free-labeled oats may be tolerated by many people with celiac disease, but tolerance and the individual plan should be assessed.",
             "tags": [
                 "celiac disease",
                 "gluten-free",
@@ -6506,6 +6527,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "grains",
                 "barley",
                 "rye"
+            ],
+            "references": [
+                "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
             ]
         },
         {
@@ -7715,18 +7739,21 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "A patient is admitted with severe epigastric pain radiating to the back and a serum lipase of 900 U/L. Which history findings are the most common risk factors for this condition?",
             "options": [
                 "Hypertriglyceridemia and cystic fibrosis",
-                "Gallbladder disease and alcoholism",
+                "Gallstones and heavy alcohol use",
                 "Hypercalcemia and renal failure",
                 "Obesity and infections only"
             ],
             "correctIndex": 1,
-            "explanation": "The two MAIN risk factors for acute pancreatitis are gallbladder disease (biliary tract obstruction from gallstones) and alcoholism — together accounting for ~80% of cases. Other risk factors include obesity and certain medications (furosemide, tetracycline). Hypertriglyceridemia, hypercalcemia, cystic fibrosis, and renal failure are risk factors for CHRONIC pancreatitis. Distinguishing acute vs. chronic pancreatitis risk factors is a common exam topic.",
+            "explanation": "Gallstones and heavy alcohol use are common causes of acute pancreatitis. High triglycerides and hypercalcemia can also cause acute pancreatitis; they are not limited to chronic disease. A diagnosis requires clinical evaluation and appropriate criteria.",
             "tags": [
                 "pancreatitis",
                 "acute-pancreatitis",
                 "risk-factors",
                 "gallstones",
                 "alcoholism"
+            ],
+            "references": [
+                "https://www.niddk.nih.gov/health-information/digestive-diseases/pancreatitis/symptoms-causes"
             ]
         },
         {
@@ -7756,21 +7783,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Renal Disease",
             "difficulty": "medium",
-            "text": "Acute kidney injury (AKI) is defined by which of the following criteria?",
+            "text": "According to the KDIGO 2012 definition, which set correctly gives the time windows for criteria used to identify acute kidney injury (AKI)?",
             "options": [
-                "GFR < 60 mL/min for > 3 months with albuminuria OR structural damage on imaging — all persisting beyond 90 days",
-                "Serum creatinine increase ≥ 0.3 mg/dL OR ≥ 50% increase OR oliguria < 0.5 mL/kg/hr for > 6 hours — all within 48 hours",
-                "Serum BUN > 100 mg/dL with metabolic acidosis OR potassium > 6.5 mEq/L OR fluid overload — all within 24 hours",
-                "Urine output < 400 mL/day for > 24 hours OR a doubling of serum creatinine from baseline — all within 7 days"
+                "GFR below 60 mL/min for over 3 months with persistent kidney damage",
+                "Creatinine increase ≥0.3 mg/dL within 48 hours, or ≥1.5 times baseline within 7 days, or urine output <0.5 mL/kg/hour for 6 hours",
+                "BUN over 100 mg/dL or potassium over 6.5 mEq/L within 24 hours",
+                "Any urine output below 400 mL/day for 24 hours, with no other criteria"
             ],
             "correctIndex": 1,
-            "explanation": "AKI is defined as an ACUTE change in kidney function within 48 hours meeting ≥1 criterion: (1) absolute serum creatinine increase ≥ 0.3 mg/dL, (2) serum creatinine increase ≥ 50% from baseline, or (3) oliguria < 0.5 mL/kg/hr for > 6 hours. The 48-hour timeframe distinguishes AKI from CKD (> 3 months). GFR < 60 for > 3 months defines CKD. AKI patients may be hypercatabolic, especially when caused by sepsis, shock, rhabdomyolysis, surgery, or preexisting malnutrition.",
+            "explanation": "KDIGO 2012 defines AKI using any of: serum creatinine rise ≥0.3 mg/dL within 48 hours; rise to ≥1.5 times baseline known or presumed within the prior 7 days; or urine volume <0.5 mL/kg/hour for 6 hours. Do not put all three windows within 48 hours. The question specifies the 2012 definition.",
             "tags": [
                 "AKI",
                 "acute-kidney-injury",
                 "creatinine",
                 "oliguria",
                 "diagnosis"
+            ],
+            "references": [
+                "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf"
             ]
         },
         {
@@ -8831,12 +8861,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Bone loss, fluid retention, and anemia, with an increased risk of heart failure"
             ],
             "correctIndex": 1,
-            "explanation": "SGLT2 inhibitors (canagliflozin/Invokana, dapagliflozin/Farxiga, empagliflozin/Jardiance) lower blood glucose by blocking renal glucose reabsorption, causing increased urinary glucose excretion. Side effects include: increased urinary frequency, urinary and genitourinary infections, potential dehydration, and increased blood potassium. They are contraindicated with kidney problems. Weight loss (not gain) is typical with SGLT2 inhibitors.",
+            "explanation": "SGLT2 inhibitors increase urinary glucose excretion. Monitor for increased urination, genital infections and volume depletion, considering the individual’s medication plan and clinical context. Kidney disease alone is not a blanket contraindication; indications and kidney-function thresholds depend on the drug and use.",
             "tags": [
                 "diabetes",
                 "SGLT2-inhibitors",
                 "medications",
                 "side-effects"
+            ],
+            "references": [
+                "https://www.fda.gov/drugs/drug-safety-and-availability/fda-revises-labels-sglt2-inhibitors-diabetes-include-warnings-about-too-much-acid-blood-and-serious"
             ]
         },
         {
@@ -16463,19 +16496,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Safety",
             "difficulty": "medium",
-            "text": "Which Class of fire extinguisher is designated for grease, oil, and flammable liquid fires, commonly found in commercial kitchens?",
+            "text": "Which class of portable fire extinguisher is designed for fires involving cooking oils and fats in commercial cooking appliances such as deep-fat fryers?",
             "options": [
                 "Class A",
                 "Class B",
                 "Class C",
                 "Class K"
             ],
-            "correctIndex": 1,
-            "explanation": "Class B extinguishers are for flammable liquids like grease and oil. (However, Class K is specifically for commercial cooking appliances with vegetable oils - but B is the traditional classification for liquids. In modern kitchens, Class K is often the standard for fryers).",
+            "correctIndex": 3,
+            "explanation": "Class K extinguishers are intended for fires involving combustible cooking media in commercial cooking appliances. Class B addresses flammable liquids such as gasoline or solvents. Follow the facility fire plan and use equipment only when trained and safe to do so.",
             "tags": [
                 "foodservice",
                 "safety",
                 "fire"
+            ],
+            "references": [
+                "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/about"
             ]
         },
         {
@@ -16673,7 +16709,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Sanitation",
             "difficulty": "hard",
-            "text": "Which agency is responsible for inspecting meat, poultry, and eggs in the US?",
+            "text": "Which agency inspects meat, poultry, and most processed egg products in the United States?",
             "options": [
                 "Food and Drug Administration (FDA) Center for Food Safety",
                 "Centers for Disease Control and Prevention (CDC)",
@@ -16681,11 +16717,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Environmental Protection Agency (EPA)"
             ],
             "correctIndex": 2,
-            "explanation": "The USDA Food Safety and Inspection Service (FSIS) is responsible for the safety of meat, poultry, and processed egg products. The FDA handles most other foods.",
+            "explanation": "USDA’s Food Safety and Inspection Service inspects meat, poultry and most processed egg products, subject to statutory exceptions. FDA oversees shell eggs and many other foods.",
             "tags": [
                 "foodservice",
                 "sanitation",
                 "agencies"
+            ],
+            "references": [
+                "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/egg-products-and-food-safety",
+                "https://www.fda.gov/food/food-export-lists/egg-and-egg-products-export-lists"
             ]
         },
         {
@@ -22104,7 +22144,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Sustainability",
             "difficulty": "hard",
-            "text": "According to the EPA Food Recovery Hierarchy, which action is the MOST preferred way to address food waste in a foodservice operation?",
+            "text": "According to the EPA Wasted Food Scale, which action is the most preferred approach to wasted food among the options?",
             "options": [
                 "Composting food scraps, by returning nutrients from surplus to the soil",
                 "Source reduction, by preventing surplus food from being generated",
@@ -22112,12 +22152,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Sending scraps to an anaerobic digester, by recovering energy from waste"
             ],
             "correctIndex": 1,
-            "explanation": "The hierarchy ranks source reduction first, because preventing surplus avoids the energy, water, labor and land already embedded in producing food that is never eaten. Only after prevention does the hierarchy descend to feeding people through donation, then feeding animals, then industrial uses such as anaerobic digestion, then composting, with landfill last. Composting is near the bottom of the preferred tiers, recovering nutrients but not the food itself. Donation ranks second, valuable but still downstream of prevention. Anaerobic digestion recovers energy and ranks below donation and animal feed.",
+            "explanation": "EPA’s current Wasted Food Scale prioritizes preventing wasted food. Prevention avoids producing surplus food in the first place; donating edible surplus, composting and other treatments address food after surplus occurs.",
             "tags": [
                 "sustainability",
                 "food waste",
                 "EPA hierarchy",
                 "source reduction"
+            ],
+            "references": [
+                "https://www.epa.gov/sustainable-management-food/wasted-food-scale"
             ]
         },
         {
@@ -23604,12 +23647,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Powdered formula loses all of its vitamin content as soon as water is added to it"
             ],
             "correctIndex": 0,
-            "explanation": "Powdered infant formula is heat-treated but not commercially sterile, and it has been linked to Cronobacter sakazakii, which causes sepsis and meningitis with high mortality in preterm, low birth weight, or immunocompromised infants. Ready-to-feed and sterile liquid concentrate products are commercially sterile and are therefore preferred for these infants in health care facilities. When powder must be used, it is prepared in a dedicated formula room by trained staff using aseptic technique and water that is sterile or has been boiled and cooled.",
+            "explanation": "Powdered infant formula is not commercially sterile and may contain Cronobacter. Commercially sterile liquid formula is preferred for infants at higher risk when appropriate. If powder is necessary, follow the facility’s validated neonatal protocol and manufacturer instructions, including temperature and handling precautions for the specific product.",
             "tags": [
                 "infant feeding",
                 "food safety",
                 "formula",
                 "cronobacter"
+            ],
+            "references": [
+                "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html"
             ]
         },
         {
