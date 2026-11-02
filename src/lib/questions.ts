@@ -4604,21 +4604,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Enteral Nutrition Access",
             "difficulty": "hard",
-            "text": "A patient has a nasojejunal (NJ) tube with post-pyloric access. Which statement best describes the nutritional implication of bypassing the duodenum?",
+            "text": "Which statement about formula selection for a patient receiving jejunal enteral feeding is appropriate?",
             "options": [
-                "No nutritional implication — all digestion occurs in the stomach, so duodenal bypass does not affect absorption of any nutrient",
-                "Key nutrients absorbed in the duodenum (iron, calcium, fat-soluble vitamins) may be inadequately absorbed, requiring supplementation",
-                "Post-pyloric access eliminates the need for a hydrolyzed formula, since the jejunum absorbs intact protein and fat more efficiently",
-                "Jejunal access improves tolerance of hypertonic formulas, because the jejunum dilutes them faster than the stomach can during feeds"
+                "A tube in the jejunum makes all nutrient absorption impossible",
+                "A standard polymeric formula can be appropriate; formula choice depends on the patient and tolerance",
+                "All jejunal feeding requires a hydrolyzed formula and added enzymes",
+                "Jejunal feeding always permits unrestricted bolus volumes"
             ],
             "correctIndex": 1,
-            "explanation": "Bypassing the duodenum with post-pyloric (jejunal) access means skipping a key site for digestion and absorption. Iron, calcium, fat-soluble vitamins, and other nutrients are primarily absorbed in the duodenum. NJ/PEJ access also requires hydrolyzed (pre-digested) formula or intact formula plus enzymes, because key digestive processes in the duodenum are bypassed.",
+            "explanation": "Jejunal access alone does not establish a universal requirement for hydrolyzed formula or added enzymes. A polymeric formula can be appropriate, and the team individualizes formula, rate and monitoring to anatomy, function and tolerance.",
             "tags": [
                 "enteral nutrition",
                 "post-pyloric",
                 "duodenum",
                 "nutrient absorption",
                 "jejunal access"
+            ],
+            "references": [
+                "https://www.espen.org/files/ESPEN-Guidelines/ESPEN_guideline_on_chronic_intestinal_failure_in_adults.pdf"
             ]
         },
         {
@@ -4736,21 +4739,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Enteral Nutrition Formulas",
             "difficulty": "medium",
-            "text": "A patient with short bowel syndrome following extensive bowel resection requires EN. Which formula type is most appropriate and why?",
+            "text": "An adult with short bowel syndrome needs enteral nutrition. Which statement best describes formula selection?",
             "options": [
-                "Standard polymeric formula (1 kcal/mL) — provides intact proteins and carbohydrates",
-                "High-calorie polymeric formula (2 kcal/mL) — more calories in less volume for fluid restriction",
-                "Hydrolyzed (monomeric) formula — pre-digested nutrients absorbed without full digestive capacity",
-                "Controlled carbohydrate formula — reduces CO2 production and improves glycemic control"
+                "A single formula type is mandatory for all short bowel anatomy",
+                "A 2 kcal/mL formula is always required",
+                "Choose based on anatomy and tolerance; polymeric formula may be used and alternatives considered when indicated",
+                "A controlled-carbohydrate formula is mandatory to reduce carbon dioxide"
             ],
             "correctIndex": 2,
-            "explanation": "Hydrolyzed (monomeric) formulas contain pre-digested protein (amino acids/peptides) and carbohydrates, and use MCTs for fat (which don't require emulsification and can be absorbed without full lymphatic transport). They are indicated for jejunal access, short bowel syndrome, and impaired digestion. Standard polymeric formulas require full digestive capacity, which is compromised in short bowel syndrome.",
+            "explanation": "Short bowel syndrome varies in anatomy and function. Formula selection is individualized; polymeric formula may be appropriate, while a peptide-based or other formula can be considered when clinically indicated and tolerated. Neither short bowel diagnosis nor jejunal access automatically mandates one formula for all patients.",
             "tags": [
                 "hydrolyzed formula",
                 "short bowel syndrome",
                 "EN formulas",
                 "MCT",
                 "monomeric"
+            ],
+            "references": [
+                "https://www.espen.org/files/ESPEN-Guidelines/ESPEN_guideline_on_chronic_intestinal_failure_in_adults.pdf"
             ]
         },
         {
@@ -4824,21 +4830,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Parenteral Nutrition",
             "difficulty": "medium",
-            "text": "Peripheral parenteral nutrition (PPN) should maintain formula osmolarity below what threshold to prevent phlebitis or thrombosis in small peripheral veins?",
+            "text": "According to the cited ASPEN practice tool, what maximum osmolarity is recommended for peripheral parenteral nutrition?",
             "options": [
-                "300–400 mOsm/L",
-                "500–600 mOsm/L",
-                "900–1,100 mOsm/L",
-                "1,500–2,000 mOsm/L"
+                "300 mOsm/L",
+                "500 mOsm/L",
+                "900 mOsm/L",
+                "1,500 mOsm/L"
             ],
             "correctIndex": 2,
-            "explanation": "PPN osmolarity must stay below 900–1,100 mOsm/L. Small peripheral veins cannot tolerate hypertonic solutions; excess osmolarity causes large fluid shifts into vascular compartments, leading to phlebitis (vein inflammation) or thrombosis (clot). Central access (superior vena cava) can handle hypertonic PN because the large blood volume and flow rate dilutes the solution.",
+            "explanation": "The ASPEN practice tool states that peripheral PN should not exceed 900 mOsm/L. The clinical team must also account for access, formulation, institutional policies and patient factors; do not treat a 900–1,100 range as a universal safe peripheral limit.",
             "tags": [
                 "PPN",
                 "peripheral parenteral nutrition",
                 "osmolarity",
                 "phlebitis",
                 "central access"
+            ],
+            "references": [
+                "https://nutritioncare.org/wp-content/uploads/2024/12/PN-Myths-Practice-Tool.pdf"
             ]
         },
         {
@@ -4956,21 +4965,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Parenteral Nutrition Calculations",
             "difficulty": "hard",
-            "text": "What is the maximum daily lipid dose for a 75 kg critically ill patient on parenteral nutrition?",
+            "text": "For a calculation exercise, the clinician has prescribed lipid at 1 g/kg/day for a 75 kg patient. How many grams per day does this prescribed dose provide?",
             "options": [
-                "75 g/day (1 g/kg/day maximum for critically ill)",
-                "112 g/day (1.5 g/kg/day maximum for most adults)",
-                "187.5 g/day (2.5 g/kg/day maximum for all patients)",
-                "300 g/day (4 g/kg/day for hypermetabolic states)"
+                "75 g/day",
+                "112 g/day",
+                "187.5 g/day",
+                "300 g/day"
             ],
             "correctIndex": 0,
-            "explanation": "For critically ill patients, the maximum lipid dose is 1 g/kg/day (compared to 2.5 g/kg/day for non-critically ill patients). For a 75 kg critically ill patient: 1 g/kg × 75 kg = 75 g/day. This lower limit for critically ill patients is due to impaired lipid clearance, immune suppression from excessive lipids, and risk of fat overload syndrome. Lipids must constitute at least 2–4% of calories to prevent essential fatty acid deficiency.",
+            "explanation": "75 kg × 1 g/kg/day = 75 g/day. The dose is supplied for this exercise and is not a universal maximum; lipid recommendations depend on the product, condition, tolerance and prescribing guidance.",
             "tags": [
                 "lipid dose",
                 "critically ill",
                 "PN calculation",
                 "1 g/kg/day",
                 "parenteral nutrition"
+            ],
+            "references": [
+                "https://nutritioncare.org/news/parenteral-nutrition-therapy-assessment-tools-and-guidelines/"
             ]
         },
         {
@@ -5066,21 +5078,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Parenteral Nutrition",
             "difficulty": "hard",
-            "text": "To prevent essential fatty acid deficiency with parenteral nutrition, what minimum percentage of total estimated calories should come from lipids containing linoleic acid?",
+            "text": "For a calculation exercise, the plan specifies 2% of 2,000 kcal/day from linoleic acid. How many kcal/day should come from linoleic acid itself?",
             "options": [
-                "1% of total calories",
-                "2–4% of total calories",
-                "10% of total calories",
-                "20% of total calories"
+                "20 kcal",
+                "40 kcal",
+                "80 kcal",
+                "400 kcal"
             ],
             "correctIndex": 1,
-            "explanation": "To prevent essential fatty acid deficiency (EFAD), at least 2–4% of total estimated calorie needs should come from lipids that include linoleic acid (an essential omega-6 fatty acid). Signs of EFAD include dry scaly skin, alopecia, poor wound healing, and impaired immune function. Lipids should not exceed 60% of non-protein calories or 2.5 g/kg/day (1 g/kg/day for critically ill).",
+            "explanation": "2,000 × 0.02 = 40 kcal from linoleic acid itself. The percentage of calories from a lipid emulsion is not the same as the percentage from a specific fatty acid; actual emulsion composition and the individual plan matter.",
             "tags": [
                 "essential fatty acid",
                 "linoleic acid",
                 "EFAD",
                 "PN",
                 "lipids"
+            ],
+            "references": [
+                "https://nutritioncare.org/news/parenteral-nutrition-therapy-assessment-tools-and-guidelines/"
             ]
         },
         {
@@ -5110,21 +5125,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Parenteral Nutrition",
             "difficulty": "medium",
-            "text": "A patient is being started on parenteral nutrition, and the team asks whether a lipid emulsion is safe to include. Which finding is a contraindication?",
+            "text": "According to the 2023 FDA label for Intralipid 20%, which finding is a contraindication?",
             "options": [
-                "Mild hypertriglyceridemia requiring dietary modification only",
-                "Acute pancreatitis, severe egg allergy, or abnormal lipid metabolism",
-                "Peripheral venous access requiring isotonic or near-isotonic solutions",
-                "Protein-calorie malnutrition with increased energy needs after surgery"
+                "A need for careful monitoring of fluid balance",
+                "Known hypersensitivity to egg, soybean, peanut or an ingredient in the product",
+                "A need for nutrition support following surgery",
+                "The presence of an IV catheter"
             ],
             "correctIndex": 1,
-            "explanation": "Contraindications to lipid emulsions in PN include: abnormal lipid metabolism, lipid nephrosis, acute pancreatitis (lipids may worsen inflammation), and severe egg allergy (lipid emulsions contain egg phospholipid as an emulsifier). Caution is advised with blood coagulation disorders, moderate-to-severe liver disease, and compromised pulmonary function. Peripheral access is not a contraindication since lipids are isotonic.",
+            "explanation": "The cited Intralipid 20% label lists known hypersensitivity to egg, soybean, peanut or an ingredient as a contraindication, as well as specified severe lipid-metabolism disorders. Assess the current label for the specific product; acute pancreatitis alone should not be presented as a blanket contraindication for every lipid emulsion.",
             "tags": [
                 "lipid emulsion",
                 "contraindications",
                 "pancreatitis",
                 "egg allergy",
                 "PN"
+            ],
+            "references": [
+                "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/017643s083%2C018449s050s051%2C019942s021%2C020248s027s028lbl.pdf"
             ]
         },
         {
@@ -5132,21 +5150,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Parenteral Nutrition",
             "difficulty": "medium",
-            "text": "Before the team chooses between a peripheral line and a central line for parenteral nutrition, the pharmacist asks the RDN about the solution's osmolarity. Which statement is correct?",
+            "text": "Why does the clinical team evaluate the osmolarity of a parenteral nutrition formulation before selecting vascular access?",
             "options": [
-                "To determine total calories; all components contribute equally, including lipids at about 9 kcal/g and electrolytes",
-                "To guide central vs. peripheral access decisions; dextrose (×5 mOsm/g) and amino acids (×10 mOsm/g) contribute; lipids do NOT",
-                "To assess renal tolerance; amino acids contribute most to osmolarity (×20 mOsm/g), while dextrose contributes little",
-                "To set infusion rate; only dextrose contributes to osmolarity (×5 mOsm/g); amino acids, electrolytes and lipids do NOT contribute"
+                "To calculate calories by assuming every ingredient contributes equally",
+                "To help assess peripheral versus central access using the actual formulation and applicable guidance",
+                "To infer that only dextrose contributes osmolarity",
+                "To prove that electrolytes and additives have no effect on osmolarity"
             ],
             "correctIndex": 1,
-            "explanation": "PN osmolarity is calculated to determine if central or peripheral access is appropriate. Formula: (dextrose g/L × 5) + (AA g/L × 10) + 300–400 mOsm/L (for vitamins/minerals). Lipids do NOT contribute to osmolarity. Solutions >900–1,100 mOsm/L require central access. Central PN can be highly hypertonic (>2,000 mOsm/L) because the large blood volume of the vena cava dilutes it rapidly.",
+            "explanation": "Osmolarity is one factor in access selection. Dextrose, amino acids, electrolytes and other formulation components must be considered using product-specific information. ASPEN’s cited practice tool advises that peripheral PN not exceed 900 mOsm/L; the care team also considers the patient and local policy.",
             "tags": [
                 "PN osmolarity",
                 "central access",
                 "peripheral access",
                 "dextrose",
                 "amino acids"
+            ],
+            "references": [
+                "https://nutritioncare.org/wp-content/uploads/2024/12/PN-Myths-Practice-Tool.pdf"
             ]
         },
         {
@@ -6111,17 +6132,20 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "options": [
                 "Leucine, isoleucine, and valine",
                 "Phenylalanine only, with added tyrosine",
-                "Tyrosine, phenylalanine, and methionine",
+                "Phenylalanine and tyrosine, with individualized metabolic management",
                 "Galactose, lactose, and fructose"
             ],
             "correctIndex": 2,
-            "explanation": "Tyrosinemia type I results from fumarylacetoacetate hydrolase deficiency causing accumulation of toxic tyrosine metabolites. Dietary management restricts tyrosine, phenylalanine (precursor to tyrosine), and methionine.",
+            "explanation": "Tyrosinemia type I is treated with nitisinone and dietary management restricting phenylalanine and tyrosine under specialist supervision. Routine restriction of methionine as a third target is not established by this diagnosis alone.",
             "tags": [
                 "tyrosinemia",
                 "inborn errors",
                 "tyrosine",
                 "phenylalanine",
                 "methionine"
+            ],
+            "references": [
+                "https://www.ncbi.nlm.nih.gov/books/NBK1515/"
             ]
         },
         {
@@ -6583,15 +6607,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "GI Disorders",
             "difficulty": "medium",
-            "text": "A patient with a new ileostomy should be monitored most closely for deficiency of which nutrient?",
+            "text": "A patient with a newly created ileostomy has high output. Which issue deserves close monitoring?",
             "options": [
-                "Vitamin C and folate",
-                "Vitamin B12 and vitamin D",
-                "Vitamin A and vitamin E",
-                "Thiamine and riboflavin"
+                "An inevitable deficiency of vitamin C",
+                "Fluid and electrolyte depletion",
+                "An automatic vitamin D deficiency because the ileum was removed",
+                "No need to monitor hydration"
             ],
             "correctIndex": 1,
-            "explanation": "The terminal ileum (removed or bypassed in ileostomy) is the site of vitamin B12 and vitamin D absorption. Ileostomy patients also need monitoring of electrolytes and oxalate restriction due to fat malabsorption.",
+            "explanation": "An ileostomy, especially with high output, can cause fluid and electrolyte loss. A stoma does not itself prove the terminal ileum was resected; B12 risk depends on anatomy, disease and other factors. Monitor and individualize the care plan.",
             "tags": [
                 "ileostomy",
                 "ostomy",
@@ -6599,6 +6623,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "vitamin D",
                 "terminal ileum",
                 "malabsorption"
+            ],
+            "references": [
+                "https://www.ostomy.org/wp-content/uploads/2022/10/UOAA_Living_with_an_Ileostomy_Guide-2022-10.pdf"
             ]
         },
         {
@@ -6697,15 +6724,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Respiratory Disease",
             "difficulty": "hard",
-            "text": "A patient with ARDS requires enteral nutrition. Which specialized formula component has evidence for reducing inflammation in ARDS?",
+            "text": "What did the ASPEN/SCCM 2016 guideline conclude about routine enteral formulas enriched with omega-3 fatty acids and borage oil in ARDS?",
             "options": [
-                "High branched-chain amino acids",
-                "EPA and GLA (fish oil and borage oil)",
-                "High medium-chain triglycerides",
-                "Concentrated glucose polymer formula"
+                "They must be started within 24 hours for every patient",
+                "No recommendation for routine use was made because evidence was conflicting",
+                "They replace the need to monitor nutrition tolerance",
+                "They are mandatory whenever any respiratory disease is present"
             ],
             "correctIndex": 1,
-            "explanation": "Enteral formulas enriched with EPA (eicosapentaenoic acid from fish oil) and GLA (gamma-linolenic acid from borage oil) have anti-inflammatory properties and should be initiated within 24 hours in ARDS patients per nutrition support guidelines.",
+            "explanation": "The 2016 ASPEN/SCCM guideline made no recommendation for routine use of omega-3/borage-oil enriched enteral formulations in ARDS because available evidence was conflicting. The question names the guideline and year; consult current local guidance for practice.",
             "tags": [
                 "ARDS",
                 "enteral nutrition",
@@ -6714,6 +6741,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "fish oil",
                 "borage oil",
                 "anti-inflammatory"
+            ],
+            "references": [
+                "https://doi.org/10.1177/0148607115621863"
             ]
         },
         {
@@ -6791,15 +6821,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Cardiovascular Disease",
             "difficulty": "medium",
-            "text": "A patient with coronary artery disease is placed on a Therapeutic Lifestyle Changes (TLC) diet. What is the recommended daily sodium intake?",
+            "text": "According to the NIH/NHLBI Therapeutic Lifestyle Changes (TLC) program, what daily sodium limit is recommended?",
             "options": [
-                "<1000 mg/day",
-                "≤2000 mg/day",
-                "<3500 mg/day",
-                "No sodium limit"
+                "Less than 1,000 mg for everyone",
+                "No more than 2,300 mg",
+                "At least 3,500 mg",
+                "No sodium guidance"
             ],
             "correctIndex": 1,
-            "explanation": "The TLC diet for coronary artery disease recommends sodium ≤2000 mg/day, saturated fat <7% of calories, dietary cholesterol <200 mg/day, and total fiber 25–30 g/day to reduce cardiovascular risk.",
+            "explanation": "The NHLBI TLC program recommends limiting sodium to 2,300 mg per day. A clinician may set a different individualized target based on the patient’s condition.",
             "tags": [
                 "coronary artery disease",
                 "TLC diet",
@@ -6807,6 +6837,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "saturated fat",
                 "cholesterol",
                 "fiber"
+            ],
+            "references": [
+                "https://www.nhlbi.nih.gov/health/TLC-Therapeutic-Lifestyle-Changes-Lower-Cholesterol"
             ]
         },
         {
@@ -8591,21 +8624,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Anemias",
             "difficulty": "medium",
-            "text": "Which biochemical marker is considered the MOST SENSITIVE early indicator of iron deficiency?",
+            "text": "How is transferrin saturation (TSAT) calculated from serum iron and total iron-binding capacity (TIBC), using the same units?",
             "options": [
-                "Hemoglobin and hematocrit (packed cell volume)",
-                "Serum iron and red cell distribution width",
-                "Ferritin and transferrin saturation (TIBC)",
-                "Mean corpuscular volume (MCV) and MCH"
+                "TIBC divided by serum iron, without multiplying",
+                "Serum ferritin divided by hemoglobin",
+                "Serum iron divided by TIBC, multiplied by 100",
+                "Hemoglobin divided by MCV, multiplied by 100"
             ],
             "correctIndex": 2,
-            "explanation": "Ferritin and transferrin saturation (TIBC) are the most sensitive early markers of iron deficiency — they change early in depletion and specifically reflect iron status. Hemoglobin is NOT used to diagnose iron deficiency anemia because it only decreases late in the disease and does not distinguish between types. MCV also changes late. TIBC is a reverse acute-phase reactant (decreases with inflammation).",
+            "explanation": "TSAT (%) = serum iron / TIBC × 100. TSAT and TIBC are different measurements. Ferritin and other iron studies are interpreted with the clinical context, including inflammation; hemoglobin is important for diagnosing anemia.",
             "tags": [
                 "anemia",
                 "iron-deficiency",
                 "ferritin",
                 "TIBC",
                 "lab-values"
+            ],
+            "references": [
+                "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40FE_B.htm"
             ]
         },
         {
@@ -9409,20 +9445,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Critical Care",
             "difficulty": "medium",
-            "text": "A critically ill patient weighing 80 kg is admitted to the ICU without renal or hepatic dysfunction. According to ASPEN guidelines, what is the appropriate caloric goal?",
+            "text": "According to the ASPEN 2022 critical-care guideline, what energy intake range was suggested for an 80 kg critically ill adult during the first 7–10 ICU days, when applying its 12–25 kcal/kg/day range?",
             "options": [
-                "1,600–1,800 kcal/day",
+                "960–2,000 kcal/day",
                 "2,000–2,800 kcal/day",
                 "3,200–3,500 kcal/day",
-                "800–1,200 kcal/day"
+                "400–800 kcal/day"
             ],
-            "correctIndex": 1,
-            "explanation": "ASPEN recommends 25–35 kcal/kg for critically ill patients without organ dysfunction. For an 80 kg patient: 25×80=2,000 to 35×80=2,800 kcal/day.",
+            "correctIndex": 0,
+            "explanation": "ASPEN 2022 suggests 12–25 kcal/kg/day during the first 7–10 ICU days, based on the studied intake range and clinical judgment. For 80 kg this is 960–2,000 kcal/day. This is not an automatic individualized prescription.",
             "tags": [
                 "critical care",
                 "ASPEN",
                 "calories",
                 "ICU"
+            ],
+            "references": [
+                "https://nutritioncare.org/wp-content/uploads/2024/12/Adult-Crit-Ill-Patient-Guidelines-Factsheet.pdf"
             ]
         },
         {

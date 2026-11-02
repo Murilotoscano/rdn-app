@@ -17,11 +17,11 @@ async function main() {
  assert.equal(material.days.length,6); assert.equal(material.days.flat().length,60);
  for(const q of material.questions) assert(q.options.length===4 && q.answer>=0 && q.answer<4 && q.rationale && Array.isArray(q.sources));
  assert.equal(plan.weeks.flatMap(w=>w.days).length,45); assert.equal(plan.exam_date,null);
- assert(REVIEW_HOLD_IDS.has('m2-mnt-054')); assert(SAMPLE_QUESTIONS.some(q=>q.id==='m2-mnt-054'));
+ assert(REVIEW_HOLD_IDS.has('m2-mnt-088')); assert(SAMPLE_QUESTIONS.some(q=>q.id==='m2-mnt-088'));
  assert(!AVAILABLE_QUESTIONS.some(q=>REVIEW_HOLD_IDS.has(q.id)));
  for(let seed=1;seed<=50;seed++) { const a=drawBlueprintExam(145,seed);assert.equal(a.length,145);assert(!a.some(q=>REVIEW_HOLD_IDS.has(q.id)));for(const q of a){const original=SAMPLE_QUESTIONS.find(x=>x.id===q.id);assert.equal(q.options[q.correctIndex],original.options[original.correctIndex]);} }
  assert(!(await getQuestions('2',25)).some(q=>REVIEW_HOLD_IDS.has(q.id)));
- assert.equal((await getQuestionsByIds(['m2-mnt-054'])).length,0);
+ assert.equal((await getQuestionsByIds(['m2-mnt-088'])).length,0);
  console.log('PASS lesson backup/merge, 60 questions and 45 days, quarantine and 50 shuffled mocks');
 }
 main().catch(e=>{console.error(e);process.exitCode=1});
