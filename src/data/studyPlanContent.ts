@@ -275,10 +275,10 @@ export const studyPlanData: Record<number, DayContent> = {
         questions: [
             {
                 id: "q3-1",
-                text: "A patient with Type 2 Diabetes is taught CHO counting. They plan to eat 1 cup of cooked pasta and 1 medium apple. How many CHO choices is this?",
+                text: "For this exercise, 1/3 cup of cooked pasta contains 15 g carbohydrate, and a small apple contains 15 g. How many 15-g carbohydrate choices are in 1 cup of this pasta plus the apple?",
                 options: ["2", "3", "4", "5"],
                 correctAnswer: 2,
-                explanation: "1/3 cup cooked pasta = 1 choice (15g). 1 cup = 3 choices. 1 medium apple = 1 choice. Total = 4 choices (approx. 60g CHO)."
+                explanation: "One cup of the specified pasta contains 3 × 15 = 45 g carbohydrate, or 3 choices. The specified apple adds 15 g, or 1 choice. Total: 60 g, or 4 choices. Actual amounts vary with portion and food."
             },
             {
                 id: "q3-2",
@@ -469,10 +469,10 @@ export const studyPlanData: Record<number, DayContent> = {
             },
             {
                 id: "q5-2",
-                text: "A severely malnourished patient with a BMI of 14 is started on tube feeding at full goal rate. On day 2 he becomes confused and weak with a phosphorus of 1.1 mg/dL. What should have been done differently?",
-                options: ["A calorie-dense formula should have been selected", "Feeding should have started at about 25% of goal with thiamine and daily electrolyte monitoring", "A jejunal route should have been used", "Protein should have been restricted"],
+                text: "A severely malnourished adult has a BMI of 14 and is about to begin enteral feeding. Which approach reflects the ASPEN 2020 consensus for an adult at high risk of refeeding syndrome?",
+                options: ["Start full goal feeding immediately without checking electrolytes", "Check electrolytes and provide thiamine before feeding; begin cautiously and monitor closely", "Avoid all protein for the first week", "Give all energy as dextrose on day one"],
                 correctAnswer: 1,
-                explanation: "This is refeeding syndrome. High-risk patients require a cautious start at roughly 25% of estimated needs, thiamine before or with the first carbohydrate load, and daily monitoring with repletion of phosphorus, potassium and magnesium. Formula concentration and route of access do not drive the intracellular electrolyte shift, and protein is not the trigger; carbohydrate is."
+                explanation: "ASPEN 2020 recommends checking potassium, magnesium and phosphorus before feeding, providing thiamine before dextrose-containing fluids or feeding, and starting at 10–20 kcal/kg in the first 24 hours, with individualized advancement. In high-risk adults, monitor these electrolytes every 12 hours for the first 3 days and replete as needed; severe deficits may require delaying initiation or advancement. Emergency treatment of hypoglycemia must not be delayed. Apply the complete clinical protocol to the patient."
             },
             {
                 id: "q5-3",
@@ -660,10 +660,10 @@ export const studyPlanData: Record<number, DayContent> = {
             },
             {
                 id: "q7-2",
-                text: "A newly hired clinical dietitian is enthusiastic but has never performed nutrition-focused physical exams. Using Hersey-Blanchard, which leadership style fits?",
-                options: ["S1 Telling, with specific step-by-step direction", "S4 Delegating, giving the task and stepping back", "S3 Participating, involving her in decisions", "S2 Selling, focused on rebuilding her motivation"],
+                text: "In Blanchard SLII, a newly hired clinician is enthusiastic about a task but lacks the specific skill. Which style is paired with development level D1 for that task?",
+                options: ["S1 Directing: provide specific direction and close guidance", "S4 Delegating: provide little direction or support", "S3 Supporting: provide high support and low direction", "S4 Delegating: withhold feedback until the annual review"],
                 correctAnswer: 0,
-                explanation: "High willingness with low ability is maturity level M1, which calls for S1 Telling: high task direction and close supervision with specific instructions. Delegating suits M4, where both ability and willingness are high. Participating suits M3, where ability is high but confidence varies. Selling addresses M2, where motivation has dropped, but this employee is already enthusiastic."
+                explanation: "In the named SLII model, D1 describes an enthusiastic beginner for a specific task and S1 Directing provides high direction. Other situational leadership frameworks use different labels; do not mix their readiness levels."
             },
             {
                 id: "q7-3",
@@ -769,7 +769,7 @@ export const studyPlanData: Record<number, DayContent> = {
                 text: "A PES statement reads: Excessive carbohydrate intake related to lack of knowledge of carbohydrate counting as evidenced by A1C of 9.2% and 3-day food record. Which intervention correctly targets the etiology?",
                 options: ["Recheck A1C in 3 months", "Provide carbohydrate counting education", "Refer for a 3-day food record", "Increase insulin dosing"],
                 correctAnswer: 1,
-                explanation: "The etiology is lack of knowledge of carbohydrate counting, so education on carbohydrate counting addresses the cause directly. Rechecking A1C is monitoring and evaluation, not intervention. Repeating the food record is assessment. Adjusting insulin is a medical intervention outside the dietitian's diagnosis and does not address the knowledge deficit identified."
+                explanation: "The stated etiology is lack of carbohydrate-counting knowledge, so education addresses that particular cause. Rechecking A1C is monitoring, and repeating the food record is assessment. Medication ordering or adjustment authority varies by jurisdiction, privileges and protocol; the question asks for the intervention addressing this documented etiology."
             }
         ]
     },
@@ -954,10 +954,10 @@ export const studyPlanData: Record<number, DayContent> = {
         questions: [
             {
                 id: "q10-1",
-                text: "A question stem describes a hospitalized patient and asks what the dietitian should do FIRST. Which option is most likely correct?",
+                text: "A stable hospitalized patient has not yet received a nutrition assessment. No urgent safety problem is identified. What is the appropriate first step before selecting a nutrition intervention?",
                 options: ["Recommend a specific enteral formula and rate", "Complete a nutrition assessment to gather missing information", "Order a serum prealbumin level", "Recommend the physician start an appetite stimulant"],
                 correctAnswer: 1,
-                explanation: "When a question asks what to do first and no emergency is described, assessment precedes intervention in the Nutrition Care Process. Recommending a specific formula and rate is intervention, which comes after assessment establishes needs. Ordering labs is outside the dietitian's independent scope in most settings. Recommending a medication is a medical decision outside the dietetics scope of practice."
+                explanation: "In this stated situation, gather and interpret nutrition assessment data before selecting the intervention. A known emergency may require immediate action. Authority to order tests or change medication depends on applicable law, privileges and institutional policy."
             },
             {
                 id: "q10-2",
@@ -1457,9 +1457,9 @@ export const studyPlanData: Record<number, DayContent> = {
             {
                 id: "q16-2",
                 text: "An adult with cystic fibrosis is newly diagnosed with CF-related diabetes. What is the appropriate nutrition approach?",
-                options: ["Restrict calories and fat to improve glycemic control", "Maintain the high-calorie, high-fat diet and manage glucose with insulin", "Begin a ketogenic diet", "Restrict protein to protect the kidneys"],
+                options: ["Restrict calories and fat in every patient", "Individualize nutrition to the person’s needs and treat CF-related diabetes with insulin", "Begin a ketogenic diet for every patient", "Restrict protein in every patient to protect the kidneys"],
                 correctAnswer: 1,
-                explanation: "In CF-related diabetes, nutritional status remains the strongest predictor of lung function and survival, so the high-calorie, high-fat, high-salt diet is maintained and glucose is controlled with insulin rather than by restricting intake. Restricting calories and fat would worsen the malnutrition that drives lung decline. A ketogenic diet conflicts with the energy density these patients require, and protein restriction has no indication here."
+                explanation: "For cystic fibrosis-related diabetes, insulin is standard treatment and energy, fat and other nutrition needs should be individualized. People with cystic fibrosis can have undernutrition or overweight, and a universally high-calorie/high-fat prescription is not appropriate for everyone."
             },
             {
                 id: "q16-3",
@@ -1642,9 +1642,9 @@ export const studyPlanData: Record<number, DayContent> = {
             {
                 id: "q18-2",
                 text: "Why is preconception folic acid supplementation emphasized rather than starting once pregnancy is confirmed?",
-                options: ["Folate absorption is better before pregnancy", "The neural tube closes by about day 28, before most women know they are pregnant", "Folate needs decrease after the first trimester", "Supplements are contraindicated during pregnancy"],
+                options: ["Folate absorption is better before pregnancy", "The neural tube closes around 28 days after conception, often before pregnancy is recognized", "Folate needs decrease after the first trimester", "Supplements are contraindicated during pregnancy"],
                 correctAnswer: 1,
-                explanation: "Neural tube closure is complete by roughly day 28 of gestation, which is often before a pregnancy is recognized, so supplementation must already be in place to prevent neural tube defects. Absorption does not differ meaningfully by timing, folate needs remain elevated throughout pregnancy at 600 mcg DFE, and supplementation is recommended rather than contraindicated."
+                explanation: "The neural tube closes approximately 28 days after conception, which corresponds to about six weeks of obstetric gestational age. Pregnancy may not yet be recognized; folic acid is therefore recommended before conception and in early pregnancy."
             },
             {
                 id: "q18-3",
@@ -1735,10 +1735,10 @@ export const studyPlanData: Record<number, DayContent> = {
             },
             {
                 id: "q19-2",
-                text: "A 75 kg older adult recovering from hip fracture surgery needs protein guidance. Which recommendation is most appropriate?",
-                options: ["60 g per day (0.8 g/kg)", "90 g per day, distributed as 25 to 30 g per meal", "45 g per day to protect kidney function", "180 g per day"],
+                text: "For a 75 kg adult after hip-fracture surgery, a clinician has established an individualized protein target of 1.2 g/kg/day. What is the daily target?",
+                options: ["60 g", "90 g", "45 g", "180 g"],
                 correctAnswer: 1,
-                explanation: "Older adults experience anabolic resistance and need 1.0 to 1.2 g/kg or more with acute illness, which is about 90 g for a 75 kg patient, and distributing 25 to 30 g per meal better stimulates muscle protein synthesis than loading protein at one meal. The 0.8 g/kg RDA is calibrated to healthy young adults. Restricting to 0.6 g/kg without renal indication accelerates sarcopenia, and 180 g exceeds any recommendation."
+                explanation: "75 kg × 1.2 g/kg/day = 90 g/day. The factor is explicitly supplied for this calculation; actual targets depend on nutritional status, clinical condition, kidney function and the care plan."
             },
             {
                 id: "q19-3",
@@ -2103,24 +2103,24 @@ export const studyPlanData: Record<number, DayContent> = {
         questions: [
             {
                 id: "q23-1",
-                text: "A large batch of chili is cooked and must be cooled. Which cooling parameters comply with the FDA Food Code?",
-                options: ["135 to 70 F within 2 hours, then 70 to 41 F within 4 additional hours", "135 to 41 F within 2 hours total", "135 to 70 F within 6 hours, then 70 to 41 F within 2 hours", "Any cooling rate is acceptable if the product is refrigerated"],
+                text: "Under the FDA Food Code 2026, what are the maximum cooling time limits for cooked time/temperature control for safety food?",
+                options: ["135°F to 70°F within 2 hours, and 135°F to 41°F within 6 hours total", "135°F to 70°F within 3 hours and 41°F within 6 hours total", "135°F to 70°F within 6 hours and 41°F within 8 hours total", "Any cooling time is acceptable if the food is refrigerated"],
                 correctAnswer: 0,
-                explanation: "The two-stage rule requires cooling from 135 to 70 F within 2 hours, then from 70 to 41 F within 4 additional hours, for 6 hours total. The first stage is the more critical one because it passes through the range of most rapid bacterial growth. Compressing the entire process into 2 hours is not the standard, and reversing the stage times allows dangerous time in the upper danger zone."
+                explanation: "The FDA model code sets maximum limits: cool from 135°F to 70°F within 2 hours, and from 135°F to 41°F within 6 hours total. Cooling faster than the maxima can also comply. Follow the applicable adopted local code and the approved procedure."
             },
             {
                 id: "q23-2",
-                text: "Which pathogen is unique because it grows at refrigeration temperatures?",
+                text: "Which of the following pathogens can grow at a refrigerator temperature of approximately 40°F (4°C)?",
                 options: ["Salmonella", "Listeria monocytogenes", "Staphylococcus aureus", "Clostridium perfringens"],
                 correctAnswer: 1,
-                explanation: "Listeria monocytogenes is able to multiply at refrigerator temperatures, which is why ready-to-eat foods such as deli meats, soft cheeses and smoked fish carry risk even when properly refrigerated, and why pregnant women are counseled to heat deli meats. Salmonella, Staphylococcus aureus and Clostridium perfringens all require warmer conditions for meaningful growth."
+                explanation: "Listeria monocytogenes can grow at refrigerator temperatures, so refrigeration does not eliminate the need for safe handling and storage of ready-to-eat food. Other organisms may also grow at low temperatures; Listeria is not unique in that ability."
             },
             {
                 id: "q23-3",
-                text: "A cook places cooked rice that has been sitting at room temperature for 3 hours onto a steam table to bring it back to a safe temperature. What is wrong with this action?",
-                options: ["Nothing; steam tables are designed for reheating", "Steam tables hold food but cannot reheat it; the rice must be reheated to 165 F first", "The rice should have been reheated to 145 F", "Rice does not require temperature control"],
+                text: "Properly cooked rice was cooled and refrigerated according to an approved process. A cook wants to reheat it for hot holding. Which action is appropriate under the FDA Food Code 2026?",
+                options: ["Use a steam table as the sole reheating equipment", "Rapidly reheat using suitable equipment to 165°F for 15 seconds within 2 hours, then hot-hold", "Warm it to 100°F and hold it for service", "Leave it at room temperature for three hours before holding"],
                 correctAnswer: 1,
-                explanation: "Steam tables, chafing dishes and heat lamps are holding equipment and cannot bring food through the danger zone quickly enough to be safe. Reheating must reach 165 F using an oven, stovetop or microwave before transfer to holding. Cooked rice is a time and temperature control for safety food, notably associated with Bacillus cereus, so it does require control."
+                explanation: "For cooked and cooled food reheated for hot holding, the FDA 2026 model code specifies 165°F for 15 seconds within 2 hours, with particular microwave provisions. Steam tables are for holding, not rapid reheating. This controlled scenario does not imply reheating makes food with unsafe time/temperature history safe."
             }
         ]
     },
@@ -2194,17 +2194,17 @@ export const studyPlanData: Record<number, DayContent> = {
         questions: [
             {
                 id: "q24-1",
-                text: "Which oven type cannot brown food, and why?",
-                options: ["Convection, because the fan cools the surface", "Steam, because moist heat does not produce the Maillard reaction", "Deck, because heat comes only from below", "Combi, because it cycles between modes"],
+                text: "In an ordinary atmospheric pure-steam cooking mode, which outcome is most likely compared with dry-heat roasting?",
+                options: ["Rapid dry-surface browning is enhanced by the wet environment", "Surface browning is limited because the surface stays moist", "The food always reaches temperatures above those of a pressure cooker", "Maillard browning is chemically impossible under all moist conditions"],
                 correctAnswer: 1,
-                explanation: "A steam oven operates at a maximum of about 100 degrees Celsius in a saturated moist environment, which prevents the surface drying and high temperatures the Maillard browning reaction requires. Convection browns very effectively because circulating dry air accelerates surface dehydration. Deck ovens brown well, particularly the bottom crust, and combi ovens can brown by running in convection mode."
+                explanation: "Atmospheric pure steam keeps the food surface moist, generally limiting the surface drying and temperature rise that promote rapid browning. This does not establish a universal maximum for pressure or superheated-steam equipment, nor make Maillard reactions impossible in every moist system."
             },
             {
                 id: "q24-2",
-                text: "Which stainless steel type is specified for food contact surfaces?",
+                text: "Which listed stainless steel grade is commonly called 18/8 stainless steel and is used for food-contact equipment?",
                 options: ["Type 430", "Type 304", "Type 201", "Galvanized steel"],
                 correctAnswer: 1,
-                explanation: "Type 304 stainless, also called 18/8 for its 18% chromium and 8% nickel content, is the standard for food contact surfaces because the nickel provides superior corrosion resistance against acidic foods and sanitizers. Type 430 contains no nickel, is slightly magnetic and less corrosion resistant, so it is used for non-food-contact surfaces. Galvanized steel is never appropriate for food contact because zinc can leach into acidic foods."
+                explanation: "Type 304 is commonly called 18/8 stainless steel and is widely used for food-contact equipment. Suitability also depends on the material, food and use conditions; other grades may be acceptable. The FDA model code restricts galvanized metal in contact with acidic foods, not every conceivable food-contact use."
             },
             {
                 id: "q24-3",
@@ -2291,17 +2291,17 @@ export const studyPlanData: Record<number, DayContent> = {
             },
             {
                 id: "q25-2",
-                text: "What does it mean that The Joint Commission holds deeming authority from CMS?",
-                options: ["TJC accreditation automatically satisfies Medicare and Medicaid participation requirements", "TJC can revoke a state license directly", "TJC sets reimbursement rates for nutrition services", "TJC conducts announced surveys on a fixed schedule"],
+                text: "What does CMS deeming authority for an approved accrediting organization mean in the context of a provider seeking Medicare participation?",
+                options: ["An approved accreditation process can support deemed compliance with specified conditions, subject to CMS acceptance and other requirements", "The accreditor can revoke any state license directly", "The accreditor sets Medicare reimbursement rates", "Every accredited provider automatically completes Medicare enrollment"],
                 correctAnswer: 0,
-                explanation: "Deeming authority means an organization accredited by TJC is deemed to meet CMS Conditions of Participation, so it does not undergo a separate CMS survey for that purpose. TJC does not issue or revoke state licenses, which is a state function, and it does not set reimbursement rates, which CMS does. TJC surveys are unannounced, which is why continuous survey readiness is required."
+                explanation: "Under a CMS-approved deeming program, accreditation can support a finding that specified Medicare conditions are met. CMS acceptance, other participation and enrollment requirements, and oversight still apply; accreditation alone does not guarantee reimbursement or eliminate all validation surveys."
             },
             {
                 id: "q25-3",
                 text: "Which measure is an OUTCOME indicator rather than a process indicator?",
                 options: ["Percentage of patients screened for nutrition risk within 24 hours", "Incidence of hospital-acquired pressure injuries", "Number of dietitians per 100 beds", "Frequency of diet manual review"],
                 correctAnswer: 1,
-                explanation: "Pressure injury incidence measures a result of care, making it an outcome indicator. The percentage screened within 24 hours measures whether a step was performed, which is a process indicator. Staffing ratios and the existence of a reviewed diet manual describe resources and systems in place, which are structure indicators."
+                explanation: "Pressure-injury incidence measures an outcome of care. Screening within 24 hours and the frequency of reviewing a diet manual describe processes. Staffing ratios and the existence of a diet manual are examples of structural resources."
             }
         ]
     },
@@ -2380,10 +2380,10 @@ export const studyPlanData: Record<number, DayContent> = {
         questions: [
             {
                 id: "q26-1",
-                text: "Which statement correctly distinguishes SNAP from WIC?",
-                options: ["Both are entitlement programs with identical income limits", "SNAP is an entitlement at 130% FPL; WIC is not an entitlement and serves those at 185% FPL with nutritional risk", "WIC is an entitlement; SNAP is capped", "Neither requires an income test"],
+                text: "Which statement distinguishes SNAP and WIC in the United States?",
+                options: ["Both have identical eligibility rules", "SNAP is an entitlement for eligible households; WIC is not an entitlement and serves eligible mothers and young children", "WIC is an entitlement while SNAP is capped", "Neither program considers eligibility criteria"],
                 correctAnswer: 1,
-                explanation: "SNAP is an entitlement, meaning everyone who qualifies receives benefits, with eligibility generally at or below 130% of the federal poverty level. WIC operates on capped annual appropriations, so it is not an entitlement, and it requires both income at or below 185% FPL and documented nutritional risk. Both programs do apply income tests."
+                explanation: "SNAP provides benefits to households that meet applicable eligibility rules; WIC is funded through appropriations and serves eligible pregnant, postpartum or breastfeeding people, infants and young children who meet its criteria. Income tests, nutritional risk, categorical eligibility and state rules should be checked for the specific program and household."
             },
             {
                 id: "q26-2",
@@ -2488,17 +2488,17 @@ export const studyPlanData: Record<number, DayContent> = {
             },
             {
                 id: "q27-2",
-                text: "Which browning reaction requires the presence of protein?",
+                text: "Which browning reaction involves a reducing sugar reacting with an amino group?",
                 options: ["Caramelization", "Maillard reaction", "Enzymatic browning", "Dextrinization"],
                 correctAnswer: 1,
-                explanation: "The Maillard reaction occurs between an amino group from protein and a reducing sugar under heat, producing the browning and flavor of bread crust, seared meat and roasted coffee. Caramelization involves sugar alone with no protein. Enzymatic browning is driven by polyphenol oxidase acting on phenolic compounds in cut produce. Dextrinization is the dry-heat breakdown of starch."
+                explanation: "The Maillard reaction involves reducing sugars and amino groups, which can come from free amino acids as well as proteins. Caramelization involves sugars; enzymatic browning involves enzymes acting on substrates such as phenolic compounds."
             },
             {
                 id: "q27-3",
-                text: "A low-acid vegetable with a pH of 5.8 is being home canned. Which method is required for safety?",
-                options: ["Boiling water bath for 30 minutes", "Pressure canning at 250 F (15 psi)", "Refrigeration after water bath processing", "Freezing after blanching"],
+                text: "For home canning a low-acid vegetable, which method should be used?",
+                options: ["A boiling-water bath for an arbitrary 30 minutes", "Pressure canning using a tested food- and jar-specific process adjusted for altitude", "An unvalidated water bath followed by refrigeration", "Any process that merely reaches 212°F"],
                 correctAnswer: 1,
-                explanation: "Foods with a pH above 4.6 are low-acid and can support Clostridium botulinum spore germination in the anaerobic environment of a sealed jar. Destroying those spores requires 250 degrees Fahrenheit, achievable only with pressure canning at 15 psi. A boiling water bath reaches only 212 F and is insufficient. Refrigeration or freezing are valid preservation methods but do not make water bath canning of a low-acid food safe."
+                explanation: "Low-acid foods require a tested pressure-canning process appropriate to the food, jar size, equipment and altitude. Follow the full validated pressure and time instructions; a single temperature or pressure without processing time is not a complete safety process."
             }
         ]
     },
@@ -2762,17 +2762,17 @@ export const studyPlanData: Record<number, DayContent> = {
         questions: [
             {
                 id: "q30-1",
-                text: "During an adaptive exam, a candidate notices the questions feel progressively harder. What does this most likely indicate?",
-                options: ["The candidate is failing and the exam is compensating", "The candidate is answering correctly, so the algorithm is presenting harder items", "The exam has malfunctioned", "The candidate should slow down substantially"],
+                text: "During an adaptive exam, a candidate feels that the questions are getting harder. What can be concluded from that feeling alone?",
+                options: ["The candidate has definitely failed", "Perceived difficulty alone does not establish whether the candidate is passing", "The exam has definitely malfunctioned", "The candidate has definitely passed"],
                 correctAnswer: 1,
-                explanation: "A computer adaptive test raises item difficulty after correct responses in order to locate the candidate's ability level precisely, so increasing difficulty generally signals good performance. Interpreting it as failure creates anxiety that harms the rest of the exam. It is not a malfunction, and slowing down substantially risks running out of time without improving accuracy."
+                explanation: "A candidate’s perception of difficulty is not a reliable indication of the scaled result. Continue applying the exam instructions and managing time rather than inferring an outcome from how hard questions feel."
             },
             {
                 id: "q30-2",
-                text: "A candidate scores 78% on Domains I, III and IV but 61% on Domain II with two weeks remaining. How should the final two weeks be prioritized?",
-                options: ["Review all four domains equally to maintain balance", "Concentrate on Domain II, since it represents 45% of the exam and is the weakest area", "Focus on Domain IV, since it has the fewest questions to master", "Stop practicing and rest to avoid burnout"],
+                text: "For a 2026 exam plan, repeated adequately sized sets of reviewed, unfamiliar questions show lower performance in Domain II than in other domains. What is a reasonable adjustment?",
+                options: ["Abandon all other domains", "Give additional targeted practice to Domain II while retaining coverage of other domains", "Study only Domain IV", "Stop practicing entirely"],
                 correctAnswer: 1,
-                explanation: "Domain II carries 45% of the exam weight, so a 17-point deficit there costs far more scaled points than the same deficit in any other domain. Concentrating remaining effort where weight and weakness intersect produces the largest gain. Equal review ignores that weighting, Domain IV is both the smallest domain and already strong, and stopping entirely forfeits two weeks of available improvement."
+                explanation: "For the 2026 outline, Domain II has a 45% weight. A persistent pattern in sufficiently informative, comparable reviewed sets can justify extra targeted work, while preserving broader coverage. Raw percentages do not translate directly into scaled points or guarantee a result; the 2027 outline differs."
             }
         ]
     }
