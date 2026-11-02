@@ -4943,21 +4943,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Parenteral Nutrition Calculations",
             "difficulty": "hard",
-            "text": "A patient on PN receives 500 mL of 20% lipid emulsion. What is the maximum recommended hourly lipid infusion rate for a 70 kg patient, and is this within limits?",
+            "text": "An adult weighing 70 kg receives 500 mL of a 20% lipid emulsion evenly over 12 hours. Using the ASPEN adult table maximum of 0.11 g/kg/hour, what is the lipid infusion rate?",
             "options": [
-                "Maximum is 0.11 g/kg/hr; 500 mL 20% lipid over 24 hours = 0.09 g/kg/hr — within limits",
-                "Maximum is 0.11 g/kg/hr; 500 mL 20% lipid over 12 hours = 0.12 g/kg/hr — exceeds limits",
-                "Maximum is 0.5 g/kg/hr; any 20% lipid infusion is within limits",
-                "Maximum is 2.5 g/kg/hr; lipid infusion is always within limits"
+                "0.060 g/kg/hour, below the table maximum",
+                "0.119 g/kg/hour, above the table maximum",
+                "0.11 g/kg/hour, exactly at the table maximum",
+                "0.50 g/kg/hour, above the table maximum"
             ],
             "correctIndex": 1,
-            "explanation": "Maximum hourly lipid infusion rate = 0.11 g/kg/hr. Calculate: 500 mL × 2 kcal/mL = 1,000 kcal ÷ 10 kcal/g = 100 g lipid. Over 12 hours: 100 g ÷ 70 kg ÷ 12 hr = 0.119 g/kg/hr — slightly exceeds the 0.11 g/kg/hr limit. Over 24 hours: 100 g ÷ 70 kg ÷ 24 hr = 0.060 g/kg/hr — well within limits. Extending the infusion to 24 hours improves lipid clearance.",
+            "explanation": "A 20% emulsion provides 20 g per 100 mL, so 500 mL contains 100 g. The rate is 100 / 70 / 12 = 0.119 g/kg/hour, slightly above the cited adult table maximum. The care team must assess the specific product label and prescription.",
             "tags": [
                 "lipid infusion rate",
                 "PN calculation",
                 "20% emulsion",
                 "parenteral nutrition",
                 "maximum dose"
+            ],
+            "references": [
+                "https://nutritioncare.org/wp-content/uploads/2024/12/ILE-Safety-Recommendations-Adult.pdf"
             ]
         },
         {
@@ -5492,15 +5495,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Diagnosis",
             "difficulty": "hard",
-            "text": "A dietitian is formulating a PES statement for an obese patient with a high risk of cardiovascular disease. The patient reports eating fast food 5 times a week and states, 'I prefer it because it's cheap and my neighborhood doesn't have a grocery store.' Which of the following represents the most appropriately structured PES statement?",
+            "text": "In the standard problem–etiology–signs/symptoms structure of a PES statement, what does the phrase “related to” introduce?",
             "options": [
-                "Obesity related to excessive energy intake as evidenced by BMI of 35 and frequent fast food consumption reported during the diet history interview.",
-                "Undesirable food choices related to limited access to food as evidenced by consuming fast food 5 times weekly and verbalizing lack of a neighborhood grocery store.",
-                "Excessive energy intake related to an obesogenic environment as evidenced by BMI of 35 and a sedentary lifestyle with limited physical activity.",
-                "Altered nutrition-related laboratory values related to excessive trans fat intake as evidenced by the patient living in a food desert without a grocery store."
+                "The nutrition problem",
+                "The contributing cause or etiology",
+                "The evidence supporting the problem",
+                "The outcome of a future intervention"
             ],
             "correctIndex": 1,
-            "explanation": "This statement perfectly links the problem, etiology, and signs. The problem ('Undesirable food choices' - Intake domain) is correct. The etiology ('limited access to food' - Behavioral/Environmental domain) directly addresses the root cause: the patient physically cannot buy healthier food locally (a 'food desert'). The signs and symptoms (eating fast food 5x weekly and their verbalized report) prove both the problem and the environmental etiology. The 'Obesity related to excessive energy intake' statement misuses a medical diagnosis (Obesity) as the problem, and its etiology doesn't address the true access issue."
+            "explanation": "A PES statement links a nutrition problem to its etiology using “related to,” and identifies supporting signs and symptoms using “as evidenced by.” Clinical judgment and a complete assessment determine which problem and cause are appropriate for a particular patient.",
+            "references": [
+                "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-diagnosis"
+            ]
         },
         {
             "id": "dom2-ext2-004",
@@ -6017,21 +6023,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Inborn Errors of Metabolism",
             "difficulty": "hard",
-            "text": "A child diagnosed with medium-chain acyl-CoA dehydrogenase (MCAD) deficiency requires which primary dietary intervention?",
+            "text": "Which approach is central to long-term management of medium-chain acyl-CoA dehydrogenase (MCAD) deficiency in a child?",
             "options": [
-                "High fat ketogenic diet with MCT oil",
-                "Avoidance of fasting and low-fat diet",
-                "Low phenylalanine diet with medical formula",
-                "Galactose and lactose elimination for life"
+                "Fast regularly to encourage fat oxidation",
+                "Avoid prolonged fasting and follow an individualized emergency plan",
+                "Eliminate phenylalanine and supplement tyrosine",
+                "Eliminate lactose and galactose for life"
             ],
             "correctIndex": 1,
-            "explanation": "MCAD deficiency impairs oxidation of medium-chain fatty acids. The primary risk is hypoglycemia during fasting when fatty acid oxidation is needed for energy. Treatment requires avoiding prolonged fasting and a low-fat diet to reduce dependence on fatty acid oxidation.",
+            "explanation": "Avoiding prolonged fasting reduces risk of metabolic decompensation. Intake and illness plans are individualized with the metabolic team. Healthy infants may receive ordinary breast milk or regular formula; a universal low-fat diet is not the rule.",
             "tags": [
                 "MCAD",
                 "inborn errors",
                 "fasting",
                 "fatty acid oxidation",
                 "hypoglycemia"
+            ],
+            "references": [
+                "https://gmdi.org/Resources/Nutrition-Guidelines/MCAD"
             ]
         },
         {
@@ -6220,15 +6229,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Inborn Errors of Metabolism",
             "difficulty": "hard",
-            "text": "A patient with methylmalonic acidemia (MMA) requires which nutritional intervention?",
+            "text": "Which nutrition approach is appropriate in methylmalonic acidemia (MMA)?",
             "options": [
-                "High leucine, low valine diet with pharmacological biotin",
-                "Low threonine and isoleucine with pharmacological vitamin B12",
-                "Galactose-free diet with soy formula and pharmacological thiamin",
-                "Low phenylalanine diet with tyrosine supplementation"
+                "Give unlimited protein to all patients",
+                "Individualize dietary protein with a metabolic team and assess whether the subtype responds to vitamin B12",
+                "Treat all patients with lactose elimination alone",
+                "Give phenylalanine-free formula for all forms of MMA"
             ],
             "correctIndex": 1,
-            "explanation": "MMA results from methylmalonyl-CoA mutase deficiency. Treatment requires restriction of threonine and isoleucine (precursors to methylmalonyl-CoA) and pharmacological doses of vitamin B12 (cobalamin), which may activate residual enzyme activity in some patients.",
+            "explanation": "MMA management includes individualized protein and energy intake under metabolic specialist care. The propiogenic amino acids include valine, isoleucine, methionine and threonine. Responsiveness to vitamin B12 varies by subtype; it should not be presumed for all patients.",
             "tags": [
                 "MMA",
                 "methylmalonic acidemia",
@@ -6236,6 +6245,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "isoleucine",
                 "vitamin B12",
                 "inborn errors"
+            ],
+            "references": [
+                "https://www.genome.gov/Genetic-Disorders/MMA-Study-General-Information"
             ]
         },
         {
@@ -6916,15 +6928,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Respiratory Disease",
             "difficulty": "medium",
-            "text": "A patient with pneumonia and sepsis requires protein support. What protein goal is most appropriate?",
+            "text": "For a calculation exercise, the clinical team prescribes 1.5 g protein/kg/day for an adult with sepsis who weighs 80 kg. How much protein does the prescription provide?",
             "options": [
-                "0.8 g/kg (DRI)",
-                "1.0–1.2 g/kg",
-                "1.5–2.0 g/kg",
-                "2.0 g/kg"
+                "80 g/day",
+                "100 g/day",
+                "120 g/day",
+                "160 g/day"
             ],
-            "correctIndex": 3,
-            "explanation": "Septic patients with pneumonia require 2 g/kg protein due to severe catabolism and increased immune demands. Non-septic pneumonia patients require 1–1.5 g/kg. Higher protein intake supports immune function and prevents muscle wasting.",
+            "correctIndex": 2,
+            "explanation": "80 kg × 1.5 g/kg/day = 120 g/day. The dose is specified for this arithmetic exercise, not a universal target; clinical needs and tolerance are individualized.",
             "tags": [
                 "pneumonia",
                 "sepsis",
@@ -6932,6 +6944,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "2 g/kg",
                 "critical care",
                 "catabolism"
+            ],
+            "references": [
+                "https://nutritioncare.org/wp-content/uploads/2024/12/Adult-Crit-Ill-Patient-Guidelines-Factsheet.pdf"
             ]
         },
         {
@@ -7132,20 +7147,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Type 1 Diabetes",
             "difficulty": "hard",
-            "text": "An adult patient with type 1 diabetes ages 35-60, without significant comorbidities, has an HbA1c target of <7.0%. If this patient is an older adult (>65 years) with complex health needs, what HbA1c target is recommended?",
+            "text": "According to the ADA 2026 framework, which A1c goal is reasonable for many older adults with diabetes and complex or intermediate health status?",
             "options": [
-                "< 6.5%",
-                "< 7.0%",
-                "< 8.0%",
-                "< 8.5%"
+                "Less than 6.0% for all patients",
+                "Less than 7.0% for all patients",
+                "Less than 8.0%, individualized to the patient",
+                "Exactly 8.5% for all patients"
             ],
             "correctIndex": 2,
-            "explanation": "For older adults (>65 years) with complex/intermediate health needs, the recommended HbA1c target is <8.0%. Healthy older adults (without significant comorbidities) have a target <7.5%, while those with poor health have a target <8.5%. Tighter targets for healthier older adults reduce complications but less strict targets for complex patients balance glycemic control against hypoglycemia risk.",
+            "explanation": "ADA 2026 gives a reasonable goal below 8% for many older adults with complex/intermediate health, individualized for circumstances and hypoglycemia risk. For very complex or poor health, the framework advises avoiding reliance on A1c alone and focusing on symptoms and avoidance of hypoglycemia.",
             "tags": [
                 "type 1 diabetes",
                 "HbA1c",
                 "glycemic targets",
                 "older adults"
+            ],
+            "references": [
+                "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163921/13-Older-Adults-Standards-of-Care-in-Diabetes-2026"
             ]
         },
         {
@@ -7279,20 +7297,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Type 2 Diabetes",
             "difficulty": "hard",
-            "text": "A patient with type 2 diabetes and diagnosed cardiovascular disease has a blood pressure target of:",
+            "text": "According to ADA cardiovascular guidance, what blood pressure goal is generally recommended for an adult with diabetes and hypertension when it can be safely attained?",
             "options": [
-                "< 140/90 mmHg",
-                "< 130/80 mmHg",
-                "< 120/70 mmHg",
-                "< 150/90 mmHg"
+                "Below 140/90 mmHg is always the only goal",
+                "Below 130/80 mmHg, individualized for the patient",
+                "Exactly 120/70 mmHg for every patient",
+                "Below 150/90 mmHg without exception"
             ],
             "correctIndex": 1,
-            "explanation": "Patients with diabetes AND diagnosed cardiovascular disease have a more aggressive blood pressure target of <130/80 mmHg (SBP <130, DBP <80). Patients with diabetes alone (without diagnosed CVD) have a target of <140/90 mmHg. These tighter targets reflect the additive cardiovascular risk.",
+            "explanation": "ADA guidance generally recommends a treated blood pressure goal below 130/80 mmHg if safely attained, with individualization. The goal is not automatically 140/90 solely because known cardiovascular disease is absent.",
             "tags": [
                 "type 2 diabetes",
                 "blood pressure",
                 "cardiovascular disease",
                 "treatment goals"
+            ],
+            "references": [
+                "https://doi.org/10.2337/dc26-s010"
             ]
         },
         {
@@ -8416,20 +8437,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Cardiovascular Disease",
             "difficulty": "medium",
-            "text": "Which serum LDL-cholesterol level is considered 'desirable' according to standard lipid guidelines?",
+            "text": "For an adult with diabetes and established atherosclerotic cardiovascular disease, what LDL cholesterol threshold does ADA 2026 specify for its secondary-prevention goal?",
             "options": [
-                "Less than 70 mg/dL",
-                "Less than 100 mg/dL",
-                "Less than 130 mg/dL",
-                "Less than 160 mg/dL"
+                "100 mg/dL",
+                "70 mg/dL",
+                "55 mg/dL",
+                "130 mg/dL"
             ],
-            "correctIndex": 1,
-            "explanation": "Desirable LDL-C is <100 mg/dL. Borderline high = 130-159 mg/dL; High = 160-189 mg/dL; Very high = ≥190 mg/dL. For patients with diabetes AND diagnosed cardiovascular disease, the LDL-C target is <70 mg/dL. HDL-C desirable values are ≥40 mg/dL (men) and ≥50 mg/dL (women). Normal triglycerides = <150 mg/dL.",
+            "correctIndex": 2,
+            "explanation": "ADA 2026 recommends high-intensity statin therapy aiming for at least a 50% reduction from baseline and an LDL cholesterol goal below 55 mg/dL for secondary prevention in adults with diabetes and ASCVD. Care remains individualized.",
             "tags": [
                 "cardiovascular",
                 "lipids",
                 "LDL",
                 "lab-values"
+            ],
+            "references": [
+                "https://doi.org/10.2337/dc26-s010"
             ]
         },
         {
@@ -8500,19 +8524,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Diabetes Mellitus",
             "difficulty": "medium",
-            "text": "For a patient with type 1 diabetes, the recommended hemoglobin A1c target for adults aged 18–65 years is:",
+            "text": "Which statement about A1c goals for people with diabetes is appropriate?",
             "options": [
-                "Less than 6.0%",
-                "Less than 7.0%",
-                "Less than 7.5%",
-                "Less than 8.0%"
+                "Every adult and child has an identical mandatory target",
+                "Goals should be individualized; for many nonpregnant adults an A1c below 7% is appropriate if achieved safely",
+                "A1c should never be used in diabetes care",
+                "A1c targets should ignore hypoglycemia risk"
             ],
             "correctIndex": 1,
-            "explanation": "A1c targets: Adults 18-65 = <7.0%; Youth under 18 = <7.5% (higher due to hypoglycemia risk during growth); Healthy older adults >65 = <7.5%; Complex older adults = <8.0%; Poor health = <8.5%. Research shows A1c <7% reduces risk of macrovascular (CVD, stroke) and microvascular (nephropathy, retinopathy, neuropathy) complications in type 1 diabetes.",
+            "explanation": "For many nonpregnant adults an A1c below 7% is a commonly recommended goal if it can be achieved safely; targets vary with age, health status and hypoglycemia risk. Very complex older adults require particular emphasis on avoiding hypoglycemia and symptomatic hyperglycemia.",
             "tags": [
                 "diabetes",
                 "A1c",
                 "glycemic-targets"
+            ],
+            "references": [
+                "https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic"
             ]
         },
         {
@@ -9702,21 +9729,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Chronic Wounds",
             "difficulty": "medium",
-            "text": "A patient presents with a stage III pressure ulcer. Which of the following nutrition goals is most appropriate?",
+            "text": "The 2019 international pressure injury guideline addresses adults with pressure injury who are malnourished or at risk. Which energy and protein ranges does it recommend as a general guide?",
             "options": [
-                "25–30 kcal/kg and 0.8–1.0 g/kg protein",
-                "30–35 kcal/kg and 1.25–1.5 g/kg protein",
-                "35–40 kcal/kg and 1.5–2.0 g/kg protein",
-                "20–25 kcal/kg and 2.0–2.5 g/kg protein"
+                "20–25 kcal/kg and 0.8–1.0 g/kg protein daily",
+                "30–35 kcal/kg and 1.25–1.5 g/kg protein daily",
+                "Exactly 40 kcal/kg and 2.5 g/kg protein for all stage III injuries",
+                "Exactly 50 kcal/kg and 3 g/kg protein for all stage III injuries"
             ],
-            "correctIndex": 2,
-            "explanation": "Stage III–IV (full thickness) pressure ulcers require 35–40 kcal/kg and 1.5–2.0 g/kg protein to support wound healing, tissue repair, and immune function.",
+            "correctIndex": 1,
+            "explanation": "The 2019 guideline gives 30–35 kcal/kg/day and 1.25–1.5 g protein/kg/day for adults with a pressure injury and malnutrition or risk. Individualize to clinical condition and tolerance; wound stage alone does not fix a unique goal.",
             "tags": [
                 "pressure ulcers",
                 "stage III",
                 "stage IV",
                 "protein",
                 "calories"
+            ],
+            "references": [
+                "https://internationalguideline.com/s/CPG2019edition-digital-Nov2023version.pdf"
             ]
         },
         {
@@ -9724,21 +9754,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Chronic Wounds",
             "difficulty": "medium",
-            "text": "A patient with a stage II pressure ulcer requires nutrition support. What are the appropriate energy and protein goals?",
+            "text": "A clinician assesses a patient with a stage II pressure injury and risk of malnutrition. What is the most appropriate approach to nutrition goals?",
             "options": [
-                "35–40 kcal/kg and 1.5–2.0 g/kg",
-                "30–35 kcal/kg and 1.25–1.5 g/kg",
-                "25–30 kcal/kg and 1.0–1.2 g/kg",
-                "20–25 kcal/kg and 0.8–1.0 g/kg"
+                "Assign a fixed goal based only on wound stage",
+                "Assess nutrition status and individualize energy and protein goals to clinical needs and tolerance",
+                "Provide no protein until the wound heals",
+                "Use the same prescription regardless of renal function and overall condition"
             ],
             "correctIndex": 1,
-            "explanation": "Stage I–II (partial thickness) pressure ulcers require 30–35 kcal/kg and 1.25–1.5 g/kg protein. Higher goals (35–40 kcal/kg, 1.5–2.0 g/kg) are reserved for stage III–IV.",
+            "explanation": "The 2019 international guideline addresses nutrition in patients with pressure injuries and malnutrition or risk and emphasizes assessment. Requirements are individualized; stage II does not alone determine a mandatory fixed energy or protein prescription.",
             "tags": [
                 "pressure ulcers",
                 "stage I",
                 "stage II",
                 "protein",
                 "calories"
+            ],
+            "references": [
+                "https://internationalguideline.com/s/CPG2019edition-digital-Nov2023version.pdf"
             ]
         },
         {
@@ -9897,21 +9930,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Critical Care",
             "difficulty": "hard",
-            "text": "Which method is considered the gold standard for determining energy requirements in critically ill patients according to ASPEN guidelines?",
+            "text": "Which bedside method uses measured respiratory gases to estimate resting energy expenditure?",
             "options": [
-                "Harris-Benedict equation with stress factors",
-                "Mifflin-St Jeor equation alone",
-                "Indirect calorimetry (metabolic cart)",
-                "25 kcal/kg of actual body weight"
+                "Harris–Benedict prediction equation",
+                "Mifflin–St Jeor prediction equation",
+                "Indirect calorimetry",
+                "A fixed kcal/kg estimate"
             ],
             "correctIndex": 2,
-            "explanation": "Indirect calorimetry is the gold standard for measuring energy expenditure in critically ill patients (ASPEN recommends 65–70% of measured REE via indirect calorimetry). Predictive equations are less accurate in critical illness.",
+            "explanation": "Indirect calorimetry measures oxygen consumption and carbon dioxide production to estimate resting energy expenditure. Predictive equations and fixed weight-based estimates do not use measured respiratory gases. Feeding targets depend on clinical context and phase of illness.",
             "tags": [
                 "critical care",
                 "indirect calorimetry",
                 "energy needs",
                 "ASPEN",
                 "gold standard"
+            ],
+            "references": [
+                "https://nutritioncare.org/wp-content/uploads/2024/12/Adult-Crit-Ill-Patient-Guidelines-Factsheet.pdf"
             ]
         },
         {
@@ -10468,21 +10504,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Kidney Function",
             "difficulty": "medium",
-            "text": "Which of the following would NOT be filtered and excreted by the kidneys?",
+            "text": "Which listed vitamin is fat-soluble?",
             "options": [
-                "Urea (from protein catabolism)",
                 "Thiamin (vitamin B1)",
-                "Vitamin K (phylloquinone)",
-                "Vitamin C (ascorbic acid)"
+                "Vitamin C",
+                "Vitamin K",
+                "Riboflavin (vitamin B2)"
             ],
             "correctIndex": 2,
-            "explanation": "The kidneys filter and excrete water-soluble substances: water-soluble vitamins (B vitamins, vitamin C), urea from protein catabolism, water-soluble drugs, and water-soluble environmental toxins. Fat-soluble vitamins (A, D, E, K) are NOT excreted by the kidneys — they are stored in adipose tissue and the liver. This is why fat-soluble vitamin toxicity is more common with excess supplementation.",
+            "explanation": "Vitamin K is fat-soluble; B vitamins and vitamin C are water-soluble. Fat solubility does not mean that none of a vitamin or its metabolites are excreted in urine: NIH describes urinary excretion of vitamin K metabolites.",
             "tags": [
                 "kidney function",
                 "waste excretion",
                 "fat-soluble vitamins",
                 "water-soluble vitamins",
                 "renal"
+            ],
+            "references": [
+                "https://ods.od.nih.gov/factsheets/vitaminK-HealthProfessional/"
             ]
         },
         {
@@ -20729,19 +20768,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Metabolic Syndrome",
             "difficulty": "medium",
-            "text": "What magnitude of weight loss is generally sufficient to produce clinically meaningful improvement in metabolic syndrome components?",
+            "text": "Which weight-management goal can produce meaningful improvement in metabolic risk factors for a patient with metabolic syndrome?",
             "options": [
-                "5 to 10% of initial body weight over time",
-                "At least 30% of body weight within a year",
-                "Exactly 2% of body weight each month",
-                "Weight loss does not affect metabolic syndrome"
+                "A sustained loss of 5–10% of initial body weight, when appropriate",
+                "At least 30% loss within a year is necessary for any benefit",
+                "Exactly 2% must be lost in every calendar month",
+                "Weight change cannot affect metabolic risk factors"
             ],
             "correctIndex": 0,
-            "explanation": "A loss of 5 to 10% of initial body weight consistently improves insulin sensitivity, blood pressure, triglycerides and glycemia, and is the target used in major lifestyle intervention trials. Framing the goal this way also makes it attainable, which matters for adherence. Requiring 30% loss sets an unrealistic bar achievable mainly through surgery and would discourage patients who would benefit from far less. A 2% loss is generally below the threshold for meaningful metabolic change. The claim that weight loss has no effect contradicts the central evidence base for managing this condition.",
+            "explanation": "A sustained 5–10% reduction in initial weight can improve several cardiometabolic risk factors. The pace and approach should be individualized; requiring exactly 2% each month is not necessary, and repeated monthly reductions are not equivalent to a single 2% loss.",
             "tags": [
                 "metabolic syndrome",
                 "weight loss",
                 "lifestyle intervention"
+            ],
+            "references": [
+                "https://www.nhlbi.nih.gov/health/overweight-and-obesity/management"
             ]
         },
         {
@@ -23875,20 +23917,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Nutrition Education",
             "difficulty": "hard",
-            "text": "Using the Dietary Guidelines for Americans, 2025-2030, how should an RDN counsel a client about added sugars?",
+            "text": "According to the cited 2025–2030 Dietary Guidelines, what added sugar advice applies to adolescents and adults?",
             "options": [
-                "No amount is recommended; keep any single meal under 10 grams of added sugars",
-                "Keep added sugars under 10% of total calories, the limit carried over unchanged",
-                "Added sugars are unrestricted as long as total calorie needs are not exceeded",
-                "Replace added sugars with non-nutritive sweeteners, which the guidelines encourage"
+                "No more than 10 grams of added sugars per meal",
+                "Unlimited added sugars if calorie requirements are met",
+                "At least 10 grams of added sugars per meal",
+                "At least 10% of total calories from added sugars"
             ],
             "correctIndex": 0,
-            "explanation": "The 2025-2030 edition states that no amount of added sugars (or of non-nutritive sweeteners) is recommended as part of a healthy diet, and gives a practical ceiling of no more than 10 grams of added sugars in any one meal. It also says to avoid sugar-sweetened beverages, and for snack foods to follow the FDA 'Healthy' claim limits. The previous edition's guidance was less than 10% of total calories from added sugars, so name the edition when you quote a number.",
+            "explanation": "CDC summarizes the 2025–2030 guidance as limiting added sugars to no more than 10 grams per meal for adolescents and adults. It separately advises no added sugar for children younger than 11.",
             "tags": [
                 "dietary guidelines",
                 "dga 2025",
                 "added sugars",
                 "counseling"
+            ],
+            "references": [
+                "https://www.cdc.gov/nutrition/php/data-research/added-sugars.html"
             ]
         },
         {
