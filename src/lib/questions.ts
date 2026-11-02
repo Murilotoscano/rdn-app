@@ -7288,7 +7288,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Gestational Diabetes",
             "difficulty": "hard",
-            "text": "Using the one-step approach (2-hour 75g OGTT) for diagnosing gestational diabetes, which fasting glucose value meets the diagnostic criterion?",
+            "text": "In the one-step 75-g OGTT approach to gestational diabetes, what is the minimum fasting plasma glucose threshold used for diagnosis?",
             "options": [
                 "≥ 85 mg/dL",
                 "≥ 92 mg/dL",
@@ -7296,12 +7296,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "≥ 110 mg/dL"
             ],
             "correctIndex": 1,
-            "explanation": "For the one-step approach using a 2-hour 75g fasting OGTT, gestational diabetes is diagnosed if ANY of the following are met: fasting ≥92 mg/dL, 1-hour ≥180 mg/dL, or 2-hour ≥153 mg/dL. Only one abnormal value is needed for diagnosis with the one-step method.",
+            "explanation": "In the one-step 75-g OGTT approach, a fasting glucose of 92 mg/dL is the minimum threshold; values above it also meet that fasting criterion. One elevated value among fasting ≥92, one-hour ≥180 or two-hour ≥153 mg/dL meets this approach’s criteria. Different diagnostic approaches exist.",
             "tags": [
                 "gestational diabetes",
                 "diagnosis",
                 "OGTT",
                 "one-step method"
+            ],
+            "references": [
+                "https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards"
             ]
         },
         {
@@ -7332,18 +7335,21 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "MNT goals for a patient with gestational diabetes include which of the following carbohydrate intake recommendations?",
             "options": [
-                "Eliminate all carbohydrates to normalize blood glucose until delivery, relying on protein and fat",
-                "Consume no more than 45 g carbohydrates in one sitting, choosing whole foods over processed",
-                "Limit total daily carbohydrates to under 50 g/day to keep the mother in mild ketosis",
-                "Distribute 60% of calories as carbohydrates throughout 3 meals with no snacks between them"
+                "Eliminate all carbohydrates until delivery",
+                "Individualize carbohydrate intake and distribution across meals and snacks, with monitoring",
+                "Limit total carbohydrate to under 50 g/day for all patients",
+                "Use the same fixed percentage of calories and no snacks for every patient"
             ],
             "correctIndex": 1,
-            "explanation": "MNT for gestational diabetes includes eating regularly throughout the day (3 meals, 2–3 snacks), consuming no more than 45 g carbohydrates per sitting, choosing whole foods rather than processed foods, and avoiding juice/soda while limiting sweets. Total carbohydrate elimination is not recommended as adequate carbohydrates are needed for fetal development and to prevent ketosis.",
+            "explanation": "Gestational diabetes nutrition care individualizes carbohydrate amount, distribution and food choices while supporting pregnancy needs and monitoring glycemia. A universal maximum of 45 g per sitting is not a rule for every patient; avoid a blanket elimination of carbohydrates.",
             "tags": [
                 "gestational diabetes",
                 "MNT",
                 "carbohydrate",
                 "meal planning"
+            ],
+            "references": [
+                "https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards"
             ]
         },
         {
@@ -7692,21 +7698,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Pancreatitis",
             "difficulty": "medium",
-            "text": "A patient presents with mild acute pancreatitis. Which is the MOST appropriate initial nutrition management?",
+            "text": "A patient has mild acute pancreatitis and is able to tolerate food. According to the ACG 2024 guideline, which initial nutrition approach is appropriate?",
             "options": [
-                "Begin early enteral nutrition within 48 hours via nasojejunal tube",
-                "Start TPN immediately to rest the inflamed pancreas",
-                "NPO with progression to oral diet as tolerated",
-                "Clear liquid diet for 5–7 days then advance as tolerated"
+                "Keep the patient NPO for at least 5 days regardless of tolerance",
+                "Start parenteral nutrition immediately in all patients",
+                "Offer early oral feeding with a low-fat solid diet within 24–48 hours as tolerated",
+                "Provide only clear liquids for a week before considering solids"
             ],
             "correctIndex": 2,
-            "explanation": "For mild to moderate acute pancreatitis WITHOUT malnutrition, the standard approach is NPO initially, then progress to oral diet as tolerated once symptoms improve (pain, nausea resolve). Early oral feeding is safe and preferred over prolonged NPO. Early enteral nutrition within 48 hours is reserved for: (1) severe acute pancreatitis, (2) patients presenting with malnutrition, or (3) patients unable to progress to adequate oral intake within 5–7 days. TPN is used only when enteral access is not feasible.",
+            "explanation": "The ACG 2024 guideline supports early oral feeding, including a low-fat solid diet, within 24–48 hours as tolerated in mild acute pancreatitis. Route and timing for patients unable to eat or with severe disease require individualized assessment.",
             "tags": [
                 "pancreatitis",
                 "acute-pancreatitis",
                 "NPO",
                 "oral-diet",
                 "early-enteral-nutrition"
+            ],
+            "references": [
+                "https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf"
             ]
         },
         {
@@ -7897,21 +7906,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Renal Disease",
             "difficulty": "medium",
-            "text": "A CKD patient receiving peritoneal dialysis uses dialysate with 2.5% dextrose. What nutritional consideration is unique to peritoneal dialysis?",
+            "text": "A patient using dextrose-containing peritoneal dialysis asks what non-dietary carbohydrate source may contribute energy. Which source should be considered?",
             "options": [
-                "Peritoneal dialysis requires higher protein than hemodialysis due to peritoneal losses",
-                "Glucose absorbed from the dialysate must be factored into total energy intake",
-                "Fluid restriction is not needed because peritoneal dialysis removes unlimited fluid",
-                "Phosphate binders are not needed since phosphorus is efficiently removed by peritoneal dialysis"
+                "Protein lost into the dialysate",
+                "Glucose absorbed from the dialysate",
+                "Phosphate removed by dialysis",
+                "Water removed by ultrafiltration"
             ],
             "correctIndex": 1,
-            "explanation": "Peritoneal dialysis uses dextrose (glucose) in the dialysate to create an osmotic gradient that draws fluid and toxins across the peritoneal membrane. A significant amount of this glucose is absorbed systemically. The amount varies by dextrose concentration (1.5%, 2.5%, or 4.25%), dwell time, and number/volume of exchanges. The absorbed glucose contributes to energy intake and can cause hyperglycemia and weight gain — this MUST be factored into energy prescription. Protein losses via peritoneal dialysate are also higher than hemodialysis, requiring protein 1.2–1.5 g/kg.",
+            "explanation": "Glucose from dextrose-containing peritoneal dialysate can be absorbed and contribute energy. Absorption varies with concentration, dwell time and exchanges. Assess total intake, glycemia, dialysis prescription and individual protein needs rather than assuming the same prescription for every patient.",
             "tags": [
                 "peritoneal-dialysis",
                 "dextrose-absorption",
                 "glucose",
                 "energy-intake",
                 "CKD"
+            ],
+            "references": [
+                "https://www.kidney.org/sites/default/files/nutrition_and_peritoneal_dialysis.pdf"
             ]
         },
         {
@@ -8686,20 +8698,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Anemias",
             "difficulty": "medium",
-            "text": "A patient with rheumatoid arthritis has a hemoglobin of 9.8 g/dL, low serum iron, and a HIGH ferritin. Which medical treatment is appropriate for this type of anemia?",
+            "text": "A patient with rheumatoid arthritis has anemia, low serum iron and high ferritin. Which next approach is most appropriate?",
             "options": [
-                "Oral ferrous sulfate supplementation",
-                "Intramuscular vitamin B12 injections",
-                "Recombinant erythropoietin (EPO) therapy",
-                "High-dose oral folate supplementation"
+                "Assume high ferritin excludes iron deficiency in every case",
+                "Give vitamin B12 without assessing cause",
+                "Evaluate other causes, including coexisting iron deficiency, and manage the underlying inflammatory disease with the medical team",
+                "Give erythropoietin routinely to all patients with rheumatoid arthritis"
             ],
             "correctIndex": 2,
-            "explanation": "ACD (associated with chronic infection, cancer, CKD, heart failure, autoimmune diseases like RA/IBD) results from decreased erythropoiesis and dysfunctional iron metabolism due to inflammation. Treatment is recombinant erythropoietin (EPO), NOT iron supplementation (since ferritin levels are falsely elevated and additional iron can be harmful). ACD is typically mild and normocytic-normochromic.",
+            "explanation": "Inflammation can alter iron handling and raise ferritin, and anemia may have more than one cause. Evaluate the complete clinical and laboratory context, including possible coexisting iron deficiency, and treat the underlying inflammatory condition. Erythropoietin is not a universal treatment for rheumatoid-arthritis-associated anemia.",
             "tags": [
                 "anemia",
                 "ACD",
                 "erythropoietin",
                 "chronic-disease"
+            ],
+            "references": [
+                "https://www.niddk.nih.gov/health-information/blood-diseases/anemia-inflammation-chronic-disease"
             ]
         },
         {
@@ -9973,21 +9988,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Critical Care",
             "difficulty": "medium",
-            "text": "In critically ill patients, when is permissive underfeeding most appropriate?",
+            "text": "A critically ill patient remains hemodynamically unstable while active resuscitation is ongoing. What is the priority concerning enteral feeding?",
             "options": [
-                "During the first 24–48 hours of ICU admission in hemodynamically unstable patients",
-                "Only in patients with BMI > 30, regardless of how long they have been in the ICU",
-                "When indirect calorimetry confirms hypermetabolism above 150% of predicted needs",
-                "In all ICU patients for the first 7 days, whether or not they are hemodynamically stable"
+                "Withhold enteral feeding while resuscitation is incomplete, then reassess after stabilization",
+                "Begin full-rate enteral feeding immediately in every patient",
+                "Give a fixed hypocaloric feed regardless of perfusion",
+                "Assume that shock has no bearing on enteral tolerance"
             ],
             "correctIndex": 0,
-            "explanation": "Permissive underfeeding during the first 24–48 hours is appropriate for hemodynamically unstable patients while resuscitation is ongoing. Full nutrition support is initiated once the patient is stabilized.",
+            "explanation": "ASPEN/SCCM 2016 recommends withholding enteral nutrition during hemodynamic instability until the patient is resuscitated and stable. Hypocaloric feeding decisions apply in an appropriate clinical context and are not a substitute for managing uncontrolled shock.",
             "tags": [
                 "critical care",
                 "permissive underfeeding",
                 "hemodynamic instability",
                 "ICU",
                 "timing"
+            ],
+            "references": [
+                "https://doi.org/10.1097/CCM.0000000000001525"
             ]
         },
         {
@@ -10479,19 +10497,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient in cirrhosis with ascites would have which ECF status, and what kidney response would be expected?",
             "options": [
-                "Low ECF — kidneys reabsorb water, producing concentrated urine",
-                "Excess ECF — kidneys excrete water, producing dilute urine",
-                "Normal ECF — kidneys maintain homeostasis without adjustment",
-                "Low ECF — kidneys excrete sodium to reduce osmolarity"
+                "Low total ECF with no neurohormonal response",
+                "Increased total ECF but reduced effective arterial volume, promoting sodium and water retention",
+                "Normal total ECF with unrestricted water excretion",
+                "Low total ECF with universal sodium excretion"
             ],
             "correctIndex": 1,
-            "explanation": "Cirrhosis with ascites causes excess ECF volume (fluid shifts into the peritoneal cavity and interstitial space). When ECF solute concentration decreases, the kidneys excrete water to restore osmolarity, producing dilute urine. However, in cirrhosis, effective arterial blood volume is reduced despite total ECF excess, causing paradoxical sodium and water retention — contributing to worsening ascites and edema.",
+            "explanation": "In advanced cirrhosis with ascites, total body fluid may be increased while effective arterial blood volume is reduced. Renal responses promote sodium and water retention and may worsen ascites; this is not a general prediction of water excretion and dilute urine.",
             "tags": [
                 "cirrhosis",
                 "ascites",
                 "ECF volume",
                 "kidney function",
                 "fluid regulation"
+            ],
+            "references": [
+                "https://www.aasld.org/liver-fellow-network/core-series/back-basics/back-basics-low-sodium-high-stakes-back-basics"
             ]
         },
         {
@@ -10523,19 +10544,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "Isotonic (isonatremic) dehydration is characterized by which laboratory findings?",
             "options": [
-                "Serum sodium >150 mmol/L and elevated BUN from free water loss",
-                "Serum sodium <130 mmol/L and normal BUN with dilutional excess",
-                "Serum sodium within normal limits (130–150 mmol/L) and normal BUN",
-                "Serum sodium <130 mmol/L and elevated BUN from sodium depletion"
+                "Serum sodium above 150 mmol/L due solely to water loss",
+                "Serum sodium below 130 mmol/L with fluid excess",
+                "Serum sodium approximately 135–145 mmol/L; BUN may rise with volume depletion",
+                "Serum sodium below 130 mmol/L in every case"
             ],
             "correctIndex": 2,
-            "explanation": "Isotonic (isonatremic/hypovolemic) dehydration involves equal loss of water and electrolytes in proportion to plasma levels, so serum sodium remains within normal limits (130–150 mmol/L) and BUN is also within normal range. It is the most common type of dehydration, caused by excessive sweating, vomiting, diarrhea, or bleeding. Unlike hypertonic dehydration, it does not cause cerebral edema risk with rehydration.",
+            "explanation": "Isonatremic dehydration describes proportional water and sodium loss with serum sodium approximately in the normal range; laboratory reference intervals vary. BUN can rise with hypovolemia, so a normal BUN is not required.",
             "tags": [
                 "isotonic dehydration",
                 "isonatremic",
                 "sodium",
                 "BUN",
                 "dehydration types"
+            ],
+            "references": [
+                "https://dlmp.uw.edu/test-guide/view/NA"
             ]
         },
         {
@@ -19446,20 +19470,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Mental Health",
             "difficulty": "hard",
-            "text": "A patient with chronic alcohol use disorder presents with confusion, ophthalmoplegia and ataxia. Which intervention takes priority?",
+            "text": "A patient with chronic alcohol use, confusion, ophthalmoplegia and ataxia is suspected of having Wernicke encephalopathy. What is the priority?",
             "options": [
-                "Administer intravenous glucose immediately, then thiamine",
-                "Administer thiamine before or with any glucose load",
-                "Provide a high-protein meal to correct malnutrition",
-                "Begin magnesium supplementation alone as first step"
+                "Wait for a vitamin level before treating",
+                "Give prompt parenteral thiamine and do not delay emergency glucose if hypoglycemia is present",
+                "Treat only with a high-protein meal",
+                "Give magnesium alone and defer thiamine"
             ],
             "correctIndex": 1,
-            "explanation": "This triad indicates Wernicke encephalopathy from thiamine deficiency. Thiamine is a cofactor for pyruvate dehydrogenase and transketolase, so giving a glucose load first consumes remaining thiamine and can precipitate or worsen the encephalopathy, potentially progressing to irreversible Korsakoff syndrome. Thiamine must therefore be given before or together with glucose. Immediate glucose alone is the specific error to avoid. A high-protein meal does not treat an acute thiamine deficiency emergency. Magnesium is a relevant cofactor for thiamine-dependent enzymes and is often repleted alongside, but on its own it does not treat the deficiency.",
+            "explanation": "Suspected Wernicke encephalopathy is an emergency requiring prompt parenteral thiamine and medical assessment. If urgent glucose is needed for hypoglycemia, do not delay it to give thiamine first; treatment can occur concurrently. Correct other deficiencies as clinically indicated.",
             "tags": [
                 "mental health",
                 "alcohol use disorder",
                 "thiamine",
                 "Wernicke encephalopathy"
+            ],
+            "references": [
+                "https://downloads.asam.org/sitefinity-production-blobs/docs/default-source/quality-science/the_asam_clinical_practice_guideline_on_alcohol-1.pdf"
             ]
         },
         {
@@ -19536,18 +19563,21 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A 70 kg adult is receiving parenteral nutrition containing 450 g of dextrose over 24 hours. Blood glucose is persistently above 250 mg/dL. What is the calculated glucose infusion rate, and what does it indicate?",
             "options": [
-                "2.2 mg/kg/min, which is below recommended minimums of about 3 to 4 mg/kg/min for adults",
-                "4.5 mg/kg/min, which exceeds the recommended maximum of about 4 to 5 mg/kg/min",
-                "7.8 mg/kg/min, which is within the safe range of about 7 to 10 mg/kg/min",
-                "0.4 mg/kg/min, which is negligible and far below any clinically relevant rate"
+                "2.2 mg/kg/min",
+                "4.5 mg/kg/min; assess persistent hyperglycemia and the overall regimen",
+                "7.8 mg/kg/min",
+                "0.4 mg/kg/min"
             ],
             "correctIndex": 1,
-            "explanation": "Glucose infusion rate equals grams of dextrose times 1,000 mg/g, divided by kilograms and by 1,440 minutes. Here 450 g yields 450,000 mg, divided by 70 kg gives 6,429 mg/kg, divided by 1,440 minutes gives about 4.5 mg/kg/min. That sits at or above the recommended ceiling of roughly 4 to 5 mg/kg/min for adults, beyond which glucose oxidative capacity is exceeded and hyperglycemia, lipogenesis and hepatic steatosis follow. The value 2.2 would correspond to roughly half this dextrose load. The 7.8 figure reflects an arithmetic error and would be dangerously high. The 0.4 figure is off by an order of magnitude.",
+            "explanation": "GIR = 450 g × 1,000 mg/g ÷ 70 kg ÷ 1,440 minutes = 4.46, approximately 4.5 mg/kg/min. Persistent hyperglycemia requires assessment of delivery, glucose management and clinical context; 4.5 does not mathematically exceed a stated range of 4–5, and individual tolerance varies.",
             "tags": [
                 "parenteral",
                 "complications",
                 "glucose infusion rate",
                 "calculation"
+            ],
+            "references": [
+                "https://nutritioncare.org/news/parenteral-nutrition-therapy-assessment-tools-and-guidelines/"
             ]
         },
         {
@@ -19600,20 +19630,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Parenteral Nutrition Complications",
             "difficulty": "hard",
-            "text": "A patient on long-term home parenteral nutrition develops progressively rising alkaline phosphatase, gamma-glutamyl transferase and conjugated bilirubin over three months. Which intervention is most appropriate?",
+            "text": "A patient receiving long-term home PN has a cholestatic liver test pattern, and the clinical team is evaluating causes including PN-associated liver disease. Which nutrition-support strategy may be appropriate?",
             "options": [
-                "Increase dextrose to spare protein and reduce dependence on lipid emulsion",
-                "Cycle the parenteral nutrition, avoid overfeeding and maximize any enteral intake",
-                "Eliminate all lipid emulsion permanently and provide energy from dextrose alone",
-                "Increase the infusion rate to shorten hang time and give the liver a longer daily rest"
+                "Increase total dextrose and calories without reassessment",
+                "Consider cycling PN, avoiding overfeeding and maximizing tolerated enteral intake with clinical monitoring",
+                "Permanently eliminate all lipid for every patient",
+                "Increase total daily dextrose while keeping all other factors unchanged"
             ],
             "correctIndex": 1,
-            "explanation": "This cholestatic pattern is characteristic of parenteral nutrition-associated liver disease. Management centers on cycling PN over 12 to 18 hours rather than infusing continuously, avoiding overfeeding of both total calories and dextrose, limiting soybean-based lipid, and providing even small amounts of enteral nutrition to stimulate gallbladder contraction and preserve gut integrity. Increasing dextrose worsens hepatic steatosis and cholestasis. Eliminating lipid permanently would cause essential fatty acid deficiency; the appropriate step is limiting or changing the lipid source, not removing it. Increasing the infusion rate raises the substrate delivery rate and adds metabolic stress.",
+            "explanation": "The team should assess alternative causes and individual risks. Strategies can include avoiding overfeeding, considering a cycled PN schedule with glucose monitoring and maximizing tolerated enteral intake. Cycling can raise the hourly rate while preserving the daily dose; increasing total daily dextrose is a different intervention. Lipid strategy depends on the patient and product.",
             "tags": [
                 "parenteral",
                 "complications",
                 "PNALD",
                 "cholestasis"
+            ],
+            "references": [
+                "https://pubmed.ncbi.nlm.nih.gov/11100349/"
             ]
         },
         {
@@ -20202,12 +20235,16 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Protein-energy malnutrition causing hepatic encephalopathy"
             ],
             "correctIndex": 0,
-            "explanation": "Thiamine stores last only two to three weeks, so persistent vomiting after bariatric surgery can precipitate Wernicke encephalopathy, classically with confusion, ophthalmoplegia or nystagmus, and ataxia. This is a medical emergency requiring immediate parenteral thiamine, given before any glucose-containing fluid, since a glucose load consumes remaining thiamine and can worsen the injury. Iron deficiency develops over months and causes fatigue and pallor, not acute neurologic findings. Calcium deficiency causes tetany and Chvostek sign rather than this triad. Protein-energy malnutrition develops over a longer course and does not present this acutely.",
+            "explanation": "Persistent vomiting after gastric bypass with confusion, nystagmus and ataxia raises concern for thiamine deficiency and Wernicke encephalopathy. This is an emergency requiring prompt parenteral thiamine and medical evaluation. Do not delay emergency glucose for hypoglycemia while arranging thiamine.",
             "tags": [
                 "bariatric surgery",
                 "thiamine",
                 "Wernicke encephalopathy",
                 "emergency"
+            ],
+            "references": [
+                "https://asmbs.org/wp-content/uploads/2017/06/ASMBS-Nutritional-Guidelines-2016-Update.pdf",
+                "https://downloads.asam.org/sitefinity-production-blobs/docs/default-source/quality-science/the_asam_clinical_practice_guideline_on_alcohol-1.pdf"
             ]
         },
         {
@@ -21772,18 +21809,21 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "A patient with PCOS has acanthosis nigricans on the posterior neck. What does this finding most likely indicate?",
             "options": [
-                "Significant insulin resistance",
-                "Chronic vitamin A toxicity",
-                "Primary adrenal insufficiency",
-                "Iron deficiency anemia"
+                "Possible insulin resistance, warranting appropriate metabolic assessment",
+                "Definite vitamin A toxicity",
+                "Definite primary adrenal insufficiency",
+                "Definite iron deficiency anemia"
             ],
             "correctIndex": 0,
-            "explanation": "Acanthosis nigricans, the velvety hyperpigmented thickening typically seen on the posterior neck, axillae and skin folds, is a cutaneous marker of significant insulin resistance. High circulating insulin cross-activates insulin-like growth factor receptors on keratinocytes and fibroblasts, driving proliferation. Its presence should prompt formal glucose and insulin assessment. Vitamin A toxicity causes dry skin, desquamation, hepatotoxicity and raised intracranial pressure, not this pattern. Adrenal insufficiency produces generalized hyperpigmentation, including palmar creases and mucous membranes, rather than localized velvety plaques. Iron deficiency causes pallor, koilonychia and glossitis.",
+            "explanation": "Acanthosis nigricans can be associated with insulin resistance but does not establish a diagnosis by itself. In PCOS, use guideline-based glycemic assessment appropriate to the individual; the 2023 international guideline does not recommend routine clinical insulin assays because of limited clinical relevance.",
             "tags": [
                 "PCOS",
                 "acanthosis nigricans",
                 "insulin resistance",
                 "physical assessment"
+            ],
+            "references": [
+                "https://www.monash.edu/__data/assets/pdf_file/0003/3379521/Evidence-Based-Guidelines-2023.pdf"
             ]
         },
         {
@@ -22608,17 +22648,21 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "A parent asks the WIC nutritionist what the cash-value benefit (CVB) on her child's card can be used to buy. The correct answer is:",
             "options": [
-                "Fresh, frozen, canned, or dried fruits and vegetables, including white potatoes",
-                "Fresh fruits and vegetables only, because processed forms are excluded by rule",
-                "Any grocery item in the store, because the card works exactly like a SNAP card",
-                "Fruit juice and fruit snacks, as long as the label carries a 100% fruit claim"
+                "Eligible fruits and vegetables in forms authorized by the state WIC program, including eligible fresh produce",
+                "Fresh produce only under one universal federal rule",
+                "Any grocery item, with no program restrictions",
+                "All fruit snacks and juice without restriction"
             ],
             "correctIndex": 0,
-            "explanation": "The cash-value benefit is a dollar amount reserved for fruits and vegetables, and it covers fresh, frozen, canned, and dried forms, including white potatoes. The 2024 WIC food package final rule raised CVB amounts, reduced juice, expanded whole grain choices, and added more plant-based milk and yogurt options. The CVB cannot be spent on other grocery items, and juice is issued separately (and in smaller amounts) rather than through the CVB.",
+            "explanation": "The cash-value benefit is for eligible fruits and vegetables. Federal and state rules determine which fresh and other forms and specific products are authorized, so check the state program’s current list rather than assuming every dried, frozen or canned item is covered.",
             "tags": [
                 "community",
                 "wic",
                 "food package"
+            ],
+            "references": [
+                "https://www.fna.usda.gov/wic/food-packages/regulatory-requirements",
+                "https://myfamily.wic.ca.gov/WicShoppingGuide/FruitsAndVegetables"
             ]
         },
         {
