@@ -728,15 +728,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Calculations",
             "difficulty": "medium",
-            "text": "Fixed costs = $85,000; sales price per unit = $42; variable cost per unit = $12. Using Formula 2, how many units must be sold to break even?",
+            "text": "Fixed costs are $85,000, sales price per unit is $42, and variable cost per unit is $12. Assuming whole units, what is the minimum number of units that must be sold to cover all fixed costs?",
             "options": [
                 "1,417 units",
-                "2,833 units",
+                "2,834 units",
                 "4,250 units",
                 "7,083 units"
             ],
             "correctIndex": 1,
-            "explanation": "Formula 2: Break-even (units) = Fixed Costs ÷ (Sales price/unit − Variable cost/unit) = $85,000 ÷ ($42 − $12) = $85,000 ÷ $30 = 2,833 units. The denominator ($30) is the contribution margin — the amount each unit sale contributes toward covering fixed costs. A larger contribution margin means fewer units needed to break even. Formula 1 gives break-even in dollars; Formula 2 gives break-even in units.",
+            "explanation": "Contribution margin per unit = $42 − $12 = $30. Break-even is $85,000 / $30 = 2,833.333… units. Because units are indivisible, round up to 2,834; 2,833 units would leave $10 of fixed costs uncovered.",
             "tags": [
                 "break-even",
                 "contribution-margin",
@@ -791,15 +791,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Calculations",
             "difficulty": "medium",
-            "text": "Your department catered a board meeting lunch for 30 people at a food cost of $820. The budget was $25/meal maximum. What is the actual cost per meal, and is it over or under budget?",
+            "text": "A department catered 30 meals at a total food cost of $820. The budget was $25 per meal. Rounded to cents, what was the actual food cost per meal and the variance per meal?",
             "options": [
-                "$25.00/meal — on budget",
-                "$27.33/meal — $2.33 over budget",
-                "$24.67/meal — $0.33 under budget",
-                "$27.33/meal — $70 over total budget"
+                "$25.00 per meal — on budget",
+                "$27.33 per meal — $2.33 over budget per meal",
+                "$24.67 per meal — $0.33 under budget per meal",
+                "$27.33 per meal — $70 over budget per meal"
             ],
             "correctIndex": 1,
-            "explanation": "Cost per meal = Total cost ÷ Number of meals = $820 ÷ 30 = $27.33/meal. Compared to budget: $27.33 − $25.00 = $2.33 over budget. Common error: $25 × 30 = $750 budget; $820 − $750 = $70 over — this gives the TOTAL dollar overage, not the per-meal variance. The question asks 'over or under budget' — the per-meal comparison ($2.33 over) is the correct answer. Always read what the question asks for.",
+            "explanation": "$820 / 30 = $27.333… per meal. The per-meal variance is $27.333… − $25 = $2.333…, or $2.33 rounded. Total overage is $820 − ($25 × 30) = $70; that is not the variance per meal.",
             "tags": [
                 "cost-per-meal",
                 "budget",
@@ -899,7 +899,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Calculations",
             "difficulty": "hard",
-            "text": "You need 8 quarts of drained peaches for a cobbler. Yield from canned-to-drained is 90%. Each #10 can of peaches weighs 6 lb 10 oz. How many #10 cans must you order?",
+            "text": "A cobbler requires 16 lb of drained peaches. Each can contains 6 lb 10 oz of peaches and liquid as purchased, and the drained mass is 90% of this amount. How many whole cans must be ordered?",
             "options": [
                 "2 cans",
                 "3 cans",
@@ -907,7 +907,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "5 cans"
             ],
             "correctIndex": 1,
-            "explanation": "Step 1: EP = 8 quarts × 32 oz/qt = 256 oz. Step 2: AP = 256 oz ÷ 0.90 = 284.4 oz ≈ 285 oz. Step 3: Weight per can = 6 lb × 16 oz/lb + 10 oz = 106 oz. Step 4: Cans needed = 285 oz ÷ 106 oz/can = 2.69 cans → round UP to 3 cans. Key conversions: 1 quart = 32 fl oz; #10 can = 3 quarts = 96 fl oz (by volume), but weight (6 lb 10 oz = 106 oz) differs when the item has syrup. Use the weight given, not the standard can volume.",
+            "explanation": "Each can weighs 6 × 16 + 10 = 106 oz as purchased and yields 106 × 0.90 = 95.4 oz drained. The recipe needs 16 × 16 = 256 oz drained. 256 / 95.4 = 2.68 cans, so order 3 whole cans. Mass and volume are not interchangeable without a density.",
             "tags": [
                 "edible-portion",
                 "cans",
@@ -963,7 +963,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Calculations",
             "difficulty": "hard",
-            "text": "Raw food cost = $1.75; labor cost = $1.00; food cost % = 30%; labor cost % = 52%. What is the selling price?",
+            "text": "Food costs $1.75 and labor costs $1.00 for an item. Management sets a combined food-and-labor cost target of 82% of selling price. What selling price meets this combined target, rounded to the nearest cent?",
             "options": [
                 "$2.13",
                 "$3.35",
@@ -971,7 +971,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "$4.50"
             ],
             "correctIndex": 1,
-            "explanation": "When both dollar amounts AND percentages for food and labor are given, use: Prime Cost = Raw Food Cost + Labor Cost = $1.75 + $1.00 = $2.75. Markup Factor = 1 ÷ (Food Cost % + Labor Cost %) = 1 ÷ (0.30 + 0.52) = 1 ÷ 0.82 = 1.2195. Selling Price = Markup Factor × Prime Cost = 1.2195 × $2.75 = $3.35. If only raw food cost were used (no dollar labor cost given), SP = 1.2195 × $1.75 = $2.13 — that would be wrong here because labor dollars are provided.",
+            "explanation": "Combined food and labor cost is $1.75 + $1.00 = $2.75. Divide by the combined target: $2.75 / 0.82 = $3.35366…, or $3.35 to the nearest cent. This does not establish separate food and labor percentages.",
             "tags": [
                 "selling-price",
                 "prime-cost",
@@ -1005,15 +1005,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Calculations",
             "difficulty": "medium",
-            "text": "A menu item sells for $9.50 with a food cost of $2.50. 350 units were sold this week. What is the percent profit contribution if total profit from all items was $2,500?",
+            "text": "A menu item sells for $9.50 and has $2.50 in food cost per unit. It sold 350 units. If the sum of contribution after food cost across all menu items is $2,500, what percentage of that combined contribution came from this item?",
             "options": [
-                "28.0%",
+                "28%",
                 "38.5%",
-                "42.0%",
+                "98%",
                 "26.3%"
             ],
             "correctIndex": 2,
-            "explanation": "Unit profit = Selling Price − Food Cost = $9.50 − $2.50 = $7.00. Total item profit = $7.00 × 350 = $2,450. Percent profit contribution = Total item profit ÷ Total profit = $2,450 ÷ $2,500 = 0.98 = 98%... Wait — let me recalculate to match options. If total profit is $5,833: $2,450/$5,833 = 42%. The question is designed to test the formula: % contribution = (unit profit × units sold) ÷ total all-item profits. Food cost % = $2.50/$9.50 = 26.3% — but that's food cost %, not profit contribution.",
+            "explanation": "Contribution after food cost per unit = $9.50 − $2.50 = $7.00. This item contributes $7 × 350 = $2,450. Its share of the stated $2,500 combined contribution is $2,450 / $2,500 × 100 = 98%. Contribution after food cost is not net profit because other costs are not included.",
             "tags": [
                 "profit-contribution",
                 "food-cost-percentage",
@@ -1046,15 +1046,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Calculations",
             "difficulty": "medium",
-            "text": "You need to cook 300 three-ounce hamburger patties. Hamburger meat has 20% shrinkage during cooking. How many pounds of raw hamburger must you purchase?",
+            "text": "A kitchen needs 300 hamburger patties weighing 3 oz each after cooking. Meat loses 20% of its raw weight in cooking. If raw meat is purchased in whole pounds, what is the minimum number of pounds to buy?",
             "options": [
                 "56 lb",
-                "70 lb",
+                "71 lb",
                 "62 lb",
                 "75 lb"
             ],
             "correctIndex": 1,
-            "explanation": "Yield % = 100% − 20% shrinkage = 80% yield. EP quantity = 300 × 3 oz = 900 oz ÷ 16 oz/lb = 56.25 lb. AP quantity = EP ÷ yield = 56.25 lb ÷ 0.80 = 70.3 lb → round UP to 71 lb (or accept 70 lb as the rounded calculation answer). Key concept: shrinkage percentage converts to yield as 100% − shrinkage%. Always divide EP by yield (never multiply) when working from cooked needed to raw purchased — dividing makes the answer larger (more to buy).",
+            "explanation": "The cooked requirement is 300 × 3 oz / 16 = 56.25 lb. With an 80% yield, raw weight = 56.25 / 0.80 = 70.3125 lb. Whole-pound purchases must be rounded up to 71 lb; 70 lb is insufficient.",
             "tags": [
                 "edible-portion",
                 "shrinkage",
@@ -3935,7 +3935,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "150 false positives"
             ],
             "correctIndex": 2,
-            "explanation": "With 1% prevalence: 100 truly have cancer (99,900 do not). Sensitivity 85%: 85 true positives, 15 false negatives. Specificity 92%: 92% of 9,900 cancer-free = 9,108 true negatives; 8% = 792 false positives. So ~792 false positives occur — for every true positive (85), there are ~9 false positives! This illustrates why screening tests in low-prevalence populations yield poor PPV. PPV = 85 / (85 + 792) ≈ 9.7%. High PPV requires high disease prevalence or extremely high specificity.",
+            "explanation": "At 1% prevalence, 100 of 10,000 people have the disease and 9,900 do not. With 92% specificity, 8% of 9,900 = 792 false positives. Sensitivity of 85% gives 85 true positives. In this example PPV = 85 / (85 + 792) ≈ 9.7%.",
             "tags": [
                 "sensitivity",
                 "specificity",
@@ -5158,15 +5158,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Parenteral Nutrition",
             "difficulty": "hard",
-            "text": "A patient on PN receives 1 L D50W and 500 mL of 10% amino acid solution combined in a single bag (total volume 1.5 L). What is the approximate osmolarity of this solution?",
+            "text": "For a calculation exercise, a 1.5 L PN mixture contains 500 g dextrose and 50 g amino acids. Use 5 mOsm/g for dextrose and 10 mOsm/g for amino acids, and assume no other osmolar contributions. What is its approximate calculated osmolarity?",
             "options": [
                 "about 900 mOsm/L",
                 "about 1,350 mOsm/L",
-                "2,233–2,333 mOsm/L",
+                "about 2,000 mOsm/L",
                 "about 4,500 mOsm/L"
             ],
             "correctIndex": 2,
-            "explanation": "Calculate g per liter of the 1.5 L solution: Dextrose: 1 L D50W = 500 g dextrose / 1.5 L = 333 g/L × 5 mOsm/g = 1,667 mOsm/L. Amino acids: 500 mL × 10 g/100 mL = 50 g AA / 1.5 L = 33 g/L × 10 mOsm/g = 333 mOsm/L. Add 300–400 for vitamins/minerals. Total ≈ 1,667 + 333 + 300–400 = 2,300–2,400 mOsm/L → roughly 2,233–2,333 mOsm/L. This highly hypertonic solution REQUIRES central access (limit for PPN is 900–1,100 mOsm/L).",
+            "explanation": "Dextrose contributes 500 × 5 = 2,500 mOsm and amino acids contribute 50 × 10 = 500 mOsm. Together 3,000 mOsm / 1.5 L = 2,000 mOsm/L. Actual formulations can differ with the products and added electrolytes; do not infer clinical access decisions from this simplified exercise alone.",
             "tags": [
                 "osmolarity calculation",
                 "PN",
@@ -17383,15 +17383,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Food Production",
             "difficulty": "medium",
-            "text": "A recipe for turkey meatballs yields 50 servings (each serving requires 3 oz of raw ground turkey). You need to calculate how much raw ground turkey to order to serve 200 guests. Knowing that raw ground turkey has a 75% yield (25% cooking/handling loss), how many pounds of raw ground turkey must be purchased (the As Purchased amount)?",
+            "text": "A recipe requires 3 oz of cooked ground turkey per serving. For 200 guests, with a 75% cooking yield, how many pounds of raw ground turkey must be purchased?",
             "options": [
-                "37.5 lbs",
-                "50.0 lbs",
-                "28.1 lbs",
-                "100.0 lbs"
+                "37.5 lb",
+                "50.0 lb",
+                "28.1 lb",
+                "100.0 lb"
             ],
             "correctIndex": 1,
-            "explanation": "1) Calculate Edible Portion (EP) needed: 200 guests × 3 oz EP = 600 oz of actual meat needed. \n2) Convert to pounds: 600 oz / 16 oz = 37.5 lbs EP. \n3) Calculate As Purchased (AP) using the yield percentage: AP = EP / Yield %. \nAP = 37.5 lbs / 0.75 = 50.0 lbs.\nYou must purchase 50 lbs of raw turkey. During cooking, it will lose 25% of its weight (12.5 lbs), leaving exactly the 37.5 lbs needed to serve."
+            "explanation": "Cooked turkey needed = 200 × 3 oz / 16 = 37.5 lb. At 75% yield, raw turkey needed = 37.5 / 0.75 = 50 lb. The yield converts from the stated cooked requirement to raw purchase weight."
         },
         {
             "id": "dom4-ext-007",
@@ -17983,15 +17983,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Financial Management",
             "difficulty": "hard",
-            "text": "If a meal costs $2.00 to produce and you want a 33% food cost percentage, what should the selling price be?",
+            "text": "A meal has a food cost of $2.00 and the target food cost is 33% of selling price. What selling price meets this target, rounded to the nearest cent?",
             "options": [
-                "$6.00",
+                "$6.06",
                 "$5.00",
                 "$4.00",
                 "$6.60"
             ],
             "correctIndex": 0,
-            "explanation": "Selling Price = Cost / Food Cost %. Price = 2.00 / 0.33 = $6.06 (round to $6.00 approx or use exact math 2/0.33... typically markup factor is 3 for 33%). 2 * 3 = 6.",
+            "explanation": "Selling price = food cost / target percentage = $2.00 / 0.33 = $6.0606…, or $6.06 to the nearest cent.",
             "tags": [
                 "management",
                 "financial",
