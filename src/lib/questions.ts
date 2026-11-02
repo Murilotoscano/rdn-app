@@ -36,19 +36,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Education and Counseling",
             "difficulty": "medium",
-            "text": "When assessing the readability of written educational materials for the general population (high literacy), the aim should be a reading level of:",
+            "text": "Which step helps verify that a patient education handout is understandable to its intended readers?",
             "options": [
-                "12th grade",
-                "8th grade",
-                "4th grade",
-                "College level"
+                "Test the draft with members of the intended audience",
+                "Rely exclusively on a reading-grade score",
+                "Use more technical language",
+                "Assume the writer represents every reader"
             ],
-            "correctIndex": 1,
-            "explanation": "For the general population or high literacy groups, an 8th-grade reading level is recommended. For low literacy usage, a 6th-grade level is preferred. The SMOG index is used to calculate this.",
+            "correctIndex": 0,
+            "explanation": "Test the draft with intended readers and revise based on feedback. Readability scores can help but do not establish comprehension on their own.",
             "tags": [
                 "education",
                 "communication",
                 "literacy"
+            ],
+            "references": [
+                "https://www.epa.gov/choose-fish-and-shellfish-wisely/readability-developing-and-pretesting-concepts-messages-materials"
             ]
         },
         {
@@ -557,7 +560,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Calculations",
             "difficulty": "medium",
-            "text": "A recipe calls for 8 #2 cans of crushed tomatoes. The foodservice manager wants to substitute #10 cans. How many #10 cans are needed?",
+            "text": "A recipe needs eight cans, each containing 20 fl oz of tomatoes. The replacement cans each contain 96 fl oz. If only whole cans can be purchased, how many replacement cans are needed?",
             "options": [
                 "1 can",
                 "2 cans",
@@ -565,12 +568,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "4 cans"
             ],
             "correctIndex": 1,
-            "explanation": "#2 can = 2.5 cups = 20 fl oz. 8 × 20 oz = 160 oz needed. #10 can = 3 quarts = 96 fl oz. 160 oz ÷ 96 oz = 1.67 cans → round UP to 2 cans. In foodservice, always round up (partial cans cannot be purchased). Key equivalents: #10 can = 3 quarts = 96 fl oz; 6 #10 cans = 1 case.",
+            "explanation": "Eight cans × 20 fl oz = 160 fl oz. At 96 fl oz per replacement can, 160/96 = 1.67; buy two whole cans. Check the actual product volume and usable yield rather than assuming all cans of a nominal size are identical.",
             "tags": [
                 "can-size",
                 "conversions",
                 "foodservice",
                 "calculations"
+            ],
+            "references": [
+                "https://foodbuyingguide.fns.usda.gov/Home/About"
             ]
         },
         {
@@ -578,7 +584,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Calculations",
             "difficulty": "medium",
-            "text": "A foodservice operation needs 29 #10 cans of tomato paste. How many CASES must be ordered, given 6 cans per case?",
+            "text": "A foodservice operation needs 29 cans of tomato paste. Its supplier sells only complete cases of 6 cans. How many cases must be ordered?",
             "options": [
                 "4 cases",
                 "5 cases",
@@ -586,7 +592,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "3 cases"
             ],
             "correctIndex": 1,
-            "explanation": "29 cans ÷ 6 cans/case = 4.83 cases → round UP to 5 cases. In foodservice, always round up to ensure sufficient supply. If 4 cases were ordered (24 cans), there would be a shortage. The extra 1 can from ordering 5 cases (30 cans) stays in inventory as par stock. Key rule: ALWAYS round up in foodservice quantity calculations; never follow the standard ≥0.5 rounding convention.",
+            "explanation": "29 cans ÷ 6 cans per case = 4.83 cases. If cases cannot be split, buy 5 cases (30 cans) to meet the minimum. Rounding depends on the units and purchasing constraints, not a universal rule for every calculation.",
             "tags": [
                 "cases",
                 "can-size",
@@ -687,7 +693,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Calculations",
             "difficulty": "medium",
-            "text": "Opening inventory on March 1 = $25,730; purchases = $44,757; labor = $15,309; closing inventory (April 1) = $23,850. What is the cost of goods sold (COGS)?",
+            "text": "A manufacturer uses this stated COGS convention: opening inventory + purchases + direct production labor − closing inventory. Opening inventory is $25,730, purchases $44,757, direct production labor $15,309, and closing inventory $23,850. What is COGS under this convention?",
             "options": [
                 "$46,637",
                 "$61,946",
@@ -695,13 +701,16 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "$70,846"
             ],
             "correctIndex": 1,
-            "explanation": "COGS = Opening Inventory + (Purchases + Labor) − Closing Inventory = $25,730 + ($44,757 + $15,309) − $23,850 = $25,730 + $60,066 − $23,850 = $61,946. COGS differs from simple food cost in that it includes labor. Gross Profit = Revenue − COGS. As COGS increases, gross profit decreases. Overstating beginning inventory inflates COGS and deflates gross profit; overstating closing inventory deflates COGS and inflates gross profit.",
+            "explanation": "Using the specified convention, $25,730 + $44,757 + $15,309 − $23,850 = $61,946. This exercise explicitly includes direct production labor; whether particular labor belongs in COGS depends on the accounting facts and applicable rules.",
             "tags": [
                 "COGS",
                 "gross-profit",
                 "inventory",
                 "finance",
                 "calculations"
+            ],
+            "references": [
+                "https://www.irs.gov/publications/p334"
             ]
         },
         {
@@ -1116,18 +1125,21 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "medium",
             "text": "The current ratio is used in financial analysis of foodservice operations. A current ratio greater than 1.0 indicates:",
             "options": [
-                "The operation is generating more revenue than expenses — operating at a profit for the period",
-                "The operation has more current assets than current liabilities — able to meet short-term obligations",
-                "The operation's total assets exceed total liabilities — owner's equity is positive on the balance sheet",
-                "The debt-to-equity ratio is favorable for taking on new loans — lenders see low long-term leverage"
+                "Revenue exceeds expenses for the period",
+                "Current assets exceed current liabilities",
+                "Total assets necessarily exceed total liabilities",
+                "Long-term debt is necessarily low"
             ],
             "correctIndex": 1,
-            "explanation": "Current ratio = Current Assets ÷ Current Liabilities. A value > 1.0 means the organization has sufficient liquid assets to pay its current (short-term) obligations due within 12 months. This is used by creditors to assess bill-paying ability. The current ratio is a liquidity ratio — distinct from solvency ratios (long-term debt coverage) and profitability ratios. Other finance ratios: assets-to-liabilities, debt-to-equity, inventory turnover rate, activity ratio, and profitability ratios.",
+            "explanation": "Current ratio = current assets ÷ current liabilities. Above 1 means current assets exceed current liabilities. It does not guarantee that inventory or receivables will turn into cash in time to pay every obligation.",
             "tags": [
                 "current-ratio",
                 "liquidity",
                 "finance-ratios",
                 "calculations"
+            ],
+            "references": [
+                "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
             ]
         },
         {
@@ -1178,15 +1190,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Nutrition Science",
             "difficulty": "hard",
-            "text": "A patient with chronic alcoholism presents with Wernicke-Korsakoff syndrome, characterized by confusion, ataxia, and ophthalmoplegia. Before administering intravenous glucose, which vitamin must be given immediately and why?",
+            "text": "A patient with alcohol use disorder has confusion, ataxia and eye movement abnormalities concerning for Wernicke encephalopathy. Which vitamin requires prompt administration alongside urgent clinical care?",
             "options": [
-                "Vitamin B12, because alcohol inhibits intrinsic factor secretion, and a deficiency causes irreversible demyelination.",
-                "Folate, to prevent macrocytic anemia and irreversible neurological damage when glucose raises cellular folate demand.",
-                "Thiamin, because glucose metabolism requires it as a coenzyme, and a deficiency can precipitate irreversible brain damage.",
-                "Niacin, to prevent pellagra-like dermatological symptoms, because glucose metabolism rapidly consumes NAD stores."
+                "Vitamin B12",
+                "Folate",
+                "Thiamin",
+                "Niacin"
             ],
             "correctIndex": 2,
-            "explanation": "Thiamin (Vitamin B1) is an essential coenzyme in carbohydrate metabolism (specifically in the conversion of pyruvate to acetyl-CoA). In patients with severe alcohol abuse disorder, thiamin stores are often depleted. Administering a glucose load without providing thiamin first forces the remaining thiamin to be rapidly consumed to metabolize the glucose, which can acutely precipitate or worsen the irreversible neurological damage of Wernicke-Korsakoff syndrome."
+            "explanation": "Prompt thiamin is indicated for suspected Wernicke encephalopathy. If urgently needed for hypoglycemia, glucose should not be delayed while waiting for thiamin; give thiamin and glucose concurrently or in either order according to the clinical situation.",
+            "references": [
+                "https://www.asam.org/docs/default-source/quality-science/the_asam_clinical_practice_guideline_on_alcohol-1.pdf?sfvrsn=ba255c2_2"
+            ]
         },
         {
             "id": "dom1-ext-002",
@@ -1274,15 +1289,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Research",
             "difficulty": "medium",
-            "text": "A registered dietitian reads a meta-analysis concluding that a specific omega-3 supplement reduces fasting triglycerides. The study reports a relative risk (RR) of 0.65 with a 95% Confidence Interval (CI) of [0.45, 0.88]. How should the dietitian interpret this CI?",
+            "text": "A study compares a defined binary adverse event between treatment groups and estimates relative risk 0.65 with a 95% confidence interval of 0.45–0.88. Which interpretation is appropriate?",
             "options": [
-                "The supplement is ineffective because the CI spans a wide range, indicating the results are too imprecise to interpret.",
-                "The supplement is effective because the entire CI is less than 1.0, indicating the results are statistically significant.",
-                "The supplement is ineffective because the CI does not cross 1.0. This means the result falls outside the null range.",
-                "The supplement's true effect is precisely 0.65 in 95% of the population, as shown by the narrow confidence interval."
+                "The interval proves there is no effect",
+                "The interval excludes the null value 1.0 and is compatible with reduced risk under the model assumptions",
+                "The exact effect must be 0.65 for 95% of individuals",
+                "The interval proves that bias and confounding are absent"
             ],
             "correctIndex": 1,
-            "explanation": "When interpreting Confidence Intervals for Relative Risk (RR) or Odds Ratios (OR), a value of 1.0 represents 'no difference' between the groups. If the entire 95% CI interval is strictly less than 1.0 (or strictly greater than 1.0), it means the result is statistically significant and the effect is real. In this case, [0.45, 0.88] does not include 1.0, meaning we can be 95% confident that the true relative risk lies between a 55% reduction (1 - 0.45) and a 12% reduction (1 - 0.88). If the CI had been [0.85, 1.20] (crossing 1.0), the results would NOT be statistically significant."
+            "explanation": "For a relative risk, 1.0 is the null value. This 95% confidence interval excludes 1.0 and its values indicate lower risk in the treated group under the statistical model. It neither establishes causality nor proves the effect is real or important.",
+            "references": [
+                "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf"
+            ]
         },
         {
             "id": "dom1-ext-008",
@@ -1482,15 +1500,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Education & Counseling",
             "difficulty": "medium",
-            "text": "When writing educational materials for the general public regarding a new public health nutrition initiative, a dietitian should ensure the language is accessible to ensure maximum comprehension. What is the recommended reading level for general public health materials in the United States?",
+            "text": "When writing a public health nutrition handout, which approach best supports accessibility?",
             "options": [
-                "8th grade level",
-                "10th grade level",
-                "12th grade level",
-                "4th grade level"
+                "Use plain language, clear organization, and audience feedback",
+                "Choose a fixed grade level and never test comprehension",
+                "Use unexplained professional jargon",
+                "Assume every adult has the same literacy skills"
             ],
             "correctIndex": 0,
-            "explanation": "The standard recommendation for writing health and nutrition materials intended for the general adult public is the 8th grade reading level. This ensures the information is broadly accessible without talking down to the audience. If the target audience is known to have lower literacy (which is common in many clinic settings), materials should be translated down to exactly the 6th grade reading level to ensure comprehension. 12th grade or college levels are far too complex, employing difficult jargon."
+            "explanation": "Use plain language and clear organization, then test the material with the intended audience. Adapt it to the readers and content; a single reading-grade target does not guarantee understanding.",
+            "references": [
+                "https://www.epa.gov/choose-fish-and-shellfish-wisely/readability-developing-and-pretesting-concepts-messages-materials"
+            ]
         },
         {
             "id": "dom1-ext2-006",
@@ -1530,15 +1551,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Food Science",
             "difficulty": "medium",
-            "text": "Which artificial food dye has been most prominently associated with anecdotal reports of increased hyperactivity in susceptible children, leading to its required inclusion on warning labels in the European Union (though not currently banned in the US)?",
+            "text": "Which name corresponds to the food color FD&C Yellow No. 5?",
             "options": [
-                "Titanium Dioxide (White)",
-                "Tartrazine (Yellow #5)",
-                "Amaranth (Red #2)",
-                "Sunset Yellow (Yellow #6)"
+                "Titanium dioxide",
+                "Tartrazine",
+                "Amaranth",
+                "Sunset Yellow"
             ],
             "correctIndex": 1,
-            "explanation": "Tartrazine, also known as FD&C Yellow No. 5, is highly controversial. While the FDA considers it safe for the general population, a tiny percentage of individuals have serious allergic/asthmatic reactions to it. Furthermore, the Southampton Study linked mixtures of tartrazine (and a few other dyes) to increased hyperactivity in some children. This prompted the EU to mandate warning labels on foods containing it ('may have an adverse effect on activity and attention in children'). Red #2 (Amaranth) has actually been banned in the US since the 1970s over cancer fears."
+            "explanation": "Tartrazine is FD&C Yellow No. 5; Sunset Yellow is FD&C Yellow No. 6.",
+            "references": [
+                "https://www.fda.gov/industry/color-additives/color-additives-history"
+            ]
         },
         {
             "id": "dom1-ext2-009",
@@ -1578,15 +1602,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Food Science",
             "difficulty": "hard",
-            "text": "A food manufacturer is developing a new line of low-sodium canned soups. To maintain the safety and shelf life of the product without relying heavily on salt, which of the following food preservation methods or additives would be most appropriate to prevent the growth of Clostridium botulinum?",
+            "text": "A manufacturer plans to sell a shelf-stable acidified soup. Which approach is appropriate for controlling botulism risk?",
             "options": [
-                "Adding ascorbic acid to lower the pH below 4.6",
-                "Increasing the sugar concentration to reduce water activity",
-                "Using sodium nitrite in the canning process",
-                "Applying pasteurization at 161°F (71.6°C) for 15 seconds"
+                "Use a validated scheduled process for the specific formulation and package, including equilibrium pH at or below 4.6",
+                "Add an unspecified amount of acid and use any boiling-water process",
+                "Use milk pasteurization parameters for every soup",
+                "Rely on package vacuum alone"
             ],
             "correctIndex": 0,
-            "explanation": "Clostridium botulinum spores cannot germinate and produce toxin in high-acid (pH < 4.6) environments. Adding ascorbic acid (or other food-grade acids) lowers the pH to a safe level, allowing for a milder heating process (boiling water bath vs. pressure canning). Sodium nitrite is highly effective against C. botulinum but is primarily used in cured meats, not typical canned soups. Pasteurization at 161°F is a HTST pasteurization standard for milk and does not destroy C. botulinum spores; pressure canning (reaching 240°F/116°C) or acidification is required."
+            "explanation": "Acidified foods require controls for equilibrium pH and a validated scheduled process appropriate to the formulation and package. Adding acid by itself does not establish a safe process. Follow applicable regulatory and process-authority requirements.",
+            "references": [
+                "https://www.fda.gov/food/guidance-documents-regulatory-information-topic-food-and-dietary-supplements/acidified-low-acid-canned-foods-guidance-documents-regulatory-information"
+            ]
         },
         {
             "id": "dom1-fs-002",
@@ -1690,15 +1717,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Food Science",
             "difficulty": "hard",
-            "text": "Retrogradation is a process that occurs in starch gels and baked goods as they cool and age, resulting in staling and weeping (syneresis). Which type of starch molecule is primarily responsible for forming the crystalline structures characteristic of retrogradation?",
+            "text": "During storage-related staling of bread, recrystallization of which starch component is especially associated with the process?",
             "options": [
                 "Amylopectin",
                 "Amylose",
                 "Glycogen",
                 "Cellulose"
             ],
-            "correctIndex": 1,
-            "explanation": "Amylose is a linear starch molecule. Its straight, unbranched chains can easily align and form hydrogen bonds with one another as a starch paste cools or ages, leading to a tight, crystalline network. This process expels water (syneresis) and causes staling (retrogradation). Amylopectin, a highly branched starch molecule, does not retrograde as severely because its branches prevent it from packing tightly together. Waxy starches, which are nearly 100% amylopectin, are often used in commercial frozen foods to prevent retrogradation."
+            "correctIndex": 0,
+            "explanation": "Both amylose and amylopectin can retrograde. Amylose is important in early gel formation, while amylopectin recrystallization is particularly associated with bread firming during storage.",
+            "references": [
+                "https://www.cerealsgrains.org/publications/cc/2004/March/Pages/81_2_249.aspx"
+            ]
         },
         {
             "id": "dom1-fs-009",
@@ -1758,20 +1788,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Food Science",
             "difficulty": "medium",
-            "text": "Which water activity (aw) level is the threshold below which no microorganism can survive?",
+            "text": "Which statement about reducing water activity in food is correct?",
             "options": [
-                "0.70",
-                "0.60",
-                "0.50",
-                "0.85"
+                "It guarantees immediate destruction of all microbes",
+                "It can inhibit microbial growth but does not necessarily kill organisms",
+                "It always makes a food sterile",
+                "It removes the need to consider any other safety control"
             ],
-            "correctIndex": 2,
-            "explanation": "No microorganism can survive below aw of 0.50. Bacteria generally require aw of 0.85–1.0 to grow; yeasts and molds can tolerate lower aw. Reducing water activity through drying, salting, or adding sugar is a key food preservation strategy. At aw < 0.50, even the most resistant microorganisms cannot grow.",
+            "correctIndex": 1,
+            "explanation": "Reducing water activity can inhibit microbial growth, but some pathogens can survive for extended periods in dry foods. Safety depends on the product and complete process.",
             "tags": [
                 "water-activity",
                 "food-preservation",
                 "microbiology",
                 "food-science"
+            ],
+            "references": [
+                "https://www.fda.gov/files/food/published/Qualitative-Risk-Assessment-Risk-of-Activity-Food-Combinations-for-Activities-%28Outside-the-Farm-Definition%29-Conducted-in-a-Facility-Co-Located-on-a-Farm-%28PDF--651KB%29.pdf"
             ]
         },
         {
@@ -2130,21 +2163,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Food Science",
             "difficulty": "medium",
-            "text": "A home canner is preparing low-acid green beans (pH > 4.5). Which canning method is required to safely prevent Clostridium botulinum?",
+            "text": "For home canning unacidified low-acid green beans (pH above 4.6), which approach should be used?",
             "options": [
-                "Water bath canning at 212°F (100°C) for an extended time",
-                "Pressure canning reaching 240°F (116°C) to destroy spores",
-                "Refrigerator pickling with vinegar to lower pH below 4.5",
-                "Salt curing at room temperature for 48 hours"
+                "An arbitrary extended boiling-water process",
+                "A tested pressure-canning process for the food, container and altitude",
+                "Unverified vinegar quantities at room temperature",
+                "Salt curing alone at room temperature"
             ],
             "correctIndex": 1,
-            "explanation": "C. botulinum thrives in low-oxygen, low-acid (pH > 4.5) environments — exactly the conditions inside a sealed can of vegetables. Its spores are not destroyed at 212°F (boiling water temperature). Only a pressure canner can reach 240°F (116°C), which is sufficient to destroy botulinum spores. Low-acid foods (vegetables, meats, dried beans, soups) MUST use a pressure canner. High-acid foods (fruits, jams, pickles with pH ≤ 4.5) can safely use a water bath canner.",
+            "explanation": "Use a tested pressure-canning process for unacidified low-acid green beans. Safe processing depends on the recipe, container size, time, pressure and altitude; temperature alone is not a complete process.",
             "tags": [
                 "canning",
                 "botulism",
                 "food-safety",
                 "food-preservation",
                 "food-science"
+            ],
+            "references": [
+                "https://nchfp.uga.edu/how/can/canning-vegetables-and-vegetable-products/beans-snap-and-italian-pieces-green-and-wax/"
             ]
         },
         {
@@ -2284,7 +2320,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Food Science",
             "difficulty": "medium",
-            "text": "USDA beef grading classifies quality into three grades based on marbling, firmness, color, and texture. Which correctly orders them from HIGHEST to LOWEST quality?",
+            "text": "Among the three USDA beef quality grades Prime, Choice and Select, which sequence runs from highest to lowest?",
             "options": [
                 "Choice, Prime, Select",
                 "Prime, Select, Choice",
@@ -2292,12 +2328,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Select, Choice, Prime"
             ],
             "correctIndex": 2,
-            "explanation": "USDA beef quality grades from highest to lowest are: Prime > Choice > Select. Prime has the most marbling (intramuscular fat), producing the most tender, juicy, flavorful beef but also the highest fat content and cost. Choice is less marbled but still high quality. Select is the leanest and least expensive. Grading is voluntary (unlike inspection, which is mandatory per the Wholesome Meat Act of 1967). Pork has no USDA quality grades.",
+            "explanation": "Among these three grades, the order is Prime, Choice, Select. USDA recognizes additional beef quality grades. Beef grading is distinct from inspection; avoid treating these three as the entire grade system.",
             "tags": [
                 "USDA-grading",
                 "beef",
                 "meat",
                 "food-science"
+            ],
+            "references": [
+                "https://www.ams.usda.gov/grades-standards/carcass-beef-grades-and-standards"
             ]
         },
         {
@@ -2486,13 +2525,16 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "50–75% of total daily calories"
             ],
             "correctIndex": 2,
-            "explanation": "The AMDR for carbohydrates in adults is 45–65% of total daily calories. The AMDR for protein is 10–35% and for fat is 20–35%. The Dietary Guidelines for Americans recommend that added sugars make up <10% of total daily calories and fiber intake should be 14 g per 1,000 kcal (or ≥25 g/day for adults).",
+            "explanation": "The adult AMDR for carbohydrate is 45–65% of total energy; those for protein and fat are 10–35% and 20–35%, respectively. These ranges are distinct from edition-specific Dietary Guidelines and individualized prescriptions.",
             "tags": [
                 "AMDR",
                 "carbohydrates",
                 "macronutrients",
                 "DRI",
                 "dietary guidelines"
+            ],
+            "references": [
+                "https://nap.nationalacademies.org/skim.php?chap=936-967&record_id=10490"
             ]
         },
         {
@@ -2720,21 +2762,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Botanical Supplements",
             "difficulty": "medium",
-            "text": "Which botanical supplement is contraindicated in patients with estrogen receptor-positive (ER+) breast cancer due to its estrogenic activity?",
+            "text": "A patient receiving treatment for estrogen receptor-positive breast cancer asks about black cohosh supplements. What is the most appropriate counseling?",
             "options": [
-                "Valerian root",
-                "Milk thistle",
-                "Black cohosh",
-                "Echinacea"
+                "Assume it is proven safe with all cancer therapies",
+                "Recommend a high dose without informing the care team",
+                "Discuss use with the oncology team because safety in hormone-sensitive conditions is uncertain",
+                "Assume all soy foods are contraindicated"
             ],
             "correctIndex": 2,
-            "explanation": "Black cohosh has estrogenic properties and should be avoided in patients with ER+ breast cancer, as estrogen can stimulate tumor growth. Other phytoestrogen-containing supplements to avoid in ER+ breast cancer include: ginseng (can stimulate ER+ and endometrial tumor growth), soy isoflavones, dong quai, ginkgo biloba, licorice root (estrogenic activity), alfalfa, red clover, indole-3-carbinol, and chasteberry. Always ask cancer patients about supplement use.",
+            "explanation": "NCCIH notes uncertainty about black cohosh safety in people with hormone-sensitive conditions. Review supplements with the oncology team; do not assume a proven estrogenic mechanism or extend this caution automatically to soy foods.",
             "tags": [
                 "black cohosh",
                 "ER+ breast cancer",
                 "phytoestrogen",
                 "drug-supplement interaction",
                 "oncology"
+            ],
+            "references": [
+                "https://www.nccih.nih.gov/health/black-cohosh"
             ]
         },
         {
@@ -2877,7 +2922,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Absorption",
             "difficulty": "hard",
-            "text": "Vitamin B12 absorption requires which factor, where is it produced, and where in the GI tract does absorption occur?",
+            "text": "For the intrinsic-factor-dependent absorption pathway of dietary vitamin B12, which factor is involved, where is it produced, and where is the complex absorbed?",
             "options": [
                 "Bile acids (produced by hepatocytes in the liver); absorbed in the proximal jejunum",
                 "R protein (haptocorrin, produced in saliva); absorbed in the proximal duodenum",
@@ -2885,13 +2930,16 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Transcobalamin (produced in the exocrine pancreas); absorbed in the ascending colon"
             ],
             "correctIndex": 2,
-            "explanation": "Vitamin B12 absorption requires intrinsic factor (IF), a glycoprotein produced by gastric parietal cells (stimulated by gastrin). B12 initially binds to R protein in the stomach for protection during GI transit. In the ileum, B12 detaches from R protein and binds to IF, and the IF-B12 complex is absorbed in the terminal ileum. Conditions that impair intrinsic factor (gastrectomy, atrophic gastritis, pernicious anemia) require IM B12 injections rather than oral supplementation.",
+            "explanation": "Intrinsic factor is produced by gastric parietal cells. Food-bound B12 is released and initially binds haptocorrin; pancreatic proteases release it in the small intestine, allowing binding to intrinsic factor. The complex is absorbed in the terminal ileum. Replacement route depends on cause and clinical circumstances.",
             "tags": [
                 "vitamin B12",
                 "intrinsic factor",
                 "parietal cells",
                 "terminal ileum",
                 "pernicious anemia"
+            ],
+            "references": [
+                "https://ods.od.nih.gov/factsheets/Vitaminb12-HealthProfessional/"
             ]
         },
         {
@@ -2899,21 +2947,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Absorption",
             "difficulty": "hard",
-            "text": "A patient who had a total gastrectomy develops macrocytic anemia with fatigue and neurological symptoms. The patient has been taking oral B12 supplements. Why is the oral supplementation insufficient?",
+            "text": "After total gastrectomy, which mechanism of vitamin B12 absorption is impaired?",
             "options": [
-                "The stomach is needed to absorb B12 directly from food, and supplements bypass this site entirely",
-                "Without gastric parietal cells, no intrinsic factor is produced — oral B12 cannot be absorbed in the ileum",
-                "Gastrectomy removes the duodenum where B12 is absorbed, so no oral form can reach its receptors",
-                "The patient needs higher doses of oral B12 to compensate for reduced intrinsic factor after gastrectomy"
+                "Absorption through intrinsic factor produced by gastric parietal cells",
+                "All passive absorption at any oral dose",
+                "Absorption through the colon by bile salts",
+                "All absorption of every vitamin"
             ],
-            "correctIndex": 1,
-            "explanation": "Intrinsic factor is produced exclusively by gastric parietal cells. After gastrectomy, there are no parietal cells left to produce intrinsic factor. Without IF, the IF-B12 complex cannot form and B12 cannot be absorbed in the terminal ileum — regardless of oral dose. Treatment must be intramuscular (IM) B12 injections, which bypass the need for GI absorption. This is the defining characteristic of pernicious anemia (IF-related B12 deficiency).",
+            "correctIndex": 0,
+            "explanation": "Total gastrectomy removes the gastric source of intrinsic factor, impairing intrinsic-factor-dependent B12 absorption. Some passive absorption can occur with high-dose oral B12. A patient with anemia or neurologic symptoms needs prompt clinician-directed evaluation and replacement; route depends on the clinical context.",
             "tags": [
                 "gastrectomy",
                 "vitamin B12",
                 "intrinsic factor",
                 "pernicious anemia",
                 "IM injection"
+            ],
+            "references": [
+                "https://ods.od.nih.gov/factsheets/Vitaminb12-HealthProfessional/"
             ]
         },
         {
@@ -3078,18 +3129,21 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "text": "Nicotinic acid (niacin) is used pharmacologically above the RDA level for which purpose, and what is a key toxicity sign at high doses?",
             "options": [
                 "To improve insulin sensitivity; peripheral neuropathy",
-                "To optimize plasma lipid profiles; niacin flush and liver damage",
-                "To prevent pellagra in corn-dependent populations; corneal ulceration",
+                "To alter blood lipid levels; flushing and possible liver toxicity",
+                "To prevent pellagra; corneal ulceration",
                 "To enhance heme synthesis; microcytic anemia"
             ],
             "correctIndex": 1,
-            "explanation": "Pharmacologic doses of nicotinic acid (not nicotinamide) are used to optimize plasma lipid profiles — raising HDL and lowering triglycerides. At these supratherapeutic doses, niacin toxicity can occur, manifesting as niacin flush (painful skin flushing/tingling), GI distress, and liver damage. Extended-release formulations are used to reduce these side effects. Nicotinamide (the other form) does not cause toxicity or lipid effects at the same doses.",
+            "explanation": "Nicotinic acid in pharmacologic doses affects blood lipids but may cause flushing and liver toxicity. Different preparations have different adverse-effect profiles. High-dose nicotinamide also can cause toxicity; do not assume modified-release products are universally safer.",
             "tags": [
                 "niacin",
                 "pharmacologic",
                 "lipids",
                 "toxicity",
                 "normal-nutrition"
+            ],
+            "references": [
+                "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/"
             ]
         },
         {
@@ -3331,13 +3385,16 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Transferrin binds iron in the intestinal lumen; ferritin facilitates duodenal absorption"
             ],
             "correctIndex": 1,
-            "explanation": "Ferritin is the intracellular storage form of iron — formed when Fe2+ binds to apoferritin inside enterocytes and other cells. Transferrin is the blood glycoprotein that transports iron in circulation to the liver and other tissues. Transferrin levels are inversely related to free iron in blood (high iron → low transferrin saturation available). Serum ferritin reflects body iron stores. Both ferritin and transferrin saturation are clinical markers used in iron-deficiency anemia assessment.",
+            "explanation": "Transferrin transports iron in blood; ferritin stores iron in cells and serum ferritin is used as a marker of iron stores, though it rises with inflammation. Transferrin saturation is serum iron divided by total iron-binding capacity × 100; it is not the same as transferrin concentration.",
             "tags": [
                 "ferritin",
                 "transferrin",
                 "iron-transport",
                 "iron-storage",
                 "normal-nutrition"
+            ],
+            "references": [
+                "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
             ]
         },
         {
@@ -3391,7 +3448,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Normal Nutrition",
             "difficulty": "medium",
-            "text": "Calcium absorption in the small intestine is facilitated by calbindin. Which factor INCREASES calbindin expression and thereby enhances calcium absorption?",
+            "text": "Which active hormone directly upregulates intestinal calbindin expression and contributes to calcium absorption?",
             "options": [
                 "High dietary phosphorus intake",
                 "Elevated parathyroid hormone levels",
@@ -3399,7 +3456,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Alkaline intestinal pH from antacid use"
             ],
             "correctIndex": 2,
-            "explanation": "Calcitriol (active vitamin D) upregulates transcription of calbindin, the calcium-binding protein that facilitates Ca2+ transport across the enterocyte via the TRPV6 channel. Without vitamin D, intestinal calcium absorption drops significantly. Calcium crosses the basolateral membrane via the calcium-magnesium ATPase pump. Oxalates and phytates inhibit calcium absorption. Vitamin D deficiency causes rickets (children) and osteoporosis/osteopenia (adults) via hypocalcemia.",
+            "explanation": "Calcitriol, active vitamin D, upregulates intestinal calcium transport proteins including calbindin. Vitamin D deficiency can cause rickets in children and osteomalacia in adults. Osteoporosis and osteomalacia are distinct conditions.",
             "tags": [
                 "calcium",
                 "calbindin",
@@ -3407,6 +3464,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "absorption",
                 "TRPV6",
                 "normal-nutrition"
+            ],
+            "references": [
+                "https://medlineplus.gov/vitaminddeficiency.html"
             ]
         },
         {
@@ -3548,15 +3608,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Normal Nutrition",
             "difficulty": "medium",
-            "text": "A patient asks which foods most increase their risk of kidney stones and high uric acid due to vitamin C excess. You counsel that high-dose vitamin C supplementation increases urinary excretion of:",
+            "text": "What is a potential concern with high-dose vitamin C supplements in a person susceptible to calcium oxalate kidney stones?",
             "options": [
-                "Calcium and phosphate, increasing hydroxyapatite crystal formation in the kidney",
-                "Oxalic acid and uric acid, increasing the risk of calcium oxalate and urate stones",
-                "Iron and copper, reducing body stores of both minerals and causing anemia",
-                "Vitamin B6 and folate, causing secondary B-vitamin deficiencies and neuropathy"
+                "They necessarily eliminate urinary oxalate",
+                "They may increase urinary oxalate; evidence about stone risk varies by individual and study",
+                "They cause all people to form uric acid stones",
+                "They prevent all kidney stones"
             ],
             "correctIndex": 1,
-            "explanation": "High-dose vitamin C can cause diarrhea and GI cramping. More importantly, excessive vitamin C increases the urinary excretion of BOTH oxalic acid (a metabolite of ascorbate) and uric acid. Both increase kidney stone risk — oxalic acid contributes to calcium oxalate stones (the most common kidney stone type) and high uric acid contributes to urate stones. This is why the RDA for vitamin C is sufficient, and megadosing via supplements is not recommended without medical supervision.",
+            "explanation": "High-dose vitamin C can increase urinary oxalate, and a possible relationship with stone risk warrants individualized consideration, especially in renal disease or stone susceptibility. Evidence is mixed; this is not a reason to avoid vitamin-C-containing foods.",
             "tags": [
                 "vitamin-C",
                 "kidney-stones",
@@ -3564,6 +3624,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "uric-acid",
                 "toxicity",
                 "normal-nutrition"
+            ],
+            "references": [
+                "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
             ]
         },
         {
@@ -4022,12 +4085,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Mortality rate — number of deaths in the population"
             ],
             "correctIndex": 1,
-            "explanation": "Incidence = the number of NEW disease cases that develop over a period of time (the 'faucet' filling the bathtub). Prevalence = existing cases during a period of time (all the water in the bathtub, old and new). Prevalence = Incidence × Duration. Cross-sectional surveys like NHANES measure prevalence. When disease duration is very short (e.g., acute food poisoning), prevalence ≈ incidence. For chronic diseases with effective treatments (longer duration), prevalence grows even if incidence stays stable.",
+            "explanation": "Incidence concerns new cases in a population at risk over a specified time, expressed as a risk, count or rate depending on the denominator. Prevalence describes existing cases. Their relationship depends on duration and population assumptions; they are not generally interchangeable.",
             "tags": [
                 "incidence",
                 "prevalence",
                 "epidemiology",
                 "research"
+            ],
+            "references": [
+                "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
             ]
         },
         {
@@ -4035,15 +4101,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Research Concepts",
             "difficulty": "medium",
-            "text": "HIV treatment has dramatically improved, allowing patients to live for decades with the infection. Even if the rate of NEW HIV infections (incidence) remains constant, what happens to HIV PREVALENCE?",
+            "text": "In a stable population, suppose incidence remains constant while survival with a chronic disease becomes longer, with other relevant factors unchanged. What is the expected direction of prevalence?",
             "options": [
-                "Prevalence decreases because patients are dying less from HIV, leaving fewer active cases in the population",
-                "Prevalence remains constant since incidence is unchanged, and prevalence depends only on the rate of new cases",
-                "Prevalence increases because patients live longer with the disease, staying in the 'prevalence pool' longer",
-                "Prevalence is unaffected by treatment duration, because it counts only cases diagnosed within the past year"
+                "Decrease because fewer people die",
+                "Remain fixed because incidence is unchanged",
+                "Increase because people live longer with the disease",
+                "Become zero as treatment improves"
             ],
             "correctIndex": 2,
-            "explanation": "Using the bathtub analogy: Prevalence = Incidence × Duration. When effective treatment extends life with disease (increases duration), prevalence rises even if incidence stays the same — because patients remain in the 'prevalence pool' longer before dying or recovering. This is why HIV prevalence has increased in the US despite stable or declining incidence. The 'drain' (death) from the prevalence bathtub is reduced with effective treatment.",
+            "explanation": "Longer survival increases the time people live with disease and can increase prevalence when incidence and other population factors are held stable. The approximation prevalence ≈ incidence rate × duration requires appropriate assumptions and consistent units.",
             "tags": [
                 "prevalence",
                 "incidence",
@@ -4051,6 +4117,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "epidemiology",
                 "HIV",
                 "research"
+            ],
+            "references": [
+                "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section2.html"
             ]
         },
         {
@@ -24960,7 +25029,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain I",
             "topic": "Nutrition Science",
             "difficulty": "hard",
-            "text": "A healthy adult has fasted for 16 hours. Which pathway is supplying most of the circulating glucose at this point, and from what substrate?",
+            "text": "Which pathway releases glucose from stored liver glycogen?",
             "options": [
                 "Glycogenolysis, breaking down stored liver glycogen into glucose",
                 "Glycogenesis, storing glucose as glycogen in the liver and muscle",
@@ -24968,12 +25037,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "Lipolysis, converting stored triglyceride fatty acids directly into glucose"
             ],
             "correctIndex": 0,
-            "explanation": "Keep the four pathways separate by what they build or break down. GLYCOGENOLYSIS breaks liver glycogen back into glucose and covers the first 12 to 24 hours of fasting, which is where this patient sits. GLUCONEOGENESIS makes new glucose from amino acids, glycerol and lactate, and takes over as liver glycogen runs out. GLYCOGENESIS is the fed-state pathway that stores glucose as glycogen. LIPOLYSIS releases fatty acids and glycerol from adipose tissue; fatty acids cannot be converted to glucose in humans, although the glycerol backbone can enter gluconeogenesis. Muscle glycogen cannot raise blood glucose because muscle lacks glucose-6-phosphatase.",
+            "explanation": "Glycogenolysis breaks down liver glycogen, enabling glucose release into blood. Gluconeogenesis synthesizes glucose from substrates such as lactate, glycerol and some amino acids; both processes can contribute during fasting.",
             "tags": [
                 "metabolism",
                 "glycogenolysis",
                 "fasting",
                 "pathways"
+            ],
+            "references": [
+                "https://www.jci.org/articles/view/118803/files/pdf"
             ]
         },
         {
