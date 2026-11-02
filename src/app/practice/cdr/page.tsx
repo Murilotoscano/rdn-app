@@ -199,9 +199,10 @@ export default function CdrPracticePage() {
     };
 
     // Calculate stats
-    const totalCdr = CDR_QUESTIONS.length;
-    const attemptedCdr = Object.values(cdrProgress).filter(p => p.status !== 'not attempted').length;
-    const correctCdr = Object.values(cdrProgress).filter(p => p.status === 'correct' || p.status === 'mastered').length;
+    const totalCdr = CDR_QUESTIONS.length - 1; // CDR 2 is disputed; preserve its history but exclude it.
+    const eligibleCdr = Object.values(cdrProgress).filter(p => p.questionId !== 'cdr-2');
+    const attemptedCdr = eligibleCdr.filter(p => p.status !== 'not attempted').length;
+    const correctCdr = eligibleCdr.filter(p => p.status === 'correct' || p.status === 'mastered').length;
     const markedCount = Object.values(cdrProgress).filter(p => p.markedForReview).length;
 
     const currentQuestion = isSimilarMode ? similarQuestions[similarIndex] : CDR_QUESTIONS[currentIndex];
@@ -365,8 +366,8 @@ export default function CdrPracticePage() {
                                 <div className={styles.gridNav}>
                                     {CDR_QUESTIONS.map((q, idx) => {
                                         const qProg = cdrProgress[q.id];
-                                        const isAttempted = qProg && qProg.status !== 'not attempted';
-                                        const isCorrectAns = qProg && (qProg.status === 'correct' || qProg.status === 'mastered');
+                                        const isAttempted = q.id !== 'cdr-2' && qProg && qProg.status !== 'not attempted';
+                                        const isCorrectAns = q.id !== 'cdr-2' && qProg && (qProg.status === 'correct' || qProg.status === 'mastered');
                                         const isBookmarked = qProg && qProg.markedForReview;
 
                                         return (
@@ -419,7 +420,14 @@ export default function CdrPracticePage() {
 
                     {/* Question Card Container */}
                     <div style={{ flex: 1 }}>
-                        <CdrQuestionCard
+                        {!isSimilarMode && currentQuestion.id === 'cdr-2' ? (
+                            <div style={{padding: 24, border: '1px solid #b45309', borderRadius: 12}}>
+                                <h2>Question 2: answer disputed</h2>
+                                <p>The CDR September 2024 answer table and this app differ, and the official rationale describes a different case. This item is excluded from scoring until clarified. Your previous history is preserved.</p>
+                                <a href="https://www.cdrnet.org/vault/2459/web//RD%20Exam%20Practice%20Questions%20with%20Rationales%20September%202024%20-%20Corrected.pdf" target="_blank" rel="noopener noreferrer">Read the official source</a>
+                                <div style={{display: 'flex', gap: 12, marginTop: 20}}><button onClick={handlePrev}>Previous</button><button onClick={handleNext}>Next</button></div>
+                            </div>
+                        ) : <CdrQuestionCard
                             question={currentQuestion}
                             progress={currentProgress}
                             onAnswer={handleAnswer}
@@ -432,7 +440,7 @@ export default function CdrPracticePage() {
                             onSelectErrorType={handleSelectErrorType}
                             onGenerateSimilar={!isSimilarMode ? handleGenerateSimilar : undefined}
                             isGeneratingSimilar={isGenerating}
-                        />
+                        />}
                     </div>
 
                 </div>

@@ -65,6 +65,7 @@ export interface BackupFile {
         /** Question id -> last attempted (epoch ms). Absent in v1 backups. */
         seenQuestions?: Record<string, number>;
         exposedQuestions?: Record<string, number>;
+        lessonProgress?: Record<string, { answers: Record<string, number>; completed: boolean; updatedAt: number }>;
     };
 }
 
@@ -120,7 +121,7 @@ const STORAGE_KEYS = {
 };
 
 const BACKUP_FORMAT = 'rdn-app-backup';
-const BACKUP_VERSION = 3; // v3 adds exposedQuestions; v1 and v2 files still import
+const BACKUP_VERSION = 4; // v4 adds device-local lesson progress; earlier backups remain supported
 
 const BACKUP_META_KEYS = {
     LAST_BACKUP_AT: 'rdn_last_backup_at',
@@ -810,6 +811,7 @@ export const store = {
             customProgress: store.getCustomProgress(),
             seenQuestions: store.getSeen(),
             exposedQuestions: store.getExposed(),
+            lessonProgress: store.getLessonProgress(),
         }
     }),
 
@@ -876,6 +878,15 @@ export const store = {
         }
         localStorage.setItem(STORAGE_KEYS.EXPOSED, JSON.stringify(exposedMap));
 
+        const lessonProgress = store.getLessonProgress();
+        for (const [day, incomingDay] of Object.entries(incoming.lessonProgress ?? {})) {
+            const localDay = lessonProgress[day];
+            if (!localDay) { lessonProgress[day] = incomingDay; continue; }
+            const newer = incomingDay.updatedAt > localDay.updatedAt ? incomingDay : localDay;
+            const older = newer === incomingDay ? localDay : incomingDay;
+            lessonProgress[day] = { answers: { ...older.answers, ...newer.answers }, completed: older.completed || newer.completed, updatedAt: Math.max(localDay.updatedAt, incomingDay.updatedAt) };
+        }
+        localStorage.setItem('rdn_lesson_progress', JSON.stringify(lessonProgress));
         scheduleSync();
         return { added, updated, examsAdded };
     },
@@ -1007,6 +1018,16 @@ export const store = {
             dueUnsure,
             dueIncorrect
         };
+    },
+
+    // Lesson answers use canonical option indices, independent of displayed shuffle order.
+    getLessonProgress: (): Record<string, { answers: Record<string, number>; completed: boolean; updatedAt: number }> => {
+        try { return JSON.parse(localStorage.getItem('rdn_lesson_progress') || '{}'); } catch { return {}; }
+    },
+    saveLessonProgress: (day: string, answers: Record<string, number>, completed: boolean) => {
+        const all = store.getLessonProgress();
+        all[day] = { answers, completed, updatedAt: Date.now() };
+        localStorage.setItem('rdn_lesson_progress', JSON.stringify(all));
     },
 
     // --- Stats & KPIs ---

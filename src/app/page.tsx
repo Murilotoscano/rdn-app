@@ -6,7 +6,7 @@ import { Play, BookOpen, Clock, Award, Zap, Repeat, Cloud, CloudOff, RefreshCw }
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { store, SyncResult } from "@/lib/store";
-import { SAMPLE_QUESTIONS, QUESTION_IDS } from "@/lib/questions";
+import { SAMPLE_QUESTIONS, QUESTION_IDS, AVAILABLE_QUESTION_IDS } from "@/lib/questions";
 import ScoreTrendChart from "@/components/ScoreTrendChart";
 import { EXAM_MAX_QUESTIONS } from "@/lib/examRules";
 import { MIN_FRESH_FOR_VERDICT } from "@/lib/targets";
@@ -35,7 +35,7 @@ export default function Home() {
 
   useEffect(() => {
     const refresh = () => {
-      const reviewCounts = store.getReviewCounts(QUESTION_IDS);
+      const reviewCounts = store.getReviewCounts(AVAILABLE_QUESTION_IDS);
       setCounts(reviewCounts);
 
       // Reported as separate facts. There is no single "readiness" number here: the CDR scaled
@@ -105,7 +105,7 @@ export default function Home() {
       // Only claim a sync time when one actually happened.
       if (result.state === 'ok') setLastSync(new Date().toLocaleTimeString());
 
-      const reviewCounts = store.getReviewCounts(QUESTION_IDS);
+      const reviewCounts = store.getReviewCounts(AVAILABLE_QUESTION_IDS);
       setCounts(reviewCounts);
     } catch (e) {
       console.error("Sync failed", e);
@@ -192,7 +192,7 @@ export default function Home() {
             <div className={styles.progressBarFill} style={{ width: `${progress.total > 0 ? (progress.attempted / progress.total) * 100 : 0}%` }}></div>
           </div>
           <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-            {progress.exposed} seen, including mock items revealed on the result page
+            {progress.exposed} seen, including mock items revealed on the result page. The total includes items held for review.
           </span>
         </div>
 
@@ -222,7 +222,7 @@ export default function Home() {
             </div>
             <h3 className={styles.cardTitle}>Daily Review</h3>
             <p className={styles.cardDesc}>
-              {counts.due === 0 ? "You're all caught up! No reviews due right now." : `${counts.due} due total.`}
+              {counts.due === 0 ? "You're all caught up! No available reviews due right now; held items remain in your history." : `${counts.due} due total.`}
             </p>
             {counts.due > 0 && (
               <div style={{ display: 'flex', gap: '8px', marginTop: '8px', flexWrap: 'wrap' }}>
@@ -276,7 +276,7 @@ export default function Home() {
             </div>
             <h3 className={styles.cardTitle}>Mock Exam</h3>
             <p className={styles.cardDesc}>
-              Real exam rules: 3 hours, up to 145 questions, no going back. New questions first.
+              Fixed practice form, not an adaptive test: 3 hours, up to 145 questions, no going back. 2026 weights; held items excluded. Verify the 2027 outline if applicable.
             </p>
             <Link
               href="/simulation?mode=review"
@@ -292,10 +292,10 @@ export default function Home() {
             </div>
             <h3 className={styles.cardTitle}>Study Plan</h3>
             <p className={styles.cardDesc}>
-              The detailed 30-day roadmap with extensive English content.
+              A 45-day plan with a guided first week and Portuguese study notes.
             </p>
             <div style={{ marginTop: '8px' }}>
-              <span style={{ fontSize: '0.75rem', padding: '2px 6px', background: '#e0e7ff', color: '#4338ca', borderRadius: '4px' }}>English Version</span>
+              <span style={{ fontSize: '0.75rem', padding: '2px 6px', background: '#e0e7ff', color: '#4338ca', borderRadius: '4px' }}>45-day plan</span>
             </div>
           </Link>
 

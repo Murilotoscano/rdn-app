@@ -1,0 +1,330 @@
+{
+  "title": "Plano RDN 45 dias",
+  "source": "build_45day.py",
+  "baseline_minutes": 90,
+  "light_days": [
+    7,
+    14,
+    21,
+    28,
+    35,
+    42
+  ],
+  "light_day_minutes": 45,
+  "blueprint_valid_through": "2026-12-31",
+  "global_domain_weights": {
+    "I": 21,
+    "II": 45,
+    "III": 21,
+    "IV": 13
+  },
+  "full_3_hour_simulations": "optional only when agreed and available",
+  "exam_date": null,
+  "weeks": [
+    {
+      "title": "Semana 1 | Fundação e rotina",
+      "days": [
+        {
+          "day": 1,
+          "focus": "Princípios e linha de base inicial",
+          "method": "Rótulos, comunicação e leitura de evidência. Fazer o bloco do Dia 1 da apostila; marcar confiança antes de corrigir.",
+          "review_checkpoint": "Registrar acertos e dúvidas sem classificar fraquezas por dez itens."
+        },
+        {
+          "day": 2,
+          "focus": "Nutrition Care Process",
+          "method": "Avaliação, diagnóstico/PES, intervenção e monitoramento. Explicar qual dado sustenta cada decisão. Bloco do Dia 2.",
+          "review_checkpoint": "Recuperar duas regras do Dia 1 sem consultar."
+        },
+        {
+          "day": 3,
+          "focus": "Cálculos de cuidado",
+          "method": "Unidades, energia entregue, volume, velocidade, adequação e perda percentual. Bloco do Dia 3.",
+          "review_checkpoint": "Conferir cada conta por estimativa e operação inversa."
+        },
+        {
+          "day": 4,
+          "focus": "Intervenção individualizada",
+          "method": "Distinguir regra automática de decisão baseada no caso; plano, barreira e indicador. Bloco do Dia 4.",
+          "review_checkpoint": "Rever erros dos Dias 1 e 3; escrever um caso com dado modificado."
+        },
+        {
+          "day": 5,
+          "focus": "Gestão e finanças",
+          "method": "FTE, produtividade, orçamento e ponto de equilíbrio; diferenciar receita e lucro. Bloco do Dia 5.",
+          "review_checkpoint": "Rever Dia 2 e verificar unidades nas contas de gestão."
+        },
+        {
+          "day": 6,
+          "focus": "Foodservice e segurança",
+          "method": "Rendimento, porções, processo de produção e controle de risco, com edição da norma identificada. Bloco do Dia 6.",
+          "review_checkpoint": "Rever Dia 3; não usar aparência/odor como comprovação de segurança."
+        },
+        {
+          "day": 7,
+          "focus": "Revisão leve e organização",
+          "method": "45 minutos: seis erros/chutes, duas variantes de cálculo e síntese por domínio. Sem questões novas obrigatórias.",
+          "review_checkpoint": "Checkpoint 1: rotina viável, temas pendentes e três prioridades; não é avaliação de aprovação."
+        }
+      ]
+    },
+    {
+      "title": "Semana 2 | Avaliação clínica e decisões básicas",
+      "days": [
+        {
+          "day": 8,
+          "focus": "Avaliação nutricional",
+          "method": "Triagem versus avaliação; antropometria, consumo, exames e contexto. Aplicar a casos com informação incompleta.",
+          "review_checkpoint": "Rever Dia 1 e testar duas regras antigas com variantes novas."
+        },
+        {
+          "day": 9,
+          "focus": "Diagnóstico e prioridade",
+          "method": "Problema nutricional versus médico; etiologia modificável, sinais/sintomas e escolha da primeira ação.",
+          "review_checkpoint": "Rever Dias 2 e 8; justificar por que um distrator não responde ao caso."
+        },
+        {
+          "day": 10,
+          "focus": "Ciclo de vida",
+          "method": "Necessidades, alimentação e avaliação ao longo da vida; comparar casos sem extrapolar recomendações.",
+          "review_checkpoint": "Rever Dias 3 e 9; consultar referências oficiais para valores cobrados."
+        },
+        {
+          "day": 11,
+          "focus": "Pesquisa e comunicação",
+          "method": "Desenhos de estudo, medidas, interpretação de tabelas, educação e aconselhamento.",
+          "review_checkpoint": "Rever Dias 4 e 8; separar associação, intervenção e causalidade."
+        },
+        {
+          "day": 12,
+          "focus": "Diabetes e cardiometabólico",
+          "method": "Estudar objetivos, dados que orientam MNT e monitoramento; aplicar casos com prioridades concorrentes.",
+          "review_checkpoint": "Rever Dias 5 e 9; anotar qual evidência muda a intervenção."
+        },
+        {
+          "day": 13,
+          "focus": "Gestão de pessoas e qualidade",
+          "method": "Funções de gestão, delegação, treinamento, produtividade e melhoria de processos.",
+          "review_checkpoint": "Rever Dias 6 e 10; realizar bloco misto revisado de 20–25 itens, se couber."
+        },
+        {
+          "day": 14,
+          "focus": "Revisão leve e checkpoint",
+          "method": "45 minutos: revisar causas dos erros e reponderar a próxima semana. Sem maratona de questões.",
+          "review_checkpoint": "Checkpoint 2: usar somente itens novos/revisados como medida; amostras pequenas continuam provisórias."
+        }
+      ]
+    },
+    {
+      "title": "Semana 3 | MNT aplicada e sistemas de alimentação",
+      "days": [
+        {
+          "day": 15,
+          "focus": "Rim e equilíbrio clínico",
+          "method": "Relacionar estágio/tratamento, dados e necessidades individuais; evitar restrições universais sem contexto.",
+          "review_checkpoint": "Rever Dias 1, 8 e 12; raciocinar sobre o dado decisivo."
+        },
+        {
+          "day": 16,
+          "focus": "Gastrointestinal e absorção",
+          "method": "MNT em condições gastrointestinais, intolerâncias e alergias; distinguir etiologia e mecanismo.",
+          "review_checkpoint": "Rever Dias 2, 9 e 13; contrastar dois casos parecidos."
+        },
+        {
+          "day": 17,
+          "focus": "Suporte enteral e parenteral",
+          "method": "Indicações e vias, composição, cálculos, administração e monitoramento. Usar metas fornecidas ou fonte clínica identificada.",
+          "review_checkpoint": "Rever Dias 3 e 10; refazer contas sem olhar solução."
+        },
+        {
+          "day": 18,
+          "focus": "Desnutrição e maior complexidade",
+          "method": "Avaliação, risco, prioridades, evolução e segurança em casos clínicos; diferenciar sinal isolado de diagnóstico.",
+          "review_checkpoint": "Rever Dias 4, 11 e 15; evitar extrapolar um indicador único."
+        },
+        {
+          "day": 19,
+          "focus": "Produção, cardápio e compras",
+          "method": "Receitas padronizadas, previsão, inventário, rendimento, sistemas de produção e adequação de cardápios.",
+          "review_checkpoint": "Rever Dias 5, 12 e 16; alternar problemas qualitativos e numéricos."
+        },
+        {
+          "day": 20,
+          "focus": "Segurança e instalações",
+          "method": "Tempo/temperatura, contaminação, alérgenos, HACCP, equipamentos e fluxo. Identificar edição/jurisdição da regra.",
+          "review_checkpoint": "Rever Dias 6, 13 e 17; bloco misto revisado de 20–25 itens se possível."
+        },
+        {
+          "day": 21,
+          "focus": "Revisão leve e cobertura",
+          "method": "45 minutos: atualizar checklist do outline, recuperar erros e selecionar lacunas ainda não estudadas.",
+          "review_checkpoint": "Checkpoint 3: cobertura não significa domínio; distinguir visto, aplicado corretamente e pendente."
+        }
+      ]
+    },
+    {
+      "title": "Semana 4 | Completar cobertura e integrar",
+      "days": [
+        {
+          "day": 22,
+          "focus": "Nutrição comunitária",
+          "method": "Avaliação de necessidades, programas, recursos, políticas e indicadores de resultado.",
+          "review_checkpoint": "Rever Dias 8, 15 e 18; não confundir encaminhamento com elegibilidade garantida."
+        },
+        {
+          "day": 23,
+          "focus": "Educação e comportamento",
+          "method": "Objetivo de aprendizagem, métodos, prontidão, comunicação e avaliação da intervenção.",
+          "review_checkpoint": "Rever Dias 9, 16 e 19; usar teach-back e justificar método escolhido."
+        },
+        {
+          "day": 24,
+          "focus": "Finanças e marketing",
+          "method": "Orçamento, custos, precificação, análise de serviço e público-alvo; misturar cálculo com decisão gerencial.",
+          "review_checkpoint": "Rever Dias 10, 17 e 20; conferir contribuição versus lucro."
+        },
+        {
+          "day": 25,
+          "focus": "Ciências de alimentos e nutrientes",
+          "method": "Função dos ingredientes, preparo, composição, retenção de nutrientes e fundamentos de fisiologia.",
+          "review_checkpoint": "Rever Dias 11, 18 e 22; estudar relações causais, não listas sem contexto."
+        },
+        {
+          "day": 26,
+          "focus": "Ética, prática e conformidade",
+          "method": "Escopo, responsabilidade, privacidade, documentação, qualidade e requisitos relevantes ao outline.",
+          "review_checkpoint": "Rever Dias 12, 19 e 23; diferenciar diretriz técnica de regra legal local."
+        },
+        {
+          "day": 27,
+          "focus": "Integração de casos e lacunas",
+          "method": "Fechar subtópicos não vistos. Fazer 25–35 questões mistas revisadas em até 45 min; corrigir no tempo restante e guardar pendências.",
+          "review_checkpoint": "Rever Dias 13, 20 e 24; não aumentar volume se a correção ficar incompleta."
+        },
+        {
+          "day": 28,
+          "focus": "Revisão leve e ajuste",
+          "method": "45 minutos: consolidar registro e ordenar as duas lacunas prioritárias por peso e persistência.",
+          "review_checkpoint": "Checkpoint 4: primeira passagem pelo outline concluída ou pendências explicitadas; adaptar Dias 29–31."
+        }
+      ]
+    },
+    {
+      "title": "Semana 5 | Correção dirigida e ritmo",
+      "days": [
+        {
+          "day": 29,
+          "focus": "Lacuna prioritária A",
+          "method": "Teoria dirigida, explicação sem consulta e questões novas do subtópico de maior impacto. Manter pequena amostra dos outros domínios.",
+          "review_checkpoint": "Rever Dias 15, 22 e 25; distinguir melhora real de reconhecimento."
+        },
+        {
+          "day": 30,
+          "focus": "Lacuna prioritária B",
+          "method": "Repetir o ciclo na segunda lacuna; construir contraste entre resposta correta e distrator mais atraente.",
+          "review_checkpoint": "Rever Dias 16, 23 e 26; procurar repetição da causa do erro."
+        },
+        {
+          "day": 31,
+          "focus": "Mistura e transferência",
+          "method": "Variantes novas de cálculos e casos antigos; evitar sequência apenas por tema.",
+          "review_checkpoint": "Rever Dias 17, 24 e 27; verificar se o conhecimento transfere para enunciado novo."
+        },
+        {
+          "day": 32,
+          "focus": "Ensaio cronometrado A",
+          "method": "Base: 50 min de questões mistas, sem voltar, e 40 min de correção. Alternativa opcional: reservar 3 h contínuas para até 145 itens.",
+          "review_checkpoint": "A alternativa de 3 h exige disponibilidade acordada; não é compromisso já aceito nem CAT real."
+        },
+        {
+          "day": 33,
+          "focus": "Correção do ensaio A",
+          "method": "Revisar erros, chutes e decisões lentas; estudar a causa, não memorizar letra. Se houver muitas pendências, continuar em vez de gerar outro teste.",
+          "review_checkpoint": "Rever Dias 19, 26 e 29; comparar conhecimento, cálculo e interpretação."
+        },
+        {
+          "day": 34,
+          "focus": "Aplicação depois da correção",
+          "method": "Resolver variantes inéditas dos erros do ensaio; manter todos os domínios no conjunto.",
+          "review_checkpoint": "Rever Dias 20, 27 e 30; confirmar redução da recorrência."
+        },
+        {
+          "day": 35,
+          "focus": "Revisão leve e ritmo",
+          "method": "45 minutos: avaliar fadiga, consistência, tempo e lacunas. Não compensar atrasos com sobrecarga.",
+          "review_checkpoint": "Checkpoint 5: prontidão exige evidência inédita e consistente; segmentos não medem resistência de 3 h."
+        }
+      ]
+    },
+    {
+      "title": "Semana 6 | Estabilidade e decisão de prontidão",
+      "days": [
+        {
+          "day": 36,
+          "focus": "Casos mistos de maior exigência",
+          "method": "Escolher próximos passos, interpretar tabelas e distinguir alternativas plausíveis. Preferir itens com justificativa verificável.",
+          "review_checkpoint": "Rever Dias 22, 29 e 32; corrigir qualquer conflito de fonte antes de pontuar."
+        },
+        {
+          "day": 37,
+          "focus": "Cálculos e prioridades sob tempo",
+          "method": "Combinar clínica, finanças e produção; explicar unidades e decisão sem depender de fórmulas decoradas.",
+          "review_checkpoint": "Rever Dias 23, 30 e 33; praticar ritmo sem sacrificar precisão."
+        },
+        {
+          "day": 38,
+          "focus": "Últimas lacunas de conteúdo",
+          "method": "Usar o checklist e erros recentes para reparar pontos ainda frágeis. Evitar abrir outro banco inteiro.",
+          "review_checkpoint": "Rever Dias 24, 31 e 34; testar recuperação após uma semana."
+        },
+        {
+          "day": 39,
+          "focus": "Ensaio cronometrado B",
+          "method": "Repetir condições do ensaio A com itens inéditos. Base de 90 min com correção; 3 h contínuas somente se previamente viável.",
+          "review_checkpoint": "Comparar condições semelhantes; não equiparar porcentagens de bancos diferentes."
+        },
+        {
+          "day": 40,
+          "focus": "Correção do ensaio B",
+          "method": "Resolver raciocínios incorretos e lentos; separar o que exige conteúdo do que exige execução.",
+          "review_checkpoint": "Rever Dias 26 e 33; definir ações pequenas e verificáveis."
+        },
+        {
+          "day": 41,
+          "focus": "Verificação final de recorrências",
+          "method": "Aplicar variantes novas dos erros dominantes. Revisar fórmulas, unidades, padrões de decisão e fontes contestadas.",
+          "review_checkpoint": "Rever Dias 27, 34 e 38; não considerar item memorizado uma confirmação."
+        },
+        {
+          "day": 42,
+          "focus": "Revisão leve e decisão",
+          "method": "45 minutos: consolidar evidências e decidir se está pronto, quase pronto com pendências ou se precisa estender a preparação.",
+          "review_checkpoint": "Checkpoint 6: decisão não é automática; considerar cobertura, desempenho novo, ritmo e eventual resistência."
+        }
+      ]
+    },
+    {
+      "title": "Dias finais | Consolidar",
+      "days": [
+        {
+          "day": 43,
+          "focus": "Revisão enxuta das regras essenciais",
+          "method": "Escolher as 10–15 regras que mais corrigiram erros. Explicar e aplicar em poucos casos novos; não fazer maratona.",
+          "review_checkpoint": "Rever Dias 29 e 36; manter sono e rotina em vez de acumular material."
+        },
+        {
+          "day": 44,
+          "focus": "Rotina de execução e logística",
+          "method": "Se houver prova marcada, revisar instruções oficiais, documento e deslocamento; praticar calculadora/interface. Sem data marcada, consolidar plano de manutenção.",
+          "review_checkpoint": "Rever Dias 30 e 37; não presumir a antiga data exibida no aplicativo."
+        },
+        {
+          "day": 45,
+          "focus": "Fechamento e manutenção",
+          "method": "Revisão curta dos pontos essenciais, relatório pessoal de prontidão e próximos passos. O Dia 45 não é automaticamente o dia da prova.",
+          "review_checkpoint": "Se persistirem lacunas importantes, ampliar o ciclo com objetivos específicos; não prometer aprovação."
+        }
+      ]
+    }
+  ]
+}

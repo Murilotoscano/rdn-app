@@ -3,7 +3,7 @@
 import AppLayout from "@/components/Layout/AppLayout";
 import { store } from "@/lib/store";
 import { useEffect, useState } from "react";
-import { SAMPLE_QUESTIONS } from "@/lib/questions";
+import { AVAILABLE_QUESTIONS } from "@/lib/questions";
 import { BarChart3, AlertTriangle, Target, RefreshCw } from "lucide-react";
 import styles from "../page.module.css"; // Reuse dashboard styles for cards
 
@@ -15,7 +15,7 @@ export default function StatsPage() {
         // Fetch stats for last 30 days
         const s = store.getStats(30);
         setStats(s);
-        setTotalQuestions(SAMPLE_QUESTIONS.length);
+        setTotalQuestions(AVAILABLE_QUESTIONS.length);
     }, []);
 
     if (!stats) return <AppLayout><div>Loading stats...</div></AppLayout>;
@@ -25,8 +25,8 @@ export default function StatsPage() {
             <div style={{ marginBottom: '2rem' }}>
                 <h1 style={{ fontSize: '1.8rem', fontWeight: 700, marginBottom: '0.5rem' }}>Your Performance</h1>
                 <p style={{ color: 'var(--text-secondary)' }}>
-                    Key metrics from the last 30 days. <br />
-                    <strong>Total questions available:</strong> {totalQuestions}
+                    Accuracy and domain scores cover the last 30 days. Uncertainty and repeat errors describe the entire review log, not all answers. <br />
+                    <strong>Questions available for new practice after audit holds:</strong> {totalQuestions}
                 </p>
             </div>
 
@@ -48,7 +48,7 @@ export default function StatsPage() {
                     <span className={styles.statValue} style={{ color: stats.unsureRate > 20 ? 'var(--warning)' : 'var(--success)' }}>
                         {stats.unsureRate.toFixed(1)}%
                     </span>
-                    <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Marked uncertain</span>
+                    <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Uncertain events among review-log attempts (all time)</span>
                 </div>
 
                 <div className={styles.statCard}>
@@ -58,7 +58,7 @@ export default function StatsPage() {
                     <span className={styles.statValue} style={{ color: stats.repeatErrorRate > 10 ? 'var(--error)' : 'var(--success)' }}>
                         {stats.repeatErrorRate.toFixed(1)}%
                     </span>
-                    <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Recidivism on reviews</span>
+                    <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Items with two or more errors among logged items (all time)</span>
                 </div>
             </div>
 

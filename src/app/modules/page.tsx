@@ -7,7 +7,7 @@ import { Book, Database, Activity, Layers, Award, FileText } from "lucide-react"
 import Link from "next/link";
 import { store } from "@/lib/store";
 import { CDR_QUESTIONS } from "@/data/cdrQuestions";
-import { SAMPLE_QUESTIONS } from "@/lib/questions";
+import { AVAILABLE_QUESTIONS } from "@/lib/questions";
 
 export default function ModulesPage() {
     const [progressMap, setProgressMap] = useState<Record<string, number>>({
@@ -48,8 +48,8 @@ export default function ModulesPage() {
             domainLogged[k] > 0 ? Math.round((domainMastered[k] / domainLogged[k]) * 100) : 0;
 
         // CDR Progress
-        const cdrCorrect = Object.values(cdrProgress).filter(p => p.status === 'correct' || p.status === 'mastered').length;
-        const cdrPercent = Math.round((cdrCorrect / CDR_QUESTIONS.length) * 100);
+        const cdrCorrect = Object.values(cdrProgress).filter(p => p.questionId !== 'cdr-2' && (p.status === 'correct' || p.status === 'mastered')).length;
+        const cdrPercent = Math.round((cdrCorrect / (CDR_QUESTIONS.length - 1)) * 100);
 
         // Custom PDF Progress
         const customTotal = customQuestions.length;
@@ -66,7 +66,7 @@ export default function ModulesPage() {
         });
     }, []);
 
-    const bankCount = (domain: string) => SAMPLE_QUESTIONS.filter(q => q.domain === domain).length;
+    const bankCount = (domain: string) => AVAILABLE_QUESTIONS.filter(q => q.domain === domain).length;
 
     const DOMAIN_MODULES = [
         {
@@ -107,7 +107,7 @@ export default function ModulesPage() {
         <AppLayout>
             <header style={{ marginBottom: 32 }}>
                 <h1>Study Modules</h1>
-                <p style={{ color: "var(--text-muted)" }}>Select a module to focus your studies or analyze your materials.</p>
+                <p style={{ color: "var(--text-muted)" }}>Select a module to study. Items flagged in the audit are held out of new practice while their historical records remain intact; remaining items are not certified exam questions.</p>
             </header>
 
             <div className={styles.grid}>

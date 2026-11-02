@@ -1,4 +1,6 @@
 import { Question } from "../types";
+import reviewHold from "../data/review-hold.json";
+export const REVIEW_HOLD_IDS = new Set(reviewHold);
 import {
     DOMAIN_BY_MODULE_ID,
     newSessionSeed,
@@ -7178,7 +7180,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain II",
             "topic": "Type 2 Diabetes",
             "difficulty": "medium",
-            "text": "Using diagnostic criteria for type 2 diabetes, which of the following fasting plasma glucose levels confirms a diagnosis of diabetes (assuming confirmed on a second test)?",
+            "text": "Using diagnostic criteria for type 2 diabetes, what is the minimum fasting plasma glucose threshold for diagnosing diabetes (assuming confirmation on a second test)?",
             "options": [
                 "95 mg/dL",
                 "110 mg/dL",
@@ -8320,13 +8322,13 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "difficulty": "hard",
             "text": "Using the Mifflin-St. Jeor equation, what is the estimated RMR for a 55-year-old man who weighs 80 kg and is 175 cm tall?",
             "options": [
-                "1,605 kcal/day",
+                "1,624 kcal/day",
                 "1,655 kcal/day",
                 "1,730 kcal/day",
                 "1,800 kcal/day"
             ],
             "correctIndex": 0,
-            "explanation": "Mifflin-St. Jeor for men: (10 × Weight kg) + (6.25 × Height cm) − (5 × Age) + 5 = (10 × 80) + (6.25 × 175) − (5 × 55) + 5 = 800 + 1093.75 − 275 + 5 = 1,623.75 kcal. The closest answer is 1,605. For coronary heart disease, RMR × 1.3 is used as the total energy estimate (activity factor for sedentary).",
+            "explanation": "Mifflin-St. Jeor for men: (10 × Weight kg) + (6.25 × Height cm) − (5 × Age) + 5 = (10 × 80) + (6.25 × 175) − (5 × 55) + 5 = 800 + 1093.75 − 275 + 5 = 1,623.75 kcal. Rounded to the nearest whole kcal, the estimated RMR is 1,624 kcal/day. Total energy needs require an individualized assessment of activity and clinical context.",
             "tags": [
                 "Mifflin-St-Jeor",
                 "RMR",
@@ -15810,7 +15812,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Food Production",
             "difficulty": "medium",
-            "text": "If you determine that the 'Edible Portion' (EP) cost of a serving of broccoli is $0.50 and the yield is 80%, what is the 'As Purchased' (AP) cost per equivalent amount?",
+            "text": "Broccoli costs $0.50 per pound of edible portion (EP), and its yield is 80%. What is the as-purchased (AP) price per pound of untrimmed broccoli?",
             "options": [
                 "$0.40",
                 "$0.625",
@@ -15818,7 +15820,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "$0.80"
             ],
             "correctIndex": 0,
-            "explanation": "EP Cost = AP Cost / Yield %. Therefore, AP Cost = EP Cost * Yield %. Wait... actually: AP Price is usually lower. AP Cost = EP Cost * Yield %? No. AP weight > EP weight. EP price > AP price. AP Price = EP Price x Yield %. $0.50 * 0.80 = $0.40. (Since you pay less for the raw uncleaned vegetable than the finished edible weight value).",
+            "explanation": "Using the same weight unit for both prices, AP price per pound = EP price per pound × yield = $0.50 × 0.80 = $0.40 per pound. This is a unit price, not the cost of the same edible serving.",
             "tags": [
                 "foodservice",
                 "production",
@@ -17078,7 +17080,7 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "180°F"
             ],
             "correctIndex": 2,
-            "explanation": "Poultry must be cooked to a minimum internal temperature of 165°F (74°C) for 15 seconds (instantaneous) to kill Salmonella and Campylobacter.",
+            "explanation": "Under the FDA Food Code 2022, poultry must reach 165°F (74°C) for less than one second (instantaneously). Reheating previously cooked and cooled food for hot holding has separate time requirements.",
             "tags": [
                 "foodservice",
                 "sanitation",
@@ -24894,6 +24896,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
 
 /** Ids currently in the bank; used to ignore stored progress for removed questions. */
 export const QUESTION_IDS: Set<string> = new Set(SAMPLE_QUESTIONS.map(q => q.id));
+/** Held items remain in the bank and all historical records; exclude from new scored sessions. */
+export const AVAILABLE_QUESTIONS = SAMPLE_QUESTIONS.filter(q => !REVIEW_HOLD_IDS.has(q.id));
+export const AVAILABLE_QUESTION_IDS = new Set(AVAILABLE_QUESTIONS.map(q => q.id));
 
 export async function getQuestions(
     moduleId?: string,
@@ -24901,7 +24906,7 @@ export async function getQuestions(
     seed: number = newSessionSeed()
 ): Promise<Question[]> {
     await new Promise(resolve => setTimeout(resolve, 300));
-    let start = [...SAMPLE_QUESTIONS];
+    let start = [...AVAILABLE_QUESTIONS];
 
     if (moduleId) {
         const dLabel = DOMAIN_BY_MODULE_ID[moduleId];
@@ -24928,7 +24933,7 @@ export function drawBlueprintExam(
     seed: number = newSessionSeed(),
     seen?: Record<string, number>
 ): Question[] {
-    return sampleByBlueprint(SAMPLE_QUESTIONS, count, seed, seen)
+    return sampleByBlueprint(AVAILABLE_QUESTIONS, count, seed, seen)
         .map(q => shuffleQuestionOptions(q, seed));
 }
 
@@ -24941,7 +24946,7 @@ export async function getQuestionsByIds(
     ids: string[],
     seed: number = newSessionSeed()
 ): Promise<Question[]> {
-    const byId = new Map(SAMPLE_QUESTIONS.map(q => [q.id, q]));
+    const byId = new Map(AVAILABLE_QUESTIONS.map(q => [q.id, q]));
     return ids
         .map(id => byId.get(id))
         .filter((q): q is Question => q !== undefined)

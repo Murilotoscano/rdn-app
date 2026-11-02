@@ -152,7 +152,7 @@ export default function ExamInterface({ questions, freshIds, realConditions, fre
                     <h1 className={styles.title}>RDN Mock Exam</h1>
                     <span className={styles.subtitle}>
                         {currIndex + 1} of {questions.length}
-                        {realConditions ? ' · Exam conditions · fixed form, not adaptive' : ' · Review mode'}
+                        {realConditions ? ' · Fixed form, not adaptive · 2026 weights' : ' · Review mode · 2026 weights'}
                     </span>
                 </div>
 

@@ -1,0 +1,1101 @@
+{
+  "days": [
+    [
+      "I01",
+      "I02",
+      "II01",
+      "II02",
+      "II03",
+      "II04",
+      "II05",
+      "III01",
+      "III02",
+      "IV01"
+    ],
+    [
+      "I03",
+      "I04",
+      "II06",
+      "II07",
+      "II08",
+      "II09",
+      "III03",
+      "III04",
+      "IV02",
+      "IV03"
+    ],
+    [
+      "I05",
+      "I06",
+      "II10",
+      "II11",
+      "II12",
+      "II13",
+      "II14",
+      "III05",
+      "III06",
+      "IV04"
+    ],
+    [
+      "I07",
+      "I08",
+      "II15",
+      "II16",
+      "II17",
+      "II18",
+      "III07",
+      "III08",
+      "III09",
+      "IV05"
+    ],
+    [
+      "I09",
+      "I10",
+      "II19",
+      "II20",
+      "II21",
+      "II22",
+      "II23",
+      "III10",
+      "III11",
+      "IV06"
+    ],
+    [
+      "I11",
+      "I12",
+      "I13",
+      "II24",
+      "II25",
+      "II26",
+      "II27",
+      "III12",
+      "III13",
+      "IV07"
+    ]
+  ],
+  "questions": [
+    {
+      "id": "I01",
+      "domain": "I",
+      "stem": "A cereal label lists 180 kcal per 3/4 cup. A client eats 1.5 cups. How many calories come from the cereal?",
+      "options": [
+        "135 kcal",
+        "180 kcal",
+        "270 kcal",
+        "360 kcal"
+      ],
+      "answer": 3,
+      "rationale": "São duas porções: 1,5 / 0,75 = 2; 2 x 180 = 360 kcal. As outras respostas não multiplicam pela quantidade efetivamente consumida.",
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/calories-nutrition-facts-label"
+      ]
+    },
+    {
+      "id": "I02",
+      "domain": "I",
+      "stem": "Two soups have the same serving size. Soup A provides 8% DV sodium and soup B provides 22% DV. Which statement is accurate?",
+      "options": [
+        "Soup A is sodium-free.",
+        "Soup B is high in sodium per serving by the FDA general %DV guide.",
+        "Both soups are low in sodium by the 5% DV guide.",
+        "The percentages cannot be compared when serving sizes match."
+      ],
+      "answer": 1,
+      "rationale": "Pela orientação geral da FDA, 20% DV ou mais é alto; 5% ou menos é baixo. A tem menos sódio, mas 8% não é zero nem se enquadra na referência de 5%. Porções iguais permitem a comparação.",
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+      ]
+    },
+    {
+      "id": "I03",
+      "domain": "I",
+      "stem": "A label lists total sugars 12 g, including 7 g added sugars, per serving. How much total sugar is present in two servings?",
+      "options": [
+        "14 g",
+        "19 g",
+        "24 g",
+        "38 g"
+      ],
+      "answer": 2,
+      "rationale": "Total: 12 x 2 = 24 g. Added sugars já fazem parte de total sugars; não se somam novamente. 14 g seriam os açúcares adicionados de duas porções.",
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
+      ]
+    },
+    {
+      "id": "I04",
+      "domain": "I",
+      "stem": "Which addition can enhance absorption of nonheme iron from a bean meal?",
+      "options": [
+        "A vitamin C-rich food",
+        "A food chosen only for its saturated fat content",
+        "Replacing the beans with water",
+        "Removing all fruit and vegetables"
+      ],
+      "answer": 0,
+      "rationale": "A vitamina C favorece absorção de ferro não heme. Gordura saturada não oferece esse mecanismo; retirar a fonte de ferro ou frutas e verduras não é a estratégia descrita.",
+      "sources": [
+        "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      ]
+    },
+    {
+      "id": "I05",
+      "domain": "I",
+      "stem": "After explaining a new meal-planning method, which question best checks understanding using teach-back?",
+      "options": [
+        "Do you understand everything?",
+        "You understood, right?",
+        "Can you explain how you would plan tomorrow's lunch so I can check how clearly I explained it?",
+        "Please memorize every sentence in the handout."
+      ],
+      "answer": 2,
+      "rationale": "Teach-back pede explicação nas próprias palavras e responsabiliza o profissional pela clareza. Perguntas sim/não não demonstram aplicação; decorar frases não verifica compreensão.",
+      "sources": [
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+      ]
+    },
+    {
+      "id": "I06",
+      "domain": "I",
+      "stem": "During teach-back, a patient describes the plan incorrectly. What should the RD do next?",
+      "options": [
+        "Document nonadherence and end teaching.",
+        "Repeat the identical wording more loudly.",
+        "Skip the misunderstood point.",
+        "Explain the point another way, then check understanding again."
+      ],
+      "answer": 3,
+      "rationale": "AHRQ orienta reformular e repetir a checagem. Um erro de compreensão não prova não adesão; elevar a voz ou omitir a informação não corrige a dificuldade.",
+      "sources": [
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+      ]
+    },
+    {
+      "id": "I07",
+      "domain": "I",
+      "stem": "Which patient-selected goal is most specific and measurable?",
+      "options": [
+        "Eat better someday.",
+        "Add one serving of vegetables to dinner on four days this week and record it.",
+        "Never eat anything unhealthy again.",
+        "Learn everything about nutrition."
+      ],
+      "answer": 1,
+      "rationale": "O objetivo define ação, frequência e prazo observáveis. As alternativas são vagas ou absolutas, sem medida prática de execução. A escolha deve continuar realista para a pessoa.",
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health"
+      ]
+    },
+    {
+      "id": "I08",
+      "domain": "I",
+      "stem": "Investigators randomly assign adults to counseling program A or B and compare outcomes after 12 weeks. What is the design?",
+      "options": [
+        "Randomized controlled trial",
+        "Case-control study",
+        "Cross-sectional survey",
+        "Case report"
+      ],
+      "answer": 0,
+      "rationale": "A alocação aleatória a intervenções caracteriza ensaio randomizado. Caso-controle seleciona pelo desfecho; transversal mede em um período; relato de caso não compara grupos randomizados.",
+      "sources": [
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
+      ]
+    },
+    {
+      "id": "I09",
+      "domain": "I",
+      "stem": "Investigators enroll people with and without a foodborne illness, then compare prior food exposures. What is the design?",
+      "options": [
+        "Randomized trial",
+        "Prospective cohort with assigned treatment",
+        "Case-control study",
+        "Laboratory calibration study"
+      ],
+      "answer": 2,
+      "rationale": "A seleção começa pelo desfecho (doentes/não doentes) e compara exposições anteriores: caso-controle. Não há randomização nem intervenção atribuída.",
+      "sources": [
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
+      ]
+    },
+    {
+      "id": "I10",
+      "domain": "I",
+      "stem": "In a defined group of 100 event attendees, 20 of 50 people who ate dish X became ill, compared with 5 of 50 who did not. What is the risk ratio?",
+      "options": [
+        "0.25",
+        "2",
+        "10",
+        "4"
+      ],
+      "answer": 3,
+      "rationale": "Risco exposto = 20/50 = 0,40; não exposto = 5/50 = 0,10; razão = 4. Não dividir apenas totais gerais nem inverter os grupos. É associação observada, não prova isolada de causalidade.",
+      "sources": [
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
+      ]
+    },
+    {
+      "id": "I11",
+      "domain": "I",
+      "stem": "A one-time survey finds that frequent breakfast eaters report better health. Which conclusion is most defensible?",
+      "options": [
+        "Breakfast caused better health in every participant.",
+        "An association was observed; this design alone does not establish that breakfast caused better health.",
+        "Random assignment eliminated confounding.",
+        "The survey proves that all other behaviors were identical."
+      ],
+      "answer": 1,
+      "rationale": "Uma associação transversal não demonstra, sozinha, direção temporal ou causalidade. Não houve randomização descrita e outros fatores podem diferir entre os grupos.",
+      "sources": [
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
+      ]
+    },
+    {
+      "id": "I12",
+      "domain": "I",
+      "stem": "A team follows initially disease-free adults with different naturally occurring dietary exposures and records new disease over time. What design is described?",
+      "options": [
+        "Prospective cohort study",
+        "Case-control study selected by existing disease",
+        "Randomized trial",
+        "Single-patient case report"
+      ],
+      "answer": 0,
+      "rationale": "A coorte acompanha grupos definidos pela exposição e registra novos desfechos. Exposição natural não é alocação aleatória; seleção não começou por casos já doentes.",
+      "sources": [
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
+      ]
+    },
+    {
+      "id": "I13",
+      "domain": "I",
+      "stem": "An RD wants to compare sodium in two breads. Bread A lists 180 mg per 30 g; bread B lists 250 mg per 50 g. Which has less sodium per 100 g?",
+      "options": [
+        "Bread A: 180 mg/100 g",
+        "Bread A: 360 mg/100 g",
+        "Bread B: 250 mg/100 g",
+        "Bread B: 500 mg/100 g"
+      ],
+      "answer": 3,
+      "rationale": "Padronize a porção: A = 180/30 x 100 = 600 mg; B = 250/50 x 100 = 500 mg. Comparar apenas 180 com 250 ignora tamanhos diferentes.",
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+      ]
+    },
+    {
+      "id": "II01",
+      "domain": "II",
+      "stem": "An RDN collects a food record, recent laboratory results, and weight history before identifying a nutrition problem. Which NCP step is being performed?",
+      "options": [
+        "Medical diagnosis",
+        "Nutrition intervention",
+        "Nutrition assessment",
+        "Nutrition monitoring after treatment"
+      ],
+      "answer": 2,
+      "rationale": "Reunir e interpretar dados é avaliação nutricional. Intervenção executa o plano; monitoramento acompanha resposta; diagnóstico médico não é esta etapa do NCP.",
+      "sources": [
+        "https://www.eatrightpro.org/practice/nutrition-care-process",
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment"
+      ]
+    },
+    {
+      "id": "II02",
+      "domain": "II",
+      "stem": "Which statement identifies the etiology in this teaching example: \"Inadequate intake related to inability to shop for food as evidenced by a three-day intake below the agreed target\"?",
+      "options": [
+        "Inability to shop for food",
+        "Inadequate intake",
+        "Three-day intake",
+        "The agreed target"
+      ],
+      "answer": 0,
+      "rationale": "A causa é a impossibilidade de comprar alimentos. Ingestão inadequada é o problema; registro de consumo é evidência; a meta é o comparador.",
+      "sources": [
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-diagnosis"
+      ]
+    },
+    {
+      "id": "II03",
+      "domain": "II",
+      "stem": "Which item is the strongest measurable sign or symptom for a nutrition diagnosis concerning inadequate intake?",
+      "options": [
+        "Nutrition is important",
+        "The client is difficult",
+        "The client has a medical diagnosis",
+        "Documented intake averaging 900 kcal/day against an assessed 1,800 kcal/day target"
+      ],
+      "answer": 3,
+      "rationale": "Consumo documentado comparado à necessidade sustenta o problema. Julgamentos pessoais e afirmações genéricas não são medidas; diagnóstico médico isolado não demonstra ingestão insuficiente.",
+      "sources": [
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-diagnosis"
+      ]
+    },
+    {
+      "id": "II04",
+      "domain": "II",
+      "stem": "A client can prepare meals but cannot afford the foods in the current plan. What is the best next nutrition intervention?",
+      "options": [
+        "Assume lack of motivation",
+        "Develop an affordable plan with the client and connect them with appropriate food resources",
+        "Repeat the same expensive menu more slowly",
+        "Stop monitoring intake"
+      ],
+      "answer": 1,
+      "rationale": "A intervenção deve enfrentar a barreira de acesso. Repetir a orientação sem adaptação não resolve custo; atribuir desmotivação não é sustentado; abandonar monitoramento impede avaliar resposta.",
+      "sources": [
+        "https://www.eatrightstore.org/-/media/files/eatrightstore/product-detail-files/ncoasample.pdf?hash=12BA2097BA678704A28F5DA2366A93AC&rev=a3212051f14b495ca1a244008ed73b51"
+      ]
+    },
+    {
+      "id": "II05",
+      "domain": "II",
+      "stem": "After four weeks, the RDN compares the client's average intake with the agreed intake goal. Which NCP step is illustrated?",
+      "options": [
+        "Initial diagnosis without assessment",
+        "Nutrition monitoring and evaluation",
+        "Food procurement",
+        "Screening only"
+      ],
+      "answer": 1,
+      "rationale": "Comparar resposta com a meta é monitoramento e avaliação. Triagem identifica risco; diagnóstico nomeia o problema; compras não descrevem esta ação.",
+      "sources": [
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-monitoring-and-evaluation"
+      ]
+    },
+    {
+      "id": "II06",
+      "domain": "II",
+      "stem": "A weight entry differs markedly from the previous day, and the record indicates a different scale was used. What should the RDN do first?",
+      "options": [
+        "Ignore all weight data",
+        "Diagnose severe tissue loss immediately",
+        "Prescribe a fixed calorie increase without assessment",
+        "Verify the measurement and relevant clinical context"
+      ],
+      "answer": 3,
+      "rationale": "Verificar qualidade e contexto do dado evita conclusão prematura. Descartar tudo ou intervir automaticamente também ignora a necessidade de avaliação consistente.",
+      "sources": [
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment"
+      ]
+    },
+    {
+      "id": "II07",
+      "domain": "II",
+      "stem": "The goal is to increase average meal intake from 40% to 75% by the next visit. Which indicator most directly evaluates that goal?",
+      "options": [
+        "Average percentage of meals consumed",
+        "Number of educational handouts printed",
+        "The client's insurance type",
+        "Clinic waiting-room size"
+      ],
+      "answer": 0,
+      "rationale": "O indicador deve corresponder à meta: porcentagem consumida. Material impresso mede atividade, não o resultado; sala e seguro não medem ingestão.",
+      "sources": [
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-monitoring-and-evaluation"
+      ]
+    },
+    {
+      "id": "II08",
+      "domain": "II",
+      "stem": "Which sequence best represents the four NCP steps?",
+      "options": [
+        "Intervention, diagnosis, screening, billing",
+        "Diagnosis, food purchasing, billing, discharge",
+        "Assessment, diagnosis, intervention, monitoring and evaluation",
+        "Monitoring, discharge, procurement, assessment"
+      ],
+      "answer": 2,
+      "rationale": "A sequência conceitual é avaliação, diagnóstico, intervenção e monitoramento/avaliação; o cuidado pode retornar à reavaliação. As outras listas misturam funções ou omitem etapas.",
+      "sources": [
+        "https://www.eatrightpro.org/practice/nutrition-care-process"
+      ]
+    },
+    {
+      "id": "II09",
+      "domain": "II",
+      "stem": "A client reports a new barrier that makes the original nutrition plan impractical. What is the best response?",
+      "options": [
+        "Reassess the new information and revise the plan as indicated",
+        "Keep the plan unchanged because it was documented",
+        "End care because the first plan failed",
+        "Replace the nutrition diagnosis with the medical diagnosis automatically"
+      ],
+      "answer": 0,
+      "rationale": "Informações novas pedem reavaliação e ajuste fundamentado. Registro prévio não torna o plano imutável; encerrar cuidado ou trocar diagnóstico automaticamente não resolve a barreira.",
+      "sources": [
+        "https://www.eatrightpro.org/practice/nutrition-care-process",
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment"
+      ]
+    },
+    {
+      "id": "II10",
+      "domain": "II",
+      "stem": "For this calculation exercise, an agreed energy target is 2,000 kcal/day and documented intake is 1,500 kcal/day. What percentage of the target was consumed?",
+      "options": [
+        "133%",
+        "67%",
+        "50%",
+        "75%"
+      ],
+      "answer": 3,
+      "rationale": "1.500 ÷ 2.000 × 100 = 75%. As demais opções usam relações incorretas; 133% inverte numerador e denominador. A meta foi fornecida, não prescrita pelo exercício.",
+      "sources": []
+    },
+    {
+      "id": "II11",
+      "domain": "II",
+      "stem": "A prescribed enteral formula provides 1.5 kcal/mL. For this exercise, 1,200 mL is actually delivered. How much energy is delivered?",
+      "options": [
+        "1,200 kcal",
+        "1,500 kcal",
+        "1,800 kcal",
+        "800 kcal"
+      ],
+      "answer": 2,
+      "rationale": "1.200 mL × 1,5 kcal/mL = 1.800 kcal. 800 resulta da divisão indevida; 1.200 ignora a densidade; 1.500 não usa o volume informado.",
+      "sources": []
+    },
+    {
+      "id": "II12",
+      "domain": "II",
+      "stem": "A prescribed formula provides 1.2 kcal/mL. What volume supplies the stated target of 1,800 kcal?",
+      "options": [
+        "1,800 mL",
+        "1,500 mL",
+        "2,160 mL",
+        "600 mL"
+      ],
+      "answer": 1,
+      "rationale": "Volume = 1.800 kcal ÷ 1,2 kcal/mL = 1.500 mL. Multiplicar daria 2.160; 1.800 ignora a densidade; 600 não atende a relação fornecida.",
+      "sources": []
+    },
+    {
+      "id": "II13",
+      "domain": "II",
+      "stem": "A prescribed daily volume is 1,440 mL. Feeding is planned for 18 hours, with no additional interruption in this exercise. What hourly rate delivers that volume?",
+      "options": [
+        "100 mL/hour",
+        "60 mL/hour",
+        "80 mL/hour",
+        "120 mL/hour"
+      ],
+      "answer": 2,
+      "rationale": "1.440 ÷ 18 = 80 mL/h. 60 pressupõe 24 horas; 100 e 120 entregariam volume acima do prescrito no período informado.",
+      "sources": []
+    },
+    {
+      "id": "II14",
+      "domain": "II",
+      "stem": "A client weighed 80 kg at baseline and now weighs 76 kg. What is the percentage weight loss relative to baseline?",
+      "options": [
+        "5%",
+        "4%",
+        "5.3%",
+        "95%"
+      ],
+      "answer": 0,
+      "rationale": "(80 - 76) ÷ 80 × 100 = 5%. 4 é a diferença em kg; 5,3% usa o peso atual como denominador; 95% é a fração de peso mantida. Não classifica desnutrição sozinho.",
+      "sources": []
+    },
+    {
+      "id": "II15",
+      "domain": "II",
+      "stem": "For this exercise, a prescribed protein target is 1.2 g/kg/day using a specified calculation weight of 70 kg. What is the daily target?",
+      "options": [
+        "58 g",
+        "84 g",
+        "72 g",
+        "70 g"
+      ],
+      "answer": 1,
+      "rationale": "1,2 × 70 = 84 g/dia. 58 decorre de dividir; 70 ignora o fator; 72 usa outro peso. O fator é dado do exercício, não indicação universal.",
+      "sources": []
+    },
+    {
+      "id": "II16",
+      "domain": "II",
+      "stem": "A soup label lists 360 mg sodium per 1-cup serving. A client consumes 1.5 cups. How much sodium does this provide?",
+      "options": [
+        "720 mg",
+        "360 mg",
+        "240 mg",
+        "540 mg"
+      ],
+      "answer": 3,
+      "rationale": "360 × 1,5 = 540 mg. Dividir gera 240; 360 corresponde a uma porção; 720 corresponde a duas.",
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+      ]
+    },
+    {
+      "id": "II17",
+      "domain": "II",
+      "stem": "A package lists 2.5 servings per container and 160 kcal per serving. If the entire package is consumed, what is the energy intake?",
+      "options": [
+        "160 kcal",
+        "320 kcal",
+        "640 kcal",
+        "400 kcal"
+      ],
+      "answer": 3,
+      "rationale": "2,5 × 160 = 400 kcal. 320 usa duas porções; 160 usa uma; 640 usa quatro.",
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/calories-nutrition-facts-label"
+      ]
+    },
+    {
+      "id": "II18",
+      "domain": "II",
+      "stem": "A client reads \"Total Sugars 12 g, Includes 5 g Added Sugars\" for one serving. Which interpretation is correct?",
+      "options": [
+        "All 12 g are necessarily added sugars",
+        "The 5 g added sugars are included within the 12 g total sugars",
+        "The serving contains 17 g total sugars",
+        "The label gives no information about added sugars"
+      ],
+      "answer": 1,
+      "rationale": "Os 5 g adicionados já estão dentro dos 12 g totais. Somar duplica a parcela; total não significa integralmente adicionado; a informação existe.",
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
+      ]
+    },
+    {
+      "id": "II19",
+      "domain": "II",
+      "stem": "A client with CKD asks whether every person with CKD must follow the same potassium restriction. What is the best response?",
+      "options": [
+        "The plan should reflect individual potassium levels, needs, and treatment context",
+        "All patients must eliminate every fruit",
+        "Potassium needs never change",
+        "A food is safe regardless of portion size"
+      ],
+      "answer": 0,
+      "rationale": "O plano deve ser individualizado; porções também importam. Eliminar todas as frutas é excessivo, necessidades podem mudar e quantidade altera o potássio consumido.",
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+      ]
+    },
+    {
+      "id": "II20",
+      "domain": "II",
+      "stem": "A client whose care plan limits potassium wants to replace table salt with a potassium-chloride salt substitute. What is the best advice?",
+      "options": [
+        "Use unlimited amounts because it is not sodium chloride",
+        "Assume all salt substitutes contain no minerals",
+        "Check the ingredient list and discuss its potassium contribution with the care team before using it",
+        "Stop all prescribed medicines to compensate"
+      ],
+      "answer": 2,
+      "rationale": "Cloreto de potássio adiciona potássio e precisa ser compatível com o plano. As outras alternativas ignoram composição ou propõem alteração medicamentosa injustificada.",
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+      ]
+    },
+    {
+      "id": "II21",
+      "domain": "II",
+      "stem": "A client with confirmed celiac disease is choosing a side dish. Which plain ingredient is naturally gluten-free?",
+      "options": [
+        "Semolina",
+        "Rice",
+        "Rye",
+        "Barley"
+      ],
+      "answer": 1,
+      "rationale": "Arroz simples é naturalmente sem glúten. Cevada, centeio e semolina (trigo) contêm glúten. Preparação e contato cruzado ainda precisam ser verificados.",
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+      ]
+    },
+    {
+      "id": "II22",
+      "domain": "II",
+      "stem": "A restaurant offers a gluten-free meal but prepares it with utensils contaminated by wheat flour. Which concern should the RDN identify?",
+      "options": [
+        "The absence of added sugar",
+        "The color of the plate",
+        "Gluten cross-contact",
+        "An automatically excessive protein intake"
+      ],
+      "answer": 2,
+      "rationale": "Utensílios contaminados podem transferir glúten à refeição. Açúcar, cor e proteína não respondem ao risco descrito.",
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+      ]
+    },
+    {
+      "id": "II23",
+      "domain": "II",
+      "stem": "A pregnant client asks about a U.S. program offering supplemental foods, nutrition education, and referrals. Which is the most appropriate program to explore, subject to eligibility review?",
+      "options": [
+        "A restaurant loyalty program",
+        "Medicare as a universal grocery program",
+        "A food-manufacturer rebate",
+        "WIC"
+      ],
+      "answer": 3,
+      "rationale": "WIC atende gestantes e outras categorias, com critérios de residência, renda e risco nutricional. Encaminhamento não garante aprovação; as outras opções não oferecem esse programa.",
+      "sources": [
+        "https://www.fna.usda.gov/wic/faqs"
+      ]
+    },
+    {
+      "id": "II24",
+      "domain": "II",
+      "stem": "A community project reports that 72 of 240 surveyed households met its stated food-insecurity criterion. What percentage met that criterion?",
+      "options": [
+        "30%",
+        "40%",
+        "33%",
+        "72%"
+      ],
+      "answer": 0,
+      "rationale": "72 ÷ 240 × 100 = 30%. 72 é contagem, não porcentagem; 33 e 40 não resultam dos dados. A classificação foi dada pelo estudo fictício.",
+      "sources": []
+    },
+    {
+      "id": "II25",
+      "domain": "II",
+      "stem": "A nutrition program aims to improve intake. Which result is an outcome rather than simply an activity count?",
+      "options": [
+        "Number of chairs arranged",
+        "Number of reminder emails sent",
+        "Change in participants' measured intake relative to the program goal",
+        "Number of brochures distributed"
+      ],
+      "answer": 2,
+      "rationale": "Mudança de ingestão em relação à meta mede resultado. Folhetos, emails e cadeiras descrevem atividades ou recursos, não efeito nutricional.",
+      "sources": [
+        "https://www.ncpro.org/vault/2570/web/files/Module%2005%20Script.pdf"
+      ]
+    },
+    {
+      "id": "II26",
+      "domain": "II",
+      "stem": "A diet history contains \"one bowl of cereal,\" but the bowl size is unknown. What is the best next assessment action?",
+      "options": [
+        "Diagnose excessive intake immediately",
+        "Clarify the portion using a measurement aid or household measure",
+        "Record zero intake",
+        "Assume it equals the label serving"
+      ],
+      "answer": 1,
+      "rationale": "Esclarecer a porção melhora a estimativa. Uma tigela não equivale necessariamente à porção do rótulo; zerar ou diagnosticar sem dados produz erro.",
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/weight-management/just-enough-food-portions"
+      ]
+    },
+    {
+      "id": "II27",
+      "domain": "II",
+      "stem": "A follow-up measure improved but remains below the agreed goal. What is the best interpretation?",
+      "options": [
+        "There is partial progress; reassess barriers and continue or adjust the plan",
+        "The goal was fully achieved",
+        "The baseline data are no longer useful",
+        "The intervention must be stopped immediately"
+      ],
+      "answer": 0,
+      "rationale": "Melhora abaixo da meta indica progresso parcial. Não equivale a sucesso completo nem exige interrupção automática; a linha de base continua permitindo comparação.",
+      "sources": [
+        "https://www.ncpro.org/vault/2570/web/files/Module%2005%20Script.pdf"
+      ]
+    },
+    {
+      "id": "III01",
+      "domain": "III",
+      "stem": "A department schedules 240 paid labor hours per week. In this organization, one full-time equivalent (FTE) equals 40 paid hours per week. How many FTEs are scheduled?",
+      "options": [
+        "6",
+        "4",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "rationale": "FTE = 240/40 = 6. Não confundir número de pessoas com equivalentes de jornada: diferentes combinações de empregados podem somar 6 FTEs. As outras respostas não correspondem à divisão fornecida.",
+      "sources": []
+    },
+    {
+      "id": "III02",
+      "domain": "III",
+      "stem": "A cafeteria produces 600 meals using 120 productive labor hours. What is its productivity in meals per labor hour?",
+      "options": [
+        "0.2",
+        "20",
+        "72",
+        "5"
+      ],
+      "answer": 3,
+      "rationale": "600/120 = 5 refeições por hora de trabalho. 0,2 é o inverso (hora por refeição); 20 e 72 não representam essa razão. A unidade solicitada define qual número fica no numerador.",
+      "sources": []
+    },
+    {
+      "id": "III03",
+      "domain": "III",
+      "stem": "Monthly food sales are $20,000 and the cost of food sold is $7,000. Define food cost percentage as food cost divided by food sales, multiplied by 100. What is the food cost percentage?",
+      "options": [
+        "28.6%",
+        "35%",
+        "65%",
+        "70%"
+      ],
+      "answer": 1,
+      "rationale": "7.000/20.000 × 100 = 35%. Os 65% são a parcela das vendas restante após esse custo, não o food cost percentage; as demais alternativas não aplicam a definição.",
+      "sources": []
+    },
+    {
+      "id": "III04",
+      "domain": "III",
+      "stem": "A single-product lunch service has monthly fixed costs of $3,600. Each lunch sells for $12 and has a variable cost of $6. Assuming constant prices and costs, how many lunches must be sold monthly to break even?",
+      "options": [
+        "300",
+        "900",
+        "600",
+        "1,200"
+      ],
+      "answer": 2,
+      "rationale": "Margem de contribuição unitária = 12 - 6 = $6; ponto de equilíbrio = 3.600/6 = 600 refeições. Dividir pelo preço ignora o custo variável. As demais quantidades não igualam receita e custos.",
+      "sources": [
+        "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point"
+      ]
+    },
+    {
+      "id": "III05",
+      "domain": "III",
+      "stem": "A service sells 800 identical lunches at $12 each. Variable cost is $6 per lunch and monthly fixed costs are $3,600. There are no other costs or revenues. What is monthly profit?",
+      "options": [
+        "$1,200",
+        "$3,600",
+        "$4,800",
+        "$9,600"
+      ],
+      "answer": 0,
+      "rationale": "Receita = 800 × 12 = 9.600; custo variável = 4.800; lucro = 9.600 - 4.800 - 3.600 = $1.200. $4.800 é contribuição antes dos custos fixos; $9.600 é receita, não lucro.",
+      "sources": [
+        "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point"
+      ]
+    },
+    {
+      "id": "III06",
+      "domain": "III",
+      "stem": "A department budgeted $4,000 for supplies and spent $4,600 for the same period. Define expense variance as actual minus budget. What is the variance?",
+      "options": [
+        "$600 favorable",
+        "$4,000 unfavorable",
+        "$4,600 favorable",
+        "$600 unfavorable"
+      ],
+      "answer": 3,
+      "rationale": "4.600 - 4.000 = $600 acima do orçamento: variação desfavorável de despesa. Não é uma economia. O valor da variação é a diferença, não o total orçado ou gasto.",
+      "sources": []
+    },
+    {
+      "id": "III07",
+      "domain": "III",
+      "stem": "A flexible food budget allows $3 per meal. Actual volume is 1,400 meals and actual food cost is $4,500. What is the actual cost above the flexible allowance?",
+      "options": [
+        "$100",
+        "$500",
+        "$300",
+        "$1,500"
+      ],
+      "answer": 2,
+      "rationale": "Orçamento ajustado ao volume = 1.400 × 3 = $4.200. Excesso = 4.500 - 4.200 = $300. Comparar com um volume diferente distorceria a avaliação.",
+      "sources": []
+    },
+    {
+      "id": "III08",
+      "domain": "III",
+      "stem": "A manager defines annual employee turnover as separations during the year divided by average headcount, multiplied by 100. There were 6 separations and an average headcount of 40. What is turnover?",
+      "options": [
+        "6%",
+        "25%",
+        "40%",
+        "15%"
+      ],
+      "answer": 3,
+      "rationale": "6/40 × 100 = 15%. Separações não são automaticamente porcentagens; 40 é o denominador. A questão fornece a definição para evitar diferenças entre métricas de turnover.",
+      "sources": []
+    },
+    {
+      "id": "III09",
+      "domain": "III",
+      "stem": "A quality-improvement team plans to test a revised tray-check procedure. Which action best represents a small initial test of change?",
+      "options": [
+        "Test it on one unit for one lunch period and record results",
+        "Implement it hospital-wide permanently without measurements",
+        "Replace all employees before testing it",
+        "Wait until errors disappear on their own"
+      ],
+      "answer": 0,
+      "rationale": "Um teste pequeno permite observar resultados e ajustar antes de ampliar. Implementação definitiva sem medição impede aprendizado; trocar toda a equipe não testa o procedimento; esperar não é um teste de mudança.",
+      "sources": [
+        "https://www.ahrq.gov/cahps/improvement-guide/improvement-models/plan-do-study-act.html"
+      ]
+    },
+    {
+      "id": "III10",
+      "domain": "III",
+      "stem": "During a tray-check pilot, the team records error rates and compares the findings with its prediction. Which PDSA phase is represented by analyzing those results?",
+      "options": [
+        "Study",
+        "Plan",
+        "Do",
+        "Act"
+      ],
+      "answer": 0,
+      "rationale": "Study é analisar resultados e compará-los à previsão. Plan define o teste; Do executa; Act usa o aprendizado para adaptar, adotar ou abandonar a mudança. Medir durante a execução e analisar depois são ações relacionadas, mas distintas.",
+      "sources": [
+        "https://integrationacademy.ahrq.gov/products/playbooks/behavioral-health-and-primary-care/implementing-plan/collect-and-use-data-quality-improvement"
+      ]
+    },
+    {
+      "id": "III11",
+      "domain": "III",
+      "stem": "Before a conditional job offer, which interview question is generally appropriate under EEOC guidance?",
+      "options": [
+        "What prescription medications do you take?",
+        "Can you perform the essential job duties, with or without reasonable accommodation?",
+        "Do you have a disability?",
+        "What is the severity of your medical condition?"
+      ],
+      "answer": 1,
+      "rationale": "A entrevista pode abordar capacidade de realizar funções do trabalho. Perguntas pré-oferta sobre medicações, deficiência ou gravidade da condição buscam informações médicas inadequadas nesse contexto. Há regras específicas para etapas posteriores e situações de acomodação.",
+      "sources": [
+        "https://www.eeoc.gov/disability-discrimination-and-employment-decisions"
+      ]
+    },
+    {
+      "id": "III12",
+      "domain": "III",
+      "stem": "A manager wants a measurable objective for reducing tray errors. Which statement best specifies an outcome and a deadline?",
+      "options": [
+        "Reduce tray errors from 8 per 100 trays to 4 per 100 trays within 8 weeks",
+        "Improve service soon",
+        "Try harder to avoid mistakes",
+        "Make every employee happier"
+      ],
+      "answer": 0,
+      "rationale": "A resposta correta informa medida, ponto inicial, meta e prazo. As outras não permitem verificar de forma objetiva se o resultado foi atingido. É um exercício de construção de objetivo; não promete que a meta seja viável sem analisar o processo.",
+      "sources": []
+    },
+    {
+      "id": "III13",
+      "domain": "III",
+      "stem": "A service recorded 18 incorrect trays among 600 trays checked before an intervention and 9 among 600 afterward. What happened to the observed error rate?",
+      "options": [
+        "It increased from 1.5% to 3%",
+        "It decreased from 3% to 1.5%",
+        "It decreased from 18% to 9%",
+        "It stayed at 3%"
+      ],
+      "answer": 1,
+      "rationale": "18/600 = 3%; 9/600 = 1,5%. A redução absoluta é 1,5 ponto percentual e a relativa é 50%. Isso descreve os dados observados; não demonstra sozinho causalidade ou significância estatística.",
+      "sources": []
+    },
+    {
+      "id": "IV01",
+      "domain": "IV",
+      "stem": "Under the FDA Food Code 2022 cooling provisions for cooked TCS food, which schedule meets BOTH required cooling limits?",
+      "options": [
+        "135°F to 70°F in 3 hours, then to 41°F by hour 6",
+        "135°F to 70°F in 2 hours, then to 41°F after 8 hours total",
+        "135°F to 70°F in 2 hours, then to 41°F by hour 6 total",
+        "135°F to 90°F in 2 hours, then to 41°F by hour 6"
+      ],
+      "answer": 2,
+      "rationale": "São necessários 135→70°F em até 2 horas e 135→41°F em até 6 horas totais. A resposta correta satisfaz ambos; os outros horários falham na primeira etapa ou no total. Seção 3-501.14.",
+      "sources": [
+        "https://www.fda.gov/files/2024-12-20-fodecode2022-print-0743.pdf"
+      ]
+    },
+    {
+      "id": "IV02",
+      "domain": "IV",
+      "stem": "Which method is appropriate for accelerating the cooling of a large batch of cooked soup under the FDA Food Code?",
+      "options": [
+        "Leave the soup in one deep stockpot at room temperature overnight",
+        "Divide it into shallow pans and monitor time and temperature",
+        "Seal it tightly in a large insulated container",
+        "Wait until it smells different before refrigerating"
+      ],
+      "answer": 1,
+      "rationale": "Dividir em recipientes rasos facilita transferência de calor, com monitoramento dos limites. Recipientes profundos/isolantes retardam resfriamento; odor não é critério de segurança. Seção 3-501.15.",
+      "sources": [
+        "https://www.fda.gov/files/2024-12-20-fodecode2022-print-0743.pdf"
+      ]
+    },
+    {
+      "id": "IV03",
+      "domain": "IV",
+      "stem": "Under the FDA Food Code 2022, which temperatures meet the usual hot- and cold-holding limits for TCS food, excluding specified exceptions and time-as-control procedures?",
+      "options": [
+        "Hot at 125°F; cold at 45°F",
+        "Hot at 135°F; cold at 41°F",
+        "Hot at 130°F; cold at 43°F",
+        "Hot at 120°F; cold at 40°F"
+      ],
+      "answer": 1,
+      "rationale": "A regra usual é manutenção quente a pelo menos 135°F e fria a no máximo 41°F. A resposta correta atende a ambas; as outras falham em pelo menos uma. Seção 3-501.16.",
+      "sources": [
+        "https://www.fda.gov/files/2024-12-20-fodecode2022-print-0743.pdf"
+      ]
+    },
+    {
+      "id": "IV04",
+      "domain": "IV",
+      "stem": "A recipe needs 12 lb of edible, trimmed produce. The stated edible yield is 80% of purchased weight. How much untrimmed produce must be purchased?",
+      "options": [
+        "9.6 lb",
+        "12 lb",
+        "15 lb",
+        "20 lb"
+      ],
+      "answer": 2,
+      "rationale": "Peso de compra = 12/0,80 = 15 lb. Multiplicar por 0,80 daria o peso utilizável de 12 lb compradas, não a compra necessária. Os outros valores não fornecem 12 lb utilizáveis com esse rendimento.",
+      "sources": [
+        "https://foodbuyingguide.fns.usda.gov/Home/About"
+      ]
+    },
+    {
+      "id": "IV05",
+      "domain": "IV",
+      "stem": "A purchase unit yields 24 portions at the required serving size. How many whole purchase units are needed for 130 portions, with no additional buffer?",
+      "options": [
+        "5",
+        "5.4",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "rationale": "130/24 = 5,4167 unidades; comprar unidades inteiras exige arredondar para cima: 6. Cinco rendem apenas 120 porções; 5,4 não é inteiro; 7 excede o mínimo necessário.",
+      "sources": [
+        "https://foodbuyingguide.fns.usda.gov/Home/About"
+      ]
+    },
+    {
+      "id": "IV06",
+      "domain": "IV",
+      "stem": "A standardized recipe yields 40 portions and uses 3 lb of rice. Assuming all ingredients scale proportionally, how much rice is required for 100 portions?",
+      "options": [
+        "1.2 lb",
+        "5 lb",
+        "12 lb",
+        "7.5 lb"
+      ],
+      "answer": 3,
+      "rationale": "Fator de ajuste = 100/40 = 2,5. Arroz = 3 × 2,5 = 7,5 lb. A porção permanece igual; as demais quantidades não aplicam o fator correto.",
+      "sources": []
+    },
+    {
+      "id": "IV07",
+      "domain": "IV",
+      "stem": "A food-contact surface has just been used for a food containing milk. Before preparing a milk-free special order on that surface, which action best reduces allergen cross-contact?",
+      "options": [
+        "Remove only the visible crumbs with a dry towel",
+        "Apply sanitizer over food residue without cleaning",
+        "Assume cooking the next food will eliminate the milk allergen",
+        "Use the established effective wash-rinse-sanitize-air-dry procedure and clean utensils"
+      ],
+      "answer": 3,
+      "rationale": "Limpeza eficaz seguida do procedimento sanitário e utensílios limpos reduz transferência do alérgeno. Remover só resíduos visíveis ou sanitizar sem limpeza não é equivalente; cozinhar não é garantia de eliminação de alérgenos.",
+      "sources": [
+        "https://www.fda.gov/food/retail-food-protection/allergen-removal-and-transfer-using-wiping-and-cleaning-methods-retail-food-establishments"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "title": "Princípios: rótulos, comunicação e evidência",
+      "text": "Rótulos: comece pela porção e pelo número consumido. Multiplique nutrientes e energia pelo fator de porção. Açúcares adicionados integram o total; não some duas vezes. Compare alimentos em porções equivalentes. Na referência geral de %DV, 5% ou menos é baixo e 20% ou mais é alto. Exemplo de cálculo: 120 mg por 40 g equivalem a 300 mg por 100 g.\nComunicação: verificar compreensão não é perguntar somente se a pessoa entendeu. Peça que explique ou demonstre o plano; reformule se necessário. Transforme intenções em ações observáveis, acordadas com a pessoa.\nPesquisa: em ensaio randomizado o pesquisador atribui a intervenção por acaso; em coorte acompanha exposição e desfecho; em caso-controle seleciona pelo desfecho e compara exposições. Associação não equivale automaticamente a causa. Risco = novos casos / pessoas sob risco; razão de riscos = risco exposto / risco não exposto.\nCiência nutricional: vitamina C pode aumentar a absorção de ferro não heme. Não extrapole um mecanismo para recomendar suplementação indiscriminada.",
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html",
+        "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+        "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health"
+      ]
+    },
+    {
+      "title": "Do dado à decisão: Nutrition Care Process",
+      "text": "O NCP organiza avaliação/reavaliação, diagnóstico nutricional, intervenção e monitoramento/avaliação. Na questão, identifique primeiro qual etapa está sendo pedida. Coletar consumo, medidas e exames pertence à avaliação; comparar resultados posteriores com a meta pertence ao monitoramento. O PES conecta problema, causa e evidências. A etiologia deve orientar uma intervenção capaz de modificar a causa, e os sinais/sintomas devem permitir acompanhar mudança. Diagnóstico médico não substitui diagnóstico nutricional. Exemplo autoral: se a ingestão caiu por dificuldade para comprar alimentos, ensinar receitas caras não resolve a barreira. Antes de escolher uma ação, procure os dados que sustentam a decisão. Pergunta de recuperação: qual informação provaria que a intervenção funcionou? Exercício aplicado (autoral): uma pessoa relata que ficou sem transporte para o mercado; o consumo caiu. Separe em três colunas: problema observado, causa potencial e dado ainda necessário. Antes de atribuir a redução à falta de conhecimento, pergunte como a pessoa consegue alimentos e quais recursos existem. Compare duas propostas: repetir um folheto ou adaptar o plano ao acesso disponível. Explique em voz alta por que uma delas responde melhor à barreira. Depois escreva uma pergunta para o retorno: como mudou a frequência ou quantidade de refeições? Use cinco minutos para criar outro caso com causa diferente, mantendo o mesmo problema.",
+      "sources": [
+        "https://www.eatrightpro.org/practice/nutrition-care-process",
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-diagnosis",
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment",
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-monitoring-and-evaluation",
+        "https://www.eatrightstore.org/-/media/files/eatrightstore/product-detail-files/ncoasample.pdf?hash=12BA2097BA678704A28F5DA2366A93AC&rev=a3212051f14b495ca1a244008ed73b51"
+      ]
+    },
+    {
+      "title": "Cálculos de cuidado: unidade antes da fórmula",
+      "text": "Neste bloco, todas as metas prescritas e concentrações necessárias aparecem nos enunciados; elas são dados do exercício, não recomendações universais. Escreva a unidade desejada antes de calcular. Para energia entregue por fórmula: mL × kcal/mL. Para volume necessário: kcal ÷ kcal/mL. Para velocidade: volume ÷ horas efetivamente disponíveis. Para adequação: consumido ÷ meta × 100. Para perda percentual de peso: (peso anterior - peso atual) ÷ peso anterior × 100. Não confunda o resultado aritmético com diagnóstico de desnutrição: a interpretação exige contexto clínico. Faça uma estimativa mental para detectar erros de dez vezes. No rótulo, multiplique os valores por porção pelo número de porções realmente consumidas. Exemplo resolvido autoral: meta fornecida de 1.600 kcal com fórmula de 1,25 kcal/mL resulta em 1.280 mL. Se a administração prevista for em 16 horas, a velocidade calculada é 80 mL/h. Conferência inversa: 80 × 16 × 1,25 = 1.600 kcal. Agora refaça com 20 horas: são 64 mL/h; volume e energia totais não mudaram. Segundo exemplo: de 90 kg para 85,5 kg, perdeu-se 4,5 kg; dividir pelo peso inicial resulta em 5%. Teste de unidade: kcal dividido por kcal/mL deixa mL. Treino sem gabarito imediato: qual volume de uma fórmula de 2 kcal/mL fornece a meta dada de 1.700 kcal? Resposta para conferir depois: 850 mL. Nenhum desses números define indicação clínica.",
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment"
+      ]
+    },
+    {
+      "title": "Individualizar a intervenção e verificar resposta",
+      "text": "Escolha a ação que responde à barreira ou ao risco demonstrado, não a uma regra automática. Na doença renal crônica, necessidades variam; potássio, proteína e outros componentes exigem avaliação individual. Na doença celíaca confirmada, excluir glúten inclui reconhecer trigo, cevada e centeio e prevenir contato cruzado. Em saúde comunitária, encaminhar é diferente de garantir elegibilidade: o WIC atende categorias específicas e exige critérios adicionais. Ao corrigir uma questão, diga: qual dado foi decisivo, qual alternativa pareceu atraente e por que ela não responde ao caso? Defina um indicador observável e uma meta comparável para o retorno. Exercício aplicado autoral: escolha um dos três contextos desta aula e monte uma resposta em quatro linhas: dado que falta, intervenção possível, indicador de acompanhamento e condição que exigiria reavaliação. Para o contexto renal, não escreva um limite numérico sem uma meta individual fornecida. Para doença celíaca, diferencie o ingrediente do processo de preparo. Para o WIC, diferencie uma pessoa que pode ser encaminhada de uma pessoa cuja elegibilidade já foi aprovada. Reserve os minutos finais para transformar uma resposta errada em nova pergunta: mude um dado do caso e explique como isso mudaria sua escolha. Esse exercício treina transferência de raciocínio, não memorização de letras.",
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition",
+        "https://www.fna.usda.gov/wic/faqs",
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-monitoring-and-evaluation"
+      ]
+    },
+    {
+      "title": "Gestão: transformar problemas em medidas e decisões",
+      "text": "Comece por definir o que a pergunta mede e em quais unidades. Nesta semana, pratique FTE = horas de trabalho/horas de um FTE; produtividade = refeições/horas produtivas; percentual de custo = custo/vendas × 100. São relações usadas nos exercícios, com suas premissas explicitadas. Para um único produto, a margem de contribuição por unidade é preço menos custo variável; o ponto de equilíbrio em unidades é custo fixo dividido por essa margem. Não confunda receita, contribuição e lucro. Em qualidade, teste uma mudança pequena, compare resultados à previsão e decida o próximo passo: Plan, Do, Study, Act. Uma melhora observada não prova causalidade. Na contratação, concentre a entrevista pré-oferta nas funções do cargo, não no diagnóstico ou nas medicações do candidato. Exercício ativo: reescreva cada fórmula com unidades e explique por que a alternativa errada mais atraente está errada. Exemplo resolvido autoral: 150 refeições em 30 horas produtivas = 5 refeições/hora. Se a mesma equipe usa 25 horas para 150 refeições, a razão sobe para 6 refeições/hora; isso não demonstra, por si só, qualidade ou segurança melhores. Outra verificação: com preço $10, custo variável $4 e custo fixo $1.800, cada venda contribui $6 e são necessárias 300 vendas para equilíbrio. Confirme: receita $3.000, variável $1.200, fixo $1.800, lucro zero.",
+      "sources": [
+        "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point",
+        "https://www.ahrq.gov/cahps/improvement-guide/improvement-models/plan-do-study-act.html",
+        "https://www.eeoc.gov/disability-discrimination-and-employment-decisions"
+      ]
+    },
+    {
+      "title": "Foodservice: quantidade certa e controle de risco",
+      "text": "Rendimento separa a quantidade comprada (AP) da quantidade utilizável (EP): compra = necessidade utilizável/fração de rendimento. Quando só há embalagens inteiras, arredonde a compra para cima. Na produção, fator de ajuste = porções desejadas/porções da receita. Para os exercícios de segurança, a referência explícita é o FDA Food Code 2022, modelo cuja adoção local varia: resfriar alimento TCS cozido de 135 a 70°F em até 2 horas e até 41°F em até 6 horas totais; recipientes rasos ajudam. Manutenção usual: quente ≥135°F, fria ≤41°F, ressalvadas exceções. Contato cruzado de alérgenos exige controle de superfícies, utensílios e limpeza; não basta retirar resíduos visíveis. Aplique as condições dadas no enunciado, sem substituir regra técnica por aparência ou odor. Exemplo resolvido autoral: 18 kg utilizáveis a 75% de rendimento exigem 18/0,75 = 24 kg comprados. Conferência inversa: 24 × 0,75 = 18 kg. Uma receita de 20 porções deve ser multiplicada por 3 para produzir 60 porções do mesmo tamanho; não multiplique o tamanho de cada porção. Nota de atualização: o Food Code 2026 já foi publicado; os limites básicos aqui estudados permanecem iguais. Os exercícios citam 2022 explicitamente, não como edição mais recente.",
+      "sources": [
+        "https://foodbuyingguide.fns.usda.gov/Home/About",
+        "https://www.fda.gov/food/fda-food-code/food-code-2022",
+        "https://www.fda.gov/files/2024-12-20-fodecode2022-print-0743.pdf",
+        "https://www.fda.gov/food/retail-food-protection/allergen-removal-and-transfer-using-wiping-and-cleaning-methods-retail-food-establishments",
+        "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+        "https://www.fda.gov/media/194741/download"
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+    "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+    "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html",
+    "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+    "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health",
+    "https://www.fda.gov/food/nutrition-facts-label/calories-nutrition-facts-label",
+    "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label",
+    "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html",
+    "https://www.eatrightpro.org/practice/nutrition-care-process",
+    "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-diagnosis",
+    "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment",
+    "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-monitoring-and-evaluation",
+    "https://www.eatrightstore.org/-/media/files/eatrightstore/product-detail-files/ncoasample.pdf?hash=12BA2097BA678704A28F5DA2366A93AC&rev=a3212051f14b495ca1a244008ed73b51",
+    "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease",
+    "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition",
+    "https://www.fna.usda.gov/wic/faqs",
+    "https://www.ncpro.org/vault/2570/web/files/Module%2005%20Script.pdf",
+    "https://www.niddk.nih.gov/health-information/weight-management/just-enough-food-portions",
+    "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point",
+    "https://www.ahrq.gov/cahps/improvement-guide/improvement-models/plan-do-study-act.html",
+    "https://www.eeoc.gov/disability-discrimination-and-employment-decisions",
+    "https://foodbuyingguide.fns.usda.gov/Home/About",
+    "https://www.fda.gov/food/fda-food-code/food-code-2022",
+    "https://www.fda.gov/files/2024-12-20-fodecode2022-print-0743.pdf",
+    "https://www.fda.gov/food/retail-food-protection/allergen-removal-and-transfer-using-wiping-and-cleaning-methods-retail-food-establishments",
+    "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "https://www.fda.gov/media/194741/download",
+    "https://integrationacademy.ahrq.gov/products/playbooks/behavioral-health-and-primary-care/implementing-plan/collect-and-use-data-quality-improvement"
+  ]
+}
