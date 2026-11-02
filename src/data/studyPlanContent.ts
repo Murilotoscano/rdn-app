@@ -608,14 +608,16 @@ export const studyPlanData: Record<number, DayContent> = {
             </section>
 
             <section>
-                <h2>3. Hersey-Blanchard Situational Leadership</h2>
-                <p>Match your style to the follower's readiness, which combines ABILITY and WILLINGNESS.</p>
+                <h2>3. Classic Hersey Situational Leadership</h2>
+                <p>For the specific task, match the style to readiness, which combines ABILITY and WILLINGNESS or confidence.</p>
                 <ul>
-                    <li><strong>M1</strong> low ability, high willingness &rarr; <strong>S1 Telling.</strong> High task, low relationship. Specific step-by-step direction.</li>
-                    <li><strong>M2</strong> low-moderate ability, low willingness &rarr; <strong>S2 Selling / Coaching.</strong> High task AND high relationship. Explain why.</li>
-                    <li><strong>M3</strong> high ability, variable willingness &rarr; <strong>S3 Participating.</strong> Low task, high relationship. Build confidence.</li>
-                    <li><strong>M4</strong> high ability, high willingness &rarr; <strong>S4 Delegating.</strong> Low task, low relationship. Hand it over and step back.</li>
+                    <li><strong>R1</strong> unable and unwilling or insecure &rarr; <strong>S1 Telling.</strong> High task, low relationship; provide clear directions.</li>
+                    <li><strong>R2</strong> unable but willing or confident &rarr; <strong>S2 Selling.</strong> High task and high relationship; direct, explain and support.</li>
+                    <li><strong>R3</strong> able but unwilling or insecure &rarr; <strong>S3 Participating.</strong> Low task, high relationship; involve and support.</li>
+                    <li><strong>R4</strong> able and willing or confident &rarr; <strong>S4 Delegating.</strong> Low task, low relationship; delegate with appropriate follow-up.</li>
                 </ul>
+                <p>Do not mix these classic Hersey readiness levels with Blanchard SLII development levels: SLII D1 describes an enthusiastic beginner and uses S1 Directing. Use the terminology of the model named in the question.</p>
+                <p>Source: Center for Leadership Studies, <a href="https://situational.com/blog/what-is-a-selling-leadership-style/">What is Selling Leadership Style?</a>; <a href="https://situational.com/blog/situational-leadership-and-disc-managing-the-high-s-steadiness/">Situational Leadership and performance readiness</a>.</p>
             </section>
 
             <section>
@@ -2194,10 +2196,10 @@ export const studyPlanData: Record<number, DayContent> = {
         questions: [
             {
                 id: "q24-1",
-                text: "In an ordinary atmospheric pure-steam cooking mode, which outcome is most likely compared with dry-heat roasting?",
-                options: ["Rapid dry-surface browning is enhanced by the wet environment", "Surface browning is limited because the surface stays moist", "The food always reaches temperatures above those of a pressure cooker", "Maillard browning is chemically impossible under all moist conditions"],
+                text: "When a potato is conventionally steamed rather than roasted with dry heat, which outcome is generally expected?",
+                options: ["A more deeply browned, dry crust from the moist cooking environment", "Less browned surface because the moist surface and lower temperature limit typical browning", "The potato must reach the same surface temperature as a hot dry oven", "All browning reactions are chemically impossible whenever any moisture is present"],
                 correctAnswer: 1,
-                explanation: "Atmospheric pure steam keeps the food surface moist, generally limiting the surface drying and temperature rise that promote rapid browning. This does not establish a universal maximum for pressure or superheated-steam equipment, nor make Maillard reactions impossible in every moist system."
+                explanation: "Conventional steaming keeps the potato surface wet and generally cooler than a dry roasting surface, limiting the familiar browned crust. This describes the stated cooking comparison, not a claim that browning is impossible in every moist or pressurized cooking process. Source: University of Illinois Extension, Maillard reactions change the tastes of your food, 2021 (https://extension.illinois.edu/blogs/simply-nutritious-quick-and-delicious/2021-11-19-maillard-reactions-change-tastes-your-food)."
             },
             {
                 id: "q24-2",

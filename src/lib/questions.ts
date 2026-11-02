@@ -10930,19 +10930,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Human Resources",
             "difficulty": "medium",
-            "text": "Which interview question is considered illegal or discriminatory in the United States?",
+            "text": "Which interview question should generally be avoided because it seeks family-planning information unrelated to job performance?",
             "options": [
                 "Are you legally authorized to work in the US?",
-                "Do you have reliable transportation?",
-                "Do you have plans to have children soon?",
-                "Can you perform the essential duties of the job?"
+                "Can you meet the posted work schedule?",
+                "Do you plan to have children soon?",
+                "Can you perform essential job duties with or without reasonable accommodation?"
             ],
             "correctIndex": 2,
-            "explanation": "Questions about family planning, children, pregnancy, or marital status are discriminatory and potentially illegal under Title VII of the Civil Rights Act and the Pregnancy Discrimination Act.",
+            "explanation": "Questions about plans for pregnancy or children can be evidence of discrimination. Evaluate applicants using consistent job-related criteria and applicable law, rather than assuming that every question is automatically illegal in isolation.",
             "tags": [
                 "management",
                 "HR",
                 "legal"
+            ],
+            "references": [
+                "https://www.eeoc.gov/prohibited-employment-policiespractices"
             ]
         },
         {
@@ -11323,19 +11326,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Human Resources",
             "difficulty": "hard",
-            "text": "A newly hired cook at a unionized hospital asks what working in a 'Union Shop' will mean for her. In a union shop:",
+            "text": "Under US private-sector union-security rules, what may a covered employee who objects to union membership still be required to pay where a valid union-security agreement applies?",
             "options": [
-                "Only current union members can be hired for any open position",
-                "Employees must join the union within a certain timeframe after hiring",
-                "Employees are not required to join but must pay dues or fees to the union",
-                "Union membership is completely optional and no dues are required"
+                "Full membership dues including all political spending in every state",
+                "A lawful fee limited to the employee’s share of representational activities, subject to applicable law",
+                "Nothing in every jurisdiction regardless of agreement",
+                "Any amount the employer independently chooses"
             ],
             "correctIndex": 1,
-            "explanation": "A Union Shop requires employees to join the union within a specific period after being hired. This differs from a Closed Shop (must be member to be hired) and Agency Shop (pay dues but don't have to join).",
+            "explanation": "Under applicable union-security agreements, objecting nonmembers may be required to pay a lawful share of representational costs rather than full membership dues. State right-to-work laws and other applicable rules can prohibit such requirements; coverage is not universal.",
             "tags": [
                 "management",
                 "HR",
                 "unions"
+            ],
+            "references": [
+                "https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/employees/union-dues"
             ]
         },
         {
@@ -11492,19 +11498,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Healthcare Systems",
             "difficulty": "medium",
-            "text": "Which organization accredits not just hospitals but also health plans and Patient-Centered Medical Homes (PCMH), using HEDIS data for benchmarking?",
+            "text": "Which organization accredits health plans, offers Patient-Centered Medical Home Recognition, and maintains HEDIS?",
             "options": [
-                "The Joint Commission (formerly JCAHO)",
-                "DNV GL Healthcare Accreditation Services",
+                "The Joint Commission",
+                "DNV Healthcare",
                 "National Committee for Quality Assurance (NCQA)",
-                "Centers for Medicare and Medicaid Services (CMS)"
+                "Centers for Medicare and Medicaid Services"
             ],
             "correctIndex": 2,
-            "explanation": "The NCQA accredits health plans and PCMHs and manages the HEDIS performance tool.",
+            "explanation": "NCQA offers health-plan accreditation and PCMH Recognition and maintains HEDIS. PCMH recognition is distinct from hospital accreditation.",
             "tags": [
                 "management",
                 "healthcare",
                 "quality"
+            ],
+            "references": [
+                "https://www.ncqa.org/programs/health-care-providers-practices/patient-centered-medical-home-pcmh/",
+                "https://www.ncqa.org/programs/health-plans/health-plan-accreditation-hpa/",
+                "https://www.ncqa.org/hedis/"
             ]
         },
         {
@@ -12458,19 +12469,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Functions of Management",
             "difficulty": "medium",
-            "text": "Which leadership style is most appropriate for a team with low readiness (unable and unwilling/insecure) according to Hersey-Blanchard's Situational Leadership Model?",
+            "text": "In the classic Hersey situational leadership model, an employee is unable and unwilling or insecure about a task. Which style corresponds to R1?",
             "options": [
-                "Delegating (Entrusting)",
-                "Participating (Supporting)",
-                "Selling (Coaching)",
-                "Telling (Directing)"
+                "Delegating",
+                "Participating",
+                "Selling",
+                "Telling"
             ],
             "correctIndex": 3,
-            "explanation": "For low readiness (R1), a Telling (Directing) style is needed—high task behavior, low relationship behavior—to provide specific instructions and close supervision.",
+            "explanation": "In this model R1 is unable and unwilling or insecure; S1 telling provides substantial task direction. Different leadership models use different labels.",
             "tags": [
                 "management",
                 "leadership",
                 "situational"
+            ],
+            "references": [
+                "https://situational.com/blog/situational-leadership-and-disc-managing-the-high-s-steadiness/"
             ]
         },
         {
@@ -12542,19 +12556,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Financial Management",
             "difficulty": "medium",
-            "text": "Which financial ratio assesses the ability of an organization to meet its short-term debt obligations?",
+            "text": "Which financial ratio compares current assets with current liabilities?",
             "options": [
-                "Profit Margin",
-                "Return on Assets",
-                "Current Ratio",
-                "Inventory Turnover"
+                "Profit margin",
+                "Return on assets",
+                "Current ratio",
+                "Inventory turnover"
             ],
             "correctIndex": 2,
-            "explanation": "The Current Ratio (Current Assets / Current Liabilities) measures the ability to pay short-term and long-term obligations.",
+            "explanation": "Current ratio = current assets / current liabilities. It is a short-term liquidity indicator, not a guarantee that debts can be paid on time.",
             "tags": [
                 "management",
                 "finance",
                 "ratios"
+            ],
+            "references": [
+                "https://investors.nrg.com/node/1001"
             ]
         },
         {
@@ -12989,15 +13006,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Human Resources",
             "difficulty": "medium",
-            "text": "During an interview for a clinical dietitian position, which of the following questions is strictly illegal for the hiring manager to ask the applicant under the Civil Rights Act and EEOC guidelines?",
+            "text": "Which interview question should a hiring manager generally avoid because it asks about a protected religious practice instead of a neutral job requirement?",
             "options": [
-                "Are you legally authorized to work in the United States for any employer without sponsorship?",
-                "Can you fulfill the job requirement, with or without reasonable accommodation, of lifting 20-pound boxes of enteral formula?",
-                "We often require weekend coverage. Do your religious practices prevent you from working on Saturdays?",
-                "Have you ever been convicted of a felony that directly relates to the responsibilities of this position?"
+                "Are you authorized to work in the US?",
+                "Can you meet the stated lifting requirement with or without reasonable accommodation?",
+                "Do your religious practices prevent you from working on Saturdays?",
+                "Are you available for the stated weekend schedule?"
             ],
             "correctIndex": 2,
-            "explanation": "Under Title VII of the Civil Rights Act and EEOC guidelines, it is strictly forbidden to ask a job applicant questions about their religious beliefs, practices, or affiliations during an interview. While the employer can ask 'Are you available to work weekends as the job requires?', they cannot specifically frame it around a protected class characteristic like religion. Asking about legal legal authorization to work, ability to perform physical functions, and specific relevant felony convictions are legally permissible."
+            "explanation": "Ask all applicants neutral questions about job requirements rather than soliciting religious beliefs or practices. Such inquiries can be evidence of discrimination; legal analysis depends on facts and applicable exceptions.",
+            "references": [
+                "https://www.eeoc.gov/pre-employment-inquiries-and-religious-affiliation-or-beliefs"
+            ]
         },
         {
             "id": "dom3-ext-005",
@@ -13053,15 +13073,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality",
             "difficulty": "medium",
-            "text": "Which of the following describes a sentinel event according to the Joint Commission (TJC), requiring a mandatory root cause analysis and immediate reporting?",
+            "text": "Which event is an example of a sentinel event requiring prompt internal escalation and systematic review under applicable policy?",
             "options": [
-                "A patient's tray is delivered 45 minutes late, missing their scheduled insulin window, and a nurse must give a correction dose of insulin to treat hyperglycemia.",
-                "A patient complains that their pureed carrots are cold and refuses to eat them, and later files a formal written grievance with the hospital patient advocate.",
-                "An NDTR spills hot coffee on a patient's tray table and the patient has mild redness on the forearm that clears the same day, recorded on an incident report.",
-                "A patient with a known, documented, and highlighted peanut allergy goes into anaphylactic shock and dies after mistakenly receiving a cookie containing peanut butter."
+                "A late tray with no serious harm",
+                "A cold-food complaint",
+                "Minor transient redness after a spill",
+                "A patient dies after receiving food containing a documented allergen"
             ],
             "correctIndex": 3,
-            "explanation": "The Joint Commission defines a sentinel event as a patient safety event that results in DEATH, PERMANENT HARM, or SEVERE TEMPORARY HARM. It requires a comprehensive systematic analysis (root cause analysis) and an action plan, generally within 45 days. A fatal anaphylactic reaction to a documented allergy is the textbook example: a system failure that killed the patient. The late tray corrected with insulin and the minor burn that clears the same day are incidents to report and trend internally, and the cold-food complaint is a grievance, not a safety event."
+            "explanation": "A fatal patient-safety event such as this warrants prompt internal response and comprehensive analysis. Joint Commission self-reporting is strongly encouraged but not mandatory; if the organization reports the event, the applicable submission timeline depends on the policy and timing. Other reporting requirements may apply.",
+            "references": [
+                "https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/sentinel-event-policy-and-procedures"
+            ]
         },
         {
             "id": "dom3-ext-009",
@@ -13133,15 +13156,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality",
             "difficulty": "hard",
-            "text": "A clinical nutrition manager conducts a retrospective chart review to assess if 90% of newly admitted patients with high nutrition risk were assessed by an RD within 24 hours. The results show only 75% adherence. Using the continuous quality improvement (CQI) model PDCA (Plan-Do-Check-Act), what is the next logical step?",
+            "text": "A manager checks an improvement project and finds only 75% adherence against a 90% target. In PDCA, what follows the Check step?",
             "options": [
-                "Act: Punish staff who failed to meet the 24-hour deadline and document it in their performance reviews.",
-                "Plan: Investigate the root causes of the delay and develop a new strategy to improve assessment times.",
-                "Do: Immediately change the deadline from 24 hours to 48 hours to ensure 100% compliance.",
-                "Check: Audit the charts again next month before taking any actions, keeping the current process unchanged."
+                "Act on the findings: adapt the intervention and plan the next cycle",
+                "Punish every employee without investigating the process",
+                "Change the target solely to make results look compliant",
+                "Declare the project complete because data were collected"
             ],
-            "correctIndex": 1,
-            "explanation": "In the PDCA cycle, the manager has completed the 'Check' phase by auditing the data and comparing it against the benchmark (90% desired vs 75% actual). The next logical loop begins with 'Plan': investigating why the goal was not met (e.g., staffing issues, faulty notification systems) and developing a plan to address those root causes. Action must be based on data and process improvement, not punitive measures (a core tenet of TQM/CQI). Lowering standards to meet compliance defeats the purpose of quality improvement."
+            "correctIndex": 0,
+            "explanation": "After Check, Act uses the findings to adopt, adapt or abandon the change and begin the next cycle. If performance is inadequate, the team investigates and revises the intervention rather than concealing the result.",
+            "references": [
+                "https://asq.org/quality-resources/pdca-cycle"
+            ]
         },
         {
             "id": "dom3-fq-004",
@@ -13181,15 +13207,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Quality",
             "difficulty": "medium",
-            "text": "The Joint Commission (TJC) requires hospitals to adhere to National Patient Safety Goals. When a dietitian enters patient room to provide dietary education, what is the required protocol for identifying the patient?",
+            "text": "Which practice supports accurate patient identification before a clinical treatment or procedure under Joint Commission patient-safety guidance?",
             "options": [
-                "Check the patient's room number and bed letter posted at the door.",
-                "Ask the patient, \"Are you Mr. Smith?\" and proceed once they say yes.",
-                "Use at least two patient identifiers, such as name and date of birth.",
-                "Verify the dietary tray ticket matches the medical record on the unit."
+                "Use room number alone",
+                "Ask a leading yes/no name question alone",
+                "Use at least two patient identifiers, such as name and date of birth",
+                "Use the meal tray color as the sole identifier"
             ],
             "correctIndex": 2,
-            "explanation": "The Joint Commission strictly requires the use of at least two independent patient identifiers whenever administering medications, blood products, or providing treatments/procedures (including diet instruction). Acceptable identifiers usually include the patient's full name and date of birth or medical record number. Room number or bed assignment is explicitly prohibited as an identifier because patients can be moved. Prompting a patient with a name ('Are you Mr. Smith?') is dangerous if patients are confused or hard of hearing."
+            "explanation": "Use at least two patient identifiers according to facility policy, such as name and date of birth or medical-record number; room number is not an identifier. The hospital National Performance Goals replaced the prior NPSG chapter name effective in 2026.",
+            "references": [
+                "https://www.jointcommission.org/en-us/standards/national-performance-goals"
+            ]
         },
         {
             "id": "dom3-fq-007",
@@ -13543,19 +13572,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Food Service Logistics",
             "difficulty": "medium",
-            "text": "In a commercial warewashing operation, a high-temperature dishwasher differs from a low-temperature dishwasher in that the high-temperature model:",
+            "text": "Under the FDA 2022 Food Code, what minimum final sanitizing rinse temperature at the manifold applies to a stationary-rack, single-temperature hot-water warewashing machine?",
             "options": [
-                "Requires chemical sanitizing agents such as chlorine in the final rinse cycle",
-                "Uses a final rinse temperature of 180°F and does not require chemical sanitizers",
-                "Is more economical because it uses less water and energy per rack of dishes",
-                "Is the best choice for small under-counter residential operations and bars"
+                "145°F",
+                "155°F",
+                "165°F",
+                "180°F in every type of machine"
             ],
-            "correctIndex": 1,
-            "explanation": "High-temperature warewashers use a final rinse temperature of 180°F which sanitizes through heat alone — no chemical sanitizing agents are needed. Low-temperature washers use cooler water and require chemical sanitizers (chlorine or quats) in the rinse cycle. High-temp machines use more energy but eliminate chemical costs.",
+            "correctIndex": 2,
+            "explanation": "FDA 2022 section 4-501.112 specifies at least 165°F for this machine type, measured as the water enters the manifold; other machine types generally have a 180°F minimum. Verify adopted local code, machine specifications and surface sanitation.",
             "tags": [
                 "equipment",
                 "warewasher",
                 "sanitation"
+            ],
+            "references": [
+                "https://www.fda.gov/files/food/published/FDA-FoodCode2022-FullDocument-01182023_0.pdf"
             ]
         },
         {
@@ -13706,19 +13738,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Food Service Logistics",
             "difficulty": "medium",
-            "text": "A foodservice manager is choosing between chemical sanitizers. Which sanitizer is non-irritating, non-corrosive, effective across a wide temperature range, but should NOT be used with hard water or heavy soil, and reacts dangerously with detergent residue?",
+            "text": "Which practice is appropriate when using a quaternary ammonium sanitizer in foodservice?",
             "options": [
-                "Chlorine (hypochlorite solution)",
-                "Quaternary ammonium (quats)",
-                "Iodine (iodophors in solution)",
-                "Sodium hypochlorite (bleach)"
+                "Follow the product label for dilution, compatibility, contact time and any required rinsing",
+                "Mix all sanitizers with any detergent to release a disinfecting gas",
+                "Assume all formulations work regardless of water hardness or soil",
+                "Mix chlorine bleach with ammonia to increase effectiveness"
             ],
-            "correctIndex": 1,
-            "explanation": "Quaternary ammonium compounds (quats) are non-irritating, non-corrosive, and stable across a wide temperature and pH range. However, quats should not be used with hard water or heavy soil loads, and if detergent residue remains on dishes, quats will react with it to form dangerous gases — making thorough rinsing critical. Chlorine is corrosive to metal and affected by pH, temp, and soil. Iodophors evaporate above 120°F and stain plastics.",
+            "correctIndex": 0,
+            "explanation": "Quat performance depends on formulation and use conditions. Follow the registered label. Never assume that all detergent residues are compatible; the dangerous gas warning applies to mixtures such as bleach and ammonia or acid.",
             "tags": [
                 "sanitation",
                 "sanitizers",
                 "quats"
+            ],
+            "references": [
+                "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/chemical-disinfectants.html"
             ]
         },
         {
@@ -13787,19 +13822,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Food Service Logistics",
             "difficulty": "medium",
-            "text": "In the HVAC system of a commercial kitchen, outside air brought into the work space is called:",
+            "text": "What does supply air mean in an HVAC system?",
             "options": [
-                "Return air",
-                "Exhaust air",
-                "Supply air",
-                "Recirculated air"
+                "Air delivered to the conditioned space",
+                "Only outdoor air before any mixing",
+                "Only air exhausted outdoors",
+                "Any air remaining inside a sealed duct"
             ],
-            "correctIndex": 2,
-            "explanation": "HVAC air flow: Supply air = outdoor air brought into the workspace from outside; Return air = air from the workspace filtered and recirculated (mixed with supply air); Exhaust air = stale/contaminated air removed from the building entirely. Ventilation systems work on a loop taking workspace air, removing exhaust, and mixing return air with fresh supply air.",
+            "correctIndex": 0,
+            "explanation": "Supply air is delivered to a space; it may contain outdoor air, recirculated air or a mixture. Return air may be recirculated, exhausted or otherwise managed according to the system design.",
             "tags": [
                 "facility",
                 "HVAC",
                 "ventilation"
+            ],
+            "references": [
+                "https://www.ashrae.org/file%20library/technical%20resources/covid-19/practical-guidance-for-epidemic-operation-of-ervs.pdf"
             ]
         },
         {
@@ -14102,21 +14140,25 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Labor Law",
             "difficulty": "medium",
-            "text": "Which labor law (1) created the National Labor Relations Board, (2) guarantees private-sector workers the right to unionize and engage in collective bargaining, and (3) permits states to pass right-to-work laws?",
+            "text": "Which 1935 federal law created the National Labor Relations Board and protected collective bargaining rights for covered private-sector employees?",
             "options": [
-                "Labor Management Relations Act / Taft-Hartley Act (1947)",
-                "Labor-Management Reporting Act / Landrum-Griffin Act (1959)",
-                "National Labor Relations Act / Wagner Act (1935)",
-                "Fair Labor Standards Act / Wage and Hour Law (1938)"
+                "Taft-Hartley Act of 1947",
+                "Landrum-Griffin Act of 1959",
+                "National Labor Relations Act (Wagner Act)",
+                "Fair Labor Standards Act of 1938"
             ],
             "correctIndex": 2,
-            "explanation": "The National Labor Relations Act (NLRA / Wagner Act, 1935): Created the NLRB; guarantees private-sector employees the right to organize, join unions, engage in collective bargaining, and strike; protects the right TO join AND NOT to join a union; requires unions to provide 'duty of fair representation'; permits states to pass right-to-work laws governing public sector unions. Pro-LABOR. Taft-Hartley (1947): outlawed closed shops, added unfair labor practices for unions — Pro-MANAGEMENT. Landrum-Griffin (1959): imposed code of conduct on unions to address corruption.",
+            "explanation": "The Wagner Act of 1935 created the NLRB. The Taft-Hartley Act amended the NLRA in 1947; section 14(b) addresses state laws concerning union-security agreements. The NLRA excludes certain workers, including public-sector employees.",
             "tags": [
                 "NLRA",
                 "Wagner-Act",
                 "labor-law",
                 "collective-bargaining",
                 "NLRB"
+            ],
+            "references": [
+                "https://www.nlrb.gov/guidance/key-reference-materials/national-labor-relations-act",
+                "https://www.nlrb.gov/about-nlrb/who-we-are/our-history/1947-taft-hartley-passage-and-nlrb-structural-changes"
             ]
         },
         {
@@ -14124,21 +14166,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Labor Law",
             "difficulty": "medium",
-            "text": "A hospital employee does not belong to the union but pays partial union dues that cover only collective bargaining and grievance adjustments — NOT political activity. This arrangement is called a(n):",
+            "text": "A covered private-sector employee exercises the Beck right to object to union membership under a valid union-security agreement. Which payment may still be required where state law permits the agreement?",
             "options": [
-                "Closed shop",
-                "Union shop",
-                "Agency shop",
-                "Open shop"
+                "Full membership dues including all political spending in every state",
+                "A lawful fee limited to the employee’s share of representational activities, subject to applicable law",
+                "Nothing in every jurisdiction regardless of agreement",
+                "Any amount the employer independently chooses"
             ],
-            "correctIndex": 2,
-            "explanation": "Agency shop: employee does NOT need to be a union member but MUST pay partial dues covering only benefits received (collective bargaining, grievance adjustments) — not political activity or union organization. Closed shop: ONLY union members can be hired — outlawed by Taft-Hartley (1947). Union shop: can be hired without union membership but must JOIN within a certain time period (e.g., 30 days). Open shop / right-to-work: no one can be compelled to join OR pay dues — still benefits from union activities. Arbitration: third party with POWER to dictate settlement. Mediation: third party with NO power to dictate.",
+            "correctIndex": 1,
+            "explanation": "Under applicable union-security agreements, objecting nonmembers may be required to pay a lawful share of representational costs rather than full membership dues. State right-to-work laws and other applicable rules can prohibit such requirements; coverage is not universal.",
             "tags": [
                 "agency-shop",
                 "union-shop",
                 "closed-shop",
                 "open-shop",
                 "labor-law"
+            ],
+            "references": [
+                "https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/employees/union-dues"
             ]
         },
         {
@@ -14211,21 +14256,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Leadership",
             "difficulty": "hard",
-            "text": "Using the Hersey-Blanchard-Johnson (HBL) model, a manager has a new employee who lacks the skills needed for the task but is enthusiastic and eager to learn. Which maturity level and leadership style apply?",
+            "text": "In the classic Hersey situational leadership readiness model, an employee cannot yet perform a task independently but is willing to learn. Which readiness level and style apply?",
             "options": [
-                "M1 — S1 Telling (high task, low relationship behavior)",
-                "M2 — S2 Selling (high task, high relationship behavior)",
-                "M3 — S3 Participating (low task, high relationship behavior)",
-                "M4 — S4 Delegating (low task, low relationship behavior)"
+                "R1 and S1 telling",
+                "R2 and S2 selling",
+                "R3 and S3 participating",
+                "R4 and S4 delegating"
             ],
             "correctIndex": 1,
-            "explanation": "HBL model matches follower maturity to leadership style: M2 (Unable but Willing) — follower lacks ability/experience but IS enthusiastic. Requires HIGH task behavior (needs direction) AND HIGH relationship behavior (needs encouragement to support learning). Leadership style: S2 SELLING — leader explains goals, methods, and reasons; provides both direction and support. M1 (Unable and Unwilling): high task, LOW relationship — S1 Telling (directive only). M3 (Able but Unwilling): LOW task, high relationship — S3 Participating. M4 (Able and Willing): low task, low relationship — S4 Delegating.",
+            "explanation": "The cited classic model uses R2 for willing but not yet able and S2 selling for direction with support. SLII uses a different set of development labels; do not mix the tables.",
             "tags": [
                 "HBL",
                 "Hersey-Blanchard",
                 "leadership-model",
                 "maturity-levels",
                 "selling-style"
+            ],
+            "references": [
+                "https://situational.com/blog/what-is-a-selling-leadership-style/"
             ]
         },
         {
@@ -14277,21 +14325,25 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Healthcare System",
             "difficulty": "medium",
-            "text": "The Joint Commission (TJC) is a hospital accrediting organization. How often does TJC conduct on-site surveys of hospitals?",
+            "text": "Which statement accurately describes a distinction between two healthcare quality organizations?",
             "options": [
-                "Annually with quarterly self-assessments",
-                "Every 2 years with annual self-assessments",
-                "Every 3 years with annual self-assessments",
-                "Every 5 years with biannual self-assessments"
+                "NCQA recognizes patient-centered medical homes; The Joint Commission accredits hospitals under its applicable programs",
+                "NCQA is the federal agency that pays Medicare claims",
+                "Joint Commission accreditation automatically creates Medicare enrollment",
+                "NCQA recognition and hospital licensure are always identical"
             ],
-            "correctIndex": 2,
-            "explanation": "The Joint Commission (TJC), established 1951, conducts on-site surveys every 3 years with annual self-assessments prepared by hospitals. TJC: independent, not-for-profit; has had deeming authority from CMS since 1966; accredits hospitals, home care, rehab, long-term care, behavioral health, and more. TJC standards are based on National Patient Safety Goals and EXCEED CMS Conditions of Participation (CoPs). DNVGL Healthcare (deeming authority since 2008) conducts ANNUAL surveys. NCQA accredits health plans and Patient-Centered Medical Homes using HEDIS data.",
+            "correctIndex": 0,
+            "explanation": "NCQA offers Patient-Centered Medical Home Recognition and health-plan accreditation. The Joint Commission offers hospital accreditation; Medicare deeming depends on the applicable approved program and other CMS requirements.",
             "tags": [
                 "Joint-Commission",
                 "TJC",
                 "accreditation",
                 "deeming-authority",
                 "CMS"
+            ],
+            "references": [
+                "https://www.ncqa.org/programs/health-care-providers-practices/patient-centered-medical-home-pcmh/",
+                "https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-general-information/accrediting-organizations-aos"
             ]
         },
         {
@@ -14543,15 +14595,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Management Concepts",
             "difficulty": "medium",
-            "text": "A hospital's accreditation by The Joint Commission means it has also achieved which status with CMS?",
+            "text": "What does accreditation by a CMS-approved accrediting organization potentially provide for a hospital seeking Medicare participation?",
             "options": [
-                "NCQA certification for health plan quality (accredited to meet managed care performance measures)",
-                "CMS certification (deemed to meet federal regulatory standards for Medicare/Medicaid reimbursement)",
-                "ISO 9001 certification for continuous quality improvement (international quality management standard)",
-                "State health department licensure for facility operation (automatically granted with accreditation)"
+                "Automatic state licensure in all states",
+                "A possible deemed-status pathway toward demonstrating compliance with applicable CMS conditions",
+                "Automatic Medicare enrollment and payment without further requirements",
+                "Automatic NCQA health-plan accreditation"
             ],
             "correctIndex": 1,
-            "explanation": "If a hospital is accredited by an organization with DEEMING AUTHORITY (like TJC or DNVGL), it is automatically DEEMED to meet CMS Conditions of Participation (CoPs) and is thus CMS-certified — eligible for Medicare/Medicaid reimbursement. However, a hospital does NOT need accreditation to be CMS-certified — it can be certified directly through CMS state agency surveys. Why pay for accreditation? Time is money: without accreditation, hospitals must wait for an unannounced CMS survey and are ineligible for reimbursement during that wait. TJC has had deeming authority since 1966.",
+            "explanation": "A CMS-approved accreditation program can provide a deemed-status pathway when applicable requirements and CMS acceptance are met. Accreditation alone does not automatically complete Medicare certification, enrollment or payment eligibility; oversight continues.",
             "tags": [
                 "Joint-Commission",
                 "TJC",
@@ -14559,6 +14611,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "deeming-authority",
                 "Medicare",
                 "accreditation"
+            ],
+            "references": [
+                "https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-general-information/accrediting-organizations-aos"
             ]
         },
         {
@@ -14566,21 +14621,25 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Management Concepts",
             "difficulty": "medium",
-            "text": "A mediator is brought in to help resolve a labor dispute between hospital management and the nurses' union. How does mediation differ from arbitration?",
+            "text": "How does mediation differ from binding arbitration in a labor dispute?",
             "options": [
-                "Mediators have binding authority to dictate terms; arbitrators do not",
-                "Arbitrators have the power to dictate settlement terms; mediators do not",
-                "Mediation is only for union disputes; arbitration applies to all employment contracts",
-                "Arbitration requires both parties' agreement; mediation can be imposed unilaterally"
+                "A mediator imposes a binding award, while an arbitrator only facilitates",
+                "A mediator facilitates agreement; a binding arbitrator issues a decision under the parties’ agreement",
+                "Mediation always prevents a lawful strike",
+                "Arbitration is always voluntary and never binding"
             ],
             "correctIndex": 1,
-            "explanation": "Arbitration: third-party ARBITRATOR has the POWER to DICTATE settlement terms — guarantees resolution. Mediation: MEDIATOR facilitates dialogue but has NO power to dictate a final ruling — parties must still agree. Healthcare exception under the NLRA (amended 1974): unions representing healthcare workers must provide 90 days' notice before terminating labor agreements and labor disputes must be submitted to MEDIATION (not left to strike) to protect essential services. Mediation preferred over arbitration in healthcare to maintain service continuity while still seeking voluntary resolution.",
+            "explanation": "Mediation helps parties negotiate without the mediator imposing a settlement. Binding arbitration produces a decision under the relevant agreement. Healthcare labor disputes have statutory notice and mediation requirements; these do not eliminate lawful strikes.",
             "tags": [
                 "arbitration",
                 "mediation",
                 "labor-dispute",
                 "NLRA",
                 "collective-bargaining"
+            ],
+            "references": [
+                "https://www.nlrb.gov/strikes",
+                "https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/collective-bargaining-section-8d-8b3"
             ]
         },
         {
@@ -14830,15 +14889,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Management Concepts",
             "difficulty": "medium",
-            "text": "Delegation gives an employee responsibility for a task AND the authority to alter procedures to achieve the desired outcome. Which HBL maturity level is NOT appropriate for delegation?",
+            "text": "In the classic Hersey situational leadership readiness model, an employee cannot yet perform a task independently but is willing to learn. Which approach is associated with this readiness level?",
             "options": [
-                "M4 — high ability and high willingness, with a proven track record",
-                "M3 — high ability but variable willingness or low confidence",
-                "M2 — low-moderate ability with low willingness after setbacks",
-                "Both M1 and M2, because the employee still lacks the ability"
+                "Delegating with minimal direction",
+                "Participating with little task direction",
+                "Selling: give direction and explain while providing support",
+                "Assume willingness proves mastery and stop checking"
             ],
-            "correctIndex": 3,
-            "explanation": "Delegation hands over responsibility AND the authority to change how the task is done, so the employee must already have the ABILITY. Using the Hersey-Blanchard table in this app's Domain III guide: M1 = low ability with high willingness (S1 Telling) and M2 = low-moderate ability with low willingness (S2 Selling/Coaching). Neither can be delegated to, however eager they are. M3 (high ability, shaky confidence) fits S3 Participating, where limited delegation with support works. M4 (high ability and high willingness) fits S4 Delegating, full delegation. Note that some textbooks word the classic readiness levels differently (R1 unable and unwilling, R2 unable but willing); either way, low ability rules delegation out.",
+            "correctIndex": 2,
+            "explanation": "In the cited classic readiness model, R2 describes a willing but not yet able follower; S2 selling combines direction and support. Other models such as SLII use different development labels and should not be interchanged.",
             "tags": [
                 "delegation",
                 "HBL",
@@ -14846,6 +14905,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "M2",
                 "capability",
                 "management"
+            ],
+            "references": [
+                "https://situational.com/blog/what-is-a-selling-leadership-style/"
             ]
         },
         {
@@ -14985,20 +15047,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Management Concepts",
             "difficulty": "medium",
-            "text": "Strategic planning asks 4 key questions. Which of the following is NOT one of them?",
+            "text": "Which activity is part of monitoring a strategic plan?",
             "options": [
-                "Where are we now? (situation analysis)",
-                "Where are we going? (vision and goals)",
-                "Who is responsible for each objective?",
-                "Are we on track? (monitoring and evaluation)"
+                "Compare progress with objectives and adjust actions when needed",
+                "Assume evaluation is unrelated to planning",
+                "Avoid assigning responsibility for any objective",
+                "Ignore changes in the organization’s environment"
             ],
-            "correctIndex": 2,
-            "explanation": "Strategic planning is a continuous and systematic management process to determine long-term goals, the best approach to accomplish them, and how success will be measured. The 4 key questions are: (1) Where are we now? (2) Where are we going? (3) How do we get there? (4) Are we on track? Key features: continuous, systematic, future-thinking, creates a plan to accomplish outcomes, analyzes the organization in context of its environment, determines success criteria, and evaluates progress. Strategic planning is NOT used in evaluation — it is used to INFORM policies and operational decisions. 'Who is responsible' relates to organizing, not strategic planning.",
+            "correctIndex": 0,
+            "explanation": "Strategic planning includes setting goals, assigning responsibilities, monitoring results and adapting the plan. Evaluation informs future decisions rather than being excluded from planning.",
             "tags": [
                 "strategic-planning",
                 "management-functions",
                 "long-term-goals",
                 "strategy"
+            ],
+            "references": [
+                "https://www.ahrq.gov/patient-safety/settings/long-term-care/resource/hcbs/medicaidmgmt/mm1.html"
             ]
         },
         {
@@ -16058,19 +16123,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Food Production",
             "difficulty": "medium",
-            "text": "In a 'Cook-Chill' system, food is held chilled for storage. What is the maximum recommended storage time for cook-chill items (using tumble chill method)?",
+            "text": "Under the FDA 2026 Food Code, which described controlled cook-chill storage option has a maximum of 30 days, provided all applicable process and monitoring requirements are met?",
             "options": [
-                "1-2 days",
-                "45 days",
-                "3-5 days",
-                "6 months"
+                "Food held at or below 34°F",
+                "Food held at 41°F without other controls for 45 days",
+                "Any blast-chilled food held at room temperature",
+                "Any tumble-chilled food regardless of packaging or temperature"
             ],
-            "correctIndex": 1,
-            "explanation": "With proper blast chilling or tumble chilling, cook-chill foods can be safely stored for up to 45 days. (Though typically used within shorter periods).",
+            "correctIndex": 0,
+            "explanation": "FDA 2026 section 3-502.12(D) permits this controlled cook-chill option after cooling to 34°F within 48 hours of reaching 41°F, holding at that temperature and consuming or discarding within 30 days of packaging. HACCP, packaging, monitoring and other conditions also apply; cooling equipment alone does not establish a shelf life.",
             "tags": [
                 "foodservice",
                 "production",
                 "systems"
+            ],
+            "references": [
+                "https://www.fda.gov/media/194741/download"
             ]
         },
         {
@@ -17304,19 +17372,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Sanitation",
             "difficulty": "hard",
-            "text": "What is the minimum internal temperature for cooking ground meat (beef, pork)?",
+            "text": "Under the FDA 2026 Food Code, which time-temperature combination is specified for ground meat, subject to applicable exceptions and equivalent combinations?",
             "options": [
-                "145°F",
-                "155°F",
-                "165°F",
-                "135°F"
+                "145°F for 1 second",
+                "155°F for 17 seconds",
+                "135°F for 1 second",
+                "110°F for 17 seconds"
             ],
             "correctIndex": 1,
-            "explanation": "Ground meats must be cooked to 155°F (68°C) because bacteria on the surface are ground into the center.",
+            "explanation": "FDA 2026 section 3-401.11(A)(2) specifies 155°F for 17 seconds for comminuted meats and lists equivalent combinations. Always follow the adopted jurisdictional requirements and applicable exceptions.",
             "tags": [
                 "foodservice",
                 "sanitation",
                 "temperatures"
+            ],
+            "references": [
+                "https://www.fda.gov/media/194741/download"
             ]
         },
         {
@@ -17514,15 +17585,18 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Sanitation",
             "difficulty": "hard",
-            "text": "During a local health department inspection of a long-term care facility kitchen, the inspector notes the temperature of the primary chemical sanitizing dishwasher. The wash cycle is 140°F (60°C) and the final sanitizing rinse cycle using a chlorine-based sanitizer is 85°F (29°C). What should the inspector's conclusion be?",
+            "text": "A chlorine-sanitizing dishwasher has an 85°F final rinse. No chlorine concentration, pH, exposure time or label conditions are supplied. What can an inspector conclude from temperature alone?",
             "options": [
-                "The dishwasher is fully compliant; the chemical sanitizer requires warm water between 75°F and 120°F to remain effective without evaporating too quickly.",
-                "The dishwasher is non-compliant; a chemical sanitizing rinse must reach at least 165°F (74°C) to kill bacteria and viruses on all surfaces of the ware.",
-                "The dishwasher is non-compliant; the wash cycle must be at least 150°F (65°C) regardless of the type of chemical sanitizer used in the final rinse.",
-                "The dishwasher is non-compliant; chlorine sanitizers are illegal in long-term care facilities and must be replaced with iodine or quats."
+                "Compliance cannot be determined without the other required conditions",
+                "The machine is fully compliant regardless of concentration",
+                "Chemical sanitizing always requires a 165°F final rinse",
+                "Chlorine sanitizers are prohibited in all long-term care facilities"
             ],
             "correctIndex": 0,
-            "explanation": "Because this is a *chemical* sanitizing dishwasher (low-temperature), it relies on the chemical (chlorine, iodine, quats) rather than intense heat to kill pathogens. The wash cycle for chemical machines must be at least 120°F (the machine here is 140°F, which is fine). The critical point is the final rinse: chlorine sanitizer requires water between 75°F and 120°F to function optimally (the machine here is 85°F, which is perfect). If the water is too cold, the chemical won't activate. If it is too hot (>120°F), the chlorine will evaporate/dissipate before it can sanitize the dishes. (Only HIGH-temperature, heat-sanitizing dishwashers require wash = 150°F and final rinse = 180°F)."
+            "explanation": "A temperature alone does not establish compliance. Applicable concentration, pH, exposure time, equipment and EPA-label requirements must also be evaluated against the adopted food code.",
+            "references": [
+                "https://www.fda.gov/media/194741/download"
+            ]
         },
         {
             "id": "dom4-ext-002",
@@ -22949,19 +23023,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Community Nutrition Programs",
             "difficulty": "medium",
-            "text": "An RDN is hired to run SNAP-Ed programming for a county health department. Which activity fits the purpose of SNAP-Ed?",
+            "text": "During a historically funded SNAP-Ed program, which activity fit its educational purpose?",
             "options": [
-                "Teaching budget cooking classes and supporting policy, systems, and environment change",
-                "Determining each applicant's eligibility and issuing the monthly benefits to households",
-                "Providing individual medical nutrition therapy billed to Medicare Part B for diabetes",
-                "Distributing emergency food boxes and tracking each household's monthly food inventory"
+                "Teaching budget cooking and supporting nutrition-related policy, systems and environmental change",
+                "Determining SNAP eligibility and issuing household benefits",
+                "Providing Medicare-billed individual medical nutrition therapy",
+                "Determining the annual cost of a hospital inpatient tray"
             ],
             "correctIndex": 0,
-            "explanation": "SNAP-Ed is the education and obesity-prevention arm of SNAP. It funds evidence-based nutrition and physical activity education for SNAP-eligible audiences, plus policy, systems, and environmental (PSE) work such as improving school wellness policies or stocking healthier items in corner stores. Eligibility determination and benefit issuance belong to the state SNAP agency, medical nutrition therapy is a clinical service billed separately, and emergency food boxes come from food banks and TEFAP.",
+            "explanation": "SNAP-Ed supported nutrition education and policy, systems and environmental approaches for eligible populations. Federal allocations ended after FY2025; USDA provided FY2026 guidance on closeout and permitted carryover. Date the program scenario rather than assuming ongoing federal funding.",
             "tags": [
                 "community",
                 "snap-ed",
                 "program management"
+            ],
+            "references": [
+                "https://www.fna.usda.gov/snap-ed/closeout-qas"
             ]
         },
         {
@@ -23079,15 +23156,15 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Menu Planning",
             "difficulty": "medium",
-            "text": "Under USDA memo SP 01-2026 (14 January 2026), which implements the Whole Milk for Healthy Kids Act of 2025 for the National School Lunch Program, what must a school offer at lunch?",
+            "text": "Under USDA memo SP 01-2026, what milk variety requirement applied to the National School Lunch Program?",
             "options": [
-                "At least two fluid milk options daily, with unflavored milk at each meal service; whole and 2% are now permitted",
-                "Only fat-free or low-fat (1%) milk, flavored or unflavored, exactly as the rule required before January 2026",
-                "Whole milk at every lunch for all students, since the statute made whole milk mandatory during 2026",
-                "A single milk option of the school's choice, because the memo removed the daily variety requirement"
+                "Offer at least two milk options and offer unflavored milk; whole and 2% milk are permitted",
+                "Offer only 1% milk",
+                "Offer only whole milk",
+                "Offer exactly one milk option"
             ],
             "correctIndex": 0,
-            "explanation": "USDA memo SP 01-2026 implements the Whole Milk for Healthy Kids Act of 2025 for the NATIONAL SCHOOL LUNCH PROGRAM only, and it applies effective immediately. Schools MAY now offer whole, reduced-fat (2%), low-fat (1%), fat-free and lactose-free fluid milk, plus nutritionally equivalent nondairy beverages, flavored or unflavored and organic or not. The existing variety requirement stands: at least two different fluid milk options at lunch daily, unflavored milk offered at each meal service, and flavored milk no more than 10 grams of added sugars per 8 fluid ounces. Permitted is not required, so a district decides what it actually serves. Dietary specifications: fluid milk is now EXCLUDED from the weekly saturated fat limit, while calories and sodium still count milk, and the weekly added-sugars limit takes effect 1 July 2027. The memo does not cover the School Breakfast Program, CACFP or the other child nutrition programmes, which keep their own milk rules.",
+            "explanation": "The January 2026 memorandum addressed NSLP, allowing whole and 2% milk while retaining variety and unflavored-milk requirements. USDA’s June 2026 rule subsequently extended milk options to other specified child-nutrition programs; this is a dated historical question.",
             "tags": [
                 "foodservice",
                 "nslp",
@@ -23095,6 +23172,9 @@ export const SAMPLE_QUESTIONS: Question[] = [
                 "school meals",
                 "milk",
                 "sp 01-2026"
+            ],
+            "references": [
+                "https://fns-prod.azureedge.us/cn/fr-050826"
             ]
         },
         {
@@ -23103,20 +23183,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Menu Planning",
             "difficulty": "medium",
-            "text": "A middle school runs the School Breakfast Program with Offer versus Serve. What must a student take for the breakfast to be reimbursable?",
+            "text": "Under Offer versus Serve in the School Breakfast Program, what must a student select for a reimbursable breakfast?",
             "options": [
-                "At least three of the four items offered, including a half cup of fruit or vegetable",
-                "All four of the items offered, because Offer versus Serve applies only at lunch",
-                "Two items of the student's choice, with no requirement for fruit or vegetable",
-                "Milk and one grain item, because breakfast carries no fruit requirement"
+                "At least three of four food items offered, including at least half a cup of fruit or vegetable",
+                "All four items in every case",
+                "Any two items with no fruit or vegetable",
+                "Milk alone"
             ],
             "correctIndex": 0,
-            "explanation": "The School Breakfast Program pattern offers three components (fruit or vegetable, grains, milk) as at least four food items, and under Offer versus Serve the student must take at least three items, one of which must be a half cup or more of fruit or vegetable. Meat/meat alternates may substitute for grains once the daily grain minimum is met. Breakfast reimbursement rates are lower than lunch rates, and severe-need schools receive a higher rate.",
+            "explanation": "Breakfast offers at least four food items; under Offer versus Serve the student selects at least three, including at least half a cup of fruit or vegetable. USDA combined the grains and meat/meat alternates component and removed the separate daily grain minimum.",
             "tags": [
                 "foodservice",
                 "sbp",
                 "offer versus serve",
                 "school meals"
+            ],
+            "references": [
+                "https://fns-prod.azureedge.us/sites/default/files/media/file/cn-dga-final-rule-comparison-chart-may2024.pdf"
             ]
         },
         {
@@ -23189,19 +23272,22 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain IV",
             "topic": "Menu Planning",
             "difficulty": "hard",
-            "text": "Which practice meets the CACFP meal pattern in a center serving children aged 1 through 5?",
+            "text": "Which milk service is one compliant option for a CACFP center serving children ages 1 through 5?",
             "options": [
-                "Unflavored whole milk at age 1, then unflavored low-fat or fat-free milk from age 2",
-                "Flavored low-fat milk served at every meal to all children aged 1 through 5 years",
-                "Juice at breakfast and again at the afternoon snack on that same program day",
-                "Cookies and other grain-based desserts credited toward the daily grain component"
+                "Unflavored whole milk at age 1 and unflavored low-fat or fat-free milk at ages 2–5",
+                "Flavored milk for every child age 1",
+                "Juice at every meal instead of milk",
+                "Water as the only milk substitute for every child"
             ],
             "correctIndex": 0,
-            "explanation": "CACFP milk rules follow development: unflavored whole milk for 1-year-olds, then unflavored low-fat or fat-free milk for ages 2 through 5, with flavored milk reserved for children 6 and older. Juice, which must be 100% juice, counts only once per day. Grain-based desserts such as cookies, brownies, and toaster pastries cannot be credited at all. Ounce-equivalents are used for grains, at least one grain each day must be whole grain-rich, and drinking water must be available to children throughout the day.",
+            "explanation": "This remains one compliant milk option. USDA’s June 2026 rule also permits unflavored whole or reduced-fat milk for ages 2–5; consult current meal-pattern requirements and applicable accommodations.",
             "tags": [
                 "foodservice",
                 "cacfp",
                 "meal pattern"
+            ],
+            "references": [
+                "https://fns-prod.azureedge.us/cn/fr-050826"
             ]
         },
         {
@@ -23253,20 +23339,24 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Community Nutrition Programs",
             "difficulty": "medium",
-            "text": "An RDN consults for a Head Start center that participates in CACFP. During a state agency review, which documentation carries the most weight?",
+            "text": "Which documents help a CACFP reviewer verify meals served and meal-pattern compliance?",
             "options": [
-                "Menus with production records, plus meal counts and attendance for every claim",
-                "Individual diet orders signed by a physician for each child enrolled at the center",
-                "Purchase receipts proving that all foods were bought from one approved vendor",
-                "Annual financial statements showing that the center finished the year in surplus"
+                "Menus and applicable meal-pattern documentation, meal counts, and attendance or enrollment records",
+                "A physician diet order for every child regardless of need",
+                "A receipt showing all foods came from one vendor",
+                "Only an annual surplus statement"
             ],
             "correctIndex": 0,
-            "explanation": "CACFP reviews test whether the meals claimed were actually served and met the meal pattern, so the core records are menus and production records (showing components and portion sizes by age group), point-of-service meal counts, and enrollment and attendance records. Missing or reconstructed meal counts are the most common finding and can trigger repayment. Physician diet orders are needed only for individual modifications, and vendor or financial records serve other purposes.",
+            "explanation": "Reviews examine documented meals, meal counts and applicable enrollment and attendance records. Production-record requirements vary by state and setting; consult the administering agency instead of treating one format as universally mandatory.",
             "tags": [
                 "community",
                 "cacfp",
                 "compliance",
                 "documentation"
+            ],
+            "references": [
+                "https://cdss.ca.gov/cacfp/resources/documentation-requirements-for-the-cacfp",
+                "https://portal.ct.gov/-/media/sde/nutrition/cacfp/forms/prodrecord/using_production_records_cacfp.pdf"
             ]
         },
         {
@@ -23618,19 +23708,23 @@ export const SAMPLE_QUESTIONS: Question[] = [
             "domain": "Domain III",
             "topic": "Healthcare Systems",
             "difficulty": "medium",
-            "text": "Which practice meets HIPAA expectations for a telehealth nutrition visit in private practice?",
+            "text": "A HIPAA-covered nutrition practice uses a video vendor that is its business associate. Which combination supports a safeguarded telehealth visit?",
             "options": [
-                "Use a platform under a business associate agreement and verify identity and location",
-                "Use any free consumer video app, because HIPAA does not cover nutrition counseling",
-                "Record each session and keep the video file on a personal phone for later review",
-                "Email the assessment and care plan as a plain attachment, without encryption"
+                "Use an appropriate business associate agreement, verify identity and use reasonable safeguards",
+                "Assume nutrition counseling can never involve protected health information",
+                "Make all session recordings public",
+                "Send patient information to unrelated people for convenience"
             ],
             "correctIndex": 0,
-            "explanation": "A covered entity must use a technology vendor that will sign a business associate agreement, which commits the vendor to HIPAA safeguards for protected health information. Good practice also includes verifying the client's identity and physical location at the start of each session, obtaining and documenting consent for telehealth, conducting sessions in a private space, and using encrypted channels for any documents. Storing recordings on a personal device, or emailing unencrypted health information, creates a reportable breach risk.",
+            "explanation": "A covered entity must implement applicable safeguards and obtain a business associate agreement when required. HIPAA permits certain safeguarded email communications, including unencrypted delivery when a patient requests it under applicable conditions; a risk assessment determines whether a breach is reportable.",
             "tags": [
                 "telehealth",
                 "hipaa",
                 "privacy"
+            ],
+            "references": [
+                "https://www.hhs.gov/hipaa/for-professionals/faq/does-hipaa-permit-health-care-providers-to-use-email-to-discuss-health-issues-with-patients/index.html",
+                "https://www.hhs.gov/hipaa/for-professionals/faq/is-a-covered-entity-responsible-if-it-complies/index.html"
             ]
         },
         {

@@ -19,6 +19,6 @@ const keys={
 };
 assert.equal(questions.length,88);assert.equal(byId.size,88);assert.equal(Object.keys(keys).length,19);
 for(const [id,answer] of Object.entries(keys)){const q=byId.get(id);assert(q,id);assert.equal(q.options[q.correctAnswer],answer,id);assert.equal(new Set(q.options).size,4,id);assert(!hold.has(id),id);}
-assert(hold.has('q24-1'));assert.equal(75*1.2,90);assert.equal((45+15)/15,4);
+assert(!hold.has('q24-1')); assert.equal(byId.get('q24-1').options[byId.get('q24-1').correctAnswer], 'Less browned surface because the moist surface and lower temperature limit typical browning');assert.equal(75*1.2,90);assert.equal((45+15)/15,4);
 assert(byId.get('q5-2').explanation.includes('Emergency treatment of hypoglycemia must not be delayed'));
-console.log('PASS 19 corrected lesson keys, retained hold, 88 unique IDs and calculation checks');
+console.log('PASS 20 corrected lesson keys, 88 unique IDs and calculation checks');
