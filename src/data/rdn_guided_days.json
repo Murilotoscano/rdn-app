@@ -1267,6 +1267,1143 @@
         "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
         "https://www.ahrq.gov/health-literacy/improve/precautions/tool2b.html"
       ]
+    },
+    {
+      "day": 15,
+      "title": "Kidney Disease and Clinical Balance",
+      "minutes": 90,
+      "objectives": [
+        "Differentiate CKD management before dialysis from nutrition assessment during hemodialysis.",
+        "Prioritize assessment data before making sodium, potassium, phosphorus, protein or fluid recommendations.",
+        "Calculate an individual prescription only when its target is supplied, then propose a measurable follow-up."
+      ],
+      "theory": [
+        {
+          "heading": "Study plan (90 minutes)",
+          "text": "Read and annotate this lesson for 25 minutes; analyze the worked case for 15 minutes; answer the questions for 20 minutes; compare every option and write your reasoning for 20 minutes; complete the spaced review for 10 minutes. The NIDDK source links are available for optional deeper reading and verification."
+        },
+        {
+          "heading": "Start with the patient, not a blanket renal diet",
+          "text": "CKD encompasses different levels of kidney function and treatment. Ask whether the patient receives dialysis, the modality and schedule, and whether intake is adequate. Review trends in weight and fluid status, blood pressure, relevant laboratory values, medications, symptoms, the food pattern, and access to food. A single laboratory result can have several causes. The RDN works with the clinical team and individualizes the plan; a diagnosis alone does not tell you the correct prescription for every nutrient. Clarify whether a proposed restriction would make it harder to meet energy or protein needs."
+        },
+        {
+          "heading": "Protein and dialysis",
+          "text": "Protein is needed for maintenance and repair. A non-dialysis CKD plan and a hemodialysis plan should not be assumed identical. Dialysis removes waste but can also remove protein building blocks; the NIDDK hemodialysis resource emphasizes adequate protein. Use patient-specific assessment and the treating team’s prescription. Never infer that a supplied exercise target is automatically recommended for all people. When a problem supplies an individualized target, multiply body weight in kg by grams/kg/day, report grams/day, and check the units."
+        },
+        {
+          "heading": "Electrolytes, sodium, and fluid",
+          "text": "High sodium intake can contribute to thirst, fluid retention and blood pressure concerns. Check food labels, restaurant foods and the patient’s routine; collaboratively choose practical changes. Potassium and phosphorus decisions depend on clinical data, food sources, medication and treatment. A potassium-containing salt substitute is not automatically safe for a patient who has been asked to reduce sodium. Fluid needs also depend on urine output, treatment and clinical status; do not impose the same volume on everyone. Ask for the patient’s recent results and medical plan before prescribing a numerical limit."
+        },
+        {
+          "heading": "Monitoring and examination reasoning",
+          "text": "Turn a general instruction into a measurable behavior: for example, identify a lower-sodium meal the person can obtain twice this week. At follow-up, compare the agreed behavior, intake and pertinent clinical results with baseline, and check for tradeoffs such as poor intake. In exam items, distinguish the assessment step from intervention and monitoring. Rule out distractors that treat one abnormal value as the complete diagnosis, demand universal restrictions, or replace evaluation with an arbitrary formula."
+        },
+        {
+          "heading": "Reading the case: the changing number",
+          "text": "Suppose a patient without dialysis reports a newly elevated potassium result and says they recently started a salt substitute. Begin by verifying the actual result, timing, prior values, sample issues and medication list with the treating team. Ask what product is used and how often; check its label for potassium-containing ingredients. Do not claim the substitute is necessarily the sole cause or independently change medication. A meaningful initial action is to communicate the new information promptly and agree on an interim food plan consistent with the clinical assessment. At follow-up, ask whether the substitute changed and review the relevant repeat results supplied by the team. The clinical urgency depends on the result and patient context; a study exercise does not specify a treatment protocol."
+        },
+        {
+          "heading": "Labels, portions and the food environment",
+          "text": "Two soup products list 480 mg and 720 mg sodium per serving, but their serving sizes and the number of servings eaten also matter. If the serving sizes match and a person eats two servings, the products contribute 960 mg and 1,440 mg respectively: the difference is 480 mg for that meal. Read the entire label and verify the patient’s usual amount before calculating. The lower value can be a starting point for a shared decision, not a complete assessment of the day. If the lower-sodium product is not available or affordable, brainstorm an alternative the patient can obtain and wants to eat. Ask the person to explain how they would compare two labels at their usual portion."
+        },
+        {
+          "heading": "Applied contrast and model answer",
+          "text": "Case A: a person not receiving dialysis has stable intake and asks about a protein prescription supplied by their clinician. Case B: a person receiving hemodialysis has a falling intake and reports missing meals on treatment days. In A, calculate the specified amount accurately and check how the person could meet it. In B, assess the dialysis schedule, symptoms, meal access, intake and weight trend; coordinate a feasible meal or snack plan with the renal team. A single number cannot replace either assessment. Write one monitoring question for each: A, “How often did the agreed meals provide the planned protein portions?”; B, “How many treatment days did you manage the agreed meal or snack, and did intake change?” Revisit energy and protein adequacy along with clinical findings."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A 70-kg adult with CKD not receiving dialysis reports relying on packaged soup, difficulty affording fresh food, and eating only two small meals daily. The chart supplies no recent potassium or fluid prescription. For a calculation exercise only, the clinician gives a protein target of 0.8 g/kg/day. What information and first steps are appropriate?",
+        "reasoning": "Calculate 70 × 0.8 = 56 g/day, clearly labeling 0.8 g/kg as the target supplied in this case, not a universal CKD rule. Review recent labs and fluid status, medications, weight trend and actual intake. Explore affordable lower-sodium alternatives that fit food access while protecting adequate intake. Do not prescribe a potassium or fluid limit from the diagnosis alone. At follow-up, compare intake and the agreed meal changes with baseline and review available clinical data."
+      },
+      "questions": [
+        {
+          "id": "W3D15Q01",
+          "stem": "A patient has CKD but the scenario gives no potassium result, medications, intake history or current plan. What is the best first step before prescribing a numeric potassium limit?",
+          "options": [
+            "Apply the same severe restriction to everyone with CKD",
+            "Assess potassium trends, medications, eating pattern and treatment plan",
+            "Assume potassium is normal because no result is shown",
+            "Stop all fruits and vegetables indefinitely"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "This ignores differences in laboratory values, treatment and nutritional adequacy.",
+            "Correct: targeted assessment supports an individualized decision with the care team.",
+            "Missing information is not a normal laboratory result.",
+            "A blanket prohibition risks unnecessary restriction and does not use patient-specific evidence."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+          ]
+        },
+        {
+          "id": "W3D15Q02",
+          "stem": "For a 70-kg adult, a clinician has supplied a protein target of 0.8 g/kg/day for this exercise. How much is that?",
+          "options": [
+            "5.6 g/day",
+            "56 g/day",
+            "70.8 g/day",
+            "87.5 g/day"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "The decimal is misplaced: 70 × 0.8 is not 5.6.",
+            "Correct: 70 kg × 0.8 g/kg/day = 56 g/day.",
+            "Adding weight and target is not the required operation.",
+            "Dividing 70 by 0.8 answers a different question."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+          ]
+        },
+        {
+          "id": "W3D15Q03",
+          "stem": "Which counseling question best addresses sodium reduction without assuming access to specialty products?",
+          "options": [
+            "Can you identify a usual high-sodium food and an affordable alternative you would eat?",
+            "Will you eliminate every packaged food today?",
+            "Can you substitute potassium salt for all sodium salt without checking medications?",
+            "Will you skip meals whenever you cannot find low-sodium food?"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the question links a practical change to the patient’s food access and preference.",
+            "An absolute ban may be infeasible and unnecessary; label review is more useful.",
+            "Potassium salt substitutes need individual assessment.",
+            "Skipping meals can compromise adequacy and does not solve the access barrier."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+          ]
+        },
+        {
+          "id": "W3D15Q04",
+          "stem": "Which statement best compares a person receiving hemodialysis with a person with CKD not receiving dialysis?",
+          "options": [
+            "Their protein plans are always identical because the diagnosis is CKD",
+            "Hemodialysis can remove protein building blocks, so protein intake requires individualized assessment",
+            "All people on dialysis must avoid protein",
+            "Dialysis eliminates the need to monitor food intake"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Treatment can change nutrition needs; the diagnosis alone does not fix one target.",
+            "Correct: dialysis changes the clinical context and adequate protein still matters.",
+            "Protein is needed, and NIDDK emphasizes it in hemodialysis.",
+            "Intake and clinical monitoring remain important."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/kidney-disease/kidney-failure/hemodialysis/eating-nutrition"
+          ]
+        },
+        {
+          "id": "W3D15Q05",
+          "stem": "An agreed goal is to replace one usual high-sodium lunch with a lower-sodium alternative on four days each week. Which follow-up measure most directly assesses the goal?",
+          "options": [
+            "How many of the past seven days the agreed lunch change occurred",
+            "The color of the clinic walls",
+            "The patient’s age alone",
+            "The number of pamphlets printed by the clinic"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: a count of the specified behavior directly measures the agreed goal.",
+            "The environment’s color does not measure the intervention.",
+            "Age is not a measure of the patient’s changed behavior.",
+            "A printed handout does not establish what the person did."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+          ]
+        },
+        {
+          "id": "W3D15Q06",
+          "stem": "A person on hemodialysis has poor appetite and is unintentionally eating little. What is the most appropriate nutrition response?",
+          "options": [
+            "Add several restrictions immediately without reviewing intake",
+            "Assess actual intake, treatment and barriers, then coordinate an individualized plan",
+            "Assume a normal body weight excludes nutrition risk",
+            "Omit protein until appetite returns"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Further restrictions without assessment may worsen inadequate intake.",
+            "Correct: assess clinical context and barriers before selecting an actionable plan.",
+            "Weight alone does not establish adequate intake or rule out nutrition risk.",
+            "Omitting protein can further compromise nutrition."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/kidney-disease/kidney-failure/hemodialysis/eating-nutrition"
+          ]
+        }
+      ],
+      "review": [
+        "Without notes, contrast the assessment information needed for non-dialysis CKD and hemodialysis.",
+        "Return to Day 8: identify which case data are assessment and which measure evaluates the intervention.",
+        "Change the worked-case weight to 60 kg while keeping the supplied 0.8 g/kg/day target; calculate 48 g/day and explain why the target is not universal."
+      ],
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease",
+        "https://www.niddk.nih.gov/health-information/kidney-disease/kidney-failure/hemodialysis/eating-nutrition"
+      ]
+    },
+    {
+      "day": 16,
+      "title": "Gastrointestinal Conditions and Absorption",
+      "minutes": 90,
+      "objectives": [
+        "Identify a gluten source and a cross-contact risk for a person with celiac disease.",
+        "Explain why short-bowel anatomy and hydration history change the nutrition plan.",
+        "Contrast an individualized gastroparesis strategy with a universal food ban and choose measurable follow-up."
+      ],
+      "theory": [
+        {
+          "heading": "Study plan (90 minutes)",
+          "text": "Study this lesson for 25 minutes; work through the case for 15 minutes; answer the questions for 20 minutes; review every explanation for 20 minutes; finish spaced review for 10 minutes. The NIDDK links are optional sources for deeper reading. Compare conditions by mechanism and patient context rather than memorizing one diet for every gastrointestinal complaint."
+        },
+        {
+          "heading": "Celiac disease: ingredient and process",
+          "text": "Celiac disease requires a gluten-free eating pattern: wheat, barley and rye are important gluten-containing grains. Food labels, ingredients and preparation procedures matter. Cross-contact occurs when gluten-containing foods or surfaces come into contact with otherwise gluten-free food. For example, a shared toaster used for wheat bread can contaminate gluten-free bread. Do not use appearance as a test of safety. NIDDK advises caution with oats: choose oats labeled gluten-free because they can be contaminated during growing or processing, and assess individual tolerance with the care team."
+        },
+        {
+          "heading": "Short bowel and hydration",
+          "text": "Short bowel syndrome differs according to the length and location of remaining intestine, whether the colon is present, the underlying disease, and adaptation over time. Do not infer a specific deficiency or formula solely from the diagnostic label. High stool or ostomy output can remove fluid and electrolytes. NIDDK notes that some patients need oral rehydration solutions or intravenous fluids and electrolytes; the plan is individualized to output, absorption and the medical team’s assessment. Track symptoms, output, intake and weight trend, while interpreting rapid weight changes in the context of fluid."
+        },
+        {
+          "heading": "Gastroparesis: modify the pattern to tolerance",
+          "text": "Delayed gastric emptying can make large meals difficult. NIDDK describes strategies such as smaller, more frequent meals and, when appropriate, changes in fat, fiber, texture and liquids. The aim is adequate intake and symptom management, not automatically eliminating a whole nutrient forever. Ask what the patient can actually tolerate, identify the meal pattern and discuss whether additional support is needed. Escalate concerning symptoms or inability to maintain hydration according to the clinical setting."
+        },
+        {
+          "heading": "Reason from information to follow-up",
+          "text": "Separate the cause of a symptom from a nutrition consequence. For suspected cross-contact, examine the preparation path instead of assuming every symptom proves contamination. For reduced intake, identify the barrier, potential nutrition problem, feasible intervention and measurable indicator. Compare two cases with the same symptom but different causes. Do not conclude that an intervention works from one subjective report alone; review intake, symptoms and other relevant outcomes over time."
+        },
+        {
+          "heading": "Following food through a shared kitchen",
+          "text": "Trace each step in a breakfast: the ingredient, storage, utensil, preparation surface, appliance and serving plate. Gluten-free bread placed into a toaster previously used for wheat bread encounters a plausible cross-contact point. A dedicated toaster or a preparation method that avoids that contact can be discussed. Separately inspect spreads and utensils if crumbs may enter a shared container. The lesson is not that a single symptom proves which step caused it: follow up with the clinical team if symptoms persist or the diagnosis is uncertain. The patient should be able to explain a practical procedure they can maintain at home, school or work."
+        },
+        {
+          "heading": "A contrasting case: food labels and tolerance",
+          "text": "A person with confirmed celiac disease sees an oats product without a gluten-free statement and asks whether it is automatically safe. Explain that contamination can occur at several points and that NIDDK advises choosing gluten-free oats if oats are included; discuss the quantity and individual tolerance with the clinician or dietitian. A product with a gluten-free label still needs to fit the person’s overall diet and symptoms. Ask the person to locate the label information rather than relying on the color of packaging. Now change the case: the food is plain rice prepared in a separate clean pot. Rice itself is naturally gluten-free; inspect seasonings and handling rather than assuming all grains contain gluten."
+        },
+        {
+          "heading": "Applying short-bowel and gastroparesis reasoning",
+          "text": "A person with short bowel reports high output and is replacing losses with plain water only. A useful assessment asks about the amount and timing of output, oral intake, urine, dizziness and the prescribed fluid/electrolyte plan. A glucose-electrolyte oral rehydration solution may be recommended by the team, but the correct choice and quantity are individualized. Contrast this with a patient with gastroparesis who reports fullness after two large meals. Ask about meal size, foods and textures tolerated, symptoms and actual intake; a small frequent meal pattern may be considered. In both cases, prescribe neither a universal volume nor an unverified restriction. Measure whether the agreed plan is feasible and whether symptoms and intake change."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A patient with confirmed celiac disease eats certified gluten-free bread at home but reports symptoms after breakfast. The bread is toasted in a shared appliance also used for wheat bread. Intake has declined because the patient fears most foods. What would you assess and address?",
+        "reasoning": "Review ingredients and preparation, including the shared toaster as a possible cross-contact source, while recognizing that the symptom alone does not prove the cause. Agree on a practical separation strategy, such as a dedicated clean toaster, and discuss an adequate, varied gluten-free pattern. Ask about intake, symptoms and access to food; coordinate follow-up and clinical evaluation as indicated. At the next visit compare the agreed preparation practice, intake and symptom pattern rather than assuming all gluten-free grains must be avoided."
+      },
+      "questions": [
+        {
+          "id": "W3D16Q01",
+          "stem": "Which food-handling practice poses a cross-contact risk for someone with celiac disease?",
+          "options": [
+            "Preparing gluten-free bread in a toaster used for wheat bread",
+            "Using a separate clean preparation surface",
+            "Checking a product label before purchase",
+            "Storing gluten-free food separately"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: shared equipment can transfer gluten-containing crumbs.",
+            "Separation reduces the opportunity for cross-contact.",
+            "Label checking is a protective step, though it does not replace process control.",
+            "Separate storage helps reduce cross-contact."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+          ]
+        },
+        {
+          "id": "W3D16Q02",
+          "stem": "Which combination lists the grains that a person with celiac disease should avoid because they contain gluten?",
+          "options": [
+            "Rice, corn and quinoa",
+            "Wheat, barley and rye",
+            "Rice, millet and buckwheat",
+            "Plain beans, potatoes and corn"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "These are not the wheat, barley and rye group; verify processing for cross-contact.",
+            "Correct: wheat, barley and rye contain gluten.",
+            "These are not the three gluten-containing grains asked for; processing still matters.",
+            "These foods are not intrinsically wheat, barley or rye, though preparation must be checked."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+          ]
+        },
+        {
+          "id": "W3D16Q03",
+          "stem": "A patient with short bowel syndrome has high output and dizziness. Which assessment most directly informs the immediate nutrition discussion?",
+          "options": [
+            "Fluid and electrolyte losses, intake and medical evaluation",
+            "A single food preference without symptoms",
+            "Assuming no dehydration can occur if the patient drinks water",
+            "Eliminating all dietary fat without assessing anatomy"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: output, intake and fluid/electrolyte status are central; dizziness warrants clinical attention.",
+            "Preference is relevant to a plan but does not assess the acute concern.",
+            "Fluid and electrolytes can be lost despite drinking water.",
+            "Anatomy and tolerance vary; an automatic fat ban is not justified."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/digestive-diseases/short-bowel-syndrome/treatment"
+          ]
+        },
+        {
+          "id": "W3D16Q04",
+          "stem": "Which meal-pattern change is consistent with NIDDK guidance that may help a person with gastroparesis, when clinically appropriate?",
+          "options": [
+            "Several small meals rather than a few large meals",
+            "One very large meal at bedtime",
+            "A mandatory permanent fast",
+            "Treating every patient identically regardless of symptoms"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: smaller, more frequent meals can be considered to improve tolerance.",
+            "A large meal may be difficult and does not reflect the cited approach.",
+            "A permanent fast is not a routine diet intervention.",
+            "Tolerance and the care plan must be individualized."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/treatment"
+          ]
+        },
+        {
+          "id": "W3D16Q05",
+          "stem": "A patient with confirmed celiac disease asks about oats. What is the most accurate response?",
+          "options": [
+            "All oats necessarily contain wheat gluten",
+            "Oats can be contaminated with gluten; choose oats labeled gluten-free and assess tolerance",
+            "Oat labels are irrelevant if the package looks clean",
+            "All people with celiac disease must stop every grain"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Oats themselves and cross-contact are distinct issues; do not state that all oats contain wheat gluten.",
+            "Correct: contamination and individual tolerance should be addressed.",
+            "Appearance cannot establish absence of gluten contamination.",
+            "There are gluten-free grains and other foods; a blanket grain ban is inaccurate."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+          ]
+        },
+        {
+          "id": "W3D16Q06",
+          "stem": "For a patient who agreed to separate gluten-free food preparation, which outcome is most useful at follow-up?",
+          "options": [
+            "Whether the preparation change was feasible, along with intake and symptom trends",
+            "Whether the patient memorized every food additive",
+            "A single symptom interpreted as proof of the cause",
+            "The number of clinic forms printed"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: measure the agreed behavior and relevant outcomes while considering other causes.",
+            "Memorization alone does not evaluate the agreed change or nutritional adequacy.",
+            "A symptom is not by itself proof of its cause.",
+            "Forms printed do not assess the patient’s practice or outcome."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+          ]
+        }
+      ],
+      "review": [
+        "Return to Day 9: write a problem, a plausible modifiable cause, and one measurable sign for a case with inadequate intake.",
+        "Contrast the shared-toaster case with a high-output short-bowel case: which additional data change your decision?",
+        "Explain why a symptom cannot by itself prove a particular mechanism and identify one source you would consult."
+      ],
+      "sources": [
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/short-bowel-syndrome/treatment",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/treatment",
+        "https://www.niddk.nih.gov/health-information/clinical-trials/personal-stories/giving-back-to-other-families-affected-by-celiac-disease"
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Enteral and Parenteral Nutrition",
+      "minutes": 90,
+      "objectives": [
+        "Distinguish enteral from parenteral nutrition and identify the information needed for route selection.",
+        "Calculate delivered energy and infusion rates from stated formulas and schedules.",
+        "Identify complications and monitoring priorities without substituting a calculation for a clinical prescription."
+      ],
+      "theory": [
+        {
+          "heading": "Study plan (90 minutes)",
+          "text": "Read this lesson for 25 minutes; work through the case for 15 minutes; answer the questions for 20 minutes; analyze each explanation and recalculate for 20 minutes; complete spaced review for 10 minutes. The ASPEN links are available for optional deeper reading. Treat supplied targets as case inputs, not universal prescriptions."
+        },
+        {
+          "heading": "Select a route from patient function and safety",
+          "text": "Enteral nutrition (EN) delivers nutrients into the gastrointestinal tract through a feeding tube when a person cannot meet needs by mouth but the gut can be used. Parenteral nutrition (PN) delivers nutrients intravenously and can be life-sustaining when intestinal failure prevents adequate oral or enteral nutrition. Route decisions depend on gut function, access, current condition, expected duration, goals and the care team’s assessment. A feeding tube location alone does not prove a patient needs one particular formula. Severe hemodynamic instability requires clinical stabilization and route/timing decisions by the care team; a formula calculation does not authorize starting a feed."
+        },
+        {
+          "heading": "Energy, volume and rate",
+          "text": "Start by writing units. Formula volume (mL) × concentration (kcal/mL) = energy (kcal). Required volume (mL) = prescribed energy (kcal) ÷ concentration (kcal/mL). Infusion rate (mL/h) = required volume ÷ actual infusion hours, not automatically 24 hours. Check the result in reverse. A scheduled interruption may reduce delivered volume and energy. Assess the prescribed plan and actual delivery separately; do not assume a recorded pump rate means the full daily goal was delivered."
+        },
+        {
+          "heading": "Parenteral access and formulation",
+          "text": "PN formulations include individually prescribed components and require compatibility and stability checks. Osmolarity is one consideration in choosing peripheral or central access. The cited ASPEN practice tool advises that peripheral PN not exceed 900 mOsm/L; access, the complete formulation, product information and institutional policy all matter. A particular peripheral limit does not automatically determine the best route in every case. Administration requires aseptic procedures and line care, as well as monitoring and a safe transition plan when oral or enteral intake changes."
+        },
+        {
+          "heading": "Monitoring and escalation",
+          "text": "Assess whether the prescribed amount was delivered and evaluate relevant gastrointestinal tolerance, hydration, glucose, electrolytes, access-site concerns and clinical course. A symptom such as diarrhea has multiple possible causes; do not automatically attribute it to the formula or make a diagnosis from one observation. Refeeding risk requires a coordinated plan and electrolyte monitoring appropriate to the patient and protocol. Escalate concerning findings rather than independently changing an intravenous prescription. Record the baseline, action taken and follow-up indicator."
+        },
+        {
+          "heading": "Work the decision, not just the arithmetic",
+          "text": "On an exam, first identify whether the question asks which route, how much the patient received, or what to monitor. Route selection, formula concentration and rate are related but not interchangeable. A calculated value can be correct while its clinical interpretation is not. For example, a 1,500-mL delivery at 1.2 kcal/mL provides 1,800 kcal; it does not prove the prescribed target is safe or adequate for the patient. Check the scenario for actual hours, interruption, units and rounding instructions."
+        },
+        {
+          "heading": "Delivered versus ordered: a worked comparison",
+          "text": "A 1.5-kcal/mL formula is ordered at 60 mL/hour for 20 hours. Planned volume is 1,200 mL and planned energy is 1,800 kcal. The record shows a total interruption of four hours, so actual run time is 16 hours: 60 × 16 = 960 mL; 960 × 1.5 = 1,440 kcal. Delivered percentage of the stated energy order is 1,440 ÷ 1,800 × 100 = 80%. This calculation does not establish why the interruption occurred or whether increasing the rate is safe. Review the order, record and patient tolerance with the team. The follow-up measure is actual intake compared with the plan, together with relevant clinical outcomes."
+        },
+        {
+          "heading": "A decision pathway for route and access",
+          "text": "Start with the clinical question: can the person safely take sufficient nutrition orally? If not, identify whether the GI tract is usable and whether the person is stable enough for the team’s proposed approach. EN gives nutrition through the GI tract; PN supplies it intravenously when oral and enteral intake cannot meet needs. If PN is proposed, access and formulation require a team review, including osmolarity, compatibility, stability and infection-prevention procedures. The ASPEN cited tool sets an upper limit of 900 mOsm/L for peripheral PN; do not treat that number as proof that any formulation below it is suitable for any patient. A line, dose and monitoring plan must be appropriate to the whole clinical situation."
+        },
+        {
+          "heading": "Applied monitoring case and model answer",
+          "text": "A person receiving tube feeding has three loose stools after a recent antibiotic change. The formula, infusion and symptoms should all be reviewed, but the timing does not prove a specific cause. Ask about usual and current stool pattern, volume, hydration, medication and other clinical findings; discuss concerning findings with the care team. Monitor actual intake against the prescribed regimen. Avoid declaring the formula definitively responsible or escalating the rate solely to make up a calculated shortfall. If the case instead describes a patient with severe hemodynamic instability, the priority is stabilization and a team decision about timing and route, not an automatic increase in feed delivery. Write one assessment question, one action to communicate and one measurable follow-up for both versions."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A stable patient has usable gastrointestinal function but cannot eat enough. The clinical team prescribes 1,600 kcal/day from a formula providing 1.25 kcal/mL, to run over 16 hours. How much volume and what hourly rate are needed, and what should be monitored?",
+        "reasoning": "Volume = 1,600 ÷ 1.25 = 1,280 mL/day; rate = 1,280 ÷ 16 = 80 mL/hour. Reverse check: 80 × 16 × 1.25 = 1,600 kcal. EN is a route to discuss given the stated usable GI tract and inadequate oral intake; the clinical team confirms the plan. Compare actual delivered volume with the order and monitor tolerance, hydration, pertinent labs and clinical status. The target and schedule are supplied for the exercise, not a universal prescription."
+      },
+      "questions": [
+        {
+          "id": "W3D17Q01",
+          "stem": "A stable patient cannot meet needs orally but has a usable gastrointestinal tract. Which route should the team consider?",
+          "options": [
+            "Enteral nutrition through an appropriate feeding access",
+            "Parenteral nutrition solely because oral intake is inadequate, regardless of gut function",
+            "No nutrition support under any circumstances",
+            "Intravenous water as a complete substitute for all nutrients"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: EN is a route to consider when the gut can be used and oral intake is inadequate.",
+            "PN can be appropriate when oral or EN is inadequate, but the route requires individualized assessment.",
+            "This categorical refusal ignores the stated nutrition problem.",
+            "Water alone does not provide complete nutrition."
+          ],
+          "sources": [
+            "https://nutritioncare.org/about/what-we-do/nutrition-support/what-is-enteral-nutrition/"
+          ]
+        },
+        {
+          "id": "W3D17Q02",
+          "stem": "A prescribed 1.25-kcal/mL formula must provide 1,500 kcal. What volume is required?",
+          "options": [
+            "1,200 mL",
+            "1,500 mL",
+            "1,875 mL",
+            "2,250 mL"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: 1,500 kcal ÷ 1.25 kcal/mL = 1,200 mL.",
+            "This assumes 1 kcal/mL, not the stated concentration.",
+            "Multiplying instead of dividing gives an incorrect volume.",
+            "This volume does not produce the stated energy at 1.25 kcal/mL."
+          ],
+          "sources": [
+            "https://nutritioncare.org/about/what-we-do/nutrition-support/what-is-enteral-nutrition/"
+          ]
+        },
+        {
+          "id": "W3D17Q03",
+          "stem": "An order supplies 1,200 mL over 15 hours. What is the rate?",
+          "options": [
+            "60 mL/h",
+            "75 mL/h",
+            "80 mL/h",
+            "100 mL/h"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "60 mL/h would deliver 900 mL over 15 hours.",
+            "75 mL/h would deliver 1,125 mL.",
+            "Correct: 1,200 mL ÷ 15 h = 80 mL/h.",
+            "100 mL/h would deliver 1,500 mL."
+          ],
+          "sources": [
+            "https://nutritioncare.org/about/what-we-do/nutrition-support/what-is-enteral-nutrition/"
+          ]
+        },
+        {
+          "id": "W3D17Q04",
+          "stem": "The prescribed rate is 80 mL/h at 1.25 kcal/mL. A documented interruption means the formula ran for only 14 hours. Approximately how much energy was delivered?",
+          "options": [
+            "1,120 kcal",
+            "1,400 kcal",
+            "1,600 kcal",
+            "1,750 kcal"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "1,120 is the delivered volume in mL, not the kcal.",
+            "Correct: 80 × 14 × 1.25 = 1,400 kcal.",
+            "This would require 16 hours at the stated rate.",
+            "This corresponds to more than 14 hours at the stated rate."
+          ],
+          "sources": [
+            "https://nutritioncare.org/about/what-we-do/nutrition-support/what-is-enteral-nutrition/"
+          ]
+        },
+        {
+          "id": "W3D17Q05",
+          "stem": "According to the cited ASPEN practice tool, which maximum osmolarity is advised for peripheral PN?",
+          "options": [
+            "300 mOsm/L",
+            "900 mOsm/L",
+            "1,500 mOsm/L",
+            "There is no need to consider osmolarity"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "The cited tool’s limit is not 300 mOsm/L.",
+            "Correct: the cited tool advises peripheral PN not exceed 900 mOsm/L; other access and clinical factors matter.",
+            "This exceeds the cited peripheral limit.",
+            "Osmolarity is an important access consideration."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/PN-Myths-Practice-Tool.pdf"
+          ]
+        },
+        {
+          "id": "W3D17Q06",
+          "stem": "A patient receiving tube feeding develops diarrhea. Which response best demonstrates sound clinical reasoning?",
+          "options": [
+            "Automatically diagnose formula intolerance and stop all feeding permanently",
+            "Review onset, medications, delivery, clinical context and other possible causes with the care team",
+            "Assume diarrhea cannot affect hydration",
+            "Ignore the symptom if the prescribed calorie target was calculated correctly"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A single symptom has multiple possible causes and does not establish this diagnosis.",
+            "Correct: investigate the pattern and context, assess hydration and coordinate action.",
+            "Fluid and electrolyte losses may matter.",
+            "Accurate arithmetic does not replace monitoring or clinical assessment."
+          ],
+          "sources": [
+            "https://nutritioncare.org/text-based-resource/enteral-nutrition-gastrointestinal-intolerance-issues-and-solutions/"
+          ]
+        }
+      ],
+      "review": [
+        "Return to Day 3: calculate the rate for 1,280 mL over 20 hours, then reverse-check 64 × 20 = 1,280 mL.",
+        "Return to Day 10: distinguish a route decision from a monitoring indicator and state one reason oral intake may not meet needs.",
+        "Without notes, explain why peripheral osmolarity is one part of access selection rather than the entire decision."
+      ],
+      "sources": [
+        "https://nutritioncare.org/about/what-we-do/nutrition-support/what-is-enteral-nutrition/",
+        "https://nutritioncare.org/about/what-we-do/nutrition-support/what-is-parenteral-nutrition/",
+        "https://nutritioncare.org/wp-content/uploads/2024/12/PN-Myths-Practice-Tool.pdf",
+        "https://nutritioncare.org/wp-content/uploads/2024/12/Adult-Crit-Ill-Patient-Guidelines-Factsheet.pdf",
+        "https://nutritioncare.org/text-based-resource/enteral-nutrition-gastrointestinal-intolerance-issues-and-solutions/",
+        "https://doi.org/10.1177/0148607115621863"
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Malnutrition and Complex Cases",
+      "minutes": 90,
+      "objectives": [
+        "Distinguish screening for risk from a comprehensive nutrition assessment.",
+        "Interpret intake, weight change, physical findings and inflammation together without diagnosing from albumin alone.",
+        "Prioritize a safe, feasible plan and choose measurable follow-up indicators."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 90-minute sequence",
+          "text": "Spend 10 minutes recalling assessment steps from Day 8 without notes; 25 minutes reading the sections below; 20 minutes working through the case and application tasks; 20 minutes answering and explaining the questions; and 15 minutes on spaced review. Adapt your pace; finish reviewing your reasoning before adding more questions."
+        },
+        {
+          "heading": "Screen first, assess next",
+          "text": "Screening identifies people who may be malnourished or at risk and need a more comprehensive assessment; a positive screen is not itself a full diagnosis. Gather the usual and recent intake, unintentional weight history with dates, medical condition and inflammatory burden, functional changes, physical examination findings when appropriate, and context such as access to food. Verify the source and reliability of each measurement. Ask about symptoms, swallowing, food availability, medications and tolerance rather than assuming the same cause for every low intake. Coordinate assessment with the care team and apply the diagnostic framework and policies relevant to the patient."
+        },
+        {
+          "heading": "Indicators are not interchangeable",
+          "text": "The Academy/ASPEN adult approach considers multiple characteristics, including insufficient energy intake, unintentional weight loss, loss of muscle or subcutaneous fat, fluid accumulation that can mask weight loss, and reduced handgrip strength when measured. Interpret the characteristics and their degree in context rather than treating a single feature as proof. The ASPEN fact sheet notes that albumin and prealbumin are not components of accepted malnutrition definitions; inflammation can lower these proteins even when intake changes little. A laboratory value can matter to the medical evaluation without serving as a stand-alone nutrition diagnosis."
+        },
+        {
+          "heading": "Use time, units and fluid context",
+          "text": "Percentage weight change = (usual weight − current weight) ÷ usual weight × 100. State the direction and period. A loss of 4 kg from 80 kg is 5%, not 4% and not 5 kg; the clinical meaning depends on time and other information. A current weight affected by edema, ascites or recent IV fluid may not reflect tissue change. Seek measured trends and a reasonable reference weight; do not simply subtract an invented fluid weight. If the timeline or measurement method is uncertain, ask before assigning severity."
+        },
+        {
+          "heading": "Plan, monitor and reconsider",
+          "text": "Prioritize acute safety and barriers to intake, then agree on an intervention the person can actually use. For example, nausea management may require coordination with the medical team while meal timing or texture is adjusted as appropriate. Define an observable outcome, a baseline, a target and when to reassess. Intake recorded as a proportion of meals can support monitoring, but plate waste estimates and changing meals have limitations. Reassess symptoms, intake and weight trends; escalate when clinical status or a safety concern warrants it. Avoid treating one calorie estimate or a laboratory value as a full picture."
+        },
+        {
+          "heading": "Resolve conflicting or incomplete data",
+          "text": "Imagine the chart records 70 kg today and 74 kg last month, but the patient says one measurement included a wheelchair. Before calculating a reliable trend, confirm the scale method, clothing, assistive devices and whether the recorded dates are correct. Do not average questionable numbers and call the result a measured usual weight. Interview the patient or caregiver about intake in recognizable terms: usual meals, current meals and snacks, changes in portion size, and the number of days affected. Ask whether symptoms or access limit food, then compare that history with available records. If the patient has edema, note its presence and distribution and seek the team's assessment; observed body weight includes fluid. Exercise: identify two facts you could document now, two that need verification, and one interpretation that would be premature. This makes uncertainty visible rather than turning missing information into a false positive or false negative."
+        },
+        {
+          "heading": "Translate assessment into an observable plan",
+          "text": "Consider two people who each report eating half of their usual intake. One has nausea in hospital; the other has no transportation to purchase food. The same recorded intake pattern does not establish the same etiology. For the first, coordinate symptom management with the team and agree on food timing or other appropriate options. For the second, explore available food access, referral resources and choices that fit the person's preferences and means. In either case, set a follow-up measure that corresponds to the goal: for a meal-intake target, compare observed or reported intake at the next interval with the same baseline method where possible. Ask about tolerance, feasibility and barriers before declaring the intervention unsuccessful. An increase in handouts provided measures an action by the team, not necessarily whether intake improved. Write a short follow-up note stating the baseline, chosen action, outcome to monitor, and what new information would lead you to change the plan."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A patient reports eating about half of usual intake for two weeks because of persistent nausea. A measured weight was 72 kg three months ago and is 68.4 kg today; the patient also has new edema. Albumin is low during an acute inflammatory illness. No nutrition-focused physical examination is documented.",
+        "reasoning": "First verify measurement conditions and ask about usual intake, symptoms, function and edema. The observed loss is (72−68.4)/72 × 100 = 5% over three months, but fluid accumulation can obscure the underlying trend. Low albumin alone does not diagnose malnutrition or measure dietary response. Complete a comprehensive assessment using the appropriate framework; coordinate management of nausea and choose a feasible intake plan. Track an intake measure and symptoms over an agreed interval and repeat weight under comparable conditions. Practice: write a second case with the same albumin but stable intake and no recent weight loss, and explain why the assessment differs."
+      },
+      "questions": [
+        {
+          "id": "W3D18Q01",
+          "stem": "A patient has a positive nutrition-risk screen. Which next step is most appropriate?",
+          "options": [
+            "Complete a comprehensive nutrition assessment",
+            "Diagnose severe malnutrition solely from the screen",
+            "Ignore the result until albumin falls",
+            "Assign an identical feeding plan to everyone with a positive screen"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: screening identifies risk and guides a fuller assessment.",
+            "A positive screen alone does not establish severity or a diagnosis.",
+            "Albumin need not fall for nutrition risk to exist; delaying assessment misses the purpose of screening.",
+            "A plan must reflect the patient's assessment and circumstances."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        },
+        {
+          "id": "W3D18Q02",
+          "stem": "A patient weighs 74.1 kg today and had a verified usual weight of 78 kg three months ago. What is the observed percentage loss?",
+          "options": [
+            "3.9%",
+            "5%",
+            "5.3%",
+            "8%"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "3.9 is the loss in kilograms, not the percentage.",
+            "Correct: 3.9 ÷ 78 × 100 = 5%.",
+            "Approximately 5.3% results from dividing by the current weight rather than the stated usual weight.",
+            "The given values do not produce an 8% loss."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        },
+        {
+          "id": "W3D18Q03",
+          "stem": "During acute inflammation a patient's serum albumin decreases. Which interpretation is best?",
+          "options": [
+            "The value alone establishes severe malnutrition",
+            "The value proves intake is inadequate",
+            "Inflammation affects albumin; assess nutrition using multiple relevant findings",
+            "Albumin must rise before food can be offered"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Albumin alone is not an accepted stand-alone malnutrition diagnosis.",
+            "A low value alone cannot identify actual intake.",
+            "Correct: integrate clinical context, intake, weight, physical findings and other relevant indicators.",
+            "The laboratory value alone does not determine whether oral food can be offered."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        },
+        {
+          "id": "W3D18Q04",
+          "stem": "A patient's recorded weight is unchanged but new edema is present and intake has fallen. What is the best inference?",
+          "options": [
+            "Stable scale weight excludes tissue loss",
+            "Edema can obscure weight change; investigate the trend and other findings",
+            "Edema proves exactly 5 kg of tissue was lost",
+            "The dietary history is irrelevant"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Fluid can mask changes in tissue weight.",
+            "Correct: obtain context and assess other findings rather than assuming stable weight means stable tissues.",
+            "The amount of tissue change cannot be calculated from edema alone.",
+            "A recent intake decline remains important assessment information."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        },
+        {
+          "id": "W3D18Q05",
+          "stem": "After agreeing on a plan to address low intake related to nausea, which follow-up is most useful?",
+          "options": [
+            "Count the handouts given without asking about symptoms",
+            "Compare intake and nausea with baseline at an agreed follow-up",
+            "Rely on one albumin value as the only nutrition outcome",
+            "Avoid reassessment unless the patient requests it"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Handout count does not show whether symptoms or intake changed.",
+            "Correct: relevant baseline measures and a planned interval help evaluate the intervention.",
+            "Albumin is influenced by inflammation and cannot alone measure nutrition response.",
+            "A monitoring plan is part of evaluating the intervention."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        }
+      ],
+      "review": [
+        "Retrieve Day 8's screening-versus-assessment distinction without notes; write one piece of missing data for each stage.",
+        "Recalculate the worked case with a usual weight of 75 kg and a current weight of 71.25 kg (5% loss); explain why the time period matters.",
+        "List one incorrect assumption you corrected today and how you would verify it in a new case."
+      ],
+      "sources": [
+        "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Production, Menus, and Purchasing",
+      "minutes": 90,
+      "objectives": [
+        "Scale a standardized recipe with an explicit yield and serving size.",
+        "Convert between edible portion (EP) and as-purchased (AP) quantity using a specified yield.",
+        "Use inventory and forecast information to make a documented purchasing decision."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 90-minute sequence",
+          "text": "Spend 10 minutes recalling Day 12's information-to-decision approach; 25 minutes studying the methods below; 20 minutes working the purchasing case and two variations; 20 minutes answering the questions; and 15 minutes reviewing each explanation and the spaced-review prompts."
+        },
+        {
+          "heading": "From menu to production plan",
+          "text": "Begin with a defined meal, projected number served and portion size. Use service history as a starting point, then adjust for known calendar, population, menu and service changes. A forecast is an estimate, not a guarantee. Document the assumption and compare actual portions served with projected demand afterward. A standardized recipe identifies the ingredients, method, portion size and number of portions yielded. Scaling by desired servings ÷ original servings is a useful starting point, but equipment capacity, preparation loss, seasoning, food safety and a test batch can require practical adjustment. Do not silently assume all recipes scale perfectly."
+        },
+        {
+          "heading": "AP, EP and yield",
+          "text": "As-purchased (AP) is the amount bought; edible portion (EP) is the usable amount after the specified preparation. Yield fraction = usable amount ÷ purchased amount. To find AP needed when EP and yield are known, divide EP by yield expressed as a decimal. For example, 18 lb EP at 75% yield requires 18 ÷ 0.75 = 24 lb AP. Check in reverse: 24 × 0.75 = 18. Yield is specific to the product and preparation: a cooked drained yield cannot automatically substitute for a raw trimmed yield. Use USDA Food Buying Guide data or reliable site-specific data as appropriate."
+        },
+        {
+          "heading": "Buying, stock and units",
+          "text": "Identify usable stock on hand and any already committed to other menus, then calculate the additional quantity to order. Check the package size and minimum purchasable unit: if a 13 lb shortfall must be bought in sealed 5 lb packages, order 3 packages, or 15 lb. Round the number of indivisible packages up, not every intermediate figure. Record the exact yield, desired portion form, order unit and rounding rule. Compare prices in equivalent units and forms before declaring a lower unit price to be the lower usable cost."
+        },
+        {
+          "heading": "Quality, menu and feedback",
+          "text": "A feasible production plan supports nutritional requirements, preferences, allergies and safe service as well as cost control. When a menu must meet a program meal pattern, use the applicable program requirements and recipe documentation rather than assuming every ingredient contributes equally. The USDA Recipe Analysis Workbook records recipe yield, portions and creditable ingredient amounts for child nutrition programs. Measure the forecast error and leftovers without treating every leftover as waste; record safe disposition according to the applicable policy. Revise the next forecast using the evidence and known changes."
+        },
+        {
+          "heading": "A second worked purchasing example",
+          "text": "Suppose a kitchen plans 120 servings of a fruit. Each serving requires 3 oz of ready-to-serve EP fruit, and the documented yield for the selected product and preparation is 75%. First calculate EP: 120 × 3 oz = 360 oz, or 22.5 lb after dividing by 16 oz/lb. Then calculate AP: 22.5 ÷ 0.75 = 30 lb. If 7 lb AP of safe, usable stock is uncommitted, the shortfall is 23 lb. With whole 5 lb bags only, order 5 bags for 25 lb. Check: available AP after delivery is 32 lb, and at the stated yield it provides 24 lb EP, at least the 22.5 lb required. This is an exercise with a supplied yield; actual yields must match the product and end form."
+        },
+        {
+          "heading": "Compare equivalent costs and identify assumptions",
+          "text": "Assume product A costs $1.20 per lb AP and has a verified 60% yield, while product B costs $1.60 per lb AP and has an 80% yield to the same ready-to-use form. A's usable cost is $1.20 ÷ 0.60 = $2.00 per lb EP; B's is $1.60 ÷ 0.80 = $2.00 per lb EP. The lower AP price is not lower per usable pound in this example. A purchasing decision still needs quality, specification, availability, labor, storage and waste considerations. Compare only equivalent units and yield endpoints, and do not add labor twice if a cost comparison already includes it. Application: change B's AP price to $1.76. Its usable cost becomes $2.20 per lb EP; decide what additional operational data could still affect a choice. Keep the calculation separate from claims about meal-pattern crediting, which requires the applicable program guidance."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A recipe yields 40 portions and uses 10 lb of ready-to-cook vegetables. A school needs 100 equal portions. The selected product yields 80% usable ready-to-cook vegetables, and 6 lb AP is already available and uncommitted. The supplier sells only sealed 10 lb bags.",
+        "reasoning": "Scale factor = 100 ÷ 40 = 2.5. EP required = 10 × 2.5 = 25 lb. AP required = 25 ÷ 0.80 = 31.25 lb. Subtract 6 lb AP stock to obtain 25.25 lb AP to order. Three 10 lb bags supply 30 lb and meet the minimum; two supply only 20 lb. This assumes the same specified preparation/yield and that the stock is usable. Verify equipment capacity and safe handling before increasing the batch. Practice: if available stock is 12 lb AP instead, the shortfall is 19.25 lb and two bags suffice."
+      },
+      "questions": [
+        {
+          "id": "W3D19Q01",
+          "stem": "A recipe yields 30 equal portions. How much of an ingredient originally used at 4 kg is needed for 75 portions, assuming linear scaling and no other adjustment?",
+          "options": [
+            "6 kg",
+            "8 kg",
+            "10 kg",
+            "12 kg"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "The factor is 2.5, not 1.5.",
+            "8 kg would use a factor of 2.",
+            "Correct: 75 ÷ 30 = 2.5; 4 × 2.5 = 10 kg.",
+            "12 kg would use a factor of 3."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixA"
+          ]
+        },
+        {
+          "id": "W3D19Q02",
+          "stem": "A menu needs 21 lb of a specified ready-to-cook vegetable. Its verified yield from AP to that form is 70%. How much must be purchased before stock adjustments?",
+          "options": [
+            "14.7 lb",
+            "21.7 lb",
+            "30 lb",
+            "35 lb"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Multiplying by 0.70 would move from AP to EP, not from required EP to AP.",
+            "Adding the yield as a weight is dimensionally incorrect.",
+            "Correct: 21 ÷ 0.70 = 30 lb AP; 30 × 0.70 = 21 lb EP.",
+            "35 lb is not implied by the stated yield."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        },
+        {
+          "id": "W3D19Q03",
+          "stem": "A service needs an additional 25.25 lb AP after accounting for stock. The supplier sells sealed 10 lb bags only. What is the minimum order?",
+          "options": [
+            "Two bags",
+            "Three bags",
+            "2.525 bags",
+            "Four bags"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Two bags supply only 20 lb and are insufficient.",
+            "Correct: three whole bags supply 30 lb and meet the minimum.",
+            "The stated purchasing constraint does not permit a fraction of a bag.",
+            "Four bags would meet the minimum but are not the minimum order."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        },
+        {
+          "id": "W3D19Q04",
+          "stem": "An operation's forecast overestimates actual portions served. Which next action best improves the next forecast?",
+          "options": [
+            "Assume the forecast was perfect and discard the record",
+            "Compare actual service with forecast and assess known menu or attendance changes",
+            "Double all future forecasts without checking",
+            "Treat forecast as a guarantee that eliminates leftovers"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Without reviewing the difference, the team loses an opportunity to improve.",
+            "Correct: compare the documented forecast with actual demand and relevant changes.",
+            "Doubling has no support in the observed overestimate.",
+            "Forecasts are estimates and do not guarantee demand."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixA"
+          ]
+        },
+        {
+          "id": "W3D19Q05",
+          "stem": "A recipe's EP requirement is for cooked, drained beans, but the available yield is for raw, trimmed beans. What should the RDN do?",
+          "options": [
+            "Apply the raw yield without checking",
+            "Obtain a yield matching the specified product and preparation",
+            "Assume cooked and raw weights are always equal",
+            "Replace pounds with fluid ounces"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "The yield must correspond to the desired form and preparation.",
+            "Correct: select reliable yield data for the same product and end form.",
+            "Cooking and draining can change weight, so equality cannot be assumed.",
+            "Fluid ounces measure volume, not the same unit of mass."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        }
+      ],
+      "review": [
+        "Without notes, explain AP versus EP and why the direction of the yield calculation matters.",
+        "Revisit the Day 5 productivity formula: 144 meals in 24 productive labor hours = 6 meals per productive labor hour; state what the denominator excludes or includes as defined by the operation.",
+        "Write a one-sentence purchasing assumption that would change the worked case if the available stock were already reserved."
+      ],
+      "sources": [
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB",
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixA"
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Food Safety and Facilities",
+      "minutes": 90,
+      "objectives": [
+        "Apply the 2026 FDA Food Code model cooling time limits to stated cases.",
+        "Distinguish monitoring, critical limits and corrective actions in a HACCP example.",
+        "Identify cross-contact and workflow risks and select appropriate controls."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 90-minute sequence",
+          "text": "Spend 10 minutes recalling Day 6 safety principles; 25 minutes studying the sections and cited sources; 20 minutes on the worked case and written variations; 20 minutes answering the questions; and 15 minutes reviewing rationales and recall prompts."
+        },
+        {
+          "heading": "A model code and measurable controls",
+          "text": "The FDA Food Code is a model offered to jurisdictions; check which edition and amendments apply locally. This lesson explicitly uses the 2026 model for the numerical examples. Time/temperature control for safety (TCS) food needs controls appropriate to its preparation and service. Food appearance or odor does not establish safety. Use a calibrated probe and record food temperatures at appropriate points, not merely the air temperature or the equipment setting. When an operation identifies a deviation, follow its applicable food-safety plan and regulatory instructions; the correct disposition depends on the known history and conditions."
+        },
+        {
+          "heading": "Two-stage cooling and a total deadline",
+          "text": "Under FDA Food Code 2026 §3-501.14, cooked TCS food must cool from 135°F to 70°F within 2 hours and from 135°F to 41°F or lower within 6 hours total. Both conditions must be satisfied. The first stage taking less than two hours does not change the six-hour total; it leaves more time within that total to reach the final temperature. For example, a batch that reaches 70°F at hour 1 and 41°F at hour 5 meets these two time limits, assuming reliable measurements and applicable conditions. Cooling aids may include shallow pans, smaller portions, ice baths or equipment appropriate to the food and operation. Food must remain protected from contamination."
+        },
+        {
+          "heading": "HACCP: limits, monitoring and action",
+          "text": "A hazard analysis considers biological, chemical and physical hazards. A critical control point (CCP) is a step at which control can prevent, eliminate or reduce a significant hazard to an acceptable level; not every useful sanitation activity is automatically a CCP. A critical limit is a measurable boundary at the identified CCP. Monitoring observes or measures whether the process stays within the limit, and records show what was checked and when. A corrective action specifies what to do when monitoring identifies a deviation, including product control and addressing the cause. Verification checks that the system works as intended; it is not the same as recording a routine temperature."
+        },
+        {
+          "heading": "Allergens, traffic and equipment",
+          "text": "Cross-contact transfers an allergen from one food, hand, utensil or surface to another; a small amount can matter to a person with a food allergy. Follow the operation's verified allergen procedures, including ingredient checks, designated or properly cleaned equipment and communication at service. Do not assume removing visible pieces makes a dish allergen-free. Keep raw food and soiled equipment from crossing ready-to-eat food and clean equipment. Design the receiving, preparation, cooking, service and warewashing paths to reduce contamination opportunities; use appropriate barriers, cleaning and separation where crossing cannot be eliminated."
+        },
+        {
+          "heading": "Practice interpreting a cooling log",
+          "text": "A batch is measured at 135°F at 10:00 a.m., 70°F at 11:45 a.m., and 43°F at 3:30 p.m. The first stage took 1 hour 45 minutes, so it meets the two-hour boundary. At 3:30 p.m. only 5 hours 30 minutes have elapsed, but 43°F is still above the final 41°F threshold; the process is not yet documented as complete. The operator must continue monitoring and meet the final temperature by 4:00 p.m. to satisfy the six-hour total. If 41°F is documented at 3:55 p.m., the elapsed total is 5 hours 55 minutes. If 41°F is first documented at 4:10 p.m., the observed record does not establish compliance with the final deadline. In either case, use reliable food measurements, preserve the log and follow the local plan. Exercise: change the 70°F measurement to 12:10 p.m. The first stage is then 2 hours 10 minutes and is missed even if the food reaches 41°F earlier than six hours."
+        },
+        {
+          "heading": "Work from hazard to corrective action",
+          "text": "For an illustrative cooked-soup process, identify the significant hazard and why the cooling step matters, then decide whether the validated plan identifies that step as a CCP. State the critical limits with their time and temperature units. Monitoring answers who checks the food, which calibrated instrument is used, when the checks occur, and how results are recorded. Suppose a reading shows the first limit was missed: the response should place the affected food under control, follow the operation's approved corrective-action and disposition procedure, investigate the reason, and document what was done. The exact disposition depends on the applicable plan and jurisdiction; it is not inferred from appearance. Later, a supervisor reviews records and checks whether monitoring is performed as specified. That review is verification, not the critical limit itself. Practice by writing these four labels in separate columns—hazard, limit, monitoring, corrective action—and adding one concrete entry to each."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A kitchen starts cooling covered cooked soup at 135°F at noon. A calibrated food probe reads 70°F at 1:30 p.m. and 41°F at 5:45 p.m. The soup remained protected; no other deviation is reported. A second batch remains at 80°F at 2:15 p.m.",
+        "reasoning": "For the first batch, the first stage took 1 hour 30 minutes and the total was 5 hours 45 minutes, so both stated model-code limits are met. For the second batch, 2 hours 15 minutes have elapsed and the food is still above 70°F, so the first-stage limit was missed. Do not label the batch safe from a later temperature alone: follow the establishment's corrective-action and disposition procedures and applicable jurisdictional rules. Investigate factors such as deep containers, cooling capacity or poor monitoring. Record the measurements and action. Practice: if the first batch reached 41°F at 6:15 p.m. instead, the six-hour total would be exceeded."
+      },
+      "questions": [
+        {
+          "id": "W3D20Q01",
+          "stem": "Using FDA Food Code 2026 §3-501.14 for cooked TCS food, and assuming each batch cools continuously, which recorded cooling sequence meets both stated time limits?",
+          "options": [
+            "135°F to 70°F in 1.5 hours, then to 41°F at 5.5 hours total",
+            "135°F to 70°F in 2.5 hours, then to 41°F at 5 hours total",
+            "135°F to 70°F in 1 hour, then to 41°F at 6.5 hours total",
+            "135°F to 80°F in 2 hours, then to 41°F at 5 hours total"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: both the two-hour first stage and six-hour total are met.",
+            "The first stage exceeds two hours even though the total is under six.",
+            "The final temperature is reached after the six-hour total.",
+            "At two hours the continuously cooling food is still above 70°F, so the first stage is missed."
+          ],
+          "sources": [
+            "https://www.fda.gov/media/194741/download",
+            "https://www.fda.gov/media/181882/download"
+          ]
+        },
+        {
+          "id": "W3D20Q02",
+          "stem": "Cooked soup remains above 70°F more than two hours after cooling from 135°F began. What is the best immediate response?",
+          "options": [
+            "Document the deviation and follow the established corrective-action and disposition procedures",
+            "Assume a later 41°F reading erases the missed first-stage limit",
+            "Judge safety by odor alone",
+            "Record only the refrigerator's thermostat setting"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: control the affected product and follow applicable documented procedures.",
+            "Both stages must be met; a later final reading does not change the earlier time record.",
+            "Odor does not reliably establish safety.",
+            "An air-setting value does not document the food's actual cooling."
+          ],
+          "sources": [
+            "https://www.fda.gov/media/194741/download",
+            "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines"
+          ]
+        },
+        {
+          "id": "W3D20Q03",
+          "stem": "A HACCP plan specifies a measurable time-temperature boundary at a CCP. What is that boundary called?",
+          "options": [
+            "A critical limit",
+            "A marketing target",
+            "A menu cycle",
+            "A staffing standard"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: a critical limit separates acceptable from unacceptable control at the CCP.",
+            "Marketing targets do not define safety control.",
+            "A menu cycle schedules offerings rather than specifying a CCP boundary.",
+            "A staffing standard is not the stated measurable safety limit."
+          ],
+          "sources": [
+            "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines"
+          ]
+        },
+        {
+          "id": "W3D20Q04",
+          "stem": "A worker uses the same uncleaned knife to prepare a peanut-containing item and then a meal for a person with a peanut allergy. What is the key concern?",
+          "options": [
+            "Allergen cross-contact through the utensil",
+            "Only an accounting variance",
+            "A guaranteed pathogen hazard, regardless of other information",
+            "An inability to scale the recipe"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: allergen can transfer from the first food to the second through the knife.",
+            "The immediate issue described is food-allergen safety.",
+            "The case identifies allergen transfer; it does not establish a specific pathogen.",
+            "Recipe scaling is unrelated to the described contact."
+          ],
+          "sources": [
+            "https://www.cdc.gov/school-health-conditions/media/pdfs/20_316712-D_FA_nutrition_508tagged.pdf"
+          ]
+        },
+        {
+          "id": "W3D20Q05",
+          "stem": "A manager periodically checks completed temperature records and the functioning of the monitoring process. Which HACCP activity does this most closely represent?",
+          "options": [
+            "Verification",
+            "Routine monitoring of each batch only",
+            "A critical limit itself",
+            "A purchasing specification"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: review of records and the monitoring system is a verification activity.",
+            "Individual temperature measurements are monitoring; this scenario reviews the system and records.",
+            "The critical limit is the measurable boundary, not this review.",
+            "A purchasing specification concerns what is bought, not this HACCP system check."
+          ],
+          "sources": [
+            "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines"
+          ]
+        }
+      ],
+      "review": [
+        "Recall the two cooling limits without notes, then calculate elapsed time from actual clock times rather than counting only the second stage.",
+        "Return to Day 6: explain why AP/EP yield and a food safety critical limit are different types of measurement.",
+        "Draw a food-flow map from receiving through service and mark one point where raw and ready-to-eat pathways should be separated."
+      ],
+      "sources": [
+        "https://www.fda.gov/media/194741/download",
+        "https://www.fda.gov/media/181882/download",
+        "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines",
+        "https://www.cdc.gov/school-health-conditions/media/pdfs/20_316712-D_FA_nutrition_508tagged.pdf"
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Light Review and Coverage Check",
+      "minutes": 45,
+      "objectives": [
+        "Retrieve the week’s assessment, purchasing and food-safety methods without relying on memorized answer positions.",
+        "Use small case variations to test transfer and identify what needs further study.",
+        "Record coverage honestly without treating a short review as a prediction of exam performance."
+      ],
+      "theory": [
+        {
+          "heading": "45-minute review plan",
+          "text": "Use 8 minutes to retrieve the central ideas from Days 15–20 without notes; 12 minutes to work the case below and one variation; 15 minutes to answer the four questions and read all option explanations; and 10 minutes to update your checklist. This is a light review: do not add a new question marathon. If you have not studied an earlier topic, mark it as pending rather than calling it a weakness."
+        },
+        {
+          "heading": "Retrieve, apply and classify",
+          "text": "For assessment, distinguish screening from assessment and explain why one laboratory value cannot stand alone. For production, state the required form and units before converting EP to AP. For cooling, identify both the two-hour first stage and the six-hour total under the explicitly named 2026 FDA model. For each answer, write the decisive clue and explain why the closest distractor is less suitable. Note whether an error arose from a concept, unit conversion, reading the scenario or time pressure; this is a working hypothesis, not a diagnosis of your abilities."
+        },
+        {
+          "heading": "Coverage is not mastery",
+          "text": "Use three columns: not yet studied, studied with support, and applied correctly on a new variation. Put an item in the third column only after explaining the reasoning on unfamiliar information. Record which source or assumption needs checking and schedule a specific follow-up. Do not use performance on this small set as a predicted CDR score or proof of readiness. Compare trends only as more reviewed, new questions become available."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A service needs 12 lb of usable, trimmed produce at an 80% product-specific yield. Separately, a pot of TCS soup reaches 70°F at 90 minutes and 41°F at 5 hours total. A patient's albumin is low during inflammation, and recent intake and weight history have not been collected.",
+        "reasoning": "Purchase requirement before stock and package adjustments is 12 ÷ 0.80 = 15 lb AP. The soup meets both stated cooling time limits under FDA Food Code 2026 §3-501.14, assuming reliable readings and applicable conditions. Low albumin alone does not establish malnutrition; collect the missing history and complete assessment. Variation: if the soup reaches 41°F at 6 hours 20 minutes, the final stage misses the six-hour total. Write the source, calculation and uncertainty for each of the three decisions."
+      },
+      "questions": [
+        {
+          "id": "W3D21Q01",
+          "stem": "An item needs 16 lb EP at a verified 80% yield, before stock adjustment. What AP quantity is needed?",
+          "options": [
+            "12.8 lb",
+            "16.8 lb",
+            "20 lb",
+            "24 lb"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Multiplying by the fraction reverses the required conversion.",
+            "Adding 0.8 to pounds mixes a fraction with a weight.",
+            "Correct: 16 ÷ 0.80 = 20 lb AP.",
+            "24 lb is not produced by the stated yield."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        },
+        {
+          "id": "W3D21Q02",
+          "stem": "Under the stated FDA 2026 model cooling rule, a batch reaches 70°F in 1 hour and 41°F after 6 hours 15 minutes total. Which statement is correct?",
+          "options": [
+            "Both limits are met because the first stage was fast",
+            "The six-hour total was missed despite the early first-stage success",
+            "Only the 2-hour limit applies",
+            "Odor determines whether the time limit applies"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Meeting the first stage does not extend the total deadline.",
+            "Correct: the final temperature was reached after the six-hour limit.",
+            "Both the first stage and total time must be satisfied.",
+            "Odor does not replace time and temperature controls."
+          ],
+          "sources": [
+            "https://www.fda.gov/media/194741/download"
+          ]
+        },
+        {
+          "id": "W3D21Q03",
+          "stem": "A person has low albumin during an inflammatory illness. What additional step best supports a nutrition assessment?",
+          "options": [
+            "Obtain intake, weight and relevant physical or clinical findings",
+            "Assign a malnutrition diagnosis based only on albumin",
+            "Assume normal intake because no history was recorded",
+            "Skip assessment until inflammation resolves"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: multiple relevant findings and context support assessment.",
+            "Albumin alone is not a stand-alone nutrition diagnostic criterion.",
+            "Missing intake information is not evidence of normal intake.",
+            "Inflammation does not justify postponing a needed assessment."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        },
+        {
+          "id": "W3D21Q04",
+          "stem": "A learner answers four review questions correctly after memorizing the answer order. What conclusion is most justified?",
+          "options": [
+            "A passing CDR result is guaranteed",
+            "The material was seen; transfer to new cases still needs checking",
+            "All four domains are mastered",
+            "No further source review is ever needed"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A small uncalibrated set cannot guarantee an official result.",
+            "Correct: using a new variation tests reasoning beyond answer recognition.",
+            "Four memorized answers do not establish mastery of all domains.",
+            "Sources and applications can require additional review."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf",
+            "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines"
+          ]
+        }
+      ],
+      "review": [
+        "Classify each topic as not yet studied, studied with support, or applied correctly on a new variation; add one next action per pending topic.",
+        "Revisit one earlier calculation with changed numbers and check it by reversing the operation.",
+        "Write down one source conflict or uncertainty to resolve before scoring a disputed item."
+      ],
+      "sources": [
+        "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf",
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB",
+        "https://www.fda.gov/media/194741/download",
+        "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines"
+      ]
     }
   ]
 }

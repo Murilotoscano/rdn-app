@@ -13,7 +13,7 @@ export default function GuidedStudy() {
   useEffect(() => {
     const raw = new URLSearchParams(window.location.search).get('day');
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    setDay(raw && /^(8|9|1[0-4])$/.test(raw) ? Number(raw) : 8);
+    setDay(raw && /^\d+$/.test(raw) && material.days.some(d => d.day === Number(raw)) ? Number(raw) : 8);
   }, []);
   useEffect(() => {
     if (day === null) return;
