@@ -169,8 +169,8 @@ export default function ProfilePage() {
             <div style={card}>
                 <h2 style={{ fontSize: '1rem', fontWeight: 700, marginTop: 0, marginBottom: '0.5rem' }}>Backup &amp; Restore</h2>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginTop: 0, lineHeight: 1.5 }}>
-                    Export writes one JSON file with your error log, exam history, CDR progress and generated
-                    questions. Restore merges a file back in, keeping whichever copy of each item is newer.
+                    Export saves a JSON file with lesson answers, your error log, exam history, CDR progress and generated
+                    questions. To move lesson answers to another device, save the file somewhere both devices can access, then use Restore from file there. Restore merges progress with the existing data; lesson-answer conflicts use the most recently updated day.
                 </p>
 
                 <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1rem' }}>

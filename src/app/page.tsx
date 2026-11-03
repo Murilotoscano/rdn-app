@@ -292,7 +292,7 @@ export default function Home() {
             </div>
             <h3 className={styles.cardTitle}>Study Plan</h3>
             <p className={styles.cardDesc}>
-              A 45-day plan with a guided first week and Portuguese study notes.
+              A 45-day roadmap with English lessons and practice for the first week.
             </p>
             <div style={{ marginTop: '8px' }}>
               <span style={{ fontSize: '0.75rem', padding: '2px 6px', background: '#e0e7ff', color: '#4338ca', borderRadius: '4px' }}>45-day plan</span>

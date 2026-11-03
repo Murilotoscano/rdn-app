@@ -85,7 +85,7 @@
         "360 kcal"
       ],
       "answer": 3,
-      "rationale": "São duas porções: 1,5 / 0,75 = 2; 2 x 180 = 360 kcal. As outras respostas não multiplicam pela quantidade efetivamente consumida.",
+      "rationale": "There are two servings: 1.5 ÷ 0.75 = 2; 2 × 180 = 360 kcal. The other answers do not multiply by the amount consumed.",
       "sources": [
         "https://www.fda.gov/food/nutrition-facts-label/calories-nutrition-facts-label"
       ]
@@ -101,7 +101,7 @@
         "The percentages cannot be compared when serving sizes match."
       ],
       "answer": 1,
-      "rationale": "Pela orientação geral da FDA, 20% DV ou mais é alto; 5% ou menos é baixo. A tem menos sódio, mas 8% não é zero nem se enquadra na referência de 5%. Porções iguais permitem a comparação.",
+      "rationale": "Under the general FDA guide, 20% DV or more is high and 5% DV or less is low. Soup A has less sodium, but 8% is neither zero nor within the 5% low reference. Equal serving sizes allow comparison.",
       "sources": [
         "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
       ]
@@ -117,7 +117,7 @@
         "38 g"
       ],
       "answer": 2,
-      "rationale": "Total: 12 x 2 = 24 g. Added sugars já fazem parte de total sugars; não se somam novamente. 14 g seriam os açúcares adicionados de duas porções.",
+      "rationale": "Total sugar is 12 × 2 = 24 g. Added sugars are already included in total sugars; do not add them again. The two servings contain 14 g added sugars.",
       "sources": [
         "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
       ]
@@ -133,7 +133,7 @@
         "Removing all fruit and vegetables"
       ],
       "answer": 0,
-      "rationale": "A vitamina C favorece absorção de ferro não heme. Gordura saturada não oferece esse mecanismo; retirar a fonte de ferro ou frutas e verduras não é a estratégia descrita.",
+      "rationale": "Vitamin C enhances nonheme iron absorption. Saturated fat does not provide that mechanism; removing the iron source or fruits and vegetables is not the strategy described.",
       "sources": [
         "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
       ]
@@ -149,7 +149,7 @@
         "Please memorize every sentence in the handout."
       ],
       "answer": 2,
-      "rationale": "Teach-back pede explicação nas próprias palavras e responsabiliza o profissional pela clareza. Perguntas sim/não não demonstram aplicação; decorar frases não verifica compreensão.",
+      "rationale": "Teach-back asks the person to explain in their own words and makes the professional responsible for clarity. Yes/no questions do not demonstrate application; repeating memorized phrases does not verify understanding.",
       "sources": [
         "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
       ]
@@ -165,7 +165,7 @@
         "Explain the point another way, then check understanding again."
       ],
       "answer": 3,
-      "rationale": "AHRQ orienta reformular e repetir a checagem. Um erro de compreensão não prova não adesão; elevar a voz ou omitir a informação não corrige a dificuldade.",
+      "rationale": "AHRQ recommends clarifying and checking again. A misunderstanding does not prove nonadherence; raising one’s voice or omitting the information does not resolve it.",
       "sources": [
         "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
       ]
@@ -181,7 +181,7 @@
         "Learn everything about nutrition."
       ],
       "answer": 1,
-      "rationale": "O objetivo define ação, frequência e prazo observáveis. As alternativas são vagas ou absolutas, sem medida prática de execução. A escolha deve continuar realista para a pessoa.",
+      "rationale": "The goal specifies an observable action, frequency, and time frame. The other choices are vague or absolute and lack a practical measure. The goal must also be realistic for the person.",
       "sources": [
         "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health"
       ]
@@ -197,7 +197,7 @@
         "Case report"
       ],
       "answer": 0,
-      "rationale": "A alocação aleatória a intervenções caracteriza ensaio randomizado. Caso-controle seleciona pelo desfecho; transversal mede em um período; relato de caso não compara grupos randomizados.",
+      "rationale": "Random assignment to interventions defines a randomized trial. A case-control study selects by outcome; a cross-sectional study measures at a point or period; a case report does not compare randomized groups.",
       "sources": [
         "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
       ]
@@ -213,7 +213,7 @@
         "Laboratory calibration study"
       ],
       "answer": 2,
-      "rationale": "A seleção começa pelo desfecho (doentes/não doentes) e compara exposições anteriores: caso-controle. Não há randomização nem intervenção atribuída.",
+      "rationale": "Selection starts with the outcome (ill or not ill), followed by comparison of prior exposures: a case-control study. No randomization or assigned intervention is described.",
       "sources": [
         "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
       ]
@@ -229,7 +229,7 @@
         "4"
       ],
       "answer": 3,
-      "rationale": "Risco exposto = 20/50 = 0,40; não exposto = 5/50 = 0,10; razão = 4. Não dividir apenas totais gerais nem inverter os grupos. É associação observada, não prova isolada de causalidade.",
+      "rationale": "Exposed risk = 20/50 = 0.40; unexposed risk = 5/50 = 0.10; risk ratio = 4. Do not divide only overall totals or reverse the groups. This observed association alone does not prove causation.",
       "sources": [
         "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
       ]
@@ -245,7 +245,7 @@
         "The survey proves that all other behaviors were identical."
       ],
       "answer": 1,
-      "rationale": "Uma associação transversal não demonstra, sozinha, direção temporal ou causalidade. Não houve randomização descrita e outros fatores podem diferir entre os grupos.",
+      "rationale": "A cross-sectional association alone does not establish temporal direction or causation. No randomization is described, and other factors may differ between groups.",
       "sources": [
         "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
       ]
@@ -261,7 +261,7 @@
         "Single-patient case report"
       ],
       "answer": 0,
-      "rationale": "A coorte acompanha grupos definidos pela exposição e registra novos desfechos. Exposição natural não é alocação aleatória; seleção não começou por casos já doentes.",
+      "rationale": "A cohort follows groups defined by exposure and records new outcomes. Naturally occurring exposure is not random assignment; selection did not begin with existing cases.",
       "sources": [
         "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
       ]
@@ -277,7 +277,7 @@
         "Bread B: 500 mg/100 g"
       ],
       "answer": 3,
-      "rationale": "Padronize a porção: A = 180/30 x 100 = 600 mg; B = 250/50 x 100 = 500 mg. Comparar apenas 180 com 250 ignora tamanhos diferentes.",
+      "rationale": "Standardize the serving: A = 180/30 × 100 = 600 mg; B = 250/50 × 100 = 500 mg. Comparing 180 with 250 alone ignores different serving sizes.",
       "sources": [
         "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
       ]
@@ -293,7 +293,7 @@
         "Nutrition monitoring after treatment"
       ],
       "answer": 2,
-      "rationale": "Reunir e interpretar dados é avaliação nutricional. Intervenção executa o plano; monitoramento acompanha resposta; diagnóstico médico não é esta etapa do NCP.",
+      "rationale": "Gathering and interpreting data is nutrition assessment. Intervention implements a plan; monitoring tracks response; a medical diagnosis is not this NCP step.",
       "sources": [
         "https://www.eatrightpro.org/practice/nutrition-care-process",
         "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment"
@@ -310,7 +310,7 @@
         "The agreed target"
       ],
       "answer": 0,
-      "rationale": "A causa é a impossibilidade de comprar alimentos. Ingestão inadequada é o problema; registro de consumo é evidência; a meta é o comparador.",
+      "rationale": "The cause is inability to shop for food. Inadequate intake is the problem; intake records are evidence; the goal is the comparator.",
       "sources": [
         "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-diagnosis"
       ]
@@ -326,7 +326,7 @@
         "Documented intake averaging 900 kcal/day against an assessed 1,800 kcal/day target"
       ],
       "answer": 3,
-      "rationale": "Consumo documentado comparado à necessidade sustenta o problema. Julgamentos pessoais e afirmações genéricas não são medidas; diagnóstico médico isolado não demonstra ingestão insuficiente.",
+      "rationale": "Documented intake compared with requirements supports the problem. Personal judgments and general statements are not measurements; a medical diagnosis alone does not demonstrate inadequate intake.",
       "sources": [
         "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-diagnosis"
       ]
@@ -342,7 +342,7 @@
         "Stop monitoring intake"
       ],
       "answer": 1,
-      "rationale": "A intervenção deve enfrentar a barreira de acesso. Repetir a orientação sem adaptação não resolve custo; atribuir desmotivação não é sustentado; abandonar monitoramento impede avaliar resposta.",
+      "rationale": "The intervention should address the access barrier. Repeating advice without adaptation does not resolve cost; assuming low motivation is unsupported; abandoning monitoring prevents assessment of response.",
       "sources": [
         "https://www.eatrightstore.org/-/media/files/eatrightstore/product-detail-files/ncoasample.pdf?hash=12BA2097BA678704A28F5DA2366A93AC&rev=a3212051f14b495ca1a244008ed73b51"
       ]
@@ -358,7 +358,7 @@
         "Screening only"
       ],
       "answer": 1,
-      "rationale": "Comparar resposta com a meta é monitoramento e avaliação. Triagem identifica risco; diagnóstico nomeia o problema; compras não descrevem esta ação.",
+      "rationale": "Comparing the response with the goal is monitoring and evaluation. Screening identifies risk; diagnosis names the problem; shopping does not describe this action.",
       "sources": [
         "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-monitoring-and-evaluation"
       ]
@@ -374,7 +374,7 @@
         "Verify the measurement and relevant clinical context"
       ],
       "answer": 3,
-      "rationale": "Verificar qualidade e contexto do dado evita conclusão prematura. Descartar tudo ou intervir automaticamente também ignora a necessidade de avaliação consistente.",
+      "rationale": "Checking data quality and context avoids a premature conclusion. Discarding everything or intervening automatically also overlooks the need for consistent assessment.",
       "sources": [
         "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment"
       ]
@@ -390,7 +390,7 @@
         "Clinic waiting-room size"
       ],
       "answer": 0,
-      "rationale": "O indicador deve corresponder à meta: porcentagem consumida. Material impresso mede atividade, não o resultado; sala e seguro não medem ingestão.",
+      "rationale": "The indicator should match the goal: percentage consumed. Printed material measures activity, not outcome; room and insurance do not measure intake.",
       "sources": [
         "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-monitoring-and-evaluation"
       ]
@@ -406,7 +406,7 @@
         "Monitoring, discharge, procurement, assessment"
       ],
       "answer": 2,
-      "rationale": "A sequência conceitual é avaliação, diagnóstico, intervenção e monitoramento/avaliação; o cuidado pode retornar à reavaliação. As outras listas misturam funções ou omitem etapas.",
+      "rationale": "The conceptual sequence is assessment, diagnosis, intervention, and monitoring/evaluation; care may return to reassessment. The other sequences mix functions or omit steps.",
       "sources": [
         "https://www.eatrightpro.org/practice/nutrition-care-process"
       ]
@@ -422,7 +422,7 @@
         "Replace the nutrition diagnosis with the medical diagnosis automatically"
       ],
       "answer": 0,
-      "rationale": "Informações novas pedem reavaliação e ajuste fundamentado. Registro prévio não torna o plano imutável; encerrar cuidado ou trocar diagnóstico automaticamente não resolve a barreira.",
+      "rationale": "New information calls for reassessment and an informed adjustment. A prior record does not make the plan immutable; ending care or automatically changing the diagnosis does not resolve the barrier.",
       "sources": [
         "https://www.eatrightpro.org/practice/nutrition-care-process",
         "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment"
@@ -439,7 +439,7 @@
         "75%"
       ],
       "answer": 3,
-      "rationale": "1.500 ÷ 2.000 × 100 = 75%. As demais opções usam relações incorretas; 133% inverte numerador e denominador. A meta foi fornecida, não prescrita pelo exercício.",
+      "rationale": "1,500 ÷ 2,000 × 100 = 75%. The other options use incorrect relationships; 133% reverses numerator and denominator. The target was supplied, not prescribed by the exercise.",
       "sources": []
     },
     {
@@ -453,7 +453,7 @@
         "800 kcal"
       ],
       "answer": 2,
-      "rationale": "1.200 mL × 1,5 kcal/mL = 1.800 kcal. 800 resulta da divisão indevida; 1.200 ignora a densidade; 1.500 não usa o volume informado.",
+      "rationale": "1,200 mL × 1.5 kcal/mL = 1,800 kcal. 800 comes from dividing incorrectly; 1,200 ignores density; 1,500 does not use the supplied volume.",
       "sources": []
     },
     {
@@ -467,7 +467,7 @@
         "600 mL"
       ],
       "answer": 1,
-      "rationale": "Volume = 1.800 kcal ÷ 1,2 kcal/mL = 1.500 mL. Multiplicar daria 2.160; 1.800 ignora a densidade; 600 não atende a relação fornecida.",
+      "rationale": "Volume = 1,800 kcal ÷ 1.2 kcal/mL = 1,500 mL. Multiplication gives 2,160; 1,800 ignores density; 600 does not satisfy the supplied relationship.",
       "sources": []
     },
     {
@@ -481,7 +481,7 @@
         "120 mL/hour"
       ],
       "answer": 2,
-      "rationale": "1.440 ÷ 18 = 80 mL/h. 60 pressupõe 24 horas; 100 e 120 entregariam volume acima do prescrito no período informado.",
+      "rationale": "1,440 ÷ 18 = 80 mL/h. 60 assumes 24 hours; 100 and 120 would deliver more than the prescribed volume in the stated time.",
       "sources": []
     },
     {
@@ -495,7 +495,7 @@
         "95%"
       ],
       "answer": 0,
-      "rationale": "(80 - 76) ÷ 80 × 100 = 5%. 4 é a diferença em kg; 5,3% usa o peso atual como denominador; 95% é a fração de peso mantida. Não classifica desnutrição sozinho.",
+      "rationale": "(80 − 76) ÷ 80 × 100 = 5%. Four is the difference in kg; 5.3% uses current weight as denominator; 95% is the fraction retained. This alone does not diagnose malnutrition.",
       "sources": []
     },
     {
@@ -509,7 +509,7 @@
         "70 g"
       ],
       "answer": 1,
-      "rationale": "1,2 × 70 = 84 g/dia. 58 decorre de dividir; 70 ignora o fator; 72 usa outro peso. O fator é dado do exercício, não indicação universal.",
+      "rationale": "1.2 × 70 = 84 g/day. 58 results from division; 70 ignores the factor; 72 uses a different weight. The factor is supplied for the exercise, not a universal prescription.",
       "sources": []
     },
     {
@@ -523,7 +523,7 @@
         "540 mg"
       ],
       "answer": 3,
-      "rationale": "360 × 1,5 = 540 mg. Dividir gera 240; 360 corresponde a uma porção; 720 corresponde a duas.",
+      "rationale": "360 × 1.5 = 540 mg. Division gives 240; 360 is one serving; 720 is two.",
       "sources": [
         "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
       ]
@@ -539,7 +539,7 @@
         "400 kcal"
       ],
       "answer": 3,
-      "rationale": "2,5 × 160 = 400 kcal. 320 usa duas porções; 160 usa uma; 640 usa quatro.",
+      "rationale": "2.5 × 160 = 400 kcal. 320 uses two servings; 160 uses one; 640 uses four.",
       "sources": [
         "https://www.fda.gov/food/nutrition-facts-label/calories-nutrition-facts-label"
       ]
@@ -555,7 +555,7 @@
         "The label gives no information about added sugars"
       ],
       "answer": 1,
-      "rationale": "Os 5 g adicionados já estão dentro dos 12 g totais. Somar duplica a parcela; total não significa integralmente adicionado; a informação existe.",
+      "rationale": "The 5 g of added sugars are already included in the 12 g total. Adding them double-counts; total does not mean entirely added, and the information is provided.",
       "sources": [
         "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
       ]
@@ -571,7 +571,7 @@
         "A food is safe regardless of portion size"
       ],
       "answer": 0,
-      "rationale": "O plano deve ser individualizado; porções também importam. Eliminar todas as frutas é excessivo, necessidades podem mudar e quantidade altera o potássio consumido.",
+      "rationale": "The plan must be individualized; portion sizes matter. Eliminating all fruit is excessive, needs can change, and quantity changes potassium intake.",
       "sources": [
         "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
       ]
@@ -587,7 +587,7 @@
         "Stop all prescribed medicines to compensate"
       ],
       "answer": 2,
-      "rationale": "Cloreto de potássio adiciona potássio e precisa ser compatível com o plano. As outras alternativas ignoram composição ou propõem alteração medicamentosa injustificada.",
+      "rationale": "Potassium chloride adds potassium and must fit the care plan. The other choices ignore composition or propose an unsupported medication change.",
       "sources": [
         "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
       ]
@@ -603,7 +603,7 @@
         "Barley"
       ],
       "answer": 1,
-      "rationale": "Arroz simples é naturalmente sem glúten. Cevada, centeio e semolina (trigo) contêm glúten. Preparação e contato cruzado ainda precisam ser verificados.",
+      "rationale": "Plain rice is naturally gluten-free. Barley, rye, and semolina (wheat) contain gluten. Preparation and cross-contact must still be checked.",
       "sources": [
         "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
       ]
@@ -619,7 +619,7 @@
         "An automatically excessive protein intake"
       ],
       "answer": 2,
-      "rationale": "Utensílios contaminados podem transferir glúten à refeição. Açúcar, cor e proteína não respondem ao risco descrito.",
+      "rationale": "Contaminated utensils can transfer gluten to the meal. Sugar, color, and protein do not address the described risk.",
       "sources": [
         "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
       ]
@@ -635,7 +635,7 @@
         "WIC"
       ],
       "answer": 3,
-      "rationale": "WIC atende gestantes e outras categorias, com critérios de residência, renda e risco nutricional. Encaminhamento não garante aprovação; as outras opções não oferecem esse programa.",
+      "rationale": "WIC serves pregnant people and other categories, with residence, income, and nutritional-risk criteria. Referral does not guarantee approval; the other options do not provide this program.",
       "sources": [
         "https://www.fna.usda.gov/wic/faqs"
       ]
@@ -651,7 +651,7 @@
         "72%"
       ],
       "answer": 0,
-      "rationale": "72 ÷ 240 × 100 = 30%. 72 é contagem, não porcentagem; 33 e 40 não resultam dos dados. A classificação foi dada pelo estudo fictício.",
+      "rationale": "72 ÷ 240 × 100 = 30%. 72 is a count, not a percentage; 33 and 40 do not follow from the data. The criterion was supplied in the fictional study.",
       "sources": []
     },
     {
@@ -665,7 +665,7 @@
         "Number of brochures distributed"
       ],
       "answer": 2,
-      "rationale": "Mudança de ingestão em relação à meta mede resultado. Folhetos, emails e cadeiras descrevem atividades ou recursos, não efeito nutricional.",
+      "rationale": "Change in intake relative to the goal measures an outcome. Handouts, emails, and chairs describe activities or resources, not a nutrition effect.",
       "sources": [
         "https://www.ncpro.org/vault/2570/web/files/Module%2005%20Script.pdf"
       ]
@@ -681,7 +681,7 @@
         "Assume it equals the label serving"
       ],
       "answer": 1,
-      "rationale": "Esclarecer a porção melhora a estimativa. Uma tigela não equivale necessariamente à porção do rótulo; zerar ou diagnosticar sem dados produz erro.",
+      "rationale": "Clarifying portion size improves the estimate. A bowl does not necessarily equal a label serving; entering zero or diagnosing without data creates error.",
       "sources": [
         "https://www.niddk.nih.gov/health-information/weight-management/just-enough-food-portions"
       ]
@@ -697,7 +697,7 @@
         "The intervention must be stopped immediately"
       ],
       "answer": 0,
-      "rationale": "Melhora abaixo da meta indica progresso parcial. Não equivale a sucesso completo nem exige interrupção automática; a linha de base continua permitindo comparação.",
+      "rationale": "Improvement below the goal indicates partial progress. It is not complete success and does not automatically require stopping; the baseline still permits comparison.",
       "sources": [
         "https://www.ncpro.org/vault/2570/web/files/Module%2005%20Script.pdf"
       ]
@@ -713,7 +713,7 @@
         "8"
       ],
       "answer": 0,
-      "rationale": "FTE = 240/40 = 6. Não confundir número de pessoas com equivalentes de jornada: diferentes combinações de empregados podem somar 6 FTEs. As outras respostas não correspondem à divisão fornecida.",
+      "rationale": "FTE = 240/40 = 6. Do not confuse headcount with full-time equivalents: different combinations of employees can total 6 FTEs. The other answers do not match the stated division.",
       "sources": []
     },
     {
@@ -727,7 +727,7 @@
         "5"
       ],
       "answer": 3,
-      "rationale": "600/120 = 5 refeições por hora de trabalho. 0,2 é o inverso (hora por refeição); 20 e 72 não representam essa razão. A unidade solicitada define qual número fica no numerador.",
+      "rationale": "600/120 = 5 meals per labor hour. 0.2 is the inverse (hours per meal); 20 and 72 do not represent this ratio. The requested unit determines the numerator.",
       "sources": []
     },
     {
@@ -741,7 +741,7 @@
         "70%"
       ],
       "answer": 1,
-      "rationale": "7.000/20.000 × 100 = 35%. Os 65% são a parcela das vendas restante após esse custo, não o food cost percentage; as demais alternativas não aplicam a definição.",
+      "rationale": "7,000/20,000 × 100 = 35%. The 65% is the portion of sales remaining after this cost, not food cost percentage; the other choices do not apply the definition.",
       "sources": []
     },
     {
@@ -755,7 +755,7 @@
         "1,200"
       ],
       "answer": 2,
-      "rationale": "Margem de contribuição unitária = 12 - 6 = $6; ponto de equilíbrio = 3.600/6 = 600 refeições. Dividir pelo preço ignora o custo variável. As demais quantidades não igualam receita e custos.",
+      "rationale": "Unit contribution margin = 12 − 6 = $6; break-even = 3,600/6 = 600 lunches. Dividing by price ignores variable cost. The other quantities do not equate revenue with costs.",
       "sources": [
         "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point"
       ]
@@ -771,7 +771,7 @@
         "$9,600"
       ],
       "answer": 0,
-      "rationale": "Receita = 800 × 12 = 9.600; custo variável = 4.800; lucro = 9.600 - 4.800 - 3.600 = $1.200. $4.800 é contribuição antes dos custos fixos; $9.600 é receita, não lucro.",
+      "rationale": "Revenue = 800 × 12 = $9,600; variable cost = $4,800; profit = $9,600 − $4,800 − $3,600 = $1,200. $4,800 is contribution before fixed costs; $9,600 is revenue, not profit.",
       "sources": [
         "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point"
       ]
@@ -787,7 +787,7 @@
         "$600 unfavorable"
       ],
       "answer": 3,
-      "rationale": "4.600 - 4.000 = $600 acima do orçamento: variação desfavorável de despesa. Não é uma economia. O valor da variação é a diferença, não o total orçado ou gasto.",
+      "rationale": "$4,600 − $4,000 = $600 over budget: an unfavorable expense variance, not a saving. The variance is the difference, not the total budgeted or spent.",
       "sources": []
     },
     {
@@ -801,7 +801,7 @@
         "$1,500"
       ],
       "answer": 2,
-      "rationale": "Orçamento ajustado ao volume = 1.400 × 3 = $4.200. Excesso = 4.500 - 4.200 = $300. Comparar com um volume diferente distorceria a avaliação.",
+      "rationale": "Flexible budget = 1,400 × $3 = $4,200. Excess = $4,500 − $4,200 = $300. Comparing with a different volume would distort the evaluation.",
       "sources": []
     },
     {
@@ -815,7 +815,7 @@
         "15%"
       ],
       "answer": 3,
-      "rationale": "6/40 × 100 = 15%. Separações não são automaticamente porcentagens; 40 é o denominador. A questão fornece a definição para evitar diferenças entre métricas de turnover.",
+      "rationale": "6/40 × 100 = 15%. Separations are counts, not automatically percentages; 40 is the denominator. The question supplies the definition because turnover metrics vary.",
       "sources": []
     },
     {
@@ -829,7 +829,7 @@
         "Wait until errors disappear on their own"
       ],
       "answer": 0,
-      "rationale": "Um teste pequeno permite observar resultados e ajustar antes de ampliar. Implementação definitiva sem medição impede aprendizado; trocar toda a equipe não testa o procedimento; esperar não é um teste de mudança.",
+      "rationale": "A small test allows results to be observed and adjustments made before expansion. Permanent implementation without measurement prevents learning; replacing the whole team does not test the procedure; waiting is not a change test.",
       "sources": [
         "https://www.ahrq.gov/cahps/improvement-guide/improvement-models/plan-do-study-act.html"
       ]
@@ -845,7 +845,7 @@
         "Act"
       ],
       "answer": 0,
-      "rationale": "Study é analisar resultados e compará-los à previsão. Plan define o teste; Do executa; Act usa o aprendizado para adaptar, adotar ou abandonar a mudança. Medir durante a execução e analisar depois são ações relacionadas, mas distintas.",
+      "rationale": "Study analyzes results and compares them with the prediction. Plan defines the test; Do carries it out; Act uses learning to adapt, adopt, or abandon the change. Measurement during execution and subsequent analysis are related but distinct.",
       "sources": [
         "https://integrationacademy.ahrq.gov/products/playbooks/behavioral-health-and-primary-care/implementing-plan/collect-and-use-data-quality-improvement"
       ]
@@ -861,7 +861,7 @@
         "What is the severity of your medical condition?"
       ],
       "answer": 1,
-      "rationale": "A entrevista pode abordar capacidade de realizar funções do trabalho. Perguntas pré-oferta sobre medicações, deficiência ou gravidade da condição buscam informações médicas inadequadas nesse contexto. Há regras específicas para etapas posteriores e situações de acomodação.",
+      "rationale": "An interview may address ability to perform job functions. Pre-offer questions about medications, disability, or severity seek medical information inappropriate in this context. Specific rules apply at later stages and for accommodations.",
       "sources": [
         "https://www.eeoc.gov/disability-discrimination-and-employment-decisions"
       ]
@@ -877,7 +877,7 @@
         "Make every employee happier"
       ],
       "answer": 0,
-      "rationale": "A resposta correta informa medida, ponto inicial, meta e prazo. As outras não permitem verificar de forma objetiva se o resultado foi atingido. É um exercício de construção de objetivo; não promete que a meta seja viável sem analisar o processo.",
+      "rationale": "The correct objective states a measure, starting point, target, and time frame. The others do not permit objective verification. This is an objective-writing exercise; it does not establish feasibility without process analysis.",
       "sources": []
     },
     {
@@ -891,7 +891,7 @@
         "It stayed at 3%"
       ],
       "answer": 1,
-      "rationale": "18/600 = 3%; 9/600 = 1,5%. A redução absoluta é 1,5 ponto percentual e a relativa é 50%. Isso descreve os dados observados; não demonstra sozinho causalidade ou significância estatística.",
+      "rationale": "18/600 = 3%; 9/600 = 1.5%. The absolute reduction is 1.5 percentage points and the relative reduction is 50%. These observed data alone do not establish causation or statistical significance.",
       "sources": []
     },
     {
@@ -905,7 +905,7 @@
         "135°F to 90°F in 2 hours, then to 41°F by hour 6"
       ],
       "answer": 2,
-      "rationale": "São necessários 135→70°F em até 2 horas e 135→41°F em até 6 horas totais. A resposta correta satisfaz ambos; os outros horários falham na primeira etapa ou no total. Seção 3-501.14.",
+      "rationale": "Cooling must reach 70°F from 135°F within 2 hours and 41°F from 135°F within 6 hours total. The correct answer meets both; the others fail the first stage or the total. Section 3-501.14.",
       "sources": [
         "https://www.fda.gov/files/2024-12-20-fodecode2022-print-0743.pdf"
       ]
@@ -921,7 +921,7 @@
         "Wait until it smells different before refrigerating"
       ],
       "answer": 1,
-      "rationale": "Dividir em recipientes rasos facilita transferência de calor, com monitoramento dos limites. Recipientes profundos/isolantes retardam resfriamento; odor não é critério de segurança. Seção 3-501.15.",
+      "rationale": "Dividing food into shallow containers improves heat transfer, with monitoring of the limits. Deep or insulating containers slow cooling; smell is not a safety criterion. Section 3-501.15.",
       "sources": [
         "https://www.fda.gov/files/2024-12-20-fodecode2022-print-0743.pdf"
       ]
@@ -937,7 +937,7 @@
         "Hot at 120°F; cold at 40°F"
       ],
       "answer": 1,
-      "rationale": "A regra usual é manutenção quente a pelo menos 135°F e fria a no máximo 41°F. A resposta correta atende a ambas; as outras falham em pelo menos uma. Seção 3-501.16.",
+      "rationale": "The usual holding limits are at least 135°F hot and at most 41°F cold. The correct answer meets both; the others fail at least one. Section 3-501.16.",
       "sources": [
         "https://www.fda.gov/files/2024-12-20-fodecode2022-print-0743.pdf"
       ]
@@ -953,7 +953,7 @@
         "20 lb"
       ],
       "answer": 2,
-      "rationale": "Peso de compra = 12/0,80 = 15 lb. Multiplicar por 0,80 daria o peso utilizável de 12 lb compradas, não a compra necessária. Os outros valores não fornecem 12 lb utilizáveis com esse rendimento.",
+      "rationale": "Purchase weight = 12/0.80 = 15 lb. Multiplying by 0.80 would give usable weight from 12 lb purchased, not the purchase required. The other values do not supply 12 lb usable at this yield.",
       "sources": [
         "https://foodbuyingguide.fns.usda.gov/Home/About"
       ]
@@ -969,7 +969,7 @@
         "7"
       ],
       "answer": 2,
-      "rationale": "130/24 = 5,4167 unidades; comprar unidades inteiras exige arredondar para cima: 6. Cinco rendem apenas 120 porções; 5,4 não é inteiro; 7 excede o mínimo necessário.",
+      "rationale": "130/24 = 5.4167 units; whole units must be rounded up to 6. Five yield only 120 portions; 5.4 is not a whole unit; 7 exceeds the minimum.",
       "sources": [
         "https://foodbuyingguide.fns.usda.gov/Home/About"
       ]
@@ -985,7 +985,7 @@
         "7.5 lb"
       ],
       "answer": 3,
-      "rationale": "Fator de ajuste = 100/40 = 2,5. Arroz = 3 × 2,5 = 7,5 lb. A porção permanece igual; as demais quantidades não aplicam o fator correto.",
+      "rationale": "Scaling factor = 100/40 = 2.5. Rice = 3 × 2.5 = 7.5 lb. Portion size remains unchanged; the other quantities do not apply the correct factor.",
       "sources": []
     },
     {
@@ -999,7 +999,7 @@
         "Use the established effective wash-rinse-sanitize-air-dry procedure and clean utensils"
       ],
       "answer": 3,
-      "rationale": "Limpeza eficaz seguida do procedimento sanitário e utensílios limpos reduz transferência do alérgeno. Remover só resíduos visíveis ou sanitizar sem limpeza não é equivalente; cozinhar não é garantia de eliminação de alérgenos.",
+      "rationale": "Effective cleaning followed by the sanitizing procedure and clean utensils reduces allergen transfer. Removing only visible residue or sanitizing without cleaning is not equivalent; cooking does not guarantee allergen elimination.",
       "sources": [
         "https://www.fda.gov/food/retail-food-protection/allergen-removal-and-transfer-using-wiping-and-cleaning-methods-retail-food-establishments"
       ]
@@ -1007,8 +1007,8 @@
   ],
   "lessons": [
     {
-      "title": "Princípios: rótulos, comunicação e evidência",
-      "text": "Rótulos: comece pela porção e pelo número consumido. Multiplique nutrientes e energia pelo fator de porção. Açúcares adicionados integram o total; não some duas vezes. Compare alimentos em porções equivalentes. Na referência geral de %DV, 5% ou menos é baixo e 20% ou mais é alto. Exemplo de cálculo: 120 mg por 40 g equivalem a 300 mg por 100 g.\nComunicação: verificar compreensão não é perguntar somente se a pessoa entendeu. Peça que explique ou demonstre o plano; reformule se necessário. Transforme intenções em ações observáveis, acordadas com a pessoa.\nPesquisa: em ensaio randomizado o pesquisador atribui a intervenção por acaso; em coorte acompanha exposição e desfecho; em caso-controle seleciona pelo desfecho e compara exposições. Associação não equivale automaticamente a causa. Risco = novos casos / pessoas sob risco; razão de riscos = risco exposto / risco não exposto.\nCiência nutricional: vitamina C pode aumentar a absorção de ferro não heme. Não extrapole um mecanismo para recomendar suplementação indiscriminada.",
+      "title": "Principles: Labels, Communication, and Evidence",
+      "text": "Labels: Start with the serving size and the number of servings consumed. Multiply nutrients and calories by the serving factor. Added sugars are included in total sugars; do not add them twice. Compare equivalent portions. As a general % Daily Value guide, 5% DV or less is low and 20% DV or more is high. Example: 120 mg per 40 g equals 300 mg per 100 g.\nCommunication: Checking understanding means more than asking whether the person understands. Ask the person to explain or demonstrate the plan, and clarify if needed. Turn intentions into observable actions agreed upon with the person.\nResearch: In a randomized trial, the researcher assigns interventions by chance; a cohort follows exposures and outcomes; a case-control study selects participants by outcome and compares exposures. Association does not automatically establish causation. Risk = new cases / people at risk; risk ratio = risk in the exposed group / risk in the unexposed group.\nNutrition science: Vitamin C can improve nonheme iron absorption. Do not extrapolate from a mechanism to recommend supplements indiscriminately.",
       "sources": [
         "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
         "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
@@ -1018,8 +1018,8 @@
       ]
     },
     {
-      "title": "Do dado à decisão: Nutrition Care Process",
-      "text": "O NCP organiza avaliação/reavaliação, diagnóstico nutricional, intervenção e monitoramento/avaliação. Na questão, identifique primeiro qual etapa está sendo pedida. Coletar consumo, medidas e exames pertence à avaliação; comparar resultados posteriores com a meta pertence ao monitoramento. O PES conecta problema, causa e evidências. A etiologia deve orientar uma intervenção capaz de modificar a causa, e os sinais/sintomas devem permitir acompanhar mudança. Diagnóstico médico não substitui diagnóstico nutricional. Exemplo autoral: se a ingestão caiu por dificuldade para comprar alimentos, ensinar receitas caras não resolve a barreira. Antes de escolher uma ação, procure os dados que sustentam a decisão. Pergunta de recuperação: qual informação provaria que a intervenção funcionou? Exercício aplicado (autoral): uma pessoa relata que ficou sem transporte para o mercado; o consumo caiu. Separe em três colunas: problema observado, causa potencial e dado ainda necessário. Antes de atribuir a redução à falta de conhecimento, pergunte como a pessoa consegue alimentos e quais recursos existem. Compare duas propostas: repetir um folheto ou adaptar o plano ao acesso disponível. Explique em voz alta por que uma delas responde melhor à barreira. Depois escreva uma pergunta para o retorno: como mudou a frequência ou quantidade de refeições? Use cinco minutos para criar outro caso com causa diferente, mantendo o mesmo problema.",
+      "title": "From Data to Decisions: The Nutrition Care Process",
+      "text": "The Nutrition Care Process (NCP) organizes assessment/reassessment, nutrition diagnosis, intervention, and monitoring and evaluation. First identify which step a question asks about. Collecting intake, measurements, and laboratory data is assessment; comparing later results with a goal is monitoring. A PES statement connects the problem, etiology, and signs and symptoms. The etiology should guide an intervention capable of addressing the cause; signs and symptoms should allow progress to be monitored. A medical diagnosis does not replace a nutrition diagnosis.\nExample: If intake fell because a person has difficulty buying food, teaching expensive recipes does not resolve the barrier. Before choosing an action, find the data supporting the decision. Retrieval question: What information would show whether the intervention worked?\nApplied exercise: A person reports losing transportation to the grocery store, and intake has fallen. Use three columns: observed problem, possible cause, and additional data needed. Before attributing the decrease to a lack of knowledge, ask how the person obtains food and what resources are available. Compare repeating a handout with adapting the plan to available access. Explain aloud which addresses the barrier better and why. Then write a follow-up question: How has meal frequency or amount changed? Spend five minutes creating another case with the same problem but a different cause.",
       "sources": [
         "https://www.eatrightpro.org/practice/nutrition-care-process",
         "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-diagnosis",
@@ -1029,16 +1029,16 @@
       ]
     },
     {
-      "title": "Cálculos de cuidado: unidade antes da fórmula",
-      "text": "Neste bloco, todas as metas prescritas e concentrações necessárias aparecem nos enunciados; elas são dados do exercício, não recomendações universais. Escreva a unidade desejada antes de calcular. Para energia entregue por fórmula: mL × kcal/mL. Para volume necessário: kcal ÷ kcal/mL. Para velocidade: volume ÷ horas efetivamente disponíveis. Para adequação: consumido ÷ meta × 100. Para perda percentual de peso: (peso anterior - peso atual) ÷ peso anterior × 100. Não confunda o resultado aritmético com diagnóstico de desnutrição: a interpretação exige contexto clínico. Faça uma estimativa mental para detectar erros de dez vezes. No rótulo, multiplique os valores por porção pelo número de porções realmente consumidas. Exemplo resolvido autoral: meta fornecida de 1.600 kcal com fórmula de 1,25 kcal/mL resulta em 1.280 mL. Se a administração prevista for em 16 horas, a velocidade calculada é 80 mL/h. Conferência inversa: 80 × 16 × 1,25 = 1.600 kcal. Agora refaça com 20 horas: são 64 mL/h; volume e energia totais não mudaram. Segundo exemplo: de 90 kg para 85,5 kg, perdeu-se 4,5 kg; dividir pelo peso inicial resulta em 5%. Teste de unidade: kcal dividido por kcal/mL deixa mL. Treino sem gabarito imediato: qual volume de uma fórmula de 2 kcal/mL fornece a meta dada de 1.700 kcal? Resposta para conferir depois: 850 mL. Nenhum desses números define indicação clínica.",
+      "title": "Care Calculations: Units Before Formulas",
+      "text": "In this block, prescribed targets and formula concentrations are supplied in the questions; they are exercise data, not universal recommendations. Write the desired unit before calculating. Energy delivered by formula = mL × kcal/mL. Required volume = kcal ÷ kcal/mL. Rate = volume ÷ hours actually available. Adequacy = intake ÷ target × 100. Percentage weight loss = (previous weight − current weight) ÷ previous weight × 100. Do not confuse an arithmetic result with a malnutrition diagnosis; interpretation requires clinical context. Estimate mentally to detect tenfold errors. For labels, multiply values per serving by the number of servings consumed.\nWorked example: A stated target of 1,600 kcal using a 1.25 kcal/mL formula requires 1,280 mL. Given over 16 hours, the rate is 80 mL/h. Reverse check: 80 × 16 × 1.25 = 1,600 kcal. Over 20 hours the rate is 64 mL/h; total volume and energy stay the same. Another example: a change from 90 kg to 85.5 kg is a 4.5 kg loss, or 5% of initial weight. Unit check: kcal ÷ kcal/mL leaves mL. Practice before checking: What volume of 2 kcal/mL formula supplies a stated target of 1,700 kcal? Answer: 850 mL. None of these numbers establishes a clinical indication.",
       "sources": [
         "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
         "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment"
       ]
     },
     {
-      "title": "Individualizar a intervenção e verificar resposta",
-      "text": "Escolha a ação que responde à barreira ou ao risco demonstrado, não a uma regra automática. Na doença renal crônica, necessidades variam; potássio, proteína e outros componentes exigem avaliação individual. Na doença celíaca confirmada, excluir glúten inclui reconhecer trigo, cevada e centeio e prevenir contato cruzado. Em saúde comunitária, encaminhar é diferente de garantir elegibilidade: o WIC atende categorias específicas e exige critérios adicionais. Ao corrigir uma questão, diga: qual dado foi decisivo, qual alternativa pareceu atraente e por que ela não responde ao caso? Defina um indicador observável e uma meta comparável para o retorno. Exercício aplicado autoral: escolha um dos três contextos desta aula e monte uma resposta em quatro linhas: dado que falta, intervenção possível, indicador de acompanhamento e condição que exigiria reavaliação. Para o contexto renal, não escreva um limite numérico sem uma meta individual fornecida. Para doença celíaca, diferencie o ingrediente do processo de preparo. Para o WIC, diferencie uma pessoa que pode ser encaminhada de uma pessoa cuja elegibilidade já foi aprovada. Reserve os minutos finais para transformar uma resposta errada em nova pergunta: mude um dado do caso e explique como isso mudaria sua escolha. Esse exercício treina transferência de raciocínio, não memorização de letras.",
+      "title": "Individualize the Intervention and Evaluate the Response",
+      "text": "Choose an action that addresses the demonstrated barrier or risk rather than applying an automatic rule. Needs vary in chronic kidney disease; potassium, protein, and other components require individual assessment. In confirmed celiac disease, avoiding gluten includes recognizing wheat, barley, and rye and preventing cross-contact. In community health, referral is not a guarantee of eligibility: WIC serves specific categories and has additional criteria.\nWhen reviewing a question, ask: Which fact was decisive? Which distractor was tempting, and why does it not answer the case? Define an observable indicator and a comparable follow-up target.\nApplied exercise: Choose one of these three contexts and write four lines: missing information, a possible intervention, a monitoring indicator, and a condition requiring reassessment. For kidney disease, do not invent a numeric limit without an individual target. For celiac disease, distinguish an ingredient from the preparation process. For WIC, distinguish a person who may be referred from one whose eligibility has been approved. In the final minutes, turn an incorrect answer into a new question: change one case detail and explain how it changes your choice. This practices transfer of reasoning, not memorization of letters.",
       "sources": [
         "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease",
         "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition",
@@ -1047,8 +1047,8 @@
       ]
     },
     {
-      "title": "Gestão: transformar problemas em medidas e decisões",
-      "text": "Comece por definir o que a pergunta mede e em quais unidades. Nesta semana, pratique FTE = horas de trabalho/horas de um FTE; produtividade = refeições/horas produtivas; percentual de custo = custo/vendas × 100. São relações usadas nos exercícios, com suas premissas explicitadas. Para um único produto, a margem de contribuição por unidade é preço menos custo variável; o ponto de equilíbrio em unidades é custo fixo dividido por essa margem. Não confunda receita, contribuição e lucro. Em qualidade, teste uma mudança pequena, compare resultados à previsão e decida o próximo passo: Plan, Do, Study, Act. Uma melhora observada não prova causalidade. Na contratação, concentre a entrevista pré-oferta nas funções do cargo, não no diagnóstico ou nas medicações do candidato. Exercício ativo: reescreva cada fórmula com unidades e explique por que a alternativa errada mais atraente está errada. Exemplo resolvido autoral: 150 refeições em 30 horas produtivas = 5 refeições/hora. Se a mesma equipe usa 25 horas para 150 refeições, a razão sobe para 6 refeições/hora; isso não demonstra, por si só, qualidade ou segurança melhores. Outra verificação: com preço $10, custo variável $4 e custo fixo $1.800, cada venda contribui $6 e são necessárias 300 vendas para equilíbrio. Confirme: receita $3.000, variável $1.200, fixo $1.800, lucro zero.",
+      "title": "Management: Turning Problems into Measures and Decisions",
+      "text": "First define what the question measures and its units. Practice FTE = labor hours / hours per FTE; productivity = meals / productive labor hours; and cost percentage = cost / sales × 100. The exercises state their assumptions. For a single product, contribution margin per unit = price − variable cost; break-even units = fixed cost / contribution margin per unit. Do not confuse revenue, contribution, and profit.\nFor quality improvement, test a small change, compare results with predictions, and decide what to do next: Plan, Do, Study, Act. An observed improvement alone does not prove causation. In hiring, focus a pre-offer interview on job functions, not a candidate’s diagnosis or medications.\nActive practice: Rewrite each formula with units and explain why the most tempting wrong answer is wrong. Worked example: 150 meals / 30 productive hours = 5 meals per hour. If the same team produces 150 meals in 25 hours, the ratio rises to 6 meals per hour; that alone does not prove improved quality or safety. Another check: at a $10 price, $4 variable cost, and $1,800 fixed cost, each sale contributes $6 and 300 sales are needed to break even. Verify: $3,000 revenue − $1,200 variable cost − $1,800 fixed cost = zero profit.",
       "sources": [
         "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point",
         "https://www.ahrq.gov/cahps/improvement-guide/improvement-models/plan-do-study-act.html",
@@ -1056,8 +1056,8 @@
       ]
     },
     {
-      "title": "Foodservice: quantidade certa e controle de risco",
-      "text": "Rendimento separa a quantidade comprada (AP) da quantidade utilizável (EP): compra = necessidade utilizável/fração de rendimento. Quando só há embalagens inteiras, arredonde a compra para cima. Na produção, fator de ajuste = porções desejadas/porções da receita. Para os exercícios de segurança, a referência explícita é o FDA Food Code 2022, modelo cuja adoção local varia: resfriar alimento TCS cozido de 135 a 70°F em até 2 horas e até 41°F em até 6 horas totais; recipientes rasos ajudam. Manutenção usual: quente ≥135°F, fria ≤41°F, ressalvadas exceções. Contato cruzado de alérgenos exige controle de superfícies, utensílios e limpeza; não basta retirar resíduos visíveis. Aplique as condições dadas no enunciado, sem substituir regra técnica por aparência ou odor. Exemplo resolvido autoral: 18 kg utilizáveis a 75% de rendimento exigem 18/0,75 = 24 kg comprados. Conferência inversa: 24 × 0,75 = 18 kg. Uma receita de 20 porções deve ser multiplicada por 3 para produzir 60 porções do mesmo tamanho; não multiplique o tamanho de cada porção. Nota de atualização: o Food Code 2026 já foi publicado; os limites básicos aqui estudados permanecem iguais. Os exercícios citam 2022 explicitamente, não como edição mais recente.",
+      "title": "Foodservice: Quantities and Risk Control",
+      "text": "Yield distinguishes as-purchased (AP) quantity from edible-portion (EP) quantity: purchase quantity = usable amount needed ÷ yield fraction. When only whole packages can be purchased, round up. The recipe scaling factor = desired portions ÷ original recipe portions.\nThe food-safety exercises explicitly use the FDA Food Code 2022, a model adopted differently by jurisdictions. Cool cooked TCS food from 135°F to 70°F within 2 hours and to 41°F within 6 hours total; shallow containers help. Usual holding limits are hot at or above 135°F and cold at or below 41°F, subject to exceptions. Allergen cross-contact control requires attention to surfaces, utensils, and cleaning; removing visible residue alone is insufficient. Apply the conditions in the question; appearance or smell cannot replace a safety rule.\nWorked example: 18 kg usable at 75% yield requires 18 / 0.75 = 24 kg purchased. Reverse check: 24 × 0.75 = 18 kg. A 20-portion recipe must be multiplied by 3 to make 60 portions of the same size; do not triple the size of each portion. Update: The Food Code 2026 has been published; the basic limits studied here remain the same. The exercises name the 2022 edition explicitly, not as the latest edition.",
       "sources": [
         "https://foodbuyingguide.fns.usda.gov/Home/About",
         "https://www.fda.gov/food/fda-food-code/food-code-2022",
