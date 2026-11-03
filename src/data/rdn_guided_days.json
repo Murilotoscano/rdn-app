@@ -2404,6 +2404,1171 @@
         "https://www.fda.gov/media/194741/download",
         "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines"
       ]
+    },
+    {
+      "day": 22,
+      "title": "Community Nutrition: Needs, Resources, and Outcomes",
+      "minutes": 90,
+      "objectives": [
+        "Distinguish community assessment, priority setting, implementation and evaluation.",
+        "Connect inputs and activities to outputs and outcomes in a program logic model.",
+        "Choose an equitable, measurable indicator and recognize the difference between referral and confirmed eligibility."
+      ],
+      "theory": [
+        {
+          "heading": "90-minute study session",
+          "text": "Study and annotate the material on this page for 25 minutes. Spend 15 minutes on the worked case, 20 minutes answering the questions, 20 minutes examining every explanation and improving your reasoning, and 10 minutes on spaced review. Write your answers before opening the explanations. The linked sources are optional for checking and extending what you learn here."
+        },
+        {
+          "heading": "Community assessment begins with listening",
+          "text": "A community assessment identifies needs, existing strengths and resources, and conditions that affect health. A needs assessment is not a list of assumptions about residents. Define the community and purpose first; include people affected by the decision and organizations with relevant knowledge. Gather quantitative information, such as a defensible measure of food access, and qualitative information, such as interviews about transportation, store hours and culturally relevant foods. A food pantry’s existence does not establish that its hours, eligibility process or selection meet everyone’s needs. Ask who is not reached by each data source and whether the measure is current enough for the decision."
+        },
+        {
+          "heading": "From observations to a priority",
+          "text": "Compare possible problems using clearly stated criteria: magnitude, seriousness, community importance, available resources and feasibility. Do not select solely by what a staff member can measure easily. A small survey of clinic attendees can identify possible barriers but may miss people who do not visit the clinic. Describe its sampling limitation and combine it with other evidence rather than treating its results as a population-wide estimate. Involve community members in deciding whether the proposed problem and solution match lived experience. State a priority in terms of a population and an actionable problem, such as limited access to affordable foods during workable hours."
+        },
+        {
+          "heading": "Build a logic model",
+          "text": "A logic model makes the intended chain of a program visible. Inputs are resources such as staff time, a meeting space and funding. Activities are what the program does, such as holding a cooking session. Outputs are the direct products of activities, such as the number of sessions held or participants reached. Outcomes are the changes the program seeks, such as improved confidence or a change in a food-access behavior. An output is not proof of an outcome: a full classroom does not establish that households can shop for or prepare the food later. Long-term changes can be affected by other programs and conditions."
+        },
+        {
+          "heading": "Write an observable objective",
+          "text": "Specify who will do what, how it will be measured and when. For example: “By eight weeks after the session, at least 30 of 50 enrolled households will report using a local food resource at least once.” Here the numerator is households reporting use; the denominator is 50 enrolled households. Thirty divided by 50 is 60%. Decide before implementation how missing responses are handled and whether the same households will be followed. An objective can be measurable but unrealistic or inappropriate; discuss its feasibility and relevance with participants. Do not promise a clinical effect based only on attendance."
+        },
+        {
+          "heading": "Referrals, eligibility and respectful access",
+          "text": "A referral helps a person connect with a program; it does not guarantee enrollment, benefit amount or program eligibility. Eligibility requirements and the agency responsible for decisions vary by program and jurisdiction, and they can change. Provide an accurate contact or application route, explain what is known and help identify an accessible next step. Ask permission before sharing information, use the person’s preferred language and consider transportation, schedule and technology. A useful follow-up asks whether the connection was completed and what barrier remains, not merely whether a referral sheet was distributed."
+        },
+        {
+          "heading": "Evaluation: choose evidence for the decision",
+          "text": "Clarify who will use the result and the decision it will inform. Process measures describe implementation and reach; outcome measures assess the changes of interest. Collect credible, feasible and meaningful measures at appropriate times, including baseline when a change from baseline matters. Compare definitions consistently and document uncertainty. If 40 people attended but only 15 answered a follow-up survey, a rate calculated among the 15 respondents cannot automatically describe all 40. A change observed after a program may have other explanations; an appropriate comparison and design are needed before making stronger causal claims."
+        },
+        {
+          "heading": "Applied planning exercise with model answer",
+          "text": "A neighborhood partnership considers a weekly produce market. Before selecting an opening time, ask residents with different work schedules and transportation options when they can attend, and map current options. One possible activity is a four-week trial at a community site; an output is the number of market days held. A possible outcome is the proportion of enrolled households reporting that they purchased or obtained produce there during the trial. If 24 of 40 enrolled households report doing so, the observed proportion using 40 as the stated denominator is 60%; document missing responses separately. Use the findings with residents to decide whether to adjust the schedule, location or communication."
+        },
+        {
+          "heading": "Program example: WIC and SNAP",
+          "text": "WIC and SNAP illustrate why a program name is only the beginning of a referral decision. WIC supports eligible pregnant, postpartum or breastfeeding people, infants and children under age five; other requirements include income, health and residence. SNAP helps eligible households pay for food, and applicants contact the state or local office. An RDN can help a person identify an application route and identify questions to ask, but should not promise approval or a particular benefit. Programs, state implementation and eligibility rules can change, so check the responsible agency’s current instructions. For practice, compare a referral to a completed outcome: giving the WIC office telephone number is a referral action; confirming that an eligible family connected with the office and received a determination is a different follow-up. A person may face transportation, scheduling or language barriers after receiving the number."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A clinic wants to improve access to food for older adults. Staff propose printing 500 resource lists and judging success by the number printed. A small survey at the clinic suggests many respondents have difficulty traveling to a grocery store; people who do not come to the clinic were not surveyed. Design a better initial approach.",
+        "reasoning": "First clarify the population, consult older adults and partners outside the clinic, and assess transportation, shopping hours, access needs and existing resources. Treat the clinic survey as useful but incomplete. In a logic model, staff time is an input, distributing resource lists is an activity, and 500 lists printed is an output. A relevant outcome could be the proportion of enrolled people who report successfully accessing an appropriate resource within a defined period, with the numerator, denominator and missing responses documented. A referral is not proof of eligibility or use. Review findings with participants and adjust the approach."
+      },
+      "questions": [
+        {
+          "id": "W4D22Q01",
+          "stem": "A food access assessment surveys only people who already attend one clinic. What is the strongest interpretation?",
+          "options": [
+            "It describes every resident without sampling limitations",
+            "It may reveal barriers among respondents but can miss people who do not attend the clinic",
+            "It proves the clinic caused all reported barriers",
+            "It removes the need to speak with community members"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A single clinic sample may not represent the wider community.",
+            "Correct: useful observations remain limited by who was reached.",
+            "The survey alone does not establish causation.",
+            "Community participation remains important to interpretation and planning."
+          ],
+          "sources": [
+            "https://www.cdc.gov/infrastructure/public-health-systems-emerging-practices/frameworks-tools.html",
+            "https://www.cdc.gov/infrastructure/public-health-systems-emerging-practices/data-benchmarks.html"
+          ]
+        },
+        {
+          "id": "W4D22Q02",
+          "stem": "A program holds four nutrition workshops and records the number held. In a logic model, that count is best described as:",
+          "options": [
+            "An input",
+            "An output",
+            "Proof of long-term health improvement",
+            "A randomized comparison"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Staff time or funding would be inputs.",
+            "Correct: the number of workshops delivered is a direct program output.",
+            "A count of workshops does not establish health improvement.",
+            "There is no random assignment or comparison in the count alone."
+          ],
+          "sources": [
+            "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html"
+          ]
+        },
+        {
+          "id": "W4D22Q03",
+          "stem": "Of 50 enrolled households, 30 report using a food resource at least once. Using all 50 as the stated denominator, what proportion reported use?",
+          "options": [
+            "30%",
+            "50%",
+            "60%",
+            "80%"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "30 is the numerator, not the percentage.",
+            "Half of 50 would be 25 households.",
+            "Correct: 30 ÷ 50 × 100 = 60%.",
+            "80% of 50 would be 40 households."
+          ],
+          "sources": [
+            "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html"
+          ]
+        },
+        {
+          "id": "W4D22Q04",
+          "stem": "A dietitian gives a patient the application information for a food program. Which statement is most accurate?",
+          "options": [
+            "A referral automatically guarantees enrollment",
+            "The agency decides eligibility under applicable rules; follow up on whether the connection was completed",
+            "Every program has identical requirements nationwide",
+            "Distribution of a handout proves the person received benefits"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Referral alone cannot establish eligibility or enrollment.",
+            "Correct: distinguish the referral from the agency’s decision and actual access.",
+            "Rules vary by program and jurisdiction.",
+            "A handout is an output, not proof of receipt."
+          ],
+          "sources": [
+            "https://www.cdc.gov/infrastructure/public-health-systems-emerging-practices/frameworks-tools.html"
+          ]
+        },
+        {
+          "id": "W4D22Q05",
+          "stem": "Which indicator best matches a goal of increasing completed use of a resource?",
+          "options": [
+            "Number of flyers printed",
+            "Number of staff email accounts",
+            "Percentage of enrolled participants who report accessing the resource within the stated period",
+            "Color of the program logo"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Printing measures an output, not participant use.",
+            "This does not measure resource access.",
+            "Correct: the indicator matches the specified population, behavior and time.",
+            "Logo color does not measure the stated outcome."
+          ],
+          "sources": [
+            "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html"
+          ]
+        },
+        {
+          "id": "W4D22Q06",
+          "stem": "Forty people attended a session; 15 completed a follow-up survey. Why should the survey result not automatically be presented as representative of all 40?",
+          "options": [
+            "Because surveys can never be used in evaluation",
+            "Because nonrespondents may differ from respondents and the missing data need attention",
+            "Because the denominator is always the number of sessions",
+            "Because any increase after a program proves the program caused it"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Surveys can be useful if their design and limitations are considered.",
+            "Correct: missing follow-up responses can affect interpretation.",
+            "The denominator must match the particular measure.",
+            "A before-and-after change alone does not establish causality."
+          ],
+          "sources": [
+            "https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm"
+          ]
+        },
+        {
+          "id": "W4D22Q07",
+          "stem": "A patient asks whether a referral to WIC means their child is automatically enrolled. Which response is most appropriate?",
+          "options": [
+            "Yes; giving a telephone number guarantees eligibility",
+            "The appropriate agency determines eligibility; offer application information and help address access barriers",
+            "Every person qualifies because WIC has no eligibility requirements",
+            "SNAP and WIC are identical and have no different application processes"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A referral does not guarantee an agency determination or enrollment.",
+            "Correct: provide an appropriate application route and support while recognizing that the agency determines eligibility.",
+            "WIC has category and other eligibility requirements.",
+            "They are different programs; application and eligibility details should be verified with the relevant agency."
+          ],
+          "sources": [
+            "https://www.usa.gov/food-assistance",
+            "https://www.usa.gov/food-stamps"
+          ]
+        }
+      ],
+      "review": [
+        "Return to Day 8: name one quantitative and one qualitative source and one limitation of each.",
+        "Return to Day 15: define a behavior that could be assessed at follow-up without treating a referral as completed care.",
+        "Write an input, activity, output and outcome for a different community intervention."
+      ],
+      "sources": [
+        "https://www.cdc.gov/infrastructure/public-health-systems-emerging-practices/frameworks-tools.html",
+        "https://www.cdc.gov/infrastructure/public-health-systems-emerging-practices/data-benchmarks.html",
+        "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html",
+        "https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm",
+        "https://www.usa.gov/food-assistance",
+        "https://www.usa.gov/food-stamps"
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Education and Behavior: Teach, Practice, Evaluate",
+      "minutes": 90,
+      "objectives": [
+        "Write an observable learning objective and select a method suited to the learner and setting.",
+        "Use teach-back to assess clarity without blaming or testing the learner.",
+        "Distinguish knowledge, observed skill and later behavior when evaluating an education session."
+      ],
+      "theory": [
+        {
+          "heading": "90-minute study session",
+          "text": "Study this page for 25 minutes, work the case for 15, answer the questions for 20, review every answer and revise your examples for 20, and finish spaced review for 10 minutes. Say the examples aloud in English. The source links are optional for additional detail; the core material and practice are on this page."
+        },
+        {
+          "heading": "Assess before choosing a method",
+          "text": "Start by asking what the person wants to accomplish, what they already know, what language and format they prefer, and what might make the plan difficult. Consider resources, time, vision or hearing needs and the opportunity to practice. Do not infer ability or motivation solely from age, accent, schooling or a diagnosis. Readiness is not a license to label someone “noncompliant”; explore the person’s priorities and barriers. If the issue is food affordability or transportation, a lecture alone may not resolve it. Select an intervention that addresses the identified barrier and can be measured."
+        },
+        {
+          "heading": "Objectives connect learning to evaluation",
+          "text": "A learning objective states what the learner will be able to do under defined conditions. “Understand labels” is a broad intention, but it does not identify an observable performance. A clearer objective is: “After a demonstration, the learner will identify the amount of sodium in two servings from a sample label.” This specifies an action and context; an evaluation can provide a new label and ask for an explanation or calculation. A behavior objective can describe a later action, but do not confuse demonstrated ability in a session with proof that the action occurred at home. Give the learner a meaningful role in selecting goals."
+        },
+        {
+          "heading": "Choose a method and teach clearly",
+          "text": "For a psychomotor skill, such as measuring a portion with a household cup, a demonstration followed by the learner’s practice and feedback can reveal whether the procedure is clear. A concise discussion may help with a decision; a visual aid may support an explanation when suitable for that person. Use plain language, break information into manageable pieces and avoid unnecessary jargon. Define terms that must be used. Match examples to the person’s food preferences, access and daily routine. Ask permission to discuss a topic and invite questions. A visually attractive handout does not automatically prove that the content is understood."
+        },
+        {
+          "heading": "Teach-back is a check on the explanation",
+          "text": "After explaining an action in plain language, ask the person to explain it in their own words: “I want to be sure I explained this clearly. How will you compare the two serving sizes at home?” This checks the clarity of the communication and reveals what needs more explanation. If the response does not match the plan, take responsibility, explain differently and ask again. Do not frame teach-back as an exam or ask only “Do you understand?” A person’s correct teach-back shows understanding at that moment; it does not guarantee future behavior, access or clinical outcomes."
+        },
+        {
+          "heading": "Measure knowledge, skill and behavior separately",
+          "text": "A question answered immediately after a session can assess knowledge. Observing a person use a measuring cup can assess a demonstrated skill in that setting. Asking at follow-up how often the person used the agreed method assesses a reported behavior, with the limits of self-report. Clinical changes may be influenced by many factors and require appropriate measures and time. Align the measurement with the objective: if the objective is to demonstrate a label calculation, counting attendance alone is insufficient. Decide who will collect the measure and how a response will be recorded."
+        },
+        {
+          "heading": "A worked communication sequence",
+          "text": "A person receives a label stating 160 kcal per serving and plans to eat 1.5 servings. First ask what the person currently looks for on labels. Show that 160 × 1.5 = 240 kcal, labeling both the serving size and result. Invite the person to calculate a new label: 120 kcal per serving at two servings is 240 kcal. If the result is incorrect, say “I may not have explained that clearly,” show the multiplication another way, and invite another attempt. Then agree on one realistic action, such as comparing the number of servings in two usual snacks. At follow-up ask which snack was compared and what the person observed."
+        },
+        {
+          "heading": "Apply, contrast, and evaluate",
+          "text": "Imagine two people have the same goal of preparing a lower-sodium meal. One has a kitchen and wants a practical cooking demonstration; the other relies on prepared meals and has no access to a stove. The same cooking lesson may not fit both. For the second person, jointly compare labels and affordable ready-to-eat choices, respecting the person’s preferences and medical plan. Ask each learner to demonstrate a relevant decision with a new example. A session can be well delivered yet not remove a transportation barrier; document the barrier and coordinate an appropriate resource rather than treating lack of access as lack of knowledge."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A patient is told to compare sodium on food labels but says, “I am not sure how to use the serving size.” They normally eat two servings from a package. The label shows 350 mg sodium per serving. Design a brief teaching sequence and an evaluation.",
+        "reasoning": "Ask what the patient already looks for and whether they want to work with their usual package. Explain one step at a time: 350 mg per serving × two servings = 700 mg. Use teach-back: “I want to make sure I explained it clearly. How would you calculate the sodium in the amount you normally eat?” If the explanation is incomplete, explain differently and ask again without blame. Give a different label to check transfer of the skill, then agree on a feasible label-comparison action. A later report about using it is a different measure from a skill demonstrated during the visit."
+      },
+      "questions": [
+        {
+          "id": "W4D23Q01",
+          "stem": "Which objective is most directly observable immediately after a lesson?",
+          "options": [
+            "The patient will understand nutrition forever",
+            "Given a sample label, the learner will calculate sodium in two servings",
+            "The learner will have perfect health next year",
+            "The patient will be motivated in all circumstances"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "“Understand” alone does not specify a visible performance.",
+            "Correct: the task and conditions can be observed and evaluated.",
+            "Health outcomes depend on multiple influences and are not an immediate learning performance.",
+            "A universal internal state is not directly measurable by this task."
+          ],
+          "sources": [
+            "https://www.cdc.gov/health-literacy/php/develop-materials/plain-language.html"
+          ]
+        },
+        {
+          "id": "W4D23Q02",
+          "stem": "Which question uses teach-back appropriately?",
+          "options": [
+            "Do you understand? Answer yes or no.",
+            "I want to check that I explained this clearly. How would you use this label at home?",
+            "Repeat my exact words or you have failed.",
+            "You understood the handout, correct?"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A yes/no response may not reveal whether the explanation was clear.",
+            "Correct: the learner explains the action in their own words while the educator owns the clarity of instruction.",
+            "Teach-back is not a punitive test of verbatim recall.",
+            "This leading yes/no question does not show how the person will use the information."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+          ]
+        },
+        {
+          "id": "W4D23Q03",
+          "stem": "A label lists 350 mg sodium per serving. A person eats two servings. How much sodium is shown for that amount?",
+          "options": [
+            "175 mg",
+            "350 mg",
+            "700 mg",
+            "1,400 mg"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Dividing by two would apply to half a serving, not two.",
+            "This is the amount for one serving.",
+            "Correct: 350 × 2 = 700 mg.",
+            "That is four times the per-serving amount."
+          ],
+          "sources": [
+            "https://www.cdc.gov/health-literacy/php/develop-materials/plain-language.html"
+          ]
+        },
+        {
+          "id": "W4D23Q04",
+          "stem": "Which method best checks a learner’s ability to measure a food portion using a cup?",
+          "options": [
+            "Ask the learner to demonstrate with the cup and provide feedback",
+            "Count the number of pamphlets printed",
+            "Assume the person can do it if they nod",
+            "Measure only the instructor’s speaking time"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: observed practice assesses the relevant skill in the stated setting.",
+            "A printed-pamphlet count is not a skill assessment.",
+            "A nod does not show the procedure.",
+            "Speaking time does not establish whether the learner can perform the skill."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+          ]
+        },
+        {
+          "id": "W4D23Q05",
+          "stem": "A participant correctly describes a plan at the end of education. What can the educator conclude?",
+          "options": [
+            "The participant will certainly follow it indefinitely",
+            "The explanation appeared understood at that moment; later behavior and access still need follow-up",
+            "The education caused a long-term clinical outcome",
+            "There can be no remaining practical barriers"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Correct teach-back does not guarantee later action.",
+            "Correct: immediate comprehension and later behavior are different outcomes.",
+            "A single immediate response does not prove long-term causation.",
+            "Practical barriers may remain even when a plan is understood."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+          ]
+        },
+        {
+          "id": "W4D23Q06",
+          "stem": "A patient cannot shop at the recommended store because they lack transportation. Which response best addresses the stated barrier?",
+          "options": [
+            "Repeat the same handout without discussion",
+            "Explore accessible food options and available resources with the patient",
+            "Label the patient unmotivated",
+            "Set a more demanding shopping goal without asking"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "The barrier is access, so repeating information alone may not solve it.",
+            "Correct: the intervention should respond to the person’s actual barrier and preferences.",
+            "The information supplied does not establish motivation.",
+            "A goal that ignores the barrier may be impractical."
+          ],
+          "sources": [
+            "https://www.cdc.gov/health-literacy/php/develop-materials/plain-language.html"
+          ]
+        }
+      ],
+      "review": [
+        "Return to Day 9: identify a modifiable cause before selecting an intervention.",
+        "Return to Day 16: explain a cross-contact prevention step using teach-back, then specify how you would assess later use.",
+        "Write one objective each for knowledge, demonstrated skill and later behavior; explain how the measures differ."
+      ],
+      "sources": [
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+        "https://www.cdc.gov/health-literacy/php/develop-materials/plain-language.html"
+      ]
+    },
+    {
+      "day": 24,
+      "title": "Finance and Marketing: Calculate and Decide",
+      "minutes": 90,
+      "objectives": [
+        "Separate fixed and variable costs, contribution margin and profit in a single-product example.",
+        "Calculate a break-even quantity with explicit assumptions and round up when whole units are required.",
+        "Use a defined target audience and measurable evidence to evaluate a marketing decision."
+      ],
+      "theory": [
+        {
+          "heading": "90-minute study session",
+          "text": "Study this page for 25 minutes, solve the worked case for 15 minutes, answer the questions for 20 minutes, review each explanation and recalculate for 20 minutes, and use 10 minutes for spaced review. Write the formula with units before replacing its symbols. Source links are optional for further study and verification."
+        },
+        {
+          "heading": "Budget, cost behavior and relevant assumptions",
+          "text": "A budget is a plan for expected revenue and expenses over a stated period. Compare actual amounts with the same budget period and explain a variance before assuming a cause. Fixed costs in a simple model do not change with the number of units within the relevant range and period; variable costs change with units produced or sold. Real operations can contain mixed or step costs and capacity constraints, so label the assumptions used in an exercise. Do not assume every labor cost is fixed or every cost labeled “food” behaves identically. For a single-product problem, the prompt should supply the selling price, variable cost per unit and total fixed costs."
+        },
+        {
+          "heading": "Contribution is not the same as profit",
+          "text": "Contribution margin per unit equals selling price minus variable cost per unit. It is the amount per unit available to cover fixed costs and, after those are covered under the model, profit. It is not itself net profit. Contribution margin ratio is contribution per unit divided by selling price. If price is $10 and variable cost is $6 per unit, contribution is $4 per unit and the ratio is 40%. At 200 units the total contribution is 200 × $4 = $800. If fixed costs are $600 for that period, modeled profit is $800 − $600 = $200, assuming no omitted costs and that the model’s assumptions hold."
+        },
+        {
+          "heading": "Break-even with whole units",
+          "text": "For a single product with constant price and variable cost, break-even units equal fixed costs divided by contribution per unit. If fixed costs are $2,500 and contribution is $4 per unit, the mathematical break-even point is 625 units. If fixed costs are $2,501, the quotient is 625.25. When the business can sell only whole units and the question asks for the minimum to avoid a loss, round up to 626 units. At 625 units contribution is $2,500, still $1 short; at 626 it is $2,504. Rounding is determined by the decision and units, not a universal rule for every financial calculation."
+        },
+        {
+          "heading": "Percentages and variance",
+          "text": "A cost percentage must identify both numerator and denominator. If food cost is $7,200 and food sales are $24,000 in the same period, food cost percentage is $7,200 ÷ $24,000 × 100 = 30%. This does not automatically include labor or establish a net profit margin. If an expense budget was $5,000 and actual expense was $5,400, the expense variance is $400 above budget; the sign and desirability depend on the definition and context. Before recommending a response, check volume, price changes, product mix and whether the underlying figures are comparable. Avoid changing a denominator merely to match a preferred answer."
+        },
+        {
+          "heading": "A target audience is a decision aid",
+          "text": "Marketing starts with a clearly defined group and a problem the service can address. Describe relevant needs, preferences, location, barriers and competing alternatives; do not assume that everyone who could theoretically use a service will purchase it. Market research can include interviews, surveys or existing data, but each has a sampling limitation. A small survey distributed only to current customers may miss people who do not already use the service. Define what decision the research will inform, ask neutral questions and compare results with other available information. A promotion is a tactic, not proof of demand or program success."
+        },
+        {
+          "heading": "Connect a promotion to a measure",
+          "text": "Suppose a service tests two different announcements in comparable settings for the same time period. Define the desired action, such as a completed appointment request, and record how many people are reached and how many complete it. If 20 of 200 people reached complete a request, the observed completion proportion is 10% for that defined group. It does not establish that every future audience will respond at the same rate, that all requests lead to sales, or that the announcement alone caused the action. Record the method and limitations; use results to guide a subsequent decision rather than calling raw impressions profit."
+        },
+        {
+          "heading": "Integrated practice: menu choice and pricing",
+          "text": "A lunch has a price of $12, a variable cost of $7 and fixed period costs of $1,000. Contribution is $5 per lunch; break-even is 1,000 ÷ 5 = 200 lunches under the single-product model. At 180 lunches, contribution is $900 and modeled operating result is a $100 loss; at 220 lunches, contribution is $1,100 and modeled result is $100 profit before omitted items. Now imagine raising price to $13 while variable cost remains $7: contribution becomes $6 and mathematical break-even is 166.67, or 167 whole lunches. This does not guarantee that volume stays constant after the price increase; use market evidence and account for capacity before choosing the change."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A clinic meal service is considering one new lunch. The price would be $10, variable cost $6 per lunch, and fixed costs $2,501 per month. The service can sell only whole lunches. A survey of existing customers suggests interest, but employees on evening shifts were not surveyed. What is the minimum modeled break-even volume, and what research question remains?",
+        "reasoning": "Contribution = $10 − $6 = $4 per lunch. Mathematical break-even is $2,501 ÷ $4 = 625.25 lunches, so at least 626 whole lunches are needed to avoid a loss under the stated assumptions. At 625 lunches contribution is $2,500, leaving a $1 shortfall; at 626 it is $2,504. This calculation assumes stable price, variable costs and fixed costs and does not prove demand. Existing customers do not represent the unsurveyed evening group. Ask evening employees about needs, access and likely purchasing behavior before generalizing or choosing a promotion."
+      },
+      "questions": [
+        {
+          "id": "W4D24Q01",
+          "stem": "A lunch sells for $10 and has $6 in variable cost. What is contribution margin per lunch?",
+          "options": [
+            "$4",
+            "$6",
+            "$10",
+            "$16"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: $10 − $6 = $4 available per unit to cover fixed costs and then profit under the model.",
+            "$6 is the variable cost, not the difference.",
+            "$10 is sales price before variable cost.",
+            "$16 adds the two amounts instead of subtracting."
+          ],
+          "sources": [
+            "https://www.sba.gov/counseling/plan-your-business/"
+          ]
+        },
+        {
+          "id": "W4D24Q02",
+          "stem": "Fixed costs are $2,501 per month and contribution is $4 per lunch. If only whole lunches can be sold, what minimum number avoids a loss?",
+          "options": [
+            "625",
+            "625.25",
+            "626",
+            "1,001"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "625 produces $2,500 of contribution, $1 short of fixed costs.",
+            "625.25 is the mathematical quotient but not a whole number of lunches.",
+            "Correct: round up to 626 whole lunches; contribution is $2,504, or $3 above fixed costs.",
+            "This is not the quotient or minimum whole-unit result."
+          ],
+          "sources": [
+            "https://www.sba.gov/counseling/plan-your-business/"
+          ]
+        },
+        {
+          "id": "W4D24Q03",
+          "stem": "A service reports food costs of $7,200 and food sales of $24,000 for the same period. What is food cost as a percentage of sales?",
+          "options": [
+            "3%",
+            "30%",
+            "33.3%",
+            "70%"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "The decimal is misplaced.",
+            "Correct: 7,200 ÷ 24,000 × 100 = 30%.",
+            "33.3% does not follow from food cost divided by food sales.",
+            "70% is the complement, not the food-cost percentage."
+          ],
+          "sources": [
+            "https://www.sba.gov/counseling/plan-your-business/"
+          ]
+        },
+        {
+          "id": "W4D24Q04",
+          "stem": "An expense budget is $5,000 and the actual expense is $5,400. Which statement is accurate?",
+          "options": [
+            "Expense is $400 above budget",
+            "Expense is $400 below budget",
+            "Revenue is $400 above budget",
+            "The amounts alone prove why costs rose"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: actual expense exceeds budget by $400.",
+            "The direction is reversed.",
+            "The figures concern expense, not revenue.",
+            "Further information is needed to explain the variance."
+          ],
+          "sources": [
+            "https://www.sba.gov/counseling/plan-your-business/"
+          ]
+        },
+        {
+          "id": "W4D24Q05",
+          "stem": "A survey about a new service reaches only existing daytime customers. What should the manager consider before generalizing to evening employees?",
+          "options": [
+            "Evening employees may have different needs and were not represented",
+            "The survey automatically includes everyone who could use the service",
+            "Existing customers prove future demand at any price",
+            "A promotion guarantees that evening employees will enroll"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the sampling frame omits the group in question.",
+            "The distribution method explicitly excludes some potential users.",
+            "A survey of current customers cannot establish demand at every price.",
+            "A tactic does not guarantee a behavioral outcome."
+          ],
+          "sources": [
+            "https://www.sba.gov/counseling/manage-your-business/"
+          ]
+        },
+        {
+          "id": "W4D24Q06",
+          "stem": "An announcement reaches 200 people and 20 complete the stated appointment-request action. What is the observed request proportion for this group?",
+          "options": [
+            "1%",
+            "10%",
+            "20%",
+            "90%"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "20 ÷ 200 is 0.10, not 0.01.",
+            "Correct: 20 ÷ 200 × 100 = 10%; this does not by itself establish causation or future conversion.",
+            "This would be 40 requests out of 200.",
+            "This would be 180 requests out of 200."
+          ],
+          "sources": [
+            "https://www.sba.gov/counseling/manage-your-business/"
+          ]
+        }
+      ],
+      "review": [
+        "Return to Day 5: explain why contribution margin is not the same as net profit.",
+        "Return to Day 17: write units before calculating a rate or percentage, then check the answer by reverse calculation.",
+        "Change fixed costs in the worked case to $2,500 and verify that the minimum is exactly 625 lunches; explain the rounding difference."
+      ],
+      "sources": [
+        "https://www.sba.gov/counseling/plan-your-business/",
+        "https://www.sba.gov/counseling/manage-your-business/"
+      ]
+    },
+    {
+      "day": 25,
+      "title": "Food and Nutrient Science",
+      "minutes": 90,
+      "objectives": [
+        "Distinguish a food preparation mechanism from a clinical outcome or safety rule.",
+        "Use the serving-size basis of a Nutrition Facts label without double-counting added sugars.",
+        "Explain how iron form and meal context influence nonheme iron absorption."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 90-minute sequence",
+          "text": "Spend 10 minutes recalling Day 11's association-versus-causation distinction; 25 minutes reading the scientific explanations and sources; 20 minutes working the case and variations; 20 minutes answering and explaining the five questions; and 15 minutes completing the spaced review. Pause to predict an answer before reading each worked step."
+        },
+        {
+          "heading": "Start with the mechanism and the question",
+          "text": "Food science questions often ask what a preparation step does to structure or texture, whereas nutrition questions ask about composition, intake or physiological use. Identify the outcome before selecting an answer. Heating starch in water allows granules to absorb water and swell, a process called gelatinization that can contribute to thickening. Thickness also depends on the specific starch, formula and method; do not assume that a thickened product has the same properties after every storage or processing condition. Browning and thickening are distinct processes. A change in color or texture alone does not establish that a food reached a safe internal temperature; use the applicable food-safety controls."
+        },
+        {
+          "heading": "Browning, moisture and chemical context",
+          "text": "The Maillard reaction involves a group of reactions between amino compounds and reducing sugars that can contribute to browning and flavor. Heat, moisture, time and the food's composition influence the result. In a common example, a roasted potato typically develops more brown surface color than a conventionally steamed potato because the wet steaming environment limits surface drying and the familiar dry-heat browning effect. This comparison does not mean that all reactions involving sugars and proteins are chemically impossible in the presence of moisture. Nor is visible browning proof that a food is safe inside. Compare the stated food, surface and method before choosing between similar answers."
+        },
+        {
+          "heading": "Interpret the label per amount actually consumed",
+          "text": "Nutrition Facts values use the serving size printed on that label, which is not necessarily a recommendation for an individual portion. If the amount consumed differs, multiply the stated per-serving values by servings consumed. 'Includes added sugars' means the listed added sugars are already within total sugars; do not add them a second time. For foods compared on different serving sizes, convert both to a comparable stated amount before comparing nutrients. Percent Daily Value is a reference for a serving, not a personalized prescription, and rounding on a label can produce approximate values. Use food preferences, access and clinical context when applying a label calculation."
+        },
+        {
+          "heading": "Iron form and meal context",
+          "text": "Heme and nonheme are forms of dietary iron; plant foods and fortified foods provide nonheme iron. Vitamin C-containing foods can enhance the absorption of nonheme iron in a meal. A meal with beans and a vitamin C-rich food is therefore a plausible food-based teaching example. This is a mechanism, not proof that a particular combination alone will correct a person's anemia. A clinician evaluates the cause, laboratory findings, current treatment and relevant interactions. Some components of a meal and a person's overall context also influence absorption, so avoid claiming that one food makes all other considerations irrelevant."
+        },
+        {
+          "heading": "Work a complete label comparison",
+          "text": "Product A has 160 mg sodium per 40 g serving; Product B has 180 mg sodium per 60 g serving. If the comparison is per 120 g, A supplies 3 servings, or 480 mg, while B supplies 2 servings, or 360 mg. Comparing 160 directly with 180 would favor A per labeled serving but would not answer the equal-weight comparison. Check the units and the actual question before deciding. A lower calculated sodium amount does not by itself settle taste, affordability or all aspects of a person's nutrition plan. Practice: recalculate each product for 80 g—A supplies 320 mg and B supplies 240 mg—and explain the scale factors."
+        },
+        {
+          "heading": "Apply a mechanism without overpromising",
+          "text": "Suppose a person enjoys lentils and reports difficulty finding fresh vegetables. Ask what fruits or vegetables are affordable and acceptable, including frozen or canned options when appropriate, then explore a vitamin C-containing addition. Explain that the pairing may improve absorption of nonheme iron, while evaluation and prescribed therapy remain important when deficiency is suspected. For the kitchen, distinguish this nutrition goal from a texture goal: a starch slurry can thicken a sauce when heated with liquid, while a dry roasting process can develop browning and different flavors. Describe each process in plain language and check understanding by asking the person to explain how they would adapt a meal. Exercise: write one mechanism, one uncertainty and one practical action; do not convert the mechanism into a guarantee of a laboratory result."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A learner compares a 300 g package containing three 100 g servings. Per serving the label lists 8 g total sugars, including 3 g added sugars, and 240 mg sodium. The learner eats 150 g. A second student claims that adding a vitamin C-rich food to beans always cures iron-deficiency anemia.",
+        "reasoning": "150 g is 1.5 servings. Total sugars consumed are 8 × 1.5 = 12 g; added sugars are 3 × 1.5 = 4.5 g and are already included in the 12 g. Sodium is 240 × 1.5 = 360 mg. Do not add 12 and 4.5 as if the latter were separate. Vitamin C can enhance nonheme iron absorption, but no single food combination guarantees correction of anemia; the cause and care plan require assessment. Practice: for 200 g calculate 16 g total sugars, 6 g included added sugars and 480 mg sodium. Name one fact supplied by the label and one clinical fact it cannot establish."
+      },
+      "questions": [
+        {
+          "id": "W4D25Q01",
+          "stem": "A food label lists 90 mg sodium per 30 g serving. How much sodium is listed for 75 g, ignoring label rounding?",
+          "options": [
+            "150 mg",
+            "180 mg",
+            "225 mg",
+            "270 mg"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "150 mg uses fewer than the 2.5 servings consumed.",
+            "180 mg is for two servings, or 60 g.",
+            "Correct: 75 ÷ 30 = 2.5 servings; 90 × 2.5 = 225 mg.",
+            "270 mg would describe three 30 g servings."
+          ],
+          "sources": [
+            "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+          ]
+        },
+        {
+          "id": "W4D25Q02",
+          "stem": "A label states 10 g total sugars, including 4 g added sugars, per serving. What is the total sugar in one serving?",
+          "options": [
+            "4 g",
+            "6 g",
+            "10 g",
+            "14 g"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Four grams is the included added-sugars portion, not the full total.",
+            "Six grams is the difference, not the labeled total.",
+            "Correct: total sugars are 10 g; the 4 g added sugars are already included.",
+            "Adding the included portion again double-counts it."
+          ],
+          "sources": [
+            "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+          ]
+        },
+        {
+          "id": "W4D25Q03",
+          "stem": "Which meal change can help increase absorption of nonheme iron from beans?",
+          "options": [
+            "Add a vitamin C-rich food to the meal",
+            "Assume the iron becomes heme iron",
+            "Remove the beans and replace them with water",
+            "Claim food pairing alone cures every anemia"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: vitamin C can enhance nonheme iron absorption.",
+            "The food addition does not convert nonheme iron into heme iron.",
+            "Removing the iron-containing food does not achieve the intended pairing.",
+            "A mechanism does not establish a cure or replace assessment."
+          ],
+          "sources": [
+            "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+          ]
+        },
+        {
+          "id": "W4D25Q04",
+          "stem": "Which process most directly explains a starch-containing sauce becoming thicker when heated with adequate liquid?",
+          "options": [
+            "Starch gelatinization",
+            "Protein-to-mineral conversion",
+            "Evidence that all microorganisms have died",
+            "Guaranteed vitamin retention"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: heating starch with water causes swelling that can contribute to thickening.",
+            "The stated process does not convert protein into mineral.",
+            "Thickness does not prove microbial safety.",
+            "The process does not guarantee all vitamins are retained."
+          ],
+          "sources": [
+            "https://teachers.yale.edu/curriculum/units/2026/5/10/10"
+          ]
+        },
+        {
+          "id": "W4D25Q05",
+          "stem": "Why does a conventionally roasted potato generally develop more brown surface color than a conventionally steamed potato?",
+          "options": [
+            "Dry roasting promotes surface drying and conditions favorable to browning",
+            "Steam makes all chemical reactions impossible",
+            "Browning proves the potato has no moisture",
+            "Brown color independently establishes a safe internal temperature"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the comparison depends on heat, surface moisture, time and composition.",
+            "The existence of moisture does not make all reactions impossible.",
+            "A browned food can still contain moisture.",
+            "Color is not a substitute for appropriate food-safety controls."
+          ],
+          "sources": [
+            "https://extension.illinois.edu/blogs/simply-nutritious-quick-and-delicious/2021-11-19-maillard-reactions-change-tastes-your-food"
+          ]
+        }
+      ],
+      "review": [
+        "Explain the difference between starch gelatinization and Maillard browning without notes.",
+        "Convert Product B in the example to 180 g: three 60 g servings provide 540 mg sodium; explain why equivalent amounts are necessary for comparison.",
+        "Recall Day 11: state why a plausible absorption mechanism does not itself prove a clinical outcome in every person."
+      ],
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+        "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "https://extension.illinois.edu/blogs/simply-nutritious-quick-and-delicious/2021-11-19-maillard-reactions-change-tastes-your-food",
+        "https://teachers.yale.edu/curriculum/units/2026/5/10/10"
+      ]
+    },
+    {
+      "day": 26,
+      "title": "Ethics, Practice, and Compliance",
+      "minutes": 90,
+      "objectives": [
+        "Distinguish professional competence, organizational policy and applicable law in a practice decision.",
+        "Apply the HIPAA minimum-necessary concept to the purpose stated in a scenario, recognizing treatment exceptions.",
+        "Document relevant facts objectively and respond to a potential conflict of interest."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 90-minute sequence",
+          "text": "Spend 10 minutes recalling Day 12's assessment-to-action sequence; 25 minutes reading the sections and sources; 20 minutes working the confidentiality case and its variations; 20 minutes answering questions and explaining each option; and 15 minutes on the spaced-review prompts. The scenarios are educational; actual legal decisions require the applicable facts, law and organizational procedures."
+        },
+        {
+          "heading": "Start with the role and the purpose",
+          "text": "Professional standards, facility policy and law answer related but different questions. Professional ethics informs duties such as competence and integrity. Scope and competence help determine whether a practitioner is prepared and authorized to perform a task. An organization's policy may define workflows and reporting, while federal, state and local law can impose separate requirements. A credential alone does not settle every state-specific permission or prove competence in every specialty. When a question omits the location or practice setting, do not invent an absolute legal conclusion. Identify the immediate patient need, the practitioner's current competence and the relevant policy or source to consult."
+        },
+        {
+          "heading": "Competence and referral",
+          "text": "The nutrition and dietetics Code of Ethics calls for evidence-based practice within areas of competence and continued professional development. If asked to provide an intervention beyond current competence, acknowledge the limitation; seek appropriate supervision, education or referral according to policy and the patient's needs. Do not abandon an urgent concern while waiting for an ideal specialist. Escalate as appropriate, document what is known and arrange a safe next step. Contrast an unfamiliar but trainable task with a practitioner asserting expertise they do not have. In an exam vignette, choose the action that protects the client and obtains appropriate help rather than the answer that conceals uncertainty."
+        },
+        {
+          "heading": "Privacy: identify the disclosure",
+          "text": "For a HIPAA-covered entity, the minimum-necessary standard generally requires reasonable efforts to limit certain uses, disclosures and requests for protected health information to what is needed for the intended purpose. HHS identifies exceptions, including disclosures to or requests by a health care provider for treatment and disclosures to the individual who is the subject of the information. Do not apply a simplistic rule that every treatment disclosure is subject to the same minimum-necessary restriction, and do not infer that an exception eliminates other privacy and security responsibilities. Role-based access, organizational policies, appropriate safeguards and the reason for access still matter. State the recipient and purpose before applying a rule."
+        },
+        {
+          "heading": "Separate payment, treatment and authorization",
+          "text": "Suppose a staff member requests information for a routine payment function at a covered entity. The organization generally uses appropriate minimum-necessary policies for that purpose; it need not send the entire record merely because it is convenient. In contrast, HHS explains that the minimum-necessary standard does not apply to disclosures to or requests by a health care provider for treatment. Each scenario still calls for appropriate verification, safeguards and applicable policy. A permitted disclosure for an identified purpose is not the same as permission to browse records out of curiosity. Patient-specific restrictions, other laws and the actual organizational context may also matter; the exercise does not decide every disclosure question."
+        },
+        {
+          "heading": "Objective documentation and correction",
+          "text": "Document observations, sources of information, clinical reasoning and actions in accordance with the organization's record policy. Separate a reported statement from a measured finding: 'patient reports eating one meal yesterday' is different from 'all meals are refused.' Include the date or time where material, identify uncertainties and record the planned follow-up. If an entry is incorrect, follow the organization's approved correction procedure so the correction is traceable; do not conceal the original or fabricate a result. When handing off an unresolved issue, state what remains unknown, who will act and what circumstances require escalation."
+        },
+        {
+          "heading": "Conflicts, consent and difficult choices",
+          "text": "A conflict of interest may arise when a recommendation could benefit the practitioner financially. Identify the relationship, follow relevant disclosure and institutional policies, and base advice on the person's needs and evidence. Do not imply that disclosure alone automatically makes every arrangement permissible. Respect the person's choices and explain the benefits, limitations and alternatives within your role; an informed discussion should be understandable to the person. If a concern involves immediate safety, escalate through the appropriate team channel. Exercise: write one sentence describing the clinical decision, one describing the potential personal interest and one describing the next policy or supervisory step."
+        }
+      ],
+      "worked_case": {
+        "scenario": "An RDN working for a covered hospital is asked by a billing employee to send an entire nutrition record for a routine payment task even though the employee identifies only two fields as needed. Later, another treating clinician asks for information needed for a current treatment decision. A vendor has also offered the RDN a personal payment to recommend a product.",
+        "reasoning": "For the payment request, follow organizational policy and generally apply the minimum-necessary principle to the stated purpose; verify the recipient and relevant fields rather than sending the whole record for convenience. HHS identifies an exception to that standard for disclosures to or requests by a health care provider for treatment; this is not permission for unrelated access and other safeguards still apply. The payment offer creates a potential conflict: follow disclosure and organizational policies, use evidence and client needs, and do not imply a personal benefit determines the recommendation. Practice: rewrite the first request as a direct request from the patient for their own record and identify why the minimum-necessary analysis changes."
+      },
+      "questions": [
+        {
+          "id": "W4D26Q01",
+          "stem": "An RDN is asked to perform a specialty procedure outside their current competence. Which response best fits ethical practice?",
+          "options": [
+            "Conceal the limitation and proceed independently",
+            "Seek appropriate supervision, training or referral while ensuring a safe next step",
+            "Refuse to communicate any patient concern",
+            "Advertise expertise before obtaining it"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Concealing limitations risks unsafe care and undermines integrity.",
+            "Correct: recognize limits and obtain appropriate support while addressing the person's needs.",
+            "A concern may still require communication and escalation.",
+            "A credential or advertisement does not establish competence in every procedure."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/vault/2459/web/CodeofEthicsHandout.pdf",
+            "https://www.cdrnet.org/scope"
+          ]
+        },
+        {
+          "id": "W4D26Q02",
+          "stem": "For a routine payment disclosure by a HIPAA-covered entity, which approach generally follows HHS minimum-necessary guidance?",
+          "options": [
+            "Disclose only information reasonably needed for the identified purpose under policy",
+            "Send every record because billing is always exempt",
+            "Disclose to any recipient who asks",
+            "Assume HIPAA bans every payment disclosure"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the standard generally limits applicable uses, disclosures and requests to what is reasonably needed.",
+            "Payment is not the treatment-provider exception described in the source.",
+            "Recipient and purpose must be verified; a request alone is not enough.",
+            "HIPAA permits applicable disclosures under its rules; this absolute ban is incorrect."
+          ],
+          "sources": [
+            "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+            "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/disclosures-treatment-payment-health-care-operations/index.html"
+          ]
+        },
+        {
+          "id": "W4D26Q03",
+          "stem": "Which disclosure is explicitly excepted from HIPAA's minimum-necessary standard according to HHS?",
+          "options": [
+            "A disclosure to a health care provider for treatment",
+            "Every disclosure made for marketing",
+            "A disclosure to any coworker out of curiosity",
+            "Every disclosure to an unidentified vendor"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: HHS identifies disclosures to or requests by a provider for treatment as an exception.",
+            "An advertising purpose is not the stated treatment exception.",
+            "Curiosity is not an identified treatment disclosure.",
+            "An unidentified recipient and unspecified purpose do not establish the exception."
+          ],
+          "sources": [
+            "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"
+          ]
+        },
+        {
+          "id": "W4D26Q04",
+          "stem": "An RDN receives a personal incentive to recommend a supplement. What is the best next step?",
+          "options": [
+            "Follow conflict-of-interest policies and base advice on evidence and client needs",
+            "Recommend it to everyone without disclosure",
+            "Assume disclosure automatically makes any arrangement permissible",
+            "Hide the relationship if the product is available over the counter"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: identify the potential conflict and follow applicable policy while centering client needs.",
+            "Universal recommendations for personal gain neglect the client's needs and the conflict.",
+            "Disclosure is relevant but does not independently establish every arrangement is permissible.",
+            "Availability without prescription does not remove the conflict."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/vault/2459/web/CodeofEthicsHandout.pdf"
+          ]
+        },
+        {
+          "id": "W4D26Q05",
+          "stem": "A patient reports eating one meal yesterday, but intake was not directly observed. Which documentation is most precise?",
+          "options": [
+            "Patient reports eating one meal yesterday",
+            "Patient definitely ate exactly one meal, directly observed",
+            "Patient never eats more than one meal",
+            "No nutrition information was obtained"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: it identifies the source and scope of the information.",
+            "The scenario says the intake was not directly observed.",
+            "One reported day cannot establish a permanent pattern.",
+            "A relevant reported intake history was obtained."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/vault/2459/web/CodeofEthicsHandout.pdf"
+          ]
+        }
+      ],
+      "review": [
+        "Explain in your own words the HIPAA treatment-provider exception and one safeguard that can remain relevant.",
+        "Revisit Day 19: distinguish a purchasing policy from a binding legal requirement in a particular jurisdiction.",
+        "Write a two-sentence objective note identifying one fact observed, one patient-reported fact and a next step."
+      ],
+      "sources": [
+        "https://www.cdrnet.org/vault/2459/web/CodeofEthicsHandout.pdf",
+        "https://www.cdrnet.org/scope",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/disclosures-treatment-payment-health-care-operations/index.html"
+      ]
+    },
+    {
+      "day": 27,
+      "title": "Integrated Cases and Remaining Gaps",
+      "minutes": 90,
+      "objectives": [
+        "Use a consistent decision sequence when a case mixes assessment, calculations, management and safety.",
+        "Identify when missing data or an unverified assumption prevents a confident decision.",
+        "Apply formulas and rules to new values, then review the reason each distractor is less suitable."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 90-minute sequence",
+          "text": "Spend 10 minutes selecting one pending topic from your checklist; 20 minutes reviewing the decision framework below; 20 minutes working the integrated case and its variations; 25 minutes answering and reviewing the original case questions; and 15 minutes recording corrections and next steps. If you have time later, use the app's domain practice for additional reviewed questions. The five new questions here are a focused case set, not a 25–35-question simulated exam."
+        },
+        {
+          "heading": "A five-step framework",
+          "text": "First identify the decision the prompt actually asks for: screen, assess, diagnose, intervene, monitor or manage a production step. Second, list facts supplied and avoid filling gaps with an assumed diagnosis or unstated schedule. Third, check urgent safety concerns and the appropriate professional role. Fourth, compare the plausible options against the decisive evidence and the applicable source or stated assumption. Fifth, choose a measurable follow-up and explain what new information would change the decision. A number may be correct arithmetic yet be an inappropriate clinical prescription; a plausible intervention may address the wrong cause."
+        },
+        {
+          "heading": "Clinical information in context",
+          "text": "In a patient with reduced intake, obtain the timing, amount, barriers, weights and relevant physical findings. A positive screen indicates risk and supports further assessment, but does not by itself establish a severity diagnosis. During an acute illness, serum albumin can reflect inflammation and is not alone an accepted diagnostic measure of malnutrition. If the recorded weights were measured under different conditions, verify the trend before relying on it. Ask what data are missing, and distinguish an urgent action from a longer-term plan. When an intervention is selected, monitor a measure that matches the goal, such as intake and tolerance for an intake intervention."
+        },
+        {
+          "heading": "Carry units through a production calculation",
+          "text": "Consider an order requiring a specified edible portion. First compute usable quantity in the same unit as the yield. Divide EP by the supplied AP-to-EP yield fraction, check the answer by multiplication, then account for usable stock in AP units. Only after the shortfall is known should you round up to the available whole package size. A yield for a different product or preparation is not interchangeable. To compare two per-serving nutrition labels, first convert them to the same quantity. Write the unit after each operation; this prevents treating ounces of volume as ounces of weight."
+        },
+        {
+          "heading": "Timing, hazards and documentation",
+          "text": "When a food-safety case names FDA Food Code 2026 §3-501.14 for cooling cooked TCS food, check both 135°F to 70°F within two hours and 135°F to 41°F or below within six hours total. A rapid first stage does not extend the six-hour total. A missed limit requires action under the applicable plan and local requirements; later temperature or smell alone does not erase the documented deviation. In an ethics case, identify the intended recipient and purpose of a disclosure before applying the relevant rule. Document the facts, the decision and the follow-up objectively."
+        },
+        {
+          "heading": "Compare the two most tempting alternatives",
+          "text": "For each question, write a short justification for the leading option and a separate reason the nearest alternative fails. For instance, a person with new edema and reduced intake may have a stable scale weight; 'no change in nutrition status' ignores the possibility of fluid masking weight changes, while 'exactly 5 kg of tissue loss' invents a value not supplied. The useful next step is to gather and verify additional findings. A correct answer should follow from the scenario rather than from an absolute word such as always or never. Avoid choosing an answer merely because it resembles a memorized previous case."
+        },
+        {
+          "heading": "Turn an error into a transfer task",
+          "text": "Classify the cause of an error tentatively: unfamiliar content, arithmetic or units, misread timing, ignored qualifier, or excessive time spent between similar alternatives. Then change one fact and solve again. If a 10 lb EP requirement at 80% yield becomes 12 lb, recalculate: 12 ÷ 0.80 = 15 lb AP before stock. If the number of whole bags is requested, state bag size before rounding. If a fact or source remains disputed, mark the item for review rather than scoring a guessed key as certainty. This deliberate correction is part of study time, not an optional step after counting questions."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A foodservice operation will serve 80 portions requiring 2.4 oz each of a specified ready-to-serve vegetable. Verified yield is 75% from AP to that form. The operation has 3 lb AP of safe, uncommitted stock and buys whole 5 lb bags. During the same shift, a patient reports decreased intake and new edema; a low albumin value is recorded during inflammation. A soup log shows 70°F at 90 minutes and 41°F at 5 hours total.",
+        "reasoning": "Vegetable EP = 80 × 2.4 oz = 192 oz = 12 lb. Required AP = 12 ÷ 0.75 = 16 lb; after 3 lb stock, order at least 13 lb. Three 5 lb bags are needed. Verify the yield and stock assumptions. For the patient, obtain intake and weight histories and relevant findings; edema can mask weight change, and low albumin alone is not a malnutrition diagnosis. The soup meets the two stated FDA 2026 cooling time limits, assuming valid readings and applicable conditions. These are three different decisions; document and follow up separately. Variation: with only 1 lb usable stock, the AP shortfall is 15 lb, still three bags."
+      },
+      "questions": [
+        {
+          "id": "W4D27Q01",
+          "stem": "A menu requires 18 lb usable produce. Yield to the specified form is 75%, and 4 lb AP of uncommitted stock is available. How much additional AP is needed before package rounding?",
+          "options": [
+            "13.5 lb",
+            "20 lb",
+            "22 lb",
+            "24 lb"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "13.5 lb multiplies EP by yield, rather than dividing to find AP.",
+            "Correct: 18 ÷ 0.75 = 24 lb AP; 24 − 4 = 20 lb.",
+            "The given yield and stock do not produce 22 lb.",
+            "24 lb is the total AP requirement before subtracting stock."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        },
+        {
+          "id": "W4D27Q02",
+          "stem": "A patient has low albumin during inflammation and new edema, but no reliable intake history. What is the best next step?",
+          "options": [
+            "Diagnose severe malnutrition from albumin alone",
+            "Collect and verify intake, weight and other relevant assessment findings",
+            "Assume stable scale weight rules out tissue loss",
+            "Delay all assessment until inflammation resolves"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Albumin alone is not an accepted stand-alone malnutrition diagnostic measure.",
+            "Correct: obtain a comprehensive assessment and account for fluid context.",
+            "Edema may obscure weight change.",
+            "Inflammation does not eliminate the need to assess."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        },
+        {
+          "id": "W4D27Q03",
+          "stem": "For a covered entity's disclosure to a health care provider for treatment, which statement reflects HHS guidance?",
+          "options": [
+            "The HIPAA minimum-necessary standard does not apply to that disclosure; other safeguards can still matter",
+            "All disclosures to any recipient for any purpose are exempt",
+            "The entire record may be accessed for curiosity",
+            "Every disclosure for treatment is prohibited"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: HHS identifies the provider-treatment exception, while other rules and safeguards remain relevant.",
+            "The exception is not a general exemption for all purposes.",
+            "Curiosity is not an authorized treatment purpose.",
+            "HIPAA does not prohibit every treatment disclosure."
+          ],
+          "sources": [
+            "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+            "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/disclosures-treatment-payment-health-care-operations/index.html"
+          ]
+        },
+        {
+          "id": "W4D27Q04",
+          "stem": "Under FDA Food Code 2026 §3-501.14, cooked TCS food reaches 70°F at 1 hour and 41°F at 6 hours 10 minutes total. Which condition was missed?",
+          "options": [
+            "The first-stage two-hour limit",
+            "The six-hour total cooling limit",
+            "Neither limit",
+            "The record proves a specific pathogen is present"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "The first stage is within two hours.",
+            "Correct: the final temperature was reached ten minutes after the six-hour total.",
+            "The final total is outside the stated limit.",
+            "A time-temperature deviation does not identify a specific pathogen."
+          ],
+          "sources": [
+            "https://www.fda.gov/media/194741/download"
+          ]
+        },
+        {
+          "id": "W4D27Q05",
+          "stem": "A learner chooses the right answer after remembering its letter from a prior attempt. What best checks transferable understanding?",
+          "options": [
+            "Change a key fact and explain the reasoning for each option",
+            "Assume the learner has mastered the full domain",
+            "Repeat the same option order until faster",
+            "Ignore the underlying reason"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: a new variation and option-by-option reasoning test the concept more directly.",
+            "One recognized answer does not establish mastery.",
+            "The same order can reinforce recognition rather than transfer.",
+            "The reasoning is central to identifying and correcting the knowledge gap."
+          ],
+          "sources": [
+            "https://learningcenter.unc.edu/tips-and-tools/strategic-test-prep/"
+          ]
+        }
+      ],
+      "review": [
+        "Return to Day 13 and classify one decision as an observed fact, an inference or an assumption.",
+        "Rework the case with a new yield and package size, documenting each unit and rounding only the final package count.",
+        "List gaps as not yet covered, practiced with support, or applied correctly to a new case; use the plan to select a concrete next action."
+      ],
+      "sources": [
+        "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf",
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB",
+        "https://www.fda.gov/media/194741/download",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/disclosures-treatment-payment-health-care-operations/index.html"
+      ]
+    },
+    {
+      "day": 28,
+      "title": "Light Review and Adjustment",
+      "minutes": 45,
+      "objectives": [
+        "Retrieve key concepts from the recent study block and apply them to changed facts.",
+        "Separate incomplete coverage from a demonstrated recurring difficulty.",
+        "Choose next steps based on source quality, exam-domain importance and actual evidence rather than a pass prediction."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 45-minute sequence",
+          "text": "Spend 8 minutes retrieving one principle each from food science, ethics, management and clinical assessment; 12 minutes on the worked case and its changed-value variation; 15 minutes answering the four questions and reviewing explanations; and 10 minutes updating the topic checklist. Keep the session light rather than adding new topics to make up for an earlier delay."
+        },
+        {
+          "heading": "Review across contexts",
+          "text": "A correct calculation requires a stated unit and denominator. A food label's total sugars already include listed added sugars. A purchase calculation converts the required edible portion into an as-purchased amount by dividing by the applicable yield. A nutrition assessment uses multiple verified findings; inflammation can affect albumin and fluid can affect scale weight. For professional practice, identify the role, recipient and disclosure purpose before selecting a privacy rule. These principles interact in real cases, but one correct answer in each does not demonstrate complete domain mastery."
+        },
+        {
+          "heading": "Make a precise adjustment",
+          "text": "Mark a topic as not yet studied, studied with support, or applied correctly to a fresh case. When an answer was wrong or guessed, describe the cause as a hypothesis: missing knowledge, calculation, reading a qualifier, or time pressure. Choose no more than two priority gaps for the next block, considering the 2026 outline's domain emphasis and actual study evidence. Do not treat 2026 weights as the 2027 outline; confirm the applicable official outline for the eventual exam. A short authored set is not a calibrated score and does not predict a pass."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A product lists 12 g total sugars including 5 g added sugars per 50 g serving. A person eats 75 g. Separately, a patient has low albumin during inflammation but no documented intake history. The learner has not yet studied renal nutrition and guessed a food-safety answer.",
+        "reasoning": "The portion is 1.5 servings. Total sugars are 18 g; the 7.5 g added sugars are included in that total. For the patient, collect intake and other relevant assessment information rather than diagnosing malnutrition from albumin alone. Mark renal nutrition as not yet studied, not automatically weak. Revisit the guessed safety item, check its cited source, then test the rule with changed times. These observations guide study but cannot predict an exam result. Variation: at 100 g the portion is two servings, or 24 g total sugars including 10 g added sugars."
+      },
+      "questions": [
+        {
+          "id": "W4D28Q01",
+          "stem": "A package lists 14 g total sugars including 6 g added sugars per serving. How much total sugar is in two servings?",
+          "options": [
+            "12 g",
+            "16 g",
+            "28 g",
+            "40 g"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "12 g is the added-sugar amount in two servings, not total sugars.",
+            "16 g is not the total for two stated servings.",
+            "Correct: 14 × 2 = 28 g total; included added sugars are 12 g.",
+            "Adding the included added sugars again double-counts them."
+          ],
+          "sources": [
+            "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+          ]
+        },
+        {
+          "id": "W4D28Q02",
+          "stem": "A positive nutrition-risk screen identifies a patient who may be at risk. What should it prompt?",
+          "options": [
+            "A comprehensive nutrition assessment when appropriate",
+            "A severe-malnutrition diagnosis without further evidence",
+            "No action until an albumin result is available",
+            "The same prescription for every patient"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the screen helps identify the need for further assessment.",
+            "Screening does not alone establish severity.",
+            "A nutrition assessment need not wait for albumin to fall.",
+            "A plan must reflect the individual's context."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        },
+        {
+          "id": "W4D28Q03",
+          "stem": "A learner has not yet reviewed a topic and scores well on four questions from other areas. How should the topic be classified?",
+          "options": [
+            "Not yet studied",
+            "Mastered based on unrelated questions",
+            "Definitely a persistent weakness",
+            "Covered because the title appears on the plan"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: its study status is not yet studied.",
+            "Results on other areas do not establish mastery of this topic.",
+            "Lack of exposure is not proof of recurring difficulty.",
+            "A topic title is not evidence of completed study."
+          ],
+          "sources": [
+            "https://learningcenter.unc.edu/tips-and-tools/metacognitive-study-strategies/"
+          ]
+        },
+        {
+          "id": "W4D28Q04",
+          "stem": "A provider requests patient information from another health care provider for treatment. According to HHS, which statement about HIPAA's minimum-necessary standard is accurate?",
+          "options": [
+            "It does not apply to that provider-to-provider treatment disclosure",
+            "It automatically prohibits the disclosure",
+            "It applies identically to every possible request without exception",
+            "It allows unrelated curiosity-driven access"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: HHS identifies treatment-provider disclosures as an exception to that standard.",
+            "The cited standard does not automatically prohibit this treatment disclosure.",
+            "HHS lists exceptions, including the treatment-provider case.",
+            "A stated exception does not justify unrelated access."
+          ],
+          "sources": [
+            "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+            "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/disclosures-treatment-payment-health-care-operations/index.html"
+          ]
+        }
+      ],
+      "review": [
+        "Write the two top study priorities only after identifying what was actually covered and which uncertainties persist.",
+        "Choose one guessed item, check the primary source and solve a changed-value version before counting it as understood.",
+        "Record that this light review is not an official score or pass prediction."
+      ],
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+        "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/disclosures-treatment-payment-health-care-operations/index.html",
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+      ]
     }
   ]
 }

@@ -5,12 +5,12 @@ global.window=global;global.localStorage=new MemoryStorage();
 const {store}=require(root+'src/lib/store.ts');
 const data=require(root+'src/data/rdn_guided_days.json');
 const {SAMPLE_QUESTIONS,REVIEW_HOLD_IDS}=require(root+'src/lib/questions.ts');
-assert.deepEqual(data.days.map(x=>x.day),Array.from({length:14},(_,i)=>i+8));
+assert.deepEqual(data.days.map(x=>x.day),Array.from({length:21},(_,i)=>i+8));
 const ids=new Set(),stems=new Set();
 const norm=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const heldStems=new Set(SAMPLE_QUESTIONS.filter(q=>REVIEW_HOLD_IDS.has(q.id)).map(q=>norm(q.text)));
 for(const day of data.days){
- assert.equal(day.minutes,day.day===14||day.day===21?45:90);assert(day.objectives.length && day.theory.length>=2 && day.review.length && day.sources.length);
+ assert.equal(day.minutes,[14,21,28,35,42].includes(day.day)?45:90);assert(day.objectives.length && day.theory.length>=2 && day.review.length && day.sources.length);
  for(const q of day.questions){assert(!ids.has(q.id));ids.add(q.id);assert(!stems.has(norm(q.stem)));stems.add(norm(q.stem));assert(!heldStems.has(norm(q.stem)),q.id);assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);assert(q.answer>=0&&q.answer<4);assert.equal(q.option_rationales.length,4);assert(q.option_rationales.every(Boolean));assert(q.sources.every(x=>x.startsWith('https://')));}
 }
 store.saveLessonProgress('first-week-1',{I01:3},false);

@@ -37,7 +37,7 @@ export default function GuidedStudy() {
   return <main style={{maxWidth:900,margin:'auto',padding:'24px 18px',lineHeight:1.6,overflowWrap:'anywhere'}}>
     <Link href="/study-plan">← 45-day plan</Link><h1>Guided study</h1>
     <p>Original practice questions, not official CDR questions or a calibrated exam. Lesson answers stay on this device; to move them, export a backup and restore it on the other device in <Link href="/profile">Profile</Link>.</p>
-    <nav aria-label="Study day" style={{display:'flex',flexWrap:'wrap',gap:8}}>{material.days.map(d=><a key={d.day} href={`/study-plan/guided?day=${d.day}`} aria-current={day===d.day?'page':undefined} style={{padding:'10px 14px',border:'1px solid currentColor',borderRadius:8}}>Day {d.day}</a>)}</nav>
+    <nav aria-label="Study day" style={{display:'flex',flexWrap:'wrap',gap:8}}>{material.days.filter(d => Math.floor((d.day-1)/7) === Math.floor(((day ?? 8)-1)/7)).map(d=><a key={d.day} href={`/study-plan/guided?day=${d.day}`} aria-current={day===d.day?'page':undefined} style={{padding:'10px 14px',border:'1px solid currentColor',borderRadius:8}}>Day {d.day}</a>)}</nav>
     {!lesson ? <p>Loading study day…</p> : <>
       <h2>Day {lesson.day}: {lesson.title}</h2><p>Suggested study time: {lesson.minutes} minutes, including practice and review.</p>
       <section><h3>Learning objectives</h3><ul>{lesson.objectives.map((x,i)=><li key={i}>{x}</li>)}</ul></section>
