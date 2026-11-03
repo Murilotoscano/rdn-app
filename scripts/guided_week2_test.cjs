@@ -5,7 +5,7 @@ global.window=global;global.localStorage=new MemoryStorage();
 const {store}=require(root+'src/lib/store.ts');
 const data=require(root+'src/data/rdn_guided_days.json');
 const {SAMPLE_QUESTIONS,REVIEW_HOLD_IDS}=require(root+'src/lib/questions.ts');
-assert.deepEqual(data.days.map(x=>x.day),Array.from({length:28},(_,i)=>i+8));
+assert.deepEqual(data.days.map(x=>x.day),Array.from({length:35},(_,i)=>i+8));
 const ids=new Set(),stems=new Set();
 const norm=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const heldStems=new Set(SAMPLE_QUESTIONS.filter(q=>REVIEW_HOLD_IDS.has(q.id)).map(q=>norm(q.text)));
