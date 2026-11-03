@@ -316,7 +316,7 @@
           "day": 44,
           "focus": "Test Routine and Logistics",
           "method": "If the exam is scheduled, review official instructions, identification, and travel; practice using the calculator and interface. If no date is set, consolidate a maintenance plan.",
-          "review_checkpoint": "Review Days 30 and 37; do not assume the old date shown in the app."
+          "review_checkpoint": "Review Days 30 and 37; confirm logistics only if an exam is scheduled."
         },
         {
           "day": 45,

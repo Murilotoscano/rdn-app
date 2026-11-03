@@ -5908,6 +5908,479 @@
         "https://learningcenter.unc.edu/tips-and-tools/metacognitive-study-strategies/",
         "https://www.cdrnet.org/study"
       ]
+    },
+    {
+      "day": 43,
+      "title": "Consolidate Essential Rules by Applying Them",
+      "minutes": 90,
+      "objectives": [
+        "Retrieve essential rules from all four domains and explain when each applies.",
+        "Use explicit units and assumptions to solve new calculations.",
+        "Separate a well-supported decision from a guess and identify what evidence would change it."
+      ],
+      "theory": [
+        {
+          "heading": "A practical 90-minute sequence",
+          "text": "Spend 10 minutes writing rules from memory, 25 minutes repairing and comparing your notes, 15 minutes working the case, 25 minutes on the five questions with every explanation, and 15 minutes planning a short revisit. These are flexible targets, not a test of speed. Select 10–15 rules that helped your reasoning or correspond to coverage gaps; do not assume an area is weak without evidence. At least one rule should come from each domain. The CDR resource page separates the 2022–2026 and 2027–2031 outlines; select the outline applicable to your actual examination date, which has not been assumed here."
+        },
+        {
+          "heading": "Turn a fact into a decision rule",
+          "text": "Write a rule as four parts: trigger, action, limit or condition, and follow-up. For example, a positive nutrition screen flags risk; it calls for further assessment under the local process, not an automatic diagnosis. Specify what data would support the next decision, such as reliable intake, weight history, clinical context and relevant measurements. A teach-back check asks the person to explain the plan in their own words; if their explanation differs, revise how you explain and check again. This tests your communication, not the person’s intelligence. For each rule, create a nearby variation in which a missing condition changes the safest answer."
+        },
+        {
+          "heading": "Clinical and foodservice application",
+          "text": "When hypoglycemia is present, identify whether the person can safely swallow and follow the person’s established treatment plan; do not delay treatment for routine education. Severe events may require assistance, glucagon and emergency care. For a cooling problem, distinguish the first checkpoint from the overall limit. Under FDA Food Code 2026 section 3-501.14, cooked time/temperature control for safety food is cooled from 135°F to 70°F within 2 hours and to 41°F within 6 hours total, subject to the provision’s conditions. Two hours and six hours are maximum limits, not minimum waiting times. A local jurisdiction may adopt a different edition; use the stated rule in a question and verify local requirements in practice."
+        },
+        {
+          "heading": "Check the arithmetic and the meaning",
+          "text": "Write the requested unit first. A 240-serving recipe that currently makes 80 portions uses a multiplier of 240 ÷ 80 = 3; multiply each ingredient by 3, then check whether equipment and practical yield permit the batch. For AP and EP, AP purchase = needed edible portion ÷ yield fraction; 12 lb EP at 75% yield needs 16 lb AP. If only whole 5-lb bags can be bought, 16 ÷ 5 = 3.2 bags, so purchase 4 bags. The 4 bags weigh 20 lb AP; that is the package constraint, not the exact mathematical requirement. Keep the yield and unit attached to the number."
+        },
+        {
+          "heading": "Compare evidence without overstating it",
+          "text": "A cohort risk ratio compares risk in an exposed group with risk in an unexposed group over a defined period. If 8 of 80 exposed people and 4 of 80 unexposed people have an outcome, the risks are 10% and 5%, and the risk ratio is 2.0. It describes the observed association; it does not by itself eliminate confounding or establish causality. In management, write the denominator before calculating productivity or cost percentage, then check that both quantities refer to the same period. On a final review card, note the source and its date when the rule is time-sensitive. Do not collapse a model-code provision, a local law, and a professional recommendation into one unnamed rule."
+        },
+        {
+          "heading": "Practice transfer and decide what to revisit",
+          "text": "Close your notes and explain two rules aloud, including one condition for each. Change a number or a patient detail, then solve the revised case; after checking, state why the most tempting wrong answer fails. Mark each topic as explained and applied, applied only with help, or not yet tested. This is a learning record, not a predicted exam score. If two new cases expose the same error, schedule a focused review with a new case; if an explanation conflicts with a credible current source, mark the item uncertain rather than forcing it into a score. Finish with a short list for the next study block and protect a normal sleep opportunity instead of extending the session indefinitely."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A kitchen needs 24 lb edible vegetables for a planned menu. The verified usable yield is 80%. There is no usable on-hand inventory of this product. The vendor sells whole 10-lb bags. Calculate the AP requirement and the number of bags to order; then identify one operational check before ordering.",
+        "reasoning": "Convert 80% to 0.80. AP required = 24 ÷ 0.80 = 30 lb. Because no usable stock is on hand, the entire 30 lb must be purchased. At 10 lb per bag, 30 ÷ 10 = 3 whole bags. Check whether the 80% yield applies to the exact product and trimming method, and check expected guest count. If usable inventory were available, subtract it from the AP requirement before rounding the purchase quantity to whole bags. The arithmetic result is conditional on the supplied yield; it is not a universal yield for all vegetables."
+      },
+      "questions": [
+        {
+          "id": "W7D43Q01",
+          "stem": "A screening tool flags nutrition risk. What does that finding establish?",
+          "options": [
+            "A full nutrition assessment is indicated under the screening process",
+            "Severe malnutrition is confirmed",
+            "One particular supplement is required",
+            "The medical diagnosis identifies the nutrition diagnosis"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct. Screening flags risk; collect and interpret assessment information.",
+            "A screen alone does not establish malnutrition or its severity.",
+            "Intervention follows assessment and clinical judgment.",
+            "Medical and nutrition diagnoses are different decisions."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        },
+        {
+          "id": "W7D43Q02",
+          "stem": "A recipe makes 80 portions. How should ingredient quantities be adjusted for 240 portions when using linear scaling?",
+          "options": [
+            "Multiply by 2",
+            "Multiply by 3",
+            "Multiply by 4",
+            "Divide by 3"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "2 makes 160 portions under the same assumptions.",
+            "Correct. The scaling factor is 240 ÷ 80 = 3.",
+            "4 would target 320 portions.",
+            "Dividing reduces the batch."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        },
+        {
+          "id": "W7D43Q03",
+          "stem": "Under FDA Food Code 2026 cooling limits, cooked TCS food falls from 135°F to 70°F in 1 hour and reaches 41°F at 5 hours total. Which statement is supported by the stated temperatures and times?",
+          "options": [
+            "It fails because the first stage must last exactly 2 hours",
+            "It meets both maximum time limits in the described cooling provision",
+            "It fails because the total must be at most 4 hours",
+            "It meets only the first stage because the second must take 6 additional hours"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Two hours is a maximum, not a required waiting period.",
+            "Correct. One hour is within 2 hours and five hours total is within 6 hours.",
+            "The provision allows up to 6 hours total, not 4.",
+            "The 6-hour limit is total elapsed time, not an extra 6 hours."
+          ],
+          "sources": [
+            "https://www.fda.gov/media/194741/download"
+          ]
+        },
+        {
+          "id": "W7D43Q04",
+          "stem": "In a cohort, 8 of 80 exposed and 4 of 80 unexposed people have an outcome. Which interpretation is correct?",
+          "options": [
+            "The risk ratio is 2.0, an association that does not alone prove causality",
+            "The risk ratio is 0.5, proving protection",
+            "The risk difference is 2 percentage points",
+            "The exposed risk is 8% and the unexposed risk is 4%"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct. Risks are 10% and 5%, so 0.10 ÷ 0.05 = 2.0; confounding remains possible.",
+            "0.5 reverses the comparison and does not prove causality.",
+            "The difference is 10% − 5% = 5 percentage points.",
+            "8 and 4 are case counts; divide each by 80 for risk."
+          ],
+          "sources": [
+            "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
+          ]
+        },
+        {
+          "id": "W7D43Q05",
+          "stem": "A client says they understand a new plan. Which next step best checks whether the explanation was clear?",
+          "options": [
+            "Ask the client to describe the plan in their own words",
+            "Repeat the same instructions more rapidly",
+            "Ask only whether the handout was attractive",
+            "Record comprehension without checking"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct. Teach-back checks the clarity of the explanation and enables correction.",
+            "Repetition alone does not verify understanding.",
+            "Presentation can matter but does not test the plan.",
+            "An unverified assertion does not show comprehension."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+          ]
+        }
+      ],
+      "review": [
+        "Explain one clinical and one foodservice rule without notes, including its condition.",
+        "Change the worked-case yield to 75% and calculate the purchase requirement: 24 ÷ 0.75 = 32 lb AP, requiring four whole 10-lb bags.",
+        "List two rules needing another new case and name the evidence you would use to resolve each."
+      ],
+      "sources": [
+        "https://www.cdrnet.org/study",
+        "https://www.fda.gov/media/194741/download",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html",
+        "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+      ]
+    },
+    {
+      "day": 44,
+      "title": "Test Routine and Conditional Logistics",
+      "minutes": 90,
+      "objectives": [
+        "Separate confirmed appointment details from items still requiring verification.",
+        "Practice a repeatable decision and time-management routine without treating practice as an official CAT.",
+        "Make a conditional logistics checklist that does not assume an exam date."
+      ],
+      "theory": [
+        {
+          "heading": "A 90-minute session with a conditional purpose",
+          "text": "Use 15 minutes to assemble a logistics checklist or, if no exam is scheduled, a preparation checklist. Spend 20 minutes practicing the decision routine with the examples below, 20 minutes answering the questions, 20 minutes checking each explanation, and 15 minutes recording next steps and an ordinary sleep plan. If a date is not scheduled, do not manufacture a travel time, confirmation number or deadline; record “not scheduled” and continue to study. CDR identifies the official candidate handbook and examination outlines through its resources page. Open the current handbook and appointment confirmation when relevant because policies and local requirements may change."
+        },
+        {
+          "heading": "Verify the appointment only if one exists",
+          "text": "If an exam has been scheduled, use the confirmation and current official CDR/Pearson materials to check the appointment date, time, time zone, test center, accepted identification and the candidate name requirements. Check the current rules for arrival, permitted items, breaks and rescheduling rather than relying on a memory or a friend’s experience. Compare the name on the confirmation with the identification under the current published policy. A discrepancy or expired document is a prompt to consult the official instructions early. Do not send identity documents or account credentials through a study app or in a practice answer."
+        },
+        {
+          "heading": "If no date exists, create a useful next action",
+          "text": "Confirm whether eligibility and authorization information are available in the official process, and identify the current test outline for the eventual exam date. CDR lists separate 2022–2026 and 2027–2031 test specifications. Record an unanswered policy question and where the official answer can be found, not a guessed date or a guessed eligibility status. Any scheduling or purchase decision remains yours. A checklist might include “verify current identification requirements after scheduling” and “identify available study sessions next week.” It should not label an empty date field as late or overdue."
+        },
+        {
+          "heading": "Practice the reasoning sequence",
+          "text": "For each original practice question, first identify the requested task: assessment, diagnosis, intervention, monitoring, calculation or another domain-specific action. Mark the decisive condition and the unit or time frame. Predict a direction or range before looking at the options when useful, then compare plausible choices with the full case. If the question asks for the first action, evaluate safety and immediacy before selecting a longer-term education intervention. When a prompt supplies a numerical target, use that stated target for the exercise without assuming it is a universal prescription."
+        },
+        {
+          "heading": "Use time as feedback, not a verdict",
+          "text": "A 20-minute local practice block can reveal where reading, calculation or reviewing takes time, but it cannot establish performance on the official computerized adaptive test. This app’s practice items and fixed sets are not calibrated CDR questions; feedback in some modules appears immediately. Use a timer if helpful, record whether delays came from reading, uncertainty about a concept or arithmetic, and then review the explanation. A single slow question may reflect a difficult item rather than a stable weakness. Do not infer an official scaled score or a pass probability from the practice percentage."
+        },
+        {
+          "heading": "Prepare the environment without changing progress",
+          "text": "On the device, verify access to the app and locate the study plan, domain guides and review tools. Lesson answers are stored on the device; use Profile’s backup export and restore if transferring them between devices. This manual transfer should be checked on the receiving device and is not automatic lesson synchronization. Do not clear site data to force an update: it could remove local progress. For sleep, CDC describes age-related recommendations and notes variation across individuals. Protect a reasonable opportunity for sleep rather than relying on an all-night practice session."
+        },
+        {
+          "heading": "Two worked decision checks",
+          "text": "First, a label gives 150 kcal per serving and the stated intake is two servings. Multiply 150 × 2 = 300 kcal; do not add the calories twice again. Second, a case asks for food-cost percentage given $6,000 food cost and $20,000 food sales for the same period: 6,000 ÷ 20,000 × 100 = 30%. Both are arithmetic checks with a stated denominator. If a practice explanation gives another result, verify the inputs and record the discrepancy. These examples are original practice, not official questions or a specification of the real exam interface."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A learner has not scheduled an exam. They can study for 90 minutes today, have practiced on one device and want to use another tomorrow. What information should they record and what can they do now?",
+        "reasoning": "Record that the exam is not scheduled and avoid assigning a date. Use the current CDR resources to identify the relevant outline when a date is chosen. Study today using a practice-and-review block, then export a Profile backup and restore the file on the other device; confirm that the lesson answers appear there. This is a manual transfer, not a claim of automatic synchronization. Record one unanswered logistics question for the current official handbook once scheduling becomes relevant."
+      },
+      "questions": [
+        {
+          "id": "W7D44Q01",
+          "stem": "A learner has not scheduled an examination. Which logistics action is appropriate today?",
+          "options": [
+            "Enter an assumed date so the checklist can be completed",
+            "Record the status as not scheduled and identify which official information to check when scheduling",
+            "Assume a previously displayed date is valid",
+            "Send identification photographs to a practice-question service"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "An invented date can create a false deadline.",
+            "Correct. Keep the status accurate and use current official guidance when relevant.",
+            "An old date is not confirmation of an appointment.",
+            "Do not send identity documents to a practice-question service."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/study",
+            "https://www.cdrnet.org/rd-handbook"
+          ]
+        },
+        {
+          "id": "W7D44Q02",
+          "stem": "A scheduled candidate notices a possible mismatch between the confirmation name and identification. What is the best first planning action?",
+          "options": [
+            "Consult the current official identification and appointment instructions promptly",
+            "Assume any mismatch will be ignored",
+            "Change an ID image in a study app",
+            "Wait until arriving at the test center to read the policy"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct. Check the current authoritative instructions and resolve the issue early through the appropriate official process.",
+            "The requirements must be checked, not assumed.",
+            "A study app is not the authority for identity documents.",
+            "Waiting risks leaving no time to understand or address the issue."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/rd-handbook",
+            "https://www.pearsonvue.com/us/en/cdr.html"
+          ]
+        },
+        {
+          "id": "W7D44Q03",
+          "stem": "A learner scores 80% on a small set of original app questions. What is the most defensible conclusion?",
+          "options": [
+            "The official scaled score will be 80",
+            "The set offers limited practice evidence and does not predict a scaled score by itself",
+            "The learner is guaranteed to pass",
+            "One score establishes all weak domains"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A practice percentage is not the official scaled score.",
+            "Correct. Consider content coverage, novelty and conditions, and use it to guide further review.",
+            "No small practice set guarantees an outcome.",
+            "A small sample does not establish all domain-level weaknesses."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/study"
+          ]
+        },
+        {
+          "id": "W7D44Q04",
+          "stem": "A 150-kcal serving is eaten twice. How much energy does the stated amount provide?",
+          "options": [
+            "150 kcal",
+            "225 kcal",
+            "300 kcal",
+            "450 kcal"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "This counts only one serving.",
+            "150 × 1.5 would be 225, but the amount is two servings.",
+            "Correct. 150 × 2 = 300 kcal.",
+            "450 kcal would represent three servings."
+          ],
+          "sources": [
+            "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+          ]
+        },
+        {
+          "id": "W7D44Q05",
+          "stem": "A candidate wants to identify which exam outline applies to a future exam date. What is the appropriate action?",
+          "options": [
+            "Use an old outline without checking its dates",
+            "Consult the current CDR resources and select the specifications for the actual exam period",
+            "Assume all outlines are identical across years",
+            "Use a practice score to infer the outline"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "An outdated outline may not apply to the actual period.",
+            "Correct. CDR lists separate 2022–2026 and 2027–2031 specifications.",
+            "CDR publishes distinct specifications for different periods.",
+            "A practice score does not identify the official content outline."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/study"
+          ]
+        }
+      ],
+      "review": [
+        "Write two tasks that depend on an actual appointment and two that can be completed before one exists.",
+        "Repeat the 150 kcal × 2 servings calculation and a second example with 1.5 servings: 225 kcal.",
+        "If transferring devices, verify the restored lesson on the receiving device before relying on it."
+      ],
+      "sources": [
+        "https://www.cdrnet.org/study",
+        "https://www.cdrnet.org/rd-handbook",
+        "https://www.pearsonvue.com/us/en/cdr.html",
+        "https://www.cdc.gov/sleep/about/index.html",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+      ]
+    },
+    {
+      "day": 45,
+      "title": "Wrap Up, Assess Evidence, and Maintain Progress",
+      "minutes": 90,
+      "objectives": [
+        "Organize study evidence by coverage, application, pace and remaining uncertainty.",
+        "Build a maintenance or extension plan without assuming an exam date or promising a result.",
+        "Apply a few essential rules to new cases and explain the boundaries of practice scores."
+      ],
+      "theory": [
+        {
+          "heading": "A 90-minute wrap-up without a false deadline",
+          "text": "Use 15 minutes to make a coverage inventory, 20 minutes to retrieve and apply essential rules, 20 minutes for the original questions below, 20 minutes to review every option, and 15 minutes to create a maintenance or extension plan. Day 45 is a checkpoint in a study schedule; it is not automatically the examination day. If an exam is scheduled, verify the current official requirements and applicable outline for that actual date. If it is not scheduled, record that fact and do not infer readiness from the calendar."
+        },
+        {
+          "heading": "Build a coverage inventory",
+          "text": "Divide a page into the relevant official outline’s domains and subtopics. For each topic, mark one of three states: not studied, studied but not independently applied, or applied successfully in at least one new case. Add the source and date for time-sensitive rules. A topic can remain uncertain even when previously encountered. The 2022–2026 and 2027–2031 CDR outlines are separate; use the one applicable to the actual exam. Weights guide study attention, but they do not mean an individual item bank has official exam properties or that a single topic can be ignored."
+        },
+        {
+          "heading": "Describe performance honestly",
+          "text": "Separate seen questions from novel ones, and distinguish knowledge errors, calculation errors, reading or language interpretation issues, and timing issues when the evidence supports the classification. Do not label a topic a confirmed weakness from one item. Example: a learner answers 4 of 5 questions correctly in one block and 8 of 10 in another. Both are 80%, but neither small sample establishes long-term mastery or an official scaled score. The total is 12 correct of 15 = 80% only when counting the two non-overlapping blocks together; do not average percentages from differently sized samples without weighting them by question count."
+        },
+        {
+          "heading": "Choose a next step that matches the evidence",
+          "text": "If several topics have not been studied, make a short coverage plan before declaring readiness. If a recurring error appears on new variations, revisit the explanation and a current source, then write and solve a new case. If most reviewed material is understood but pace is uncertain, practice under defined, realistic conditions and review the decisions afterward. If an answer conflicts with a credible current source or appears ambiguous, mark it disputed instead of counting it as proof of weakness. Use consistent criteria, but leave room to revise a judgment when new information appears."
+        },
+        {
+          "heading": "A maintenance template",
+          "text": "For the next week, choose several realistic sessions rather than promising a daily schedule that has not been agreed. In each session, retrieve two or three earlier rules without notes, work a new case, check the explanation and record one next action. Mix across domains while allowing more time for a topic that has a demonstrated recurring problem. Revisit calculations with changed values: if 9 lb edible food is needed at 75% yield, the as-purchased amount is 9 ÷ 0.75 = 12 lb. Confirm that the yield applies to the actual food and distinguish exact need from a whole-package purchase."
+        },
+        {
+          "heading": "Preserve the record and interpret the tool correctly",
+          "text": "Original app questions are practice material rather than official CDR items or a calibrated readiness test. A fixed-length exercise does not reproduce every feature of an adaptive exam. Keep earlier results as historical records rather than silently recalculating them after a question changes. Lesson answers remain on the device unless transferred manually through Profile backup and restore; confirm that the receiving device contains the restored lesson before leaving the first device. Do not clear browser or app storage in an attempt to refresh content."
+        },
+        {
+          "heading": "Decision statement",
+          "text": "Write a one-paragraph report using four headings: coverage, examples of application, pace or endurance evidence, and open questions. For each, state what is known and what is not known. End with a concrete next action and date only if you choose one. An example is “Review enteral calculations with two new cases in the next available session”; it is not “I am certain to pass.” Maintain ordinary sleep and meals around study sessions. If a scheduled exam is approaching and important uncertainties remain, revisit the plan using the current official instructions and the evidence from your own work rather than an arbitrary promise."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A hypothetical learner has completed a broad first pass, has no examination appointment, and knows that two new calculation examples were missed for different reasons. One was a unit conversion error; the other used an incorrect clinical assumption. What should the next plan include?",
+        "reasoning": "Do not schedule an exam or infer pass probability from this brief record. List the unstudied or uncertain outline areas and check the relevant sources. For the conversion error, practice a new calculation that displays units at each step. For the clinical assumption, revisit the condition and solve a different case. Set a realistic next study session, record what would demonstrate improvement and preserve the local backup. The two errors are evidence for two different targeted actions, not proof of global weakness."
+      },
+      "questions": [
+        {
+          "id": "W7D45Q01",
+          "stem": "A learner completes Day 45 without an exam appointment. Which conclusion follows?",
+          "options": [
+            "The exam is necessarily tomorrow",
+            "The calendar alone does not set an exam date or establish readiness",
+            "A passing result is guaranteed",
+            "All topics are mastered because they appeared on a schedule"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A study-plan day is not an appointment.",
+            "Correct. Use actual scheduling information and study evidence.",
+            "A study schedule cannot guarantee a result.",
+            "Appearance on a schedule is not evidence of independent application."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/study"
+          ]
+        },
+        {
+          "id": "W7D45Q02",
+          "stem": "Two non-overlapping practice sets contain 4 correct of 5 and 6 correct of 10. What is the combined proportion correct?",
+          "options": [
+            "50%",
+            "60%",
+            "66.7%",
+            "80%"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "50% ignores the actual total correct.",
+            "60% is the second set alone, not the combined proportion.",
+            "Correct. (4 + 6) ÷ (5 + 10) = 10 ÷ 15 ≈ 66.7%.",
+            "80% is the first set alone."
+          ],
+          "sources": [
+            "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
+          ]
+        },
+        {
+          "id": "W7D45Q03",
+          "stem": "An answer explanation conflicts with a current authoritative source. What should the learner do?",
+          "options": [
+            "Treat the answer as proof of weakness",
+            "Mark the item disputed and verify the relevant source and context before relying on it",
+            "Ignore the source because the app supplied a key",
+            "Change the personal history to erase the attempt"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A disputed key cannot by itself establish a weakness.",
+            "Correct. Verify source, edition and context before using the item for assessment.",
+            "A displayed key is not proof that an explanation is correct.",
+            "History should be preserved; resolving the source does not require erasing it."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/study"
+          ]
+        },
+        {
+          "id": "W7D45Q04",
+          "stem": "A recipe requires 9 lb edible portion at a stated 75% yield. What is the exact as-purchased amount before package rounding?",
+          "options": [
+            "6.75 lb",
+            "9 lb",
+            "12 lb",
+            "15 lb"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Multiplication by yield answers the reverse direction.",
+            "9 lb would be correct only at 100% yield.",
+            "Correct. 9 ÷ 0.75 = 12 lb AP.",
+            "15 lb is not obtained from the supplied yield."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        },
+        {
+          "id": "W7D45Q05",
+          "stem": "A learner misses two new cases: one due to unit conversion and one due to an unsupported clinical assumption. Which follow-up is most useful?",
+          "options": [
+            "Memorize only the answer letters",
+            "Practice a new unit conversion and re-examine the clinical condition using an appropriate source",
+            "Assume both mistakes prove a single global weakness",
+            "Delete both attempts and report no uncertainty"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Letters do not address the two different causes.",
+            "Correct. Different errors call for different targeted checks and new applications.",
+            "Two distinct errors do not establish global weakness.",
+            "Deleting records hides rather than resolves uncertainty."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/study"
+          ]
+        }
+      ],
+      "review": [
+        "Summarize coverage, independent application, pace evidence and open questions without estimating an official score.",
+        "Redo the worked-case approach for one calculation error and one concept error using new examples.",
+        "Write a maintenance or extension plan using realistic available sessions; leave examination logistics conditional on an actual appointment."
+      ],
+      "sources": [
+        "https://www.cdrnet.org/study",
+        "https://www.cdrnet.org/rd-handbook",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html",
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB",
+        "https://www.cdc.gov/sleep/about/index.html"
+      ]
     }
   ]
 }

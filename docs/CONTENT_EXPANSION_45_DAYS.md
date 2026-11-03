@@ -1,8 +1,8 @@
 # RDN: content expansion after week one
 
-Status: days 8–42 now have guided lessons and practice. Days 43–45 remain a study roadmap and do not yet have day-specific lessons or question sets in the new guided format.
+Status: days 8–45 now have guided lessons and practice; the initial expansion is complete.
 
-Build the remaining days in reviewable batches, keeping the existing 45-day sequence:
+The completed guided content follows this 45-day sequence:
 
 1. Days 8–14: assessment, nutrition diagnosis, lifecycle, research and communication, diabetes, management and a light review.
 2. Days 15–21: renal and gastrointestinal care, enteral and parenteral nutrition, malnutrition, production and food safety, followed by review.
