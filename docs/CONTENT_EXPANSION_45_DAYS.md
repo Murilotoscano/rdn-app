@@ -1,6 +1,6 @@
 # RDN: content expansion after week one
 
-Status: days 8–45 are a study roadmap. They do not yet have day-specific lessons or question sets in the new guided format.
+Status: days 8–14 now have guided lessons and practice. Days 15–45 remain a study roadmap and do not yet have day-specific lessons or question sets in the new guided format.
 
 Build the remaining days in reviewable batches, keeping the existing 45-day sequence:
 

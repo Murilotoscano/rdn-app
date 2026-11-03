@@ -1,0 +1,1272 @@
+{
+  "days": [
+    {
+      "day": 8,
+      "title": "Nutrition Assessment: Make the Data Tell a Coherent Story",
+      "minutes": 90,
+      "objectives": [
+        "Distinguish a nutrition-risk screen from a comprehensive assessment.",
+        "Calculate and interpret weight change without diagnosing from a single number.",
+        "Identify data-quality problems and select an appropriate next assessment.",
+        "Combine intake, history, function, physical findings, and laboratory context."
+      ],
+      "theory": [
+        {
+          "heading": "Time plan and active recall — 10 minutes",
+          "text": "Without looking, explain the difference between screening for risk and evaluating the cause of a nutrition problem. Recall the percentage weight-loss formula from Day 3. Use the rest of the session for 25 minutes of theory, 15 minutes on the worked case, 25 minutes for questions and rationales, and 15 minutes for review. Pause and work each calculation yourself before reading the reasoning."
+        },
+        {
+          "heading": "Screening begins the process",
+          "text": "A screen rapidly identifies people who may need further assessment; it is not itself a complete diagnosis. The population, setting, validated tool, and local process determine who screens, how often, and what follows a positive result. An assessment is a deeper, organized evaluation that asks what is happening, why, and what matters to the person. History, actual intake, weight trajectory, symptoms, functional status, clinical conditions and examination can each change the interpretation. A negative screen is not a guarantee that every nutrition concern is absent."
+        },
+        {
+          "heading": "Anthropometry and intake",
+          "text": "For a documented unintentional loss, percentage change = (usual weight − current weight) ÷ usual weight × 100; always identify the interval and whether the weights are comparable. For example, a change from 80 kg to 76 kg is 5% of the earlier weight. Verify the measurements, footwear, scale, fluid changes and time frame. Edema can conceal tissue loss or make an apparent gain misleading. Compare actual intake with a clearly stated estimate and the period observed: a single meal is not automatically a reliable week-long average. Ask about access, appetite, chewing, swallowing and symptoms."
+        },
+        {
+          "heading": "Laboratories and examination",
+          "text": "Laboratory results answer specific questions but need context. Inflammation and fluid shifts can affect serum albumin and prealbumin; neither concentration alone diagnoses malnutrition or tells you exactly how much food a patient ate. Examine trends and the condition causing the change. A nutrition-focused physical examination, when appropriate and within the clinician’s competence, adds information about muscle, fat, edema and other physical signs; no single finding is automatically diagnostic. Use accepted criteria and the complete clinical record rather than inferring severity from one value."
+        },
+        {
+          "heading": "Turn findings into an assessment",
+          "text": "Build a timeline: recent intake and usual intake; weight and measurement conditions; symptoms and function; access to food; disease and treatment; and relevant laboratory trends. Classify a missing value as unknown, not normal. If a new weight is surprising, confirm its quality before basing treatment on it. Then identify the most important nutrition problem for a separate diagnostic statement and choose a measurable follow-up indicator."
+        },
+        {
+          "heading": "Guided source study — include in the 25-minute theory block",
+          "text": "Open the ASPEN screening and assessment practice tool linked below. Make a two-column table: list what a screen is designed to identify on the left, and four types of data used in a comprehensive assessment on the right. Choose one assessment input and explain how measurement error or missing context could change the conclusion. Then explain why an abnormal value and a diagnosis are not interchangeable. Use your own words rather than copying the tool."
+        },
+        {
+          "heading": "Step-by-step intake assessment",
+          "text": "Ask what the person usually eats and drinks, then what changed, when, and why. Distinguish a usual pattern from a single day or a meal observed in the hospital. For example, 900 kcal recorded yesterday is not automatically the usual daily intake for the prior month. Check portions, snacks, beverages, supplements, documentation completeness, and whether nausea, pain, missed meals, or limited access explain the pattern. A patient may report finishing a small meal but still consume less than needed; “100% of tray” describes what was served, not by itself whether intake was adequate. If intake data are uncertain, describe that uncertainty and obtain an estimate appropriate to the setting rather than presenting a precise number as fact."
+        },
+        {
+          "heading": "Work a second data-quality example",
+          "text": "A chart contains a weight of 70 kg from four months ago and 66.5 kg now. The arithmetic loss is 3.5 ÷ 70 × 100 = 5%, and the interval is four months. Before interpreting it, ask whether both weights used similar equipment, clothing and fluid conditions, and whether weight change was intentional. Suppose the current value includes new edema: the scale measures total body weight, including fluid, and can mask a larger loss of tissue; it does not quantify hidden tissue loss. Do not subtract an invented fluid amount. Document the known change and continue the assessment of intake, function, disease and physical findings."
+        },
+        {
+          "heading": "Separate evidence from inference",
+          "text": "Imagine a person reports three days of poor intake and has a low serum albumin during a serious infection. “The person reports eating less for three days” is an assessment finding. “The person has severe malnutrition because albumin is low” is an unsupported conclusion from a single value. An appropriate next step is to gather relevant history and examination data, account for inflammation and fluid, and apply an accepted diagnostic framework if indicated. Likewise, an intake estimate is compared with a stated estimate of needs, but the comparison is only as reliable as both inputs. Reassess when symptoms, intake or measurement conditions change."
+        },
+        {
+          "heading": "Practice before the questions",
+          "text": "Write an assessment note in four lines using the worked case: reported intake and time period; verified or uncertain anthropometrics; symptoms and their effect; and information still needed. Next write one question you would ask the patient and one question for the clinical team. Compare “appetite is poor” with “the patient reports consuming about half of usual intake for one week”: the latter gives a clearer baseline, but it is still an estimate and should be checked where possible. Explain why a screening result starts rather than replaces the assessment."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A patient reports eating about half of usual for one week because a painful mouth makes chewing difficult. The chart lists 80 kg six weeks ago and 76 kg today, measured on different scales; the patient has new ankle swelling and an acute infection. Serum albumin is low.",
+        "reasoning": "The recorded change is (80 − 76) ÷ 80 × 100 = 5% over six weeks, if comparable. Swelling may make the interpretation of weight more complicated, and different scales warrant verification. Screen result, intake history and symptoms support a comprehensive assessment; low albumin alone cannot establish malnutrition. Clarify actual intake and oral symptoms, check measurement conditions and examine relevant physical and functional findings. Address pain with the medical team and select tolerated foods as appropriate. Follow changes in intake, pain and comparable weights rather than assuming the problem is resolved from one laboratory value."
+      },
+      "questions": [
+        {
+          "id": "W2D08Q01",
+          "stem": "A positive nutrition-risk screen was completed on admission. What does it establish?",
+          "options": [
+            "The patient definitely has severe malnutrition",
+            "Further nutrition assessment is indicated under the local screening process",
+            "An oral supplement is the only valid intervention",
+            "No more intake or weight history is needed"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A screen flags risk; it does not establish severity.",
+            "Correct: screening identifies who may need a more complete assessment.",
+            "The appropriate intervention depends on assessment and patient context.",
+            "History and other assessment data remain important."
+          ],
+          "sources": [
+            "https://nutritioncare.org/text-based-resource/key-nutrition-screening-assessment-and-malnutrition-diagnostic-processes-and-tools-for-adults/"
+          ]
+        },
+        {
+          "id": "W2D08Q02",
+          "stem": "A patient weighed 72 kg eight weeks ago and 68.4 kg today. Assuming weights are comparable, what is the percentage loss?",
+          "options": [
+            "3.6%",
+            "5%",
+            "7.2%",
+            "10%"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "3.6 kg is the loss, not the percentage.",
+            "Correct: 3.6 ÷ 72 × 100 = 5%.",
+            "The original weight is the denominator; 7.2% does not follow.",
+            "A 10% loss would be 7.2 kg from 72 kg."
+          ],
+          "sources": [
+            "https://nutritioncare.org/text-based-resource/key-nutrition-screening-assessment-and-malnutrition-diagnostic-processes-and-tools-for-adults/"
+          ]
+        },
+        {
+          "id": "W2D08Q03",
+          "stem": "An inpatient has acute inflammation, edema, and a low albumin level. Which conclusion is most defensible?",
+          "options": [
+            "Low albumin alone confirms malnutrition",
+            "Albumin must be ignored in all medical care",
+            "Interpret albumin in clinical context and assess intake, history and physical findings",
+            "Edema proves all previous weight records are wrong"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Inflammation and fluid status confound albumin; one value does not diagnose malnutrition.",
+            "Albumin can have clinical relevance; the issue is its inappropriate use as a stand-alone nutrition marker.",
+            "Correct: use a multidimensional assessment and interpret laboratory values in context.",
+            "Edema complicates interpretation but does not establish that all records are invalid."
+          ],
+          "sources": [
+            "https://nutritioncare.org/clinical-resources/malnutrition/resources/for-clinicians/malnutrition-assessment/"
+          ]
+        },
+        {
+          "id": "W2D08Q04",
+          "stem": "An unexpected 4 kg overnight decrease appears after the patient was moved to another unit and another scale. The patient is stable. What is the best first step?",
+          "options": [
+            "Confirm the measurement, scale conditions and fluid context",
+            "Presume 4 kg of tissue was lost overnight",
+            "Delete all prior measurements",
+            "Use the new value alone to diagnose severe malnutrition"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: investigate measurement comparability and the clinical context.",
+            "A rapid measured difference can reflect scale or fluid changes rather than tissue loss.",
+            "Past records remain useful when interpreted critically.",
+            "One unverified value is insufficient to establish that diagnosis."
+          ],
+          "sources": [
+            "https://nutritioncare.org/text-based-resource/key-nutrition-screening-assessment-and-malnutrition-diagnostic-processes-and-tools-for-adults/"
+          ]
+        },
+        {
+          "id": "W2D08Q05",
+          "stem": "A patient consumed 900 kcal/day on average during the past three days. For this exercise the prescribed estimate is 1,500 kcal/day. What proportion was consumed?",
+          "options": [
+            "40%",
+            "60%",
+            "67%",
+            "167%"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "40% is the shortfall, not the proportion consumed.",
+            "Correct: 900 ÷ 1,500 × 100 = 60%.",
+            "67% is not obtained from the stated values.",
+            "This reverses the denominator; actual intake is below the target."
+          ],
+          "sources": [
+            "https://nutritioncare.org/text-based-resource/key-nutrition-screening-assessment-and-malnutrition-diagnostic-processes-and-tools-for-adults/"
+          ]
+        }
+      ],
+      "review": [
+        "From memory, explain screen versus assessment and name three data sources.",
+        "Recalculate the worked-case weight change; identify two reasons to verify it.",
+        "Revisit the Day 1 serving-size rule with a food containing two servings per package."
+      ],
+      "sources": [
+        "https://nutritioncare.org/text-based-resource/key-nutrition-screening-assessment-and-malnutrition-diagnostic-processes-and-tools-for-adults/",
+        "https://nutritioncare.org/clinical-resources/malnutrition/resources/for-clinicians/malnutrition-assessment/"
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Nutrition Diagnosis: Prioritize and Build a Defensible PES",
+      "minutes": 90,
+      "objectives": [
+        "Distinguish the nutrition diagnosis from the medical diagnosis.",
+        "Identify a nutrition problem, a supported cause, and measurable signs or symptoms.",
+        "Choose a practical intervention linked to the cause or, when needed, to the signs.",
+        "Select indicators for monitoring and reevaluate the plan."
+      ],
+      "theory": [
+        {
+          "heading": "Time plan and active recall — 10 minutes",
+          "text": "Explain the four NCP steps from Day 2 without notes, then list two ways to verify a surprising weight. Spend 25 minutes on theory, 15 minutes solving the case, 25 minutes on questions and explanations, and 15 minutes reviewing. The aim is a defensible line of reasoning, not memorization of an acronym."
+        },
+        {
+          "heading": "Where diagnosis fits",
+          "text": "Assessment gathers and interprets relevant facts; nutrition diagnosis identifies a nutrition problem that the practitioner can address. A medical diagnosis names a disease or condition and remains relevant to care, but it is not automatically a nutrition diagnosis. Intervention describes the actions chosen with the patient, and monitoring/evaluation checks relevant indicators against goals and prior data. The process is iterative: new findings can change the assessment, diagnosis or intervention."
+        },
+        {
+          "heading": "Write the reasoning as problem, cause and evidence",
+          "text": "A PES statement connects a nutrition problem to its etiology and the assessment data showing the problem. A useful pattern is “problem related to etiology as evidenced by signs and symptoms.” State the problem precisely, avoid assuming a cause that has not been assessed, and select evidence that can be monitored. For example, reduced intake related to painful chewing can be supported by a documented intake history and the patient’s report, provided the assessment supports that connection. A diagnosis need not list every clinical finding to be meaningful."
+        },
+        {
+          "heading": "Prioritize and intervene",
+          "text": "Consider urgency, safety, patient priorities, available evidence, what is actionable and potential impact. If a likely cause can be addressed, align the intervention with it. If a root cause cannot be resolved by nutrition care alone, collaborate with the appropriate team and aim to reduce the symptoms or consequences while pursuing appropriate care. A handout about nutrients will not by itself resolve a transport barrier or uncontrolled mouth pain. Ask what the patient can realistically do and agree on the next step."
+        },
+        {
+          "heading": "Make monitoring measurable",
+          "text": "Signs and symptoms often suggest useful monitoring indicators: compare an average intake with its baseline and agreed goal; track a symptom, timing and tolerance; or use comparable weight measurements when appropriate. A goal should identify a measure, target and interval. The indicator is what you measure; the criterion or goal is what you compare it with. A printed handout is an action, not proof that intake or health outcomes improved."
+        },
+        {
+          "heading": "Guided source study — include in the 25-minute theory block",
+          "text": "Open the Academy NCP overview and diagnosis snapshot. In your own words, contrast the purpose of assessment, diagnosis, intervention and monitoring. Write a hypothetical intake-related PES, circle the data that demonstrate the problem, and underline the proposed cause. Check whether your intervention acts on that cause. If the cause is outside the RDN’s control, propose a team-based action and a nutrition action that can reduce the impact. Finally identify one indicator that would show whether the nutrition problem is changing."
+        },
+        {
+          "heading": "Build a statement from verified facts",
+          "text": "Start with the assessment finding, not a preselected label. Example: a patient reports eating about half of usual because preparing food is difficult after a hand injury. A working nutrition problem may be reduced intake; a supported contributing cause is difficulty preparing food; evidence is the intake history and reported limitation. These elements must be confirmed and appropriately documented in the actual setting. “Related to laziness” is not supported by the evidence and can introduce stigma. A medical diagnosis can be part of the history or explain a mechanism, but the nutrition problem should describe what nutrition care can address."
+        },
+        {
+          "heading": "Check whether the cause matches the proposed action",
+          "text": "Consider two people with the same low intake. One avoids meals because chewing is painful; another cannot obtain groceries. A generic instruction to eat more misses both causes. For the first, coordinate assessment of mouth pain and discuss acceptable textures; for the second, explore delivery, transportation, food assistance or other resources that are actually available and acceptable. Both may benefit from an intake plan, but follow-up must test the barrier identified for each person. If the cause cannot be resolved immediately, document collaboration and target the nutrition consequences while the broader issue is addressed."
+        },
+        {
+          "heading": "Distinguish an action from an outcome",
+          "text": "Suppose the agreed goal is to increase average meal intake from about 40% to at least 60% during the next three days, with documentation of what was served. The average meal percentage is the indicator; 60% over three days is the comparison target and time period. A counseling session or handout is an intervention, not proof of reaching the intake goal. If the average becomes 55%, progress may have occurred but the target was not met. Check whether documentation, intake, pain or the plan changed before choosing a next step. Targets must be individualized and are examples here, not universal clinical prescriptions."
+        },
+        {
+          "heading": "Practice a competing-priority decision",
+          "text": "A patient who reports inadequate food access also reports new painful swallowing. Which information comes first? Clarify the nature and urgency of the swallowing concern and communicate it to the care team; do not assume that limited food access or missing knowledge explains it. Continue assessing access and work on feasible resources when safe, while following the appropriate clinical evaluation. In an exam question, identify the immediate safety issue, the task the question asks, and which fact actually supports your choice. If two answers are plausible, compare what each one addresses and which must occur first in the stated circumstances."
+        }
+      ],
+      "worked_case": {
+        "scenario": "Over the past week an adult reports eating 40% of meals because painful chewing limits textures. There is no swallowing evaluation in the record. The patient wants to eat more and agrees to try soft foods.",
+        "reasoning": "First clarify what “40%” represents, usual intake, severity of pain, and any signs requiring swallowing evaluation. A defensible working statement can connect inadequate oral intake to difficulty chewing, evidenced by the reported 40% average and the patient’s report. Coordinate assessment or treatment of pain with the care team and agree on tolerated texture options; do not assume dysphagia or prescribe a swallowing restriction without assessment. A measurable follow-up might compare documented average meal intake over three days with the agreed goal, alongside pain and tolerance. If intake remains low, reassess the barrier and intervention."
+      },
+      "questions": [
+        {
+          "id": "W2D09Q01",
+          "stem": "Which element of a PES statement identifies the nutrition problem’s cause or contributing factor?",
+          "options": [
+            "The etiology",
+            "The medical billing code",
+            "The follow-up date",
+            "The intervention order"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the etiology explains the supported cause or contributing factor.",
+            "A billing code is not the causal component of the PES.",
+            "The follow-up date is part of the care plan, not the cause.",
+            "An intervention addresses a problem or cause but is not the etiology itself."
+          ],
+          "sources": [
+            "https://www.ncpro.org/nutrition-diagnosis-snapshot"
+          ]
+        },
+        {
+          "id": "W2D09Q02",
+          "stem": "A patient reports eating poorly because dentures are painful. What action best addresses the stated barrier?",
+          "options": [
+            "Give a generic brochure about vitamins only",
+            "Coordinate assessment of the denture problem and discuss tolerated food textures",
+            "Assume the patient lacks motivation",
+            "Wait a month without follow-up"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A vitamin brochure does not directly address painful chewing.",
+            "Correct: coordinate care and choose an individualized, tolerated plan.",
+            "The reported physical barrier is evidence; motivation should not be presumed.",
+            "Deferring action without a plan does not address the barrier."
+          ],
+          "sources": [
+            "https://www.ncpro.org/nutrition-care-process",
+            "https://www.ncpro.org/vault/2570/web/files/Module%2006%20Script.pdf"
+          ]
+        },
+        {
+          "id": "W2D09Q03",
+          "stem": "A PES statement uses average meal intake as evidence. Which measure best evaluates a goal to increase meal intake?",
+          "options": [
+            "The number of brochures printed",
+            "Average percentage of meals consumed over the agreed follow-up period",
+            "The color of the patient’s meal tray",
+            "The clinic’s monthly electricity bill"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A brochure count measures an activity, not whether the intake goal was met.",
+            "Correct: compare average meal intake with the baseline and target.",
+            "Tray color does not measure the stated outcome.",
+            "Electricity use is unrelated to this patient’s intake."
+          ],
+          "sources": [
+            "https://www.ncpro.org/vault/2570/web/files/Module%2006%20Script.pdf"
+          ]
+        },
+        {
+          "id": "W2D09Q04",
+          "stem": "Which finding best supports a nutrition problem related to inadequate intake?",
+          "options": [
+            "A diagnosis of diabetes without further assessment",
+            "A documented recent intake history showing consumption below a stated individualized estimate",
+            "A blank weight field",
+            "An intervention selected before the assessment"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A medical diagnosis alone does not quantify the nutrition problem.",
+            "Correct: a quantified intake history and a stated comparison support the problem, while interpretation remains contextual.",
+            "Missing data are unknown, not positive evidence.",
+            "Choosing an intervention is not evidence that the problem exists."
+          ],
+          "sources": [
+            "https://www.ncpro.org/nutrition-diagnosis-snapshot"
+          ]
+        },
+        {
+          "id": "W2D09Q05",
+          "stem": "A patient has limited transport to the grocery store. Which next step best supports a feasible nutrition intervention?",
+          "options": [
+            "Assume repeated nonadherence",
+            "Ask about available food, preferences and transportation resources before agreeing on a plan",
+            "Prescribe an expensive shopping list without discussion",
+            "Use the same intervention for everyone with this medical diagnosis"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "The patient has identified a potential access barrier; blaming does not assess it.",
+            "Correct: understand access and preferences, then collaborate on a feasible plan.",
+            "Cost and transport can make that plan impractical.",
+            "People with the same condition can have different barriers and needs."
+          ],
+          "sources": [
+            "https://www.ncpro.org/nutrition-care-process"
+          ]
+        }
+      ],
+      "review": [
+        "From memory, label the problem, etiology and evidence in the worked case.",
+        "Explain when monitoring changes the diagnosis or intervention.",
+        "Return to the Day 8 weight example and explain why verification matters before diagnosing."
+      ],
+      "sources": [
+        "https://www.ncpro.org/nutrition-care-process",
+        "https://www.ncpro.org/nutrition-diagnosis-snapshot",
+        "https://www.ncpro.org/vault/2570/web/files/Module%2006%20Script.pdf"
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Nutrition Across the Lifespan: Match Guidance to Age and Context",
+      "minutes": 90,
+      "objectives": [
+        "Select age-appropriate infant feeding and growth resources.",
+        "Explain why folic acid matters before and during early pregnancy.",
+        "Interpret a growth chart as one component of assessment.",
+        "Recognize how access, symptoms and function affect nutrition decisions in later life."
+      ],
+      "theory": [
+        {
+          "heading": "Time plan and retrieval — 10 minutes",
+          "text": "Recall the Day 9 distinction between the medical condition and nutrition diagnosis. Then use 25 minutes for the lesson, 15 minutes for the case, 25 minutes for practice and explanations, and 15 minutes for review. For each scenario, underline the person’s life stage and the information that is missing before choosing a recommendation."
+        },
+        {
+          "heading": "Before and during pregnancy",
+          "text": "Life-stage guidance applies to a defined population, and an individual’s care team may recommend a different plan for specific risks. CDC recommends that people who could become pregnant obtain 400 micrograms of folic acid daily to help prevent neural tube defects. This matters before conception and in early pregnancy because the neural tube develops very early. A prior pregnancy affected by a neural tube defect or other clinical circumstances requires individualized clinician guidance; do not apply a higher prescribed dose universally. Distinguish the general recommendation from a patient-specific prescription."
+        },
+        {
+          "heading": "Infancy and introduction of foods",
+          "text": "For infants, breast milk or appropriately prepared infant formula provides the foundation of feeding. CDC states that breastfed and partially breastfed infants need 400 IU of vitamin D daily beginning shortly after birth; follow the clinician’s guidance for a particular child. Around 6 months, developmentally ready infants can begin complementary foods while continuing breast milk or formula. Iron requirements depend on feeding pattern and age; discuss suitable iron-containing complementary foods and supplements with the child’s clinician. Do not infer that every infant needs the same iron supplement solely from the label “infant.”"
+        },
+        {
+          "heading": "Growth is a pattern, not a single percentile",
+          "text": "CDC recommends WHO growth standards in the United States from birth to age 2 years; CDC growth charts are used for older children. Use age-appropriate measures, accurate technique and serial measurements. A percentile describes position on a reference distribution, not a stand-alone diagnosis. Examine the trend, measurement quality, clinical history, feeding and development before interpreting a change. An unexpected change deserves confirmation and assessment, not an automatic label based only on a single plot."
+        },
+        {
+          "heading": "Adulthood and older age",
+          "text": "An older adult’s needs and barriers depend on the individual rather than age alone. Reduced ability to shop, difficulty chewing, medications, chronic disease, food insecurity and social factors can affect intake. Ask about the person’s goals, foods, ability to prepare meals and recent changes. Use comparable weight and intake histories and coordinate help for addressable barriers. Avoid automatically prescribing one diet, calorie level or supplement to every older adult."
+        },
+        {
+          "heading": "Guided source study — include in the 25-minute theory block",
+          "text": "Open the CDC pages for folic acid, introducing foods and growth charts. Make a table with columns for population, timing, recommendation and what needs individual assessment. Contrast the 400 mcg folic-acid guidance for people who could become pregnant with the 400 IU vitamin-D supplement guidance for breastfed infants. For growth, write why an age-appropriate chart and a series of valid measurements are more useful than a single isolated percentile. Do not transfer a recommendation from one age group to another."
+        },
+        {
+          "heading": "Pregnancy: timing and scope of a recommendation",
+          "text": "For a general-prevention question, identify the population and time window: CDC recommends 400 mcg of folic acid daily for people who could become pregnant, including before conception and in early pregnancy. The recommendation is preventive; it does not mean that a neural tube defect can be diagnosed or excluded from a supplement history. A person with a prior affected pregnancy needs individualized advice from the treating clinician. Folic acid and folate are related terms, but a question asking specifically for the CDC folic-acid recommendation should not be answered by assuming every form or dose has identical evidence. Review the source if the question changes the risk history."
+        },
+        {
+          "heading": "Infant feeding: apply age and readiness together",
+          "text": "A healthy infant around six months who shows developmental readiness can begin complementary foods while breast milk or infant formula continues. Readiness signs described by CDC include sitting with support and being able to control the head and neck; children vary. Ask what the infant receives now, how foods are prepared and what questions the caregiver has. A baby who is exclusively or partly breastfed needs a 400 IU vitamin-D supplement daily beginning shortly after birth per CDC guidance; formula feeding and total intake change the discussion. Iron needs depend on feeding pattern and age, so identify the actual intake and involve the child’s clinician rather than selecting a supplement dose from an incomplete scenario."
+        },
+        {
+          "heading": "A growth-chart interpretation exercise",
+          "text": "Two recorded weights suggest a child has crossed percentile curves. First confirm age, measurements, equipment and chart selection, and review earlier points and the clinical history. Then ask about feeding, symptoms, development, illness and changes in routine. A single percentile is a position on a reference distribution; it is not a diagnosis by itself. A change across measurements may warrant timely assessment, but the appropriate response depends on verified data and context. For an 18-month-old in the United States, CDC recommends WHO growth standards; for an older child, use the appropriate CDC growth chart. Do not compare a toddler’s point with adult BMI cutoffs."
+        },
+        {
+          "heading": "Later life: turn a barrier into an actionable plan",
+          "text": "An older adult may report eating less because food is hard to purchase, chewing is painful, cooking is tiring, medications cause symptoms, or several factors coexist. Age alone identifies none of these. For example, if a person cannot carry groceries, first ask about available foods, preferences, support and access to delivery or community resources. Collaboratively choose a feasible option and arrange follow-up of intake and the barrier. If weight is changing, verify measurements and fluid context as in Day 8. If a symptom suggests an urgent clinical issue, communicate it to the appropriate team rather than assuming it is an expected part of aging."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A caregiver of a healthy six-month-old who receives breast milk asks about beginning foods and says, “Our child was at the 30th percentile at one visit, so something must be wrong.” The infant’s clinician has not yet reviewed the child’s full growth history.",
+        "reasoning": "First assess developmental readiness and the caregiver’s questions. CDC describes introducing complementary foods around six months when the infant is ready, while breastfeeding can continue. Discuss vitamin D and iron with the clinician using the actual feeding pattern and plan. A single percentile does not establish a diagnosis: review serial measurements, technique, growth pattern and clinical context with the child’s clinician. The response should support the caregiver without claiming that either a problem or normal growth has been proven from one value."
+      },
+      "questions": [
+        {
+          "id": "W2D10Q01",
+          "stem": "Which statement best reflects CDC’s general folic-acid recommendation for people who could become pregnant?",
+          "options": [
+            "Obtain 400 micrograms daily, including before conception and during early pregnancy",
+            "Wait until the second trimester before starting",
+            "Everyone should take 4,000 micrograms without individual assessment",
+            "Folic acid can prevent neural tube defects only after birth"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: CDC recommends 400 mcg daily for the general population who could become pregnant.",
+            "The neural tube develops early, often before pregnancy is recognized.",
+            "Higher doses may be recommended for specific histories and require clinician guidance.",
+            "The preventive role concerns the period before conception and early pregnancy."
+          ],
+          "sources": [
+            "https://www.cdc.gov/folic-acid/about/index.html"
+          ]
+        },
+        {
+          "id": "W2D10Q02",
+          "stem": "A caregiver asks when a developmentally ready infant can start complementary foods. Which answer reflects CDC guidance?",
+          "options": [
+            "At birth instead of milk feeds",
+            "Around 6 months, while continuing breast milk or infant formula",
+            "Only after the second birthday",
+            "At any age, regardless of developmental readiness"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Newborn feeding is based on breast milk or appropriate infant formula.",
+            "Correct: foods may be introduced around six months when the child is developmentally ready.",
+            "Waiting until age two is inconsistent with the guidance.",
+            "Age and developmental readiness both matter."
+          ],
+          "sources": [
+            "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html"
+          ]
+        },
+        {
+          "id": "W2D10Q03",
+          "stem": "A healthy, exclusively breastfed infant’s caregiver asks about vitamin D. What does CDC recommend for this feeding pattern?",
+          "options": [
+            "400 IU daily beginning shortly after birth",
+            "No vitamin D is needed in infancy",
+            "4,000 IU daily for all infants",
+            "Start supplementation only after age two"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: CDC recommends 400 IU daily beginning shortly after birth for breastfed infants.",
+            "Breast milk typically does not provide all needed vitamin D.",
+            "That is not the cited routine recommendation; individual dosing requires clinical direction.",
+            "Waiting until age two does not reflect the infant guidance."
+          ],
+          "sources": [
+            "https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/vitamin-d.html"
+          ]
+        },
+        {
+          "id": "W2D10Q04",
+          "stem": "A healthy 18-month-old is assessed in the United States. Which growth reference does CDC recommend for the age range?",
+          "options": [
+            "WHO growth standards for birth to age two",
+            "CDC growth charts only, because the child is older than one year",
+            "An adult BMI chart",
+            "No growth reference can be used before age five"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: CDC recommends WHO standards for children from birth to age two.",
+            "The transition in the cited CDC guidance is at age two, not one.",
+            "Adult BMI charts are not the appropriate infant and toddler reference.",
+            "Age-appropriate growth charts are available and useful with clinical context."
+          ],
+          "sources": [
+            "https://www.cdc.gov/growthcharts/information-for-healthcare-professionals.htm"
+          ]
+        },
+        {
+          "id": "W2D10Q05",
+          "stem": "An older adult reports a recent reduction in intake and trouble carrying groceries upstairs. What is the most useful next action?",
+          "options": [
+            "Assume the lower intake is inevitable with age",
+            "Assess food access, ability to prepare meals, recent intake and individual goals",
+            "Give all older adults the same restrictive diet",
+            "Diagnose malnutrition from age alone"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Age does not explain an individual’s symptoms or barriers by itself.",
+            "Correct: assessment identifies a potentially modifiable access barrier and the person’s needs.",
+            "A universal restrictive plan may worsen intake and ignores context.",
+            "Age alone cannot establish malnutrition."
+          ],
+          "sources": [
+            "https://nutritioncare.org/text-based-resource/key-nutrition-screening-assessment-and-malnutrition-diagnostic-processes-and-tools-for-adults/"
+          ]
+        }
+      ],
+      "review": [
+        "Without notes, distinguish 400 mcg of folic acid from 400 IU of infant vitamin D and identify the populations.",
+        "Explain how you would interpret a single growth percentile and what additional information you need.",
+        "Return to the Day 9 PES case and propose an outcome measure that directly tracks the stated problem."
+      ],
+      "sources": [
+        "https://www.cdc.gov/folic-acid/about/index.html",
+        "https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/vitamin-d.html",
+        "https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/iron.html",
+        "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html",
+        "https://www.cdc.gov/growthcharts/information-for-healthcare-professionals.htm",
+        "https://nutritioncare.org/text-based-resource/key-nutrition-screening-assessment-and-malnutrition-diagnostic-processes-and-tools-for-adults/"
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Research, Evidence, and Communication",
+      "minutes": 90,
+      "objectives": [
+        "Distinguish cohort, case-control, randomized, and cross-sectional designs from how participants are selected and followed.",
+        "Calculate and interpret a risk ratio for a defined event without confusing association with proof of causation.",
+        "Apply teach-back and evaluate a practical education goal."
+      ],
+      "theory": [
+        {
+          "heading": "A 90-minute route",
+          "text": "Spend 10 minutes recalling Days 4 and 8: identify a barrier to an intervention and separate screening from assessment. Spend 25 minutes on the sections below, 20 minutes solving the worked case and explaining your choices aloud, 25 minutes on the original questions and all answer rationales, and 10 minutes on the review prompts. Adjust the pace while keeping time for correction."
+        },
+        {
+          "heading": "Identify a research design before judging its conclusion",
+          "text": "Ask how people entered the study, what was assigned or observed, and when outcomes were assessed. In a randomized trial, researchers allocate an intervention by chance, although randomization alone does not prevent every source of bias. In a cohort study, groups are defined by exposure and their outcomes are compared over follow-up; records can make a cohort retrospective. In a case-control study, participants are selected by outcome status and prior exposures are compared. In a cross-sectional study, exposure and outcome are assessed at about the same time. The design label describes the structure, not whether a finding is automatically true. Consider selection, measurement, missing data, confounding, sample size and whether participants resemble the population in the question."
+        },
+        {
+          "heading": "Keep denominators and outcomes visible",
+          "text": "For a defined period, cumulative risk equals new events divided by the people initially at risk. Divide the risk in the exposed or treatment group by the risk in the comparison group to get a risk ratio. For example, 6 events among 100 people compared with 12 among 100 gives risks of 6% and 12%; the ratio is 0.50 and the absolute risk difference is 6 percentage points lower. A relative reduction of 50% is not a 50-percentage-point reduction. These calculations need a defined population, outcome and period. A risk ratio below 1 means a lower observed event risk in the numerator group; whether the intervention caused that difference depends on the study design and other evidence."
+        },
+        {
+          "heading": "Confidence intervals and limitations",
+          "text": "For a ratio, 1 is the no-difference value. A 95% confidence interval from 0.60 to 0.90 excludes 1; under the model and assumptions, it is compatible with ratios in that range and corresponds to a two-sided test at the 0.05 level excluding the null. It does not prove causation, guarantee clinical importance or mean 95% of individual people benefit. An interval from 0.60 to 1.20 includes both decreases and increases in risk; the estimate is uncertain rather than proof that there is no effect. Evaluate the absolute difference and baseline risk alongside the ratio."
+        },
+        {
+          "heading": "Communication is part of the intervention",
+          "text": "Teach-back checks how clearly the clinician explained a plan. Ask a person to describe or demonstrate in their own words what they will do, without framing the exchange as a test of intelligence. If the explanation is incomplete, clarify and ask again. For an observable learning objective, specify who will do what, under what conditions and how success will be checked. A client’s actual food access, language preferences and schedule matter. A goal such as “the patient understands nutrition” does not state an observable behavior; “the patient identifies two affordable foods containing carbohydrate using a label” is more specific."
+        },
+        {
+          "heading": "Guided practice: build and interpret a two-by-two table",
+          "text": "Suppose a cohort begins with 80 people exposed to a program and 120 unexposed people, all initially free of the outcome. During the same follow-up, 8 exposed and 18 unexposed people experience it. First construct the counts: exposed with event 8, exposed without event 72, unexposed with event 18, unexposed without event 102. The exposed risk is 8/80 = 0.10, or 10%; the unexposed risk is 18/120 = 0.15, or 15%. The risk ratio is 0.10/0.15 = 0.67, rounded. The absolute risk difference is 10% minus 15%, or −5 percentage points. Before reading the answer again, write which group is the numerator and explain how reversing the ratio changes it to 1.5. Do not subtract counts 8 and 18 without considering the different group sizes. Because this is observational, the table does not by itself settle whether the program caused the difference."
+        },
+        {
+          "heading": "Look for biases and ask whether findings apply",
+          "text": "Selection bias can arise if participation or retention differs in a way related to both exposure and outcome. Information bias can arise when a measurement is wrong, for example if groups recall food intake differently. Confounding occurs when another factor is associated with both the exposure and the outcome and distorts their relationship; in an observational diet study, health status, resources or activity may matter depending on the causal question. Randomization can improve baseline comparability on average but does not ensure that a particular small sample is perfectly balanced or that missing outcomes are harmless. When the question asks about an individual, compare the sample, intervention, comparator and outcome to that person’s circumstances. A relative effect may be identical across groups while the absolute difference varies with baseline risk. Avoid concluding that statistical significance guarantees a meaningful benefit."
+        },
+        {
+          "heading": "Guided practice: improve an education exchange",
+          "text": "A clinician says, “Avoid sodium, understand your label, and call if necessary.” The person nods. Rewrite the exchange in three steps. A possible response: first ask what meals the person can afford and prepare; second explain one action using a package the person actually uses, such as comparing sodium per equal portion; third ask, “Just so I know I explained it clearly, how would you compare these two labels at the store?” If the person compares unequal portions, acknowledge the explanation needs improvement, show how to put both on the same basis, and repeat teach-back. Set a shared, achievable action and a follow-up indicator. This is not a reading-level test, a reason to assume the patient cannot learn, or proof of adherence. To practice transfer, change the barrier from cost to transportation and revise the action without changing the respectful method."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A clinic follows 100 adults exposed to a nutrition program and 100 similar adults not enrolled. Over six months, 8 exposed and 16 unexposed adults are hospitalized. A participant with limited transportation says the recommended foods are difficult to obtain. The groups were not randomly assigned.",
+        "reasoning": "Step 1: Exposure defined the groups and outcomes were followed, so this is an observational cohort. Step 2: Risks are 8/100 = 8% and 16/100 = 16%; risk ratio = 0.08/0.16 = 0.50. The observed absolute difference is 8 percentage points. Step 3: Do not claim the program caused the difference: enrollment, baseline health and other factors may differ. Step 4: Ask about affordable accessible foods, adapt the plan with the participant, and use a respectful teach-back question such as “How would you put this plan into practice this week?” Monitor an agreed behavior or clinical outcome over time."
+      },
+      "questions": [
+        {
+          "id": "W2D11Q01",
+          "stem": "Researchers select people who already have a rare disease and a comparison group without it, then compare past exposures. Which design is described?",
+          "options": [
+            "Randomized trial",
+            "Case-control study",
+            "Cohort study",
+            "Cross-sectional survey"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "No intervention or random assignment is described.",
+            "Correct: selection is based on outcome, followed by comparison of past exposure.",
+            "A cohort is organized around exposure rather than selection by outcome.",
+            "The described groups are selected by disease status, not simply assessed at one time."
+          ],
+          "sources": [
+            "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
+          ]
+        },
+        {
+          "id": "W2D11Q02",
+          "stem": "Over one year, 9 of 150 exposed adults and 18 of 150 unexposed adults develop the specified outcome. What is the risk ratio, exposed divided by unexposed?",
+          "options": [
+            "0.25",
+            "0.50",
+            "2.0",
+            "9.0"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "0.25 does not follow from 9/150 divided by 18/150.",
+            "Correct: 6% divided by 12% is 0.50.",
+            "2.0 reverses the specified numerator and denominator.",
+            "9.0 uses the event count without comparing group risks."
+          ],
+          "sources": [
+            "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html"
+          ]
+        },
+        {
+          "id": "W2D11Q03",
+          "stem": "A risk ratio is 0.8 with a 95% confidence interval of 0.5 to 1.3. Which statement is best?",
+          "options": [
+            "The interval proves no effect exists.",
+            "The interval includes 1 and is compatible with both lower and higher risks.",
+            "The intervention definitely causes a 20% reduction.",
+            "Exactly 80% of participants benefited."
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Including 1 does not prove an effect is absent.",
+            "Correct: the interval spans the no-difference value and values on both sides.",
+            "The estimate and interval alone do not prove causation.",
+            "A group risk ratio does not describe the proportion of individuals who benefit."
+          ],
+          "sources": [
+            "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html",
+            "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
+          ]
+        },
+        {
+          "id": "W2D11Q04",
+          "stem": "A person nods during a new meal-planning explanation. Which response best uses teach-back?",
+          "options": [
+            "Ask the person to explain how they would use the plan at home.",
+            "Ask only, “Do you understand?”",
+            "Repeat the same instructions louder without checking.",
+            "Give a quiz grade and end the visit."
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: a respectful explanation in the person’s own words checks the clarity of teaching.",
+            "A yes/no answer alone does not demonstrate the explanation was understood.",
+            "Repeating without checking does not establish understanding.",
+            "Teach-back is a check of the communication, not a test used to shame or grade."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+          ]
+        },
+        {
+          "id": "W2D11Q05",
+          "stem": "A clinic wants an observable learning objective for reading labels. Which is most measurable?",
+          "options": [
+            "The patient appreciates nutrition.",
+            "At the end of the visit, the patient identifies carbohydrate grams in two sample labels.",
+            "The patient always chooses perfect foods.",
+            "The patient becomes more motivated forever."
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Appreciation is not defined as an observable behavior.",
+            "Correct: the action, conditions and material can be observed.",
+            "Always and perfect are undefined and not a feasible measure for the visit.",
+            "Motivation forever is neither specific nor observable at the visit."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+          ]
+        },
+        {
+          "id": "W2D11Q06",
+          "stem": "An observational study finds that people who exercise more have lower disease risk. What should be assessed before a causal claim?",
+          "options": [
+            "Whether other differences could confound the association.",
+            "Whether the abstract contains a large number.",
+            "Whether the exposure and outcome have similar names.",
+            "Whether all participants reported liking exercise."
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: baseline differences and other potential biases can explain an observed association.",
+            "A large number in an abstract cannot establish causal validity.",
+            "Names of variables are irrelevant to controlling confounding.",
+            "A preference does not rule out systematic differences or bias."
+          ],
+          "sources": [
+            "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html"
+          ]
+        }
+      ],
+      "review": [
+        "Without notes, calculate a risk ratio from two risks and distinguish it from a percentage-point difference.",
+        "Recall one Day 4 barrier that should change an intervention and one Day 8 example of assessment data.",
+        "Write a teach-back prompt in plain English and one observable follow-up indicator."
+      ],
+      "sources": [
+        "https://www.cdc.gov/field-epi-manual/php/chapters/design-conduct-analyze-field-studies.html",
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html",
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+        "https://www.cdc.gov/field-epi-manual/php/chapters/analyze-interpret-data.html"
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Diabetes and Cardiometabolic Decisions",
+      "minutes": 90,
+      "objectives": [
+        "Identify immediate safety issues before routine education in diabetes cases.",
+        "Calculate carbohydrate from stated serving sizes and tailor education to the person’s situation.",
+        "Interpret cardiometabolic goals with the population and guideline specified."
+      ],
+      "theory": [
+        {
+          "heading": "A 90-minute route",
+          "text": "Spend 10 minutes recalling the PES sequence and an observable indicator from Days 2 and 9. Spend 25 minutes reading the concepts below, 20 minutes on the worked case and your own variation, 25 minutes answering and correcting the original questions, and 10 minutes reviewing the prompts. The goal is deliberate reasoning, not rushing to reach a target score."
+        },
+        {
+          "heading": "Sort immediate safety from longer-term care",
+          "text": "First identify whether the person can safely participate in education and whether a current urgent problem requires action. An adult who is awake, able to swallow and has a measured blood glucose of 62 mg/dL needs prompt treatment according to the care plan: a common CDC approach is 15 g of fast-acting carbohydrate, recheck after 15 minutes, and repeat if still below 70 mg/dL. An unconscious person or someone unable to swallow must not be given food or liquid by mouth; activate emergency response and follow the prescribed glucagon or facility emergency protocol. Children and specific clinical contexts can require different amounts or protocols. After the immediate problem resolves, investigate the cause and communicate with the team."
+        },
+        {
+          "heading": "Carbohydrate is counted from the amount eaten",
+          "text": "On a Nutrition Facts label, total carbohydrate is given per stated serving. Multiply by the number of servings actually eaten. For an exercise with 22 g per 3/4 cup and an eaten portion of 1 1/2 cups, the factor is 2 and the carbohydrate is 44 g. One common carbohydrate serving is about 15 g; serving sizes and individual plans differ. If a person takes mealtime insulin, match instruction to the regimen and professional plan rather than independently changing a dose. There is no single carbohydrate allotment appropriate for everyone. Assess medication timing, access to food, activity, preferences, glucose data and the person’s goals."
+        },
+        {
+          "heading": "Individualize nutrition and monitoring",
+          "text": "Medical nutrition therapy translates an assessment into feasible shared actions. Ask what the person usually eats, whether meals are missed, whether supplies are accessible, and what the glucose pattern suggests before attributing elevated A1c to nonadherence. A1c describes average glycemia over a period and can be affected by conditions that alter red blood cell turnover. One result does not identify the cause of a change. Select a measurable follow-up indicator: for a goal of packing breakfast on workdays, track the number of workdays breakfast was packed and examine glucose patterns as appropriate. Coordinate medication questions with the prescribing team."
+        },
+        {
+          "heading": "Cardiometabolic risk needs context",
+          "text": "According to ADA Standards of Care 2026, people with diabetes and hypertension should have individualized blood pressure goals; below 130/80 mmHg is a general on-treatment goal when safely attained, with shared decision-making. For an adult with diabetes and established atherosclerotic cardiovascular disease, the 2026 secondary-prevention lipid recommendation calls for high-intensity statin therapy to lower LDL cholesterol by at least 50% from baseline and target LDL below 55 mg/dL. These are named guideline statements, not instructions to change an individual prescription. Eating patterns, activity, access, medication tolerability and other clinical factors are considered together."
+        },
+        {
+          "heading": "Worked label comparison and record interpretation",
+          "text": "Food A states 15 g carbohydrate per 1/2 cup; Food B states 22 g per 1 cup. For an eaten 1-cup portion of each, Food A contributes 30 g and Food B 22 g. Comparing 15 to 22 without accounting for portions would reverse the comparison. Total carbohydrate on the label already includes its components; do not add sugar grams to total carbohydrate again. For a 10-day glucose log, look at the timing of readings, meals, medications, activity and symptoms as well as the numbers. If the readings are mostly after a specific shift, ask what differs during that shift. A log can guide questions; it does not establish a cause by itself. Ask whether any values suggest urgent action, whether records are reliable, and what support the person can realistically use."
+        },
+        {
+          "heading": "Guided practice: prioritize the next question",
+          "text": "A client reports a higher A1c and says, “I started a new night shift and sometimes cannot eat during the break.” Three possible explanations are changed meal timing, medication timing, and access to food; none is proven by the A1c alone. First ask about current symptoms or recent low readings and address immediate safety if present. Then obtain a typical workday schedule, glucose records, medicines as reported by the person, and the practical reason meals are missed. With the client and prescribing team, consider a feasible meal or snack plan and review medication questions through the appropriate clinician. One measurable goal is to bring a shelf-stable snack on three shifts in the next week. At follow-up ask how many shifts the plan was feasible, what readings occurred, and what barrier remains. This approach replaces blame with data and a shared plan."
+        },
+        {
+          "heading": "Cardiometabolic comparison and transfer",
+          "text": "A person with diabetes has a recorded blood pressure of 146/88 mmHg at one visit and says they missed their usual medication that morning. The number warrants attention, but a single reading does not establish the complete pattern or the cause of the elevation. Verify the measurement and context, review the available record, assess relevant symptoms, and refer medication questions to the prescribing team. Discuss feasible eating and activity changes in the person’s context. For exam purposes, remember that ADA 2026 generally recommends an individualized treated goal below 130/80 mmHg if safely attained; do not turn that statement into a universal target for every circumstance or a recommendation to independently adjust treatment. Now change the case: the person reports dizziness and a much lower repeated pressure. Explain why symptoms and safe attainment matter more than blindly applying a numerical target."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A 58-year-old adult with diabetes is awake and able to swallow. Fingerstick glucose is 62 mg/dL. Their lunch label says 22 g carbohydrate per 3/4 cup, and they plan to eat 1 1/2 cups. They report that a changed work shift causes missed meals.",
+        "reasoning": "Treat the immediate low glucose first according to the patient’s care plan: a CDC example is 15 g fast-acting carbohydrate and recheck in 15 minutes, repeating if still under 70 mg/dL. Do not replace urgent treatment with a label lesson. After stabilization, calculate 1 1/2 ÷ 3/4 = 2 servings, so 2 × 22 = 44 g carbohydrate. Ask about meal and medication timing, access and recurrent low readings; coordinate medication concerns with the prescriber. Agree on a feasible workday meal strategy and track it with the person. The 44 g is an arithmetic result, not an individualized carbohydrate prescription."
+      },
+      "questions": [
+        {
+          "id": "W2D12Q01",
+          "stem": "An adult with diabetes is awake, able to swallow and has a measured glucose of 62 mg/dL. No unusual facility protocol is specified. What is the best initial action?",
+          "options": [
+            "Discuss dietary fiber after the appointment.",
+            "Provide 15 g fast-acting carbohydrate and recheck in 15 minutes, following the care plan.",
+            "Give a high-fat snack and check again tomorrow.",
+            "Withhold carbohydrate until a complete diet history is obtained."
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Routine counseling does not address the immediate low reading.",
+            "Correct: the CDC 15–15 approach applies to an alert adult able to swallow, alongside the care plan.",
+            "Fat can slow absorption, and tomorrow is too late to reassess.",
+            "Obtaining a detailed history must not delay treatment."
+          ],
+          "sources": [
+            "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html"
+          ]
+        },
+        {
+          "id": "W2D12Q02",
+          "stem": "A person with diabetes is unresponsive and cannot safely swallow. What is the safest first response?",
+          "options": [
+            "Give juice by mouth.",
+            "Wait 30 minutes for spontaneous recovery.",
+            "Activate emergency response and follow the prescribed glucagon or emergency protocol; give nothing orally.",
+            "Provide written carbohydrate-counting instructions."
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Oral liquid is unsafe when the person cannot swallow.",
+            "Waiting delays emergency treatment.",
+            "Correct: urgent help and the appropriate emergency treatment take priority; do not give oral food or liquid.",
+            "Education does not address the immediate emergency."
+          ],
+          "sources": [
+            "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html"
+          ]
+        },
+        {
+          "id": "W2D12Q03",
+          "stem": "A packaged food supplies 18 g total carbohydrate per 2/3 cup. The person eats 1 1/3 cups. How many grams of total carbohydrate are consumed?",
+          "options": [
+            "18 g",
+            "27 g",
+            "36 g",
+            "54 g"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "18 g is only one labeled serving.",
+            "27 g would represent 1.5 servings, not 2.",
+            "Correct: 1 1/3 cups is two 2/3-cup servings, so 2 × 18 = 36 g.",
+            "54 g would be three servings."
+          ],
+          "sources": [
+            "https://www.cdc.gov/diabetes/healthy-eating/carb-counting-manage-blood-sugar.html"
+          ]
+        },
+        {
+          "id": "W2D12Q04",
+          "stem": "A client’s glucose records show low readings on workdays after a schedule change. Which assessment best supports an individualized plan?",
+          "options": [
+            "Ask about meal timing, medication timing, activity, access to food and the pattern of readings.",
+            "Assign the same carbohydrate limit used for every patient.",
+            "Conclude that the client intentionally disregarded instructions.",
+            "Ignore low readings if the last A1c was at goal."
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: these factors help identify plausible causes and practical interventions while supporting team coordination.",
+            "Carbohydrate needs are individualized, not universal.",
+            "One pattern cannot establish intent or adherence.",
+            "Recent lows matter for safety even when A1c appears acceptable."
+          ],
+          "sources": [
+            "https://diabetesjournals.org/care/article/49/Supplement_1/S89/163932/5-Facilitating-Positive-Health-Behaviors-and-Well",
+            "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html"
+          ]
+        },
+        {
+          "id": "W2D12Q05",
+          "stem": "Per ADA Standards of Care 2026, which statement about blood pressure in diabetes with hypertension is appropriate?",
+          "options": [
+            "Every patient must have a goal below 120/70 regardless of risk.",
+            "A goal below 130/80 mmHg is generally recommended when safely attainable and individualized.",
+            "An individualized goal is never appropriate.",
+            "Blood pressure has no relevance to cardiovascular risk."
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A single unconditional goal ignores safety and individual circumstances.",
+            "Correct: ADA 2026 recommends individualized goals and generally below 130/80 if safely attainable.",
+            "Shared individualized decisions are part of the recommendation.",
+            "Blood pressure is a relevant cardiovascular risk factor."
+          ],
+          "sources": [
+            "https://diabetesjournals.org/care/article/49/Supplement_1/S216/163933/10-Cardiovascular-Disease-and-Risk-Management"
+          ]
+        },
+        {
+          "id": "W2D12Q06",
+          "stem": "According to ADA 2026, what LDL goal is specified for a person with diabetes and established ASCVD in secondary prevention?",
+          "options": [
+            "Below 55 mg/dL, alongside at least 50% reduction from baseline under the recommended therapy.",
+            "Below 130 mg/dL for all adults.",
+            "Exactly 100 mg/dL, with no consideration of baseline.",
+            "No LDL goal is mentioned."
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the 2026 recommendation names both the below-55 goal and at least 50% reduction for this population.",
+            "This is not the cited secondary-prevention recommendation.",
+            "A fixed 100 mg/dL target omits the specified goal and reduction.",
+            "The guideline explicitly states an LDL goal for this population."
+          ],
+          "sources": [
+            "https://diabetesjournals.org/care/article/49/Supplement_1/S216/163933/10-Cardiovascular-Disease-and-Risk-Management"
+          ]
+        },
+        {
+          "id": "W2D12Q07",
+          "stem": "A client agrees to pack breakfast on four workdays next week. Which follow-up indicator most directly measures that action?",
+          "options": [
+            "Number of workdays breakfast was packed.",
+            "The clinician’s favorite breakfast food.",
+            "Whether the client can name every medication in the clinic.",
+            "The clinic’s monthly supply budget."
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the number of workdays directly tracks the agreed behavior.",
+            "The clinician’s preference does not measure the client’s action.",
+            "Medication knowledge can be relevant but does not directly measure packing breakfast.",
+            "The clinic budget does not measure this individual behavior."
+          ],
+          "sources": [
+            "https://diabetesjournals.org/care/article/49/Supplement_1/S89/163932/5-Facilitating-Positive-Health-Behaviors-and-Well"
+          ]
+        }
+      ],
+      "review": [
+        "Recall the difference between an assessment finding, nutrition diagnosis, intervention and monitoring indicator.",
+        "Repeat the 18 g per 2/3 cup calculation with a 2-cup portion; check the answer using serving count.",
+        "Name the immediate action for an alert adult with low glucose and explain why an unconscious person should not receive oral intake."
+      ],
+      "sources": [
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic",
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S216/163933/10-Cardiovascular-Disease-and-Risk-Management",
+        "https://diabetesjournals.org/care/article/49/Supplement_1/S89/163932/5-Facilitating-Positive-Health-Behaviors-and-Well",
+        "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+        "https://www.cdc.gov/diabetes/healthy-eating/carb-counting-manage-blood-sugar.html"
+      ]
+    },
+    {
+      "day": 13,
+      "title": "People Management, Productivity, and Quality",
+      "minutes": 90,
+      "objectives": [
+        "Distinguish planning, organizing, leading and controlling in practical management scenarios.",
+        "Calculate a defined productivity measure and identify a limitation of its interpretation.",
+        "Apply PDSA and distinguish a process measure from an outcome measure."
+      ],
+      "theory": [
+        {
+          "heading": "A 90-minute route",
+          "text": "Spend 10 minutes retrieving one food-safety rule from Day 6 and one lifecycle assessment consideration from Day 10. Spend 25 minutes studying the sections below, 20 minutes on the worked case and a changed-data variation, 25 minutes on the seven original questions and their rationales, and 10 minutes on review. If the exercise takes longer, finish the explanations before adding more questions."
+        },
+        {
+          "heading": "Functions of management",
+          "text": "Managers use several related activities to move work toward an objective. Planning identifies what should be accomplished and establishes a course of action. Organizing arranges responsibilities and resources for that work. Leading involves guiding people through communication, instruction and support. Controlling examines actual performance against a target and responds when adjustment is needed. Consider a tray service: the manager selects a delivery-time goal; then assigns delivery routes; later helps the team practice a new route; finally compares observed delivery times with the goal. These are different actions in one improvement effort. In an exam question, identify the action occurring at that moment, not every activity the same manager may perform during the week."
+        },
+        {
+          "heading": "Delegation, feedback and training",
+          "text": "A supervisor can assign a task while remaining responsible for overseeing the work. Give the employee a clear description of the assignment, the expected result, the deadline and a way to raise obstacles. Consider the complexity of the task and the employee’s demonstrated capabilities when deciding what instruction or supervision is needed. Set a follow-up point and evaluate the work against the stated expectation. When correcting a problem, describe the observed behavior and its effect, listen to the employee and agree on a specific next step. The federal supervisory guide describes planning work, assigning it based in part on requirements and employee capabilities, evaluating performance, and giving instruction; local organizational policy also applies. In a pre-offer interview, assess a candidate’s ability to perform specific job duties and relevant qualifications rather than asking disability-related medical questions, subject to applicable law."
+        },
+        {
+          "heading": "Productivity is a ratio, not a complete judgment",
+          "text": "Define numerator and denominator before calculating. If a department produces 240 meals using 40 productive labor hours, its defined productivity is 240/40 = 6 meals per productive labor hour. If output rises to 252 meals with the same hours, productivity becomes 6.3. The ratio says nothing by itself about quality, staffing safety, menu complexity or whether hours were counted consistently. Compare like definitions and time periods. A full-time equivalent is convention-dependent: divide specified paid or productive hours by the stated hours for one FTE over the same period. Do not assume a weekly denominator if it is not supplied."
+        },
+        {
+          "heading": "Use PDSA and useful measures",
+          "text": "A Plan-Do-Study-Act cycle begins with a specific prediction and small test plan. Do means carry out that plan and record what happened. Study compares observations with the prediction and examines unexpected effects. Act means decide what to adapt, adopt or abandon and plan the next cycle; it does not mean the project ends after the first test. A process measure describes whether an activity was performed, such as the proportion of eligible meals labeled correctly. An outcome describes a result, such as the rate of documented meal-allergen incidents. A balancing measure checks for an unwanted consequence, such as increased meal delays after adding a verification step. These measures have different numerators, denominators and interpretations."
+        },
+        {
+          "heading": "Guided practice: compare a meaningful workload ratio",
+          "text": "A unit produced 300 meals with 50 productive labor hours in Week A and 330 meals with 60 productive hours in Week B. Week A productivity is 300/50 = 6.0 meals per productive hour; Week B is 330/60 = 5.5. Output increased by 30 meals, but the defined ratio decreased. This calculation does not prove that staff worked less effectively: the second week may have had more complex diets, service interruptions, orientation time or a different way of reporting hours. Before comparing, verify the same service, time period, meal definition and productive-hour definition. Then review quality indicators and workload details. Try another variation: if 330 meals required 55 productive hours, the answer would be 6.0, equal to Week A. Always label units and do not add a count to a number of hours."
+        },
+        {
+          "heading": "Guided practice: turn a vague problem into a small test",
+          "text": "The manager says, “Tray delivery is too slow.” First define a population and target, such as the percentage of lunch trays arriving within 30 minutes, and record the current result. Next decide who collects the start and end times, which trays are included, and when the test will happen. A prediction might be that a route checklist for one unit raises the on-time proportion without increasing incorrect labels. In Do, use the checklist and record deviations as well as results. In Study, compare both on-time delivery and labeling with the prediction and ask staff what happened. In Act, decide whether to adapt, adopt or abandon the test before another cycle. One test supports learning but does not eliminate random variation, prove a causal effect, or justify claiming that all units will obtain the same result."
+        },
+        {
+          "heading": "Guided practice: coach a task-specific performance gap",
+          "text": "An employee usually labels trays correctly but made two errors during an unusually busy shift. A useful first conversation describes the observed errors and asks what interfered: unclear labels, interruptions, equipment, staffing or a knowledge gap may require different responses. Check the immediate safety concern and the organization’s procedure; then agree on a specific action, such as practicing a label check using a checklist and reviewing five observed examples together by the next shift. The manager provides resources, names a follow-up time and checks the result. Feedback is more actionable than “be more careful,” and an isolated observation should not be used to infer a permanent trait. If the issue persists, use applicable policy and assess system factors as well as individual training. Now rewrite the case for a knowledgeable employee who identifies a process defect; explain how the manager could invite that employee into the next PDSA test."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A hospital nutrition manager wants at least 95% of trays to arrive within 30 minutes. In a one-week test, 76 of 100 trays meet the target. The team proposes a revised routing checklist. Before the test, 240 meals required 40 productive labor hours; after the test, 252 meals required 40 productive hours.",
+        "reasoning": "Start with a written prediction and a small test of the route checklist; do not assume the checklist caused the observed changes. The baseline on-time process rate is 76/100 = 76%, below the stated 95% target. Meals per productive labor hour change from 240/40 = 6.0 to 252/40 = 6.3. Keep the period, meal definition and hour definition the same before comparing, and monitor an outcome and potential balancing effects such as errors or delays. Assign one team member a clear role and check-in time. Study results against the prediction, investigate variation and decide what to adapt in the next cycle."
+      },
+      "questions": [
+        {
+          "id": "W2D13Q01",
+          "stem": "A manager selects a delivery-time objective for the coming month before assigning work. Which activity is most directly illustrated?",
+          "options": [
+            "Planning",
+            "Organizing",
+            "Leading",
+            "Controlling"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: choosing a future objective is a planning action.",
+            "Organizing arranges people and resources to carry out work.",
+            "Leading guides and supports the people doing the work.",
+            "Controlling compares actual performance with a target and responds to gaps."
+          ],
+          "sources": [
+            "https://stacks.cdc.gov/view/cdc/181582/cdc_181582_DS1.pdf"
+          ]
+        },
+        {
+          "id": "W2D13Q02",
+          "stem": "A foodservice team produces 252 meals using 42 productive labor hours. With productivity defined as meals per productive labor hour, what is the result?",
+          "options": [
+            "0.167 meals/hour",
+            "6 meals/hour",
+            "42 meals/hour",
+            "294 meals/hour"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "This is the inverse ratio, hours per meal, not meals per hour.",
+            "Correct: 252 ÷ 42 = 6 meals per productive labor hour.",
+            "42 is the number of hours, not the ratio.",
+            "Adding meals and hours does not calculate productivity."
+          ],
+          "sources": [
+            "https://stacks.cdc.gov/view/cdc/181582/cdc_181582_DS1.pdf"
+          ]
+        },
+        {
+          "id": "W2D13Q03",
+          "stem": "After a small test of a new checklist, the manager compares observed results with the prediction and reviews unexpected delays. Which PDSA step is this?",
+          "options": [
+            "Plan",
+            "Do",
+            "Study",
+            "Act"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Planning specifies the prediction and how to test.",
+            "Do is the step in which the test is carried out and observations recorded.",
+            "Correct: comparing results with prediction is the Study step.",
+            "Act follows learning to adapt, adopt or abandon a change."
+          ],
+          "sources": [
+            "https://www.cms.gov/Outreach-and-Education/MLN/WBT/MLN1857916-OMH-AHE/OMHAHE/ahe/lesson02/02/index.html"
+          ]
+        },
+        {
+          "id": "W2D13Q04",
+          "stem": "Which is a process measure for an allergen-labeling improvement project?",
+          "options": [
+            "Percentage of eligible trays checked for the correct label.",
+            "The rate of documented allergen incidents.",
+            "Total number of beds in the facility.",
+            "The temperature outside the building."
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: this measures whether the intended check was performed.",
+            "Incidents describe an outcome rather than completion of the checking process.",
+            "Bed count describes capacity and is not this process measure.",
+            "Outdoor temperature does not directly measure the labeling process."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/talkingquality/measures/types.html"
+          ]
+        },
+        {
+          "id": "W2D13Q05",
+          "stem": "A supervisor asks a staff member to train coworkers on a new tray-label check. Which assignment best clarifies expectations and follow-up?",
+          "options": [
+            "Describe the checklist, name the staff to train, specify when to report completion and arrange a follow-up.",
+            "Ask the employee to improve labels at some unspecified future time.",
+            "Assume the employee knows the goal and do not check the result.",
+            "Assign the training without explaining what procedure to teach."
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the task, audience, timing and follow-up are explicit.",
+            "An unspecified objective and date do not make the assignment clear.",
+            "Assumed understanding without follow-up does not verify completion.",
+            "The employee needs to know which procedure is being taught."
+          ],
+          "sources": [
+            "https://www.opm.gov/policy-data-oversight/classification-qualifications/classifying-general-schedule-positions/functional-guides/gssg.pdf"
+          ]
+        },
+        {
+          "id": "W2D13Q06",
+          "stem": "Before a job offer, which interview question best assesses an applicant’s ability to meet a stated job duty?",
+          "options": [
+            "“What prescription medicines do you take?”",
+            "“Have you ever had a disability?”",
+            "“Can you perform the listed task of moving a 25-pound supply carton?”",
+            "“How many sick days did you take last year due to illness?”"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "This is a disability-related medical inquiry rather than a question about a specific job duty.",
+            "This seeks disability information before an offer.",
+            "Correct: asking about ability to perform a stated job function is generally permitted, subject to applicable law.",
+            "This asks about illness history rather than ability to perform the task."
+          ],
+          "sources": [
+            "https://www.eeoc.gov/laws/guidance/enforcement-guidance-preemployment-disability-related-questions-and-medical"
+          ]
+        },
+        {
+          "id": "W2D13Q07",
+          "stem": "A team shortens tray delivery time after a routing change, but the percentage of incorrect tray labels rises. What should the team do next?",
+          "options": [
+            "Declare success based on delivery time alone.",
+            "Study both measures and investigate the unintended effect before deciding how to adapt the change.",
+            "Discard all measurements because outcomes conflict.",
+            "Assume that speed and label accuracy cannot both improve."
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A single improvement does not make an observed safety problem irrelevant.",
+            "Correct: the team should study the benefit and potential balancing harm before the next action.",
+            "Conflicting measures provide useful information rather than making data worthless.",
+            "The data do not prove improvement on both measures is impossible."
+          ],
+          "sources": [
+            "https://www.cms.gov/Outreach-and-Education/MLN/WBT/MLN1857916-OMH-AHE/OMHAHE/ahe/lesson02/02/index.html",
+            "https://www.ahrq.gov/talkingquality/measures/types.html",
+            "https://www.ahrq.gov/patient-safety/settings/hospital/vtguide/guide6.html"
+          ]
+        }
+      ],
+      "review": [
+        "From memory, distinguish planning from controlling using a tray-delivery example.",
+        "Recalculate meals per productive labor hour if 252 meals require 36 hours, and state a limitation of the ratio.",
+        "Recall one Day 6 food-safety condition and one Day 10 lifecycle assessment question; name what information you would still need."
+      ],
+      "sources": [
+        "https://www.cms.gov/Outreach-and-Education/MLN/WBT/MLN1857916-OMH-AHE/OMHAHE/ahe/lesson02/02/index.html",
+        "https://www.ahrq.gov/talkingquality/measures/types.html",
+        "https://www.eeoc.gov/laws/guidance/enforcement-guidance-preemployment-disability-related-questions-and-medical",
+        "https://stacks.cdc.gov/view/cdc/181582/cdc_181582_DS1.pdf",
+        "https://www.opm.gov/policy-data-oversight/classification-qualifications/classifying-general-schedule-positions/functional-guides/gssg.pdf",
+        "https://www.ahrq.gov/patient-safety/settings/hospital/vtguide/guide6.html"
+      ]
+    },
+    {
+      "day": 14,
+      "title": "Light review: Connect assessment, decisions, evidence, and quality",
+      "minutes": 45,
+      "objectives": [
+        "Distinguish screening from assessment and connect a confirmed cause to a feasible intervention.",
+        "Apply a lifecycle feeding principle and interpret a simple risk ratio without inferring causality.",
+        "Review an individualized diabetes-care response and the next step in a PDSA cycle.",
+        "Identify two topics needing further review without treating six questions as a readiness score."
+      ],
+      "theory": [
+        {
+          "heading": "A 45-minute review, not a new chapter",
+          "text": "Use 5 minutes for closed-book retrieval: name the four Nutrition Care Process steps and distinguish screening from assessment. Spend 10 minutes working through the case below, 18 minutes on the six questions, and 12 minutes reading every option explanation and writing two specific follow-up tasks. If a question takes longer, shorten the final notes rather than skipping the explanations."
+        },
+        {
+          "heading": "Retrieve, connect, and check",
+          "text": "A positive screening result signals possible risk; it does not alone determine diagnosis or severity. Assessment gathers and interprets relevant information. A nutrition intervention should address a confirmed or plausible cause and be feasible for the person; monitoring compares an agreed indicator with a relevant goal. Separate an observation from an inference and identify what remains unknown."
+        },
+        {
+          "heading": "Switch domains deliberately",
+          "text": "For the nine-month infant scenario, remember that breast milk and/or infant formula remains the main nutrition source at 6–12 months while complementary foods are introduced; ordinary whole cow’s milk as a drink can begin at 12 months. For research, compute risk in each group before dividing exposed risk by unexposed risk. A risk ratio describes association, not proof of causation. For diabetes, treat a current low glucose immediately according to the person’s established plan; severe hypoglycemia requires emergency assistance. When the person is currently stable, review previous episodes and communicate patterns to the clinical team. In PDSA, use observed results to decide how to adapt or continue testing."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A person with diabetes screened at nutrition risk reports skipping meals after losing access to transportation. A measured weight is not yet available. They report several low glucose readings on previous days; their glucose is currently within their target range and they have no hypoglycemia symptoms. In ten minutes, write one missing assessment fact, one possible cause, one feasible intervention, and one follow-up indicator. Decide what safety issue needs timely follow-up.",
+        "reasoning": "1. Screening flags risk; obtain a reliable weight, food intake and clinical context before asserting a nutrition diagnosis. 2. Transportation may explain reduced food access, but confirm the barrier and available resources with the person. 3. Agree on a feasible way to obtain food, such as a suitable local resource or delivery if available. 4. Agree on an observable measure such as meals obtained or eaten in the coming week, then compare it with the agreed plan. 5. The previous low readings warrant prompt review and communication with the clinical team. If a low occurs now, treat it immediately according to the person’s established plan; severe hypoglycemia requires emergency assistance. Do not independently prescribe medication changes or assume the cause of lows from this limited scenario."
+      },
+      "questions": [
+        {
+          "id": "W2D14Q01",
+          "stem": "A screening tool flags nutrition risk in a hospitalized adult. The chart contains an estimated weight but no measured weight or recent intake history. Which next step best supports a nutrition assessment?",
+          "options": [
+            "Collect and verify relevant weight and intake information along with clinical context",
+            "Assign malnutrition severity from the screening flag alone",
+            "Begin an identical diet for every person who screens positive",
+            "Wait until discharge because screening replaces assessment"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct. Screening identifies possible risk; a more complete assessment gathers and verifies relevant information.",
+            "A positive screen alone does not establish a diagnosis or severity.",
+            "An intervention should respond to assessment and individual needs.",
+            "Screening and assessment have distinct purposes; the flag calls for follow-up."
+          ],
+          "sources": [
+            "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment"
+          ]
+        },
+        {
+          "id": "W2D14Q02",
+          "stem": "A person reports eating fewer meals after losing transportation to the grocery store. The dietitian confirms limited access is the main barrier. Which intervention best addresses that cause?",
+          "options": [
+            "Repeat a generic handout and assume the person understands",
+            "Discuss feasible grocery delivery or nearby food resources and choose an agreed plan",
+            "Measure waist circumference once and stop the visit",
+            "Recommend foods that are unavailable to the person"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A handout alone does not address the confirmed transportation barrier.",
+            "Correct. Exploring feasible resources and agreeing on a plan targets the barrier identified in assessment.",
+            "A measurement can inform assessment but does not resolve the access barrier.",
+            "A plan involving unavailable foods does not address the demonstrated cause."
+          ],
+          "sources": [
+            "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-intervention"
+          ]
+        },
+        {
+          "id": "W2D14Q03",
+          "stem": "A caregiver of a healthy nine-month-old asks whether plain whole cow’s milk can replace breast milk or infant formula as the main milk drink today. Which response best matches CDC guidance?",
+          "options": [
+            "Yes; cow’s milk should replace breast milk or formula by six months",
+            "Continue breast milk and/or infant formula as the main milk source; plain whole cow’s milk can be introduced as a drink at 12 months",
+            "Stop all complementary foods until 12 months",
+            "Use cow’s milk as the sole source of nutrition for the next three months"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "The CDC does not recommend replacing breast milk or infant formula with cow’s milk as the main drink before 12 months.",
+            "Correct. At 6–12 months, breast milk and/or infant formula remains the main nutrition source while complementary foods are introduced; cow’s milk as a drink can be introduced at 12 months.",
+            "Complementary foods are generally introduced around six months; the scenario does not call for stopping them.",
+            "Cow’s milk alone is not an appropriate sole source of nutrition for this nine-month-old."
+          ],
+          "sources": [
+            "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/how-much-and-how-often-to-feed.html",
+            "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/cows-milk-and-milk-alternatives.html"
+          ]
+        },
+        {
+          "id": "W2D14Q04",
+          "stem": "In an original hypothetical cohort, 12 of 120 exposed people and 6 of 120 unexposed people develop the outcome over the same period. What is the risk ratio, and what can the result alone establish?",
+          "options": [
+            "0.5; exposure is proven protective",
+            "2.0; risk is twice as high in the exposed group, but the result alone does not establish causation",
+            "6.0; six people were exposed",
+            "12.0; all exposed people developed the outcome"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "This reverses the comparison: 0.05 divided by 0.10 is 0.5, but the question asks exposed divided by unexposed.",
+            "Correct. Exposed risk is 12/120 = 0.10, unexposed risk is 6/120 = 0.05, and 0.10/0.05 = 2.0. Association alone does not rule out confounding or establish causation.",
+            "The difference in case counts is not the ratio of risks.",
+            "Twelve is the number of exposed cases, not the proportion or risk ratio."
+          ],
+          "sources": [
+            "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html"
+          ]
+        },
+        {
+          "id": "W2D14Q05",
+          "stem": "An adult with diabetes reports several low glucose readings on previous days after a change in daily routine. Their glucose is currently within the person’s target range and they have no symptoms of hypoglycemia. Which nutrition-care response best supports safety and individualization?",
+          "options": [
+            "Collect timing of readings, food, activity and medications; communicate the pattern to the clinical team and follow the person’s established low-glucose plan",
+            "Lower food intake further without assessment",
+            "Change the medication dose independently based only on one meal report",
+            "Ignore repeated low readings if the person’s average glucose is acceptable"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct. With no current low reading or symptoms in this scenario, review the pattern and communicate with the clinical team. A current low requires immediate treatment under the person’s plan; severe hypoglycemia requires emergency assistance.",
+            "Further restricting intake without assessment could worsen the situation.",
+            "Medication changes require an authorized clinician and clinical assessment; a single meal report is insufficient.",
+            "An average does not erase the significance of recurrent low readings."
+          ],
+          "sources": [
+            "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html"
+          ]
+        },
+        {
+          "id": "W2D14Q06",
+          "stem": "A clinic tests a new reminder with a small group. The team has recorded what happened and compared the results with its prediction. According to PDSA, what should the team do next?",
+          "options": [
+            "Act on the findings: decide whether to adapt, adopt or abandon the change and plan the next test",
+            "Declare improvement proved for every clinic from one small test",
+            "Skip assessment and introduce the change everywhere",
+            "Erase the results so the next test begins without a baseline"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct. After studying the results, the team acts on what it learned and plans the next cycle.",
+            "A small test can guide learning but does not by itself establish universal effectiveness.",
+            "Skipping the study and decision steps defeats the cycle described.",
+            "Keeping and interpreting results supports learning and comparison."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool2b.html"
+          ]
+        }
+      ],
+      "review": [
+        "Without notes, explain in one sentence why a positive screen does not by itself establish a diagnosis.",
+        "Redo the cohort risk-ratio calculation and explain why a ratio of 2.0 is an association rather than proof of causation.",
+        "Write two specific follow-up tasks from any errors or guesses, identifying whether each reflects a content gap, calculation, or interpretation issue. Bring them into the next study block; do not infer readiness from this short review."
+      ],
+      "sources": [
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-assessment",
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-diagnosis",
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-intervention",
+        "https://www.eatrightpro.org/practice/nutrition-care-process/ncp-overview/nutrition-monitoring-and-evaluation",
+        "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/how-much-and-how-often-to-feed.html",
+        "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/cows-milk-and-milk-alternatives.html",
+        "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html",
+        "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool2b.html"
+      ]
+    }
+  ]
+}
