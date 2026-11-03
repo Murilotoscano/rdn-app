@@ -3569,6 +3569,1175 @@
         "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/disclosures-treatment-payment-health-care-operations/index.html",
         "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
       ]
+    },
+    {
+      "day": 29,
+      "title": "Priority Gap A: Choose, Explain, and Test",
+      "minutes": 90,
+      "objectives": [
+        "Choose a provisional first remediation topic using actual evidence or a transparent fallback, not an assumed weakness.",
+        "Distinguish a concept gap from reading, vocabulary, calculation, time or source uncertainty.",
+        "Apply retrieval and a new case to check reasoning without treating a small sample as a pass prediction."
+      ],
+      "theory": [
+        {
+          "heading": "A 90-minute study session",
+          "text": "Spend 10 minutes choosing a topic using the method below, 25 minutes studying and recalling the relevant content, 15 minutes on the worked case, 20 minutes answering the questions, 15 minutes reviewing every option and recording reasons, and five minutes planning a spaced revisit. All core explanations and examples are on this page; the sources are optional for further verification. Use an accessible topic rather than waiting for a perfect analysis."
+        },
+        {
+          "heading": "Start with evidence, not a label",
+          "text": "This lesson does not know your current history or identify your weaknesses. If you have a recent, trustworthy record, list topic, number of new questions, incorrect answers, guesses and an explanation of what went wrong. Include material you have not yet studied; zero attempts means coverage is unknown, not strong or weak. A single wrong answer can reflect a misread or a lucky-looking distractor and is not enough to rank an entire domain. If records are missing, choose a subtopic that has not yet been studied or use the example below. Label it a starting point rather than a diagnosis of your ability."
+        },
+        {
+          "heading": "Use the applicable content outline",
+          "text": "For the CDR outline effective January 1, 2022 through December 31, 2026, the stated domain weights are I 21%, II 45%, III 21% and IV 13%. These weights concern exam content distribution, not a personal score, the number of hours you must spend, or proof that one missed question is more important. Before an exam in 2027 or later, check the outline that applies to that exam date; do not carry 2026 weights forward automatically. Within the applicable outline, prefer an unstudied or repeatedly difficult important subtopic, but maintain some review of the other domains. Do not infer the candidate’s scheduled date."
+        },
+        {
+          "heading": "Classify the reason before deciding the remedy",
+          "text": "Knowledge: the principle was unavailable even after careful reading. Interpretation: a word such as minimum, except, first, or per serving was missed. Calculation: the setup, unit conversion or arithmetic failed. Time: the explanation was known afterward but the decision took too long; investigate the cause rather than assuming every slow answer is a knowledge deficit. Vocabulary: a term blocked understanding; define it in English and use it in a new sentence. Source uncertainty: two reputable references or editions appear inconsistent; keep the item unresolved while checking scope and date. A single answer can have more than one contributing reason."
+        },
+        {
+          "heading": "A repeatable remediation cycle",
+          "text": "First write the decision rule from memory, leaving blanks for what you cannot recall. Then study the explanation and a suitable source; identify the condition under which the rule applies. Work one example, explain why each plausible alternative is wrong or less appropriate, and solve a new variation with one relevant fact changed. Record the original condition, the decision and the new result. Revisit after an interval using retrieval before looking. The IES practice guide recommends spacing learning and using tests to promote learning; this is a study strategy, not proof of a particular exam score."
+        },
+        {
+          "heading": "Illustration, not your own results",
+          "text": "Imagine a learner completed ten new questions in clinical calculations and missed four, but also guessed two of the six correct answers. The learner discovers that three misses involved units, while the fourth concerned a clinical fact not yet checked. A reasonable provisional activity is to practice writing units and inverse checks, while separately verifying the disputed fact. It would be premature to assert that the learner will fail the clinical domain or to compare 6/10 with an official passing standard. The numbers in this illustration are invented for instruction and do not describe your history."
+        },
+        {
+          "heading": "Worked calculation: prescribed target versus universal recommendation",
+          "text": "A case states that a clinician has chosen a protein target of 0.8 g/kg/day for a particular 65-kg adult. The arithmetic is 65 × 0.8 = 52 g/day. The phrase “chosen for this case” matters: the computation does not make 0.8 g/kg a universal target for all people with kidney disease or every treatment. To test transfer, change weight to 75 kg while keeping the supplied target unchanged: 75 × 0.8 = 60 g/day. Then change the question: if no target is supplied, the correct response is not to invent one; gather patient-specific data and coordinate with the clinical team."
+        },
+        {
+          "heading": "Make the next check useful",
+          "text": "A comparison is more informative when you know the source, topic, number of items and conditions, and when you test with new or revised questions instead of repeatedly recognizing the same letter. Keep the denominator visible: 3 correct out of 4 is 75%, but four items give limited information about a broad domain. If one new variation succeeds, describe that specific success; do not claim the entire topic is mastered. For a persistent difficulty, make the action smaller: define one term, set up one calculation or identify the decision step. Note the source and schedule another recall attempt."
+        },
+        {
+          "heading": "Applied selection practice with a model answer",
+          "text": "Suppose a learner has no dependable recent scores and has not reviewed nutrition assessment or foodservice production. They choose nutrition assessment for today because it is unstudied and is part of Domain II in the 2026 outline; they record foodservice for a later session. A suitable objective is “identify which missing intake information is needed before a nutrition intervention,” followed by a new scenario. Another learner could reasonably choose foodservice first based on its own evidence or constraints. Neither choice proves a personal weakness. Return to the other domain in spaced review so that choosing a priority does not become permanent neglect."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A hypothetical student has no reliable current results. They have not reviewed clinical calculations and have only read about food production. The 2026 outline is applicable to this example. They decide to begin with clinical calculations. The next case provides a formula concentration of 1.25 kcal/mL and an ordered energy amount of 1,500 kcal. How should they study and check the decision?",
+        "reasoning": "Label the choice provisional and based on coverage, not an inferred weakness. Set up volume = prescribed kcal ÷ kcal/mL: 1,500 ÷ 1.25 = 1,200 mL. Reverse-check 1,200 × 1.25 = 1,500 kcal. Explain why the concentration is a divisor and why the given energy amount is an order in this exercise, not a universal prescription. Try a new concentration or delivery schedule, classify any error, and schedule food production for later review. One successful calculation is evidence about that task, not a prediction of the exam score."
+      },
+      "questions": [
+        {
+          "id": "W5D29Q01",
+          "stem": "A learner has no trustworthy current performance data. What is a defensible way to choose today’s first review topic?",
+          "options": [
+            "Declare the highest-weight domain the learner’s confirmed weakness",
+            "Choose an unstudied topic provisionally and record that the choice is based on coverage",
+            "Treat zero attempts as evidence of mastery",
+            "Predict an exam score from the absence of data"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A content weight does not reveal an individual weakness.",
+            "Correct: coverage is a transparent fallback, and the conclusion remains provisional.",
+            "No attempts provide no direct evidence of mastery.",
+            "An absent sample cannot support a score prediction."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/rd-handbook"
+          ]
+        },
+        {
+          "id": "W5D29Q02",
+          "stem": "A learner knows the relevant formula but uses the per-serving value without multiplying by two servings. Which review category is most directly supported?",
+          "options": [
+            "A reading or interpretation error concerning the stated amount",
+            "Proof that all nutrition science knowledge is absent",
+            "A confirmed long-term time-management disorder",
+            "A source conflict that must be resolved by changing a guideline"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the stated amount was overlooked in applying the known rule.",
+            "One error does not support this sweeping conclusion.",
+            "No timing or diagnostic evidence is provided.",
+            "The problem gives no conflicting source or guideline."
+          ],
+          "sources": [
+            "https://ies.ed.gov/ncee/wwc/practiceguide/1"
+          ]
+        },
+        {
+          "id": "W5D29Q03",
+          "stem": "A clinical team supplies a case-specific protein target of 0.8 g/kg/day for a 65-kg adult. What is the calculated amount?",
+          "options": [
+            "52 g/day",
+            "65.8 g/day",
+            "81.25 g/day",
+            "520 g/day"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: 65 × 0.8 = 52 g/day; the target is specified for this case.",
+            "Adding the numbers does not apply the target.",
+            "Division gives a different result and unit relationship.",
+            "This is a tenfold decimal error."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+          ]
+        },
+        {
+          "id": "W5D29Q04",
+          "stem": "Which practice best checks transfer after reviewing a calculation?",
+          "options": [
+            "Repeat the same answer letter until it feels familiar",
+            "Solve a new scenario with a changed value and explain the setup",
+            "Delete the original problem and avoid all variations",
+            "Assume one correct response proves complete mastery"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Letter familiarity is not evidence that the method transfers.",
+            "Correct: a variation tests the rule and its conditions.",
+            "Avoiding variation does not test transfer.",
+            "One item supports only a limited conclusion."
+          ],
+          "sources": [
+            "https://ies.ed.gov/ncee/wwc/practiceguide/1"
+          ]
+        },
+        {
+          "id": "W5D29Q05",
+          "stem": "A learner gets 3 correct on 4 new questions in a subtopic. What is the most appropriate interpretation?",
+          "options": [
+            "A 75% sample proves official exam readiness",
+            "The observed result is 75%, but four questions are limited evidence about the broader topic",
+            "The learner missed 75%",
+            "The observed percentage is the official scaled score"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Four items cannot establish official readiness.",
+            "Correct: 3 ÷ 4 = 75%, with a small denominator and limited scope.",
+            "One of four was missed, which is 25%.",
+            "A practice percentage is not the official scaled score."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/rd-handbook"
+          ]
+        },
+        {
+          "id": "W5D29Q06",
+          "stem": "Two reputable sources appear to give different recommendations. Which first response supports safe review?",
+          "options": [
+            "Select the one with the larger number without reading it",
+            "Check the population, date, edition and context before resolving the difference",
+            "Average the recommendations automatically",
+            "Mark both sources wrong without checking"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "The larger number alone does not establish applicability.",
+            "Correct: apparent disagreement may reflect different populations, versions or conditions.",
+            "Averaging may produce a recommendation supported by neither source.",
+            "The information is insufficient to reject both."
+          ],
+          "sources": [
+            "https://ies.ed.gov/ncee/wwc/practiceguide/1",
+            "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+          ]
+        }
+      ],
+      "review": [
+        "Return to Day 15: compare an arithmetic prescription supplied for a case with a general recommendation.",
+        "Return to Day 22: identify one limitation when a small group is treated as representative of a larger population.",
+        "Write one provisional priority and the actual reason for choosing it; if no personal record exists, write “coverage unknown.”"
+      ],
+      "sources": [
+        "https://ies.ed.gov/ncee/wwc/practiceguide/1",
+        "https://www.cdrnet.org/rd-handbook",
+        "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+      ]
+    },
+    {
+      "day": 30,
+      "title": "Priority Gap B: Contrast Decisions and Distractors",
+      "minutes": 90,
+      "objectives": [
+        "Choose a second provisional study priority without assuming personal strengths or weaknesses.",
+        "Compare a correct action with a plausible alternative using the facts and conditions of the case.",
+        "Distinguish implementation, measurement and causal interpretation in management and education cases."
+      ],
+      "theory": [
+        {
+          "heading": "A 90-minute study session",
+          "text": "Spend 10 minutes choosing a second topic, 25 minutes studying the concepts below or your chosen material, 15 minutes on the worked case, 20 minutes on questions, 15 minutes explaining each option, and five minutes setting the next review. The examples here are instructional and are not a description of your own results. Linked sources provide optional verification, not a required separate reading assignment."
+        },
+        {
+          "heading": "Select priority B without inventing a profile",
+          "text": "If you have dependable evidence, choose a second subtopic using its coverage, recurring reasoning issue, relevance to the applicable exam outline and available study time. If not, choose a topic you have not yet studied or use this management and education example. Do not assign yourself a weak-domain label based on one item or the absence of records. Priority B can be in the same domain as A if the evidence supports that choice, but include other domains in periodic mixed review. Record the reason for selection and what result would justify revisiting the decision."
+        },
+        {
+          "heading": "Compare the decision, not just the topic name",
+          "text": "Before looking at options, identify the task: assessment, intervention, monitoring, management calculation or evaluation. Then ask what information in the stem changes the decision. Several options may be generally useful but only one may directly answer the specified question. The goal is to explain why the selected option fits this case and why each alternative does not. Avoid adding missing facts to make a favorite answer work. If two options remain equally defensible under the stated assumptions, identify the ambiguity rather than memorizing the key."
+        },
+        {
+          "heading": "Management example: measures and actions",
+          "text": "A team distributes 200 invitations to a cooking class, holds two classes and enrolls 30 people. These figures describe activities or direct outputs. They do not establish that participants later changed a meal, improved food access or achieved a health outcome. If the objective is that participants use a particular local resource within four weeks, a follow-up measure should ask about that use with a clear numerator, denominator and time. In a logic model, staff time and funding are inputs, holding the class is an activity, classes held or participants reached are outputs, and changes in access or behavior are potential outcomes. Each type answers a different question."
+        },
+        {
+          "heading": "Education example: teach-back versus attendance",
+          "text": "An educator demonstrates how to use a nutrition label. Asking “How would you use this information for the amount you normally eat?” invites the learner to explain in their own words and checks the clarity of the explanation. If the explanation is unclear, the educator can rephrase and ask again without blame. Counting handouts does not measure that skill. A correct teach-back at the visit indicates understanding at that time; it does not prove that the person later changed behavior or had access to the proposed food. Follow-up should match the stated objective and consider practical barriers."
+        },
+        {
+          "heading": "A financial contrast with explicit assumptions",
+          "text": "For one product, suppose sales price is $12 per lunch, variable cost is $7 per lunch and fixed costs are $1,000 for the month. Contribution per lunch is $5, so the break-even calculation is $1,000 ÷ $5 = 200 lunches under the stated single-product assumptions. At 180 lunches, total contribution is $900, leaving a $100 modeled shortfall before omitted costs. Do not call the $5 contribution “net profit” or divide by sales price alone. If the question asks for whole units and the quotient is fractional, use the smallest integer that covers fixed costs. Real services can have multiple products, price changes and capacity constraints."
+        },
+        {
+          "heading": "Separate association from proof",
+          "text": "Suppose a program’s reported meal planning rises after an education class. The change can motivate further investigation, but other events or participant differences may contribute. The strength of a causal conclusion depends on the evaluation design, comparison and evidence. Consider who did not respond and whether the measure is the same at both times. A higher count of distributed leaflets cannot substitute for a measure of the stated participant outcome. When an answer claims that one intervention “proved” a result with only a before-and-after observation, inspect the assumptions and limitations."
+        },
+        {
+          "heading": "A method for the closest distractor",
+          "text": "After selecting an answer, name the attractive distractor and the fact that makes it less suitable. Example: if the objective is to determine whether a learner can measure a portion, counting attendance is tempting because it is easy to collect, but it measures reach rather than performance of the skill. Ask the learner to demonstrate with a measuring cup and observe the steps. Now change the objective to whether the person used the method at home: a later follow-up question becomes relevant, although it remains self-report. This contrast practices transfer instead of memorizing a fixed answer."
+        },
+        {
+          "heading": "Track uncertainty and progress fairly",
+          "text": "A short study log can hold the topic, item source, decision rule, reason for an error or guess, a new variation and date of the next review. Keep facts separate from interpretations: “I missed two calculations because I divided by the sales price” is an observation about specific items; “I cannot do finance” is an unsupported global label. If a source is ambiguous, retain the question for review rather than changing a key by intuition. A later correct answer on a new item is useful feedback, but a small sample remains limited. Explain the concepts in English using ordinary professional terms."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A service wants to know whether a label-reading lesson improved participants’ ability to calculate sodium for their usual portion. It printed 100 handouts, taught 20 people and later observed 12 people solve a new label example correctly. What does each number show, and what additional information matters?",
+        "reasoning": "Handouts printed and people taught are direct implementation or reach measures. The 12 correct demonstrations measure the stated skill only for those assessed, using the specific new example. The denominator and missing observations must be stated: if all 20 were assessed, 12/20 = 60%; if only 12 were assessed and all 12 were correct, the observed assessed-group result is 12/12, not 12/20. Neither figure alone proves later behavior, clinical impact or causation. Ask which participants were assessed, how the task was scored and what follow-up decision the team needs."
+      },
+      "questions": [
+        {
+          "id": "W5D30Q01",
+          "stem": "A program prints 100 handouts and wants to know whether participants can calculate a label amount. Which measure most directly matches that objective?",
+          "options": [
+            "Count only the printed handouts",
+            "Ask learners to calculate an amount from a new sample label",
+            "Count the program’s email addresses",
+            "Assume attendance proves the calculation skill"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Handouts printed is an output, not a direct skill measure.",
+            "Correct: a new calculation demonstrates the stated skill under the conditions of the assessment.",
+            "The number of email addresses does not measure calculation ability.",
+            "Attendance and skill performance are different measures."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+            "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html"
+          ]
+        },
+        {
+          "id": "W5D30Q02",
+          "stem": "A lunch sells for $12; its variable cost is $7. Monthly fixed costs are $1,000. Under a single-product model, what number of lunches gives exact break-even?",
+          "options": [
+            "100",
+            "143",
+            "200",
+            "1,000"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "100 lunches yield $500 contribution, below fixed costs.",
+            "143 lunches yield $715 contribution.",
+            "Correct: contribution is $5; $1,000 ÷ $5 = 200.",
+            "This incorrectly uses the fixed-cost amount as the unit count."
+          ],
+          "sources": [
+            "https://www.sba.gov/counseling/plan-your-business/",
+            "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point"
+          ]
+        },
+        {
+          "id": "W5D30Q03",
+          "stem": "After an educator explains a label, which statement is teach-back?",
+          "options": [
+            "Did you understand?",
+            "I want to check my explanation. How would you use the serving size for your usual amount?",
+            "Repeat my words exactly to pass the test.",
+            "You will use this correctly every time, right?"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "A yes/no response may not show what was understood.",
+            "Correct: the learner explains the action in their own words, and the educator checks clarity.",
+            "Teach-back is not a punitive verbatim test.",
+            "A leading prediction does not demonstrate current understanding."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+          ]
+        },
+        {
+          "id": "W5D30Q04",
+          "stem": "Twenty people attend a class, and all 20 are assessed with a new task; 12 answer it correctly. What proportion of this assessed group answered correctly?",
+          "options": [
+            "12%",
+            "40%",
+            "60%",
+            "80%"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "12 is the count, not the percentage.",
+            "40% would be 8 out of 20.",
+            "Correct: 12 ÷ 20 × 100 = 60%.",
+            "80% would be 16 out of 20."
+          ],
+          "sources": [
+            "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html"
+          ]
+        },
+        {
+          "id": "W5D30Q05",
+          "stem": "A learner can justify two options equally well because a stem omits a key condition. What is the best response during review?",
+          "options": [
+            "Invent the missing condition to force a preferred answer",
+            "Mark the issue as ambiguous and check the source or clarify the stem",
+            "Assume both options are always correct in every context",
+            "Ignore the discrepancy because the answer key exists"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "Adding unsupported facts can hide the problem.",
+            "Correct: a missing condition should be adjudicated rather than guessed.",
+            "The ambiguity does not establish a universal rule.",
+            "A key alone does not resolve an under-specified question."
+          ],
+          "sources": [
+            "https://ies.ed.gov/ncee/wwc/practiceguide/1"
+          ]
+        },
+        {
+          "id": "W5D30Q06",
+          "stem": "A program records higher self-reported meal planning after a class, without a comparison group. Which conclusion is supported?",
+          "options": [
+            "The class alone definitively caused the change",
+            "A change was observed, but alternative explanations and the evaluation design matter",
+            "The program has no need to review missing responses",
+            "Attendance is exactly the same as the later behavior"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "An uncontrolled observation does not establish this causal claim.",
+            "Correct: describe the observation and consider limitations before inferring causation.",
+            "Missing responses may affect interpretation.",
+            "Reach and later behavior are different measures."
+          ],
+          "sources": [
+            "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html"
+          ]
+        }
+      ],
+      "review": [
+        "Return to Day 23: write one knowledge objective and one observed-skill measure.",
+        "Return to Day 24: recalculate the lunch example if fixed costs are $1,001; 201 whole lunches are needed to avoid a modeled loss.",
+        "Return to Day 29: identify whether one missed example reflects content, interpretation, arithmetic, time or uncertainty; multiple causes are possible."
+      ],
+      "sources": [
+        "https://ies.ed.gov/ncee/wwc/practiceguide/1",
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+        "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html",
+        "https://www.sba.gov/counseling/plan-your-business/",
+        "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point"
+      ]
+    },
+    {
+      "day": 31,
+      "title": "Mixed Practice and Transfer: Change One Fact",
+      "minutes": 90,
+      "objectives": [
+        "Apply a decision rule to a new case with a relevant condition changed.",
+        "Move among clinical, education, management and foodservice questions without losing units or context.",
+        "Record the reason for an answer and the limits of evidence, then plan a spaced retest."
+      ],
+      "theory": [
+        {
+          "heading": "A 90-minute study session",
+          "text": "Spend 20 minutes reviewing the examples on this page, 15 minutes on the worked case, 25 minutes answering mixed questions, 20 minutes explaining why each option fits or does not fit, and 10 minutes on spaced review. All examples are hypothetical. This exercise does not use or infer personal results; apply it to your own records only if those are available and reliable. Source links are optional for further verification."
+        },
+        {
+          "heading": "Transfer is more than recognition",
+          "text": "A rule is useful when you can identify when it applies, use it with changed values and explain when it would not apply. First recall the rule without looking; next read the new case and mark the requested output, relevant units and limiting words. Change one fact at a time and predict whether the decision changes. Then inspect the correct explanation, identify the strongest distractor and describe what additional fact would make it more appropriate. Do not equate familiar wording or a remembered answer letter with flexible reasoning. The IES practice guide supports spaced learning and tests as learning tools; neither implies guaranteed examination performance."
+        },
+        {
+          "heading": "Clinical calculation: planned and delivered",
+          "text": "An order specifies 1,200 mL of formula at 1.5 kcal/mL, delivered over 15 hours. Planned rate is 1,200 ÷ 15 = 80 mL/hour, and planned energy is 1,200 × 1.5 = 1,800 kcal. If a documented interruption means the formula runs only 12 hours at that rate, actual volume is 80 × 12 = 960 mL and actual energy is 960 × 1.5 = 1,440 kcal. Actual delivery is therefore 1,440 ÷ 1,800 × 100 = 80% of the stated order. Check the clinical record, tolerance and care plan; a correct arithmetic answer does not authorize an unsupervised rate change."
+        },
+        {
+          "heading": "Clinical context: a fact that changes the decision",
+          "text": "An adult with confirmed celiac disease asks about gluten-free bread prepared in a shared toaster used for wheat bread. The shared equipment is a plausible cross-contact risk, so identify a practical separation method and review the preparation process. Now change one fact: the person uses a dedicated clean toaster and separate utensils, but a seasoning ingredient is uncertain. Check the ingredient and other preparation steps rather than assuming the toaster remains the source. A symptom alone does not prove which exposure caused it. Nutrition decisions must account for the person’s preferences, adequacy and clinical context."
+        },
+        {
+          "heading": "Management: when the denominator matters",
+          "text": "A meal service has $2,500 in food costs and $10,000 in food sales in the same period. Food cost percentage is $2,500 ÷ $10,000 × 100 = 25%; this is not a net profit percentage. Change food sales to $12,500 while food costs remain $2,500: the food cost percentage becomes 20%. Explain what stayed constant and what changed. Next consider a single-product break-even example: a price of $11 and variable cost of $6 leave $5 contribution per unit. With fixed costs of $500, the modeled break-even point is 100 units. These arithmetic models rely on their stated conditions and do not prove future demand."
+        },
+        {
+          "heading": "Foodservice safety: read the entire standard",
+          "text": "The FDA 2026 Food Code is a model adopted or adapted by jurisdictions. For cooked time/temperature control for safety food, the cited cooling provision sets a maximum of two hours to cool from 135°F to 70°F and a maximum of six hours total to reach 41°F from 135°F. Finishing faster can meet these maximums; it is not wrong merely because it is faster. A case must specify the relevant starting point, intermediate temperature, elapsed times and applicable local rule. Do not infer that reheating always reverses the risk from an unsafe cooling history. When a question is based on another edition, identify the edition rather than combining values without checking."
+        },
+        {
+          "heading": "Communication and evaluation across contexts",
+          "text": "Teach-back asks a learner to explain a plan in their own words so the educator can check the clarity of the explanation. Suppose an educator asks a patient to describe how they will compare serving sizes on two labels. A correct explanation shows understanding at that moment, not certain future behavior. Separately, in a community program, the number of sessions held is an output, while a specified change in participant behavior is an outcome. Match the measure to the objective. Across both cases, an easily counted activity does not automatically prove the desired change."
+        },
+        {
+          "heading": "Practice the switch deliberately",
+          "text": "Write four column headings: clinical, education, management and foodservice. Under each, write one decision and one relevant datum. For clinical nutrition, distinguish the prescribed amount from what was delivered; for education, distinguish demonstration from later use; for management, specify both numerator and denominator; for food safety, identify the time, temperature and edition. Solve one short case in each column. Then switch their order and repeat without looking. If a mistake occurs, record whether it arose from a concept, reading condition, unit, arithmetic or uncertainty; this classification is a tool for your own review, not a conclusion about your overall ability."
+        },
+        {
+          "heading": "Plan a new variation and a later revisit",
+          "text": "Choose one example that took effort and alter one meaningful feature while keeping the other assumptions fixed. For example, change the formula run time from 12 to 10 hours: at 80 mL/hour and 1.5 kcal/mL, delivered energy is 80 × 10 × 1.5 = 1,200 kcal. Check the result by first calculating volume, 800 mL, then multiplying by 1.5. Write the rule, the changed fact and the result. At the next review, try to reconstruct the reasoning before consulting the solution. A new case gives feedback about application; a few examples cannot establish official readiness or a scaled examination result."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A meal service prepares cooked soup that cools from 135°F to 70°F in 90 minutes and from 135°F to 41°F in five hours total. In a separate nutrition-support case, a patient receives 800 mL of 1.5-kcal/mL formula. Under the 2026 FDA model code conditions described in this lesson, assess the cooling times and calculate delivered energy.",
+        "reasoning": "The first cooling interval is 1.5 hours, within the two-hour maximum; five hours total is within the six-hour maximum, assuming the stated measurements and applicable conditions. Faster cooling can satisfy a maximum. Separately, 800 mL × 1.5 kcal/mL = 1,200 kcal delivered. Do not use the soup times to assess the patient or the formula concentration to assess food safety. The applicable jurisdiction may adopt a different code edition; consult the local rule for real operations."
+      },
+      "questions": [
+        {
+          "id": "W5D31Q01",
+          "stem": "A patient receives 960 mL of formula providing 1.5 kcal/mL. How much energy was delivered?",
+          "options": [
+            "640 kcal",
+            "960 kcal",
+            "1,440 kcal",
+            "1,800 kcal"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Dividing volume by concentration does not calculate delivered energy.",
+            "This would be correct only for a concentration of 1 kcal/mL.",
+            "Correct: 960 × 1.5 = 1,440 kcal.",
+            "This would be the energy in 1,200 mL at the stated concentration."
+          ],
+          "sources": [
+            "https://nutritioncare.org/about/what-we-do/nutrition-support/what-is-enteral-nutrition/"
+          ]
+        },
+        {
+          "id": "W5D31Q02",
+          "stem": "Under the stated FDA 2026 model cooling limits, soup goes from 135°F to 70°F in 90 minutes and from 135°F to 41°F in five hours total. Which statement is supported?",
+          "options": [
+            "The described times meet both maximum limits, assuming the other applicable conditions are met",
+            "It fails because cooling faster than two hours is prohibited",
+            "It fails because the total time must always equal exactly six hours",
+            "Time does not matter if the soup looks safe"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: 1.5 hours is within two hours and five hours total is within six hours.",
+            "These are maximums; faster completion is not prohibited by that reasoning.",
+            "Six hours is a maximum, not a required duration.",
+            "Appearance does not replace the time-temperature requirements."
+          ],
+          "sources": [
+            "https://www.fda.gov/media/194741/download"
+          ]
+        },
+        {
+          "id": "W5D31Q03",
+          "stem": "Food cost is $2,500 and food sales are $10,000 in the same period. What is the stated food-cost percentage?",
+          "options": [
+            "20%",
+            "25%",
+            "40%",
+            "75%"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "20% would correspond to $2,000 out of $10,000.",
+            "Correct: $2,500 ÷ $10,000 × 100 = 25%.",
+            "40% would be $4,000 out of $10,000.",
+            "75% is the complement, not the requested cost percentage."
+          ],
+          "sources": [
+            "https://www.sba.gov/counseling/plan-your-business/"
+          ]
+        },
+        {
+          "id": "W5D31Q04",
+          "stem": "A person with confirmed celiac disease uses gluten-free bread in a toaster shared with wheat bread. Which issue warrants assessment?",
+          "options": [
+            "Potential gluten cross-contact from shared equipment",
+            "A guarantee that the bread contains no contamination because it is labeled gluten-free",
+            "A requirement that every grain be avoided",
+            "Proof from the toaster alone that all symptoms have the same cause"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: shared equipment can transfer gluten-containing crumbs.",
+            "The labeled food can still be exposed during preparation.",
+            "Several grains and foods are naturally gluten-free; processing matters.",
+            "One possible exposure does not by itself prove the cause of every symptom."
+          ],
+          "sources": [
+            "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition"
+          ]
+        },
+        {
+          "id": "W5D31Q05",
+          "stem": "Which action best uses teach-back after a patient receives a label explanation?",
+          "options": [
+            "Ask the patient to explain in their own words how they will use the serving size",
+            "Count handouts and assume understanding",
+            "Require a verbatim recital as a pass/fail examination",
+            "Assume later behavior is guaranteed after one explanation"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: teach-back checks whether the explanation was clear.",
+            "Handout count is not a direct check of understanding.",
+            "The method is not a punitive verbatim test.",
+            "Immediate understanding does not guarantee later behavior."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+          ]
+        },
+        {
+          "id": "W5D31Q06",
+          "stem": "A community program holds three classes and wants to measure whether participants later use a food resource. Which pair is correctly classified?",
+          "options": [
+            "Three classes held: output; later resource use: outcome",
+            "Three classes held: outcome; staff funding: outcome",
+            "Later resource use: input; funding: output",
+            "Attendance: proof that the program caused a health change"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: delivered classes are an output, and later resource use can be an outcome.",
+            "Classes held are direct outputs; funding is an input.",
+            "Later use is an outcome, while funding is an input.",
+            "Attendance alone does not establish causation or a health outcome."
+          ],
+          "sources": [
+            "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html"
+          ]
+        }
+      ],
+      "review": [
+        "Return to Day 17: calculate delivered energy for 80 mL/hour over 10 hours at 1.5 kcal/mL and verify 1,200 kcal.",
+        "Return to Day 20: explain why 2026 FDA cooling times are maximums and why local adoption must be checked.",
+        "Return to Days 29–30: select a topic for a later new variation using actual evidence or a stated coverage-based fallback."
+      ],
+      "sources": [
+        "https://ies.ed.gov/ncee/wwc/practiceguide/1",
+        "https://nutritioncare.org/about/what-we-do/nutrition-support/what-is-enteral-nutrition/",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition",
+        "https://www.sba.gov/counseling/plan-your-business/",
+        "https://www.fda.gov/media/194741/download",
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+        "https://www.cdc.gov/tb-programs/php/evaluation/logic-model.html",
+        "https://legacy.sba.gov/business-guide/plan-your-business/calculate-your-startup-costs/break-even-point"
+      ]
+    },
+    {
+      "day": 32,
+      "title": "Timed Practice A",
+      "minutes": 90,
+      "objectives": [
+        "Practice a consistent decision process under a personally managed time limit.",
+        "Apply mixed-domain content to unfamiliar cases while documenting uncertainty.",
+        "Review explanations after practice without interpreting a small set as an official score."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 90-minute sequence",
+          "text": "Use 50 minutes for timed mixed practice and 40 minutes for review. During the first 25 minutes, work the original case below, its written variation and this day's five case questions; record your answer and a brief reason. Use the next 25 minutes for eligible mixed-domain questions already available under the app's domain practice. Set your own timer: this lesson does not start one automatically. Then spend 40 minutes reviewing the questions and explanations, particularly errors, guesses and slow decisions. Adjust the number of additional questions to the time available; do not rush the review or invent a score if you cannot complete a set."
+        },
+        {
+          "heading": "What the app displays",
+          "text": "The practice questions on this lesson show correctness and explanations immediately after an answer is selected. If practicing timed decision-making, avoid studying the detailed rationale until the review period where practical; the visible correctness cue can still influence later answers. Record uncertainty before selecting, because the app does not provide a separate confidence setting on this page. Answers are stored on this device and cannot be changed within the lesson after selection; preserve them and use a new written variation for a retry. This is an exercise in pacing and reasoning, not a concealed or calibrated exam."
+        },
+        {
+          "heading": "Choose a balanced, transparent practice set",
+          "text": "The 2022–2026 CDR outline assigns 21% to principles, 45% to nutrition care, 21% to management and 13% to foodservice systems. Use these proportions as a broad study guide where appropriate, not as a demand that a small practice set exactly match every percentage. For an exam from 2027 onward, check the applicable current CDR outline instead of assuming the old distribution applies. Flagged questions are excluded by the app from new sessions pending review; do not manually reintroduce them. Record which areas you actually practiced so an unrepresented topic is not mistaken for strong performance."
+        },
+        {
+          "heading": "A repeatable decision process",
+          "text": "For each case, identify what action is being requested and the setting: assessment, intervention, monitoring, management or safety. Underline the unit, time period and qualifier that determine the answer. Separate what is observed from what is inferred. If an answer requires a fact not given, compare whether another option responds safely to the facts available. Use an estimate to detect a tenfold error before calculating. When two alternatives are plausible, name the fact that makes one more responsive to the question instead of eliminating one merely because it is longer. Record a brief reason when uncertain, then continue within your planned time."
+        },
+        {
+          "heading": "Pacing is a skill, not a diagnosis",
+          "text": "At the start, decide how you will notice time without checking the clock after every sentence. If a case stalls, identify the needed information, make the best supported choice within the practice rules and note uncertainty. Do not infer a personal weakness from one slow or incorrect response: wording, units, unfamiliar context and fatigue can each contribute. The app's fixed practice blocks are not the official computer-adaptive exam. The CDR handbook explains the actual exam's variable question count and scoring; this 90-minute exercise is neither the official format nor a prediction of a passing result. No exam date is assumed."
+        },
+        {
+          "heading": "How to use the 40-minute review",
+          "text": "Review all uncertain or incorrect answers first, then sample correct answers that took a long time. For each, note the decisive clue, your original reasoning, what the explanation and source support, and one changed-fact variation. Classify the likely issue as content, units, reading a qualifier or time management; treat that label as a hypothesis. If a source and answer key appear inconsistent, preserve the issue for review instead of forcing it into right or wrong. Distinguish a fact you can now explain from a result you only recognize. Choose a limited number of follow-up topics for Day 33 rather than opening a large new bank."
+        },
+        {
+          "heading": "Worked timing and documentation exercise",
+          "text": "Suppose a learner spends 18 minutes on five original cases, including one uncertain response, and 27 minutes on additional mixed questions. Five minutes remain in the planned 50-minute practice block. They may record which areas were covered and the item that needs review, but should not assume that finishing early proves readiness. In the subsequent 40 minutes, they identify that a cooling question asked for total elapsed time, not time after the first measurement. They write the start and end times on a line and solve a new version. The outcome is an observable correction strategy, not an official scaled score. Write your own clock checkpoints before beginning and include breaks only within your available time."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A service needs 15 lb edible, ready-to-cook vegetables. Its product-specific AP-to-EP yield is 75%. A patient reports falling intake, has new edema, and has a low albumin level during acute inflammation. A soup is recorded at 135°F at noon, 70°F at 1:45 p.m., and 41°F at 5:30 p.m.",
+        "reasoning": "Practice under your chosen timer: write the AP requirement, a next clinical assessment step and whether both named cooling limits are met. AP = 15 ÷ 0.75 = 20 lb before stock or package adjustments. The patient needs a fuller assessment of intake, weight history and relevant findings; albumin alone does not diagnose malnutrition and edema can obscure scale-weight changes. For FDA Food Code 2026 §3-501.14, the first stage took 1 hour 45 minutes and the total 5 hours 30 minutes, so the stated limits are met given valid measurements and applicable conditions. Change the final reading to 6:10 p.m.; the six-hour total is then missed. Record which fact decided each answer and check your reasoning after the timed block."
+      },
+      "questions": [
+        {
+          "id": "W5D32Q01",
+          "stem": "A serving has 140 mg sodium per 35 g on the label. How much sodium is listed for 70 g, ignoring label rounding?",
+          "options": [
+            "70 mg",
+            "140 mg",
+            "280 mg",
+            "490 mg"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "70 mg divides the per-serving value by two instead of multiplying by two servings.",
+            "140 mg is the value for one 35 g serving.",
+            "Correct: 70 ÷ 35 = 2 servings; 140 × 2 = 280 mg.",
+            "490 mg does not follow from the specified serving size."
+          ],
+          "sources": [
+            "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+          ]
+        },
+        {
+          "id": "W5D32Q02",
+          "stem": "A patient has a positive nutrition-risk screen and edema. Which next action best supports an individualized plan?",
+          "options": [
+            "Complete an assessment including intake, weight history and relevant clinical findings",
+            "Diagnose severity from the screen alone",
+            "Assume stable scale weight excludes tissue loss",
+            "Prescribe from albumin alone"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: screening signals risk and further assessment considers multiple findings.",
+            "A screening result alone does not establish a severity diagnosis.",
+            "Fluid accumulation can obscure scale-weight changes.",
+            "Albumin alone is not an accepted stand-alone diagnostic measure of malnutrition."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        },
+        {
+          "id": "W5D32Q03",
+          "stem": "A foodservice operation needs 18 lb EP of a product with a verified yield of 90%. What AP quantity is needed before stock adjustment?",
+          "options": [
+            "16.2 lb",
+            "18.9 lb",
+            "20 lb",
+            "27 lb"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Multiplying EP by yield reverses the calculation.",
+            "Adding 0.9 lb to the EP amount mixes a fraction and a weight.",
+            "Correct: 18 ÷ 0.90 = 20 lb AP.",
+            "The supplied yield does not yield 27 lb AP."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        },
+        {
+          "id": "W5D32Q04",
+          "stem": "Under FDA Food Code 2026 §3-501.14, soup cools from 135°F to 70°F in 1.5 hours and reaches 41°F after 5 hours total. What do the recorded times show?",
+          "options": [
+            "Both specified cooling limits are met",
+            "The first-stage limit was missed",
+            "The six-hour total was missed",
+            "Odor replaces the temperature record"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: 1.5 hours is within two hours and 5 hours total is within six.",
+            "The first stage is not longer than two hours.",
+            "The recorded total is less than six hours.",
+            "Odor does not replace time-temperature monitoring."
+          ],
+          "sources": [
+            "https://www.fda.gov/media/194741/download"
+          ]
+        },
+        {
+          "id": "W5D32Q05",
+          "stem": "After an explanation, which request best uses teach-back?",
+          "options": [
+            "Ask the person to explain the agreed plan in their own words",
+            "Ask only whether they understand and accept yes as proof",
+            "Repeat the instructions faster",
+            "Test whether they can use the same technical terms"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: an explanation in the person's own words helps check the clarity of communication.",
+            "A yes response alone does not demonstrate what was understood.",
+            "Speaking faster does not verify understanding.",
+            "Using technical language verbatim is not the goal of teach-back."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+          ]
+        }
+      ],
+      "review": [
+        "Review incorrect, guessed and slow items from the timed block, including any additional app practice; write one reason and one changed-fact variation for each priority.",
+        "Record which of the four domains appeared and which did not; do not infer readiness from missing coverage.",
+        "For the worked soup case, compute the elapsed time again using a number line and distinguish first-stage from total time."
+      ],
+      "sources": [
+        "https://admin.cdrnet.org/vault/2459/web/1459973360990/Study%20Outline%202022-2026%20RD%20Final%20EP%20Approved%209%2026%202020.pdf",
+        "https://www.cdrnet.org/rd-handbook",
+        "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf",
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB",
+        "https://www.fda.gov/media/194741/download",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+        "https://learningcenter.unc.edu/tips-and-tools/strategic-test-prep/",
+        "https://learningcenter.unc.edu/tips-and-tools/metacognitive-study-strategies/"
+      ]
+    },
+    {
+      "day": 33,
+      "title": "Review Timed Practice A",
+      "minutes": 90,
+      "objectives": [
+        "Reconstruct the reasoning behind errors, guesses and slow decisions from Day 32.",
+        "Distinguish a knowledge gap from a unit error, missed qualifier or unsupported assumption.",
+        "Use source-backed variants to test whether a correction transfers to a new scenario."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 90-minute sequence",
+          "text": "Spend 10 minutes gathering yesterday's notes and revisiting Day 32 answers on the same device; 25 minutes reconstructing three decisions; 20 minutes working the examples and a changed-fact case; 20 minutes answering and reviewing today's questions; and 15 minutes choosing a small number of follow-up actions. If you used the app on another device, import the relevant backup first. The counts and categories below are examples, not a claim about your history."
+        },
+        {
+          "heading": "Reconstruct before reading the explanation",
+          "text": "Choose an item you missed, guessed or answered slowly. Restate the question in one sentence: What decision did it request? Then write what you believed before looking at the rationale. Identify the given population, time period, unit, source edition and any qualifying phrase. Compare your initial answer with the correct option only after you can state the problem. A correct answer obtained by recall of its position still merits review. Conversely, a slow answer may reflect a difficult calculation rather than a permanent weakness. Record the actual evidence; do not assign personal deficits without repeated information."
+        },
+        {
+          "heading": "Use a compact error analysis",
+          "text": "A useful review record has five fields: case or question identifier; the decisive clue; your original line of reasoning; the correction with a trustworthy source where needed; and a follow-up variation. For example, a learner reports that a cooling question was wrong because they subtracted the second-stage duration from the wrong start time. The correction is to mark the time when food reached 135°F, the time it reached 70°F, and the time it reached 41°F. The first interval must meet its limit and the entire interval must meet the total. A new case with different clock times checks the method more effectively than memorizing the original letter."
+        },
+        {
+          "heading": "Do not let a source citation replace understanding",
+          "text": "A source is useful when it supports the specific claim, population and edition used in the question. The FDA 2026 Food Code is a model; local jurisdictions may adopt different versions or amendments. A USDA yield example applies to the stated product and preparation. ASPEN's fact sheet explains why albumin alone is unsuitable as a malnutrition diagnostic measure; that does not mean laboratory findings are never clinically relevant. If the answer or source is unclear, mark the item for further checking. Do not invent a missing source or calculate a performance percentage that treats a contested question as certainly correct or incorrect."
+        },
+        {
+          "heading": "Distinguish four common sources of error",
+          "text": "Content: you did not know a concept and need a focused explanation. Calculation: you knew the relationship but used the wrong denominator, scale factor or rounding point. Interpretation: you missed a word such as total, minimum, before stock adjustment or during treatment. Timing: you used so much time on an early calculation that review suffered. More than one cause can occur, and language or unfamiliar wording may affect interpretation. For each item, select a tentative category and test it with a different example before deciding it is recurring. The response is an appropriate action, not a judgment of intelligence or a promise about the exam."
+        },
+        {
+          "heading": "Worked review: edible portion and package rounding",
+          "text": "An exercise requires 27 lb of a specified usable product at a 75% verified yield. A learner multiplies 27 × 0.75 and chooses 20.25 lb AP. The direction is wrong: usable quantity equals AP × yield, so required AP is 27 ÷ 0.75 = 36 lb before stock. If 6 lb AP is safely available, the shortfall is 30 lb. If suppliers sell only whole 8 lb bags, four bags provide 32 lb. Three provide only 24 lb and do not meet the shortfall. On a new example, 21 lb EP at 70% yield requires 30 lb AP; at 5 lb stock and whole 8 lb bags, four bags are again needed for the 25 lb shortfall. The identical package answer does not make the intermediate quantities the same."
+        },
+        {
+          "heading": "End with small, observable actions",
+          "text": "Prioritize no more than two topics that repeatedly affected reasoning or are not yet studied. For each, name the material to consult, a specific next task and a way to check it. Example: review the two cooling limits in the named FDA edition, write a timeline for one new case and explain the final decision. For an interpretation error, mark qualifying words before calculating; for a concept error, explain the mechanism using a different example. Do not use a single practice percentage as an official scaled score or a prediction of passing. Leave unresolved source conflicts and incomplete coverage visible in your notes."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A learner chose 20.25 lb AP for 27 lb EP at 75% yield. On a cooling item, the learner measured only the time from 70°F to 41°F and ignored the start at 135°F. On a nutrition item, the learner considered low albumin alone sufficient to diagnose malnutrition.",
+        "reasoning": "First reconstruct the missing decisions. AP is 27 ÷ 0.75 = 36 lb, not 27 × 0.75. Under the cited 2026 FDA model, compare both the 135°F-to-70°F interval and the total 135°F-to-41°F interval with their limits. For nutrition, gather intake, weight and relevant clinical and physical findings; albumin can be affected by inflammation and does not alone diagnose malnutrition. Classify the first as a conversion-direction problem, the second as a missed time origin and the third as a conceptual error, subject to checking how the learner reasoned. Variation: for 24 lb EP at 80% yield, AP is 30 lb. Write a new cooling timeline and justify each endpoint."
+      },
+      "questions": [
+        {
+          "id": "W5D33Q01",
+          "stem": "A learner multiplies the required EP by a yield fraction to estimate the AP purchase. What is the best correction when the yield is usable EP divided by AP?",
+          "options": [
+            "Divide required EP by the yield fraction",
+            "Multiply required EP by yield a second time",
+            "Add the yield percentage to pounds",
+            "Ignore the end form of the product"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: AP × yield = EP, so AP = required EP ÷ yield.",
+            "Repeating the same multiplication compounds the direction error.",
+            "A percentage fraction cannot be added directly to a weight.",
+            "The yield must match the specified product and end form."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        },
+        {
+          "id": "W5D33Q02",
+          "stem": "For a 2026 FDA model cooling case, which review method best checks both limits?",
+          "options": [
+            "Mark 135°F, 70°F and 41°F readings on one elapsed-time line",
+            "Review only time from 70°F to 41°F",
+            "Check only the refrigerator thermostat",
+            "Use odor in place of temperatures"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the two-hour first stage and six-hour total share the starting temperature.",
+            "The second interval alone does not establish both required limits.",
+            "The equipment setting does not record food temperature over time.",
+            "Odor is not a substitute for the required time-temperature analysis."
+          ],
+          "sources": [
+            "https://www.fda.gov/media/194741/download"
+          ]
+        },
+        {
+          "id": "W5D33Q03",
+          "stem": "A source linked to a question does not support its answer key. How should the learner record the item?",
+          "options": [
+            "Flag it as unresolved and verify the source before scoring it as certain",
+            "Invent a justification for the key",
+            "Assume the citation makes every statement correct",
+            "Treat the disagreement as proof of personal weakness"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: source conflicts require checking before assigning a definite score.",
+            "A fabricated rationale does not resolve the conflict.",
+            "A link is not proof unless it supports the specific claim.",
+            "A questionable key is not evidence of a learner's persistent difficulty."
+          ],
+          "sources": [
+            "https://learningcenter.unc.edu/tips-and-tools/metacognitive-study-strategies/"
+          ]
+        },
+        {
+          "id": "W5D33Q04",
+          "stem": "A learner solved a question correctly by remembering the letter from last time. Which follow-up best tests transfer?",
+          "options": [
+            "Change the values and explain the reasoning",
+            "Repeat the same answer order only",
+            "Assume the full domain is mastered",
+            "Avoid reading any source"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: a changed-fact case requires applying the method rather than recognizing a letter.",
+            "The same order primarily reinforces recognition.",
+            "One remembered answer is insufficient to establish full domain mastery.",
+            "A relevant source can support or correct the reasoning."
+          ],
+          "sources": [
+            "https://learningcenter.unc.edu/tips-and-tools/strategic-test-prep/"
+          ]
+        },
+        {
+          "id": "W5D33Q05",
+          "stem": "An acute-illness case reports low albumin, but no intake or weight history. What is the best correction to the claim that albumin alone establishes malnutrition?",
+          "options": [
+            "Collect and interpret multiple relevant assessment findings",
+            "Treat albumin as a stand-alone diagnosis",
+            "Assume a normal nutrition history",
+            "Wait for the illness to resolve before any assessment"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: intake, weight and other relevant clinical findings support assessment.",
+            "Albumin is affected by inflammation and is not alone an accepted diagnostic measure.",
+            "Missing history is not evidence of normal intake.",
+            "A needed assessment should not automatically be postponed."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf"
+          ]
+        }
+      ],
+      "review": [
+        "Retrieve one Day 19 yield formula and check it using inverse multiplication.",
+        "Revisit one Day 20 cooling case using changed clock times; identify the first-stage and total intervals separately.",
+        "Write two follow-up actions based on actual reviewed items, without claiming weakness from a single observation."
+      ],
+      "sources": [
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB",
+        "https://www.fda.gov/media/194741/download",
+        "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf",
+        "https://admin.cdrnet.org/vault/2459/web/1459973360990/Study%20Outline%202022-2026%20RD%20Final%20EP%20Approved%209%2026%202020.pdf",
+        "https://learningcenter.unc.edu/tips-and-tools/strategic-test-prep/",
+        "https://learningcenter.unc.edu/tips-and-tools/metacognitive-study-strategies/"
+      ]
+    },
+    {
+      "day": 34,
+      "title": "Apply What You Reviewed",
+      "minutes": 90,
+      "objectives": [
+        "Apply reviewed rules to unfamiliar numbers and conditions across multiple domains.",
+        "Justify why the best option answers the specific question and why the nearest distractor fails.",
+        "Monitor repeated reasoning patterns without equating practice results with an official score."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 90-minute sequence",
+          "text": "Spend 10 minutes retrieving the two priorities identified on Day 33; 25 minutes studying and explaining the examples below; 20 minutes solving the worked case and variations; 20 minutes answering and reviewing the original questions; and 15 minutes documenting the transfer check and a future review. These are authored practice cases, not official CDR items. Work the cases first; read explanations after recording your own reasoning."
+        },
+        {
+          "heading": "Change the surface, keep the principle",
+          "text": "Transfer means using an established principle in a case that does not look identical to the one previously studied. A yield problem may ask how many pounds to buy, how much can be served from stock, or whether a stated order meets demand. Start with AP × yield = EP, then rearrange only as needed. For 28 lb AP at an 80% yield, usable EP is 22.4 lb; if instead 28 lb EP is required, AP is 35 lb. The same numbers have different meanings depending on which quantity is supplied. Confirm that the specified yield refers to the same product and preparation."
+        },
+        {
+          "heading": "Vary one fact at a time",
+          "text": "Begin with a baseline case you can solve. Change one relevant value, timing detail or condition, then predict whether the answer should increase, decrease or require a different action. For example, if required EP stays fixed and yield falls from 80% to 75%, the AP needed increases. Check the prediction by dividing; do not rely solely on intuition. If a clinical vignette changes from no known edema to new edema, do not calculate an exact amount of tissue loss, but recognize that scale weight may now be more difficult to interpret. Describe the uncertainty and the additional data required."
+        },
+        {
+          "heading": "Clinical follow-up must match the problem",
+          "text": "Imagine two patients report reduced intake. One describes difficulty obtaining food; the other describes nausea in hospital. A handout about a costly meal plan does not directly remove the first person's access barrier, and a purchasing referral alone does not treat the second person's symptom. Gather the person's goals and resources, coordinate relevant care, and choose an intervention linked to the assessed cause. Set a follow-up indicator that reflects the aim, such as intake and tolerance when those are the intervention targets. Albumin during acute inflammation is not a stand-alone malnutrition diagnosis or a sole measure of the intervention's effect."
+        },
+        {
+          "heading": "Teach-back and evidence",
+          "text": "Teach-back checks whether information was communicated clearly by asking a person to explain or demonstrate what they will do in their own words. It is not a test of intelligence, and a person who cannot restate the plan has not proven noncompliance. The practitioner can explain in a different way and check again. Distinguish this communication process from a causal inference: an observation that intake improved after education does not alone rule out other changes. For a practical study check, write a plain-language question and identify which response would show that the step was understood."
+        },
+        {
+          "heading": "Food safety with changed timelines",
+          "text": "Using the named FDA 2026 model, cooked TCS food must cool from 135°F to 70°F within two hours and from 135°F to 41°F or lower within six hours total. At 135°F at 9:00 a.m., 70°F at 10:50 a.m. and 41°F at 2:45 p.m., the intervals are 1 hour 50 minutes and 5 hours 45 minutes, respectively. Both specified limits are met if readings are reliable and other applicable conditions are satisfied. Change the final time to 3:10 p.m.: the total becomes 6 hours 10 minutes and the second limit is missed. Follow the site's corrective-action plan and applicable local requirements; do not infer a specific pathogen or rely on appearance."
+        },
+        {
+          "heading": "Review both successful and unsuccessful transfer",
+          "text": "After each question, state the decisive fact, the principle and the calculation or action. For a correct response, explain why the most attractive wrong option fails; a remembered number without a reason may not transfer. For a wrong response, create a new variation and solve it independently. Keep a small note of repeated patterns, but avoid equating a few authored cases with a calibrated score. If a source conflicts with an answer or the setting is not specified, identify the uncertainty and verify it rather than inventing a universal rule. Record which domains were not represented in today's set."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A service needs 22.5 lb of ready-to-use vegetables. The documented AP-to-EP yield is 75%, 6 lb AP stock is uncommitted, and the product is ordered in whole 8 lb bags. A client whose intake is low reports transportation barriers to food shopping. A separate cooling log starts at 135°F at 9:00 a.m., reaches 70°F at 10:50 a.m. and 41°F at 2:45 p.m.",
+        "reasoning": "AP requirement = 22.5 ÷ 0.75 = 30 lb; subtract 6 lb stock to obtain 24 lb, so three 8 lb bags are required. Explore feasible food-access options and a measurable intake goal with the client; a generic expensive recipe handout alone does not address the identified barrier. Cooling intervals are 1 hour 50 minutes and 5 hours 45 minutes total, within the two stated FDA 2026 model limits. Change yield to 50%: 22.5 ÷ 0.50 = 45 lb AP; after 6 lb stock the 39 lb shortfall requires five whole 8 lb bags. Explain why the order increased."
+      },
+      "questions": [
+        {
+          "id": "W5D34Q01",
+          "stem": "A menu requires 24 lb EP. The yield to the specified form is 80%, and 6 lb AP stock is usable. How much additional AP is needed before package rounding?",
+          "options": [
+            "19.2 lb",
+            "24 lb",
+            "30 lb",
+            "36 lb"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "19.2 lb multiplies EP by the yield rather than finding AP.",
+            "Correct: 24 ÷ 0.80 = 30 lb total AP; 30 − 6 = 24 lb to order.",
+            "30 lb is the total AP requirement before subtracting stock.",
+            "36 lb adds stock instead of subtracting it."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        },
+        {
+          "id": "W5D34Q02",
+          "stem": "A patient reports low intake because transportation to a grocery store is unavailable. Which response is most directly matched to the identified barrier?",
+          "options": [
+            "Explore feasible food-access resources and follow up on intake",
+            "Only repeat an expensive recipe handout",
+            "Assume the patient is not motivated",
+            "Diagnose a condition without further assessment"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: it addresses the stated access barrier and includes monitoring.",
+            "A costly handout does not itself provide transportation or access.",
+            "The scenario does not establish motivation.",
+            "A diagnosis requires appropriate assessment rather than an assumption."
+          ],
+          "sources": [
+            "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf",
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+            "https://www.ncpro.org/nutrition-care-process"
+          ]
+        },
+        {
+          "id": "W5D34Q03",
+          "stem": "A patient cannot explain a new meal plan after the first instruction. Which teach-back response is most appropriate?",
+          "options": [
+            "Explain the plan another way and ask the patient to describe it again",
+            "Label the patient noncompliant",
+            "Repeat the technical words more quickly",
+            "Assume the original explanation was fully understood"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: teach-back checks the clarity of communication and supports re-explanation.",
+            "Difficulty restating a plan is not proof of noncompliance.",
+            "Speaking more quickly does not check or improve understanding by itself.",
+            "The response indicates the explanation needs reassessment."
+          ],
+          "sources": [
+            "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html"
+          ]
+        },
+        {
+          "id": "W5D34Q04",
+          "stem": "Under the FDA 2026 model, a batch starts at 135°F at 9:00 a.m., reaches 70°F at 10:50 a.m. and 41°F at 3:10 p.m. What is the result?",
+          "options": [
+            "Both limits are met",
+            "The six-hour total is exceeded",
+            "The first-stage two-hour limit is exceeded",
+            "The readings prove the batch contains a specific pathogen"
+          ],
+          "answer": 1,
+          "option_rationales": [
+            "The total is 6 hours 10 minutes and exceeds six hours.",
+            "Correct: the final reading was ten minutes beyond the six-hour total.",
+            "The first interval is 1 hour 50 minutes, within two hours.",
+            "The timeline alone does not identify a specific organism."
+          ],
+          "sources": [
+            "https://www.fda.gov/media/194741/download"
+          ]
+        },
+        {
+          "id": "W5D34Q05",
+          "stem": "When a source-backed practice item has an unclear answer because a required condition is missing, what best supports a reliable review?",
+          "options": [
+            "Record the uncertainty and check the required condition before scoring",
+            "Guess a universal assumption and count it as certain",
+            "Memorize the answer's letter",
+            "Treat a missing condition as proof of a personal deficit"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the omitted condition and supporting source need verification.",
+            "An unstated universal assumption may change the answer.",
+            "The letter does not resolve the underlying ambiguity.",
+            "An unclear question is not by itself evidence of a recurring weakness."
+          ],
+          "sources": [
+            "https://learningcenter.unc.edu/tips-and-tools/metacognitive-study-strategies/"
+          ]
+        }
+      ],
+      "review": [
+        "Revisit one Day 27 integrated case and change exactly one decision-relevant fact.",
+        "Explain to yourself why lower yield can increase the amount purchased for the same EP requirement.",
+        "Review one guessed or slow answer from the actual Day 32 session; write what evidence would show improvement in a new case."
+      ],
+      "sources": [
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB",
+        "https://nutritioncare.org/wp-content/uploads/2024/12/Appropriate-Use-Visceral-Proteins-Nutrition-Screening-Assessment.pdf",
+        "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+        "https://www.fda.gov/media/194741/download",
+        "https://admin.cdrnet.org/vault/2459/web/1459973360990/Study%20Outline%202022-2026%20RD%20Final%20EP%20Approved%209%2026%202020.pdf",
+        "https://learningcenter.unc.edu/tips-and-tools/strategic-test-prep/",
+        "https://learningcenter.unc.edu/tips-and-tools/metacognitive-study-strategies/"
+      ]
+    },
+    {
+      "day": 35,
+      "title": "Light Review and Pacing",
+      "minutes": 45,
+      "objectives": [
+        "Review pacing and reasoning using actual notes without treating a short session as a diagnostic test.",
+        "Apply a small number of changed-value cases and identify unfinished coverage.",
+        "Select manageable follow-up actions while accounting for fatigue and time."
+      ],
+      "theory": [
+        {
+          "heading": "Suggested 45-minute sequence",
+          "text": "Spend 8 minutes noting what was studied and how the recent sessions felt; 12 minutes working the case and one numerical variation; 15 minutes answering and reviewing the four questions; and 10 minutes choosing a manageable next action. If no timed session was completed, mark it as pending rather than inventing a result. This is a light review, not a new full-length test."
+        },
+        {
+          "heading": "Observe process rather than predict a score",
+          "text": "Look at actual notes from Days 32–34, if available. Identify one decision that was slow, one explanation you can now state without a prompt, and one concept that still needs a source check. Consider whether difficulty arose from an unfamiliar topic, an omitted unit, a misread qualifier or limited time; these are hypotheses to test in new cases. A few questions and one 50-minute block do not measure endurance across an official exam. The CDR handbook, not the practice percentage displayed in an app, is the source for official exam administration details."
+        },
+        {
+          "heading": "Choose a sustainable response",
+          "text": "If fatigue or schedule constraints interfere, adjust the next session rather than doubling the number of questions to compensate. Note one recovery or organization step and one focused study task. Return to the named sources for disputed claims. Keep categories such as not yet studied, studied with support and applied correctly to a new variation distinct. Evidence from several varied, reviewed items is more informative than answer recognition in one repeated question. The decision about exam readiness remains individual and cannot be guaranteed from this review."
+        }
+      ],
+      "worked_case": {
+        "scenario": "A learner completed 42 minutes of mixed practice and reviewed only two of several uncertain answers before time ran out. Another day they correctly calculate 16 lb EP at 80% yield as 20 lb AP, but cannot explain the direction of the conversion.",
+        "reasoning": "Record the unfinished review as pending and schedule time to complete it; do not label the learner unready based on one incomplete session. For the yield calculation, explain EP = AP × 0.80, so AP = EP ÷ 0.80, then reverse-check 20 × 0.80 = 16 lb. Try a variation: 26.4 lb EP at 80% yield requires 33 lb AP. A repeat correct answer should be accompanied by a defensible explanation. The two examples are illustrative and do not represent the user's history."
+      },
+      "questions": [
+        {
+          "id": "W5D35Q01",
+          "stem": "A learner did not complete review of several uncertain practice answers. What is the most useful next step?",
+          "options": [
+            "Record the unfinished review and schedule time to complete it",
+            "Infer an official passing score from the number answered",
+            "Delete the unanswered history",
+            "Treat the unreviewed guesses as confirmed knowledge"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: the unfinished work remains visible and can be completed deliberately.",
+            "A short practice set does not produce an official scaled score.",
+            "Deleting history is not necessary to plan the next study action.",
+            "A guess requires reasoning review before it can support a knowledge claim."
+          ],
+          "sources": [
+            "https://learningcenter.unc.edu/tips-and-tools/strategic-test-prep/"
+          ]
+        },
+        {
+          "id": "W5D35Q02",
+          "stem": "A product yields 80% usable EP. How much AP provides 26.4 lb EP before stock adjustments?",
+          "options": [
+            "21.12 lb",
+            "27.2 lb",
+            "33 lb",
+            "40 lb"
+          ],
+          "answer": 2,
+          "option_rationales": [
+            "Multiplying by yield reverses the required calculation.",
+            "Adding 0.8 to the weight is not the yield relationship.",
+            "Correct: 26.4 ÷ 0.80 = 33 lb AP.",
+            "The stated numbers do not imply 40 lb."
+          ],
+          "sources": [
+            "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB"
+          ]
+        },
+        {
+          "id": "W5D35Q03",
+          "stem": "What can one short timed practice block establish?",
+          "options": [
+            "Some observations about decisions in that block, with substantial limits",
+            "A guaranteed passing result",
+            "Complete three-hour endurance",
+            "Mastery of all untested domains"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: a single short block is limited evidence about the observed tasks.",
+            "No such guarantee follows from a practice block.",
+            "A short block does not measure sustained performance across a longer session.",
+            "Untested domains cannot be established as mastered."
+          ],
+          "sources": [
+            "https://www.cdrnet.org/rd-handbook",
+            "https://admin.cdrnet.org/vault/2459/web/1459973360990/Study%20Outline%202022-2026%20RD%20Final%20EP%20Approved%209%2026%202020.pdf"
+          ]
+        },
+        {
+          "id": "W5D35Q04",
+          "stem": "A learner repeatedly misses the word 'total' in elapsed-time questions. What targeted follow-up is most relevant?",
+          "options": [
+            "Mark the starting and final times and solve a changed timeline",
+            "Memorize the option letter",
+            "Remove time units to simplify the question",
+            "Stop checking the time origin"
+          ],
+          "answer": 0,
+          "option_rationales": [
+            "Correct: a timeline makes the time origin and total interval explicit.",
+            "The option letter does not teach the method.",
+            "Units are essential for time comparison.",
+            "The time origin is necessary for the total interval."
+          ],
+          "sources": [
+            "https://www.fda.gov/media/194741/download"
+          ]
+        }
+      ],
+      "review": [
+        "Review the actual remaining notes from Day 33 or mark them pending; do not assume they exist.",
+        "Select one sustainable next action for Day 36 and one topic to revisit with a changed-fact case.",
+        "Record any source conflict for checking; do not treat this review as an official score."
+      ],
+      "sources": [
+        "https://www.cdrnet.org/rd-handbook",
+        "https://admin.cdrnet.org/vault/2459/web/1459973360990/Study%20Outline%202022-2026%20RD%20Final%20EP%20Approved%209%2026%202020.pdf",
+        "https://foodbuyingguide.fns.usda.gov/Appendix/ResourceAppendixB",
+        "https://www.fda.gov/media/194741/download",
+        "https://learningcenter.unc.edu/tips-and-tools/strategic-test-prep/",
+        "https://learningcenter.unc.edu/tips-and-tools/metacognitive-study-strategies/"
+      ]
     }
   ]
 }
